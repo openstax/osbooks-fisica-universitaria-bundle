@@ -1,0 +1,309 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Modos normales de una onda sonora estacionaria</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90713</md:content-id>
+  <md:title>Modos normales de una onda sonora estacionaria</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar el mecanismo de auriculares que reducen el sonido.</item>
+<item>Describir la resonancia en un tubo cerrado en un extremo y abierto por el otro.</item>
+<item>Describir la resonancia en un tubo abierto en ambos extremos.</item>
+</list></md:abstract>
+  <md:uuid>df9355b4-bd0b-4153-bc65-97a043b9ca2f</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165039115780">La interferencia es el sello distintivo de las ondas, todas las cuales presentan una interferencia constructiva y una destructiva exactamente análogas a la que se observa en las ondas acuáticas. De hecho, una forma de demostrar que algo “es una onda” es observar efectos de interferencia. Como el sonido es una onda, es de esperar que presente interferencias.</para>
+<section id="fs-id1165039109735">
+<title>Interferencia de las ondas sonoras</title>
+<para id="fs-id1165039124159">En la sección <link document="m90703">Ondas</link> hablamos de la interferencia de funciones de onda que solo difieren en un deslizamiento de fase. Hallamos que la función de onda resultante de la superposición de <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> es</para>
+<equation id="fs-id1165039093143" class="unnumbered"><label/><m:math><m:mrow><m:mi>y</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>2</m:mn><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>ϕ</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>ϕ</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039448121">Una forma de que dos ondas idénticas que inicialmente están en fase se desfasen entre sí es que las ondas recorran distancias diferentes; es decir, que tengan longitudes del trayecto diferentes. Las ondas sonoras constituyen un excelente ejemplo de deslizamiento de fase debido a una diferencia de trayectoria. Como hemos comentado, las ondas sonoras se pueden modelar básicamente como ondas longitudinales, en las que las moléculas del medio oscilan alrededor de una posición de equilibrio, o como ondas de presión.</para>
+<para id="fs-id1165039302539">Cuando las ondas salen de los altavoces, lo hacen en forma de ondas esféricas (<link target-id="CNX_UPhysics_17_04_SpeakInt"/>). Las ondas interfieren; la inferencia constructiva se produce por la combinación de dos crestas o dos depresiones, como se muestra. La interferencia destructiva se produce por la combinación de una depresión y una cresta.</para>
+<figure id="CNX_UPhysics_17_04_SpeakInt">
+<media id="fs-id1165039445140" alt="Dibujo de dos altavoces que actúan como fuentes de ondas sonoras de la misma frecuencia. Se muestran los puntos de alta intensidad del sonido que se generan de la superposición de dos crestas (compresión) o dos depresiones (rarefacción). Además, se indican puntos de interferencia constructiva.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_SpeakInt.jpg"/>
+</media>
+<caption>Cuando las ondas sonoras son producidas por un altavoz, se desplazan a la velocidad del sonido y se mueven hacia fuera como ondas esféricas. En este caso, dos altavoces producen el mismo tono constante (frecuencia). El resultado son puntos de alta intensidad de sonido (resaltados), que resultan de la superposición de dos crestas (compresión) o dos depresiones (rarefacción). La interferencia destructiva se genera por la superposición de una cresta y una depresión. Los puntos donde hay interferencia constructiva en la figura se producen porque las dos ondas están en fase en esos puntos. Los puntos de interferencia destructiva (<link target-id="CNX_UPhysics_17_04_SpeakInt2"/>) son el resultado de que las dos ondas estén desfasadas.</caption>
+</figure>
+<figure id="CNX_UPhysics_17_04_SpeakInt2">
+<media id="fs-id1165039510564" alt="La imagen superior es un dibujo de dos altavoces accionados por un único generador de señales. Las ondas sonoras producidas por los altavoces están en fase y son de una sola frecuencia. La interferencia constructiva está marcada por los puntos rojos y azules, la interferencia destructiva está marcada por puntos negros. La figura A corresponde a la situación en la que la diferencia de longitudes del trayecto es de una longitud de onda, lo que genera una interferencia constructiva total y una amplitud resultante igual al doble de la amplitud original.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_SpeakInt2.jpg"/>
+</media>
+<caption>Dos altavoces accionados por un solo generador de señales. Las ondas sonoras producidas por los altavoces están en fase y son de una sola frecuencia. Las ondas sonoras interfieren entre sí. Cuando dos crestas o dos depresiones coinciden se produce una interferencia constructiva, marcada con los puntos rojos y azules. Cuando una depresión y una cresta coinciden se produce una interferencia destructiva, marcada con puntos negros. La diferencia de fase se debe a las longitudes del trayecto recorridas por cada una de las ondas. Dos ondas idénticas recorren dos longitudes del trayecto diferentes hasta un punto <emphasis effect="italics">P</emphasis>. (a) La diferencia en las longitudes del trayecto es de una longitud de onda, lo que genera una interferencia constructiva total y una amplitud resultante igual al doble de la amplitud original. (b) La diferencia en las longitudes del trayecto es menor que una longitud de onda, pero mayor que media longitud de onda, lo que ocasiona una amplitud mayor que cero y menor que el doble de la amplitud original. (c) La diferencia en las longitudes del trayecto es de media longitud de onda, lo que genera una interferencia destructiva total y una amplitud resultante de cero.</caption>
+</figure>
+<para id="fs-id1165039106401">La diferencia de fase en cada punto se debe a las diferentes longitudes del trayecto recorridas por cada onda. Cuando la diferencia de longitudes del trayecto es un múltiplo entero de una longitud de onda,</para>
+<equation id="fs-id1165039422766" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>r</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>λ</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>donde</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mtext>,…,</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165039195192">las ondas están en fase y hay interferencia constructiva. Cuando la diferencia de longitudes del trayecto es un múltiplo impar de media longitud de onda,</para>
+<equation id="fs-id1165039187199" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>r</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac><m:mi>λ</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>donde</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mtext>,…,</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165039073932">las ondas están <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> fuera de fase y el resultado es una interferencia destructiva. Estos puntos se pueden localizar con un medidor de intensidad del sonido.</para>
+<example id="fs-id1165039086446">
+<para id="fs-id1165039052066"><title>Interferencia de las ondas sonoras</title>
+Dos altavoces tienen una separación de 5,00 m y son accionados por un generador de señales a una frecuencia desconocida. Un estudiante con un medidor de sonido recorre 6,00 m y baja 2,00 m y halla la primera intensidad mínima, como se muestra a continuación. ¿Cuál es la frecuencia suministrada por el generador de señales? Suponga que la rapidez de onda del sonido es <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>343,00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<media id="fs-id1165035635203" alt="La imagen es un dibujo de dos altavoces colocados a 5 metros de distancia que son accionados por un solo generador de señal. Las ondas sonoras producidas por los altavoces se juntan en el punto que está a 6 metros del altavoz superior y a 2 metros por debajo de él. La distancia del altavoz superior al punto es r1; la distancia del altavoz inferior al punto es r2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Ex160501.jpg"/>
+</media>
+<para id="fs-id1165039297484"><title>Estrategia</title>
+La velocidad de la onda es igual a <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>λ</m:mi><m:mi>T</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>λ</m:mi><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow></m:math> La frecuencia es entonces <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>λ</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Una intensidad mínima indica una interferencia destructiva, y el primer punto de este tipo se produce cuando hay una diferencia de trayectoria de <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>λ</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> lo cual se puede calcular a partir de la geometría.</para>
+<para id="fs-id1165039090123"><title>Solución</title></para>
+<list id="fs-id1165039080129" list-type="enumerated" number-style="arabic">
+<item>Calcule la longitud del trayecto hasta el punto mínimo desde cada altavoz<newline/>
+<media id="fs-id1165039349554" alt="La imagen muestra un triángulo con dos lados de r1 y 2. La altura de un triángulo es de 6 metros. La altura de la base del triángulo divide la base en dos partes de 2 y 3 metros de longitud.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Ex160501An_img.jpg"/>
+</media>
+<equation id="fs-id1165039123489" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>6,32</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>6,71</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></equation>
+</item>
+<item>Use la diferencia en la longitud del trayecto para calcular la longitud de onda.
+<equation id="fs-id1165039271472" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>r</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>6,71</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>–</m:mo><m:mn>6,32</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0,39</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></equation>
+<equation id="fs-id1165039115536" class="unnumbered"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext>Δ</m:mtext><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,39</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0,78</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></equation>
+</item>
+<item>Calcule la frecuencia.
+<equation id="fs-id1165035651051" class="unnumbered"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>343,00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>0,78</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>439,74</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:math></equation>
+</item>
+</list>
+<para id="fs-id1165039003298"><title>Importancia</title>
+Si el punto <emphasis effect="italics">P</emphasis> fuera un punto de máxima intensidad, entonces la longitud del trayecto sería un múltiplo entero de la longitud de onda.</para>
+</example>
+<note id="fs-id1165039426433" class="check-understanding">
+<exercise id="fs-id1165039088286">
+<problem id="fs-id1165039297371">
+<para id="fs-id1165039119204"> Si camina alrededor de dos altavoces que reproducen música, ¿cómo no se percata de los lugares donde la música está muy alta o muy baja, es decir, donde hay interferencias constructivas y destructivas?</para>
+</problem>
+<solution id="fs-id1165039108271">
+<para id="fs-id1165039078377">En el ejemplo, los dos altavoces producían sonido a una sola frecuencia. La música tiene varias frecuencias y longitudes de onda.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165039398235">El concepto de deslizamiento de fase debido a una diferencia en la longitud del trayecto es muy importante. Este concepto lo volverá a usar en las secciones <link document="m58536">Interferencia</link> y <link document="m58757">Fotones y ondas de materia</link>, en las cuales se analiza cómo Thomas Young puso en práctica este método en su famoso experimento de la doble rendija para demostrar que la luz tiene propiedades ondulatorias.</para>
+</section>
+<section id="fs-id1165038994178">
+<title>Reducción de ruido mediante interferencia destructiva</title>
+<para id="fs-id1165039108577">La <link target-id="CNX_UPhysics_17_04_HPDesign"/> muestra un uso inteligente de la interferencia de sonido para anular el ruido. Se han propuesto aplicaciones a mayor escala de <term class="no-emphasis">reducción de ruido</term> activa por interferencia destructiva para compartimentos enteros de pasajeros en aviones comerciales. Para obtener interferencia destructiva, se hace un análisis electrónico rápido y se introduce un segundo sonido <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> fuera de fase con el sonido original, con sus máximos y mínimos exactamente invertidos con respecto al ruido entrante. Las ondas sonoras en los fluidos son ondas de presión y son coherentes con el principio de Pascal; es decir, las presiones de dos fuentes diferentes se suman y restan como números simples. Por lo tanto, las presiones manométricas positivas y negativas se suman a una presión mucho menor, lo que produce un sonido de menor intensidad. Aunque la interferencia destructiva por completo solo es posible en las condiciones más sencillas, es posible reducir los niveles de ruido en 30 dB o más a través de esta técnica.</para>
+<figure id="CNX_UPhysics_17_04_HPDesign">
+<media id="fs-id1165039079396" alt="La imagen superior es un dibujo del auricular que consiste en un altavoz rodeado por el circuito de cancelación de ruido y un micrófono al lado. La imagen inferior muestra una onda sinusoidal del ruido entrante que se superpone destructivamente con la segunda onda sonora, lo que provoca el silencio.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_HPDesign.jpg"/>
+</media>
+<caption>Los auriculares diseñados para anular el ruido con interferencia destructiva crean una onda sonora exactamente opuesta al sonido entrante. Estos auriculares pueden ser más eficaces que la simple atenuación pasiva utilizada en la mayoría de las protecciones auditivas. Tales auriculares se usaron en el vuelo sin escalas alrededor del mundo de la aeronave <emphasis effect="italics">Voyager</emphasis>, que batió el récord mundial en 1986, para proteger los oídos de los pilotos del ruido del motor.</caption>
+</figure>
+<note id="fs-id1165039270571" class="check-understanding">
+<exercise id="fs-id1165039072188">
+<problem id="fs-id1165039084283">
+<para id="fs-id1165039119181"> Describa en qué se diferencian los auriculares con cancelación de ruido de los estándar que se usan para bloquear sonidos exteriores.</para>
+</problem>
+<solution id="fs-id1165039111305">
+<para id="fs-id1165038974677">Los auriculares regulares solo bloquean las ondas sonoras con una barrera física. Los auriculares con cancelación de ruido utilizan interferencia destructiva para reducir el volumen de sonidos exteriores.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165035634536">¿Dónde más podemos observar interferencias de sonido? Todas las resonancias de sonido, como las de los instrumentos musicales, se deben a interferencias constructivas y destructivas. Solo las frecuencias de resonancia interfieren constructivamente para formar ondas estacionarias, mientras que otras interfieren destructivamente y están ausentes.</para>
+</section>
+<section id="fs-id1165039454380">
+<title>Resonancia en un tubo cerrado en un extremo</title>
+<para id="fs-id1165039419225">Como ya comentamos en la sección <link document="m90703">Ondas</link>, las <term class="no-emphasis"><emphasis effect="italics">ondas estacionarias</emphasis></term> están formadas por dos ondas que se mueven en direcciones opuestas. Cuando dos ondas sinusoidales idénticas se mueven en direcciones opuestas, las ondas se pueden modelar como</para>
+<equation id="fs-id1165035709978" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039276503">Cuando estas dos ondas interfieren, la onda resultante es una onda estacionaria:</para>
+<equation id="fs-id1165039315151" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mtext>R</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>2</m:mn><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039087188">La <term class="no-emphasis">resonancia</term> se puede producir debido a las condiciones de frontera impuestas a una onda. En la sección <link document="m90703">Ondas</link>, demostramos que la resonancia se podía producir en una cuerda en tensión que tenía condiciones de frontera simétricas, concretamente, un nodo en cada extremo. Definimos un nodo como un punto fijo en el que la cuerda no se ha movido. Descubrimos que las condiciones de frontera simétricas hacían que algunas frecuencias resonaran y produjeran ondas estacionarias, mientras que otras frecuencias interferían destructivamente. Las ondas sonoras pueden resonar en un tubo hueco, y las frecuencias de las ondas sonoras que resuenan dependen de las condiciones de frontera.</para>
+<para id="fs-id1165039482230">Suponga que tenemos un tubo cerrado en un extremo y abierto en el otro. Si sostenemos un <term class="no-emphasis">diapasón</term> vibrante cerca del extremo abierto del tubo, una onda sonora incidente se desplaza a través del tubo y se refleja en el extremo cerrado. El sonido reflejado tiene la misma frecuencia y la misma longitud de onda que la onda sonora incidente, pero se desplaza en dirección opuesta. En el extremo cerrado del tubo, las moléculas de aire tienen muy poca libertad para oscilar y se produce un nodo. En el extremo abierto, las moléculas son libres de moverse y, a la frecuencia adecuada, se produce un antinodo. A diferencia de las condiciones de frontera simétricas para las ondas estacionarias en la cuerda, las condiciones de frontera para un tubo abierto en un extremo y cerrado en el otro son antisimétricas: un nodo en el extremo cerrado y un antinodo en el extremo abierto.</para>
+<para id="fs-id1165039107955">Si el diapasón tiene la frecuencia adecuada, la columna de aire del tubo resuena con fuerza, pero en la mayoría de las frecuencias vibra muy poco. Esta observación solo significa que la columna de aire tiene ciertas frecuencias naturales únicamente. Considere la frecuencia más baja que hará que el tubo resuene y produzca un sonido fuerte. Habrá un nodo en el extremo cerrado y un antinodo en el extremo abierto, como se muestra en la <link target-id="CNX_UPhysics_17_04_Fork"/>.</para>
+<figure id="CNX_UPhysics_17_04_Fork">
+<media id="fs-id1165039412832" alt="La imagen muestra la resonancia del aire en un tubo cerrado en un extremo. Hay un desplazamiento máximo en el extremo cerrado y ningún desplazamiento en el extremo abierto. La resonancia la provoca un diapasón colocado junto al tubo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Fork.jpg"/>
+</media>
+<caption>Resonancia de aire en un tubo cerrado en un extremo causada por un diapasón que vibra a la frecuencia más baja que puede producir resonancia (la frecuencia fundamental). Existe un nodo en el extremo cerrado y un antinodo en el extremo abierto.</caption>
+</figure>
+<para id="fs-id1165038974738">La onda estacionaria formada en el tubo tiene un antinodo en el extremo abierto y un nodo en el extremo cerrado. La distancia de un nodo a un antinodo es un cuarto de la longitud de onda, y esta es igual a la longitud del tubo; por lo tanto, <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>L</m:mi><m:mo>.</m:mo></m:mrow></m:math> Esta misma resonancia la puede producir una vibración introducida en o cerca del extremo cerrado del tubo (<link target-id="CNX_UPhysics_17_04_Tube"/>). Lo mejor es considerar que se trata de una vibración natural de la columna de aire, independientemente de cómo se introduzca.</para>
+<figure id="CNX_UPhysics_17_04_Tube">
+<media id="fs-id1165039272793" alt="La imagen es un diagrama de la onda estacionaria que se crea en el tubo por una vibración introducida cerca de su extremo cerrado. La onda estacionaria tiene tres cuartas partes de su longitud de onda en el tubo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Tube.jpg"/>
+</media>
+<caption>La misma onda estacionaria se crea en el tubo mediante una vibración introducida cerca de su extremo cerrado.</caption>
+</figure>
+
+<para id="fs-id1165038973832">Dado que los desplazamientos máximos de aire son posibles en el extremo abierto y ninguno en el cerrado, pueden resonar en el tubo otras longitudes de onda más cortas, como la que se muestra en la <link target-id="CNX_UPhysics_17_04_Tube2"/>. Aquí la onda estacionaria tiene tres cuartas partes de su longitud de onda en el tubo, o <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:msub><m:mi>λ</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mo>,</m:mo></m:mrow></m:math> por lo que <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>L</m:mi><m:mo>.</m:mo></m:mrow></m:math> Continuando con este proceso, se obtiene toda una serie de sonidos de menor longitud de onda y mayor frecuencia que resuenan en el tubo. Utilizamos términos específicos para las resonancias de cualquier sistema. La frecuencia de resonancia más baja se llama <term>fundamental</term>, mientras que todas las frecuencias de resonancia más altas se llaman <term>sobretonos</term>. Las frecuencias de resonancia que son múltiplos integrales de la fundamental se denominan colectivamente <term>armónicos</term>. La fundamental es el primer armónico, el segundo armónico es el doble de la frecuencia del primer armónico y así sucesivamente. Es posible que algunos de estos armónicos no existan para un escenario determinado. La <link target-id="CNX_UPhysics_17_04_Tube3"/> muestra la fundamental y los tres primeros sobretonos (o los armónicos primero, tercero, quinto y séptimo) en un tubo cerrado en un extremo.</para><figure id="CNX_UPhysics_17_04_Tube2">
+<media id="fs-id1165039512958" alt="La imagen es un diagrama de la resonancia para un tubo cerrado en un extremo. La onda estacionaria tiene el máximo desplazamiento de aire en el extremo abierto y ninguno en el extremo cerrado. La onda estacionaria tiene tres cuartas partes de su longitud de onda en el tubo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Tube2.jpg"/>
+</media>
+<caption>Otra resonancia para un tubo cerrado en un extremo. Esta onda estacionaria tiene el máximo desplazamiento de aire en el extremo abierto y ninguno en el extremo cerrado. La longitud de onda es más corta, con tres cuartos <m:math><m:mrow><m:mi>λ</m:mi><m:mo>′</m:mo></m:mrow></m:math> igualando la longitud del tubo, por lo que <m:math><m:mrow><m:mi>λ</m:mi><m:mo>′</m:mo><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math>. Esta vibración de mayor frecuencia es el primer sobretono.</caption>
+</figure>
+<figure id="CNX_UPhysics_17_04_Tube3">
+<media id="fs-id1165039105059" alt="La imagen es un diagrama de la fundamental y de tres sobretonos más bajos para un tubo cerrado en un extremo. La fundamental tiene una cuarta parte de su longitud de onda en un tubo. El primer sobretono tiene tres cuartos de su longitud de onda en un tubo, el segundo, tiene cinco cuartos y el tercero tiene siete cuartos. Todos tienen desplazamientos máximos de aire en el extremo abierto y ninguno en el extremo cerrado.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Tube3.jpg"/>
+</media>
+<caption>La fundamental y los tres sobretonos más bajos de un tubo cerrado en un extremo. Todos tienen desplazamientos máximos de aire en el extremo abierto y ninguno en el extremo cerrado.</caption>
+</figure>
+<para id="fs-id1165039328687">La relación para las longitudes de onda resonantes de un tubo cerrado en un extremo es</para>
+<note id="fs-id1165039066504" class="equation-callout">
+<equation id="fs-id1165039098927"><label/><m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mi>n</m:mi></m:mfrac><m:mi>L</m:mi><m:mspace width="0.5em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>..</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039298243">Ahora, busquemos un patrón en las frecuencias de resonancia para un tubo simple que está cerrado en un extremo. La fundamental tiene <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>L</m:mi><m:mo>,</m:mo></m:mrow></m:math> y la frecuencia se relaciona con la longitud de onda y la velocidad del sonido según</para>
+<para id="fs-id1165039124360"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mi>λ</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1165035686979">Si se resuelve <emphasis effect="italics">f</emphasis> en esta ecuación se obtiene</para>
+<equation id="fs-id1165039248879" class="unnumbered"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039336738">donde <emphasis effect="italics">v</emphasis> es la velocidad del sonido en el aire. Del mismo modo, el primer sobretono tiene <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math> (vea la <link target-id="CNX_UPhysics_17_04_Tube3"/>), por lo que</para>
+<equation id="fs-id1165035733233" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3</m:mn><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039346339">Porque <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> llamamos al primer sobretono el tercer armónico. Siguiendo este proceso, vemos un patrón que puede generalizarse en una expresión única. Las frecuencias de resonancia de un tubo cerrado en un extremo son</para>
+<note id="fs-id1165035645591" class="equation-callout">
+<equation id="fs-id1165039448025"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039110977">donde <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es la fundamental, <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> es el primer sobretono y así sucesivamente. Es interesante que las frecuencias de resonancia dependan de la velocidad del sonido y, por tanto, de la temperatura. Esta relación supone un problema notable para los órganos de las antiguas catedrales sin calefacción, y es también lo que justifica que los músicos suelen poner sus instrumentos de viento a temperatura ambiente antes de tocarlos.</para>
+</section>
+<section id="fs-id1165039290155">
+<title>Resonancia en un tubo abierto en ambos extremos</title>
+<para id="fs-id1165039257375">Otra fuente de ondas estacionarias es un tubo abierto en ambos extremos. En este caso, las condiciones de frontera son simétricas: un antinodo en cada extremo. Las resonancias de los tubos abiertos en ambos extremos se pueden analizar de forma muy similar a las de los tubos cerrados en un extremo. Las columnas de aire en tubos abiertos en ambos extremos tienen desplazamientos máximos de aire en ambos extremos (<link target-id="CNX_UPhysics_17_04_Tube4"/>). Las ondas estacionarias se forman como se muestra.</para>
+<figure id="CNX_UPhysics_17_04_Tube4">
+<media id="fs-id1165038975896" alt="La imagen es un diagrama de la fundamental y de tres sobretonos más bajos para un tubo cerrado en un extremo. La fundamental tiene la mitad de su longitud de onda en un tubo. El primer sobretono tiene una de su longitud de onda en un tubo, el segundo sobretono tiene una y media de su longitud de onda en un tubo, el tercer sobretono tiene dos de su longitudes de onda en un tubo. Todos tienen desplazamientos de aire máximos en ambos extremos de un tubo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_17_04_Tube4.jpg"/>
+</media>
+<caption>Las frecuencias de resonancia de un tubo abierto en ambos extremos, incluso la fundamental y los tres primeros sobretonos. En todos los casos, los desplazamientos máximos de aire se producen en ambos extremos del tubo, lo que le confiere frecuencias naturales diferentes a las de un tubo cerrado en un extremo.</caption>
+</figure>
+<para id="fs-id1165039044607">La relación para las longitudes de onda resonantes de un tubo abierto en ambos extremos es</para>
+<note id="fs-id1165039051755" class="equation-callout">
+<equation id="fs-id1165039103925"><label/><m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>n</m:mi></m:mfrac><m:mi>L</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mtext>,...</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039464215">Basándonos en el hecho de que un tubo abierto en ambos extremos tiene desplazamientos máximos de aire en ambos extremos, y al usar la <link target-id="CNX_UPhysics_17_04_Tube4"/> como guía podemos ver que las frecuencias de resonancia de un tubo abierto en ambos extremos son</para>
+<note id="fs-id1165039110965" class="equation-callout">
+<equation id="fs-id1165035678125"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mfrac><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3...</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039108636">donde <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es la fundamental, <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es el primer sobretono, <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> es el segundo sobretono y así sucesivamente. Observe que un tubo abierto en ambos extremos tiene una frecuencia fundamental doble de la que tendría si estuviera cerrado en un extremo. También tiene un espectro de sobretonos diferente al de un tubo cerrado en un extremo.</para>
+<para id="fs-id1165039483547">Observe que un tubo abierto en ambos extremos tiene condiciones de frontera simétricas, similares a las de la cuerda fijada en ambos extremos de la que hablamos en la sección <link document="m90703">Ondas</link>. Las relaciones para las longitudes de onda y las frecuencias de un instrumento de cuerda son las mismas que se dan en la <link target-id="fs-id1165039103925"/> y la <link target-id="fs-id1165035678125"/>. La velocidad de la onda en la cuerda (de la sección <link document="m90703">Ondas</link>) es <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> El aire que rodea la cuerda vibra a la misma frecuencia que esta, lo que produce un sonido de la misma frecuencia. La onda sonora se mueve a la velocidad del sonido y la longitud de onda se puede calcular mediante <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>λ</m:mi><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1165035676619" class="check-understanding">
+<exercise id="fs-id1165039110152">
+<problem id="fs-id1165038978258">
+<para id="fs-id1165039466243"> ¿Cómo es posible utilizar el nodo y el antinodo de una onda estacionaria para determinar la longitud de un tubo cerrado en un extremo?</para>
+</problem>
+<solution id="fs-id1165039463928">
+<para id="fs-id1165039334881">Cuando el tubo resuena a su frecuencia natural, el nodo de la onda se sitúa en el extremo cerrado del tubo y el antinodo en el extremo abierto. La longitud del tubo es igual a un cuarto de la longitud de onda de esta onda. Así, si conocemos la longitud de onda de la onda, podemos determinar la longitud del tubo.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1165039045771" class="media-2">
+<para id="fs-id1165039111695">En este <link url="https://openstax.org/l/21soundwaves">video</link> podrá visualizar ondas sonoras.</para>
+</note>
+<note id="fs-id1165039112923" class="check-understanding">
+<exercise id="fs-id1165039005492">
+<problem id="fs-id1165039426452">
+<para id="fs-id1165039112563"> Observe dos instrumentos musicales que no puede identificar. Uno reproduce sonidos agudos y el otro sonidos graves. ¿Cómo podría determinar cuál es cuál sin escuchar el sonido que emiten?</para>
+</problem>
+<solution id="fs-id1165039454657">
+<para id="fs-id1165039123072">Compare sus tamaños. Los instrumentos de tono agudo suelen ser más pequeños que los de tono grave porque generan una longitud de onda menor.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1165039090372" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1165039315644" list-type="bulleted" bullet-style="bullet">
+<item>El sonido no deseado se puede reducir mediante interferencia destructiva.</item>
+<item>El sonido tiene las mismas propiedades de interferencia y resonancia definidas para todas las ondas.</item>
+<item>En las columnas de aire, la resonancia de frecuencia más baja se denomina fundamental, mientras que todas las frecuencias de resonancia más altas se denominan sobretonos. En conjunto, se denominan armónicos.</item>
+</list>
+</section>
+<section id="fs-id1165035719532" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1165039112298">
+<problem id="fs-id1165039295857">
+<para id="fs-id1165039284905">Le dan dos instrumentos de viento de idéntica longitud. Uno de ellos está abierto en ambos extremos, mientras que el otro está cerrado en un extremo. ¿Cuál es capaz de producir la frecuencia más baja?</para>
+</problem>
+<solution id="fs-id1165039454608">
+<para id="fs-id1165039391225">La longitud de onda fundamental de un tubo abierto por cada extremo es de 2<emphasis effect="italics">L</emphasis>, mientras que la longitud de onda de un tubo abierto en un extremo y cerrado por otro es de 4<emphasis effect="italics">L</emphasis>. El tubo abierto en un extremo tiene la frecuencia fundamental más baja, suponiendo que la velocidad del sonido es la misma en ambos tubos.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039054649">
+<problem id="fs-id1165039232521">
+<para id="fs-id1165035671900">¿Cuál es la diferencia entre un sobretono y un armónico? ¿Todos los armónicos son sobretonos? ¿Todos los sobretonos son armónicos?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039288240">
+<problem id="fs-id1165039302285">
+<para id="fs-id1165038979849">Dos columnas idénticas abiertas en ambos extremos se encuentran en habitaciones separadas. En la habitación <emphasis effect="italics">A</emphasis>, la temperatura es <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y en la habitación <emphasis effect="italics">B</emphasis>, la temperatura es <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>25</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. En el extremo de cada tubo se conecta un altavoz que hace que los tubos resuenen a la frecuencia fundamental. ¿La frecuencia es la misma para ambos tubos? ¿Cuál es la frecuencia más alta?</para>
+</problem>
+<solution id="fs-id1165039295509">
+<para id="fs-id1165039087903">La longitud de onda en cada uno es el doble de la longitud del tubo. La frecuencia depende de la longitud de onda y de la rapidez de las ondas sonoras. La frecuencia en la habitación <emphasis effect="italics">B</emphasis> es mayor porque la velocidad del sonido es mayor donde la temperatura es más alta.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1165039370885" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1165039299082">
+<problem id="fs-id1165039326294">
+<para id="fs-id1165039421501">(a) ¿Cuál es la frecuencia fundamental de un tubo de 0,672 m de longitud abierto en ambos extremos un día en que la velocidad del sonido es de 344 m/s? (b) ¿Cuál es la frecuencia de su segundo armónico?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039302309">
+<problem id="fs-id1165035615208">
+<para id="fs-id1165039384720">¿Cuál es la longitud de un tubo que tiene una frecuencia fundamental de 176 Hz y un primer sobretono de 352 Hz si la velocidad del sonido es de 343 m/s?</para>
+</problem>
+<solution id="fs-id1165039392029">
+<para id="fs-id1165039079351">0,974 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038961287">
+<problem id="fs-id1165039305782">
+<para id="fs-id1165039263700">El canal auditivo resuena como un tubo cerrado en un extremo. Si la longitud de los canales auditivos oscila entre 1,80 y 2,60 cm en una población promedio, ¿cuál es el rango de frecuencias fundamentales de resonancia? Tome la temperatura del aire para que sea <m:math><m:mrow><m:mn>37,0</m:mn><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> que es lo mismo que la temperatura corporal.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035616312">
+<problem id="fs-id1165039312661">
+<para id="fs-id1165039045472">Calcule el primer sobretono en un canal auditivo, que resuena como un tubo de 2,40 cm de longitud cerrado en un extremo, tomando como temperatura del aire <m:math><m:mrow><m:mn>37,0</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. ¿El oído es especialmente sensible a esa frecuencia? (Las resonancias del canal auditivo se complican por su forma no uniforme, lo cual ignoraremos).</para>
+</problem>
+<solution id="fs-id1165039440515">
+<para id="fs-id1165039425561">11,0 kHz; El oído no es especialmente sensible a esta frecuencia, por lo que no oímos sobretonos debido al canal auditivo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035618576">
+<problem id="fs-id1165035610642">
+<para id="fs-id1165039333575">Una aproximación burda a la producción de la voz es considerar que los conductos respiratorios y la boca son un tubo resonante cerrado en un extremo. (a) ¿Cuál es la frecuencia fundamental si el tubo tiene una longitud de 0,240 m, considerando que la temperatura del aire es <m:math><m:mrow><m:mn>37,0</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (b) ¿En qué se convertiría esta frecuencia si la persona sustituyera el aire por helio? Suponga la misma dependencia de la temperatura para el helio que para el aire.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039076126">
+<problem id="fs-id1165035669542">
+<para id="fs-id1165039341560">Un tubo de 4,0 m de longitud abierto en un extremo y cerrado en el otro se encuentra en una habitación donde la temperatura es <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>22</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Se coloca un altavoz capaz de producir frecuencias variables en el extremo abierto y se utiliza para hacer resonar el tubo. (a) ¿Cuál es la longitud de onda y la frecuencia de la frecuencia fundamental? (b) ¿Cuál es la frecuencia y la longitud de onda del primer sobretono?</para>
+</problem>
+<solution id="fs-id1165039512488">
+<para id="fs-id1165039306804">a. <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>344,08</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>λ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>16,00</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>21,51</m:mn><m:mspace width="0.2em"/><m:mtext>Hz;</m:mtext></m:mrow></m:math><newline/> b. <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>5,33</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>64,56</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039105168">
+<problem id="fs-id1165035742651">
+<para id="fs-id1165039050583">Un tubo de 4,0 m de longitud abierto en ambos extremos se coloca en una habitación donde la temperatura es <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>25</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Se coloca un altavoz capaz de producir frecuencias variables en el extremo abierto y se utiliza para hacer resonar el tubo. (a) ¿Cuáles son la longitud de onda y la frecuencia fundamental? (b) ¿Cuáles son la frecuencia y la longitud de onda del primer sobretono?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039086014">
+<problem id="fs-id1165039075835">
+<para id="fs-id1165035614301">Una cuerda de guitarra de nailon se fija entre dos postes de laboratorio con 2,00 m de separación. La cuerda tiene una densidad lineal de masa de <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>7,20</m:mn><m:mspace width="0.2em"/><m:mtext>g/m</m:mtext></m:mrow></m:math> y se coloca con una tensión de 160,00 N. La cuerda se coloca junto a un tubo abierto en ambos extremos de longitud <emphasis effect="italics">L</emphasis>. La cuerda se puntea y el tubo resuena en el modo <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>. La velocidad del sonido es de 343 m/s. ¿Cuál es la longitud del tubo?</para>
+</problem>
+<solution id="fs-id1165038998068">
+<para id="fs-id1165039016135"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>cuerda</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>149,07</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>λ</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,33</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>f</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>112,08</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>λ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>1,53</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039367998">
+<problem id="fs-id1165039368000">
+<para id="fs-id1165039266854">Se golpea un diapasón de 512 Hz y se coloca junto a un tubo con un pistón móvil, lo que crea un tubo de longitud variable. El pistón se desliza por el tubo y la resonancia se alcanza cuando el pistón está a 115,50 cm del extremo abierto. La siguiente resonancia se alcanza cuando el pistón está a 82,50 cm del extremo abierto. (a) ¿Cuál es la velocidad del sonido en el tubo? (b) ¿A qué distancia del extremo abierto el pistón provocará el siguiente modo de resonancia?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039276789">
+<problem id="fs-id1165039107265">
+<para id="fs-id1165039107267">En un laboratorio de física se les pide a los estudiantes que calculen la longitud de una columna de aire en un tubo cerrado en un extremo que tiene una frecuencia fundamental de 256 Hz. Sostienen el tubo verticalmente y lo llenan de agua hasta arriba, luego el agua baja mientras se hace sonar un diapasón de 256 Hz y escuchan la primera resonancia. (a) ¿Cuál es la temperatura del aire si la resonancia se produce para una longitud de 0,336 m? (b) ¿A qué longitud observarán la segunda resonancia (primer sobretono)?</para>
+</problem>
+<solution id="fs-id1165039269401">
+<para id="fs-id1165039020892">a. <m:math><m:mrow><m:mn>22,0</m:mn><m:mtext>°C</m:mtext></m:mrow></m:math>; b. 1,01 m</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165039353779">
+<term>fundamental</term>
+<meaning id="fs-id1165035634488">la resonancia de frecuencia más baja</meaning>
+</definition>
+<definition id="fs-id1165035638490">
+<term>armónicos</term>
+<meaning id="fs-id1165039107239">el término utilizado para referirse colectivamente a la fundamental y a sus sobretonos</meaning>
+</definition>
+<definition id="fs-id1165039123159">
+<term>sobretonos</term>
+<meaning id="fs-id1165038989750">todas las frecuencias de resonancia más altas que la fundamental</meaning>
+</definition>
+</glossary>
+</document>

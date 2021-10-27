@@ -1,0 +1,274 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Explicar la ley de Gauss</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90871</md:content-id>
+  <md:title>Explicar la ley de Gauss</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Enunciar la ley de Gauss.</item>
+<item>Explicar las condiciones en las que se puede utilizar la ley de Gauss.</item>
+<item>Aplicar la ley de Gauss en sistemas adecuados.</item></list></md:abstract>
+  <md:uuid>184c23a0-6ac5-4940-912f-6d3572ebdfaf</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172098591315">Ahora podemos determinar el flujo eléctrico a través de una superficie cerrada arbitraria debido a una distribución de carga arbitraria. Descubrimos que si una superficie cerrada no tiene ninguna carga en su interior en la que pueda terminar una línea de campo eléctrico, entonces cualquier línea de campo eléctrico que entre en la superficie por un punto debe salir necesariamente por algún otro punto de la superficie. Por lo tanto, si una superficie cerrada no tiene ninguna carga dentro del volumen encerrado, entonces el flujo eléctrico a través de la superficie es cero. Ahora, ¿qué sucede con el flujo eléctrico si hay algunas cargas dentro del volumen encerrado? La ley de Gauss da una respuesta cuantitativa a esta cuestión.</para>
+<para id="fs-id1172098657247">Para hacernos una idea de lo que podemos esperar, calculemos el flujo eléctrico a través de una superficie esférica alrededor de una carga puntual positiva <emphasis effect="italics">q</emphasis>, puesto que ya conocemos el campo eléctrico en tal situación. Recordemos que cuando colocamos la carga puntual en el origen de un sistema de coordenadas, el campo eléctrico en un punto <emphasis effect="italics">P</emphasis> que está a una distancia <emphasis effect="italics">r</emphasis> de la carga en el origen viene dado por</para>
+<equation id="fs-id1172098361596" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1172098405621">donde <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:math> es el vector radial desde la carga en el origen hasta el punto <emphasis effect="italics">P.</emphasis> Podemos utilizar este campo eléctrico para calcular el flujo a través de la superficie esférica de radio <emphasis effect="italics">r</emphasis>, como se muestra en la <link target-id="CNX_UPhysics_23_02_ChargeSphere"/>.</para>
+<figure id="CNX_UPhysics_23_02_ChargeSphere">
+<media id="fs-id1172100754611" alt="Se muestra una esfera marcada como S con radio R. En su centro, hay un pequeño círculo con un signo más, marcado como q. Una pequeña área en la esfera está marcada como dA. Dos flechas apuntan hacia afuera desde aquí, perpendiculares a la superficie de la esfera. La flecha más pequeña está marcada como vector n igual a vector r. La flecha más larga está marcada como vector E.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_ChargeSph.jpg"/>
+</media>
+<caption>Una superficie esférica cerrada que rodea una carga puntual <emphasis effect="italics">q</emphasis>.</caption>
+</figure>
+<para id="fs-id1167742832652">A continuación, aplicamos <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∫</m:mo><m:mi>S</m:mi></m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> a este sistema y sustituimos los valores conocidos. En la esfera, <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> y <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>R</m:mi></m:mrow></m:math>, por lo que para un área infinitesimal <emphasis effect="italics">dA</emphasis>,</para>
+<equation id="fs-id1167740844651" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>E</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098403360">Ahora hallamos el flujo neto integrando este flujo sobre la superficie de la esfera:</para>
+<equation id="fs-id1172098357924" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mspace width="0.2em"/><m:mrow><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mi>q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098695802">donde la superficie total de la superficie esférica es <m:math><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Esto da el flujo a través de la superficie esférica cerrada en el radio <emphasis effect="italics">r</emphasis> como</para>
+<equation id="fs-id1172096017111"><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mi>q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100634386">Un hecho destacable de esta ecuación es que el flujo es independiente del tamaño de la superficie esférica. Esto puede atribuirse directamente al hecho de que el campo eléctrico de una carga puntual disminuye a medida a <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math> con la distancia, lo que simplemente anula la tasa de aumento <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> de la superficie.</para>
+<section id="fs-id1172100724076">
+<title>Imagen de las líneas de campo eléctrico</title>
+<para id="fs-id1172096090448">Una forma alternativa de ver por qué el flujo a través de una superficie esférica cerrada es independiente del radio de la superficie es observar las líneas de campo eléctrico. Observe que cada línea de campo de <emphasis effect="italics">q</emphasis> que perfora la superficie en el radio <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> también perfora la superficie en <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> (<link target-id="CNX_UPhysics_23_02_FluxSurf"/>).</para>
+<figure id="CNX_UPhysics_23_02_FluxSurf">
+<media id="fs-id1172098795568" alt="La figura muestra tres círculos concéntricos. El más pequeño en el centro está marcado como q, el del medio tiene radio R1 y el más grande tiene radio R2. Ocho flechas irradian desde el centro en las ocho direcciones.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_FluxSurf.jpg"/>
+</media>
+<caption>El flujo a través de superficies esféricas de radios <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> que encierran una carga <emphasis effect="italics">q</emphasis> son iguales, independientemente del tamaño de la superficie, ya que todas las líneas de campo <emphasis effect="italics">E</emphasis> que atraviesan una superficie desde la dirección interior a la exterior también atraviesan la otra superficie en la misma dirección.</caption>
+</figure>
+<para id="fs-id1172098685971">Por lo tanto, el número neto de líneas de campo eléctrico que atraviesan las dos superficies desde la dirección interior a la exterior es igual. Este número neto de líneas de campo eléctrico, que se obtiene restando el número de líneas en la dirección de fuera a dentro del número de líneas en la dirección de dentro a fuera, da una medida visual del flujo eléctrico a través de las superficies.</para>
+<para id="fs-id1172098617689">Se puede ver que si no se incluyen cargas dentro de una superficie cerrada, entonces el flujo eléctrico que la atraviesa debe ser cero. Una línea de campo típica entra en la superficie en <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y la deja en <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Toda línea que entre en la superficie debe salir también de ella. Por lo tanto, el "flujo" neto de las líneas de campo hacia o desde la superficie es cero (<link target-id="CNX_UPhysics_23_02_FluxLines"/>(a)). Lo mismo ocurre si se incluyen cargas de signo igual y opuesto en el interior de la superficie cerrada, de modo que la carga total incluida es cero (parte (b)). Una superficie que incluye la misma cantidad de carga tiene el mismo número de líneas de campo que la cruzan, independientemente de la forma o el tamaño de la superficie, siempre que la superficie encierre la misma cantidad de carga (parte (c)).</para>
+<figure id="CNX_UPhysics_23_02_FluxLines">
+<media id="fs-id1172096028560" alt="La figura a muestra una forma tridimensional irregular marcada como S. Un pequeño círculo con un signo más, marcado como q está fuera de ella. Tres flechas marcadas como vector E se originan en q y pasan a través de S. Las áreas donde las flechas perforan la superficie de S están resaltados. El área en el que una flecha entra en la forma está marcada como dA1 y el área en el que la flecha sale de la forma está marcada como dA2. La figura b muestra un óvalo con dos pequeños círculos en su interior. Estos están marcados como más y menos. Tres flechas desde el exterior del óvalo apuntan al círculo marcado como menos. Tres flechas apuntan de más a menos. Tres flechas señalan desde más hasta el exterior del óvalo. La figura c tiene una forma irregular marcada como S2. Dentro de ella hay un círculo llamado S1. En su centro hay un pequeño círculo marcado con un signo más. Seis flechas irradian desde aquí en diferentes direcciones.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_FluxLines.jpg"/>
+</media>
+<caption>Entender el flujo en términos de líneas de campo. (a) El flujo eléctrico a través de una superficie cerrada debido a una carga fuera de esa superficie es cero. (b) Las cargas están encerradas, pero como la carga neta incluida es cero, el flujo neto a través de la superficie cerrada también es cero. (c) La forma y el tamaño de las superficies que encierran una carga no importa porque todas las superficies que encierran la misma carga tienen el mismo flujo.</caption>
+</figure>
+</section>
+<section id="fs-id1172098673604">
+<title>Enunciado de la ley de Gauss</title>
+<para id="fs-id1172098501263">La ley de Gauss generaliza este resultado al caso de cualquier número y cualquier ubicación de cargas en el espacio interior de la superficie cerrada. Según la ley de Gauss, el flujo del campo eléctrico <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> a través de cualquier superficie cerrada, también llamada <term>superficie gaussiana</term>, es igual a la carga neta encerrada <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> dividida entre la permitividad del espacio libre <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>:</para>
+<equation id="fs-id1172100742195" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mtext>Superficie cerrada</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172096096446">Esta ecuación es válida para <emphasis effect="italics">cargas de cualquier signo</emphasis>, porque definimos que el vector área de una superficie cerrada apunta hacia afuera. Si la carga encerrada es negativa (ver la <link target-id="CNX_UPhysics_23_02_PosNeg"/>(b)), entonces el flujo a través de cualquiera de los dos <m:math><m:mrow><m:mstyle mathvariant="italic" mathsize="normal"><m:mi>S</m:mi></m:mstyle><m:mspace width="0.2em"/><m:mtext>o</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="italic" mathsize="normal"><m:mi>S</m:mi></m:mstyle><m:mo>'</m:mo></m:mrow></m:math> es negativo.</para>
+<figure id="CNX_UPhysics_23_02_PosNeg">
+<media id="fs-id1172096157690" alt="La figura a tiene una forma irregular marcada como S. Dentro de ella hay un círculo marcado como S primo. En su centro hay un pequeño círculo marcado con un signo más. Seis flechas irradian desde aquí en diferentes direcciones. La figura b tiene la misma forma irregular S y el círculo S primo. En su centro hay un pequeño círculo marcado como menos. Seis flechas de diferentes direcciones irradian hacia el interior a menos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_PosNeg.jpg"/>
+</media>
+<caption>El flujo eléctrico que atraviesa cualquier superficie cerrada que rodea una carga puntual <emphasis effect="italics">q</emphasis> viene dado por la ley de Gauss. (a) La carga encerrada es positiva. (b) La carga encerrada es negativa.</caption>
+</figure>
+<para id="fs-id1172100729705">La superficie gaussiana no tiene por qué corresponder a un objeto físico real; de hecho, rara vez lo hará. Es una construcción matemática que puede tener cualquier forma, siempre que sea cerrada. Sin embargo, como nuestro objetivo es integrar el flujo sobre él, tendemos a elegir formas muy simétricas.</para>
+<para id="fs-id1172096194777">Si las cargas son de puntos discretas, entonces simplemente las sumamos. Si la carga está descrita por una distribución continua, entonces necesitamos integrar adecuadamente para calcular la carga total que reside dentro del volumen encerrado. Por ejemplo, el flujo a través de la superficie gaussiana <emphasis effect="italics">S</emphasis> de la <link target-id="CNX_UPhysics_23_02_MultiCharge"/> es <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>q</m:mi><m:mn>5</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math> Observe que <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow></m:math> es simplemente la suma de las cargas puntuales. Si la distribución de la carga fuera continua, tendríamos que integrar adecuadamente para calcular la carga total dentro de la superficie gaussiana.</para>
+<figure id="CNX_UPhysics_23_02_MultiCharge"><media id="fs-id1172100551468" alt="La figura muestra una forma irregular marcada como S. Dentro de ella hay cargas marcadas como positivas q1 y negativas q2 y q5. Fuera de S se encuentran las cargas marcadas como positivas q3, q4, q6 y q N menos 1 y negativas q7 y q N.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_MultiCharg.jpg"/>
+</media>
+
+<caption>El flujo a través de la superficie gaussiana mostrada, debido a la distribución de carga, es <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">|</m:mo><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">|</m:mo><m:mo>+</m:mo><m:mo stretchy="false">|</m:mo><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">|</m:mo><m:mo>+</m:mo><m:mo stretchy="false">|</m:mo><m:msub><m:mi>q</m:mi><m:mn>5</m:mn></m:msub><m:mo stretchy="false">|</m:mo></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math></caption></figure><para id="fs-id1172100731744">Recordemos que el principio de superposición es válido para el campo eléctrico. Por lo tanto, el campo eléctrico total en cualquier punto, incluidos los de la superficie gaussiana elegida, es la suma de todos los campos eléctricos presentes en este punto. Esto nos permite escribir la ley de Gauss en términos del campo eléctrico total.</para>
+<note id="fs-id1172098756510">
+<title>Ley de Gauss</title>
+<para id="fs-id1172096342582">El flujo <m:math><m:mtext>Φ</m:mtext></m:math> del campo eléctrico <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> a través de cualquier superficie cerrada <emphasis effect="italics">S</emphasis> (una superficie gaussiana) es igual a la carga neta encerrada <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> dividida entre la permitividad del espacio libre <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1172098294896"><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172096083512">Para utilizar la ley de Gauss de forma eficaz, hay que tener claro qué representa cada término de la ecuación. El campo <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> es el <emphasis effect="italics">campo eléctrico total</emphasis> en cada punto de la superficie gaussiana. Este campo total incluye las contribuciones de las cargas tanto dentro como fuera de la superficie gaussiana. Sin embargo, <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow></m:math> es solo la carga <emphasis effect="italics">dentro</emphasis> de la superficie gaussiana. Por último, la superficie gaussiana es cualquier superficie cerrada en el espacio. Esa superficie puede coincidir con la superficie real de un conductor, o puede ser una superficie geométrica imaginaria. El único requisito impuesto a una superficie gaussiana es que sea cerrada (<link target-id="CNX_UPhysics_23_02_Klein"/>).</para>
+<figure id="CNX_UPhysics_23_02_Klein">
+<media id="fs-id1172098674152" alt="La figura muestra una botella que parece un frasco invertido cuyo cuello es alargado, doblado hacia arriba, retorcido, llevado al interior de la botella y unido con su base, teniendo así una sola superficie.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_Klein.jpg"/>
+</media>
+<caption>Una botella de Klein parcialmente llena de un líquido. ¿Podría utilizarse la botella de Klein como superficie gaussiana?</caption>
+</figure>
+<example id="fs-id1172098374900">
+<para id="fs-id1172098410503"><title>Flujo eléctrico a través de superficies gaussianas</title>
+Calcule el flujo eléctrico a través de cada superficie gaussiana mostrada en la <link target-id="CNX_UPhysics_23_02_GauExample"/>.</para>
+<figure id="CNX_UPhysics_23_02_GauExample">
+<media id="fs-id1172098673786" alt="Las figuras a hasta d muestran formas irregulares y la figura e muestra un cubo. La figura a tiene una carga en el interior de la forma marcada como más 2,0 mu C. La figura b tiene una carga en el interior de la forma marcada como menos 2,0 mu C. La figura c tiene una carga en el interior de la forma marcada como más 2,0 mu C y dos cargas en el exterior marcadas como más 4 mu C y menos 2,0 mu C. La figura d tiene tres cargas en el interior de la forma marcadas como menos 1,0 mu C, menos 4,0 mu C y más 6,0 mu C y dos cargas en el exterior de la forma marcadas como menos 5,0 mu C y más 4,0 mu C. La figura e tiene tres cargas en el interior marcadas como más 4,0 mu C, más 6,0 mu C y menos 10,0 mu C y dos cargas en el exterior del cubo marcadas como más 5,0 mu C y 3,0 mu C.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_GauExample.jpg"/>
+</media>
+<caption>Varias superficies y cargas gaussianas.</caption>
+</figure>
+<para id="fs-id1172100622369"><title>Estrategia</title>
+A partir de la ley de Gauss, el flujo que atraviesa cada superficie viene dado por <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow></m:math> es la carga que encierra esa superficie.</para>
+<para id="fs-id1172096037958"><title>Solución</title>
+Para las superficies y cargas mostradas, hallamos</para>
+<list id="fs-id1172100699379" list-type="enumerated" number-style="lower-alpha">
+<item><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−2,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−2,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−4,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>+</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>+</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+<para id="fs-id1172100842015"><title>Importancia</title>
+En el caso especial de una superficie cerrada, los cálculos de flujo se convierten en una suma de cargas. En la próxima sección, esto nos permitirá trabajar con sistemas más complejos.</para>
+</example>
+<note id="fs-id1172100730613" class="check-understanding">
+<exercise id="fs-id1172098371394">
+<problem id="fs-id1172096233521">
+<para id="fs-id1172100840658">Calcule el flujo eléctrico a través de la superficie cúbica cerrada para cada distribución de carga mostrada en la <link target-id="CNX_UPhysics_23_02_CYU"/>.</para>
+<figure id="CNX_UPhysics_23_02_CYU">
+<media id="fs-id1172100589169" alt="Las figuras a hasta d muestran un cuboide con una esquina en el origen de los ejes de coordenadas. En la figura a, hay una carga más 3,0 mu C en la superficie paralela al plano yz. En la figura b, hay una carga menos 3,0 mu C en la superficie paralela al plano yz. En la figura c, hay una carga más 3,0 mu C en la superficie paralela al plano yz, una carga menos 3,0 mu C en el eje y fuera de la forma, y una carga más 6,0 mu C fuera de la forma. En la figura d, hay una carga menos 3,0 mu C en el eje y fuera de la forma y cargas más 3,0 mu C y más 6,0 mu C fuera de la forma.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_CYU.jpg"/>
+</media>
+<caption>Una superficie cúbica gaussiana con varias distribuciones de carga.</caption>
+</figure>
+</problem>
+<solution id="fs-id1172098549772">
+<para id="fs-id1172100728300">a. <m:math><m:mrow><m:mn>3,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C;</m:mtext></m:mrow></m:math> b. <m:math><m:mrow><m:mn>-3,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C;</m:mtext></m:mrow></m:math> c. <m:math><m:mrow><m:mn>3,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C;</m:mtext></m:mrow></m:math> d. 0</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1172098522322" class="media-2">
+<para id="fs-id1172100904504">Utilice esta <link url="https://openstax.org/l/21gaussimulat">simulación</link> para ajustar la magnitud de la carga y el radio de la superficie gaussiana que la rodea. Observe cómo afecta esto al flujo total y a la magnitud del campo eléctrico en la superficie gaussiana.</para>
+</note>
+</section>
+<section id="fs-id1172098443383" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172098403304" list-type="bulleted" bullet-style="bullet">
+<item>La ley de Gauss relaciona el flujo eléctrico a través de una superficie cerrada con la carga neta dentro de esa superficie,
+<equation id="fs-id1172098628943" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>S</m:mi></m:msub><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow></m:math> es la carga total dentro de la superficie gaussiana <emphasis effect="italics">S</emphasis>.</item>
+<item>Todas las superficies que incluyen la misma cantidad de carga tienen el mismo número de líneas de campo que la cruzan, independientemente de la forma o el tamaño de la superficie, siempre que las superficies encierren la misma cantidad de carga.</item>
+</list>
+</section>
+<section id="fs-id1172098310042" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172098354685">
+<problem id="fs-id1172100656502">
+<para id="fs-id1172098766160">Dos superficies esféricas concéntricas encierran una carga puntual <emphasis effect="italics">q</emphasis>. El radio de la esfera exterior es el doble del de la interior. Compare los flujos eléctricos que cruzan las dos superficies.</para>
+</problem>
+<solution id="fs-id1172098546001">
+<para id="fs-id1172098269671">Dado que el vector del campo eléctrico tiene una dependencia <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>, los flujos son los mismos ya que <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100776781">
+<problem id="fs-id1172100857156">
+<para id="fs-id1172100530070">Compare el flujo eléctrico que atraviesa la superficie de un cubo de lado <emphasis effect="italics">a</emphasis> que tiene una carga <emphasis effect="italics">q</emphasis> en su centro con el flujo que atraviesa una superficie esférica de radio <emphasis effect="italics">a</emphasis> con una carga <emphasis effect="italics">q</emphasis> en su centro.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172096331478">
+<problem id="fs-id1172100556643">
+<para id="fs-id1172100909345">(a) Si el flujo eléctrico que atraviesa una superficie cerrada es cero, ¿el campo eléctrico es necesariamente cero en todos los puntos de la superficie? (b) ¿Cuál es la carga neta dentro de la superficie?</para>
+</problem>
+<solution id="fs-id1172100921449">
+<para id="fs-id1172100502407">a. no; b. cero</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100854459">
+<problem id="fs-id1172098596320">
+<para id="fs-id1172100665749">Discuta cómo se vería afectada la ley de Gauss si el campo eléctrico de una carga puntual no variara como <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098601913">
+<problem id="fs-id1172098293868">
+<para id="fs-id1172096018584">Discuta las similitudes y diferencias entre el campo gravitacional de una masa puntual <emphasis effect="italics">m</emphasis> y el campo eléctrico de una carga puntual <emphasis effect="italics">q</emphasis>.</para>
+</problem>
+<solution id="fs-id1172100627130">
+<para id="fs-id1172100981775">Ambos campos varían como <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>. Debido a que la constante gravitacional es mucho más pequeña que <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>, el campo gravitacional es órdenes de magnitud más débiles que el campo eléctrico. Además, el flujo gravitacional a través de una superficie cerrada es cero o positivo; sin embargo, el flujo eléctrico es positivo, negativo o cero, dependiendo de la definición de flujo para la situación dada.</para></solution>
+</exercise>
+<exercise id="fs-id1172100922989">
+<problem id="fs-id1172098719052">
+<para id="fs-id1172100961451">Discuta si la ley de Gauss puede aplicarse a otras fuerzas y, en caso afirmativo, a cuáles.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098510557">
+<problem id="fs-id1172098390664">
+<para id="fs-id1172098756700">¿Es el término <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>E</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> en la ley de Gauss el campo eléctrico producido solo por la carga dentro de la superficie gaussiana?</para>
+</problem>
+<solution id="fs-id1172100597434">
+<para id="fs-id1172100990389">No, se produce por todas las cargas tanto dentro como fuera de la superficie gaussiana.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100722399">
+<problem id="fs-id1172098407846">
+<para id="fs-id1172100727340">Reformule la ley de Gauss eligiendo que la normal unitaria de la superficie gaussiana sea la dirigida hacia el interior.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172098550148" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172100769466">
+<problem id="fs-id1172100492390">
+<para id="fs-id1172100645452">Determine el flujo eléctrico a través de cada superficie cerrada donde la sección transversal dentro de la superficie se muestra a continuación.</para><media id="fs-id1172100784380" alt="La figura muestra una forma irregular S1. Dentro de ella hay cuatro formas irregulares marcada como S2, S3, S4 y S6 y un cuadrilátero marcado como S5. Todas ellas se superponen con una o varias de las otras. Se muestra una carga menos 2q en la región de superposición de S1, S2 y S4. Se muestra una carga menos 2q en la región de superposición de S1, S4 y S5. Se muestra una carga más q en la región de superposición de S1 y S3. Se muestra una carga más 3q en la región de superposición de S1 y S6.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_MultiSurf_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172100745614">
+<problem id="fs-id1172100769348">
+<para id="fs-id1172100598677">Calcule el flujo eléctrico que atraviesa la superficie cerrada cuyas secciones transversales se muestran a continuación.</para>
+<media id="fs-id1172098653978" alt="La figura a muestra una forma irregular con una carga positiva en su interior marcada como 3 en 10 a la potencia menos 8 C. Hay una carga negativa fuera de ella, marcada como menos 2 en 10 a la potencia 8 C. La figura b muestra una forma irregular con tres cargas fuera de ella. Estos son más 4 en 10 a la potencia menos 6 C, más 5 en 10 a la potencia menos 6 C y menos tres en 10 a la potencia menos 6 C. La figura c muestra un cuadrado con la longitud de cada lado igual a. Hay una carga menos 2 en 10 a la potencia menos 6 C en su interior. La figura d muestra una franja sombreada con signos de más cerca de los bordes interiores. Está marcada como conductor. Una flecha señala hacia fuera desde ambos extremos de la franja. Estas flechas están marcadas como infinito. Un pequeño rectángulo se adhiere a un lado de la franja, cubriendo un signo más. Está marcado como límite final del área, 4 en 10 a la potencia menos 4 m al cuadrado. La franja está marcada como sigma igual a 2 en 10 a la potencia menos 6 C por m al cuadrado.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_MultiSyst_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172098549561">
+<para id="fs-id1172100525488">a. <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mn>3,39</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow></m:math>; b. <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>;<newline/> c. <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mn>-2,25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow></m:math>;<newline/> d. <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mn>90,4</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098459697">
+<problem id="fs-id1172096232607">
+<para id="fs-id1172100658725">Una carga puntual <emphasis effect="italics">q</emphasis> está situada en el centro de un cubo cuyos lados son de longitud <emphasis effect="italics">a</emphasis>. Si no hay otras cargas en este sistema, ¿cuál es el flujo eléctrico que atraviesa una cara del cubo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098704098">
+<problem id="fs-id1172101032654">
+<para id="fs-id1172100738792">Una carga puntual de <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> está en un lugar no especificado dentro de un cubo de 2 cm de lado. Calcule el flujo eléctrico neto a través de las superficies del cubo.</para>
+</problem>
+<solution id="fs-id1172098267809">
+<para id="fs-id1172096310891"><m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mn>1,13</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098261743">
+<problem id="fs-id1172100924583">
+<para id="fs-id1172100759838">Un flujo neto de <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext></m:mrow></m:math> pasa hacia el interior de la superficie de una esfera de radio 5 cm. (a) ¿Cuánta carga hay dentro de la esfera? (b) ¿Con qué precisión podemos determinar la ubicación de la carga a partir de esta información?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100493256">
+<problem id="fs-id1172101002526">
+<para id="fs-id1172098515367">Una carga <emphasis effect="italics">q</emphasis> se coloca en una de las esquinas de un cubo de lado <emphasis effect="italics">a</emphasis>, como se muestra a continuación. Calcule la magnitud del flujo eléctrico a través de la cara sombreada debido a <emphasis effect="italics">q</emphasis>. Supongamos que <m:math><m:mrow><m:mi>q</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+<media id="fs-id1172096227716" alt="La figura muestra un cubo cuya longitud de cada lado es igual a. La superficie posterior del mismo está sombreada. Una de las esquinas delanteras tiene un pequeño círculo con la marca q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_Cube_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100742871">
+<para id="fs-id1172098693350">Haga un cubo con <emphasis effect="italics">q</emphasis> en el centro, usando el cubo de lado <emphasis effect="italics">a</emphasis>. Se necesitarían cuatro cubos de lado <emphasis effect="italics">a</emphasis> para hacer una cara del cubo grande. El lado sombreado del cubo pequeño sería 1/24 del área total del cubo grande; por lo tanto, el flujo a través del área sombreada sería<newline/> <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098642772">
+<problem id="fs-id1172100635034">
+<para id="fs-id1172100895136">El flujo eléctrico que atraviesa una caja cúbica de 8,0 cm de lado es <m:math><m:mrow><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> ¿Cuál es la carga total que encierra la caja?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101032982">
+<problem id="fs-id1172098363006">
+<para id="fs-id1172096089433">El flujo eléctrico que atraviesa una superficie esférica es <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> ¿Cuál es la carga neta que encierra la superficie?</para>
+</problem>
+<solution id="fs-id1172096016702">
+<para id="fs-id1172098656508"><m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>3,54</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100636024">
+<problem id="fs-id1172101002446">
+<para id="fs-id1172100634884">Un cubo cuyos lados son de longitud <emphasis effect="italics">d</emphasis> se coloca en un campo eléctrico uniforme de magnitud <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N/C</m:mtext></m:mrow></m:math> para que el campo sea perpendicular a dos caras opuestas del cubo. ¿Cuál es el flujo neto a través del cubo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101029922">
+<problem id="fs-id1172100636857">
+<para id="fs-id1172100500498">Repita el problema anterior, suponiendo que el campo eléctrico se dirige a lo largo de una diagonal del cuerpo del cubo.</para>
+</problem>
+<solution id="fs-id1172098567421">
+<para id="fs-id1172100735316">cero, también porque el flujo de entrada es igual al flujo de salida</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098410689">
+<problem id="fs-id1172096072564">
+<para id="fs-id1172098317904">Una carga total de <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> se distribuye uniformemente por un volumen cúbico cuyas aristas miden 8,0 cm. (a) ¿Cuál es la densidad de carga en el cubo? (b) ¿Cuál es el flujo eléctrico a través de un cubo con aristas de 12,0 cm que es concéntrico con la distribución de carga? (c) Haga el mismo cálculo para cubos cuyas aristas miden 10,0 cm y 5,0 cm. (d) ¿Cuál es el flujo eléctrico a través de una superficie esférica de radio 3,0 cm que también es concéntrica con la distribución de carga?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172100551861">
+<term>superficie gaussiana</term>
+<meaning id="fs-id1172093815507">cualquier superficie cerrada (normalmente imaginaria)</meaning>
+</definition>
+</glossary>
+
+</document>

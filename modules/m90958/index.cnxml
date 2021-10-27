@@ -1,0 +1,146 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Principio de Huygens</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90958</md:content-id>
+  <md:title>Principio de Huygens</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir el principio de Huygens</item>
+<item>Utilizar el principio de Huygens para explicar la ley de reflexión</item>
+<item>Utilizar el principio de Huygens para explicar la ley de refracción</item>
+<item>Utilizar el principio de Huygens para explicar la difracción</item>
+</list></md:abstract>
+  <md:uuid>aa5603f8-1d3f-495f-a161-c494faeb3613</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101037573">Hasta ahora, hemos hablado en este capítulo de los fenómenos ópticos utilizando el modelo de rayos de luz. Sin embargo, algunos fenómenos requieren análisis y explicaciones basadas en las características ondulatorias de la luz. Esto es especialmente cierto cuando la longitud de onda no es despreciable en comparación con las dimensiones de un dispositivo óptico, como una rendija en el caso de la <emphasis effect="italics">difracción</emphasis>. El principio de Huygens es una herramienta indispensable para este análisis.</para>
+<para id="fs-id1172100799924">La <link target-id="CNX_UPhysics_34_06_Wave"/> muestra el aspecto de una onda transversal vista desde arriba y desde un lado. Se puede imaginar que una onda de luz se propaga así, aunque en realidad no la vemos contonearse por el espacio. Desde arriba, vemos los frentes de las olas (o crestas de las olas) como si estuviéramos mirando las olas del océano. La vista lateral sería un gráfico del campo eléctrico o magnético. La vista desde arriba es quizá más útil para desarrollar conceptos sobre la <term>óptica de onda</term>.</para>
+<figure id="CNX_UPhysics_34_06_Wave">
+<media id="fs-id1172100660819" alt="Tres figuras contienen tres vistas de una onda. La primera es una vista desde arriba. La onda se propaga hacia la derecha y aparece como una serie de franjas verticales que alternan gradualmente de oscuro a claro y se repiten. La siguiente vista es una vista lateral. La onda se propaga de nuevo hacia la derecha y aparece como una curva sinusoidal que oscila por encima y por debajo de una flecha negra que apunta a la derecha y que sirve de eje horizontal. La tercera es una visión de conjunto. Esta es una vista en perspectiva de una onda de la misma longitud de onda que en las dos primeras imágenes y parece una superficie ondulada.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_06_Wave.jpg"/>
+</media>
+<caption>Una onda transversal, como una onda de luz electromagnética, vista desde arriba y desde un lado. La dirección de propagación es perpendicular a los frentes de onda (o crestas de onda) y se representa mediante un rayo.</caption>
+</figure>
+<para id="fs-id1172100525973">El científico holandés Christiaan Huygens (1629-1695) desarrolló una técnica útil para determinar con detalle cómo y dónde se propagan las ondas. Partiendo de una posición conocida, el <term>principio de Huygens</term> establece que cada punto de un frente de onda es una fuente de ondículas que se propagan hacia adelante con la misma velocidad que la propia onda. El nuevo frente de onda es tangente a todas las ondículas.</para>
+<para id="fs-id1172098457484">La <link target-id="CNX_UPhysics_34_06_Lines"/> muestra cómo se aplica el principio de Huygens. Un frente de onda es el borde largo que se mueve, por ejemplo, con la cresta o la depresión. Cada punto del frente de onda emite una onda semicircular que se mueve a la velocidad de propagación <emphasis effect="italics">v</emphasis>. Podemos dibujar estas ondículas en un momento <emphasis effect="italics">t</emphasis> posterior, de forma que se hayan desplazado una distancia <m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math> El nuevo frente de onda es un plano tangente a las ondículas y es donde esperaríamos que la onda estuviera un tiempo <emphasis effect="italics">t</emphasis> después. El principio de Huygens funciona para todos los tipos de ondas, incluidas las ondas de agua, las ondas sonoras y las ondas de luz. Es útil no solo para describir cómo se propagan las ondas de luz, sino también para explicar las leyes de la reflexión y la refracción. Además, veremos que el principio de Huygens nos dice cómo y dónde interfieren los rayos de luz.</para>
+<figure id="CNX_UPhysics_34_06_Lines">
+<media id="fs-id1172098646258" alt="Esta figura muestra dos líneas verticales rectas, con la línea izquierda marcada como frente de onda antiguo y la línea derecha marcada como frente de onda nuevo. En el centro de la imagen, una flecha negra horizontal cruza ambas líneas y apunta a la derecha. La línea frontal de la onda antigua pasa por seis puntos espaciados uniformemente, con cuatro puntos por encima de la flecha negra y cuatro puntos por debajo de ella. Cada punto sirve como centro de un semicírculo correspondiente, y los ocho semicírculos tienen el mismo tamaño. El nuevo frente de onda es tangente al borde derecho de los semicírculos. Uno de los puntos centrales tiene una flecha radial que señala un punto del semicírculo correspondiente. Esta flecha radial está marcada como s igual a v t.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_06_Lines.jpg"/>
+</media>
+<caption>El principio de Huygens aplicado a un frente de onda recto. Cada punto del frente de onda emite una onda semicircular que se desplaza una distancia <m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math> El nuevo frente de onda es una línea tangente a las ondículas.</caption>
+</figure>
+<section id="fs-id1172098373572">
+<title>Reflexión</title>
+<para id="fs-id1172100969206">La <link target-id="CNX_UPhysics_34_06_Mirror"/> muestra cómo un espejo refleja una onda entrante en un ángulo igual al ángulo incidente, verificando la ley de reflexión. Cuando el frente de onda incide en el espejo, las ondículas se emiten primero por la parte izquierda del espejo y luego por la derecha. Las ondículas más cercanas a la izquierda han tenido tiempo de viajar más lejos, produciendo un frente de onda que viaja en la dirección indicada.</para>
+<figure id="CNX_UPhysics_34_06_Mirror">
+<media id="fs-id1172100565732" alt="La figura muestra una red de cuatro rayos horizontales, paralelos e igualmente espaciados que inciden en un espejo que está inclinado a cuarenta y cinco grados con respecto a los rayos. Los rayos se reflejan hacia abajo desde el espejo. Se incluyen dos rayos reflejados adicionales de los rayos incidentes por encima de los mostrados en la figura. Los puntos se dibujan en las intersecciones de los rayos incidentes y reflejados. Los semicírculos orientados hacia la derecha, que representan ondículas incidentes, y los semicírculos orientados hacia abajo, que representan ondículas reflectantes, están centrados en los puntos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_06_Mirror.jpg"/>
+</media>
+<caption>El principio de Huygens aplicado a un frente de onda plano que choca con un espejo. Las ondículas mostradas se emitieron cuando cada punto del frente de onda golpeó el espejo. La tangente a estas ondículas muestra que el nuevo frente de onda se ha reflejado en un ángulo igual al ángulo de incidencia. La dirección de propagación es perpendicular al frente de onda, como muestran las flechas que apuntan hacia abajo.</caption>
+</figure>
+</section>
+<section id="fs-id1172100967664">
+<title>Refracción</title>
+<para id="fs-id1172100574975">La ley de refracción puede explicarse aplicando el principio de Huygens a un frente de onda que pasa de un medio a otro (<link target-id="CNX_UPhysics_34_06_Surface"/>). Cada onda de la figura se emitió cuando el frente de onda cruzó la interfase entre los medios. Dado que la velocidad de la luz es menor en el segundo medio, las ondas no viajan tan lejos en un tiempo determinado, y el nuevo frente de onda cambia de dirección como se muestra. Esto explica por qué un rayo cambia de dirección para acercarse a la perpendicular cuando la luz se ralentiza. La ley de Snell puede derivarse de la geometría en la <link target-id="CNX_UPhysics_34_06_Surface"/> (<link target-id="fs-id1172100635976"/>).</para>
+<figure id="CNX_UPhysics_34_06_Surface">
+<media id="fs-id1172101029226" alt="La figura muestra dos medios separados por una línea horizontal denominada superficie. El medio superior está marcado como medio uno y el medio inferior como medio dos. En el medio uno, un rayo incide en la superficie, viajando hacia abajo y hacia la derecha. Se traza una línea vertical de puntos, perpendicular a la superficie, a través de ambos medios donde el rayo incide en la superficie. El rayo refractado se dobla hacia abajo, hacia esta línea punteada donde entra en el medio dos. La trayectoria del rayo forma un ángulo theta sub uno con la línea de puntos en el medio uno y un ángulo theta sub dos con la línea de puntos en el medio dos, donde theta sub dos es menor que theta sub uno. Se dibujan segmentos de línea, marcados como frente de onda, perpendiculares al rayo incidente y al rayo refractado. Estos segmentos de línea están igualmente espaciados dentro de cada medio, pero los tres segmentos de línea del medio 1 están más espaciados que los tres segmentos de línea del medio 2. La separación de estos segmentos de línea en el medio 1 se denomina v sub uno t y la separación en el medio 2 se denomina v sub dos t, siendo v sub dos t menor que v sub uno t.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_06_Surface.jpg"/>
+</media>
+<caption>El principio de Huygens se aplica a un frente de onda plano que viaja de un medio a otro, donde su velocidad es menor. El rayo se dobla hacia la perpendicular, dado que las ondículas tienen una velocidad menor en el segundo medio.</caption>
+</figure>
+<example id="fs-id1172100635976">
+<para id="fs-id1172098510439"><title>Deducir la ley de refracción</title>
+Al examinar la geometría de los frentes de onda, deduzca la ley de refracción.</para>
+<para id="fs-id1172098277415"><title>Estrategia</title>
+Considere la <link target-id="CNX_UPhysics_34_06_Surface2"/>, que es una ampliación de la <link target-id="CNX_UPhysics_34_06_Surface"/>. Muestra que el frente de onda incidente acaba de llegar a la superficie en el punto <emphasis effect="italics">A</emphasis>, mientras que el punto <emphasis effect="italics">B</emphasis> está todavía bien dentro del medio 1. En el tiempo <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> que tarda una ondícula desde <emphasis effect="italics">B</emphasis> en llegar a <m:math><m:mi>B</m:mi><m:mtext>′</m:mtext></m:math> en la superficie a velocidad <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>c</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> una ondícula desde <emphasis effect="italics">A</emphasis> viaja al medio 2 una distancia de <m:math><m:mrow><m:mi>A</m:mi><m:mi>A</m:mi><m:mtext>′</m:mtext><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mi>c</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Tenga en cuenta que en este ejemplo, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es más lento que <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> porque <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_34_06_Surface2">
+<media id="fs-id1172100960511" alt="Esta figura ilustra la geometría de la refracción de los rayos y los frentes de onda. Entre el medio 1, con índice de refracción n 1, y el medio 2, con índice de refracción n 2, hay una superficie horizontal. Se muestra un rayo incidente que entra desde el medio 1 al medio 2. Golpea la superficie en el punto A y se refracta hacia la normal en el medio 2. Se traza una línea, denominada frente de onda incidente, desde el punto A que se aleja de la superficie, perpendicular al rayo incidente. El ángulo entre el frente de onda incidente y la superficie es theta 1. Se traza un segundo rayo incidente paralelo al primero. Este rayo intersecta el frente de onda incidente en un punto marcado como B y golpea la superficie en un punto marcado como B prima. Se traza una línea discontinua perpendicular a la superficie en B prima. El ángulo entre esta recta perpendicular y la segunda semirrecta es también theta uno. El triángulo formado por A, B y B prima es un triángulo rectángulo con ángulo theta uno en A y un ángulo recto en B. Los rayos refractados en A y B prima se doblan hacia abajo, hacia las perpendiculares descendentes a la superficie, formando un ángulo theta dos con la dirección vertical. Se dibuja el frente de onda refractada que es perpendicular a los rayos refractados y que choca con la superficie en B prima. Este frente de onda choca con la refracción del primer rayo incidente en un punto marcado como A prima y forma un ángulo de theta dos con la superficie.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_06_Surface2.jpg"/>
+</media>
+<caption>Geometría de la ley de refracción del medio 1 al medio 2.</caption>
+</figure>
+<para id="fs-id1172100714884"><title>Solución</title>
+El segmento de la superficie <m:math><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> es compartido por el triángulo <m:math><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>B</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> que está dentro del medio 1 y el triángulo <m:math><m:mrow><m:mi>A</m:mi><m:mi>A</m:mi><m:mtext>′</m:mtext><m:mi>B</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> que está dentro del medio 2. Observe que a partir de la geometría, el ángulo <m:math><m:mrow><m:mtext>∠</m:mtext><m:mi>B</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> es igual al ángulo de incidencia, <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>. De la misma manera, el <m:math><m:mrow><m:mtext>∠</m:mtext><m:mi>A</m:mi><m:mi>B</m:mi><m:mtext>′</m:mtext><m:mi>A</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> es <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</para>
+<para id="fs-id1172100670183">La longitud del <m:math><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> se da de dos maneras como</para>
+<equation id="fs-id1172100529576" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mtext>′</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>B</m:mi><m:mi>B</m:mi><m:mtext>′</m:mtext></m:mrow><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>A</m:mi><m:mi>A</m:mi><m:mtext>′</m:mtext></m:mrow><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100635974">Al invertir la ecuación y sustituir <m:math><m:mrow><m:mi>A</m:mi><m:mi>A</m:mi><m:mtext>′</m:mtext><m:mo>=</m:mo><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> desde arriba y de forma similar <m:math><m:mrow><m:mi>B</m:mi><m:mi>B</m:mi><m:mtext>′</m:mtext><m:mo>=</m:mo><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, obtenemos</para>
+<equation id="fs-id1172100850862" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100781156">La cancelación de <m:math><m:mrow><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> nos permite simplificar esta ecuación en la forma conocida</para>
+<equation id="fs-id1172098559455" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098408295"><title>Importancia</title>
+Aunque Snell estableció la ley de refracción de forma experimental y se expuso en la sección <link document="m90953">Refracción</link>, para deducirla aquí se requiere el principio de Huygens y la comprensión de que la velocidad de la luz es diferente en diferentes medios.</para>
+</example>
+<note id="fs-id1172098311114" class="check-understanding">
+<exercise id="fs-id1172098633650">
+<problem id="fs-id1172100675870">
+<para id="fs-id1172098363204">En el <link target-id="fs-id1172100635976"/>, tuvimos <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Si <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> se redujera de tal manera que <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y la velocidad de la luz en el medio 2 es más rápida que en el medio 1, ¿qué pasaría con la longitud de <m:math><m:mrow><m:mi>A</m:mi><m:mi>A</m:mi><m:mtext>′</m:mtext></m:mrow></m:math>? ¿Qué pasaría con el frente de onda <m:math><m:mrow><m:mi>A</m:mi><m:mtext>′</m:mtext><m:mi>B</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> y la dirección del rayo refractado?</para>
+</problem>
+<solution id="fs-id1172100491508">
+<para id="fs-id1172098390371"><m:math><m:mrow><m:mi>A</m:mi><m:mi>A</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> se alarga, <m:math><m:mrow><m:mi>A</m:mi><m:mtext>′</m:mtext><m:mi>B</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> se aleja de la superficie, y el rayo refractado se aleja de la normal.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1172100991140" class="media-2">
+<para id="fs-id1172098273277">Esta <link url="https://openstax.org/l/21walfedaniref">applet</link> de Walter Fendt muestra una animación de reflexión y refracción utilizando las ondículas de Huygens mientras usted controla los parámetros. Asegúrese de presionar en "Next step” (Paso siguiente) para visualizar las ondículas. Se pueden ver los frentes de onda reflejados y refractados que se forman.</para>
+</note>
+</section>
+<section id="fs-id1172100814892">
+<title>Difracción</title>
+<para id="fs-id1172100596387">¿Qué ocurre cuando una onda atraviesa una abertura, como la luz que entra por una puerta abierta en una habitación oscura? Con respecto a la luz, observamos una sombra nítida de la puerta en el suelo de la habitación, y ninguna luz visible se desvía por las esquinas hacia otras partes de la habitación. Cuando el sonido pasa a través de una puerta, lo escuchamos en toda la habitación y, por tanto, observamos que el sonido se propaga al pasar por una abertura de este tipo (<link target-id="CNX_UPhysics_34_06_Door"/>). ¿Cuál es la diferencia entre el comportamiento de las ondas sonoras y las ondas de luz en este caso? La respuesta es que la luz tiene longitudes de onda muy cortas y actúa como un rayo. El sonido tiene una longitud de onda del orden del tamaño de la puerta y se curva en las esquinas (para una frecuencia de 1000 Hz,</para>
+<equation id="fs-id1172100513645" class="unnumbered"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>f</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>330</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,33</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172100546743">unas tres veces menor que el ancho de la puerta).</para>
+<figure id="CNX_UPhysics_34_06_Door">
+<media id="fs-id1172098516180" alt="La figura a es una vista desde arriba de un diagrama de una pared en la que hay una puerta abierta. La pared se extiende desde la parte inferior del diagrama hasta la parte superior, y la puerta forma un hueco en la pared. La puerta se abre hacia la izquierda y se sitúa a unos cuarenta y cinco grados de la pared sobre la que pivota. La luz, marcada como lambda minúscula, incide desde el lado izquierdo de la pared. Parte de la luz pasa a través de la abertura de la puerta. La luz que pasa a través de la puerta tiene bordes afilados, que corresponden a sombras de bordes rectos por encima y por debajo. La puerta abierta también crea una sombra de borde recto entre ella y la pared. La parte b de la figura muestra un diagrama similar. Una línea paralela a la pared se aproxima a ésta desde la izquierda y se marca como frente de ondas sonoras planas. Hay cinco puntos espaciados uniformemente a través de la puerta abierta, marcados del uno al cinco. A la derecha de estos puntos aparecen semicírculos que entran en la habitación a la derecha de la pared. Entre todos estos semicírculos hay una línea que tiene la forma de cierre de corchetes con esquinas redondeadas. Esta línea está marcada como sonido. Se muestran cinco rayos que apuntan desde la línea de corchetes hacia la habitación a la derecha de la pared. Tres de estos rayos apuntan horizontalmente hacia la derecha, un rayo apunta hacia arriba y hacia la derecha, y el último rayo apunta hacia abajo y hacia la derecha. Este último rayo apunta a la oreja de una persona que vemos desde arriba y que está marcada como oyente que escucha el sonido a la vuelta de la esquina.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_06_Door.jpg"/>
+</media>
+<caption>(a) La luz que pasa a través de una puerta hace un contorno nítido en el suelo. Dado que la longitud de onda de la luz es muy pequeña comparada con el tamaño de la puerta, actúa como un rayo. (b) Las ondas sonoras se curvan hacia todas las partes de la habitación, un efecto de onda, porque su longitud de onda es similar al tamaño de la puerta.</caption>
+</figure>
+<para id="fs-id1172100836637">Si hacemos pasar la luz a través de aberturas más pequeñas, como las rendijas, podemos utilizar el principio de Huygens para comprender que la luz se curva como lo hace el sonido (<link target-id="CNX_UPhysics_34_06_Opening"/>). La curvatura de una onda alrededor de los bordes de una abertura o de un obstáculo se llama difracción. La difracción es una característica de las ondas y se produce para todos los tipos de ondas. Si se observa la difracción en algún fenómeno, es una prueba de que el fenómeno es una onda. Así, la difracción horizontal del rayo láser después de pasar por las rendijas en la <link target-id="CNX_UPhysics_34_06_Opening"/> es una prueba de que la luz es una onda. Aprenderá sobre la difracción con mucho más detalle en el capítulo sobre <link document="m90982">Difracción</link>.</para>
+<figure id="CNX_UPhysics_34_06_Opening"><media id="fs-id1172100594822" alt="La figura muestra tres diagramas que ilustran la propagación de las ondas al pasar por aberturas de distintos tamaños. Cada ilustración se observa desde una vista superior, y los frentes de ondas planas incidentes están representados por líneas verticales. La longitud de onda, lambda, es la distancia entre líneas adyacentes y es la misma en los tres diagramas. El primer diagrama muestra los frentes de onda que pasan por una abertura que es ancha en comparación con la longitud de onda. Los frentes de onda que emergen al otro lado de la abertura tienen una pequeña curvatura en los bordes. El segundo diagrama muestra los frentes de onda que pasan por una abertura más pequeña. Las ondas experimentan una mayor flexión pero siguen teniendo una parte recta. El tercer diagrama muestra los frentes de onda que pasan por una abertura que tiene aproximadamente el mismo tamaño que la longitud de onda. Estas ondas muestran una importante curvatura y, de hecho, parecen circulares en lugar de rectas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_06_Opening_New.jpg"/>
+</media>
+
+<caption>El principio de Huygens aplicado a un frente de onda plano que choca con una abertura. Los bordes del frente de onda se doblan después de pasar por la abertura, un proceso llamado difracción. La cantidad de curvatura es más extrema para una abertura pequeña, lo que concuerda con el hecho de que las características de las ondas son más notables para las interacciones con objetos del mismo tamaño que la longitud de onda.</caption></figure></section>
+<section id="fs-id1172100981414" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172098266098" list-type="bulleted" bullet-style="bullet">
+<item>Según el principio de Huygens, cada punto de un frente de onda es una fuente de ondículas que se propagan hacia adelante a la misma velocidad que la propia onda. El nuevo frente de onda es tangente a todas las ondículas.</item>
+<item>Un espejo refleja una onda entrante en un ángulo igual al ángulo incidente, lo que comprueba la ley de reflexión.</item>
+<item>La ley de refracción puede explicarse aplicando el principio de Huygens a un frente de onda que pasa de un medio a otro.</item>
+<item>La curvatura de una onda alrededor de los bordes de una abertura o de un obstáculo se llama difracción.</item>
+</list>
+</section>
+<section id="fs-id1172100529781" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172100576815">
+<problem id="fs-id1172100648478">
+<para id="fs-id1172098455950">¿Cómo dependen los efectos de las ondas del tamaño del objeto con el que interactúan? Por ejemplo, ¿por qué el sonido se dobla en la esquina de un edificio y la luz no?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100939725">
+<problem id="fs-id1172100557955">
+<para id="fs-id1172100827602">¿Se aplica el principio de Huygens a todos los tipos de ondas?</para>
+</problem>
+<solution id="fs-id1172098509580">
+<para id="fs-id1172100895352">Sí</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098406946">
+<problem id="fs-id1172098509977">
+<para id="fs-id1172100775000">Si se observa la difracción en algún fenómeno, es una prueba de que el fenómeno es una onda. ¿Lo contrario a esto es cierto? Es decir, si no se observa difracción, ¿significa que el fenómeno no es una onda?</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172098277461">
+<term>óptica de ondas</term>
+<meaning id="fs-id1172100969879">parte de la óptica que trata del aspecto ondulatorio de la luz</meaning>
+</definition>
+<definition id="fs-id1172098383329">
+<term>principio de Huygens</term>
+<meaning id="fs-id1172098715418">cada punto de un frente de onda es una fuente de ondículas que se extienden hacia delante con la misma velocidad que la propia onda; el nuevo frente de onda es un plano tangente a todas las ondículas</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,363 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Ley de Coulomb</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90869</md:content-id>
+  <md:title>Ley de Coulomb</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir la fuerza eléctrica, tanto cualitativa como cuantitativamente.</item>
+<item>Calcular la fuerza que ejercen las cargas entre sí.</item>
+<item>Determinar la dirección de la fuerza eléctrica para diferentes cargas de origen.</item>
+<item>Describir y aplicar correctamente el principio de superposición para cargas de fuentes múltiples.</item>
+</list></md:abstract>
+  <md:uuid>a573113f-43c9-4da7-ae8b-b6087c50a590</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172097610533">Los experimentos con cargas eléctricas han demostrado que si dos objetos tienen cada uno una carga eléctrica, entonces ejercen una fuerza eléctrica el uno sobre el otro. La magnitud de la fuerza es linealmente proporcional a la carga neta de cada objeto e inversamente proporcional al cuadrado de la distancia entre ellos (curiosamente, la fuerza no depende de la masa de los objetos). La dirección del vector fuerza es a lo largo de la línea imaginaria que une los dos objetos y está dictada por los signos de las cargas involucradas.</para>
+<para id="fs-id1172101931913">Supongamos que</para>
+<list id="fs-id1172099724185" list-type="bulleted" bullet-style="bullet">
+<item><m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo></m:mrow></m:math> las cargas eléctricas netas de los dos objetos;</item>
+<item><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo></m:mrow></m:math> el desplazamiento vectorial de <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> a <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</item>
+</list>
+<para id="fs-id1172101812412">La fuerza eléctrica <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> en una de las cargas es proporcional a la magnitud de su propia carga y a la magnitud de la otra carga, y es inversamente proporcional al cuadrado de la distancia entre ellas:</para>
+<equation id="fs-id1172099757432" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>∝</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>12</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099929548">Esta proporcionalidad se convierte en una igualdad con la introducción de una constante de proporcionalidad. Por razones que se aclararán en un capítulo posterior, la constante de proporcionalidad que utilizamos es en realidad una colección de constantes. (En breve hablaremos de esta constante).</para>
+<note id="fs-id1172099567908">
+<title>Ley de Coulomb</title>
+<para id="fs-id1172101724320">La magnitud de la fuerza eléctrica (o <term>fuerza de Coulomb</term>) entre dos partículas cargadas eléctricamente es igual a</para><equation id="fs-id1172101794041"><m:math>
+  <m:mrow>
+    <m:mo stretchy="false">|</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold" mathsize="normal">
+        <m:mtext>F</m:mtext>
+      </m:mstyle>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo stretchy="false">|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mspace width="0.2em"/>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mo>|</m:mo>
+          <m:mrow>
+            <m:msub>
+              <m:mi>q</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi>q</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:mo>|</m:mo>
+        </m:mrow>
+      </m:mrow>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>r</m:mi>
+          <m:mn>12</m:mn>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math></equation><para id="fs-id1172101795940">El vector unitario <m:math><m:mrow><m:mi>r</m:mi></m:mrow></m:math> tiene una magnitud de 1 y apunta a lo largo del eje como las cargas. Si las cargas tienen el mismo signo, la fuerza está en la misma dirección que <m:math><m:mrow><m:mi>r</m:mi></m:mrow></m:math> mostrando una fuerza de repulsión. Si las cargas tienen signos diferentes, la fuerza es en la dirección opuesta a <m:math><m:mrow><m:mi>r</m:mi></m:mrow></m:math> mostrando una fuerza de atracción. (<link target-id="CNX_UPhysics_22_03_Magnitude"/>).</para></note>
+<figure id="CNX_UPhysics_22_03_Magnitude">
+<media id="fs-id1172102063159" alt="En la parte a, se muestran dos cargas q uno y q dos separadas por una distancia r. La flecha del vector fuerza F uno dos apunta hacia la izquierda y actúa sobre q uno. La flecha del vector fuerza F dos uno apunta hacia la derecha y actúa sobre q dos. Ambas fuerzas actúan en direcciones opuestas y se representan con flechas de la misma longitud. En la parte b, se muestran dos cargas q uno y q dos a una distancia r. La flecha del vector fuerza F uno dos apunta hacia la derecha y actúa sobre q uno. La flecha del vector fuerza F dos uno apunta hacia la izquierda y actúa sobre q dos. Ambas fuerzas actúan la una hacia la otra y se representan con flechas de la misma longitud.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_Magnitude.jpg"/>
+</media>
+<caption>La fuerza electrostática <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> entre cargas de puntos <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> separadas por una distancia <emphasis effect="italics">r</emphasis> viene dada por la ley de Coulomb. Observe que la tercera ley de Newton (toda fuerza ejercida crea una fuerza igual y opuesta) se aplica como siempre: la fuerza sobre <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es igual en magnitud y opuesta en dirección a la fuerza que ejerce sobre <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. (a) Cargas similares; (b) cargas diferentes.</caption>
+</figure>
+<para id="fs-id1172099472678">Es importante tener en cuenta que la fuerza eléctrica no es constante; es una función de la distancia de separación entre las dos cargas. Si la carga de prueba o la carga fuente (o ambas) se mueven, entonces <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> cambia, y por lo tanto también lo hace la fuerza. Una consecuencia inmediata de esto es que la aplicación directa de las leyes de Newton con esta fuerza puede ser matemáticamente difícil, dependiendo del problema específico en cuestión. Se puede (normalmente) hacer, pero casi siempre buscamos métodos más sencillos para calcular cualquier cantidad física que nos interese. (La conservación de la energía es la opción más común).</para>
+<para id="fs-id1172101974787">Por último, la nueva constante <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> en la ley de Coulomb se llama la <emphasis effect="italics">permeabilidad del espacio libre</emphasis>, o (mejor) la <term>permitividad del vacío</term>. Tiene un significado físico muy importante que discutiremos en un capítulo posterior; por ahora, es simplemente una constante de proporcionalidad empírica. Su valor numérico (con tres cifras significativas) resulta ser</para>
+<equation id="fs-id1172099511638" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101855087">Estas unidades son necesarias para dar a la fuerza en la ley de Coulomb las unidades correctas de newtons. Observe que en la ley de Coulomb, la permitividad del vacío es solo una parte de la constante de proporcionalidad. Por comodidad, solemos definir una constante de Coulomb:</para>
+<equation id="fs-id1172099755533" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mi>e</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8,99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<example id="fs-id1172099489022">
+<para id="fs-id1172099585260"><title>La fuerza sobre el electrón en el hidrógeno</title>
+Un átomo de hidrógeno está formado por un solo protón y un solo electrón. El protón tiene una carga de <m:math><m:mrow><m:mtext>+</m:mtext><m:mi>e</m:mi></m:mrow></m:math> y el electrón tiene <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>e</m:mi></m:mrow></m:math>. En el "estado fundamental" del átomo, el electrón orbita alrededor del protón a la distancia más probable de <m:math><m:mrow><m:mn>5,29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> (<link target-id="CNX_UPhysics_22_03_HForce"/>). Calcule la fuerza eléctrica sobre el electrón debido al protón.</para>
+<figure id="CNX_UPhysics_22_03_HForce">
+<media id="fs-id1172099501398" alt="Se muestra una carga positiva en el centro de una esfera de radio r. Un electrón se representa como una partícula en la esfera. La fuerza sobre el electrón es a lo largo del radio, hacia el núcleo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_HForce.jpg"/>
+</media>
+<caption>Representación esquemática de un átomo de hidrógeno, mostrando la fuerza sobre el electrón. Esta representación es solo para permitirnos calcular la fuerza; el átomo de hidrógeno no tiene realmente este aspecto. Recuerde la <link document="m90853" target-id="CNX_UPhysics_22_01_Atom"/>.</caption>
+</figure>
+<para id="fs-id1172101755022"><title>Estrategia</title>
+Para este ejemplo, tratamos al electrón y al protón como dos partículas puntuales, cada una con una carga eléctrica, y se nos dice la distancia entre ellas; se nos pide que calculemos la fuerza sobre el electrón. Por lo tanto, utilizamos la ley de Coulomb.</para>
+<para id="fs-id1172099514516"><title>Solución</title>
+Nuestras dos cargas y la distancia entre ellas son,</para>
+<equation id="fs-id1172099910051" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>+</m:mtext><m:mi>e</m:mi><m:mo>=</m:mo><m:mtext>+</m:mtext><m:mn>1,602</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>−1,602</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>r</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5,29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1172101838637">La magnitud de la fuerza sobre el electrón es</para>
+<equation id="fs-id1172099559045" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ϵ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>e</m:mi><m:mo>|</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,602</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5,29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8,25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102143999">En cuanto a la dirección, dado que las cargas de las dos partículas son opuestas, la fuerza es atractiva; la fuerza sobre el electrón apunta radialmente de forma directa hacia el protón, en cualquier parte de la órbita del electrón. La fuerza se expresa así como</para>
+<equation id="fs-id1172099694822" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099835778"><title>Importancia</title>
+Se trata de un sistema tridimensional, por lo que el electrón (y, por tanto, la fuerza que se ejerce sobre él) puede estar en cualquier lugar de una envoltura esférica imaginaria alrededor del protón. En este modelo "clásico" del átomo de hidrógeno, la fuerza electrostática sobre el electrón apunta en la dirección centrípeta hacia adentro, manteniendo así la órbita del electrón. Pero hay que tener en cuenta que el modelo mecánico cuántico del hidrógeno (discutido en <link document="m91013">Mecánica cuántica</link>) es totalmente diferente.</para>
+</example>
+<note id="fs-id1172101841078" class="check-understanding">
+<exercise id="fs-id1172102150516">
+<problem id="fs-id1172102147044">
+<para id="fs-id1172102121201">¿Qué diferencia habría si el electrón también tuviera una carga positiva?</para>
+</problem>
+<solution id="fs-id1172102004454">
+<para id="fs-id1172099377124">La fuerza apuntaría hacia afuera.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1172099762734">
+<title>Cargas de origen múltiple</title>
+<para id="fs-id1172101924012">El análisis que hemos hecho para dos partículas puede extenderse a un número arbitrario de partículas; simplemente repetimos el análisis, dos cargas a la vez. En concreto, nos preguntamos: dadas <emphasis effect="italics">N</emphasis> cargas (a las que nos referimos como carga fuente), ¿cuál es la fuerza eléctrica neta que ejercen sobre alguna otra carga de puntos (a la que llamamos carga de prueba)? Observe que utilizamos estos términos porque podemos pensar que la carga de prueba se utiliza para probar la fuerza proporcionada por las cargas fuente.</para>
+<para id="fs-id1172102004552">Como todas las fuerzas que hemos visto hasta ahora, la fuerza eléctrica neta sobre nuestra carga de prueba es simplemente la suma vectorial de cada fuerza eléctrica individual ejercida sobre ella por cada una de las cargas fuente individuales. Así, podemos calcular la fuerza neta sobre la carga de prueba <emphasis effect="italics">Q</emphasis> calculando la fuerza sobre ella de cada carga fuente, tomada de una en una, y luego sumando todas esas fuerzas (como vectores). Esta capacidad de sumar simplemente las fuerzas individuales de esta manera se conoce como el <term>principio de superposición</term>, y es una de las características más importantes de la fuerza eléctrica. En forma matemática, esto se convierte en</para>
+<note id="fs-id1172102100498" class="equation-callout">
+<equation id="fs-id1172101928151"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mi>Q</m:mi><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mrow></m:mstyle><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>i</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172099408965">En esta expresión, <emphasis effect="italics">Q</emphasis> representa la carga de la partícula que experimenta la fuerza eléctrica <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>, y se encuentra en <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> desde el origen; los <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub><m:mtext>’s</m:mtext></m:mrow></m:math> son las <emphasis effect="italics">N</emphasis> cargas fuente, y los vectores <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>i</m:mi></m:msub></m:mrow></m:math> son los desplazamientos desde la posición de la <emphasis effect="italics">i</emphasis>-ésima carga hasta la posición de <emphasis effect="italics">Q</emphasis>. Cada uno de los <emphasis effect="italics">N</emphasis> vectores unitarios apunta directamente desde su carga fuente asociada hacia la carga de prueba. Todo esto está representado en la <link target-id="CNX_UPhysics_22_03_8Sources"/>. Tenga en cuenta que no hay ninguna diferencia física entre <emphasis effect="italics">Q</emphasis> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math>; la diferencia en las marcas es simplemente para permitir una discusión clara, siendo <emphasis effect="italics">Q</emphasis> la carga sobre la que estamos determinando la fuerza.</para>
+<figure id="CNX_UPhysics_22_03_8Sources">
+<media id="fs-id1172099736093" alt="Se muestran ocho cargas fuente como pequeñas esferas distribuidas en un sistema de coordenadas x y z. Las fuentes están marcadas como q sub 1, q sub 2, y así sucesivamente. Las fuentes 1, 2, 4, 7 y 8 están sombreadas en rojo y las fuentes 3, 5 y 6 en azul. También se muestra una carga de prueba, sombreada en verde y etiquetada como más Q. Los vectores r de cada fuente a la carga de prueba Q se muestran como flechas con colas en las fuentes y cabezas en la carga de prueba. El vector de q sub 1 a la carga de prueba se marca como r sub 1. El vector desde q sub 2 hasta la carga de prueba se marca como r sub 2, y así sucesivamente para los ocho vectores.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_8Sources.jpg"/>
+</media>
+<caption>Cada una de las ocho cargas fuente aplica una fuerza sobre la única carga de prueba <emphasis effect="italics">Q</emphasis>. Cada fuerza puede calcularse independientemente de las otras siete fuerzas. Esta es la esencia del principio de superposición.</caption>
+</figure>
+<para id="fs-id1172099538234">(Observe que el vector fuerza <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>i</m:mi></m:msub></m:mrow></m:math> no apunta necesariamente en la misma dirección que el vector unitario <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>i</m:mi></m:msub></m:mrow></m:math>; puede apuntar en la dirección opuesta, <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>i</m:mi></m:msub></m:mrow></m:math>. Los signos de la carga fuente y de la carga de prueba determinan la dirección de la fuerza sobre la carga de prueba).</para>
+<para id="fs-id1172099601806">Sin embargo, hay una complicación. Al igual que las cargas fuente ejercen cada una de ellas una fuerza sobre la carga de prueba, también (por la tercera ley de Newton) la carga de prueba ejerce una fuerza igual y opuesta sobre cada una de las cargas fuente. Como consecuencia, cada carga de la fuente cambiaría de posición. Sin embargo, según la <link target-id="fs-id1172101928151"/>, la fuerza sobre la carga de prueba es una función de la posición; por lo tanto, a medida que las posiciones de las cargas fuente cambian, la fuerza neta sobre la carga de prueba cambia necesariamente, lo que cambia la fuerza, que a su vez cambia las posiciones. Así, todo el análisis matemático se vuelve rápidamente intratable. Más adelante, aprenderemos técnicas para manejar esta situación, pero por ahora, hacemos la suposición simplificadora de que las cargas fuente están fijadas en su lugar de alguna manera, de modo que sus posiciones son constantes en el tiempo (la carga de prueba puede moverse). Con esta restricción, el análisis de las cargas se conoce como <term>electrostática</term>, donde "estática" se refiere a las posiciones constantes (es decir, estáticas) de las cargas fuente y la fuerza se denomina <term>fuerza electrostática</term>.</para>
+<example id="fs-id1172099475707">
+<para id="fs-id1172099909360"><title>La fuerza neta de dos cargas de origen</title>
+Se colocan tres pequeños objetos cargados diferentes como se muestra en la <link target-id="CNX_UPhysics_22_03_3Charges"/>. Las cargas <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> están fijadas en su lugar; <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es libre de moverse. Dado que <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>e</m:mi></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>e</m:mi></m:mrow></m:math>, y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>−5</m:mn><m:mi>e</m:mi></m:mrow></m:math>, y que <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, ¿cuál es la fuerza neta sobre la carga central <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>?</para>
+<figure id="CNX_UPhysics_22_03_3Charges">
+<media id="fs-id1172102146343" alt="Se muestran tres cargas en un sistema de coordenadas x y. La carga q sub 1 está en x=0, y=d. La carga q sub 2 está en x=2 d, y=0. La carga q sub 3 está en el origen. La fuerza F12 se ejerce sobre la carga q sub 2 y apunta hacia arriba. La fuerza F23 se ejerce sobre la carga q sub 2 y apunta hacia la izquierda. La fuerza F se ejerce sobre la carga q sub 2 y apunta a un ángulo theta sobre la dirección menos x.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_3Charges.jpg"/>
+</media>
+<caption>Cargas de la fuente <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> cada uno aplica una fuerza sobre <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1172099390872"><title>Estrategia</title>
+Volvemos a utilizar la ley de Coulomb. La forma en que se formula la pregunta indica que <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es nuestra carga de prueba, por lo que <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> son cargas de origen. El principio de superposición dice que la fuerza sobre <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> de cada una de las otras cargas no se ve afectada por la presencia de la otra carga. Por lo tanto, escribimos la fuerza sobre <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> de cada uno y sumamos como vectores.</para>
+<para id="fs-id1172102122912"><title>Solución</title>
+Tenemos dos cargas de origen <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> una carga de prueba <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> distancias <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>r</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> y se nos pide que encontremos una fuerza. Esto requiere la ley de Coulomb y la superposición de fuerzas. Hay dos fuerzas:</para>
+<equation id="fs-id1172099896236" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>23</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>21</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>23</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099542403">No podemos sumar estas fuerzas directamente porque no apuntan en la misma dirección <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>23</m:mn></m:mrow></m:msub></m:mrow></m:math> apunta solo en la dirección –<emphasis effect="italics">x</emphasis>, mientras que <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow></m:math> apunta solo en la dirección +<emphasis effect="italics">y</emphasis>. La fuerza neta se obtiene aplicando el teorema de Pitágoras a sus componentes <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis>:</para>
+<equation id="fs-id1172099604190" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>F</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>F</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt></m:mrow></m:math></equation>
+<para id="fs-id1172101888332">donde</para>
+<equation id="fs-id1172099604261" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>F</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mrow><m:mn>23</m:mn></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4,806</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mn>2,16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>−14</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1172102132240">y</para>
+<equation id="fs-id1172099504100" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mrow><m:mn>21</m:mn></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4,806</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,204</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>3,46</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1172099399179">Hallamos que</para>
+<equation id="fs-id1172101882504" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>F</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>F</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>4,08</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172101773358">en un ángulo de</para>
+<equation id="fs-id1172101932254" class="unnumbered"><label/><m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>3,46</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mn>-2,16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>-58</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099695624">es decir, <m:math><m:mrow><m:mn>58</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> por encima del eje –<emphasis effect="italics">x</emphasis>, como se muestra en el diagrama.</para>
+<para id="fs-id1172101674922"><title>Importancia</title>
+Observe que al sustituir los valores numéricos de las cargas, no incluimos el signo negativo de ninguna de ellas <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> o <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>. Recordemos que los signos negativos de las cantidades vectoriales indican una inversión de la dirección del vector en cuestión. Pero en el caso de las fuerzas eléctricas, la dirección de la fuerza viene determinada por los tipos (signos) de las dos cargas que interactúan; determinamos las direcciones de las fuerzas teniendo en cuenta si los signos de las dos cargas son iguales o son opuestos. Si además incluye los signos negativos de las cargas negativas al sustituir los números, corre el riesgo de invertir matemáticamente el sentido de la fuerza que está calculando. Por lo tanto, lo más seguro es calcular solo la magnitud de la fuerza, utilizando los valores absolutos de las cargas, y determinar las direcciones físicamente.</para>
+<para id="fs-id1172099627103">También vale la pena señalar que el único concepto nuevo en este ejemplo es cómo calcular las fuerzas eléctricas; todo lo demás (obtener la fuerza neta a partir de sus componentes, descomponer las fuerzas en sus componentes, hallar la dirección de la fuerza neta) es lo mismo que los problemas de fuerzas que ha hecho antes.</para>
+</example>
+<note id="fs-id1172099559933" class="check-understanding">
+<exercise id="fs-id1172097559395">
+<problem id="fs-id1172099534835">
+<para id="fs-id1172097262610">¿Qué sería diferente si <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> fuera negativos?</para>
+</problem>
+<solution id="fs-id1172099692895">
+<para id="fs-id1172099471419">La fuerza neta apuntaría <m:math><m:mrow><m:mn>58</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> por debajo del eje <emphasis effect="italics">x</emphasis>.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1172099623126" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172099455029" list-type="bulleted" bullet-style="bullet"><item>La ley de Coulomb da la magnitud del vector fuerza entre cargas de puntos. Es
+<equation id="fs-id1172099586199" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>12</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:math></equation>
+donde <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> son dos cargas de puntos separadas por una distancia <emphasis effect="italics">r</emphasis>. Esta fuerza de Coulomb es extremadamente básica, ya que la mayoría de las cargas se deben a partículas puntuales. Es responsable de todos los efectos electrostáticos y subyace a la mayoría de las fuerzas macroscópicas.</item>
+</list></section>
+<section id="fs-id1172102053876" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1172099512202">
+<problem id="fs-id1172102131619">
+<para id="fs-id1172099881184">¿Definir la carga de un electrón como positiva tendría algún efecto sobre la ley de Coulomb?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101788947">
+<problem id="fs-id1172099565873">
+<para id="fs-id1172099663788">Un núcleo atómico contiene protones con carga positiva y neutrones sin carga. Dado que los núcleos permanecen juntos, ¿qué debemos concluir sobre las fuerzas entre estas partículas nucleares?</para>
+</problem>
+<solution id="fs-id1172099391151">
+<para id="fs-id1172099390576">La fuerza que mantiene unido el núcleo debe ser mayor que la fuerza electrostática de repulsión de los protones.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172097273140">
+<problem id="fs-id1172097145494">
+<para id="fs-id1172099664859">¿La fuerza entre dos cargas fijas está influida por la presencia de otras cargas?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172101999615" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172097144446">
+<problem id="fs-id1172102121173">
+<para id="fs-id1172099531171">Dos partículas puntuales con cargas <m:math><m:mrow><m:mtext>+3</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mtext>+5</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> se mantienen en su lugar por fuerzas 3-N en cada carga en las direcciones apropiadas. (a) Dibuje un diagrama de cuerpo libre para cada partícula. (b) Calcule la distancia entre las cargas.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172097163561">
+<problem id="fs-id1172099692854">
+<para id="fs-id1172101774836">Dos cargas <m:math><m:mrow><m:mtext>+3</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mtext>+12</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> están fijadas a 1 m de distancia, con la segunda a la derecha. Halle la magnitud y la dirección de la fuerza neta sobre una carga de -2-nC cuando se coloca en los siguientes lugares: (a) a mitad de camino entre los dos, (b) a medio metro a la izquierda de la carga <m:math><m:mrow><m:mtext>+3</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math>; (c) medio metro por encima de la carga <m:math><m:mrow><m:mtext>+12</m:mtext><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> en dirección perpendicular a la línea que une las dos cargas fijas</para>
+</problem>
+<solution id="fs-id1172102129194">
+<para id="fs-id1172099516020">a. la carga 1 es <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math>; la carga 2 es <m:math><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mn>31</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2,16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> a la izquierda,<newline/> <m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mn>32</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>8,63</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> a la derecha,<newline/> <m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mtext>neto</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>6,47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> a la derecha;<newline/> b. <m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mn>31</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2,16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> a la derecha,<newline/> <m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mn>32</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>9,59</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> a la derecha,<newline/> <m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mtext>neto</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3,12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> a la derecha,<newline/>
+<media id="fs-id1172099890607" alt="Se muestran tres cargas. La carga 1 es una carga de 3 micro culombios en la parte inferior izquierda. La carga 2 es una carga de 12 microculombios en la parte inferior derecha, 1 metro a la derecha de la carga 1. La carga 3 es una carga de menos 2 nano culombios a 0,5 metros por encima de la carga 2. Las cargas definen un triángulo rectángulo, con la carga 2 en el ángulo recto. El ángulo en el vórtice con carga uno es theta. Se muestran las fuerzas sobre la carga tres. F31 apunta hacia abajo y hacia la izquierda, hacia la carga 1. La fuerza F32 puntos verticalmente hacia abajo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_P2ans_img.jpg"/>
+</media>;<newline/> c <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>31</m:mn><m:mi>x</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>-2,76</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>,<newline/> <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>31</m:mn><m:mi>y</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>-1,38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>,<newline/> <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>32</m:mn><m:mi>y</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>-8,63</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math><newline/> <m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>neto</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>-3,86</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>8,83</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd></m:mtr></m:mtable></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172099383646">
+<problem id="fs-id1172099414968">
+<para id="fs-id1172099760731">En un cristal de sal, la distancia entre los iones de sodio y cloruro adyacentes es <m:math><m:mrow><m:mn>2,82</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la fuerza de atracción entre los dos iones con carga simple?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101899950">
+<problem id="fs-id1172101760043">
+<para id="fs-id1172101922462">Los protones de un núcleo atómico suelen estar <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> aparte. ¿Cuál es la fuerza eléctrica de repulsión entre protones nucleares?</para>
+</problem>
+<solution id="fs-id1172099743293">
+<para id="fs-id1172099877481"><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>230,7</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101732516">
+<problem id="fs-id1172102121749">
+<para id="fs-id1172102150042">Supongamos que tanto la Tierra como la Luna llevan una carga neta negativa –<emphasis effect="italics">Q</emphasis>. Aproxime ambos cuerpos como masas puntuales y cargas de puntos.</para>
+<para id="fs-id1172101735570">(a) ¿Qué valor de <emphasis effect="italics">Q</emphasis> es necesario para equilibrar la atracción gravitatoria entre la Tierra y la Luna?</para>
+<para id="fs-id1172102115073">(b) ¿La distancia entre la Tierra y la Luna afecta su respuesta? Explique.</para>
+<para id="fs-id1172099534716">(c) ¿Cuántos electrones serían necesarios para producir esta carga?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102137332">
+<problem id="fs-id1172099902528">
+<para id="fs-id1172101788737">Las cargas de puntos <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>−25</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> se colocan a 1,0 m de distancia. ¿Cuál es la fuerza sobre una tercera carga <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> situada a medio camino entre <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172102132120">
+<para id="fs-id1172101748114"><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>53,94</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099525481">
+<problem id="fs-id1172099674460">
+<para id="fs-id1172102020750">¿Dónde debe <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>, del problema anterior, colocarse de forma que la fuerza neta sobre ella sea cero?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101729667">
+<problem id="fs-id1172099506686">
+<para id="fs-id1172102136189">Dos bolitas, cada una de ellas de 5,0 g de masa, están atadas a hilos de seda de 50 cm de longitud, que a su vez están atados al mismo punto del techo, como se muestra a continuación. Cuando las bolas reciben la misma carga <emphasis effect="italics">Q</emphasis>, los hilos cuelgan a <m:math><m:mrow><m:mn>5,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> a la vertical, como se muestra a continuación. ¿Cuál es la magnitud de <emphasis effect="italics">Q</emphasis>? ¿Cuáles son los signos de las dos cargas?</para>
+<media id="fs-id1172101765047" alt="Dos pequeñas bolas están unidas a hilos que a su vez están atados al mismo punto del techo. Los hilos cuelgan en un ángulo de 5,0 grados a cada lado de la vertical. Cada bola tiene una carga Q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_Ex8_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101880513">
+<para id="fs-id1172102103281">La tensión es <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0,049</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>. El componente horizontal de la tensión es <m:math><m:mrow><m:mn>0,0043</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math><newline/> <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>0,088</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mspace width="1em"/><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>6,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math>.<newline/> Las cargas pueden ser positivas o negativas, pero ambas tienen que ser del mismo signo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102028786">
+<problem id="fs-id1172102070807">
+<para id="fs-id1172102100388">Las cargas de puntos <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> se encuentran en <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>2,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>5,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>k</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mtext>m</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>5,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>9,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>k</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>. ¿Cuál es la fuerza de <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> en <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099730376">
+<problem id="fs-id1172097384341">
+<para id="fs-id1172099646785">El exceso de carga neto en dos pequeñas esferas (lo suficientemente pequeñas como para ser tratadas como cargas de puntos) es <emphasis effect="italics">Q</emphasis>. Demuestre que la fuerza de repulsión entre las esferas es mayor cuando cada esfera tiene un exceso de carga <emphasis effect="italics">Q</emphasis>/2. Supongamos que la distancia entre las esferas es tan grande, comparada con sus radios, que las esferas pueden ser tratadas como cargas de puntos.</para>
+</problem>
+<solution id="fs-id1172102151503">
+<para id="fs-id1172099524021">Sea la carga de una de las esferas <emphasis effect="italics">nQ</emphasis>, donde <emphasis effect="italics">n</emphasis> es una fracción entre 0 y 1. En el numerador de la ley de Coulomb, el término que involucra las cargas es <m:math><m:mrow><m:mi>n</m:mi><m:mi>Q</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mi>Q</m:mi><m:mo>.</m:mo></m:mrow></m:math> Esto es igual a <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mi>Q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Al hallar el máximo de este término se obtiene <m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">⇒</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172099506982">
+<problem id="fs-id1172099546649">
+<para id="fs-id1172099693388">Dos pequeñas esferas conductoras idénticas se repelen con una fuerza de 0,050 N cuando están separadas 0,25 m. Después de conectar un cable conductor entre las esferas y retirarlo, éstas se repelen con una fuerza de 0,060 N. ¿Cuál es la carga original de cada esfera?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101775594">
+<problem id="fs-id1172101659525">
+<para id="fs-id1172101879920">Una carga <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> se sitúa en el punto <emphasis effect="italics">P</emphasis> que se muestra a continuación. ¿Cuál es la fuerza sobre <emphasis effect="italics">q</emphasis>?</para>
+<media id="fs-id1172101793656" alt="Se muestran dos cargas colocadas en una línea horizontal y separadas por 2,0 metros. La carga de la izquierda es una carga positiva de 1,0 microculombios. La carga de la derecha es una carga negativa de 2,0 microculombios. El punto P está a 1,0 a la derecha de la carga negativa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_Prob12_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099376641">
+<para id="fs-id1172099613110">Definiendo que la derecha es la dirección positiva y que la izquierda es la dirección negativa, entonces <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>-0,05</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101659337">
+<problem id="fs-id1172101659339">
+<para id="fs-id1172099762991">¿Cuál es la fuerza eléctrica neta sobre la carga situada en el ángulo inferior derecho del triángulo mostrado aquí?</para>
+<media id="fs-id1172101753608" alt="Las cargas se muestran en los vértices de un triángulo equilátero con lados de longitud a. El fondo del triángulo está en el eje x de un sistema de coordenadas x y, y el vórtice inferior izquierdo está en el origen. La carga en el origen es positiva q. La carga en la esquina inferior derecha también es positiva q. La carga en el vórtice superior es negativa dos q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_Prob13_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172099603916">
+<problem id="fs-id1172099603918">
+<para id="fs-id1172097227946">Dos partículas fijas, cada una con carga <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> están separados por 24 cm. ¿Qué fuerza ejercen sobre una tercera partícula de carga <m:math><m:mrow><m:mn>−2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> que está a 13 cm de cada uno de ellos?</para>
+</problem>
+<solution id="fs-id1172102105977">
+<para id="fs-id1172099922301">Las partículas forman un triángulo de lados 13, 13 y 24 cm. Los componentes <emphasis effect="italics">x</emphasis> se anulan, mientras que hay una contribución al componente <emphasis effect="italics">y</emphasis> de ambas cargas separadas por 24 cm. El eje <emphasis effect="italics">y</emphasis> que pasa por la tercera carga biseca la línea de 24 cm crean dos triángulos rectos de lados 5, 12 y 13 cm.<newline/> <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mn>2,56</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> en la dirección <emphasis effect="italics">y</emphasis> negativa ya que la fuerza es atractiva. La fuerza neta de ambas cargas es <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>neto</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>-5,12</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101783420">
+<problem id="fs-id1172101783422">
+<para id="fs-id1172097139450">Las cargas <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>−4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C,</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>−1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> se colocan en las esquinas del triángulo que se muestra a continuación. ¿Cuál es la fuerza sobre <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>?</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172099546574" alt="Las cargas se muestran en los vórtices de un triángulo rectángulo. El fondo del triángulo tiene una longitud de 4 metros, el lado vertical de la izquierda tiene una longitud de 3 metros y la hipotenusa tiene una longitud de 5 metros. La carga de arriba es q sub uno y positiva, la de abajo a la izquierda es q sub 3 y negativa, y la de abajo a la derecha es q sub 2 y negativa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_Prob15_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172099451626">
+<problem id="fs-id1172099451628">
+<para id="fs-id1172099895612">¿Cuál es la fuerza sobre la carga <emphasis effect="italics">q</emphasis> en la esquina inferior derecha del cuadrado mostrado aquí?</para>
+<media id="fs-id1172102121401" alt="Las cargas se muestran en las esquinas de un cuadrado con lados de longitud a. Todas las cargas son positivas y todas son de magnitud q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_03_Prob16_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099560400">
+<para id="fs-id1172099560403">La diagonal es <m:math><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>a</m:mi></m:mrow></m:math> y los componentes de la fuerza debida a la carga diagonal tienen un factor <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math><newline/> <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>F</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>neto</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>k</m:mi><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>k</m:mi><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172097198688">
+<problem id="fs-id1172099491727">
+<para id="fs-id1172099491729">Las cargas de puntos <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>−30</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> se fijan en <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>4,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>m</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>6,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la fuerza de <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>en</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172097136646">
+<term>fuerza de Coulomb</term>
+<meaning id="fs-id1172097136651">otro término para la fuerza electrostática</meaning>
+</definition>
+<definition id="fs-id1172101749287">
+<term>Ley de Coulomb</term>
+<meaning id="fs-id1172101730176">ecuación matemática que calcula el vector de fuerza electrostática entre dos partículas cargadas</meaning>
+</definition>
+<definition id="fs-id1172101877135">
+<term>fuerza electrostática</term>
+<meaning id="fs-id1172099576415">cantidad y dirección de la atracción o repulsión entre dos cuerpos cargados; se supone que las cargas fuente no tienen aceleración</meaning>
+</definition>
+<definition id="fs-id1172099576420">
+<term>electroestática</term>
+<meaning id="fs-id1172097150050">estudio de los objetos cargados que no están en movimiento</meaning>
+</definition>
+<definition id="fs-id1172099743192">
+<term>permitividad del vacío</term>
+<meaning id="fs-id1172099695443">también llamada permeabilidad del espacio libre, y constante que describe la fuerza eléctrica en el vacío</meaning>
+</definition>
+<definition id="fs-id1172102095395">
+<term>principio de superposición</term>
+<meaning id="fs-id1172102095400">el hecho de que podamos sumar simplemente todas las fuerzas debidas a las cargas que actúan sobre un objeto</meaning>
+</definition>
+</glossary>
+</document>

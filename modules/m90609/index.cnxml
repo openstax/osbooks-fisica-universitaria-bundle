@@ -1,0 +1,147 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Estimaciones y cálculos de Fermi</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90609</md:content-id>
+  <md:title>Estimaciones y cálculos de Fermi</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Estimar los valores de las cantidades físicas.</item>
+</list></md:abstract>
+  <md:uuid>9ebd7179-7620-487b-8726-da950756661c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168329050736">En muchas ocasiones, los físicos, otros científicos e ingenieros necesitan hacer <emphasis effect="italics">estimaciones</emphasis> de una cantidad determinada. Otros términos que se emplean a veces son <emphasis effect="italics">estimaciones a partir de conjeturas</emphasis>, <emphasis effect="italics">aproximaciones de orden de magnitud</emphasis>, <emphasis effect="italics">cálculos de servilleta</emphasis> o <emphasis effect="italics">cálculos de Fermi</emphasis>. (El físico Enrico Fermi, mencionado anteriormente, era famoso por su capacidad para estimar diversos tipos de datos con una precisión sorprendente). ¿Cabrá ese equipo en la parte trasera del auto o tendremos que alquilar un camión? ¿Cuánto tiempo durará esta descarga? ¿Qué tanta corriente habrá en este circuito cuando se encienda? ¿Cuántas casas podría alimentar realmente una central eléctrica propuesta si se construye? Tenga en cuenta que estimar no significa adivinar un número o una fórmula al azar. Mejor dicho, la <term>estimación</term> significa utilizar la experiencia previa y el razonamiento físico sólido para llegar a una idea aproximada del valor de una cantidad. Dado que el proceso para determinar una aproximación fiable implica la identificación de principios físicos correctos y una conjetura apropiada acerca de las variables pertinentes, la estimación es muy útil para desarrollar la intuición física. Las estimaciones también nos permiten realizar "comprobaciones de cordura" en los cálculos o las propuestas políticas, ya que nos ayudan a descartar determinados escenarios o cifras poco realistas. Nos permiten desafiar a los demás (y a nosotros mismos) en nuestros esfuerzos por aprender verdades sobre el mundo.</para><para id="fs-id1168326752696">Muchas estimaciones se basan en fórmulas en las que las cantidades de entrada solo se conocen con una precisión limitada. A medida que desarrolle sus habilidades para resolver problemas de física (que se aplican a una amplia variedad de campos), también desarrollará sus habilidades para estimar. Estas habilidades se desarrollan pensando de forma más cuantitativa y estando dispuesto a asumir riesgos. Como con cualquier habilidad, la experiencia ayuda. También ayuda la familiaridad con las dimensiones (vea la <link target-id="fs-id1168328269910" document="m90608"/>) y las unidades (vea la <link target-id="fs-id1168326798535" document="m90606"/> y la <link target-id="fs-id1168326843228" document="m90606"/>), así como las escalas de las cantidades base (vea la <link target-id="CNX_UPhysics_01_01_MagnitTb" document="m90605"/>).</para>
+<para id="fs-id1168329183685">Para progresar en la estimación, es necesario tener algunas ideas definidas sobre cómo pueden estar relacionadas las variables. Las siguientes estrategias sirven para practicar el arte de la estimación:</para>
+<list id="fs-id1168329489376" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="italics">Obtener grandes longitudes a partir de longitudes más pequeñas.</emphasis> Al estimar las longitudes, recuerde que cualquier cosa puede ser una regla. Así, imagine que divide una cosa grande en cosas más pequeñas, estime la longitud de una de las cosas más pequeñas y multiplique para obtener la longitud de la cosa grande. Por ejemplo, para estimar la altura de un edificio, primero cuente cuántos pisos tiene. Luego, estime el tamaño de un solo piso; imagine cuántas personas tendrían que subirse a los hombros de otras para alcanzar el techo. Por último, estime la altura de una persona. El producto de estas tres estimaciones es su estimación de la altura del edificio. Resulta útil haber memorizado algunas escalas pertinentes de longitud para el tipo de problemas que estará resolviendo. Por ejemplo, conocer algunas de las escalas de longitud en la <link target-id="CNX_UPhysics_01_01_MagnitTb" document="m90605"/> sería práctico. A veces también ayuda hacer esto a la inversa, es decir, para estimar la longitud de una cosa pequeña, imagine un montón de ellas formando una cosa más grande. Por ejemplo, para estimar el grosor de una hoja de papel, calcule el grosor de una pila de papel y luego divídala entre el número de páginas de la pila. Estas mismas estrategias de dividir las cosas grandes en cosas más pequeñas o de sumar las cosas más pequeñas para dar una cosa más grande pueden utilizarse a veces para estimar otras cantidades físicas, como las masas y los tiempos.</item>
+<item><emphasis effect="italics">Obtener áreas y volúmenes a partir de longitudes.</emphasis> Cuando se trate de un área o un volumen de un objeto complejo, introduzca un modelo sencillo del objeto, como una esfera o una caja. A continuación, estime primero las dimensiones lineales (como el radio de la esfera o la longitud, ancho y altura de la caja) y utilice sus estimaciones para obtener el volumen o el área a partir de fórmulas geométricas estándar. Si tiene una estimación del área o del volumen de un objeto, también puede hacer lo contrario, es decir, utilizar fórmulas geométricas estándar para obtener una estimación de sus dimensiones lineales.</item>
+<item><emphasis effect="italics">Obtener masas a partir de volúmenes y densidades.</emphasis> Al estimar las masas de los objetos, serviría primero estimar su volumen y luego estimar su masa a partir de una estimación aproximada de su densidad media (recordemos que la densidad tiene la dimensión de la masa sobre longitud al cubo, por lo que la masa es densidad por volumen). Para ello, conviene recordar que la densidad del aire es de aproximadamente 1 kg/m<sup>3</sup>, la del agua es de 10<sup>3</sup> kg/m<sup>3</sup> y los sólidos más densos de la vida cotidiana alcanzan un máximo de 10<sup>4</sup> kg/m<sup>3</sup>. Preguntarse si un objeto flota o se hunde en el aire o en el agua le da una estimación aproximada de su densidad. También se puede hacer a la inversa; si tiene una estimación de la masa de un objeto y su densidad, puede utilizar esto para obtener una estimación de su volumen.</item>
+<item><emphasis effect="italics">Si todo lo demás falla, limítelo.</emphasis> En cuanto a las cantidades físicas para las que no tiene mucha intuición, a veces lo mejor que puede hacer es pensar algo así: debe ser más grande que esto y más pequeño que aquello. Por ejemplo, supongamos que hay que calcular la masa de un alce. Tal vez tenga mucha experiencia con los alces y conozca de memoria su masa media. Si es así, genial. Pero para la mayoría de la gente, lo mejor que pueden hacer es pensar algo así: debe ser mayor que una persona (del orden de 10<sup>2</sup> kg) y menor que un auto (del orden de 10<sup>3</sup> kg). Si necesita un solo número para un cálculo posterior, puede tomar la media geométrica del límite superior y del inferior, es decir, los multiplica y luego saca la raíz cuadrada. Para el ejemplo de la masa del alce, esto sería <equation id="fs-id1168326851270" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>0,5</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>2,5</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>0,5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mo>≈</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation> Cuanto más estrechos sean los límites, mejor. Además, no hay reglas inquebrantables cuando se trata de la estimación. Si cree que el valor de la cantidad puede estar más cerca del límite superior que del inferior, puede aumentar su estimación de la media geométrica en un orden o dos de magnitud.</item>
+<item><emphasis effect="italics">Una cifra significativa está bien.</emphasis> No es necesario ir más allá de una cifra significativa (significant figure, sig. fig.) cuando se hacen cálculos para obtener una estimación. En la mayoría de los casos, el orden de magnitud es suficiente. La meta es solo obtener una cifra aproximada, así que mantenga la aritmética lo más sencilla posible.</item>
+<item><emphasis effect="italics">Pregúntese: ¿tiene esto algún sentido?</emphasis> Por último, compruebe si su respuesta es razonable. ¿Cómo se compara con los valores de otras cantidades con las mismas dimensiones que ya conoce o que puede buscar fácilmente? Si obtiene alguna respuesta descabellada (por ejemplo, si estima que la masa del océano Atlántico es mayor que la masa de la Tierra, o que algún lapso es mayor que la edad del universo), compruebe primero si sus unidades son correctas. A continuación, compruebe si hay errores aritméticos. Luego, replantee la lógica que ha utilizado para llegar a su respuesta. Si todo está bien, es posible que acabe por demostrar que alguna nueva idea ingeniosa es realmente falsa.</item>
+</list>
+<example id="fs-id1168329192865">
+<para id="fs-id1168326794609">
+<title>Masa de los océanos de la Tierra</title>
+Estime la masa total de los océanos de la Tierra.</para>
+<para id="fs-id1168328984206">
+<title>Estrategia</title>
+Sabemos que la densidad del agua es de unos 10<sup>3</sup> kg/m<sup>3</sup>, así que partimos del consejo de "obtener masas a partir de densidades y volúmenes". Por lo tanto, necesitamos estimar el volumen de los océanos del planeta. Siguiendo el consejo de "obtener áreas y volúmenes a partir de las longitudes", podemos estimar el volumen de los océanos como área de superficie por profundidad media, o <emphasis effect="italics">V</emphasis> = <emphasis effect="italics">AD</emphasis>. Conocemos el diámetro de la Tierra por la <link target-id="CNX_UPhysics_01_01_MagnitTb" document="m90605"/> y sabemos que la mayor parte de la superficie terrestre está cubierta de agua, por lo que podemos estimar que la superficie de los océanos es aproximadamente igual a la superficie del planeta. Siguiendo el consejo de "obtener áreas y volúmenes a partir de longitudes" de nuevo, podemos aproximar la Tierra como una esfera y utilizar la fórmula del área de superficie de una esfera de diámetro <emphasis effect="italics">d,</emphasis> es decir, <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> para estimar el área de superficie de los océanos. Ahora solo tenemos que calcular la profundidad media de los océanos. Para ello, utilizamos el consejo: "Si todo lo demás falla, limítelo". Resulta que sabemos que los puntos más profundos del océano están en torno a los 10 km y que no es raro que el océano tenga más de 1 km de profundidad, así que tomamos la profundidad media alrededor de <m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>0,5</m:mn></m:mrow></m:msup><m:mo>≈</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>m.</m:mtext></m:mrow></m:math> Ahora solo hay que unirlo todo, atendiendo al consejo de que "una ‘cifra significativa’ está bien".</para>
+<para id="fs-id1168329155017">
+<title>Solución</title>
+Estimamos que la superficie de la Tierra (y por lo tanto la superficie de los océanos de la Tierra) es aproximadamente</para>
+<equation id="fs-id1168329418990" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>≈</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168329387106">A continuación, con nuestra estimación de profundidad media de <m:math><m:mrow><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>m,</m:mtext></m:mrow></m:math> que se obtuvo por limitación, estimamos que el volumen de los océanos de la Tierra es</para>
+<equation id="fs-id1168326838054" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>D</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168329335642">Por último, estimamos que la masa de los océanos del mundo es</para>
+<equation id="fs-id1168326823679" class="unnumbered"><label/><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>20</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math> </equation>
+<para id="fs-id1168329146055">Así, estimamos que el orden de magnitud de la masa de los océanos del planeta es de 10<sup>21</sup> kg.</para>
+<para id="fs-id1168326835535">
+<title>Importancia</title>
+Para verificar nuestra respuesta de la mejor manera posible, primero tenemos que responder la pregunta: ¿tiene esto algún sentido? En la <link target-id="CNX_UPhysics_01_01_MagnitTb" document="m90605"/>, vemos que la masa de la atmósfera terrestre es del orden de 10<sup>19</sup> kg y la masa de la Tierra es del orden de 10<sup>25</sup> kg. Resulta tranquilizador que nuestra estimación de 10<sup>21</sup> kg para la masa de los océanos de la Tierra se sitúe entre estos dos valores. Así que, sí, parece tener sentido. Resulta que hicimos una búsqueda en la web de "masa de los océanos" y los primeros resultados decían todos <m:math><m:mrow><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:msup><m:mtext>kg,</m:mtext></m:mrow></m:math> que es el mismo orden de magnitud que nuestra estimación. Ahora, en lugar de tener que confiar ciegamente en quién publicó por primera vez esa cifra en un sitio web (al fin y al cabo, la mayoría de los demás sitios probablemente se limitaron a copiarla), podemos tener un poco más de confianza en dicha cifra.</para>
+</example>
+<note id="fs-id1168329466069" class="check-understanding">
+<exercise id="fs-id1168329067631">
+<problem id="fs-id1168329419070">
+<para id="fs-id1168329007294"> La <link target-id="CNX_UPhysics_01_01_MagnitTb" document="m90605"/> dice que la masa de la atmósfera es de 10<sup>19</sup> kg. Suponiendo que la densidad de la atmósfera es de 1 kg/m<sup>3</sup>, estime la altura de la atmósfera terrestre. ¿Cree que su respuesta es una subestimación o una sobreestimación? Explique por qué.</para>
+</problem>
+<solution id="fs-id1168329060483">
+<para id="fs-id1168329007269"><m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> o 30 km. Probablemente sea una subestimación porque la densidad de la atmósfera disminuye con la altitud. (De hecho, 30 km ni siquiera nos sacan de la estratosfera).</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168328984109">¿Cuántos afinadores de piano hay en Nueva York? ¿Cuántas hojas tiene ese árbol? Si está estudiando la fotosíntesis o está pensando en escribir una aplicación para teléfonos inteligentes destinada a los afinadores de pianos, las respuestas a estas preguntas pueden ser de gran interés para usted. Si no, probablemente no le importen las respuestas. Sin embargo, estos son exactamente los tipos de problemas de estimación que la gente de varias industrias tecnológicas ha estado pidiendo a los empleados potenciales para evaluar sus habilidades de razonamiento cuantitativo. Si la construcción de la intuición física y la evaluación de las afirmaciones cuantitativas no parecen razones suficientes para que practique los problemas de estimación, ¿qué le parece el hecho de que ser bueno en ellos podría conseguirle un trabajo bien remunerado?</para>
+<note id="fs-id1168326871206" class="media-2">
+<para id="fs-id1168329086472">Para practicar la estimación de longitudes, áreas y volúmenes relativos, consulte esta simulación de <link url="https://openstax.org/l/21lengthgame">PhET</link>, titulada "Estimación".</para>
+</note>
+<section id="fs-id1168329183802" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1168329306130" list-type="bulleted" bullet-style="bullet">
+<item>Una estimación es una conjetura aproximada del valor de una cantidad física basada en la experiencia previa y en un razonamiento físico sólido. Algunas estrategias que pueden ayudar a la hora de hacer una estimación son las siguientes: <list id="fs-id1168326787355" list-type="bulleted" bullet-style="bullet">
+<item>Obtener grandes longitudes a partir de longitudes más pequeñas.</item>
+<item>Obtener áreas y volúmenes a partir de longitudes.</item>
+<item>Obtener masas a partir de volúmenes y densidades.</item>
+<item>Si todo lo demás falla, limítelo.</item>
+<item>Una “cifra significativa" está bien.</item>
+<item>Pregúntese: ¿tiene esto algún sentido?</item>
+</list>
+</item>
+</list>
+</section>
+<section id="fs-id1168329454338" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1168329265263">
+<problem id="fs-id1168329117682">
+<para id="fs-id1168328996680">Suponiendo que el cuerpo humano está formado principalmente por agua, estime el volumen de una persona.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168329443498">
+<problem id="fs-id1168329020838">
+<para id="fs-id1168329145968">Suponiendo que el cuerpo humano está formado principalmente por agua, estime el número de moléculas que contiene. (Tenga en cuenta que el agua tiene una masa molecular de 18 g/mol y que hay aproximadamente 10<sup>24</sup> átomos en un mol).</para>
+</problem>
+<solution id="fs-id1168329454222">
+<para id="fs-id1168326796481">10<sup>28</sup> átomos</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329174656">
+<problem id="fs-id1168329269081">
+<para id="fs-id1168329084745">Estime la masa del aire en un aula.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168329016670">
+<problem id="fs-id1168329319528">
+<para id="fs-id1168326757878">Estime el número de moléculas que componen la Tierra, suponiendo una masa molecular media de 30 g/mol. (Tenga en cuenta que están en el orden de 10<sup>24</sup> objetos por mol).</para>
+</problem>
+<solution id="fs-id1168329033770">
+<para id="fs-id1168329116574">10<sup>51</sup> moléculas</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329013612">
+<problem id="fs-id1168326781263">
+<para id="fs-id1168326860623">Estime el área de superficie de una persona.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168329316890">
+<problem id="fs-id1168329137897">
+<para id="fs-id1168329317321">Aproximadamente, ¿cuántos sistemas solares harían falta para embaldosar el disco de la Vía Láctea?</para>
+</problem>
+<solution id="fs-id1168326777997">
+<para id="fs-id1168329518503">10<sup>16</sup> sistemas solares</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329081168">
+<problem id="fs-id1168329046979">
+<para id="fs-id1168329160686">(a) Estime la densidad de la Luna. (b) Estime el diámetro de la Luna. (c) Dado que la Luna subtiende en un ángulo de aproximadamente medio grado en el cielo, estime su distancia a la Tierra.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168326860046">
+<problem id="fs-id1168329517467">
+<para id="fs-id1168326776666">La densidad media del Sol es del orden de 10<sup>3</sup> kg/m<sup>3</sup>. (a) Estime el diámetro del Sol. (b) Dado que el Sol subtiende en un ángulo de aproximadamente medio grado en el cielo, estime su distancia a la Tierra.</para>
+</problem>
+<solution id="fs-id1168328979226">
+<para id="fs-id1168328982249">a. Volumen = 10<sup>27</sup> m<sup>3</sup>, el diámetro es de 10<sup>9</sup> m.; b. 10<sup>11</sup> m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329155412">
+<problem id="fs-id1168329464006">
+<para id="fs-id1168329050600">Estime la masa de un virus.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168326791766">
+<problem id="fs-id1168329511752">
+<para id="fs-id1168329138592">Una operación en coma flotante es una única operación aritmética como la suma, la resta, la multiplicación o la división. (a) Estime el número máximo de operaciones en coma flotante que un ser humano podría realizar en toda su vida. (b) ¿Cuánto tiempo tardaría una supercomputadora en realizar esa cantidad de operaciones en coma flotante?</para>
+</problem>
+<solution id="fs-id1168329176126">
+<para id="fs-id1168329105506">a. Una estimación razonable podría ser una operación por segundo para un total de 10<sup>9</sup> en toda la vida; b. unos (10<sup>9</sup>)(10<sup>-17</sup> s) = 10<sup>-8</sup> s, o unos 10 nanosegundos (ns)</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1168329323271">
+<term>estimación</term>
+<meaning id="fs-id1168326843641">utilizar la experiencia previa y el razonamiento físico sólido para llegar a una idea aproximada del valor de una cantidad; a veces se denomina "aproximación del orden de magnitud", "estimación a partir de conjetura", "cálculo de servilleta" o "cálculo de Fermi"</meaning>
+</definition>
+</glossary>
+</document>

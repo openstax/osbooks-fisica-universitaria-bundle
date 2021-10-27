@@ -1,0 +1,284 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Energía eléctrica y potencia</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90892</md:content-id>
+  <md:title>Energía eléctrica y potencia</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Expresar potencia eléctrica en términos de voltaje y corriente.</item>
+<item>Describir la potencia disipada por un resistor en un circuito eléctrico.</item>
+<item>Calcular la eficiencia energética y la rentabilidad de aparatos y equipos.</item>
+</list></md:abstract>
+  <md:uuid>d929e7a4-c8cd-4674-bf2e-cff97f5e45c1</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170902157862">En un circuito eléctrico, la energía eléctrica se convierte continuamente en otras formas de energía. Por ejemplo, cuando una corriente fluye en un conductor, la energía eléctrica se convierte en energía térmica dentro de él. El campo eléctrico, suministrado por la fuente de voltaje, acelera los electrones libres, aumentando su energía cinética durante un breve lapso. Este aumento de la energía cinética se convierte en energía térmica a través de las colisiones con los iones de la estructura reticular del conductor. En <link document="m90643">Trabajo y energía cinética</link> definimos la potencia como la tasa a la que una fuerza medida en vatios realiza el trabajo. La potencia también puede definirse como la tasa a la que se transfiere la energía. En esta sección discutiremos la tasa de transferencia de energía, o potencia, en un circuito eléctrico.</para>
+<section id="fs-id1170902274398">
+<title>La potencia en los circuitos eléctricos</title>
+<para id="fs-id1170902535355">Muchas personas asocian la potencia con la electricidad. Se puede pensar en las líneas de transmisión de potencia. También pensamos en las bombillas en función de su potencia en vatios. ¿Cuál es la expresión de la <term>potencia eléctrica</term>?</para>
+<para id="fs-id1170904140937">Comparemos una bombilla de 25 W con una de 60 W (<link target-id="CNX_UPhysics_26_05_LightBulbs"/>(a)). La bombilla de 60 W brilla más que la de 25 W. Aunque no se muestra, una bombilla de 60 W también es más caliente que la de 25 W. El calor y la luz se producen a partir de la conversión de la energía eléctrica. La energía cinética que pierden los electrones en las colisiones se convierte en energía interna del conductor y en radiación. ¿Cómo se relacionan el voltaje, la corriente y la resistencia con la potencia eléctrica?</para>
+<figure id="CNX_UPhysics_26_05_LightBulbs">
+<media id="fs-id1170902247090" alt="La imagen A muestra fotografías de dos bombillas incandescentes encendidas. La imagen B muestra una fotografía de una bombilla fluorescente compacta encendida.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_05_LightBulbs.jpg"/>
+</media>
+<caption>(a) En la imagen superior aparecen dos bombillas incandescentes: una de 25 W (izquierda) y otra de 60 W (derecha). La bombilla de 60 W proporciona una luz de mayor intensidad que la bombilla de 25 W. La energía eléctrica suministrada a las bombillas se convierte en calor y luz. (b) Esta lámpara fluorescente compacta (CFL) emite la misma intensidad de luz que la bombilla de 60 W, pero con 1/4 a 1/10 de la potencia de entrada (créditos a: modificación de trabajos de "Dickbauch"/Wikimedia Commons y Greg Westfall; créditos b: modificación de trabajos de “dbgg1979”/Flickr).</caption>
+</figure>
+<para id="fs-id1170902204281">Para calcular la potencia eléctrica, considere una diferencia de voltaje existente a través de un material (<link target-id="CNX_UPhysics_26_05_PowerDer"/>). El potencial eléctrico <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es mayor que el potencial eléctrico en <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, y la diferencia de voltaje es negativa <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>. Como se comentó en <link document="m90874">Potencial eléctrico</link>, existe un campo eléctrico entre los dos potenciales que apunta desde el potencial superior al inferior. Recordemos que el potencial eléctrico se define como la energía potencial por carga, <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mtext>/</m:mtext><m:mi>q</m:mi></m:mrow></m:math>, y la carga <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow></m:math> pierde energía potencial al desplazarse por la diferencia de potencial.</para>
+<figure id="CNX_UPhysics_26_05_PowerDer">
+<media id="fs-id1170902299825" alt="La imagen es un dibujo esquemático de una carga puntual moviéndose a través del conductor desde la zona con un potencial más alto V1 hasta la zona con el potencial más bajo V2. La distancia entre las zonas es Delta L.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_05_PowerDer.jpg"/>
+</media>
+<caption>Cuando hay una diferencia de potencial a través de un conductor, existe un campo eléctrico que apunta en la dirección del potencial más alto al más bajo.</caption>
+</figure>
+<para id="fs-id1170902068595">Si la carga es positiva, esta experimenta una fuerza debida al campo eléctrico <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>Q</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. Esta fuerza es necesaria para mantener la carga en movimiento. Esta fuerza no actúa para acelerar la carga a lo largo de toda la distancia <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:math> debido a las interacciones de la carga con los átomos y los electrones libres del material. La velocidad, y por tanto la energía cinética, de la carga no aumenta durante todo el recorrido a través de <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:math>, y la carga que pasa por el área <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> tiene la misma velocidad de deriva <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>d</m:mtext></m:msub></m:mrow></m:math> como la carga que pasa por el área <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>. Sin embargo, se realiza un trabajo sobre la carga, por el campo eléctrico, que modifica la energía potencial. Como el cambio en la diferencia de potencial eléctrico es negativo, el campo eléctrico resulta ser</para>
+<equation id="fs-id1170902205277" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903870810">El trabajo realizado sobre la carga es igual a la fuerza eléctrica por la longitud a la que se aplica la fuerza,</para>
+<equation id="fs-id1170902220107" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi><m:mi>E</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi><m:mfrac><m:mi>V</m:mi><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>Q</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902126275">La carga se mueve a una velocidad de deriva <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>d</m:mtext></m:msub></m:mrow></m:math> por lo que el trabajo realizado sobre la carga supone una pérdida de energía potencial, pero la energía cinética media permanece constante. La energía potencial eléctrica perdida aparece como energía térmica en el material. A escala microscópica, la transferencia de energía se debe a las colisiones entre la carga y las moléculas del material, lo que provoca un aumento de la temperatura en este. La pérdida de energía potencial se traduce en un aumento de la temperatura del material, que se disipa en forma de radiación. En un resistor, se disipa en forma de calor, y en una bombilla, se disipa en forma de calor y luz.</para>
+<para id="fs-id1170904170390">La potencia disipada por el material en forma de calor y luz es igual a la tasa de cambio temporal del trabajo:</para>
+<equation id="fs-id1170902385622" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902134134">Con un resistor, la caída de voltaje a través del resistor se disipa en forma de calor. La ley de Ohm establece que el voltaje a través del resistor es igual a la corriente por la resistencia, <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math>. Por lo tanto, la potencia disipada por el resistor es</para>
+<equation id="fs-id1170902437618" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow><m:mspace width="0.4em"/><m:mtext>o</m:mtext><m:mspace width="0.4em"/><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>V</m:mi><m:mi>R</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902264590">Si se conecta un resistor a una batería, la potencia disipada como energía radiante por los cables y el resistor es igual a <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math>. La potencia suministrada por la batería es igual a la corriente por el voltaje, <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi></m:mrow></m:math>.</para>
+<note id="fs-id1170903905040">
+<title>Potencia eléctrica</title>
+<para id="fs-id1170903806059">La potencia eléctrica ganada o perdida por cualquier dispositivo tiene la forma</para>
+<equation id="fs-id1170903888872"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902347467">La potencia disipada por un resistor tiene la forma</para>
+<equation id="fs-id1170904156987"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170904146177">De las tres expresiones diferentes de la potencia eléctrica se pueden obtener diferentes conocimientos. Por ejemplo, <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math> implica que cuanto menor sea la resistencia conectada a una fuente de voltaje determinada, mayor será la potencia suministrada. Además, como el voltaje se eleva al cuadrado en <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math>, el efecto de la aplicación de un voltaje más alto es quizás mayor de lo esperado. Así, cuando se duplica el voltaje a una bombilla de 25 W, su potencia casi se cuadruplica hasta unos 100 W, quemándola. Si la resistencia de la bombilla se mantuviera constante, su potencia sería exactamente de 100 W, pero a mayor temperatura, su resistencia también es mayor.</para>
+<example id="fs-id1170902335576">
+<para id="fs-id1170903742181"><title>Cálculo de la potencia en dispositivos eléctricos</title>
+Un motor cabrestante de corriente continua tiene una potencia nominal de 20,00 A con un voltaje de 115 V. Cuando el motor funciona a su máxima potencia, puede levantar un objeto con un peso de 4900,00 N a una distancia de 10,00 m en 30,00 s a una velocidad constante. (a) ¿Cuál es la potencia consumida por el motor? (b) ¿Cuál es la potencia utilizada para levantar el objeto? Ignore la resistencia del aire. (c) Suponiendo que la diferencia entre la potencia consumida por el motor y la potencia utilizada para levantar el objeto se disipa en forma de calor por la resistencia del motor, dé un estimado de la resistencia del motor</para>
+<para id="fs-id1170903991064"><title>Estrategia</title>(a) La potencia consumida por el motor se puede calcular utilizando <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi></m:mrow></m:math>. (b) La potencia utilizada en la elevación del objeto a una velocidad constante se puede calcular mediante <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>v</m:mi></m:mrow></m:math>, donde la velocidad es la distancia dividida entre el tiempo. La fuerza ascendente suministrada por el motor es igual al peso del objeto porque la aceleración es cero. (c) La resistencia del motor se puede calcular utilizando <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow></m:math>.</para><para id="fs-id1170904096461"><title>Solución</title></para>
+<list id="fs-id1172101752705" list-type="enumerated" number-style="lower-alpha">
+<item>La potencia consumida por el motor es igual a <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi></m:mrow></m:math> y la corriente es de 20,00 A y el voltaje es de 115,00 V:
+<equation id="fs-id1170904045425" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>115,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>=</m:mo><m:mn>2300,00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>La potencia utilizada para levantar el objeto es igual a <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>v</m:mi></m:mrow></m:math> donde la fuerza es igual al peso del objeto (1960 N) y la magnitud de la velocidad es <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>10,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>30,00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,33</m:mn><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow></m:math>,
+<equation id="fs-id1170903787823" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4.900</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>0,33</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>=</m:mo><m:mn>1.633,33</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>La diferencia de potencia es igual a <m:math><m:mrow><m:mn>2300,00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>−</m:mo><m:mn>1.633,33</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>=</m:mo><m:mn>666,67</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math> y la resistencia se puede calcular mediante <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow></m:math>:
+<equation id="fs-id1170902101458" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>P</m:mi><m:mrow><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>666,67</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,67</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1170903934346"><title>Importancia</title>
+La resistencia del motor es bastante pequeña y se debe a los numerosos embobinados de alambre de cobre. La potencia disipada por el motor puede ser importante ya que la potencia térmica disipada por el motor es proporcional al cuadrado de la corriente <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+</example>
+<note id="fs-id1170903895539" class="check-understanding">
+<exercise id="fs-id1170902380718">
+<problem id="fs-id1170904037219">
+<para id="fs-id1170903885840">Los motores eléctricos tienen un rendimiento razonablemente alto. Un motor de 100 hp puede tener un rendimiento del 90 % y un motor de 1 hp puede tener un rendimiento del 80 %. ¿Por qué es importante utilizar motores de alto rendimiento?</para>
+</problem>
+<solution id="fs-id1170904243967">
+<para id="fs-id1170904081247">Aunque los motores eléctricos son muy eficientes, entre el 10 y el 20 % de la potencia consumida se desperdicia, no se utiliza para hacer un trabajo útil. La mayor parte del 10 y el 20 % de la potencia perdida se transfiere en calor disipado por los cables de cobre utilizados para hacer las bobinas del motor. Este calor se suma al del medio ambiente y aumenta la demanda de las centrales eléctricas que suministran la potencia. La demanda de la central eléctrica puede provocar un aumento de los gases de efecto invernadero, sobre todo si la central utiliza carbón o gas como combustible.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1170902291100">Un fusible (<link target-id="CNX_UPhysics_26_5_BlownFuse"/>) es un dispositivo que protege un circuito de corrientes demasiado elevadas. Un fusible es básicamente un trozo de cable corto entre dos contactos. Como hemos visto, cuando una corriente pasa por un conductor, la energía cinética de los portadores de carga se convierte en energía térmica en el conductor. El trozo de cable del fusible está bajo tensión y tiene un punto de fusión bajo. El cable está diseñado para calentarse y romperse con la corriente nominal. El fusible está destruido y debe ser sustituido, pero protege el resto del circuito. Los fusibles actúan rápidamente, pero hay un pequeño retraso mientras el cable se calienta y se rompe.</para>
+<figure id="CNX_UPhysics_26_5_BlownFuse">
+<media id="fs-id1170902109144" alt="La imagen es una fotografía del fusible quemado con el cable roto dentro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_05_BlownFuse.jpg"/>
+</media>
+<caption>Un fusible consiste en un trozo de cable entre dos contactos. Cuando una corriente superior a la nominal pasa por el cable, este se funde, rompiendo la conexión. En la imagen se muestra un fusible "fundido" en el que el cable se rompió para proteger un circuito (créditos: modificación de la obra de "Shardayyy"/Flickr).</caption>
+</figure>
+<para id="fs-id1170902166259">Los disyuntores también están preparados para una corriente máxima y se abren para proteger el circuito, pero pueden restablecerse; y reaccionan mucho más rápido. El funcionamiento de los disyuntores no entra en el ámbito de este capítulo y se tratará en capítulos posteriores. Otro método de protección de equipos y personas es el interruptor de circuito de falla a tierra (ground fault circuit interrupter, GFCI), que es común en baños y cocinas. Los enchufes de GFCI responden muy rápidamente a los cambios de corriente. Estas salidas se abren cuando hay un cambio en el campo magnético producido por los conductores de corriente, lo que también está fuera del alcance de este capítulo y se trata en un capítulo posterior.</para>
+</section>
+<section id="fs-id1170902556068">
+<title>El costo de la electricidad</title>
+<para id="fs-id1170902297284">Cuantos más aparatos eléctricos utilice y más tiempo estén encendidos, mayor será su factura eléctrica. Este hecho tan conocido se basa en la relación entre energía y potencia. Se paga por la energía utilizada. Dado que <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>E</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, vemos que</para>
+<equation id="fs-id1170902299692" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mi>P</m:mi><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1170903878451">es la energía utilizada por un dispositivo que utiliza la potencia <emphasis effect="italics">P</emphasis> durante un intervalo de tiempo <emphasis effect="italics">t</emphasis>. Si la potencia se suministra a un ritmo constante, entonces la energía se puede calcular mediante <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>t</m:mi></m:mrow></m:math>. Por ejemplo, cuantas más bombillas estén encendidas, mayor será la <emphasis effect="italics">P</emphasis> utilizada; cuanto más tiempo estén encendidas, mayor será el <emphasis effect="italics">t</emphasis>.</para>
+<para id="fs-id1170904095862">La unidad de energía en las facturas eléctricas es el kilovatio-hora <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, en consonancia con la relación <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>t</m:mi></m:mrow></m:math>. Es fácil calcular el costo de funcionamiento de los aparatos eléctricos si se tiene una idea de su tasa de consumo de potencia en vatios o kilovatios, el tiempo que están encendidos en horas y el costo por kilovatio-hora de la compañía eléctrica. Los kilovatios-hora, al igual que otras unidades energéticas especializadas como las calorías de los alimentos, pueden convertirse en julios. Puede demostrarse a usted mismo que <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext><m:mo>=</m:mo><m:mn>3,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1170903877818">La energía eléctrica (<emphasis effect="italics">E</emphasis>) utilizada puede reducirse, bien reduciendo el tiempo de uso, bien reduciendo el consumo de potencia de ese aparato o instalación. Esto no solo reduce el costo, sino que también tiene un menor impacto en el medio ambiente. Las mejoras en la iluminación son una de las formas más rápidas de reducir la energía eléctrica utilizada en un hogar o negocio. Aproximadamente el 20 % del consumo de energía de un hogar se destina a la iluminación, y la cifra de los establecimientos comerciales se acerca al 40 %. Las luces fluorescentes son unas cuatro veces más eficientes que las incandescentes, tanto los tubos largos como las luces fluorescentes compactas (CFL) (vea la <link target-id="CNX_UPhysics_26_05_LightBulbs"/>(b)). Así, una bombilla incandescente de 60 W puede ser sustituida por una CFL de 15 W, que tiene la misma luminosidad y color. Las CFL tienen un tubo doblado dentro de un globo o un tubo en forma de espiral, todo ello conectado a una base de rosca estándar que se adapta a los enchufes de luz incandescente estándar. (los problemas originales con el color, el parpadeo, la forma y la elevada inversión inicial de las CFL se han solucionado en los años recientes).</para>
+<para id="fs-id1170902348131">La transferencia de calor de estas CFL es menor y duran hasta 10 veces más que las bombillas incandescentes. La importancia de una inversión en este tipo de bombillas se aborda en el siguiente ejemplo. Las nuevas luces LED blancas (que son grupos de pequeñas bombillas LED) son aun más eficientes (el doble que las CFL) y duran cinco veces más que estas.</para>
+<example id="fs-id1170902163361">
+<para id="fs-id1170902267536"><title>Cálculo de la rentabilidad de la bombilla LED</title>
+La sustitución típica de una bombilla incandescente de 100 W es una bombilla LED de 20 W. Esta puede proporcionar la misma cantidad de luz que la bombilla incandescente de 100 W. ¿Cuál es el ahorro de costos por utilizar la bombilla LED en vez de la incandescente durante un año, suponiendo que 0,10 dólares por kilovatio-hora es la tarifa promedio de potencia que cobra la compañía eléctrica? Supongamos que la bombilla se enciende durante tres horas al día.</para>
+<para id="fs-id1170904037465"><title>Estrategia</title>
+(a) Calcule la energía utilizada durante el año para cada bombilla, utilizando <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>t</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1172101770360">(b) Multiplique la energía por el costo.</para>
+<para id="fs-id1170902301866"><title>Solución</title></para>
+<list id="fs-id1172099418089" list-type="enumerated" number-style="lower-alpha">
+<item>Calcule la potencia de cada bombilla.
+<equation id="fs-id1170903857653" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Incandescente</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>kW</m:mtext></m:mrow><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>h</m:mtext></m:mrow><m:mrow><m:mtext>día</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>365</m:mn><m:mspace width="0.2em"/><m:mtext>días</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>109,5</m:mn><m:mspace width="0.2em"/><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>LED</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>kW</m:mtext></m:mrow><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>h</m:mtext></m:mrow><m:mrow><m:mtext>día</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>365</m:mn><m:mspace width="0.2em"/><m:mtext>días</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>21,90</m:mn><m:mspace width="0.2em"/><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mtd></m:mtr></m:mtable><m:mo>.</m:mo></m:math></equation></item>
+<item>Calcule el costo de cada una.
+<equation id="fs-id1170903856167" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mtext>costo</m:mtext><m:mrow><m:mtext>Incandescente</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>109,5</m:mn><m:mspace width="0.2em"/><m:mtext>kW-h</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mtext>$</m:mtext><m:mn>0,10</m:mn></m:mrow><m:mrow><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>$</m:mtext><m:mn>10,95</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mtext>costo</m:mtext><m:mrow><m:mtext>LED</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>21,90</m:mn><m:mspace width="0.2em"/><m:mtext>kW-h</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mtext>$</m:mtext><m:mn>0,10</m:mn></m:mrow><m:mrow><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>$</m:mtext><m:mn>2,19</m:mn></m:mtd></m:mtr></m:mtable><m:mo>.</m:mo></m:math></equation></item>
+</list>
+<para id="fs-id1170902434640"><title>Importancia</title>
+Una bombilla LED consume un 80 % menos de energía que la bombilla incandescente, lo que supone un ahorro de 8,76 dólares con respecto a la bombilla incandescente durante un año. La bombilla LED puede costar 20,00 dólares y la bombilla incandescente de 100 W puede costar 0,75 dólares, lo que debe incluirse en el cálculo. La vida útil típica de una bombilla incandescente es de 1.200 horas y de 50.000 horas para la bombilla LED. La bombilla incandescente duraría 1,08 años a 3 horas al día y la bombilla LED, 45,66 años. El costo inicial de la bombilla LED es elevado, pero el costo para el propietario de la vivienda será de 0,69 dólares para las bombillas incandescentes versus 0,44 dólares para las bombillas LED al año (tenga en cuenta que las bombillas LED están bajando de precio). El ahorro de costos por año es de aproximadamente 8,50 dólares, y eso es solo para una bombilla.</para>
+</example>
+<note id="fs-id1170904170303" class="check-understanding">
+<exercise id="fs-id1170902118377">
+<problem id="fs-id1170902095011">
+<para id="fs-id1170903818572">¿La eficiencia de las distintas bombillas es la única consideración a la hora de comparar las distintas bombillas?</para>
+</problem>
+<solution id="fs-id1170902191246">
+<para id="fs-id1170902130712">No, la eficiencia es una consideración muy importante de las bombillas, pero hay muchas otras consideraciones. Como se ha mencionado anteriormente, el costo de las bombillas y su vida útil son consideraciones importantes. Por ejemplo, las bombillas CFL contienen mercurio, una neurotoxina, y deben eliminarse como residuos peligrosos. Si se sustituyen las bombillas incandescentes controladas por un regulador de intensidad por las LED, es posible que haya que cambiar el regulador de intensidad. Los interruptores de regulación de las luces LED tienen un precio comparable al de los interruptores de las luces incandescentes, pero se trata de un costo inicial que debe tenerse en cuenta. También hay que tener en cuenta el espectro de la luz, pero hay una amplia gama de temperaturas de color disponibles, por lo que debería poder encontrar una que se ajuste a sus necesidades. Ninguna de estas consideraciones mencionadas pretende desaconsejar el uso de bombillas LED o CFL, pero son consideraciones.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1170902191239">Cambiar las bombillas incandescentes por bombillas CFL o LED es una forma sencilla de reducir el consumo de energía en los hogares y los locales comerciales. Las bombillas CFL funcionan con un mecanismo muy diferente al de las luces incandescentes. El mecanismo es complejo y va más allá del alcance de este capítulo, pero aquí hay una descripción muy general del mecanismo. Las bombillas CFL contienen vapor de argón y mercurio dentro de un tubo en forma de espiral y utilizan un "balasto" que aumenta el voltaje. Los balastos producen una corriente eléctrica que atraviesa la mezcla de gases y excita las moléculas de gas. Las moléculas de gas excitadas producen luz ultravioleta (UV), que a su vez estimula el revestimiento fluorescente del interior del tubo. Este revestimiento es fluorescente en el espectro visible, emitiendo luz visible. Los tubos fluorescentes tradicionales y las bombillas CFL tenían un breve retraso de hasta unos segundos mientras la mezcla se "calentaba" y las moléculas alcanzaban un estado excitado. Hay que tener en cuenta que estas bombillas contienen mercurio, que es venenoso, pero si la bombilla se rompe, el mercurio nunca se libera. Incluso si la bombilla se rompe, el mercurio tiende a permanecer en el revestimiento fluorescente. La cantidad también es bastante pequeña y la ventaja del ahorro de energía puede superar la desventaja de utilizar mercurio.</para>
+<para id="fs-id1170903794626">Las bombillas CFL están siendo sustituidas por bombillas LED, donde LED significa "diodo emisor de luz”. El diodo fue brevemente discutido como un dispositivo no óhmico, hecho de material semiconductor, que esencialmente permite el flujo de corriente en una dirección. Los LED son un tipo especial de diodos fabricados con materiales semiconductores a los que se les han añadido impurezas en combinaciones y concentraciones que permiten convertir la energía extra del movimiento de los electrones durante la excitación eléctrica en luz visible. Los dispositivos semiconductores se explican con más detalle en <link document="m91030">Física de la materia condensada</link>.</para>
+<para id="fs-id1170902186640">Los LED comerciales se están convirtiendo rápidamente en el estándar para la iluminación comercial y residencial, sustituyendo a las bombillas incandescentes y CFL. Están diseñados para el espectro visible y se construyen con galio dopado con átomos de arsénico y fósforo. El color emitido por un LED depende de los materiales utilizados en el semiconductor y de la corriente. En los primeros años del desarrollo de los LED, los pequeños LED que se encontraban en las placas de circuitos eran rojos, verdes y amarillos, pero ahora las bombillas LED pueden programarse para producir millones de colores de luz, así como muchas tonalidades diferentes de luz blanca.</para>
+</section>
+<section id="fs-id1170904057694">
+<title>Comparación de las bombillas incandescentes, CFL y LED</title>
+<para id="fs-id1170904031249">El ahorro de energía puede ser importante al sustituir una bombilla incandescente o CFL por una luz LED. Las bombillas se clasifican por la cantidad de potencia que consumen, y la cantidad de luz se mide en lúmenes. El lumen (lm) es la unidad de flujo luminoso derivada del SI y es una medida de la cantidad total de luz visible que emite una fuente. Una bombilla incandescente de 60 W puede sustituirse por una bombilla CFL de 13 a 15 W o una bombilla LED de 6 a 8 W, las tres con una potencia luminosa de aproximadamente 800 lm. En la <link target-id="fs-id1170904037425"/> aparece una tabla con la potencia luminosa de algunas bombillas de uso común.</para>
+<para id="fs-id1170902446623">La vida útil de los tres tipos de bombillas es muy diferente. Una bombilla LED tiene una vida útil de 50.000 horas, mientras que la CFL tiene una vida útil de 8.000 horas y la incandescente dura apenas 1.200 horas. La bombilla LED es la más duradera, ya que resiste fácilmente el trato duro, como los golpes y las sacudidas. La bombilla incandescente tiene poca tolerancia al mismo tratamiento, ya que el filamento y el vidrio pueden romperse fácilmente. La bombilla CFL también es menos duradera que la bombilla LED debido a su construcción de vidrio. La cantidad de calor emitido es de 3,4 btu/h para la bombilla LED de 8 W, 85 btu/h para la bombilla incandescente de 60 W y 30 btu/h para la bombilla CFL. Como ya se ha mencionado, uno de los principales inconvenientes de las bombillas CFL es que contienen mercurio, una neurotoxina, y deben eliminarse como residuos peligrosos. A partir de estos datos, es fácil entender por qué la bombilla LED se está convirtiendo rápidamente en el estándar de la iluminación.</para>
+<table id="fs-id1170904037425" summary="This table has four columns and six rows. The first row is a header row and it labels each column: “Light Output in lumens”, “LED Light Bulbs in watts”, “Incandescent Light Bulbs in Watts”, and “CFL Light Bulbs in Watts”. Under the “Light Output” column is the list of numbers: 450; 800; 1100; 1600; 2600. Under the “LED Light Bulbs” column is the list of ranges: 4-5; 6-8; 9-13; 16-20; 25-28. Under the “Incandescent Light Bulbs” column is the list of numbers: 40; 60; 75; 100; 150. Under the “CFL Light Bulbs” column is the list of ranges: 9-13; 13-15; 18-25; 23-30; 30-55.">
+<title>Potencia luminosa de las bombillas LED, incandescentes y CFL</title>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Salida de luz<newline/>(lúmenes)</entry>
+<entry valign="top" align="center">Bombillas LED<newline/>(vatios)</entry>
+<entry valign="top" align="center">Bombillas incandescentes<newline/>(vatios)</entry>
+<entry valign="top" align="center">Bombillas CFL<newline/>(vatios)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="center">450</entry>
+<entry valign="top" align="center">4 a 5</entry>
+<entry valign="top" align="center">40</entry>
+<entry valign="top" align="center">9 a 13</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">800</entry>
+<entry valign="top" align="center">6 a 8</entry>
+<entry valign="top" align="center">60</entry>
+<entry valign="top" align="center">13 a 15</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">1.100</entry>
+<entry valign="top" align="center">9 a 13</entry>
+<entry valign="top" align="center">75</entry>
+<entry valign="top" align="center">18 a 25</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">1.600</entry>
+<entry valign="top" align="center">16 a 20</entry>
+<entry valign="top" align="center">100</entry>
+<entry valign="top" align="center">23 a 30</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">2.600</entry>
+<entry valign="top" align="center">25 a 28</entry>
+<entry valign="top" align="center">150</entry>
+<entry valign="top" align="center">30 a 55</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1170902305816">
+<title>Resumen de las relaciones</title>
+<para id="fs-id1170904052041">En este capítulo discutimos las relaciones entre voltajes, corriente, resistencia y potencia. La <link target-id="CNX_UPhysics_26_05_EqCircle"/> muestra un resumen de las relaciones entre estas cantidades medibles para los dispositivos óhmicos. (Recordemos que los dispositivos óhmicos siguen la ley de Ohm <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math>). Por ejemplo, si necesita calcular la potencia, utilice la sección rosa, que muestra que <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mi>I</m:mi></m:mrow></m:math>, <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math> y <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_26_05_EqCircle"><media id="fs-id1170902235145" alt="La imagen muestra los círculos que demuestran las relaciones entre la potencia en vatios, la corriente en amperios, el voltaje en voltios y la resistencia en ohmios. La corriente se representa como el voltaje dividido entre la resistencia, la potencia dividida entre el voltaje y la raíz cuadrada de la potencia dividida entre la resistencia. La resistencia se representa como el voltaje al cuadrado dividido entre la potencia, el voltaje dividido entre la corriente y la potencia dividida entre la corriente al cuadrado. El voltaje se representa como la potencia dividida entre la corriente, la raíz cuadrada del producto de la potencia y la resistencia, el producto de la corriente y la resistencia. La potencia se representa como el producto de la corriente al cuadrado y la resistencia, el voltaje dividido entre la resistencia al cuadrado y el producto del voltaje y la corriente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics26_05_EqCircle.jpg"/>
+</media>
+
+<caption>Este círculo muestra un resumen de las ecuaciones de las relaciones entre potencia, corriente, voltaje y resistencia.</caption></figure><para id="fs-id1170902131469">La ecuación que utilice depende de los valores que le den o que mida. Por ejemplo, si le dan la corriente y la resistencia, utilice <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow></m:math>. Aunque todas las combinaciones posibles pueden parecer abrumadoras, no olvide que todas son combinaciones de solo dos ecuaciones, la ley de Ohm <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> y la potencia <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+</section>
+<section id="fs-id1170902147088" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170902351859" list-type="bulleted" bullet-style="bullet">
+<item>La potencia eléctrica es la tasa a la que se suministra la energía eléctrica a un circuito o la consume una carga.</item>
+<item>La potencia disipada por un resistor depende del cuadrado de la corriente que lo atraviesa y es igual a <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math>.</item>
+<item>La unidad del SI para la potencia eléctrica es el vatio y para la energía eléctrica es el julio. Otra unidad común para la energía eléctrica, que utilizan las compañías eléctricas, es el kilovatio-hora (kW <m:math><m:mo>·</m:mo></m:math> h).</item>
+<item>La energía total utilizada en un intervalo de tiempo puede hallarse mediante <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mi>P</m:mi><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math>.</item>
+</list>
+</section>
+<section id="fs-id1170903856420" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1170904070395">
+<problem id="fs-id1170904070397">
+<para id="fs-id1170904070399">Los electrodomésticos comunes tienen una voltaje de 110 V, pero las compañías eléctricas suministran el voltaje en el rango de los kilovoltios y luego la bajan mediante transformadores a 110 V para utilizarse en los hogares. En capítulos posteriores aprenderá que los transformadores están formados por muchas vueltas de cable, que se calientan a medida que la corriente pasa por ellos, desperdiciando parte de la energía que se desprende en forma de calor. Esto parece ineficiente. ¿Por qué las compañías eléctricas transportan la potencia eléctrica con este método?</para>
+</problem>
+<solution id="fs-id1170902350663">
+<para id="fs-id1170902350665">Aunque los conductores tienen una resistencia baja, las líneas de la compañía eléctrica pueden ser kilométricas. El uso de un alto voltaje reduce la corriente necesaria para abastecer la demanda de potencia y eso reduce las pérdidas en la línea.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902305797">
+<problem id="fs-id1170902305799">
+<para id="fs-id1170902208687">Su factura eléctrica indica su consumo en unidades de kilovatios-hora (kW <m:math><m:mo>·</m:mo></m:math> h). ¿Esta unidad representa la cantidad de carga, corriente, voltaje, potencia o energía que compra?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902182264">
+<problem id="fs-id1170903904412">
+<para id="fs-id1170903904415">Los resistores suelen tener un valor nominal de <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mtext>W</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mtext>W</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mtext>W</m:mtext></m:mrow></m:math>, 1 W y 2 W para su uso en circuitos eléctricos. Si una corriente de <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math> se pasa accidentalmente por un resistor de <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> con un valor nominal de 1 W, ¿cuál sería el resultado más probable? ¿Hay algo que se pueda hacer para evitar un accidente así?</para>
+</problem>
+<solution id="fs-id1170904098616">
+<para id="fs-id1170902183431">El resistor se sobrecalentaría, posiblemente hasta el punto de hacerlo arder. Se suelen añadir fusibles a los circuitos para evitar este tipo de accidentes.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904257873">
+<problem id="fs-id1170904257875">
+<para id="fs-id1170904257877">Un calefactor de inmersión es un pequeño aparato que sirve para calentar una taza de agua para el té haciendo pasar la corriente a través de un resistor. Si se duplica el voltaje aplicado al aparato, ¿cambiará el tiempo necesario para calentar el agua? ¿Por cuánto? ¿Es una buena idea?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170904182295" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170904182301">
+<problem id="fs-id1170902102125">
+<para id="fs-id1170902102127">Una batería de <m:math><m:mrow><m:mn>20,00</m:mn><m:mtext> V</m:mtext></m:mrow></m:math> se utiliza para suministrar corriente a un resistor de <m:math><m:mrow><m:mn>10</m:mn><m:mtext>-k</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. Supongamos que la caída de voltaje a través de los cables utilizados para las conexiones es insignificante. (a) ¿Cuál es la corriente que atraviesa el resistor? (b) ¿Cuál es la potencia disipada por el resistor? (c) ¿Cuál es la potencia de entrada de la batería, suponiendo que toda la potencia eléctrica es disipada por el resistor? (d) ¿Qué ocurre con la energía disipada por el resistor?</para>
+</problem>
+<solution id="fs-id1170902296765">
+<para id="fs-id1170902296767">a. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>mA</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>0,04</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>0,04</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>; d. Se convierte en calor.</para></solution>
+</exercise>
+<exercise id="fs-id1170902063658">
+<problem id="fs-id1170902337230">
+<para id="fs-id1170902337232">¿Cuál es el voltaje máximo que se puede aplicar a un resistor de <m:math><m:mrow><m:mn>20</m:mn><m:mtext>-k</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> con un valor nominal de <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mtext>W</m:mtext></m:mrow></m:math>?</para></problem>
+</exercise>
+<exercise id="fs-id1170902405826">
+<problem id="fs-id1170904063142">
+<para id="fs-id1170904063144">Se está diseñando un calefactor que utiliza una bobina de cable de nicromo de calibre 14 para generar 300 W utilizando un voltaje de <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>110</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>. ¿Qué longitud debe hacer el ingeniero que tenga el cable?</para>
+</problem>
+<solution id="fs-id1170903931191">
+<para id="fs-id1170903931194"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>R</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/></m:mtd></m:mtr></m:mtable></m:math>, <m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2,08</m:mn><m:msup><m:mtext>mm</m:mtext><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>83</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902274694">
+<problem id="fs-id1170902274696">
+<para id="fs-id1170902221126">Una alternativa a las bombillas CFL y a las incandescentes son las bombillas de diodos luminosos (LED). Una bombilla incandescente de 100 W puede ser sustituida por una bombilla LED de 16 W. Ambas producen 1600 lúmenes de luz. Suponiendo que el costo de la electricidad es de 0,10 centavos de dólar por kilovatio-hora, ¿cuánto cuesta tener encendida la bombilla durante un año si la enciende cuatro horas al día?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904259309">
+<problem id="fs-id1170902288795">
+<para id="fs-id1170902288797">La potencia disipada por un resistor con un resistor de <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> es <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>. ¿Cuáles son la corriente y la caída de voltaje a través del resistor?</para>
+</problem>
+<solution id="fs-id1170904062959">
+<para id="fs-id1170902183437"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>0,14</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>14</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1170902365939">
+<problem id="fs-id1170902365941">
+<para id="fs-id1170902365943">Al llegar tarde para tomar un vuelo, un conductor deja accidentalmente los faros encendidos después de aparcar el automóvil en el aparcamiento del aeropuerto. Durante el despegue, el conductor se da cuenta del error. Tras haber sustituido la batería, el conductor sabe que se trata de una batería de automóvil de 12 V, con una capacidad de 100 <m:math><m:mrow><m:mtext>A</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow></m:math>. El conductor, sabiendo que no se puede hacer nada, calcula cuánto tiempo estarán encendidas las luces, suponiendo que hay dos faros de 12 V, cada uno de 40 W. ¿Qué ha concluido el conductor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902321916">
+<problem id="fs-id1170902275143">
+<para id="fs-id1170902275146">Un estudiante de física tiene una habitación individual. El estudiante tiene un pequeño refrigerador que funciona con una corriente de 3,00 A y un voltaje de 110 V, una lámpara que contiene una bombilla de 100 W, una lámpara de techo con una bombilla de 60 W y varios otros dispositivos pequeños que suman 3,00 W. (a) Suponiendo que la central eléctrica que suministra electricidad de 110 V al dormitorio está a 10 km de distancia y que los dos cables de transmisión de aluminio utilizan un cable de calibre 0 con un diámetro de 8,252 mm, haga un estimado del porcentaje de la potencia total suministrada por la compañía eléctrica que se pierde en la transmisión. (b) ¿Cuál sería el resultado si la compañía eléctrica suministrara la energía eléctrica a 110 kV?</para>
+</problem>
+<solution id="fs-id1170902275155">
+<para id="fs-id1170902275157">a. <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>I</m:mi><m:mo>≈</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>110</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>110</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>110</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4,48</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>493</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>9,91</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>pérdida</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>200.</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>%</m:mtext><m:mtext>pérdida</m:mtext><m:mo>=</m:mo><m:mn>40</m:mn><m:mtext>%</m:mtext></m:mtd></m:mtr></m:mtable></m:math><newline/> b. <m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>493</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>0,0045</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>9,91</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>pérdida</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>201</m:mn><m:mi>μ</m:mi><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>%</m:mtext><m:mtext>pérdida</m:mtext><m:mo>=</m:mo><m:mn>0,00004</m:mn><m:mtext>%</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902304194">
+<problem id="fs-id1170902304196">
+<para id="fs-id1170902304198">A un resistor de 0,50 W, <m:math><m:mrow><m:mn>220</m:mn><m:mtext>-</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> lleva la corriente máxima posible sin dañar el resistor. Si la corriente se redujera a la mitad, ¿cuál sería la potencia consumida?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170902155009">
+<term>potencia eléctrica</term>
+<meaning id="fs-id1170902350158">tasa de cambio de energía en un circuito eléctrico</meaning>
+</definition>
+</glossary>
+</document>

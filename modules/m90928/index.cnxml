@@ -1,0 +1,133 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Energía en un campo magnético</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90928</md:content-id>
+  <md:title>Energía en un campo magnético</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar cómo se puede almacenar energía en un campo magnético.</item>
+<item>Derivar la ecuación de la energía almacenada en un cable coaxial dada la densidad de energía magnética.</item>
+</list></md:abstract>
+  <md:uuid>bacd85f5-8947-4bb5-8050-23ce7f0f3f47</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134926105">La energía de un condensador se almacena en el campo eléctrico entre sus placas. Del mismo modo, un inductor tiene la capacidad de almacenar energía, pero en su campo magnético. Esta energía se puede hallar integrando la <term>densidad de energía magnética</term>,</para>
+<equation id="fs-id1167131263823"><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167131168311">sobre el volumen adecuado. Para entender de dónde viene esta fórmula, consideremos el solenoide largo y cilíndrico de la sección anterior. Utilizando de nuevo la aproximación del solenoide infinito, podemos suponer que el campo magnético es esencialmente constante y viene dado por <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math> en todas partes dentro del solenoide. Por lo tanto, la energía almacenada en un solenoide o la densidad de energía magnética por volumen es equivalente a</para>
+<equation id="fs-id1167134963649"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:msub><m:mi>u</m:mi><m:mtext>m</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>V</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi><m:mi>l</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134569155">Con la sustitución de la <link document="m90927" target-id="fs-id1167132749881"/>, esto se convierte en</para>
+<note id="fs-id1167134676595" class="equation-callout">
+<equation id="fs-id1167134972198"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131393957">Aunque se deriva para un caso especial, esta ecuación da la energía almacenada en el campo magnético de <emphasis effect="italics">cualquier</emphasis> inductor. Podemos ver esto considerando un inductor arbitrario por el que pasa una corriente cambiante. En cualquier instante, la magnitud de la emf inducida es <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>i</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math> donde <m:math><m:mrow><m:mi>i</m:mi></m:mrow></m:math> es la corriente inducida en esa instancia. Por lo tanto, la potencia absorbida por el inductor es</para><equation id="fs-id1167134962440"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>ε</m:mi><m:mi>i</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>i</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mi>i</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131632316">La energía total almacenada en el campo magnético cuando la corriente aumenta de 0 a <emphasis effect="italics">I</emphasis> en un intervalo de tiempo de 0 a <emphasis effect="italics">t</emphasis> puede determinarse integrando esta expresión:</para>
+<equation id="fs-id1167134890851"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mi>P</m:mi><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>i</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:mfrac><m:mi>i</m:mi><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mi>L</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mn>0</m:mn><m:mi>I</m:mi></m:msubsup><m:mrow><m:mi>i</m:mi><m:mi>d</m:mi><m:mi>i</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation><example id="fs-id1167134942443">
+<para id="fs-id1167134882334"><title>Autoinducción de un cable coaxial</title>
+La <link target-id="CNX_UPhysics_31_03_Cylindrical"/> muestra dos capas cilíndricas largas y concéntricas de radios <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Como se ha comentado en <link document="m90881">Capacitancia</link>, esta configuración es una representación simplificada de un <term class="no-emphasis">cable coaxial</term>. Ya se ha calculado la capacitancia por unidad de longitud del cable. Ahora (a) determine la energía magnética almacenada por unidad de longitud del cable coaxial y (b) utilice este resultado para calcular la autoinducción por unidad de longitud del cable.</para>
+<figure id="CNX_UPhysics_31_03_Cylindrical">
+<media id="fs-id1167129973114" alt="La figura a muestra dos cilindros huecos dispuestos concéntricamente. El radio del interior es R1 y el del exterior es R2. La figura 2 muestra un círculo punteado de radio r entre los dos cilindros. La figura c muestra un cilindro de longitud y radio r entre los dos cilindros. Su grosor es dr.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_03_cylindrical.jpg"/>
+</media>
+<caption>(a) Un cable coaxial está representado aquí por dos conductores cilíndricos huecos y concéntricos a lo largo de los cuales fluye la corriente eléctrica en direcciones opuestas. (b) El campo magnético entre los conductores se puede calcular aplicando la ley de Ampère a la trayectoria punteada. (c) La envoltura cilíndrica se utiliza para calcular la energía magnética almacenada en una longitud <emphasis effect="italics">l</emphasis> del cable.</caption>
+</figure>
+<para id="fs-id1167134520405"><title>Estrategia</title>
+El campo magnético, tanto en el interior como en el exterior del cable coaxial, viene determinado por la ley de Ampère. A partir de este campo magnético, podemos utilizar la <link target-id="fs-id1167134890851"/> para calcular la densidad de energía del campo magnético. La energía magnética se calcula mediante una integral de la densidad de energía magnética por el volumen diferencial sobre la capa cilíndrica. Una vez realizada la integración, tenemos una solución de forma cerrada para la parte (a). “Así que la autoinducción por unidad de longitud se calcula basada en el resultado anterior y la <link target-id="fs-id1167134890851"/>.</para>
+<para id="fs-id1167134911819"><title>Solución</title></para>
+<list id="fs-id1167131456776" list-type="enumerated" number-style="lower-alpha">
+<item>Determinamos el campo magnético entre los conductores aplicando la ley de Ampère a la trayectoria circular discontinua mostrada en la <link target-id="CNX_UPhysics_31_03_Cylindrical"/>(b). Debido a la simetría cilíndrica, <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es constante a lo largo de la trayectoria, y
+<equation id="fs-id1167134643369" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo stretchy="false">∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Esto nos da
+<equation id="fs-id1167131205788" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+En la región fuera del cable, una aplicación similar de la ley de Ampère muestra que <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, ya que ninguna corriente neta atraviesa la zona delimitada por una trayectoria circular donde <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Este argumento también es válido cuando <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo></m:mrow></m:math>, es decir, en la región del cilindro interior. Por lo tanto, toda la energía magnética del cable se almacena entre los dos conductores. Dado que la densidad de energía del campo magnético es
+<equation id="fs-id1167134676288" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+la energía almacenada en una capa cilíndrica de radio interior <emphasis effect="italics">r</emphasis>, radio exterior <m:math><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>,</m:mo></m:mrow></m:math> y la longitud <emphasis effect="italics">l</emphasis> (vea la parte (c) de la figura) es
+<equation id="fs-id1167134468112" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Así, la energía total del campo magnético en una longitud <emphasis effect="italics">l</emphasis> del cable es
+<equation id="fs-id1167134939398" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>U</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>l</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+y la energía por unidad de longitud es <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
+<item>A partir de <link target-id="fs-id1167134890851"/>,
+<equation id="fs-id1167131395038" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde <emphasis effect="italics">L</emphasis> es la autoinducción de una longitud <emphasis effect="italics">l</emphasis> del cable coaxial. Igualando las dos ecuaciones anteriores, hallamos que la autoinducción por unidad de longitud del cable es
+<equation id="fs-id1167131615698" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167131472554"><title>Importancia</title>
+La inductancia por unidad de longitud depende solo de los radios interior y exterior, como se ve en el resultado. Para aumentar la inductancia, podríamos aumentar el radio exterior <m:math><m:mrow><m:mo>(</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> o disminuir el radio interior <m:math><m:mrow><m:mo>(</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>. En el límite, a medida que los dos radios se igualan, la inductancia llega a cero. En este límite, no hay cable coaxial. Además, la energía magnética por unidad de longitud de la parte (a) es proporcional al cuadrado de la corriente.</para>
+</example>
+<note id="fs-id1167131495742" class="check-understanding">
+<exercise id="fs-id1167131102226">
+<problem id="fs-id1167131541586">
+<para id="fs-id1167134686534">¿Cuánta energía se almacena en el inductor del <link document="m90927" target-id="fs-id1167132367239"/> después de que la corriente alcance su valor máximo?</para>
+</problem>
+<solution id="fs-id1167134531745">
+<para id="fs-id1167134531747">0,50 J</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167131201117" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167130004532" list-type="bulleted" bullet-style="bullet">
+<item>La energía almacenada en un inductor <emphasis effect="italics">U</emphasis> es
+<equation id="fs-id1167134678384" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>La autoinducción por unidad de longitud del cable coaxial es
+<equation id="fs-id1167131335266" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+</section>
+<section id="fs-id1167131499014" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167131420660">
+<problem id="fs-id1167134435973">
+<para id="fs-id1167134435975">Demostrar que <m:math><m:mrow><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math> tiene unidades de energía.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167134962692" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167131117623">
+<problem id="fs-id1167134916936">
+<para id="fs-id1167134916938">En el instante en que una corriente de 0,20 A fluye por una bobina de alambre, la energía almacenada en su campo magnético es <m:math><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la autoinducción de la bobina?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131631271">
+<problem id="fs-id1167131614626">
+<para id="fs-id1167131614628">Supongamos que un toroide rectangular tiene 2.000 bobinados y una autoinducción de 0,040 H. Si <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>0,10</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, cuál es la corriente que circula por un toroide rectangular cuando la energía de su campo magnético es <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167130245953">
+<para id="fs-id1167129963748">0,01 A</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131179186">
+<problem id="fs-id1167131179188">
+<para id="fs-id1167131116426">El solenoide <emphasis effect="italics">A</emphasis> está enrollado de forma ajustada, mientras que el solenoide <emphasis effect="italics">B</emphasis> tiene bobinas espaciadas uniformemente con una separación igual al diámetro del cable. Por lo demás, los solenoides son idénticos. Determine la relación de las energías almacenadas por unidad de longitud de estos solenoides cuando la misma corriente fluye a través de cada uno.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131259494">
+<problem id="fs-id1167131259497">
+<para id="fs-id1167131548422">Un inductor de 10 H transporta una corriente de 20 A. ¿Cuánto hielo a <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> podría fundirse por la energía almacenada en el campo magnético del inductor? <emphasis effect="italics">(Pista</emphasis>: Utilice el valor <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>334</m:mn><m:mspace width="0.2em"/><m:mtext>J/g</m:mtext></m:mrow></m:math> para el hielo)</para>
+</problem>
+<solution id="fs-id1167129964908">
+<para id="fs-id1167131428371">6,0 g</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167129962406">
+<problem id="fs-id1167131561274">
+<para id="fs-id1167131561276">Una bobina con una autoinducción de 3,0 H y una resistencia de <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> conduce una corriente constante de 2,0 A. (a) ¿Cuál es la energía almacenada en el campo magnético de la bobina? (b) ¿Cuál es la energía por segundo disipada en la resistencia de la bobina?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131475301">
+<problem id="fs-id1167131475304">
+<para id="fs-id1167134970149">En un cable coaxial cuyo radio exterior es cinco veces su radio interior circula una corriente de 1,2 A. ¿Cuál es la energía del campo magnético almacenada en una longitud de 3,0 m del cable?</para>
+</problem>
+<solution id="fs-id1167129968165">
+<para id="fs-id1167129968167"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mn>7,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167131173333">
+<term>densidad de energía magnética</term>
+<meaning id="fs-id1167131394102">energía almacenada por volumen en un campo magnético</meaning>
+</definition>
+</glossary>
+</document>

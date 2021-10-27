@@ -1,0 +1,590 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Cambios de fase</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90825</md:content-id>
+  <md:title>Cambios de fase</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir transiciones de fase y equilibrio entre fases.</item>
+<item>Resolver problemas relacionados con calor latente.</item>
+<item>Resolver problemas de calorimetría que impliquen cambios de fase.</item>
+</list></md:abstract>
+  <md:uuid>1b73b3b5-25bf-4710-b39b-d7f6269c31e0</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170903888376">Las <term class="no-emphasis">transiciones de fase</term> desempeñan un importante papel teórico y práctico en el estudio del flujo de calor. En el <term class="no-emphasis">derretimiento</term> (o “fusión”), un sólido se convierte en líquido; el proceso contrario es la <term class="no-emphasis">congelación</term>. En la <term class="no-emphasis">evaporación</term>, un líquido se convierte en gas; el proceso contrario es la <term class="no-emphasis">condensación</term>.</para>
+<para id="fs-id1170904166330">Una sustancia se derrite o se congela a una temperatura llamada punto de fusión, y hierve (se evapora rápidamente) o se condensa en su punto de ebullición. Estas temperaturas dependen de la presión. La alta presión favorece la forma más densa, por lo que, normalmente, la alta presión aumenta el punto de fusión y el punto de ebullición, y la baja presión los disminuye. Por ejemplo, el punto de ebullición del agua es <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a 1,00 atm. A mayor presión, el punto de ebullición es más alto, y a menor presión, es más bajo. La principal excepción es el derretimiento y la congelación del agua, lo cual se analiza en la siguiente sección.</para>
+<section id="fs-id1170903903012">
+<title>Diagramas de fase</title>
+<para id="fs-id1170902270285">La fase de una determinada sustancia depende de la presión y la temperatura. Por lo tanto, los trazados de presión versus temperatura que muestran la fase en cada región proporcionan un conocimiento considerable de las propiedades térmicas de las sustancias. Este gráfico <emphasis effect="italics">pT</emphasis> se denomina <term>diagrama de fases</term>.</para>
+<para id="fs-id1170904147061">En la <link target-id="CNX_UPhysics_18_05_PhaseDiag"/> se muestra el diagrama de fases del agua. Mediante el gráfico, si conoce la presión y la temperatura, puede determinar la fase del agua. Las curvas sólidas —límites entre fases— indican transiciones de fase, es decir, temperaturas y presiones a las que coexisten las fases. Por ejemplo, el punto de ebullición del agua es <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a 1,00 atm. A medida que la presión aumenta, la temperatura de ebullición sube gradualmente hasta <m:math><m:mrow><m:mn>374</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a una presión de 218 atm. Una olla a presión (o incluso una olla tapada) cocina los alimentos más rápido que una olla abierta, porque el agua puede existir como líquido a temperaturas superiores a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> sin que todo hirviera (como veremos en la siguiente sección, el agua líquida conduce el calor mejor que el vapor de agua o el aire caliente). La curva del punto de ebullición termina en un punto determinado llamado <term>punto crítico</term>, es decir, una <term>temperatura crítica</term>, por encima de la cual no se pueden distinguir las fases líquida y gaseosa; la sustancia se denomina <term class="no-emphasis"><emphasis effect="italics">fluido supercrítico</emphasis></term>. A una presión suficientemente alta por encima del punto crítico, el gas tiene la densidad de un líquido, pero no se condensa. El dióxido de carbono, por ejemplo, es supercrítico a todas las temperaturas superiores a <m:math><m:mrow><m:mn>31,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. La <term>presión crítica</term> es la presión del punto crítico.</para>
+<figure id="CNX_UPhysics_18_05_PhaseDiag">
+<media id="fs-id1170900498040" alt="Gráfico de la presión P en atmósfera versus la temperatura T en grados Celsius para el agua. La curva comienza subiendo y dirigiéndose hacia la derecha hasta un punto identificado como punto triple. Esto es a 0,006 atm y 0,01 grados Celsius. A partir de aquí, la curva diverge en dos ramas. Una va hacia arriba y hacia la izquierda y es casi vertical. La otra va hacia arriba y hacia la derecha. En la rama que va hacia arriba y hacia la derecha hay un punto a 1 atm y 100 grados Celsius. Más arriba en la misma rama hay un punto identificado como punto crítico. Esto es a 218 atm y 374 grados Celsius. El área a la izquierda de la rama izquierda está identificada como sólida. La zona entre dos ramas está identificada como líquido. La zona a la derecha de la rama derecha está identificada como vapor. La curva de la parte inferior izquierda del punto triple está identificada como sublimación, la rama de la parte superior izquierda del punto triple está identificada como fusión y la rama de la parte superior derecha del punto triple está identificada como ebullición.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_PhaseDiag.jpg"/>
+</media>
+<caption>El diagrama de fase (gráfico <emphasis effect="italics">pT</emphasis>) del agua muestra las fases sólida (s), líquida (l) y de vapor (v). A temperaturas y presiones superiores a las del punto crítico no hay distinción entre líquido y vapor. Fíjese que los ejes no son lineales y que el gráfico no está a escala. Este gráfico está simplificado: omite varias fases exóticas del hielo a presiones más altas. El diagrama de fases del agua es inusual porque la curva del punto de fusión tiene una pendiente negativa, lo que demuestra que se puede derretir el hielo <emphasis effect="italics">al aumentar</emphasis> la presión.</caption>
+</figure>
+<para id="fs-id1170902070361">Del mismo modo, la curva entre las regiones sólida y líquida en la <link target-id="CNX_UPhysics_18_05_PhaseDiag"/> da la temperatura de fusión a distintas presiones. Por ejemplo, el punto de fusión es <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mspace width="0.2em"/></m:mrow></m:math> a 1,00 atm, como se esperaba. El agua tiene la inusual propiedad de que el hielo es menos denso que el agua líquida en el punto de fusión, por lo que a una temperatura fija, se puede cambiar la fase de sólido (hielo) a líquido (agua) al aumentar la presión. Es decir, la temperatura de fusión del hielo desciende con el aumento de la presión, como muestra el diagrama de fase. Por ejemplo, cuando se conduce un automóvil sobre la nieve el aumento de la presión de los neumáticos derrite los copos de nieve; después, el agua se vuelve a congelar y forma una capa de hielo.</para>
+<para id="fs-id1170904055343">Como aprendió en la sección anterior sobre termómetros y escalas de temperatura, el <term class="no-emphasis">punto triple</term> es la combinación de temperatura y presión en la que el hielo, el agua líquida y el vapor de agua pueden coexistir de forma estable, es decir, las tres fases existen en equilibrio. Para el agua, el punto triple se produce en <m:math><m:mrow><m:mn>273,16</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,01</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> y 611,2 Pa; es una temperatura de calibración más precisa que el punto de fusión del agua a 1,00 atm, o <m:math><m:mrow><m:mn>273,15</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+<note id="fs-id1170902308157" class="media-2">
+<para id="fs-id1170902191191">Mire este <link url="https://openstax.org/l/21triplepoint">video</link> para observar una sustancia en su punto triple.</para>
+</note>
+<para id="fs-id1170903721240">A presiones inferiores a la del punto triple no hay fase líquida; la sustancia puede existir como gas o como sólido. Para el agua, no hay fase líquida a presiones inferiores a 0,00600 atm. El cambio de fase de sólido a gas se llama <term>sublimación</term>. Quizá haya observado que la nieve puede desaparecer en el aire sin dejar rastro de agua líquida o que cubos de hielo pueden desaparecer en un congelador. Ambos son ejemplos de sublimación. También ocurre lo contrario: se puede formar escarcha en ventanas muy frías sin pasar por la fase líquida. En la <link target-id="CNX_UPhysics_18_05_DryIce"/> se muestra el resultado, así como un ejemplo conocido de sublimación. El dióxido de carbono no tiene fase líquida a presión atmosférica. Sólido <m:math><m:mrow><m:msub><m:mrow><m:mtext>CO</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math> se conoce como <term class="no-emphasis">hielo seco</term> porque en vez de fundirse, se sublima. Su temperatura de sublimación a presión atmosférica es <m:math><m:mrow><m:mn>-78</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Algunos ambientadores usan la sublimación de un sólido para rociar un perfume en una habitación. Algunos sólidos, como el tetróxido de osmio, son tan tóxicos que se deben conservar en recipientes sellados para evitar la exposición humana a sus vapores producidos por sublimación.</para>
+<figure id="CNX_UPhysics_18_05_DryIce">
+<media id="fs-id1170904061768" alt="La fotografía a muestra hielo en un vaso convirtiéndose en gas de color blanco. La fotografía b muestra una ventana cubierta de escarcha.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_DryIce.jpg"/>
+</media>
+<caption>Las transiciones directas entre sólido y vapor son comunes, a veces útiles e incluso hermosas. (a) El hielo seco se sublima directamente a gas de dióxido de carbono. El “humo” visible consiste en gotas de agua que se condensaron en el aire enfriado por el hielo seco. (b) La escarcha forma patrones en una ventana muy fría, un ejemplo de un sólido formado directamente a partir de un vapor (crédito a: modificación del trabajo de Windell Oskay; crédito b: modificación del trabajo de Liz West).</caption>
+</figure>
+</section>
+<section id="fs-id1170903861480">
+<title>Equilibrio</title>
+<para id="fs-id1170903806764">Las fases sólida y líquida están en equilibrio a la temperatura de fusión. Si se añade calor, parte del sólido se fundirá, y si se retira el calor, parte del líquido se congelará. La situación es algo más compleja para el equilibrio líquido-gas. En general, líquido y gas están en equilibrio a cualquier temperatura. Llamamos <term>vapor</term> a la fase gaseosa cuando existe a una temperatura inferior a la de ebullición, como ocurre con el agua a <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. El líquido en un recipiente cerrado a una temperatura fija se evapora hasta que la presión del gas alcanza un determinado valor, llamado <term>presión de vapor</term>, que depende del gas y de la temperatura. En este equilibrio, si se añade calor, parte del líquido se evapora, y si se retira el calor, parte del gas se condensa; las moléculas se unen al líquido o forman gotas en suspensión. Si no hay suficiente líquido para que el gas alcance la presión de vapor en el recipiente, todo el líquido acaba por evaporarse.</para>
+<para id="fs-id1170903804877">Si la presión de vapor del líquido es mayor que la presión ambiental <emphasis effect="italics">total</emphasis>, incluida la del aire (u otro gas), el líquido se evapora rápidamente; en otras palabras, hierve. Así, el punto de ebullición de un líquido a una presión determinada es la temperatura a la que su presión de vapor es igual a la presión del ambiente. Las fases líquida y gaseosa están en equilibrio a la temperatura de ebullición (<link target-id="CNX_UPhysics_18_05_Equilib"/>). Si una sustancia está en un recipiente cerrado en el punto de ebullición, entonces el líquido está hirviendo y el gas se está condensando a la misma velocidad sin que haya un cambio neto en sus cantidades.</para>
+<figure id="CNX_UPhysics_18_05_Equilib">
+<media id="fs-id1170904244740" alt="La figura a muestra un tanque de agua que está medio lleno. Una flecha que sube desde el agua está identificada como vaporización. Una flecha que desciende desde el aire dentro del tanque hasta el agua está identificada como condensación. En el tanque hay un manómetro y un termómetro. La figura b muestra el mismo montaje. La presión y la temperatura en la figura b son mayores que las de la figura a. Las flechas que indican vaporización y condensación también son más largas que las de la figura a.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_Equilib.jpg"/>
+</media>
+<caption>Equilibrio entre líquido y gas en dos puntos de ebullición diferentes dentro de un recipiente cerrado. (a) Las tasas de ebullición y condensación son iguales en esta combinación de temperatura y presión, por lo que las fases líquida y gaseosa están en equilibrio. (b) A una temperatura más alta, la tasa de ebullición es más rápida, es decir, la tasa a la que las moléculas salen del líquido y entran en el gas es más rápida. Esto aumenta el número de moléculas en el gas, lo que aumenta la presión del gas, que a su vez aumenta la velocidad a la que las moléculas de gas se condensan y entran en el líquido. La presión deja de aumentar cuando alcanza el punto en el que la tasa de ebullición y la tasa de condensación son iguales. El gas y el líquido vuelven a estar en equilibrio a esta mayor temperatura y presión.</caption>
+</figure>
+<para id="fs-id1170902179026">Para el agua, <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> es el punto de ebullición a 1,00 atm, por lo que el agua y el vapor de agua deberían existir en equilibrio en estas condiciones. ¿Por qué una olla de agua destapada en <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> hierve por completo? El gas que rodea una olla destapada no es agua pura: está mezclado con aire. Si el agua pura y el vapor de agua están en un recipiente cerrado a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y 1,00 atm, coexistirán, pero con el aire sobre la olla hay menos moléculas de agua para condensar y el agua hierve. Otra forma de verlo es que en el punto de ebullición, la presión de vapor es igual a la presión del ambiente. Sin embargo, parte de la presión del ambiente se debe al aire, por lo que la presión del vapor de agua es menor que la presión de vapor a esa temperatura, y la evaporación continúa. Por cierto, la presión de vapor de equilibrio de los sólidos no es cero, hecho que explica la sublimación.</para>
+<note id="fs-id1170903903869" class="check-understanding">
+<exercise id="fs-id1170902338807">
+<problem id="fs-id1170904167456">
+<para id="fs-id1170903883172">Explique por qué un vaso de agua (o de una gaseosa) con cubos de hielo se mantiene a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> incluso en un caluroso día de verano.</para>
+</problem>
+<solution id="fs-id1170904271811">
+<para id="fs-id1170904146062">El hielo y el agua líquida están en equilibrio térmico, por lo que la temperatura se mantiene en la temperatura de congelación mientras el hielo permanece en el líquido (una vez que se derrita todo el hielo, la temperatura del agua empezará a subir).</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170903885255">
+<title>Cambio de fase y calor latente</title>
+<para id="fs-id1170904108846">Hasta ahora, hemos hablado de transferencias de calor que provocan cambios de temperatura. Sin embargo, en una transición de fase, la transferencia de calor no provoca ningún cambio de temperatura.</para>
+<para id="fs-id1170902123523">Para ver un ejemplo de cambios de fase, considere la adición de calor a una muestra de hielo a <m:math><m:mrow><m:mn>−20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (<link target-id="CNX_UPhysics_18_05_TempVsEner"/>) y con presión atmosférica. La temperatura del hielo aumenta linealmente y absorbe calor a un ritmo constante de <m:math><m:mrow><m:mn>2090</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>°C</m:mtext></m:mrow></m:math> hasta llegar a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Una vez a esta temperatura, el hielo comienza a derretirse y continúa hasta que se ha derretido todo, absorbiendo 333 kJ/kg de calor. La temperatura se mantiene constante en <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> durante este cambio de fase. Una vez que todo el hielo se ha derretido, la temperatura del agua líquida aumenta y absorbe calor a un nuevo ritmo constante de <m:math><m:mrow><m:mtext>4.186 J/kg</m:mtext><m:mo>·</m:mo><m:mtext>°C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> A <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> el agua empieza a hervir. La temperatura también se mantiene constante durante este cambio de fase, mientras que el agua absorbe 2.256 kJ/kg de calor y se convierte en vapor de agua. Cuando todo el líquido se ha convertido en vapor de agua, la temperatura vuelve a subir y absorbe calor a una tasa de <m:math><m:mrow><m:mn>2.020</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>°C</m:mtext></m:mrow></m:math>. Si empezamos con vapor de agua y lo enfriamos para que se condense en agua líquida y se congele en hielo, el proceso sería exactamente inverso, con la temperatura de nuevo constante durante cada transición de fase.</para><figure id="CNX_UPhysics_18_05_TempVsEner">
+<media id="fs-id1170902062473" alt="La figura muestra un gráfico de la temperatura T en grados Celsius versus calor delta Q por m en kilojulios por kilogramo. La curva sube y va hacia la derecha en línea recta hasta un punto a 0 grados Celsius y un valor térmico justo por encima de cero. La línea está identificada como hielo. A partir de este punto, una línea horizontal se extiende hasta otro punto con valor térmico ligeramente inferior a 0,5. La línea está identificada como hielo más agua. A partir de este punto, una línea sube y se dirige hacia la derecha hasta un punto a 100 grados Celsius y un valor térmico ligeramente inferior a 1. La línea está identificada como agua. Desde este punto, una línea se dirige horizontalmente a un punto con valor térmico de 3 aproximadamente. Esto está identificado como agua más vapor de agua. Desde este punto, una línea identificada como vapor de agua sube y se dirige a la derecha.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_TempVsEner.jpg"/>
+</media>
+<caption>Temperatura versus calor. El sistema está construido de forma que no se evapore el vapor mientras el hielo se calienta para convertirse en agua líquida, y para que, cuando se produzca la vaporización, el vapor permanezca en el sistema. Los largos tramos de temperaturas constantes en <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> reflejan las grandes cantidades de calor necesarias para provocar el derretimiento y la vaporización, respectivamente.</caption>
+</figure>
+<para id="fs-id1170903876342">¿A dónde va el calor añadido durante el derretimiento o la ebullición teniendo en cuenta que la temperatura no cambia hasta que se completa la transición? Para fundir un sólido se necesita energía, ya que hay que romper las fuerzas de atracción entre las moléculas del sólido para que en el líquido las moléculas puedan desplazarse con energías cinéticas comparables; así, no hay aumento de temperatura. Se necesita energía para vaporizar un líquido por motivos similares. Por el contrario, el trabajo se realiza por fuerzas de atracción cuando las moléculas se juntan durante la congelación y la condensación. Esa energía se debe transferir fuera del sistema, generalmente en forma de calor, para permitir que las moléculas permanezcan juntas (<link target-id="CNX_UPhysics_18_05_Energy"/>). Así, la condensación se produce en asociación con objetos fríos: el vaso en la <link target-id="CNX_UPhysics_18_05_Condens"/>, por ejemplo.</para>
+<figure id="CNX_UPhysics_18_05_Condens">
+<media id="fs-id1170902068369" alt="Fotografía de la condensación en un vaso lleno de té helado.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_Condens.jpg"/>
+</media>
+<caption>En este vaso de té helado se forma condensación porque se reduce la temperatura del aire cercano. El aire no puede retener tanta agua como a temperatura ambiente, por lo que el agua se condensa. La energía se libera cuando el agua se condensa y se acelera el derretimiento del hielo en el vaso (créditos: Jenny Downing).</caption>
+</figure>
+<para id="fs-id1170902223600">La energía liberada cuando un líquido se congela es utilizada por productores de naranjas cuando la temperatura se acerca a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Los cultivadores rocían con agua los árboles para que el agua se congele y se libere calor a las naranjas en crecimiento. Así se evita que la temperatura del interior de la naranja descienda por debajo del punto de congelación, lo que dañaría la fruta (<link target-id="CNX_UPhysics_18_05_Sublim"/>).</para>
+<figure id="CNX_UPhysics_18_05_Sublim">
+<media id="fs-id1170904111904" alt="Fotografía de vetas de hielo que cuelgan de las ramas de los árboles.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_Sublim.jpg"/>
+</media>
+<caption>El hielo de estos árboles liberó grandes cantidades de energía cuando se congeló, lo que ayudó a evitar que la temperatura de los árboles cayera por debajo de <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. El agua se rocía intencionadamente en los huertos para ayudar a prevenir las fuertes heladas (créditos: Hermann Hammer).</caption>
+</figure>
+<para id="fs-id1170902130908">La energía implicada en un cambio de fase depende del número de enlaces o pares de fuerzas y de su resistencia. El número de enlaces es proporcional al número de moléculas y, por tanto, a la masa de la muestra. La energía por unidad de masa necesaria para que una sustancia pase de la fase sólida a la líquida, o que se libera cuando la sustancia pasa de líquida a sólida, se conoce como <term>calor de fusión</term>. La energía por unidad de masa necesaria para que una sustancia pase de la fase líquida a la fase de vapor se conoce como <term>calor de vaporización</term>. La resistencia de las fuerzas depende del tipo de moléculas. El calor <emphasis effect="italics">Q</emphasis> absorbido o liberado en un cambio de fase en una muestra de masa <emphasis effect="italics">m</emphasis> viene dado por</para>
+<note id="fs-id1170902216720" class="equation-callout">
+<equation id="fs-id1170904161940"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>(</m:mo><m:mtext>derretimiento/congelación</m:mtext><m:mo>)</m:mo></m:mrow></m:math></equation>
+</note>
+<note id="fs-id1170902350040" class="equation-callout">
+<equation id="fs-id1170902369230"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub><m:mo>(</m:mo><m:mtext>vaporización/condensación</m:mtext><m:mo>)</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170903721354">donde el calor de fusión latente <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> y el calor de vaporización latente <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math> son constantes fundamentales que se determinan experimentalmente (los calores latentes también se denominan <emphasis effect="bold"><term>coeficientes de calor latente</term></emphasis> y calores de transformación). Estas constantes son “latentes”, u ocultas, porque en los cambios de fase, la energía entra o sale de un sistema sin provocar un cambio de temperatura en este, por lo que, en efecto, la energía está oculta.</para>
+<figure id="CNX_UPhysics_18_05_Energy">
+<media id="fs-id1170902053646" alt="La figura a muestra la conversión de sólido a líquido. En la sustancia sólida, las moléculas se ven como pequeños círculos dispuestos en una cuadrícula. Están conectadas entre sí mediante resortes y forman una estructura de celosía. Cada molécula tiene una pequeña flecha que sale de ella. Estas flechas apuntan en diferentes direcciones. La longitud de la flecha forma el radio de un círculo identificado como límites del movimiento. En el líquido, las moléculas están más separadas entre sí que en el sólido. Las flechas de las moléculas indican que se mueven en cualquier dirección. Una flecha que va del sólido al líquido está identificada como entrada de energía, derretimiento. Una flecha que va del líquido al sólido está identificada como salida de energía, congelación. La figura b muestra el líquido y el gas, donde las moléculas están aun más separadas que en el líquido. También en el gas se mueven en cualquier dirección. Una flecha que va del líquido al gas está identificada como entrada de energía, evaporación. Una flecha que va del gas al líquido está identificada como salida de energía, condensación.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_Energy.jpg"/>
+</media>
+<caption>(a) Se necesita energía para superar parcialmente las fuerzas de atracción (modeladas como resortes) entre las moléculas de un sólido para formar un líquido. Esa misma energía se debe eliminar del líquido para que se produzca la congelación. (b) Las moléculas se separan por grandes distancias al pasar de líquido a vapor, lo que requiere una energía significativa para superar completamente la atracción molecular. Para que se produzca la condensación es necesario eliminar la misma energía del vapor.</caption>
+</figure>
+<para id="fs-id1170902380458">La <link target-id="fs-id1170903879019"/> enumera los valores representativos de <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math> en kJ/kg, junto con los puntos de fusión y ebullición. Fíjese que, en general, <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math>. La tabla muestra que las cantidades de energía implicadas en los cambios de fase pueden ser fácilmente comparables o mayores que las implicadas en los cambios de temperatura, como también se mostró en la <link target-id="CNX_UPhysics_18_05_TempVsEner"/> y el análisis que la acompaña.</para>
+<table id="fs-id1170903879019" summary="This table has 7 columns, 7 rows and a header row. The header row labels each column: Substance, Melting Point in degrees Celsius, Heat of fusion in kilojoule per kg, Heat of fusion in kilocalorie per kg, Boiling Point, Heat of Vaporization in kilojoule per kg, Heat of Vaporization in kilocalorie per kg. The first column has the following substances: Helium, Hydrogen, Nitrogen, Oxygen, Ethanol, Ammonia, Mercury, Water, Sulfur, Lead, Antimony, Aluminum, Silver, Gold, Copper, Uranium and Tungsten. The values in the second column are: minus 272.2 or 0.95 K, minus 259.3 or 13.9 K, minus 210 or 63.2 K, minus 218.8 or 54.4 K, minus 114, minus 75, minus 38.9, 0 119, 327, 631, 660, 961, 1063, 1083, 1133 and 3410. The third column has the following values: 5.23, 58.6, 25.5, 13.8, 104, 332, 11.8, 334, 38.1, 24.5, 165, 380, 88.3, 64.5, 134, 84 and 184. The fourth column has the following values: 1.25, 14.0, 6.09, 3.30, 24.9, 79.3, 2.82, 79.8, 9.10, 5.85, 39.4, 90, 21.1, 15.4, 32, 20 and 44. The fifth column has the following values: 78.3, minus 33.4, 357, 100.0, 444.6, 1750, 1440, 2450, 2193, 2660, 2595, 3900 and 5900. The sixth column has the following values: 20.9, 452, 201, 213, 854, 1370, 272, 2256, 326, 871, 561, 11400, 2336, 1578, 5069, 1900 and 4810. The last column has the following values: 4.99, 108, 48, 50.9, 204, 327, 65, 539, 77.9, 208, 134, 2720, 558, 377, 1211, 454 and 1150. Note 1 indicates that values quoted are at the normal melting and boiling temperatures at standard atmospheric pressure. Note 2 indicates that helium has no solid phase at atmospheric pressure. The melting point given is at a pressure of 2.5 MPa. Note 3 indicates that at 37 degree Celsius or body temperature, the heat of vaporization for water is 2430 kilojoule per kg or 580 kilocalorie per kg. Note 4 indicates that at 37 degrees Celsius or body temperature, the heat of vaporization, for water is 2430 kilojoule per kg or 580 kilocalorie per kg.">
+<title>Calores de fusión y vaporización<sup>[1]</sup></title>
+<tgroup cols="7">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<thead>
+<row>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center" namest="c3" nameend="c4"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center" namest="c6" nameend="c7"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="top" align="center"><emphasis effect="bold">Sustancia</emphasis></entry>
+<entry valign="top" align="center"><emphasis effect="bold">Punto de fusión</emphasis> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtext>°C</m:mtext><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="center"><emphasis effect="bold">kJ/kg</emphasis></entry>
+<entry valign="top" align="center"><emphasis effect="bold">kcal/kg</emphasis></entry>
+<entry valign="top" align="center"><emphasis effect="bold">Punto de ebullición</emphasis> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtext>°C</m:mtext><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="center"><emphasis effect="bold">kJ/kg</emphasis></entry>
+<entry valign="top" align="center"><emphasis effect="bold">kcal/kg</emphasis></entry>
+</row>
+<row>
+<entry valign="top" align="left">Helio<sup>[2]</sup></entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mo>−</m:mo><m:mn>272,2</m:mn><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,95</m:mn><m:mtext> K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">5,23</entry>
+<entry valign="top" align="right">1,25</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>-268,9</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4,2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">20,9</entry>
+<entry valign="top" align="right">4,99</entry>
+</row>
+<row>
+<entry valign="top" align="left">Hidrógeno</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>-259,3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13,9</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">58,6</entry>
+<entry valign="top" align="right">14,0</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>-252,9</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20,2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">452</entry>
+<entry valign="top" align="right">108</entry>
+</row>
+<row>
+<entry valign="top" align="left">Nitrógeno</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>-210,0</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>63,2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">25,5</entry>
+<entry valign="top" align="right">6,09</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>-195,8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>77,4</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">201</entry>
+<entry valign="top" align="right">48,0</entry>
+</row>
+<row>
+<entry valign="top" align="left">Oxígeno</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>-218,8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>54,4</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">13,8</entry>
+<entry valign="top" align="right">3,30</entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mn>-183,0</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>90,2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">213</entry>
+<entry valign="top" align="right">50,9</entry>
+</row>
+<row>
+<entry valign="top" align="left">Etanol</entry>
+<entry valign="top" align="right">–114</entry>
+<entry valign="top" align="right">104</entry>
+<entry valign="top" align="right">24,9</entry>
+<entry valign="top" align="right">78,3</entry>
+<entry valign="top" align="right">854</entry>
+<entry valign="top" align="right">204</entry>
+</row>
+<row>
+<entry valign="top" align="left">Amoníaco</entry>
+<entry valign="top" align="right">–75</entry>
+<entry valign="top" align="right">332</entry>
+<entry valign="top" align="right">79,3</entry>
+<entry valign="top" align="right">–33,4</entry>
+<entry valign="top" align="right">1370</entry>
+<entry valign="top" align="right">327</entry>
+</row>
+<row>
+<entry valign="top" align="left">Mercurio</entry>
+<entry valign="top" align="right">–38,9</entry>
+<entry valign="top" align="right">11,8</entry>
+<entry valign="top" align="right">2,82</entry>
+<entry valign="top" align="right">357</entry>
+<entry valign="top" align="right">272</entry>
+<entry valign="top" align="right">65,0</entry>
+</row>
+<row>
+<entry valign="top" align="left">Agua</entry>
+<entry valign="top" align="right">0,00</entry>
+<entry valign="top" align="right">334</entry>
+<entry valign="top" align="right">79,8</entry>
+<entry valign="top" align="right">100,0</entry>
+<entry valign="top" align="right">2.256<sup>[3]</sup></entry>
+<entry valign="top" align="right">539<sup>[4]</sup></entry>
+</row>
+<row>
+<entry valign="top" align="left">Azufre</entry>
+<entry valign="top" align="right">119</entry>
+<entry valign="top" align="right">38,1</entry>
+<entry valign="top" align="right">9,10</entry>
+<entry valign="top" align="right">444,6</entry>
+<entry valign="top" align="right">326</entry>
+<entry valign="top" align="right">77,9</entry>
+</row>
+<row>
+<entry valign="top" align="left">Plomo</entry>
+<entry valign="top" align="right">327</entry>
+<entry valign="top" align="right">24,5</entry>
+<entry valign="top" align="right">5,85</entry>
+<entry valign="top" align="right">1.750</entry>
+<entry valign="top" align="right">871</entry>
+<entry valign="top" align="right">208</entry>
+</row>
+<row>
+<entry valign="top" align="left">Antimonio</entry>
+<entry valign="top" align="right">631</entry>
+<entry valign="top" align="right">165</entry>
+<entry valign="top" align="right">39,4</entry>
+<entry valign="top" align="right">1.440</entry>
+<entry valign="top" align="right">561</entry>
+<entry valign="top" align="right">134</entry>
+</row>
+<row>
+<entry valign="top" align="left">Aluminio</entry>
+<entry valign="top" align="right">660</entry>
+<entry valign="top" align="right">380</entry>
+<entry valign="top" align="right">90</entry>
+<entry valign="top" align="right">2.450</entry>
+<entry valign="top" align="right">11400</entry>
+<entry valign="top" align="right">2.720</entry>
+</row>
+<row>
+<entry valign="top" align="left">Plata</entry>
+<entry valign="top" align="right">961</entry>
+<entry valign="top" align="right">88,3</entry>
+<entry valign="top" align="right">21,1</entry>
+<entry valign="top" align="right">2.193</entry>
+<entry valign="top" align="right">2.336</entry>
+<entry valign="top" align="right">558</entry>
+</row>
+<row>
+<entry valign="top" align="left">Oro</entry>
+<entry valign="top" align="right">1.063</entry>
+<entry valign="top" align="right">64,5</entry>
+<entry valign="top" align="right">15,4</entry>
+<entry valign="top" align="right">2.660</entry>
+<entry valign="top" align="right">1.578</entry>
+<entry valign="top" align="right">377</entry>
+</row>
+<row>
+<entry valign="top" align="left">Cobre</entry>
+<entry valign="top" align="right">1.083</entry>
+<entry valign="top" align="right">134</entry>
+<entry valign="top" align="right">32,0</entry>
+<entry valign="top" align="right">2.595</entry>
+<entry valign="top" align="right">5.069</entry>
+<entry valign="top" align="right">1.211</entry>
+</row>
+<row>
+<entry valign="top" align="left">Uranio</entry>
+<entry valign="top" align="right">1.133</entry>
+<entry valign="top" align="right">84</entry>
+<entry valign="top" align="right">20</entry>
+<entry valign="top" align="right">3.900</entry>
+<entry valign="top" align="right">1.900</entry>
+<entry valign="top" align="right">454</entry>
+</row>
+<row>
+<entry valign="top" align="left">Tungsteno</entry>
+<entry valign="top" align="right">3.410</entry>
+<entry valign="top" align="right">184</entry>
+<entry valign="top" align="right">44</entry>
+<entry valign="top" align="right">5.900</entry>
+<entry valign="top" align="right">4.810</entry>
+<entry valign="top" align="right">1.150</entry>
+</row>
+</tbody>
+</tgroup>
+<caption><sup>[1]</sup>Valores citados a las temperaturas normales de fusión y ebullición a la presión atmosférica estándar (<m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext></m:mrow></m:math>). <sup>[2]</sup>El helio no tiene fase sólida a presión atmosférica. El punto de fusión indicado es a una presión de 2,5 MPa. <sup>[3]</sup>A <m:math><m:mrow><m:mn>37,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (temperatura corporal), el calor de vaporización <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math> para el agua es de 2.430 kJ/kg o 580 kcal/kg. <sup>[4]</sup>A <m:math><m:mrow><m:mn>37,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (temperatura corporal), el calor de vaporización, <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math> para el agua es de 2.430 kJ/kg o 580 kcal/kg.</caption>
+</table>
+<para id="fs-id1170902266855">Los cambios de fase pueden tener un fuerte efecto estabilizador a temperaturas que no están cerca de los puntos de fusión y ebullición, ya que la evaporación y la condensación se producen incluso a temperaturas inferiores al punto de ebullición. Por ejemplo, las temperaturas del aire en climas húmedos pocas veces superan los <m:math><m:mrow><m:mn>38,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, aproximadamente, ya que la mayor parte de la transferencia de calor se produce al evaporar el agua en el aire. Del mismo modo, las temperaturas en condiciones meteorológicas húmedas pocas veces caen por debajo del punto de rocío —la temperatura en la que se produce la condensación dada la concentración de vapor de agua en el aire— porque se libera mucho calor cuando el vapor de agua se condensa.</para>
+<para id="fs-id1170903803864">Se necesita más energía para evaporar el agua por debajo del punto de ebullición que en el punto de ebullición, ya que la energía cinética de las moléculas de agua a temperaturas inferiores a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> es menor que a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, por lo que se dispone de menos energía de movimientos térmicos aleatorios. Por ejemplo, a la temperatura corporal, la evaporación del sudor de la piel requiere un aporte de calor de 2.428 kJ/kg, que es, aproximadamente, un 10 % superior al calor de vaporización latente a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Este calor proviene de la piel, y este efecto de enfriamiento por evaporación de la sudoración ayuda a reducir la temperatura corporal cuando hace calor. Sin embargo, la alta humedad inhibe la evaporación, por lo que la temperatura corporal podría aumentar, mientras que el sudor no evaporado podría quedar en la frente.</para>
+<example id="fs-id1170902208726">
+<para id="fs-id1170903742973"><title>Calcular temperatura final a partir del cambio de fase</title>
+Se utilizan tres cubos de hielo para enfriar una gaseosa a <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> con masa <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>gaseosa</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>. El hielo está a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y cada cubo de hielo tiene una masa de 6,0 g. Suponga que la gaseosa se mantiene en un recipiente aislante para conservar la temperatura para ignorar la pérdida de calor, y que la gaseosa tiene el mismo calor específico que el agua. Calcule la temperatura final cuando todo el hielo se haya derretido.</para>
+<para id="fs-id1170902243290"><title>Estrategia</title>
+Los cubos de hielo están a la temperatura de fusión de <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> El calor se transfiere de la gaseosa al hielo para que se derrita. La fusión produce agua a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> por lo que se transfiere más calor de la gaseosa a esta agua hasta que el sistema de agua más gaseosa alcanza el equilibrio térmico.</para>
+<para id="fs-id1170902191148">La transferencia de calor al hielo es</para>
+<equation id="fs-id1170902120464" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>hielo</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>hielo</m:mtext></m:mrow></m:msub><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>hielo</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mtext>W</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902341963">El calor que desprende la gaseosa es</para>
+<equation id="fs-id1170903895639" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>gaseosa</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>gaseosa</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mtext>W</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902057657">Ya que no se pierde calor, <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>hielo</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>gaseosa</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> como en el <link target-id="fs-id1170904267465" document="m90824"/>, de modo que</para>
+<equation id="fs-id1170902076156" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>hielo</m:mtext></m:mrow></m:msub><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>hielo</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mtext>W</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>gaseosa</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mtext>W</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903787895">Despeje la incógnita <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math>:</para>
+<equation id="fs-id1170902340605" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>gaseosa</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mtext>w</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>hielo</m:mtext></m:mrow></m:msub><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>gaseosa</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>hielo</m:mtext></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mi>c</m:mi><m:mtext>w</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902220305"><title>Solución</title>
+Primero identificamos las cantidades conocidas. La masa de hielo es <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>hielo</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext><m:mo>=</m:mo><m:mn>0,018</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> y la masa de la gaseosa es <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>gaseosa</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> A continuación, calculamos la temperatura final:</para>
+<equation id="fs-id1170904138962" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>20.930</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>−</m:mo><m:mn>6.012</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>1.122</m:mn><m:mspace width="0.2em"/><m:mtext>J/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>13</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902130267"><title>Importancia</title>
+Este ejemplo ilustra las grandes energías implicadas durante un cambio de fase. La masa de hielo es, aproximadamente, el 7 % de la masa de la gaseosa, pero provoca un cambio notable en su temperatura. Aunque asumimos que el hielo estaba a la temperatura de congelación, esto no es realista para el hielo recién salido de un congelador: La temperatura típica es <m:math><m:mrow><m:mn>−6</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Sin embargo, esta corrección no supone un cambio significativo en el resultado que hemos hallado. ¿Puede explicar por qué?</para>
+</example>
+<para id="fs-id1170904052286">Al igual que las transiciones sólido-líquido y líquido-vapor, las transiciones directas sólido-vapor o sublimaciones involucran calor. La energía transferida viene dada por la ecuación <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow></m:math>, donde <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow></m:math> es el <term>calor de sublimación</term>, análogo a <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math>. El calor de sublimación a una temperatura determinada es igual al calor de fusión más el calor de vaporización a esa temperatura.</para><para id="fs-id1170902153113">Ahora podemos calcular cualquier número de efectos relacionados con temperatura y cambio de fase. En cada caso, es necesario identificar qué cambios de temperatura y de fase se están produciendo. Tenga en cuenta que transferencia de calor y trabajo pueden provocar tanto cambios de temperatura como de fase.</para>
+<note id="fs-id1170904187845" class="problem-solving">
+<title>Los efectos de la transferencia de calor</title>
+<list id="fs-id1170904111936" list-type="enumerated" number-style="arabic"><item>Examinar la situación para determinar que hay un cambio de temperatura o de fase. ¿Hay transferencia de calor dentro o fuera del sistema? Cuando no es evidente si se produce un cambio de fase o no, se puede resolver primero el problema como si no hubiera cambios de fase, y examinar el cambio de temperatura obtenido. Si es suficiente para llevarlo más allá de un punto de ebullición o de fusión, debe volver a hacer el problema por pasos: cambio de temperatura, cambio de fase, cambio de temperatura posterior y así sucesivamente.</item>
+<item>Identifique y enumere todos los objetos que cambian de temperatura o de fase.</item>
+<item>Identifique exactamente lo que hay que determinar en el problema (identifique las incógnitas). Una lista escrita es útil.</item>
+<item>Haga una lista de lo que se da o lo que se puede deducir del problema tal y como está planteado (identifique los aspectos conocidos). Si hay un cambio de temperatura, el calor transferido depende del calor específico de la sustancia <link document="m90824">(Transferencia de calor, calor específico y calorimetría</link>), y si hay un cambio de fase, el calor transferido depende del calor latente de la sustancia (<link target-id="fs-id1170903879019"/>).</item>
+<item>Despeje la ecuación apropiada para la cantidad a determinar (la incógnita).</item>
+<item>Sustituya los aspectos conocidos junto con sus unidades en la ecuación apropiada y obtenga soluciones numéricas completas con unidades. Es posible que tenga que hacerlo por pasos si hay más de un estado en el proceso, como un cambio de temperatura seguido de un cambio de fase. Sin embargo, en un problema de calorimetría, cada paso corresponde a un término de la ecuación única <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>caliente</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>frío</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</item>
+<item>Compruebe la respuesta para ver si es razonable. ¿Tiene sentido? Por ejemplo, asegúrese de que cualquier cambio de temperatura no provoque también un cambio de fase que no haya tenido en cuenta.</item>
+</list></note>
+<note id="fs-id1170902091342" class="check-understanding">
+<exercise id="fs-id1170903727517">
+<problem id="fs-id1170902289009">
+<para id="fs-id1170904074285">¿Por qué la nieve suele permanecer incluso cuando las temperaturas diurnas son superiores a la temperatura de congelación?</para>
+</problem>
+<solution id="fs-id1170904108591">
+<para id="fs-id1170902257055">La nieve se forma a partir de cristales de hielo y, por tanto, es la fase sólida del agua. Debido a que se necesita un enorme calor para los cambios de fase, se necesita un cierto tiempo para que este calor se transfiera desde el aire, incluso si el aire está por encima de <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170902117540" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170902307063" list-type="bulleted" bullet-style="bullet">
+<item>La mayoría de las sustancias tienen tres fases distintas (en condiciones ordinarias en la Tierra), y dependen de la temperatura y la presión.</item>
+<item>Dos fases coexisten (es decir, están en equilibrio térmico) a un conjunto de presiones y temperaturas.</item>
+<item>Los cambios de fase se producen a temperaturas fijas para una sustancia dada a una presión determinada, y estas temperaturas se denominan puntos de ebullición, congelación (o fusión) y sublimación.</item>
+</list>
+</section>
+<section id="fs-id1170903852132" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1170902198180">
+<problem id="fs-id1170902192565">
+<para id="fs-id1170902132030">Una olla a presión contiene agua y vapor de agua en equilibrio a una presión superior a la atmosférica. ¿Cómo esta mayor presión aumenta la velocidad de cocción?</para>
+</problem>
+<solution id="fs-id1170904183804">
+<para id="fs-id1170903810036">Aumenta el punto de ebullición, por lo que el agua, de la que el alimento obtiene calor, está a una temperatura más alta.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903793970">
+<problem id="fs-id1170903905443">
+<para id="fs-id1170903862987">Como se muestra a continuación, lo cual es el diagrama de fases del dióxido de carbono, ¿cuál es la presión de vapor del dióxido de carbono sólido (hielo seco) a <m:math><m:mrow><m:mn>−78,5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>?</m:mo></m:mrow></m:math> (Note que los ejes de la figura no son lineales y el gráfico no está a escala).</para>
+<media id="fs-id1170902153058" alt="La figura muestra un gráfico de presión en atmósfera versus temperatura en grados Celsius para el dióxido de carbono. La curva sube y se dirige hacia la derecha hasta alcanzar el punto triple, que se encuentra a 5,11 atmósferas y a menos 56,6 grados Celsius. A partir de aquí, la curva se ramifica. Una rama sube casi verticalmente, la otra sube y se dirige hacia el punto crítico. Esto es a 73 atmósferas y 31 grados Celsius. La zona a la izquierda de la rama vertical es sólida, la zona entre dos ramas es líquida y la de la derecha de la rama derecha es vapor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_05_Q3.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170904140827">
+<problem id="fs-id1170902223079">
+<para id="fs-id1170903903019">¿Se puede licuar el dióxido de carbono a temperatura ambiente (<m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>)? Si es así, ¿cómo? Si no, ¿por qué no? (Vea el diagrama de fases en el problema anterior).</para>
+</problem>
+<solution id="fs-id1170902306723">
+<para id="fs-id1170902153077">Sí, aumentando la presión por encima de 56 atm.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903748482">
+<problem id="fs-id1170904128383">
+<para id="fs-id1170903800769">¿Cuál es la diferencia entre gas y vapor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902192000">
+<problem id="fs-id1170903820925">
+<para id="fs-id1170904070588">La transferencia de calor puede provocar cambios de temperatura y de fase. ¿Qué más puede causar estos cambios?</para>
+</problem>
+<solution id="fs-id1170903874095">
+<para id="fs-id1170903732400">trabajo</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904134718">
+<problem id="fs-id1170904052231">
+<para id="fs-id1170902166769">¿Cómo el calor de fusión latente del agua contribuye a ralentizar el descenso de la temperatura del aire e impide, quizás, que las temperaturas caigan significativamente por debajo de <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> en las proximidades de grandes masas de agua?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903820949">
+<problem id="fs-id1170904109175">
+<para id="fs-id1170904040768">¿Cuál es la temperatura del hielo justo después de formarse por la congelación del agua?</para>
+</problem>
+<solution id="fs-id1170902243854">
+<para id="fs-id1170902137551"><m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (a presión atmosférica o cerca de ella).</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902156220">
+<problem id="fs-id1170902160916">
+<para id="fs-id1170902336127">Si coloca hielo a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> en agua a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> en un recipiente aislado, ¿cuál será el resultado neto? ¿Habrá menos hielo y más agua líquida, o más hielo y menos agua líquida, o se mantendrán las mismas cantidades?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904143269">
+<problem id="fs-id1170904041979">
+<para id="fs-id1170902196068">¿Qué efecto tiene la condensación en un vaso de agua helada sobre la velocidad de fusión del hielo? ¿La condensación acelerará el proceso de fusión o lo retrasará?</para>
+</problem>
+<solution id="fs-id1170902091049">
+<para id="fs-id1170903824471">La condensación libera calor, por lo que acelera la fusión.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902064951">
+<problem id="fs-id1170902223021">
+<para id="fs-id1170903875116">En Miami, Florida, que tiene un clima muy húmedo y numerosas masas de agua cercanas, es inusual que las temperaturas suban más de <m:math><m:mrow><m:mn>38</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (<m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>). Sin embargo, en el clima desértico de Phoenix, Arizona, las temperaturas superan esa cifra casi todos los días de julio y agosto. Explique cómo la evaporación del agua ayuda a limitar las altas temperaturas en climas húmedos.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903866777">
+<problem id="fs-id1170902352049">
+<para id="fs-id1170902205393">En invierno, suele hacer más calor en San Francisco que en Sacramento, a 150 km hacia el interior. En verano, casi siempre hace más calor en Sacramento. Explique cómo las masas de agua que rodean San Francisco moderan sus temperaturas extremas.</para>
+</problem>
+<solution id="fs-id1170903824409">
+<para id="fs-id1170904127301">Debido al elevado calor específico del agua, cambia menos de temperatura que la tierra. Además, la evaporación reduce el aumento de temperatura. El aire tiende a mantenerse cerca del equilibrio con el agua, por lo que su temperatura no cambia mucho donde hay mucha agua alrededor, como en San Francisco, pero no en Sacramento.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902167135">
+<problem id="fs-id1170902064151">
+<para id="fs-id1170903941231">Los alimentos liofilizados se han deshidratado al vacío. Durante el proceso, los alimentos se congelan y deben calentarse para facilitar la deshidratación. Explique cómo el vacío acelera la deshidratación y por qué los alimentos se congelan como consecuencia.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903892112">
+<problem id="fs-id1170902143476">
+<para id="fs-id1170902070164">En una demostración en el aula de física un instructor infla un globo con la boca y luego lo enfría en nitrógeno líquido. Cuando está frío, el globo encogido tiene una pequeña cantidad de líquido azul claro en su interior, así como algunos cristales parecidos a la nieve. A medida que se calienta, el líquido hierve y parte de los cristales se subliman, con algunos cristales que permanecen durante un tiempo y luego producen un líquido. Identifique el líquido azul y los dos sólidos en el globo frío. Justifique sus identificaciones utilizando los datos de la <link target-id="fs-id1170903879019"/>.</para>
+</problem>
+<solution id="fs-id1170902135098">
+<para id="fs-id1170903835865">El líquido es el oxígeno, cuyo punto de ebullición es superior al del nitrógeno, pero cuyo punto de fusión es inferior al del nitrógeno líquido. Los cristales que se subliman son de dióxido de carbono, el cual no tiene fase líquida a presión atmosférica. Los cristales que se funden son de agua, cuyo punto de fusión está por encima del punto de sublimación del dióxido de carbono. El agua provenía del aliento del instructor.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170902099719" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170902358283">
+<problem id="fs-id1170902235529">
+<para id="fs-id1170903883567">¿Cuánta transferencia de calor (en kilocalorías) se necesita para descongelar un paquete de 0,450 kg de vegetales congelados originalmente a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> si su calor de fusión es el mismo que el del agua?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903804712">
+<problem id="fs-id1170904203780">
+<para id="fs-id1170904247702">Una bolsa que contiene hielo a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> es mucho más eficaz en la absorción de energía que una que contenga la misma cantidad de agua a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (a) ¿Cuánta transferencia de calor es necesaria para elevar la temperatura de 0,800 kg de agua de <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (b) ¿Cuánta transferencia de calor se necesita para fundir primero 0,800 kg de hielo a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y luego aumentar su temperatura? (c) Explique cómo su respuesta apoya la afirmación de que el hielo es más eficaz.</para>
+</problem>
+<solution id="fs-id1170903863821">
+<para id="fs-id1170902265629">a. <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>3,68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; c. El hielo es mucho más eficaz para absorber el calor porque primero debe derretirse, lo que requiere mucha energía, y luego gana la misma cantidad de calor que la bolsa que empezó con agua. La primera <m:math><m:mrow><m:mn>2,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> de calor se utiliza para derretir el hielo, luego absorbe el <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> de calor como el agua.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902222143">
+<problem id="fs-id1170902299164">
+<para id="fs-id1170903899225">(a) ¿Cuánta transferencia de calor es necesaria para elevar la temperatura de una olla de aluminio de 0,750 kg que contiene 2,50 kg de agua desde <m:math><m:mrow><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> hasta el punto de ebullición y, a continuación, hervir 0,750 kg de agua? (b) ¿Cuánto tiempo se tarda si la tasa de transferencia de calor es de 500 W?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903806015">
+<problem id="fs-id1170902154772">
+<para id="fs-id1170903894679">La condensación en un vaso de agua helada hace que el hielo se derrita más rápido de lo que lo haría de otro modo. Si se condensan 8,00 g de vapor en un vaso que contiene agua y 200 g de hielo, ¿cuántos gramos del hielo se derretirán? Suponga que no se produce ninguna otra transferencia de calor. Use <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>v</m:mi></m:msub></m:mrow></m:math> para el agua a <m:math><m:mrow><m:mn>37</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> como una mejor aproximación que <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>v</m:mi></m:msub></m:mrow></m:math> para el agua a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>).</para>
+</problem>
+<solution id="fs-id1170904008061">
+<para id="fs-id1170902155630">58,1 g</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902204224">
+<problem id="fs-id1170902296732">
+<para id="fs-id1170902286743">En un viaje, se da cuenta de que una bolsa de hielo de 3,50 kg dura un promedio de un día en su enfriador. ¿Cuál es la potencia media en vatios que entra en el hielo si comienza en <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y se funde completamente en <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> de agua en exactamente un día?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902174965">
+<problem id="fs-id1170903891846">
+<para id="fs-id1170904089927">En un determinado día seco y soleado, la temperatura de una piscina aumentaría en <m:math><m:mrow><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> si no es por la evaporación. ¿Qué fracción del agua debe evaporarse para llevarse precisamente la energía suficiente para mantener la temperatura constante?</para>
+</problem>
+<solution id="fs-id1170904063455">
+<para id="fs-id1170903829650">Supongamos que <emphasis effect="italics">M</emphasis> es la masa de agua de la piscina y <emphasis effect="italics">m</emphasis> es la masa de agua de la piscina que se evapora.<newline/> <m:math><m:mrow><m:mi>M</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>V</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>37</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msub><m:mo stretchy="false">⇒</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>M</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>V</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>37</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>kcal/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>580</m:mn><m:mspace width="0.2em"/><m:mtext>kcal/kg</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,59</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow></m:math>;<newline/> (Note que <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>V</m:mtext></m:msub></m:mrow></m:math> para el agua a <m:math><m:mrow><m:mn>37</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> se utiliza aquí como una mejor aproximación que <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>V</m:mtext></m:msub></m:mrow></m:math> para agua a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>).</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904053024">
+<problem id="fs-id1170904053026">
+<para id="fs-id1170904179913">(a) ¿Cuánta transferencia de calor es necesaria para elevar la temperatura de un trozo de hielo de 0,200 kg de <m:math><m:mrow><m:mn>−20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>130,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, incluida la energía necesaria para cambios de fase? (b) ¿Cuánto tiempo se requiere para cada etapa, suponiendo una tasa de transferencia de calor constante de 20,0 kJ/s? (c) Haga un gráfico de temperatura versus tiempo para este proceso.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903792501">
+<problem id="fs-id1170902225393">
+<para id="fs-id1170902225395">En 1986, un enorme iceberg se desprendió de la plataforma de hielo de Ross, en la Antártida. Era un prisma rectangular de 160 km de largo, 40,0 km de ancho y 250 m de espesor aproximadamente. (a) ¿Cuál es la masa de este iceberg, dado que la densidad del hielo es <m:math><m:mrow><m:mn>917</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>? (b) ¿Cuánta transferencia de calor (en julios) se necesita para derretirlo? (c) ¿Cuántos años de luz solar solamente se necesitarían para fundir hielo de este grosor, si el hielo absorbe un promedio de <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, 12,00 h al día?</para>
+</problem>
+<solution id="fs-id1170902064107">
+<para id="fs-id1170902064109">a. <m:math><m:mrow><m:mn>1,47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>4,90</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>20</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; c. 48,5 y</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903746128">
+<problem id="fs-id1170904096034">
+<para id="fs-id1170904096037">¿Cuántos gramos de café deben evaporarse de 350 g de café en una taza de vidrio de 100 g para enfriar el café y la taza de <m:math><m:mrow><m:mn>95,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>45,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? Suponga que el café tiene las mismas propiedades térmicas que el agua y que el calor de vaporización promedio es de 2.340 kJ/kg (560 kcal/g). Desestime las pérdidas de calor por procesos distintos a la evaporación, así como el cambio de masa del café al enfriarse. ¿Las dos últimas suposiciones hacen que su respuesta sea mayor o menor que la verdadera?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902184084">
+<problem id="fs-id1170902049517">
+<para id="fs-id1170902049519">a) Es difícil extinguir un incendio en un tanque petrolero porque cada litro de crudo libera <m:math><m:mrow><m:mn>2,80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> de energía al quemarse. Para ilustrar esta dificultad, calcule el número de litros de agua que se deben gastar para absorber la energía liberada al quemar 1,00 L de petróleo crudo, si la temperatura del agua aumenta de <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, hierve, y la temperatura del vapor de agua resultante se eleva a <m:math><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a presión constante. (b) Analice las complicaciones adicionales causadas por el hecho de que el petróleo crudo es menos denso que el agua.</para>
+</problem>
+<solution id="fs-id1170903871562">
+<para id="fs-id1170903871564">a. 9,35 L; b. El petróleo crudo es menos denso que el agua, por lo que flota sobre ella y se expone al oxígeno del aire, el cual usa para quemarse. Además, si el agua está debajo del petróleo, es menos capaz de absorber el calor generado por este.</para></solution>
+</exercise>
+<exercise id="fs-id1170902189818">
+<problem id="fs-id1170903819882">
+<para id="fs-id1170903819884">La energía liberada por la condensación en las tormentas puede ser muy grande. Calcule la energía liberada a la atmósfera para una pequeña tormenta de 1 km de radio, suponiendo que se precipitan 1,0 cm de lluvia de forma uniforme sobre esta zona.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904052456">
+<problem id="fs-id1170904052458">
+<para id="fs-id1170904052460">Para ayudar a prevenir daños por las heladas, se rocían 4,00 kg de agua a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> sobre un árbol frutal. (a) ¿Cuánto calor se transfiere al congelarse el agua? (b) ¿Cuánto disminuiría la temperatura del árbol de 200 kg si se le transfiriera esta cantidad de calor del árbol? Tomemos que el calor específico es <m:math><m:mrow><m:mn>3,35</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, y se supone que no se produce ningún cambio de fase en el árbol.</para>
+</problem>
+<solution id="fs-id1170902109757">
+<para id="fs-id1170902109759">a. 319 kcal; b. <m:math><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902302983">
+<problem id="fs-id1170902302985">
+<para id="fs-id1170903801833">Un bol de aluminio de 0,250 kg que contiene <m:math><m:mrow><m:mn>0,800</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> de sopa a <m:math><m:mrow><m:mn>25,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> se coloca en un congelador. ¿Cuál es la temperatura final si se transfieren 388 kJ de energía desde el bol y la sopa, suponiendo que las propiedades térmicas de la sopa son las mismas que las del agua?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904135458">
+<problem id="fs-id1170904135460">
+<para id="fs-id1170903814846">Un cubo de hielo de 0,0500 kg a <m:math><m:mrow><m:mn>−30,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> se coloca en 0,400 kg de agua a <m:math><m:mrow><m:mn>35,0</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> en un recipiente muy bien aislado. ¿Cuál es la temperatura final?</para>
+</problem>
+<solution id="fs-id1170902124255">
+<para id="fs-id1170902124257">Primero hay que poner el hielo a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y derretirlo con el calor <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math> 4,74 kcal. Esto reduce la temperatura del agua en <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mn>23,15</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Ahora, el calor perdido por el agua caliente es igual al ganado por el agua fría (<m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> es la temperatura final): <m:math><m:mrow><m:mn>20,6</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904225622">
+<problem id="fs-id1170904225624">
+<para id="fs-id1170902089265">Si se vierten 0,0100 kg de agua a <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> sobre un bloque de hielo de 1,20 kg (que inicialmente está a <m:math><m:mrow><m:mn>−15,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>), ¿cuál es la temperatura final? Se puede suponer que el agua se enfría tan rápidamente que los efectos del entorno son insignificantes.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902296826">
+<problem id="fs-id1170902296828">
+<para id="fs-id1170903746014">Los indígenas a veces cocinan en cestas herméticas colocando piedras calientes en el agua para hacerla hervir. ¿Qué masa de granito a <m:math><m:mrow><m:mn>500</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> se debe colocar en 4,00 kg de agua a <m:math><m:mrow><m:mn>15,0</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> para llevar su temperatura a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, si 0,0250 kg de agua escapan en forma de vapor del chisporroteo inicial? Puede desestimar los efectos del entorno.</para>
+</problem>
+<solution id="fs-id1170902188007">
+<para id="fs-id1170902188010">Supongamos que los subíndices r, e, v y w representen roca, equilibrio, vapor y agua, respectivamente.<newline/><m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>r</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>r</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>e</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mtext>V</m:mtext></m:msub><m:msub><m:mi>L</m:mi><m:mtext>V</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mtext>W</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>W</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>e</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>;<newline/> <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>m</m:mi><m:mtext>r</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>V</m:mtext></m:msub><m:msub><m:mi>L</m:mi><m:mtext>V</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mtext>W</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>W</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>e</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>c</m:mi><m:mtext>r</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>e</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,0250</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2256</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,975</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4186</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>840</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4,38</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902179672">
+<problem id="fs-id1170902179674">
+<para id="fs-id1170902264743">¿Cuál sería la temperatura final de la olla y del agua en el <link target-id="fs-id1170904267465" document="m90824"/> si se colocan 0,260 kg de agua en la olla y 0,0100 kg del agua se evaporan inmediatamente, dejando que el resto llegue a una temperatura común con la olla?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170902276556">
+<term>punto crítico</term>
+<meaning id="fs-id1170903879977">para una sustancia determinada, la combinación de temperatura y presión por encima de la cual las fases líquida y gaseosa son indistinguibles</meaning>
+</definition>
+<definition id="fs-id1170902219679">
+<term>presión crítica</term>
+<meaning id="fs-id1170902219685">presión en el punto crítico</meaning>
+</definition>
+<definition id="fs-id1170902351542">
+<term>temperatura crítica</term>
+<meaning id="fs-id1170902130817">temperatura en el punto crítico</meaning>
+</definition>
+<definition id="fs-id1170902304520">
+<term>calor de fusión</term>
+<meaning id="fs-id1170902304526">energía por unidad de masa necesaria para que una sustancia pase de la fase sólida a la fase líquida, o que se libera cuando la sustancia pasa de líquida a sólida</meaning>
+</definition>
+<definition id="fs-id1170904056742">
+<term>calor de sublimación</term>
+<meaning id="fs-id1170902261032">energía por unidad de masa necesaria para que una sustancia pase de la fase sólida a la fase vapor</meaning>
+</definition>
+<definition id="fs-id1170903821863">
+<term>calor de vaporización</term>
+<meaning id="fs-id1170903860729">energía por unidad de masa necesaria para que una sustancia pase de la fase líquida a la fase vapor</meaning>
+</definition>
+<definition id="fs-id1170904134866">
+<term>coeficiente de calor latente</term>
+<meaning id="fs-id1170904099040">término general para los calores de fusión, vaporización y sublimación</meaning>
+</definition>
+<definition id="fs-id1170904099044">
+<term>diagrama de fase</term>
+<meaning id="fs-id1170904225027">gráfico de presión versus temperatura de una sustancia determinada, que muestra a qué presiones y temperaturas se producen las fases de la sustancia</meaning>
+</definition>
+<definition id="fs-id1170904208707">
+<term>sublimación</term>
+<meaning id="fs-id1170904188602">cambio de fase de sólido a gas</meaning>
+</definition>
+<definition id="fs-id1170903855651">
+<term>vapor</term>
+<meaning id="fs-id1170903855656">gas a una temperatura inferior a la de ebullición</meaning>
+</definition>
+<definition id="fs-id1170904086327">
+<term>presión de vapor</term>
+<meaning id="fs-id1170902135006">presión a la que un gas coexiste con su fase sólida o líquida</meaning>
+</definition>
+</glossary>
+
+
+</document>

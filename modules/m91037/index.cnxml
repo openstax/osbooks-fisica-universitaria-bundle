@@ -1,0 +1,183 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Semiconductores y dopaje</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91037</md:content-id>
+  <md:title>Semiconductores y dopaje</md:title>
+  <md:abstract><para>Al final de esta sección podrá:</para><list>
+<item>Describir los cambios en la estructura energética de un semiconductor debido al dopaje.</item>
+<item>Distinguir entre los semiconductores de tipo n y de tipo p.</item>
+<item>Describir el efecto Hall y explicar su importancia.</item>
+<item>Calcular la carga, la velocidad de deriva y la densidad numérica de los portadores de carga de un semiconductor utilizando la información de un experimento de efecto Hall.</item></list></md:abstract>
+  <md:uuid>f410d115-0489-4c8c-8479-98e9c3c91cf7</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172098618359">En la sección anterior, solo hemos considerado la contribución a la corriente eléctrica debida a los electrones que ocupan estados en la banda de conducción. Sin embargo, el desplazamiento de un electrón de la banda de valencia a la banda de conducción deja un estado desocupado o <term>agujero</term> en la estructura energética de la banda de valencia, al que puede desplazarse un electrón cercano. A medida que estos agujeros son llenados por otros electrones, se crean nuevos agujeros. La corriente eléctrica asociada a este relleno puede verse como el movimiento colectivo de muchos electrones con carga negativa o el movimiento de los agujeros de electrones con carga positiva.</para>
+<para id="fs-id1172100633528">Para ilustrarlo, analicemos la red unidimensional en la <link target-id="CNX_UPhysics_42_06_Holes"/>. Supongamos que cada átomo de la red contribuye con un electrón de valencia a la corriente. A medida que el agujero de la derecha se llena, este agujero se desplaza hacia la izquierda. La corriente puede interpretarse como el flujo de carga positiva hacia la izquierda. La densidad de agujeros, o el número de agujeros por unidad de volumen, está representada por <emphasis effect="italics">p</emphasis>. Cada electrón que hace la transición a la banda de conducción deja un agujero. Si la banda de conducción está originalmente vacía, la densidad de electrones de conducción <emphasis effect="italics">p</emphasis> es igual a la densidad de agujeros, es decir, <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>p</m:mi></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_42_06_Holes">
+<media id="fs-id1172098600993" alt="La figura muestra cuatro pares de filas. Cada par tiene una fila superior de signos de menos y una fila inferior de círculos con signos de más. Una flecha marcada como flujo de carga positiva apunta a la izquierda. En la segunda fila de signos de menos, falta el último signo. El espacio vacío está marcado como agujero del electrón. En la tercera fila de signos de menos, falta el penúltimo signo. Se muestra una flecha que va de ese punto hasta el último signo de menos. Esto está marcado como electrón llena agujero. Asimismo, en la cuarta fila de signos de menos, falta el antepenúltimo signo de menos. Se muestra una flecha desde ese punto hasta el penúltimo signo de menos. Esto también está marcado como electrón llena agujero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_06_Holes.jpg"/>
+</media>
+<caption>Movimiento de los agujeros en una red cristalina. A medida que los electrones se desplazan hacia la derecha, un agujero de electrones se desplaza hacia la izquierda.</caption>
+</figure>
+<para id="fs-id1172098528088">Como ya se ha dicho, un semiconductor es un material con una banda de valencia llena, una banda de conducción sin llenar y una brecha energética relativamente pequeña entre las bandas. El exceso de electrones o agujeros puede introducirse en el material mediante la sustitución en la red cristalina de un <term>átomo de impureza</term>, que es un átomo de un número de valencia ligeramente diferente. Este proceso se conoce como <term>dopaje</term>. Por ejemplo, supongamos que añadimos un átomo de arsénico a un cristal de silicio (<link target-id="CNX_UPhysics_42_06_Impurities"/>(a)).</para>
+<figure id="CNX_UPhysics_42_06_Impurities">
+<media id="fs-id1172098317873" alt="La figura a muestra una cuadrícula con círculos marcados como átomos de silicio en cada unión. En una de las uniones, hay un círculo de color diferente marcado como átomo de arsénico. Se muestra un pequeño círculo entre los átomos de silicio. Este está marcado como un electrón extra del átomo de arsénico. La figura b muestra una cuadrícula con círculos marcados como átomos de silicio en cada unión. En una de las uniones, hay un círculo de color diferente marcado como átomo de aluminio. Se muestra un pequeño círculo entre los átomos de silicio. Este está marcado como agujero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_06_Impurities.jpg"/>
+</media>
+<caption>(a) Una impureza del donante y (b) un aceptador de impurezas. La introducción de impurezas y aceptores en un semiconductor cambia significativamente las propiedades electrónicas de este material.</caption>
+</figure>
+<para id="fs-id1172100991668">El arsénico tiene cinco electrones de valencia, mientras que el silicio solo tiene cuatro. Por lo tanto, este electrón extra debe ir a la banda de conducción, ya que no hay espacio en la banda de valencia. El ion de arsénico que queda tiene una carga neta positiva que une débilmente el electrón deslocalizado. La unión es débil porque la red atómica circundante cubre el campo eléctrico del ion. Como resultado, la energía de enlace del electrón extra es solo de unos 0,02 eV. En otras palabras, el nivel de energía del electrón de impureza se encuentra en la brecha de la banda por debajo de la banda de conducción en 0,02 eV, un valor mucho menor que la energía de la brecha, 1,14 eV. A temperatura ambiente, este electrón de impureza se excita fácilmente en la banda de conducción y por lo tanto contribuye a la conductividad (<link target-id="CNX_UPhysics_42_06_ExtraElect"/>(a)). Una impureza con un electrón adicional se conoce como <term>impureza del donante</term>, y el semiconductor dopado se denomina <term><emphasis effect="italics">semiconductor</emphasis>tipo n</term> porque los portadores primarios de carga (electrones) son negativos.</para>
+<figure id="CNX_UPhysics_42_06_ExtraElect">
+<media id="fs-id1172100961147" alt="La figura a muestra un rectángulo sombreado en la parte inferior marcado como banda de valencia y una línea en la parte superior marcada como banda de conducción. La separación está marcada como E subíndice g. Hay un electrón en la parte superior de la banda de conducción y una línea corta por debajo. La figura b es similar pero con muchos electrones por encima de la banda de conducción y muchas líneas cortas por debajo de la banda formando una línea de puntos. La línea punteada está marcada como banda de impurezas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_06_ExtraElect.jpg"/>
+</media>
+<caption>(a) El electrón extra de una impureza del donante es excitado dentro de la banda de conducción; (b) formación de una banda de impureza en un semiconductor <emphasis effect="italics">tipo n</emphasis>.</caption>
+</figure>
+<para id="fs-id1172100638917">Al añadir más impurezas del donante, podemos crear una <term>banda de impureza</term>, una nueva banda de energía creada por el dopaje del semiconductor, como se muestra en la <link target-id="CNX_UPhysics_42_06_ExtraElect"/>(b). El nivel de Fermi se encuentra ahora entre esta banda y la banda de conducción. A temperatura ambiente, muchos electrones de impureza se excitan térmicamente en la banda de conducción y contribuyen a la conductividad. La conducción también puede producirse en la banda de impurezas, ya que allí se crean vacantes. Observe que los cambios en la energía de un electrón corresponden a un cambio en el movimiento (velocidades o energía cinética) de estos portadores de carga con el semiconductor, pero no el movimiento en masa del propio semiconductor.</para>
+<para id="fs-id1172098618759">El dopaje también puede llevarse a cabo utilizando átomos de impureza que normalmente tienen un electrón de valencia <emphasis effect="italics">menos</emphasis> que los átomos del semiconductor. Por ejemplo, el Al, que tiene tres electrones de valencia, puede ser sustituido por el Si, como se muestra en la <link target-id="CNX_UPhysics_42_06_Impurities"/>(b). Dicha impureza se conoce como <term>aceptador de impurezas</term>, y el semiconductor dopado se denomina <term><emphasis effect="italics">semiconductor</emphasis>tipo p</term>, porque los portadores primarios de carga (agujeros) son positivos. Si un agujero se trata como una partícula positiva débilmente unida al lugar de la impureza, entonces se crea un estado de electrón vacío en la brecha de la banda justo por encima de la banda de valencia. Cuando este estado es ocupado por un electrón excitado térmicamente desde la banda de valencia (<link target-id="CNX_UPhysics_42_06_Excited"/>(a)), se crea un agujero móvil en la banda de valencia. Al añadir más impurezas aceptadoras, podemos crear una banda de impurezas, como se muestra en la <link target-id="CNX_UPhysics_42_06_Excited"/>(b).</para>
+<figure id="CNX_UPhysics_42_06_Excited">
+<media id="fs-id1172098453018" alt="La figura a muestra un rectángulo sombreado en la parte inferior marcado como banda de valencia y una línea en la parte superior marcada como banda de conducción. La separación está marcada como E subíndice g. Hay un electrón en la parte superior de la banda de valencia con una línea corta debajo. Hay un agujero en la banda de valencia justo debajo del electrón. La figura b es similar pero con muchos electrones por encima de la banda de valencia y muchas líneas cortas por debajo de los electrones, formando una línea de puntos. La línea punteada está marcada como banda de impurezas. Debajo de cada electrón hay un agujero en la banda de valencia.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_06_Excited.jpg"/>
+</media>
+<caption>(a) Un electrón de la banda de conducción es excitado al estado vacío que resulta del aceptador de impurezas; (b) formación de una banda de impureza en un semiconductor <emphasis effect="italics">tipo p</emphasis>.</caption>
+</figure>
+<para id="fs-id1172098382391">La corriente eléctrica de un semiconductor dopado puede deberse al movimiento de un <term>portador mayoritario</term>, en el que los átomos de impureza aportan los agujeros, o a un <term>portador minoritario</term>, en el que únicamente las excitaciones térmicas de los electrones a través de la brecha energética aportan los agujeros. En un semiconductor de tipo <emphasis effect="italics">n</emphasis>, los portadores mayoritarios son electrones libres aportados por átomos de impureza, y los portadores minoritarios son electrones libres producidos por excitaciones térmicas desde la banda de valencia a la de conducción. En un semiconductor tipo <emphasis effect="italics">p</emphasis>, los portadores mayoritarios son agujeros libres que aportan los átomos de impureza, y los portadores minoritarios son agujeros libres que del llenado de estados deja debido a la excitación térmica de los electrones a través de la brecha. En general, el número de portadores mayoritarios supera por mucho al de los minoritarios. El concepto de portador mayoritario y minoritario se utilizará en la siguiente sección para explicar el funcionamiento de los diodos y transistores.</para>
+<para id="fs-id1172098709482">Al estudiar el dopaje tipo <emphasis effect="italics">p</emphasis>y <emphasis effect="italics">n</emphasis>, es normal que nos preguntemos: ¿Los "agujeros de electrones" actúan realmente como partículas? La existencia de agujeros en un semiconductor dopado de tipo <emphasis effect="italics">p</emphasis>se demuestra mediante el efecto Hall. El efecto Hall es la producción de una diferencia de potencial debida al movimiento de un conductor a través de un campo magnético externo (vea <link document="m90907">El efecto Hall</link>). Se muestra un esquema del efecto Hall en la <link target-id="CNX_UPhysics_42_06_HallEffect"/>(a). Una franja de semiconductores se baña en un campo magnético uniforme (que apunta hacia el papel). A medida que los agujeros de los electrones se mueven de izquierda a derecha a través del semiconductor, una fuerza de Lorentz impulsa estas cargas hacia el extremo superior de la franja. (Recordemos que el movimiento de los portadores cargados positivamente está determinado por la regla de la mano derecha). La carga positiva continúa acumulándose en el borde superior de la franja hasta que la fuerza asociada al campo eléctrico descendente entre los bordes superior e inferior de la franja <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>F</m:mi><m:mi>E</m:mi></m:msub><m:mo>=</m:mo><m:mi>E</m:mi><m:mi>q</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> solo equilibra la fuerza magnética ascendente <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>F</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Si estas fuerzas son iguales entre sí, tenemos <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mi>B</m:mi></m:mrow></m:math>. Por lo tanto, el voltaje que se desarrolla a través de la franja</para><note id="fs-id1172098255866" class="equation-callout">
+<equation id="fs-id1172100574901"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>H</m:mtext></m:msub><m:mo>=</m:mo><m:mi>v</m:mi><m:mi>B</m:mi><m:mi>w</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172098692218">donde <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>H</m:mtext></m:msub></m:mrow></m:math> es el voltaje Hall; <emphasis effect="italics">v</emphasis> es la <term>velocidad de deriva</term> del agujero, o velocidad media de una partícula que se mueve de forma parcialmente aleatoria; <emphasis effect="italics">B</emphasis> es la intensidad del campo magnético; y <emphasis effect="italics">w</emphasis> es la anchura de la franja. Observe que el voltaje Hall es transversal al voltaje que produce inicialmente la corriente a través del material. La medición del signo de este voltaje (o diferencia de potencial) confirma la acumulación de agujeros en la cara superior de la franja. La magnitud del voltaje Hall da la velocidad de deriva (<emphasis effect="italics">v</emphasis>) de los portadores mayoritarios.</para>
+<para id="fs-id1172100952875">También puede obtenerse información adicional del voltaje Hall. Observe que la densidad de corriente de electrones (la cantidad de corriente por unidad de área de la sección transversal de la franja semiconductora) es</para>
+<equation id="fs-id1172098585408"><m:math><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>q</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101028703">donde <emphasis effect="italics">q</emphasis> es la magnitud de la carga, <emphasis effect="italics">n</emphasis> es el número de portadores de carga por unidad de volumen y <emphasis effect="italics">v</emphasis> es la velocidad de deriva. La densidad de corriente se determina fácilmente dividiendo la corriente total por el área de la sección transversal de la franja, <emphasis effect="italics">q</emphasis> es la carga del agujero (la magnitud de la carga de un solo electrón), y <emphasis effect="italics">u</emphasis> se determina por el efecto Hall <link target-id="fs-id1172098585408"/>. Por lo tanto, la expresión anterior para la densidad de corriente de electrones da el número de portadores de carga por unidad de volumen, <emphasis effect="italics">n</emphasis>. Se puede realizar un análisis similar para los portadores cargados negativamente en un material de tipo <emphasis effect="italics">n</emphasis>(vea la <link target-id="CNX_UPhysics_42_06_HallEffect"/>).</para>
+<figure id="CNX_UPhysics_42_06_HallEffect">
+<media id="fs-id1172101038158" alt="La figura a muestra una placa de longitud L, ancho W y espesor t. Una fuente de voltaje VX está conectada a través de su longitud. La corriente en el bucle I está en el sentido de las agujas del reloj. Una fuente de voltaje VH se conecta a lo ancho de la placa. La corriente en el bucle BZ, está en sentido contrario de las agujas del reloj. Una flecha en la placa está marcada como E. Apunta a la derecha. La figura b es similar a la figura a, excepto que las polaridades de VX y VH están invertidas y las direcciones de I, BZ y E también están invertidas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_06_HallEffect.jpg"/>
+</media>
+<caption>El efecto Hall. (a) Los agujeros de los electrones cargados positivamente son atraídos hacia la izquierda por un campo magnético uniforme que apunta hacia abajo. Se genera un campo eléctrico hacia la derecha. (b) Los electrones con carga negativa son atraídos hacia la izquierda por un campo magnético que apunta hacia arriba. Se genera un campo eléctrico hacia la izquierda.</caption>
+</figure>
+<section id="fs-id1172100883951" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172098526939" list-type="bulleted" bullet-style="bullet">
+<item>La estructura energética de un semiconductor puede alterarse sustituyendo un tipo de átomo por otro (dopaje).</item>
+<item>El dopaje del semiconductor tipo <emphasis effect="italics">n</emphasis> crea y llena nuevos niveles de energía justo por debajo de la banda de conducción.</item>
+<item>El dopaje del semiconductor tipo <emphasis effect="italics">p</emphasis> crea nuevos niveles de energía justo por encima de la banda de valencia.</item>
+<item>El efecto Hall puede utilizarse para determinar la carga, la velocidad de deriva y la densidad del número de portadores de carga de un semiconductor.</item>
+</list>
+</section>
+<section id="fs-id1172098616494" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172100719463">
+<problem id="fs-id1172100896656">
+<para id="fs-id1172100924636">¿Qué tipo de semiconductor se produce si el germanio está dopado con (a) arsénico y (b) galio?</para>
+</problem>
+<solution id="fs-id1172098396192">
+<para id="fs-id1172098544678">a. El germanio tiene cuatro electrones de valencia. Si el germanio está dopado con <emphasis effect="italics">arsénico</emphasis> (cinco electrones de valencia), cuatro se utilizan en el enlace y queda un electrón para la conducción. Esto produce un material de tipo <emphasis effect="italics">n</emphasis>. b. Si el germanio está dopado con <emphasis effect="italics">galio</emphasis> (tres electrones de valencia), los tres electrones se utilizan en el enlace, dejando un agujero para la conducción. El resultado es un material de tipo <emphasis effect="italics">p</emphasis>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098479783">
+<problem id="fs-id1172100664832">
+<para id="fs-id1172100999885">¿Qué tipo de semiconductor se produce si el silicio está dopado con (a) fósforo y (b) indio?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100736890">
+<problem id="fs-id1172098582155">
+<para id="fs-id1172100620337">¿Qué es el efecto Hall y para qué se utiliza?</para>
+</problem>
+<solution id="fs-id1172098692244">
+<para id="fs-id1172098749800">El efecto Hall es la producción de una diferencia de potencial debida al movimiento de un conductor a través de un campo magnético externo. Este efecto puede utilizarse para determinar la velocidad de deriva de los portadores de carga (electrones o agujeros). Si se mide la densidad de corriente, este efecto puede determinar también el número de portadores de carga por unidad de volumen.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098352391">
+<problem id="fs-id1172098453743">
+<para id="fs-id1172098396068">Para un semiconductor tipo <emphasis effect="italics">n</emphasis>, ¿cómo alteran los átomos de impureza la estructura energética del sólido?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100777031">
+<problem id="fs-id1172098312979">
+<para id="fs-id1172098643860">Para un semiconductor tipo <emphasis effect="italics">p</emphasis>, ¿cómo alteran los átomos de impureza la estructura energética del sólido?</para>
+</problem>
+<solution id="fs-id1172098410134">
+<para id="fs-id1172100895918">Produce nuevos niveles de energía sin llenar justo por encima de la banda de valencia llena. Estos niveles aceptan electrones de la banda de valencia.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172098636725" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172098616180">
+<problem id="fs-id1172098762520">
+<para id="fs-id1172100896782">Se realiza un experimento para demostrar el efecto Hall. Una fina franja rectangular de semiconductor de 10 cm de anchura y 30 cm de longitud se fija a una batería y se sumerge en un campo de 1,50-<emphasis effect="italics">T</emphasis> perpendicular a su superficie. Esto produjo un voltaje Hall de 12 V. ¿Cuál es la velocidad de deriva de los portadores de carga?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098583315">
+<problem id="fs-id1172098320962">
+<para id="fs-id1172100977170">Supongamos que el área de la sección transversal de la franja (el área de la cara perpendicular a la corriente eléctrica) presentada en el problema anterior es de <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y la corriente se mide independientemente para ser 2 mA. ¿Cuál es la densidad numérica de los portadores de carga?</para>
+</problem>
+<solution id="fs-id1172100657944">
+<para id="fs-id1172098461930"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1,56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>agujeros/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098316203">
+<problem id="fs-id1172098396030">
+<para id="fs-id1172100904647">Un cable de cobre conductor de corriente con sección transversal <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> tiene una velocidad de deriva de 0,02 cm/s. Halle la corriente total que circula por el cable.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098626545">
+<problem id="fs-id1172100585790">
+<para id="fs-id1172098618468">El efecto Hall se demuestra en el laboratorio. Una fina franja rectangular de un semiconductor con una anchura de 5 cm y un área de sección transversal de <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> está conectada a una batería y sumergida en un campo perpendicular a su superficie. El voltaje Hall es de 12,5 V y la velocidad de deriva medida es de 50 m/s. ¿Cuál es el campo magnético?</para>
+</problem>
+<solution id="fs-id1172098646490">
+<para id="fs-id1172100652571">5 T</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172100950511">
+<term>aceptador de impurezas</term>
+<meaning id="fs-id1172098591331">átomo sustituido por otro en un semiconductor que da lugar a un electrón libre.</meaning>
+</definition>
+<definition id="fs-id1172098464068">
+<term>impureza del donante</term>
+<meaning id="fs-id1172098694815">átomo sustituido por otro en un semiconductor que da lugar a un agujero electrónico libre.</meaning>
+</definition>
+<definition id="fs-id1172098389313">
+<term>dopaje</term>
+<meaning id="fs-id1172096062939">alteración de un semiconductor por la sustitución de un tipo de átomo por otro.</meaning>
+</definition>
+<definition id="fs-id1172098594697">
+<term>velocidad de deriva</term>
+<meaning id="fs-id1172100575348">velocidad media de una partícula en movimiento aleatorio.</meaning>
+</definition>
+<definition id="fs-id1172096188454">
+<term>agujero</term>
+<meaning id="fs-id1172098361688">estados desocupados en una banda de energía.</meaning>
+</definition>
+<definition id="fs-id1172098500576">
+<term>átomo de impureza</term>
+<meaning id="fs-id1172098447481">átomo de impureza aceptador o donante.</meaning>
+</definition>
+<definition id="fs-id1172098529090">
+<term>banda de impureza</term>
+<meaning id="fs-id1172098409585">nueva banda de energía creada por el dopaje del semiconductor.</meaning>
+</definition>
+<definition id="fs-id1172101010613">
+<term>portador mayoritario</term>
+<meaning id="fs-id1172098643396">electrones libres (o agujeros) aportados por los átomos de impureza.</meaning>
+</definition>
+<definition id="fs-id1172100595362">
+<term>portador minoritario</term>
+<meaning id="fs-id1172098592136">electrones libres (o agujeros) producidos por excitaciones térmicas a través de la brecha energética.</meaning>
+</definition>
+<definition id="fs-id1172098524589">
+<term>semiconductor tipo <emphasis effect="italics">n</emphasis></term>
+<meaning id="fs-id1172098419284">semiconductor dopado que conduce electrones.</meaning>
+</definition>
+<definition id="fs-id1172096216106">
+<term>semiconductor tipo <emphasis effect="italics">p</emphasis></term>
+<meaning id="fs-id1172098392100">semiconductor dopado que conduce agujeros.</meaning>
+</definition>
+</glossary>
+
+</document>

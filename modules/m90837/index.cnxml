@@ -1,0 +1,199 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Procesos termodinámicos</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90837</md:content-id>
+  <md:title>Procesos termodinámicos</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Definir un proceso termodinámico.</item>
+<item>Distinguir entre procesos cuasiestáticos y no cuasiestáticos.</item>
+<item>Calcular cantidades físicas, como el calor transferido, el trabajo realizado y el cambio de energía interna para procesos termodinámicos isotérmicos, adiabáticos y cíclicos.</item>
+</list></md:abstract>
+  <md:uuid>11bc82f5-01eb-4960-9f13-08c5607d20d7</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101688475">Al resolver problemas de mecánica aislamos el cuerpo en cuestión, analizamos las fuerzas externas que actúan sobre él y luego utilizamos las leyes de Newton para predecir su comportamiento. En termodinámica, adoptamos un enfoque similar. Empezamos por identificar la parte del universo que queremos estudiar; también se conoce como nuestro sistema (al principio de este capítulo definimos un sistema como cualquier cosa cuyas propiedades nos interesan; puede ser un solo átomo o la Tierra entera). Una vez seleccionado nuestro sistema, determinamos cómo el ambiente, o el entorno, interactúa con el sistema. Por último, una vez comprendida la interacción, estudiamos el comportamiento térmico del sistema con la ayuda de las leyes de la termodinámica.</para>
+<para id="fs-id1172099598613">El comportamiento térmico de un sistema se describe en términos de <term class="no-emphasis"><emphasis effect="italics">variables termodinámicas</emphasis></term>. Para un gas ideal, estas variables son presión, volumen, temperatura y número de moléculas o moles del gas. Los distintos tipos de sistemas suelen caracterizarse por conjuntos de variables diferentes. Por ejemplo, las variables termodinámicas de una banda elástica estirada son tensión, longitud, temperatura y masa.</para>
+<para id="fs-id1172099664609">El estado de un sistema puede cambiar como consecuencia de su interacción con el ambiente. El cambio en un sistema puede ser rápido o lento y grande o pequeño. La forma en que un estado de un sistema puede cambiar de un estado inicial a un estado final se llama <term>proceso termodinámico</term>. Para fines analíticos en termodinámica, es útil dividir los procesos en <emphasis effect="italics">cuasiestáticos</emphasis> o <emphasis effect="italics">no cuasiestáticos</emphasis>, como explicamos ahora.</para>
+<section id="fs-id1172099615162">
+<title>Procesos cuasiestáticos y no cuasiestáticos</title>
+<para id="fs-id1172101769640">Un <term class="no-emphasis">proceso cuasiestático</term> se refiere a un proceso idealizado o imaginado en el que el cambio de estado se hace con una lentitud infinitesimal, de modo que en cada instante se puede suponer que el sistema está en equilibrio termodinámico consigo mismo y con el ambiente. Por ejemplo, imagine que calienta 1 kg de agua a partir de una temperatura de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a una de <m:math><m:mrow><m:mn>21</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a una presión constante de 1 atmósfera. Para calentar el agua muy lentamente podemos imaginar que colocamos el recipiente con agua en una gran bañera que se puede calentar lentamente, de forma que la temperatura de la bañera puede aumentar infinitesimalmente de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>21</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Si ponemos 1 kg de agua a <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> directamente en una bañera a <m:math><m:mrow><m:mn>21</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, la temperatura del agua aumentará rápidamente hasta <m:math><m:mrow><m:mn>21</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> de forma no cuasiestática.</para>
+<para id="fs-id1172099887618">Los procesos cuasiestáticos se hacen con la suficiente lentitud como para que el sistema permanezca en equilibrio termodinámico en cada instante, a pesar de que el sistema cambie con el tiempo. El equilibrio termodinámico del sistema es necesario para que el sistema tenga valores bien definidos de las propiedades macroscópicas como la temperatura y la presión del sistema en cada instante del proceso. Por lo tanto, los procesos cuasiestáticos se pueden mostrar como trayectorias bien definidas en el espacio de estados del sistema.</para>
+<para id="fs-id1172101895022">Dado que los procesos cuasiestáticos no se pueden hacer completamente para cualquier cambio finito del sistema, todos los procesos de la naturaleza son no cuasiestáticos. En la <link target-id="CNX_UPhysics_20_04_Quasi"/> se muestran ejemplos de procesos cuasiestáticos y <term class="no-emphasis">no cuasiestáticos</term>. A pesar de que todos los cambios finitos deben ocurrir esencialmente no cuasiestáticos, en alguna etapa del cambio podemos imaginar la realización de infinitos procesos cuasiestáticos correspondientes a cada proceso cuasiestático. Dado que los procesos cuasiestáticos se pueden examinar analíticamente, en este libro estudiamos principalmente los procesos cuasiestáticos. Ya hemos visto que en un proceso cuasiestático el trabajo de un gas viene dado por <emphasis effect="italics">pdV</emphasis>.</para>
+<figure id="CNX_UPhysics_20_04_Quasi">
+<media id="fs-id1172101882360" alt="La figura es un trazado de presión, p, en el eje vertical como una función de volumen, V, en el eje horizontal. Dos presiones, p f mayor que p i, están marcadas en el eje vertical. En el eje horizontal se marcan dos volúmenes, V f mayor que V i. Se muestran dos puntos, A en V i, p i, y B en el V f, p i final, que están conectados por una línea recta horizontal con una flecha hacia la derecha desde A hasta B. La línea está identificada como proceso cuasiestático. Una línea discontinua sube desde A, se curva para alcanzar un máximo y vuelve a bajar hasta B. Esta línea discontinua está identificada como proceso no cuasiestático.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_04_Quasi.jpg"/>
+</media>
+<caption>Procesos cuasiestáticos y no cuasiestáticos entre los estados <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> de un gas. En un proceso cuasiestático, la trayectoria del proceso entre <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> se puede dibujar en un diagrama de estados, ya que se conocen todos los estados por los que pasa el sistema. En un proceso no cuasiestático, no se conocen los estados entre <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis>, por lo que no se puede trazar ninguna trayectoria. Puede seguir la línea discontinua como se muestra en la figura o tomar una trayectoria muy diferente.</caption>
+</figure>
+</section>
+<section id="fs-id1172102061754">
+<title>Procesos isotérmicos</title>
+<para id="fs-id1172099483703">Un <term>proceso isotérmico</term> es un cambio de estado del sistema a una temperatura constante. Este proceso se consigue al mantener el sistema en equilibrio térmico con un gran baño de calor durante el proceso. Recordemos que un baño de calor es un sistema idealizado “infinitamente” grande cuya temperatura no cambia. En la práctica, la temperatura de un baño finito se controla al añadir o quitar una cantidad finita de energía, según el caso.</para>
+<para id="fs-id1172101798310">Como ilustración de un proceso isotérmico, considere un cilindro de gas con un pistón móvil sumergido en un gran tanque de agua cuya temperatura se mantiene constante. Como el pistón se mueve libremente, la presión en el interior <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>en</m:mtext></m:mrow></m:msub></m:mrow></m:math> se equilibra con la presión exterior <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>fuera</m:mtext></m:mrow></m:msub></m:mrow></m:math> por unas pesas en el pistón, como en la <link target-id="CNX_UPhysics_20_04_Piston"/>.</para>
+<figure id="CNX_UPhysics_20_04_Piston">
+<media id="fs-id1172099887808" alt="La figura ilustra un gran recipiente aislado lleno de líquido. Este fluido está identificado como baño de calor de T constante. Dentro del baño de calor hay un recipiente más pequeño lleno de gas. El recipiente de gas más pequeño está tapado por un pistón que tiene pesas en la parte superior. El interior del recipiente más pequeño es el sistema. Una flecha de doble punta que atraviesa las paredes del recipiente más pequeño y que está identificada como “calor” indica que el calor puede fluir entre el baño y el sistema. Una flecha hacia arriba en el interior del sistema apunta a la parte inferior del pistón y está identificada como p en. Una flecha hacia abajo fuera del sistema apunta a la parte superior del pistón y está identificada como p fuera. Una segunda flecha hacia abajo señala la parte superior del pistón, donde se apilan las pesas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_04_Piston.jpg"/>
+</media>
+<caption>Expansión de un sistema a temperatura constante. La eliminación de las pesas en el pistón provoca un desequilibrio de fuerzas, lo que hace que se mueva hacia arriba. Cuando el pistón se mueve hacia arriba, la temperatura se reduce momentáneamente, lo que hace que el calor fluya desde el baño de calor hacia el sistema. La energía para mover el pistón proviene finalmente del baño de calor.</caption>
+</figure>
+<para id="fs-id1172099694219">A medida que se eliminan las pesas en el pistón, se produce un desequilibrio de fuerzas en el pistón. La fuerza neta distinta a cero sobre el pistón haría que este se acelerara, lo que provocaría un aumento de volumen. La expansión del gas lo enfría a una temperatura más baja, lo que hace posible que el calor entre desde el baño de calor al sistema hasta que la temperatura del gas se restablezca a la temperatura del baño de calor. Si las pesas se eliminan en pasos infinitesimales, la presión en el sistema disminuye infinitesimalmente. De este modo, se puede llevar a cabo un proceso isotérmico de forma cuasiestática. Una línea isotérmica en un diagrama<emphasis effect="italics">(p</emphasis>, <emphasis effect="italics">V</emphasis>) está representada por una línea curva desde el punto de partida <emphasis effect="italics">A</emphasis> hasta el punto de llegada <emphasis effect="italics">B</emphasis>, como se ve en la <link target-id="CNX_UPhysics_20_04_Isotherm"/>. Para un gas ideal, un proceso isotérmico es hiperbólico, ya que para un gas ideal a temperatura constante, <m:math><m:mrow><m:mi>p</m:mi><m:mo>∝</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>V</m:mi></m:mfrac></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_20_04_Isotherm">
+<media id="fs-id1172099601591" alt="La figura es un trazado de presión, p, en el eje vertical como una función de volumen, V, en el eje horizontal. Dos presiones, p f mayor que p i, están marcadas en el eje vertical. En el eje horizontal se marcan dos volúmenes, V f mayor que V i. Se muestran dos puntos, A en V i, p f, y B en el V f, p i final, que están conectados por una curva que es monotónicamente decreciente y cóncava. Una flecha indica que la dirección de la curva es de A hacia B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_04_Isotherm.jpg"/>
+</media>
+<caption>Una expansión isotérmica de un estado identificado como <emphasis effect="italics">A</emphasis> a otro estado identificado como <emphasis effect="italics">B</emphasis> en un diagrama <emphasis effect="italics">pV</emphasis>. La curva representa la relación entre presión y volumen en un gas ideal a temperatura constante.</caption>
+</figure>
+<para id="fs-id1172099598286">Un proceso isotérmico estudiado en este capítulo se realiza de forma cuasiestática, ya que para que sea isotérmico a lo largo del cambio de volumen, se debe poder indicar la temperatura del sistema en cada paso, lo cual es posible solo si el sistema está en equilibrio térmico de forma continua. El sistema debe salir del equilibrio para que el estado cambie, pero para los procesos cuasiestáticos, imaginamos que el proceso se realiza en pasos infinitesimales, de manera que estas salidas del equilibrio pueden ser tan breves y pequeñas como queramos.</para>
+<para id="fs-id1172099650097">Otros procesos cuasiestáticos de interés para los gases son los procesos isobáricos e isocóricos. Un proceso <term>isobárico</term> es un proceso en el que la presión del sistema no cambia, mientras que un <term>proceso isocórico</term> es un proceso en el que el volumen del sistema no cambia.</para>
+</section>
+<section id="fs-id1172099496924">
+<title>Procesos adiabáticos</title>
+<para id="fs-id1172097347677">En un <term>proceso adiabático</term> el sistema está aislado de su ambiente de modo que, aunque el estado del sistema cambia, no se permite que el calor entre o salga del sistema, como se ve en la <link target-id="CNX_UPhysics_20_04_Adiabat"/>. Un proceso adiabático se puede llevar a cabo de forma cuasiestática o no cuasiestática. Cuando un sistema se expande adiabáticamente, debe realizar un trabajo contra el mundo exterior y, por tanto, su energía disminuye, lo que se refleja en el descenso de la temperatura del sistema. Una expansión adiabática conduce a una disminución de temperatura, y una compresión adiabática conduce a un aumento de temperatura. Volvemos a hablar de la expansión adiabática en la sección <link document="m90840">Procesos adiabáticos para un gas ideal</link>.</para>
+<figure id="CNX_UPhysics_20_04_Adiabat">
+<media id="fs-id1172101698942" alt="La figura es una ilustración de un recipiente cerrado por un pistón. El recipiente tiene doble pared y fondo, y el espacio se rellena con aislamiento. La región del interior del recipiente, por debajo del pistón, está identificada como sistema. Una flecha hacia arriba indica que el pistón se mueve hacia arriba.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_04_Adiabat.jpg"/>
+</media>
+<caption>Se libera un pistón aislado con un gas caliente y comprimido. El pistón se mueve hacia arriba, el volumen se expande y la presión y la temperatura disminuyen. La energía interna va al trabajo. Si la expansión se produce en un tiempo en el que el calor puede entrar en el sistema de forma insignificante, el proceso se denomina adiabático. Idealmente, durante un proceso adiabático no entra ni sale calor del sistema.</caption>
+</figure>
+</section>
+<section id="fs-id1172102137372">
+<title>Procesos cíclicos</title>
+<para id="fs-id1172099569212">Decimos que un sistema pasa por un <term>proceso cíclico</term> si el estado del sistema al final es el mismo que el estado al principio. Por lo tanto, las propiedades de estado como temperatura, presión, volumen y energía interna del sistema no cambian a lo largo de un ciclo completo:</para>
+<equation id="fs-id1172102061803" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101876582">Cuando se aplica la primera ley de la termodinámica a un proceso cíclico, se obtiene una relación sencilla entre el calor que entra en el sistema y el trabajo realizado por este a lo largo del ciclo:</para>
+<equation id="fs-id1172099533639" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>W</m:mi><m:mspace width="0.2em"/><m:mo>(</m:mo><m:mtext>proceso cíclico</m:mtext><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172097392239">Los procesos termodinámicos también se distinguen por ser o no reversibles. Un <term>proceso reversible</term> es aquel que se puede hacer para retroceder en la trayectoria mediante cambios diferenciales en el ambiente. Por lo tanto, este proceso debe ser también cuasiestático. Sin embargo, hay que tener en cuenta que un proceso cuasiestático no es necesariamente reversible, ya que pueden intervenir fuerzas disipativas. Por ejemplo, si se produjera una fricción entre el pistón y las paredes del cilindro que contiene el gas, la energía perdida por la fricción nos impediría reproducir los estados originales del sistema.</para>
+<para id="fs-id1172101896385">Consideramos varios procesos termodinámicos:</para>
+<list id="fs-id1172099396540" list-type="enumerated" number-style="arabic">
+<item>Un proceso isotérmico, durante el cual la temperatura del sistema permanece constante.</item>
+<item>Un proceso adiabático, durante el cual no se transfiere calor hacia ni desde el sistema.</item>
+<item>Un proceso isobárico, durante el cual la presión del sistema no cambia.</item>
+<item>Un proceso isocórico, durante el cual el volumen del sistema no cambia</item>
+</list>
+<para id="fs-id1172099479520">También se producen muchos otros procesos que no encajan en ninguna de estas cuatro categorías.</para>
+<note id="fs-id1172097225572" class="media-2">
+<para id="fs-id1172101808794">Vea este <link url="https://openstax.org/l/21idegaspvdiag">sitio</link> para configurar su propio proceso en un diagrama <emphasis effect="italics">pV</emphasis>. Compruebe si puede calcular los valores predichos por la simulación para calor, trabajo y cambio de energía interna.</para>
+</note>
+</section>
+<section id="fs-id1172099718508" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172102115995" list-type="bulleted" bullet-style="bullet">
+<item>El comportamiento térmico de un sistema se describe en términos de variables termodinámicas. Para un gas ideal estas variables son presión, volumen, temperatura y número de moléculas o moles del gas.</item>
+<item>Para sistemas en equilibrio termodinámico las variables termodinámicas están relacionadas por una ecuación de estado.</item>
+<item>Un depósito de calor es tan grande que cuando intercambia calor con otros sistemas su temperatura no cambia.</item>
+<item>Un proceso cuasiestático se genera tan lentamente que el sistema implicado está siempre en equilibrio termodinámico.</item>
+<item>Un proceso reversible es aquel que se puede hacer para retroceder en la trayectoria y tanto la temperatura como la presión son uniformes en todo el sistema.</item>
+<item>Hay varios tipos de procesos termodinámicos, entre ellos (a) isotérmico, donde la temperatura del sistema es constante; (b) adiabático, donde el sistema no intercambia calor; (c) isobárico, donde la presión del sistema es constante; y (d) isocórico, donde el volumen del sistema es constante.</item>
+<item>Como consecuencia de la primera ley de la termodinámica, he aquí un resumen de los procesos termodinámicos: (a) isotérmico: <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>W</m:mi><m:mo>;</m:mo></m:mrow></m:math> (b) adiabático: <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>W</m:mi><m:mo>;</m:mo></m:mrow></m:math> (c) isobárico: <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>;</m:mo></m:mrow></m:math> e (d) isocórico: <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+<section id="fs-id1172101716400" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1172099707101">
+<problem id="fs-id1172099756218">
+<para id="fs-id1172101923249">Cuando un gas se expande isotérmicamente, realiza un trabajo. ¿Cuál es la fuente de energía necesaria para realizar este trabajo?</para>
+</problem>
+<solution id="fs-id1172099474738">
+<para id="fs-id1172101802625">El sistema debe estar en contacto con una fuente de calor que permita que el calor fluya hacia el sistema.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099542035">
+<problem id="fs-id1172099389185">
+<para id="fs-id1172101778928">Si se dan la presión y el volumen de un sistema, ¿la temperatura se determina siempre de forma única?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101674655">
+<problem id="fs-id1172099753197">
+<para id="fs-id1172099571809">Es poco probable que un proceso pueda ser isotérmico, a menos que sea un proceso muy lento. Explique por qué. ¿Es lo mismo para los procesos isobárico e isocórico? Explique su respuesta.</para>
+</problem>
+<solution id="fs-id1167583584518">
+<para id="fs-id1167583597992">Los procesos isotérmicos deben ser lentos para asegurarse de que, a medida que se transfiere el calor, la temperatura no cambia. Incluso para los procesos isobárico e isocórico, el sistema debe estar en equilibrio térmico con cambios lentos de las variables termodinámicas.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172101692250" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172101788963">
+<problem id="fs-id1172101755733">
+<para id="fs-id1172101900800">Dos moles de un gas ideal monoatómico a (5 MPa, 5 L) se expanden isotérmicamente hasta duplicar el volumen (paso 1). A continuación, se enfría isocóricamente hasta que la presión sea de 1 MPa (paso 2). La temperatura desciende en este proceso. El gas se comprime ahora isotérmicamente hasta que su volumen vuelve a ser de 5 L, pero su presión es ahora de 2 MPa (paso 3). Finalmente, el gas se calienta isocóricamente para volver al estado inicial (paso 4). (a) Dibuje los cuatro procesos en el plano pV. (b) Halle el trabajo total realizado por el gas.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101791820">
+<problem id="fs-id1172101841976">
+<para id="fs-id1172099722952">Considere una transformación del punto <emphasis effect="italics">A</emphasis> al <emphasis effect="italics">B</emphasis> en un proceso de dos pasos. Primero, se reduce la presión de 3 MPa en el punto <emphasis effect="italics">A</emphasis> a una presión de 1 MPa, y se mantiene el volumen en 2 L mediante la refrigeración del sistema. El estado alcanzado está identificado como <emphasis effect="italics">C</emphasis>. A continuación, el sistema se calienta a presión constante para alcanzar un volumen de 6 L en el estado <emphasis effect="italics">B</emphasis>. (a) Calcule la cantidad de trabajo realizado en la trayectoria <emphasis effect="italics">ACB</emphasis>. (b) Calcule la cantidad de calor intercambiado por el sistema cuando pasa de <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis> en la trayectoria <emphasis effect="italics">ACB</emphasis>. (c) Compare el cambio en la energía interna cuando el proceso <emphasis effect="italics">AB</emphasis> ocurre adiabáticamente con el cambio <emphasis effect="italics">AB</emphasis> a través del proceso de dos pasos en la trayectoria <emphasis effect="italics">ACB</emphasis>.</para>
+</problem>
+<solution id="fs-id1172099484356">
+<para id="fs-id1172102107806">a. 1.660 J; b. –2.730 J; c. No depende del proceso.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099377793">
+<problem id="fs-id1172099702171">
+<para id="fs-id1172101737904">Consideremos un cilindro con un pistón móvil que contiene n moles de un gas ideal. Todo el aparato se sumerge en un baño de temperatura constante de temperatura T kelvin. A continuación, el pistón se empuja lentamente para que la presión del gas cambie de forma cuasiestática de <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> a <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> a temperatura constante T. Calcule el trabajo realizado por el gas en términos de n, R, T, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1172097257370">
+<problem id="fs-id1172101662157">
+<para id="fs-id1172101969337">Un gas ideal se expande isotérmicamente a lo largo de AB y realiza 700 J de trabajo (ver a continuación). (a) ¿Cuánto calor intercambia el gas a lo largo de AB? (b) El gas se expande entonces adiabáticamente a lo largo de BC y realiza 400 J de trabajo. Cuando el gas vuelve al punto A a lo largo de CA, expulsa 100 J de calor a su entorno. ¿Cuánto trabajo realiza el gas a lo largo de esta trayectoria?</para>
+<media id="fs-id1172102073295" alt="La figura es un trazado de presión, p, en el eje vertical como una función de volumen, V, en el eje horizontal. Se identifican cuatro puntos, A, B, C y D. El punto A es el de menor volumen y mayor presión. El punto C es el de mayor volumen y menor presión. El punto B está a una presión y volumen intermedios, pero por encima de la línea A C. Se muestra una trayectoria de A a B, a C y de vuelta a A. La trayectoria sale de A, desciende pero con pendiente decreciente hasta llegar a B. Sale de B y desciende con pendiente hasta C. Luego vuelve a curvarse hasta A. Todas las curvas son cóncavas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_SMP2020_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101802503">
+<para id="fs-id1172101986390">a. 700 J; b. 500 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099525084">
+<problem id="fs-id1172099587677">
+<para id="fs-id1172099375082">Considere los procesos que se muestran a continuación para un gas monoatómico. (a) Halle el trabajo realizado en cada uno de los procesos AB, BC, AD y DC. (b) Halle el cambio de energía interna en los procesos AB y BC. (c) Calcule la diferencia de energía interna entre los estados C y A. (d) Calcule el calor total añadido en el proceso ADC. (e) A partir de la información dada, ¿puede calcular el calor añadido en el proceso AD? ¿Por qué sí o por qué no?</para><media id="fs-id1172099897697" alt="La figura es un trazado de presión, p, en atmósferas en el eje vertical como una función de volumen, V, en litros en el eje horizontal. La escala horizontal de volumen va de 0 a 7 litros, y la escala vertical de presión va de 0 a 5 atmósferas. Se identifican cuatro puntos, A, B, C y D. Una trayectoria va de A a B y cruza a C. Otra trayectoria va de A a D y luego a C.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_Sami1819_img-788d.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172097209541">
+<problem id="fs-id1172101905724">
+<para id="fs-id1172097161264">Se colocan dos moles de gas helio en un recipiente cilíndrico con un pistón. El gas está a temperatura ambiente <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y bajo la presión de <m:math><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Cuando se disminuye la presión del exterior y se mantiene la misma temperatura que la del ambiente, el volumen del gas se duplica. (a) Calcule el trabajo que el agente externo realiza sobre el gas en el proceso. (b) Calcule el calor intercambiado por el gas e indique si el gas toma o cede calor. Suponga el comportamiento de un gas ideal.</para>
+</problem>
+<solution id="fs-id1172099382254">
+<para id="fs-id1172099619834">a. –3 400 J; b. 3.400 J entran en el gas</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099574826">
+<problem id="fs-id1172101786706">
+<para id="fs-id1172099397220">Una cantidad de n moles de un gas ideal monoatómico en un recipiente conductor con un pistón móvil se coloca en un gran baño de calor térmico a la temperatura <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y se deja que el gas alcance el equilibrio. Una vez alcanzado el equilibrio, la presión sobre el pistón se reduce para que el gas se expanda a temperatura constante. El proceso continúa de forma cuasiestática hasta que la presión final es 4/3 de la presión inicial <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> (a) Calcule el cambio en la energía interna del gas. (b) Calcule el trabajo realizado por el gas. (c) Calcule el calor intercambiado por el gas, e indique si el gas toma o cede calor.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172101948865">
+<term>proceso adiabático</term>
+<meaning id="fs-id1172099800074">proceso durante el cual no se transfiere calor hacia ni desde el sistema</meaning>
+</definition>
+<definition id="fs-id1172097444574">
+<term>proceso cíclico</term>
+<meaning id="fs-id1172097543587">proceso en el que el estado del sistema al final es el mismo que el estado al principio</meaning>
+</definition>
+<definition id="fs-id1172099702822">
+<term>proceso isobárico</term>
+<meaning id="fs-id1172099516755">proceso durante el cual la presión del sistema no cambia</meaning>
+</definition>
+<definition id="fs-id1172102107677">
+<term>proceso isocórico</term>
+<meaning id="fs-id1172097143858">proceso durante el cual el volumen del sistema no cambia</meaning>
+</definition>
+<definition id="fs-id1172101777950">
+<term>proceso isotérmico</term>
+<meaning id="fs-id1172101714880">proceso durante el cual la temperatura del sistema se mantiene constante</meaning>
+</definition>
+<definition id="fs-id1172099512959">
+<term>proceso reversible</term>
+<meaning id="fs-id1172101778994">proceso que se puede revertir para restaurar tanto el sistema como su ambiente a sus estados originales juntos</meaning>
+</definition>
+<definition id="fs-id1172101920335">
+<term>proceso termodinámico</term>
+<meaning id="fs-id1172099513415">manera en que un estado de un sistema puede cambiar del estado inicial al estado final</meaning>
+</definition>
+</glossary>
+</document>

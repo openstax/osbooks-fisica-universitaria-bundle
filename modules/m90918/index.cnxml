@@ -1,0 +1,259 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Ley de Faraday</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90918</md:content-id>
+  <md:title>Ley de Faraday</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Determinar el flujo magnético a través de una superficie, conociendo la intensidad del campo magnético, el área de la superficie y el ángulo entre la normal a la superficie y el campo magnético.</item>
+<item>Utilizar la ley de Faraday para determinar la magnitud de la emf inducida en un bucle cerrado debido al cambio de flujo magnético a través del bucle.</item>
+</list></md:abstract>
+  <md:uuid>58ffe55f-3725-4fe6-a7b7-8b1d2886cd05</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171241328495">Los primeros experimentos productivos sobre los efectos de los campos magnéticos que varían en el tiempo fueron realizados por Michael <term class="no-emphasis">Faraday</term> en 1831. Uno de sus primeros experimentos está representado en la <link target-id="CNX_UPhysics_30_01_GalvMag"/>. Se una <term class="no-emphasis">emf</term> cuando el campo magnético de la bobina se modifica al empujar una barra magnética dentro o fuera de la bobina. Las emf de signos opuestos se producen por el movimiento en direcciones opuestas, y las direcciones de las emf también se invierten al invertir los polos. Se producen los mismos resultados si se mueve la bobina en lugar del imán: lo importante es el movimiento relativo. Cuanto más rápido es el movimiento, mayor es la emf, y no hay emf cuando el imán está inmóvil respecto a la bobina.</para>
+<figure id="CNX_UPhysics_30_01_GalvMag">
+<media id="fs-id1171241053605" alt="La figura A muestra el imán con el polo norte hacia arriba movido dentro de la bobina. La figura B muestra el imán con el polo norte hacia arriba desplazado fuera de la bobina. La figura C muestra el imán con el polo sur hacia arriba movido dentro de la bobina. La figura D muestra el imán con el polo sur hacia arriba desplazado fuera de la bobina. La figura E muestra el imán con el polo norte orientado hacia arriba y mantenido fijo en la bobina.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_GalvMag.jpg"/>
+</media>
+<caption>El movimiento de un imán con respecto a una bobina produce emf como se muestra (a-d). Las mismas emf se producen si la bobina se mueve con respecto al imán. Esta emf de corta duración solo está presente durante el movimiento. Cuanto mayor es la velocidad, mayor es la magnitud de la emf, y esta es cero cuando no hay movimiento, como se muestra en (e).</caption>
+</figure>
+<para id="fs-id1171241238691">Faraday también descubrió que se puede producir un efecto similar utilizando dos circuitos: una corriente cambiante en un circuito induce una corriente en un segundo circuito cercano. Por ejemplo, cuando el interruptor está cerrado en el circuito 1 de la <link target-id="CNX_UPhysics_30_01_Circuit"/>(a), la aguja del amperímetro del circuito 2 se desvía momentáneamente, indicando que se ha inducido un pico de corriente de corta duración en ese circuito. La aguja del amperímetro vuelve rápidamente a su posición original, donde permanece. Sin embargo, si ahora se abre repentinamente el interruptor del circuito 1, se observa en el circuito 2 otro pico de corriente de corta duración en sentido contrario al anterior.</para>
+<figure id="CNX_UPhysics_30_01_Circuit">
+<media id="fs-id1171241145827" alt="La figura A muestra el circuito en el que el interruptor se cierra haciendo que la corriente fluya en el sentido de las agujas del reloj. La figura B muestra el circuito en el que el interruptor se mantiene cerrado. No hay corriente en el circuito. La figura C muestra el circuito en el que el interruptor se abre haciendo que la corriente fluya en sentido contrario a las agujas del reloj a través de él.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_Circuit.jpg"/>
+</media>
+<caption>(a) Al cerrar el interruptor del circuito 1 se produce un pico de corriente de corta duración en el circuito 2. (b) Si el interruptor permanece cerrado, no se observa corriente en el circuito 2. (c) Al abrir de nuevo el interruptor se produce una corriente de corta duración en el circuito 2, pero en sentido contrario al anterior.</caption>
+</figure>
+<para id="fs-id1171241150285">Faraday se dio cuenta de que en ambos experimentos, una corriente fluía en el circuito que contenía el amperímetro solo cuando el campo magnético en la región ocupada por ese circuito estaba <emphasis effect="italics">cambiando</emphasis>. Al mover el imán de la figura, cambiaba la intensidad de su campo magnético en el bucle; y al conectar o desconectar la corriente en el circuito 1, cambiaba la intensidad de su campo magnético en el circuito 2. Faraday pudo finalmente interpretar estos y todos los demás experimentos con campos magnéticos que varían con el tiempo en términos de la siguiente ley:</para>
+<note id="fs-id1171241132764">
+<title>Ley de Faraday</title>
+<para id="fs-id1171241136854">La emf <m:math><m:mi>ε</m:mi></m:math> inducida es el cambio negativo en el flujo magnético <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> por unidad de tiempo. Cualquier cambio en el campo magnético o en la orientación del área de la bobina con respecto al campo magnético induce un voltaje (emf).</para>
+</note>
+<para id="fs-id1171241123715">El <term>flujo magnético</term> es una medida de la cantidad de líneas de campo magnético que atraviesa una superficie determinada, como se ve en la <link target-id="CNX_UPhysics_30_01_Magflux"/>. Esta definición es similar al flujo eléctrico estudiado anteriormente. Esto significa que si tenemos</para>
+<note id="fs-id1171241051586" class="equation-callout">
+<equation id="fs-id1171240989377"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∫</m:mo><m:mi>S</m:mi></m:munder><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>,</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171241122178">entonces la <term>emf inducida</term> o el voltaje generado por un conductor o bobina que se mueve en un campo magnético es</para>
+<equation id="fs-id1171241192361"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∫</m:mo><m:mi>S</m:mi></m:munder><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241323591">El signo negativo describe la dirección en la que la emf inducida conduce la corriente alrededor de un circuito. Sin embargo, esa dirección se determina más fácilmente con una regla conocida como ley de Lenz, de la que hablaremos en breve.</para>
+<figure id="CNX_UPhysics_30_01_Magflux">
+<media id="fs-id1171241141534" alt="La figura muestra un campo magnético uniforme B que atraviesa una superficie A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_Magflux.jpg"/>
+</media>
+<caption>El flujo magnético es la cantidad de líneas de campo magnético que atraviesan una superficie <emphasis effect="italics">A</emphasis> definida por el vector de área unitaria <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Si el ángulo entre el área unitaria <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> y el vector del campo magnético <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> son paralelos o antiparalelos, como se muestra en el diagrama, el flujo magnético es el mayor valor posible dados los valores de área y campo magnético.</caption>
+</figure>
+<para id="fs-id1171241151837">La parte (a) de la <link target-id="CNX_UPhysics_30_01_Surface"/> representa un circuito y una superficie arbitraria <emphasis effect="italics">S</emphasis> a la que limita. Observe que <emphasis effect="italics">S</emphasis> es una <emphasis effect="italics">superficie abierta</emphasis>. Se puede demostrar que <emphasis effect="italics">cualquier</emphasis> superficie abierta delimitada por el circuito en cuestión puede utilizarse para evaluar <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Por ejemplo, <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> es el mismo para las distintas superficies <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>S</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math> de la parte (b) de la figura.</para>
+<figure id="CNX_UPhysics_30_01_Surface">
+<media id="fs-id1171241189703" alt="La figura A muestra el circuito que delimita una superficie abierta arbitraria S. El área plana delimitada por el circuito no forma parte de S. La figura B muestra tres superficies abiertas arbitrarias S1, S2 y S3 delimitadas por el mismo circuito.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_Surface.jpg"/>
+</media>
+<caption>(a) Un circuito que delimita una superficie abierta arbitraria <emphasis effect="italics">S</emphasis>. El área plana delimitada por el circuito no forma parte de <emphasis effect="italics">S</emphasis>. (b) Tres superficies abiertas arbitrarias delimitadas por el mismo circuito. El valor de <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> es el mismo para todas estas superficies.</caption>
+</figure>
+<para id="fs-id1171241345086">La unidad del SI para el flujo magnético es el <term class="no-emphasis">weber</term> (Wb),</para>
+<equation id="fs-id1171241097128" class="unnumbered"><label/><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Wb</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241203963">En ocasiones, la unidad de campo magnético se expresa en webers por metro cuadrado (<m:math><m:mrow><m:msup><m:mrow><m:mtext>Wb/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) en lugar de teslas, basándose en esta definición. En muchas aplicaciones prácticas, el circuito de interés consiste en un número <emphasis effect="italics">N</emphasis> de vueltas apretadas (ver <link target-id="CNX_UPhysics_30_01_Wire"/>). Cada vuelta experimenta el mismo flujo magnético. Por lo tanto, el flujo magnético neto a través de los circuitos es <emphasis effect="italics">N</emphasis> veces el flujo a través de una vuelta, y la ley de Faraday se escribe como</para>
+<note id="fs-id1171241241136" class="equation-callout">
+<equation id="fs-id1171241164885"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>N</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1171241149519">
+<para id="fs-id1171241148164"><title>Una bobina cuadrada en un campo magnético cambiante</title>
+La bobina cuadrada de la <link target-id="CNX_UPhysics_30_01_Wire"/> tiene lados <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> de largo y se bobina firmemente con <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>200</m:mn></m:mrow></m:math> vueltas de cable. La resistencia de la bobina es <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math> La bobina se encuentra en un campo magnético espacialmente uniforme que se dirige perpendicularmente a la cara de la bobina y cuya magnitud disminuye a una velocidad <m:math><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>-0,040</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) ¿Cuál es la magnitud de la emf inducida en la bobina? (b) ¿Cuál es la magnitud de la corriente que circula por la bobina?</para>
+<figure id="CNX_UPhysics_30_01_Wire">
+<media id="fs-id1171240990882" alt="La figura muestra una bobina cuadrada de la longitud de lado l con N vueltas de alambre. Un campo magnético uniforme B se dirige en dirección descendente, perpendicular a la bobina.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_Wire.jpg"/>
+</media>
+<caption>Una bobina cuadrada con <emphasis effect="italics">N</emphasis> vueltas de alambre con campo magnético uniforme <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> dirigido hacia abajo, perpendicular a la bobina.</caption>
+</figure>
+<para id="fs-id1171241066334"><title>Estrategia</title>
+El vector de área, o dirección <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math>, es perpendicular al área que cubre el bucle. Elegiremos que esto apunte hacia abajo para que <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> sea paralelo a <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> y que el flujo se convierta en la multiplicación del campo magnético por el área. El área del bucle no cambia en el tiempo, por lo que se puede eliminar de la derivada temporal, dejando el campo magnético como la única cantidad que varía en el tiempo. Por último, podemos aplicar la ley de Ohm una vez conocida la emf inducida para calcular la corriente en el bucle.</para>
+<para id="fs-id1171241092551"><title>Solución</title></para>
+<list id="fs-id1171240994354" list-type="enumerated" number-style="lower-alpha">
+<item>El flujo a través de una vuelta es
+<equation id="fs-id1171241201226" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:msup><m:mi>l</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+por lo que podemos calcular la magnitud de la emf a partir de la ley de Faraday. El signo de la emf se discutirá en la siguiente sección, en la ley de Lenz:
+<equation id="fs-id1171241114112" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>|</m:mo><m:mi>ε</m:mi><m:mo>|</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>N</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>N</m:mi><m:msup><m:mi>l</m:mi><m:mn>2</m:mn></m:msup><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>200</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mn>0,040</m:mn><m:mspace width="0.2em"/><m:mtext>T/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>La magnitud de la corriente inducida en la bobina es
+<equation id="fs-id1171241158470" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,10</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1171241122795"><title>Importancia</title>
+Si el área del bucle cambiara en el tiempo, no podríamos sacarlo de la derivada temporal. Como el bucle es una trayectoria cerrada, el resultado de esta corriente sería un pequeño calentamiento de los cables hasta que el campo magnético deje de cambiar. Esto puede aumentar ligeramente el área del bucle al calentarse los cables.</para>
+</example>
+<note id="fs-id1171241241645" class="check-understanding">
+<exercise id="fs-id1171240969671">
+<problem id="fs-id1171240984994">
+<para id="fs-id1171241057880">Una bobina estrechamente enrollada tiene un radio de 4,0 cm, 50 vueltas y una resistencia total de <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. ¿A qué velocidad debe cambiar un campo magnético perpendicular a la cara de la bobina para producir un calentamiento Joule en la bobina a una velocidad de 2,0 mW?</para>
+</problem>
+<solution id="fs-id1171241153595">
+<para id="fs-id1171241258119">1,1 T/s</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1171241202797" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1171241046046" list-type="bulleted" bullet-style="bullet">
+<item>El flujo magnético a través de un área cerrada se define como la cantidad de líneas de campo que atraviesan una superficie <emphasis effect="italics">A</emphasis> definida por el vector de área unitaria.</item>
+<item>Las unidades del flujo magnético son los webers, donde <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Wb</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>La emf inducida en un bucle cerrado debido a un cambio en el flujo magnético a través del bucle se conoce como la ley de Faraday. Si no hay cambio en el flujo magnético, no se crea ninguna emf inducida.</item>
+</list>
+</section>
+<section id="fs-id1171240985619" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1171241111872">
+<problem id="fs-id1171241122272">
+<para id="fs-id1171241124858">Una bobina estacionaria se encuentra en un campo magnético que cambia con el tiempo. ¿La emf inducida en la bobina depende de los valores reales del campo magnético?</para>
+</problem>
+<solution id="fs-id1171241093655">
+<para id="fs-id1171241238616">La emf depende de la velocidad de cambio del campo magnético.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241199946">
+<problem id="fs-id1171241154720">
+<para id="fs-id1171241010757">En los experimentos de Faraday, ¿cuál sería la ventaja de utilizar bobinas con muchas vueltas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241129335">
+<problem id="fs-id1171241034073">
+<para id="fs-id1171241131403">Un anillo de cobre y un anillo de madera de las mismas dimensiones se colocan en campos magnéticos para que haya el mismo cambio de flujo magnético a través de ellos. Compare los campos eléctricos inducidos y las corrientes en los anillos.</para>
+</problem>
+<solution id="fs-id1171241134668">
+<para id="fs-id1171241410991">Ambos tienen los mismos campos eléctricos inducidos; sin embargo, el anillo de cobre tiene una emf inducida mucho mayor porque conduce la electricidad mejor que el anillo de madera.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241015574">
+<problem id="fs-id1171241095130">
+<para id="fs-id1171241116641">Analice los factores que determinan la emf inducida en un bucle cerrado de cable.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241021120">
+<problem id="fs-id1171241255681">
+<para id="fs-id1171240959297">(a) ¿La emf inducida en un circuito depende de su resistencia? (b) ¿La corriente inducida depende de la resistencia del circuito?</para>
+</problem>
+<solution id="fs-id1171240977887">
+<para id="fs-id1171240994206">a. no; b. sí</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241257120">
+<problem id="fs-id1171241149792">
+<para id="fs-id1171241118200">¿Cómo afectaría a la emf el cambio del radio del bucle <emphasis effect="italics">D</emphasis> que se muestra a continuación, suponiendo que <emphasis effect="italics">C</emphasis> y <emphasis effect="italics">D</emphasis> están mucho más juntos en comparación con sus radios?</para>
+<media id="fs-id1171241113119" alt="La figura muestra un circuito que consta de una resistor, un condensador, un interruptor abierto y un bucle C. Junto al bucle C se encuentra un bucle D.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_Q6_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171241154414">
+<problem id="fs-id1171241113085">
+<para id="fs-id1171241098594">¿Puede haber una emf inducida en un circuito en un instante en el que el flujo magnético que atraviesa el circuito es cero?</para>
+</problem>
+<solution id="fs-id1171240974661">
+<para id="fs-id1171241098737">Mientras el flujo magnético cambie de positivo a negativo o de negativo a positivo, puede haber una emf inducida.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241200352">
+<problem id="fs-id1171241111695">
+<para id="fs-id1171241320795">¿La emf inducida siempre actúa para disminuir el flujo magnético a través de un circuito?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241079729">
+<problem id="fs-id1171241112518">
+<para id="fs-id1171241141057">¿Cómo colocaría un bucle plano de cable en un campo magnético cambiante para que no haya emf inducida en el bucle?</para>
+</problem>
+<solution id="fs-id1171241334922">
+<para id="fs-id1171240969518">Coloque el bucle de manera que las líneas de campo sean perpendiculares al vector área o paralelas a la superficie.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241013268">
+<problem id="fs-id1171240969875">
+<para id="fs-id1171240948512">La normal al plano de un bucle conductor de una vuelta está dirigida con un ángulo <m:math><m:mi>θ</m:mi></m:math> a un campo magnético espacialmente uniforme <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Tiene un área fija y una orientación relativa al campo magnético. Demuestre que la emf inducida en el bucle viene dada por <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>B</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> donde <emphasis effect="italics">A</emphasis> es el área del bucle.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1171241052712" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1171241201416">
+<problem id="fs-id1171241320118">
+<para id="fs-id1171241139459">Una bobina de 50 vueltas tiene un diámetro de 15 cm. La bobina se coloca en un campo magnético espacialmente uniforme de magnitud 0,50 T de manera que la cara de la bobina y el campo magnético sean perpendiculares. Halle la magnitud de la emf inducida en la bobina si el campo magnético se reduce a cero uniformemente en (a) 0,10 s, (b) 1,0 s y (c) 60 s.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171240940944">
+<problem id="fs-id1171241095026">
+<para id="fs-id1171240994352">Repita sus cálculos del tiempo del problema anterior de 0,1 s con el plano de la bobina haciendo un ángulo de (a) <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:mn>60</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y (c) <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con el campo magnético.</para>
+</problem>
+<solution id="fs-id1171240989056">
+<para id="fs-id1171240965796">a. 3,8 V; b. 2,2 V; c. 0 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241208588">
+<problem id="fs-id1171241071527">
+<para id="fs-id1171241141782">Se hace un bucle cuadrado cuyos lados miden 6,0 cm de longitud con alambre de cobre de radio 1,0 mm. Si un campo magnético perpendicular al bucle cambia a una velocidad de 5,0 mT/s, ¿cuál es la corriente en el bucle?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171240945851">
+<problem id="fs-id1171241114217">
+<para id="fs-id1171241144021">El campo magnético a través de un bucle circular de radio 10,0 cm varía con el tiempo como se muestra a continuación. El campo es perpendicular al bucle. Trace la magnitud de la emf inducida en el bucle en función del tiempo.</para>
+<media id="fs-id1171241022691" alt="La figura muestra el campo magnético en militeslas trazado en función del tiempo en ms. El campo magnético es cero cuando el tiempo es igual a cero. Aumenta linealmente con el tiempo hasta llegar a 3 militeslas y 2 ms. Se mantiene igual hasta los 5 ms y luego disminuye linealmente hasta 0 y 6 ms.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_p14_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171241142217">
+<para id="fs-id1171241162903"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1,5</m:mn><m:mi>t</m:mi><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>t</m:mi><m:mo>&lt;</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>,</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>mT</m:mtext><m:mo>,</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>≤</m:mo><m:mi>t</m:mi><m:mo>≤</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−3,0</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mtext>mT</m:mtext><m:mo>,</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>&lt;</m:mo><m:mi>t</m:mi><m:mo>≤</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>B</m:mi><m:mi>A</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>A</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>π</m:mi><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,100</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mtext>T/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>-47</m:mn><m:mspace width="0.2em"/><m:mtext>mV</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>t</m:mi><m:mo>&lt;</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>π</m:mi><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,100</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>≤</m:mo><m:mi>t</m:mi><m:mo>≤</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>π</m:mi><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,100</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3,0</m:mn><m:mspace width="0.2em"/><m:mtext>T/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>94</m:mn><m:mspace width="0.2em"/><m:mtext>mV</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>&lt;</m:mo><m:mi>t</m:mi><m:mo>&lt;</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math><newline/>
+<media id="fs-id1171241192145" alt="La figura muestra la emf en mV trazada en función del tiempo en ms. La emf es igual a –47 mV cuando el tiempo es igual a cero. Aumenta de forma escalonada hasta llegar a 0 cuando el tiempo alcanza los 2 ms. La emf se mantiene igual hasta los 5 ms y luego aumenta de forma escalonada hasta los 94 mV. Se mantiene constante hasta que el tiempo alcanza los 6 ms.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_p14ans_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241320383">
+<problem id="fs-id1171241320385">
+<para id="fs-id1171241320387">La figura adjunta muestra una bobina rectangular de una vuelta que tiene una resistencia de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math> El campo magnético en todos los puntos del interior de la bobina varía según <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la corriente inducida en la bobina en (a) <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0,001</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>, (b) 0,002 s, (c) 2,0 s?</para>
+<media id="fs-id1171241248243" alt="La figura muestra una bobina cuadrada con los lados de 2,0 y 5,0 cm. Un campo magnético uniforme B se dirige perpendicularmente a la bobina.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_09pr_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171241116310">
+<problem id="fs-id1171241166254">
+<para id="fs-id1171241166257">¿Cómo cambiarían las respuestas al problema anterior si la bobina estuviera formada por 20 bucles muy juntos?</para>
+</problem>
+<solution id="fs-id1171241186066">
+<para id="fs-id1171241186068">Cada respuesta es 20 veces las respuestas dadas anteriormente.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241110023">
+<problem id="fs-id1171241110025">
+<para id="fs-id1171241109269">Un solenoide largo con <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math> vueltas por centímetro tiene una sección transversal de <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y lleva una corriente de 0,25 A. Una bobina de cinco vueltas rodea el solenoide. Cuando la corriente que pasa por el solenoide se apaga, disminuye a cero en 0,050 s. ¿Cuál es la emf media inducida en la bobina?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241116228">
+<problem id="fs-id1171241330993">
+<para id="fs-id1171241330995">Un bucle de alambre rectangular con longitud <emphasis effect="italics">a</emphasis> y anchura <emphasis effect="italics">b</emphasis> se encuentra en el plano <emphasis effect="italics">xy</emphasis>, como se muestra a continuación. Dentro del bucle existe un campo magnético dependiente del tiempo dado por <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, con <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> en tesla. Determine la emf inducida en el bucle en función del tiempo.</para>
+<media id="fs-id1171241092049" alt="La figura muestra un bucle de alambre rectangular con longitud a y anchura b situado en el plano xy.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_13pr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171241197547">
+<para id="fs-id1171241197549"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>C</m:mtext><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mi>d</m:mi><m:mi>y</m:mi><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>C</m:mi><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>C</m:mi><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171240988352">
+<problem id="fs-id1171241054526">
+<para id="fs-id1171241054529">El campo magnético perpendicular a un bucle de alambre de 10,0 cm de diámetro disminuye de 0,50 T a cero. El cable es de cobre y tiene un diámetro de 2,0 mm y una longitud de 1,0 cm. ¿Cuánta carga se mueve a través del cable mientras el campo cambia?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171241204212">
+<term>ley de Faraday</term>
+<meaning id="fs-id1171241238556">se crea una emf inducida en un bucle cerrado debido a un cambio en el flujo magnético a través del bucle</meaning>
+</definition>
+<definition id="fs-id1171241238561">
+<term>emf inducida</term>
+<meaning id="fs-id1171241244736">voltaje de corta duración generado por un conductor o una bobina que se mueve en un campo magnético</meaning>
+</definition>
+<definition id="fs-id1171241244740">
+<term>flujo magnético</term>
+<meaning id="fs-id1171241253695">medición de la cantidad de líneas de campo magnético que atraviesan un área determinada</meaning>
+</definition>
+</glossary>
+</document>

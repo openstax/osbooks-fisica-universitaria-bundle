@@ -1,0 +1,317 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Equipotential Surfaces and Conductors</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90879</md:content-id>
+  <md:title>Equipotential Surfaces and Conductors</md:title>
+  <md:abstract><para>By the end of this section, you will be able to:</para><list>
+<item>Define equipotential surfaces and equipotential lines</item>
+<item>Explain the relationship between equipotential lines and electric field lines</item>
+<item>Map equipotential lines for one or two point charges</item>
+<item>Describe the potential of a conductor</item>
+<item>Compare and contrast equipotential lines and elevation lines on topographic maps</item></list></md:abstract>
+  <md:uuid>d1dc919c-c827-4f4c-b7b4-c83d4dc4673c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167585805430">Podemos representar los potenciales eléctricos (voltajes) de forma pictórica, al igual que hicimos dibujos para ilustrar los campos eléctricos. Esto no es sorprendente, ya que ambos conceptos están relacionados. Consideremos la <link target-id="CNX_UPhysics_24_05_PtChg"/>, que muestra una carga puntual positiva aislada y sus líneas de campo eléctrico que irradian desde una carga positiva y terminan en cargas negativas. Utilizamos flechas rojas para representar la magnitud y la dirección del campo eléctrico, y utilizamos líneas negras para representar los lugares donde el potencial eléctrico es constante. Se denominan <term>superficies equipotenciales</term> en tres dimensiones, o <term>líneas equipotenciales</term> en dos dimensiones. El término <emphasis effect="italics">equipotencial</emphasis> también se utiliza como sustantivo, refiriéndose a una superficie o línea equipotencial. El potencial de una carga puntual es el mismo en cualquier lugar de una esfera imaginaria de radio <emphasis effect="italics">r</emphasis> que rodea a la carga. Esto es cierto porque el potencial de una carga puntual viene dado por <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mi>q</m:mi><m:mtext>/</m:mtext><m:mi>r</m:mi></m:mrow></m:math> y, por tanto, tiene el mismo valor en cualquier punto que esté a una determinada distancia <emphasis effect="italics">r</emphasis> de la carga. Una esfera equipotencial es un círculo en la vista bidimensional de la <link target-id="CNX_UPhysics_24_05_PtChg"/>. Como las líneas de campo eléctrico apuntan radialmente lejos de la carga, son perpendiculares a las líneas equipotenciales.</para><figure id="CNX_UPhysics_24_05_PtChg"><media id="fs-id1167585906351" alt="La figura muestra una carga Q y vectores de campo eléctrico radialmente hacia afuera de Q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_PtChg.jpg"/>
+</media>
+
+<caption>Una carga puntual aislada <emphasis effect="italics">Q</emphasis> con sus líneas de campo eléctrico en rojo y las líneas equipotenciales en negro. El potencial es el mismo a lo largo de cada línea equipotencial, lo que significa que no se requiere ningún trabajo para mover una carga en cualquier lugar a lo largo de una de esas líneas. Se necesita trabajo para mover una carga de una línea equipotencial a otra. Las líneas equipotenciales son perpendiculares a las líneas de campo eléctrico en todos los casos. Para una versión tridimensional, explore el primer enlace multimedia.</caption></figure><para id="fs-id1167585971085">Es importante señalar que <emphasis effect="italics">las líneas equipotenciales son siempre perpendiculares a las líneas de campo eléctrico</emphasis>. No se requiere ningún trabajo para mover una carga a lo largo de un equipotencial, ya que <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Así, el trabajo es</para>
+<equation id="fs-id1167585827016" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>q</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585944676">El trabajo es cero si la dirección de la fuerza es perpendicular al desplazamiento. La fuerza está en la misma dirección que <emphasis effect="italics">E</emphasis>, por lo que el movimiento a lo largo de un equipotencial debe ser perpendicular a <emphasis effect="italics">E</emphasis>. Más precisamente, el trabajo está relacionado con el campo eléctrico por</para>
+<equation id="fs-id1167585858666" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>⋅</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>d</m:mi><m:mo>→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>q</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>E</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>⋅</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>d</m:mi><m:mo>→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>E</m:mi><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585767979">Observe que en esta ecuación, <emphasis effect="italics">E</emphasis> y <emphasis effect="italics">F</emphasis> simbolizan las magnitudes del campo eléctrico y la fuerza, respectivamente. Ni <emphasis effect="italics">q</emphasis> ni <emphasis effect="italics">E</emphasis> son cero; <emphasis effect="italics">d</emphasis> tampoco es cero. Así que <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> debe ser 0, es decir <m:math><m:mi>θ</m:mi></m:math> debe ser <m:math><m:mrow><m:mn>90</m:mn><m:mtext>º</m:mtext></m:mrow></m:math>. En otras palabras, el movimiento a lo largo de un equipotencial es perpendicular a <emphasis effect="italics">E</emphasis>.</para>
+<para id="fs-id1167585873504">Una de las reglas para los campos eléctricos estáticos y los conductores es que el campo eléctrico debe ser perpendicular a la superficie de cualquier conductor. Esto implica que un <emphasis effect="italics">conductor es una superficie equipotencial en situaciones estáticas</emphasis>. No puede haber una diferencia de voltaje a través de la superficie de un conductor, o las cargas fluirán. Uno de los usos de este hecho es que un conductor puede fijarse en lo que consideramos cero voltios conectándolo a la tierra con un buen conductor, un proceso que se llama <term>puesta a tierra</term>. La puesta a tierra puede ser una herramienta de seguridad útil. Por ejemplo, la puesta a tierra de la capa de metal de un aparato eléctrico garantiza que esté a cero voltios con respecto a la Tierra.</para>
+<para id="fs-id1167585853706">Como un conductor es un equipotencial, puede sustituir a cualquier superficie equipotencial. Por ejemplo, en la <link target-id="CNX_UPhysics_24_05_PtChg"/>, un conductor esférico cargado puede sustituir a la carga puntual, y el campo eléctrico y las superficies de potencial fuera de él no cambiarán, confirmando la afirmación de que una distribución de carga esférica es equivalente a una carga puntual en su centro.</para>
+<para id="fs-id1167585860457">La <link target-id="CNX_UPhysics_24_05_EqOpp"/> muestra el campo eléctrico y las líneas equipotenciales para dos cargas iguales y opuestas. Dadas las líneas de campo eléctrico, las líneas equipotenciales se pueden trazar simplemente haciéndolas perpendiculares a las líneas de campo eléctrico. A la inversa, dadas las líneas equipotenciales, como en la <link target-id="CNX_UPhysics_24_05_EqSame"/>(a), las líneas de campo eléctrico pueden dibujarse haciéndolas perpendiculares a los equipotenciales, como en la <link target-id="CNX_UPhysics_24_05_EqSame"/>(b).</para>
+<figure id="CNX_UPhysics_24_05_EqOpp">
+<media id="fs-id1167585998229" alt="La figura muestra dos cargas, una positiva y otra negativa, y las líneas de campo eléctrico de la carga positiva a la negativa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_EqOpp.jpg"/>
+</media>
+<caption>Las líneas de campo eléctrico y las líneas equipotenciales para dos cargas iguales pero opuestas. Las líneas equipotenciales se pueden dibujar haciéndolas perpendiculares a las líneas de campo eléctrico, si se conocen. Observe que el potencial es mayor (más positivo) cerca de la carga positiva y menor (más negativo) cerca de la carga negativa. Para una versión tridimensional, explore el primer enlace multimedia.</caption>
+</figure>
+<figure id="CNX_UPhysics_24_05_EqSame">
+<media id="fs-id1167585847858" alt="La parte a muestra líneas equipotenciales alrededor de dos cargas y la parte b muestra dos cargas negativas y sus líneas de campo eléctrico.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_EqSame.jpg"/>
+</media>
+<caption>(a) Estas líneas equipotenciales podrían medirse con un voltímetro en un experimento de laboratorio. (b) Las líneas de campo eléctrico correspondientes se encuentran dibujándolas perpendicularmente a los equipotenciales. Observe que estos campos son consistentes con dos cargas negativas iguales. Para una versión tridimensional, juegue con el primer enlace multimedia.</caption>
+</figure>
+<para id="fs-id1167586033307">Para mejorar su intuición, mostramos una variante tridimensional del potencial en un sistema con dos cargas opuestas. La <link target-id="CNX_UPhysics_24_05_ThreeD"/> muestra un mapa tridimensional del potencial eléctrico, donde las líneas del mapa corresponden a superficies equipotenciales. La colina está en la carga positiva, y la depresión en la carga negativa. El potencial es cero lejos de las cargas. Observe que el corte a un determinado potencial implica que las cargas están en esferas conductoras de radio finito.</para>
+<figure id="CNX_UPhysics_24_05_ThreeD">
+<media id="fs-id1167585767463" alt="La ilustración muestra el mapa de potencial eléctrico y las líneas equipotenciales de dos cargas: una positiva y otra negativa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_ThreeD.jpg"/>
+</media>
+<caption>Mapa de potencial eléctrico de dos cargas opuestas de igual magnitud en esferas conductoras. El potencial es negativo cerca de la carga negativa y positivo cerca de la carga positiva.</caption>
+</figure>
+<para id="fs-id1167585805577">En la <link target-id="CNX_UPhysics_24_05_TwoD"/>se muestra un mapa bidimensional del plano de la sección transversal que contiene ambas cargas. La línea equdistante de las dos cargas opuestas corresponde al potencial cero, ya que en los puntos de la línea, el potencial positivo de la carga positiva anula el potencial negativo de la carga negativa. Las líneas equipotenciales en el plano transversal son bucles cerrados, que no son necesariamente círculos, ya que en cada punto, el potencial neto es la suma de los potenciales de cada carga.</para>
+<figure id="CNX_UPhysics_24_05_TwoD">
+<media id="fs-id1167585793830" alt="El gráfico muestra las líneas equipotenciales para dos cargas, una positiva y otra negativa. Tanto el eje x como el eje y del plano van de –4 a 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_TwoD-3b5d.jpg"/>
+</media>
+<caption>Sección transversal del mapa de potencial eléctrico de dos cargas opuestas de igual magnitud. El potencial es negativo cerca de la carga negativa y positivo cerca de la carga positiva.</caption>
+</figure>
+<note id="fs-id1167585879781" class="media-2">
+<para id="fs-id1167585969826">Vea esta <link url="https://openstax.org/l/21equipsurelec">simulación</link> para observar y modificar las superficies equipotenciales y los campos eléctricos para muchas configuraciones de carga estándar. Hay mucho que explorar.</para>
+</note>
+<para id="fs-id1167585772480">Uno de los casos más importantes es el de las conocidas placas conductoras paralelas que se muestran en la <link target-id="CNX_UPhysics_24_05_ParaPoten"/>. Entre las placas, los equipotenciales están uniformemente espaciados y paralelos. Se podría mantener el mismo campo colocando placas conductoras en las líneas equipotenciales a los potenciales indicados.</para>
+<figure id="CNX_UPhysics_24_05_ParaPoten">
+<media id="fs-id1167585993580" alt="La figura muestra dos placas de metal y las líneas de campo eléctrico entre ellas. El potencial de la placa izquierda es de 100V y el de la derecha es de 0V y hay líneas equipotenciales de 75V, 50V y 25V entre las placas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_ParaPoten.jpg"/>
+</media>
+<caption>El campo eléctrico y las líneas equipotenciales entre dos placas de metal. Observe que el campo eléctrico es perpendicular a los equipotenciales y, por tanto, normal a las placas tanto en su superficie como en el centro de la región entre ellas.</caption>
+</figure>
+<para id="fs-id1167585758615">Consideremos las placas paralelas en la <link target-id="CNX_UPhysics_24_01_PotEnWork" document="m58429"/>. Estas tienen líneas equipotenciales que son paralelas a las placas en el espacio entre ellas y uniformemente espaciadas. Un ejemplo de ello (con valores de muestra) se ofrece en la <link target-id="CNX_UPhysics_24_05_ParaPoten"/>. Podríamos dibujar un conjunto similar de isolíneas equipotenciales para la gravedad en la colina que se muestra en la <link target-id="CNX_UPhysics_24_01_PotEnWork" document="m58429"/>. Si la colina tiene alguna extensión con la misma pendiente, las isolíneas a lo largo de esa extensión serían paralelas entre sí. Además, en las regiones de pendiente constante, las isolíneas estarían espaciadas uniformemente. Un ejemplo de líneas topográficas reales se muestra en la <link target-id="CNX_UPhysics_24_05_Topo"/>.</para>
+<figure id="CNX_UPhysics_24_05_Topo">
+<media id="fs-id1167586180109" alt="La parte a muestra la foto de la vista superior de las líneas topográficas de la Torre del Diablo en Wyoming y la parte b muestra la vista lateral de la Torre.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Topo-63be.jpg"/>
+</media>
+<caption>Un mapa topográfico a lo largo de una cresta tiene líneas de elevación aproximadamente paralelas, similares a las líneas equipotenciales en la <link target-id="CNX_UPhysics_24_05_ParaPoten"/>. (a) Un mapa topográfico de la Torre del Diablo, Wyoming. Las líneas que están muy juntas indican un terreno muy escarpado. (b) Una foto en perspectiva de la Torre del Diablo muestra lo escarpados que son sus lados. Observe que la parte superior de la torre tiene la misma forma que el centro del mapa topográfico.</caption>
+</figure>
+<example id="fs-id1167585838718">
+<para id="fs-id1167585825944"><title>Cálculo de las líneas equipotenciales</title>
+Ha visto las líneas equipotenciales de una carga puntual en la <link target-id="CNX_UPhysics_24_05_PtChg"/>. ¿Cómo las calculamos? Por ejemplo, si tenemos una carga de <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>10</m:mn><m:mtext> nC</m:mtext></m:mrow></m:math> en el origen, ¿cuáles son las superficies equipotenciales en las que el potencial es (a) 100 V, (b) 50 V, (c) 20 V y (d) 10 V?</para>
+<para id="fs-id1167585861987"><title>Estrategia</title>
+Establezca la ecuación del potencial de una carga puntual igual a una constante y resuelva el resto de la(s) variable(s). A continuación, calcule los valores necesarios.</para>
+<para id="fs-id1167585999238"><title>Solución</title>
+En <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow></m:math>, sea <emphasis effect="italics">V</emphasis> una constante. La única variable que queda es <emphasis effect="italics">r</emphasis>; por lo tanto, <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mtext>constante</m:mtext></m:mrow></m:math>. Así, las superficies equipotenciales son esferas alrededor del origen. Sus ubicaciones son:</para>
+<list id="fs-id1167585848322" list-type="enumerated" number-style="lower-alpha">
+<item><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>Nm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,90</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;</item>
+<item><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>Nm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,8</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;</item>
+<item><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>Nm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;</item>
+<item><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>Nm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>9,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.</item>
+</list>
+<para id="fs-id1167586014191"><title>Importancia</title>
+Esto significa que las superficies equipotenciales alrededor de una carga puntual son esferas de radio constante, como se ha mostrado anteriormente, con localizaciones bien definidas.</para>
+</example>
+<example id="fs-id1167586006424">
+<para id="fs-id1167585753413"><title>Diferencia de potencial entre placas paralelas con carga opuesta</title>
+Dos grandes placas conductoras llevan cargas iguales y opuestas, con una densidad de carga superficial <m:math><m:mi>σ</m:mi></m:math> de magnitud <m:math><m:mrow><m:mn>6,81</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> como se muestra en la <link target-id="CNX_UPhysics_24_05_OppCharge"/>. La separación entre las placas es <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>6,50</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:math>. (a) ¿Cuál es el campo eléctrico entre las placas? (b) ¿Cuál es la diferencia de potencial entre las placas? (c) ¿Cuál es la distancia entre planos equipotenciales que difieren en 100 V?</para>
+<figure id="CNX_UPhysics_24_05_OppCharge">
+<media id="fs-id1167585789606" alt="La figura muestra dos placas paralelas con cargas opuestas, una positiva y otra negativa, y el campo eléctrico entre ellas. La distancia entre las placas es l.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_OppCharge.jpg"/>
+</media>
+<caption>El campo eléctrico entre placas paralelas con carga opuesta. Una parte se libera en la placa positiva.</caption>
+</figure>
+<para id="fs-id1167585854640"><title>Estrategia</title>
+(a) Como las placas se describen como "grandes" y la distancia entre ellas no lo es, aproximaremos cada una de ellas como un plano infinito y aplicaremos el resultado de la ley de Gauss del capítulo anterior.</para>
+<para id="fs-id1167585997083">(b) Utilice <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>V</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>l</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mrow></m:math>.</para>
+<para id="fs-id1167586017771">(c) Dado que el campo eléctrico es constante, halle la relación entre 100 V y la diferencia de potencial total; luego calcule esta fracción de la distancia.</para>
+<para id="fs-id1167586027014"><title>Solución</title></para>
+<list id="fs-id1167585867837" list-type="enumerated" number-style="lower-alpha">
+<item>El campo eléctrico se dirige desde la placa positiva a la negativa como se muestra en la figura, y su magnitud viene dada por
+<equation id="fs-id1167585925359" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6,81</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7,69</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>Para calcular la diferencia de potencial <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math> entre las placas, utilizamos un camino desde la placa negativa a la positiva que está dirigido contra el campo. El vector de desplazamiento <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>l</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> y el campo eléctrico <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> son antiparalelos por lo que <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>l</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>E</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math> La diferencia de potencial entre las placas positiva y la negativa es entonces 
+<equation id="fs-id1167586016211" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mi>E</m:mi><m:mo>·</m:mo><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7,69</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>La diferencia de potencial total es de 500 V, por lo que 1/5 de la distancia entre las placas será la distancia entre diferencias de potencial de 100 V. La distancia entre las placas es de 6,5 mm, por lo que habrá 1,3 mm entre diferencias de potencial de 100 V.</item>
+</list>
+<para id="fs-id1167586011879"><title>Importancia</title>
+Ahora ha visto un cálculo numérico de las localizaciones de los equipotenciales entre dos placas paralelas cargadas.</para>
+</example>
+<note id="fs-id1167586028857" class="check-understanding">
+<exercise id="fs-id1167585868409">
+<problem id="fs-id1167586182465">
+<para id="fs-id1167585980304"><emphasis effect="bold">Compruebe lo aprendido</emphasis> ¿Cuáles son las superficies equipotenciales para una carga lineal infinita?</para>
+</problem>
+<solution id="fs-id1167586177968">
+<para id="fs-id1167585862296">cilindros infinitos de radio constante, con la línea de carga como eje</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167586024048">
+<title>Distribución de las cargas en los conductores</title>
+<para id="fs-id1167585925376">En el <link target-id="fs-id1167585838718"/> con una carga puntual, encontramos que las superficies equipotenciales tenían forma de esferas, con la carga puntual en el centro. Dado que una esfera conductora en equilibrio electroestático es una superficie equipotencial esférica, deberíamos esperar que pudiéramos sustituir una de las superficies en el <link target-id="fs-id1167585838718"/> por una esfera conductora y tener una solución idéntica fuera de la esfera. Sin embargo, el interior será bastante diferente.</para>
+<figure id="CNX_UPhysics_24_05_Isolate">
+<media id="fs-id1167585807844" alt="La figura muestra la superficie gaussiana de radio r para una esfera cargada positivamente de radio R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Isolate-ccd3.jpg"/>
+</media>
+<caption>Una esfera conductora aislada.</caption>
+</figure>
+<para id="fs-id1167585949431">Para investigar esto, considere la esfera conductora aislada de la <link target-id="CNX_UPhysics_24_05_Isolate"/> que tiene un radio <emphasis effect="italics">R</emphasis> y un exceso de carga <emphasis effect="italics">q</emphasis>. Para hallar el campo eléctrico tanto dentro como fuera de la esfera, hay que tener en cuenta que la esfera está aislada, por lo que su distribución de cambios en la superficie y el campo eléctrico de esa distribución son esféricamente simétricos. Por lo tanto, podemos representar el campo como <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Para calcular <emphasis effect="italics">E(r)</emphasis>, aplicamos la ley de Gauss sobre una superficie esférica cerrada <emphasis effect="italics">S</emphasis> de radio <emphasis effect="italics">r</emphasis> que es concéntrica con la esfera conductora. Dado que <emphasis effect="italics">r</emphasis> es constante y <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> en la esfera,</para>
+<equation id="fs-id1167585949066" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∮</m:mo><m:mi>S</m:mi></m:munder><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mspace width="0.2em"/><m:mrow><m:mi>d</m:mi><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167586046500">Para <m:math><m:mrow><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mo>&lt;</m:mo><m:mspace width="0.2em"/><m:mi>R</m:mi></m:mrow></m:math>, <emphasis effect="italics">S</emphasis> está dentro del conductor, por lo que recordemos de nuestro estudio anterior de la ley de Gauss que <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> y la ley de Gauss da <m:math><m:mrow><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo><m:mi>r</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, como se espera dentro de un conductor en equilibrio. Si <m:math><m:mrow><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mo>&gt;</m:mo><m:mspace width="0.2em"/><m:mi>R</m:mi></m:mrow></m:math>, <emphasis effect="italics">S</emphasis> encierra el conductor de manera que <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>q</m:mi><m:mo>.</m:mo></m:mrow></m:math> De la ley de Gauss,</para>
+<equation id="fs-id1167585991886" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mi>q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585954486">Por lo tanto, el campo eléctrico de la esfera puede escribirse como</para>
+<equation id="fs-id1167585858007" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167586018969">Como se esperaba, en la región <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> el campo eléctrico debido a una carga <emphasis effect="italics">q</emphasis> situada en una esfera conductora aislada de radio <emphasis effect="italics">R</emphasis> es idéntico al campo eléctrico de una carga puntual <emphasis effect="italics">q</emphasis> situada en el centro de la esfera.</para>
+<para id="fs-id1167586017319">Para hallar el potencial eléctrico dentro y fuera de la esfera, observe que para <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> el potencial debe ser el mismo que el de una carga puntual aislada <emphasis effect="italics">q</emphasis> situada en <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>,</para>
+<equation id="fs-id1167586181446" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation><para id="fs-id1167586179684">simplemente debido a la similitud del campo eléctrico.</para>
+<para id="fs-id1167586179494">Para <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi><m:mo>,</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> por lo que <emphasis effect="italics">V</emphasis>(<emphasis effect="italics">r</emphasis>) es constante en esta región. Dado que <m:math><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>q</m:mi><m:mtext>/</m:mtext><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167586218186" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mi>R</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1167585999969">Utilizaremos este resultado para demostrar que</para>
+<equation id="fs-id1167585920762" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167586021931">para dos esferas conductoras de radios <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, con densidades de carga superficial <m:math><m:mrow><m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> respectivamente, que están conectadas por un cable fino, como se muestra en la <link target-id="CNX_UPhysics_24_05_WireSphers"/>. Las esferas están suficientemente separadas para que cada una pueda ser tratada como si estuviera aislada (aparte del cable). Observe que la conexión por el cable significa que todo este sistema debe ser equipotencial.</para>
+<figure id="CNX_UPhysics_24_05_WireSphers">
+<media id="fs-id1167585948845" alt="La figura muestra dos esferas cargadas positivamente con radios R subíndice 1 y R subíndice 2. Las esferas están alejadas una de la otra y conectadas por un cable.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_WireSphers.jpg"/>
+</media>
+<caption>Dos esferas conductoras están conectadas por un fino cable conductor.</caption>
+</figure>
+<para id="fs-id1167586044908">Acabamos de ver que el potencial eléctrico en la superficie de una esfera conductora aislada y cargada de radio <emphasis effect="italics">R</emphasis> es</para>
+<equation id="fs-id1167586056055" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1167585953619">Ahora, las esferas están conectadas por un conductor y en consecuencia están al mismo potencial; por lo tanto</para>
+<equation id="fs-id1167585998303" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1167586043002">y</para>
+<equation id="fs-id1167586038114" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167586008838">La carga neta de una esfera conductora y su densidad de carga superficial están relacionadas por <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Sustituyendo esta ecuación en la anterior, hallamos que</para>
+<equation id="fs-id1167585926987" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167586180840">Evidentemente, dos esferas conectadas por un cable fino no constituyen un conductor típico con un radio de curvatura variable. Sin embargo, este resultado proporciona al menos una idea cualitativa de cómo varía la densidad de carga en la superficie de un conductor. La ecuación indica que donde el radio de curvatura es grande (puntos <emphasis effect="italics">B</emphasis> y <emphasis effect="italics">D</emphasis> en la <link target-id="CNX_UPhysics_24_05_Radii"/>), <m:math><m:mrow><m:mi>σ</m:mi></m:mrow></m:math> y <emphasis effect="italics">E</emphasis> son pequeños.</para>
+<para id="fs-id1167586218885">Del mismo modo, las cargas tienden a ser más densas allí donde la curvatura de la superficie es mayor, como demuestra la distribución de cargas en el metal de forma extraña (<link target-id="CNX_UPhysics_24_05_Radii"/>). La densidad de carga superficial es mayor en los lugares con un radio de curvatura pequeño que en los lugares con un radio de curvatura grande.</para>
+<figure id="CNX_UPhysics_24_05_Radii">
+<media id="fs-id1167585988566" alt="La figura muestra las densidades de carga eléctrica son diferentes regiones de una superficie asimétrica.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Radii.jpg"/>
+</media>
+<caption>La densidad de carga superficial y el campo eléctrico de un conductor son mayores en las regiones con radios de curvatura más pequeños.</caption>
+</figure>
+<para id="fs-id1167586045100">Una aplicación práctica de este fenómeno es el <term class="no-emphasis">pararrayos</term>, que no es más que una barra de metal conectada a tierra con un extremo afilado que apunta hacia arriba. Como la carga positiva se acumula en el suelo debido a una nube cargada negativamente en lo alto, el campo eléctrico alrededor del punto agudo se hace muy grande. Cuando el campo alcanza un valor de aproximadamente <m:math><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/C</m:mtext></m:mrow></m:math> (la <term class="no-emphasis"><emphasis effect="italics">resistencia dieléctrica</emphasis></term> del aire), los iones libres del aire se aceleran hasta alcanzar energías tan altas que sus colisiones con las moléculas de aire realmente ionizan las moléculas. Los electrones libres resultantes en el aire fluyen entonces a través de la varilla hacia la Tierra, neutralizando así parte de la carga positiva. Esto evita que el campo eléctrico entre la nube y el suelo sea lo suficientemente grande como para producir un rayo en la región que rodea al pararrayos.</para>
+<para id="fs-id1167586181315">Una importante aplicación de los campos eléctricos y las líneas equipotenciales es el corazón. El corazón depende de las señales eléctricas para mantener su ritmo. El movimiento de las señales eléctricas hace que las cámaras del corazón se contraigan y se relajen. Cuando una persona sufre un infarto, el movimiento de estas señales eléctricas puede verse alterado. Se puede utilizar un marcapasos artificial y un desfibrilador para iniciar el ritmo de las señales eléctricas. Las líneas equipotenciales alrededor del corazón, su eje y la región torácica son formas útiles de controlar la estructura y las funciones del corazón. Un electrocardiograma (ECG) mide las pequeñas señales eléctricas que se generan durante la actividad del corazón.</para>
+<note id="fs-id1167585868736" class="media-2">
+<para id="fs-id1167585954412">Juegue con esta <link url="https://openstax.org/l/21pointcharsim">simulación</link> para mover cargas puntuales en el campo de juego y luego ver el campo eléctrico, los voltajes, las líneas equipotenciales y mucho más.</para>
+</note>
+</section>
+<section id="fs-id1167585999074" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167585955964" list-type="bulleted" bullet-style="bullet">
+<item>Una superficie equipotencial es el conjunto de puntos en el espacio que están todos al mismo potencial. Las líneas equipotenciales son la representación bidimensional de las superficies equipotenciales.</item>
+<item>Las superficies equipotenciales son siempre perpendiculares a las líneas de campo eléctrico.</item>
+<item>Los conductores en equilibrio estático son superficies equipotenciales.</item>
+<item>Se puede considerar que los mapas topográficos muestran las líneas equipotenciales gravitacionales.</item>
+</list>
+</section>
+<section id="fs-id1167585806394" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167585953699">
+<problem id="fs-id1167585953701">
+<para id="fs-id1167586054470">Si dos puntos están al mismo potencial, ¿existen líneas de campo eléctrico que los conecten?</para>
+</problem>
+<solution id="fs-id1167586056340">
+<para id="fs-id1167586056342">no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585956835">
+<problem id="fs-id1167585956837">
+<para id="fs-id1167586017325">Supongamos que tiene un mapa de superficies equipotenciales separadas por 1,0 V. ¿Qué le dicen las distancias entre las superficies de una región determinada sobre la fuerza de <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> en esa región?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167586056196">
+<problem id="fs-id1167586056198">
+<para id="fs-id1167586020641">¿El potencial eléctrico es necesariamente constante sobre la superficie de un conductor?</para>
+</problem>
+<solution id="fs-id1167586176559">
+<para id="fs-id1167586176562">No; podría no estar en equilibrio electroestático.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586027681">
+<problem id="fs-id1167585925581">
+<para id="fs-id1167585925583">En condiciones electroestáticas, el exceso de carga de un conductor reside en su superficie. ¿Esto significa que todos los electrones de conducción de un conductor están en la superficie?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167586014416">
+<problem id="fs-id1167585994905">
+<para id="fs-id1167585994907">¿Un conductor con carga positiva puede estar a un potencial negativo? Explique.</para>
+</problem>
+<solution id="fs-id1167586054679">
+<para id="fs-id1167585969580">Sí. Depende de dónde esté la referencia cero del potencial. (Aunque esto podría ser inusual).</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585995214">
+<problem id="fs-id1167586014331">
+<para id="fs-id1167586014334">¿Las superficies equipotenciales pueden intersecarse?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167585970051" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167586006001">
+<problem id="fs-id1167586010986">
+<para id="fs-id1167586010989">Se colocan dos placas de metal muy grandes a 2,0 cm de distancia, con una diferencia de potencial de 12 V entre ellas. Considere que una de las placas está a 12 V y la otra a 0 V. (a) Dibuje las superficies equipotenciales para 0, 4, 8 y 12 V. (b) A continuación, dibuje algunas líneas de campo eléctrico y confirme que son perpendiculares a las líneas equipotenciales.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585999037">
+<problem id="fs-id1167585999039">
+<para id="fs-id1167585983317">A una lámina muy grande de material aislante se le colocó un exceso de electrones hasta alcanzar una densidad de carga superficial de <m:math><m:mrow><m:mn>–3,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>nC/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. (a) A medida que aumenta la distancia de la lámina, ¿el potencial aumenta o disminuye? ¿Puede explicar por qué sin cálculos? ¿Importa la ubicación de su punto de referencia? (b) ¿Cuál es la forma de las superficies equipotenciales? (c) ¿Cuál es el espacio entre las superficies que difieren en 1,00 V?</para>
+</problem>
+<solution id="fs-id1167586023085">
+<para id="fs-id1167585972858">a. aumenta; el campo eléctrico constante (negativo) tiene este efecto, el punto de referencia solo importa para la magnitud; b. son planos paralelos a la lámina; c. 0,006 m/V</para></solution>
+</exercise>
+<exercise id="fs-id1167586219588">
+<problem id="fs-id1167586017624">
+<para id="fs-id1167586017626">Una esfera de metal de radio 2,0 cm está cargada con <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>5,0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> que se extiende por la superficie de la esfera de manera uniforme. La esfera de metal se encuentra sobre un soporte aislado y está rodeada por una capa esférica metálica más grande, de radio interior 5,0 cm y exterior 6,0 cm. Ahora, una carga de <m:math><m:mrow><m:mn>−5,0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> se coloca en el interior de la capa esférica que se extiende uniformemente en la superficie interior de la capa. Si el potencial es cero en el infinito, ¿cuál es el potencial de (a) la capa esférica, (b) la esfera, (c) el espacio entre ambas, (d) el interior de la esfera y (e) el exterior de la capa?</para>
+<media id="fs-id1167586236035" alt="La figura muestra dos esferas concéntricas. La esfera interior tiene un radio de 2,0cm y una carga de 5,0µC. La esfera exterior es una capa con radio interior de 5,0cm y radio exterior de 6,0cm y carga -5,0µC.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Prob3_img-3a0a.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167585957783">
+<problem id="fs-id1167586014657">
+<para id="fs-id1167586014659">Dos grandes placas cargadas de densidad de carga <m:math><m:mrow><m:mtext>±</m:mtext><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> se enfrentan a una separación de 5,0 mm. (a) Calcule el potencial eléctrico en todas partes. (b) Un electrón se libera del reposo en la placa negativa, ¿con qué velocidad golpeará la placa positiva?</para>
+</problem>
+<solution id="fs-id1167586031887">
+<para id="fs-id1167586031889">a. del capítulo anterior, el campo eléctrico tiene magnitud <m:math><m:mrow><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math> en la región entre las placas y cero en el exterior; definiendo que la placa con carga negativa está en el origen y en el potencial cero, y que la placa con carga positiva está a <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:math> en la dirección <emphasis effect="italics">z</emphasis>, <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>1,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> por lo que el potencial es 0 para <m:math><m:mrow><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mn>1,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>z</m:mi><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> para <m:math><m:mrow><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>z</m:mi><m:mo>≤</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mm,</m:mtext><m:mspace width="0.2em"/><m:mn>1,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> para <m:math><m:mrow><m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mm;</m:mtext></m:mrow></m:math><newline/> b. <m:math><m:mrow><m:mi>q</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">→</m:mo><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>7,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586176637">
+<problem id="fs-id1167585985559">
+<para id="fs-id1167585985561">Un cilindro largo de aluminio de radio <emphasis effect="italics">R</emphasis> metros se carga de manera que tiene una carga uniforme por unidad de longitud en su superficie de <m:math><m:mi>λ</m:mi></m:math>.</para>
+<para id="fs-id1167585997773">(a) Calcule el campo eléctrico dentro y fuera del cilindro. (b) Calcule el potencial eléctrico dentro y fuera del cilindro. (c) Trace el campo eléctrico y el potencial eléctrico en función de la distancia al centro de la varilla.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167586016324">
+<problem id="fs-id1167586016326">
+<para id="fs-id1167586016328">Dos placas paralelas de 10 cm de lado reciben cargas iguales y opuestas de magnitud <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Las placas están separadas 1,5 mm. ¿Cuál es la diferencia de potencial entre las placas?</para>
+</problem>
+<solution id="fs-id1167585972843">
+<para id="fs-id1167585928039"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>85</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586176568">
+<problem id="fs-id1167586176570">
+<para id="fs-id1167585972884">La densidad de carga superficial en un tubo de metal largo y recto es <m:math><m:mi>σ</m:mi></m:math>. ¿Cuál es el potencial eléctrico fuera y dentro de la tubería? Supongamos que la tubería tiene un diámetro de 2<emphasis effect="italics">a</emphasis>.</para>
+<media id="fs-id1167586016524" alt="La figura muestra la densidad de carga superficial en un tubo de metal recto de longitud infinita.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Prob9_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167586038347">
+<problem id="fs-id1167586038349">
+<para id="fs-id1167585969268">Las capas esféricas conductoras concéntricas llevan cargas <emphasis effect="italics">Q</emphasis> y –<emphasis effect="italics">Q</emphasis>, respectivamente. La capa interior tiene un grosor insignificante. ¿Cuál es la diferencia de potencial entre las capas?</para>
+<media id="fs-id1167586013388" alt="La figura muestra dos esferas concéntricas. La esfera interior tiene radio a y carga Q. La esfera exterior es una capa con radio interior b y radio exterior c y carga –Q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Prob10_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167585926018">
+<para id="fs-id1167585917608">En la región <m:math><m:mrow><m:mi>a</m:mi><m:mo>≤</m:mo><m:mi>r</m:mi><m:mo>≤</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, y <emphasis effect="italics">E</emphasis> es cero en cualquier otra parte; por lo tanto, la diferencia de potencial es <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mi>Q</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167586030716">
+<problem id="fs-id1167586030718">
+<para id="fs-id1167586016815">A continuación se muestran dos capas esféricas concéntricas de espesores y radios insignificantes <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Las capas interior y exterior llevan cargas netas <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectivamente, donde ambas <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> son positivas. ¿Cuál es el potencial eléctrico en las regiones (a) <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> y (c) <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>?</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167586012959" alt="La figura muestra dos esferas concéntricas con radios R subíndice 1 y R subíndice 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_05_Prob11_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167586025674">
+<problem id="fs-id1167586025676">
+<para id="fs-id1167586025678">Un conductor cilíndrico macizo de radio <emphasis effect="italics">a</emphasis> está rodeado por una capa cilíndrica concéntrica de radio interior <emphasis effect="italics">b</emphasis>. El cilindro macizo y la capa llevan cargas <emphasis effect="italics">Q</emphasis> y –<emphasis effect="italics">Q</emphasis>, respectivamente. Suponiendo que la longitud <emphasis effect="italics">L</emphasis> de ambos conductores es mucho mayor que <emphasis effect="italics">a</emphasis> o <emphasis effect="italics">b</emphasis>, ¿cuál es la diferencia de potencial entre los dos conductores?</para>
+</problem>
+<solution id="fs-id1167586180822">
+<para id="fs-id1167586180824">De los resultados anteriores <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>k</m:mi><m:mi>λ</m:mi><m:mtext>dentro</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>s</m:mi><m:mi>P</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>s</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math>, observe que <emphasis effect="italics">b</emphasis> es un lugar muy conveniente para definir el nivel cero de potencial <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>k</m:mi><m:mfrac><m:mi>Q</m:mi><m:mi>L</m:mi></m:mfrac><m:mtext>dentro</m:mtext><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167586056148">
+<term>línea equipotencial</term>
+<meaning id="fs-id1167585987855">representación bidimensional de una superficie equipotencial</meaning>
+</definition>
+<definition id="fs-id1167585927858">
+<term>superficie equipotencial</term>
+<meaning id="fs-id1167585927864">superficie (normalmente en tres dimensiones) en la que todos los puntos están al mismo potencial</meaning>
+</definition>
+<definition id="fs-id1167585986926">
+<term>puesta a tierra</term>
+<meaning id="fs-id1167586036610">proceso de fijación de un conductor a la tierra para garantizar que no haya diferencia de potencial entre este y la tierra</meaning>
+</definition>
+</glossary>
+
+</document>

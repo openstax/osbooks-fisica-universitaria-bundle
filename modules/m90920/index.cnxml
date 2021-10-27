@@ -1,0 +1,288 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Fuerza electromotriz (emf) de movimiento</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90920</md:content-id>
+  <md:title>Fuerza electromotriz (emf) de movimiento</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Determinar la magnitud de una emf inducida en un cable que se mueve a velocidad constante a través de un campo magnético.</item>
+<item>Discutir ejemplos que utilicen emf de movimiento, como un cañón de riel y un satélite atado.</item>
+</list></md:abstract>
+  <md:uuid>823b2409-0851-4fc5-a16f-e10f134797f6</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171242093534">El flujo magnético depende de tres factores: la intensidad del campo magnético, la superficie por la que pasan las líneas de campo y la orientación del campo con la superficie. Si cualquiera de estas magnitudes varía, se produce la correspondiente variación del flujo magnético. Hasta ahora, solo hemos considerado los cambios de flujo debidos a un campo cambiante. Ahora vemos otra posibilidad: un área cambiante a través de la cual pasan las líneas de campo, incluyendo un cambio en la orientación del área.</para>
+<para id="fs-id1171242557538">Dos ejemplos de este tipo de cambio de flujo se representan en la <link target-id="CNX_UPhysics_30_03_FChanges"/>. En la parte (a), el flujo que atraviesa el bucle rectangular aumenta a medida que se adentra en el campo magnético, y en la parte (b), el flujo que atraviesa la bobina giratoria varía con el ángulo <m:math><m:mi>θ</m:mi></m:math>.</para>
+<figure id="CNX_UPhysics_30_03_FChanges">
+<media id="fs-id1171239846547" alt="La figura A muestra un bucle rectangular que se mueve en un campo magnético perpendicular. La figura B muestra un bucle cuadrado que gira en un campo magnético.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_03_FChanges.jpg"/>
+</media>
+<caption>(a) El flujo magnético cambia cuando un bucle se mueve en un campo magnético; (b) el flujo magnético cambia cuando un bucle gira en un campo magnético.</caption>
+</figure>
+<para id="fs-id1171242317700">Es interesante observar que lo que percibimos como causa de un cambio de flujo concreto depende en realidad del marco de referencia que elijamos. Por ejemplo, si usted está en reposo con respecto a las bobinas en movimiento de la <link target-id="CNX_UPhysics_30_03_FChanges"/>, vería que el flujo varía debido a un campo magnético cambiante: en la parte (a), el campo se mueve de izquierda a derecha en su marco de referencia, y en la parte (b), el campo está girando. A menudo es posible describir un cambio de flujo a través de una bobina que se mueve en un marco de referencia particular en términos de un campo magnético cambiante en un segundo marco, donde la bobina es estacionaria. Sin embargo, las cuestiones del marco de referencia relacionadas con el flujo magnético están más allá del nivel de este libro de texto. Evitaremos estas complejidades trabajando siempre en un marco en reposo relativo al laboratorio y explicaremos las variaciones de flujo como debidas a un cambio de campo o a un cambio de área.</para>
+<para id="fs-id1171242414386">Ahora veamos una varilla conductora arrastrada en un circuito, cambiando el flujo magnético. El área encerrada por el circuito 'MNOP' de la <link target-id="CNX_UPhysics_30_03_Velocity"/> es <emphasis effect="italics">lx</emphasis> y es perpendicular al campo magnético, por lo que podemos simplificar la integración de la <link target-id="fs-id1171240989377" document="m90918"/> en una multiplicación de campo magnético y área. Por lo tanto, el flujo magnético que atraviesa la superficie abierta es</para>
+<equation id="fs-id1171242380462"><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242186242">Como <emphasis effect="italics">B</emphasis> y <emphasis effect="italics">l</emphasis> son constantes y la velocidad de la varilla es <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>x</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> ahora podemos replantear la ley de Faraday, la <link target-id="fs-id1171241192361" document="m90918"/>, para la magnitud de la emf en términos de la varilla conductora en movimiento como</para>
+<note id="fs-id1171242270216" class="equation-callout">
+<equation id="fs-id1171242460654"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171242136593">La corriente inducida en el circuito es la emf dividida entre la resistencia o</para>
+<equation id="fs-id1171242098325" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242381510">Además, la dirección de la emf inducida satisface la ley de Lenz, como se puede comprobar al inspeccionar la figura.</para>
+<para id="fs-id1171239847932">Este cálculo de la emf inducida por el movimiento no se limita a una varilla que se mueve sobre rieles conductores. Con <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>q</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> como punto de partida, se puede demostrar que <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math> es válido para cualquier cambio de flujo causado por el movimiento de un conductor. Hemos visto en la <link document="m90918">ley de Faraday</link> que la emf inducida por un campo magnético que varía en el tiempo obedece a esta misma relación, que es la ley de Faraday. Por lo tanto, la ley de Faraday <emphasis effect="italics">es válida para todos los cambios de flujo</emphasis>, ya sean producidos por un campo magnético cambiante, por el movimiento o por una combinación de ambos.</para>
+<figure id="CNX_UPhysics_30_03_Velocity">
+<media id="fs-id1171242137601" alt="La figura muestra una varilla conductora que es empujada hacia la derecha a través del campo magnético perpendicular a la velocidad constante. El cambio resultante en el flujo magnético induce una corriente en el circuito.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_03_Velocity.jpg"/>
+</media>
+<caption>Una varilla conductora es empujada hacia la derecha a velocidad constante. El cambio resultante en el flujo magnético induce una corriente en el circuito.</caption>
+</figure>
+<para id="fs-id1171242382610">Desde el punto de vista energético, <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>a</m:mi></m:msub></m:mrow></m:math> produce una potencia <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>a</m:mi></m:msub><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> y el resistor disipa potencia <m:math><m:mrow><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow></m:math>. Como la varilla se mueve a velocidad constante, la fuerza aplicada <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>a</m:mi></m:msub></m:mrow></m:math> debe equilibrar la fuerza magnética <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>l</m:mi><m:mi>B</m:mi></m:mrow></m:math> en la varilla cuando esta lleva la corriente inducida <emphasis effect="italics">I</emphasis>. Así, la potencia producida es</para>
+<equation id="fs-id1171242334164"><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>a</m:mi></m:msub><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>l</m:mi><m:mi>B</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>·</m:mo><m:mi>l</m:mi><m:mi>B</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>l</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242347195">La potencia disipada es</para>
+<equation id="fs-id1171242415681"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>l</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171239839032">Al cumplir el principio de conservación de energía, las potencias producidas y disipadas son iguales.</para>
+<para id="fs-id1171242149511">Este principio puede verse en el funcionamiento de un cañón de riel. Un <term class="no-emphasis">cañón de riel</term> es un lanzador electromagnético de proyectiles que utiliza un aparato similar a la <link target-id="CNX_UPhysics_30_03_Velocity"/> y que se muestra de forma esquemática en la <link target-id="CNX_UPhysics_30_03_Railgun"/>. La varilla conductora se sustituye por un proyectil o un arma para disparar. Hasta ahora, solo hemos oído hablar de cómo el movimiento provoca una emf. En un cañón de riel, la desconexión/reducción óptima de un campo magnético disminuye el flujo entre los rieles, haciendo que fluya una corriente en la varilla (armazón) que sostiene el proyectil. Esta corriente a través del armazón experimenta una fuerza magnética y es impulsada hacia adelante. Sin embargo, los cañones de riel no se utilizan mucho en el ejército debido al alto costo de producción y a las altas corrientes: Se necesita casi un millón de amperios para producir suficiente energía para que un cañón de riel sea un arma eficaz.</para>
+<figure id="CNX_UPhysics_30_03_Railgun">
+<media id="fs-id1171242609595" alt="La figura muestra un dibujo esquemático del cañón de riel. Se coloca un armazón entre dos carriles de carga opuesta. Las corrientes en los rieles generan el campo magnético e interactúa con la corriente en el armazón, generando la fuerza.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_03_Railgun.jpg"/>
+</media>
+<caption>La corriente a través de dos rieles impulsa un proyectil conductor hacia adelante por la fuerza magnética creada.</caption>
+</figure>
+<para id="fs-id1171242264120">Podemos calcular una <term>emf inducida de movimiento</term> con la ley de Faraday <emphasis effect="italics">incluso cuando no hay un circuito cerrado real</emphasis>. Simplemente imaginamos una zona cerrada cuyo límite incluye el conductor en movimiento, calculamos <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> y luego hallamos la emf a partir de la ley de Faraday. Por ejemplo, podemos dejar que la varilla móvil de la <link target-id="CNX_UPhysics_30_03_Imaginary"/> sea un lado del área rectangular imaginaria representada por las líneas discontinuas. El área del rectángulo es <emphasis effect="italics">lx</emphasis>, por lo que el flujo magnético que lo atraviesa es <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math> Al diferenciar esta ecuación, obtenemos</para>
+<equation id="fs-id1171242172015"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242350736">que es idéntica a la diferencia de potencial entre los extremos de la varilla que determinamos anteriormente.</para>
+<figure id="CNX_UPhysics_30_03_Imaginary">
+<media id="fs-id1171239837284" alt="La figura muestra una varilla conductora de longitud l que es empujada hacia la derecha a una distancia x a través del campo magnético perpendicular a la velocidad constante.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_03_Imaginary.jpg"/>
+</media>
+<caption>Con el rectángulo imaginario mostrado podemos utilizar la ley de Faraday para calcular la emf inducida en la varilla en movimiento.</caption>
+</figure>
+<para id="fs-id1171242163090">Las emf de movimiento en el débil campo magnético de la Tierra no suelen ser muy grandes, o notaríamos voltaje a lo largo de varillas de metal, como un destornillador, durante los movimientos ordinarios. Por ejemplo, un simple cálculo de la emf de movimiento de una varilla de 1,0 m que se mueve a 3,0 m/s perpendicularmente al campo terrestre da</para>
+<equation id="fs-id1171242179936" class="unnumbered"><label/><m:math><m:mrow><m:mtext>emf</m:mtext><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>μ</m:mi><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242180791">Este pequeño valor es coherente con la experiencia. Sin embargo, hay una excepción espectacular. En 1992 y 1996, se intentó crear grandes emf de movimiento con el transbordador espacial. El satélite atado debía salir por un cable de 20 km de longitud, como se muestra en la <link target-id="CNX_UPhysics_30_03_EmfShuttle"/>, para crear una emf de 5 kV al moverse a rapidez orbital a través del campo terrestre. Esta emf podría utilizarse para convertir parte de la energía cinética y potencial del transbordador en energía eléctrica si se pudiera realizar un circuito completo. Para completar el circuito, la ionósfera estacionaria debía suministrar una vía de retorno por la que pudiera circular la corriente (La ionósfera es la atmósfera enrarecida y parcialmente ionizada en las altitudes orbitales. Tiene conducción debido a la ionización. La ionósfera cumple la misma función que los rieles fijos y el resistor de conexión en la <link target-id="CNX_UPhysics_30_03_Railgun"/>, sin los cuales no habría un circuito completo). El arrastre de la corriente en el cable debido a la fuerza magnética <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>ℓ</m:mi><m:mi>B</m:mi><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> realiza el trabajo que reduce la energía cinética y potencial del transbordador, y permite convertirla en energía eléctrica. Ambas pruebas fueron infructuosas. En la primera, el cable se colgó y solo pudo extenderse un par de cientos de metros; en la segunda, el cable se rompió cuando estaba casi completamente extendido. La <link target-id="fs-id1171242078220"/> indica la viabilidad en principio.</para>
+<figure id="CNX_UPhysics_30_03_EmfShuttle">
+<media id="fs-id1171242144022" alt="La figura es un dibujo esquemático que muestra un satélite atado que se lanza y regresa al transbordador espacial mientras se mueve a través del campo magnético de la Tierra.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_03_EmfShuttle.jpg"/>
+</media>
+<caption>La emf de movimiento como conversión de potencia eléctrica para el transbordador espacial fue la motivación para el experimento del satélite atado. Se predijo que se induciría una emf de 5 kV en el cable de 20 km mientras se movía a rapidez orbital en el campo magnético de la Tierra. El circuito se completa con una vía de retorno a través de la ionósfera estacionaria.</caption>
+</figure>
+<example id="fs-id1171242078220">
+<para id="fs-id1171242140509"><title>Cálculo de la gran emf de movimiento de un objeto en órbita</title>
+Calcule la emf de movimiento inducida a lo largo de un conductor de 20,0 km que se mueve a una rapidez orbital de 7,80 km/s perpendicular al campo magnético de <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:math> de la Tierra.</para>
+<para id="fs-id1171242151352"><title>Estrategia</title>
+Este es un gran ejemplo del uso de la ecuación de movimiento <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1171242396317"><title>Solución</title>
+Al introducir los valores dados en <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi></m:mrow></m:math> se obtiene</para>
+<equation id="fs-id1171242230988" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>ℓ</m:mi><m:mi>v</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7,80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>7,80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171242519066"><title>Importancia</title>
+El valor obtenido es mayor que el voltaje medido de 5 kV para el experimento del transbordador, ya que el movimiento orbital real de la atadura no es perpendicular al campo terrestre. El valor de 7,80 kV es la máxima emf obtenida cuando <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> y así <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</example>
+<example id="fs-id1171242110066">
+<para id="fs-id1171242512170"><title>Una varilla de metal que gira en un campo magnético</title>
+La parte (a) de la <link target-id="CNX_UPhysics_30_03_Metal"/> muestra una varilla de metal <emphasis effect="italics">OS</emphasis> que está girando en un plano horizontal alrededor del punto <emphasis effect="italics">O</emphasis>. La varilla se desliza a lo largo de un cable que forma un arco circular <emphasis effect="italics">PST</emphasis> de radio <emphasis effect="italics">r</emphasis>. El sistema está en un campo magnético constante <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> que se dirige hacia fuera de la página. (a) Si se hace girar la varilla con una velocidad angular constante <m:math><m:mi>ω</m:mi></m:math>, ¿cuál es la corriente <emphasis effect="italics">I</emphasis> en el bucle cerrado <emphasis effect="italics">OPSO</emphasis>? Suponga que el resistor <emphasis effect="italics">R</emphasis> proporciona toda la resistencia en el bucle cerrado. (b) Calcule el trabajo por unidad de tiempo que realiza al girar la varilla y demuestre que es igual a la potencia disipada en el resistor.</para>
+<figure id="CNX_UPhysics_30_03_Metal">
+<media id="fs-id1171242347477" alt="La figura A muestra el extremo de una varilla de metal que gira y se desliza a lo largo de un cable circular en un plano horizontal. El campo magnético uniforme es perpendicular a la varilla. La figura B visualiza la corriente inducida por la varilla. La figura C visualiza la fuerza magnética sobre un segmento de corriente infinitesimal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_03_Metal.jpg"/>
+</media>
+<caption>(a) El extremo de una varilla de metal que gira se desliza a lo largo de un cable circular en un plano horizontal. (b) La corriente inducida en la varilla. (c) La fuerza magnética sobre un segmento de corriente infinitesimal.</caption>
+</figure>
+<para id="fs-id1171239846458"><title>Estrategia</title>
+El flujo magnético es el campo magnético por el área del cuarto de círculo o <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Al calcular la emf a través de la ley de Faraday, todas las variables son constantes en el tiempo menos <m:math><m:mi>θ</m:mi></m:math>, con<m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>θ</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math> Para calcular el trabajo por unidad de tiempo, sabemos que este está relacionado con el torque por la velocidad angular. El torque se calcula conociendo la fuerza sobre una varilla e integrándola sobre la longitud de la misma.</para>
+<para id="fs-id1171242137983"><title>Solución</title></para>
+<list id="fs-id1171242352143" list-type="enumerated" number-style="lower-alpha">
+<item>A partir de la geometría, el área del bucle <emphasis effect="italics">OPSO</emphasis> es <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, el flujo magnético que atraviesa el bucle es
+<equation id="fs-id1171242145295" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Al diferenciar con respecto al tiempo y al utilizar <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>θ</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> tenemos
+<equation id="fs-id1171242237750" class="unnumbered"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>B</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>ω</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Si se divide entre la resistencia <emphasis effect="italics">R</emphasis> del bucle, se obtiene para la magnitud de la corriente inducida
+<equation id="fs-id1171242370322" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>B</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>ω</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Como <m:math><m:mi>θ</m:mi></m:math> aumenta, también lo hace el flujo a través del bucle debido a <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Para contrarrestar este aumento, el campo magnético debido a la corriente inducida debe dirigirse hacia la página en la región encerrada por el bucle. Por lo tanto, como ilustra la parte (b) de la <link target-id="CNX_UPhysics_30_03_Metal"/>, la corriente circula en el sentido de las agujas del reloj.</item>
+<item>Se hace girar la varilla ejerciendo un torque sobre ella. Como la varilla gira a velocidad angular constante, este torque es igual y opuesto al ejercido sobre la corriente en la varilla por el campo magnético original. La fuerza magnética sobre el segmento infinitesimal de longitud <emphasis effect="italics">dx</emphasis> mostrado en la parte (c) de la <link target-id="CNX_UPhysics_30_03_Metal"/> es <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>F</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> por lo que el torque magnético en este segmento es
+<equation id="fs-id1171242505215" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>τ</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>d</m:mi><m:msub><m:mi>F</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>x</m:mi><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+El torque magnético neto sobre la varilla es entonces
+<equation id="fs-id1171242540033" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>r</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:msub><m:mi>τ</m:mi><m:mtext>m</m:mtext></m:msub></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>B</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>r</m:mi></m:msubsup><m:mrow><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mi>I</m:mi><m:mi>B</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+El torque <m:math><m:mi>τ</m:mi></m:math> que ejerce sobre la varilla es igual y opuesto a <m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> y el trabajo que se realiza cuando la varilla gira por un ángulo <m:math><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math> es <m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>τ</m:mi><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, el trabajo por unidad de tiempo que realiza en la varilla es
+<equation id="fs-id1171242520650" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>τ</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:mi>B</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>B</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>ω</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>B</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde hemos sustituido <emphasis effect="italics">I</emphasis>. La potencia disipada en el resistor es <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow></m:math>, que puede escribirse como
+<equation id="fs-id1171242119253" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>B</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>ω</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Por lo tanto, vemos que
+<equation id="fs-id1171242524803" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Por lo tanto, la potencia disipada en el resistor es igual al trabajo por unidad de tiempo realizado en el giro de la varilla.</item>
+</list>
+<para id="fs-id1171242182715"><title>Importancia</title>
+Una forma alternativa de ver la emf inducida a partir de la ley de Faraday es integrar en el espacio en vez de en el tiempo. La solución, sin embargo, sería la misma. La emf de movimiento es</para>
+<equation id="fs-id1171242548962" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>ε</m:mi><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mi>B</m:mi><m:mi>v</m:mi><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171239850468">La velocidad puede escribirse como la velocidad angular por el radio y la longitud diferencial escrita como <emphasis effect="italics">dr</emphasis>. Por lo tanto,</para>
+<equation id="fs-id1171242207519" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>ε</m:mi><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>B</m:mi><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mi>v</m:mi><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>ω</m:mi><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>l</m:mi></m:munderover><m:mrow><m:mi>r</m:mi><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>B</m:mi><m:mi>ω</m:mi><m:msup><m:mi>l</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242192871">que es la misma solución anterior.</para>
+</example>
+<example id="fs-id1171242083031">
+<para id="fs-id1171242455192"><title>Una bobina rectangular que gira en un campo magnético</title>
+Una bobina rectangular de área <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">N</emphasis> vueltas se coloca en un campo magnético uniforme <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> como se muestra en la <link target-id="CNX_UPhysics_30_03_UField"/>. La bobina gira alrededor del eje <emphasis effect="italics">z</emphasis> por su centro con una velocidad angular constante <m:math><m:mrow><m:mi>ω</m:mi><m:mo>.</m:mo></m:mrow></m:math> Obtenga una expresión para la emf inducida en la bobina.</para>
+<figure id="CNX_UPhysics_30_03_UField">
+<media id="fs-id1171242148530" alt="La figura muestra una bobina rectangular que gira en un campo magnético uniforme.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_03_UField.jpg"/>
+</media>
+<caption>Una bobina rectangular que gira en un campo magnético uniforme.</caption>
+</figure>
+<para id="fs-id1171242506850"><title>Estrategia</title>
+Según el diagrama, el ángulo entre la perpendicular a la superficie (<m:math><m:mrow><m:mover accent="true"><m:mi>n</m:mi><m:mo stretchy="true">^</m:mo></m:mover></m:mrow></m:math>) y el campo magnético <m:math><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo></m:math> es <m:math><m:mi>θ</m:mi></m:math>. El producto punto de <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> se simplifica a solo la componente <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> del campo magnético, es decir, donde el campo magnético se proyecta sobre el vector de superficie unitaria <m:math><m:mrow><m:mover accent="true"><m:mi>n</m:mi><m:mo stretchy="true">^</m:mo></m:mover></m:mrow></m:math>. La magnitud del campo magnético y el área del bucle son fijos en el tiempo, lo que hace que la integración se simplifique rápidamente. La emf inducida se escribe utilizando la ley de Faraday.</para>
+<para id="fs-id1171242513438"><title>Solución</title>
+Cuando la bobina está en una posición tal que su vector normal <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> hace un ángulo <m:math><m:mi>θ</m:mi></m:math> con el campo magnético <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> el flujo magnético a través de una sola vuelta de la bobina es</para>
+<equation id="fs-id1171242522550" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∫</m:mo><m:mi>S</m:mi></m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>A</m:mi><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242439760">A partir de la ley de Faraday la emf inducida en la bobina es</para>
+<equation id="fs-id1171242464264" class="unnumbered"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>N</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>B</m:mi><m:mi>A</m:mi><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242085540">La velocidad angular constante es <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>θ</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math> El ángulo <m:math><m:mi>θ</m:mi></m:math> representa la evolución temporal de la velocidad angular o <m:math><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:math>. Esto es cambia la función al espacio de tiempo en lugar de <m:math><m:mi>θ</m:mi></m:math>. Por lo tanto, la emf inducida varía sinusoidalmente con el tiempo según</para>
+<equation id="fs-id1171242408871" class="unnumbered"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242178910">donde <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>B</m:mi><m:mi>A</m:mi><m:mi>ω</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1171242542161"><title>Importancia</title>
+Si la intensidad del campo magnético o el área del bucle también cambiasen con el tiempo, estas variables no podrían extraerse de la derivada temporal para obtener simplemente la solución como se muestra. Este ejemplo es la base de un generador eléctrico, como veremos en <link document="m90638">Aplicaciones de la ley de Newton</link>.</para>
+</example>
+<note id="fs-id1171242566395" class="check-understanding">
+<exercise id="fs-id1171242186759">
+<problem id="fs-id1171242186761">
+<para id="fs-id1171242345814">A continuación se muestra una varilla de longitud <emphasis effect="italics">l</emphasis> que gira en sentido contrario a las agujas del reloj en torno al eje a través de <emphasis effect="italics">O</emphasis> por el torque debido a <m:math><m:mrow><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Suponiendo que la varilla está en un campo magnético uniforme <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>, ¿cuál es la emf inducida entre los extremos de la varilla cuando su velocidad angular es <m:math><m:mi>ω</m:mi></m:math>? ¿Qué extremo de la varilla tiene un potencial más alto?</para>
+<media id="fs-id1171242122308" alt="La figura muestra una varilla de longitud l que se encuentra en el campo magnético uniforme. La varilla gira en sentido contrario a las agujas del reloj alrededor del eje a través de O por el torque debido a mg.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_03_Rotate_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171242096359">
+<para id="fs-id1171242096362"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:msup><m:mi>l</m:mi><m:mn>2</m:mn></m:msup><m:mi>ω</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> con <emphasis effect="italics">O</emphasis> a un potencial más alto que <emphasis effect="italics">S</emphasis></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1171242440526" class="check-understanding">
+<exercise id="fs-id1171242440529">
+<problem id="fs-id1171242563387">
+<para id="fs-id1171242563390">Una varilla de 10 cm de longitud se mueve a una velocidad de 10 m/s perpendicularmente a través de un campo magnético de 1,5 T. ¿Cuál es la diferencia de potencial entre los extremos de la varilla?</para>
+</problem>
+<solution id="fs-id1171242534251">
+<para id="fs-id1171242155823">1,5 V</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1171242144811" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1171242541542" list-type="bulleted" bullet-style="bullet">
+<item>La relación entre una emf inducida <m:math><m:mi>ε</m:mi></m:math> en un cable que se mueve a velocidad constante <emphasis effect="italics">v</emphasis> a través de un campo magnético <emphasis effect="italics">B</emphasis> viene dado por <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Una emf inducida por la ley de Faraday se crea a partir de una emf de movimiento que se opone al cambio de flujo.</item>
+</list>
+</section>
+<section id="fs-id1171242179255" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1171242546942">
+<problem id="fs-id1171242168825">
+<para id="fs-id1171242168827">Una barra magnética cae bajo la influencia de la gravedad a lo largo del eje de un largo tubo de cobre. Si la resistencia del aire es insignificante, ¿habrá una fuerza que se oponga al descenso del imán? Si es así, ¿el imán alcanzará una velocidad terminal?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242377750">
+<problem id="fs-id1171242377752">
+<para id="fs-id1171242096897">Alrededor del Polo Norte geográfico (o del Polo Sur magnético), el campo magnético de la Tierra es casi vertical. Si un avión vuela hacia el norte en esta región, ¿qué lado del ala está cargado positivamente y cuál negativamente?</para>
+</problem>
+<solution id="fs-id1171242534953">
+<para id="fs-id1171242534956">Las cargas positivas en las alas estarían al oeste, o a la izquierda del piloto, mientras que las cargas negativas estarían al este o a la derecha del piloto. Así, las puntas de las alas de la izquierda serían positivas y las de la derecha negativas.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242087835">
+<problem id="fs-id1171242087838">
+<para id="fs-id1171242546043">Un bucle de alambre se desplaza por traslación (sin rotación) en un campo magnético uniforme. ¿Hay una fuerza automotriz inducida en el bucle?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1171242521367" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1171242499034">
+<problem id="fs-id1171242459639">
+<para id="fs-id1171242459641">Un automóvil con una antena de radio de 1,0 m de longitud viaja a 100,0 km/h en un lugar donde el campo magnético horizontal de la Tierra es <m:math><m:mrow><m:mn>5,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la máxima emf inducida posible en la antena debido a este movimiento?</para>
+</problem>
+<solution id="fs-id1171242381994">
+<para id="fs-id1171242381996">0,0015 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242515379">
+<problem id="fs-id1171242515381">
+<para id="fs-id1171242516395">El bucle rectangular de <emphasis effect="italics">N</emphasis> vueltas que se muestra a continuación se mueve hacia la derecha con una velocidad constante <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> al salir de los polos de un gran electroimán. (a) Suponiendo que el campo magnético es uniforme entre las caras de los polos e insignificante en el resto, determine la emf inducida en el bucle. (b) ¿Cuál es la fuente de trabajo que produce esta emf?</para>
+<media id="fs-id1171242567833" alt="La figura muestra el bucle rectangular (el lado corto tiene una longitud l, el lado largo tiene una longitud a) de N vueltas que se mueve hacia la derecha con una velocidad constante v mientras sale del campo magnético uniforme.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_17pr_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171242569918">
+<problem id="fs-id1171242154350">
+<para id="fs-id1171242154352">Supongamos que el campo magnético del problema anterior oscila con el tiempo según <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es entonces la emf inducida en el bucle cuando su lado de salida está a una distancia <emphasis effect="italics">d</emphasis> del borde derecho de la región del campo magnético?</para>
+</problem>
+<solution id="fs-id1171242361531">
+<para id="fs-id1171242157997"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mi>l</m:mi><m:mi>d</m:mi><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mo>(</m:mo><m:mtext>Ω</m:mtext><m:mi>t</m:mi><m:mo>)</m:mo><m:mtext>ld</m:mtext><m:mo>+</m:mo><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mtext>sen</m:mtext><m:mo>(</m:mo><m:mtext>Ω</m:mtext><m:mi>t</m:mi><m:mo>)</m:mo><m:mtext>lv</m:mtext> </m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1171242152341">
+<problem id="fs-id1171242186623">
+<para id="fs-id1171242186625">Una bobina de 1.000 vueltas encierra una superficie de <m:math><m:mrow><m:msup><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Se gira en 0,010 s desde una posición en la que su plano es perpendicular al campo magnético de la Tierra a otra en la que su plano es paralelo al campo. Si la fuerza del campo es <m:math><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>,</m:mo></m:mrow></m:math> ¿cuál es la emf inducida media en la bobina?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242084433">
+<problem id="fs-id1171242084435">
+<para id="fs-id1171242084437">En el circuito que se muestra en la figura adjunta, la varilla se desliza a lo largo de los rieles conductores con una velocidad constante <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> La velocidad está en el mismo plano que los rieles y dirigida en un ángulo <m:math><m:mi>θ</m:mi></m:math> a ellos. Un campo magnético uniforme <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> se dirige fuera de la página. ¿Cuál es la emf inducida en la varilla?</para>
+<media id="fs-id1171242355850" alt="La figura muestra la varilla que se desliza a lo largo de los rieles conductores a una velocidad constante v en un campo magnético perpendicular uniforme. La distancia entre los rieles es l. El ángulo entre la dirección del movimiento de la varilla y los rieles es theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_20pr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171242363237">
+<para id="fs-id1171242363239"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242187948">
+<problem id="fs-id1171242187950">
+<para id="fs-id1171242150912">La varilla mostrada en la figura adjunta se mueve a través de un campo magnético uniforme de intensidad <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:math> con una velocidad constante de magnitud <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la diferencia de potencial entre los extremos de la varilla? ¿Qué extremo de la varilla tiene un potencial más alto?</para>
+<media id="fs-id1171242423774" alt="La figura muestra la varilla de 5 cm de longitud que se mueve hacia la derecha con una velocidad constante v en un campo magnético perpendicular uniforme.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_21pr_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171242448381">
+<problem id="fs-id1171242358386">
+<para id="fs-id1171242358388">Una varilla de 25 cm se mueve a 5,0 m/s en un plano perpendicular a un campo magnético de intensidad 0,25 T. La varilla, el vector velocidad y el vector campo magnético son mutuamente perpendiculares, como se indica en la figura adjunta. Calcule (a) la fuerza magnética sobre un electrón en la varilla, (b) el campo eléctrico en la varilla y (c) la diferencia de potencial entre los extremos de la varilla. (d) ¿Cuál es la velocidad de la varilla si la diferencia de potencial es de 1,0 V?</para>
+<media id="fs-id1171242366368" alt="La figura muestra la varilla de 25 cm de longitud que se mueve hacia la derecha con una velocidad constante v en un campo magnético perpendicular uniforme.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_22pr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171242346484">
+<para id="fs-id1171242346486">a. <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mi>T</m:mi></m:mrow></m:math>; b. 1,25 V/m; c. 0,3125 V; d. 16 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242377251">
+<problem id="fs-id1171242377253">
+<para id="fs-id1171242377255">En la figura adjunta, los rieles, la pieza final de conexión y la varilla tienen una resistencia por unidad de longitud de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mtext>/</m:mtext><m:mtext>cm</m:mtext><m:mo>.</m:mo></m:mrow></m:math> La varilla se mueve hacia la izquierda a <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Si <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0,75</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:math> en toda la región, ¿cuál es la corriente en el circuito (a) cuando <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>?</m:mo></m:mrow></m:math> (b) ¿cuándo <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>?</m:mo></m:mrow></m:math> Especifique también el sentido del flujo de corriente.</para>
+<media id="fs-id1171242394832" alt="La figura muestra la varilla que se desliza hacia la izquierda a lo largo de los rieles conductores con una velocidad constante v en un campo magnético perpendicular uniforme. La distancia entre los rieles es de 4 cm. La varilla se mueve durante la distancia a.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_23pr_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171242353616">
+<problem id="fs-id1171242353618">
+<para id="fs-id1171242192987">La varilla que se muestra a continuación se desplaza hacia la derecha sobre rieles de resistencia esencialmente cero a una velocidad de <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Si <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0,75</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:math> en toda la región, ¿cuál es la corriente a través de un resistor de <m:math><m:mrow><m:mn>5,0</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>? ¿La corriente circula en el sentido de las agujas del reloj o en sentido contrario?</para>
+<media id="fs-id1171242441565" alt="La figura muestra la varilla que se desliza hacia la derecha a lo largo de los rieles conductores con una velocidad constante v en un campo magnético perpendicular uniforme. La distancia entre los rieles es de 4 cm. Los rieles se conectan a través del resistor de 5 ohmios.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_24pr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171242396083">
+<para id="fs-id1171242396085">0,018 A, en el sentido de las agujas del reloj como se ve en el diagrama</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242352106">
+<problem id="fs-id1171242366469">
+<para id="fs-id1171242366471">A continuación se muestra una varilla conductora que se desliza por unos rieles de metal. El aparato está en un campo magnético uniforme de fuerza 0,25 T, que está directamente en la página. La varilla es arrastrada hacia la derecha a una velocidad constante de 5,0 m/s por una fuerza <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> La única resistencia significativa en el circuito proviene del resistor de <m:math><m:mrow><m:mn>2,0</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> mostrado. (a) ¿Cuál es la emf inducida en el circuito? (b) ¿Cuál es la corriente inducida? ¿Circula en el sentido de las agujas del reloj o en sentido contrario? (c) ¿Cuál es la magnitud de <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>? (d) ¿Cuáles son las potencias de <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> y la potencia disipada en el resistor?</para>
+<media id="fs-id1171242446565" alt="La figura muestra la varilla que es arrastrada hacia la derecha a lo largo de los rieles conductores por la fuerza F en un campo magnético perpendicular uniforme. La distancia entre los rieles es de 4 cm. Los rieles se conectan a través del resistor de 2 ohmios.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_25pr_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171242514874">
+<term>emf inducida por el movimiento</term>
+<meaning id="fs-id1171242227579">voltaje producido por el movimiento de un alambre conductor en un campo magnético</meaning>
+</definition>
+</glossary>
+</document>

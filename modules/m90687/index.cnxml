@@ -1,0 +1,456 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>La teoría de la gravedad de Einstein</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90687</md:content-id>
+  <md:title>La teoría de la gravedad de Einstein</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir cómo la teoría de la relatividad general aborda la gravitación.</item>
+<item>Explicar el principio de equivalencia.</item>
+<item>Calcular el radio de Schwarzschild de un objeto.</item>
+<item>Resumir la evidencia de los agujeros negros.</item>
+</list></md:abstract>
+  <md:uuid>ca721f99-babe-4118-b47d-1755be0d7d4c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168325908946">La ley de la gravitación universal de Newton predice con exactitud gran parte de lo que vemos en nuestro sistema solar. De hecho, solo se han necesitado las leyes de Newton para enviar con precisión cada vehículo espacial en su viaje. Las trayectorias de los asteroides que cruzan la Tierra, y de la mayoría de los demás objetos celestes, se pueden determinar con precisión solamente con las leyes de Newton. Sin embargo, muchos fenómenos han mostrado una discrepancia con respecto a lo que predicen las leyes de Newton, lo que incluye la órbita de Mercurio y el efecto que la gravedad tiene sobre la luz. En esta sección examinamos una forma diferente de concebir la gravitación.</para>
+<section id="fs-id1168325781113">
+<title>Una revolución en perspectiva</title>
+<para id="fs-id1168328221692">En 1905, Albert <term class="no-emphasis">Einstein</term> publicó su teoría de la relatividad especial. Esta teoría se analiza con gran detalle en <link document="m58555">Relatividad</link>, por lo que aquí solo diremos unas palabras. En esta teoría, ningún movimiento puede superar la velocidad de la luz: es el límite de velocidad del universo. Este simple hecho se ha verificado en innumerables experimentos. Sin embargo, tiene consecuencias increíbles: el espacio y el tiempo ya no son absolutos. Dos personas que se mueven una respecto a la otra no se ponen de acuerdo sobre la longitud de los objetos o el paso del tiempo. Casi toda la mecánica que aprendió en los capítulos anteriores, aunque es notablemente precisa incluso para velocidades de muchos miles de kilómetros por segundo, comienza a fallar cuando se acerca a la velocidad de la luz.</para>
+<para id="fs-id1168328300577">Este límite de velocidad del universo era también un desafío a la suposición inherente a la ley de la gravitación de Newton de que la gravedad es una <term>fuerza de acción a distancia</term>. Es decir, sin contacto físico, cualquier cambio en la posición de una masa se comunica instantáneamente a todas las demás. Esta suposición no proviene de ningún primer principio, ya que la teoría de Newton simplemente no aborda la cuestión (lo mismo se creía de las fuerzas electromagnéticas, también. Es justo decir que la mayoría de los científicos no se sentían completamente cómodos con el concepto de acción a distancia).</para>
+<para id="fs-id1168327893219">Un segundo supuesto aparece también en ley de la gravitación de Newton (<link document="m90681" target-id="fs-id1168327894017"/>). Se supone que las masas son exactamente las mismas que las que se usan en la segunda ley de Newton, <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. Hemos hecho esa suposición en muchas de nuestras derivaciones en este capítulo. Una vez más, no hay ningún principio subyacente que lo obligue, pero los resultados experimentales son coherentes con esta suposición. En la posterior <term>teoría de la relatividad general</term> de Einstein (1916), se abordaron ambos asuntos. Su teoría era una teoría de geometría <term>espacio-tiempo</term> y de cómo la masa (y la aceleración) distorsionan e interactúan con ese espacio-tiempo. No era una teoría de las fuerzas gravitacionales. Las matemáticas de la teoría general están fuera del alcance de este texto, pero podemos ver algunos principios subyacentes y sus consecuencias.</para>
+</section>
+<section id="fs-id1168327955402">
+<title>El principio de equivalencia</title>
+<para id="fs-id1168328170601">Einstein llegó a su teoría general en parte preguntándose por qué alguien que estaba en caída libre no sentía su peso. De hecho, es habitual hablar de los astronautas que orbitan la Tierra como si no tuvieran peso, a pesar de que la gravedad terrestre sigue siendo bastante fuerte allí. En la teoría general de Einstein no hay diferencia entre la caída libre e ingravidez. Esto se denomina <term>principio de equivalencia</term>. El corolario igualmente sorprendente de esto es que no hay diferencia entre un campo gravitacional uniforme y una aceleración uniforme en ausencia de gravedad. Centrémonos en esta última afirmación. Aunque un campo gravitacional perfectamente uniforme no es factible, podemos aproximarnos a él muy bien.</para>
+<para id="fs-id1168327922378">Dentro de un laboratorio de tamaño razonable en la Tierra, el campo gravitacional <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es esencialmente uniforme. El corolario dice que cualquier experimento físico realizado allí tiene los mismos resultados que los realizados en un laboratorio acelerando a <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> en el espacio profundo, bien lejos de todas las demás masas. La <link target-id="CNX_UPhysics_13_07_accframe"/> ilustra el concepto.</para>
+<figure id="CNX_UPhysics_13_07_accframe">
+<media id="fs-id1168325681309" alt="A la izquierda hay un dibujo de un cohete que se mueve hacia arriba. Una flecha que apunta hacia arriba se etiqueta como a (= g). Una vista del interior del cohete muestra un experimento de química y un reloj que indica un intervalo de 10 minutos. A la derecha hay un dibujo de la Tierra con el mismo experimento químico y el reloj que indica un intervalo de 10 minutos en la superficie de la Tierra. La flecha hacia abajo está etiquetada como g.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_07_accframe.jpg"/>
+</media>
+<caption>Según el principio de equivalencia, los resultados de todos los experimentos realizados en un laboratorio en un campo gravitacional uniforme son idénticos a los resultados de los mismos experimentos realizados en un laboratorio con aceleración uniforme.</caption>
+</figure>
+<para id="fs-id1168328221991">¿Cómo estas dos situaciones aparentemente tan diferentes pueden ser iguales? La respuesta es que la gravitación no es una fuerza entre dos objetos, sino que es el resultado de la respuesta de cada objeto al efecto que el otro tiene en el espacio-tiempo que lo rodea. Un campo gravitacional uniforme y una aceleración uniforme tienen exactamente el mismo efecto en el espacio-tiempo.</para>
+</section>
+<section id="fs-id1168325781782">
+<title>Una teoría geométrica de la gravedad</title>
+<para id="fs-id1168327948954">La geometría euclidiana supone un espacio “plano” en el que, entre los atributos más conocidos, una línea recta es la distancia más corta entre dos puntos, la suma de los ángulos de todos los triángulos debe ser 180 grados y las líneas paralelas nunca se cruzan. La <term>geometría no euclidiana</term> no se investigó seriamente hasta el siglo XIX, por lo que no es de extrañar que el espacio euclidiano se asuma inherentemente en todas las leyes de Newton.</para>
+<para id="fs-id1168328070732">La teoría general de la relatividad pone en tela de juicio esta suposición tan arraigada. Solo el espacio vacío es plano. La presencia de masa —o energía, ya que la relatividad no distingue entre ambas— distorsiona o curva el espacio y el tiempo, o espacio-tiempo, a su alrededor. El movimiento de cualquier otra masa es simplemente una respuesta a este espacio-tiempo curvado. La <link target-id="CNX_UPhysics_13_07_spacecurve"/> es una representación bidimensional de una masa más pequeña orbitando en respuesta al espacio distorsionado creado por la presencia de una masa más grande. En una imagen más precisa pero confusa, también veríamos el espacio distorsionado por la masa en órbita, y ambas masas estarían en movimiento en respuesta a la distorsión total del espacio. Tenga en cuenta que la figura es una representación para ayudar a visualizar el concepto. Son distorsiones en nuestro espacio y tiempo tridimensionales. No los vemos como lo haríamos con un hoyuelo en una pelota. Solo vemos la distorsión mediante cuidadosas mediciones del movimiento de los objetos y de la luz al desplazarse por el espacio.</para>
+<figure id="CNX_UPhysics_13_07_spacecurve">
+<media id="fs-id1168327903433" alt="Una ilustración del espacio-tiempo que se muestra como una cuadrícula. Una gran masa en el centro de la cuadrícula distorsiona el espacio-tiempo, forma un hoyo y dobla las líneas de la cuadrícula. Se muestra una masa pequeña que orbita la masa grande en el borde del hoyuelo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_07_spacecurve.jpg"/>
+</media>
+<caption>Una masa más pequeña orbitando en el espacio-tiempo distorsionado de una masa más grande. De hecho, toda masa o energía distorsiona el espacio-tiempo.</caption>
+</figure>
+<para id="fs-id1168328368815">Para campos gravitacionales débiles, los resultados de la relatividad general no difieren significativamente de la ley de la gravitación de Newton. Pero para campos gravitacionales intensos, los resultados divergen, y se ha demostrado que la relatividad general predice los resultados correctos. Incluso en el campo gravitacional relativamente débil de nuestro Sol, a la distancia de la órbita de Mercurio, podemos observar el efecto. Desde mediados del siglo XIX, se ha medido cuidadosamente la órbita elíptica de Mercurio. Sin embargo, aunque es elíptica, su movimiento se complica porque la posición del perihelio de la elipse avanza lentamente. La mayor parte del avance se debe a la atracción gravitacional de otros planetas, pero una pequeña parte de ese avance no podría explicarse por la ley de Newton. En un momento dado, incluso se buscó un planeta “compañero” que explicara la discrepancia. Pero la relatividad general predice correctamente las mediciones. Desde entonces muchas mediciones, como la deflexión de la luz de objetos lejanos por el Sol, han verificado que la relatividad general predice correctamente las observaciones.</para>
+<para id="fs-id1168327871954">Cerramos este debate con un comentario final. A menudo nos hemos referido a las distorsiones del espacio-tiempo o a las distorsiones tanto del espacio como del tiempo. Tanto en la relatividad especial como en la general, la dimensión del tiempo está en pie de igualdad con cada una de las dimensiones espaciales (difieren en su lugar en ambas teorías solo por un factor de escala que en el fondo no tiene importancia). Cerca de una masa muy grande, no solo se “estira” el espacio cercano, sino que el tiempo se dilata o se “ralentiza”. En la siguiente sección se analizan estos efectos con más detalle.</para>
+</section>
+<section id="fs-id1168325876897">
+<title>Agujeros negros</title>
+<para id="fs-id1168327855303">La teoría de la gravitación de Einstein se expresa en una ecuación tensorial de apariencia engañosa (los tensores son una generalización de los escalares y vectores), la cual expresa cómo una masa determina la curvatura del espacio-tiempo a su alrededor. Las soluciones a esa ecuación arrojan una de las predicciones más fascinantes: el <term>agujero negro</term>. La predicción es que si un objeto es lo suficientemente denso, colapsará sobre sí mismo y quedará rodeado por un <term>horizonte de sucesos</term> del que nada puede escapar. El nombre de “agujero negro”, acuñado por el astrónomo John <term class="no-emphasis">Wheeler</term> en 1969, hace referencia al hecho de que la luz no puede escapar de un objeto así. Karl <term class="no-emphasis">Schwarzschild</term> fue el primero en observar este fenómeno en 1916, pero en aquella época se consideraba sobre todo una curiosidad matemática.</para>
+<para id="fs-id1168327963846">Sorprendentemente, la idea de un cuerpo masivo del que la luz no puede escapar se remonta a finales del siglo XVIII. Independientemente, John Michell y Pierre-Simon Laplace usaron la ley de la gravitación de Newton para demostrar que la luz que abandona la superficie de una estrella con suficiente masa no puede escapar. Su trabajo se basó en el hecho de que la velocidad de la luz había sido medida por Ole Rømer en 1676. Observó discrepancias en los datos sobre el periodo orbital de la luna Io en torno a Júpiter. Rømer se dio cuenta de que la diferencia surgía de las posiciones relativas de la Tierra y Júpiter en diferentes momentos y que podía encontrar la velocidad de la luz a partir de esa diferencia. Tanto Michell como Laplace se dieron cuenta de que, dado que la luz tenía una velocidad finita, podía haber una estrella lo suficientemente masiva como para que la velocidad de escape de su superficie pudiera superar esa velocidad. Por lo tanto, la luz siempre volvería a la estrella. Curiosamente, los observadores que se encuentran lo suficientemente lejos de las estrellas más grandes no podrían verlas, pero sí podrían ver una estrella más pequeña desde la misma distancia.</para><para id="fs-id1168328224851">Recordemos que en <link document="m90683">Energía potencial gravitacional y energía total</link>, encontramos que la velocidad de escape, dada por la <link document="m90683" target-id="fs-id1168326928051"/>, es independiente de la masa del objeto que escapa. Aunque la naturaleza de la luz no se comprendía del todo en aquella época, la masa de la luz, si es que la tenía, no era relevante. Por lo tanto, la <link document="m90683" target-id="fs-id1168326928051"/> debería ser válida para la luz. Al sustituir <emphasis effect="italics">c</emphasis>, la velocidad de la luz, por la velocidad de escape, tenemos</para>
+<equation id="fs-id1168057478020" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>esc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168328366419">Por lo tanto, solo necesitamos valores para <emphasis effect="italics">R</emphasis> y <emphasis effect="italics">M</emphasis> tales que la velocidad de escape supere a <emphasis effect="italics">c</emphasis>, y entonces la luz no podrá escapar. Michell planteó que si una estrella tuviera la densidad de nuestro Sol y un radio que se extendiera más allá de la órbita de Marte, la luz no podría escapar de su superficie. También conjeturó que todavía podríamos detectar una estrella así por el efecto gravitacional que tendría sobre los objetos que la rodean. Se trata de una conclusión perspicaz, ya que es precisamente así como deducimos la existencia de tales objetos en la actualidad. Aunque todavía no hemos visitado un agujero negro, y puede que nunca lo hagamos, la evidencia circunstancial de que existen es tan convincente que pocos astrónomos dudan de su existencia.</para>
+<para id="fs-id1168328366077">Antes de examinar parte de esa evidencia, volvamos a centrar nuestra atención en la solución de Schwarzschild a la ecuación tensorial de la relatividad general. En esa solución surge un radio crítico, ahora llamado <term>radio de Schwarzschild</term> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Para cualquier masa <emphasis effect="italics">M</emphasis>, si esa masa se comprimiera hasta el punto de que su radio fuera menor que el radio de Schwarzschild, entonces colapsaría hasta convertirse en una singularidad, y cualquier cosa que pasara dentro de ese radio no podría escapar. Una vez dentro <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math>, la flecha del tiempo lleva todas las cosas a la singularidad (en un sentido matemático amplio, una singularidad es cuando el valor de una función llega al infinito. En este caso, se trata de un punto en el espacio de volumen cero con una masa finita. Por lo tanto, la densidad de masa y la energía gravitacional se vuelven infinitas). El radio de Schwarzschild viene dado por</para>
+<note id="fs-id1168328355394" class="equation-callout">
+<equation id="fs-id1168327872094"><label/><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1168328065070">Si mira nuestra ecuación de la velocidad de escape con <m:math><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>esc</m:mtext></m:mrow><m:mrow/></m:msubsup><m:mo>=</m:mo><m:mi>c</m:mi></m:mrow></m:math>, observará que da precisamente este resultado. Pero eso no es más que un accidente fortuito causado por varias suposiciones incorrectas. Una de estas suposiciones es el uso de la expresión clásica <emphasis effect="italics">incorrecta</emphasis> para la energía cinética de la luz. ¿Qué densidad debe tener un objeto para convertirse en un agujero negro?</para>
+<example id="fs-id1168327991566">
+<para id="fs-id1168328317582"><title>Calcular el radio de Schwarzschild</title>
+Calcule el radio de Schwarzschild para el Sol y la Tierra. Compare la densidad del núcleo de un átomo con la densidad necesaria para comprimir uniformemente la masa de la Tierra hasta su radio de Schwarzschild. La densidad de un núcleo es de, aproximadamente, <m:math><m:mrow><m:mn>2,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>.</para>
+<para id="fs-id1168328204601"><title>Estrategia</title>
+Usamos la <link target-id="fs-id1168327872094"/> para este cálculo. Solo necesitamos las masas de la Tierra y del Sol, que obtenemos de los datos astronómicos que figuran en el <link document="m90721">Apéndice D</link>.</para>
+<para id="fs-id1168327872260"><title>Solución</title>
+Al sustituir la masa del Sol, tenemos</para>
+<equation id="fs-id1168057480398" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>6,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/kg</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1168328184092">Se trata de un diámetro de solo unos 6 km. Si usamos la masa de la Tierra, obtenemos <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. ¡Se trata de un diámetro de menos de 2 cm! Si empaquetamos la masa de la Tierra en una esfera con el radio <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, obtenemos una densidad de</para>
+<equation id="fs-id1168057271946" class="unnumbered"><label/><m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>masa</m:mtext></m:mrow><m:mrow><m:mtext>volumen</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5,97</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mfrac bevelled="true"><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,06</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168327982966"><title>Importancia</title>
+Una <term>estrella de neutrones</term> es el objeto más compacto que se conoce, aparte de un agujero negro. La estrella de neutrones está compuesta por neutrones con la densidad de un núcleo atómico y, como muchos agujeros negros, se cree que es el remanente de una supernova: una estrella que explota al final de su vida. Para crear un agujero negro desde la Tierra, tendríamos que comprimirla hasta una densidad trece órdenes de magnitud mayor que la de una estrella de neutrones. Este proceso requeriría una fuerza inimaginable. No se conoce ningún mecanismo que pueda hacer que un objeto del tamaño de la Tierra se convierta en un agujero negro. En el caso del Sol, usted debería poder demostrar que tendría que estar comprimido a una densidad solo unas 80 veces superior a la de un núcleo (Nota: Una vez que la masa se comprime dentro de su radio de Schwarzschild, la relatividad general dicta que colapsará hasta convertirse en una singularidad. Estos cálculos solo muestran la densidad que debemos alcanzar para iniciar ese colapso).</para>
+</example>
+<note id="fs-id1168328185118" class="check-understanding">
+<exercise id="fs-id1168325667458">
+<problem id="fs-id1168328193936">
+<para id="fs-id1168327912181"><emphasis effect="bold">Compruebe su</emphasis> comprensión Considere la densidad necesaria para que la Tierra sea un agujero negro en comparación con la necesaria para el Sol. ¿Qué conclusión puede sacar de esta comparación sobre lo que se necesitaría para crear un agujero negro? ¿Espera que el universo tenga muchos agujeros negros con poca masa?</para>
+</problem>
+<solution id="fs-id1168328273048">
+<para id="fs-id1168328279676">Dada la increíble densidad necesaria para forzar que un cuerpo del tamaño de la Tierra se convierta en un agujero negro, no esperamos ver agujeros negros tan pequeños. Incluso un cuerpo con la masa de nuestro Sol tendría que estar comprimido por un factor de más de 80 que el de una estrella de neutrones. Se cree que las estrellas de este tamaño no pueden convertirse en agujeros negros. Sin embargo, en el caso de las estrellas con unas pocas masas solares, se cree que el colapso gravitacional al final de la vida de una estrella podría formar un agujero negro. Como veremos más adelante, ahora se cree que los agujeros negros son comunes en el centro de las galaxias. Estos agujeros negros galácticos suelen contener la masa de muchos millones de estrellas.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1168327921175">
+<title>El horizonte de sucesos</title>
+<para id="fs-id1168327930379">El radio de Schwarzschild también se denomina horizonte de sucesos de un agujero negro. Hemos observado que tanto el espacio como el tiempo se estiran cerca de objetos masivos, como los agujeros negros. La <link target-id="CNX_UPhysics_13_07_spacetime"/> ilustra ese efecto sobre el espacio. La distorsión causada por nuestro Sol es en realidad bastante pequeña, y el diagrama está exagerado para más claridad. Consideremos la estrella de neutrones, descrita en el <link target-id="fs-id1168327991566"/>. Aunque la distorsión del espacio-tiempo en la superficie de una estrella de neutrones es muy alta, el radio sigue siendo mayor que su radio de Schwarzschild. Hay objetos que podrían seguir escapando de su superficie.</para>
+<para id="fs-id1168327925160">Sin embargo, si una estrella de neutrones gana masa adicional, acabaría colapsando, encogiéndose más allá del radio de Schwarzschild. Una vez que eso ocurra, toda la masa sería empujada, inevitablemente, a una singularidad. En el diagrama, el espacio se estira hasta el infinito. El tiempo también se estira hasta el infinito. A medida que los objetos caen hacia el horizonte de sucesos, los vemos acercarse cada vez más lentamente, pero sin llegar nunca al horizonte de sucesos. Como observadores externos, nunca vemos objetos que atraviesen el horizonte de sucesos: efectivamente el tiempo se detiene.</para>
+<note id="fs-id1168328268082" class="media-2">
+<para id="fs-id1168328291231">Visite este <link url="https://openstax.org/l/21spacetelescop">sitio</link> para ver un ejemplo animado de estas distorsiones espaciales.</para>
+</note>
+<figure id="CNX_UPhysics_13_07_spacetime"><media id="fs-id1168328298882" alt="A la izquierda hay tres ilustraciones de espacio-tiempo como una cuadrícula con hoyuelos cada vez más profundos con un objeto en el fondo del hoyuelo. El dibujo superior está etiquetado como “Sol”, y tiene un hoyo poco profundo. La figura del medio está etiquetada como “enano blanco” y tiene un hoyuelo más profundo y líneas de cuadrícula más distorsionadas. La tercera figura está etiquetada como “estrella de neutrones”. El hoyuelo es muy profundo y sus lados son casi verticales. La región por encima de la estrella está etiquetada como “espacio-tiempo distorsionado”. A la derecha, una ilustración más amplia de los efectos de un agujero negro. El hoyuelo es ahora una curva que se convierte en un tubo acampanado que se vuelve vertical y está abierto en la parte inferior. El fondo del tubo está etiquetado como “singularidad”. Las líneas de la cuadrícula del tubo forman líneas verticales y una espiral. Una sección transversal circular del tubo está etiquetada como “horizonte de sucesos”. Un círculo en el que la red espacio-tiempo se dobla para formar el tope del tubo se etiqueta como “última órbita estable”.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_07_spacetime.jpg"/>
+</media>
+
+<caption>La distorsión del espacio se hace más notable alrededor de masas cada vez más grandes. Una vez que la densidad de masa alcanza un nivel crítico se forma un agujero negro, y el tejido del espacio-tiempo se desgarra. La curvatura del espacio es mayor en la superficie de cada uno de los tres primeros objetos mostrados y es finita. La curvatura disminuye entonces (no se muestra) hasta llegar a cero a medida que se desplaza hacia el centro del objeto. Pero el agujero negro es diferente. La curvatura se vuelve infinita: La superficie ha colapsado hasta una singularidad, y el cono se extiende hasta el infinito (Nota: Estos diagramas no están a ninguna escala) (créditos: modificación de trabajo de la NASA).</caption></figure></section>
+<section id="fs-id1168328288499">
+<title>La evidencia de los agujeros negros</title>
+<para id="fs-id1168328199980">No fue hasta la década de los años 60 del siglo XX, cuando se descubrió la primera estrella de neutrones, y se renovó el interés por la existencia de los agujeros negros. La evidencia para agujeros negros se basa en varios tipos de observaciones, como análisis de la radiación de binarias de rayos X, lentes gravitacionales de la luz de las galaxias lejanas y el movimiento de objetos visibles alrededor de compañeros invisibles. Nos centraremos en estas observaciones posteriores en relación con lo que hemos aprendido en este capítulo. Aunque la luz no puede escapar de un agujero negro para que la veamos, sí podemos ver el efecto gravitacional del agujero negro sobre masas circundantes.</para>
+<para id="fs-id1168328191059">La evidencia más cercana de un agujero negro, y quizás más dramática, está en el centro de nuestra galaxia Vía Láctea. El Grupo del Centro Galáctico de la Universidad de California en Los Ángeles (UCLA), con el uso de datos obtenidos por los telescopios W. M. Keck, ha determinado las órbitas de varias estrellas cercanas al centro de nuestra galaxia. Algunos de esos datos se muestran en la <link target-id="CNX_UPhysics_13_07_KeckUCLA"/>. Se destacan las órbitas de dos estrellas. A partir de las mediciones de los periodos y tamaños de sus órbitas, se estima que orbitan alrededor de una masa de 4 millones de masas solares aproximadamente. Nótese que la masa debe residir en la región creada por la intersección de las elipses de las estrellas. La región en la que debe residir esa masa encajaría dentro de la órbita de Mercurio y, sin embargo, no se ve nada allí en el espectro visible.</para>
+<figure id="CNX_UPhysics_13_07_KeckUCLA"><media id="fs-id1168325743081" alt="Una imagen infrarroja de las estrellas cercanas al centro de la Vía Láctea. Se muestran ocho órbitas con varios puntos de datos en cada una. Las órbitas difieren en excentricidad, orientación y tamaño, pero todas se superponen cerca del centro de la imagen.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_07_KeckUCLA.jpg"/>
+</media>
+
+<caption>Trayectorias de las estrellas que orbitan alrededor de una masa en el centro de nuestra galaxia Vía Láctea. A partir de su movimiento, se estima que en el centro reside un agujero negro de unos 4 millones de masas solares (créditos: modificación de trabajo del Grupo del Centro Galáctico de la UCLA, equipo láser del Observatorio W. M. Keck).</caption></figure><para id="fs-id1168325743042">La física de la creación y evolución estelar está bien establecida. La última fuente de energía que hace brillar las estrellas es la energía autogravitacional que desencadena la fusión. El comportamiento general es que cuanto más masiva es una estrella, más brilla y más corta es su vida. La inferencia lógica es que una masa que es 4 millones de veces la masa de nuestro Sol, confinada en una región muy pequeña y que no se puede ver, no tiene otra interpretación viable que la de un agujero negro. Las observaciones extragalácticas sugieren fuertemente que los agujeros negros son comunes en el centro de las galaxias.</para>
+<note id="fs-id1168328195675" class="media-2">
+<para id="fs-id1168328230094">Visite la <link url="https://openstax.org/l/21galacenter01">página principal del Grupo del Centro Galáctico de la UCLA</link> para obtener información sobre binarias de rayos X y lentes gravitacionales. Visite esta <link url="https://openstax.org/l/21galacenter02">página</link> para observar una visualización tridimensional de las estrellas que orbitan cerca del centro de nuestra galaxia, donde la animación se encuentra cerca de la parte inferior de la página.</para>
+</note>
+</section>
+<section id="fs-id1168328299653">
+<title>Materia oscura</title>
+<para id="fs-id1168328379305">Las estrellas que orbitan cerca del mismo corazón de nuestra galaxia proporcionan una fuerte evidencia de la existencia de un agujero negro allí, pero las órbitas de las estrellas alejadas del centro sugieren otro fenómeno intrigante que también se observa indirectamente. Recordemos que en <link document="m90682">Gravitación cerca de la superficie terrestre</link> podemos considerar que la masa de objetos esféricos se encuentra en un punto del centro para calcular sus efectos gravitacionales sobre otras masas. Del mismo modo, podemos tratar la masa total que se encuentra dentro de la órbita de cualquier estrella de nuestra galaxia como si estuviera situada en el centro del disco de la Vía Láctea. Podemos estimar esa masa a partir del recuento de las estrellas visibles e incluir en nuestra estimación la masa del agujero negro del centro también.</para>
+<para id="fs-id1168325927675">Pero cuando lo hacemos, descubrimos que la rapidez orbital de las estrellas es demasiado rápida para ser causada por esa cantidad de materia. La <link target-id="CNX_UPhysics_13_07_darkmat"/> muestra las velocidades orbitales de las estrellas en función de su distancia al centro de la Vía Láctea. La línea azul representa las velocidades que esperaríamos a partir de nuestras estimaciones de la masa, mientras que la curva verde es la que obtenemos de mediciones directas. Al parecer, hay una gran cantidad de materia que no vemos, que se calcula que es unas cinco veces mayor que la que vemos, por lo que se le ha denominado <term class="no-emphasis">materia oscura</term>. Además, el perfil de velocidad no sigue lo que esperamos de la distribución observada de estrellas visibles. No solo la estimación de la masa total es incongruente con los datos, sino que la distribución esperada también lo es. Y este fenómeno no se limita a nuestra galaxia, sino que parece ser una característica de todas las galaxias. De hecho, el problema se observó por primera vez en la década de los años 30 del siglo XX, cuando se midió que galaxias dentro de cúmulos orbitaban alrededor del centro de masa de esos cúmulos más rápido de lo que deberían según las estimaciones de masa visibles.</para>
+<figure id="CNX_UPhysics_13_07_darkmat">
+<media id="fs-id1168328366945" alt="Gráfico de la curva de rotación de la galaxia que representa la velocidad orbital en unidades arbitrarias como una función de radio, r, en kiloparsecs. La escala del eje horizontal es de 0 a 14 kiloparsecs, en incrementos de 2. La escala del eje vertical es de 0 a 1,6 en incrementos de 0,2. La curva verde está etiquetada como “observada”. La curva comienza en r = 0, v = 0,9, se eleva hasta casi v = 1,4 a r un poco menos de 2, luego disminuye hasta, aproximadamente, v = 1,3 en r = 4, y luego más lentamente hasta, aproximadamente, v = 1,2 en r = 14. La curva azul está etiquetada como “esperada”. La curva comienza en r = 0, v = 1,0 y se eleva hasta un valor máximo que es menor que el de la curva verde y en un valor menor de r. A continuación, la curva disminuye suavemente con una pendiente en constante descenso hasta v, aproximadamente, 0,5 en r = 14. También se muestran tres curvas grises adicionales. Una curva punteada etiquetada como “materia oscura” comienza en r = 0, v = 0 y sube suavemente con una pendiente que disminuye constantemente hasta v, aproximadamente, 0,9 en r = 14. Una curva de puntos etiquetada como “Bulge” (luz) también comienza en r = 0, v = 0 y se eleva hasta un valor máximo de, aproximadamente, v = 0,5 en un r entre 1 y 2, y luego disminuye suavemente con una pendiente en constante descenso hasta v, aproximadamente, 0,2 en r = 14. Una curva discontinua etiquetada como “disco” (luz) comienza en r = 0, v = 1 y disminuye suavemente con una pendiente constantemente decreciente hasta v, aproximadamente, 0,3 en r = 14.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_07_darkmat.jpg"/>
+</media>
+<caption>La curva azul muestra la velocidad orbital esperada de las estrellas de la Vía Láctea en función de las estrellas visibles que podemos ver. La curva verde muestra que las velocidades reales son más altas, lo que sugiere que hay materia adicional que no se ve (créditos: modificación de trabajo de Matthew Newby).</caption>
+</figure>
+<para id="fs-id1168325647325">Hay dos ideas predominantes sobre lo que podría ser esta materia: WIMP y MACHO. WIMP significa partículas masivas de interacción débil (interacting massive particles, WIMP). Estas partículas (los neutrinos son un ejemplo) interactúan muy débilmente con la materia ordinaria y, por tanto, son muy difíciles de detectar directamente. MACHO significa objetos compactos masivos del halo (massive compact halo objects, MACHO), los cuales se componen de materia bariónica ordinaria, como neutrones y protones. Ambas ideas tienen aspectos no resueltos, y se necesitará mucha más investigación para resolver el misterio.</para>
+</section>
+</section>
+<section id="fs-id1168325680758" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1168328356979" list-type="bulleted" bullet-style="bullet">
+<item>Según la teoría de la relatividad general, la gravedad es el resultado de las distorsiones del espacio-tiempo creadas por masa y energía.</item>
+<item>El principio de equivalencia establece que tanto la masa como la aceleración distorsionan el espacio-tiempo y son indistinguibles en circunstancias comparables.</item>
+<item>Los agujeros negros, consecuencia del colapso gravitacional, son singularidades con un horizonte de sucesos proporcional a su masa.</item>
+<item>La evidencia de la existencia de agujeros negros sigue siendo circunstancial, pero la cantidad de esa evidencia es abrumadora.</item>
+</list>
+</section>
+<section id="fs-id1168325780881" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1170904183507" class="unnumbered unstyled" summary="This table gives the following formulae: Newton’s law of gravitation, F subscript 12 equal to G m1 m2 by r squared into r hat subscript 12; Acceleration due to gravity at the surface of Earth, g equal to G M subscript E by r squared; Gravitational potential energy beyond Earth, U equal to minus G M subscript E m by r; Conservation of energy, half m v1 squared minus G Mm by r1 equal to half m v2 squared minus G Mm by r2; Escape velocity, v subscript esc equal to square root of 2 GM by R end of root; Orbital speed, v subscript orbit equal to square root of GM subscript E by r end of root; Orbital period, T equal to 2 pi square root of r cubed by G M subscript E end of root; Energy in circular orbit, E equal to K plus U equal to minus GmM subscript E by 2 r; Conic sections, alpha by r equal to 1 plus e cos theta; Kepler’s third law, T squared equal to 4 pi squared GM into a cubed; Schwarzschild radius, R subscript S equal to 2 GM by c squared.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Ley de la gravitación de Newton</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Aceleración debido a gravedad<newline/>en la superficie de la Tierra</entry>
+<entry align="left"><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mrow/><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Energía potencial gravitacional más allá de la Tierra</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Conservación de energía</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Velocidad de escape</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>esc</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Rapidez orbital</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>órbita</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msub><m:mrow><m:mtext>GM</m:mtext></m:mrow><m:mtext>E</m:mtext></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Periodo orbital</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mi>Τ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mrow><m:mtext>GM</m:mtext></m:mrow><m:mtext>E</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Energía en órbita circular</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>K</m:mi><m:mo>+</m:mo><m:mi>U</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>m</m:mi><m:msub><m:mtext>M</m:mtext><m:mtext>E</m:mtext></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Secciones cónicas</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mfrac><m:mi>α</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>e</m:mi><m:mtext>cos</m:mtext><m:mi>θ</m:mi></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Tercera ley de Kepler</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:msup><m:mi>Τ</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow></m:mfrac><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Radio de Schwarzschild</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1168328253442" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1168328199356">
+<problem id="fs-id1168328199358">
+<para id="fs-id1168328298303">El principio de equivalencia establece que todos los experimentos realizados en un laboratorio en un campo gravitacional uniforme no pueden distinguirse de los realizados en un laboratorio que no está en un campo gravitacional, sino que se acelera uniformemente. Para este último caso, considere lo que ocurre con un rayo láser a cierta altura disparado perfectamente en horizontal hacia el suelo, a través del laboratorio en aceleración (vea esto desde un marco no acelerado fuera del laboratorio). En relación con la altura del láser, ¿dónde impactará el rayo láser en la pared más lejana? ¿Qué dice esto sobre el efecto de un campo gravitacional en la luz? ¿El hecho de que la luz no tenga masa supone alguna diferencia en el argumento?</para>
+</problem>
+<solution id="fs-id1168328298308">
+<para id="fs-id1168328293168">El rayo láser llegará a la pared más lejana a una altura inferior a la que salió, ya que el suelo está acelerando hacia arriba. En relación con el laboratorio, el rayo láser “cae”. Por lo tanto, es de esperar que esto ocurra en un campo gravitacional. La masa de la luz, o incluso de un objeto con masa, no es relevante.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327963958">
+<problem id="fs-id1168327963961">
+<para id="fs-id1168328193984">Cuando una persona se acerca al radio de Schwarzschild de un agujero negro, los observadores externos ven que todos los procesos de esa persona (sus relojes, su ritmo cardíaco, etc.) se ralentizan y se detienen al llegar al radio de Schwarzschild (la persona que cae en el agujero negro no ve afectados sus propios procesos). Pero la velocidad de la luz es la misma en todas partes para todos los observadores. ¿Qué dice esto sobre el espacio al acercarse al agujero negro?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168328370140" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1168328059444">
+<problem id="fs-id1168328059446">
+<para id="fs-id1168328059449">¿Cuál es el radio de Schwarzschild para el agujero negro del centro de nuestra galaxia si tiene la masa de 4 millones de masas solares?</para>
+</problem>
+<solution id="fs-id1168328331753">
+<para id="fs-id1168328331755"><m:math><m:mrow><m:mn>1,19</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>km</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325680830">
+<problem id="fs-id1168325626556">
+<para id="fs-id1168325626559">¿Cuál sería el radio de Schwarzschild, en años luz, si nuestra galaxia Vía Láctea de 100.000 millones de estrellas colapsara en un agujero negro? Compare esto con nuestra distancia al centro, unos 13.000 años luz.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168327891194" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1168325680813">
+<problem id="fs-id1168325680815">
+<para id="fs-id1168328237906">Una estrella de neutrones es una estrella fría y colapsada con densidad nuclear. Una determinada estrella de neutrones tiene una masa dos veces superior a la de nuestro Sol y un radio de 12,0 km. (a) ¿Cuál sería el peso de un astronauta de 100 kg al pisar su superficie? (b) ¿Qué nos dice esto sobre el aterrizaje en una estrella de neutrones?</para>
+</problem>
+<solution id="fs-id1168328357765">
+<para id="fs-id1168328357767">a. <m:math><m:mrow><m:mn>1,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>; b. ¡No lo haga!</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327875643">
+<problem id="fs-id1168327875646">
+<para id="fs-id1168327875648">(a) ¿A qué distancia del centro de la Tierra la fuerza gravitacional neta de la Tierra y de la Luna sobre un objeto sería cero? (b) Si se igualan las <emphasis effect="italics">magnitudes</emphasis> de las fuerzas se obtendrán dos respuestas de la cuadrática. ¿Entiende por qué hay dos posiciones, pero solo una en la que la fuerza neta es cero?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328025325">
+<problem id="fs-id1168328025327">
+<para id="fs-id1168328025330">¿A qué distancia del centro del Sol la fuerza gravitacional neta de la Tierra y del Sol sobre una nave espacial sería cero?</para>
+</problem>
+<solution id="fs-id1168325665764">
+<para id="fs-id1168325665766"><m:math><m:mrow><m:mn>1,49</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mtext>km</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327864481">
+<problem id="fs-id1168327946561">
+<para id="fs-id1168327946563">Calcule los valores de <emphasis effect="italics">g</emphasis> en la superficie de la Tierra para los siguientes cambios en las propiedades de la Tierra: (a) su masa se duplica y su radio se reduce a la mitad; (b) su densidad de masa se duplica y su radio no cambia; (c) su densidad de masa se reduce a la mitad y su masa no cambia.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328280367">
+<problem id="fs-id1168328280369">
+<para id="fs-id1168325664091">Suponga que puede comunicarse con los habitantes de un planeta de otro sistema solar. Le dicen que en su planeta, cuyo diámetro y masa son <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>3,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>, respectivamente, el récord de salto de altura es de 2,0 m. Teniendo en cuenta que este récord se acerca a los 2,4 m en la Tierra, ¿qué conclusión sacaría sobre la capacidad de salto de sus amigos extraterrestres?</para>
+</problem>
+<solution id="fs-id1168328321319">
+<para id="fs-id1168328321321">El valor de <emphasis effect="italics">g</emphasis> para este planeta es de 3,8 m/s<sup>2</sup>, que es una cuarta parte del de la Tierra aproximadamente. Así que son débiles saltadores de altura.</para></solution>
+</exercise>
+<exercise id="fs-id1168328195603">
+<problem id="fs-id1168328195605">
+<para id="fs-id1168327963974">(a) Suponga que su peso medido en el ecuador es la mitad de su peso medido en el polo en un planeta cuya masa y diámetro son iguales a los de la Tierra. ¿Cuál es el periodo de rotación del planeta?; (b) ¿habría que tener en cuenta la forma de este planeta?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328297525">
+<problem id="fs-id1168328297527">
+<para id="fs-id1168328297529">Un cuerpo de masa de 100 kg se pesa en el polo norte y en el ecuador con una balanza de resorte. ¿Cuál es la lectura de la balanza en estos dos puntos? Supongamos que <m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9,83</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> en el poste.</para>
+</problem>
+<solution id="fs-id1168325789313">
+<para id="fs-id1168325789315">En el polo norte, 983 N; en el ecuador, 980 N.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327965813">
+<problem id="fs-id1168327965815">
+<para id="fs-id1168327965817">Encuentre la velocidad necesaria para escapar del sistema solar partiendo de la superficie de la Tierra. Suponga que no hay otros cuerpos implicados y no tome en cuenta que la Tierra se mueve en su órbita <emphasis effect="italics">[Pista:</emphasis> La <link document="m90683" target-id="fs-id1168326928051"/> no corresponde. Use la <link document="m90683" target-id="fs-id1168326928404"/> e incluya la energía potencial tanto de la Tierra como del Sol].</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328297557">
+<problem id="fs-id1168328279716">
+<para id="fs-id1168328279718">Considere el problema anterior e incluya el hecho de que la Tierra tiene una rapidez orbital alrededor del Sol de 29,8 km/s. (a) ¿Qué velocidad respecto a la Tierra sería necesaria y en qué dirección debería salir de la Tierra? (b) ¿Cuál será la forma de la trayectoria?</para>
+</problem>
+<solution id="fs-id1168328049782">
+<para id="fs-id1168328049784">a. La velocidad de escape sigue siendo de 43,6 km/s. Al hacer un lanzamiento desde la Tierra en dirección a la velocidad tangencial de la Tierra, se necesita <m:math><m:mrow><m:mn>43,4</m:mn><m:mo>−</m:mo><m:mn>29,8</m:mn><m:mo>=</m:mo><m:mn>13,8</m:mn><m:mspace width="0.2em"/><m:mtext>km/s</m:mtext></m:mrow></m:math> respecto a la Tierra. b. La energía total es cero y la trayectoria es una parábola.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328281719">
+<problem id="fs-id1168325837492">
+<para id="fs-id1168325837494">Se observa un cometa a 1,50 UA del Sol con una velocidad de 24,3 km/s. ¿Este cometa está en una órbita ligada o no ligada?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328277302">
+<problem id="fs-id1168328277304">
+<para id="fs-id1168328277306">Un asteroide tiene una velocidad de 15,5 km/s cuando se encuentra a 2,00 UA del Sol. En su máxima aproximación, se encuentra a 0,400 UA del Sol. ¿Cuál es su velocidad en ese punto?</para>
+</problem>
+<solution id="fs-id1168328193731">
+<para id="fs-id1168328193733">61,5 km/s</para></solution>
+</exercise>
+<exercise id="fs-id1168326002659">
+<problem id="fs-id1168326002662">
+<para id="fs-id1168326002664">Los desechos espaciales dejados por antiguos satélites y sus lanzadores se están convirtiendo en un peligro para otros satélites. (a) Calcule la velocidad de un satélite en una órbita a 900 km sobre la superficie de la Tierra. (b) Suponga que un remache suelto está en una órbita del mismo radio que interseca la órbita del satélite en un ángulo de <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. ¿Cuál es la velocidad del remache con respecto al satélite justo antes de chocar con él? (c) Si su masa es de 0,500 g, y llega a reposar dentro del satélite, ¿cuánta energía en julios genera la colisión? (Supongamos que la velocidad del satélite no cambia apreciablemente porque su masa es mucho mayor que la del remache).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325860673">
+<problem id="fs-id1168325860676">
+<para id="fs-id1168325860678">Un satélite de masa de 1.000 kg está en órbita circular alrededor de la Tierra. El radio de la órbita del satélite es igual a dos veces el radio de la Tierra. (a) ¿A qué distancia está el satélite? (b) Encuentre las energías cinética, potencial y total del satélite.</para>
+</problem>
+<solution id="fs-id1168328330913">
+<para id="fs-id1168328330915">a. <m:math><m:mrow><m:mn>1,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>1,56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>1</m:mn><m:mn>0</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; <m:math><m:mrow><m:mtext>−</m:mtext><m:mn>3,12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>1</m:mn><m:mn>0</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; <m:math><m:mrow><m:mn>-1,56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>1</m:mn><m:mn>0</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325702205">
+<problem id="fs-id1168325702207">
+<para id="fs-id1168325702209">Después de que Ceres fuera ascendido a planeta enano, ahora reconocemos que el mayor asteroide conocido es Vesta, con una masa de <m:math><m:mrow><m:mn>2,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>20</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> y un diámetro que oscila entre 578 km y 458 km. Suponga que Vesta es esférica con un radio de 520 km y encuentre la velocidad de escape aproximada de su superficie.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325985894">
+<problem id="fs-id1168325985896">
+<para id="fs-id1168325985898">(a) Dado el asteroide Vesta que tiene un diámetro de 520 km y una masa de <m:math><m:mrow><m:mn>2,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>20</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>, ¿cuál sería el periodo orbital de una sonda espacial en una órbita circular de 10,0 km desde su superficie? (b) ¿Por qué este cálculo es marginalmente útil en el mejor de los casos?</para></problem>
+<solution id="fs-id1168327935228">
+<para id="fs-id1168327935230">a. <m:math><m:mrow><m:mn>6,24</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> o 1,8 horas aproximadamente. Para ello se usó el diámetro medio de 520 km. b. Está claro que Vesta no es muy esférica, por lo que tendría que estar por encima de la dimensión más grande, casi 580 km. Y lo que es más importante, la naturaleza no esférica perturbaría la órbita muy rápidamente, por lo que este cálculo no sería muy preciso ni siquiera para una órbita.</para></solution>
+</exercise>
+<exercise id="fs-id1168327962924">
+<problem id="fs-id1168328357770">
+<para id="fs-id1168328357772">¿Cuál es la velocidad orbital de nuestro sistema solar en torno al centro de la Vía Láctea? Supongamos que la masa dentro de una esfera de radio igual a nuestra distancia del centro es de unos 100.000 millones de masas solares. Nuestra distancia al centro es de 27.000 años luz.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328301379">
+<problem id="fs-id1168328301381">
+<para id="fs-id1168328301383">(a) Usando la información del problema anterior, ¿qué velocidad necesita para escapar de la galaxia Vía Láctea desde nuestra posición actual? (b) ¿Necesitaría acelerar una nave espacial a esta velocidad respecto a la Tierra?</para>
+</problem>
+<solution id="fs-id1168328299625">
+<para id="fs-id1168328299627">a. 323 km/s; b. No, solo se necesita la diferencia entre la rapidez orbital del sistema solar y la velocidad de escape, por lo que alrededor de <m:math><m:mrow><m:mn>323</m:mn><m:mo>−</m:mo><m:mn>228</m:mn><m:mo>=</m:mo><m:mn>95</m:mn><m:mspace width="0.2em"/><m:mtext>km/s</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325756452">
+<problem id="fs-id1168325756454">
+<para id="fs-id1168325756456">Las órbitas circulares en la <link document="m90685" target-id="fs-id1168329150881"/> para secciones cónicas deben tener excentricidad cero. A partir de esto, y usando la segunda ley de Newton aplicada a la aceleración centrípeta, demuestre que el valor de <m:math><m:mi>α</m:mi></m:math> en la <link document="m90685" target-id="fs-id1168329150881"/> viene dada por <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mtext>G</m:mtext><m:mi>M</m:mi><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> donde <emphasis effect="italics">L</emphasis> es el momento angular del cuerpo en órbita. El valor de <m:math><m:mi>α</m:mi></m:math> es constante y viene dado por esta expresión independientemente del tipo de órbita.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328286374">
+<problem id="fs-id1168328286376">
+<para id="fs-id1168328193746">Demuestre que para una excentricidad igual a uno en la <link document="m90685" target-id="fs-id1168329150881"/> para secciones cónicas, la trayectoria es una parábola. Hágalo sustituyendo las coordenadas cartesianas, <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis>, por las coordenadas polares, <emphasis effect="italics">r</emphasis> y <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math>, y muestre que tiene la forma general de una parábola, <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168325781635">
+<para id="fs-id1168325781637">Configurando <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, tenemos <m:math><m:mrow><m:mfrac><m:mi>α</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mtext>cos</m:mtext><m:mi>θ</m:mi><m:mo stretchy="false">→</m:mo><m:mi>α</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>r</m:mi><m:mtext>cos</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>x</m:mi></m:mrow></m:math>; por lo tanto, <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Ampliar y recoger para mostrar <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>−2</m:mn><m:mi>α</m:mi></m:mrow></m:mfrac><m:mspace width="0.1em"/><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mi>α</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325780805">
+<problem id="fs-id1168325780808">
+<para id="fs-id1168325780810">Usando la técnica mostrada en la sección <link document="m90684">Órbitas de satélites y energía</link>, demuestre que dos masas <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> en órbitas circulares alrededor de su centro de masa común tendrán una energía total <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>K</m:mi><m:mo>+</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>K</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow/></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>r</m:mi><m:mrow/></m:msup></m:mrow></m:mfrac></m:mrow></m:math>. Hemos mostrado la energía cinética de ambas masas de forma explícita <emphasis effect="italics">(Pista:</emphasis> Las masas orbitan a radios <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, respectivamente, donde <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Asegúrese de no confundir el radio necesario para la aceleración centrípeta con el de la fuerza gravitacional).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328241487">
+<problem id="fs-id1168328241489">
+<para id="fs-id1168328241492">Dada la distancia del perihelio, <emphasis effect="italics">p</emphasis>, y la distancia del afelio, <emphasis effect="italics">q</emphasis>, para una órbita elíptica, demuestre que la velocidad en el perihelio, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math>, viene dada por <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mrow><m:mtext>Sol</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>q</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>q</m:mi><m:mi>p</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>. <emphasis effect="italics">(Pista:</emphasis> Use la conservación del momento angular para relacionar <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>q</m:mi></m:msub></m:mrow></m:math>, y luego sustituya en la ecuación de conservación de la energía).</para>
+</problem>
+<solution id="fs-id1168325695452">
+<para id="fs-id1168325695454">Sustituya directamente en la ecuación de la energía usando <m:math><m:mrow><m:mi>p</m:mi><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:mi>q</m:mi><m:msub><m:mi>v</m:mi><m:mi>q</m:mi></m:msub></m:mrow></m:math> de la conservación del momento angular, y resuelva para <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325737371">
+<problem id="fs-id1168325630055">
+<para id="fs-id1168325630057">El cometa P/1999 R1 tiene un perihelio de 0,0570 UA y un afelio de 4,99 UA. Usando los resultados del problema anterior, encuentre su velocidad en el afelio. <emphasis effect="italics">(Pista:</emphasis> La expresión es para el perihelio. Use la simetría para reescribir la expresión del afelio).</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168326030676" class="review-challenge">
+<title>Problemas de desafíos</title>
+<exercise id="fs-id1168326030683">
+<problem id="fs-id1168326030685">
+<para id="fs-id1168326030687">Se excava un túnel a través del centro de un planeta perfectamente esférico y sin aire de radio <emphasis effect="italics">R</emphasis>. Usando la expresión para <emphasis effect="italics">g</emphasis> derivada en <link document="m90682">Gravitación cerca de la superficie terrestre</link> para una densidad uniforme, demuestre que una partícula de masa <emphasis effect="italics">m</emphasis> lanzada en el túnel ejecutará un movimiento armónico simple. Deduzca el periodo de oscilación de <emphasis effect="italics">m</emphasis> y demuestre que tiene el mismo periodo que una órbita en la superficie.</para>
+</problem>
+<solution id="fs-id1168328357732">
+<para id="fs-id1168328357735"><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>G</m:mi><m:mi>ρ</m:mi><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>G</m:mi><m:mi>m</m:mi><m:mi>ρ</m:mi><m:mi>π</m:mi></m:mrow><m:mo>]</m:mo></m:mrow><m:mspace width="0.1em"/><m:mi>r</m:mi></m:mrow></m:math>, y de <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mspace width="0.1em"/><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>r</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>, obtenemos <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>r</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>G</m:mi><m:mi>ρ</m:mi><m:mi>π</m:mi></m:mrow><m:mo>]</m:mo></m:mrow><m:mspace width="0.1em"/><m:mi>r</m:mi></m:mrow></m:math> donde el primer término es <m:math><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Entonces <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mi>ω</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>4</m:mn><m:mi>G</m:mi><m:mi>ρ</m:mi><m:mi>π</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> y si sustituimos <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>M</m:mi><m:mrow><m:mn>4</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>, obtenemos la misma expresión que para el periodo de la órbita <emphasis effect="italics">R</emphasis>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325911031">
+<problem id="fs-id1168325911033">
+<para id="fs-id1168325911035">Siguiendo la técnica empleada en la sección <link document="m90682">Gravitación cerca de la superficie terrestre</link>, halle el valor de <emphasis effect="italics">g</emphasis> como una función de radio <emphasis effect="italics">r</emphasis> desde el centro de un planeta de cáscara esférica de densidad constante <m:math><m:mi>ρ</m:mi></m:math> con radios interiores y exteriores <sub><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>en</m:mtext></m:mrow></m:msub></m:mrow></m:math> </sub> y <sub><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>fuera</m:mtext></m:mrow></m:msub></m:mrow></m:math> </sub>. Encuentre <emphasis effect="italics">g</emphasis> para ambos <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>en</m:mtext></m:mrow></m:msub><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>fuera</m:mtext></m:mrow></m:msub></m:mrow></m:math> y para <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>en</m:mtext></m:mrow></m:msub></m:mrow></m:math>. Suponga que el interior de la cáscara se mantiene sin aire y describa el viaje dentro del planeta de la cáscara esférica.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328319422">
+<problem id="fs-id1168328319425">
+<para id="fs-id1168328319427">Demuestre que la velocidad areolar para una órbita circular de radio <emphasis effect="italics">r</emphasis> alrededor de una masa <emphasis effect="italics">M</emphasis> es <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msqrt><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi><m:mi>r</m:mi></m:mrow></m:msqrt></m:mrow></m:math>. ¿Su expresión da el valor correcto de la velocidad areolar de la Tierra alrededor del Sol?</para>
+</problem>
+<solution id="fs-id1168328330940">
+<para id="fs-id1168328330942">Usando la masa del Sol y el radio orbital de la Tierra, la ecuación da <m:math><m:mrow><m:mn>2,24</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>. El valor de <m:math><m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mrow><m:mtext>ES</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>año</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> da el mismo valor.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328253626">
+<problem id="fs-id1168328253628">
+<para id="fs-id1168328253631">Demuestre que el periodo de la órbita para dos masas, <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, en órbitas circulares de radios <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, respectivamente, alrededor de su centro de masa común, viene dado por <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mspace width="0.2em"/><m:mtext>donde</m:mtext><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. <emphasis effect="italics">(Pista:</emphasis> Las masas orbitan a radios <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, respectivamente, donde <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Use la expresión del centro de masa para relacionar los dos radios y observe que las dos masas deben tener momentos iguales pero opuestos. Comience con la relación del periodo con la circunferencia y la velocidad de la órbita para una de las masas. Use el resultado del problema anterior usando los momentos en las expresiones de la energía cinética).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325718577">
+<problem id="fs-id1168325718579">
+<para id="fs-id1168325718581">Demuestre que para pequeños cambios en la altura <emphasis effect="italics">h</emphasis>, tales que <m:math><m:mrow><m:mi>h</m:mi><m:mtext>&lt;</m:mtext><m:mspace width="0.2em"/><m:mtext>&lt;</m:mtext><m:msub><m:mtext>R</m:mtext><m:mtext>E</m:mtext></m:msub></m:mrow></m:math>, la <link document="m90683" target-id="fs-id1168329108070"/> se reduce a la expresión <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mtext>g</m:mtext><m:mi>h</m:mi></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168325911588">
+<para id="fs-id1168325911590"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:msub><m:mi>U</m:mi><m:mi>f</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>U</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>r</m:mi><m:mi>f</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>f</m:mi></m:msub><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> donde <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mi>f</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math>. Si <m:math><m:mrow><m:mi>h</m:mi><m:mtext>&lt;</m:mtext><m:mspace width="0.2em"/><m:mtext>&lt;</m:mtext><m:msub><m:mtext>R</m:mtext><m:mtext>E</m:mtext></m:msub></m:mrow></m:math>, entonces <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>f</m:mi></m:msub><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub><m:mo>≈</m:mo><m:msubsup><m:mi>R</m:mi><m:mtext>E</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:math>, y al sustituirlo, tenemos</para>
+<para id="fs-id1168325718629"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>h</m:mi><m:mrow><m:msubsup><m:mi>R</m:mi><m:mtext>E</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>R</m:mi><m:mtext>E</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>h</m:mi></m:mrow></m:math> donde reconocemos la expresión con el paréntesis como la definición de <emphasis effect="italics">g</emphasis>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325789361">
+<problem id="fs-id1168325789363">
+<para id="fs-id1168325780823">Usando la <link document="m90682" target-id="CNX_UPhysics_13_02_ApparentW"/>, dibuje cuidadosamente un diagrama de cuerpo libre para el caso de un péndulo simple colgado en la latitud lambda, y etiquete todas las fuerzas que actúan sobre la masa puntual, <emphasis effect="italics">m</emphasis>. Establezca las ecuaciones de movimiento para el equilibrio, fije una coordenada en la dirección de la aceleración centrípeta (hacia <emphasis effect="italics">P</emphasis> en el diagrama) y la otra perpendicular a ella. Demuestre que el ángulo de deflexión <m:math><m:mrow><m:mi>ε</m:mi></m:mrow></m:math>, definido como el ángulo entre la cuerda del péndulo y la dirección radial hacia el centro de la Tierra, viene dado por la expresión siguiente. ¿Cuál es el ángulo de deflexión a 45 grados de latitud? Supongamos que la Tierra es una esfera perfecta. <m:math><m:mrow><m:mtext>tan</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>+</m:mo><m:mi>ε</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mi>g</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo>−</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mtext>tan</m:mtext><m:mi>λ</m:mi></m:mrow></m:math>, donde <m:math><m:mi>ω</m:mi></m:math> es la velocidad angular de la Tierra.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328321280">
+<problem id="fs-id1168328321282">
+<para id="fs-id1168328321284">(a) Demuestre que la fuerza de marea sobre un pequeño objeto de masa <emphasis effect="italics">m</emphasis>, definida como la <emphasis effect="italics">diferencia</emphasis> de la fuerza gravitacional que se ejercería sobre <emphasis effect="italics">m</emphasis> a una distancia en el lado cercano y en el lejano del objeto, debido a la gravitación a una distancia <emphasis effect="italics">R</emphasis> de <emphasis effect="italics">M</emphasis>, viene dada por <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>marea</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mtext>Δ</m:mtext><m:mi>r</m:mi></m:mrow></m:math> donde <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>r</m:mi></m:mrow></m:math> es la distancia entre el lado cercano y el lejano y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>r</m:mi><m:mtext>&lt;</m:mtext><m:mspace width="0.2em"/><m:mtext>&lt;</m:mtext><m:mi>R</m:mi></m:mrow></m:math>. (b) Suponga que está cayendo de pie en el agujero negro del centro de nuestra galaxia. Tiene una masa de 4 millones de masas solares. ¿Cuál sería la diferencia entre la fuerza en la cabeza y en los pies en el radio de Schwarzschild (horizonte de sucesos)? Suponga que los pies y la cabeza tienen cada uno una masa de 5,0 kg y están a 2,0 m de distancia. ¿Sobreviviría al atravesar el horizonte de sucesos?</para>
+</problem>
+<solution id="fs-id1168325695499">
+<para id="fs-id1168325695501">a. Encuentre la diferencia de fuerza,<newline/><m:math><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>marea</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>G</m:mi><m:mi>M</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mtext>Δ</m:mtext><m:mi>r</m:mi></m:math>;<newline/> b. Para el caso dado, usando el radio de Schwarzschild de un problema anterior, tenemos una fuerza de marea de <m:math><m:mrow><m:mn>9,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>. ¡Esto ni siquiera se notará!</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328301267">
+<problem id="fs-id1168328301269">
+<para id="fs-id1168328301272">Encuentre las velocidades de transferencia de Hohmann, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>ElipseTierra</m:mtext></m:mrow><m:mrow/></m:msubsup></m:mrow></m:math> y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>ElipseMarte</m:mtext></m:mrow><m:mrow/></m:msubsup></m:mrow></m:math>, necesario para un viaje a Marte. Use la <link document="m90684" target-id="fs-id1168328256234"/> para encontrar las velocidades orbitales circulares de la Tierra y Marte. Usando la <link document="m90683" target-id="fs-id1168329108070"/> y la energía total de la elipse (con semieje mayor <emphasis effect="italics">a</emphasis>), dado por <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>m</m:mi><m:msub><m:mi>M</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mrow/></m:msup></m:mrow></m:mfrac></m:mrow></m:math>, encuentre las velocidades en la Tierra (perihelio) y en Marte (afelio) necesarias para estar en la elipse de transferencia. La diferencia, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow></m:math>, en cada punto es el aumento de velocidad o la velocidad de transferencia necesaria.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1168326002720">
+<term>fuerza de acción a distancia</term>
+<meaning id="fs-id1168326002726">tipo de fuerza ejercida sin contacto físico</meaning>
+</definition>
+<definition id="fs-id1168326002730">
+<term>agujero negro</term>
+<meaning id="fs-id1168326002735">una masa que se vuelve tan densa, que colapsa sobre sí misma, creando una singularidad en el centro rodeada por un horizonte de sucesos</meaning>
+</definition>
+<definition id="fs-id1168325659928">
+<term>horizonte de sucesos</term>
+<meaning id="fs-id1168325659933">ubicación del radio de Schwarzschild, y es el lugar cercano a un agujero negro del que ningún objeto, ni siquiera la luz, puede escapar</meaning>
+</definition>
+<definition id="fs-id1168325659938">
+<term>estrella de neutrones</term>
+<meaning id="fs-id1168325659944">objeto más compacto conocido, fuera de un agujero negro</meaning>
+</definition>
+<definition id="fs-id1168325659950">
+<term>geometría no euclidiana</term>
+<meaning id="fs-id1168325659955">geometría de espacio curvo que describe las relaciones entre ángulos y líneas en la superficie de una esfera, un hiperboloide, etc.</meaning>
+</definition>
+<definition id="fs-id1168325659960">
+<term>principio de equivalencia</term>
+<meaning id="fs-id1168325659966">parte de la teoría general de la relatividad, afirma que no hay diferencia entre caída libre e ingravidez, o un campo gravitacional uniforme y una aceleración uniforme</meaning>
+</definition>
+<definition id="fs-id1168325659972">
+<term>radio de Schwarzschild</term>
+<meaning id="fs-id1168325659977">radio crítico (<m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math>) de tal manera que si una masa se comprimiera hasta el punto de que su radio fuera menor que el radio de Schwarzschild, entonces la masa colapsaría hasta convertirse en una singularidad, y cualquier cosa que pasara dentro de ese radio no podría escapar</meaning>
+</definition>
+<definition id="fs-id1168328120381">
+<term>espacio-tiempo</term>
+<meaning id="fs-id1168328120386">el concepto de espacio-tiempo es que el tiempo es esencialmente otra coordenada que se trata del mismo modo que cualquier coordenada espacial individual; en las ecuaciones que representan tanto la relatividad especial como la general, el tiempo aparece en el mismo contexto que las coordenadas espaciales</meaning>
+</definition>
+<definition id="fs-id1168328120393">
+<term>teoría de la relatividad general</term>
+<meaning id="fs-id1168328120398">Teoría de Einstein para gravitación y marcos de referencia acelerados; en esta teoría, la gravitación es el resultado de la masa y la energía que distorsionan el espacio-tiempo a su alrededor; también se suele denominar teoría de la gravedad de Einstein</meaning>
+</definition>
+</glossary>
+</document>

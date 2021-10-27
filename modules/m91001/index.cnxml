@@ -1,0 +1,282 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Aberturas circulares y resolución</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91001</md:content-id>
+  <md:title>Aberturas circulares y resolución</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir el límite de difracción en la resolución</item>
+<item>Describir el límite de difracción en la propagación del rayo</item></list></md:abstract>
+  <md:uuid>c5c9c98d-2607-4794-ae35-f32732787ca2</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172102062471">La luz se difracta al desplazarse por el espacio, curvándose alrededor de los obstáculos, interfiriendo de forma constructiva y destructiva. Esto puede utilizarse como herramienta espectroscópica (una rejilla de difracción dispersa la luz según la longitud de onda, por ejemplo, y se utiliza para producir espectros), pero la difracción también limita el detalle que podemos obtener en las imágenes.</para>
+<para id="fs-id1172101665463">La <link target-id="CNX_UPhysics_37_05_Light"/>(a) muestra el efecto del paso de la luz a través de una pequeña <term class="no-emphasis">abertura</term> circular. En lugar de un punto brillante con bordes nítidos, obtenemos un punto con un borde difuso rodeado de círculos de luz. Este patrón es causado por la difracción, similar a la producida por una rendija. La luz procedente de diferentes partes de la abertura circular interfiere de forma constructiva y destructiva. El efecto es más notable cuando la abertura es pequeña, pero el efecto está ahí también para aberturas grandes.</para>
+<figure id="CNX_UPhysics_37_05_Light">
+<media id="fs-id1172102133575" alt="La figura a muestra un círculo blanco brillante sobre un fondo negro. Su borde es difuso. Las figuras b y c muestran dos círculos blancos superpuestos. Los círculos de la figura c están más próximos entre sí que los de la figura b.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_37_05_Light.jpg"/>
+</media>
+<caption>(a) La luz monocromática que pasa a través de una pequeña abertura circular produce este patrón de difracción. (b) Dos fuentes de luz puntuales que están cerca la una de la otra producen imágenes superpuestas debido a la difracción. (c) Si las fuentes están más cerca, no se pueden distinguir o determinar.</caption>
+</figure>
+<para id="fs-id1172101905047">¿Cómo afecta la difracción al detalle que puede observarse cuando la luz pasa a través de una abertura? La <link target-id="CNX_UPhysics_37_05_Light"/>(b) muestra el patrón de difracción producido por dos fuentes de luz puntuales que están cerca la una de la otra. El patrón es similar al de una fuente puntual única, y todavía es posible decir que hay dos fuentes de luz en lugar de una. Si están más juntos, como en la <link target-id="CNX_UPhysics_37_05_Light"/>(c), no podemos distinguirlos, lo que limita el detalle o la <term>resolución</term> que podemos obtener. Este límite es una consecuencia ineludible de la naturaleza ondulatoria de la luz.</para>
+<para id="fs-id1172101688448">La difracción limita la resolución en muchas situaciones. La agudeza de nuestra visión es limitada porque la luz pasa a través de la pupila, que es la abertura circular del ojo. Tenga en cuenta que la propagación de la luz en forma de difracción se debe al diámetro limitado de un haz de luz, no a la interacción con una abertura. Así, la luz que pasa a través de una lente de diámetro <emphasis effect="italics">D</emphasis> muestra este efecto y se propaga, difuminando la imagen, al igual que la luz que pasa por una abertura de diámetro <emphasis effect="italics">D</emphasis>. Así, la difracción limita la resolución de cualquier sistema que tenga una lente o un espejo. Los telescopios también están limitados por la difracción, debido al diámetro finito <emphasis effect="italics">D</emphasis> del espejo primario.</para>
+<para id="fs-id1172101945964">¿Cuál es el límite? Para responder a esta pregunta, considere el patrón de difracción para una abertura circular, que tiene un máximo central más amplio y brillante que los máximos que lo rodean (similar a una rendija) (<link target-id="CNX_UPhysics_37_05_Bulb"/>(a)). Se puede demostrar que, para una abertura circular de diámetro <emphasis effect="italics">D</emphasis>, el primer mínimo en el patrón de difracción se produce en <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mtext>λ</m:mtext><m:mtext>/</m:mtext><m:mi>D</m:mi></m:mrow></m:math> (siempre que la abertura sea grande en comparación con la longitud de onda de la luz, como ocurre en la mayoría de los instrumentos ópticos). El criterio aceptado para determinar el <term>límite de difracción</term> de la resolución basado en este ángulo se conoce como el <term>criterio de Rayleigh</term>, que fue desarrollado por Lord Rayleigh en el siglo XIX.</para>
+<note id="fs-id1172101715475">
+<title>Criterio de Rayleigh</title>
+<para id="fs-id1172099490776">El límite de difracción para la resolución establece que dos imágenes son apenas resolubles cuando el centro del patrón de difracción de una está directamente sobre el primer mínimo del patrón de difracción de la otra (<link target-id="CNX_UPhysics_37_05_Bulb"/>(b)).</para>
+</note>
+<para id="fs-id1172101788340">El primer mínimo está en un ángulo de <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mtext>λ</m:mtext><m:mtext>/</m:mtext><m:mi>D</m:mi></m:mrow></m:math>, de modo que dos objetos puntuales son apenas resolubles si están separados por el ángulo</para>
+<note id="fs-id1172102022234" class="equation-callout">
+<equation id="fs-id1172102052235"><label/><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mfrac><m:mtext>λ</m:mtext><m:mi>D</m:mi></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172101918383">donde <m:math><m:mtext>λ</m:mtext></m:math> es la longitud de onda de la luz (u otra radiación electromagnética) y <emphasis effect="italics">D</emphasis> es el diámetro de la abertura, lente, espejo, etc., con la que se observan los dos objetos. En esta expresión, <m:math><m:mi>θ</m:mi></m:math> tiene unidades de radianes. Este ángulo también se conoce comúnmente como el límite de difracción.</para>
+<figure id="CNX_UPhysics_37_05_Bulb">
+<media id="fs-id1172101991501" alt="La figura a muestra un gráfico de la intensidad en función de theta. Tiene una cresta en el centro y ceros en más y menos 1,22 lambda divido entre D. La figura b muestra dos bombillas colocadas una al lado de la otra. Están marcados como objeto 1 y objeto 2. Un rayo de cada uno cruza el otro pasando por un agujero en un bloque en el punto de intersección. Forman un ángulo theta subíndice min entre sí. Los rayos inciden sobre una pantalla en el otro lado. Sus intensidades se muestran en la pantalla como ondas. La cresta de uno se corresponde con el cero del otro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_37_05_Bulb.jpg"/>
+</media>
+<caption>(a) Gráfica de la intensidad del patrón de difracción para una abertura circular. Tome en cuenta que, al igual que en una rendija simple, el máximo central es más amplio y brillante que los de los lados. (b) Dos objetos puntuales producen patrones de difracción superpuestos. Aquí se muestra el criterio de Rayleigh para que sea apenas resoluble. El máximo central de un patrón se encuentra en el primer mínimo del otro.</caption>
+</figure>
+<para id="fs-id1172101772757">Todos los intentos de observar el tamaño y la forma de los objetos están limitados por la longitud de onda del instrumento de medición. Incluso la pequeña longitud de onda de la luz impide una precisión exacta. Cuando se utilizan instrumentos de medición con longitudes de onda extremadamente pequeñas, como en el caso del microscopio electrónico, el sistema se ve perturbado, lo que sigue limitando nuestros conocimientos. El principio de incertidumbre de Heisenberg afirma que este límite es fundamental e ineludible, como veremos en el capítulo dedicado a la mecánica cuántica.</para>
+<example id="fs-id1172102118432">
+<para id="fs-id1172102037432"><title>Cálculo de los límites de difracción del telescopio espacial Hubble</title>
+El espejo primario del <term class="no-emphasis">telescopio espacial Hubble</term> en órbita tiene un diámetro de 2,40 m. Al estar en órbita, este telescopio evita los efectos degradantes de la distorsión atmosférica sobre su resolución. (a) ¿Cuál es el ángulo entre dos fuentes luminosas puntuales que son apenas resolubles (quizás dos estrellas)? Supongamos que la longitud de onda media de la luz es de 550 nm. (b) Si estas dos estrellas están a una distancia de 2 millones de años-luz, la cual es la distancia a la galaxia de Andrómeda, ¿qué tan cerca pueden estar y aún ser distinguidas? (Un año-luz, o ly, es la distancia que recorre la luz en 1 año).</para>
+<para id="fs-id1172101763086"><title>Estrategia</title>
+El criterio de Rayleigh que figura en la <link target-id="fs-id1172102052235"/>, <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mrow><m:mtext>λ</m:mtext><m:mtext>/</m:mtext><m:mi>D</m:mi></m:mrow></m:mrow></m:math>, da el menor ángulo posible <m:math><m:mi>θ</m:mi></m:math> entre las fuentes puntuales, o la mejor resolución posible. Una vez conocido este ángulo, podemos calcular la distancia entre las estrellas, ya que nos dan la distancia a la que se encuentran.</para>
+<para id="fs-id1172101781484"><title>Solución</title></para>
+<list id="fs-id1172101792823" list-type="enumerated" number-style="lower-alpha">
+<item>El criterio de Rayleigh para el ángulo mínimo resoluble es
+<equation id="fs-id1172101970991" class="unnumbered"><label/><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mfrac><m:mtext>λ</m:mtext><m:mi>D</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Al introducir los valores conocidos se obtiene
+<equation id="fs-id1172101633667" class="unnumbered"><label/><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mfrac><m:mrow><m:mn>550</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>2,40</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>La distancia <emphasis effect="italics">s</emphasis> entre dos objetos a una distancia <emphasis effect="italics">r</emphasis> y separados por un ángulo <m:math><m:mi>θ</m:mi></m:math> es <m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math><newline/> Al sustituir los valores conocidos se obtiene
+<equation id="fs-id1172099477972" class="unnumbered"><label/><m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>ly</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0,56</m:mn><m:mspace width="0.2em"/><m:mtext>ly</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1172101793898"><title>Importancia</title>
+El ángulo encontrado en la parte (a) es extraordinariamente pequeño (menos de 1/50 000 grados), porque el espejo primario es muy grande comparado con la longitud de onda de la luz. Como se ha observado, los efectos de difracción son más notables cuando la luz interactúa con objetos que tienen tamaños del orden de la longitud de onda de la luz. Sin embargo, el efecto sigue existiendo, y hay un límite de difracción para lo observable. La resolución real del telescopio Hubble no es tan buena como la que se encuentra aquí. Como en todos los instrumentos, hay otros efectos, como la falta de uniformidad de los espejos o las aberraciones de las lentes, que limitan aún más la resolución. Sin embargo, la <link target-id="CNX_UPhysics_37_05_Galaxy"/> da una indicación de la extensión del detalle observable con el Hubble debido a su tamaño y calidad, y especialmente porque está por encima de la atmósfera terrestre.</para>
+<figure id="CNX_UPhysics_37_05_Galaxy"><media id="fs-id1172099386652" alt="Las figuras a y b muestran imágenes telescópicas de una galaxia.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_37_05_Galaxy.jpg"/>
+</media>
+
+<caption>Estas dos fotografías de la galaxia M82 dan una idea de los detalles observables utilizando (a) un telescopio terrestre y (b) el telescopio espacial Hubble. (crédito a: modificación de la obra de "Ricnun"/Wikimedia Commons; crédito b: modificación de la obra de la Administración Nacional de Aeronáutica y del Espacio (National Aeronautics and Space Administration, NASA), la Agencia Espacial Europea (European Space Agency, ESA) y el Equipo Hubble Heritage (Instituto de Ciencias del Telescopio Espacial [Space Telescope Science Institute, STScI]/Asociación de Universidades para la Investigación en Astronomía [Association of Universities for Research in Astronomy, AURA]))</caption></figure><para id="fs-id1172101771198">La respuesta de la parte (b) indica que se pueden distinguir dos estrellas separadas por aproximadamente medio año luz. La distancia media entre las estrellas de una galaxia es del orden de cinco años-luz en las partes exteriores y de aproximadamente un año-luz cerca del centro galáctico. Por lo tanto, el Hubble puede distinguir la mayor parte de las estrellas individuales de la galaxia de Andrómeda, a pesar de que se encuentra a una distancia tan enorme que su luz tarda 2 millones de años en llegar a nosotros. La <link target-id="CNX_UPhysics_37_05_Bowl"/> muestra otro espejo utilizado para observar las ondas de radio del espacio exterior.</para><figure id="CNX_UPhysics_37_05_Bowl">
+<media id="fs-id1172101694487" alt="La fotografía muestra una gran superficie parabólica.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_37_05_Bowl.jpg"/>
+</media>
+<caption>Un paraboloide de 305 m de diámetro en Arecibo (Puerto Rico) está revestido de material reflectante, lo que lo convierte en un radiotelescopio. Es el mayor plato de enfoque curvo del mundo. Aunque la <emphasis effect="italics">D</emphasis> de Arecibo es mucho mayor que la del telescopio Hubble, detecta radiación de una longitud de onda mucho mayor y su límite de difracción es significativamente menor que el del Hubble. El telescopio de Arecibo sigue siendo muy útil, porque las ondas de radio transportan información importante que no transporta la luz visible. (crédito: Jeff Hitchcock)</caption>
+</figure>
+</example>
+<note id="fs-id1172102038385" class="check-understanding">
+<exercise id="fs-id1172102131316">
+<problem id="fs-id1172101650528">
+<para id="fs-id1172101643327">¿Cuál es la resolución angular del telescopio de Arecibo que se muestra en la <link target-id="CNX_UPhysics_37_05_Bowl"/> cuando funciona a una longitud de onda de 21 cm? ¿Cómo se compara con la resolución del telescopio Hubble?</para>
+</problem>
+<solution id="fs-id1172099414910">
+<para id="fs-id1172102078901"><m:math><m:mrow><m:mn>8,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:math>, 3000 veces más amplio que el telescopio Hubble</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1172101802640">La difracción no solo es un problema para los instrumentos ópticos, sino también para la radiación electromagnética en sí. Cualquier haz de luz que tenga un diámetro finito <emphasis effect="italics">D</emphasis> y una longitud de onda <m:math><m:mtext>λ</m:mtext></m:math> presenta una dispersión por difracción. El rayo se extiende con un ángulo <m:math><m:mi>θ</m:mi></m:math> dado por la <link target-id="fs-id1172102052235"/>, <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mrow><m:mi>λ</m:mi><m:mtext>/</m:mtext><m:mi>D</m:mi></m:mrow></m:mrow></m:math>. Tomemos, por ejemplo, un rayo láser formado por rayos lo más paralelos posible (ángulos entre los rayos lo más cercanos posible <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>) en su lugar se extiende en un ángulo <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mrow><m:mtext>λ</m:mtext><m:mtext>/</m:mtext><m:mi>D</m:mi></m:mrow></m:mrow></m:math>, donde <emphasis effect="italics">D</emphasis> es el diámetro del rayo y <m:math><m:mtext>λ</m:mtext></m:math> es su longitud de onda. Esta propagación es imposible de observar para una linterna porque su haz no es muy paralelo para empezar. Sin embargo, para la transmisión a larga distancia de rayos láser o señales de microondas, la dispersión por difracción puede ser significativa (<link target-id="CNX_UPhysics_37_05_Antenna"/>). Para evitarlo, podemos aumentar <emphasis effect="italics">D</emphasis>. Esto se hace para la luz láser enviada a la luna para medir su distancia con respecto a la Tierra. El rayo láser se expande a través de un telescopio para hacer <emphasis effect="italics">D</emphasis> mucho más grande y <m:math><m:mi>θ</m:mi></m:math> más pequeño.</para>
+<figure id="CNX_UPhysics_37_05_Antenna">
+<media id="fs-id1172102013990" alt="La figura muestra una antena parabólica de diámetro D. Las líneas que salen de dos bordes de la parabólica forman un ángulo theta con la horizontal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_37_05_Antenna.jpg"/>
+</media>
+<caption>El haz producido por esta antena de transmisión de microondas se extiende en un ángulo mínimo <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mrow><m:mtext>λ</m:mtext><m:mtext>/</m:mtext><m:mi>D</m:mi></m:mrow></m:mrow></m:math> debido a la difracción. Es imposible producir un haz casi paralelo porque el haz tiene un diámetro limitado.</caption>
+</figure>
+<para id="fs-id1172101768747">En la mayoría de los laboratorios de biología, la resolución es un problema cuando se introduce el uso del microscopio. Cuanto menor sea la distancia <emphasis effect="italics">x</emphasis> por la que se pueden separar dos objetos y seguir viéndolos como distintos, mayor será la resolución. La potencia de resolución de una lente se define como la distancia <emphasis effect="italics">x</emphasis>. Una expresión para la potencia de resolución se obtiene a partir del criterio de Rayleigh. La <link target-id="CNX_UPhysics_37_05_Microscope"/>(a) muestra dos objetos puntuales separados por una distancia <emphasis effect="italics">x</emphasis>. Según el criterio de Rayleigh, la resolución es posible cuando la separación angular mínima es</para>
+<equation id="fs-id1172101674418" class="unnumbered"><label/><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mfrac><m:mtext>λ</m:mtext><m:mi>D</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102104802">donde <emphasis effect="italics">d</emphasis> es la distancia entre la muestra y la lente del objetivo, y hemos utilizado la aproximación para ángulos pequeños (es decir, hemos asumido que <emphasis effect="italics">x</emphasis> es mucho menor que <emphasis effect="italics">d</emphasis>), por lo que <m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, la potencia de resolución es</para>
+<equation id="fs-id1172102078125" class="unnumbered"><label/><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mfrac><m:mrow><m:mtext>λ</m:mtext><m:mi>d</m:mi></m:mrow><m:mi>D</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101763841">Otra forma de ver esto es mediante el concepto de abertura numérica (numerical aperture, <emphasis effect="italics">NA</emphasis>), que es una medida del ángulo de aceptación máximo al que una lente tomará la luz y aún la contendrá dentro de la lente. La <link target-id="CNX_UPhysics_37_05_Microscope"/>(b) muestra una lente y un objeto en el punto <emphasis effect="italics">P</emphasis>. La <emphasis effect="italics">NA</emphasis> es una medida de la capacidad de la lente para recoger la luz y distinguir los detalles más pequeños. El ángulo subtendido por la lente en su foco se define como <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>α</m:mi></m:mrow></m:math>. A partir de la figura y utilizando de nuevo la aproximación de ángulos pequeños, podemos escribir</para>
+<equation id="fs-id1172102032470" class="unnumbered"><label/><m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>D</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>D</m:mi><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101733009">La <emphasis effect="italics">NA</emphasis> de una lente es <m:math><m:mrow><m:mi>N</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>α</m:mi></m:mrow></m:math>, donde <emphasis effect="italics">n</emphasis> es el índice de refracción del medio entre la lente del objetivo y el objeto en el punto <emphasis effect="italics">P</emphasis>. A partir de esta definición de <emphasis effect="italics">NA</emphasis>, podemos ver que</para>
+<equation id="fs-id1172101788906" class="unnumbered"><label/><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mfrac><m:mrow><m:mtext>λ</m:mtext><m:mi>d</m:mi></m:mrow><m:mi>D</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1,22</m:mn><m:mfrac><m:mtext>λ</m:mtext><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>α</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,61</m:mn><m:mfrac><m:mrow><m:mtext>λ</m:mtext><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>N</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101949137">En un microscopio, la <emphasis effect="italics">NA</emphasis> es importante porque está relacionada con la potencia de resolución de una lente. Una lente con una <emphasis effect="italics">NA</emphasis> grande es capaz de distinguir los detalles más pequeños. Las lentes con mayor <emphasis effect="italics">NA</emphasis> también pueden recoger más luz y, por tanto, ofrecer una imagen más brillante. Otra forma de describir esta situación es que cuanto mayor sea la <emphasis effect="italics">NA</emphasis>, mayor será el cono de luz que puede introducirse en la lente, por lo que se recogen más modos de difracción. Así, el microscopio tiene más información para formar una imagen clara, y su potencia de resolución es mayor.</para>
+<figure id="CNX_UPhysics_37_05_Microscope">
+<media id="fs-id1172101801977" alt="La figura a muestra dos puntos separados por una distancia d. Los rayos se originan en los puntos y se cruzan entre sí a una distancia d de los puntos. En el punto de intersección se coloca una lente de diámetro D. La figura b muestra un punto marcado como P, objeto. De aquí parten dos rayos que inciden en los dos extremos de la lente. Forman un ángulo alfa con el eje central y un ángulo theta entre sí. Theta es el ángulo de aceptación. La lente está marcada como objetivo microscópico. Los rayos vuelven a acercarse al otro lado de la lente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_37_05_Microscope.jpg"/>
+</media>
+<caption>(a) Dos puntos separados por una distancia <emphasis effect="italics">x</emphasis> y situados a una distancia <emphasis effect="italics">d</emphasis> del objetivo. (b) Términos y símbolos utilizados en la discusión sobre la potencia de resolución para una lente y un objeto en el punto <emphasis effect="italics">P</emphasis> (crédito a: modificación del trabajo de "Infopro"/Wikimedia Commons).</caption>
+</figure>
+<para id="fs-id1172102025537">Una de las consecuencias de la difracción es que el punto focal de un haz tiene una anchura y una distribución de intensidad finitas. Imagínese el enfoque cuando solo se considera la óptica geométrica, como en la <link target-id="CNX_UPhysics_37_05_Focal"/>(a). El punto focal se considera un punto infinitamente pequeño con una intensidad enorme y la capacidad de incinerar la mayoría de las muestras, independientemente de la <emphasis effect="italics">NA</emphasis> de la lente objetivo, una simplificación poco física. En el caso de la óptica de onda, debido a la difracción, se tiene en cuenta el fenómeno en el que el punto focal se propaga para convertirse en un área focal (<link target-id="CNX_UPhysics_37_05_Focal"/>(b)) con la disminución del tamaño del área al aumentar la <emphasis effect="italics">NA</emphasis>. En consecuencia, la intensidad en el área focal aumenta con el incremento de la <emphasis effect="italics">NA</emphasis>. Cuanto mayor sea la <emphasis effect="italics">NA</emphasis>, mayores serán las posibilidades de foto degradación de la muestra. Sin embargo, el área nunca se convierte en un verdadero punto.</para>
+<figure id="CNX_UPhysics_37_05_Focal">
+<media id="fs-id1172101754243" alt="Las figuras a y b muestran dos rayos que entran en una lente desde la izquierda. En la figura a, los rayos salen por la derecha y se cruzan en el punto focal. Esto se denomina enfoque óptico geométrico. En la figura b, los rayos emergen, se mueven uno hacia el otro, pero no se cruzan. La región donde más se acercan se denomina región focal. Los rayos se desvían a partir de aquí. Esto se denomina foco de óptica de onda.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_37_05_Focal.jpg"/>
+</media>
+<caption>(a) En la óptica geométrica, el foco se modela como un punto, pero no es físicamente posible producir tal punto porque implica una intensidad infinita. (b) En la óptica de onda, el foco es una región extendida.</caption>
+</figure>
+<para id="fs-id1172102067565">En otro tipo de microscopio, se hace que las moléculas de una muestra emitan luz a través de un mecanismo llamado fluorescencia. Mediante el control de las moléculas que emiten luz, se han podido construir imágenes con una resolución mucho más fina que el criterio de Rayleigh, sorteando así el límite de difracción. El desarrollo de la microscopía de fluorescencia de superresolución le valió el Premio Nobel de Química de 2014.</para>
+<note id="fs-id1172102030376" class="media-2">
+<para id="fs-id1172102014491">En este modelo de resolución óptica, se muestran dos patrones de difracción de la luz a través de dos aberturas circulares, una al lado de la otra, en <link url="https://openstax.org/l/21optresmodsim">esta simulación</link> de Fu-Kwun Hwang. Observe cómo se funden los patrones a medida que disminuye los diámetros de abertura.</para>
+</note>
+<section id="fs-id1172101774257" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172099375835" list-type="bulleted" bullet-style="bullet">
+<item>La difracción limita la resolución.</item>
+<item>El criterio de Rayleigh establece que dos imágenes son apenas distinguibles cuando el centro del patrón de difracción de una está directamente sobre el primer mínimo del patrón de difracción de la otra.</item>
+</list>
+</section>
+<section id="fs-id1172101777682" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172101761769">
+<problem id="fs-id1172102032710">
+<para id="fs-id1172101969372">¿Se obtiene mayor resolución en un microscopio con luz roja o azul? Explique su respuesta.</para>
+</problem>
+<solution id="fs-id1172101804963">
+<para id="fs-id1172101638842">azul; La menor longitud de onda de la luz azul da lugar a un ángulo menor para el límite de difracción.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101948972">
+<problem id="fs-id1172102124987">
+<para id="fs-id1172102066625">La potencia de resolución de un telescopio refractor aumenta con el tamaño de su lente objetivo. ¿Qué otra ventaja se obtiene con una lente más grande?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102085503">
+<problem id="fs-id1172102033691">
+<para id="fs-id1172102022017">La distancia entre los átomos de una molécula es de aproximadamente <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>. ¿Puede utilizarse la luz visible para “ver” moléculas?</para>
+</problem>
+<solution id="fs-id1172102137988">
+<para id="fs-id1172101945659">No, estas distancias son tres órdenes de magnitud menores que la longitud de onda de la luz visible, por lo que la luz visible es una mala forma deficiente de detectar los átomos.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099500727">
+<problem id="fs-id1172101763684">
+<para id="fs-id1172101988304">Un haz de luz siempre se expande. ¿Por qué no se puede crear un haz con rayos paralelos para evitar la propagación? ¿Por qué no se pueden utilizar lentes, espejos o aberturas para corregir la dispersión?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172102001053" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172101652327">
+<problem id="fs-id1172101992211">
+<para id="fs-id1172101757216">El radiotelescopio de Arecibo, de 305 m de diámetro, que se muestra en la <link target-id="CNX_UPhysics_37_05_Bowl"/>, detecta ondas de radio con una longitud de onda media de 4,00 cm. (a) ¿Cuál es el ángulo entre dos fuentes puntuales que son apenas resolubles para este telescopio? (b) ¿A qué distancia podrían estar estas fuentes puntuales a 2 millones de años luz de la galaxia de Andrómeda?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102151480">
+<problem id="fs-id1172102043968">
+<para id="fs-id1172101772289">Al asumir la resolución angular encontrada para el telescopio Hubble en la <link target-id="fs-id1172102118432"/>, ¿cuál es el detalle más pequeño que podría observarse en la Luna?</para>
+</problem>
+<solution id="fs-id1172101763402">
+<para id="fs-id1172102071471">107 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101986991">
+<problem id="fs-id1172102134486">
+<para id="fs-id1172099489302">La dispersión por difracción de una linterna es insignificante en comparación con otras limitaciones de su óptica, como las aberraciones esféricas de su espejo. Para demostrarlo, calcule la dispersión angular mínima de un haz de luz de linterna que tenga originalmente 5,00 cm de diámetro con una longitud de onda media de 600 nm.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101928204">
+<problem id="fs-id1172101675391">
+<para id="fs-id1172102019540">(a) ¿Cuál es la dispersión angular mínima de un rayo láser de He-Ne de 633 nm de longitud de onda que tiene originalmente 1,00 mm de diámetro? (b) Si este láser se dirige a un acantilado de una montaña situada a 15,0 km de distancia, ¿qué tamaño tendrá el área iluminada? (c) ¿Qué tamaño tendrá el área iluminada en la Luna, sin tener en cuenta los efectos atmosféricos? (Esto podría hacerse para golpear un reflector de esquina para medir el tiempo de ida y vuelta y, por lo tanto, la distancia)</para>
+</problem>
+<solution id="fs-id1172102130080">
+<para id="fs-id1172102137527">a. <m:math><m:mrow><m:mn>7,72</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>rad;</m:mtext></m:mrow></m:math> b. 23.2 m; c. 590 km</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101673386">
+<problem id="fs-id1172101992367">
+<para id="fs-id1172101663396">Se puede utilizar un telescopio para ampliar el diámetro de un rayo láser y limitar la dispersión por difracción. El rayo láser se envía a través del telescopio en dirección opuesta a la normal y luego puede proyectarse sobre un satélite o la Luna. (a) Si esto se hace con el telescopio del Monte Wilson, produciendo un rayo de 2,54 m de diámetro de luz de 633 nm, ¿cuál es la dispersión angular mínima del rayo? (b) Dejando a un lado los efectos atmosféricos, ¿cuál es el tamaño del área que este rayo haría en la Luna, suponiendo una distancia lunar de <m:math><m:mrow><m:mn>3,84</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101755955">
+<problem id="fs-id1172101939300">
+<para id="fs-id1172101928321">El límite de la agudeza del ojo está en realidad relacionado con la difracción por parte de la pupila. (a) ¿Cuál es el ángulo entre dos puntos de luz que son apenas resolubles para una pupila de 3,00 mm de diámetro, al asumir una longitud de onda media de 550 nm? (b) Considere que su resultado es el límite práctico para el ojo. ¿Cuál es la mayor distancia posible a la que puede estar un automóvil si puede distinguir sus dos faros, dado que están a 1,30 m de distancia? (c) ¿Cuál es la distancia entre dos puntos que son apenas resolubles y que están a un brazo de distancia (0,800 m) de su ojo? (d) ¿Cómo se compara su respuesta a (c) con los detalles que observa normalmente en circunstancias cotidianas?</para>
+</problem>
+<solution id="fs-id1172101759456">
+<para id="fs-id1172099376053">a. <m:math><m:mrow><m:mn>2,24</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. 5,81 km; c. 0,179 mm; d. puede distinguir los detalles a 0,2 mm de distancia a la distancia del brazo</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102122175">
+<problem id="fs-id1172101663233">
+<para id="fs-id1172102078723">¿Cuál es el diámetro mínimo del espejo de un telescopio que permitiría ver detalles tan pequeños como 5,00 km en la Luna, a unos 384.000 km de distancia? Suponga una longitud de onda media de 550 nm para la luz recibida.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101733944">
+<problem id="fs-id1172101975110">
+<para id="fs-id1172101985994">Halle el radio de la imagen de una estrella en la retina de un ojo si la pupila está abierta a 0,65 cm y la distancia de la pupila a la retina es de 2,8 cm. Supongamos que <m:math><m:mrow><m:mtext>λ</m:mtext><m:mo>=</m:mo><m:mn>550</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1172101716849">
+<para id="fs-id1172102132349"><m:math><m:mrow><m:mn>2,9</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101663118">
+<problem id="fs-id1172101775394">
+<para id="fs-id1172101969033">(a) El planeta enano Plutón y su luna, Caronte, están separados por 19 600 km. ¿Sin tener en cuenta los efectos atmosféricos, el telescopio de Palomar Mountain, de 5,08 m de diámetro, debería ser capaz de distinguir estos cuerpos cuando están a <m:math><m:mrow><m:mn>4,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math> de la Tierra? Supongamos que la longitud de onda media es de 550 nm. (b) En la actualidad, apenas es posible discernir que Plutón y Caronte son cuerpos separados utilizando un telescopio terrestre. ¿Cuáles son los motivos?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102118133">
+<problem id="fs-id1172099418088">
+<para id="fs-id1172099493051">Un satélite espía orbita la Tierra a una altura de 180 km. ¿Cuál es el diámetro mínimo de la lente objetivo de un telescopio que debe utilizarse para distinguir columnas de tropas que marchan a 2,0 m de distancia? Supongamos que <m:math><m:mrow><m:mtext>λ</m:mtext><m:mo>=</m:mo><m:mn>550</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1172102031545">
+<para id="fs-id1172101752925">6,0 cm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099493442">
+<problem id="fs-id1172102024386">
+<para id="fs-id1172101694091">¿Cuál es la separación angular mínima de dos estrellas que son apenas distinguibles por el telescopio Gemini South de 8,1 m, si los efectos atmosféricos no limitan la resolución? Utilice 550 nm para la longitud de onda de la luz de las estrellas.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099413892">
+<problem id="fs-id1172099378108">
+<para id="fs-id1172102150836">Los faros de un automóvil están a 1,3 m de distancia. ¿Cuál es la distancia máxima a la que el ojo puede distinguir estos dos faros? Tome el diámetro de la pupila como 0,40 cm.</para>
+</problem>
+<solution id="fs-id1172101805943">
+<para id="fs-id1172102023970">7,71 km</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102078440">
+<problem id="fs-id1172101950012">
+<para id="fs-id1172101694949">Cuando los puntos se colocan en una página de una impresora láser, deben estar lo suficientemente cerca como para que no se vean los puntos de tinta individuales. Para ello, la separación de los puntos debe ser menor que el criterio de Raleigh. Suponga que la pupila del ojo es de 3,0 mm y la distancia del papel al ojo de 35 cm; halle la separación mínima de dos puntos tal que no se puedan distinguir. ¿A cuántos puntos por pulgada (ppp o dots per inch, dpi) corresponde?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101756844">
+<problem id="fs-id1172101948953">
+<para id="fs-id1172101767602">Suponga que está mirando una carretera desde un avión de pasajeros que vuela a una altura de 6,0 km. ¿A qué distancia deben estar dos automóviles para poder distinguirlos? Supongamos que <m:math><m:mrow><m:mtext>λ</m:mtext><m:mo>=</m:mo><m:mn>550</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math> y que el diámetro de las pupilas es de 4,0 mm.</para>
+</problem>
+<solution id="fs-id1172102031689">
+<para id="fs-id1172102134887">1.0 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101731035">
+<problem id="fs-id1172101888013">
+<para id="fs-id1172102030727">¿Puede un astronauta que orbita la Tierra en un satélite a una distancia de 180 km de la superficie distinguir dos rascacielos que están a 20 m de distancia? Supongamos que las pupilas de los ojos del astronauta tienen un diámetro de 5,0 mm y que la mayor parte de la luz se centra en torno a los 500 nm.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099476094">
+<problem id="fs-id1172101668459">
+<para id="fs-id1172101733706">Los caracteres del marcador de un estadio están formados por bombillas poco espaciadas que irradian principalmente luz amarilla. (Utilice <m:math><m:mrow><m:mtext>λ</m:mtext><m:mo>=</m:mo><m:mn>600</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mo>.</m:mo></m:mrow></m:math>) ¿Qué distancia deben tener las bombillas para que un observador a 80 m de distancia vea una pantalla de líneas continuas en lugar de las bombillas individuales? Supongamos que la pupila del ojo del observador tiene un diámetro de 5,0 mm.</para>
+</problem>
+<solution id="fs-id1172101730938">
+<para id="fs-id1172101926967">1,2 cm o menos</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101766912">
+<problem id="fs-id1172102099352">
+<para id="fs-id1172101754522">Si un microscopio puede aceptar la luz de objetos en ángulos tan grandes como <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>70</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, ¿Cuál es la estructura más pequeña que se puede distinguir cuando se ilumina con luz de longitud de onda de 500 nm y (a) la muestra está en el aire? (b) cuando la muestra está sumergida en aceite, con índice de refracción de 1,52?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102081356">
+<problem id="fs-id1172101996138">
+<para id="fs-id1172101913736">Una cámara utiliza un objetivo con una abertura de 2,0 cm. ¿Cuál es la resolución angular de una fotografía tomada a una longitud de onda de 700 nm? ¿Se puede distinguir las marcas milimétricas de una regla colocada a 35 m de distancia?</para>
+</problem>
+<solution id="fs-id1172101793074">
+<para id="fs-id1172102051027">no</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172099479743">
+<term>límite de difracción</term>
+<meaning id="fs-id1172101888089">límite fundamental de la resolución debido a la difracción</meaning>
+</definition>
+<definition id="fs-id1172101758061">
+<term>Criterio de Rayleigh</term>
+<meaning id="fs-id1172102030117">dos imágenes son apenas resolubles cuando el centro del patrón de difracción de una está directamente sobre el primer mínimo del patrón de difracción de la otra</meaning>
+</definition>
+<definition id="fs-id1172102020040">
+<term>resolución</term>
+<meaning id="fs-id1172101698114">capacidad, o su límite, para distinguir pequeños detalles en las imágenes</meaning>
+</definition>
+</glossary>
+</document>

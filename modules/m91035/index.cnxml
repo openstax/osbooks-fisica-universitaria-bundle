@@ -1,0 +1,268 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Modelo de electrones libres de los metales</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91035</md:content-id>
+  <md:title>Modelo de electrones libres de los metales</md:title>
+  <md:abstract><para>Al final de esta sección podrá:</para><list>
+<item>Describir el modelo clásico de electrones libres de los metales en términos del concepto de la densidad numérica del electrón.</item>
+<item>Explicar el modelo cuántico de electrones libres de los metales en términos del principio de exclusión de Pauli.</item>
+<item>Calcular los niveles de energía y el espaciado entre niveles de energía de un electrón libre en un metal.</item></list></md:abstract>
+  <md:uuid>be15ca32-a7bf-472c-bd51-4b8919318186</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172098617087">Los metales, como el cobre y el aluminio, se mantienen unidos por enlaces muy diferentes a los de las moléculas. En lugar de compartir e intercambiar electrones, un metal se mantiene esencialmente unido por un sistema de electrones libres que vagan por el sólido. El modelo más simple de un metal es el <term>modelo de electrones libres</term>. Este modelo considera a los electrones como un gas. Primero consideramos el caso simple de una dimensión en la que los electrones se mueven libremente a lo largo de una línea, como por ejemplo a través de una varilla metálica muy delgada. La función potencial <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">x</emphasis>) para este caso es un pozo potencial infinito unidimensional donde las paredes del pozo corresponden a los bordes de la varilla. Este modelo ignora las interacciones entre los electrones pero respeta el principio de exclusión. Para el caso especial de <m:math><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn> <m:mtext>K</m:mtext></m:math>, electrones <emphasis effect="italics">N</emphasis> completan los niveles de energía, de menor a mayor, de dos en dos (con espín hacia arriba y espín hacia abajo), hasta llenar el nivel de energía más alto. La energía más alta que se llena se llama <term>energía de Fermi</term>.</para>
+
+<para id="fs-id1172098709688">El modelo unidimensional de electrones libres puede mejorarse considerando el caso tridimensional: electrones moviéndose libremente en un bloque metálico tridimensional. Este sistema se modela mediante un pozo potencial infinito tridimensional. Para determinar los estados energéticos permitidos es necesario que resolvamos la ecuación de Schrödinger independiente del tiempo.</para>
+<equation id="fs-id1172098530681"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>m</m:mi><m:mtext>e</m:mtext></m:msub></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>ψ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>E</m:mi><m:mspace width="0.2em"/><m:mi>ψ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098529559">donde suponemos que la energía potencial dentro de la caja es cero e infinita en caso contrario. Las funciones de onda permitidas que describen los estados cuánticos del electrón pueden escribirse como</para>
+<equation id="fs-id1172101038358"><m:math><m:mrow><m:mi>ψ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msqrt><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:msub><m:mi>L</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mi>x</m:mi></m:msub><m:mi>π</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msqrt><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:msub><m:mi>L</m:mi><m:mi>y</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mi>y</m:mi></m:msub><m:mi>π</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mi>y</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msqrt><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mi>z</m:mi></m:msub><m:mi>π</m:mi><m:mi>z</m:mi></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098312600">donde <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mi>y</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:math> son números enteros positivos que representan los números cuánticos correspondientes al movimiento en las direcciones de la <emphasis effect="italics">x</emphasis>, la <emphasis effect="italics">y</emphasis>y la <emphasis effect="italics">z</emphasis>, respectivamente, y <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>L</m:mi><m:mi>y</m:mi></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:math> son las dimensiones de la caja en esas direcciones. La <link target-id="fs-id1172101038358"/> es simplemente el producto de tres funciones de onda unidimensionales. Las energías permitidas de un electrón en un cubo <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> son</para>
+<note id="fs-id1172096334871" class="equation-callout">
+<equation id="fs-id1172100656071"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msubsup><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172096090241">Asociado a cada conjunto de números cuánticos <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>n</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mi>y</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mi>z</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> son dos estados cuánticos, con espín hacia arriba y espín hacia abajo. En un material real, el número de estados llenos es enorme. Por ejemplo, en un centímetro cúbico de metal, este número es del orden de <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> Contar cuántas partículas están en cada estado es un trabajo difícil, que a menudo requiere la ayuda de un potente ordenador. Sin embargo, el esfuerzo merece la pena, porque esta información suele ser una forma eficaz de comprobar el modelo.</para>
+<example id="fs-id1172098351198">
+<para id="fs-id1172098591889"><title>Energía de un cubo metálico</title>
+Considere un cubo metálico sólido de longitud de arista 2,0 cm. (a) ¿Cuál es el nivel de energía más bajo para un electrón dentro del metal? (b) ¿Cuál es el espacio entre este nivel y el siguiente nivel de energía?</para>
+<para id="fs-id1172098461531"><title>Estrategia</title>
+Un electrón en un metal puede modelarse como una onda. La energía más baja corresponde a la mayor longitud de onda y al menor número cuántico <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mi>y</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> La <link target-id="fs-id1172100656071"/> proporciona este valor de energía del "estado fundamental". Dado que la energía del electrón aumenta con el número cuántico, el siguiente nivel más alto implica el menor aumento de los números cuánticos, o <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>n</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mi>y</m:mi></m:msub><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mi>z</m:mi></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> o (1, 1, 2).</para>
+<para id="fs-id1172098549765"><title>Solución</title>
+El nivel de energía más bajo corresponde a los números cuánticos <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> A partir de la <link target-id="fs-id1172100656071"/>, la energía de este nivel es</para>
+<equation id="fs-id1172096342626" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>34</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>9,11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4,48</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>2,80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1172098573648">El siguiente nivel de energía más alto se alcanza aumentando en 1 cualquiera de los tres números cuánticos. Por lo tanto, en realidad hay tres estados cuánticos con la misma energía. Supongamos que aumentamos <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:math> por 1. Entonces la energía se convierte en</para>
+<equation id="fs-id1172100617430" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>m</m:mi><m:mtext>e</m:mtext></m:msub><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>34</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>9,11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>8,96</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>5,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1172096341681">Por lo tanto, el espacio energético entre el estado de menor energía y el siguiente estado de mayor energía es</para>
+<equation id="fs-id1172100530769" class="unnumbered"><label/><m:math><m:mrow><m:mtext>E</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mtext>E</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2,80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098573260"><title>Importancia</title>
+Se trata de una diferencia energética muy pequeña. Compare este valor con la energía cinética media de una partícula, <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math>, donde <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math> es la constante de Boltzmann y <emphasis effect="italics">T</emphasis> es la temperatura. El producto <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> es unas 1000 veces mayor que el espacio de energía.</para>
+</example>
+<note id="fs-id1172100893944" class="check-understanding">
+<exercise id="fs-id1172098564085">
+<problem id="fs-id1172100523236">
+<para id="fs-id1172100745762">¿Qué ocurre con la energía del estado fundamental de un electrón si las dimensiones del sólido aumentan?</para>
+</problem>
+<solution id="fs-id1172100617815">
+<para id="fs-id1172100911956">Disminuye.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1172101005756">Con frecuencia no nos interesa el número total de partículas en todos los estados, sino el número de partículas <emphasis effect="italics">dN</emphasis> con energías en un estrecho intervalo de energía. Este valor puede expresarse mediante</para>
+<equation id="fs-id1172100758633" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>N</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>E</m:mi><m:mo>·</m:mo><m:mi>F</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1172098704523">donde <emphasis effect="italics">n</emphasis>(<emphasis effect="italics">E</emphasis>) es la <term>densidad numérica de los electrones</term>, o el número de electrones por unidad de volumen, <emphasis effect="italics">g</emphasis>(<emphasis effect="italics">E</emphasis>) es la <term>densidad de estados</term>, o el número de estados cuánticos permitidos por unidad de energía, <emphasis effect="italics">dE</emphasis> es el tamaño del intervalo de energía, y <emphasis effect="italics">F</emphasis> es el <term>factor de Fermi</term>. El factor de Fermi es la probabilidad de que el estado se llene. Por ejemplo, si <emphasis effect="italics">g</emphasis>(<emphasis effect="italics">E</emphasis>)<emphasis effect="italics">dE</emphasis> tiene 100 estados disponibles, pero <emphasis effect="italics">F</emphasis> solo tiene <m:math><m:mrow><m:mn>5</m:mn><m:mi> %</m:mi></m:mrow></m:math>, entonces el número de partículas en este estrecho intervalo de energía es de solo cinco. Hallar <emphasis effect="italics">g</emphasis>(<emphasis effect="italics">E</emphasis>) requiere resolver la ecuación de Schrödinger (en tres dimensiones) para los niveles de energía permitidos. El cálculo es complicado incluso para un modelo rudimentario, pero el resultado es sencillo:</para>
+<note id="fs-id1172100850645" class="equation-callout">
+<equation id="fs-id1172100490784"><label/><m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>π</m:mi><m:mi>V</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>8</m:mn><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub></m:mrow><m:mrow><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mi>E</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172098378972">donde <emphasis effect="italics">V</emphasis> es el volumen del sólido, <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub></m:mrow></m:math> es la masa del electrón y <emphasis effect="italics">E</emphasis> es la energía del estado. Observe que la densidad de estados aumenta con la raíz cuadrada de la energía. Hay más estados disponibles a alta energía que a baja energía. Esta expresión <emphasis effect="italics">no</emphasis> proporciona información de la densidad de los electrones en el espacio físico, sino de la densidad de los niveles de energía en el "espacio energético". Por ejemplo, en nuestro estudio de la estructura atómica, aprendimos que los niveles de energía de un átomo de hidrógeno están mucho más espaciados para valores de energía pequeños (cercanos al estado fundamental) que para valores mayores.</para>
+<para id="fs-id1172098616809">Esta ecuación nos dice cuántos estados de los electrones están disponibles en un sólido metálico tridimensional. Sin embargo, no nos dice la probabilidad de que estos estados se llenen. Por lo tanto, necesitamos determinar el factor de Fermi, <emphasis effect="italics">F</emphasis>. Consideremos el caso simple de <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>. Desde la física clásica, esperamos que todos los electrones <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>∼</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>/</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math> simplemente pasarían al estado fundamental para alcanzar la menor energía posible. Sin embargo, esto viola el principio de exclusión de Pauli, que establece que no puede haber dos electrones en el mismo estado cuántico. Por lo tanto, cuando empezamos a llenar los estados con electrones, los estados con menor energía se ocupan primero, y luego los estados con energías progresivamente más altas. El <emphasis effect="italics">último electrón</emphasis> que ponemos tiene la mayor energía. Esta energía es la energía de Fermi <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub></m:mrow></m:math> del gas de electrones libres. Un estado con energía <m:math><m:mrow><m:mi>E</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub></m:mrow></m:math> está ocupado por un solo electrón, y un estado con energía <m:math><m:mrow><m:mi>E</m:mi><m:mo>&gt;</m:mo><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub></m:mrow></m:math> está desocupado. Para describir esto en términos de una probabilidad <emphasis effect="italics">F</emphasis>(<emphasis effect="italics">E</emphasis>) de que un estado de energía <emphasis effect="italics">E</emphasis> esté ocupado, escribimos para <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>:</para>
+<equation id="fs-id1172100623888"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo>&gt;</m:mo><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1172098525776">La densidad de estados, el factor de Fermi y la densidad numérica de los electrones se representan en función de la energía en la <link target-id="CNX_UPhysics_42_04_Fermi"/>.</para>
+<figure id="CNX_UPhysics_42_04_Fermi">
+<media id="fs-id1172098617378" alt="La figura a es un gráfico de g entre paréntesis E en función de E. La curva empieza en cero y va hacia arriba y hacia la derecha. Se etiqueta g E entre paréntesis es proporcional a E elevada a la mitad. La figura b es una gráfica de f entre paréntesis E en función de E. Hay una línea horizontal en el valor I de la y y una línea vertical en el valor E subíndice F en la x. Estas, junto con los ejes forman un rectángulo en el primer cuadrante. La figura c es un gráfico de g entre paréntesis E, f entre paréntesis E en función de E. Aquí se superponen las curvas de las figuras a y b. El punto de la curva con un valor de la x de E subíndice F tiene un valor y de g entre paréntesis E subíndice F.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_04_Fermi.jpg"/>
+</media>
+<caption>(a) Densidad de estados para un gas de electrones libres; (b) probabilidad de que un estado esté ocupado en <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>; (c) densidad de estados ocupados en <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1172100989931">Conviene hacer algunas observaciones. En primer lugar, la distribución de la densidad numérica de electrones (última fila) cae bruscamente en la energía de Fermi. Según la teoría, esta energía viene dada por</para>
+<note id="fs-id1172100774312" class="equation-callout">
+<equation id="fs-id1172098406592"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>N</m:mi></m:mrow><m:mrow><m:mi>π</m:mi><m:mi>V</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172100774478">Las energías de Fermi de los materiales seleccionados se enumeran en la siguiente tabla.</para>
+<table id="fs-id1172100781360" summary="This table has three columns, 6 rows and a header row. The header row labels each column: Element, Conduction Band Electron Density in 10 to the power 28 per meter cubed and Free electron Model Fermi Energy in eV. The first column has the following entries: Al, Ba, Cu, Au, Fe, Ag. The second column has the following values: 18.1, 3.15, 8.47, 5.9, 17, 5.86. The third column has the following values: 11.7, 3.64, 7, 5.53, 11.1 and 5.49.">
+<title>Densidades de electrones de conducción y energías de Fermi para algunos metales</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Elemento</entry>
+<entry valign="top" align="center">Densidad de electrones en la banda de conducción <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>28</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="center">Modelo de electrones libres de la energía de Fermi <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="center"> <m:math><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>18,1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>11,7</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"> <m:math><m:mrow><m:mtext>Ba</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>3,15</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>3,64</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"> <m:math><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>8,47</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>7,00</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"> <m:math><m:mrow><m:mtext>Au</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>5,90</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>5,53</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"> <m:math><m:mrow><m:mtext>Fe</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>17,0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>11,1</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"> <m:math><m:mrow><m:mtext>Ag</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>5,86</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>5,49</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1172101009804">Observe también que solo el gráfico en la parte (c) de la figura, que responde a la pregunta "¿cuántas partículas se encuentran en el rango de energía?" se comprueba mediante el experimento. La <term>temperatura de Fermi</term> o "temperatura" efectiva de un electrón en la energía de Fermi es</para>
+<note id="fs-id1172100626920" class="equation-callout">
+<equation id="fs-id1172100739545"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>F</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1172098509445">
+<para id="fs-id1172098695056"><title>Energía de Fermi de la plata</title>
+La plata metálica es un excelente conductor. Tiene <m:math><m:mrow><m:mn>5,86</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>28</m:mn></m:mrow></m:msup></m:mrow></m:math> electrones de conducción por metro cúbico. (a) Calcule su energía de Fermi. (b) Compare esta energía con la energía térmica <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> de los electrones a una temperatura ambiente de 300 K.</para>
+<para id="fs-id1172100665049"><title>Solución</title></para>
+<list id="fs-id1172100621187" list-type="enumerated" number-style="lower-alpha">
+<item>A partir de la <link target-id="fs-id1172098406592"/>, la energía de Fermi es
+<equation id="fs-id1172098524737" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>n</m:mi><m:mi>e</m:mi></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>9,11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5,86</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>28</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>8,79</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>5,49</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+Este es un valor típico de la energía de Fermi para los metales, como puede verse en la <link target-id="fs-id1172100781360"/>.</item>
+<item>Podemos asociar una temperatura de Fermi <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>F</m:mtext></m:msub></m:mrow></m:math> con la energía de Fermi escribiendo <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:msub><m:mi>T</m:mi><m:mtext>F</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Hallamos entonces para la temperatura de Fermi
+<equation id="fs-id1172101036919" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>F</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>8,79</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>1,38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6,37</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+que es muy superior a la temperatura ambiente y también al punto de fusión típico <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>∼</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> de un metal. La relación entre la energía de Fermi de la plata y la energía térmica a temperatura ambiente es
+<equation id="fs-id1172098441250" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>F</m:mtext></m:msub></m:mrow><m:mi>T</m:mi></m:mfrac><m:mo>≈</m:mo><m:mn>210</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+</item>
+</list>
+</example>
+<para id="fs-id1172098530350">Para visualizar cómo se llenan los estados cuánticos, podemos imaginar que se vierte agua lentamente en una copa, como la de la <link target-id="CNX_UPhysics_42_04_Martini"/>. Las primeras gotas de agua (los electrones) ocupan el fondo de la copa (los estados con menor energía). A medida que el nivel sube, se ocupan estados de energía cada vez más altos. Además, como la copa tiene una abertura amplia y un tallo estrecho, ocupa más agua en la parte superior de la copa que en la inferior. Esto refleja el hecho de que la densidad de estados <emphasis effect="italics">g</emphasis>(<emphasis effect="italics">E</emphasis>) es proporcional a <m:math><m:mrow><m:msup><m:mi>E</m:mi><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:math>, por lo que hay un número relativamente grande de electrones de mayor energía en un gas de electrones libres. Por último, el nivel al que se llena la copa corresponde a la energía de Fermi.</para>
+<figure id="CNX_UPhysics_42_04_Martini">
+<media id="fs-id1172098692864" alt="Fotografía de una copa de martini llena de agua a la mitad. El agua está marcada como gas de electrones y la línea de agua está marcada como energía de Fermi E subíndice F.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_04_Martini.jpg"/>
+</media>
+<caption>Una analogía de cómo los electrones llenan los estados de energía en un metal. A medida que los electrones llenan los estados de energía, de menor a mayor, el número de estados disponibles aumenta. El estado de mayor energía (correspondiente a la línea de agua) es la energía de Fermi (crédito: modificación del trabajo de "Didriks"/ Flickr).</caption>
+</figure>
+<para id="fs-id1172098780374">Supongamos que en <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>, el número de electrones de conducción por unidad de volumen en nuestra muestra es <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>e</m:mi></m:msub></m:mrow></m:math>. Como cada estado de campo tiene un electrón, el número de estados llenos por unidad de volumen es el mismo que el número de electrones por unidad de volumen.</para>
+<section id="fs-id1172098309267" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172098436344" list-type="bulleted" bullet-style="bullet">
+<item>Los metales conducen la electricidad, y ésta se compone de un gran número de electrones libres que chocan al azar.</item>
+<item>Los estados de energía permitidos de un electrón están cuantizados. Esta cuantización aparece en forma de energías del electrón muy grandes, incluso a <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>.</item>
+<item>Las energías permitidas de los electrones libres en un metal dependen de la masa de los electrones y de la densidad numérica de electrones del metal.</item>
+<item>La densidad de estados de un electrón en un metal aumenta con la energía, porque hay más formas de que un electrón llene un estado de alta energía que un estado de baja energía.</item>
+<item>El principio de exclusión de Pauli establece que solo dos electrones (con espín hacia arriba y espín hacia abajo) pueden ocupar el mismo nivel de energía. Por lo tanto, al llenar estos niveles de energía (de menor a mayor en <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> el último y mayor nivel de energía que se ocupa se denomina energía de Fermi.</item>
+</list>
+</section>
+<section id="fs-id1172100575287" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172100674977">
+<problem id="fs-id1172098308385">
+<para id="fs-id1172098270108">¿Por qué la energía de Fermi <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> aumenta con el número de electrones en un metal?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098797235">
+<problem id="fs-id1172098352038">
+<para id="fs-id1172100565566">Si la densidad numérica de electrones (<emphasis effect="italics">N/V</emphasis>) de un metal aumenta en un factor de 8, ¿qué sucede con la energía de Fermi <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1172096286738">
+<para id="fs-id1172100849379">aumenta en un factor de <m:math><m:mrow><m:mroot><m:mrow><m:msup><m:mn>8</m:mn><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098618744">
+<problem id="fs-id1172098389232">
+<para id="fs-id1172096194725">¿Por qué la línea horizontal del gráfico en la <link target-id="CNX_UPhysics_42_04_Fermi"/> se detiene de repente en la energía de Fermi?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098443865">
+<problem id="fs-id1172100986002">
+<para id="fs-id1172100911949">¿Por qué el gráfico en la <link target-id="CNX_UPhysics_42_04_Fermi"/> aumenta gradualmente desde el origen?</para>
+</problem>
+<solution id="fs-id1172100837550">
+<para id="fs-id1172100550410">Para energías mayores, el número de estados accesibles aumenta.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098573470">
+<problem id="fs-id1172098704528">
+<para id="fs-id1172098444164">¿Por qué se "suavizan" las transiciones bruscas en la energía de Fermi al aumentar la temperatura?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172098380202" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172100824569">
+<problem id="fs-id1172100623557">
+<para id="fs-id1172100885306">¿Cuál es la diferencia de energía entre el estado <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> y el estado con la siguiente energía más alta? ¿Cuál es el porcentaje de cambio en la energía entre el estado <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> y el estado con la siguiente energía más alta? (b) Compárelos con la diferencia de energía y el porcentaje de cambio en la energía entre el estado <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mn>400</m:mn></m:mrow></m:math> y el estado con la siguiente energía más alta.</para>
+</problem>
+<solution id="fs-id1172100845228">
+<para id="fs-id1172098310242">a. <m:math><m:mrow><m:mn>4</m:mn><m:mi> %</m:mi></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>4,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mi> %</m:mi></m:mrow></m:math>; para valores muy grandes de los números cuánticos, el espacio entre niveles de energía adyacentes es muy pequeño ("en el continuo"). Esto es consistente con la expectativa de que para grandes números cuánticos, la mecánica cuántica y la clásica dan aproximadamente las mismas predicciones.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100851412">
+<problem id="fs-id1172100528970">
+<para id="fs-id1172098257360">Un electrón está confinado en un cubo metálico de <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0,8</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> en cada lado. Determine la densidad de estados en (a) <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>0,80</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math>; (b) <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2,2</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math>; y (c) <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098261437">
+<problem id="fs-id1172100981837">
+<para id="fs-id1172100897132">¿Qué valor de energía corresponde a una densidad de estados de <m:math><m:mrow><m:mn>1,10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>eV</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172098433422">
+<para id="fs-id1172098433424">10,0 eV</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100669411">
+<problem id="fs-id1172100669413">
+<para id="fs-id1172100986509">Compare la densidad de estados a 2,5 eV y 0,25 eV.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100625454">
+<problem id="fs-id1172096090024">
+<para id="fs-id1172096090026">Consideremos un cubo de cobre con aristas de 1,50 mm de longitud. Estime el número de estados cuánticos de los electrones en este cubo cuyas energías están en el rango de 3,75 a 3,77 eV.</para>
+</problem>
+<solution id="fs-id1172098585533">
+<para id="fs-id1172096215815"><m:math><m:mrow><m:mn>4,55</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098296677">
+<problem id="fs-id1172098296680">
+<para id="fs-id1172098402506">Si hay un electrón libre por átomo de cobre, ¿cuál es la densidad numérica de electrones de este metal?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100619188">
+<problem id="fs-id1172100619190">
+<para id="fs-id1172100619192">Determine la energía de Fermi y la temperatura del cobre a <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1172098696060">
+<para id="fs-id1172098405144">La energía de Fermi, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>F</m:mtext></m:msub><m:mo>=</m:mo><m:mn>7,03</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>,</m:mo></m:mrow></m:math> Temperatura, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>F</m:mtext></m:msub><m:mo>=</m:mo><m:mn>8,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172098296436">
+<term>densidad de estados</term>
+<meaning id="fs-id1172101039953">número de estados cuánticos permitidos por unidad de energía.</meaning>
+</definition>
+<definition id="fs-id1172100753144">
+<term>densidad numérica del electrón</term>
+<meaning id="fs-id1172100986194">número de electrones por unidad de volumen.</meaning>
+</definition>
+<definition id="fs-id1172100986199">
+<term>energía de Fermi</term>
+<meaning id="fs-id1172098797151">mayor energía ocupada por los electrones en un metal a <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>.</meaning>
+</definition>
+<definition id="fs-id1172098762617">
+<term>factor de Fermi</term>
+<meaning id="fs-id1172101036972">número que expresa la probabilidad de que un estado de energía determinada se llene.</meaning>
+</definition>
+<definition id="fs-id1172101036976">
+<term>temperatura de Fermi</term>
+<meaning id="fs-id1172098377552">temperatura efectiva de los electrones con energías iguales a la energía de Fermi.</meaning>
+</definition>
+<definition id="fs-id1172098703927">
+<term>modelo de electrones libres</term>
+<meaning id="fs-id1172096334790">modelo de un metal que ve los electrones como un gas.</meaning>
+</definition>
+</glossary>
+
+</document>

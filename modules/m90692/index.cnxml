@@ -1,0 +1,220 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Principio de Arquímedes y flotabilidad</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90692</md:content-id>
+  <md:title>Principio de Arquímedes y flotabilidad</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Definir la fuerza de flotación.</item>
+<item>Enunciar el principio de Arquímedes.</item>
+<item>Describir la relación entre densidad y principio de Arquímedes.</item>
+</list></md:abstract>
+  <md:uuid>4a317194-3a51-49a2-9c30-d5c22d4c68a2</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170958023140">Algunos objetos flotan debido a una fuerza de flotación cuando se colocan en un fluido. ¿De dónde procede esta fuerza de flotación? ¿Por qué algunas cosas flotan y otras no? ¿Los objetos que se hunden reciben algún tipo de soporte del fluido? ¿Su cuerpo flota debido a la atmósfera o solo los globos de helio se afectan (<link target-id="CNX_UPhysics_Figure_14_04_BuoyancyEx"/>)?</para>
+<figure id="CNX_UPhysics_Figure_14_04_BuoyancyEx">
+<media id="fs-id1170958692145" alt="La figura A es un dibujo de un ancla de barco sumergida bajo el agua junto a unos arbustos marinos. La figura B es una foto de un submarino flotante con una estela en 3 lados. La figura C es una foto de varios globos de colores flotando en el aire.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_04_BuoyancyEx.jpg"/>
+</media>
+<caption>(a) Incluso objetos que se hunden, como esta ancla, están parcialmente sostenidos por el agua cuando se sumergen. (b) Los submarinos tienen densidad ajustable (tanques de lastre) para que puedan flotar o hundirse según se desee. (c) Los globos llenos de helio tiran hacia arriba de sus cuerdas, lo que demuestra el efecto de flotación del aire (créditos b: modificación de trabajo de Allied Navy; crédito c: modificación de trabajo de “Crystl”/Flickr).</caption>
+</figure>
+<para id="fs-id1170958667771">Las respuestas a todas estas preguntas, y a muchas otras, se basan en el hecho de que la presión aumenta con la profundidad en un fluido. Esto significa que la fuerza ascendente sobre el fondo de un objeto en un fluido es mayor que la fuerza descendente sobre la parte superior del objeto. Existe una fuerza ascendente, o <term>fuerza de flotación</term>, sobre cualquier objeto en cualquier fluido (<link target-id="CNX_UPhysics_Figure_14_04_NetBuoyant"/>). Si la fuerza de flotación es mayor que el peso del objeto, este sube a la superficie y flota. Si la fuerza de flotación es menor que el peso del objeto, este se hunde. Si la fuerza de flotación es igual al peso del objeto, este puede permanecer suspendido a su profundidad actual. La fuerza de flotación siempre está presente, ya sea que el objeto flote, se hunda o esté suspendido en un fluido.</para>
+<note id="fs-id1170958006037">
+<title>Fuerza de flotación</title>
+<para id="fs-id1170958930702">La fuerza de flotación es la fuerza ascendente sobre cualquier objeto en cualquier fluido.</para>
+</note>
+<figure id="CNX_UPhysics_Figure_14_04_NetBuoyant">
+<media id="fs-id1170958915659" alt="La figura es un dibujo esquemático del cilindro lleno de fluido y abierto a la atmósfera por un lado. Se sumerge en el fluido un objeto imaginario cuya superficie A es menor que la superficie del cilindro. La distancia entre la parte superior del fluido y la parte superior del objeto es h1. La distancia entre la parte superior del fluido y la parte inferior del objeto es h2. Las fuerzas F1 y F2 se aplican a las partes superior e inferior del objeto, respectivamente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_04_NetBuoyant.jpg"/>
+</media>
+<caption>La presión debido al peso de un fluido aumenta con la profundidad porque <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>p</m:mi><m:mi>g</m:mi></m:mrow></m:math> Este cambio de presión y la fuerza ascendente asociada en la parte inferior del cilindro son mayores que la fuerza descendente en la parte superior del cilindro. Las diferencias en la fuerza generan la fuerza de flotación <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math> (las fuerzas horizontales se anulan).</caption>
+</figure>
+<section id="fs-id1170958022574">
+<title>Principio de Arquímedes</title>
+<para id="fs-id1170958881037">¿Cuán grande es la fuerza de flotación? Para responder esta pregunta, piense en lo que ocurre cuando se extrae un objeto sumergido de un fluido, como en la <link target-id="CNX_UPhysics_Figure_14_04_WghtFluids"/>. Si el objeto no estuviera en el fluido, el espacio que ocupa el objeto estaría ocupado por un fluido con un peso <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mtext>fl</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> El fluido circundante soporta el peso, por lo que la fuerza de flotación debe ser igual a <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mtext>fl</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> el peso del fluido desplazado por el objeto.</para>
+<note id="fs-id1170958897603">
+<title>Principio de Arquímedes</title>
+<para id="fs-id1170958653811">La fuerza de flotación de un objeto es igual al peso del fluido que desplaza. En forma de ecuación, <term>el principio de Arquímedes</term> es</para>
+<equation id="fs-id1170959036616" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>B</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>w</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958022881">donde <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math> es la fuerza de flotación y <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mtext>fl</m:mtext></m:msub></m:mrow></m:math> es el peso del fluido desplazado por el objeto.</para>
+</note>
+<para id="fs-id1170958679114">Este principio recibe su nombre del matemático e inventor griego <term class="no-emphasis">Arquímedes</term> (circa 287-212 a. C.), quien enunció este principio mucho antes de que los conceptos de fuerza estuvieran bien establecidos.</para>
+<figure id="CNX_UPhysics_Figure_14_04_WghtFluids">
+<media id="fs-id1170958987253" alt="La figura A es un dibujo de una persona sumergida en el agua. La persona expresa la fuerza wobj, el agua aplica la fuerza Fb a la persona. La figura B es un dibujo en el que la persona se reemplaza por agua. Ahora, el agua que reemplazó a la persona expresa la fuerza wfl, la fuerza Fb sigue siendo la misma.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_04_WghtFluids.jpg"/>
+</media>
+<caption>a) Un objeto sumergido en un fluido experimenta una fuerza de flotación <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>B</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Si <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math> es mayor que el peso del objeto, el objeto se eleva. Si <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math> es menor que el peso del objeto, el objeto se hunde. (b) Si el objeto se retira, es reemplazado por un fluido con peso <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mtext>fl</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Como el fluido circundante soporta este peso, la fuerza de flotación debe ser igual al peso del fluido desplazado.</caption>
+</figure>
+<para id="fs-id1170958644441">El principio de Arquímedes se refiere a la fuerza de flotación que se genera cuando un cuerpo se sumerge en un fluido, ya sea parcial o totalmente. La fuerza que proporciona la presión de un fluido actúa sobre un cuerpo perpendicularmente a su superficie. En otras palabras, la fuerza debido a la presión en la parte inferior apunta hacia arriba, mientras que en la parte superior, la fuerza debido a la presión apunta hacia abajo; las fuerzas debido a las presiones en los lados apuntan hacia el cuerpo.</para>
+<para id="fs-id1170958638580">Como la parte inferior del cuerpo está a mayor profundidad que la superior, la presión en la parte inferior del cuerpo es mayor que la presión en la parte superior, como se muestra en la <link target-id="CNX_UPhysics_Figure_14_04_NetBuoyant"/>. Por lo tanto, una fuerza neta hacia arriba actúa sobre el cuerpo. Esta fuerza ascendente es la fuerza de flotación o, simplemente, <emphasis effect="italics">flotabilidad</emphasis>.</para>
+<note id="fs-id1170958861445" class="media-2">
+<para id="fs-id1170958683266">La exclamación “eureka” (que significa “lo he encontrado”) se ha atribuido, a menudo, a Arquímedes al hacer el descubrimiento que conduciría al principio de Arquímedes. Algunos dicen que todo empezó en una bañera. Para escuchar esta historia, vea este <link url="https://openstax.org/l/21archNASA">video</link> o explore <link url="https://openstax.org/l/21archsciamer">Scientific American</link> para saber más.</para></note>
+</section>
+<section id="fs-id1170958864634">
+<title>Densidad y principio de Arquímedes</title>
+<para id="fs-id1170958989240">Si deja caer un bloque de arcilla en el agua, se hundirá. Pero si se moldea el mismo bloque de arcilla en forma de barco, este flotará. Debido a su forma, el barco de arcilla desplaza más agua que el bloque y experimenta una mayor fuerza de flotación, aunque su masa sea la misma. Lo mismo ocurre con los barcos de acero.</para>
+<para id="fs-id1170958710369">La densidad media de un objeto es lo que determina en última instancia si flota. Si la densidad media de un objeto es menor que la del fluido que lo rodea, flotará. La explicación es que el fluido, al tener una mayor densidad, contiene más masa y, por tanto, más peso en el mismo volumen. La fuerza de flotación, que es igual al peso del fluido desplazado, es por tanto mayor que el peso del objeto. Asimismo, un objeto más denso que el fluido se hundirá.</para>
+<para id="fs-id1170958937018">El grado de inmersión de un objeto flotante depende de la comparación de la densidad del objeto con la del fluido. En la <link target-id="CNX_UPhysics_Figure_14_04_FloatShips"/>, por ejemplo, el barco sin carga tiene una densidad menor y se sumerge menos en comparación con el mismo barco cuando está cargado. Podemos derivar una expresión cuantitativa para la fracción sumergida considerando la densidad. La fracción sumergida es la relación entre el volumen sumergido y el volumen del objeto, o</para>
+<equation id="fs-id1170958702865" class="unnumbered"><label/><m:math><m:mrow><m:mtext>fracción sumergida</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>sub</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>obj</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>obj</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959021334">El volumen sumergido es igual al volumen de fluido desplazado, que llamamos <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>f</m:mi><m:mi>l</m:mi></m:mrow></m:msub></m:mrow></m:math> Ahora podemos obtener la relación entre las densidades al sustituir <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow></m:math> en la expresión. Esto da</para>
+<equation id="fs-id1170958965932" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>obj</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>obj</m:mtext></m:mrow></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>obj</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958010877">donde <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>obj</m:mtext></m:mrow></m:msub></m:mrow></m:math> es la densidad media del objeto y <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub></m:mrow></m:math> es la densidad del fluido. Como el objeto flota, su masa y la del fluido desplazado son iguales, por lo que se anulan de la ecuación, y queda</para>
+<equation id="fs-id1170958860960" class="unnumbered"><label/><m:math><m:mrow><m:mtext>fracción sumergida</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>obj</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958908207">Podemos usar esta relación para medir densidades.</para>
+<figure id="CNX_UPhysics_Figure_14_04_FloatShips">
+<media id="fs-id1170958658312" alt="La figura A es un dibujo de un barco sin carga que flota en lo alto del agua. La figura B es un dibujo de un barco cargado que flota a mayor profundidad en el agua.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_04_FloatShips.jpg"/>
+</media>
+<caption>Un barco sin carga (a) flota más alto en el agua que un barco con carga (b).</caption>
+</figure>
+<example id="fs-id1170958966107">
+<para id="fs-id1170958790620"><title>Cálculo de densidad media</title>
+Supongamos que una mujer de 60,0 kg flota en agua dulce con el 97,0 % de su volumen sumergido cuando sus pulmones están llenos de aire. ¿Cuál es su densidad media?</para>
+<para id="fs-id1170958015538"><title>Estrategia</title>
+Podemos encontrar la densidad de la mujer al resolver la ecuación</para>
+<equation id="fs-id1170959033071" class="unnumbered"><label/><m:math><m:mrow><m:mtext>fracción sumergida</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>obj</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1170958991116">para la densidad del objeto. Esto arroja</para>
+<equation id="fs-id1170958891020" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>obj</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>persona</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>(fracción sumergida)</m:mtext><m:mo>·</m:mo><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958790421">Conocemos tanto la fracción sumergida como la densidad del agua, por lo que podemos calcular la densidad de la mujer.</para>
+<para id="fs-id1170958861889"><title>Solución</title>
+Al introducir los valores conocidos en la expresión de su densidad, obtenemos</para>
+<equation id="fs-id1170958702561" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>persona</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0,970</m:mn><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>970</m:mn><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958808646"><title>Importancia</title>
+La densidad de la mujer es menor que la del fluido. Esperamos esto porque ella flota.</para>
+</example>
+<para id="fs-id1170958767862">Numerosos objetos o sustancias de baja densidad flotan en fluidos de mayor densidad: el aceite en el agua, un globo de aire caliente en la atmósfera, un trozo de corcho en el vino, un iceberg en agua salada y la cera caliente en una “lámpara de lava”, por nombrar algunos. Un ejemplo menos obvio son las cadenas montañosas que flotan sobre la corteza y el manto de mayor densidad que hay debajo. Incluso la Tierra aparentemente sólida tiene características fluidas.</para>
+</section>
+<section id="fs-id1170958677281">
+<title>Medición de densidad</title>
+<para id="fs-id1170958698030">Una de las técnicas más comunes para determinar la densidad se muestra en <link target-id="CNX_UPhysics_Figure_14_04_ApparentWt"/>.</para>
+<figure id="CNX_UPhysics_Figure_14_04_ApparentWt">
+<media id="fs-id1170958954413" alt="La figura A es un dibujo de una moneda en el aire pesada en una balanza manual. Se usa un contrapeso grande para compensar la moneda. La figura B es un dibujo de la misma moneda en agua pesada en la balanza manual. Se usa un contrapeso más pequeño para compensar la moneda.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_04_ApparentWt.jpg"/>
+</media>
+<caption>(a) Se pesa una moneda en el aire. (b) Se determina el peso aparente de la moneda mientras está completamente sumergida en un fluido de densidad conocida. Estas dos medidas se usan para calcular la densidad de la moneda.</caption>
+</figure>
+<para id="fs-id1170958681628">Un objeto, en este caso una moneda, se pesa en el aire y luego se vuelve a pesar sumergido en un líquido. Se puede calcular la densidad de la moneda, una indicación de su autenticidad, si se conoce la densidad del fluido. Podemos usar esta misma técnica para determinar la densidad del fluido si se conoce la densidad de la moneda.</para>
+<para id="fs-id1170958626721">Todos estos cálculos se basan en el principio de Arquímedes, que establece que la fuerza de flotación sobre el objeto es igual al peso del fluido desplazado. Esto, a su vez, significa que el objeto parece pesar menos cuando está sumergido; a esta medida la llamamos peso aparente del objeto. El objeto sufre una pérdida de peso aparente igual al peso del fluido desplazado. Alternativamente, en las balanzas que miden la masa, el objeto sufre una pérdida de masa aparente igual a la masa del fluido desplazado. Es decir, la pérdida de peso aparente es igual al peso del fluido desplazado, o la pérdida de masa aparente es igual a la masa del fluido desplazado.</para>
+</section>
+<section id="fs-id1170958997793" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170958612127" list-type="bulleted" bullet-style="bullet">
+<item>La fuerza de flotación es la fuerza ascendente neta sobre cualquier objeto en cualquier fluido. Si la fuerza de flotación es mayor que el peso del objeto, este subirá a la superficie y flotará. Si la fuerza de flotación es menor que el peso del objeto, este se hundirá. Si la fuerza de flotación es igual al peso del objeto, este puede permanecer suspendido a su profundidad actual. La fuerza de flotación está siempre presente y actúa sobre cualquier objeto sumergido parcial o totalmente en un fluido.</item>
+<item>El principio de Arquímedes establece que la fuerza de flotación de un objeto es igual al peso del fluido que desplaza.</item>
+</list>
+</section>
+<section id="fs-id1170958709006" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1170958710722">
+<problem id="fs-id1170958874564">
+<para id="fs-id1170958668780">Se necesita más fuerza para halar el tapón en una bañera llena que cuando está vacía. ¿Esto contradice el principio de Arquímedes? Explique su respuesta.</para>
+</problem>
+<solution id="fs-id1170958074520">
+<para id="fs-id1170958761648">En absoluto. El principio de Pascal dice que el cambio de presión se ejerce a través del fluido. La explicación por la que la bañera llena requiere más fuerza para halar el tapón es por el peso del agua sobre el tapón.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959004877">
+<problem id="fs-id1170958697632">
+<para id="fs-id1170958900597">¿Los fluidos ejercen fuerzas de flotación en un ambiente “ingrávido”, como en el transbordador espacial? Explique su respuesta.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958908768">
+<problem id="fs-id1170958573503">
+<para id="fs-id1170958818701">¿El mismo barco flotará más alto en agua salada que en agua dulce? Explique su respuesta.</para>
+</problem>
+<solution id="fs-id1170958707558">
+<para id="fs-id1170958683195">La fuerza de flotación es igual al peso del fluido desplazado. Cuanto mayor sea la densidad del fluido, menos fluido será necesario desplazar para que el peso del objeto se soporte y flote. Como la densidad del agua salada es mayor que la del agua dulce, se desplazará menos agua salada y el barco flotará más alto.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959036511">
+<problem id="fs-id1170958640920">
+<para id="fs-id1170958790348">Las canicas que se dejan caer en una bañera parcialmente llena se hunden hasta el fondo. Parte de su peso lo soporta la fuerza de flotación, pero la fuerza descendente en el fondo de la bañera aumenta exactamente en el peso de las canicas. Explique por qué.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170958901941" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170958996429">
+<problem id="fs-id1170958818452">
+<para id="fs-id1170958657060">¿Qué fracción de hielo se sumerge cuando flota en agua dulce, dada la densidad del agua a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> está muy cerca de <m:math><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958941696">
+<problem id="fs-id1170959004780">
+<para id="fs-id1170959005054">Si el cuerpo de una persona tiene una densidad de <m:math><m:mrow><m:mn>995</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>, ¿qué fracción del cuerpo estará sumergida cuando flote suavemente en (a) agua dulce? (b) ¿Y en agua salada con una densidad de <m:math><m:mrow><m:mn>1.027</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170958875108">
+<para id="fs-id1170958874619">a. 99,5 % sumergido; b. 96,9 % sumergido.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958020349">
+<problem id="fs-id1170958808185">
+<para id="fs-id1170958543718">Una roca con una masa de 540 g en el aire tiene una masa aparente de 342 g cuando se sumerge en el agua. (a) ¿Qué masa de agua se desplaza? (b) ¿Cuál es el volumen de la roca? (c) ¿Cuál es su densidad media? ¿Esto es coherente con el valor del granito?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959007283">
+<problem id="fs-id1170958021891">
+<para id="fs-id1170958878551">El principio de Arquímedes se puede usar para calcular la densidad de un fluido, así como la de un sólido. Supongamos que un trozo de hierro con una masa de 390,0 g en el aire tiene una masa aparente de 350,5 g cuando está completamente sumergido en un líquido desconocido. (a) ¿Qué masa de fluido desplaza el hierro? (b) ¿Cuál es el volumen del hierro usando su densidad dada en <link target-id="fs-id1170958649431" document="m90689"/>? (c) Calcule la densidad del fluido e identifíquela.</para>
+</problem>
+<solution id="fs-id1170958537912">
+<para id="fs-id1170958744991">a. 39,5 g; b <m:math><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>; c. <m:math><m:mrow><m:mn>0,79</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>g/cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>; alcohol etílico.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958656407">
+<problem id="fs-id1170958617250">
+<para id="fs-id1170958705812">Calcule la fuerza de flotación sobre un globo de helio de 2,00 L. (b) Dado que la masa de la goma en el globo es de 1,50 g, ¿cuál es la fuerza vertical neta sobre el globo si se suelta? No hay que tener en cuenta el volumen de la goma.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958910567">
+<problem id="fs-id1170958548739">
+<para id="fs-id1170958652425">¿Cuál es la densidad de una mujer que flota en agua dulce con <m:math><m:mrow><m:mn>4,00</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> de su volumen sobre la superficie? (Esto se podría medir colocándola en un tanque con marcas en el lateral para medir la cantidad de agua que desplaza cuando flota y cuando se mantiene bajo el agua). (b) ¿Qué porcentaje de su volumen está por encima de la superficie cuando flota en agua de mar?</para>
+</problem>
+<solution id="fs-id1170958861223">
+<para id="fs-id1170958547544">a. <m:math><m:mrow><m:msup><m:mrow><m:mn>960</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>; b. 6,34 %; flota más alto en el agua de mar.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958701563">
+<problem id="fs-id1170958813307">
+<para id="fs-id1170958653855">Un hombre tiene una masa de 80 kg y una densidad de <m:math><m:mrow><m:mn>955</m:mn><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> (excluye el aire de los pulmones). (a) Calcule su volumen. (b) Encuentre la fuerza de flotación que el aire ejerce sobre él. (c) ¿Cuál es la relación entre la fuerza de flotación y su peso?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958533803">
+<problem id="fs-id1170958935917">
+<para id="fs-id1170959000630">Se puede fabricar una brújula sencilla colocando un pequeño imán de barra sobre un corcho que flota en el agua. (a) ¿Qué fracción de un corcho liso quedará sumergida al flotar en el agua? (b) Si el corcho tiene una masa de 10,0 g y se coloca un imán de 20,0 g sobre él, ¿qué fracción del corcho quedará sumergida? (c) ¿El imán de barra y el corcho flotarán en alcohol etílico?</para>
+</problem>
+<solution id="fs-id1170958808514">
+<para id="fs-id1170958637362">a. 0,24; b. 0,72; c. Sí, el corcho flotará en alcohol etílico.</para></solution>
+</exercise>
+<exercise id="fs-id1170958567299">
+<problem id="fs-id1170958767797">
+<para id="fs-id1170958870222">¿Qué porcentaje del peso de un ancla de hierro será soportado por la fuerza de flotación cuando se sumerja en agua salada?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958985410">
+<problem id="fs-id1170958818744">
+<para id="fs-id1170958590400">Consulte la <link target-id="CNX_UPhysics_Figure_14_04_NetBuoyant"/> y demuestre que la fuerza de flotación sobre el cilindro es igual al peso del fluido desplazado (principio de Arquímedes). Puede suponer que la fuerza de flotación es <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y que los extremos del cilindro tienen áreas iguales<m:math><m:mi>A</m:mi></m:math> Obsérvese que el volumen del cilindro (y el del fluido que desplaza) es igual a <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mi>A</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1170958626937">
+<para id="fs-id1170958909795"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>neta</m:mtext><m:mspace width="0.2em"/><m:mi>F</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mi>A</m:mi><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mi>A</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mi>A</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub><m:mi>g</m:mi><m:mo>−</m:mo><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>A</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub><m:mi>g</m:mi><m:mi>A</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>donde</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>densidad del fluido</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>neta</m:mtext><m:mspace width="0.2em"/><m:mi>F</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mi>A</m:mi><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub><m:mi>g</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub><m:mi>g</m:mi><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub><m:mi>g</m:mi><m:mo>=</m:mo><m:msub><m:mi>w</m:mi><m:mrow><m:mtext>fl</m:mtext></m:mrow></m:msub></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958902281">
+<problem id="fs-id1170958744709">
+<para id="fs-id1170958698564">Un hombre de 75,0 kg flota en agua dulce con el 3,00 % de su volumen por encima del agua cuando sus pulmones están vacíos, y con el 5,00 % de su volumen por encima del agua cuando sus pulmones están llenos. Calcule el volumen de aire que inhala —llamado capacidad pulmonar— en litros. (b) ¿Le resulta razonable este volumen pulmonar?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170958644891">
+<term>principio de Arquímedes</term>
+<meaning id="fs-id1170958611936">la fuerza de flotación de un objeto es igual al peso del fluido que desplaza</meaning>
+</definition>
+<definition id="fs-id1170958684974">
+<term>fuerza de flotación</term>
+<meaning id="fs-id1170958860780">fuerza ascendente neta sobre cualquier objeto en cualquier fluido debido a la diferencia de presión a diferentes profundidades</meaning>
+</definition>
+</glossary>
+</document>

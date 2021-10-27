@@ -1,0 +1,231 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Ley de Ampère</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90914</md:content-id>
+  <md:title>Ley de Ampère</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar cómo la ley de Ampère relaciona el campo magnético producido por una corriente con su valor.</item>
+<item>Calcular el campo magnético de un cable largo y recto, ya sea delgado o grueso, por la ley de Ampère.</item>
+</list></md:abstract>
+  <md:uuid>03a8f7d6-7a19-49e1-bc6c-29fc1edc06f4</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1166167402958">Una propiedad fundamental de un campo magnético estático es que, a diferencia de un campo electrostático, no es conservador. Un campo conservador es aquel que realiza la misma cantidad de trabajo sobre una partícula que se desplaza entre dos puntos diferentes, sin importar la trayectoria elegida. Los campos magnéticos no tienen esa propiedad. En cambio, existe una relación entre el campo magnético y su fuente, la corriente eléctrica. Se expresa en términos de la integral de línea de <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> y se conoce como <term>la ley de Ampère.</term> Esta ley también puede derivarse directamente de la ley de Biot-Savart. Consideramos ahora esa derivación para el caso especial de un cable lineal infinito.</para>
+<para id="fs-id1166167113768">La <link target-id="CNX_UPhysics_29_05_AmpereArb"/> muestra un plano arbitrario perpendicular a un cable lineal infinito cuya corriente <emphasis effect="italics">I</emphasis> se dirige fuera de la página. Las líneas de campo magnético son círculos dirigidos en sentido contrario a las agujas del reloj y centrados en el cable. Para empezar, consideremos <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> sobre las trayectorias cerradas <emphasis effect="italics">M</emphasis> y <emphasis effect="italics">N</emphasis>. Observe que una trayectoria (<emphasis effect="italics">M</emphasis>) encierra el cable, mientras que la otra (<emphasis effect="italics">N</emphasis>) no. Como las líneas de campo son circulares, <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> es el producto de <emphasis effect="italics">B</emphasis> y la proyección de <emphasis effect="italics">dl</emphasis> sobre el círculo que pasa por <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Si el radio de este círculo particular es <emphasis effect="italics">r</emphasis>, la proyección es <m:math><m:mrow><m:mi>r</m:mi><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> y</para>
+<equation id="fs-id1166167079083" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_29_05_AmpereArb">
+<media id="fs-id1166167079731" alt="Las figuras A y B muestran un plano arbitrario perpendicular a un cable lineal infinito cuya corriente I se dirige hacia fuera de la página. Las líneas de campo magnético son círculos dirigidos en sentido contrario a las agujas del reloj y centrados en el cable. La trayectoria de amperios M demostrada en la figura A encierra el cable. La trayectoria de amperios N demostrada en la figura B no encierra el cable.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_05_AmpereArb.jpg"/>
+</media>
+<caption>La corriente <emphasis effect="italics">I</emphasis> de un cable lineal largo se dirige hacia fuera de la página. La integral <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> es igual a <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:math> y 0, respectivamente, para los trayectos <emphasis effect="italics">M</emphasis> y <emphasis effect="italics">N</emphasis>.</caption>
+</figure>
+<para id="fs-id1166165865545">Con <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo>→</m:mo></m:mover></m:mstyle></m:math> dado por la <link target-id="fs-id1166168124989" document="m90912"/>,</para>
+<equation id="fs-id1166167311525"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167046931">Para la trayectoria <emphasis effect="italics">M</emphasis>, que circula alrededor del cable, <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>M</m:mi></m:msub><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:math> y</para>
+<equation id="fs-id1166167369167"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>M</m:mi></m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167112513">La trayectoria <emphasis effect="italics">N</emphasis>, por el contrario, circula por el positivo (en sentido contrario a las agujas del reloj) y el negativo (en sentido de las agujas del reloj) <m:math><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math> (vea la <link target-id="CNX_UPhysics_29_05_AmpereArb"/>), y como está cerrado, <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>N</m:mi></m:msub><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>0.</m:mn></m:mrow></m:math> Así, para la trayectoria <emphasis effect="italics">N</emphasis>,</para>
+<equation id="fs-id1166167124699"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∮</m:mo><m:mi>N</m:mi></m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167277364">La extensión de este resultado al caso general es la ley de Ampère.</para>
+<note id="fs-id1166167034996">
+<title>Ley de Ampère</title>
+<para id="fs-id1166167075913">Sobre una trayectoria cerrada arbitraria,</para>
+<equation id="fs-id1166167040161"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1166167089517">donde <emphasis effect="italics">I</emphasis> es la corriente total que pasa por cualquier superficie abierta <emphasis effect="italics">S</emphasis> cuyo perímetro es la trayectoria de integración. Solo hay que tener en cuenta las corrientes dentro de la trayectoria de integración.</para>
+</note>
+<para id="fs-id1166167104466">Para determinar si una corriente específica <emphasis effect="italics">I</emphasis> es positiva o negativa, curve los dedos de su mano derecha en la dirección de la trayectoria de integración, como se muestra en la <link target-id="CNX_UPhysics_29_05_AmpereArb"/>. Si <emphasis effect="italics">I</emphasis> pasa por <emphasis effect="italics">S</emphasis> en la misma dirección que su pulgar extendido, <emphasis effect="italics">I</emphasis> es positivo; si <emphasis effect="italics">I</emphasis> pasa por <emphasis effect="italics">S</emphasis> en la dirección opuesta a su pulgar extendido, es negativo.</para>
+<note id="fs-id1166167088218" class="problem-solving">
+<title>Ley de Ampère</title>
+<para id="fs-id1166167371819">Para calcular el campo magnético creado a partir de la corriente en el/los cable(s), utilice los siguientes pasos:</para>
+<list id="fs-id1166167346765" list-type="enumerated" number-style="arabic">
+<item>Identifique la simetría de la corriente en el o los cables. Si no hay simetría, utilice la ley de Biot-Savart para determinar el campo magnético.</item>
+<item>Determine la dirección del campo magnético creado por el o los cables por la regla de la mano derecha 2.</item>
+<item>Elija un bucle de trayectoria en el que el campo magnético sea constante o cero.</item>
+<item>Calcule la corriente dentro del bucle.</item>
+<item>Calcule la integral de línea <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> alrededor del bucle cerrado.</item>
+<item>Iguale <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> con <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow></m:math> y resuelva para <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math>
+</item>
+</list>
+</note>
+<example id="fs-id1166167290455">
+<para id="fs-id1168327988072"><title>Uso de la ley de Ampère para calcular el campo magnético debido a un cable</title>
+Utilice la ley de Ampère para calcular el campo magnético debido a una corriente constante <emphasis effect="italics">I</emphasis> en un cable lineal infinito y delgado como se muestra en la <link target-id="CNX_UPhysics_29_05_Bskematic"/>.</para>
+<figure id="CNX_UPhysics_29_05_Bskematic">
+<media id="fs-id1166167120065" alt="La figura muestra un cable lineal infinito y delgado, con la corriente dirigida hacia fuera de la página. Las posibles componentes del campo magnético en este plano, BR y BTheta, se muestran en puntos arbitrarios de un círculo de radio r centrado en el cable.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_05_Bskematic.jpg"/>
+</media>
+<caption>Las posibles componentes del campo magnético <emphasis effect="italics">B</emphasis> debidas a una corriente <emphasis effect="italics">I</emphasis>, que se dirige fuera de la página. La componente radial es cero porque el ángulo entre el campo magnético y la trayectoria es un ángulo recto.</caption>
+</figure>
+<para id="fs-id1168327957186"><title>Estrategia</title>
+Considere un plano arbitrario perpendicular al cable, con la corriente dirigida fuera de la página. Las posibles componentes del campo magnético en este plano, <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>r</m:mi></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>θ</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> se muestran en puntos arbitrarios de un círculo de radio <emphasis effect="italics">r</emphasis> centrado en el cable. Dado que el campo es cilíndricamente simétrico, ni <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>r</m:mi></m:msub></m:mrow></m:math> ni <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>θ</m:mi></m:msub></m:mrow></m:math> varían con la posición en este círculo. También por simetría, las líneas radiales, si existen, deben dirigirse todas hacia dentro o todas hacia fuera del cable. Esto significa, sin embargo, que debe haber un flujo magnético neto a través de un cilindro arbitrario concéntrico con el cable. La componente radial del campo magnético debe ser cero porque <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>r</m:mi></m:msub><m:mo>⋅</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0.</m:mn></m:mrow></m:math> Por lo tanto, podemos aplicar la ley de Ampère a la trayectoria circular como se muestra.</para>
+<para id="fs-id1168327887433"><title>Solución</title>
+Por esta trayectoria, <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es constante y paralela a <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> así que</para>
+<equation id="fs-id1166167086100" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mi>θ</m:mi></m:msub><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mi>θ</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167346494">Así, la ley de Ampère se reduce a</para>
+<equation id="fs-id1166167280623" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>θ</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167100001">Por último, dado que <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>θ</m:mi></m:msub></m:mrow></m:math> es el único componente de <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> podemos eliminar el subíndice y escribir</para>
+<equation id="fs-id1166167085409" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167417644">Esto coincide con el cálculo de Biot-Savart anterior.</para>
+<para id="fs-id1168327941542"><title>Importancia</title>
+La ley de Ampère funciona bien si se tiene una trayectoria a integrar sobre la cual <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> tiene resultados que son fáciles de simplificar. Para el cable infinito, esto funciona fácilmente con una trayectoria que es circular alrededor del cable para que el campo magnético se excluya de la integración. Si la dependencia de la trayectoria parece complicada, siempre se puede volver a la ley de Biot-Savart y utilizarla para calcular el campo magnético.</para>
+</example>
+<example id="fs-id1166167090001">
+<para id="fs-id1168327863599"><title>Cálculo del campo magnético de un cable grueso con la ley de Ampère</title>
+El radio del cable lineal y largo de la <link target-id="CNX_UPhysics_29_05_Thickwire"/> es <emphasis effect="italics">a</emphasis>, y el cable lleva una corriente <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> que se distribuye uniformemente en su sección transversal. Calcule el campo magnético tanto dentro como fuera del cable.</para>
+<figure id="CNX_UPhysics_29_05_Thickwire">
+<media id="fs-id1166167344756" alt="La figura A muestra un cable lineal y largo de radio a que porta la corriente I. La figura B muestra una sección transversal del mismo cable con el bucle de Ampère de radio r.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_05_Thickwire.jpg"/>
+</media>
+<caption>(a) Un modelo de un cable conductor de corriente de radio <emphasis effect="italics">a</emphasis> y corriente <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> (b) Una sección transversal del mismo cable que muestra el radio <emphasis effect="italics">a</emphasis> y el bucle de Ampère de radio <emphasis effect="italics">r</emphasis>.</caption>
+</figure>
+<para id="fs-id1168327927974"><title>Estrategia</title>
+Este problema tiene la misma geometría que el <link target-id="fs-id1166167290455"/>, pero la corriente encerrada cambia a medida que movemos la trayectoria de integración desde el exterior del alambre hasta su interior, donde no captura toda la corriente encerrada (ver <link target-id="CNX_UPhysics_29_05_Thickwire"/>).</para>
+<para id="fs-id1168327873672"><title>Solución</title>
+Para cualquier trayectoria circular de radio <emphasis effect="italics">r</emphasis> que esté centrada en el cable,</para>
+<equation id="fs-id1166167041520" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>B</m:mi><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167135577">A partir de la ley de Ampère, esto es igual a la corriente total que pasa a través de cualquier superficie delimitada por la trayectoria de integración.</para>
+<para id="fs-id1166167036507">Consideremos primero una trayectoria circular que está dentro del cable <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>≤</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> como la mostrada en la parte (a) de la <link target-id="CNX_UPhysics_29_05_Thickwire"/>. Necesitamos la corriente <emphasis effect="italics">I</emphasis> que pasa por la zona delimitada por la trayectoria. Es igual a la densidad de corriente <emphasis effect="italics">J</emphasis> por el área encerrada. Dado que la corriente es uniforme, la densidad de corriente dentro de la trayectoria es igual a la densidad de corriente en todo el cable, que es <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>/</m:mo><m:mi>π</m:mi><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, la corriente <emphasis effect="italics">I</emphasis> que pasa por la zona delimitada por la trayectoria es</para>
+<equation id="fs-id1166167075972" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>π</m:mi><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167081125">Podemos considerar esta relación porque la densidad de corriente <emphasis effect="italics">J</emphasis> es constante sobre el área del cable. Por lo tanto, la densidad de corriente de una parte del cable es igual a la densidad de corriente en toda la zona. Al utilizar la ley de Ampère, obtenemos</para>
+<equation id="fs-id1166167311470" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167267868">y el campo magnético dentro del cable es</para>
+<equation id="fs-id1166167085903" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>r</m:mi><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>≤</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1166167097208">Fuera del cable, la situación es idéntica a la del cable fino infinito del ejemplo anterior; es decir,</para>
+<equation id="fs-id1166166061711" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1166166023588">La variación de <emphasis effect="italics">B</emphasis> con <emphasis effect="italics">r</emphasis> se muestra en la <link target-id="CNX_UPhysics_29_05_Graph"/>.</para>
+<figure id="CNX_UPhysics_29_05_Graph">
+<media id="fs-id1166167389673" alt="El gráfico muestra la variación de B con r. Aumenta linealmente con la r hasta el punto a. Entonces empieza a disminuir de manera inversamente proporcional a r.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_05_Graph.jpg"/>
+</media>
+<caption>Variación del campo magnético producido por una corriente <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> en un cable lineal y largo de radio <emphasis effect="italics">a</emphasis>.</caption>
+</figure>
+<para id="fs-id1168327926291"><title>Importancia</title>
+Los resultados muestran que, a medida que aumenta la distancia radial dentro del alambre grueso, el campo magnético aumenta desde cero hasta un valor familiar del campo magnético de un cable fino. Fuera del cable, el campo disminuye independientemente de si se trata de un cable grueso o fino.</para>
+<para id="fs-id1166166093567">Este resultado es similar a cómo se comporta la ley de Gauss para las cargas eléctricas dentro de una distribución uniforme de la carga, excepto que esta ley para las cargas eléctricas tiene una distribución uniforme del volumen de la carga, mientras que la ley de Ampère tiene aquí una distribución uniforme del área de la corriente. Además, la caída fuera del cable grueso es similar a cómo cae un campo eléctrico fuera de una distribución de carga lineal, ya que los dos casos tienen la misma geometría y ninguno de ellos depende de la configuración de cargas o corrientes una vez que el bucle está fuera de la distribución.</para>
+</example>
+<example id="fs-id1166166064227">
+<para id="fs-id1168327955924"><title>Uso de la Ley de Ampère con trayectorias arbitrarias</title>
+Utilice la ley de Ampère para evaluar <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> para las configuraciones y trayectorias actuales en la <link target-id="CNX_UPhysics_29_05_Loops"/>.</para>
+<figure id="CNX_UPhysics_29_05_Loops">
+<media id="fs-id1166167133662" alt="La figura A muestra cuatro cables que portan corrientes de dos amperios, cinco amperios, tres amperios y cuatro amperios. Los cuatro cables están dentro del bucle. El primer y el segundo cables llevan la corriente hacia abajo a través del bucle. El tercer y el cuarto cables llevan la corriente hacia arriba a través del bucle. La figura B muestra tres cables que portan corrientes de cinco amperios, dos amperios y tres amperios. El primer y tercer cable están fuera del bucle, el segundo cable está dentro de él. El primer cable lleva la corriente hacia arriba a través del bucle. El segundo y el tercer cables llevan la corriente hacia abajo a través del bucle. La figura C muestra tres cables que portan corrientes de siete amperios, cinco amperios y tres amperios. Los tres cables están dentro del bucle. El primer y el segundo cables llevan la corriente hacia abajo a través del bucle. El tercer cable lleva la corriente hacia arriba a través del bucle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_05_Loops.jpg"/>
+</media>
+<caption>Configuraciones y trayectorias de corriente para el <link target-id="fs-id1166166064227"/>.</caption>
+</figure>
+<para id="fs-id1168327923531"><title>Estrategia</title>
+La ley de Ampère establece que <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow></m:math> donde <emphasis effect="italics">I</emphasis> es la corriente total que pasa por el bucle cerrado. La forma más rápida de evaluar la integral es calcular <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow></m:math> encontrando la corriente neta a través del bucle. Las corrientes positivas fluyen con el pulgar de la mano derecha si los dedos se envuelven en la dirección del bucle. Esto nos indicará el signo de la respuesta.</para>
+<para id="fs-id1168327935419"><title>Solución</title>
+(a) La corriente que baja por el bucle es igual a la que sale de él, por lo que la corriente neta es cero. Así, <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0.</m:mn></m:mrow></m:math></para>
+<para id="fs-id1166167387776">(b) La única corriente a considerar en este problema es 2A porque es la única corriente dentro del bucle. La regla de la mano derecha nos indica que la corriente que baja por el bucle es en sentido positivo. Por lo tanto, la respuesta es <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2,51</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−6</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para><para id="fs-id1166166072826">(c) La regla de la mano derecha nos indica que la corriente que baja por el bucle es en sentido positivo. Hay <m:math><m:mrow><m:mtext>7A</m:mtext><m:mo>+</m:mo><m:mtext>5A</m:mtext><m:mo>=</m:mo><m:mtext>12A</m:mtext></m:mrow></m:math> de corriente hacia abajo y -3 A hacia arriba. Por lo tanto, la corriente total es de 9 A y <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1,13</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>–5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para><para id="fs-id1168327959580"><title>Importancia</title>
+Si todas las corrientes se envolvieran de forma que la misma corriente entrara y saliera del bucle, la corriente neta sería cero y no habría campo magnético. Por eso los cables están muy cerca unos de otros en un cable eléctrico. Las corrientes que fluyen hacia un dispositivo y que se alejan de él en un cable son iguales al flujo de corriente total cero a través de un bucle de Ampère alrededor de estos cables. Por lo tanto, no puede haber campos magnéticos parásitos en los cables que portan corriente.</para>
+</example>
+<note id="fs-id1166166205166" class="check-understanding">
+<exercise id="fs-id1166166025025">
+<problem id="fs-id1166166027997">
+<para id="fs-id1166167417636">Considere el uso de la ley de Ampère para calcular los campos magnéticos de un cable lineal finito y de un bucle circular. ¿Por qué no es útil para estos cálculos?</para>
+</problem>
+<solution id="fs-id1166166020711">
+<para id="fs-id1166166080035">En estos casos las integrales alrededor del bucle de Ampère son muy difíciles porque no hay simetría, por lo que este método no sería útil.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1166167103064" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1166167112544" list-type="bulleted" bullet-style="bullet">
+<item>El campo magnético creado por la corriente que sigue una trayectoria cualquiera es la suma (o integral) de los campos debidos a los segmentos a lo largo de la trayectoria (magnitud y dirección como para un cable lineal), lo que da lugar a una relación general entre la corriente y el campo conocida como ley de Ampère.</item>
+<item>La ley de Ampère puede utilizarse para determinar el campo magnético de un cable delgado o de uno grueso mediante una trayectoria de integración geométricamente conveniente. Los resultados son coherentes con la ley de Biot-Savart.</item>
+</list>
+</section>
+<section id="fs-id1166167101908" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1166167092826">
+<problem id="fs-id1166167118066">
+<para id="fs-id1166167133737">¿La ley de Ampère es válida para todas las trayectorias cerradas? ¿Por qué no suele ser útil para calcular un campo magnético?</para>
+</problem>
+<solution id="fs-id1166167135844">
+<para id="fs-id1166167375106">La ley de Ampère es válida para todas las trayectorias cerradas, pero no es útil para calcular los campos cuando el campo magnético producido carece de simetría que pueda aprovecharse mediante una elección adecuada de la trayectoria.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1166166022536" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1166166206191">
+<problem id="fs-id1166167275012">
+<para id="fs-id1166167108860">Una corriente <emphasis effect="italics">I</emphasis> circula por el bucle rectangular que se muestra en la figura adjunta. Evalúe <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> para las trayectorias <emphasis effect="italics">A</emphasis>, <emphasis effect="italics">B</emphasis>, <emphasis effect="italics">C</emphasis> y <emphasis effect="italics">D</emphasis>.</para>
+<media id="fs-id1166166206835" alt="La figura muestra un bucle rectangular que porta una corriente I. Las trayectorias A y C se intersecan con los lados cortos del bucle. La trayectoria B se interseca con los dos lados largos del bucle. La trayectoria D se interseca tanto con el lado corto como con el lado largo del bucle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr26_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166166091123">
+<para id="fs-id1166166091125">a. <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>;</m:mo></m:mrow></m:math> b. 0; c. <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>;</m:mo></m:mrow></m:math> d. 0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166166189456">
+<problem id="fs-id1166166206185">
+<para id="fs-id1166166206187">Evalúe <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> para cada uno de los casos que se muestran en la figura adjunta.</para>
+<media id="fs-id1166167097251" alt="La figura A muestra un cable dentro del bucle que porta una corriente de dos amperios hacia arriba a través de él. La figura B muestra tres cables dentro del bucle que portan una corriente de cinco amperios, dos amperios y seis amperios. El primer y el tercer cables portan la corriente hacia arriba a través del bucle. El segundo cable porta la corriente hacia abajo a través del bucle. La figura C muestra dos cables fuera del bucle que portan una corriente de tres amperios y dos amperios hacia arriba a través de él. La figura D muestra tres cables que portan corrientes de tres amperios, dos amperios y cuatro amperios. El primer cable está fuera del bucle, el segundo y el tercero están dentro de él. El primer y el tercer cable portan la corriente hacia abajo a través del bucle. El segundo cable porta la corriente hacia arriba a través del bucle. La figura D muestra cuatro cables que portan corrientes de cuatro amperios, tres amperios, dos amperios y dos amperios. El primer y el cuarto cable están fuera del bucle. El segundo y el tercer cable están dentro del bucle. El primero, el segundo y el tercer cable portan la corriente hacia arriba a través del bucle. El cuarto cable porta la corriente hacia abajo a través del bucle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr27_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166166203060">
+<problem id="fs-id1166166203062">
+<para id="fs-id1166166203064">La bobina cuya sección transversal se muestra en la figura adjunta porta una corriente <emphasis effect="italics">I</emphasis> y tiene <emphasis effect="italics">N</emphasis> vueltas uniformemente espaciadas distribuidas a lo largo de la longitud l. Evalúe <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> para las trayectorias indicadas.</para>
+<media id="fs-id1166166072862" alt="La figura muestra la sección transversal de una bobina. La trayectoria A interseca tres bobinas que portan corriente desde el plano del papel. La trayectoria B interseca cuatro bobinas, dos de las cuales portan la corriente desde el plano del papel y otras dos portan la corriente hacia el plano del papel. La trayectoria C interseca siete bobinas que portan la corriente al plano del papel. La trayectoria D interseca dos bobinas que portan la corriente al plano del papel.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr28_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166166200737">
+<para id="fs-id1166166200739">a. <m:math><m:mrow><m:mn>3</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>;</m:mo></m:mrow></m:math> b. 0; c. <m:math><m:mrow><m:mn>7</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>;</m:mo></m:mrow></m:math> d. <m:math><m:mrow><m:mtext>−2</m:mtext><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167130243">
+<problem id="fs-id1166167130245">
+<para id="fs-id1166166195280">Un cable superconductor de 0,25 cm de diámetro porta una corriente de 1.000 A. ¿Cuál es el campo magnético en el exterior del cable?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166167085032">
+<problem id="fs-id1166167085034">
+<para id="fs-id1166167085036">Un cable lineal y largo de radio <emphasis effect="italics">R</emphasis> porta una corriente <emphasis effect="italics">I</emphasis> que se distribuye uniformemente por la sección transversal del cable. ¿A qué distancia del eje del cable la magnitud del campo magnético es máxima?</para>
+</problem>
+<solution id="fs-id1166166205123">
+<para id="fs-id1166166205125">en el radio <emphasis effect="italics">R</emphasis></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167134535">
+<problem id="fs-id1166167134537">
+<para id="fs-id1166167134539">La figura adjunta muestra una sección transversal de un conductor cilíndrico largo y hueco de radio interior <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>3,0 cm</m:mtext></m:mrow></m:math> y radio exterior <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mtext>5,0 cm</m:mtext><m:mo>.</m:mo></m:mrow></m:math> En la página fluye una corriente de 50 A distribuida uniformemente sobre la sección transversal. Calcule el campo magnético en <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mtext>2,0 cm</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mtext>6,0 cm</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1166165880401" alt="La figura muestra una sección transversal de un conductor largo, hueco y cilíndrico con un radio interior de tres centímetros y un radio exterior de cinco centímetros.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr31_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166166195321">
+<problem id="fs-id1166166195323">
+<para id="fs-id1166166189372">Un conductor cilíndrico, largo y sólido, de radio 3,0 cm, porta una corriente de 50 A distribuida uniformemente en su sección transversal. Grafique el campo magnético en función de la distancia radial <emphasis effect="italics">r</emphasis> desde el centro del conductor.</para>
+</problem>
+<solution id="fs-id1166167293572">
+<para id="fs-id1166167293574">
+<media id="fs-id1166167293576" alt="El gráfico muestra la variación de B con r. B aumenta linealmente con r hasta el punto a. Entonces comienza a disminuir de manera inversamente proporcional a r.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_05_Graph_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167425804">
+<problem id="fs-id1166167425806">
+<para id="fs-id1166167425808">En la figura adjunta se muestra una porción de un <term class="no-emphasis">cable coaxial</term> largo y cilíndrico. Una corriente <emphasis effect="italics">I</emphasis> fluye por el conductor central y esta corriente se devuelve en el conductor exterior. Determine el campo magnético en las regiones (a) <m:math><m:mrow><m:mi>r</m:mi><m:mo>≤</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>≥</m:mo><m:mi>r</m:mi><m:mo>≥</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> (c) <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>3</m:mn></m:msub><m:mo>≥</m:mo><m:mi>r</m:mi><m:mo>≥</m:mo><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> y (d) <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:msub><m:mi>r</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Supongamos que la corriente se distribuye uniformemente en las secciones transversales de las dos partes del cable.</para>
+<media id="fs-id1166166101777" alt="La figura muestra un cable coaxial largo y cilíndrico. El radio del conductor central interno es r1. La distancia desde el centro hasta el lado interior de la cubierta protectora es r2. La distancia desde el centro hasta el lado exterior de la cubierta protectora es r3.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr33_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1166167104735">
+<term>ley de Ampère</term>
+<meaning id="fs-id1166167104740">ley física que establece que la integral de línea del campo magnético alrededor de una corriente eléctrica es proporcional a la corriente</meaning>
+</definition>
+</glossary>
+</document>

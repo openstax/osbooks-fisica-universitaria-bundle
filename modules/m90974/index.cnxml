@@ -1,0 +1,236 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Matemáticas de la interferencia</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90974</md:content-id>
+  <md:title>Matemáticas de la interferencia</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Determinar los ángulos de las franjas brillantes y oscuras para la interferencia de doble rendija</item>
+<item>Calcular las posiciones de las franjas brillantes en una pantalla</item>
+</list></md:abstract>
+  <md:uuid>88184f00-88f2-4718-8b14-adf7164784a3</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170902053984">La <link target-id="CNX_UPhysics_36_02_WavePath"/>(a) muestra cómo determinar la diferencia de longitud de la trayectoria <m:math><m:mtext>Δ</m:mtext><m:mi>l</m:mi></m:math> para las ondas que viajan desde dos rendijas hasta un punto común en una pantalla. Si la pantalla está a una gran distancia en comparación con la distancia entre las rendijas, entonces el ángulo <m:math><m:mi>θ</m:mi></m:math> entre la trayectoria y una línea desde las rendijas a la pantalla [parte (b)] es casi el mismo para cada trayectoria. En otras palabras, <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> son esencialmente paralelos. Las longitudes de <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> se diferencian por <m:math><m:mtext>Δ</m:mtext><m:mi>l</m:mi></m:math>, como indican las dos líneas discontinuas de la figura. La trigonometría simple muestra</para>
+<equation id="fs-id1170904203070"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1170904179953">donde <emphasis effect="italics">d</emphasis> es la distancia entre las rendijas. Al combinar este resultado con la <link document="m90973" target-id="fs-id1170902293443"/>, obtenemos la interferencia constructiva para una doble rendija cuando la diferencia de la longitud del recorrido es un múltiplo integral de la longitud de onda, o</para>
+<equation id="fs-id1170904073124"><m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>para</m:mtext><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>3</m:mn><m:mtext>,…</m:mtext><m:mspace width="0.2em"/><m:mtext>(interferencia constructiva)</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902089538">Del mismo modo, para obtener una interferencia destructiva para una doble rendija, la diferencia de la longitud del recorrido debe ser un múltiplo del semientero de la longitud de onda, o</para>
+<equation id="fs-id1170904102887"><m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">)</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>para</m:mtext><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>3</m:mn><m:mtext>,…</m:mtext><m:mspace width="0.2em"/><m:mtext>(interferencia destructiva)</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170902343973">donde <m:math><m:mi>λ</m:mi></m:math> es la longitud de onda de la luz, <emphasis effect="italics">d</emphasis> es la distancia entre las rendijas y <m:math><m:mi>θ</m:mi></m:math> es el ángulo con respecto a la dirección original del rayo, tal y como se ha comentado anteriormente. Llamamos <emphasis effect="italics">m</emphasis> al <term>orden</term> de la interferencia. Por ejemplo, <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> es una interferencia de cuarto orden.</para>
+<figure id="CNX_UPhysics_36_02_WavePath"><media id="fs-id1170902151795" alt="La imagen de la izquierda es un dibujo esquemático que muestra las ondas r1 y r2 pasando por las dos rendijas S1 y S2. Las ondas se encuentran en un punto común P en una pantalla. La distancia entre los puntos S1 y S2 es d; la distancia entre la pantalla con las dos rendijas y la pantalla con el punto P es D. El punto P está más alto que el punto medio entre S1 y S2 por la distancia y. La línea imaginaria trazada desde el punto P hasta el punto medio entre las rendijas forma un ángulo theta con el eje x. La imagen de la derecha es un dibujo esquemático de dos rendijas separadas por la distancia d. Las ondas pasan a través de las rendijas y viajan hasta la pantalla P. El ángulo theta está formado por la onda viajera y el eje x.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_36_02_WavePath.jpg"/>
+</media>
+
+<caption>(a) Para llegar a <emphasis effect="italics">P</emphasis>, las ondas de luz procedentes de <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> deben recorrer distancias diferentes. (b) La diferencia del recorrido entre los dos rayos es <m:math><m:mtext>Δ</m:mtext><m:mi>l</m:mi></m:math>.</caption></figure><para id="fs-id1170903831532">Las ecuaciones de la interferencia de doble rendija implican que se forma una serie de líneas brillantes y oscuras. En el caso de las rendijas verticales, la luz se propaga horizontalmente a ambos lados del haz incidente en un patrón llamado <term>franjas</term> de interferencia (<link target-id="CNX_UPhysics_36_02_Fringes"/>). Cuanto más cerca estén las rendijas, más se separan las franjas brillantes. Podemos ver esto examinando la ecuación</para>
+<para id="fs-id1170903774982"><m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>para</m:mtext><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>3</m:mn><m:mtext>…</m:mtext></m:mrow></m:math>. Para los <m:math><m:mi>λ</m:mi></m:math> y <emphasis effect="italics">m</emphasis> fijos, cuanto menor sea <emphasis effect="italics">d</emphasis>, mayor debe ser <m:math><m:mi>θ</m:mi></m:math>, ya que <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi></m:mrow></m:math>. Esto es coherente con nuestra afirmación de que los efectos de las ondas son más notables cuando el objeto con el que se encuentra la onda (en este caso, las rendijas a una distancia <emphasis effect="italics">d</emphasis>) es pequeño. Una <emphasis effect="italics">d</emphasis> pequeña da un gran <m:math><m:mi>θ</m:mi></m:math>, por lo tanto, un gran efecto.</para>
+<para id="fs-id1170903852803">Si volvemos a la parte (a) de la figura, vemos que <m:math><m:mi>θ</m:mi></m:math> suele ser lo suficientemente pequeño como para que <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mi>m</m:mi></m:msub></m:mrow><m:mtext>/</m:mtext><m:mi>D</m:mi></m:mrow></m:mrow></m:math>, donde <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mi>m</m:mi></m:msub></m:mrow></m:math> es la distancia del máximo central a la <emphasis effect="italics">m</emphasis>enésima franja brillante y <emphasis effect="italics">D</emphasis> es distancia entre la rendija y la pantalla. <link target-id="fs-id1170904073124"/> puede escribirse entonces como</para>
+<equation id="fs-id1170904143800" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mi>m</m:mi></m:msub></m:mrow><m:mi>D</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1170903814371">o</para>
+<equation id="fs-id1170902352244"><m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mi>m</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>λ</m:mi><m:mi>D</m:mi></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow><m:mo>.</m:mo></m:math></equation>
+<figure id="CNX_UPhysics_36_02_Fringes">
+<media id="fs-id1170902289429" alt="La imagen de la izquierda muestra una doble rendija situada a una distancia D de una pantalla, con la distancia entre las rendijas dada como d. La imagen de la derecha es una fotografía del patrón de franjas que muestra las líneas brillantes en las posiciones donde las ondas interfieren constructivamente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_36_02_Fringes.jpg"/>
+</media>
+<caption>El patrón de interferencia para una doble rendija tiene una intensidad que decae con el ángulo. La imagen muestra múltiples líneas o franjas brillantes y oscuras, formadas por la luz que pasa a través de una doble rendija.</caption>
+</figure>
+<example id="fs-id1170900498026">
+<para id="fs-id1170903803066"><title>Cálculo de una longitud de onda a partir de un patrón de interferencia</title>
+Supongamos que se hace pasar la luz de un láser de helio (He) y neón (Ne) a través de dos rendijas separadas por 0,0100 mm y se encuentra que la tercera línea brillante en una pantalla se forma con un ángulo de <m:math><m:mrow><m:mn>10,95</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con respecto al rayo incidente. ¿Cuál es la longitud de onda de la luz?</para>
+<para id="fs-id1170902068801"><title>Estrategia</title>
+El fenómeno es una interferencia de dos rendijas como se ilustra en la <link target-id="CNX_UPhysics_36_02_Fringes"/> y la tercera línea brillante se debe a una interferencia constructiva de tercer orden, lo que significa que <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>. Se nos da <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>0,0100</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>10,95</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. Por lo tanto, la longitud de onda se puede encontrar utilizando la ecuación <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow></m:math> para la interferencia constructiva.</para>
+<para id="fs-id1170903733756"><title>Solución</title>
+Al resolver <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow></m:math> para la longitud de onda <m:math><m:mi>λ</m:mi></m:math> se obtiene</para>
+<equation id="fs-id1170903934032" class="unnumbered"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903832548">Al sustituir los valores conocidos se obtiene</para>
+<equation id="fs-id1170902216721" class="unnumbered"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,0100</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mn>10,95</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>6,33</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>mm</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>633</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902197792"><title>Importancia</title>
+Es la longitud de onda de luz, de tres dígitos, emitida por el láser común de He-Ne. No por casualidad, este color rojo es similar al que emiten las luces de neón. Sin embargo, lo más importante es que los patrones de interferencia pueden utilizarse para medir la longitud de onda. Young hizo esto para las longitudes de onda visibles. Esta técnica analítica se sigue utilizando ampliamente para medir los espectros electromagnéticos. Para un orden determinado, el ángulo de interferencia constructiva aumenta con <m:math><m:mi>λ</m:mi></m:math>, de modo que se pueden obtener espectros (mediciones de la intensidad en función de la longitud de onda).</para>
+</example>
+<example id="fs-id1170904141590">
+<para id="fs-id1170904061762"><title>Cálculo del mayor orden posible</title>
+Los patrones de interferencia no tienen un número infinito de líneas, ya que hay un límite en el tamaño de <emphasis effect="italics">m</emphasis>. ¿Cuál es la interferencia constructiva de mayor orden posible con el sistema descrito en el ejemplo anterior?</para>
+<para id="fs-id1170904067947"><title>Estrategia</title>
+La ecuación <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow></m:math> (para <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>3</m:mn><m:mtext>…</m:mtext></m:mrow></m:math>) describe la interferencia constructiva de dos rendijas. Para valores fijos de <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>λ</m:mi></m:mrow></m:math>, cuanto mayor sea <emphasis effect="italics">m</emphasis>, mayor será <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>. Sin embargo, el valor máximo que <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> puede tener es 1, para un ángulo de <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. (Los ángulos mayores implican que la luz va hacia atrás y no llega a la pantalla) Busquemos qué valor de <emphasis effect="italics">m</emphasis> corresponde a este ángulo máximo de difracción.</para>
+<para id="fs-id1170902166665"><title>Solución</title>
+Al resolver la ecuación <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow></m:math> para <emphasis effect="italics">m</emphasis> se obtiene</para>
+<equation id="fs-id1170903813701" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mi>λ</m:mi></m:mfrac></m:mrow><m:mo>.</m:mo></m:math></equation>
+<para id="fs-id1170904075044">Si tomamos <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> y sustituimos los valores de <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>λ</m:mi></m:mrow></m:math> del ejemplo anterior da</para>
+<equation id="fs-id1170903870916" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,0100</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>633</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>15,8</m:mn></m:mrow><m:mo>.</m:mo></m:math></equation>
+<para id="fs-id1170904169607">Por lo tanto, el mayor número entero que puede ser <emphasis effect="italics">m</emphasis> es 15, o <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math>.</para>
+<para id="fs-id1170903855543"><title>Importancia</title>
+El número de franjas depende de la longitud de onda y de la separación de las rendijas. El número de franjas es muy grande para grandes separaciones de rendijas. Sin embargo, recordemos (consulte la sección <link document="m90948">La propagación de la luz</link> y la introducción de este capítulo) que la interferencia de las ondas solo es prominente cuando la onda interactúa con objetos que no son grandes en comparación con la longitud de onda. Por lo tanto, si la separación de las rendijas y los tamaños de las mismas son mucho mayores que la longitud de onda, el patrón de intensidad de la luz en la pantalla cambia, por lo que simplemente hay dos líneas brillantes proyectadas por las rendijas, como se espera, cuando la luz se comporta como rayos. También observamos que las franjas se hacen más tenues cuanto más se alejan del centro. Por lo tanto, es posible que no se puedan observar las 15 franjas.</para>
+</example>
+<note id="fs-id1170903036846" class="check-understanding">
+<exercise id="fs-id1170902633771">
+<problem id="fs-id1170902764642">
+<para id="fs-id1170902200483">En el sistema utilizado en los ejemplos anteriores, ¿con qué ángulos se forman la primera y la segunda franja brillante?</para>
+</problem>
+<solution id="fs-id1170904088844">
+<para id="fs-id1170902139531"><m:math><m:mrow><m:mn>3,63</m:mn><m:mtext>°</m:mtext><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mn>7,27</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, respectivamente</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1170903904169" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170903862208">
+<item>En la difracción de doble rendija, la interferencia constructiva se produce cuando <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>para</m:mtext><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>3</m:mn><m:mtext>…</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, donde <emphasis effect="italics">d</emphasis> es la distancia entre las rendijas, <m:math><m:mi>θ</m:mi></m:math> es el ángulo relativo a la dirección de incidencia, y <emphasis effect="italics">m</emphasis> es el orden de la interferencia.</item>
+<item>Las interferencias destructivas se producen cuando <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">)</m:mo><m:mi>λ</m:mi><m:mspace width="0.2em"/><m:mtext>para</m:mtext><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext>±</m:mtext><m:mn>3</m:mn><m:mtext>,…</m:mtext></m:mrow></m:math>.</item>
+</list>
+</section>
+<section id="fs-id1170904074769" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1170903885155">
+<problem id="fs-id1170902144166">
+<para id="fs-id1170902126872">Suponga que utiliza la misma doble rendija para realizar el experimento de la doble rendija de Young en el aire y luego repite el experimento en el agua. ¿Los ángulos de las mismas partes del patrón de interferencia aumentan o disminuyen? ¿El color de la luz cambia? Explique.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902147560">
+<problem id="fs-id1170903868508">
+<para id="fs-id1170903886426">¿Por qué se utiliza la luz monocromática en el experimento de la doble rendija? ¿Qué pasaría si se utilizara la luz blanca?</para>
+</problem>
+<solution id="fs-id1170903900467">
+<para id="fs-id1170904088505">Las fuentes monocromáticas producen franjas en ángulos según <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi></m:mrow></m:math>. Con la luz blanca, cada longitud de onda constitutiva producirá franjas en su propio conjunto de ángulos, mezclándose con las franjas de las longitudes de onda adyacentes. Esto da lugar a patrones de arcoíris.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170904195017" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170903904973">
+<problem id="fs-id1170902124717">
+<para id="fs-id1170903819130">¿En qué ángulo se encuentra el máximo de primer orden para la luz azul de 450 nm de longitud de onda que incide en rendijas dobles separadas por 0,0500 mm?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904167510">
+<problem id="fs-id1170904202670">
+<para id="fs-id1170902161701">Calcule el ángulo para el máximo de tercer orden de la luz amarilla de 580 nm de longitud de onda que incide en rendijas dobles separadas por 0,100 mm.</para>
+</problem>
+<solution id="fs-id1170903986056">
+<para id="fs-id1170904103549"><m:math><m:mrow><m:mn>0,997</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902302155">
+<problem id="fs-id1170902135605">
+<para id="fs-id1170903833215">¿Cuál es la separación entre dos rendijas para las que la luz naranja de 610 nm tiene su primer máximo con un ángulo de <m:math><m:mrow><m:mn>30,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904087968">
+<problem id="fs-id1170902401921">
+<para id="fs-id1170902274793">Calcule la distancia entre dos rendijas que produce el primer mínimo para la luz violeta de 410 nm con un ángulo de <m:math><m:mrow><m:mn>45,0</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1170904048611">
+<para id="fs-id1170903809332"><m:math><m:mrow><m:mn>0,290</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903799983">
+<problem id="fs-id1170904051704">
+<para id="fs-id1170902159874">Calcule la longitud de onda de la luz que tiene su tercer mínimo en un ángulo de <m:math><m:mrow><m:mn>30,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> al incidir en rendijas dobles separadas por <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:math>. Muestre explícitamente cómo sigue los pasos de la <link document="m90981" target-id="fs-id1170902598538">estrategia de resolución de problemas: Óptica de onda</link>, ubicada al final del capítulo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902156705">
+<problem id="fs-id1170902215258">
+<para id="fs-id1170903753150">¿Cuál es la longitud de onda de la luz que incide en rendijas dobles separadas por <m:math><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:math> si el máximo de tercer orden está en un ángulo de <m:math><m:mrow><m:mn>60,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170903872615">
+<para id="fs-id1170902197290"><m:math><m:mrow><m:mn>5,77</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>577</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903886826">
+<problem id="fs-id1170904097560">
+<para id="fs-id1170902341004">¿En qué ángulo se encuentra el máximo de cuarto orden para la situación del problema anterior?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902156199">
+<problem id="fs-id1170904049141">
+<para id="fs-id1170902324037">¿Cuál es el máximo de orden superior para la luz de 400 nm que incide en rendijas dobles separadas por <m:math><m:mrow><m:mn>25,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170902226160">
+<para id="fs-id1170902337587">62,5; como <emphasis effect="italics">m</emphasis> debe ser un número entero, el orden más alto es entonces <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>62</m:mn></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902402510">
+<problem id="fs-id1170903792257">
+<para id="fs-id1170902077469">Calcule la mayor longitud de onda de la luz que incide en las rendijas dobles separadas por <m:math><m:mrow><m:mn>1,20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:math> para el que existe un máximo de primer orden. ¿Está en la parte visible del espectro?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903860956">
+<problem id="fs-id1170902065446">
+<para id="fs-id1170903903776">¿Cuál es la menor separación entre dos rendijas que producirá un máximo de segundo orden para la luz roja de 720 nm?</para>
+</problem>
+<solution id="fs-id1170903877420">
+<para id="fs-id1170904142178"><m:math><m:mrow><m:mn>1,44</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903763833">
+<problem id="fs-id1170904089169">
+<para id="fs-id1170902111337">(a) ¿Cuál es la menor separación entre dos rendijas que producirá un máximo de segundo orden para cualquier luz visible? (b) ¿Para toda la luz visible?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903802196">
+<problem id="fs-id1170902337205">
+<para id="fs-id1170903805645">(a) Si el máximo de primer orden para la luz monocromática que incide en una doble rendija está en un ángulo de <m:math><m:mrow><m:mn>10,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, ¿con qué ángulo se encuentra el máximo de segundo orden? (b) ¿Cuál es el ángulo del primer mínimo? (c) ¿Cuál es el máximo de mayor orden posible aquí?</para>
+</problem>
+<solution id="fs-id1170902108761">
+<para id="fs-id1170902275607">a. <m:math><m:mrow><m:mn>20,3</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>4,98</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>; c. 5,76, el orden más alto es <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902180645">
+<problem id="fs-id1170903809255">
+<para id="fs-id1170904168665">A continuación, se muestra una rendija doble situada a una distancia <emphasis effect="italics">x</emphasis> de una pantalla, con la distancia desde el centro de la pantalla dada por <emphasis effect="italics">y</emphasis>. Cuando la distancia <emphasis effect="italics">d</emphasis> entre las rendijas es relativamente grande, aparecen numerosos puntos brillantes, llamados franjas. Demuestre que, para ángulos pequeños (donde <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math>, con <m:math><m:mi>θ</m:mi></m:math> en radianes), la distancia entre franjas viene dada por <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mi>λ</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi></m:mrow></m:math></para>
+<media id="fs-id1170903830713" alt="La imagen muestra una doble rendija situada a una distancia x de una pantalla, con la distancia desde el centro de la pantalla dada por y. La distancia entre las rendijas es d.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_36_02_ExFig2_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170902283520">
+<problem id="fs-id1170904147328">
+<para id="fs-id1170903822053">Utilizando el resultado del problema anterior, (a) calcule la distancia entre franjas para una luz de 633 nm que incide sobre unas rendijas dobles separadas 0,0800 mm, situadas a 3,00 m de una pantalla. (b) ¿Cuál sería la distancia entre franjas si todo el aparato estuviera sumergido en agua, cuyo índice de refracción es 1,33?</para>
+</problem>
+<solution id="fs-id1170902131270">
+<para id="fs-id1170902098819">a. 2,37 cm; b. 1,78 cm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904074406">
+<problem id="fs-id1170904052858">
+<para id="fs-id1170902282602">Utilizando el resultado del problema previo a los dos problemas anteriores, calcule la longitud de onda de la luz que produce franjas separadas por 7,50 mm en una pantalla a 2,00 m de las rendijas dobles separadas por 0,120 mm.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903883998">
+<problem id="fs-id1170903860162">
+<para id="fs-id1170904071988">En un experimento de doble rendija, el quinto máximo está a 2,8 cm del máximo central en una pantalla que está a 1,5 m de las rendijas. Si las rendijas están separadas 0,15 mm, ¿cuál es la longitud de onda de la luz que se utiliza?</para>
+</problem>
+<solution id="fs-id1170902147177">
+<para id="fs-id1170903832586">560 nm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903835793">
+<problem id="fs-id1170902336229">
+<para id="fs-id1170903820532">La fuente en el experimento de Young emite en dos longitudes de onda. En la pantalla de visualización, el cuarto máximo de una longitud de onda se encuentra en el mismo punto que el quinto máximo de la otra longitud de onda. ¿Cuál es la relación entre las dos longitudes de onda?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902094724">
+<problem id="fs-id1170902124575">
+<para id="fs-id1170902240016">Si la luz de 500 nm y 650 nm ilumina dos rendijas separadas por 0,50 mm, ¿a qué distancia se encuentran los máximos de segundo orden de estas dos longitudes de onda en una pantalla situada a 2,0 m de distancia?</para>
+</problem>
+<solution id="fs-id1170902102066">
+<para id="fs-id1170902399331">1,2 mm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904081689">
+<problem id="fs-id1170903857055">
+<para id="fs-id1170902277484">La luz roja de longitud de onda de 700 nm incide en una doble rendija separada por 400 nm. (a) ¿A qué ángulo se encuentra el máximo de primer orden en el patrón de difracción? (b) ¿Qué es lo irrazonable en este resultado? (c) ¿Qué suposiciones son irrazonables o son incoherentes?</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170902349147">
+<term>franjas</term>
+<meaning id="fs-id1170904155828">patrones brillantes y oscuros de interferencia</meaning>
+</definition>
+<definition id="fs-id1170904118034">
+<term>orden</term>
+<meaning id="fs-id1170902163135">número entero <emphasis effect="italics">m</emphasis> utilizado en las ecuaciones de interferencia constructiva y destructiva para una doble rendija</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,250 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Condensadores en serie y en paralelo</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90883</md:content-id>
+  <md:title>Condensadores en serie y en paralelo</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar cómo determinar la capacitancia equivalente de los condensadores en combinaciones en serie y en paralelo.</item>
+<item>Calcular la diferencia de potencial entre las placas y la carga en las placas para un condensador en una red y determinar la capacitancia neta de una red de condensadores.</item>
+</list></md:abstract>
+  <md:uuid>efc166de-27cb-432b-82c3-92a83d905e5c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167131613556">Se pueden conectar varios condensadores entre sí para utilizarlos en diversas aplicaciones. Las conexiones múltiples de condensadores se comportan como un único condensador equivalente. La capacitancia total de este condensador único equivalente depende tanto de los condensadores individuales como de su conexión. Los condensadores pueden disponerse en dos tipos de conexiones simples y comunes, conocidas como <emphasis effect="italics">en serie</emphasis> y <emphasis effect="italics">en paralelo</emphasis>, para las que podemos calcular fácilmente la capacitancia total. Estas dos combinaciones básicas, en serie y en paralelo, también pueden utilizarse como parte de conexiones más complejas.</para>
+<section id="fs-id1167131553177">
+<title>La combinación en serie de condensadores</title>
+<para id="fs-id1167131412737">La <link target-id="CNX_UPhysics_25_02_Series"/> ilustra una combinación en serie de tres condensadores dispuestos en fila dentro del circuito. Como para cualquier condensador, la capacitancia de la combinación está relacionada con la carga y el voltaje mediante la <link target-id="fs-id1167134569412" document="m90882"/>. Cuando esta combinación en serie se conecta a una batería con voltaje <emphasis effect="italics">V</emphasis>, cada uno de los condensadores adquiere una carga idéntica <emphasis effect="italics">Q</emphasis>. Para explicarlo, primero hay que tener en cuenta que la carga de la placa conectada al terminal positivo de la batería es <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math> y la carga en la placa conectada al terminal negativo es <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow></m:math>. A continuación, se inducen cargas en las otras placas de modo que la suma de las cargas en todas las placas, y la suma de las cargas en cualquier par de placas del condensador, sea cero. Sin embargo, la caída de potencial <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math> en un condensador puede ser diferente de la caída de potencial <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math> en otro condensador, porque, generalmente, los condensadores pueden tener capacitancias diferentes. La combinación en serie de dos o tres condensadores se asemeja a un único condensador con una capacitancia menor. En general, cualquier número de condensadores conectados en serie equivale a un condensador cuya capacitancia (llamada <emphasis effect="italics">capacitancia equivalente</emphasis>) es menor que la menor de las capacitancias de la combinación en serie. La carga de este condensador equivalente es la misma que la de cualquier condensador en una combinación en serie: Es decir, <emphasis effect="italics">todos los condensadores de una combinación en serie tienen la misma carga</emphasis>. Esto ocurre debido a la conservación de la carga en el circuito. Cuando una carga <emphasis effect="italics">Q</emphasis> en un circuito en serie se retira de una placa del primer condensador (que denotamos como <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow></m:math>), debe colocarse en una placa del segundo condensador (que denotamos como <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> y así sucesivamente.</para>
+<figure id="CNX_UPhysics_25_02_Series">
+<media id="fs-id1167134945727" alt="La figura a muestra los condensadores C1, C2 y C3 en serie, conectados a una batería. La figura b muestra el condensador Cs conectado a la batería.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_Series.jpg"/>
+</media>
+<caption>(a) Tres condensadores están conectados en serie. La magnitud de la carga en cada placa es <emphasis effect="italics">Q</emphasis>. (b) La red de condensadores en (a) es equivalente a un condensador que tiene una capacitancia menor que cualquiera de las capacitancias individuales en (a), y la carga en sus placas es <emphasis effect="italics">Q</emphasis>.</caption>
+</figure>
+<para id="fs-id1167131530950">Podemos calcular una expresión para la capacitancia total (equivalente) considerando los voltajes a través de los condensadores individuales. Los potenciales a través de los condensadores 1, 2 y 3 son, respectivamente, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math>. Estos potenciales deben sumar el voltaje de la batería, dando el siguiente equilibrio de potencial:</para>
+<equation id="fs-id1167131226600" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131620066">El potencial <emphasis effect="italics">V</emphasis> se mide a través de un condensador equivalente que mantiene la carga <emphasis effect="italics">Q</emphasis> y tiene una capacitancia equivalente <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math>. Introduciendo las expresiones para <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>, obtenemos</para>
+<equation id="fs-id1167134444376" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131556955">Cancelando la carga <emphasis effect="italics">Q</emphasis>, obtenemos una expresión que contiene la capacitancia equivalente, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math>, de tres condensadores conectados en serie:</para>
+<equation id="fs-id1167134520393" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131230626">Esta expresión puede generalizarse a cualquier número de condensadores en una red en serie.</para>
+<note id="fs-id1167134897976">
+<title>Combinación en serie</title>
+<para id="fs-id1167131500452">Para los condensadores conectados en una <term>combinación en serie</term>, el recíproco de la capacitancia equivalente es la suma de los recíprocos de las capacitancias individuales:</para>
+<equation id="fs-id1167134633020"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mtext>⋯</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1167134512809">
+<para id="fs-id1167131188006"><title>Capacitancia equivalente de una red en serie</title>
+Calcule la capacitancia total de tres condensadores conectados en serie, dado que sus capacitancias individuales son <m:math><m:mrow><m:mn>1,000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mn>5,000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>8,000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167134508503"><title>Estrategia</title>
+Como solo hay tres condensadores en esta red podemos calcular la capacitancia equivalente utilizando la <link target-id="fs-id1167134633020"/> con tres términos.</para>
+<para id="fs-id1167134950520"><title>Solución</title>
+Introducimos las capacitancias dadas en la <link target-id="fs-id1167134633020"/>:</para>
+<equation id="fs-id1167134467395" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1,000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>5,000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>8,000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>1,325</m:mn></m:mrow><m:mrow><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167134881804">Ahora invertimos este resultado y obtenemos <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow><m:mrow><m:mn>1,325</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,755</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1167134516195"><title>Importancia</title>
+Tenga en cuenta que en una red de condensadores en serie la capacitancia equivalente es siempre menor que la menor capacitancia individual de la red.</para>
+</example>
+</section>
+<section id="fs-id1167131228041">
+<title>La combinación paralela de condensadores</title>
+<para id="fs-id1167131513273">Una combinación en paralelo de tres condensadores, con una placa de cada condensador conectada a un lado del circuito y la otra placa conectada al otro lado, se ilustra en la <link target-id="CNX_UPhysics_25_02_QC"/>(a). Como los condensadores están conectados en paralelo, <emphasis effect="italics">todos tienen el mismo voltaje V en sus placas</emphasis>. Sin embargo, cada condensador de la red en paralelo puede almacenar una carga diferente. Para calcular la capacitancia equivalente <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math> de la red paralela, observamos que la carga total <emphasis effect="italics">Q</emphasis> almacenada por la red es la suma de todas las cargas individuales:</para>
+<equation id="fs-id1167134513072" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134566318">En el lado izquierdo de esta ecuación, utilizamos la relación <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub><m:mi>V</m:mi></m:mrow></m:math>, que se mantiene para toda la red. En el lado derecho de la ecuación, utilizamos las relaciones <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mi>V</m:mi><m:mo>,</m:mo><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mi>V</m:mi><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mi>V</m:mi></m:mrow></m:math> para los tres condensadores de la red. De esta manera obtenemos</para>
+<equation id="fs-id1167134822340" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub><m:mi>V</m:mi><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mi>V</m:mi><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mi>V</m:mi><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131145336">Esta ecuación, simplificada, es la expresión de la capacitancia equivalente de la red paralela de tres condensadores:</para>
+<equation id="fs-id1167134858166" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131254860">Esta expresión es fácilmente generalizable a cualquier número de condensadores conectados en paralelo en la red.</para>
+<note id="fs-id1167131567108">
+<title>Combinación paralela</title>
+<para id="fs-id1167131459182">Para los condensadores conectados en una <term>combinación en paralelo</term>, la capacitancia equivalente (neta) es la suma de todas las capacitancias individuales de la red,</para>
+<equation id="fs-id1167134538528"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>P</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:mtext>⋯</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_25_02_QC">
+<media id="fs-id1167134943517" alt="La figura a muestra los condensadores C1, C2 y C3 en paralelo, con cada uno de ellos conectado a una batería. Las placas positivas de C1, C2 y C3 tienen carga +Q1, +Q2 y +Q3 respectivamente y las placas negativas tienen carga -Q1, -Q2 y -Q3 respectivamente. La figura b muestra el condensador equivalente Cp igual a C1 más C2 más C3. La carga en la placa positiva es igual a +Q igual a Q1 más Q2 más Q3. La carga en la placa negativa es igual a -Q igual a menos Q1 menos Q2 menos Q3.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_QC.jpg"/>
+</media>
+<caption>(a) Se conectan tres condensadores en paralelo. Cada condensador está conectado directamente a la batería. (b) La carga del condensador equivalente es la suma de las cargas de los condensadores individuales.</caption>
+</figure>
+<example id="fs-id1167131127008">
+<para id="fs-id1167134541425"><title>Capacitancia equivalente de una red paralela</title>
+Calcule la capacitancia neta de tres condensadores conectados en paralelo, dado que sus capacitancias individuales son <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1167134475214"><title>Estrategia</title>
+Como solo hay tres condensadores en esta red podemos calcular la capacitancia equivalente utilizando la <link target-id="fs-id1167134538528"/> con tres términos.</para>
+<para id="fs-id1167131269027"><title>Solución</title>
+Introduciendo las capacitancias dadas en la <link target-id="fs-id1167134538528"/> se obtiene</para>
+<equation id="fs-id1167134645894" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>+</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>+</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>14,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167131137214"><title>Importancia</title>
+Observe que en una red paralela de condensadores la capacitancia equivalente es siempre mayor que cualquiera de las capacitancias individuales de la red.</para>
+</example>
+<para id="fs-id1167134941993">Las redes de condensadores suelen ser una combinación de conexiones en serie y en paralelo, como se muestra en <link target-id="CNX_UPhysics_25_02_Connect"/>. Para calcular la capacitancia neta de tales combinaciones, identificamos las partes que contienen solo conexiones en serie o solo en paralelo, y hallamos sus capacitancias equivalentes. Repetimos este proceso hasta que podamos determinar la capacitancia equivalente de toda la red. El siguiente ejemplo ilustra este proceso.</para>
+<figure id="CNX_UPhysics_25_02_Connect">
+<media id="fs-id1167134534595" alt="La figura a muestra los condensadores C1 y C2 en serie y C3 en paralelo con ellos. El valor de C1 es 1 micro Faradio, el de C2 es 5 micro Faradios y el de C3 es 8 micro Faradios. La figura b es la misma que la figura a, con C1 y C2 siendo reemplazados por el condensador equivalente Cs. La figura c es la misma que la figura b, con Cs y C3 siendo reemplazados por el condensador equivalente C tot. C tot es igual a Cs más C3.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_Connect.jpg"/>
+</media>
+<caption>(a) Este circuito contiene conexiones en serie y en paralelo de condensadores. (b) <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> están en serie; su capacitancia equivalente es <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> (c) La capacitancia equivalente <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> se conecta en paralelo con <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Así, la capacitancia equivalente de toda la red es la suma de <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<example id="fs-id1167131223019">
+<para id="fs-id1167131549755"><title>Capacitancia equivalente de una red</title>
+Calcule la capacitancia total de la combinación de condensadores que se muestra en la <link target-id="CNX_UPhysics_25_02_Connect"/>. Supongamos que las capacitancias se conocen con tres decimales <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>5,000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F,</m:mtext></m:mrow></m:math><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>8,000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:math> Redondee su respuesta a tres decimales.</para>
+<para id="fs-id1167131462155"><title>Estrategia</title>
+Primero identificamos qué condensadores están en serie y cuáles en paralelo. Condensadores <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> están en serie. Su combinación, denominada <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> está en paralelo con <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167134864035"><title>Solución</title>
+Dado que <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> están en serie, su capacitancia equivalente <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> se obtiene con la <link target-id="fs-id1167134633020"/>:</para>
+<equation id="fs-id1167584693616" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1,000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>5,000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1,200</m:mn></m:mrow><m:mrow><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0,833</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167131376733">Capacitancia <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> se conecta en paralelo con la tercera capacitancia <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>, por lo que utilizamos la <link target-id="fs-id1167134538528"/> para calcular la capacitancia equivalente <emphasis effect="italics">C</emphasis> de toda la red:</para>
+<equation id="fs-id1167134937144" class="unnumbered"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,833</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>+</m:mo><m:mn>8,000</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mn>8,833</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</example>
+<example id="fs-id1167131097759">
+<para id="fs-id1167131582494"><title>Red de condensadores</title>
+Determine la capacitancia neta <emphasis effect="italics">C</emphasis> de la combinación de condensadores mostrada en la <link target-id="CNX_UPhysics_25_02_Networks"/> cuando las capacitancias son <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>12,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>. Cuando se mantiene una diferencia de potencial de 12,0 V a través de la combinación, halle la carga y el voltaje a través de cada condensador.</para>
+<figure id="CNX_UPhysics_25_02_Networks">
+<media id="fs-id1167131435046" alt="La figura a muestra los condensadores C1 y C2 en serie y C3 en paralelo con ellos. El valor de C1 es 1 micro Faradio, el de C2 es 5 micro Faradios y el de C3 es 8 micro Faradios. La figura b es la misma que la figura a, con C1 y C2 siendo reemplazados por el condensador equivalente Cs. La figura c es la misma que la figura b, con Cs y C3 siendo reemplazados por el condensador equivalente C tot. C tot es igual a Cs más C3.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_networks.jpg"/>
+</media>
+<caption>(a) Una combinación de condensadores. (b) Una combinación equivalente de dos condensadores.</caption>
+</figure>
+<para id="fs-id1167134512778"><title>Estrategia</title>
+Primero calculamos la capacitancia neta <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub></m:mrow></m:math> de la conexión en paralelo <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>. Entonces <emphasis effect="italics">C</emphasis> es la capacitancia neta de la conexión en serie <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub></m:mrow></m:math>. Utilizamos la relación <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi></m:mrow></m:mrow></m:math> para hallar las cargas <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>,<m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>, y los voltajes <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>, a través de los condensadores 1, 2 y 3, respectivamente.</para>
+<para id="fs-id1167134645651"><title>Solución</title>
+La capacitancia equivalente para <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> es</para>
+<equation id="fs-id1167134562556" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>+</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167131180083">La combinación completa de tres condensadores equivale a dos condensadores en serie,</para>
+<equation id="fs-id1167130010542" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>C</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167131490648">Considere la combinación equivalente de dos condensadores en la <link target-id="CNX_UPhysics_25_02_Networks"/>(b). Como los condensadores están en serie, tienen la misma carga, <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub></m:mrow></m:math>. Además, los condensadores comparten la diferencia de potencial de 12,0 V, por lo que</para>
+<equation id="fs-id1167134823806" class="unnumbered"><label/><m:math><m:mrow><m:mn>12,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>V</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>12,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>48,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167129993901">Ahora la diferencia de potencial a través del condensador 1 es</para>
+<equation id="fs-id1167131427396" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>48,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow><m:mn>12,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167131550854">Como los condensadores 2 y 3 están conectados en paralelo, están a la misma diferencia de potencial:</para>
+<equation id="fs-id1167134536713" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>12,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>−</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134443642">Por lo tanto, las cargas de estos dos condensadores son, respectivamente,</para>
+<equation id="fs-id1167134664831" class="unnumbered"><label/><m:math><m:mtable columnalign="left"><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>16,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>32,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167131376171"><title>Importancia</title>
+Como se esperaba, la carga neta en la combinación paralela de <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> es <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>23</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>48,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</example>
+<note id="fs-id1167134566569" class="check-understanding">
+<exercise id="fs-id1167131255847">
+<problem id="fs-id1167131557192">
+<para id="fs-id1167131177958">Determine la capacitancia neta <emphasis effect="italics">C</emphasis> de cada red de condensadores que se muestra a continuación. Supongamos que <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>. Calcule la carga de cada condensador suponiendo que hay una diferencia de potencial de 12,0 V en cada red.</para>
+<media id="fs-id1167134674175" alt="La figura a muestra los condensadores C2 y C3 en paralelo. Están en serie con C1. La figura b muestra los condensadores C2 y C3 en serie. Están en paralelo con C1. La figura c muestra los condensadores C1 y C2 en paralelo entre sí y los condensadores C3 y C4 en paralelo entre sí. Estas combinaciones se conectan en serie.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_networks2_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131184073">
+<para id="fs-id1167131164418">a. <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0,86</m:mn><m:mspace width="0.2em"/><m:mtext>pF,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>pC,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>3,4</m:mn><m:mspace width="0.2em"/><m:mtext>pC,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>6,8</m:mn><m:mspace width="0.2em"/><m:mtext>pC</m:mtext></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>2,3</m:mn><m:mspace width="0.2em"/><m:mtext>pF,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>pC,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>16</m:mn><m:mspace width="0.2em"/><m:mtext>pC</m:mtext></m:mrow></m:math>;<newline/> c. <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>2,3</m:mn><m:mspace width="0.2em"/><m:mtext>pF,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>9,0</m:mn><m:mspace width="0.2em"/><m:mtext>pC,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mtext>pC,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>pC,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>pC</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167131337189" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167131329469" list-type="bulleted" bullet-style="bullet">
+<item>Cuando se conectan varios condensadores en una combinación en serie, el recíproco de la capacitancia equivalente es la suma de los recíprocos de las capacitancias individuales.</item>
+<item>Cuando se conectan varios condensadores en una combinación en paralelo, la capacitancia equivalente es la suma de las capacitancias individuales.</item>
+<item>Cuando una red de condensadores contiene una combinación de conexiones en serie y en paralelo, identificamos las redes en serie y en paralelo, y calculamos sus capacitancias equivalentes paso a paso hasta que toda la red se reduce a una capacitancia equivalente.</item>
+</list>
+</section>
+<section id="fs-id1167131128919" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167134872384">
+<problem id="fs-id1167134883243">
+<para id="fs-id1167134866820">Si quieres almacenar una gran cantidad de carga en una batería de condensadores, ¿conectarías los condensadores en serie o en paralelo? Explique.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134653213">
+<problem id="fs-id1167131143346">
+<para id="fs-id1167134858171">¿Cuál es la máxima capacitancia que se puede obtener conectando tres <m:math><m:mrow><m:mn>1,0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> condensadores? ¿Cuál es la capacitancia mínima?</para>
+</problem>
+<solution id="fs-id1167134749828">
+<para id="fs-id1167131272414"><m:math><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:mn>0,33</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167134569155" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167131184278">
+<problem id="fs-id1167131220729">
+<para id="fs-id1167134644866">Un condensador de 4,00 pF está conectado en serie con un condensador de 8,00 pF y se aplica una diferencia de potencial de 400 V a través del par. (a) ¿Cuál es la carga de cada condensador? (b) ¿Cuál es el voltaje a través de cada condensador?</para>
+</problem>
+<solution id="fs-id1167134540998">
+<para id="fs-id1167134915780">a. 1,07 nC; b. 267 V, 133 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134992580">
+<problem id="fs-id1167134506720">
+<para id="fs-id1167131459186">Tres condensadores, con capacitancias de <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F,</m:mtext></m:mrow></m:math> respectivamente, están conectados en paralelo. Se aplica una diferencia de potencial de 500 V a través de la combinación. Determine el voltaje a través de cada condensador y la carga de cada condensador.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131255933">
+<problem id="fs-id1167134633828">
+<para id="fs-id1167134816516">Calcule la capacitancia total de esta combinación de condensadores en serie y en paralelo que se muestra a continuación.</para>
+<media id="fs-id1167134519672" alt="La figura muestra condensadores de valor 10 micro Farad y 2,5 micro Farad conectados en paralelo. Estos están conectados en serie con un condensador de valor 0,3 micro Farad.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_square_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167134922868">
+<para id="fs-id1167134684665"><m:math><m:mrow><m:mn>0,29</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131431010">
+<problem id="fs-id1167134517885">
+<para id="fs-id1167134509955">Supongamos que necesitas una batería de condensadores con una capacitancia total de 0,750 F pero solo tienes condensadores de 1,50 mF a su disposición. ¿Cuál es el menor número de condensadores que podría conectar para lograr su meta y cómo los conectaría?</para>
+</problem>
+<solution id="fs-id1167131455898">
+<para id="fs-id1167131435348">500 condensadores; conectados en paralelo</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134468780">
+<problem id="fs-id1167134890862">
+<para id="fs-id1167134716362">¿Qué capacitancias totales se pueden hacer conectando un <m:math><m:mrow><m:mn>5,00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> y un <m:math><m:mrow><m:mn>8,00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> condensador?</para>
+</problem>
+<solution id="fs-id1167131517332">
+<para id="fs-id1167131224953"><m:math><m:mrow><m:mn>3,08</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> (serie) y <m:math><m:mrow><m:mn>13,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> (en paralelo)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131498492">
+<problem id="fs-id1167131425840">
+<para id="fs-id1167131587880">Calcule la capacitancia equivalente de la combinación de condensadores en serie y en paralelo que se muestra a continuación.</para>
+<media id="fs-id1167134895185" alt="La figura muestra condensadores de valor 0,3 microfaradios y 10 microfaradios conectados en serie. Estos están conectados en paralelo con un condensador de valor 2,5 micro Farad.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_Box_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167134881053">
+<problem id="fs-id1167131222288">
+<para id="fs-id1167131201385">Calcule la capacitancia neta de la combinación de condensadores en serie y en paralelo que se muestra a continuación.</para>
+<media id="fs-id1167134627277" alt="La figura muestra un circuito con tres ramas conectadas en paralelo. El brazo 1 tiene condensadores de valor 5 micro Farad y 3,5 micro Farad conectados en serie. El Brach 2 tiene un condensador de valor 8 micro Farad. El Brach 3 tiene tres condensadores. Dos de ellos, con valores de 0,75 microfaradios y 15 microfaradios, están conectados en paralelo entre sí. Estos están en serie con el tercer condensador de valor 1,5 micro Farad.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_TwoBox_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167134940601">
+<para id="fs-id1167131362317"><m:math><m:mrow><m:mn>11,4</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131569035">
+<problem id="fs-id1167134512367">
+<para id="fs-id1167134507058">Un condensador de 40 pF se carga hasta una diferencia de potencial de 500 V. A continuación se conectan sus terminales a los de un condensador de 10 pF sin cargar. Calcule: (a) la carga original en el condensador de 40 pF; (b) la carga en cada condensador después de realizar la conexión; y (c) la diferencia de potencial a través de las placas de cada condensador después de la conexión.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131089215">
+<problem id="fs-id1167131472063">
+<para id="fs-id1167134590659">Un resistor de <m:math><m:mrow><m:mn>2,0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> y un condensador de <m:math><m:mrow><m:mn>4,0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> condensador están conectados en serie a través de un potencial de 1,0 kV. A continuación, los condensadores cargados se desconectan de la fuente y se conectan entre sí con terminales de signo similar. Halle la carga de cada condensador y el voltaje a través de cada condensador.</para>
+</problem>
+<solution id="fs-id1167131217962">
+<para id="fs-id1167134910835">0.89 mC; 1,78 mC; 444 V</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134926180">
+<term>combinación paralela</term>
+<meaning id="fs-id1167131177822">componentes en un circuito dispuestos con un lado de cada componente conectado a un lado del circuito y los otros lados de los componentes conectados al otro lado del circuito</meaning>
+</definition>
+<definition id="fs-id1167134941320">
+<term>combinación en serie</term>
+<meaning id="fs-id1167131201557">componentes de un circuito dispuestos en fila uno tras otro en un circuito</meaning>
+</definition>
+</glossary>
+</document>

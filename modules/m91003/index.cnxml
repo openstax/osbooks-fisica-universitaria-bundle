@@ -1,0 +1,128 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Momento relativista</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91003</md:content-id>
+  <md:title>Momento relativista</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Definir el momento relativista en términos de masa y velocidad</item>
+<item>Demostrar cómo el momento relativista se relaciona con el momento clásico</item>
+<item>Demostrar cómo la conservación del momento relativista limita los objetos con masa a velocidades inferiores a <m:math><m:mi>c</m:mi></m:math></item>
+</list></md:abstract>
+  <md:uuid>a373d9a2-a0f3-44c2-8c4d-15af94ff4324</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167794146152">El momento es un concepto central en la física. La forma más amplia de la segunda ley de Newton se expresa en términos de momento. El momento se conserva siempre que la fuerza externa neta sobre un sistema es cero. Esto hace que la conservación del momento sea una herramienta fundamental para analizar las colisiones (<link target-id="CNX_UPhysics_38_08_Football"/>). Gran parte de lo que sabemos sobre la estructura subatómica procede del análisis de las colisiones de partículas relativistas producidas por aceleradores, y la conservación del momento desempeña un papel crucial en este análisis.</para>
+<figure id="CNX_UPhysics_38_08_Football">
+<media id="fs-id1167793245750" alt="Una foto de un jugador de fútbol americano placando a un rival.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_08_Football.jpg"/>
+</media>
+<caption>El momento es un concepto importante para estos jugadores de fútbol de la Universidad de California en Berkeley y la Universidad de California en Davis. Un jugador con la misma velocidad pero con mayor masa colisiona con mayor impacto porque su momento es mayor. Para los objetos que se mueven a velocidades relativistas, el efecto es aún mayor.</caption>
+</figure>
+<para id="fs-id1167793831509">El primer postulado de la relatividad afirma que las leyes de la física son las mismas en todos los marcos inerciales. ¿Sigue la ley de conservación del momento este requisito a altas velocidades? Se puede demostrar que el momento calculado como simplemente <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> aunque se conserve en un marco de referencia, puede no conservarse en otro tras aplicar la transformación de Lorentz a las velocidades. La ecuación correcta para el momento puede demostrarse, en cambio, como la expresión clásica en términos del incremento <m:math><m:mrow><m:mi>d</m:mi><m:mi>τ</m:mi></m:mrow></m:math> del tiempo propio de la partícula, observado en el marco de reposo de la partícula:</para>
+<equation id="fs-id1167793992249" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>τ</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mspace width="0.1em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>τ</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<note id="fs-id1167793977878">
+<title>Momento relativista</title>
+<para id="fs-id1167793259931"><term>Momento relativista</term> <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es el momento clásico multiplicado por el factor relativista <emphasis effect="italics">γ</emphasis>:</para>
+<equation id="fs-id1167793953179"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1167793926547">donde <emphasis effect="italics">m</emphasis> es la <term>masa en reposo</term> del objeto, <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es su velocidad relativa a un observador, y γ es el factor relativista:</para>
+<equation id="fs-id1167793937616"><m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167793581660">Observe que aquí utilizamos <emphasis effect="italics">u</emphasis> para la velocidad para distinguirla de la velocidad relativa <emphasis effect="italics">v</emphasis> entre observadores. El factor <m:math><m:mi>γ</m:mi></m:math> que se produce aquí tiene la misma forma que el factor relativista anterior <m:math><m:mi>γ</m:mi></m:math> excepto que ahora está en términos de la velocidad de la partícula <emphasis effect="italics">u</emphasis> en lugar de la velocidad relativa <emphasis effect="italics">v</emphasis> de dos marcos de referencia.</para>
+<para id="fs-id1167793240641">Con <emphasis effect="italics">p</emphasis> expresado de esta manera, el momento total <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow></m:math> se conserva siempre que la fuerza externa neta sea cero, al igual que en la física clásica. De nuevo vemos que la cantidad relativista se convierte prácticamente en la misma que la cantidad clásica a bajas velocidades, donde <emphasis effect="italics">u</emphasis>/<emphasis effect="italics">c</emphasis> es pequeño y <m:math><m:mi>γ</m:mi></m:math> es casi igual a 1. El momento relativista tiene la misma función intuitiva que el momento clásico. Es mayor para grandes masas que se mueven a altas velocidades, pero debido al factor <m:math><m:mi>γ</m:mi><m:mo>,</m:mo></m:math> el momento relativista se aproxima al infinito a medida que <emphasis effect="italics">u</emphasis> se acerca a <emphasis effect="italics">c</emphasis> (<link target-id="CNX_UPhysics_38_08_Momentum"/>). Esta es otra indicación de que un objeto con masa no puede alcanzar la velocidad de la luz. Si lo hiciera, su momento se volvería infinito, un valor irrazonable.</para>
+<figure id="CNX_UPhysics_38_08_Momentum">
+<media id="fs-id1167793363106" alt="Este es un gráfico del momento relativista en función de la velocidad. La función y su pendiente son cero en u=0, ambas aumentan con u, y la función tiene una asíntota vertical en u=1,0 c">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_08_Momentum.jpg"/>
+</media>
+<caption>El momento relativista se aproxima al infinito cuando la velocidad de un objeto se aproxima a la velocidad de la luz.</caption>
+</figure>
+<para id="fs-id1167794037195">La definición relativista correcta del momento como <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mi>u</m:mi></m:mrow></m:math> a veces se considera que implica que la masa varía con la velocidad: <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>var</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mo>,</m:mo></m:mrow></m:math> sobre todo en los libros de texto más antiguos. Sin embargo, hay que tener en cuenta que <emphasis effect="italics">m</emphasis> es la masa del objeto medida por una persona en reposo respecto al objeto. Así, <emphasis effect="italics">m</emphasis> se define como la masa en reposo, que podría medirse en reposo, quizás utilizando la gravedad. Cuando una masa se mueve con respecto a un observador, la única forma de determinar su masa es mediante colisiones u otros medios que involucren el momento. Como la masa de un objeto en movimiento no puede determinarse independientemente del momento, la única masa significativa es la masa en reposo. Por lo tanto, cuando utilicemos el término "masa", supongamos que es idéntico a "masa en reposo".</para>
+<para id="fs-id1167794060648">El momento relativista se define de tal manera que la conservación del momento se mantiene en todos los marcos inerciales. Siempre que la fuerza externa neta sobre un sistema sea cero, el momento relativista se conserva, al igual que el momento clásico. Esto se ha comprobado en numerosos experimentos.</para>
+<note id="fs-id1167793750802" class="check-understanding">
+<exercise id="fs-id1167794142452">
+<problem id="fs-id1167793291718">
+<para id="fs-id1167793366413">¿Cuál es el momento de un electrón que viaja a una velocidad de 0,985<emphasis effect="italics">c</emphasis>? La masa en reposo del electrón es <m:math><m:mrow><m:mn>9,11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167793378548">
+<para id="fs-id1167793260795">Sustituya los datos en la ecuación dada:<newline/> <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mi>u</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>9,11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,985</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,985</m:mn><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg-m/s.</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167794051790" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167793976155" list-type="bulleted" bullet-style="bullet">
+<item>La ley de conservación del momento es válida para el momento relativista siempre que la fuerza externa neta sea cero. El momento relativista es <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mi>u</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <emphasis effect="italics">m</emphasis> es la masa en reposo del objeto, <emphasis effect="italics">u</emphasis> es su velocidad relativa a un observador, y el factor relativista es <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>A bajas velocidades, el momento relativista es equivalente al momento clásico.</item>
+<item>El momento relativista se aproxima al infinito cuando <emphasis effect="italics">u</emphasis> se aproxima a <emphasis effect="italics">c</emphasis>. Esto implica que un objeto con masa no puede alcanzar la velocidad de la luz.</item>
+</list>
+</section>
+<section id="fs-id1167793435694" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167793629296">
+<problem id="fs-id1167793237831">
+<para id="fs-id1167793938240">¿Cómo modifica la relatividad moderna la ley de conservación del momento?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167794326162">
+<problem id="fs-id1167793985685">
+<para id="fs-id1167794210766">¿Es posible que una fuerza externa actúe sobre un sistema y que el momento relativista se conserve? Explique.</para>
+</problem>
+<solution id="fs-id1167794002783">
+<para id="fs-id1167794216236">Sí. Esto puede ocurrir si la fuerza externa se equilibra con otras fuerzas aplicadas externamente, de modo que la fuerza externa neta sea cero.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167793999292" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167794170660">
+<problem id="fs-id1167793290850">
+<para id="fs-id1167794027273">Encuentre el momento de un núcleo de helio con una masa de <m:math><m:mrow><m:mn>6,68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> que se mueve a 0,200<emphasis effect="italics">c</emphasis>.</para>
+</problem>
+<solution id="fs-id1167793238015">
+<para id="fs-id1167793913215"><m:math><m:mrow><m:mn>4,09</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793219303">
+<problem id="fs-id1167793442787">
+<para id="fs-id1167794169326">¿Cuál es el momento de un electrón que viaja a 0,980<emphasis effect="italics">c</emphasis>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793931807">
+<problem id="fs-id1167794328891">
+<para id="fs-id1167794284915">(a) Encuentre el momento de un <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mtext>-kg</m:mtext></m:mrow></m:math> asteroide que se dirige a la Tierra a 30,0 km/s. (b) Encuentre la relación de este momento con el momento clásico. (Sugerencia: Utilice la aproximación en que <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> a bajas velocidades).</para>
+</problem>
+<solution id="fs-id1167793818543">
+<para id="fs-id1167793852850">a. <m:math><m:mrow><m:mn>3,000000015</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s;</m:mtext></m:mrow></m:math> b. 1,000000005</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167794039506">
+<problem id="fs-id1167793376189">
+<para id="fs-id1167793495147">(a) ¿Cuál es el momento de un satélite de 2.000 kg que orbita a 4,00 km/s? (b) Encuentre la relación entre este momento y el momento clásico. (Sugerencia: Utilice la aproximación en que <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> a bajas velocidades).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167794026700">
+<problem id="fs-id1167794071266">
+<para id="fs-id1167793848355">¿Cuál es la velocidad de un electrón que tiene un momento de <m:math><m:mrow><m:mn>3,04</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:math>? Tenga en cuenta que debe calcular la velocidad con al menos cuatro dígitos para ver la diferencia con <emphasis effect="italics">c</emphasis>.</para>
+</problem>
+<solution id="fs-id1167794137364">
+<para id="fs-id1167793949778"><m:math><m:mrow><m:mn>2,988</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793933416">
+<problem id="fs-id1167794135652">
+<para id="fs-id1167793637938">Encuentre la velocidad de un protón que tiene un momento de <m:math><m:mrow><m:mn>4,48</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167794041889">
+<term>momento relativista</term>
+<meaning id="fs-id1167793887875"><m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:math> el momento de un objeto que se mueve a velocidad relativista <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1167793881872">
+<term>masa en reposo</term>
+<meaning id="fs-id1167793510596">masa de un objeto medida por un observador en reposo respecto al objeto</meaning>
+</definition>
+</glossary>
+</document>

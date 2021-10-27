@@ -1,0 +1,612 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>El magnetismo en la materia</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90916</md:content-id>
+  <md:title>El magnetismo en la materia</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Clasificar los materiales magnéticos como paramagnéticos, diamagnéticos o ferromagnéticos, según su respuesta a un campo magnético.</item>
+<item>Esbozar cómo se alinean los dipolos magnéticos con el campo magnético en cada tipo de sustancia.</item>
+<item>Definir la histéresis y la susceptibilidad magnética que determinan el tipo de material magnético.</item>
+</list></md:abstract>
+  <md:uuid>31cac266-2d08-4404-9cf1-d1ad8ec9ef07</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1166168191788">¿Por qué algunos materiales son magnéticos y otros no? ¿Y por qué ciertas sustancias se magnetizan con un campo, mientras que otras no se ven afectadas? Para responder a estas preguntas, necesitamos comprender el magnetismo a nivel microscópico.</para>
+<para id="fs-id1166168105871">Dentro de un átomo, cada electrón viaja en una órbita y gira sobre un eje interno. Ambos tipos de movimiento producen bucles de corriente y, por tanto, dipolos magnéticos. Para un átomo concreto, el momento dipolar magnético neto es la suma vectorial de los momentos dipolares magnéticos. Se indican valores de <m:math><m:mi>μ</m:mi></m:math> para varios tipos de átomos en la <link target-id="fs-id1166168184037"/>. Observe que algunos átomos tienen un momento dipolar neto cero y que las magnitudes de los momentos no evanescentes suelen ser <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<table id="fs-id1166168184037" summary="This table has two columns and six rows. The first row is a header row and it labels each column, “Atom,” and “Magnetic Moment (10 superscript –24 A times m squared).” Under the “Atom” column is the list of elements: H; He; Li; O; Na; and S. Under the “Magnetic Moment (10 superscript –24 A times m squared)” column are the values: 9.27; 0; 9.27; 13.9; 9.27; and 13.9.">
+<title>Momentos magnéticos de algunos átomos</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry align="left">Átomo</entry>
+<entry align="left">Momento magnético <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">H</entry>
+<entry valign="top" align="left">9,27</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">He</entry>
+<entry valign="top" align="left">0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Li</entry>
+<entry valign="top" align="left">9,27</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">O</entry>
+<entry valign="top" align="left">13,9</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Na</entry>
+<entry valign="top" align="left">9,27</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">S</entry>
+<entry valign="top" align="left">13,9</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1166168224077">Un puñado de materia tiene aproximadamente <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>26</m:mn></m:mrow></m:msup></m:mrow></m:math> átomos e iones, cada uno con su momento dipolar magnético. Si no hay un campo magnético externo, los dipolos magnéticos se orientan de forma aleatoria: tantos apuntan hacia arriba como hacia abajo, tantos apuntan al este como al oeste, etc. En consecuencia, el momento dipolar magnético neto de la muestra es cero. Sin embargo, si la muestra se coloca en un campo magnético, estos dipolos tienden a alinearse con el campo (vea la <link document="m90913" target-id="fs-id1166167417118"/>), y esta alineación determina cómo responde la muestra al campo. En función de esta respuesta, se dice que un material es paramagnético, ferromagnético o diamagnético.</para>
+<para id="fs-id1166168332397">En un <term>material paramagnético</term>, solo una pequeña fracción (aproximadamente un tercio) de los dipolos magnéticos están alineados con el campo aplicado. Dado que cada dipolo produce su propio campo magnético, esta alineación aporta uno adicional, que aumenta el campo aplicado. Cuando un <term>material ferromagnético</term> se coloca en un campo magnético, sus dipolos magnéticos también se alinean; además, se bloquean entre sí de modo que se produce una magnetización permanente, incluso cuando el campo se apaga o se invierte. Esta magnetización permanente se produce en los materiales ferromagnéticos pero no en los paramagnéticos. Los <term>materiales diamagnéticos</term> están compuestos por átomos que no tienen un momento dipolar magnético neto. Sin embargo, cuando un material diamagnético se coloca en un campo magnético, un momento dipolar magnético se dirige de forma opuesta al campo aplicado y, por lo tanto, produce un campo magnético que se opone al campo aplicado. A continuación, examinamos con más detalle cada tipo de material.</para>
+<section id="fs-id1166168189026">
+<title>Materiales paramagnéticos</title>
+<para id="fs-id1166168410539">Para simplificar, suponemos que nuestra muestra es una pieza larga y cilíndrica que llena completamente el interior de un solenoide largo y bien enrollado. Cuando no hay corriente en el solenoide, los dipolos magnéticos de la muestra están orientados al azar y no producen ningún campo magnético neto. Con una corriente de solenoide, el campo magnético debido al solenoide ejerce un torque sobre los dipolos que tiende a alinearlos con el campo. En competencia con el torque de alineación están las colisiones térmicas que tienden a aleatorizar las orientaciones de los dipolos. La importancia relativa de estos dos procesos en competencia puede estimarse al comparar las energías implicadas. De la <link document="m90913" target-id="fs-id1166167417118"/>, la diferencia de energía entre un dipolo magnético alineado con y contra un campo magnético es <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>μ</m:mi><m:mi>B</m:mi><m:mo>.</m:mo></m:mrow></m:math> Si <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>9,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−24</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math> (el valor del hidrógeno atómico) y <emphasis effect="italics">B</emphasis> = 1,0 T, entonces</para>
+<equation id="fs-id1166168070558" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mn>1,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168123012">A una temperatura ambiente de <m:math><m:mrow><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> la energía térmica por átomo es</para>
+<equation id="fs-id1166168221920" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>T</m:mi></m:msub><m:mo>≈</m:mo><m:mi>k</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mtext>J/K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168085083">que es unas 220 veces mayor que <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>B</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Está claro que los intercambios de energía en las colisiones térmicas pueden interferir seriamente en la alineación de los dipolos magnéticos. Como resultado, solo una pequeña fracción de los dipolos está alineada en cualquier instante.</para>
+<para id="fs-id1166168466514">Los cuatro bocetos de la <link target-id="CNX_UPhysics_29_07_Solenoid2"/> proporcionan un modelo sencillo de este proceso de alineación. En la parte (a), antes de que se aplique el campo del solenoide (no mostrado) que contiene la muestra paramagnética, los dipolos magnéticos están orientados al azar y no hay ningún momento dipolar magnético neto asociado al material. Con la introducción del campo, se produce una alineación parcial de los dipolos, como se representa en la parte (b). La componente del momento dipolar magnético neto que es perpendicular al campo, desaparece. Podemos entonces representar la muestra mediante la parte (c), que muestra una colección de dipolos magnéticos completamente alineados con el campo. Al tratar estos dipolos como bucles de corriente, podemos imaginar la alineación de los dipolos como equivalente a una corriente alrededor de la superficie del material, como en la parte (d). Esta corriente superficial ficticia produce su propio campo magnético, que aumenta el campo del solenoide.</para>
+<figure id="CNX_UPhysics_29_07_Solenoid2">
+<media id="fs-id1166168449832" alt="La figura a muestra una varilla con dipolos magnéticos orientados al azar. La figura b muestra los dominios que se orientaron parcialmente después de aplicar el campo magnético a lo largo del eje de la varilla. La figura c muestra los dominios totalmente orientados. La figura d muestra que los dipolos están alineados dentro de los dominios individuales y equivalen a una corriente alrededor de la superficie del material. Esta corriente de superficie produce su propio campo magnético que aumenta el campo del solenoide.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_07_Solenoid2.jpg"/>
+</media>
+<caption>El proceso de alineación en un material paramagnético que rellena un solenoide (no se muestra). (a) Sin un campo aplicado, los dipolos magnéticos se orientan al azar. (b) Con un campo, se produce una alineación parcial. (c) Una representación equivalente de la parte (b). (d) Las corrientes internas se cancelan, dejando una corriente superficial efectiva que produce un campo magnético similar al de un solenoide finito.</caption>
+</figure>
+<para id="fs-id1166164825694">Podemos expresar el campo magnético total <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> en el material como</para>
+<equation id="fs-id1166168173799"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>m</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168331716">donde <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> es el campo debido a la corriente <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> en el solenoide y <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>m</m:mi></m:msub></m:mrow></m:math> es el campo debido a la corriente superficial <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mi>m</m:mi></m:msub></m:mrow></m:math> alrededor de la muestra. Ahora <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>m</m:mi></m:msub></m:mrow></m:math> suele ser proporcional a <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> un hecho que expresamos mediante</para>
+<equation id="fs-id1166168221760"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>m</m:mi></m:msub><m:mo>=</m:mo><m:mi>χ</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168213876">donde <m:math><m:mi>χ</m:mi></m:math> es una cantidad sin dimensiones llamada <term>susceptibilidad magnética</term>. Se indican valores de <m:math><m:mi>χ</m:mi></m:math> para algunos materiales paramagnéticos en la <link target-id="fs-id1166168213796"/>. Como la alineación de los dipolos magnéticos es tan débil, <m:math><m:mi>χ</m:mi></m:math> es muy pequeño para los materiales paramagnéticos. Al combinar la <link target-id="fs-id1166168173799"/> y la <link target-id="fs-id1166168221760"/>, obtenemos:</para>
+<equation id="fs-id1166168124370"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>χ</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>χ</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168186104">Para una muestra dentro de un solenoide infinito, esto se convierte en</para>
+<equation id="fs-id1166168125628"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>χ</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168123881">Esta expresión nos dice que la inserción de un material paramagnético en un solenoide aumenta el campo en un factor de <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>χ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Sin embargo, como <m:math><m:mi>χ</m:mi></m:math> es tan pequeño, el campo no se mejora mucho.</para>
+<para id="fs-id1166164827411">La cantidad</para>
+<note id="fs-id1168329084784" class="equation-callout">
+<equation id="fs-id1166168467028"><label/><m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>χ</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166168127166">se denomina permeabilidad magnética de un material. En términos de <m:math><m:mi>μ</m:mi><m:mo>,</m:mo></m:math> la <link target-id="fs-id1166168125628"/> puede escribirse como</para>
+<note id="fs-id1168329064842" class="equation-callout">
+<equation id="fs-id1166168377641"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166168334866">para el solenoide lleno.</para>
+<table id="fs-id1166168213796" summary="This table has four columns and nine rows. The first row is a header row and it labels each column, “Paramagnetic Materials” and “Magnetic Susceptibility”, “Diamagnetic Materials” and “Magnetic Susceptibility” Under the “Paramagnetic Materials” column is a list of elements: Aluminum; Calcium; Chromium; Magnesium; Oxygen gas at one atmosphere; Oxygen liquid at 90 K; Tungsten; and Air at one atmosphere. Under the “Magnetic Susceptibility (10 superscript –5)” column are the values: 2.2; 1.4; 3.1; 1.2; 1.8; 3.5; 6.8; and 3.6. Under the “Diamagnetic Materials” column is the list of elements: Bismuth; Carbon diamond; Copper; Lead; Mercury; Hydrogen gas at one atmosphere; Nitrogen gas at one atmosphere; and Water. Under the “Magnetic Susceptibility (10 superscript –5)” column are the values: -1.7; -2.2; -9.7; -1.8; -2.8; -2.2; -6.7; and -9.1.">
+<title>Susceptibilidades magnéticas</title>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Materiales paramagnéticos</entry>
+<entry valign="top" align="left"><m:math><m:mi>χ</m:mi></m:math></entry>
+<entry valign="top" align="left">Materiales diamagnéticos</entry>
+<entry valign="top" align="left"><m:math><m:mi>χ</m:mi></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Aluminio</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Bismuto</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>-1,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Calcio</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Carbono (diamante)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−2,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Cromo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Cobre</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>-9,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnesio</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Plomo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−1,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Gas oxígeno (1 atm)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Mercurio</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−2,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Oxígeno líquido (90 K)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Gas hidrógeno (1 atm)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−2,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Tungsteno</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>6,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Gas nitrógeno (1 atm)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−6,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Aire (1 atm)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Agua</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>-9,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+<caption>*Nota: A menos que se especifique lo contrario, los valores indicados se refieren a la temperatura ambiente.</caption>
+</table>
+</section>
+<section id="fs-id1166168479852">
+<title>Materiales diamagnéticos</title>
+<para id="fs-id1166168351617">Un campo magnético siempre induce un dipolo magnético en un átomo. Este dipolo inducido apunta de forma opuesta al campo aplicado, por lo que su campo magnético también se dirige de forma opuesta al campo aplicado. En los materiales paramagnéticos y ferromagnéticos, los dipolos magnéticos permanentes de los átomos, que son mucho más fuertes, ocultan el dipolo magnético inducido. Sin embargo, en los materiales diamagnéticos, cuyos átomos no tienen momentos dipolares magnéticos permanentes, el efecto del dipolo inducido es observable.</para>
+<para id="fs-id1166168173625">Ahora podemos describir los efectos magnéticos de los materiales diamagnéticos con el mismo modelo desarrollado para los materiales paramagnéticos. Sin embargo, en este caso la corriente superficial ficticia fluye en sentido contrario a la corriente del solenoide, y la susceptibilidad magnética <m:math><m:mi>χ</m:mi></m:math> es negativa. Los valores de <m:math><m:mi>χ</m:mi></m:math> para algunos materiales diamagnéticos también se indican en la <link target-id="fs-id1166168213796"/>.</para>
+<note id="fs-id1166168125016" class="media-2">
+<para id="fs-id1166168251077">El agua es un material comúnmente diamagnético. Los animales están compuestos principalmente por agua. Se han realizado experimentos con <link url="https://openstax.org/l/21frogs">ranas</link> y <link url="https://openstax.org/l/21mice">ratones</link> en campos magnéticos divergentes. Las moléculas de agua son repelidas por el campo magnético aplicado contra la gravedad hasta que el animal alcanza el equilibrio. El resultado es que el animal es levitado por el campo magnético.</para>
+</note>
+</section>
+<section id="fs-id1166168451014">
+<title>Materiales ferromagnéticos</title>
+<para id="fs-id1166168374106">Los imanes comunes están hechos de un material ferromagnético como el hierro o una de sus aleaciones. Los experimentos revelan que un material ferromagnético está formado por pequeñas regiones conocidas como <term>dominios magnéticos</term>. Sus volúmenes suelen oscilar entre <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup></m:mrow></m:math> a <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> y contienen alrededor de <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:msup></m:mrow></m:math> a <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:msup></m:mrow></m:math> átomos. Dentro de un dominio, los dipolos magnéticos se alinean rígidamente en la misma dirección mediante el acoplamiento entre los átomos. Este acoplamiento, que se debe a efectos mecánicos cuánticos, es tan fuerte que ni siquiera la agitación térmica a temperatura ambiente puede romperlo. El resultado es que cada dominio tiene un momento dipolar neto. Algunos materiales tienen un acoplamiento más débil y son ferromagnéticos solo a bajas temperaturas.</para>
+<para id="fs-id1166164826498">Si los dominios de una muestra ferromagnética están orientados aleatoriamente, como se muestra en la <link target-id="CNX_UPhysics_29_07_Domains"/>, la muestra no tiene un momento dipolar magnético neto y se dice que está desmagnetizada. Supongamos que llenamos el volumen de un solenoide con una muestra ferromagnética no magnetizada. Cuando el campo magnético <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> del solenoide se enciende, los momentos dipolares de los dominios giran de manera que se alinean un poco con el campo, como se representa en la <link target-id="CNX_UPhysics_29_07_Domains"/>. Además, los dominios alineados tienden a aumentar de tamaño a costa de los no alineados. El efecto neto de estos dos procesos es la creación de un momento dipolar magnético neto para el ferromagneto que se dirige a lo largo del campo magnético aplicado. Este momento dipolar magnético neto es mucho mayor que el de una muestra paramagnética, y los dominios, con su gran número de átomos, no se desalinean por la agitación térmica. En consecuencia, el campo debido a la alineación de los dominios es bastante grande.</para>
+<figure id="CNX_UPhysics_29_07_Domains">
+<media id="fs-id1166168120547" alt="La imagen a muestra pequeños dominios orientados al azar en la pieza no magnetizada de la muestra ferromagnética. La imagen b muestra pequeños dominios parcialmente alineados tras la aplicación de un campo magnético. La figura c muestra dominios de un solo cristal de níquel. Los límites del dominio son visibles.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_07_Domains.jpg"/>
+</media>
+<caption>(a) Los dominios se orientan aleatoriamente en una muestra ferromagnética no magnetizada, como el hierro. Las flechas representan las orientaciones de los dipolos magnéticos dentro de los dominios. (b) En un campo magnético aplicado, los dominios se alinean un poco con el campo. (c) Los dominios de un solo cristal de níquel. Las líneas blancas muestran los límites de los dominios. Estas líneas se producen por el polvo de óxido de hierro espolvoreado sobre el cristal.</caption>
+</figure>
+<para id="fs-id1166168099196">Además del hierro, solo cuatro elementos contienen los dominios magnéticos necesarios para mostrar un comportamiento ferromagnético: el cobalto, el níquel, el gadolinio y el disprosio. Muchas aleaciones de estos elementos son también ferromagnéticas. Los materiales ferromagnéticos pueden describirse usando la <link target-id="fs-id1166168173799"/> hasta la <link target-id="fs-id1166168377641"/>, las ecuaciones paramagnéticas. Sin embargo, el valor de <m:math><m:mi>χ</m:mi></m:math> para el material ferromagnético suele ser del orden de <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> a <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> y también depende de la historia del campo magnético al que ha estado sometido el material. Un gráfico típico de <emphasis effect="italics">B</emphasis> (el campo total en el material) versus <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> (el campo aplicado) para una pieza de hierro inicialmente no magnetizada se muestra en la <link target-id="CNX_UPhysics_29_07_Biron"/>. Algunos números de muestra son (1) para <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>,</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0,60</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mi>χ</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac bevelled="true"><m:mrow><m:mn>0,60</m:mn></m:mrow><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>≈</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>; (2) para <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>,</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mi>χ</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac bevelled="true"><m:mrow><m:mn>1,5</m:mn></m:mrow><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>≈</m:mo><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_29_07_Biron">
+<media id="fs-id1166168409551" alt="Esta imagen muestra un gráfico del campo total en el material versus el campo aplicado para una pieza de hierro inicialmente no magnetizada. Al aumento inicial del campo total le sigue la saturación.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_07_Biron.jpg"/>
+</media>
+<caption>(a) El campo magnético <emphasis effect="italics">B</emphasis> en el hierro recocido en función del campo aplicado <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1166168469938">Cuando <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> se varía en un rango de valores positivos y negativos, se halla que <emphasis effect="italics">B</emphasis> se comporta como se muestra en la <link target-id="CNX_UPhysics_29_07_Hysteresis"/>. Observe que el mismo <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> (correspondiente a la misma corriente en el solenoide) pueden producir diferentes valores de <emphasis effect="italics">B</emphasis> en el material. El campo magnético <emphasis effect="italics">B</emphasis> producido en un material ferromagnético por un campo aplicado <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> depende de la historia magnética del material. Este efecto se denomina <term>histéresis</term>, y la curva de la <link target-id="CNX_UPhysics_29_07_Hysteresis"/> se llama bucle de histéresis. Observe que <emphasis effect="italics">B</emphasis> no desaparece cuando <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> (es decir, cuando la corriente en el solenoide está apagada). El hierro permanece magnetizado, lo que significa que se ha convertido en un imán permanente.</para>
+<figure id="CNX_UPhysics_29_07_Hysteresis">
+<media id="fs-id1166168245052" alt="Esta imagen muestra un bucle de histéresis típico de un ferromagneto. Comienza en el origen con la curva ascendente que es la curva de magnetización inicial hasta el punto de saturación a, seguida de la curva descendente hasta el punto b después de la saturación, junto con la curva inferior de retorno hasta el punto a.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_07_Hysteresis.jpg"/>
+</media>
+<caption>Un bucle de histéresis típico de un ferromagneto. Cuando el material se magnetiza por primera vez, sigue una curva de 0 a <emphasis effect="italics">a</emphasis>. Cuando <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> se invierte, toma la trayectoria indicada de <emphasis effect="italics">a</emphasis> hasta <emphasis effect="italics">b</emphasis>. Si <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> se invierte de nuevo, el material sigue la curva de <emphasis effect="italics">b</emphasis> hasta <emphasis effect="italics">a</emphasis>.</caption>
+</figure>
+<para id="fs-id1166168617204">Al igual que la muestra paramagnética de la <link target-id="CNX_UPhysics_29_07_Solenoid2"/>, la alineación parcial de los dominios en un ferromagneto equivale a una corriente que fluye alrededor de la superficie. Por lo tanto, una barra magnética puede imaginarse como un solenoide fuertemente bobinado con una gran corriente circulando por sus bobinas (la corriente superficial). Puede ver en la <link target-id="CNX_UPhysics_29_07_SolBarMag"/> que este modelo se ajusta bastante bien. Los campos de la barra magnética y del solenoide finito son sorprendentemente similares. La figura también muestra cómo se identifican los polos de la barra magnética. Para formar bucles cerrados, las líneas de campo fuera del imán salen del polo norte (N) y entran en el polo sur (S), mientras que dentro del imán, salen de S y entran en N.</para>
+<figure id="CNX_UPhysics_29_07_SolBarMag">
+<media id="fs-id1166168229866" alt="La imagen de la izquierda muestra los campos magnéticos de un solenoide finito; la de la derecha, los de una barra magnética. Los campos son sorprendentemente similares y forman bucles cerrados en ambas situaciones.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_07_SolBarMag.jpg"/>
+</media>
+<caption>Comparación de los campos magnéticos de un solenoide finito y una barra magnética.</caption>
+</figure>
+<para id="fs-id1166168177913">Los materiales ferromagnéticos se encuentran en los discos duros de las computadoras y en los dispositivos de almacenamiento permanente de datos (<link target-id="CNX_UPhysics_29_07_HDD"/>). Un material utilizado en las unidades de disco duro se llama válvula de espín, que tiene capas alternas de metales ferromagnéticos (se alinean con el campo magnético externo) y antiferromagnéticos (cada átomo se alinea de forma opuesta al siguiente). Se observó que se descubrió un cambio significativo en la resistencia en función de si un campo magnético aplicado estaba sobre la válvula de espín o no. Este gran cambio en la resistencia crea una forma rápida y consistente de registrar o leer información mediante una corriente aplicada.</para>
+<figure id="CNX_UPhysics_29_07_HDD">
+<media id="fs-id1166164826342" alt="La foto muestra el interior de un disco duro. El disco plateado contiene la información, mientras que el fino lápiz óptico situado en la parte superior del disco lee y escribe información en este.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_07_HDD.jpg"/>
+</media>
+<caption>El interior de un disco duro. El disco plateado contiene la información, mientras que el fino lápiz óptico situado en la parte superior del disco lee y escribe información en este.</caption>
+</figure>
+<example id="fs-id1166168536605">
+<para id="fs-id1168329518150"><title>Núcleo de hierro en una bobina</title>
+Una bobina larga está fuertemente bobinada alrededor de un cilindro de hierro cuya curva de magnetización se muestra en la <link target-id="CNX_UPhysics_29_07_Biron"/>. (a) Si <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> vueltas por centímetro, ¿cuál es el campo aplicado <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> cuando <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,20</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>?</m:mo></m:mrow></m:math> (b) ¿Cuál es el campo magnético neto para esta misma corriente? (c) ¿Cuál es la susceptibilidad magnética en este caso?</para>
+<para id="fs-id1168328981184"><title>Estrategia</title>
+(a) Se calcula el campo magnético de un solenoide utilizando la <link document="m90915" target-id="fs-id1166167134612"/>. (b) Se lee la gráfica para determinar el campo magnético neto para esta misma corriente. (c) Se calcula la susceptibilidad magnética utilizando la <link target-id="fs-id1166168125628"/>.</para>
+<para id="fs-id1168329196390"><title>Solución</title></para>
+<list id="fs-id1171361186280" list-type="enumerated" number-style="lower-alpha">
+<item>El campo aplicado <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> de la bobina es
+<equation id="fs-id1168329434783" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.000</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,20</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>De la inspección de la curva de magnetización de la <link target-id="CNX_UPhysics_29_07_Biron"/>, vemos que, para este valor de <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Observe que el campo interno de los átomos alineados es mucho mayor que el campo aplicado externamente.</item>
+<item>Se calcula que la susceptibilidad magnética es
+<equation id="fs-id1166168617199" class="unnumbered"><label/><m:math><m:mrow><m:mi>χ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>B</m:mi><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:mfrac><m:mtext>−1</m:mtext><m:mo>=</m:mo><m:mn>2,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</item>
+</list>
+<para id="fs-id1168329170031"><title>Importancia</title>
+Los materiales ferromagnéticos tienen susceptibilidades en el rango de <m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math> que se compara bien con nuestros resultados aquí. Los materiales paramagnéticos tienen susceptibilidades fraccionarias, por lo que su campo aplicado de la bobina es mucho mayor que el campo magnético generado por el material.</para>
+</example>
+<note id="fs-id1166168466290" class="check-understanding">
+<exercise id="fs-id1166168211223">
+<problem id="fs-id1166168220541">
+<para id="fs-id1166164750613">Repita los cálculos del ejemplo anterior para <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,040</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166168332346">
+<para id="fs-id1166164750962">a. <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math>; b. 0,60 T; c. <m:math><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1166168517048" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1166168189743" list-type="bulleted" bullet-style="bullet">
+<item>Los materiales se clasifican como paramagnéticos, diamagnéticos o ferromagnéticos, según su comportamiento ante un campo magnético aplicado.</item>
+<item>Los materiales paramagnéticos tienen una alineación parcial de sus dipolos magnéticos con un campo magnético aplicado. Se trata de una susceptibilidad magnética positiva. Solo queda una corriente superficial que crea un campo magnético similar al de un solenoide.</item>
+<item>Los materiales diamagnéticos presentan dipolos inducidos opuestos a un campo magnético aplicado. Se trata de una susceptibilidad magnética negativa.</item>
+<item>Los materiales ferromagnéticos tienen grupos de dipolos, llamados dominios, que se alinean con el campo magnético aplicado. Sin embargo, cuando se retira el campo, el material ferromagnético permanece magnetizado, a diferencia de los materiales paramagnéticos. Este efecto de magnetización del material versus el campo aplicado se denomina histéresis.</item>
+</list>
+</section>
+<section id="fs-id1166168213665" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1167582526234" summary="The table has two columns and eleven rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Permeability of free space” and “mu subscript 0 equals 4 pi multiplied by 10 power -7 T m divided by A”. The second row contains “Contribution to magnetic field from a current element” and “dB equals mu subscript 0 divided by 4 pi multiplied by numerator I dl sine theta divided by denominator r square”. The third row contains “Biot–Savart law” and “vector B equals mu subscript 0 divided by 4 pi multiplied by wire integral I vector dI cross product vector r divided by r square”. The fourth row contains “Magnetic field due to a long straight wire” and “B equals mu subscript 0 I divided by 2 pi R”. The fifth row contains “Force between two parallel currents” and “F divided by l equals numerator mu subscript 0 I subscript 1 I subscript 2 divided by denominator 2 pi r”. The sixth row contains “Magnetic field of a current loop” and “B equals mu subscript 0 I divided by 2 R (at center of loop)”. The seventh row contains “Ampère’s law” and “integral vector B dot vector dl equals mu subscript 0 I”. The eighth row contains “Magnetic field strength inside a solenoid” and “B equals mu subscript 0 n I”. The ninth row contains “Magnetic field strength inside a toroid” and “B equals numerator mu subscript 0 N I divided by denominator 2 pi r”. The tenth row contains “Magnetic permeability” and “mu equals opening parenthesis 1 plus chi closing parenthesis mu subscript 0”. The eleventh row contains “Magnetic field of a solenoid filled with paramagnetic material” and “B equals mu n I”." class="unnumbered unstyled">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Permeabilidad del espacio libre</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Contribución al campo magnético<newline/>de un elemento de corriente</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ley Biot-Savart</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo stretchy="true">∫</m:mo><m:mrow><m:mtext>cable</m:mtext></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Campo magnético debido a un<newline/>cable lineal y largo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Fuerza entre dos corrientes paralelas</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Campo magnético de un bucle de corriente</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>(en el centro del bucle)</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ley de Ampère</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Intensidad del campo magnético<newline/>dentro de un solenoide</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Intensidad del campo magnético dentro de un toroide</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Permeabilidad magnética</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>χ</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Campo magnético de un solenoide<newline/>lleno de material paramagnético</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1166168250738" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1166168154353">
+<problem id="fs-id1166168451287">
+<para id="fs-id1166168451290">Un material diamagnético se acerca a un imán permanente. ¿Qué ocurre con el material?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168466244">
+<problem id="fs-id1166168300116">
+<para id="fs-id1166168300118">Si corta una barra magnética en dos trozos, ¿acabará teniendo un imán con un polo norte aislado y otro imán con un polo sur aislado? Explique su respuesta.</para>
+</problem>
+<solution id="fs-id1166168283278">
+<para id="fs-id1166164751888">La barra magnética se convertirá entonces en dos imanes, cada uno con sus propios polos norte y sur. No hay monopolos magnéticos ni imanes unipolares.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1166168283351" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1166168220481">
+<problem id="fs-id1166168284812">
+<para id="fs-id1166168284815">El campo magnético en el núcleo de un solenoide lleno de aire es de 1,50 T. ¿En cuánto disminuirá este campo magnético si se bombea el aire fuera del núcleo mientras la corriente se mantiene constante?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168617561">
+<problem id="fs-id1166168617563">
+<para id="fs-id1166168149486">Un solenoide tiene un núcleo ferromagnético, <emphasis effect="italics">n</emphasis> = 1.000 vueltas por metro, e <emphasis effect="italics">I</emphasis> = 5,0 A. Si <emphasis effect="italics">B</emphasis> en el interior del solenoide es 2,0 T, ¿cuál es <m:math><m:mi>χ</m:mi></m:math> para el material del núcleo?</para>
+</problem>
+<solution id="fs-id1166168208040">
+<para id="fs-id1166168369069">317,31</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168339838">
+<problem id="fs-id1166164750637">
+<para id="fs-id1166164750639">Una corriente de 20 A circula por un solenoide de 2.000 vueltas por metro. ¿Cuál es el campo magnético dentro del solenoide si su núcleo está (a) en el vacío y (b) lleno de oxígeno líquido a 90 K?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166164822456">
+<problem id="fs-id1166168117820">
+<para id="fs-id1166168117823">El momento dipolar magnético del átomo de hierro es de aproximadamente <m:math><m:mrow><m:mn>2,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> (a) Calcule el momento dipolar magnético máximo de un dominio formado por <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>19</m:mn></m:mrow></m:msup></m:mrow></m:math> átomos de hierro. (b) ¿Qué corriente tendría que fluir a través de un único bucle circular de alambre de 1,0 cm de diámetro para producir este momento dipolar magnético?</para>
+</problem>
+<solution id="fs-id1166168229492">
+<para id="fs-id1167582423358"><m:math><m:mrow><m:mn>2,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/> <m:math><m:mrow><m:mn>2,7</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166164750720">
+<problem id="fs-id1166164750722">
+<para id="fs-id1166168180664">Supongamos que desea producir un campo magnético de 1,2 T en un toroide con núcleo de hierro para el que <m:math><m:mrow><m:mi>χ</m:mi><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> El toroide tiene un radio medio de 15 cm y está bobinado con 500 vueltas. ¿Qué corriente se necesita?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168409195">
+<problem id="fs-id1166168409197">
+<para id="fs-id1166168409199">Una corriente de 1,5 A circula por las bobinas de un gran toroide delgado de 200 vueltas por metro y un radio de 1 metro. Si el toroide está lleno de hierro para el que <m:math><m:mrow><m:mi>χ</m:mi><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> ¿cuál es el campo magnético en su interior?</para></problem>
+<solution id="fs-id1166168343602">
+<para id="fs-id1166168343604">0,18 T</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168346819">
+<problem id="fs-id1166168617042">
+<para id="fs-id1166168617044">Un solenoide con núcleo de hierro tiene 25 cm de longitud y está envuelto con 100 vueltas de cable. Cuando la corriente que atraviesa el solenoide es de 10 A, el campo magnético en su interior es de 2,0 T. Para esta corriente, ¿cuál es la permeabilidad del hierro? Si se apaga la corriente y se restablece a 10 A, ¿el campo magnético volverá necesariamente a 2,0 T?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168329517118" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1166167074737">
+<problem id="fs-id1166167074739">
+<para id="fs-id1166167074742">Tres cables lineales, largos y paralelos, todos de 20 A, se colocan como se muestra en la figura adjunta. ¿Cuál es la magnitud del campo magnético en el punto <emphasis effect="italics">P</emphasis>?</para>
+<media id="fs-id1166167074751" alt="Esta figura muestra tres cables lineales, largos y paralelos. Cada cable forma un vértice de un triángulo equilátero de 10 centímetros de lado. El punto P es el centro de un triángulo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr16_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166167074367">
+<para id="fs-id1166167074369"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1166167081759">
+<problem id="fs-id1166167081761">
+<para id="fs-id1166167081763">Una corriente <emphasis effect="italics">I</emphasis> circula alrededor de un cable doblado en forma de cuadrado de lado <emphasis effect="italics">a</emphasis>. ¿Cuál es el campo magnético en el punto P que está a una distancia <emphasis effect="italics">z</emphasis> por encima del centro del cuadrado (ver la figura adjunta)?</para>
+<media id="fs-id1166167120250" alt="Esta figura muestra un cable doblado en forma de rombo de lado a. Punto P que está a una distancia z por encima del centro del rombo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr58_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166168227099">
+<problem id="fs-id1166168227101">
+<para id="fs-id1166168227103">La figura adjunta muestra un cable lineal y largo que porta una corriente de 10 A. ¿Cuál es la fuerza magnética sobre un electrón en el instante en que se encuentra a 20 cm del cable, viajando en paralelo a este con una velocidad de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>m/s?</m:mtext></m:mrow></m:math> Describa cualitativamente el movimiento posterior del electrón.</para>
+<media id="fs-id1166168322848" alt="La figura muestra un cable lineal y largo que porta una corriente. Un electrón se sitúa a 20 cm del cable y se desplaza en paralelo a él.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr13_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166168249237">
+<para id="fs-id1166168249239"><m:math><m:mrow><m:mn>3,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−19</m:mtext></m:mrow></m:msup><m:mi>N</m:mi></m:mrow></m:math> en un arco que se aleja del cable</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167388176">
+<problem id="fs-id1166165864875">
+<para id="fs-id1166165864877">La corriente fluye a lo largo de una lámina delgada e infinita como se muestra en la figura adjunta. La corriente por unidad de longitud a lo largo de la lámina es <emphasis effect="italics">J</emphasis> en amperios por metro. (a) Utilice la ley de Biot-Savart para demostrar que <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>J</m:mi><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow></m:math> a cada lado de la lámina. ¿Cuál es la dirección de <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> en cada lado? (b) Utilice ahora la ley de Ampère para calcular el campo.</para>
+<media id="fs-id1166166127865" alt="La figura muestra la corriente que fluye a lo largo de una lámina delgada e infinita.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr34_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166167106412">
+<problem id="fs-id1166167106415">
+<para id="fs-id1166167106417">(a) Utilice el resultado del problema anterior para calcular el campo magnético entre, por encima y por debajo del par de láminas infinitas que se muestran en la figura adjunta. (b) Repita sus cálculos si se invierte el sentido de la corriente en la lámina inferior.</para>
+<media id="fs-id1166166203293" alt="La figura muestra las corrientes que fluyen a lo largo de dos láminas finas e infinitas. Las láminas se encuentran en los planos paralelos y la corriente fluye en la misma dirección.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr35_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166166019783">
+<para id="fs-id1166166019785">a. por encima y por debajo <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>j</m:mi><m:mo>,</m:mo></m:mrow></m:math> en el centro <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo></m:mrow></m:math> b. arriba y abajo <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> en el centro <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>j</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166166206292">
+<problem id="fs-id1166166206294">
+<para id="fs-id1166166019707">A menudo suponemos que el campo magnético es uniforme en una región y cero en el resto. Demuestre que en realidad es imposible que un campo magnético descienda bruscamente a cero, como se ilustra en la figura adjunta. (<emphasis effect="italics">Pista</emphasis>: Aplique la ley de Ampère sobre la trayectoria indicada).</para>
+<media id="fs-id1166165870041" alt="La figura muestra el campo magnético que es perpendicular a la trayectoria de la corriente rectangular y la interseca.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr36_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166167108730">
+<problem id="fs-id1166166092508">
+<para id="fs-id1166166092510">¿Cómo se relaciona el cambio fraccionario en la intensidad del campo magnético a través de la cara del toroide con el cambio fraccionario en la distancia radial desde el eje del toroide?</para></problem>
+<solution id="fs-id1166167375376">
+<para id="fs-id1166167375378"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi></m:mrow><m:mi>B</m:mi></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mspace width="0.05em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167291354">
+<problem id="fs-id1166167291356">
+<para id="fs-id1166167291358">Demuestre que la expresión para el campo magnético de un toroide se reduce a la del campo de un solenoide infinito en el límite en que el radio central llega a infinito.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166166129016">
+<problem id="fs-id1166167076339">
+<para id="fs-id1166167076341">Un toroide con un radio interior de 20 cm y un radio exterior de 22 cm está fuertemente bobinado con una capa de alambre que tiene un diámetro de 0,25 mm. (a) ¿Cuántas vueltas tiene el toroide? (b) Si la corriente que pasa por el bobinado del toroide es de 2,0 A, ¿cuál es la intensidad del campo magnético en el centro del toroide?</para>
+</problem>
+<solution id="fs-id1166167064465">
+<para id="fs-id1166167388172">a. 5026 vueltas; b. 0,00957 T</para></solution>
+</exercise>
+<exercise id="fs-id1166168318816">
+<problem id="fs-id1166168318818">
+<para id="fs-id1166168318820">Un elemento de cable tiene <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>J</m:mi></m:mstyle><m:mi>A</m:mi><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>J</m:mi></m:mstyle><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">dv</emphasis> son el área de la sección transversal y el volumen del elemento, respectivamente. Utilice esto, la ley de Biot-Savart, y <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>J</m:mi></m:mstyle><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>e</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle></m:mrow></m:math> para demostrar que el campo magnético de una carga puntual q en movimiento viene dado por<newline/> <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>q</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166164826524">
+<problem id="fs-id1166164826526">
+<para id="fs-id1166164826528">Un campo magnético razonablemente uniforme en una región limitada del espacio puede producirse con la bobina de Helmholtz, que consiste en dos bobinas paralelas centradas en el mismo eje. Las bobinas están conectadas de forma que portan la misma corriente <emphasis effect="italics">I</emphasis>. Cada bobina tiene <emphasis effect="italics">N</emphasis> vueltas y un radio <emphasis effect="italics">R</emphasis>, que es también la distancia entre las bobinas. (a) Calcule el campo magnético en cualquier punto del eje <emphasis effect="italics">z</emphasis> mostrado en la figura adjunta. (b) Demuestre que <emphasis effect="italics">dB</emphasis>/<emphasis effect="italics">dz</emphasis> y <m:math><m:mrow><m:mfrac bevelled="true"><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> son ambos cero en <emphasis effect="italics">z</emphasis> = 0. (Estas derivadas evanescentes demuestran que el campo magnético solo varía ligeramente cerca de <emphasis effect="italics">z</emphasis> = 0)</para>
+<media id="fs-id1166168224160" alt="Esta imagen muestra dos bobinas paralelas centradas en el mismo eje que portan la misma corriente I. Cada bobina tiene un radio R, que es también la distancia entre las bobinas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr59_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166168377111">
+<para id="fs-id1166168377113"><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168130061">
+<problem id="fs-id1166168130063">
+<para id="fs-id1166168198067">Una carga de <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>μC</m:mtext></m:mrow></m:math> se distribuye uniformemente alrededor de un fino anillo de material aislante. El anillo tiene un radio de 0,20 m y gira a <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>revoluciones por minuto</m:mtext></m:mrow></m:math> alrededor del eje que pasa por su centro y es perpendicular al plano del anillo. ¿Cuál es el campo magnético en el centro del anillo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168477179">
+<problem id="fs-id1166168477181">
+<para id="fs-id1166168465367">Un disco delgado no conductor de radio <emphasis effect="italics">R</emphasis> es libre de girar alrededor del eje que pasa por su centro y es perpendicular a la cara del disco. Este está cargado uniformemente con una carga total <emphasis effect="italics">q</emphasis>. Si el disco gira a una velocidad angular constante <m:math><m:mrow><m:mi>ω</m:mi><m:mo>,</m:mo></m:mrow></m:math> ¿cuál es el campo magnético en su centro?</para>
+</problem>
+<solution id="fs-id1166168147818">
+<para id="fs-id1166168207982"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>σ</m:mi><m:mi>ω</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166164827602">
+<problem id="fs-id1166164827604">
+<para id="fs-id1166168224404">Considere el disco del problema anterior. Calcule el campo magnético en un punto de su eje central que esté a una distancia <emphasis effect="italics">y</emphasis> por encima del disco.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168477031">
+<problem id="fs-id1166168184312">
+<para id="fs-id1166168184314">Consideremos el campo magnético axial <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math> del bucle de corriente circular que se muestra a continuación. (a) Evalúe <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi></m:mrow><m:mi>a</m:mi></m:msubsup><m:mrow><m:msub><m:mi>B</m:mi><m:mi>y</m:mi></m:msub><m:mi>d</m:mi><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> Demuestre también que <m:math><m:mrow><m:munder><m:mrow><m:mtext>lím.</m:mtext></m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:munder><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi></m:mrow><m:mi>a</m:mi></m:msubsup><m:mrow><m:msub><m:mi>B</m:mi><m:mi>y</m:mi></m:msub></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math> (b) ¿Puede deducir este límite sin evaluar la integral? (<emphasis effect="italics">Pista:</emphasis> Vea la figura adjunta).</para><media id="fs-id1166168620409" alt="Esta imagen muestra el bucle de corriente circular I con el campo magnético B perpendicular al plano del bucle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr63_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166168479740">
+<para id="fs-id1166168479742">derivación</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168281194">
+<problem id="fs-id1166168281196">
+<para id="fs-id1166168432715">La densidad de corriente en el cable largo y cilíndrico mostrado en la figura adjunta varía con la distancia <emphasis effect="italics">r</emphasis> desde el centro del cable según <m:math><m:mrow><m:mi>J</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mi>r</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <emphasis effect="italics">c</emphasis> es una constante. (a) ¿Cuál es la corriente que atraviesa el cable? (b) ¿Cuál es el campo magnético producido por esta corriente para <m:math><m:mrow><m:mi>r</m:mi><m:mo>≤</m:mo><m:mi>R</m:mi><m:mo>?</m:mo></m:mrow></m:math> ¿Para <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi><m:mo>?</m:mo></m:mrow></m:math></para>
+<media id="fs-id1166164729891" alt="Esta figura muestra un cable lineal, largo y cilíndrico con un radio R que tiene una corriente I fluyendo a través de él.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr65_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166168344016">
+<problem id="fs-id1166168344018">
+<para id="fs-id1166168344020">Un conductor lineal, largo y cilíndrico contiene una cavidad cilíndrica cuyo eje está desplazado por <emphasis effect="italics">a</emphasis> del eje del conductor, como se muestra en la figura adjunta. La densidad de corriente en el conductor viene dada por <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>J</m:mi><m:mn>0</m:mn></m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mi>J</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es una constante y <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> es a lo largo del eje del conductor. Calcule el campo magnético en un punto arbitrario P de la cavidad superponiendo el campo de un conductor cilíndrico sólido de radio <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y la densidad de corriente <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> en el campo de un conductor cilíndrico sólido de radio <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y la densidad de corriente <m:math><m:mrow><m:mtext>−</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> A continuación, utilice el hecho de que los vectores unitarios acimutales adecuados pueden expresarse como <m:math><m:mrow><m:msub><m:mover accent="true"><m:mi>θ</m:mi><m:mo>^</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msub><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mover accent="true"><m:mi>θ</m:mi><m:mo>^</m:mo></m:mover><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msub><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover><m:mn>2</m:mn></m:msub></m:mrow></m:math> para demostrar que en todo el interior de la cavidad el campo magnético viene dado por la constante <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>J</m:mi><m:mn>0</m:mn></m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>k</m:mi></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>a</m:mi></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>r</m:mi></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>r</m:mi></m:mstyle><m:mn>2</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>r</m:mi></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover><m:mn>1</m:mn></m:msub></m:mrow></m:math> es la posición de <emphasis effect="italics">P</emphasis> respecto al centro del conductor y <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>r</m:mi></m:mstyle><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover><m:mn>2</m:mn></m:msub></m:mrow></m:math> es la posición de <emphasis effect="italics">P</emphasis> respecto al centro de la cavidad.</para>
+<media id="fs-id1166168201457" alt="Esta figura muestra un gran círculo de radio R1 que tiene un agujero circular de radio R2 en él a una distancia a del centro. El punto P está situado en un agujero a la distancia r2 del centro de un agujero y a la distancia r1 del centro de un círculo grande.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr66_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166168149062">
+<para id="fs-id1166168149064">derivación</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166164823338">
+<problem id="fs-id1166164823340">
+<para id="fs-id1166164823343">Entre los dos extremos de un imán en forma de herradura el campo es uniforme como se muestra en el diagrama. A medida que se avanza hacia los bordes exteriores, el campo se curva. Demuestre, por la ley de Ampère, que el campo debe curvarse y por lo tanto el campo se debilita debido a estas curvas.</para>
+<media id="fs-id1166164826233" alt="Esta figura muestra un imán de herradura con las líneas magnéticas que van del extremo norte al extremo sur.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr68_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166164827210">
+<problem id="fs-id1166164827212">
+<para id="fs-id1166164827214">Demuestre que el campo magnético de un cable delgado y el de un bucle de corriente son cero si se encuentran a una distancia infinita.</para>
+</problem>
+<solution id="fs-id1166168280998">
+<para id="fs-id1166168281000">A medida que la distancia radial llega al infinito, los campos magnéticos de cada una de estas fórmulas llegan a cero.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168148476">
+<problem id="fs-id1166168148479">
+<para id="fs-id1166168148481">Se elige un bucle de Ampère como se muestra en las líneas discontinuas para un campo magnético constante paralelo como se muestra en las flechas sólidas. Calcule <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> para cada lado del bucle y, a continuación, halle completo <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> ¿Se le ocurre algún bucle de Ampère que facilite el problema? ¿Coinciden esos resultados con estos?</para>
+<media id="fs-id1166168247073" alt="Esta figura muestra un bucle de Ampere que se encuentra en el campo magnético constante. Uno de los lados del bucle forma un ángulo theta con la línea magnética.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr70_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166168452703">
+<problem id="fs-id1166168222296">
+<para id="fs-id1166168222298">Un cable cilíndrico muy largo y grueso de radio <emphasis effect="italics">R</emphasis> porta una densidad de corriente <emphasis effect="italics">J</emphasis> que varía a través de su sección transversal. La magnitud de la densidad de corriente en un punto a una distancia <emphasis effect="italics">r</emphasis> del centro del cable viene dada por <m:math><m:mrow><m:mi>J</m:mi><m:mo>=</m:mo><m:msub><m:mi>J</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>r</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mi>J</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es una constante. Halle el campo magnético (a) en un punto fuera del cable y (b) en un punto dentro del cable. Escriba su respuesta en términos de la corriente neta <emphasis effect="italics">I</emphasis> que pasa por el cable.</para>
+</problem>
+<solution id="fs-id1166164751942">
+<para id="fs-id1166164751944">a. <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>J</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168433080">
+<problem id="fs-id1166168433082">
+<para id="fs-id1166168433084">Un cable cilíndrico muy largo de radio <emphasis effect="italics">a</emphasis> tiene un agujero circular de radio <emphasis effect="italics">b</emphasis> en él a una distancia <emphasis effect="italics">d</emphasis> del centro. El cable lleva una corriente uniforme de magnitud <emphasis effect="italics">I</emphasis> a través de él. La dirección de la corriente en la figura está fuera del papel. Halle el campo magnético (a) en un punto del borde del agujero más cercano al centro del cable grueso, (b) en un punto arbitrario dentro del agujero, y (c) en un punto arbitrario fuera del cable. (<emphasis effect="italics">Pista:</emphasis> Piense en el agujero como una suma de dos cables que llevan la corriente en direcciones opuestas).</para>
+<media id="fs-id1166164776985" alt="Esta figura muestra un círculo de radio a que tiene un agujero circular de radio b en él a una distancia d del centro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr74_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166164826688"><problem id="fs-id1166164826690">
+<para id="fs-id1166164826693">Campo magnético dentro de un toroide. Consideremos un toro de sección rectangular con radio interior <emphasis effect="italics">a</emphasis> y radio exterior <emphasis effect="italics">b</emphasis>. <emphasis effect="italics">N</emphasis> vueltas de un alambre delgado aislado se bobinan uniformemente en el toro, firmemente alrededor de este, y se conectan a una batería que produce una corriente constante <emphasis effect="italics">I</emphasis> en el alambre. Supongamos que la corriente en las superficies superior e inferior de la figura es radial, y la corriente en las superficies del radio interior y exterior es vertical. Halle el campo magnético en el interior del toro en función de la distancia radial <emphasis effect="italics">r</emphasis> al eje.</para> <media id="fs-id1262164776985" alt="">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr75_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166164822709">
+<para id="fs-id1166164819576"><m:math><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:math><newline/>
+<media id="fs-id1166168180449" alt="Esta figura muestra un toro con un radio interior a y un radio exterior b. Un cable fino se bobina uniformemente en el toroide.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr75_img.jpg"/>
+</media></para>
+</solution>
+</exercise><exercise id="fs-id1166168466344">
+<problem id="fs-id1166168466346">
+<para id="fs-id1166168466348">Dos largos tubos coaxiales de cobre, cada uno de ellos de longitud <emphasis effect="italics">L</emphasis>, están conectados a una batería de voltaje <emphasis effect="italics">V</emphasis>. El tubo interior tiene radio interior <emphasis effect="italics">a</emphasis> y radio exterior <emphasis effect="italics">b</emphasis>, y el tubo exterior tiene radio interior <emphasis effect="italics">c</emphasis> y radio exterior <emphasis effect="italics">d</emphasis>. A continuación, los tubos se desconectan de la batería y se giran en la misma dirección a una velocidad angular de <m:math><m:mi>ω</m:mi></m:math> radianes por segundo alrededor de su eje común. Halle el campo magnético (a) en un punto dentro del espacio encerrado por el tubo interior <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:math> y (b) en un punto entre los tubos <m:math><m:mrow><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>c</m:mi><m:mo>,</m:mo></m:mrow></m:math> y (c) en un punto fuera de los tubos <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mi>d</m:mi><m:mo>.</m:mo></m:mrow></m:math> (<emphasis effect="italics">Pista:</emphasis> Piense en los tubos de cobre como un condensador y calcule la densidad de carga en función del voltaje aplicado, <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mi>C</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>L</m:mi></m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>c</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mtext>.)</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168326797819" class="review-challenge">
+<title>Problemas de desafíos</title>
+<exercise id="fs-id1166168455571">
+<problem id="fs-id1166168455573">
+<para id="fs-id1166168215729">La figura adjunta muestra una lámina plana e infinitamente larga de anchura <emphasis effect="italics">a</emphasis> que lleva una corriente <emphasis effect="italics">I</emphasis> uniformemente distribuida a través de ella. Halle el campo magnético en el punto P, que está en el plano de la lámina y a una distancia <emphasis effect="italics">x</emphasis> de un borde. Pruebe su resultado para el límite <m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1166168616690" alt="Esta imagen muestra una lámina plana e infinitamente larga de anchura a que lleva una corriente I uniformemente distribuida a través de ella. El punto P está en el plano de la lámina y a una distancia x de una arista.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr64_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166168118152">
+<para id="fs-id1166168118154"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>a</m:mi></m:mrow></m:mfrac><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1166168322666">
+<problem id="fs-id1166168322668">
+<para id="fs-id1166168322670">Una corriente hipotética que fluye en la dirección <emphasis effect="italics">z</emphasis> crea el campo <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>C</m:mi><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mtext>/</m:mtext><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math> en la región rectangular del plano <emphasis effect="italics"> xy</emphasis> que se muestra en la figura adjunta. Utilice la ley de Ampère para calcular la corriente que atraviesa el rectángulo.</para>
+<media id="fs-id1166164824673" alt="Esta figura muestra la región rectangular del plano xy; el eje z es perpendicular al plano. Los puntos a1 y a2 están situados en el eje x. Los puntos b1 y b2 están situados en el eje y. Hay una distancia igual entre todos los puntos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr67_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166168229211">
+<problem id="fs-id1166168583260">
+<para id="fs-id1166168583262">Un disco circular de goma dura no conductora de radio <emphasis effect="italics">R</emphasis> está pintado con una densidad de carga superficial uniforme <m:math><m:mi>σ</m:mi><m:mo>.</m:mo></m:math> Se gira alrededor de su eje con velocidad angular <m:math><m:mrow><m:mi>ω</m:mi><m:mo>.</m:mo></m:mrow></m:math> (a) Halle el campo magnético producido en un punto del eje a una distancia <emphasis effect="italics">h</emphasis> metros del centro del disco. (b) Calcule el valor numérico de la magnitud del campo magnético cuando <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:msup><m:mrow><m:mtext>C/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mtext>20 cm</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>h</m:mi><m:mo>=</m:mo><m:mtext>2 cm</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>rad/seg</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y compárelo con la magnitud del campo magnético de la Tierra, que es de aproximadamente 1/2 Gauss.</para>
+</problem>
+<solution id="fs-id1166168466981">
+<para id="fs-id1166168466983">a. <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>σ</m:mi><m:mi>ω</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mtext>−2</m:mtext><m:mi>h</m:mi></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>4,09</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>,</m:mo></m:mrow></m:math> 82 % del campo magnético de la Tierra</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1166164819496">
+<term>materiales diamagnéticos</term>
+<meaning id="fs-id1166164819501">sus dipolos magnéticos se alinean de forma opuesta a un campo magnético aplicado; cuando se retira el campo, el material se desimanta</meaning>
+</definition>
+<definition id="fs-id1166164819506">
+<term>materiales ferromagnéticos</term>
+<meaning id="fs-id1166164819512">contienen grupos de dipolos, llamados dominios, que se alinean con el campo magnético aplicado; cuando este campo se retira, el material sigue magnetizado</meaning>
+</definition>
+<definition id="fs-id1166164750406">
+<term>histéresis</term>
+<meaning id="fs-id1166164750412">propiedad de los ferromagnetos que se observa cuando se examina el campo magnético de un material versus el campo magnético aplicado; se crea un bucle resultante de barrer el campo aplicado hacia delante y hacia atrás</meaning>
+</definition>
+<definition id="fs-id1166164750420">
+<term>susceptibilidad magnética</term>
+<meaning id="fs-id1166164819599">relación del campo magnético en el material sobre el campo aplicado en ese momento; las susceptibilidades positivas son paramagnéticas o ferromagnéticas (alineadas con el campo) y las negativas son diamagnéticas (alineadas en sentido contrario al campo)</meaning>
+</definition>
+<definition id="fs-id1166164819606">
+<term>dominios magnéticos</term>
+<meaning id="fs-id1166164819611">grupos de dipolos magnéticos alineados en la misma dirección y acoplados mecánicamente</meaning>
+</definition>
+<definition id="fs-id1166164819616">
+<term>materiales paramagnéticos</term>
+<meaning id="fs-id1166164819622">sus dipolos magnéticos se alinean parcialmente en la misma dirección que el campo magnético aplicado; cuando este campo se retira, el material se desimanta</meaning>
+</definition>
+</glossary>
+</document>

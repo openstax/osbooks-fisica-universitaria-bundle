@@ -1,0 +1,145 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Oscilaciones amortiguadas</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90701</md:content-id>
+  <md:title>Oscilaciones amortiguadas</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir el movimiento armónico amortiguado</item>
+<item>Escribir las ecuaciones de movimiento para oscilaciones armónicas amortiguadas</item>
+<item>Describir el movimiento impulsado, o forzado, movimiento armónico amortiguado</item>
+<item>Escribir las ecuaciones de movimiento por fuerza, movimiento armónico amortiguado</item>
+</list></md:abstract>
+  <md:uuid>bafccbe6-e4da-4d70-86a6-a3f61d4b3773</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167131080334">En el mundo real, las oscilaciones pocas veces siguen un verdadero SHM. Algún tipo de fricción suele amortiguar el movimiento, por lo que desaparece o necesita más fuerza para continuar. En esta sección examinamos algunos ejemplos de <term class="no-emphasis">movimiento armónico amortiguado</term> y vemos cómo modificar las ecuaciones de movimiento para describir este caso más general.</para>
+<para id="fs-id1167134593364">Una cuerda de guitarra deja de oscilar unos segundos después de que la puntean. Para seguir balanceándose en un columpio de parque infantil, usted deberá seguir empujando (<link target-id="CNX_UPhysics_15_06_Swing"/>). Aunque, a menudo, podemos hacer que la fricción y otras fuerzas no conservativas sean pequeñas o insignificantes, el movimiento completamente sin amortiguación es poco frecuente. De hecho, es posible que incluso queramos amortiguar las oscilaciones, como ocurre con el sistema de suspensión de los automóviles.</para>
+<figure id="CNX_UPhysics_15_06_Swing">
+<media id="fs-id1167134458597" alt="Una foto de una persona en un columpio">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_06_Swing.jpg"/>
+</media>
+<caption>Para contrarrestar las fuerzas de amortiguación, usted debe seguir empujando un columpio (créditos: Bob Mical).</caption>
+</figure>
+<para id="fs-id1167131181569">La <link target-id="CNX_UPhysics_15_06_DampedOsci"/> muestra una masa <emphasis effect="italics">m</emphasis> unida a un resorte con una constante de fuerza <m:math><m:mrow><m:mi>k</m:mi><m:mo>.</m:mo></m:mrow></m:math> La masa se eleva a una posición <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, la amplitud inicial, y luego se libera. La masa oscila alrededor de la posición de equilibrio en un fluido con viscosidad, pero la amplitud disminuye en cada oscilación. Para un sistema que tiene una pequeña cantidad de amortiguación, el periodo y la frecuencia son constantes y son casi los mismos que para SHM, pero la amplitud disminuye gradualmente como se muestra. Esto ocurre porque la fuerza de amortiguación no conservativa elimina energía del sistema, normalmente en forma de energía térmica.</para>
+<figure id="CNX_UPhysics_15_06_DampedOsci">
+<media id="fs-id1167129981857" alt="Una masa m está suspendida de un resorte vertical y sumergida en un fluido que tiene una viscosidad eta. Un gráfico de la oscilación amortiguada muestra el desplazamiento x en metros en el eje vertical como una función de tiempo en segundos en el eje horizontal. El rango de x es de menos A sub cero a más A sub cero. La escala de tiempo va de cero a 7 T, con tics en incrementos de T. El desplazamiento es más A sub cero en el tiempo cero y oscila entre máximos positivos y mínimos negativos, con cada ciclo completo tomando el mismo tiempo T, pero la amplitud de las oscilaciones disminuye con el tiempo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_06_DampedOsci.jpg"/>
+</media>
+<caption>Para una masa sobre un resorte que oscila en un fluido viscoso, el periodo permanece constante, pero las amplitudes de las oscilaciones disminuyen debido al amortiguamiento que causa el fluido.</caption>
+</figure>
+<para id="fs-id1167129966801">Considere las fuerzas que actúan sobre la masa. Note que la única contribución del peso es cambiar la posición de equilibrio, como se ha comentado anteriormente en el capítulo. Por lo tanto, la fuerza neta es igual a la fuerza del resorte y la fuerza de amortiguación <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mi>D</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Si la magnitud de la velocidad es pequeña, es decir, la masa oscila lentamente, la fuerza de amortiguación es proporcional a la velocidad y actúa contra la dirección del movimiento <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mi>D</m:mi></m:msub><m:mo>=</m:mo><m:mtext>–</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Por lo tanto, la fuerza neta sobre la masa es</para>
+<equation id="fs-id1167134887400" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>a</m:mi><m:mo>=</m:mo><m:mtext>–</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>–</m:mo><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131201320">Al escribir esto como una ecuación diferencial en <emphasis effect="italics">x</emphasis>, obtenemos</para>
+<note id="fs-id1167131345696" class="equation-callout">
+<equation id="fs-id1167131231570"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>b</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131498071">Para determinar la solución de esta ecuación, considere el trazado de posición versus tiempo que se muestra en la <link target-id="CNX_UPhysics_15_06_DampedOscX"/>. La curva se asemeja a una curva coseno que oscila en una envoltura de una función exponencial <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>–</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math> donde <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow></m:math>. La solución es</para>
+<note id="fs-id1167134722670" class="equation-callout">
+<equation id="fs-id1167134928721"><label/><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mi>t</m:mi></m:mrow></m:msup><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131363125">Queda como ejercicio demostrar que esta es, de hecho, la solución. Para demostrar que es la solución correcta, se toman la primera y la segunda derivada con respecto al tiempo y se sustituyen en la <link target-id="fs-id1167131231570"/>. Se halla que la <link target-id="fs-id1167134928721"/> es la solución si</para>
+<equation id="fs-id1167131432113" class="unnumbered"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>–</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131406299">Recuerde que la frecuencia angular de una masa que experimenta un SHM es igual a la raíz cuadrada de la constante de fuerza dividida entre la masa. A menudo se denomina <term>frecuencia angular natural</term>, que se representa como</para>
+<note id="fs-id1167131154142" class="equation-callout">
+<equation id="fs-id1167131161057"><label/><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134812855">La frecuencia angular del movimiento armónico amortiguado se transforma en</para>
+<note id="fs-id1167131621821" class="equation-callout">
+<equation id="fs-id1167131503225"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>–</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_15_06_DampedOscX">
+<media id="fs-id1167131281519" alt="En la figura se muestra un gráfico de desplazamiento, x en metros, en el eje vertical, versus el tiempo en segundos en el eje horizontal. El desplazamiento va de menos A sub cero a más A sub cero y el tiempo va de 0 a 10 T. El desplazamiento, mostrado por una curva azul, oscila entre máximos positivos y mínimos negativos, lo que forma una onda cuya amplitud va disminuyendo gradualmente a medida que nos alejamos de t = 0. El tiempo, T, entre crestas adyacentes es el mismo siempre. La envoltura, la curva suave que conecta las crestas y otra curva suave que conecta las depresiones de las oscilaciones, se muestra como un par de líneas rojas discontinuas. La curva superior que une las crestas está identificada como más A sub cero veces e a la cantidad menos b t sobre 2 m. La curva inferior que conecta las depresiones está identificada como menos A sub cero veces e a la cantidad menos b t sobre 2 m.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_06_DampedOscX.jpg"/>
+</media>
+<caption>Posición versus tiempo para la masa que oscila sobre un resorte en un fluido viscoso. Observe que la curva parece ser una función coseno dentro de una envoltura exponencial.</caption>
+</figure>
+<para id="fs-id1167134883275">Recuerde que cuando comenzamos esta descripción de movimiento armónico amortiguado afirmamos que la amortiguación debe ser pequeña. Se me ocurren dos preguntas. ¿Por qué la amortiguación debe ser pequeña? ¿Y cuán pequeño es lo pequeño? Si usted <emphasis effect="italics">aumenta</emphasis> gradualmente la cantidad de amortiguación en un sistema, el periodo y la frecuencia empiezan a verse afectados, ya que la amortiguación se opone y, por tanto, ralentiza el movimiento de un lado a otro (la fuerza neta es más pequeña en ambas direcciones). Si la amortiguación es muy grande, el sistema ni siquiera oscila, sino que se mueve lentamente hacia el equilibrio. La frecuencia angular es igual a</para>
+<equation id="fs-id1167131164435" class="unnumbered"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>–</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134678379">A medida que <emphasis effect="italics">b</emphasis> aumenta, <m:math><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>–</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> se hace más pequeña y finalmente llega a cero cuando <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt></m:mrow></m:math>. Si <emphasis effect="italics">b</emphasis> se hace más grande, <m:math><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>–</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> se convierte en un número negativo y <m:math><m:mrow><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>–</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math> es un número complejo.</para>
+<para id="fs-id1167131215180">La <link target-id="CNX_UPhysics_15_06_DampedOscB"/> muestra el desplazamiento de un oscilador armónico para diferentes cantidades de amortiguación. Cuando la constante de amortiguación es pequeña, <m:math><m:mrow><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt></m:mrow></m:math>, el sistema oscila mientras la amplitud del movimiento decae exponencialmente. Se dice que este sistema está <term>subamortiguado</term>, como en la curva (a). Muchos sistemas están subamortiguados y oscilan mientras la amplitud disminuye exponencialmente, como la masa que oscila sobre un resorte. La amortiguación puede ser muy pequeña, pero finalmente la masa llega a estar en reposo. Si la constante de amortiguación es <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt></m:mrow></m:math>, se dice que el sistema está <term>amortiguado críticamente</term>, como en la curva (b). Un ejemplo de sistema amortiguado críticamente es el sistema de suspensión de un automóvil. Es ventajoso que las oscilaciones decaigan lo más rápido posible. En este caso, el sistema no oscila, sino que se aproxima asintóticamente a la condición de equilibrio lo más rápidamente posible. La curva (c) en la <link target-id="CNX_UPhysics_15_06_DampedOscB"/> representa un sistema <term>sobreamortiguado</term> donde <m:math><m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> Un sistema sobreamortiguado se acercará al equilibrio durante un periodo más largo.</para>
+<figure id="CNX_UPhysics_15_06_DampedOscB">
+<media id="fs-id1167131502315" alt="La posición x en metros en el eje vertical versus el tiempo en segundos en el eje horizontal con diferentes grados de amortiguación. No se da ninguna escala para ninguno de los dos ejes. Las tres curvas comienzan en la misma posición positiva en el tiempo cero. La curva azul a, identificada con b al cuadrado, es inferior a 4 m k, experimenta algo más de dos oscilaciones y cuarto de amplitud decreciente y periodo constante. La curva roja b, identificada con b al cuadrado es igual a 4 m k, disminuye en t = 0 menos rápidamente que la curva azul, pero no oscila. La curva roja se aproxima asintóticamente a x = 0, y es casi cero dentro de una oscilación de la curva azul. La curva verde c, identificada con b al cuadrado es mayor que 4 m k, disminuye en t = 0 menos rápidamente que la curva roja y no oscila. La curva verde se aproxima asintóticamente a x = 0, pero sigue estando notablemente por encima de cero al final del gráfico, después de más de dos oscilaciones de la curva azul.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_06_DampedOscB.jpg"/>
+</media>
+<caption>La posición versus el tiempo para tres sistemas formados por una masa y un resorte en un fluido viscoso. (a) Si la amortiguación es pequeña <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, la masa oscila, y pierde lentamente la amplitud a medida que la energía es disipada por las fuerzas no conservativas. El caso límite es (b) donde la amortiguación es <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. (c) Si la amortiguación es muy grande <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mi>k</m:mi></m:mrow></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, la masa no oscila cuando se desplaza, sino que intenta volver a la posición de equilibrio.</caption>
+</figure>
+<para id="fs-id1167131503759">A menudo se desea una amortiguación crítica, ya que un sistema de este tipo vuelve al equilibrio rápidamente y se mantiene allí. Además, una fuerza constante aplicada a un sistema amortiguado críticamente mueve el sistema a una nueva posición de equilibrio en el menor tiempo posible sin sobrepasar ni oscilar sobre la nueva posición.</para>
+<note id="fs-id1167134781058" class="check-understanding">
+<exercise id="fs-id1167134562163">
+<problem id="fs-id1167134882302">
+<para id="fs-id1167131119648"> ¿Por qué son tan poco comunes los osciladores armónicos completamente no amortiguados?</para>
+</problem>
+<solution id="fs-id1167134541830">
+<para id="fs-id1167129968201">La fricción suele entrar en juego cuando un objeto se mueve. La fricción provoca amortiguación en un oscilador armónico.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167131420681" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167131395544" list-type="bulleted" bullet-style="bullet">
+<item>Los osciladores armónicos amortiguados tienen fuerzas no conservativas que disipan su energía.</item>
+<item>La amortiguación crítica devuelve el sistema al equilibrio lo más rápido posible sin sobrepasarlo.</item>
+<item>Un sistema subamortiguado oscilará a través de la posición de equilibrio.</item>
+<item>Un sistema sobreamortiguado se mueve más lentamente hacia el equilibrio que uno amortiguado críticamente.</item>
+</list>
+</section>
+<section id="fs-id1167134653363" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167131216072">
+<problem id="fs-id1167131360745">
+<para id="fs-id1167131359766">Dé un ejemplo de un oscilador armónico amortiguado (son más comunes que los osciladores no amortiguados o los osciladores armónicos simples).</para>
+</problem>
+<solution id="fs-id1167134989944">
+<para id="fs-id1167131216679">Sistema de suspensión de un automóvil.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131162178">
+<problem id="fs-id1167131143061">
+<para id="fs-id1167134960494">¿Cómo rebotaría un automóvil tras un golpe en cada una de estas condiciones?</para>
+<para id="fs-id1167134911846">(a) sobreamortiguación</para>
+<para id="fs-id1167131399549">(b) subamortiguación</para>
+<para id="fs-id1167134648584">c) amortiguación crítica</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134817328">
+<problem id="fs-id1167134872904">
+<para id="fs-id1167131561284">La mayoría de los osciladores armónicos están amortiguados y, si no son accionados, acaban por detenerse. ¿Por qué?</para>
+</problem>
+<solution id="fs-id1167134724463">
+<para id="fs-id1167134671552">La segunda ley de la termodinámica establece que las máquinas de movimiento perpetuo son imposibles. Finalmente, el movimiento ordenado del sistema disminuye y vuelve al equilibrio.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167134514126" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167131136928">
+<problem id="fs-id1167134666935">
+<para id="fs-id1167131483625">La amplitud de un oscilador ligeramente amortiguado disminuye en <m:math><m:mrow><m:mn>3,0</m:mn><m:mi>%</m:mi></m:mrow></m:math> durante cada ciclo. ¿Qué porcentaje de la energía mecánica del oscilador se pierde en cada ciclo?</para>
+</problem>
+<solution id="fs-id1167134928633">
+<para id="fs-id1167134834992">6 %</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167131256031">
+<term>amortiguado críticamente</term>
+<meaning id="fs-id1167130035193">condición en la que la amortiguación de un oscilador hace que vuelva lo más rápidamente posible a su posición de equilibrio sin oscilar hacia adelante y hacia atrás en torno a esta posición</meaning>
+</definition>
+<definition id="fs-id1167131178689">
+<term>frecuencia angular natural</term>
+<meaning id="fs-id1167131567542">frecuencia angular de un sistema que oscila en SHM</meaning>
+</definition>
+<definition id="fs-id1167134687928">
+<term>sobreamortiguado</term>
+<meaning id="fs-id1167131364306">condición en la que la amortiguación de un oscilador hace que vuelva al equilibrio sin oscilar; el oscilador se mueve más lentamente hacia el equilibrio que en el sistema amortiguado críticamente</meaning>
+</definition>
+<definition id="fs-id1167131406610">
+<term>subamortiguado</term>
+<meaning id="fs-id1167131266887">condición en la que la amortiguación de un oscilador hace que la amplitud de las oscilaciones de un oscilador armónico amortiguado disminuya con el tiempo, acercándose finalmente a cero</meaning>
+</definition>
+</glossary>
+</document>

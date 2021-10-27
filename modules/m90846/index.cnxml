@@ -1,0 +1,107 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Refrigeradores y bombas de calor</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90846</md:content-id>
+  <md:title>Refrigeradores y bombas de calor</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir un refrigerador y una bomba de calor y enumerar sus diferencias.</item>
+<item>Calcular los coeficientes de rendimiento de refrigeradores simples y de bombas de calor.</item></list></md:abstract>
+  <md:uuid>77f72381-a3a0-43fe-846c-79eb60705caf</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167586011511">Los ciclos que utilizamos para describir la máquina en la sección anterior son todos reversibles, por lo que cada secuencia de pasos puede realizarse fácilmente en la dirección opuesta. En este caso, la máquina se conoce como un refrigerador o una bomba de calor, dependiendo de cuál sea el objetivo: el calor extraído del reservorio frío o el calor vertido al reservorio caliente. Un refrigerador o una bomba de calor es una máquina que funciona a la inversa. En el caso de un <term>refrigerador</term>, el objetivo es eliminar el calor de una zona concreta. En el caso de una <term>bomba de calor</term>, el objetivo es descargar el calor en una zona específica.</para>
+<para id="fs-id1167585759744">Consideramos primero un refrigerador (<link target-id="CNX_UPhysics_21_03_Fridge"/>). El propósito de esta máquina es eliminar el calor del reservorio frío, que es el espacio dentro de la nevera para un refrigerador doméstico real o el espacio dentro de un edificio para una unidad de aire acondicionado.</para>
+<figure id="CNX_UPhysics_21_03_Fridge">
+<media id="fs-id1167582411296" alt="La figura muestra el esquema de un refrigerador o bomba de calor con una flecha hacia arriba Q subíndice c en T subíndice c. Cuando esta pasa por el refrigerador o la bomba, se añade una flecha W desde la derecha y la flecha resultante hacia arriba es Q subíndice h en T subíndice h.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_03_Fridge.jpg"/>
+</media>
+<caption>Representación esquemática de un refrigerador (o una bomba de calor). La flecha junto al trabajo<emphasis effect="italics">(W</emphasis>) indica el trabajo que se está realizando en el sistema.</caption>
+</figure>
+<para id="fs-id1167585971853">Un refrigerador (o bomba de calor) absorbe el calor <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> del reservorio frío a temperatura Kelvin <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> y descarta el calor <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> al reservorio caliente a temperatura Kelvin <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> mientras que el trabajo <emphasis effect="italics">W</emphasis> se realiza en la sustancia de trabajo de la máquina, como lo muestra la flecha que apunta hacia el sistema en la figura. Un refrigerador doméstico extrae el calor de los alimentos que contiene y expulsa el calor al aire circundante. El trabajo necesario, por el que pagamos en nuestra factura de la luz, lo realiza la máquina que mueve un refrigerante a través de las bobinas. En la <link target-id="CNX_UPhysics_21_03_FridgeDiag"/> se ofrece un esquema de un refrigerador doméstico.</para>
+<figure id="CNX_UPhysics_21_03_FridgeDiag">
+<media id="fs-id1167585858767" alt="La figura muestra el diagrama esquemático y el funcionamiento de un refrigerador.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_03_FridgeDiag.jpg"/>
+</media>
+<caption>Diagrama esquemático de un refrigerador doméstico. Un refrigerante con una temperatura de ebullición inferior al punto de congelación del agua se envía a través del ciclo (en el sentido de las agujas del reloj en este diagrama). El refrigerante extrae el calor del refrigerador en el evaporador, haciendo que el refrigerante se vaporice. A continuación, se comprime y se envía a través del condensador, donde expulsa el calor al exterior.</caption>
+</figure>
+<para id="fs-id1167582414256">La eficacia o el <term>coeficiente de rendimiento</term> <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub></m:mrow></m:math> de un refrigerador se mide por el calor extraído del reservorio frío dividido por el trabajo realizado por la sustancia de trabajo ciclo a ciclo:</para>
+<note id="fs-id1167582669004" class="equation-callout">
+<equation id="fs-id1167582858331"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mi>W</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167586033077">Observe que hemos utilizado la condición de conservación de energía, <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> en el último paso de esta expresión.</para>
+<para id="fs-id1167585842715">La eficacia o el coeficiente de rendimiento <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math> de una bomba de calor se mide por el calor vertido al reservorio caliente dividido por el trabajo realizado a la máquina en la sustancia de trabajo ciclo a ciclo:</para>
+<note id="fs-id1167586282348" class="equation-callout">
+<equation id="fs-id1167586292005"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mi>W</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167582388524">Una vez más, utilizamos la condición de conservación de energía <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> para obtener el último paso de esta expresión.</para>
+<section id="fs-id1167585844105" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167582521993" list-type="bulleted" bullet-style="bullet">
+<item>Un refrigerador o una bomba de calor son máquinas térmicas que funcionan a la inversa.</item>
+<item>El objetivo de un refrigerador es eliminar el calor del reservorio frío con un coeficiente de rendimiento <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>El objetivo de una bomba de calor es verter el calor al reservorio caliente con un coeficiente de rendimiento <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+<section id="fs-id1167585877724" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1167585859215">
+<problem id="fs-id1167586273993">
+<para id="fs-id1167585980637">Si se deja abierta la puerta del refrigerador, ¿qué ocurre con la temperatura de la cocina?</para>
+</problem>
+<solution id="fs-id1167582425884">
+<para id="fs-id1167582812079">La temperatura aumenta ya que la salida de calor detrás del refrigerador es mayor que la refrigeración del interior del mismo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585909829">
+<problem id="fs-id1167586176358">
+<para id="fs-id1167585956250">¿Es posible que el rendimiento de una máquina reversible sea superior a 1,0? ¿Es posible que el coeficiente de rendimiento de un refrigerador reversible sea inferior a 1,0?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167586225195" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167586291839">
+<problem id="fs-id1167582453251">
+<para id="fs-id1167582424407">Un refrigerador tiene un coeficiente de rendimiento de 3,0. (a) Si requieren 200 J de trabajo por ciclo, ¿cuánto calor por ciclo desecha el reservorio frío? (b) ¿Cuánto calor por ciclo desecha el reservorio caliente?</para>
+</problem>
+<solution id="fs-id1167586219600">
+<para id="fs-id1167582451611">a. 600 J; b. 800 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585991364">
+<problem id="fs-id1167586235935">
+<para id="fs-id1167585907037">Durante un ciclo, un refrigerador extrae 500 J de un reservorio frío y descarga 800 J a su reservorio caliente. (a) ¿Cuál es su coeficiente de rendimiento? (b) ¿Cuánto trabajo por ciclo necesita para funcionar?</para></problem>
+</exercise>
+<exercise id="fs-id1167585966299">
+<problem id="fs-id1167586143856">
+<para id="fs-id1167585767578">Si un refrigerador desecha 80 J de calor por ciclo y su coeficiente de rendimiento es de 6,0, ¿cuáles son (a) la cantidad de calor que extrae por ciclo de un reservorio frío y (b) la cantidad de trabajo por ciclo necesaria para su funcionamiento?</para>
+</problem>
+<solution id="fs-id1167582460583">
+<para id="fs-id1167582673486">a. 69 J; b. 11 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585956347">
+<problem id="fs-id1167585942354">
+<para id="fs-id1167585843116">Un refrigerador tiene un coeficiente de rendimiento de 3,0. (a) Si requieren 200 J de trabajo por ciclo, ¿cuánto calor por ciclo desecha el reservorio frío? (b) ¿Cuánto calor por ciclo desecha el reservorio caliente?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167585852490">
+<term>coeficiente de rendimiento</term>
+<meaning id="fs-id1167585746122">medida de la eficacia de un refrigerador o una bomba de calor</meaning>
+</definition>
+<definition id="fs-id1167585948347">
+<term>bomba de calor</term>
+<meaning id="fs-id1167585881536">dispositivo que suministra calor a un reservorio caliente</meaning>
+</definition>
+<definition id="fs-id1167582450297">
+<term>refrigerador</term>
+<meaning id="fs-id1167585854223">dispositivo que elimina el calor de un reservorio frío</meaning>
+</definition>
+</glossary>
+
+</document>

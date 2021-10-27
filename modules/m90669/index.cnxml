@@ -1,0 +1,239 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Segunda ley de Newton para la rotación</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90669</md:content-id>
+  <md:title>Segunda ley de Newton para la rotación</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Calcular los torques en los sistemas que rotan en torno a un eje fijo para hallar la aceleración angular.</item>
+<item>Explicar cómo los cambios en el momento de inercia de un sistema en rotación inciden en la aceleración angular con un torque fijo aplicado.</item>
+</list></md:abstract>
+  <md:uuid>17ef6463-c309-4525-b7cf-aaf68c85cf59</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134711893">En esta sección reunimos todos los elementos aprendidos hasta ahora en este capítulo para analizar la dinámica de los cuerpos rígidos en rotación. Hemos analizado el movimiento con la cinemática y la energía cinética rotacional, pero aún no hemos conectado estas ideas con la fuerza o el torque. En esta sección introducimos el equivalente rotacional a la segunda ley del movimiento de Newton y lo aplicamos a cuerpos rígidos con rotación de eje fijo.</para>
+<section id="fs-id1167134970204">
+<title>Segunda ley de Newton para la rotación</title>
+<para id="fs-id1167134457416">Hasta ahora hemos hallado muchas contrapartes a los términos traslacionales utilizados a lo largo de este texto; la más reciente, el torque, es el análogo rotacional de la fuerza. Esto plantea la pregunta: ¿Existe una ecuación análoga a la segunda ley de Newton, <m:math><m:mrow><m:mi>Σ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> que implique al torque y al movimiento rotacional? Para investigarlo, comenzamos con la segunda ley de Newton para una sola partícula que rota alrededor de un eje y ejecuta un movimiento circular. Ejerzamos una fuerza <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> sobre una masa puntual <emphasis effect="italics">m</emphasis> que se encuentra a una distancia <emphasis effect="italics">r</emphasis> de un punto de apoyo (<link target-id="CNX_UPhysics_10_07_Table"/>). La partícula está obligada a moverse en una trayectoria circular de radio fijo y la fuerza es tangente al círculo. Aplicamos la segunda ley de Newton para determinar la magnitud de la aceleración <emphasis effect="italics"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:math></emphasis> en dirección a <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. Recordemos que la magnitud de la aceleración tangencial es proporcional a la magnitud de la aceleración angular por <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>α</m:mi></m:mrow></m:math>. Sustituyendo esta expresión en la segunda ley de Newton, obtenemos</para>
+<equation id="fs-id1167134862830" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>r</m:mi><m:mi>α</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_10_07_Table">
+<media id="fs-id1167134878181" alt="La figura muestra una mesa con un tablero sin fricción. Un objeto con la masa m se apoya en una mesa horizontal sin fricción y está unido a un punto de apoyo por una cuerda con la longitud r. Se aplica al objeto una fuerza F perpendicular a la cuerda r.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_Table.jpg"/>
+</media>
+<caption>Un objeto se apoya en una mesa horizontal sin fricción y está unido a un punto de apoyo por una cuerda que suministra fuerza centrípeta. Una fuerza <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> se aplica al objeto perpendicularmente al radio <emphasis effect="italics">r</emphasis>, lo que provoca su aceleración en torno al punto de apoyo. La fuerza es perpendicular a <emphasis effect="italics">r</emphasis>.</caption>
+</figure>
+<para id="fs-id1167134897734">Multiplique ambos lados de esta ecuación por <emphasis effect="italics">r</emphasis>,</para>
+<equation id="fs-id1167134651630" class="unnumbered"><label/><m:math><m:mrow><m:mi>r</m:mi><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>α</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134650762">Observe que el lado izquierdo de esta ecuación es el torque en torno al eje de rotación, donde <emphasis effect="italics">r</emphasis> es el brazo de palanca y <emphasis effect="italics">F</emphasis> es la fuerza, perpendicular a <emphasis effect="italics">r</emphasis>. Recuerde que el momento de inercia de una partícula puntual es<m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Por lo tanto, el torque aplicado perpendicularmente a la masa puntual en la <link target-id="CNX_UPhysics_10_07_Table"/> es</para>
+<equation id="fs-id1167134891146" class="unnumbered"><label/><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134812957"><emphasis effect="italics">El torque sobre la partícula es igual al momento de inercia sobre el eje de rotación por la aceleración angular</emphasis>. Podemos generalizar esta ecuación a un cuerpo rígido que rota en torno a un eje fijo.</para>
+<note id="fs-id1167134886602">
+<title>Segunda ley de Newton para la rotación</title>
+<para id="fs-id1167134511100">Si, sobre un cuerpo rígido actúa más de un torque en torno a un eje fijo, la suma de los torques es igual al momento de inercia por la aceleración angular:</para>
+<equation id="fs-id1167134508536"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134439710">El término <m:math><m:mrow><m:mi>I</m:mi><m:mi>α</m:mi></m:mrow></m:math> es una cantidad escalar y puede ser positiva o negativa (en el sentido contrario de las agujas del reloj o en el sentido de las agujas del reloj), dependiendo del signo del torque neto. Recuerde la convención de que la aceleración angular en el sentido contrario de las agujas del reloj es positiva. Así, si un cuerpo rígido rota en el sentido de las agujas del reloj y experimenta un torque positivo (en el sentido contrario de las agujas del reloj), la aceleración angular será positiva.</para>
+<para id="fs-id1167134488660">La <link target-id="fs-id1167134508536"/> es <term>la segunda ley de Newton para la rotación</term> y establece cómo relacionar el torque, el momento de inercia y la cinemática rotacional. Esto se denomina ecuación de la <term>dinámica rotacional</term>. Con esta ecuación, podemos resolver toda una clase de problemas relacionados con la fuerza y la rotación. Es lógico que la relación de la fuerza necesaria para hacer rotar un cuerpo incluya el momento de inercia, ya que es la cantidad que nos indica lo fácil o difícil que es cambiar el movimiento de rotación de un objeto.</para>
+</section>
+<section id="fs-id1167134861171">
+<title>Derivar la segunda ley de Newton para la rotación en forma vectorial</title>
+<para id="fs-id1167134757778">Como antes, cuando calculamos la aceleración angular, también podemos hallar el vector de torque. La segunda ley <m:math><m:mrow><m:mi>Σ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> nos indica la relación entre la fuerza neta y la forma de modificar el movimiento de traslación de un objeto. Tenemos un equivalente vectorial rotacional de esta ecuación, que se hallará al utilizar la <link target-id="fs-id1167134860789" document="m90663"/> y la <link target-id="CNX_UPhysics_10_01_AngTanVec" document="m90663"/>. La <link target-id="fs-id1167134860789" document="m90663"/> relaciona la aceleración angular con los vectores de posición y de aceleración tangencial:</para>
+<equation id="fs-id1167134863999" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134688716">Formamos el producto cruz de esta ecuación con <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> y utilizamos una identidad de producto cruz (tenga en cuenta que <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>):</para>
+<equation id="fs-id1167134518632" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>-</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131107920">Ahora formamos el producto cruz de la segunda ley de Newton con el vector de posición <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167134881719" class="unnumbered"><label/><m:math><m:mrow><m:mi>Σ</m:mi><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134534508">Al identificar el primer término de la izquierda como la suma de los torques, y <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> como el momento de inercia, llegamos a la segunda ley de Newton para la rotación en forma vectorial:</para>
+<equation id="fs-id1167134512030"><m:math><m:mrow><m:mi>Σ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134866352">Esta ecuación es exactamente la <link target-id="fs-id1167134508536"/>, pero con el torque y la aceleración angular como vectores. Un punto importante es que el vector de torque está en la misma dirección que la aceleración angular.</para>
+</section>
+<section id="fs-id1167134563378">
+<title>Aplicar la ecuación de la dinámica rotacional</title>
+<para id="fs-id1167134443040">Antes de aplicar la ecuación de la dinámica rotacional a algunas situaciones cotidianas, repasemos una estrategia general de resolución de problemas para utilizarla con esta categoría de problemas.</para>
+<note id="fs-id1167134538404" class="problem-solving">
+<title>Dinámica rotacional</title>
+<list id="fs-id1167134442126" list-type="enumerated" number-style="arabic">
+<item>Examine la situación para determinar que el torque y la masa están involucrados en la rotación. Dibuje un esquema minucioso de la situación.</item>
+<item>Determine el sistema de interés.</item>
+<item>Dibuje un diagrama de cuerpo libre. Es decir, dibuje y marque todas las fuerzas externas que actúan sobre el sistema de interés.</item>
+<item>Identifique el punto de apoyo. Si el objeto está en equilibrio, debe estarlo para todos los puntos de apoyo posibles: elija el que más simplifique su trabajo.</item>
+<item>Aplique <m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi></m:mrow></m:math>, el equivalente rotacional de la segunda ley de Newton, para resolver el problema. Hay que tener cuidado de utilizar el momento de inercia correcto y tener en cuenta el torque alrededor del punto de rotación.</item>
+<item>Como siempre, compruebe la solución para ver si es razonable.</item>
+</list>
+</note>
+<example id="fs-id1167134515317">
+<para id="fs-id1167134664382"><title>Calcular el efecto de la distribución de masas en un carrusel</title>Piense en el padre que empuja un carrusel del parque infantil en la <link target-id="CNX_UPhysics_10_07_Merry"/>. Ejerce una fuerza de 250 N en el borde del carrusel de 50,0 kg, que tiene un radio de 1,50 m. Calcule la aceleración angular producida (a) cuando no hay nadie en el carrusel y (b) cuando un niño de 18,0 kg se sienta a 1,25 m del centro. Considere que el propio carrusel es un disco uniforme con una fricción despreciable.</para><figure id="CNX_UPhysics_10_07_Merry">
+<media id="fs-id1167134948181" alt="La figura muestra a un hombre que empuja un carrusel por su borde y perpendicularmente a su radio.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_Merry.jpg"/>
+</media>
+<caption>Un padre empuja un carrusel de un parque infantil por su borde y perpendicularmente a su radio para conseguir el máximo torque.</caption>
+</figure>
+<para id="fs-id1167134681573"><title>Estrategia</title>
+El torque neto viene dado directamente por la expresión <m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi></m:mrow></m:math>, para resolver en <m:math><m:mi>α</m:mi></m:math>, primero debemos calcular el torque neto <m:math><m:mi>τ</m:mi></m:math> (que es el mismo en ambos casos) y el momento de inercia <emphasis effect="italics">I</emphasis> (que es mayor en el segundo caso).</para>
+<para id="fs-id1167134562572"><title>Solución</title></para>
+<list id="fs-id1167134862695" list-type="enumerated" number-style="lower-alpha">
+<item>El momento de inercia de un disco sólido en torno a este eje se da en la <link target-id="CNX_UPhysics_10_04_RotInertia" document="m90666"/> como
+<equation id="fs-id1167134860996" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Tenemos <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>50,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, así que
+<equation id="fs-id1167134562195" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,500</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>50,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>56,25</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Para hallar el torque neto, observamos que la fuerza aplicada es perpendicular al radio y la fricción es despreciable, por lo que
+<equation id="fs-id1167134514313" class="unnumbered"><label/><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>F</m:mi><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>250,0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>375,0</m:mn><m:mspace width="0.2em"/><m:mtext>N-m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Ahora, después de sustituir los valores conocidos, hallamos que la aceleración angular es
+<equation id="fs-id1167134760414" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>τ</m:mi><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>375,0</m:mn><m:mspace width="0.2em"/><m:mtext>N-m</m:mtext></m:mrow><m:mrow><m:mn>56,25</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6,67</m:mn><m:mfrac><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Esperamos que la aceleración angular del sistema sea menor en esta parte porque el momento de inercia es mayor cuando el niño está en el carrusel. Para hallar el momento de inercia total <emphasis effect="italics">I</emphasis>, primero hallamos el momento de inercia del niño (child, c) <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> al calcular aproximadamente al niño como una masa puntual a una distancia de 1,25 m del eje. Luego
+<equation id="fs-id1167134858415" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>18,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>28,13</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+El momento de inercia total es la suma de los momentos de inercia del carrusel y del niño (en torno al mismo eje):
+<equation id="fs-id1167134886469" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>28,13</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>56,25</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>84,38</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Sustituyendo los valores conocidos en la ecuación para <emphasis effect="italics">α</emphasis> se obtiene
+<equation id="fs-id1167134969438" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>τ</m:mi><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>375,0</m:mn><m:mspace width="0.2em"/><m:mtext>N-m</m:mtext></m:mrow><m:mrow><m:mn>84,38</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4</m:mn><m:mn>0,44</m:mn><m:mfrac><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167134652591"><title>Importancia</title>
+La aceleración angular es menor cuando el niño está en el carrusel que cuando el carrusel está vacío, como era de esperar. Las aceleraciones angulares halladas son bastante grandes, en parte debido a que la fricción se consideró despreciable. Si, por ejemplo, el padre siguiera empujando perpendicularmente durante 2,00 s, daría al carrusel una velocidad angular de 13,3 rad/s cuando está vacío, pero apenas 8,89 rad/s cuando el niño está montado en este. En términos de revoluciones por segundo, estas velocidades angulares son 2,12 rev/s y 1,41 rev/s, respectivamente. El padre acabaría corriendo a unos 50 km/h en el primer caso.</para>
+</example>
+<note id="fs-id1167134669584" class="check-understanding">
+<exercise id="fs-id1167134896658">
+<problem id="fs-id1167134899720">
+<para id="fs-id1167134638811">Las aspas del ventilador de un motor a reacción tienen un momento de inercia <m:math><m:mrow><m:mn>30,0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. En 10 s, rota en el sentido contrario de las agujas del reloj desde el reposo hasta una tasa de rotación de 20 rev/s. (a) ¿Qué torque deberá aplicarse a las aspas para lograr esta aceleración angular? (b) ¿Cuál es el torque necesario para llevar las aspas del ventilador que giran a 20 rev/s hasta el reposo en 20 s?</para>
+</problem>
+<solution id="fs-id1167134858538">
+<para id="fs-id1167131112464">a. La aceleración angular es <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>20,0</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>-</m:mo><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>12,56</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>. Al resolver el torque, tenemos <m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>12,56</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>376,80</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>; b. La aceleración angular es <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0</m:mn><m:mo>-</m:mo><m:mn>20,0</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−6,28</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>. Al resolver el torque, tenemos <m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>30,0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−6,28</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>-188,50</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167134627352" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167134646273" list-type="bulleted" bullet-style="bullet">
+<item>La segunda ley de Newton para la rotación, <m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi></m:mrow></m:math>, establece que la suma de los torques en un sistema que rota en torno a un eje fijo es igual al producto del momento de inercia y la aceleración angular. Es el análogo rotacional de la segunda ley de Newton del movimiento lineal.</item>
+<item>En la forma vectorial de la segunda ley de Newton para la rotación, el vector de torque <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> está en la misma dirección que la aceleración angular <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>α</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. Si la aceleración angular de un sistema en rotación es positiva, el torque en el sistema también es positivo, y si la aceleración angular es negativa, el torque es negativo.</item>
+</list>
+</section>
+<section id="fs-id1167134682344" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167134760962">
+<problem id="fs-id1167134881876">
+<para id="fs-id1167134604221">Si quisiera detener una rueca con una fuerza constante, ¿en qué parte de la rueca aplicaría la fuerza para producir la máxima aceleración negativa?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134884496">
+<problem id="fs-id1167134884498">
+<para id="fs-id1167134884500">Una varilla gira en torno a un extremo. Dos fuerzas <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi> </m:mi><m:mi> </m:mi><m:mi> </m:mi><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mo>-</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> se aplican a ella. ¿En qué circunstancias no rotará la varilla?</para>
+</problem>
+<solution id="fs-id1167131109815">
+<para id="fs-id1167131109817">Si las fuerzas están a lo largo del eje de rotación, o si tienen el mismo brazo de palanca y se aplican en un punto de la varilla.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167131109824" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167131109831">
+<problem id="fs-id1167131109833">
+<para id="fs-id1167131109835">Tiene una piedra de amolar (un disco) que pesa 90,0 kg, tiene un radio de 0,340 m y gira a 90,0 rpm, y presiona un hacha de acero contra ella con una fuerza radial de 20,0 N. (a) Suponiendo que el coeficiente cinético de fricción entre el acero y la piedra es de 0,20, calcule la aceleración angular de la piedra de amolar. (b) ¿Cuántas vueltas dará la piedra antes de llegar al reposo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131115995">
+<problem id="fs-id1167131115997">
+<para id="fs-id1167131115999">Supongamos que ejerce una fuerza de 180 N tangencial a una piedra de amolar (un disco macizo) de 0,280 m de radio y 75,0 kg de peso. (a)¿Qué torque se ejerce? (b) ¿Cuál es la aceleración angular suponiendo que la fricción opuesta es insignificante? (c) ¿Cuál es la aceleración angular si hay una fuerza de fricción opuesta de 20,0 N ejercida a 1,50 cm del eje?</para>
+</problem>
+<solution id="fs-id1167131116006">
+<para id="fs-id1167131116009">a. <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,280</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>180,0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>50,4</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>17,14</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>;<newline/> c. <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>17,04</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134873006">
+<problem id="fs-id1167134873008">
+<para id="fs-id1167134873010">Un volante de inercia (<m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) partiendo del reposo adquiere una velocidad angular de 200,0 rad/s mientras está sometido a un torque constante de un motor durante 5 s. (a) ¿Cuál es la aceleración angular del volante de inercia? (b) ¿Cuál es la magnitud del torque?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134963846">
+<problem id="fs-id1167134963848">
+<para id="fs-id1167134963850">Se aplica un torque constante a un cuerpo rígido cuyo momento de inercia es <m:math><m:mrow><m:mn>4,0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> alrededor del eje de rotación. Si la rueda parte del reposo y alcanza una velocidad angular de 20,0 rad/s en 10,0 s, ¿cuál es el torque aplicado?</para>
+</problem>
+<solution id="fs-id1167134963869">
+<para id="fs-id1167134963872"><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131121762">
+<problem id="fs-id1167131121764">
+<para id="fs-id1167131121766">Se aplica un torque de 50,0 N-m a una rueda de esmeril (<m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) durante 20 s. (a) Si parte del reposo, ¿cuál es la velocidad angular de la rueda de esmeril después de retirar el torque? (b) ¿En qué ángulo se desplaza la rueda mientras se aplica el torque?</para></problem>
+</exercise>
+<exercise id="fs-id1167134966142">
+<problem id="fs-id1167134966144">
+<para id="fs-id1167134966146">Un volante de inercia (<m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>100,0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) que rota a 500,0 rev/min se pone en reposo por fricción en 2,0 min. ¿Cuál es el torque de fricción en el volante de inercia?</para>
+</problem>
+<solution id="fs-id1167134966170">
+<para id="fs-id1167134966172"><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>-43,6</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131115536">
+<problem id="fs-id1167131115538">
+<para id="fs-id1167131115540">Una rueda de esmeril, cilíndrica y uniforme, de 50,0 kg de masa y 1,0 m de diámetro se pone en marcha mediante un motor eléctrico. La fricción en los rodamientos es despreciable. (a) ¿Qué torque debe aplicarse a la rueda para que pase del reposo a 120 rev/min en 20 revoluciones? (b) Una herramienta cuyo coeficiente de fricción cinética con la rueda es de 0,60 se presiona perpendicularmente contra la rueda con una fuerza de 40,0 N. ¿Qué torque debe suministrar el motor para mantener la rueda girando a una velocidad angular constante?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131107637">
+<problem id="fs-id1167131107639">
+<para id="fs-id1167131107641">Supongamos que la Tierra no rotaba cuando se formó. Sin embargo, tras la aplicación de un torque uniforme después de 6 días, giraba a 1 revolución/día. (a) ¿Cuál fue la aceleración angular durante los 6 días? (b) ¿Qué torque se aplicó a la Tierra durante este periodo? (c) ¿Qué fuerza tangente a la Tierra en su ecuador produciría este torque?</para>
+</problem>
+<solution id="fs-id1167131107648">
+<para id="fs-id1167131107651">a. <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>1,36</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>28</m:mn></m:mrow></m:msup><m:mtext>N-m</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>2,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131109093">
+<problem id="fs-id1167131109095">
+<para id="fs-id1167131109097">Una polea de momento de inercia de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> se monta en una pared como se muestra en la siguiente figura. Las cuerdas ligeras se enrollan alrededor de las dos circunferencias de la polea y se fijan las pesas. ¿Cuáles son (a) la aceleración angular de la polea y (b) la aceleración lineal de las pesas? Supongamos los siguientes datos: <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>.</para>
+<media id="fs-id1167134966652" alt="La figura muestra una polea montada en una pared. Las cuerdas ligeras se enrollan alrededor de las dos circunferencias de la polea y se fijan las pesas. El peso más pequeño m1 está unido a la circunferencia exterior de radio r1. El peso más grande M2 está unido a la circunferencia interior de radio r2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_Prob12_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167131112903">
+<problem id="fs-id1167131112905">
+<para id="fs-id1167131112907">Un bloque de masa 3 kg se desliza por un plano inclinado en un ángulo de <m:math><m:mrow><m:mn>45</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con una cuerda de sujeción sin masa unida a una polea de 1 kg de masa y 0,5 m de radio en la parte superior de la pendiente (vea la figura siguiente). La polea puede se puede tomar como un disco. El coeficiente de fricción cinética en el plano es de 0,4. ¿Cuál es la aceleración del bloque?</para>
+<media id="fs-id1167131112920" alt="La figura muestra un bloque que se desliza por un plano inclinado en un ángulo de 45 grados con una cuerda de sujeción unida a una polea.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_BlocInc_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131112933">
+<para id="fs-id1167131112936"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3,6</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131119168">
+<problem id="fs-id1167131119170">
+<para id="fs-id1167131119172">El carro que se muestra a continuación se desplaza por el tablero de la mesa a medida que el bloque cae. ¿Cuál es la aceleración del carro? Descarte la fricción y suponga los siguientes datos:<m:math><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo></m:math><m:math><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>0,4</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>kg-m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:math></para>
+<media id="fs-id1167131119232" alt="La figura muestra la polea instalada en una mesa. Un carro de masa m2 se fija a un lado de la polea. Un peso m1 se fija en otro lado y cuelga en el aire.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_Cart_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167134962861">
+<problem id="fs-id1167134962863">
+<para id="fs-id1167134962865">Una varilla uniforme de masa y longitud se sujeta verticalmente con dos cuerdas de masa despreciable, como se muestra a continuación. (a) Inmediatamente después de cortar la cuerda, ¿cuál es la aceleración lineal del extremo libre de la varilla? (b) ¿De la parte central de la varilla?</para>
+<media id="fs-id1167134962871" alt="La figura muestra una varilla sostenida verticalmente por dos cuerdas conectadas en sus extremos. Uno de las cuerdas se corta con tijeras.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_RodTwo_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167134962884">
+<para id="fs-id1167134962886">a. <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>14,7</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>L</m:mi><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>g</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134920911">
+<problem id="fs-id1167134920913">
+<para id="fs-id1167134920915">Un palo delgado de masa 0,2 kg y longitud <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>0,5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> está unido al borde de un disco metálico de masa <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> y radio <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>0,3</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. El palo es rota libremente en torno a un eje horizontal por su otro extremo (vea la siguiente figura). (a) Si la combinación se suelta con el palo horizontal, ¿cuál es la rapidez del centro del disco cuando el palo está en vertical? (b) ¿Cuál es la aceleración del centro del disco en el instante en que se suelta el palo? (c) ¿En el instante en que el palo pasa por la vertical?</para>
+<media id="fs-id1167134920960" alt="La figura A muestra un palo delgado unido al borde de un disco metálico. La figura B muestra un palo delgado que está unido al borde de un disco metálico y que rota en torno a un eje horizontal por su otro extremo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_07_SticDis_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167131118823">
+<term>segunda ley de Newton para la rotación</term>
+<meaning id="fs-id1167131118830">la suma de los torques en un sistema rotacional es igual a su momento de inercia por su aceleración angular</meaning>
+</definition>
+<definition id="fs-id1167131118835">
+<term>dinámica rotacional</term>
+<meaning id="fs-id1167131118840">análisis del movimiento rotacional en el que se utiliza el torque neto y el momento de inercia para hallar la aceleración angular</meaning>
+</definition>
+</glossary>
+</document>

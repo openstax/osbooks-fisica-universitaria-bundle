@@ -1,0 +1,283 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Teorema de trabajo-energía</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90646</md:content-id>
+  <md:title>Teorema de trabajo-energía</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Aplicar el teorema de trabajo-energía para encontrar información sobre el movimiento de una partícula, dadas las fuerzas que actúan sobre esta.</item>
+<item>Utilizar el teorema de trabajo-energía para encontrar información sobre las fuerzas que actúan sobre una partícula, dada la información sobre su movimiento.</item>
+</list></md:abstract>
+  <md:uuid>c28155e8-f5ed-4d8e-8370-90808f397178</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165036745203">Hemos hablado de cómo calcular el trabajo que realizan en una partícula las fuerzas que actúan sobre esta, pero ¿cómo se manifiesta ese trabajo en el movimiento de la partícula? Según la segunda ley del movimiento de Newton, la suma de todas las fuerzas que actúan sobre una partícula, o la fuerza neta, determina la tasa de cambio del momento de la partícula, o su movimiento. Por lo tanto, debemos considerar el trabajo que realizan todas las fuerzas que actúan sobre una partícula, o el <term>trabajo neto</term>, para ver qué efecto tiene sobre el movimiento de la partícula.</para>
+<para id="fs-id1165036881803">Empecemos por ver el trabajo neto realizado sobre una partícula en desplazamiento infinitesimal, que es el producto punto de la fuerza neta y el desplazamiento: <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> La segunda ley de Newton establece que <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> así que <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Para las funciones matemáticas que describen el movimiento de una partícula física, podemos reordenar las diferenciales <emphasis effect="italics">dt</emphasis>, etc., como cantidades algebraicas en esta expresión, es decir,</para><equation id="fs-id1165037178454" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038158678">donde sustituimos la velocidad por la derivada de tiempo del desplazamiento y utilizamos la propiedad conmutativa del producto punto [<link target-id="fs-id1167134625856" document="m90616"/>]. Ya que las derivadas e integrales de escalares probablemente le resulten más familiares en este punto, expresamos el producto punto en términos de coordenadas cartesianas antes de integrar entre dos puntos cualesquiera <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> en la trayectoria de la partícula. Esto nos da el trabajo neto realizado sobre la partícula:</para>
+<equation id="fs-id1165037271104"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>neta</m:mtext><m:mo>,</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub><m:mi>d</m:mi><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub><m:mo>+</m:mo><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>y</m:mi></m:msub><m:mi>d</m:mi><m:msub><m:mi>v</m:mi><m:mi>y</m:mi></m:msub><m:mo>+</m:mo><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mi>z</m:mi></m:msub><m:mi>d</m:mi><m:msub><m:mi>v</m:mi><m:mi>z</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mrow><m:mo>|</m:mo><m:mrow><m:mrow><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>v</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>v</m:mi><m:mi>z</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mrow><m:mo>|</m:mo><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>K</m:mi><m:mi>A</m:mi></m:msub><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math>
+</equation>
+<para id="fs-id1165038335952">En el paso intermedio, utilizamos el hecho de que el cuadrado de la velocidad es la suma de los cuadrados de sus componentes cartesianos, y en el último paso, utilizamos la definición de la energía cinética de la partícula. Este importante resultado se denomina <term>teorema de trabajo-energía</term> (<link target-id="CNX_UPhysics_07_03_HorsePull"/>).</para>
+<note id="fs-id1165036884203">
+<title>Teorema de trabajo-energía</title>
+<para id="fs-id1165036972359">El trabajo neto realizado sobre una partícula es igual al cambio en la energía cinética de la partícula:</para>
+<equation id="fs-id1165037940073"><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>K</m:mi><m:mi>A</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math>
+</equation>
+</note>
+<figure id="CNX_UPhysics_07_03_HorsePull"><media id="fs-id1165036759083" alt="Fotografía de caballos halando un carro cargado en una feria.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_03_HorsePull.jpg"/>
+</media>
+
+<caption>La tracción de caballos es un evento común en las ferias estatales. El trabajo realizado por los caballos que halan de la carga da lugar a un cambio en la energía cinética de la carga, que, en última instancia, va más rápido (créditos: modificación del trabajo por "Jassen"/ Flickr).</caption></figure><para id="fs-id1165038275860">Según este teorema, cuando un objeto desacelera, su energía cinética final es menor que su energía cinética inicial, el cambio en su energía cinética es negativo, y también lo es el trabajo neto realizado sobre este. Si un objeto se acelera, el trabajo neto realizado sobre este es positivo. Al calcular el trabajo neto, hay que incluir todas las fuerzas que actúan sobre un objeto. Si se omiten las fuerzas que actúan sobre un objeto, o si se incluyen las fuerzas que no actúan sobre este, se obtendrá un resultado erróneo.</para>
+<para id="fs-id1165037941283">La importancia del teorema de trabajo-energía, y de las posteriores generalizaciones a las que conduce, es que hace que algunos tipos de cálculos sean mucho más sencillos de realizar que si se tratara de resolver la segunda ley de Newton. Por ejemplo, en las <link document="m90630">Leyes de movimiento de Newton</link>, calculamos la rapidez de un objeto que se desliza por un plano sin fricción al resolver la segunda ley de Newton para la aceleración y utilizar las ecuaciones cinemáticas para una aceleración constante, con lo que se obtiene</para>
+<equation id="fs-id1165037936500" class="unnumbered"><label/><m:math><m:mrow><m:msubsup><m:mi>v</m:mi><m:mtext>f</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mi>v</m:mi><m:mtext>i</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>s</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>s</m:mi><m:mtext>i</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038293742">donde <emphasis effect="italics">s</emphasis> es el desplazamiento hacia abajo del plano.</para>
+<para id="fs-id1165038050933">También podemos obtener este resultado a partir del teorema de trabajo-energía en la <link target-id="fs-id1165039054812" document="m90644"/>. Como únicamente actúan dos fuerzas sobre el objeto, la gravedad y la fuerza normal, y la fuerza normal no realiza ningún trabajo, el trabajo neto es solo el realizado por la gravedad. El trabajo dW es el producto punto de la fuerza de gravedad o <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mo>−</m:mo><m:mtext>mg</m:mtext><m:mover><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mrow></m:math> y el desplazamiento <m:math><m:mrow><m:mover accent="true"><m:mrow><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow><m:mo stretchy="false">→</m:mo></m:mover><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>x</m:mi><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>y</m:mi><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:math>. Tras tomar el producto punto e integrar desde una posición inicial <m:math><m:msub><m:mi>y</m:mi><m:mi>i</m:mi></m:msub></m:math> a una posición final <m:math><m:msub><m:mi>y</m:mi><m:mi>f</m:mi></m:msub></m:math>, se calcula el trabajo neto como
+</para><equation id="fs-id1165036746551" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>grav</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mtext>i</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038045401">donde la <emphasis effect="italics">y</emphasis> es positiva hacia arriba. El teorema de trabajo-energía señala que esto es igual al cambio de energía cinética:</para>
+<equation id="fs-id1165037026304" class="unnumbered"><label/><m:math><m:mrow><m:mtext>-</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mtext>i</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>v</m:mi><m:mtext>f</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>-</m:mo><m:msubsup><m:mi>v</m:mi><m:mtext>i</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038021515">Si utilizamos un triángulo rectángulo, podemos ver que <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mtext>i</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>s</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>s</m:mi><m:mtext>i</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> para que el resultado de la rapidez final sea el mismo.</para>
+<para id="fs-id1165036784442">¿Qué se gana con el teorema de trabajo-energía? La respuesta es que para una superficie plana sin fricción, no mucho. Sin embargo, la segunda ley de Newton es fácil de resolver solo para este caso en particular, mientras que el teorema de trabajo-energía da la rapidez final para cualquier superficie sin fricción. En el caso de una superficie curva arbitraria, la fuerza normal es inconstante, y la segunda ley de Newton puede ser difícil o imposible de resolver analíticamente. Constante o no, para el movimiento a lo largo de una superficie, la fuerza normal nunca hace ningún trabajo, porque es perpendicular al desplazamiento. El cálculo mediante el teorema de trabajo-energía evita esta dificultad y se aplica a situaciones más generales.</para>
+<note id="fs-id1165038197586" class="problem-solving">
+<title>Teorema de trabajo-energía</title>
+<list id="fs-id1165038218352" list-type="enumerated" number-style="arabic">
+<item>Dibuje un diagrama de cuerpo libre para cada fuerza sobre el objeto.</item>
+<item>Determine si cada fuerza realiza o no un trabajo sobre el desplazamiento en el diagrama. Mantenga cualquier signo positivo o negativo en el trabajo realizado.</item>
+<item>Sume la cantidad total de trabajo realizado por cada fuerza.</item>
+<item>Establezca este trabajo total igual al cambio de energía cinética y resuelva para cualquier parámetro desconocido.</item>
+<item>Compruebe sus respuestas. Si el objeto se desplaza a una rapidez constante o a una aceleración cero, el trabajo total realizado debería ser cero y coincidir con el cambio de energía cinética. Si el trabajo total es positivo, el objeto debe haber acelerado o aumentado su energía cinética. Si el trabajo total es negativo, el objeto debe haber disminuido su velocidad o su energía cinética.</item>
+</list>
+</note>
+<example id="fs-id1165038363881">
+<para id="fs-id1165037997616"><title>Completar el círculo</title>
+La pista sin fricción para un auto de juguete consta de un <term class="no-emphasis">giro circular</term> de radio <emphasis effect="italics">R</emphasis>. ¿A qué altura, medida desde la parte inferior del círculo, debe colocarse el auto para partir del reposo en la sección de pista que se aproxima y dar toda la vuelta al círculo?</para>
+<figure id="CNX_UPhysics_07_03_Loop">
+<media id="fs-id1165038130064" alt="Una pista desciende hasta el suelo, forma un bucle circular de radio R y luego continúa horizontalmente a nivel del suelo. El punto 1 está antes del círculo, cerca del inicio de la pista en la elevación y sub 1 sobre el suelo. El punto 2 está en la parte superior del círculo, en la elevación y sub 2 = 2 R. En el punto 2 hay 2 fuerzas, N y m g. Ambas fuerzas apuntan verticalmente hacia abajo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_03_Loop.jpg"/>
+</media>
+<caption>Una pista sin fricción para un auto de juguete tiene un giro circular completo. ¿A qué altura debe arrancar el auto para que pueda dar la vuelta al círculo sin caerse?</caption>
+</figure>
+<para id="fs-id1165036895008"><title>Estrategia</title>
+El diagrama de cuerpo libre en la posición final del objeto se dibuja en la <link target-id="CNX_UPhysics_07_03_Loop"/>. El trabajo gravitacional es el único trabajo realizado sobre el desplazamiento que no es cero. Dado que el peso apunta en la misma dirección que el desplazamiento vertical neto, el trabajo total realizado por la fuerza gravitacional es positivo. A partir del teorema de trabajo-energía, la altura inicial determina la rapidez del auto en la parte superior del círculo,</para>
+<equation id="fs-id1165038022495" class="unnumbered"><label/><m:math><m:mrow><m:mo>–</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1165038239026">donde la notación se muestra en la figura adjunta. En la parte superior del círculo, la fuerza normal y la gravedad están abajo y la aceleración es centrípeta, por lo que</para>
+<equation id="fs-id1165038018853" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>superior</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038034300">La condición para mantener el contacto con la pista es que haya alguna fuerza normal, por mínima que sea; es decir, <m:math><m:mrow><m:mi>N</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Sustituyendo por <m:math><m:mrow><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:math> y <emphasis effect="italics">N</emphasis>, podemos encontrar la condición para <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>.</para>
+<para id="fs-id1165038277995"><title>Solución</title>
+Aplique los pasos de la estrategia para llegar al resultado deseado:</para>
+<equation id="fs-id1165037899383" class="unnumbered"><label/><m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>R</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>-</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext><m:mtext>o</m:mtext><m:mtext> </m:mtext><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>R</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1165038372133"><title>Importancia</title>
+En la superficie del círculo, el componente normal de la gravedad y la fuerza normal de contacto deberán proporcionar la aceleración centrípeta del auto que da la vuelta al círculo. El componente tangencial de la gravedad frena o acelera el auto. Un niño averiguaría a qué altura arrancar el auto por ensayo y error, pero ahora que conoce el de teorema de trabajo-energía, puede predecir la altura mínima (así como otros resultados más útiles) a partir de principios físicos. Al utilizar el teorema de trabajo-energía, no ha tenido que resolver ninguna ecuación diferencial para determinar la altura.</para>
+</example>
+<note id="fs-id1165038305971" class="check-understanding">
+<exercise id="fs-id1165037216695">
+<problem id="fs-id1165037912099">
+<para id="fs-id1165038201315">Supongamos que el radio del giro circular en el <link target-id="fs-id1165038363881"/> es de 15 cm y que el auto de juguete parte del reposo a una altura de 45 cm sobre la parte inferior. ¿Cuál es su rapidez en la parte superior del círculo?</para>
+</problem>
+<solution id="fs-id1165038202150">
+<para id="fs-id1165038237523"><m:math><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1165036872618" class="media-2">
+<para id="fs-id1165038204963">Visite el sitio web de Carleton College para ver un <link url="https://openstax.org/l/21carcollvidrol">vídeo</link> de una montaña rusa con círculos completos.</para>
+</note>
+<para id="fs-id1165037151971">En situaciones en las que se conoce el movimiento de un objeto, pero se desconocen los valores de una o más de las fuerzas que actúan sobre este, se puede utilizar el teorema de trabajo-energía para obtener alguna información sobre las fuerzas. El trabajo depende de la fuerza y de la distancia sobre la que actúa, por lo que la información se proporciona a través de su producto.</para>
+<example id="fs-id1165036746143">
+<para id="fs-id1165038009753"><title>Determinación de la fuerza de detención</title>Una bala tiene una masa de 40 granos (2,60 g) y una velocidad de salida de 1.100 pies/s (335 m/s). Puede penetrar ocho tablas de pino de 1 pulgada, cada una con un grosor de 0,75 pulgadas. ¿Cuál es la fuerza media de detención ejercida por la madera, como se muestra en la <link target-id="CNX_UPhysics_07_03_Ex2"/>?</para><figure id="CNX_UPhysics_07_03_Ex2">
+<media id="fs-id1165038021692" alt="En la figura a, una bala se mueve horizontalmente a una velocidad de 335 metros por segundo hacia un conjunto de 8 tablas, dispuestas en una pila horizontal. En la figura b, la bala ha atravesado la pila de tablas y se ha detenido en el extremo de la última tabla. La distancia de detención se indica como la anchura de la pila de tablas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_03_Ex2.jpg"/>
+</media>
+<caption>Las tablas ejercen una fuerza para detener la bala. Como resultado, las tablas hacen trabajo y la bala pierde energía cinética.</caption>
+</figure>
+<para id="fs-id1165038282731"><title>Estrategia</title>
+Podemos suponer que, en las condiciones generales expuestas, la bala pierde toda su energía cinética al penetrar en las tablas, por lo que el teorema de trabajo-energía señala que su energía cinética inicial es igual a la fuerza media de detención por la distancia penetrada. El cambio en la energía cinética de la bala y el trabajo neto realizado para detenerla son ambos negativos, así que cuando escribe el teorema de trabajo-energía, con el trabajo neto igual a la fuerza media por la distancia de detención, eso es lo que obtiene. El espesor total de ocho tablas de pino de 1 pulgada que la bala penetra es <m:math><m:mrow><m:mn>8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mtext>in</m:mtext><m:mtext>.</m:mtext><m:mo>=</m:mo><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>in</m:mtext><m:mtext>.</m:mtext><m:mo>=</m:mo><m:mn>15,2</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1165037217195"><title>Solución</title>
+Si aplicamos el teorema de trabajo-energía, obtenemos</para>
+<equation id="fs-id1165038191332" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mtext>Δ</m:mtext><m:msub><m:mi>s</m:mi><m:mrow><m:mtext>detención</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>inicial</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165036762223">entonces</para>
+<equation id="fs-id1165036779648" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>s</m:mi><m:mrow><m:mtext>detención</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>2,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>335</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>0,152</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>960</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165038358241"><title>Importancia</title>
+Podríamos haber utilizado la segunda ley de Newton y la cinemática en este ejemplo, pero el teorema de trabajo-energía también proporciona una respuesta a situaciones menos sencillas. La penetración de una bala, disparada verticalmente hacia arriba en un bloque de madera, se analiza en una sección del reciente artículo de Asif Shakur ["Bullet-Block Science Video Puzzle" (Video rompecabezas de ciencia con bloque y bala) <emphasis effect="italics">The Physics Teacher (El Profesor de Física)</emphasis> (enero de 2015) 53(1): 15-16]. Si la bala se dispara centrada en el bloque, pierde toda su energía cinética y penetra ligeramente más lejos que si se dispara descentrada. La razón es que si la bala impacta descentrada, tiene un poco de energía cinética después de dejar de penetrar, porque el bloque gira. El teorema de trabajo-energía implica que un menor cambio en la energía cinética da lugar a una menor penetración. Entenderá mejor la física de este interesante artículo cuando termine de leer <link document="m90671">Momento angular</link>.</para>
+</example>
+<note id="fs-id1165036894997" class="media-2">
+<para id="fs-id1165037057026">Aprenda más sobre el trabajo y la energía en esta <link url="https://openstax.org/l/21ramp_es">simulación de PhET</link> llamada "la rampa". Intente cambiar la fuerza que empuja la caja y la fuerza de fricción a lo largo de la pendiente. Los gráficos de trabajo y energía pueden examinarse para observar el trabajo total realizado y el cambio en la energía cinética de la caja.</para>
+</note>
+<section id="fs-id1165038375037" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1165037979710" list-type="bulleted" bullet-style="bullet">
+<item>Ya que la fuerza neta sobre una partícula es igual a su masa por la derivada de su velocidad, la integral del trabajo neto realizado sobre la partícula es igual al cambio en la energía cinética de la partícula. Este es el teorema de trabajo-energía.</item>
+<item>Puede utilizar el teorema de trabajo-energía para hallar ciertas propiedades de un sistema, sin tener que resolver la ecuación diferencial de la segunda ley de Newton.</item>
+</list>
+</section>
+<section id="fs-id1165036751109" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1165036784000">
+<problem id="fs-id1165038219695">
+<para id="fs-id1165036834178">La persona que se muestra a continuación ejerce trabajo sobre el cortacésped. ¿En qué condiciones el cortacésped ganaría energía de la persona que lo empuja? ¿En qué condiciones perdería energía?</para>
+<media id="fs-id1165036966253" alt="Una persona empuja un cortacésped con una fuerza F. La fuerza se representa con un vector paralelo al mango del cortacésped, formando un ángulo theta por debajo de la horizontal. La distancia recorrida por el cortacésped está representada por el vector horizontal d. El componente horizontal del vector F a lo largo del vector d es F coseno de theta. El trabajo que realiza la persona, W, es igual a F d coseno de theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_03_Mower_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165036893822">
+<para id="fs-id1165037900948">El cortacésped ganaría energía si <m:math><m:mrow><m:mn>−90</m:mn><m:mtext>°</m:mtext><m:mo>&lt;</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Perdería energía si <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>&lt;</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>270</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math> El cortacésped también puede perder energía debido a la fricción con la hierba mientras se empuja; sin embargo, no nos preocupa esa pérdida de energía para este problema.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038018101">
+<problem id="fs-id1165037972763">
+<para id="fs-id1165036895435">El trabajo realizado sobre un sistema aporta energía al mismo. El trabajo realizado por un sistema le quita energía. Dé un ejemplo para cada afirmación.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038013807">
+<problem id="fs-id1165038377232">
+<para id="fs-id1165037214818">Dos canicas de masas <emphasis effect="italics">m</emphasis> y 2<emphasis effect="italics">m</emphasis> se dejan caer desde una altura <emphasis effect="italics">h</emphasis>. Compare sus energías cinéticas cuando llegan al suelo.</para>
+</problem>
+<solution id="fs-id1165037865497">
+<para id="fs-id1165036771142">La segunda canica tiene el doble de energía cinética que la primera porque la energía cinética es directamente proporcional a la masa, como el trabajo realizado por la gravedad.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038375169">
+<problem id="fs-id1165038308538">
+<para id="fs-id1165038024755">Compare el trabajo necesario para acelerar un auto de 2.000 kg de masa de 30,0 a 40,0 km/h con el necesario para una aceleración de 50,0 a 60,0 km/h.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038238873">
+<problem id="fs-id1165038307806">
+<para id="fs-id1165037848453">Supongamos que está trotando a velocidad constante. ¿Está ejerciendo un trabajo en el ambiente y viceversa?</para>
+</problem>
+<solution id="fs-id1165036728890">
+<para id="fs-id1165036967810">A menos que el ambiente sea casi sin fricción, está haciendo algún trabajo positivo en el entorno para cancelar el trabajo de fricción contra usted, lo que resulta en un trabajo total cero, que produce una velocidad constante.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037841106">
+<problem id="fs-id1165037940254">
+<para id="fs-id1165036895057">Dos fuerzas actúan para duplicar la rapidez de una partícula que se mueve inicialmente con una energía cinética de 1 J. Una de las fuerzas realiza 4 J de trabajo. ¿Cuánto trabajo hace la otra fuerza?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165037968970" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1165038273128">
+<problem id="fs-id1165036795802">
+<para id="fs-id1165037935391">(a) Calcule la fuerza necesaria para que un auto de 950 kg se detenga desde una rapidez de 90,0 km/h en una distancia de 120 m (una distancia bastante típica para una parada sin pánico). (b) Suponga que, en cambio, el auto choca con un estribo de hormigón a toda velocidad y se detiene en 2,00 m. Calcule la fuerza ejercida sobre el auto y compárela con la fuerza encontrada en la parte (a).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037909594">
+<problem id="fs-id1165037213582">
+<para id="fs-id1165038365020">El parachoques de un auto está diseñado para soportar una colisión a 4,0 km/h (1,1 m/s) con un objeto inamovible sin que se dañe la carrocería del vehículo. El parachoques amortigua el choque absorbiendo la fuerza a lo largo de una distancia. Calcule la magnitud de la fuerza media sobre un parachoques que se desploma 0,200 m al poner en reposo un auto de 900 kg desde una rapidez inicial de 1,1 m/s.</para>
+</problem>
+<solution id="fs-id1165038034161">
+<para id="fs-id1165037179095">2,72 kN</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036759677">
+<problem id="fs-id1165036758380">
+<para id="fs-id1165037167559">Los guantes de boxeo están acolchados para disminuir la fuerza de un golpe. (a) Calcule la fuerza ejercida por un guante de boxeo sobre la cara de un adversario, si el guante y la cara se comprimen 7,50 cm durante un golpe en el que el brazo de 7,00 kg y el guante se llevan a reposo desde una rapidez inicial de 10,0 m/s. (b) Calcule la fuerza ejercida por un golpe idéntico en los días en que no se utilizaban guantes, y los nudillos y la cara se comprimían sólo 2,00 cm. Suponga que el cambio de masa al quitarse el guante es despreciable. (c) Comente sobre la magnitud de la fuerza con el guante puesto. ¿Parece lo suficientemente alta como para causar daños aunque sea menor que la fuerza sin guante?</para></problem>
+</exercise>
+<exercise id="fs-id1165037867393">
+<problem id="fs-id1165037983879">
+<para id="fs-id1165038046664">Con base en consideraciones energéticas, calcule la fuerza media que un velocista de 60,0 kg ejerce hacia atrás en la pista para acelerar de 2,00 a 8,00 m/s en una distancia de 25,0 m, si encuentra un viento en contra que ejerce una fuerza media de 30,0 N contra él.</para>
+</problem>
+<solution id="fs-id1165038006594">
+<para id="fs-id1165037221080">102 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038132596">
+<problem id="fs-id1165037056894">
+<para id="fs-id1165038058069">Una caja de 5,0 kg tiene una aceleración de <m:math><m:mrow><m:mn>2,0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> cuando es halada por una fuerza horizontal a través de una superficie con <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>K</m:mi></m:msub><m:mo>=</m:mo><m:mn>0,50</m:mn><m:mo>.</m:mo></m:mrow></m:math> Calcule el trabajo realizado en una distancia de 10 cm por (a) la fuerza horizontal, (b) la fuerza de fricción y (c) la fuerza neta. (d) ¿Cuál es el cambio en la energía cinética de la caja?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038183594">
+<problem id="fs-id1165038013856">
+<para id="fs-id1165037948977">Se aplica una fuerza horizontal constante de 10 N a un carro de 20 kg en reposo sobre un suelo plano. Si la fricción es despreciable, ¿cuál es la rapidez del carro cuando ha sido empujado 8,0 m?</para>
+</problem>
+<solution id="fs-id1165037935511">
+<para id="fs-id1165036873436">2,8 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036865587">
+<problem id="fs-id1165036891664">
+<para id="fs-id1165036859402">En el problema anterior, la fuerza de 10 N se aplica en un ángulo de <m:math><m:mrow><m:mn>45</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> por debajo de la horizontal. ¿Cuál es la rapidez del carro cuando ha sido empujado 8,0 m?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036754213">
+<problem id="fs-id1165038133870">
+<para id="fs-id1165038293766">Compare el trabajo necesario para detener una caja de 100 kg que se desliza a 1,0 m/s y una bala de 8,0 g que viaja a 500 m/s.</para>
+</problem>
+<solution id="fs-id1165038217592">
+<para id="fs-id1165038183119"><m:math><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>bala</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>W</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>caja</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036966322">
+<problem id="fs-id1165037161957">
+<para id="fs-id1165038154187">Un vagón con su pasajero se encuentra en la cima de una colina. El vagón recibe un ligero empujón y rueda 100 m por una pendiente de <m:math><m:mrow><m:mn>10</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> hasta la base de la colina. Cuál es la rapidez del vagón cuando llega al final de la pendiente. Supongamos que la fuerza de fricción retardadora es despreciable.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036763209">
+<problem id="fs-id1165038036506">
+<para id="fs-id1165037949221">Una bala de 8,0 g a una rapidez de 800 m/s se dispara contra un bloque de madera y penetra 20 cm antes de detenerse. ¿Cuál es la fuerza media de la madera sobre la bala? Supongamos que el bloque no se mueve.</para>
+</problem>
+<solution id="fs-id1165036976729">
+<para id="fs-id1165038014121">12,8 kN</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038018269">
+<problem id="fs-id1165038313831">
+<para id="fs-id1165036754152">Un bloque de 2,0 kg comienza con una rapidez de 10 m/s en la parte inferior de un plano inclinado a <m:math><m:mrow><m:mn>37</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> de la horizontal. El coeficiente de fricción por deslizamiento entre el bloque y el plano es <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>k</m:mi></m:msub><m:mo>=</m:mo><m:mn>0,30</m:mn><m:mo>.</m:mo></m:mrow></m:math> (a) Utilice el principio de trabajo-energía para determinar la distancia que el bloque se desliza a lo largo del plano antes de detenerse momentáneamente. (b) Después de detenerse, el bloque vuelve a deslizarse por el plano. ¿Cuál es su rapidez cuando llega a la parte inferior? (<emphasis effect="italics">Pista:</emphasis> Para el viaje de ida y vuelta, solo la fuerza de la fricción ejerce trabajo en el bloque).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036886605">
+<problem id="fs-id1165036987671">
+<para id="fs-id1165038002585">Cuando un bloque de 3,0 kg es empujado contra un resorte sin masa de fuerza constante <m:math><m:mrow><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/m,</m:mtext></m:mrow></m:math> el resorte se comprime 8,0 cm. El bloque se suelta y se desliza 2,0 m (desde el punto en que se suelta) por una superficie horizontal antes de que la fricción lo detenga. ¿Cuál es el coeficiente de fricción cinética entre el bloque y la superficie?</para></problem>
+<solution id="fs-id1165037860818">
+<para id="fs-id1165038023232">0,25</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037207536">
+<problem id="fs-id1165037033140">
+<para id="fs-id1165038006131">Un pequeño bloque de masa 200 g comienza en reposo en A, se desliza hasta B donde su rapidez es <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext></m:mrow></m:math> luego, se desliza por la superficie horizontal una distancia de 10 m antes de detenerse en C. (Vea abajo.) (a) ¿Cuál es el trabajo de fricción a lo largo de la superficie curva? (b) ¿Cuál es el coeficiente de fricción cinética a lo largo de la superficie horizontal?</para>
+<media id="fs-id1165037046390" alt="Un bloque se desliza por una pista que se curva hacia abajo y luego se nivela y se vuelve horizontal. El punto A está cerca de la parte superior de la pista, a 4,0 metros por encima de la parte horizontal de la pista. Los puntos B y C están en la sección horizontal y están separados por 10 metros. El bloque comienza en el punto A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_03_BlockSlide_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165037862102">
+<problem id="fs-id1165038054438">
+<para id="fs-id1165038016034">Se coloca un pequeño objeto en la parte superior de una pendiente que es esencialmente sin fricción. El objeto se desliza por la pendiente hasta una superficie horizontal rugosa, donde se detiene en 5,0 s después de recorrer 60 m. (a) ¿Cuál es la rapidez del objeto en la parte inferior de la pendiente y su aceleración a lo largo de la superficie horizontal? (b) ¿Cuál es la altura de la pendiente?</para>
+</problem>
+<solution id="fs-id1165038011958">
+<para id="fs-id1165037974322">a. 24 m/s, -4,8 m/s<sup>2</sup>; b. 29,4 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038386323">
+<problem id="fs-id1165037026354">
+<para id="fs-id1165038018335">Cuando se suelta, un bloque de 100 g se desliza por la trayectoria que se muestra a continuación, para llegar hasta la parte inferior con una rapidez de 4,0 m/s. ¿Cuánto trabajo realiza la fuerza de fricción?</para>
+<media id="fs-id1165038046088" alt="Un bloque se desliza por una trayectoria de curvas irregulares. El bloque comienza cerca de la parte superior de la trayectoria a una altura de 2,0 metros. En la parte inferior de la trayectoria se mueve horizontalmente a 4,0 metros por segundo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_03_BlockPath_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165038017772">
+<problem id="fs-id1165036765859">
+<para id="fs-id1165037019252">Una bala de calibre 0,22LR como la mencionada en el <link target-id="fs-id1165036746143"/> se dispara contra una puerta hecha con tablas de pino de un solo grosor de 1 pulgada. ¿A qué velocidad se desplazaría la bala después de atravesar la puerta?</para>
+</problem>
+<solution id="fs-id1165036783544">
+<para id="fs-id1165037998318">310 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036890190">
+<problem id="fs-id1165037089556">
+<para id="fs-id1165038230247">Un trineo parte del reposo en la cima de una pendiente cubierta de nieve que forma un ángulo de <m:math><m:mrow><m:mn>22</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con la horizontal. Tras deslizarse 75 m por la pendiente, su rapidez es de 14 m/s. Utilice el teorema de trabajo-energía para calcular el coeficiente de fricción cinética entre los patines del trineo y la superficie nevada.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165037154567">
+<term>trabajo neto</term>
+<meaning id="fs-id1165038010179">trabajo realizado por todas las fuerzas que actúan sobre un objeto</meaning>
+</definition>
+<definition id="fs-id1165038306067">
+<term>teorema de trabajo-energía</term>
+<meaning id="fs-id1165037270191">el trabajo neto realizado sobre una partícula es igual a la variación de su energía cinética</meaning>
+</definition>
+</glossary>
+</document>

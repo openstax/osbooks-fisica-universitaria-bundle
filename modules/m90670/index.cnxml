@@ -1,0 +1,592 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Trabajo y potencia en el movimiento rotacional</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90670</md:content-id>
+  <md:title>Trabajo y potencia en el movimiento rotacional</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Utilizar el teorema de trabajo-energía para analizar la rotación y calcular el trabajo realizado en un sistema cuando se rota alrededor de un eje fijo para un desplazamiento angular finito.</item>
+<item>Resolver la velocidad angular de un cuerpo rígido en rotación con el teorema de trabajo-energía.</item>
+<item>Hallar la potencia entregada a un cuerpo rígido en rotación dado el torque aplicado y la velocidad angular.</item>
+<item>Resumir las variables y ecuaciones rotacionales y relacionarlas con sus homólogas traslacionales.</item>
+</list></md:abstract>
+  <md:uuid>6f7bcd11-2231-4255-85b1-a3179c6b56f4</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134457416">Hasta ahora en el capítulo, hemos abordado ampliamente la cinemática y la dinámica para cuerpos rígidos en rotación alrededor de un eje fijo. En esta última sección, definimos el trabajo y la potencia en el contexto de la rotación alrededor de un eje fijo, lo que tiene aplicaciones tanto en la física como en la ingeniería. El análisis del trabajo y la potencia hace que nuestro tratamiento del movimiento rotacional sea casi completo, con la excepción del movimiento rodadura y el momento angular, que se analizan en <link document="m90671">Momento angular</link>. Comenzamos esta sección con un tratamiento del teorema de trabajo-energía para la rotación.</para>
+<section id="fs-id1167134967866">
+<title>Trabajo para el movimiento rotacional</title>
+<para id="fs-id1167134510421">Ahora, que hemos determinado cómo calcular la energía cinética para cuerpos rígidos en rotación, podemos proceder a analizar el trabajo realizado en un cuerpo rígido que rota alrededor de un eje fijo. La <link target-id="CNX_UPhysics_10_08_RigBody"/> muestra un cuerpo rígido que ha rotado a través de un ángulo <m:math><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math> de <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis> bajo la influencia de una fuerza <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. La fuerza externa <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> se aplica al punto <emphasis effect="italics">P</emphasis>, cuya posición es <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>, y el cuerpo rígido se ve obligado a rotar alrededor de un eje fijo que es perpendicular a la página y pasa por <emphasis effect="italics">O</emphasis>. El eje de rotación es fijo, por lo que el vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> se mueve en un círculo de radio <emphasis effect="italics">r</emphasis>, y el vector <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>s</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> es perpendicular a <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_10_08_RigBody">
+<media id="fs-id1167134920791" alt="La figura muestra que el cuerpo rígido se ve obligado a rotar alrededor de un eje fijo que es perpendicular a la página y pasa por un punto marcado como O. El eje de rotación es fijo, por lo que el vector r se mueve en un círculo de radio r, y el vector ds es perpendicular al vector r. Una fuerza externa F se aplica al punto P y hace que el cuerpo rígido rote a través de un ángulo dtheta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_08_RigBody.jpg"/>
+</media>
+<caption>Un cuerpo rígido rota a través de un ángulo <m:math><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math> de <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis> por la acción de una fuerza externa <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> aplicada al punto <emphasis effect="italics">P</emphasis>.</caption>
+</figure>
+<para id="fs-id1167134674930">A partir de la <link target-id="fs-id1167134879549" document="m90663"/>, tenemos</para>
+<equation id="fs-id1167134835497" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>s</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>θ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134656064">Así,</para>
+<equation id="fs-id1167134679941" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>s</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>θ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>θ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>θ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>θ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134534722">Observe que <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> es cero porque <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> está fijado en el cuerpo rígido desde el origen <emphasis effect="italics">O</emphasis> hasta el punto <emphasis effect="italics">P</emphasis>. Al utilizar la definición de trabajo, obtenemos</para>
+<equation id="fs-id1167134447543" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>s</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>θ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>θ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>·</m:mo><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle displaystyle="true"><m:mo>∑</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134835451">donde utilizamos la identidad <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>b</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>c</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>b</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>c</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Al observar que <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle displaystyle="true"><m:mo>∑</m:mo><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mo>∑</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mstyle></m:mrow></m:math>, llegamos a la expresión del <term>trabajo rotacional</term> realizado en un cuerpo rígido:</para>
+<equation id="fs-id1167134473272"><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>θ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134890823"><emphasis effect="italics">El trabajo total realizado en un cuerpo rígido es la suma de los torques integrados en el ángulo a través del cual rota el cuerpo</emphasis>. El trabajo incremental es</para>
+<note id="fs-id1167134891185" class="equation-callout">
+<equation id="fs-id1167134444376"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134452861">donde hemos tomado el producto punto en la <link target-id="fs-id1167134473272"/>, y dejamos solo los torques a lo largo del eje de rotación. En un cuerpo rígido, todas las partículas rotan a través del mismo ángulo; así, el trabajo de cada fuerza externa es igual al torque por el ángulo incremental común <m:math><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math>. La cantidad <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> es el torque neto sobre el cuerpo debido a las fuerzas externas.</para>
+<para id="fs-id1167134881428">Del mismo modo, hallamos la energía cinética de un cuerpo rígido que rota alrededor de un eje fijo al sumar la energía cinética de cada partícula que compone el cuerpo rígido. Dado que el teorema de trabajo-energía <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>K</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> es válido para cada partícula, es válido para la suma de las partículas y el cuerpo entero.</para>
+<note id="fs-id1167134655291">
+<title>Teorema de trabajo-energía para la rotación</title>
+<para id="fs-id1167134458775">El teorema de trabajo-energía para un cuerpo rígido que rota alrededor de un eje fijo es</para>
+<equation id="fs-id1167134515317"><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mi>B</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>K</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:math></equation>
+<para id="fs-id1167134642521">donde</para>
+<equation id="fs-id1167134540347" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1167134656254">y el trabajo rotacional realizado por una fuerza neta que hace rotar a un cuerpo del punto <emphasis effect="italics">A</emphasis> al punto <emphasis effect="italics">B</emphasis> es</para>
+<equation id="fs-id1167134881387"><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>θ</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:munderover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134664382">Damos una estrategia para utilizar esta ecuación al analizar el movimiento rotacional.</para>
+<note id="fs-id1167134864035" class="problem-solving">
+<title>Teorema de trabajo-energía para el movimiento rotacional</title>
+<list id="fs-id1167134861883" list-type="enumerated" number-style="arabic">
+<item>Identifique las fuerzas sobre el cuerpo y dibuje un diagrama de cuerpo libre. Calcule el torque para cada fuerza.</item>
+<item>Calcule el trabajo realizado durante la rotación del cuerpo por cada torque.</item>
+<item>Aplique el teorema de trabajo-energía al igualar el trabajo neto realizado sobre el cuerpo con el cambio de energía cinética rotacional.</item>
+</list>
+</note>
+<para id="fs-id1167134861362">Veamos dos ejemplos y utilicemos el teorema de trabajo-energía para analizar el movimiento rotacional.</para>
+<example id="fs-id1167134817226">
+<para id="fs-id1167134653109"><title>Trabajo y energía rotacional</title>
+Un torque de <m:math><m:mrow><m:mn>12,0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math> se aplica a un volante de inercia que rota alrededor de un eje fijo y tiene un momento de inercia de <m:math><m:mrow><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Si el volante de inercia está inicialmente en reposo, ¿cuál es su velocidad angular después de girar ocho revoluciones?</para>
+<para id="fs-id1167134890852"><title>Estrategia</title>
+Aplicamos el teorema de trabajo-energía. Por la descripción del problema sabemos cuál es el torque y el desplazamiento angular del volante de inercia. Entonces podemos resolver la velocidad angular final.</para>
+<para id="fs-id1167134686895"><title>Solución</title>
+El volante de inercia gira ocho revoluciones, lo que <m:math><m:mrow><m:mn>16</m:mn><m:mi>π</m:mi></m:mrow></m:math> radianes. El trabajo realizado por el torque, que es constante y, por tanto, puede salir de la integral en la <link target-id="fs-id1167134881387"/>, es</para>
+<equation id="fs-id1167134488152" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mi>τ</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>θ</m:mi><m:mi>B</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>θ</m:mi><m:mi>A</m:mi></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134941756">Aplicamos el teorema de trabajo-energía:</para>
+<equation id="fs-id1167134660418" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mi>τ</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>θ</m:mi><m:mi>B</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>θ</m:mi><m:mi>A</m:mi></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msubsup><m:mi>ω</m:mi><m:mi>B</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msubsup><m:mi>ω</m:mi><m:mi>A</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134534356">Con <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>12,0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>,</m:mo><m:msub><m:mi>θ</m:mi><m:mi>B</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>θ</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mn>16,0</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>ω</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, tenemos</para>
+<equation id="fs-id1167134969370" class="unnumbered"><label/><m:math><m:mrow><m:mn>12,0</m:mn><m:mspace width="0.2em"/><m:mtext>N-m</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>16,0</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>ω</m:mi><m:mi>B</m:mi><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134781058">Por lo tanto,</para>
+<equation id="fs-id1167134886469" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mn>6,3</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134677812">Es la velocidad angular del volante de inercia después de ocho revoluciones.</para>
+<para id="fs-id1167131120563"><title>Importancia</title>
+El teorema de trabajo-energía es una forma eficaz de analizar el movimiento rotacional, al conectar el torque con la energía cinética rotacional.</para>
+</example>
+<example id="fs-id1167134897842">
+<para id="fs-id1167134942868"><title>Trabajo rotacional: Una polea</title>
+Una cuerda enrollada alrededor de la polea en la <link target-id="CNX_UPhysics_10_08_Pulley"/> se hala con una fuerza constante hacia abajo <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> de 50 N de magnitud. El radio <emphasis effect="italics">R</emphasis> y el momento de inercia <emphasis effect="italics">I</emphasis> de la polea son 0,10 m y <m:math><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, respectivamente. Si la cuerda no resbala, ¿cuál es la velocidad angular de la polea después de desenrollar 1,0 m de cuerda? Supongamos que la polea parte del reposo.</para>
+<figure id="CNX_UPhysics_10_08_Pulley">
+<media id="fs-id1167134666269" alt="La figura A muestra una cuerda enrollada alrededor de una polea de radio R. La polea es halada hacia abajo con una fuerza F. La figura B muestra un cuerpo libre que es halado hacia abajo con fuerzas F y Mg y es empujado hacia arriba con fuerza B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_08_Pulley.jpg"/>
+</media>
+<caption>(a) Una cuerda se enrolla alrededor de una polea de radio <emphasis effect="italics">R</emphasis>. (b) El diagrama de cuerpo libre.</caption>
+</figure>
+<para id="fs-id1167134759724"><title>Estrategia</title>
+Al observar el diagrama de cuerpo libre, vemos que ni <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>, la fuerza en los rodamientos de la polea, ni<m:math><m:mrow><m:mi>M</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>, el peso de la polea, ejerce un torque alrededor del eje rotacional, y por lo tanto no realiza ningún trabajo sobre la polea. Al rotar la polea a través de un ángulo <m:math><m:mrow><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> actúa a través de una distancia <emphasis effect="italics">d</emphasis> tal que <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167134633830"><title>Solución</title>
+Dado que el torque debido a <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> tiene una magnitud <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>F</m:mi></m:mrow></m:math>, tenemos</para>
+<equation id="fs-id1167134633323" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>τ</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>d</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134633239">Si la fuerza sobre la cuerda actúa a través de una distancia de 1,0 m, tenemos, a partir del teorema de trabajo-energía</para>
+<equation id="fs-id1167134567727" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>K</m:mi><m:mi>B</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>K</m:mi><m:mi>A</m:mi></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>F</m:mi><m:mi>d</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mo stretchy="false">(</m:mo><m:mn>50,0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mtext>kg-m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167134644866">Resolviendo para <m:math><m:mrow><m:mi>ω</m:mi></m:mrow></m:math>, obtenemos</para>
+<equation id="fs-id1167134565053" class="unnumbered"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>200,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+</example>
+</section>
+<section id="fs-id1167134681310">
+<title>Potencia para el movimiento rotacional</title>
+<para id="fs-id1167134650959">La potencia siempre sale a relucir en los debates sobre las aplicaciones en ingeniería y física. La potencia para el movimiento rotacional es tan importante como la potencia en el movimiento lineal y puede derivarse de forma similar a la del movimiento lineal cuando la fuerza es una constante. La potencia lineal cuando la fuerza es una constante es <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. Si el torque neto es constante en el desplazamiento angular, la <link target-id="fs-id1167134508536" document="m90669"/> se simplifica y el torque neto se puede sacar de la integral. En el siguiente análisis, asumimos que el torque neto es constante. Podemos aplicar al movimiento rotacional la definición de potencia derivada de <link document="m90647">Potencia</link>. A partir de <link document="m90643">Trabajo y la energía cinética</link>, la potencia instantánea (o simplemente la potencia) se define como la tasa de realización del trabajo,</para>
+<equation id="fs-id1167134436699" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134676192">Si tenemos un torque neto constante, la <link target-id="fs-id1167134508536" document="m90669"/> se convierte en <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>τ</m:mi><m:mi>θ</m:mi></m:mrow></m:math> y la potencia es</para>
+<equation id="fs-id1167134591817" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>τ</m:mi><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>τ</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167134970207">o</para>
+<note id="fs-id1167134541763" class="equation-callout">
+<equation id="fs-id1167134817846"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>τ</m:mi><m:mi>ω</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1167134961709">
+<para id="fs-id1167134565567"><title>Torque en una hélice de barco</title>
+Un motor de barco que funciona a <m:math><m:mrow><m:mn>9,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math> funciona a 300 rev/min. ¿Cuál es el torque en el eje de la hélice?</para>
+<para id="fs-id1167134678370"><title>Estrategia</title>
+Se nos da la tasa de rotación en rev/min y el consumo de energía, por lo que podemos calcular fácilmente el torque.</para>
+<para id="fs-id1167134946622"><title>Solución</title></para>
+<equation id="fs-id1167134881138" class="unnumbered"><label/><m:math><m:mrow><m:mn>300,0</m:mn><m:mspace width="0.2em"/><m:mtext>rev/min</m:mtext><m:mo>=</m:mo><m:mn>31,4</m:mn><m:mspace width="0.2em"/><m:mtext>rad/s;</m:mtext></m:mrow></m:math></equation>
+<equation id="fs-id1167134591410" class="unnumbered"><label/><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>P</m:mi><m:mi>ω</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>9,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow><m:mn>31,4</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2864,8</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131117350"><title>Importancia</title>
+Cabe destacar que el radián es una unidad adimensional porque su definición es el cociente de dos longitudes. Por lo tanto, no aparece en la solución.</para>
+</example>
+<note id="fs-id1167134817501" class="check-understanding">
+<exercise id="fs-id1167134534177">
+<problem id="fs-id1167134562471">
+<para id="fs-id1167134562473">Un torque constante de <m:math><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>kN</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math> se aplica a un aerogenerador para mantenerlo rotando a 6 rad/s. ¿Cuál es la potencia necesaria para que se mantenga rotando el aerogenerador?</para>
+</problem>
+<solution id="fs-id1167134917274">
+<para id="fs-id1167134961649">3 MW</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167134858782">
+<title>Resumen de relaciones rotacionales y traslacionales</title>
+<para id="fs-id1167134579259">Las cantidades rotacionales y sus análogas lineales se resumen en tres tablas. La <link target-id="fs-id1167134910013"/> resume las variables rotacionales para el movimiento circular alrededor de un eje fijo con sus análogas lineales y la ecuación de conexión, excepto para la aceleración centrípeta, que se mantiene por sí misma. La <link target-id="fs-id1167134761026"/> resume las ecuaciones cinemáticas rotacionales y traslacionales. La <link target-id="fs-id1167134659037"/> resume las ecuaciones dinámicas rotacionales junto con sus análogas lineales.</para>
+<table id="fs-id1167134910013" summary="This table consists of three columns and five rows. The first row contains headings: ‘Rotational’; ‘Translational’, ‘Relationship’. In the column under the ‘Rotational’: theta; omega; alpha. In the column under the ‘Translational’: Chi, vt, alphat, alphac. In the column under the ‘Relationship’: Omega is equal to s divided by r; Theta is equal to vt divided by r; Alpha is equal to alphat divided by r; Alphac is equal to vt squared divided by r.">
+<title>Variables rotacionales y traslacionales: resumen</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<colspec colnum="3" colname="col3"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Rotacional</entry>
+<entry valign="top" align="left">Traslacional</entry>
+<entry valign="top" align="left">Relación</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>θ</m:mi></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>ω</m:mi></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>t</m:mi></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mi>t</m:mi></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>α</m:mi></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>v</m:mi><m:mtext>t</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table id="fs-id1167134761026" summary="A table with two columns and 5 rows is shown. The first column has a header row that says “Rotational” and rows two through five contain “theta subscript f equals theta subscript 0 plus omega t,” “omega subscript f equals omega subscript 0 plus alpha t,” “theta subscript f equals theta subscript 0 plus omega subscript 0 times t plus one half alpha t squared,” and “omega subscript f superscript 2 equals omega subscript 0 superscript 2 plus 2 alpha times delta theta.” The second column contains a header row that says “Translational” and rows two through five contain “x equals x subscript 0 plus v bar t,” “v subscript f equals v subscript 0 plus a t,” “x subscript f equals x subscript 0 plus v subscript zero t plus one half a t squared,” and “v subscript f superscript 2 equals v subscript zero superscript 2 plus 2 a times delta x.”">
+<title>Ecuaciones cinemáticas rotacionales y traslacionales: resumen</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Rotacional</entry>
+<entry valign="top" align="left">Traslacional</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mover accent="true"><m:mi>ω</m:mi><m:mo>–</m:mo></m:mover><m:mi>t</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mo>–</m:mo></m:mover><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mtext>f</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mrow/><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>α</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msubsup><m:mi>v</m:mi><m:mtext>f</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mrow/><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table id="fs-id1167134659037" summary="This table consists of two columns and six rows. The first row contains headings: ‘Rotational’ and ‘Translational’. In the column under ‘Rotational’: “I is equal to the sum of products m subscript i and r subscript i squared for all i; K is equal to one half of the product of I and omega squared; Sigma underscript I tau subscript I equals I alpha; W subscript A B equals integral upper limit theta subscript B lower limit theta subscript a of sigma underscript I tau subscript I times d theta; and P equals tau sigma.” In the column under the ‘Translational’: “m; K is equal to the half of product of m and v squared; Sigma underscript i vector F subscript I equals m vector a; W equals integral vector F times d vector s, and P equals vector F times vector v.”">
+<title>Ecuaciones rotacionales y traslacionales: dinámica</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Rotacional</entry>
+<entry valign="top" align="left">Traslacional</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>i</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow></m:math></entry>
+<entry valign="top" align="left"><emphasis effect="italics">m</emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>θ</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:munderover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>s</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>τ</m:mi><m:mi>ω</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167134961776" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167134884477" list-type="bulleted" bullet-style="bullet">
+<item>El trabajo incremental <emphasis effect="italics">dW</emphasis> en la rotación de un cuerpo rígido alrededor de un eje fijo es la suma de los torques alrededor del eje a por el ángulo incremental <m:math><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math>.</item>
+<item>El trabajo total realizado para la rotación de un cuerpo rígido a través de un ángulo <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math> alrededor de un eje fijo es la suma de los torques integrados sobre el desplazamiento angular. Si el torque es una constante como función de <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math>, entonces <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mi>τ</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>θ</m:mi><m:mi>B</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>θ</m:mi><m:mi>A</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
+<item>El teorema de trabajo-energía relaciona el trabajo rotacional realizado con el cambio en la energía cinética rotacional: <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mi>B</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>K</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:math> donde <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>La potencia suministrada a un sistema que rota alrededor de un eje fijo es el torque por la velocidad angular, <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>τ</m:mi><m:mi>ω</m:mi></m:mrow></m:math>.</item>
+</list>
+</section>
+<section id="fs-id1167134817694" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1170902265726" summary="This table gives the following formulae: Angular position, theta equal to s by r; Angular velocity, omega equal to limit delta t tends to zero delta theta by delta t equal to d theta by dt; Tangential speed, v subscript t equal to r omega; Angular acceleration, alpha equal to limit delta t tends to zero delta omega by delta t equal to d omega by dt equal to d squared theta by dt squared; Tangential acceleration, a subscript t equal to r alpha; Average angular velocity, omega bar equal to in numerator omega subscript 0 plus omega subscript f upon 2; Angular displacement, theta f equal to theta 0 plus omega bar t; Angular velocity from constant angular acceleration, omega f equal to omega 0 plus alpha t; Angular velocity from displacement and constant angular acceleration, theta f equal to theta zero plus omega zero t plus half alpha t squared; Change in angular velocity, omega f squared equal to omega zero squared plus 2 alpha delta theta; Total acceleration, vector a equal to vector a subscript C plus vector a subscript t; Rotational kinetic energy, K equal to half summation of j m subscript j r subscript j squared omega squared; Moment of inertia, I equal to summation of j m subscript j r subscript j squared; Rotational kinetic energy in terms of the moment of inertia of a rigid body, K equal to half I omega squared; Moment of inertia of a continuous object, I equal to integration r squared dm; Parallel-axis theorem, I subscript parallel axis equal to I subscript initial plus m d squared; Moment of inertia of a compound object, v; Torque vector, vector tau equal to vector r cross vector F; Magnitude of torque, mod of vector tau equal to r perpendicular to F; Total torque, tau subscript net equal to summation i mod tau subscript i; Newton’s second law for rotation, summation of i tau i equal to I alpha; Incremental work done by a torque, d W equal to summation i tau i d theta; Work-energy theorem, W subscript AB equal to K subscript B minus K subscript A; Rotational work done by net force, W subscript AB equal to integration from theta subscript A to theta subscript B summation i tau i d theta; Rotational power, P equal to tau omega." class="unnumbered unstyled"><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Posición angular</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Velocidad angular</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:munder><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>θ</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rapidez tangencial</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>ω</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Aceleración angular</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:munder><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>ω</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>ω</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Aceleración tangencial</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>t</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>α</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Velocidad angular media</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mover accent="true"><m:mi>ω</m:mi><m:mo>–</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Desplazamiento angular</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mover accent="true"><m:mi>ω</m:mi><m:mo>–</m:mo></m:mover><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Velocidad angular a partir de una aceleración angular constante</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Velocidad angular a partir del desplazamiento y la<newline/>aceleración angular constante</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Cambio en la velocidad angular</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mtext>f</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>α</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Aceleración total</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mtext>t</m:mtext></m:mrow></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energía cinética rotacional</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Momento de inercia</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energía cinética rotacional en términos del<newline/>momento de inercia de un cuerpo rígido</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Momento de inercia de un objeto continuo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Teorema del eje paralelo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>eje paralelo</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>centro de masa</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:mi>m</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Momento de inercia de un objeto compuesto</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>I</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Vector de torque</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnitud del torque</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub><m:mi>F</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Torque total</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mrow><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow><m:mrow><m:mtext>neto</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mrow><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow><m:mi>i</m:mi></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Segunda ley de Newton para la rotación</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>α</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Trabajo incremental realizado por un torque</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Teorema de trabajo-energía</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mi>B</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>K</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Trabajo rotacional realizado por la fuerza neta</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>θ</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:munderover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Potencia rotacional</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>τ</m:mi><m:mi>ω</m:mi></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></section>
+<section id="fs-id1167134961685" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167134961692">
+<problem id="fs-id1167134961694">
+<para id="fs-id1167134961696">Un aerogenerador rota a 20 rev/min. Si su generación de potencia es de 2,0 MW, ¿cuál es el torque que produce el viento en el aerogenerador?</para>
+</problem>
+<solution id="fs-id1167134961702">
+<para id="fs-id1167134961704"><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>P</m:mi><m:mi>ω</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>2,1</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>9,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131109193">
+<problem id="fs-id1167131109195">
+<para id="fs-id1167131109197">Un cilindro de arcilla de 20 cm de radio en un torno de alfarero gira a una tasa constante de 10 rev/s. El alfarero aplica una fuerza de 10 N a la arcilla con sus manos, donde el coeficiente de fricción es de 0,1 entre sus manos y la arcilla. ¿Cuál es la potencia que el alfarero tiene que entregar al torno para que siga girando a esta tasa constante?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134968730">
+<problem id="fs-id1167134968732">
+<para id="fs-id1167134968735">Una piedra de amolar, cilíndrica y uniforme tiene una masa de 10 kg y un radio de 12 cm. (a) ¿Cuál es la energía cinética rotacional de la piedra de amolar cuando rota a <m:math><m:mrow><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>min</m:mtext><m:mo>?</m:mo></m:mrow></m:mrow></m:mrow></m:math> b) Después de apagar el motor de la piedra de amolar, se presiona una cuchilla contra el borde exterior de la piedra de amolar con una fuerza perpendicular de 5,0 N. El coeficiente de fricción cinética entre la piedra de amolar y la cuchilla es de 0,80. Utilice el teorema de trabajo-energía para determinar cuántas vueltas da la piedra de amolar antes de pararse.</para>
+</problem>
+<solution id="fs-id1167131118769">
+<para id="fs-id1167131118771">a. <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>888,50</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>294,6</m:mn><m:mspace width="0.2em"/><m:mtext>rev</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131121865">
+<problem id="fs-id1167131121867">
+<para id="fs-id1167131121869">Un disco uniforme de 500 kg de masa y 0,25 m de radio está montado sobre rodamientos sin fricción para que pueda rotar libremente alrededor de un eje vertical que pasa por su centro (vea la siguiente figura). Se enrolla una cuerda alrededor del borde del disco y se hala de ella con una fuerza de 10 N. (a) ¿Qué trabajo realiza la fuerza en el instante en que el disco hace tres revoluciones, partiendo del reposo? (b) Determine el torque debido a la fuerza y, a continuación, calcule el trabajo realizado por este torque en el instante en que el disco hace tres revoluciones. (c) ¿Cuál es la velocidad angular en ese instante? (d) ¿Cuál es la generación de potencia de la fuerza en ese instante?</para>
+<media id="fs-id1167131121878" alt="La figura muestra un disco uniforme que rota alrededor de un eje vertical que pasa por su centro. Se enrolla una cuerda alrededor del borde del disco y se hala de ella con una fuerza de 10 N.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_08_UniDis_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167131121774">
+<problem id="fs-id1167131121776">
+<para id="fs-id1167131121778">Una hélice es acelerada desde el reposo hasta una velocidad angular de 1000 rev/min durante un periodo de 6,0 segundos por un torque constante de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>. (a) ¿Cuál es el momento de inercia de la hélice? (b) ¿Qué potencia se proporciona a la hélice 3,0 s después de que empiece su rotación?</para>
+</problem>
+<solution id="fs-id1167131109065">
+<para id="fs-id1167131109067">a. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>114,6</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>104.700</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134910554">
+<problem id="fs-id1167134910556">
+<para id="fs-id1167134910558">Una esfera de 1,0 kg de masa y 0,5 m de radio está unida al extremo de una varilla sin masa de 3,0 m de longitud. La varilla rota en torno a un eje que se encuentra en el extremo opuesto de la esfera (vea abajo). El sistema rota horizontalmente alrededor del eje a una velocidad constante de 400 rev/min. Después de rotar a esta rapidez angular en el vacío, se introduce la resistencia del aire y proporciona una fuerza de <m:math><m:mrow><m:mn>0,15</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> en la esfera opuesta a la dirección del movimiento. ¿Cuál es la potencia que proporciona la resistencia del aire al sistema 100,0 s después de introducir la resistencia del aire?</para>
+<media id="fs-id1167134966975" alt="La figura muestra una esfera unida al extremo de una varilla. La varilla rota alrededor de un eje que está en el extremo opuesto de la esfera.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_08_SpRotate_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167134963870">
+<problem id="fs-id1167134963872">
+<para id="fs-id1167134963874">Una varilla uniforme de longitud <emphasis effect="italics">L</emphasis> y masa <emphasis effect="italics">M</emphasis> se sostiene verticalmente con un extremo apoyado en el suelo, como se muestra a continuación. Cuando la varilla se suelta, rota alrededor de su extremo inferior hasta que toca el suelo. Suponiendo que el extremo inferior de la varilla no resbale, ¿cuál es la velocidad lineal del extremo superior cuando golpea el suelo?</para>
+<media id="fs-id1167131107599" alt="La figura muestra una varilla uniforme de longitud L y masa M que se sostiene verticalmente con un extremo apoyado en el suelo. Cuando la varilla se suelta, rota alrededor de su extremo inferior hasta que toca el suelo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_08_Prob3_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131107613">
+<para id="fs-id1167131107615"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>3</m:mn><m:mi>L</m:mi><m:mi>g</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134884578">
+<problem id="fs-id1167134884580">
+<para id="fs-id1167134884582">Un atleta en un gimnasio aplica una fuerza constante de 50 N a los pedales de una bicicleta a una tasa de movimiento de los pedales de 60 rev/min. La longitud de los brazos de los pedales es de 30 cm. ¿Cuál es la potencia que aplica el atleta a la bicicleta?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134966636">
+<problem id="fs-id1167134966638">
+<para id="fs-id1167134966640">Un bloque de 2 kg en un plano inclinado sin fricción a <m:math><m:mrow><m:mn>40</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> tiene una cuerda atada a una polea de 1 kg de masa y 20 cm de radio (vea la siguiente figura). (a) ¿Cuál es la aceleración del bloque por el plano? (b) ¿Cuál es el trabajo que realiza la cuerda sobre la polea?</para><media id="fs-id1167134966653" alt="La figura muestra un bloque de 2 kg en un plano inclinado en un ángulo de 40 grados, con una cuerda de sujeción atada a una polea de 1 kg de masa y 20 cm de radio.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_08_BlocWin_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167134966666">
+<para id="fs-id1167134966669">a. <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>1,25</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131112931">
+<problem id="fs-id1167131112933">
+<para id="fs-id1167131112935">Pequeños cuerpos de masa <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> se fijan en los extremos opuestos de una varilla rígida y delgada, de longitud <emphasis effect="italics">L</emphasis> y masa <emphasis effect="italics">M</emphasis>. La varilla está montada de manera que rote libremente en un plano horizontal en torno a un eje vertical (vea más abajo). A qué distancia <emphasis effect="italics">d</emphasis> de <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> debería estar el eje de rotación de tal manera que se requiera una cantidad mínima de trabajo para hacer rotar la varilla a una velocidad angular <m:math><m:mrow><m:mi>ω</m:mi><m:mo>?</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167131112993" alt="La figura muestra una varilla delgada, de longitud L, que tiene las masas m1 y m2 conectadas a los extremos opuestos. La varilla rota alrededor del eje que la atraviesa a una distancia d de m1 y L-d de m2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_08_Prob6_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167134872480" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1167134872487">
+<problem id="fs-id1167134872489">
+<para id="fs-id1167134872491">Un ciclista circula de forma que las ruedas de la bicicleta tienen una tasa de rotación de 3,0 rev/s. Si el ciclista frena de forma que la tasa de rotación de las ruedas disminuye a una tasa de <m:math><m:mrow><m:mn>0,3</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>, ¿cuánto tiempo tarda el ciclista en detenerse por completo?</para>
+</problem>
+<solution id="fs-id1167134872518">
+<para id="fs-id1167134872520"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134872593">
+<problem id="fs-id1167134872595">
+<para id="fs-id1167134872597">Calcule la velocidad angular del movimiento orbital de la Tierra alrededor del Sol.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131111595">
+<problem id="fs-id1167131111597">
+<para id="fs-id1167131111600">Un tocadiscos que rota a 33 1/3 rev/min desacelera y se detiene en 1,0 min. (a) ¿Cuál es la aceleración angular del tocadiscos suponiendo que es constante? (b) ¿Cuántas revoluciones da el tocadiscos mientras se detiene?</para>
+</problem>
+<solution id="fs-id1167131111606">
+<para id="fs-id1167131111608">a. <m:math><m:mrow><m:mn>0,06</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>105,0</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131111772">
+<problem id="fs-id1167131111774">
+<para id="fs-id1167131111777">Con la ayuda de una cuerda, un giroscopio acelera desde el reposo hasta 32 rad/s en 0,40 s, a una aceleración angular constante. (a) ¿Cuál es su aceleración angular en <m:math><m:mrow><m:msup><m:mrow><m:mtext>rad/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>? (b) ¿Cuántas revoluciones pasa en el proceso?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134872851">
+<problem id="fs-id1167134872854">
+<para id="fs-id1167134872856">Supongamos que un poco de polvo cae en un CD. Si la velocidad de giro del CD es de 500 rpm, y el polvo está a 4,3 cm del centro, ¿cuál es la distancia total recorrida por el polvo en 3 minutos? (Ignore las aceleraciones debidas a lograr que el CD esté en rotación).</para>
+</problem>
+<solution id="fs-id1167134872862">
+<para id="fs-id1167134872864"><m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>405,26</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134990874">
+<problem id="fs-id1167134990876">
+<para id="fs-id1167134990878">Un sistema de partículas puntuales rota alrededor de un eje fijo a 4 rev/s. Las partículas están fijas unas respecto a otras. Las masas y distancias al eje de las partículas puntuales son <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,1</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,05</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,4</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,5</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo><m:msub><m:mi>r</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,01</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. (a) ¿Cuál es el momento de inercia del sistema? (b) ¿Cuál es la energía cinética rotacional del sistema?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134989982">
+<problem id="fs-id1167134989984">
+<para id="fs-id1167134989986">Calcule el momento de inercia de un patinador dada la siguiente información. (a) El patinador de 60,0 kg se calcula aproximadamente como un cilindro con un radio de 0,110 m. (b) El patinador con los brazos extendidos calcula aproximadamente como un cilindro que pesa 52,5 kg, tiene un radio de 0,110 m y tiene dos brazos de 0,900 m de longitud que pesan 3,75 kg cada uno y se extienden en línea recta desde el cilindro como varillas que rotan sobre sus extremos.</para>
+</problem>
+<solution id="fs-id1167134989994">
+<para id="fs-id1167134989996">a. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>0,363</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>2,34</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134990173">
+<problem id="fs-id1167134990175">
+<para id="fs-id1167134990177">Un palo de 1,0 m de longitud y 6,0 kg de masa rota libremente en torno a un eje horizontal que pasa por el centro. En sus dos extremos se fijan pequeños cuerpos de masas 4,0 y 2,0 kg (vea la siguiente figura). El palo se libera de la posición horizontal. ¿Cuál es la velocidad angular del palo cuando oscila por la vertical?</para>
+<media id="fs-id1167134990183" alt="La Figura A muestra un palo delgado de 1 cm de longitud en posición horizontal. El palo tiene masas de 2,0 kg y 4,0 kg conectadas a los extremos opuestos. La Figura B muestra el mismo palo que oscila en posición vertical después de soltarlo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_05_Stick_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167131104768">
+<problem id="fs-id1167131104770">
+<para id="fs-id1167131104772">Un péndulo consiste de una varilla de 2 m de longitud y 3 kg de masa, con una esfera sólida de 1 kg de masa y 0,3 m de radio unida a un extremo. El eje de rotación es el que se muestra a continuación. ¿Cuál es la velocidad angular del péndulo en su punto más bajo, si se suelta del reposo en un ángulo de <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167131104786" alt="La figura muestra un péndulo que consta de una varilla de 2 m de longitud y tiene una masa sujeta en un extremo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_05_SphPend_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131104799">
+<para id="fs-id1167131104801"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>6,68</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>4,4</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kgm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>1,23</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167134965396">
+<problem id="fs-id1167134965398">
+<para id="fs-id1167134965400">Calcule el torque de la fuerza de 40 N alrededor del eje que pasa por <emphasis effect="italics">O</emphasis> y es perpendicular al plano de la página, como se muestra a continuación.</para>
+<media id="fs-id1167134965408" alt="La figura muestra una varilla de 4 m de longitud. Se aplica una fuerza de 40 N en un extremo de la varilla bajo el ángulo de 37 grados.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_06_Prob10_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167134965489">
+<problem id="fs-id1167134965491">
+<para id="fs-id1167134965493">Dos niños empujan en lados opuestos de una puerta durante el juego. Ambos empujan horizontal y perpendicularmente a la puerta. Un niño empuja con una fuerza de 17,5 N a una distancia de 0,600 m de las bisagras, y el segundo niño empuja a una distancia de 0,450 m. ¿Qué fuerza debe ejercer el segundo niño para evitar que la puerta se mueva? Supongamos que la fricción es despreciable.</para>
+</problem>
+<solution id="fs-id1167134965500">
+<para id="fs-id1167134965503"><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>23,3</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131116074">
+<problem id="fs-id1167131116076">
+<para id="fs-id1167131116078">La fuerza de <m:math><m:mrow><m:mn>20</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mtext>N</m:mtext></m:mrow></m:math> se aplica en <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>-</m:mo><m:mn>2,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. ¿Cuál es el torque de esta fuerza alrededor del origen?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131116264">
+<problem id="fs-id1167131116266">
+<para id="fs-id1167131116268">Un motor de automóvil puede producir 200 N<m:math><m:mo>·</m:mo></m:math> m de torque. Calcule la aceleración angular producida si el 95,0 % de este torque se aplica al eje de transmisión, al eje y a las ruedas traseras de un auto, dada la siguiente información. El auto está suspendido para que las ruedas giren libremente. Cada rueda actúa como un disco de 15,0 kg que tiene un radio de 0,180 m. Las paredes de cada neumático actúan como un anillo anular de 2,00 kg que tiene un radio interior de 0,180 m y un radio exterior de 0,320 m. La banda de rodadura de cada neumático actúa como un aro de 10,0 kg de radio 0,330 m. El eje de 14,0 kg actúa como una varilla que tiene un radio de 2,00 cm. El eje de transmisión de 30,0 kg actúa como una varilla que tiene un radio de 3,20 cm.</para>
+</problem>
+<solution id="fs-id1167131116282">
+<para id="fs-id1167131116284"><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>190,0</m:mn><m:mspace width="0.2em"/><m:mtext>N-m</m:mtext></m:mrow><m:mrow><m:mn>2,94</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>64,4</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131105486">
+<problem id="fs-id1167131105488">
+<para id="fs-id1167131105491">Una piedra de amolar con una masa de 50 kg y un radio de 0,8 m mantiene una tasa de rotación constante de 4,0 rev/s mediante un motor mientras se presiona una cuchilla contra el borde, con una fuerza de 5,0 N. El coeficiente de fricción cinética entre la piedra de amolar y la cuchilla es de 0,8. ¿Cuál es la potencia que proporciona el motor para mantener la piedra de amolar a una tasa de rotación constante?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167131105651" class="review-challenge">
+<title>Problemas de desafío</title>
+<exercise id="fs-id1167131105659">
+<problem id="fs-id1167131105661">
+<para id="fs-id1167131105663">La aceleración angular de un cuerpo rígido en rotación viene dada por <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,0</m:mn><m:mo>-</m:mo><m:mn>3,0</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>. Si el cuerpo comienza a rotar desde el reposo en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, (a) ¿cuál es la velocidad angular? (b) ¿la posición angular? (c) ¿con qué ángulo rota en 10 s? (d) ¿dónde se encuentra el vector perpendicular al eje de rotación que indica <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> para <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1167134992714">
+<para id="fs-id1167134992716">a. <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mi>t</m:mi><m:mo>-</m:mo><m:mn>1,5</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>0,5</m:mn><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math>; c. <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>−400,0</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:math>; d. el vector está en <m:math><m:mrow><m:mn>-0,66</m:mn><m:mo stretchy="false">(</m:mo><m:mn>360</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>-237,6</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134993015">
+<problem id="fs-id1167134993017">
+<para id="fs-id1167134993019">El día en la Tierra ha aumentado en 0,002 s en el último siglo. Si este aumento en el periodo de la Tierra es constante, ¿cuánto tiempo tardará la Tierra en llegar al reposo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131120254">
+<problem id="fs-id1167131120256">
+<para id="fs-id1167131120258">Un disco de masa <emphasis effect="italics">m</emphasis>, radio <emphasis effect="italics">R</emphasis> y área <emphasis effect="italics">A</emphasis> tiene una densidad de masa superficial <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>r</m:mi></m:mrow><m:mrow><m:mi>A</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math> (vea la siguiente figura). ¿Cuál es el momento de inercia del disco alrededor de un eje que pasa por el centro?</para>
+<media id="fs-id1167131120297" alt="La figura muestra un disco de radio r que rota alrededor de un eje que pasa por el centro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_05_Prob10_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131120310">
+<para id="fs-id1167131120313"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131103221">
+<problem id="fs-id1167131103223">
+<para id="fs-id1167131103226">Zorch, el archienemigo del Hombre Rotación, decide ralentizar la rotación de la Tierra a una vez cada 28,0 h ejerciendo una fuerza opuesta y paralela en el ecuador. El Hombre Rotación no se preocupa inmediatamente, porque sabe que Zorch solo puede ejercer una fuerza de <m:math><m:mrow><m:mn>4</m:mn><m:mn>0,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mn>7</m:mn></m:msup><m:mtext>N</m:mtext></m:mrow></m:math> (un poco mayor que el empuje de un cohete Saturno V). ¿Cuánto tiempo debe empujar Zorch con esta fuerza para lograr su objetivo? (Este periodo da al Hombre Rotación tiempo para dedicarse a otros villanos).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131102237">
+<problem id="fs-id1167131102240">
+<para id="fs-id1167131102242">Se enrolla una cuerda alrededor del borde de un cilindro macizo de radio 0,25 m, y se ejerce una fuerza constante de 40 N en la cuerda indicada, como se muestra en la siguiente figura. El cilindro está montado sobre rodamientos sin fricción y su momento de inercia es <m:math><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>. (a) Utilice el teorema de trabajo-energía para calcular la velocidad angular del cilindro después de que se hayan retirado 5,0 m de cuerda. (b) Si la fuerza de 40 N se sustituye por un peso de 40 N, ¿cuál es la velocidad angular del cilindro después de que se hayan desenrollado 5,0 m de cuerda?</para>
+<media id="fs-id1167131102267" alt="La figura muestra una cuerda que se enrolla alrededor del borde de un cilindro sólido. Se ejerce una fuerza constante de 40 N sobre la cuerda. La figura muestra una cuerda que se enrolla alrededor del borde de un cilindro sólido. Un peso de 40 N está conectado a la cuerda y cuelga en el aire.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_08_Prob2_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131102282">
+<para id="fs-id1167131102284">a. <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>8,2</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134970785">
+<term>trabajo rotacional</term>
+<meaning id="fs-id1167134970791">trabajo realizado sobre un cuerpo rígido debido a la suma de los torques integrados sobre el ángulo a través del cual rota el cuerpo</meaning>
+</definition>
+</glossary>
+</document>

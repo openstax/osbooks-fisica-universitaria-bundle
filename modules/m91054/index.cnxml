@@ -1,0 +1,276 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Aceleradores y detectores de partículas</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91054</md:content-id>
+  <md:title>Aceleradores y detectores de partículas</md:title>
+  <md:abstract><para>Al final de esta sección podrá:</para><list>
+<item>Comparar y contrastar diferentes tipos de aceleradores de partículas.</item>
+<item>Describir la finalidad, los componentes y el funcionamiento de una máquina colisionadora de haces típica.</item>
+<item>Explicar la función de cada tipo de subdetector en un detector de partículas multipropósito típico.</item>
+<item>Utilizar la curvatura de una pista de carga para determinar el momento de una partícula.</item></list></md:abstract>
+  <md:uuid>5cdfb9f8-a42e-4968-963d-e7118010b8d1</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101974632">El objetivo de la física experimental de partículas es medir con precisión las partículas elementales. El principal método utilizado para lograrlo es producir estas partículas en colisiones de alta energía y luego medir los productos utilizando detectores de partículas altamente sensibles. Estos experimentos se utilizan para probar y revisar los modelos científicos de las interacciones de las partículas. El objetivo de esta sección es describir los aceleradores y detectores de partículas. Las máquinas modernas se basan en las anteriores, por lo que resulta útil presentar una breve historia de los aceleradores y detectores.</para>
+<section id="fs-id1172099475984">
+<title>Los primeros aceleradores de partículas</title>
+<para id="fs-id1172102145725">Un <term>acelerador de partículas</term> es una máquina diseñada para acelerar partículas cargadas. Esta aceleración suele conseguirse con fuertes campos eléctricos, magnéticos o ambos. Un ejemplo sencillo de acelerador de partículas es el <term class="no-emphasis">acelerador de Van de Graaff</term> (vea <link document="m90874">Potencial eléctrico</link>). Este tipo de acelerador recoge las cargas en una esfera metálica hueca mediante una banda móvil. Cuando la diferencia de potencial electrostático de la esfera es lo suficientemente grande, el campo se utiliza para acelerar las partículas a través de un tubo evacuado. Las energías producidas por un acelerador Van de Graaff no son lo suficientemente grandes como para crear nuevas partículas, pero la máquina fue importante para la exploración temprana del núcleo atómico.</para><para id="fs-id1172102132754">Un <term class="no-emphasis">acelerador lineal</term> (llamado "linac") puede producir energías mayores. Las partículas cargadas producidas al principio del linac se aceleran por una línea continua de tubos huecos cargados. El voltaje entre un par de tubos determinado se ajusta para atraer la partícula cargada, y una vez que ésta llega, el voltaje entre el siguiente par de tubos se ajusta para empujar la partícula cargada hacia fuera. En otras palabras, los voltajes se aplican de tal manera que los tubos dan una serie de "patadas" eléctricas cuidadosamente sincronizadas (<link target-id="CNX_UPhysics_44_04_Linac"/>). Los linacs modernos emplean cavidades de radiofrecuencia (RF) que establecen campos electromagnéticos oscilantes, que impulsan la partícula hacia adelante como un surfista en una ola del océano. Los linacs pueden acelerar los electrones hasta más de 100 MeV. (Los electrones con energías cinéticas superiores a 2 MeV se mueven muy cerca de la velocidad de la luz). En la investigación moderna de partículas, los aceleradores lineales se utilizan a menudo en la primera etapa de la aceleración.</para>
+<figure id="CNX_UPhysics_44_04_Linac">
+<media id="fs-id1172099703310" alt="Hay dos figuras que muestran cuatro tubos en una fila, marcados como tubos de derivación. El tubo de la izquierda es el más corto. Los tubos se alargan progresivamente a medida que se avanza hacia la derecha. Los tubos alternos se conectan a los terminales opuestos de una fuente de corriente alterna (CA). Una flecha marcada como haz atraviesa los tubos de izquierda a derecha. La base de la flecha, a la izquierda, está marcada como fuente de iones. Las partículas se muestran moviéndose a lo largo de la flecha. En la primera figura, el segundo y el cuarto tubo tienen un signo positivo y los otros dos tienen un signo negativo. En la segunda figura, esta polaridad se invierte.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_44_04_Linac.jpg"/>
+</media>
+<caption>En un acelerador lineal, los tubos cargados aceleran las partículas en una serie de "patadas" electromagnéticas. Cada tubo es más largo que el anterior porque la partícula se mueve más rápido al acelerar.</caption>
+</figure>
+<example id="fs-id1172099399456">
+<para id="fs-id1172101995857"><title>Tubos aceleradores</title>
+Un acelerador lineal diseñado para producir un haz de protones de 800-MeV tiene 2000 tubos de aceleración separados por brechas. ¿Qué voltaje promedio hay que aplicar entre los tubos para conseguir la energía deseada? (<emphasis effect="italics">Pista</emphasis>: <m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>V</m:mi><m:mo>.</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172099721671"><title>Estrategia</title>
+La energía que recibe el protón en cada brecha entre tubos es <m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>V</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <emphasis effect="italics">q</emphasis> es la carga del protón y <emphasis effect="italics">V</emphasis> es la diferencia de potencial (voltaje) a través de la brecha. Dado que <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mi>e</m:mi></m:msub><m:mo>=</m:mo><m:mn>1,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> el protón gana 1 eV de energía por cada voltio que atraviesa la brecha. El voltaje alterno aplicado a los tubos está programada para que se sume a la energía de cada brecha. El voltaje efectivo es la suma de los voltajes de las brechas y es igual a 800 MV para dar a cada protón una energía de 800 MeV.</para>
+<para id="fs-id1172102050413"><title>Solución</title>
+Hay 2.000 brechas y la suma de los voltajes que los atraviesan es de 800 MV. Por lo tanto, el voltaje medio aplicado es de 0,4 MV o 400 kV.</para>
+<para id="fs-id1172099680387"><title>Importancia</title>
+Un voltaje de esta magnitud no es difícil de conseguir en el vacío. Se necesitarían voltajes de brecha mucho mayores para energías más altas, como las de la instalación del Centro del Acelerador Lineal de Stanford (Stanford Linear Accelerator Center, SLAC), de 50-GeV. Los sincrotrones se ven favorecidos por la trayectoria circular de las partículas aceleradas, que pueden orbitar muchas veces, multiplicando efectivamente el número de aceleraciones por el número de órbitas. Esto permite alcanzar energías superiores a 1 TeV.</para>
+</example>
+<note id="fs-id1172101798599" class="check-understanding">
+<exercise id="fs-id1172101779083">
+<problem id="fs-id1172102062646">
+<para id="fs-id1172102150477">¿Cuánta energía recibe un electrón al acelerar a través de una diferencia de potencial de 1 V?</para>
+</problem>
+<solution id="fs-id1172101884656">
+<para id="fs-id1172101900681">1 eV</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1172101914003">El acelerador de próxima generación después del linac es el ciclotrón (<link target-id="CNX_UPhysics_44_04_Cyclotron"/>). Un <term class="no-emphasis">ciclotrón</term> utiliza campos eléctricos alternos e imanes fijos para acelerar partículas en una trayectoria circular en espiral. Una partícula en el centro del ciclotrón se acelera en primer lugar por un campo eléctrico en una brecha entre dos imanes en forma de D (Dees). Cuando la partícula cruza sobre el imán en forma de D, se dobla en una trayectoria circular por una fuerza de Lorentz. (La fuerza de Lorentz se estudió en <link document="m90901">Fuerzas y campos magnéticos</link>). Suponiendo que no hay pérdidas de energía, el momento de la partícula está relacionado con su radio de curvatura por</para><note id="fs-id1172101789716" class="equation-callout">
+<equation id="fs-id1172101945642"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0,3</m:mn><m:mi>B</m:mi><m:mi>r</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172101914775">donde <emphasis effect="italics">p</emphasis> es el momento en GeV/<emphasis effect="italics">c</emphasis>, <emphasis effect="italics">B</emphasis> está en teslas, y <emphasis effect="italics">r</emphasis> es el radio de la trayectoria ("órbita") en metros. Esta expresión es válida para las velocidades clásicas y relativistas. La trayectoria circular devuelve la partícula a la brecha del campo eléctrico, el campo eléctrico se invierte y el proceso continúa. A medida que la partícula se acelera, el radio de curvatura se hace cada vez más grande (en forma de espiral) hasta que los electrones salen del dispositivo.</para>
+<figure id="CNX_UPhysics_44_04_Cyclotron">
+<media id="fs-id1172099884042" alt="La figura muestra dos placas metálicas semicirculares separadas por una brecha. Cada placa está conectada a un terminal de una fuente de CA. Las placas están etiquetadas como Dees. Las líneas de puntos circulares atraviesan ambas placas. Estás están marcadas como haz externo. Las flechas que van de una placa a otra en la brecha están marcadas como vector E. Las cruces en la superficie de las placas están marcadas como vector B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_44_04_Cyclotron.jpg"/>
+</media>
+<caption>Los ciclotrones utilizan un campo magnético para hacer que las partículas se muevan en órbitas circulares. A medida que las partículas pasan entre las placas del "Dees", el voltaje a través de la brecha se invierte para que las partículas se aceleren dos veces en cada órbita.</caption>
+</figure>
+<note id="fs-id1172102067860" class="media-2">
+<para id="fs-id1172099765447">Vea este <link url="https://openstax.org/l/21cyclotron">vídeo</link> para saber más sobre los ciclotrones.</para>
+</note>
+<para id="fs-id1172101905517">Un <term>sincrotrón</term> es un acelerador circular que utiliza un voltaje alterno y una intensidad de campo magnético creciente para acelerar las partículas hasta alcanzar energías más altas. Las partículas cargadas son aceleradas por cavidades de radiofrecuencia y dirigidas y enfocadas por imanes. Las cavidades de RF se <emphasis effect="italics">sincronizan</emphasis> para dar "patadas" a las partículas a su paso, de ahí su nombre. Para dirigir partículas de alta energía se necesitan campos magnéticos potentes, por lo que se suelen utilizar imanes superconductores para reducir las pérdidas de calor. Cuando las partículas cargadas se mueven en círculo, irradian energía: Según la teoría clásica, cualquier partícula cargada que se acelera (y el movimiento circular es un movimiento acelerado) también irradia. En un sincrotrón, dicha radiación se denomina <term>radiación de sincrotrón</term>. Esta radiación es útil para muchos otros fines, como la investigación médica y de materiales.</para>
+<example id="fs-id1172101928803">
+<para id="fs-id1172102055249"><title>La energía de un electrón en un ciclotrón</title>
+Un electrón se acelera con un ciclotrón. Si el campo magnético es de 1,5 T y el radio del "Dees" es de 1,2 m, ¿cuál es la energía cinética de la partícula saliente?</para>
+<para id="fs-id1172097148376"><title>Estrategia</title>
+Si el radio de la órbita del electrón supera el radio del "Dees", el electrón sale del dispositivo. Así, el radio del "Dees" pone un límite superior al radio y, por tanto, al momento y la energía de la partícula acelerada. El momento de salida de la partícula se determina utilizando el radio de la órbita y la intensidad del campo magnético. La energía de salida de la partícula se puede determinar el momento de la partícula (<link document="m90993">Relatividad</link>).</para>
+<para id="fs-id1172101662758"><title>Solución</title>
+Suponiendo que no hay pérdidas de energía, el momento de la partícula en el ciclotrón es</para>
+<equation id="fs-id1172099499840" class="unnumbered"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0,3</m:mn><m:mi>B</m:mi><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0,3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,543</m:mn><m:mspace width="0.2em"/><m:mtext>GeV/</m:mtext><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101788050">La energía del momento <m:math><m:mrow><m:mi>p</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0,543</m:mn><m:mspace width="0.2em"/><m:mtext>GeV</m:mtext><m:mo>=</m:mo><m:mn>543</m:mn><m:mspace width="0.2em"/><m:mtext>MeV</m:mtext></m:mrow></m:math> es mucho mayor que la energía de la masa en reposo del electrón, <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0,511</m:mn><m:mspace width="0.2em"/><m:mtext>MeV</m:mtext><m:mo>,</m:mo></m:mrow></m:math> por lo que hay que utilizar la expresión relativista para la energía del electrón (vea <link document="m90993">Relatividad</link>). La energía total del electrón es</para>
+<equation id="fs-id1172099510756" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>543</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,511</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>≈</m:mo><m:mn>543</m:mn><m:mspace width="0.2em"/><m:mtext>MeV</m:mtext><m:mspace width="0.2em"/><m:mtext>y</m:mtext></m:mrow></m:math></equation>
+<equation id="fs-id1172101685442" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mrow><m:mi>t</m:mi><m:mtext>otal</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>543</m:mn><m:mspace width="0.2em"/><m:mtext>GeV</m:mtext><m:mo>−</m:mo><m:mn>0,511</m:mn><m:mspace width="0.2em"/><m:mtext>GeV</m:mtext><m:mo>≈</m:mo><m:mn>543</m:mn><m:mspace width="0.2em"/><m:mtext>MeV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101887755"><title>Importancia</title>
+La energía total del electrón es mucho mayor que la energía de su masa en reposo. En otras palabras, la energía total del electrón es casi toda en forma de energía cinética. Los ciclotrones pueden utilizarse para realizar experimentos de física nuclear o en la terapia de partículas para tratar el cáncer.</para>
+</example>
+<note id="fs-id1172099683000" class="check-understanding">
+<exercise id="fs-id1172102129165">
+<problem id="fs-id1172101758084">
+<para id="fs-id1172102071104">Una partícula cargada de un determinado momento se desplaza en un arco a través de un campo magnético uniforme. ¿Qué ocurre si se duplica el campo magnético?</para>
+</problem>
+<solution id="fs-id1172101996373">
+<para id="fs-id1172102131960">El radio de la vía se reduce a la mitad.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1172099392886">
+<title>Máquina de haces de partículas colisionantes</title>
+<para id="fs-id1172099730428">Se pueden crear nuevas partículas mediante la colisión de partículas a altas energías. Según la relación masa-energía de Einstein, las energías de las partículas que colisionan se convierten en energía de la masa de la partícula creada. La forma más eficaz de hacerlo es con máquinas de haces de partículas colisionantes. Una máquina de haces de partículas colisionantes crea dos haces que giran en sentido contrario en un acelerador circular, los almacena con una energía constante y a continuación, en el momento deseado, enfoca los haces entre sí en el centro de un detector sensible.</para>
+<para id="fs-id1172101899411">El prototipo de máquina de haces de colisión es el <term class="no-emphasis">Anillo de almacenamiento de electrones de Cornell</term> (Cornell Electron Storage Ring) situado en Ithaca, Nueva York (<link target-id="CNX_UPhysics_44_04_CESR"/>). Los electrones (<m:math><m:mrow><m:msup><m:mtext>e</m:mtext><m:mtext>−</m:mtext></m:msup></m:mrow></m:math>) y los positrones (<m:math><m:mrow><m:msup><m:mtext>e</m:mtext><m:mo>+</m:mo></m:msup></m:mrow></m:math>) se crean al principio del acelerador lineal y se aceleran hasta 150 MeV. A continuación, las partículas se inyectan en el anillo interior del sincrotrón, donde se aceleran mediante cavidades de RF hasta alcanzar entre 4,5 y 6 GeV. Cuando los haces adquieren velocidad, se transfieren y "almacenan" en un anillo de almacenamiento exterior con la misma energía. Los dos haces que giran en sentido contrario viajan por el mismo tubo evacuado, pero se mantienen separados hasta que se desea que colisionen. Los electrones y positrones giran alrededor de la máquina en grupos 390.000 veces por segundo.</para>
+<figure id="CNX_UPhysics_44_04_CESR">
+<media id="fs-id1172099378376" alt="La figura muestra dos anillos, uno dentro del otro. El anillo exterior está marcado como anillo de almacenamiento. A lo largo de ella hay pequeños círculos marcados alternadamente como más y menos. Los círculos con signo positivo son el grupo de positrones, en el sentido de las agujas del reloj. Los círculos con signo negativo son el grupo de electrones, en sentido contrario de las agujas del reloj. El anillo exterior también tiene tres cajas a lo largo de la parte inferior. De izquierda a derecha, están marcados como CHESS (ajedrez) oeste, CLEO y CHESS (ajedrez) este. El anillo interior está marcado como Sincrotrón. Dos líneas lo conectan con el anillo exterior. La línea de la izquierda es la línea de transferencia Oeste y la de la derecha es la línea de transferencia Este. Un tubo dentro del anillo interior está marcado como Acelerador Lineal. Dos líneas marcadas como e más y e menos lo conectan con el anillo interior.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_44_04_CESR.jpg"/>
+</media>
+<caption>El anillo de almacenamiento de electrones de Cornell utiliza un acelerador lineal y un sincrotrón para acelerar electrones y positrones a 4,5 - 6 GeV. Las partículas se mantienen en el anillo de almacenamiento exterior a esa energía hasta que se las hace colisionar en un detector de partículas (crédito: modificación del trabajo del Laboratorio de Estudios Nucleares, Anillo de almacenamiento de electrones de Cornell).</caption>
+</figure>
+<para id="fs-id1172101914499">Cuando un electrón y un positrón colisionan, se aniquilan mutuamente para producir un fotón, que existe durante un tiempo demasiado corto para ser detectado. El fotón produce un par de leptones (por ejemplo, un electrón y una posición, un muon o un antimuon, o un tau y un antitau) o un par de cuarks. Si se producen cuarks, se forman mesones, como <m:math><m:mrow><m:mi>c</m:mi><m:mover><m:mi>c</m:mi><m:mtext>−</m:mtext></m:mover></m:mrow></m:math> y <m:math><m:mrow><m:mi>b</m:mi><m:mover><m:mi>b</m:mi><m:mtext>−</m:mtext></m:mover><m:mo>.</m:mo></m:mrow></m:math> Estos mesones se crean casi en reposo ya que el momento total inicial del sistema electrón-positrón es cero. Observe que los mesones no pueden crearse a cualquier energía de colisión, sino solo a las energías "resonantes" que corresponden a las masas únicas de los mesones (<link target-id="fs-id1172098320429" document="m91053"/>). Los mesones creados de este modo son muy inestables y decaen rápidamente en partículas más ligeras, como electrones, protones y fotones. Los "fragmentos" de las colisiones proporcionan una valiosa información sobre las interacciones de las partículas.</para>
+<para id="fs-id1172099375080">A medida que avanza el campo de la física de partículas, las máquinas de haces de partículas colisionantes son cada vez más potentes. El <term class="no-emphasis">Gran Colisionador de Hadrones (Large Hadron Collider, LHC)</term>, actualmente el mayor acelerador del mundo colisiona protones a energías de haz superiores a 6 TeV. La energía del centro de masa (<emphasis effect="italics">W</emphasis>) se refiere a la energía total disponible para crear nuevas partículas en una máquina de colisión, o la energía total de las partículas entrantes en el marco del centro de masa. (El concepto de marco de referencia del centro de masa se trata en <link document="m90654">Momento lineal y colisiones</link>). Por lo tanto, el LHC es capaz de producir una o más partículas con una masa total superior a 12 TeV. La energía del centro de masa está dada por:</para><note id="fs-id1172101888442" class="equation-callout">
+<equation id="fs-id1172099703143"><m:math><m:mrow><m:msup><m:mi>W</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2</m:mn><m:mrow><m:mo>[</m:mo><m:mrow><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172102067505">donde <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> son las energías totales de las partículas entrantes (1 y 2), <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> son las magnitudes de sus momentos, y <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> son sus masas en reposo.</para>
+<example id="fs-id1172099760700">
+<para id="fs-id1172102109107"><title>Creación de una nueva partícula</title>
+La masa del mesón upsilon <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>ϒ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> (<m:math><m:mrow><m:mi>b</m:mi><m:mover><m:mi>b</m:mi><m:mtext>−</m:mtext></m:mover></m:mrow></m:math>) se crea en un colisionador simétrico de electrones y positrones. ¿Qué energía del haz se necesita?</para>
+<para id="fs-id1172101793976"><title>Estrategia</title>
+<link url="https://openstax.org/l/21particledata">El Grupo de Datos de Partículas</link> (Particle Data Group) ha declarado que la energía de la masa en reposo de este mesón es de aproximadamente 10,58 GeV. La expresión anterior para la energía del centro de masa puede simplificarse porque un colisionador simétrico implica <m:math><m:mrow><m:msub><m:mover accent="true"><m:mtext>p</m:mtext><m:mo stretchy="false">→</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mover accent="true"><m:mtext>p</m:mtext><m:mo stretchy="false">→</m:mo></m:mover><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Además, las masas en reposo de los electrones y positrones que colisionan son idénticas<m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0,511</m:mn><m:mspace width="0.2em"/><m:mtext>MeV</m:mtext><m:mo>)</m:mo></m:mrow></m:math> y mucho menores que la masa de la partícula de energía creada. Así, la energía del centro de la masa (<emphasis effect="italics">W</emphasis>) puede expresarse completamente en términos de la energía del haz, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>haz</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172101784575"><title>Solución</title>
+Con base en las suposiciones anteriores, tenemos</para>
+<equation id="fs-id1172099576774" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>W</m:mi><m:mn>2</m:mn></m:msup><m:mo>≈</m:mo><m:mn>2</m:mn><m:mrow><m:mo>[</m:mo><m:mrow><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:msubsup><m:mrow><m:mi>E</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099391075">Por lo tanto, la energía del haz es</para>
+<equation id="fs-id1172102002122" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>haz</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>W</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101920650">La energía de la masa en reposo de la partícula creada en la colisión es igual a la energía del centro de masa, por lo que</para>
+<equation id="fs-id1172101688084" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>haz</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:mfrac><m:mrow><m:mn>10,58</m:mn><m:mspace width="0.2em"/><m:mtext>GeV</m:mtext></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>5,29</m:mn><m:mspace width="0.2em"/><m:mtext>GeV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102112242"><title>Importancia</title>
+Dada la escala de energía de este problema, la energía de masa en reposo del mesón upsilon <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>ϒ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> se debe casi por completo a las energías cinéticas iniciales del electrón y los positrones. Este mesón es muy inestable y decae rápidamente en partículas más ligeras y estables. La existencia de la partícula upsilon <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>ϒ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> aparece como un aumento dramático de tales eventos a 5,29 GeV.</para>
+</example>
+<note id="fs-id1172102098401" class="check-understanding">
+<exercise id="fs-id1172101919639">
+<problem id="fs-id1172102032470">
+<para id="fs-id1172099546039">¿Por qué un colisionador simétrico es "simétrico"?</para>
+</problem>
+<solution id="fs-id1172101989894">
+<para id="fs-id1172099681370">Las partículas que colisionan tienen masa idéntica pero momentos vectoriales opuestos.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1172102078892">Las energías de los haces más altas requieren aceleradores más grandes, por lo que las máquinas modernas de haces de colisión son muy grandes. El LHC, por ejemplo, tiene 17 millas de circunferencia (<link target-id="CNX_UPhysics_38_09_Accel" document="m91004"/>). (¡En los años 40, Enrico Fermi imaginó un acelerador que rodeara toda la Tierra!) Un importante reto científico del siglo XXI es reducir el tamaño de los aceleradores de partículas.</para>
+</section>
+<section id="fs-id1172102043641">
+<title>Detectores de partículas</title>
+<para id="fs-id1172099376935">El objetivo de un <term>detector de partículas</term> es medir con precisión el resultado de las colisiones creadas por un acelerador de partículas. Los detectores son multipropósito. En otras palabras, el detector está dividido en muchos subdetectores, cada uno de ellos diseñado para medir un aspecto diferente del evento de colisión. Por ejemplo, un detector puede estar diseñado para medir fotones y otro para medir muones. Para ilustrar cómo los subdetectores contribuyen a la comprensión de un evento de colisión completo, describimos los subdetectores del Solenoide Compacto de Muones (Compact Muon Solenoid, CMS), que fue utilizado para descubrir el Bosón de Higgs en el LHC (<link target-id="CNX_UPhysics_44_04_CMSDetect"/>).</para>
+<figure id="CNX_UPhysics_44_04_CMSDetect"><media id="fs-id1172099715340" alt="La figura muestra un corte transversal a través del CMS. Una sección de la misma está ampliada. En el centro hay un rastreador de silicio. Las capas, moviéndose hacia afuera desde el centro, están marcadas como: Calorímetro electromagnético a menos de 1 m del centro, Calorímetro de Hadrones a aproximadamente de 1,5 m a 2 m del centro, Solenoide superconductor a aproximadamente 2,5 m a 3,5 m del centro y Yugo de retorno de hierro intercalado con cámaras de muones a aproximadamente 3,5 m a poco más de 7 m del centro. Las dos líneas que van del centro al calorímetro electromagnético están marcadas como Fotón y Electrón. Las dos líneas que forman el centro del Calorímetro de Hadrones están marcadas como Hadrón neutro, ejemplo neutrón y Hadrón cargado, ejemplo Pión. Una línea marcada como Muon se extiende desde el centro hasta la capa más externa. Dentro de la segunda capa hay un pequeño círculo marcado como 4T. Dentro de la última capa hay un pequeño círculo marcado como 2T.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_44_04_CMSDetect.jpg"/>
+</media>
+
+<caption>Detector solenoide compacto de muones El detector consta de varias capas, cada una de las cuales se encarga de medir diferentes tipos de partículas (crédito: modificación del trabajo de David Barney / CERN).</caption></figure><para id="fs-id1172099382316">El tubo del haz del detector está fuera (y dentro) de la página de la izquierda. Las partículas producidas por las colisiones <emphasis effect="italics">pp</emphasis> (los "fragmentos de colisión") salen del detector en todas las direcciones. Estas partículas se encuentran con múltiples capas de subdetectores. Un subdetector es un detector de partículas dentro de un sistema mayor de detectores diseñado para medir ciertos tipos de partículas. Hay varios tipos principales de subdetectores. Los dispositivos de seguimiento determinan la trayectoria y por tanto, el momento de una partícula; los calorímetros miden la energía de una partícula; y los detectores de identificación de partículas determinan la identidad de una partícula (su masa).</para>
+<para id="fs-id1172101794757">El primer conjunto de subdetectores que encuentran las partículas es el sistema de seguimiento de silicio. Este sistema está diseñado para medir el momento de las partículas cargadas (como los electrones y los protones). El detector está inmerso en un campo magnético uniforme, por lo que las partículas cargadas se doblan en una trayectoria circular por una fuerza de Lorentz (como en el caso del ciclotrón). Si el momento de la partícula es grande, el radio de la trayectoria es grande y la trayectoria es casi recta. Pero si el momento es pequeño, el radio de la trayectoria es pequeño, y la trayectoria está muy curvada. A medida que las partículas pasan por el detector, interactúan con los detectores de microbandas (microstrips) de silicio en múltiples puntos. Estos detectores producen pequeñas señales eléctricas cuando las partículas cargadas pasan cerca de los elementos detectores. A continuación, las señales se amplifican y se registran. Una serie de "golpes" eléctricos se utiliza para determinar la trayectoria de la partícula en el sistema de seguimiento. Un "mejor ajuste" generado por computadora para esta trayectoria da el radio de la pista y en consecuencia, el momento de la partícula. En el LHC, se registra un gran número de pistas para el mismo evento de colisión. Las líneas azules y verdes de la <link target-id="CNX_UPhysics_44_04_LHCEvent"/> muestran los ajustes de las pistas.</para>
+<figure id="CNX_UPhysics_44_04_LHCEvent"><media id="fs-id1172101736047" alt="La figura muestra un objeto cilíndrico. Las líneas azules irradian desde su centro hasta sus bordes.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_44_04_LHCEvent.jpg"/>
+</media>
+
+<caption>Vista tridimensional de un evento de colisión de iones pesados en el LHC visto por el <term class="no-emphasis">detector ALICE</term> (crédito: LHC/CERN).</caption></figure><para id="fs-id1172102120463">Más allá de las capas de seguimiento está el calorímetro electromagnético. Este detector está fabricado con cristales transparentes a base de plomo. Cuando los electrones interactúan con los cristales, irradian fotones de alta energía. Los fotones interactúan con el cristal para producir pares electrón-positrón. Luego, estas partículas irradian más fotones. El proceso se repite, produciendo una lluvia de partículas (el cristal "brilla"). Un modelo simplificado de este proceso es el siguiente.</para>
+<para id="fs-id1172101887939">Un electrón con energía <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> golpea el cristal y pierde la mitad de su energía en forma de fotón. El fotón produce un par electrón-positrón, y cada partícula se aleja con la mitad de la energía del fotón. Mientras tanto, el electrón original vuelve a irradiar. Así, nos quedan cuatro partículas: dos electrones, un positrón y un fotón, cada uno con una energía <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mtext>/</m:mtext><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math> El número de partículas en la lluvia aumenta geométricamente. Después de <emphasis effect="italics">n</emphasis> eventos de radiación, hay partículas <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:math>. Por lo tanto, la energía total por partícula después de <emphasis effect="italics">n</emphasis> eventos de radiación es</para>
+<equation id="fs-id1172099385253" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101796321">donde <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la energía incidente y <emphasis effect="italics">E</emphasis>(<emphasis effect="italics">t</emphasis>) es la cantidad de energía por partícula después de <emphasis effect="italics">n</emphasis> eventos. Un fotón entrante desencadena una cadena de acontecimientos similar (<link target-id="CNX_UPhysics_44_04_PartShower"/>). Si la energía por partícula cae por debajo de un determinado valor umbral, otros tipos de procesos radioactivos adquieren importancia y la lluvia de partículas cesa. Finalmente, la energía total de la partícula entrante se absorbe y se convierte en una señal eléctrica.</para>
+<figure id="CNX_UPhysics_44_04_PartShower">
+<media id="fs-id1172101760655" alt="La figura a muestra el patrón de líneas azules dentro de un cristal rectangular. La figura b muestra un cristal. Un rayo gama entra en él y se divide en dos rayos, e más y e menos. El rayo e más se divide además en un rayo gama y un rayo e más. El rayo e más se divide en un rayo gama y un rayo e más. La división continúa de la misma manera.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_44_04_PartShower.jpg"/>
+</media>
+<caption>(a) Una lluvia de partículas producida en un calorímetro de cristal. (b) Un diagrama que muestra una secuencia típica de reacciones en una lluvia de partículas.</caption>
+</figure>
+<para id="fs-id1172102147403">Más allá del calorímetro de cristal está el calorímetro de hadrones. Como su nombre indica, este subdetector mide hadrones como protones y piones. El calorímetro de hadrones está formado por capas de latón y acero separadas por centelleadores de plástico. Su objetivo es absorber la energía de las partículas y convertirla en una señal electrónica. Más allá de este detector hay una gran bobina magnética que se utiliza para producir un campo uniforme para el seguimiento.</para>
+<para id="fs-id1172101785028">El último subdetector es el detector de muones, que consiste en placas de hierro que solo pueden atravesar los muones (y los neutrinos). Entre las placas de hierro hay varios tipos de elementos de seguimiento de muones que miden con precisión el momento del muon. Los detectores de muones son importantes porque el bosón de Higgs (del que hablaremos en breve) puede detectarse a través de sus desintegraciones en cuatro muones, de ahí el nombre del detector.</para>
+<para id="fs-id1172101731519">Una vez recogidos los datos de cada uno de los subdetectores de partículas, se puede evaluar el evento de colisión completo. La energía de la <emphasis effect="italics">i</emphasis>-ésima partícula se escribe</para>
+<equation id="fs-id1172099666585" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mi>i</m:mi></m:msub><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>m</m:mi><m:mi>i</m:mi></m:msub><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101985525">donde <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> es la magnitud absoluta del momento de la <emphasis effect="italics">i</emphasis>-ésima partícula, y <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> es su masa en reposo.</para>
+<para id="fs-id1172102141584">Por lo tanto, la energía total de todas las partículas es</para>
+<equation id="fs-id1172101699274" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:munder><m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle><m:mi>i</m:mi></m:munder><m:msub><m:mi>E</m:mi><m:mi>i</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102021666">Si se detectan todas las partículas, la energía total debe ser igual a la energía del centro de masa de la máquina del haz que colisiona (<emphasis effect="italics">W</emphasis>). En la práctica, no se identifican todas las partículas, ya sea porque son demasiado difíciles de detectar (neutrinos) o porque estas partículas "se escapan". En muchos casos, se pueden "reconstruir" cadenas enteras de decaimiento, como si se recompusiera un reloj que se ha hecho pedazos. La información sobre estas cadenas de decaimiento es fundamental para la evaluación de los modelos de interacciones de las partículas.</para>
+</section>
+<section id="fs-id1172101913324" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172102068103" list-type="bulleted" bullet-style="bullet">
+<item>Se han desarrollado muchos tipos de aceleradores de partículas para estudiarlas y sus interacciones. Entre ellos se encuentran los aceleradores lineales, los ciclotrones, los sincrotrones y los haces de colisión.</item>
+<item>Las máquinas de haces de partículas colisionantes se utilizan para crear partículas masivas que se decaen rápidamente en partículas más ligeras.</item>
+<item>Los detectores multipropósito se utilizan para diseñar todos los aspectos de las colisiones de alta energía. Entre ellos se encuentran los detectores para medir el momento y las energías de las partículas de carga y los fotones.</item>
+<item>Las partículas cargadas se miden doblando estas partículas en un círculo mediante un campo magnético.</item>
+<item>Las partículas se miden mediante calorímetros que las absorben.</item>
+</list>
+</section>
+<section id="fs-id1172099386151" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172102098242">
+<problem id="fs-id1172101728260">
+<para id="fs-id1172099381940">Compare brevemente el acelerador Van de Graaff, el acelerador lineal, el ciclotrón y el acelerador de sincrotrón.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102122216">
+<problem id="fs-id1172101802494">
+<para id="fs-id1172101996186">Describa los componentes básicos y el funcionamiento de una máquina de haces de partículas colisionantes típica.</para>
+</problem>
+<solution id="fs-id1172101674098">
+<para id="fs-id1172101729613">el "linac" para acelerar las partículas en línea recta, un sincrotrón para acelerar y almacenar las partículas en movimiento en un anillo circular, y un detector para medir los productos de las colisiones.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099500855">
+<problem id="fs-id1172102014829">
+<para id="fs-id1172102148972">¿Qué son los subdetectores del experimento del solenoide compacto de muones? Descríbalos brevemente.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099476324">
+<problem id="fs-id1172101943165">
+<para id="fs-id1172099395217">¿Cuál es la ventaja de un acelerador de haces de partículas colisionantes sobre uno que dispara partículas hacia un objetivo fijo?</para>
+</problem>
+<solution id="fs-id1172101733179">
+<para id="fs-id1172102134128">En un experimento de haces de colisión, la energía de las partículas que colisionan pasa a la energía de masa en reposo de la nueva partícula. En un experimento de objetivo fijo, parte de esta energía se pierde en el momento de la nueva partícula, ya que el centro de masa de las partículas que colisionan no es fijo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102021320">
+<problem id="fs-id1172102050211">
+<para id="fs-id1172102051326">Un electrón aparece en los detectores de muones del CMS. ¿Cómo es posible?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172101792005" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172101657561">
+<problem id="fs-id1172101969389">
+<para id="fs-id1172099834448">Una partícula cargada en un campo magnético de 2,0 T se dobla en un círculo de radio de 75 cm. ¿Cuál es el momento de la partícula?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099377596">
+<problem id="fs-id1172101970708">
+<para id="fs-id1172101754377">Una pista de protones atraviesa un campo magnético de 50 cm de radio. La intensidad del campo magnético es de 1,5 T. ¿Cuál es la energía total del protón?</para>
+</problem>
+<solution id="fs-id1172102137988">
+<para id="fs-id1172101777214">965 GeV</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099576761">
+<problem id="fs-id1172101707964">
+<para id="fs-id1172102125184">Derive la ecuación <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0,3</m:mn><m:mi>B</m:mi><m:mi>r</m:mi></m:mrow></m:math> utilizando los conceptos de aceleración centrípeta (<link document="m90982">Movimiento en dos y tres dimensiones</link>) y momento relativista (<link document="m90993">Relatividad</link>).</para></problem>
+</exercise>
+<exercise id="fs-id1172101802450">
+<problem id="fs-id1172102020762">
+<para id="fs-id1172099574834">Supongamos que la energía del haz de un colisionador electrón-positrón es de aproximadamente 4,73 GeV. ¿Cuál es la masa total (<emphasis effect="italics">W</emphasis>) de una partícula producida en la aniquilación de un electrón y un positrón en este colisionador? ¿Qué mesón se produciría?</para>
+</problem>
+<solution id="fs-id1172099498604">
+<para id="fs-id1172099522209">Según <link target-id="fs-id1172099760700"/>,<newline/> <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>haz</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>9,46</m:mn><m:mspace width="0.2em"/><m:mtext>GeV</m:mtext><m:mo>,</m:mo></m:mrow></m:math><newline/> <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>9,46</m:mn><m:mspace width="0.2em"/><m:mtext>GeV/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math><newline/> Esta es la masa del mesón upsilon (1S) observada por primera vez en el laboratorio Fermi en 1977. El mesón upsilon está formado por un cuark inferior y su antipartícula <m:math><m:mrow><m:mo>(</m:mo><m:mi>b</m:mi><m:mover><m:mi>b</m:mi><m:mtext>−</m:mtext></m:mover><m:mo>)</m:mo></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101747960">
+<problem id="fs-id1172101735738">
+<para id="fs-id1172102138039">A plena energía, los protones en el sincrotrón de Fermilab, de 2,00 km de diámetro, viajan casi a la velocidad de la luz, ya que su energía es unas 1000 veces la energía de su masa en reposo. (a) ¿Cuánto tiempo tarda un protón en completar una vuelta? (b) ¿Cuántas veces por segundo pasará por la zona del objetivo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101763369">
+<problem id="fs-id1172102113108">
+<para id="fs-id1172102055060">Supongamos que un <m:math><m:mrow><m:msup><m:mi>W</m:mi><m:mtext>−</m:mtext></m:msup></m:mrow></m:math> creado en un detector de partículas vive por <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−25</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>. ¿Qué distancia recorre en este tiempo si viaja a 0,900<emphasis effect="italics">c</emphasis>? (Tenga en cuenta que el tiempo es más largo que el tiempo de vida dado <m:math><m:mrow><m:msup><m:mi>W</m:mi><m:mtext>−</m:mtext></m:msup></m:mrow></m:math>, que puede deberse a la naturaleza estadística del decaimiento o a la dilatación del tiempo).</para>
+</problem>
+<solution id="fs-id1172099488623">
+<para id="fs-id1172101891856">0,135 fm; como esta distancia es demasiado corta para hacer una pista, la presencia del <m:math><m:mrow><m:msup><m:mi>W</m:mi><m:mtext>−</m:mtext></m:msup></m:mrow></m:math> debe inferirse a partir de los productos de su decaimiento.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101780353">
+<problem id="fs-id1172099418088">
+<para id="fs-id1172099515515">¿Cuál es la longitud del rastro que un <m:math><m:mrow><m:msup><m:mi>π</m:mi><m:mo>+</m:mo></m:msup></m:mrow></m:math> que viaja a 0,100<emphasis effect="italics">c</emphasis> deja en una cámara de burbujas si se crea allí y vive durante <m:math><m:mrow><m:mn>2,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>? (Los que se mueven más rápido o viven más tiempo pueden escapar del detector antes de decaer).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101996138">
+<problem id="fs-id1172101798459">
+<para id="fs-id1172097145189">El SLAC, de 3,20 km de longitud, produce un haz de electrones de 50,0 GeV. Si hay 15000 tubos de aceleración, ¿qué voltaje promedio debe haber en las brechas entre ellos para alcanzar esta energía?</para>
+</problem>
+<solution id="fs-id1172101789544">
+<para id="fs-id1172099908503">3,33 MV</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172101753512">
+<term>acelerador de partículas</term>
+<meaning id="fs-id1172102134888">máquina diseñada para acelerar partículas cargadas; esta aceleración suele conseguirse con fuertes campos eléctricos, magnéticos o ambos.</meaning>
+</definition>
+<definition id="fs-id1172102030118">
+<term>detector de partículas</term>
+<meaning id="fs-id1172099720189">detector diseñado para medir con precisión el resultado de las colisiones creadas por un acelerador de partículas; los detectores de partículas son herméticos y multipropósito.</meaning>
+</definition>
+<definition id="fs-id1172101970890">
+<term>sincrotrón</term>
+<meaning id="fs-id1172101756981">acelerador circular que utiliza un voltaje alterno y campos magnéticos cada vez más intensos para acelerar las partículas a energías cada vez más altas.</meaning>
+</definition>
+<definition id="fs-id1172102059707">
+<term>radiación de sincrotrón</term>
+<meaning id="fs-id1172101793615">radiación de alta energía producida en un acelerador de sincrotrón por el movimiento circular de un haz cargado.</meaning>
+</definition>
+</glossary>
+</document>

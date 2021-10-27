@@ -1,0 +1,185 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Inductancia mutua</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90926</md:content-id>
+  <md:title>Inductancia mutua</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Correlacionar dos circuitos cercanos que llevan corrientes variables en el tiempo con la emf inducida en cada circuito.</item>
+<item>Describir ejemplos en los que la inductancia mutua puede o no ser deseable.</item>
+</list></md:abstract>
+  <md:uuid>7e3156f1-98a3-4d27-aa73-d3a616765686</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167131102547"><term>La inductancia</term> es la propiedad de un dispositivo que nos indica la eficacia con la que induce una fuerza electromotriz en otro dispositivo. En otras palabras, es una cantidad física que expresa la eficacia de un determinado dispositivo.</para>
+<para id="fs-id1167134822276">Cuando dos circuitos que transportan corrientes variables en el tiempo están cerca el uno del otro, el flujo magnético a través de cada circuito varía debido a la variación de la corriente <emphasis effect="italics">I</emphasis> en el otro circuito. En consecuencia, se induce una emf en cada circuito por la corriente cambiante en el otro. Este tipo de emf se denomina, por tanto, <emphasis effect="italics">emf mutuamente inducida</emphasis>, y el fenómeno que se produce se conoce como <term>inductancia mutua (<emphasis effect="italics">M</emphasis>)</term>. Como ejemplo, consideremos dos bobinas fuertemente enrolladas (<link target-id="CNX_UPhysics_31_01_2wires"/>). Las bobinas 1 y 2 tienen <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> giros y corrientes de transporte <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectivamente. El flujo a través de una sola vuelta de la bobina 2 producido por el campo magnético de la corriente en la bobina 1 es <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> mientras que el flujo a través de una sola vuelta de la bobina 1 debido al campo magnético de <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_31_01_2wires">
+<media id="fs-id1167131142220" alt="La figura muestra las secciones transversales de dos bobinas. En cada una de ellas, las secciones transversales del cable de la bobina se muestran como dos círculos, uno en la parte superior y otro en la inferior. Los puntos en los círculos superiores y las cruces en los inferiores indican la dirección del flujo de la corriente. La bobina 1 tiene líneas de campo marcadas como B1 que pasan de entre los dos círculos, yendo hacia la derecha. Algunas de ellas pasan por la bobina 2, que es más pequeña que la bobina 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_01_2wires.jpg"/>
+</media>
+<caption>Algunas de las líneas de campo magnético producidas por la corriente en la bobina 1 pasan por la bobina 2.</caption>
+</figure>
+<para id="fs-id1167131513701">La inductancia mutua <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow></m:math> de la bobina 2 con respecto a la bobina 1 es la relación del flujo a través del <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> vueltas de la bobina 2 producidas por el campo magnético de la corriente en la bobina 1, dividido por dicha corriente, es decir</para>
+<equation id="fs-id1167131173130"><m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131488251">Del mismo modo, la inductancia mutua de la bobina 1 con respecto a la bobina 2 es</para>
+<equation id="fs-id1167134666031"><m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167130056939">Al igual que la capacitancia, la inductancia mutua es una magnitud geométrica. Depende de las formas y posiciones relativas de las dos bobinas, y es independiente de las corrientes en las bobinas. La unidad del SI para la inductancia mutua <emphasis effect="italics">M</emphasis> se llama <term>henrio (H)</term> en honor a Joseph <term class="no-emphasis">Henry</term> (1799-1878), un científico estadounidense que descubrió la emf inducida independientemente de Faraday. Así, tenemos <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>·</m:mo><m:mtext>s/A</m:mtext></m:mrow></m:math>. A partir de la <link target-id="fs-id1167131173130"/> y la <link target-id="fs-id1167134666031"/>, podemos demostrar que <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>M</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> por lo que solemos eliminar los subíndices asociados a la inductancia mutua y escribir</para>
+<note id="fs-id1167132499552" class="equation-callout">
+<equation id="fs-id1167134883251"><label/><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131162662">La emf desarrollada en cualquiera de las bobinas se encuentra combinando <term class="no-emphasis">la ley de Faraday</term> y la definición de inductancia mutua. Dado que <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow></m:math> es el flujo total a través de la bobina 2 debido a <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, obtenemos</para>
+<equation id="fs-id1167131582770"><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>M</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167134586219">donde hemos utilizado el hecho de que <emphasis effect="italics">M</emphasis> es una constante independiente del tiempo porque la geometría es independiente del tiempo. Del mismo modo, tenemos</para>
+<note id="fs-id1167133441624" class="equation-callout">
+<equation id="fs-id1167134958975"><label/><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>M</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134793676">En la <link target-id="fs-id1167134958975"/>, podemos ver el significado de la descripción anterior de la inductancia mutua<emphasis effect="italics">(M</emphasis>) como una cantidad geométrica. El valor de <emphasis effect="italics">M</emphasis> encapsula claramente las propiedades físicas de los elementos del circuito y nos permite separar la disposición física del circuito de las cantidades dinámicas, como la emf y la corriente. La <link target-id="fs-id1167134958975"/> define la inductancia mutua en términos de propiedades en el circuito, mientras que la definición anterior de inductancia mutua en la <link target-id="fs-id1167131173130"/> se define en términos del flujo magnético experimentado, independientemente de los elementos del circuito. Debe tener cuidado al utilizar la <link target-id="fs-id1167131582770"/> y la <link target-id="fs-id1167134958975"/> porque <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>ε</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> no representan necesariamente las emfs totales en las respectivas bobinas. Cada bobina también puede tener una emf inducida en ella debido a su <emphasis effect="italics">autoinducción</emphasis> (la autoinducción se tratará con más detalle en una sección posterior).</para>
+<para id="fs-id1167131402921">Una gran inductancia mutua <emphasis effect="italics">M</emphasis> puede ser deseable o no. Queremos que un transformador tenga una gran inductancia mutua. Pero un aparato, como una secadora de ropa eléctrica, puede inducir una emf peligrosa en su caja metálica si la inductancia mutua entre sus bobinas y la caja es grande. Una forma de reducir la inductancia mutua es contrarrestar las bobinas para cancelar el campo magnético producido (<link target-id="CNX_UPhysics_31_01_HeatCoils"/>).</para>
+<figure id="CNX_UPhysics_31_01_HeatCoils">
+<media id="fs-id1167131181886" alt="La figura a muestra una bobina de calentamiento dentro de una caja metálica de una secadora de ropa. La figura b muestra la misma bobina, ampliada. La bobina se enrolla en un cilindro de tal manera que un cable se enrolla hasta el otro lado, se retuerce y se enrolla hasta el final. Así, dos bobinados adyacentes tienen corriente que fluye en direcciones opuestas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_01_HeatCoils.jpg"/>
+</media>
+<caption>Las bobinas de calentamiento de una secadora de ropa eléctrica pueden estar enrolladas en sentido contrario para que sus campos magnéticos se anulen entre sí, reduciendo en gran medida la inductancia mutua con la caja de la secadora.</caption>
+</figure>
+<para id="fs-id1167131514888">El <term class="no-emphasis">procesamiento digital de señales</term> es otro ejemplo en el que la inductancia mutua se reduce mediante bobinas de contrabobinado. La rápida emf de encendido y apagado que representa los 1s y 0s en un circuito digital crea un complejo campo magnético dependiente del tiempo. Se puede generar una emf en los conductores vecinos. Si ese conductor también transporta una señal digital, la emf inducida puede ser lo suficientemente grande como para conmutar 1 s y 0 s, con consecuencias que van desde inconvenientes hasta desastrosas.</para>
+<example id="fs-id1167131445111">
+<para id="fs-id1167131392659"><title>Inductancia mutua</title>
+La <link target-id="CNX_UPhysics_31_01_MutualL"/> muestra una bobina de <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> giros y radios <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> que rodea a un solenoide largo de longitud <m:math><m:mrow><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> radio <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> vueltas. (a) ¿Cuál es la inductancia mutua de las dos bobinas? (b) Si <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>vueltas</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>vueltas</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3,10</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>75,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, y la corriente en el solenoide está cambiando a una velocidad de 200 A/s, ¿cuál es la emf inducida en la bobina adyacente?</para>
+<figure id="CNX_UPhysics_31_01_MutualL">
+<media id="fs-id1167131392775" alt="La figura muestra un solenoide, en forma de una larga bobina de pequeño diámetro, que está dispuesta concéntricamente con otra bobina de mayor tamaño. El radio del solenoide es R1 y el de la bobina es R2. La longitud del solenoide es l1.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_01_MutualL.jpg"/>
+</media>
+<caption>Un solenoide rodeado de una bobina.</caption>
+</figure>
+<para id="fs-id1167131261131"><title>Estrategia</title>
+No hay campo magnético fuera del solenoide, y el campo en el interior tiene magnitud <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y se dirige en paralelo al eje del solenoide. Podemos utilizar este campo magnético para calcular el flujo magnético a través de la bobina adyacente y luego utilizar este flujo para calcular la inductancia mutua para la parte (a), utilizando la <link target-id="fs-id1167134883251"/>. Resolvemos la parte (b) mediante el cálculo de la inductancia mutua a partir de las cantidades dadas y utilizando la <link target-id="fs-id1167131582770"/> para calcular la emf inducida.</para>
+<para id="fs-id1167133570529"><title>Solución</title></para>
+<list id="fs-id1167131524949" list-type="enumerated" number-style="lower-alpha">
+<item>El flujo magnético <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow></m:math> a través de la bobina adyacente es
+<equation id="fs-id1167134867213" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Ahora a partir de la <link target-id="fs-id1167134883251"/>, la inductancia mutua es
+<equation id="fs-id1167131395894" class="unnumbered"><label/><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Utilizando la expresión anterior y los valores dados, la inductancia mutua es
+<equation id="fs-id1167131457079" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>M</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>500</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,0310</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>0,750</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>2,53</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+Así, a partir de la <link target-id="fs-id1167131582770"/>, la emf inducida en la bobina adyacente es
+<equation id="fs-id1167131427316" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>ε</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>M</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2,53</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>A/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>-5,06</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1167134943842"><title>Importancia</title>
+Observe que <emphasis effect="italics">M</emphasis> en la parte (a) es independiente del radio <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> de la bobina adyacente porque el campo magnético del solenoide está confinado en su interior. En principio, también podemos calcular <emphasis effect="italics">M</emphasis> encontrando el flujo magnético a través del solenoide producido por la corriente en la bobina adyacente. Este enfoque es mucho más difícil porque <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:math> es muy complicado. Sin embargo, como <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>M</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> conocemos el resultado de este cálculo.</para>
+</example>
+<note id="fs-id1167134562544" class="check-understanding">
+<exercise id="fs-id1167134951191">
+<problem id="fs-id1167130208713">
+<para id="fs-id1167131112772">Una corriente <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">(</m:mo><m:mn>120</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> fluye a través del solenoide de la parte (b) del <link target-id="fs-id1167131445111"/>. ¿Cuál es la máxima emf inducida en la bobina adyacente?</para>
+</problem>
+<solution id="fs-id1167131098483">
+<para id="fs-id1167131524835"><m:math><m:mrow><m:mn>4,77</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167134869174" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167134668439" list-type="bulleted" bullet-style="bullet">
+<item>La inductancia es la propiedad de un dispositivo que expresa la eficacia con la que induce una emf en otro dispositivo.</item>
+<item>La inductancia mutua es el efecto de dos dispositivos que se inducen emf mutuamente.</item>
+<item>Un cambio en la corriente <m:math><m:mrow><m:msub><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mn>1</m:mn></m:msub><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math> en un circuito induce una emf <m:math><m:mrow><m:mo>(</m:mo><m:msub><m:mi>ε</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> en el segundo:
+<equation id="fs-id1167131433204" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>M</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde <emphasis effect="italics">M</emphasis> se define como la inductancia mutua entre los dos circuitos y el signo menos se debe a la ley de Lenz.</item>
+<item>Simétricamente, un cambio de corriente <m:math><m:mrow><m:msub><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mn>2</m:mn></m:msub><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math> a través del segundo circuito induce una emf <m:math><m:mrow><m:mo>(</m:mo><m:msub><m:mi>ε</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> en el primero:
+<equation id="fs-id1167131460527" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>M</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde <emphasis effect="italics">M</emphasis> es la misma inductancia mutua que en el proceso inverso.</item>
+</list>
+</section>
+<section id="fs-id1167131218034" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167130304073">
+<problem id="fs-id1167131180112">
+<para id="fs-id1167134925832">Demuestre que <m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>I</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mi>ε</m:mi><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> ambas son expresiones para la autoinducción, tienen las mismas unidades.</para>
+</problem>
+<solution id="fs-id1167134664949">
+<para id="fs-id1167129980786"><m:math><m:mrow><m:mfrac><m:mrow><m:mtext>Wb</m:mtext></m:mrow><m:mtext>A</m:mtext></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>T</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>A</m:mtext></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>V</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow><m:mtext>A</m:mtext></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mtext>V</m:mtext><m:mrow><m:mtext>A/s</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131220991">
+<problem id="fs-id1167131199871">
+<para id="fs-id1167131516088">Un inductor de 10 H transporta una corriente de 20 A. Describa cómo se puede inducir una emf de 50 V a través de él.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131459938">
+<problem id="fs-id1167134684663">
+<para id="fs-id1167131080091">El circuito de encendido de un automóvil se alimenta de una batería de 12 V. ¿Cómo podemos generar grandes voltajes con esta fuente de energía?</para>
+</problem>
+<solution id="fs-id1167131459891">
+<para id="fs-id1167134879512">La corriente inducida de la batería de 12 V pasa por un inductor, generando un gran voltaje.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134780610">
+<problem id="fs-id1167129962561">
+<para id="fs-id1167134533591">Cuando se interrumpe la corriente a través de un inductor grande con un interruptor, aparece un arco a través de los terminales abiertos del interruptor. Explique.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167134528568" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167134492663">
+<problem id="fs-id1167131263545">
+<para id="fs-id1167131267288">Cuando la corriente en una bobina cambia a una velocidad de 5,6 A/s, se produce una emf de <m:math><m:mrow><m:mn>6,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> en una segunda bobina cercana. ¿Cuál es la inductancia mutua de las dos bobinas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134964077">
+<problem id="fs-id1167134486356">
+<para id="fs-id1167134941083">Una emf de <m:math><m:mrow><m:mn>9,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> se induce en una bobina mientras la corriente en una bobina cercana disminuye a una velocidad de 2,7 A/s. ¿Cuál es la inductancia mutua de las dos bobinas?</para>
+</problem>
+<solution id="fs-id1167134916934">
+<para id="fs-id1167131346579"><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>3,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131581569">
+<problem id="fs-id1167131126766">
+<para id="fs-id1167131362275">Dos bobinas cercanas entre sí tienen una inductancia mutua de 32 mH. Si la corriente en una bobina decae según <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math>, donde <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> ¿cuál es la emf inducida en la segunda bobina inmediatamente después de que la corriente empieza a decaer? En <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134873988">
+<problem id="fs-id1167131581364">
+<para id="fs-id1167131363127">Una bobina de 40 vueltas se enrolla alrededor de un solenoide largo de sección transversal <m:math><m:mrow><m:mn>7,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> El solenoide tiene una longitud de 0,50 m y 500 vueltas. (a) ¿Cuál es la inductancia mutua de este sistema? (b) Se sustituye la bobina exterior por una bobina de 40 vueltas cuyo radio es tres veces el del solenoide. ¿Cuál es la inductancia mutua de esta configuración?</para>
+</problem>
+<solution id="fs-id1167131167270">
+<para id="fs-id1167131269230">a <m:math><m:mrow><m:mn>3,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math>; b <m:math><m:mrow><m:mn>3,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131606004">
+<problem id="fs-id1167131606006">
+<para id="fs-id1167131590750">Un solenoide de 600 vueltas tiene 0,55 m de longitud y 4,2 cm de diámetro. Dentro del solenoide, una pequeña <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,1</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> bobina rectangular de una vuelta se fija en su lugar con su cara perpendicular al eje largo del solenoide. ¿Cuál es la inductancia mutua de este sistema?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131168748">
+<problem id="fs-id1167134873530">
+<para id="fs-id1167131365430">Una bobina toroidal tiene un radio medio de 16 cm y una sección transversal de <m:math><m:mrow><m:msup><m:mrow><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>; se enrolla uniformemente con 1.000 vueltas. Una segunda bobina toroidal de 750 vueltas se enrolla uniformemente sobre la primera bobina. Ignorando la variación del campo magnético dentro de un toroide, determine la inductancia mutua de las dos bobinas.</para>
+</problem>
+<solution id="fs-id1167131591561">
+<para id="fs-id1167131502891"><m:math><m:msub><m:mi>M</m:mi><m:mrow><m:mn>21</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134927814">
+<problem id="fs-id1167134927816">
+<para id="fs-id1167131534423">Un solenoide de <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> vueltas tiene longitud <m:math><m:mrow><m:msub><m:mi>l</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y el radio <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> y un segundo solenoide más pequeño de <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> vueltas tiene longitud <m:math><m:mrow><m:msub><m:mi>l</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y el radio <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. El solenoide más pequeño se coloca completamente dentro del solenoide más grande de manera que sus ejes largos coincidan. ¿Cuál es la inductancia mutua de los dos solenoides?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134468806">
+<term>henri (H)</term>
+<meaning id="fs-id1167134991822">unidad de inductancia, <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>; también se expresa como un voltio segundo por amperio</meaning>
+</definition>
+<definition id="fs-id1167134588330">
+<term>inductancia</term>
+<meaning id="fs-id1167130027871">propiedad de un dispositivo que indica la eficacia con la que induce una emf en otro dispositivo</meaning>
+</definition>
+<definition id="fs-id1167131237741">
+<term>inductancia mutua</term>
+<meaning id="fs-id1167131363298">cantidad geométrica que expresa la eficacia de dos dispositivos para inducir ems entre sí</meaning>
+</definition>
+</glossary>
+</document>

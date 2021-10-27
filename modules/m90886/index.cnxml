@@ -1,0 +1,595 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Modelo molecular de un dieléctrico</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90886</md:content-id>
+  <md:title>Modelo molecular de un dieléctrico</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar la polarización de un dieléctrico en un campo eléctrico uniforme.</item>
+<item>Describir el efecto de un dieléctrico polarizado sobre el campo eléctrico entre las placas del condensador.</item>
+<item>Explicar la ruptura dieléctrica.</item>
+</list></md:abstract>
+  <md:uuid>1e0a7b55-34f5-409d-bfbf-24ea5c458299</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134441081">Podemos entender el efecto de un dieléctrico en la capacitancia eléctrica al observar su comportamiento a nivel molecular. Como vimos en capítulos anteriores, en general, todas las moléculas pueden clasificarse como <emphasis effect="italics">polares</emphasis> o <emphasis effect="italics">no polares</emphasis>. Hay una separación neta de cargas positivas y negativas en una molécula polar aislada, mientras que no hay separación de cargas en una molécula no polar aislada (<link target-id="CNX_UPhysics_25_05_Polariz"/>). En otras palabras, las moléculas polares tienen <emphasis effect="italics">momentos dipolares eléctricos</emphasis> permanentes y las moléculas no polares, no. Por ejemplo, una molécula de agua es polar y una molécula de oxígeno es no polar. Las moléculas no polares pueden convertirse en polares en presencia de un campo eléctrico externo, lo que se denomina <emphasis effect="italics">polarización inducida</emphasis>.</para>
+<figure id="CNX_UPhysics_25_05_Polariz">
+<media id="fs-id1167131220405" alt="Las figuras muestran una vista a gran escala de un átomo. La figura a muestra un átomo no polarizado, con protones y neutrones en el centro y una nube circular de electrones rodeando el núcleo. La figura b muestra un átomo polarizado y cargas externas positivas y negativas. El átomo tiene forma oblonga y la nube de electrones es atraída hacia la carga externa positiva, y el núcleo es atraído hacia la carga externa negativa. La figura c muestra otro átomo polarizado oblongo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_05_polariz.jpg"/>
+</media>
+<caption>El concepto de polarización: en un átomo o molécula no polarizada, una nube de electrones con carga negativa se distribuye uniformemente alrededor de los centros con carga positiva, mientras que un átomo o molécula polarizada tiene un exceso de carga negativa en un lado, de modo que el otro lado tiene un exceso de carga positiva. Sin embargo, todo el sistema sigue siendo eléctricamente neutro. La polarización de la carga puede deberse a un campo eléctrico externo. Algunas moléculas y átomos están permanentemente polarizados (dipolos eléctricos) incluso en ausencia de un campo eléctrico externo (moléculas y átomos polares).</caption>
+</figure>
+<para id="fs-id1167131523946">Consideremos primero un dieléctrico compuesto por moléculas polares. En ausencia de cualquier campo eléctrico externo, los dipolos eléctricos se orientan aleatoriamente, como se ilustra en la <link target-id="CNX_UPhysics_25_05_Dielectric"/>(a). Sin embargo, si el dieléctrico se coloca en un campo eléctrico externo <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math>, las moléculas polares se alinean con el campo externo, como se muestra en la parte (b) de la figura. Las cargas opuestas de los dipolos adyacentes dentro del volumen del dieléctrico se neutralizan mutuamente, por lo que no hay carga neta dentro del dieléctrico (véanse los círculos discontinuos en la parte (b)). Sin embargo, este no es el caso muy cerca de las superficies superior e inferior que bordean el dieléctrico (la región delimitada por los rectángulos punteados en la parte (b)), donde la alineación sí produce una carga neta. Dado que el campo eléctrico externo simplemente alinea los dipolos, el dieléctrico en su conjunto es neutro, y las cargas superficiales inducidas en sus caras opuestas son iguales y opuestas. Estas <term>cargas superficiales inducidas</term> <m:math><m:mrow><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> producen un campo eléctrico adicional <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> (un <term>campo eléctrico inducido</term>), que <emphasis effect="italics">se opone</emphasis> al campo externo <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math>, como se ilustra en la parte (c).</para>
+<figure id="CNX_UPhysics_25_05_Dielectric">
+<media id="fs-id1167130059406" alt="La figura a muestra un material dieléctrico con moléculas de forma oblonga en su interior. Cada molécula tiene un signo positivo en un lado y un signo negativo en el otro. Todas están dispuestas al azar. La figura b muestra las mismas moléculas ahora perfectamente alineadas en filas y columnas, con el extremo negativo de cada molécula en la parte superior. Un campo eléctrico externo E0 apunta hacia abajo. Una línea discontinua engloba los signos negativos de todas las moléculas de la fila superior. Asimismo, una línea discontinua engloba los signos positivos de todas las moléculas de la fila inferior. La figura c muestra signos negativos en la parte superior del dieléctrico, marcados como menos Qi, y signos positivos en la parte inferior, marcados como más Qi. El campo inducido Ei dentro del dieléctrico, apunta hacia arriba.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_05_dielectric.jpg"/>
+</media>
+<caption>Un dieléctrico con moléculas polares: (a) en ausencia de un campo eléctrico externo; (b) en presencia de un campo eléctrico externo <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Las líneas discontinuas indican las regiones inmediatamente adyacentes a las placas del condensador. (c) El campo eléctrico inducido <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> dentro del dieléctrico producido por la carga superficial inducida <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> del dieléctrico. Observe que, en realidad, las moléculas individuales no están perfectamente alineadas con un campo externo debido a las fluctuaciones térmicas; sin embargo, la alineación <emphasis effect="italics">regular</emphasis> es a lo largo de las líneas de campo, como se muestra.</caption>
+</figure>
+<para id="fs-id1167131497034">El mismo efecto se produce cuando las moléculas de un dieléctrico no son polares. En este caso, una molécula no polar adquiere un <term>momento dipolar inducido eléctrico</term> porque el campo externo <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> provoca una separación entre sus cargas positivas y negativas. Los dipolos inducidos de las moléculas no polares se alinean con <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> del mismo modo que se alinean los dipolos permanentes de las moléculas polares (mostrado en la parte (b)). Por lo tanto, el campo eléctrico dentro del dieléctrico se debilita independientemente de que sus moléculas sean polares o no polares.</para>
+<para id="fs-id1167134712173">Por lo tanto, cuando la región entre las placas paralelas de un condensador cargado, como el que se muestra en la <link target-id="CNX_UPhysics_25_05_Capacitor"/>(a), se llena con un dieléctrico, dentro del dieléctrico hay un campo eléctrico <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> gracias a la <emphasis effect="italics">carga libre</emphasis> <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> en las placas del condensador y un campo eléctrico <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> debido a la carga inducida <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> en las superficies del dieléctrico. Su suma vectorial da el campo eléctrico neto <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> dentro del dieléctrico entre las placas del condensador (mostrado en la parte (b) de la figura):</para>
+<equation id="fs-id1167134626999"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131222738">Este campo neto puede considerarse como el campo producido por una <emphasis effect="italics">carga efectiva</emphasis> <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> en el condensador.</para>
+<figure id="CNX_UPhysics_25_05_Capacitor">
+<media id="fs-id1167134952421" alt="La figura a muestra un condensador vacío cargado. Las flechas que representan el campo eléctrico E0 van de la placa positiva a la negativa. La figura b muestra un condensador cargado lleno de dieléctrico. Las flechas que representan el campo eléctrico E van de la placa positiva a la negativa. El dieléctrico tiene cargas negativas acumuladas cerca de la superficie de la placa positiva y cargas positivas acumuladas cerca de la superficie de la placa negativa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_05_capacitor.jpg"/>
+</media>
+<caption>Campo eléctrico: (a) en un condensador vacío, el campo eléctrico <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math>. (b) En un condensador relleno de dieléctrico, el campo eléctrico <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>.</caption>
+</figure>
+<para id="fs-id1167134867733">En la mayoría de los dieléctricos, el campo eléctrico neto <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es proporcional al campo <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> producido por la carga libre. En términos de estos dos campos eléctricos, la constante dieléctrica <m:math><m:mi>κ</m:mi></m:math> del material se define como</para>
+<note id="fs-id1167134817861" class="equation-callout">
+<equation id="fs-id1167131362507"><label/><m:math><m:mrow><m:mi>κ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>E</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131522387">Dado que <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> apuntan en direcciones opuestas, la magnitud <emphasis effect="italics">E</emphasis> es menor que la magnitud <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> y, por lo tanto, <m:math><m:mrow><m:mi>κ</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Al Combinar la <link target-id="fs-id1167131362507"/> con la <link target-id="fs-id1167134626999"/>, y al reordenar los términos, se obtiene la siguiente expresión para el campo eléctrico inducido en un dieléctrico:</para>
+<note id="fs-id1167134510215" class="equation-callout">
+<equation id="fs-id1167131170169"><label/><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134890076">Cuando la magnitud de un campo eléctrico externo es demasiado grande, las moléculas del material dieléctrico comienzan a ionizarse. Una molécula o un átomo se ionizan cuando uno o más electrones se desprenden de ellos y se convierten en electrones libres, que ya no están unidos a la estructura molecular o atómica. Cuando esto sucede, el material puede conducir, permitiendo así que la carga se mueva a través del dieléctrico de una placa del condensador a la otra. Este fenómeno se denomina <term>ruptura dieléctrica</term> (la <link target-id="CNX_UPhysics_25_00_Lichtenbrg" document="m90881"/> muestra patrones típicos de trayectorias aleatorias de descarga eléctrica durante la ruptura dieléctrica). El valor crítico, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math>, del campo eléctrico al que se ionizan las moléculas de un aislante se denomina <term>resistencia dieléctrica</term> del material. La resistencia dieléctrica impone un límite al voltaje que puede aplicarse para una determinada separación de placas en un condensador. Por ejemplo, la resistencia dieléctrica del aire es <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>MV/m</m:mtext></m:mrow></m:math>, por lo que para un condensador lleno de aire con una separación de placas de <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext><m:mo>,</m:mo></m:mrow></m:math> el límite de la diferencia de potencial que puede aplicarse con seguridad a través de sus placas sin provocar una ruptura dieléctrica es <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext> </m:mtext><m:mi>d</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>kV</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167134891857">Sin embargo, este límite se convierte en 60,0 kV cuando el mismo condensador se llena de Teflon™, cuya resistencia dieléctrica es de aproximadamente <m:math><m:mrow><m:mn>60,0</m:mn><m:mspace width="0.2em"/><m:mtext>MV/m</m:mtext></m:mrow></m:math>. Debido a este límite impuesto por la resistencia dieléctrica, la cantidad de carga que puede almacenar un condensador lleno de aire es solo <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>κ</m:mi><m:mrow><m:mtext>aire</m:mtext></m:mrow></m:msub><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>kV)</m:mtext></m:mrow></m:math> y la carga almacenada en el mismo condensador relleno de Teflon™ puede ser de hasta</para>
+<equation id="fs-id1167585174495" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:msub><m:mi>κ</m:mi><m:mrow><m:mtext>teflón</m:mtext></m:mrow></m:msub><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>60,0</m:mn><m:mspace width="0.2em"/><m:mtext>kV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>κ</m:mi><m:mrow><m:mtext>teflón</m:mtext></m:mrow></m:msub><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>κ</m:mi><m:mrow><m:mtext>aire</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>kV</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>60,0</m:mn><m:mspace width="0.2em"/><m:mtext>kV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20</m:mn><m:mfrac><m:mrow><m:msub><m:mi>κ</m:mi><m:mrow><m:mtext>teflón</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>κ</m:mi><m:mrow><m:mtext>aire</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>20</m:mn><m:mfrac><m:mrow><m:mn>2,1</m:mn></m:mrow><m:mrow><m:mn>1,00059</m:mn></m:mrow></m:mfrac><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>≅</m:mo><m:mn>42</m:mn><m:mspace width="0.1em"/><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131584165">que es unas 42 veces mayor que la carga almacenada en un condensador lleno de aire. Los valores típicos de las constantes dieléctricas y las resistencias dieléctricas de varios materiales se indican en la <link target-id="fs-id1167131158809"/>. Observe que la constante dieléctrica <m:math><m:mi>κ</m:mi></m:math> es exactamente 1,0 para el vacío (el espacio vacío sirve como condición de referencia) y muy cercano a 1,0 para el aire en condiciones normales (presión normal a temperatura ambiente). Estos dos valores son tan cercanos que, de hecho, las propiedades de un condensador lleno de aire son esencialmente las mismas que las de un condensador vacío.</para>
+<table id="fs-id1167131158809" summary="The table has three column s and twenty three rows including the header row. The header row labels each column: Material, Dielectric constant kappa and Dielectric strength E subscript c open bracket multiplied by ten to the power six V by m close bracket. Under column 1 are the materials: Vacuum, Dry air (1 atm), Teflon, Paraffin, Silicon oil, Polystyrene, Nylon, Paper, Fused quartz, Glass, Concrete, Bakelite, Diamond, Pyrex glass, Mica, Neoprene rubber, Water, Sulfuric acid, Titanium dioxide, Strontium titanate, Barium titanate, Calcium copper titanate. Under column 2 are the values: 1, 1.00059, 2.1, 2.3, 2.5, 2.56, 3.4, 3.7, 3.78, 4 to 6, 4.5, 4.9, 5.5, 5.6, 6.0, 6.7, 80, 84 to 100, 86 to 173, 310, 1,200 to 10,000, greater than 250,000. Under column 3 are the values: infinity, 3.0, 60 to 173, 11, 10 to 15, 19.7, 14, 16, 8, 9.8 to 13.8, not applicable, 24, 2,000, 14, 118, 15.7 to 26.7, not applicable, not applicable, not applicable, 8, not applicable, not applicable.">
+<title>Valores representativos de las constantes dieléctricas y las resistencias dieléctricas de varios materiales a temperatura ambiente</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<colspec colnum="3" colname="col3"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Material</entry>
+<entry valign="top" align="center">Constante dieléctrica <m:math><m:mi>κ</m:mi></m:math></entry>
+<entry valign="top" align="center">Resistencia dieléctrica <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">[</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mrow><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">]</m:mo></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Vacío</entry>
+<entry valign="top" align="center">1</entry>
+<entry valign="top" align="center">∞</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Aire seco (1 atm)</entry>
+<entry valign="top" align="center">1,00059</entry>
+<entry valign="top" align="center">3,0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Teflon™</entry>
+<entry valign="top" align="center">2,1</entry>
+<entry valign="top" align="center">60 a 173</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Parafina</entry>
+<entry valign="top" align="center">2,3</entry>
+<entry valign="top" align="center">11</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Aceite de silicona</entry>
+<entry valign="top" align="center">2,5</entry>
+<entry valign="top" align="center">10 a 15</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Poliestireno</entry>
+<entry valign="top" align="center">2,56</entry>
+<entry valign="top" align="center">19,7</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Nylon</entry>
+<entry valign="top" align="center">3,4</entry>
+<entry valign="top" align="center">14</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Papel</entry>
+<entry valign="top" align="center">3,7</entry>
+<entry valign="top" align="center">16</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Cuarzo fundido</entry>
+<entry valign="top" align="center">3,78</entry>
+<entry valign="top" align="center">8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Vidrio</entry>
+<entry valign="top" align="center">4 a 6</entry>
+<entry valign="top" align="center">9,8 a 13,8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hormigón</entry>
+<entry valign="top" align="center">4,5</entry>
+<entry valign="top" align="center">–</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Baquelita</entry>
+<entry valign="top" align="center">4,9</entry>
+<entry valign="top" align="center">24</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Diamante</entry>
+<entry valign="top" align="center">5,5</entry>
+<entry valign="top" align="center">2.000</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Vidrio Pyrex</entry>
+<entry valign="top" align="center">5,6</entry>
+<entry valign="top" align="center">14</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mica</entry>
+<entry valign="top" align="center">6,0</entry>
+<entry valign="top" align="center">118</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Goma de neopreno</entry>
+<entry valign="top" align="center">6,7</entry>
+<entry valign="top" align="center">15,7 a 26,7</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Agua</entry>
+<entry valign="top" align="center">80</entry>
+<entry valign="top" align="center"><m:math><m:mo>−</m:mo></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ácido sulfúrico</entry>
+<entry valign="top" align="center">84 a 100</entry>
+<entry valign="top" align="center"><m:math><m:mo>−</m:mo></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Dióxido de titanio</entry>
+<entry valign="top" align="center">86 a 173</entry>
+<entry valign="top" align="center">–</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Titanato de estroncio</entry>
+<entry valign="top" align="center">310</entry>
+<entry valign="top" align="center">8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Titanato de bario</entry>
+<entry valign="top" align="center">De 1.200 a 10.000</entry>
+<entry valign="top" align="center">–</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Titanato de calcio y cobre</entry>
+<entry valign="top" align="center">&gt; 250.000</entry>
+<entry valign="top" align="center">–</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167134569579">No todas las sustancias de la tabla son buenos aislantes, a pesar de sus elevadas constantes dieléctricas. El agua, por ejemplo, está formada por moléculas polares y tiene una gran constante dieléctrica de aproximadamente 80. Es más probable que en una molécula de agua los electrones se encuentren alrededor del núcleo de oxígeno que alrededor de los núcleos de hidrógeno. Esto hace que el extremo de oxígeno de la molécula sea ligeramente negativo y deja el extremo de hidrógenos ligeramente positivo, lo que hace que la molécula se alinee fácilmente a lo largo de un campo eléctrico externo y, por lo tanto, el agua tiene una gran constante dieléctrica. Sin embargo, la naturaleza polar de las moléculas de agua también hace que esta sea un buen disolvente para muchas sustancias, lo que produce efectos indeseables, porque cualquier concentración de iones libres en el agua conduce la electricidad.</para>
+<example id="fs-id1167131612484">
+<para id="fs-id1167131329511"><title>Campo eléctrico y carga superficial inducida</title>
+Supongamos que la distancia entre las placas del condensador en el <link target-id="fs-id1167134456373" document="m90885"/> es de 2,0 mm y el área de cada placa es <m:math><m:mrow><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Determine: (a) el campo eléctrico entre las placas antes y después de insertar el Teflon™, y (b) la carga superficial inducida en las superficies de Teflon™.</para>
+<para id="fs-id1167134539266"><title>Estrategia</title>
+En la parte (a), sabemos que el voltaje en el condensador vacío es <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>, por lo que para calcular los campos eléctricos utilizamos la relación <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mi>d</m:mi></m:mrow></m:math> y la <link target-id="fs-id1167131362507"/>. En la parte (b), al conocer la magnitud del campo eléctrico, utilizamos la expresión para la magnitud del campo eléctrico cerca de una placa cargada <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mi>σ</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math>, donde <m:math><m:mi>σ</m:mi></m:math> es una densidad de carga superficial uniforme causada por la carga superficial. Utilizamos el valor de la carga libre <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> obtenido en el <link target-id="fs-id1167134456373" document="m90885"/>.</para>
+<para id="fs-id1167131109645"><title>Solución</title></para>
+<list id="fs-id1167131139024" list-type="enumerated" number-style="lower-alpha">
+<item>El campo eléctrico <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> entre las placas de un condensador vacío es
+<equation id="fs-id1167134486235" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+El campo eléctrico <emphasis effect="italics">E</emphasis> con el Teflon™ colocado es
+<equation id="fs-id1167131473768" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2,1</m:mn></m:mrow></m:mfrac><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo>=</m:mo><m:mn>9,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>La carga efectiva del condensador es la diferencia entre la carga libre <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> y la carga inducida <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>. El campo eléctrico en el Teflon™ es causado por esta carga efectiva. Por lo tanto,
+<equation id="fs-id1167584952513" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mi>σ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Invertimos esta ecuación para obtener <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>, lo que da como resultado
+<equation id="fs-id1167583729528" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>A</m:mi><m:mi>E</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mtext>V</m:mtext><m:mtext>m</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo>=</m:mo><m:mn>0,42</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+</example>
+<example id="fs-id1167131144296">
+<para id="fs-id1167134541831"><title>Inserción de un dieléctrico en un condensador conectado a una batería</title>
+Cuando una batería de voltaje <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> se conecta a través de un condensador vacío de capacitancia <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, la carga en sus placas es <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, y el campo eléctrico entre sus placas es <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Un dieléctrico de constante dieléctrica <m:math><m:mi>κ</m:mi></m:math> se inserta entre las placas <emphasis effect="italics">mientras la batería permanece en su lugar</emphasis>, como se muestra en la <link target-id="CNX_UPhysics_25_05_Ex2"/>. (a) Calcule la capacitancia <emphasis effect="italics">C</emphasis>, el voltaje <emphasis effect="italics">V</emphasis> a través del condensador y el campo eléctrico <emphasis effect="italics">E</emphasis> entre las placas después de insertar el dieléctrico. (b) Obtenga una expresión para la carga libre <emphasis effect="italics">Q</emphasis> en las placas del condensador lleno y la carga inducida <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> en la superficie dieléctrica en términos de la carga original de la placa <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_25_05_Ex2">
+<media id="fs-id1167131086462" alt="La figura a muestra un condensador conectado a una batería. El condensador tiene un voltaje V0 a través de él. Las placas positiva y negativa del condensador tienen carga más Q0 y menos Q0 respectivamente. La figura b muestra el mismo condensador con un dieléctrico insertado en él. La carga en las placas positiva y negativa es ahora más Q y menos Q respectivamente. Las cargas negativas se muestran acumuladas cerca de la superficie interior de la placa positiva. Estas están marcadas menos Qi. Las cargas positivas se muestran acumuladas cerca de la superficie interior de la placa negativa. Estas están marcadas más Qi.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_05_ex2.jpg"/>
+</media>
+<caption>Se inserta un dieléctrico en el condensador cargado mientras este permanece conectado a la batería.</caption>
+</figure>
+<para id="fs-id1167131255132"><title>Estrategia</title>
+Identificamos los valores conocidos <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>,<m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mi>κ</m:mi></m:math> y <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Nuestra tarea es expresar los valores desconocidos en términos de estos valores conocidos.</para>
+<para id="fs-id1167131233640"><title>Solución</title>
+(a) La capacitancia del condensador lleno es <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Como la batería siempre está conectada a las placas del condensador, la diferencia de potencial entre ellas no cambia; por lo tanto, <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Por ello, el campo eléctrico en el condensador lleno es el mismo que el campo en el condensador vacío, por lo que podemos obtener directamente que</para>
+<equation id="fs-id1167131269814" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131115362">(b) Para el condensador lleno, la carga libre en las placas es</para>
+<equation id="fs-id1167131501041" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>κ</m:mi><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>κ</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134467776">El campo eléctrico <emphasis effect="italics">E</emphasis> en el condensador lleno se debe a la carga efectiva <m:math><m:mrow><m:mi>Q</m:mi><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> (<link target-id="CNX_UPhysics_25_05_Ex2"/>(b)). Dado que <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, tenemos</para>
+<equation id="fs-id1167134734305" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>Q</m:mi><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134711762">Resolviendo esta ecuación para <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>, obtenemos para la carga inducida</para>
+<equation id="fs-id1167131445111" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>κ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131140704"><title>Importancia</title>
+Observe que para materiales con constantes dieléctricas superiores a 2 (vea la <link target-id="fs-id1167131158809"/>), la carga inducida en la superficie del dieléctrico es mayor que la carga en las placas de un condensador de vacío. Lo contrario ocurre con los gases, como el aire, cuya constante dieléctrica es inferior a 2.</para>
+</example>
+<note id="fs-id1167134472989" class="check-understanding">
+<exercise id="fs-id1167134891536">
+<problem id="fs-id1167134678734">
+<para id="fs-id1167130051956">Siguiendo con el <link target-id="fs-id1167131144296"/>, demuestre que cuando la batería se conecta a través de las placas la energía almacenada en el condensador lleno de dieléctrico es <m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> (mayor que la energía <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> de un condensador vacío mantenido al mismo voltaje). Compare este resultado con el resultado <m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mi>κ</m:mi></m:mrow></m:mrow></m:math> encontrado anteriormente para un condensador aislado y cargado.</para>
+</problem>
+</exercise>
+</note>
+<note id="fs-id1167131127193" class="check-understanding">
+<exercise id="fs-id1167134760768">
+<problem id="fs-id1167134992580">
+<para id="fs-id1167131502367">Repita los cálculos del <link target-id="fs-id1167134456373" document="m90885"/> para el caso en el que la batería permanece conectada mientras el dieléctrico se coloca en el condensador.</para>
+</problem>
+<solution id="fs-id1167134540997">
+<para id="fs-id1167134627352">a. <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>42</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,8</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>1,7</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>; d. <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>16</m:mn><m:mspace width="0.2em"/><m:mtext>nJ</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mn>34</m:mn><m:mspace width="0.2em"/><m:mtext>nJ</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167131425839" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167134646273" list-type="bulleted" bullet-style="bullet">
+<item>Cuando se introduce un dieléctrico entre las placas de un condensador, se induce una carga superficial igual y opuesta en las dos caras del dieléctrico. La carga superficial inducida produce un campo eléctrico inducido que se opone al campo de la carga libre en las placas del condensador.</item>
+<item>La constante dieléctrica de un material es la relación entre el campo eléctrico en el vacío y el campo eléctrico neto en el material. Un condensador lleno de dieléctrico tiene una capacitancia mayor que un condensador vacío.</item>
+<item>La resistencia dieléctrica de un aislante representa un valor crítico de campo eléctrico a partir del cual las moléculas de un material aislante comienzan a ionizarse. Cuando esto ocurre, el material puede conducir y se observa la ruptura dieléctrica.</item>
+</list>
+</section>
+<section id="fs-id1167134922079" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1172100938627" class="unnumbered unstyled" summary="The table has two columns and twelve rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Capacitance” and “C equals Q divided by V”. The second row contains “Capacitance of a parallel-plate capacitor” and “C equals epsilon subscript 0 A divided by d”. The third row contains “Capacitance of a vacuum spherical capacitor” and “C equals 4 pi epsilon subscript 0 numerator R subscript 1 R subscript 2 divided by denominator R subscript 2 minus R subscript 1”. The fourth row contains “Capacitance of a vacuum cylindrical capacitor” and “C equals numerator 2 pi epsilon subscript 0 l divided by denominator natural log opening parenthesis R subscript 2 divided by R subscript 1 closing parenthesis”. The fifth row contains “Capacitance of a series combination” and “inverse of C subscript S equals inverse of C subscript 1 plus inverse of C subscript 2 plus inverse of C subscript 3 and so on”. The sixth row contains “Capacitance of a parallel combination” and “C subscript p equals C subscript 1 plus C subscript 2 plus C subscript 3 and so on”. The seventh row contains “Energy density” and “u subscript E equals half epsilon subscript 0 E square”. The eighth row contains “Energy stored in a capacitor” and “U subscript c equals half V square C equals half Q square divided by C equals half Q V”. The ninth row contains “Capacitance of a capacitor with dielectric” and “C equals kappa C subscript 0”. The tenth row contains “Energy stored in an isolated capacitor with dielectric” and “U equals 1 divided by kappa U subscript 0”. The eleventh row contains “Dielectric constant” and “kappa equals E subscript 0 divided by E”. The twelfth row contains “Induced electrical field in a dielectric” and “vector E subscript i equals opening parenthesis 1 divided by kappa minus 1 closing parenthesis vector E subscript 0”.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Capacitancia</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacitancia de un condensador de placas paralelas</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>A</m:mi><m:mi>d</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacitancia de un condensador esférico de vacío</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacitancia de un condensador cilíndrico de vacío</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>l</m:mi></m:mrow><m:mrow><m:mtext>dentro</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacitancia de una combinación en serie</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mtext>⋯</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacitancia de una combinación en paralelo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:mtext>⋯</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Densidad de energía</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energía almacenada en un condensador</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>Q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacitancia de un condensador con dieléctrico</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energía almacenada en un condensador aislado con<newline/>dieléctrico</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Constante dieléctrica</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>κ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>E</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Campo eléctrico inducido en un dieléctrico</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167131427296" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167131482260">
+<problem id="fs-id1167131482262">
+<para id="fs-id1167131529160">Distinga entre resistencia dieléctrica y constante dieléctrica.</para>
+</problem>
+<solution id="fs-id1167131220180">
+<para id="fs-id1167131474895">La resistencia dieléctrica es un valor crítico de un campo eléctrico por encima del cual empieza a conducir un aislante; la constante dieléctrica es la relación entre el campo eléctrico en el vacío y el campo eléctrico neto en un material.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134886218">
+<problem id="fs-id1167131399551">
+<para id="fs-id1167134946372">El agua es un buen solvente porque tiene una elevada constante dieléctrica. Explique.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131360488">
+<problem id="fs-id1167131162186">
+<para id="fs-id1167131200480">El agua tiene una elevada constante dieléctrica. Explique por qué no se utiliza entonces como material dieléctrico en los condensadores.</para>
+</problem>
+<solution id="fs-id1167134687390">
+<para id="fs-id1167131228840">El agua es un buen solvente.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131390611">
+<problem id="fs-id1167131390614">
+<para id="fs-id1167129979772">Explique por qué las moléculas de un material dieléctrico experimentan fuerzas netas sobre ellas en un campo eléctrico no uniforme pero no en un campo uniforme.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131522869">
+<problem id="fs-id1167131522872">
+<para id="fs-id1167131101257">Explique por qué la constante dieléctrica de una sustancia que contiene dipolos eléctricos moleculares permanentes disminuye al aumentar la temperatura.</para>
+</problem>
+<solution id="fs-id1167130045766">
+<para id="fs-id1167130045768">Cuando la energía del movimiento térmico es grande (alta temperatura), un campo eléctrico también debe ser grande para mantener los dipolos eléctricos alineados con él.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134516195">
+<problem id="fs-id1167131169893">
+<para id="fs-id1167134886229">Razone por qué un material dieléctrico aumenta la capacitancia en comparación con lo que sería con aire entre las placas de un condensador. ¿Cómo es que un material dieléctrico también permite aplicar un mayor voltaje a un condensador? (Por lo tanto, el dieléctrico aumenta <emphasis effect="italics">C</emphasis> y permite un mayor <emphasis effect="italics">V</emphasis>).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131574939">
+<problem id="fs-id1167131574941">
+<para id="fs-id1167134734485">Explique cómo el carácter polar de las moléculas de agua ayuda a explicar la constante dieléctrica relativamente grande del agua.</para>
+</problem>
+<solution id="fs-id1167131112995">
+<para id="fs-id1167131112997">las respuestas pueden variar</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131217052">
+<problem id="fs-id1167131140612">
+<para id="fs-id1167131140614">Cuando el aire esté húmedo se producirán chispas entre las placas de un condensador lleno de aire a un voltaje menor que cuando esté seco. Discuta por qué, teniendo en cuenta el carácter polar de las moléculas de agua.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167131454666" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167134859333">
+<problem id="fs-id1167134859335">
+<para id="fs-id1167131362511">Dos placas planas que contienen cargas iguales y opuestas están separadas por un material de 4,0 mm de espesor con una constante dieléctrica de 5,0. Si el campo eléctrico en el dieléctrico es de 1,5 MV/m, ¿cuáles son (a) la densidad de carga en las placas del condensador y (b) la densidad de carga inducida en las superficies del dieléctrico?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131554006">
+<problem id="fs-id1167131412753">
+<para id="fs-id1167131412756">Para un condensador de placas paralelas relleno de Teflon™, el área de la placa es <m:math><m:mrow><m:mn>50,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y la separación entre las placas es de 0,50 mm. Si el condensador está conectado a una batería de 200 V, calcule (a) la carga libre en las placas del condensador, (b) el campo eléctrico en el dieléctrico y (c) la carga inducida en las superficies del dieléctrico.</para>
+</problem>
+<solution id="fs-id1167131167219">
+<para id="fs-id1167131237990">a. 37 nC; b. 0,4 MV/m; c. 19 nC</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131459274">
+<problem id="fs-id1167129968315">
+<para id="fs-id1167131460830">Calcule la capacitancia de un condensador de placas paralelas con una superficie de <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> y separados por 0,100 mm de Teflon™.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131499185">
+<problem id="fs-id1167131499187">
+<para id="fs-id1167131430984">(a) ¿Cuál es la capacitancia de un condensador de placas paralelas con placas de área <m:math><m:mrow><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math> que están separadas por 0,0200 mm de goma de neopreno? (b) ¿Qué carga mantiene cuando se le aplican 9,00 V?</para>
+</problem>
+<solution id="fs-id1167134925685">
+<para id="fs-id1167134894952">a. <m:math><m:mrow><m:mn>4,4</m:mn><m:mspace width="0.2em"/><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>-5</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134857697">
+<problem id="fs-id1167134857699">
+<para id="fs-id1167131135417">Dos placas paralelas tienen cargas iguales y opuestas. Cuando se evacua el espacio entre las placas, el campo eléctrico es <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>3,20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:mrow></m:math>. Cuando el espacio está lleno de dieléctrico, el campo eléctrico es <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:mrow></m:math>. (a) ¿Cuál es la densidad de carga superficial en cada superficie del dieléctrico? (b) ¿Cuál es la constante dieléctrica?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134886133">
+<problem id="fs-id1167134886135">
+<para id="fs-id1167131387154">El dieléctrico que se utilizará en un condensador de placas paralelas tiene una constante dieléctrica de 3,60 y una resistencia dieléctrica de <m:math><m:mrow><m:mn>1,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:mrow></m:math>. El condensador debe tener una capacitancia de 1,25 nF y debe ser capaz de soportar una diferencia de potencial máxima de 5,5 kV. ¿Cuál es la superficie mínima que pueden tener las placas del condensador?</para>
+</problem>
+<solution id="fs-id1167131220386">
+<para id="fs-id1167131220388"><m:math><m:mrow><m:mn>0,0135</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134626986">
+<problem id="fs-id1167131589060">
+<para id="fs-id1167131589062">Cuando se conecta un condensador de aire de 360 nF a una fuente de energía, la energía almacenada en el condensador es <m:math><m:mrow><m:mn>18,5</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>J</m:mtext></m:mrow></m:math>. Mientras el condensador está conectado a la fuente de energía, se inserta una placa de dieléctrico que rellena completamente el espacio entre las placas. Esto aumenta la energía almacenada en <m:math><m:mrow><m:mn>23,2</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>J</m:mtext></m:mrow></m:math>. (a) ¿Cuál es la diferencia de potencial entre las placas del condensador? (b) ¿Cuál es la constante dieléctrica de la losa?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131481698">
+<problem id="fs-id1167131182596">
+<para id="fs-id1167131182598">Un condensador de placas paralelas tiene placas cuadradas de 8,00 cm de lado y 3,80 mm de separación. El espacio entre las placas se rellena completamente con dos placas cuadradas de dieléctrico, cada una de 8,00 cm de lado y 1,90 mm de grosor. Una placa es de vidrio Pyrex y la otra de poliestireno. Si la diferencia de potencial entre las placas es de 86,0 V, calcule cuánta energía eléctrica puede almacenarse en este condensador.</para>
+</problem>
+<solution id="fs-id1167131182600">
+<para id="fs-id1167131409084"><m:math><m:mrow><m:mn>0,185</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167131554419" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1167131447895">
+<problem id="fs-id1167131447897">
+<para id="fs-id1167131580602">Un condensador está formado por dos placas planas paralelas colocadas a 0,40 mm de distancia. Cuando una carga de <m:math><m:mrow><m:mn>0,020</m:mn><m:mspace width="0.2em"/><m:mtext>μ</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> se coloca en las placas la diferencia de potencial entre ellas es de 250 V. (a) ¿Cuál es la capacitancia de las placas? (b) ¿Cuál es el área de cada placa? (c) ¿Cuál es la carga de las placas cuando la diferencia de potencial entre ellas es de 500 V? (d) ¿Qué diferencia de potencial máxima puede aplicarse entre las placas para que la magnitud de los campos eléctricos entre las placas no supere los 3,0 MV/m?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134945718">
+<problem id="fs-id1167134945720">
+<para id="fs-id1167134970107">Un condensador de placas paralelas lleno de aire (vacío) está formado por dos placas cuadradas de 25 cm de lado y separadas 1,0 mm. El condensador se conecta a una batería de 50 V y se carga completamente. A continuación, se desconecta de la batería y se separan sus placas hasta alcanzar una separación de 2,00 mm. (a) ¿Cuál es la capacitancia de este nuevo condensador? (b) ¿Cuál es la carga de cada placa? (c) ¿Cuál es el campo eléctrico entre las placas?</para>
+</problem>
+<solution id="fs-id1167131169934">
+<para id="fs-id1167131169936">a. 0,277 nF; b. 27,7 nC; c. 50 kV/m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131612839">
+<problem id="fs-id1167131612841">
+<para id="fs-id1167131313856">Supongamos que la capacitancia de un condensador variable puede cambiarse manualmente de 100 a 800 pF girando un dial conectado a un conjunto de placas mediante un eje, de <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. Con el dial puesto en <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> (correspondiente a <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>800</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math>), el condensador se conecta a una fuente de 500 V. Después de la carga, el condensador se desconecta de la fuente, y el dial se gira a <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. (a) ¿Cuál es la carga del condensador? (b) ¿Cuál es el voltaje a través del condensador cuando el dial se pone en <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext><m:mtext>?</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134912842">
+<problem id="fs-id1167131455764">
+<para id="fs-id1167131455766">La Tierra puede considerarse como un condensador esférico con dos placas, donde la placa negativa es la superficie de la Tierra y la placa positiva es el fondo de la ionósfera, que se encuentra a una altura de aproximadamente 70 km. La diferencia de potencial entre la superficie de la Tierra y la ionósfera es de unos 350.000 V. (a) Calcule la capacitancia de este sistema. (b) Calcule la carga total de este condensador. (c) Calcule la energía almacenada en este sistema.</para>
+</problem>
+<solution id="fs-id1167131455769">
+<para id="fs-id1167131282318">a. 0,065 F; b. 23.000 C; c. 4,0 GJ</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131146194">
+<problem id="fs-id1167131146196">
+<para id="fs-id1167131146198">Un condensador de <m:math><m:mrow><m:mn>4,00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> y un condensador de <m:math><m:mrow><m:mn>6,00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> están conectados en paralelo a través de una línea de energía de 600 V. (a) Calcule la carga en cada condensador y el voltaje a través de cada uno. (b) Los condensadores cargados se desconectan de la línea y entre sí. A continuación, se vuelven a conectar entre sí con terminales de signo distinto. Calcule la carga final de cada condensador y el voltaje a través de cada uno.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131335360">
+<problem id="fs-id1167131335362">
+<para id="fs-id1167131335364">Tres condensadores con capacitancias de 8,40, 8,40 y 4,20 <m:math><m:mrow><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>, respectivamente, están conectados en serie a través de una diferencia de potencial de 36,0 V. (a) ¿Cuál es la carga en el condensador de <m:math><m:mrow><m:mn>4,20</m:mn><m:mtext>-</m:mtext><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>? (b) Los condensadores se desconectan de la diferencia de potencial sin permitir que se descarguen. A continuación, se vuelven a conectar en paralelo con las placas cargadas positivamente conectadas entre sí. ¿Cuál es el voltaje en cada condensador de la combinación en paralelo?</para>
+</problem>
+<solution id="fs-id1167131544736">
+<para id="fs-id1167131544738">a. <m:math><m:mrow><m:mn>75,6</m:mn><m:mspace width="0.2em"/><m:mtext>μ</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; b. 10,8 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134735259">
+<problem id="fs-id1167134735261">
+<para id="fs-id1167134735263">Un condensador de placas paralelas con capacitancias <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math> se carga con una batería de 12,0 V, tras lo cual se desconecta la batería. Determine el trabajo mínimo necesario para aumentar la separación entre las placas en un factor de 3.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167129964586">
+<problem id="fs-id1167129964588">
+<para id="fs-id1167129964591">(a) ¿Cuánta energía se almacena en los campos eléctricos de los condensadores (en total) que se muestran a continuación? (b) ¿Esta energía es igual al trabajo realizado por la fuente de 400 V al cargar los condensadores?
+<figure id="eip-idm655425456"><media id="eip-idm655425328" alt="">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_03_problem13_img.jpg"/>
+</media></figure></para></problem>
+<solution id="fs-id1167131230626">
+<para id="fs-id1167134634524">a. 0,13 J; b. no, debido al calentamiento resistivo en los cables de conexión que siempre está presente, pero el esquema del circuito no indica resistores<newline/>
+<media id="fs-id1167131139918" alt="La figura muestra un circuito cerrado con una batería de 400 voltios. El terminal positivo de la batería se conecta a un condensador de 3 microfaradios, seguido de una combinación de dos condensadores en paralelo entre sí, seguido de un cuarto condensador de valor 6 microfaradios que, a su vez, se conecta al terminal negativo de la batería. Los condensadores en paralelo tienen valores de 6 microfaradios y 3 microfaradios.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_03_problem13_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134835308">
+<problem id="fs-id1167134835310">
+<para id="fs-id1167131597366">Tres condensadores con capacitancias de 8,4, 8,4 y 4,2 <m:math><m:mrow><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math> están conectados en serie a través de una diferencia de potencial de 36,0 V. (a) ¿Cuál es la energía total almacenada en los tres condensadores? (b) Los condensadores se desconectan de la diferencia de potencial sin permitir que se descarguen. A continuación, se vuelven a conectar en paralelo con las placas cargadas positivamente conectadas entre sí. ¿Cuál es la energía total almacenada ahora en los condensadores?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134816254">
+<problem id="fs-id1167134816256">
+<para id="fs-id1167134960558">(a) Un condensador de <m:math><m:mrow><m:mn>8,00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> está conectado en paralelo a otro condensador, lo que produce una capacitancia total de <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>. ¿Cuál es la capacitancia del segundo condensador? (b) ¿Qué no es razonable en este resultado? (c) ¿Qué suposiciones no son razonables o son incoherentes?</para>
+</problem>
+<solution id="fs-id1167131613545">
+<para id="fs-id1167134922682">a. <m:math><m:mrow><m:mtext>−3,00</m:mtext><m:mspace width="0.2em"/><m:mtext>μ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>; b. No se puede tener una capacidad negativa <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. c. La suposición de que se conectaron en paralelo, en vez de en serie, es incorrecta. Una conexión en paralelo siempre produce una mayor capacitancia, mientras que aquí se asumió una menor. Esto solo puede ocurrir si los condensadores están conectados en serie.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131458346">
+<problem id="fs-id1167131479185">
+<para id="fs-id1167131479187">(a) En un día determinado, toma <m:math><m:mrow><m:mn>9,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> de energía eléctrica para arrancar el motor de un camión. Calcule la capacitancia de un condensador que pudiera almacenar esa cantidad de energía a 12,0 V. (b) ¿Qué no es razonable en este resultado? (c) ¿Qué suposiciones son responsables?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131086800">
+<problem id="fs-id1167134939176">
+<para id="fs-id1167134939178">(a) Un determinado condensador de placas paralelas tiene placas de área <m:math><m:mrow><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>, separados por 0,0100 mm de nylon, y almacena 0,170 C de carga. ¿Cuál es el voltaje aplicado? (b) ¿Qué es lo que no es razonable en este resultado? (c) ¿Qué suposiciones son responsables o incoherentes?</para>
+</problem>
+<solution id="fs-id1167131283052">
+<para id="fs-id1167131144469">a. 14,2 kV; b. El voltaje es excesivamente grande, más de 100 veces el voltaje de ruptura del nylon. c. La supuesta carga es excesivamente grande y no puede almacenarse en un condensador de estas dimensiones.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131461778">
+<problem id="fs-id1167131461780">
+<para id="fs-id1167131461782">Un bromista aplica 450 V a un condensador de <m:math><m:mrow><m:mn>80,0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> y luego lo lanza a una víctima desprevenida. El dedo de la víctima se quema por la descarga del condensador a través de 0,200 g de piel. Haga una estimación, ¿cuál es el aumento de temperatura de la piel? ¿Es razonable suponer que no se ha producido ningún cambio de fase termodinámico?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167134862086" class="review-challenge">
+<title>Problemas de desafíos</title>
+<exercise id="fs-id1167131588668">
+<problem id="fs-id1167131190404">
+<para id="fs-id1167131190406">Un condensador esférico está formado por dos esferas conductoras concéntricas separadas por el vacío. La esfera interior tiene un radio de 12,5 cm y la exterior de 14,8 cm. Se aplica una diferencia de potencial de 120 V al condensador. (a) ¿Cuál es la capacitancia del condensador? (b) ¿Cuál es la magnitud del campo eléctrico en <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>12,6</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, justo fuera de la esfera interior? (c) ¿Cuál es la magnitud del campo eléctrico en <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>14,7</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, justo dentro de la esfera exterior? (d) Para un condensador de placas paralelas el campo eléctrico es uniforme en la región entre las placas, excepto cerca de sus bordes. ¿Esto también es cierto para un condensador esférico?</para>
+</problem>
+<solution id="fs-id1167134831520">
+<para id="fs-id1167134831522">a. 89,6 pF; b. 6,09 kV/m; c. 4,47 kV/m; d. no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134677951">
+<problem id="fs-id1167134677953">
+<para id="fs-id1167134943615">En la red de condensadores que se muestra a continuación están todos descargados cuando se aplica un potencial de 300 V entre los puntos A y B con el interruptor S abierto. (a) ¿Cuál es la diferencia de potencial <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>E</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mi>D</m:mi></m:msub></m:mrow></m:math>? (b) ¿Cuál es el potencial en el punto E después de cerrar el interruptor? (c) ¿Cuánta carga fluye a través del interruptor después de cerrarlo?</para>
+<media id="fs-id1167134956551" alt="La figura a muestra un condensador conectado a una batería. El condensador tiene un voltaje V0 a través de él. Las placas positiva y negativa del condensador tienen carga más Q0 y menos Q0 respectivamente. La figura b muestra el mismo condensador con un dieléctrico insertado en él. La carga en las placas positiva y negativa es ahora más Q y menos Q respectivamente. Las cargas negativas se muestran acumuladas cerca de la superficie interior de la placa positiva. Estas están marcadas menos Qi. Las cargas positivas se muestran acumuladas cerca de la superficie interior de la placa negativa. Estas están marcadas más Qi.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_02_network3_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167131192002">
+<problem id="fs-id1167131530492">
+<para id="fs-id1167131530494">Los flashes electrónicos para cámaras contienen un condensador para almacenar la energía utilizada para producir el flash. En una de estas unidades el destello dura 1/675 fracciones de segundo con una potencia lumínica media de 270 kW. (a) Si la conversión de energía eléctrica en luz es eficiente en un 95 % (porque el resto de la energía se destina a energía térmica), ¿cuánta energía debe almacenarse en el condensador para un destello? (b) El condensador tiene una diferencia de potencial entre sus placas de 125 V cuando la energía almacenada es igual al valor almacenado en la parte (a). ¿Cuál es la capacitancia?</para>
+</problem>
+<solution id="fs-id1167131580263">
+<para id="fs-id1167131580265">a. 421 J; b. 53,9 mF</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131394473">
+<problem id="fs-id1167131394475">
+<para id="fs-id1167131394477">Un condensador esférico está formado por dos capas conductoras esféricas concéntricas separadas por el vacío. La esfera interior tiene un radio de 12,5 cm y la exterior de 14,8 cm. Se aplica una diferencia de potencial de 120 V al condensador. (a) ¿Cuál es la densidad de energía a <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>12,6</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, justo fuera de la esfera interior? (b) ¿Cuál es la densidad de energía en <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>14,7</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, justo dentro de la esfera exterior? (c) Para el condensador de placas paralelas la densidad de energía es uniforme en la región entre las placas, excepto cerca de sus bordes. ¿Esto también es cierto para el condensador esférico?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131522086"><problem id="fs-id1167131522088">
+<para id="fs-id1167131522090">Una placa de metal de grosor <emphasis effect="italics">t</emphasis> está sujeta entre dos placas de condensador por medio de clavijas de plástico, como se muestra a continuación. El efecto de las clavijas en la capacitancia es insignificante. El área de cada placa del condensador y el área de las superficies superior e inferior de la placa insertada son todas <emphasis effect="italics">A</emphasis>. ¿Cuál es la capacitancia de este sistema? <newline/><media id="fs-id1167134508553" alt="La figura muestra dos placas de un condensador separadas por una distancia d. Entre las dos placas se muestra una placa de metal de espesor t. La distancia del metal a una placa del condensador es d1 y la de la otra placa del condensador es d2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_04_problem-6_img.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167131204439">
+<para id="fs-id1167131204441"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>A</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>d</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>d</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:math>
+</para>
+</solution>
+</exercise><exercise id="fs-id1167131271429">
+<problem id="fs-id1167131271431">
+<para id="fs-id1167131271433">Un condensador de placas paralelas está lleno de dos dieléctricos, como se muestra a continuación. Cuando el área de las placas es <emphasis effect="italics">A</emphasis> y la separación entre ellas es <emphasis effect="italics">d</emphasis>, demuestre que la capacitancia está dada por</para>
+<para id="fs-id1167131400896"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>A</m:mi><m:mi>d</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>κ</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>κ</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167134663140" alt="La figura muestra dos placas verticales de un condensador. La mitad superior del área entre ellas se rellena con material marcado como K1. La otra mitad se rellena con material marcado como K2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_04_problem-7_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167131215902">
+<problem id="fs-id1167131215904">
+<para id="fs-id1167131578902">Un condensador de placas paralelas está lleno de dos dieléctricos, como se muestra a continuación. Demuestre que la capacitancia viene dada por</para>
+<para id="fs-id1167131578906"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>A</m:mi><m:mi>d</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>κ</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>κ</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>κ</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>κ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167134952407" alt="La figura muestra dos placas verticales de un condensador. La mitad izquierda del área entre ellas se rellena con material marcado como K1. La mitad derecha se rellena con material marcado como K2. Tanto K1 como K2 tienen un grosor d por 2. El área de la placa del condensador está marcada como A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_04_problem-8_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167134869800">
+<para id="fs-id1167134869802">prueba</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131152618">
+<problem id="fs-id1167134643796">
+<para id="fs-id1167134643798">Un condensador tiene placas paralelas de área <m:math><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> separados por 2,0 mm. El espacio entre las placas está relleno de poliestireno. (a) Calcule el voltaje máximo admisible a través del condensador para evitar la ruptura dieléctrica. (b) Cuando el voltaje es igual al valor hallado en la parte (a), calcule la densidad de carga superficial en la superficie del dieléctrico.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167131134311">
+<term>ruptura dieléctrica</term>
+<meaning id="fs-id1167130046316">fenómeno que se produce cuando un aislante se convierte en conductor en un campo eléctrico intenso</meaning>
+</definition>
+<definition id="fs-id1167131481907">
+<term>resistencia dieléctrica</term>
+<meaning id="fs-id1167131481913">intensidad crítica del campo eléctrico por encima de la cual las moléculas del aislante comienzan a romperse y el aislante empieza a conducir</meaning>
+</definition>
+<definition id="fs-id1167131412729">
+<term>momento dipolar inducido eléctrico</term>
+<meaning id="fs-id1167134590644">momento dipolar que puede adquirir una molécula no polar cuando se coloca en un campo eléctrico</meaning>
+</definition>
+<definition id="fs-id1167131509976">
+<term>campo eléctrico inducido</term>
+<meaning id="fs-id1167131420223">campo eléctrico en el dieléctrico debido a la presencia de cargas inducidas</meaning>
+</definition>
+<definition id="fs-id1167131420227">
+<term>cargas superficiales inducidas</term>
+<meaning id="fs-id1167131588646">cargas que se producen en una superficie dieléctrica debido a su polarización</meaning>
+</definition>
+</glossary>
+</document>

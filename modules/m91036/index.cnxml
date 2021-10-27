@@ -1,0 +1,206 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Teoría de bandas de los sólidos</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91036</md:content-id>
+  <md:title>Teoría de bandas de los sólidos</md:title>
+  <md:abstract><para>Al final de esta sección podrá:</para><list>
+<item>Describir dos enfoques principales para determinar los niveles de energía de un electrón en un cristal.</item>
+<item>Explicar la presencia de bandas de energía y brechas en la estructura energética de un cristal.</item>
+<item>Explicar por qué algunos materiales son buenos conductores y otros son buenos aislantes.</item>
+<item>Diferenciar entre un aislante y un semiconductor.</item></list></md:abstract>
+  <md:uuid>6984fd7b-d225-46c4-bb06-07e9e85078f7</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101900682">El modelo de electrones libres explica muchas propiedades importantes de los conductores, pero es débil en al menos dos áreas. En primer lugar, asume una energía potencial constante dentro del sólido. (Recordemos que una energía potencial constante está asociada a la ausencia de fuerzas). La <link target-id="CNX_UPhysics_42_05_Coulomb"/> compara la suposición de una energía potencial constante (línea punteada) con el potencial periódico de Coulomb, que cae como <m:math><m:mrow><m:mn>−1</m:mn><m:mtext>/</m:mtext><m:mi>r</m:mi></m:mrow></m:math> en cada punto de la red, donde <emphasis effect="italics">r</emphasis> es la distancia al núcleo de iones (línea sólida). En segundo lugar, el modelo de electrones libres supone una barrera impenetrable en la superficie. Esta suposición no es válida, porque en determinadas condiciones, los electrones pueden escapar de la superficie, como en el efecto fotoeléctrico. Además de estas suposiciones, el modelo de electrones libres no explica las dramáticas diferencias en las propiedades electrónicas de los conductores, semiconductores y aislantes. Por lo tanto, se necesita un modelo más completo.</para>
+<figure id="CNX_UPhysics_42_05_Coulomb">
+<media id="fs-id1172097351540" alt="La figura muestra tres estructuras en forma de U invertida en una fila y dos incompletas a cada lado de la fila. Hay puntos rojos en la parte inferior entre dos cifras consecutivas, con signos de suma debajo. La distancia entre dos puntos consecutivos es a. Las formas se marcan como menos 1 por r. Hay un punto justo encima de las formas. Está marcado como energía potencial constante aproximada.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_05_Coulomb.jpg"/>
+</media>
+<caption>El potencial periódico utilizado para modelar los electrones en un conductor. Cada ion en el sólido es la fuente de un potencial de Coulomb. Observe que el modelo de electrones libres es productivo porque la media de este campo es aproximadamente constante.</caption>
+</figure>
+<para id="fs-id1172101758889">Podemos producir un modelo mejorado resolviendo la ecuación de Schrödinger para el potencial periódico que se muestra en la <link target-id="CNX_UPhysics_42_05_Coulomb"/>. Sin embargo, la solución requiere una matemática técnica que está fuera de nuestro alcance. Volvemos a buscar un argumento cualitativo con base en la mecánica cuántica para encontrar una vía.</para>
+<para id="fs-id1172099660684">En primer lugar, repasamos el argumento utilizado para explicar la estructura energética de un enlace covalente. Considere dos átomos de hidrógeno idénticos tan alejados que no existe interacción alguna entre ellos. Supongamos además que el electrón de cada átomo se encuentra en el mismo estado fundamental: un electrón 1<emphasis effect="italics">s</emphasis> con una energía de <m:math><m:mrow><m:mn>−13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math> (ignore el espín). Cuando los átomos de hidrógeno se acercan, las funciones de onda individuales de los electrones se superponen y, por el principio de exclusión, ya no pueden estar en el mismo estado cuántico, lo que divide los niveles de energía equivalentes originales en dos niveles de energía diferentes. Las energías de estos niveles dependen de la distancia interatómica, <m:math><m:mi>α</m:mi></m:math> (<link target-id="CNX_UPhysics_42_05_EnLevSplit"/>).</para>
+<para id="fs-id1172099627892">Si se juntan cuatro átomos de hidrógeno, se forman cuatro niveles a partir de las cuatro simetrías posibles: una sola "joroba" de onda sinusoidal en cada pozo, alternando arriba y abajo, y así sucesivamente. En el límite de un número muy grande <emphasis effect="italics">N</emphasis> de átomos, esperamos una propagación de bandas casi continuas de niveles de energía electrónica en un sólido (vea la <link target-id="CNX_UPhysics_42_05_EnLevSplit"/>(c)). Cada una de estas bandas se conoce como <term>banda de energía</term>. (Los estados permitidos de energía y número de onda siguen siendo técnicamente cuantizados, pero en un gran número de átomos estos estados están tan cerca entre sí que se consideran continuos o "en el continuo").</para>
+<para id="fs-id1172102031756">Las bandas de energía se diferencian por el número de electrones que contienen. En las bandas de energía 1<emphasis effect="italics">s</emphasis> y 2<emphasis effect="italics">s</emphasis>, cada nivel de energía contiene hasta dos electrones (espín arriba y espín abajo), por lo que esta banda tiene una ocupación máxima de 2<emphasis effect="italics">N</emphasis> electrones. En la banda de energía 2<emphasis effect="italics">p</emphasis>, cada nivel de energía tiene hasta seis electrones, por lo que esta banda tiene una ocupación máxima de 6<emphasis effect="italics">N</emphasis> electrones (<link target-id="CNX_UPhysics_42_05_EnBands"/>).</para>
+<figure id="CNX_UPhysics_42_05_EnLevSplit">
+<media id="fs-id1172101717280" alt="Se muestran tres gráficos de E en función de R. La figura a tiene una curva formada por dos líneas casi verticales que bajan, giran a la derecha y se vuelven casi horizontales. Convergen para formar una sola línea. La figura b tiene una curva similar, pero hay dos líneas adicionales entre las líneas presentes en la figura a. La figura c es similar a la figura a con un área sombreada entre las líneas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_05_EnLevSplit.jpg"/>
+</media>
+<caption>La dependencia de la división del nivel de energía en la distancia media entre (a) dos átomos, (b) cuatro átomos, y (c) un gran número de átomos. Para un gran número de electrones, se produce una banda continua de energías.</caption>
+</figure>
+<figure id="CNX_UPhysics_42_05_EnBands">
+<media id="fs-id1172097148508" alt="La figura muestra tres rectángulos sombreados, uno encima de otro, separados por espacios. El más bajo está etiquetado como 1s, el del medio como 2s y el de arriba como 2p. 1s y 2s tienen la misma altura, 2p es más alto. Todos tienen el mismo ancho. A la izquierda de los rectángulos hay una flecha etiquetada como energía que apunta hacia arriba.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_05_EnBands.jpg"/>
+</media>
+<caption>Una representación sencilla de la estructura energética de un sólido. Los electrones pertenecen a bandas de energía separadas por brechas energéticas.</caption>
+</figure>
+<para id="fs-id1172102040645">Cada banda de energía está separada de la otra por una <term>brecha energética</term>. Las propiedades eléctricas de los conductores y los aislantes pueden entenderse en términos de bandas y brechas de energía. La banda de mayor energía que se llena se conoce como <term>banda de valencia</term>. La siguiente banda disponible en la estructura energética se conoce como <term>banda de conducción</term>. En un conductor, la banda de energía más alta que contiene electrones está parcialmente llena, mientras que en un aislante, la banda de energía más alta que contiene electrones está completamente llena. La diferencia entre un conductor y un aislante se ilustra en la <link target-id="CNX_UPhysics_42_05_HighEnBand"/>.</para>
+<para id="fs-id1172099683005">Un conductor se diferencia de un aislante en la forma en que sus electrones responden a un campo eléctrico aplicado. Si un número significativo de electrones se pone en movimiento por el campo, el material es un conductor. En términos del modelo de banda, los electrones en la banda de conducción parcialmente llena ganan energía cinética del campo eléctrico llenando estados de mayor energía en la banda de conducción. Por el contrario, en un aislante, los electrones pertenecen a las bandas completamente llenas. Cuando se aplica el campo, los electrones no pueden realizar dichas transiciones (adquirir energía cinética del campo eléctrico) debido al principio de exclusión. Como resultado, el material no conduce la electricidad.</para>
+<figure id="CNX_UPhysics_42_05_HighEnBand">
+<media id="fs-id1172097137801" alt="Dos figuras tienen un rectángulo en la parte inferior marcado como banda de valencia, un espacio en el medio marcado como brecha energética y un rectángulo en la parte superior marcado como banda de conducción. En la figura a, marcada como conductor: banda de valencia rellena, banda de conducción sin rellenar, el rectángulo inferior está sombreado y el superior solo en la mitad inferior. En la figura b, marcada como aislante: banda de valencia llena, banda de conducción llena, ambos rectángulos están totalmente sombreados.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_05_HighEnBand.jpg"/>
+</media>
+<caption>Comparación de un conductor y un aislante. La banda de energía más alta está parcialmente llena en un conductor, pero completamente llena en un aislante.</caption>
+</figure>
+<note id="fs-id1172099417553" class="media-2">
+<para id="fs-id1172101673014">Visite esta <link url="https://openstax.org/l/21bandstructure_es">simulación</link> para conocer el origen de las bandas de energía en los cristales de los átomos y cómo la estructura de las bandas determina la forma en que un material conduce la electricidad. Explore cómo la estructura de bandas crea una red de muchos pozos.</para>
+</note>
+<para id="fs-id1172099473560">Un <term>semiconductor</term> tiene una estructura energética similar a la de un aislante, salvo que tiene una brecha energética relativamente pequeña entre la banda más baja completamente llena y la siguiente banda disponible sin llenar. Este tipo de material constituye la base de la electrónica moderna. En <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>, el semiconductor y el aislante tienen bandas completamente llenas. La única diferencia está en el tamaño de la brecha energética (o <emphasis effect="italics">brecha de banda</emphasis>) <emphasis effect="italics">E<sub>g</sub></emphasis> entre la banda de energía más alta que se llena (la banda de valencia) y la banda vacía inmediatamente superior (la banda de conducción). En un semiconductor, este hueco es lo suficientemente pequeño como para que un número importante de electrones de la banda de valencia se excite térmicamente hacia la banda de conducción a temperatura ambiente. Estos electrones se encuentran entonces en una banda casi vacía y pueden responder a un campo aplicado. Como regla general, la brecha de banda de un semiconductor es de aproximadamente 1 eV. (Vea la <link target-id="fs-id1172099415754"/> para la silicona). Una brecha de banda superior a aproximadamente 1 eV se considera un aislante. A modo de comparación, la brecha energética del diamante (un aislante) es de varios electronvoltios.</para>
+<table id="fs-id1172099415754" summary="This table has two columns, 9 rows and a header row. The header row labels each column material and energy gap E subscript g in eV. The first column has the following entries: Si, Ge, GaAs, GaP, GaSb, InAs, InP, InSb and C or diamond. The second column has the following values: 1.12, 0.67, 1.43, 2.26, 0.69, 0.35, 1.35, 0.16, 5.48.">
+<title>Brecha energética de varios materiales a 300 K</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Material</entry>
+<entry valign="top" align="center">Brecha energética <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>g</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Si</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1,14</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>Ge</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0,67</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>GaAs</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1,43</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>GaP</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>2,26</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>GaSb</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0,69</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>InAs</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0,35</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>InP</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1,35</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>InSb</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0,16</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>C</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>diamante</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>5,48</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+<caption>Nota: A excepción del diamante, todos los materiales mencionados son semiconductores.</caption>
+</table>
+<section id="fs-id1172099418350" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172101747624" list-type="bulleted" bullet-style="bullet">
+<item>Los niveles de energía de un electrón en un cristal pueden determinarse resolviendo la ecuación de Schrödinger para un potencial periódico y estudiando los cambios en la estructura energética del electrón cuando los átomos son empujados juntos a distancia.</item>
+<item>La estructura energética de un cristal se caracteriza por la existencia de bandas de energía continuas y brechas energéticas.</item>
+<item>La capacidad de un sólido para conducir la electricidad depende de la estructura energética del mismo.</item>
+</list>
+</section>
+<section id="fs-id1172102130565" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172101912160">
+<problem id="fs-id1172101707247">
+<para id="fs-id1172101774278">¿Cuáles son los dos enfoques principales utilizados para determinar los niveles de energía de los electrones en un cristal?</para>
+</problem>
+<solution id="fs-id1172099489816">
+<para id="fs-id1172099702494">(1) Resolver la ecuación de Schrödinger para los estados y energías permitidos. (2) Determinar los niveles de energía para el caso de un espaciado de red muy grande y luego determinar los niveles de energía a medida que se reduce este espaciado.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099666597">
+<problem id="fs-id1172102103725">
+<para id="fs-id1172102004664">Describa dos características de los niveles de energía de un electrón en un cristal.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172097272472">
+<problem id="fs-id1172101839027">
+<para id="fs-id1172099605789">¿Cómo se corresponde el número de niveles de energía de una banda con el número, <emphasis effect="italics">N</emphasis> de átomos?</para>
+</problem>
+<solution id="fs-id1172102051247">
+<para id="fs-id1172099624833">Para <emphasis effect="italics">N</emphasis> átomos separados entre sí, hay <emphasis effect="italics">N</emphasis> funciones de onda diferentes, todas con la misma energía (similar al caso de un electrón en el pozo doble de <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Al juntar los átomos, las energías de estas funciones de onda <emphasis effect="italics">N</emphasis> diferentes se dividen. Por el principio de exclusión, cada electrón debe tener un único conjunto de números cuánticos, por lo que los átomos <emphasis effect="italics">N</emphasis> que reúnen electrones <emphasis effect="italics">N</emphasis> deben tener al menos estados <emphasis effect="italics">N</emphasis>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101674098">
+<problem id="fs-id1172099418263">
+<para id="fs-id1172102144513">¿Por qué algunos materiales son muy buenos conductores y otros muy malos?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099526006">
+<problem id="fs-id1172099381763">
+<para id="fs-id1172101915387">¿Por qué algunos materiales son semiconductores?</para>
+</problem>
+<solution id="fs-id1172101789459">
+<para id="fs-id1172102124983">En un semiconductor, existe una brecha energética relativamente grande entre la banda más baja completamente llena y la siguiente banda disponible sin llenar. Normalmente, un número de electrones atraviesa la brecha y, por tanto, la conductividad eléctrica es pequeña. Las propiedades de un semiconductor son sensibles a la temperatura: al aumentar la temperatura, las excitaciones térmicas promueven portadores de carga desde la banda de valencia a través de la brecha y hacia la banda de conducción.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099385057">
+<problem id="fs-id1172101759306">
+<para id="fs-id1172099665169">¿Por qué la resistencia de un semiconductor disminuye al aumentar la temperatura?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172102117581" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172101675317">
+<problem id="fs-id1172101802221">
+<para id="fs-id1172101899674">Para un cristal unidimensional, escriba el espaciamiento de la red (<emphasis effect="italics">a</emphasis>) en términos de la longitud de onda del electrón.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101772757">
+<problem id="fs-id1172101672070">
+<para id="fs-id1172099766709">¿Cuál es la principal diferencia entre un aislante y un semiconductor?</para>
+</problem>
+<solution id="fs-id1172102078852">
+<para id="fs-id1172101699328">En un aislante, la brecha energética entre la banda de valencia y la banda de conducción es mayor que en un semiconductor.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099409413">
+<problem id="fs-id1172101735823">
+<para id="fs-id1172099495103">¿Cuál es la mayor longitud de onda para un fotón que puede excitar un electrón de valencia en la banda de conducción a través de una brecha energética de 0,80 eV?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099625761">
+<problem id="fs-id1172099724458">
+<para id="fs-id1172102138990">Un electrón de valencia en un cristal absorbe un fotón de longitud de onda, <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>0,300</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math>. Es la energía suficiente para que el electrón salte de la banda de valencia a la banda de conducción. ¿Cuál es el tamaño de la brecha energética?</para>
+</problem>
+<solution id="fs-id1172099601773">
+<para id="fs-id1172101922998">4,13 keV</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172099478632">
+<term>banda de conducción</term>
+<meaning id="fs-id1172101807559">por encima de la banda de valencia, la siguiente banda disponible en la estructura energética de un cristal.</meaning>
+</definition>
+<definition id="fs-id1172099375794">
+<term>banda de energía</term>
+<meaning id="fs-id1172101926324">banda casi continua de niveles de energía electrónica en un sólido.</meaning>
+</definition>
+<definition id="fs-id1172102132430">
+<term>brecha energética</term>
+<meaning id="fs-id1172099626608">brecha entre bandas de energía en un sólido</meaning>
+</definition>
+<definition id="fs-id1172099897659">
+<term>semiconductor</term>
+<meaning id="fs-id1172102095353">sólido con una brecha de energía relativamente pequeña entre la banda más baja completamente llena y la siguiente banda disponible sin llenar.</meaning>
+</definition>
+<definition id="fs-id1172099756371">
+<term>banda de valencia</term>
+<meaning id="fs-id1172101928595">banda de energía más alta que se llena en la estructura energética de un cristal.</meaning>
+</definition>
+</glossary>
+
+</document>

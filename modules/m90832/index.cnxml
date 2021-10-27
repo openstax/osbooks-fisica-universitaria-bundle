@@ -1,0 +1,444 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Distribución de las velocidades moleculares</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90832</md:content-id>
+  <md:title>Distribución de las velocidades moleculares</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir la distribución de las velocidades moleculares en un gas ideal.</item>
+<item>Calcular las velocidades moleculares medias y más probable en un gas ideal.</item></list></md:abstract>
+  <md:uuid>2c81fbd6-a460-41fd-b8c6-8d385110511e</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172100537005">Las partículas de un gas ideal se desplazan todas a velocidades relativamente altas, pero no con la misma rapidez. La velocidad rms es un tipo de promedio, pero muchas partículas se mueven más rápido y otras más lento. La distribución real de las velocidades tiene varias implicaciones interesantes para otras áreas de la física, como veremos en capítulos posteriores.</para>
+<section id="fs-id1172098606572">
+<title>La distribución de Maxwell-Boltzmann</title>
+<para id="fs-id1172100978963">El movimiento de las moléculas en un gas es aleatorio en magnitud y dirección para moléculas individuales, pero un gas de muchas moléculas tiene una distribución predecible de velocidades moleculares. Esta distribución predecible de las velocidades moleculares se conoce como <term>distribución de Maxwell-Boltzmann</term>, en honor a sus creadores, que la calcularon basándose en la teoría cinética, y desde entonces se ha confirmado experimentalmente (<link target-id="CNX_UPhysics_19_04_MaxBoltz"/>).</para>
+<para id="fs-id1172098768637">Para entender esta figura, debemos definir una función de distribución de las velocidades moleculares, ya que, con un número finito de moléculas, la probabilidad de que una molécula tenga exactamente una velocidad determinada es 0.</para>
+<figure id="CNX_UPhysics_19_04_MaxBoltz"><media id="fs-id1172100634196" alt="La figura es un gráfico de probabilidad versus velocidad v en metros por segundo del gas oxígeno a 300 kelvin. El gráfico tiene una probabilidad máxima a una velocidad V p de algo menos de 400 metros por segundo y una probabilidad media cuadrática a una velocidad v r m s de unos 500 metros por segundo. La probabilidad es cero en el origen y tiende a cero en el infinito. El gráfico no es simétrico, sino que es más pronunciado a la izquierda que a la derecha del pico.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_04_MaxBoltz.jpg"/>
+</media>
+
+<caption>La distribución de Maxwell-Boltzmann de velocidades moleculares en un gas ideal. La velocidad más probable <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>p</m:mtext></m:msub></m:mrow></m:math> es menor que la velocidad rms <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:math>. Aunque es posible alcanzar velocidades muy altas, solo una pequeña fracción de las moléculas tiene velocidades de un orden de magnitud superior a <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math>
+</caption></figure><para id="fs-id1172100562279">Definimos la función de distribución<m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> diciendo que el número esperado <m:math><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> de partículas con velocidades entre <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> viene dado por</para>
+<equation id="fs-id1172100758977" class="unnumbered"><label/><m:math><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>N</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mspace width="0.2em"/><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1172100736067">(Como <emphasis effect="italics">N</emphasis> es adimensional, la unidad de <emphasis effect="italics">f</emphasis>[<emphasis effect="italics">v</emphasis>] es el segundo por metro). Podemos escribir esta ecuación convenientemente en forma diferencial:</para>
+<equation id="fs-id1172100980455" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>N</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100895496">En esta forma, podemos entender la ecuación como que el número de moléculas con velocidades entre <emphasis effect="italics">v</emphasis> y <m:math><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow></m:math> es el número total de moléculas de la muestra por <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">v</emphasis>) por <emphasis effect="italics">dv</emphasis>. Es decir, la probabilidad de que la velocidad de una molécula esté entre <emphasis effect="italics">v</emphasis> y <m:math><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow></m:math> es <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">v</emphasis>)<emphasis effect="italics">dv</emphasis>.</para>
+<para id="fs-id1172098450226">Ahora podemos citar el resultado de Maxwell, aunque la demostración está fuera de nuestro alcance.</para>
+<note id="fs-id1172098643634">
+<title>Distribución de velocidades de Maxwell-Boltzmann</title>
+<para id="fs-id1172098601090">La función de distribución para las velocidades de las partículas en un gas ideal a temperatura <emphasis effect="italics">T</emphasis> es</para>
+<equation id="fs-id1172098450860"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mo>(</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mo>(</m:mo><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172098352511">Los factores antes de la <m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> son una constante de normalización; aseguran que <m:math><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>N</m:mi></m:mrow></m:math> asegurándose de que <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mspace width="0.2em"/><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Centrémonos en la dependencia de <emphasis effect="italics">v</emphasis>. El factor de <m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> significa que <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> y para una <emphasis effect="italics">v</emphasis> pequeña, la curva parece una parábola. El factor de <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup></m:mrow></m:math> significa que <m:math><m:mrow><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> y el gráfico tiene una cola exponencial, lo que indica que unas pocas moléculas pueden moverse a varias veces la velocidad rms. La interacción de estos factores da a la función la forma de pico único que se muestra en la figura.</para>
+<example id="fs-id1172101004058">
+<para id="fs-id1172098448809"><title>Calcular la relación de números de moléculas cerca de velocidades dadas</title>
+En una muestra de nitrógeno <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> con una masa molar de 28,0 g/mol) a una temperatura de <m:math><m:mrow><m:mn>273</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, calcule la relación entre el número de moléculas con una velocidad muy cercana a 300 m/s y el número con una velocidad muy cercana a 100 m/s.</para>
+<para id="fs-id1172100901163"><title>Estrategia</title>
+Como estamos viendo un rango pequeño, podemos aproximar el número de moléculas cerca de 100 m/s como <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>N</m:mi><m:mrow><m:mn>100</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math> Entonces la relación que queremos es</para>
+<equation id="fs-id1172100777177" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>N</m:mi><m:mrow><m:mn>300</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:msub><m:mi>N</m:mi><m:mrow><m:mn>100</m:mn></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172100720964">Todo lo que tenemos que hacer es tomar la relación de los dos valores de <emphasis effect="italics">f</emphasis>.</para>
+<para id="fs-id1172098648028"><title>Solución</title></para>
+<list id="fs-id1172100596325" list-type="enumerated" number-style="arabic">
+<item>Identifique los aspectos conocidos y conviértalos a unidades del SI de ser necesario.
+<equation id="fs-id1172100663949" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1,38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext></m:mrow></m:math></equation>
+<equation id="fs-id1172100634342" class="unnumbered"><label/><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>0,0280</m:mn><m:mspace width="0.2em"/><m:mtext>kg/mol</m:mtext><m:mspace width="0.2em"/><m:mtext>así que</m:mtext><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>4,65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−26</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math></equation></item>
+<item>Sustituya los valores y resuelva.
+<equation id="fs-id1172100529965" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>exp</m:mtext><m:mo stretchy="false">[</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo stretchy="false">]</m:mo></m:mrow><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>exp</m:mtext><m:mo stretchy="false">[</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo stretchy="false">]</m:mo></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>exp</m:mtext><m:mo stretchy="false">[</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>4,65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−26</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1,38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>exp</m:mtext><m:mo stretchy="false">[</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>4,65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−26</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1,38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>exp</m:mtext><m:mrow><m:mo>[</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4,65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−26</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">[</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">]</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1,38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>5,74</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+</example>
+<para id="fs-id1172101040458">En la <link target-id="CNX_UPhysics_19_04_MaxBoltz2"/> se muestra que la curva se desplaza hacia velocidades más altas a temperaturas más elevadas, con un rango de velocidades más amplio.</para>
+<figure id="CNX_UPhysics_19_04_MaxBoltz2"><media id="fs-id1172100673632" alt="En el mismo gráfico se representan dos distribuciones de probabilidad versus velocidad v en metros por segundo a dos temperaturas diferentes, T uno y T dos. La temperatura dos es mayor que la temperatura uno. La distribución para T dos tiene un pico más amplio con un máximo a mayor velocidad y menor probabilidad que la distribución para la temperatura uno.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_04_MaxBoltz2_new.jpg"/>
+</media>
+
+<caption>La distribución de Maxwell-Boltzmann se desplaza a velocidades más altas y se ensancha a temperaturas más altas.</caption></figure><note id="fs-id1172098436344" class="media-2">
+<para id="fs-id1172100727824">Con un número relativamente pequeño de moléculas, la distribución de velocidades fluctúa en torno a la distribución de Maxwell-Boltzmann. Sin embargo, puede observar esta <link url="https://openstax.org/l/21maxboltzdisim">simulación</link> para ver las características esenciales de que las moléculas más masivas se mueven más lentamente y tienen una distribución más estrecha. Use la configuración “2 gases, velocidades aleatorias”. Fíjese en la pantalla de la parte inferior que compara histogramas de las distribuciones de velocidad con las curvas teóricas.</para>
+</note>
+<para id="fs-id1172101008511">Podemos utilizar una distribución de probabilidad para calcular los valores medios al multiplicar la función de distribución por la cantidad media e integrar el producto sobre todas las velocidades posibles (esto es análogo al cálculo de medias de distribuciones discretas, donde se multiplica cada valor por el número de veces que se produce, se suman los resultados y se dividen entre el número de valores. La integral es análoga a los dos primeros pasos, y la normalización es análoga a dividir entre el número de valores). Así, la velocidad media es</para>
+<note id="fs-id1172098704349" class="equation-callout">
+<equation id="fs-id1172098515378"><label/><m:math><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:mi>v</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>8</m:mn><m:mi>π</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:msqrt><m:mrow><m:mfrac><m:mn>8</m:mn><m:mi>π</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow><m:mi>M</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:msqrt></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172100648577">De la misma manera,</para>
+<equation id="fs-id1172100546933" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow><m:mi>M</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></equation>
+<para id="fs-id1172100627709">como en la sección <link document="m90830">Presión, temperatura y velocidad media cuadrática (rms)</link>. La <term>rapidez más probable</term>, también llamada <term>velocidad máxima</term> <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> es la velocidad en el pico de la distribución de la velocidad (en estadística se llamaría la moda). <sub/>Es menor que la velocidad rms<m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> La rapidez más probable se puede calcular por el método más conocido de establecer la derivada de la función de distribución, con respecto a <emphasis effect="italics">v</emphasis>, igual a 0. El resultado es</para>
+<note id="fs-id1172098566898" class="equation-callout">
+<equation id="fs-id1172100827592"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow><m:mi>M</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172096229842">que es menor que <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> De hecho, la velocidad rms es mayor que la rapidez más probable y la rapidez media.</para>
+<para id="fs-id1172098458571">La velocidad máxima proporciona una forma a veces más conveniente de escribir la función de distribución de Maxwell-Boltzmann: </para><equation id="eip-277"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt><m:msubsup><m:mi>v</m:mi><m:mi>p</m:mi><m:mn>3</m:mn></m:msubsup></m:mrow></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msubsup><m:mi>v</m:mi><m:mi>p</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:msup></m:mrow></m:math></equation><para id="fs-id1172100751316">En el factor <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup></m:mrow></m:math>, es fácil reconocer la energía cinética traslacional. Por lo tanto, esa expresión es igual a <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>K</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> La distribución <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">v</emphasis>) se puede transformar en una distribución de energía cinética al requerir que <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>K</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>K</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math> Boltzmann demostró que la fórmula resultante es mucho más aplicable en general si sustituimos la energía cinética de traslación por la energía mecánica total <emphasis effect="italics">E</emphasis>. El resultado de Boltzmann es</para>
+<equation id="fs-id1172100893592" class="unnumbered"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>−3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:msqrt><m:mi>E</m:mi></m:msqrt><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>E</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msqrt><m:mi>E</m:mi></m:msqrt></m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>E</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098427006">La primera parte de esta ecuación, con el exponencial negativo, es la forma habitual de escribirla. Damos la segunda parte solo para comentar que <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>E</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup></m:mrow></m:math> en el denominador es omnipresente tanto en la mecánica estadística cuántica como en la clásica.</para>
+<note id="fs-id1172101037761" class="problem-solving">
+<title>Distribución de rapidez</title>
+<para id="fs-id1172096196374"><emphasis effect="bold">Paso 1.</emphasis> Examine la situación para determinar que se relaciona con la distribución de las velocidades moleculares.</para>
+<para id="fs-id1172098759169"><emphasis effect="bold">Paso 2.</emphasis> Haga una lista de las cantidades que se dan o pueden deducirse del problema tal y como está planteado (identifique las cantidades conocidas).</para>
+<para id="fs-id1172100525027"><emphasis effect="bold">Paso 3.</emphasis> Identifique exactamente lo que hay que determinar en el problema (identifique las cantidades desconocidas). Una lista escrita es útil.</para>
+<para id="fs-id1172098577368"><emphasis effect="bold">Paso 4.</emphasis> Convierta los valores conocidos en unidades adecuadas del SI (K para temperatura, Pa para presión, <m:math><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math> para volumen, moléculas para <emphasis effect="italics">N</emphasis> y moles para <emphasis effect="italics">n</emphasis>). Sin embargo, en muchos casos, usar <emphasis effect="italics">R</emphasis> y la masa molar será más conveniente que usar <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math> y la masa molecular.</para>
+<para id="fs-id1172098601750"><emphasis effect="bold">Paso 5.</emphasis> Determine si necesita la función de distribución de la velocidad o la de la energía, y si usa una fórmula para una de las velocidades características (media, más probable o rms), halle una relación de valores de la función de distribución, o aproxime una integral.</para>
+<para id="fs-id1172096388123"><emphasis effect="bold">Paso 6.</emphasis> Despeje la ecuación apropiada de la ley de los gases ideales para la cantidad a determinar (la cantidad desconocida). Note que si está tomando una relación de valores de la función de distribución, los factores de normalización se dividen. O si se trata de aproximar una integral, use el método que se pide en el problema.</para>
+<para id="fs-id1172096332443"><emphasis effect="bold">Paso 7.</emphasis> Sustituya las cantidades conocidas, junto con sus unidades, en la ecuación apropiada y obtenga soluciones numéricas completas con unidades.</para>
+</note>
+<para id="fs-id1172098704675">Ahora podemos comprender cualitativamente un enigma sobre la composición de la atmósfera terrestre. El hidrógeno es, por mucho, el elemento más común del universo, y el helio es, por mucho, el segundo más común. Además, el helio se produce constantemente en la Tierra por decaimiento radiactivo. ¿Por qué esos elementos son tan poco comunes en nuestra atmósfera? La respuesta es que las moléculas de gas que alcanzan velocidades superiores a la velocidad de escape de la Tierra, unos 11 km/s, pueden escapar de la atmósfera al espacio. Debido a la menor masa de las moléculas de hidrógeno y helio, se mueven a mayor velocidad que las moléculas de otros gases, como el nitrógeno y el oxígeno. Solo unas pocas superan la velocidad de escape, pero muchas menos moléculas más pesadas lo hacen. Así, a lo largo de los miles de millones de años que ha existido la Tierra, se han escapado de la atmósfera muchas más moléculas de hidrógeno y helio que de otras moléculas, y en la actualidad apenas hay ninguna de ellas.</para>
+<para id="fs-id1172098581949">Ahora también podemos echar un vistazo a la refrigeración por evaporación, de la que hablamos en el capítulo sobre la temperatura y el calor. Los líquidos, como los gases, tienen una distribución de energías moleculares. Las moléculas de mayor energía son las que pueden escapar de las atracciones intermoleculares del líquido. Así, cuando un líquido se evapora, las moléculas que quedan tienen una energía promedio más baja, y el líquido tiene una temperatura más baja.</para>
+</section>
+<section id="fs-id1172100988004" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172098515283" list-type="bulleted" bullet-style="bullet">
+<item>El movimiento de las moléculas individuales en un gas es aleatorio en magnitud y dirección. Sin embargo, un gas de muchas moléculas tiene una distribución predecible de velocidades moleculares, conocida como la distribución de Maxwell-Boltzmann.</item>
+<item>Las velocidades media y más probable de las moléculas que tienen la distribución de velocidad de Maxwell-Boltzmann, así como la velocidad rms, se pueden calcular a partir de la temperatura y la masa molecular.</item>
+</list>
+</section>
+<section id="fs-id1172098405302" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1172100938627" class="unnumbered unstyled" summary="Fifteen key equations are given. Ideal gas law in terms of molecules is p V equals N k sub B T. Ideal gas law ratios if the amount of gas is constant is P 1 V 1 over T 1 equals P 2 V 2 over T 2. Ideal gas law in terms of moles is p V equals n R T. Van der Waals equation is open parentheses p plus a times the square of the fraction n over V close parentheses, all times open parentheses V minus n times b close parentheses equals n R T. Pressure, volume, and molecular speed is p V equals one third times N m times the average of v squared. Root-mean-square speed is v sub r m s equals square root of the fraction 3 R T over M which also equals square root of the fraction 3 k sub B T over m. Mean free path is lambda equals the fraction V divided by the quantity 4 pi N r squared square root of 2, which also equals the fraction k sub B T divided by the quantity 4 pi N p r squared square root of 2. The following two equations apply only to a monatomic ideal gas: Average kinetic energy of a molecule is K bar equals three halves times k sub B T. Internal energy is E sub int equals three halves times k sub B T. Heat in terms of molar heat capacity at constant volume is Q equals n C sub v Delta T. Molar heat capacity at constant volume for an ideal gas with d degrees of freedom is V sub V equals R times d over 2. Maxwell–Boltzmann speed distribution is f of v equals the product of the following factors: the fraction 4 over square root of pi, the 3 halves power of the fraction m divided by 2 k sub B T , the quantity v squared, and the quantity e to the power minus m v squared divided by 2 k sub B T. Average velocity of a molecule is v bar equals square root of the fraction 8 k sub B T divided by pi m. This also equals square root of the fraction 8 R T divided by pi M. Peak velocity of a molecule is v sub p equals square root of the fraction 2 k sub B T divided by pi m. This also equals square root of the fraction 2 R T divided by pi M.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Ley de los gases ideales en términos de moléculas</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Relaciones de la ley de los gases ideales si la cantidad de gas es constante</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ley de los gases ideales en términos de moles</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ecuación de van der Waals</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>n</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>]</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>V</m:mi><m:mtext>−</m:mtext><m:mi>n</m:mi><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Presión, volumen y velocidad molecular</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mtext/><m:mspace width="0.2em"/><m:mtext>​</m:mtext><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>N</m:mi><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Velocidad media cuadrática</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow><m:mi>M</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Trayectoria libre media</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mrow><m:mn>4</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>N</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>p</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Tiempo libre medio</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>p</m:mi><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Las dos ecuaciones siguientes solo se aplican a un gas ideal monoatómico:</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energía cinética promedio de una molécula</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mover accent="true"><m:mi>K</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energía interna</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>N</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Calor en términos de capacidad calorífica molar a volumen constante</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacidad calorífica molar a volumen constante para un gas ideal con <emphasis effect="italics">d</emphasis> grados de libertad</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Distribución de velocidad de Maxwell-Boltzmann</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Velocidad media de una molécula</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>8</m:mn><m:mi>π</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>8</m:mn><m:mi>π</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow><m:mi>M</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Velocidad máxima de una molécula</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow><m:mi>M</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1172098600913" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1172098699963">
+<problem id="fs-id1172098497962">
+<para id="fs-id1172098497964">Un cilindro contiene gas helio y otro contiene gas criptón a la misma temperatura. Marque cada uno de estos enunciados como verdadero, falso o imposible de determinar a partir de la información dada. (a) Las velocidades rms de los átomos en los dos gases son las mismas. (b) Las energías cinéticas promedio de los átomos en los dos gases son las mismas. (c) Las energías internas de 1 mol de gas en cada cilindro son las mismas. (d) Las presiones en los dos cilindros son las mismas.</para>
+</problem>
+<solution id="fs-id1172100925272">
+<para id="fs-id1172100857936">a. falso; b. verdadero; c. verdadero; d. verdadero</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100952509">
+<problem id="fs-id1172100650093">
+<para id="fs-id1172100650095">Repita la pregunta anterior si uno de los gases sigue siendo helio pero el otro se cambia por flúor, <m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100971035">
+<problem id="fs-id1172100971037">
+<para id="fs-id1172100840574">Un gas ideal está a una temperatura de 300 K. Para duplicar la rapidez media de sus moléculas, ¿a qué temperatura hay que cambiar?</para>
+</problem>
+<solution id="fs-id1172100799969">
+<para id="fs-id1172100576297">1.200 K</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172098756567" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172098561202">
+<problem id="fs-id1172098561204">
+<para id="fs-id1172098318082">En una muestra de sulfuro de hidrógeno <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>34,1</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> a una temperatura de <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>,</m:mo></m:mrow></m:math> estime la relación del número de moléculas que tienen velocidades muy cercanas a <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:math> al número que tiene velocidades muy cercanas a <m:math><m:mrow><m:mn>2</m:mn><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100675137">
+<problem id="fs-id1172100675139">
+<para id="fs-id1172098408860">Mediante la aproximación <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow></m:msubsup><m:mspace width="0.2em"/><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>≈</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> para <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow></m:math> pequeño, estime la fracción de moléculas de nitrógeno a una temperatura de <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> que tienen velocidades entre 290 m/s y 291 m/s.</para>
+</problem>
+<solution id="fs-id1172100922647">
+<para id="fs-id1172100922649">0,00157</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098267800">
+<problem id="fs-id1172098267802">
+<para id="fs-id1172100628795">Use el método del problema anterior y estime la fracción de moléculas de óxido nítrico (NO) a una temperatura de 250 K que tienen energías entre <m:math><m:mrow><m:mn>3,45</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> y<m:math><m:mrow><m:mn>3,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100876370">
+<problem id="fs-id1172098497684">
+<para id="fs-id1172098497686">Cuente los cuadrados de la siguiente figura y estime la fracción de átomos de argón a <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> que tienen velocidades entre 600 m/s y 800 m/s. La curva está correctamente normalizada. El valor de un cuadrado es su longitud medida en el eje <emphasis effect="italics">x</emphasis> por su altura medida en el eje <emphasis effect="italics">y</emphasis>, con las unidades dadas en esos ejes.</para>
+<media id="fs-id1172100597258" alt="La figura es un trazado de f de v en segundos por metro como una función de v en metros por segundo. La escala horizontal es de 0 a 1.200 segundos por metro, con líneas de cuadrícula mayores cada 0,0005 y con líneas de cuadrícula menores cada 0,0001. La escala vertical es de 0 a 0,0025 metros por segundo, con líneas de cuadrícula mayores cada 200 y con líneas de cuadrícula menores cada 20. La función alcanza un pico en v igual a unos 350 con un valor de f de unos 0,00235. Los valores adicionales de la función en todo el rango mostrado son los siguientes, en pares ordenados de v y f: 0, 0; 100, 0,0005; 200, 0,0015; 300, 0,0022; 400, 0,0023; 500, 0,00152; 600, 0,001; 700, 0,0005; 800, 0,0002; 900, 0,0001; 1.000 y superiores, 0. De 600 a 800, la función tiene unas coordenadas aproximadas de: 600, 0,001; 620, 0,0009; 640, 0,0008; 660, 0,0007; 680, 0,0007; 700, 0,0005; 720, 0,0004; 740, 0,00035; 760, 0,0003; 780, 0,00023; 800, 0,0002.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_04_MaxBoltzSq_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100652783">
+<para id="fs-id1172101004111">Alrededor de 0,072. Las respuestas pueden variar ligeramente. Una respuesta más precisa es 0,074.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098261169">
+<problem id="fs-id1172098261171">
+<para id="fs-id1172100908622">Use un método de integración numérica como la regla de Simpson y calcule la fracción de moléculas en una muestra de gas oxígeno a una temperatura de 250 K que tienen velocidades entre 100 m/s y 150 m/s. La masa molar del oxígeno <m:math><m:mrow><m:mo>(</m:mo><m:msub><m:mtext>O</m:mtext><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> es de 32,0 g/mol. Una precisión de dos dígitos significativos es suficiente.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100876124">
+<problem id="fs-id1172100876126">
+<para id="fs-id1172101039598">Calcule (a) la rapidez más probable, (b) la rapidez media y (c) la velocidad rms para moléculas de nitrógeno a 295 K.</para>
+</problem>
+<solution id="fs-id1172100598308">
+<para id="fs-id1172100598310">a. 419 m/s; b. 472 m/s; c. 513 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172096057330">
+<problem id="fs-id1172096057332">
+<para id="fs-id1172098432773">Repita el problema anterior para las moléculas de nitrógeno a 2.950 K.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100562563">
+<problem id="fs-id1172098255118">
+<para id="fs-id1172098255120">¿A qué temperatura es la rapidez media de moléculas de dióxido de carbono <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>44,0</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> de 510 m/s?</para>
+</problem>
+<solution id="fs-id1172100800613">
+<para id="fs-id1172100800615">541 K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100894850">
+<problem id="fs-id1172096215815">
+<para id="fs-id1172096215817">La rapidez más probable para las moléculas de un gas a 296 K es de 263 m/s. ¿Cuál es la masa molar del gas? (Puede que le interese averiguar cuál es la probabilidad de que el gas se convierta en algo así).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101040148">
+<problem id="fs-id1172101040150">
+<para id="fs-id1172098779728">a) ¿A qué temperatura moléculas de oxígeno tienen la misma rapidez media que los átomos de helio que <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> tienen 300 K? b) ¿Cuál es la respuesta a la misma pregunta sobre rapidez más probable? c) ¿Cuál es la respuesta a la misma pregunta sobre velocidades rms?</para>
+</problem>
+<solution id="fs-id1172100937422">
+<para id="fs-id1172100937424">2.400 K para las tres partes</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172100730254" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1172098434248">
+<problem id="fs-id1172100814170">
+<para id="fs-id1172100814172">En el espacio profundo entre las galaxias la densidad de las moléculas (que son en su mayoría átomos individuales) puede ser tan baja como <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>átomos/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> y la temperatura es de unos gélidos 2,7 K. ¿Cuál es la presión? (b) ¿Qué volumen (en <m:math><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math>) está ocupado por 1 mol de gas? (c) Si este volumen es un cubo, ¿cuál es la longitud de sus lados en kilómetros?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100751842">
+<problem id="fs-id1172100751844">
+<para id="fs-id1172100551236">(a) Calcule la densidad en unidades del SI del aire a una presión de 1,00 atm y una temperatura de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, asumiendo que el aire es <m:math><m:mrow><m:mn>78</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>N</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mn>21</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>O</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mn>1</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:mtext>Ar</m:mtext></m:mrow></m:math>, (b) Calcule la densidad de la atmósfera en Venus, suponiendo que es <m:math><m:mrow><m:mn>96</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>CO</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>N</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math>, con una temperatura de 737 K y una presión de 92,0 atm.</para>
+</problem>
+<solution id="fs-id1172098529774">
+<para id="fs-id1172098529776">a. <m:math><m:mrow><m:mn>1,20</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>65,9</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098396026">
+<problem id="fs-id1172098396028">
+<para id="fs-id1172098647159">El aire del interior de un globo aerostático tiene una temperatura de 370 K y una presión de 101,3 kPa, la misma que la del aire exterior. Use la composición del aire como <m:math><m:mrow><m:mn>78</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>N</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mn>21</m:mn><m:mtext>%</m:mtext><m:msub><m:mrow><m:mtext>O</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mn>1</m:mn><m:mtext>%</m:mtext><m:mspace width="0.2em"/><m:mtext>Ar</m:mtext></m:mrow></m:math>, y calcule la densidad del aire dentro del globo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100979614">
+<problem id="fs-id1172098779098">
+<para id="fs-id1172098779100">Cuando una burbuja de aire sube desde el fondo hasta la cima de un lago de agua dulce su volumen aumenta en <m:math><m:mrow><m:mn>80</m:mn><m:mi>%</m:mi></m:mrow></m:math>. Si las temperaturas en el fondo y en la parte superior del lago son de 4,0 y 10 <m:math><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, respectivamente, ¿qué profundidad tiene el lago?</para>
+</problem>
+<solution id="fs-id1172096292326">
+<para id="fs-id1172096292329">7,9 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101003487">
+<problem id="fs-id1172098673591">
+<para id="fs-id1172098673594">(a) Use la ecuación de los gases ideales para estimar la temperatura a la que 1,00 kg de vapor de agua (masa molar <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>18,0</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext></m:mrow></m:math>) a una presión de <m:math><m:mrow><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> ocupa un volumen de <m:math><m:mrow><m:mn>0,220</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. (b) Las constantes de van der Waals para el agua son <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0,5537</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>6</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mrow><m:mtext>mol</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>3,049</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/</m:mtext><m:mtext>mol</m:mtext></m:mrow></m:math>. Use la ecuación de estado de van der Waals para estimar la temperatura en las mismas condiciones. (c) La temperatura real es de 779 K. ¿Cuál estimación es mejor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100517002">
+<problem id="fs-id1172100517004">
+<para id="fs-id1172100517006">Un proceso para descafeinar el café utiliza dióxido de carbono <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>44,0</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> a una densidad molar de, aproximadamente, <m:math><m:mrow><m:mn>14.600</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mol/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> y una temperatura de, aproximadamente, <m:math><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (a) ¿El CO<sub>2</sub> es un sólido, un líquido, un gas o un fluido supercrítico en esas condiciones? (b) Las constantes de van der Waals para el dióxido de carbono son <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0,3658</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>6</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mrow><m:mtext>mol</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>4,286</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/</m:mtext><m:mtext>mol</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Use la ecuación de van der Waals y estime la presión de <m:math><m:mrow><m:msub><m:mrow><m:mtext>CO</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math> a esa temperatura y densidad.</para>
+</problem>
+<solution id="fs-id1172098778757">
+<para id="fs-id1172098778759">a. fluido supercrítico; b <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098670018">
+<problem id="fs-id1172098670020">
+<para id="fs-id1172098278027">En un día de invierno, cuando la temperatura del aire es <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> la humedad relativa es <m:math><m:mrow><m:mn>50</m:mn><m:mi>%</m:mi></m:mrow></m:math>. El aire exterior entra en el interior y se calienta hasta alcanzar una temperatura ambiente de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. ¿Cuál es la humedad relativa del aire dentro de la habitación? (¿Este problema muestra por qué el aire interior es tan seco en invierno?).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172096093960">
+<problem id="fs-id1172096093962">
+<para id="fs-id1172098774112">En un día cálido en el que la temperatura del aire es <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, una lata de metal se enfría lentamente añadiendo trozos de hielo al agua líquida que contiene. La condensación aparece por primera vez cuando la lata alcanza <m:math><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. ¿Cuál es la humedad relativa del aire?</para>
+</problem>
+<solution id="fs-id1172098770915">
+<para id="fs-id1172098770917"><m:math><m:mrow><m:mn>40,18</m:mn><m:mi>%</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172096028890">
+<problem id="fs-id1172096028892">
+<para id="fs-id1172096083277">(a) La gente suele pensar que el aire húmedo es “pesado”. Compare las densidades del aire con <m:math><m:mrow><m:mn>0</m:mn><m:mi>%</m:mi></m:mrow></m:math> de humedad relativa y <m:math><m:mrow><m:mn>100</m:mn><m:mi>%</m:mi></m:mrow></m:math> de humedad relativa cuando ambos están a 1 atm y <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. Suponga que el aire seco es un gas ideal compuesto por moléculas con una masa molar de 29,0 g/mol y que el aire húmedo es el mismo gas mezclado con vapor de agua. (b) Como se analizó en el capítulo sobre las aplicaciones de las leyes de Newton, la resistencia del aire que sienten proyectiles como pelotas de béisbol y de golf es, aproximadamente, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>ρ</m:mi><m:mi>A</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>, donde <m:math><m:mi>ρ</m:mi></m:math> es la densidad de masa del aire, <emphasis effect="italics">A</emphasis> es el área de la sección transversal del proyectil y <emphasis effect="italics">C</emphasis> es el coeficiente de arrastre del proyectil. Para una presión atmosférica fija, describa cualitativamente cómo cambia el alcance de un proyectil con la humedad relativa. (c) Cuando se avecina una tormenta, normalmente la humedad es alta y la presión atmosférica es baja. ¿Esas condiciones dan ventaja o desventaja a los jonroneros?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100651888">
+<problem id="fs-id1172100651890">
+<para id="fs-id1172100651892">La trayectoria libre media del helio a una determinada temperatura y presión es <m:math><m:mrow><m:mn>2,10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> El radio de un átomo de helio puede tomarse como <m:math><m:mrow><m:mn>1,10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. ¿Cuál es la medida de la densidad del helio en esas condiciones (a) en moléculas por metro cúbico y (b) en moles por metro cúbico?</para>
+</problem>
+<solution id="fs-id1172098590632">
+<para id="fs-id1172100576504">a. <m:math><m:mrow><m:mn>2,21</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>moléculas/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>3,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mol/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172096179239">
+<problem id="fs-id1172096286525">
+<para id="fs-id1172096286527">La trayectoria libre media del metano a una temperatura de 269 K y una presión de <m:math><m:mrow><m:mn>1,11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> es de <m:math><m:mrow><m:mn>4,81</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Calcule el radio efectivo <emphasis effect="italics">r</emphasis> de la molécula de metano.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100896308">
+<problem id="fs-id1172100896310">
+<para id="fs-id1172098310242">En el capítulo sobre mecánica de fluidos, la ecuación de Bernoulli para el flujo de fluidos incompresibles se explicó en términos de cambios que afectan a un pequeño volumen <emphasis effect="italics">dV</emphasis> de fluido. Dichos volúmenes son una idea fundamental en el estudio de la circulación de fluidos compresibles como los gases también. Para que se apliquen las ecuaciones de la hidrodinámica, la trayectoria libre media debe ser mucho menor que el tamaño lineal de dicho volumen, <m:math><m:mrow><m:mi>a</m:mi><m:mo>≈</m:mo><m:mi>d</m:mi><m:msup><m:mi>V</m:mi><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> Para el aire en la estratosfera a una temperatura de 220 K y una presión de 5,8 kPa, ¿qué tamaño debe tener <emphasis effect="italics">a</emphasis> para que sea 100 veces la trayectoria libre media? Tome que el radio efectivo de las moléculas de aire es <m:math><m:mrow><m:mn>1,88</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo></m:mrow></m:math> que es más o menos correcto para <m:math><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1172096163511">
+<para id="fs-id1172096163513">8,2 mm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101008768">
+<problem id="fs-id1172101008771">
+<para id="fs-id1172101008773">Calcule el número total de colisiones entre moléculas en 1,00 s en 1,00 L de gas nitrógeno a temperatura y presión estándar (<m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, 1,00 atm). Use <m:math><m:mrow><m:mn>1,88</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> como el radio efectivo de una molécula de nitrógeno (el número de colisiones por segundo es el recíproco del tiempo de colisión). Hay que tener en cuenta que cada colisión involucra dos moléculas, por lo que si una molécula colisiona una vez en un determinado periodo, no se puede contar la colisión de la molécula con la que chocó.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100638442">
+<problem id="fs-id1172100638445">
+<para id="fs-id1172100638447">(a) Estimar la capacidad calorífica específica del sodio a partir de la ley de Dulong y Petit. La masa molar del sodio es de 23,0 g/mol. (b) ¿Cuál es el error porcentual de su estimación respecto al valor conocido? <m:math><m:mrow><m:mn>1.230</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172098313335">
+<para id="fs-id1172098313337">a. <m:math><m:mrow><m:mn>1.080</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>12</m:mn><m:mi>%</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098318602">
+<problem id="fs-id1172100634443">
+<para id="fs-id1172100634446">Un recipiente sellado y perfectamente aislado contiene 0,630 mol de aire a <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> y una barra agitadora de hierro con 40,0 g de masa. La barra agitadora se acciona magnéticamente hasta alcanzar una energía cinética de 50,0 J y se deja frenar por la resistencia del aire. ¿Cuál es la temperatura de equilibrio?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100665364">
+<problem id="fs-id1172100665366">
+<para id="fs-id1172100539186">Calcule la relación <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mtext>p</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> para gas hidrógeno <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>2,02</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> a una temperatura de 77,0 K.</para>
+</problem>
+<solution id="fs-id1172101028552">
+<para id="fs-id1172101028554"><m:math><m:mrow><m:mn>2</m:mn><m:msqrt><m:mi>e</m:mi></m:msqrt><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math> o 1,10 aproximadamente.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098288717">
+<problem id="fs-id1172098288719">
+<para id="fs-id1172098515317"><emphasis effect="bold">Resultados poco razonables</emphasis>. (a) Calcule la temperatura de 0,360 kg de agua, modelada como un gas ideal, a una presión de <m:math><m:mrow><m:mn>1,01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> si tiene un volumen de <m:math><m:mrow><m:mn>0,615</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. (b) ¿Qué hay de poco razonable en esta respuesta? ¿Cómo podría obtener una respuesta mejor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100640369">
+<problem id="fs-id1172100640371">
+<para id="fs-id1172100920595"><emphasis effect="bold">Resultados poco razonables</emphasis>. (a) Calcule la rapidez media de moléculas de sulfuro de hidrógeno, <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>S</m:mtext></m:mrow></m:math>, a una temperatura de 250 K. Su masa molar es de 31,4 g/mol (b) El resultado no es <emphasis effect="italics">muy</emphasis> irracional, pero ¿por qué es menos fiable que los de, por ejemplo, el neón o el nitrógeno?</para>
+</problem>
+<solution id="fs-id1172100850707">
+<para id="fs-id1172100850709">a. 411 m/s; b. Según la <link target-id="fs-id1172100673759" document="m90831"/>, el <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> de <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>S</m:mtext></m:mrow></m:math> es significativamente diferente del valor teórico, por lo que el modelo de gas ideal no lo describe muy bien a temperatura y presión ambiente, y la distribución de velocidad de Maxwell-Boltzmann para los gases ideales puede no mantenerse muy bien, menos aun a una temperatura más baja.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172101038731" class="review-challenge">
+<title>Problemas de desafío</title>
+<exercise id="fs-id1172100651570">
+<problem id="fs-id1172100651572">
+<para id="fs-id1172100651574">Un dispensador hermético de agua potable es <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> en dimensiones horizontales y 20 cm de altura. Tiene un grifo de volumen insignificante que se abre a la altura del fondo del dispensador. Inicialmente, contiene agua hasta un nivel a 3,0 cm de la parte superior y aire a la presión ambiente, 1,00 atm, desde ahí hasta la parte superior. Al abrir el grifo, el agua saldrá hasta que la presión manométrica en el fondo del dispensador, y por tanto en la apertura del grifo, sea 0. ¿Qué volumen de agua sale? Suponga que la temperatura es constante, que el dispensador es perfectamente rígido y que el agua tiene una densidad constante de <m:math><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100959024">
+<problem id="fs-id1172100651772">
+<para id="fs-id1172100651774">Ocho carritos chocones, con una masa de 322 kg cada uno, circulan por una pista de 21,0 m de largo y 13,0 m de ancho. No tienen controladores, así que van dando tumbos por su cuenta. La velocidad rms de los carritos es de 2,50 m/s. Repita los argumentos de la sección <link document="m90830">Presión, temperatura y velocidad media cuadrática (rms)</link> y calcule la fuerza promedio por unidad de longitud (análoga a la presión) que los carritos ejercen sobre los bordes de la pista.</para>
+</problem>
+<solution id="fs-id1172100714880">
+<para id="fs-id1172100714882">29,5 N/m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172096225342">
+<problem id="fs-id1172096225344">
+<para id="fs-id1172096225347">Verifique que <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098274136">
+<problem id="fs-id1172098274139">
+<para id="fs-id1172100751571">Verifique la ecuación de normalización <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Al hacer la integral, primero hay que hacer la sustitución <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>v</m:mi><m:mrow><m:msub><m:mi>v</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Esta transformación de “escala” le da todas las características de la respuesta excepto la integral, que es un factor numérico adimensional. Necesitará la fórmula</para>
+<para id="fs-id1172098479811"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msup></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
+<para id="fs-id1172100538098">para calcular el factor numérico y verificar la normalización.</para>
+</problem>
+<solution id="fs-id1172098374889">
+<para id="fs-id1172098374891">Al sustituir <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mi>u</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow></m:math> da como resultado<newline/> <m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>v</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msup><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>u</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msup><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172096245000">
+<problem id="fs-id1172100990808">
+<para id="fs-id1172100990811">Verifique que <m:math><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>8</m:mn><m:mi>π</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:msqrt></m:mrow></m:math> Haga la misma transformación de escala que en el problema anterior.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098378675">
+<problem id="fs-id1172098378677">
+<para id="fs-id1172098422641">Verifique que <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1172098653712">
+<para id="fs-id1172098653714">Al hacer la transformación de escala como en los problemas anteriores, hallamos que<newline/> <m:math><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:msup><m:mi>u</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msup><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math><newline/> Como en el problema anterior, integramos por partes:<newline/> <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:msup><m:mi>u</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msup><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:msubsup><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mtext>−</m:mtext><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>u</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msup></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msup><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math><newline/> De nuevo, el primer término es 0, y se nos dio en un problema anterior que la integral del segundo término es igual a <m:math><m:mrow><m:mfrac><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:math>. Ahora tenemos<newline/> <m:math><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>2</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/> Al tomar la raíz cuadrada de ambos lados se obtiene el resultado deseado <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172100565153">
+<term>distribución de Maxwell-Boltzmann</term>
+<meaning id="fs-id1172100565158">función que se puede integrar para obtener la probabilidad de calcular moléculas de gas ideal con velocidades en el rango entre los límites de integración</meaning>
+</definition>
+<definition id="fs-id1172100610310">
+<term>rapidez más probable</term>
+<meaning id="fs-id1172100739342">velocidad cerca de la cual se encuentran las velocidades de la mayoría de las moléculas, el pico de la función de distribución de la velocidad</meaning>
+</definition>
+<definition id="fs-id1172098525786">
+<term>velocidad máxima</term>
+<meaning id="fs-id1172100577225">lo mismo que la “rapidez más probable”</meaning>
+</definition>
+</glossary>
+
+</document>

@@ -1,0 +1,325 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Aceleración media e instantánea</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90620</md:content-id>
+  <md:title>Aceleración media e instantánea</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Calcular la aceleración media entre dos puntos en el tiempo.</item>
+<item>Calcular la aceleración instantánea dada la forma funcional de la velocidad.</item>
+<item>Explicar la naturaleza vectorial de la aceleración y la velocidad instantáneas.</item>
+<item>Explicar la diferencia entre aceleración media y aceleración instantánea.</item>
+<item>Hallar la aceleración instantánea en un momento determinado en un gráfico de la velocidad en función del tiempo.</item>
+</list></md:abstract>
+  <md:uuid>aed09e8d-c797-4284-b090-e680ce717cb0</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168328144842">La importancia de comprender la aceleración abarca tanto nuestra experiencia cotidiana como los vastos alcances del espacio exterior y el diminuto mundo de la física subatómica. En la conversación cotidiana, <emphasis effect="italics">acelerar</emphasis> significa aumentar la rapidez, pisar el pedal del freno disminuye la velocidad del vehículo. Estamos familiarizados con la aceleración de nuestro auto, por ejemplo. Cuanto mayor sea la aceleración, mayor será el cambio de velocidad en un momento determinado. La aceleración está muy presente en la física experimental. En los experimentos con aceleradores de partículas lineales, por ejemplo, las partículas subatómicas se aceleran a velocidades muy altas en experimentos de colisión, que nos brindan información sobre la estructura del mundo subatómico, así como sobre el origen del universo. En el espacio, los rayos cósmicos son partículas subatómicas que se han acelerado hasta alcanzar energías muy elevadas en las supernovas (estrellas masivas que explotan) y los núcleos galácticos activos. Es importante entender los procesos que aceleran los rayos cósmicos, ya que estos rayos contienen una radiación muy penetrante que puede dañar los componentes electrónicos de las naves espaciales, por ejemplo.</para>
+<section id="fs-id1168325665216">
+<title>Aceleración media</title>
+<para id="fs-id1168328367566">La definición formal de aceleración concuerda con estas nociones que acabamos de describir, pero es más inclusiva.</para>
+<note id="fs-id1168328013184">
+<title>Aceleración media</title>
+<para id="fs-id1168328371685">La aceleración media es la tasa a la que cambia la velocidad:</para>
+<equation id="fs-id1168325782329"><m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168325664233">donde <m:math><m:mover accent="true"><m:mi>a</m:mi><m:mtext>−</m:mtext></m:mover></m:math> es la <term>aceleración media</term>, <emphasis effect="italics">v</emphasis> es la velocidad y <emphasis effect="italics">t</emphasis> es el tiempo. (La barra sobre la <emphasis effect="italics">a</emphasis> significa aceleración <emphasis effect="italics">media</emphasis>).</para>
+</note>
+<para id="fs-id1168328298720">Dado que la aceleración es la velocidad en metros por segundo dividida entre el tiempo en segundos, las unidades del SI para la aceleración suelen abreviarse como m/s<sup>2</sup>, es decir, metros por segundo al cuadrado o metros por segundo por segundo. Esto significa literalmente cuántos metros por segundo cambia la velocidad cada segundo. Recordemos que la velocidad es un vector, tiene tanto magnitud como dirección, lo que significa que un cambio en la velocidad puede ser un cambio en la magnitud (o rapidez), pero también puede ser un cambio en la dirección. Por ejemplo, si una corredora que se desplaza a 10 km/h hacia el este se detiene lentamente, invierte la dirección y continúa su carrera a 10 km/h hacia el oeste, su velocidad cambia como resultado del cambio de dirección, aunque la <emphasis effect="italics">magnitud</emphasis> de la velocidad es la misma en ambas direcciones. Por lo tanto, la aceleración se produce cuando la velocidad cambia de magnitud (un aumento o disminución de la rapidez) o de dirección, o ambas cosas.</para><note id="fs-id1168328280276">
+<title>La aceleración como vector</title>
+<para id="fs-id1168327924068">La aceleración es un vector en la misma dirección que el <emphasis effect="italics">cambio</emphasis> de velocidad, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow></m:math>. Dado que la velocidad es un vector, puede cambiar de magnitud o de dirección, o ambas. La aceleración es, por lo tanto, un cambio de rapidez o de dirección, o ambos.</para>
+</note>
+<para id="fs-id1168328362542">Tenga en cuenta que, aunque la aceleración se produzca en la dirección del cambio de velocidad, no siempre se produce en la dirección del movimiento. Cuando un objeto se ralentiza, su aceleración es opuesta a la dirección de su movimiento. Aunque esto se denomina comúnmente <emphasis effect="italics">desaceleración</emphasis> como en la <link target-id="CNX_UPhysics_03_03_SubTrain"/>, decimos que el tren acelera en una dirección opuesta a su dirección de movimiento.</para>
+<figure id="CNX_UPhysics_03_03_SubTrain"><media id="fs-id1168328298217" alt="La imagen muestra un tren subterráneo que llega a una estación.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_SubTrain.jpg"/>
+</media>
+
+<caption>Un tren subterráneo en Sao Paulo, Brasil, desacelera al llegar a una estación. Acelera en una dirección opuesta a la de su movimiento (créditos: modificación del trabajo de Yusuke Kawasaki).</caption></figure><para id="fs-id1168328157284">El término <emphasis effect="italics">desaceleración</emphasis> puede causar confusión en nuestro análisis porque no es un vector y no apunta a una dirección específica con respecto a un sistema de coordenadas, motivo por el cual no lo utilizamos. La aceleración es un vector, por lo que debemos elegir el signo apropiado en nuestro sistema de coordenadas elegido. En el caso del tren en la <link target-id="CNX_UPhysics_03_03_SubTrain"/>, la aceleración es <emphasis effect="italics">en sentido negativo en el sistema de coordenadas elegido</emphasis>, por lo que decimos que el tren sufre una aceleración negativa.</para>
+<para id="fs-id1168327988419">Si un objeto en movimiento tiene una velocidad en la dirección positiva con respecto a un origen elegido y adquiere una aceleración negativa constante, el objeto acaba por detenerse e invertir su dirección. Si esperamos lo suficiente, el objeto pasa por el origen, y va en dirección contraria. Esto se ilustra en la <link target-id="CNX_UPhysics_03_03_NegAcc"/>.</para>
+<figure id="CNX_UPhysics_03_03_NegAcc">
+<media id="fs-id1168325681309" alt="La figura muestra tres vectores: a dirigido al oeste, vf dirigido al oeste y vo dirigido al este.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_NegAcc.jpg"/>
+</media>
+<caption>Un objeto en movimiento con un vector de velocidad hacia el este bajo una aceleración negativa se detiene e invierte su dirección. Pasa por el origen, y va en dirección contraria, después de un tiempo suficiente.</caption>
+</figure>
+<example id="fs-id1168328170060">
+<para id="fs-id1168325634478"><title>Calcular la aceleración media: un caballo de carreras sale de la compuerta</title>
+Un caballo de carreras al salir de la compuerta acelera desde el reposo hasta una velocidad de 15,0 m/s hacia el oeste en 1,80 s. ¿Cuál es su aceleración media?</para>
+<figure id="CNX_UPhysics_03_03_RaceHorse"><media id="fs-id1168328364214" alt="La imagen muestra dos caballos de carreras con jinetes que aceleran al salir de la compuerta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_RaceHorse.jpg"/>
+</media>
+
+<caption>Caballos de carreras que aceleran al salir de la compuerta (créditos: modificación de la obra de Jon Sullivan).</caption></figure><para id="fs-id1168328317120"><title>Estrategia</title>
+Primero, dibujamos un esquema y asignamos un sistema de coordenadas al problema como en la <link target-id="CNX_UPhysics_03_03_ExGraphs"/>. Este es un problema sencillo, pero siempre ayuda visualizarlo. Observe que asignamos el este como positivo y el oeste como negativo. Por lo tanto, en este caso, tenemos una velocidad negativa.</para>
+<figure id="CNX_UPhysics_03_03_ExGraphs">
+<media id="fs-id1168327878077" alt="La figura muestra tres vectores: a tiene el valor desconocido y está dirigido al oeste, vf es igual a - 15 m/s y está dirigido al oeste, vo es igual a cero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_ExGraphs.jpg"/>
+</media>
+<caption>Identifique el sistema de coordenadas, la información dada y lo que quiere determinar.</caption>
+</figure>
+<para id="fs-id1168327940361">Podemos resolver este problema identificando <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> a partir de la información dada, y luego calcular la aceleración media directamente a partir de la ecuación <m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+<para id="fs-id1168327928019"><title>Solución</title>
+En primer lugar, identifique los valores conocidos: <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−15,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> (el signo negativo indica la dirección hacia el oeste), Δ<emphasis effect="italics">t</emphasis> = 1,80 s.</para>
+<para id="fs-id1168327988630">En segundo lugar, calcule el cambio de velocidad. Dado que el caballo pasa de cero a -15,0 m/s, su cambio de velocidad es igual a su velocidad final:</para>
+<equation id="fs-id1168328366020" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−15,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168328070733">Por último, sustituya los valores conocidos (<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>) y resuelva la incógnita <m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover></m:mrow></m:math>:</para>
+<equation id="fs-id1168327910150" class="unnumbered"><label/><m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−15,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>1,80</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>-8,33</m:mn><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168327966646"><title>Importancia</title>
+El signo negativo indica que la aceleración es hacia el oeste. Una aceleración de 8,33 m/s<sup>2</sup> hacia el oeste significa que el caballo aumenta su velocidad en 8,33 m/s hacia el oeste cada segundo; es decir, 8,33 metros por segundo por segundo, que escribimos como 8,33 m/s<sup>2</sup>. Se trata realmente de una aceleración media, porque el paseo no es suave. Más adelante veremos que una aceleración de esta magnitud requeriría que el jinete se aferrara con una fuerza casi igual a su peso.</para>
+</example>
+<note id="fs-id1168328224841" class="check-understanding">
+<exercise id="fs-id1168328242107">
+<problem id="fs-id1168327960274">
+<para id="fs-id1168328277315"> Los protones en una aceleración lineal se aceleran desde el reposo hasta <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> en 10<sup>-4</sup> s. ¿Cuál es la aceleración media de los protones?</para>
+</problem>
+<solution id="fs-id1168327875120">
+<para id="fs-id1168328120879">Al incorporar los valores conocidos, tenemos<newline/> <m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168328222125">
+<title>Aceleración instantánea</title>
+<para id="fs-id1168327872160">La aceleración instantánea <emphasis effect="italics">a</emphasis>, o <emphasis effect="italics">aceleración en un instante específico</emphasis>, se obtiene con el mismo proceso que se mencionó para la velocidad instantánea. Es decir, calculamos la aceleración media entre dos puntos de tiempo separados por <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> y suponemos que <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> se acerca a cero. El resultado es la derivada de la función de velocidad <emphasis effect="italics">v</emphasis>(<emphasis effect="italics">t</emphasis>), que es la <term>aceleración instantánea</term> y se expresa matemáticamente como</para><note id="fs-id1168327967836" class="equation-callout">
+<equation id="fs-id1168327910523"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1168327944154">Así, al igual que la velocidad es la derivada de la función de posición, la aceleración instantánea es la derivada de la función de velocidad. Podemos mostrarlo gráficamente de la misma manera que la velocidad instantánea. En la <link target-id="CNX_UPhysics_03_03_InstAcc"/>, la aceleración instantánea en el tiempo <emphasis effect="italics">t</emphasis><sub>0</sub> es la pendiente de la línea tangente a al gráfico de velocidad en función del tiempo en el tiempo <emphasis effect="italics">t</emphasis><sub>0</sub>. Vemos que la aceleración media <m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> se acerca a la aceleración instantánea como <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> se acerca a cero. También en la parte (a) de la figura, vemos que la velocidad tiene un máximo cuando su pendiente es cero. Este tiempo corresponde al cero de la función de aceleración. En la parte (b), se muestra la aceleración instantánea en la velocidad mínima, que también es cero, ya que la pendiente de la curva también es cero. Así, para una función de velocidad dada, los ceros de la función de aceleración dan el mínimo o el máximo de la velocidad.</para>
+<figure id="CNX_UPhysics_03_03_InstAcc"><media id="fs-id1168328253538" alt="El gráfico A muestra la velocidad en función del tiempo. La velocidad aumenta de t1 a t2 y t3. Alcanza el máximo en t0. Disminuye hasta t4 y sigue disminuyendo hasta t5 y t6. La pendiente de la línea tangente en t0 se indica como la velocidad instantánea. El gráfico B muestra la velocidad en función del tiempo. La velocidad disminuye de t1 a t2 y t3. Alcanza el mínimo en t0. Aumenta a t4 y sigue aumentando a t5 y t6. La pendiente de la línea tangente en t0 se indica como la velocidad instantánea.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_InstAcc.jpg"/>
+</media>
+
+<caption>En un gráfico de velocidad en función del tiempo, la aceleración instantánea es la pendiente de la línea tangente. (a) Se muestra la aceleración media <m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:math> entre los tiempos <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:msub><m:mi>t</m:mi><m:mn>6</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:msub><m:mi>t</m:mi><m:mn>5</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:msub><m:mi>t</m:mi><m:mn>4</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>. Cuando <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:math>, la aceleración media se aproxima a la aceleración instantánea en el tiempo <emphasis effect="italics">t</emphasis><sub>0</sub>. En la vista (a), se muestra la aceleración instantánea para el punto de la curva de velocidad en la velocidad máxima. En este punto, la aceleración instantánea es la pendiente de la línea tangente, que es cero. En cualquier otro momento, la pendiente de la línea tangente, y, por tanto, la aceleración instantánea, no sería cero. (b) Igual que en (a), pero se muestra para la aceleración instantánea en la velocidad mínima.</caption></figure><para id="fs-id1168328238462">Para ilustrar este concepto, veamos dos ejemplos. En primer lugar, se muestra un ejemplo sencillo con la <link target-id="CNX_UPhysics_03_02_PosVelSp" document="m90619"/>(b), el gráfico de velocidad en función del tiempo del <link target-id="fs-id1168329085430" document="m90619"/>, para encontrar la aceleración gráficamente. Este gráfico se representa en la <link target-id="CNX_UPhysics_03_03_AccTime"/>(a), que es una línea recta. El gráfico correspondiente de la aceleración en función del tiempo se encuentra a partir de la pendiente de la velocidad y se muestra en la <link target-id="CNX_UPhysics_03_03_AccTime"/>(b). En este ejemplo, la función de velocidad es una línea recta con una pendiente constante, por lo que la aceleración es una constante. En el siguiente ejemplo, la función de velocidad tiene una dependencia funcional más complicada al tiempo.</para><figure id="CNX_UPhysics_03_03_AccTime">
+<media id="fs-id1168328322676" alt="El gráfico A muestra la velocidad en metros por segundo en función del tiempo en segundos. El gráfico es lineal y tiene una pendiente constante negativa. El gráfico B muestra la aceleración en metros por segundo al cuadrado en función del tiempo en segundos. El gráfico es lineal y tiene una pendiente cero con la aceleración igual a -6.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_AccTime.jpg"/>
+</media>
+<caption>(a, b) El gráfico de velocidad en función del tiempo es lineal y tiene una pendiente negativa constante (a) que es igual a la aceleración, mostrada en (b).</caption>
+</figure>
+<para id="fs-id1168327935060">Si conocemos la forma funcional de la velocidad, <emphasis effect="italics">v</emphasis>(<emphasis effect="italics">t</emphasis>), podemos calcular la aceleración instantánea <emphasis effect="italics">a</emphasis>(<emphasis effect="italics">t</emphasis>) en cualquier punto temporal del movimiento utilizando la <link target-id="fs-id1168327910523"/>.</para>
+<example id="fs-id1168328222026">
+<para id="fs-id1168328317291"><title>Calcular la aceleración instantánea</title>
+Una partícula está en movimiento y se acelera. La forma funcional de la velocidad es <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>.</para>
+<list id="fs-id1168328308220" list-type="enumerated" number-style="lower-alpha">
+<item>Halle la forma funcional de la aceleración.</item>
+<item>Halle la velocidad instantánea en <emphasis effect="italics">t</emphasis> = 1, 2, 3 y 5 s.</item>
+<item>Halle la aceleración instantánea en <emphasis effect="italics">t</emphasis> = 1, 2, 3 y 5 s.</item>
+<item>Interprete los resultados de (c) en términos de las direcciones de los vectores aceleración y velocidad.</item>
+</list>
+<para id="fs-id1168327920626"><title>Estrategia</title>
+Encontramos la forma funcional de la aceleración al tomar la derivada de la función de velocidad. A continuación, calculamos los valores de la velocidad y la aceleración instantáneas a partir de las funciones dadas para cada una de ellas. Para la parte (d), tenemos que comparar las direcciones de la velocidad y la aceleración en cada momento.</para>
+<para id="fs-id1168327920526"><title>Solución</title></para>
+<list id="fs-id1168328191105" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>20</m:mn><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>t</m:mi><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−25</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext> s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>10</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext> m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, <m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext> s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, <m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext> s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−10</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, <m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−30</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></item>
+<item>En <emphasis effect="italics">t</emphasis> = 1 s, la velocidad <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>s)</m:mtext><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> es positiva y la aceleración también, de allí que, tanto la velocidad como la aceleración están en la misma dirección. La partícula se mueve más rápido.</item>
+</list><para id="fs-id1168328282997">En <emphasis effect="italics">t</emphasis> = 2 s, la velocidad ha aumentado a<m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>s)</m:mtext><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, donde es su máximo, lo que corresponde al momento en que la aceleración es cero. Vemos que la velocidad máxima se produce cuando la pendiente de la función de velocidad es cero, que es justo el cero de la función de aceleración.</para>
+<para id="fs-id1168327863611">En <emphasis effect="italics">t</emphasis> = 3 s, la velocidad es <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>s)</m:mtext><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> y la aceleración es negativa. Se ha reducido la velocidad de la partícula y el vector de aceleración es negativo. La partícula se ralentiza.</para>
+<para id="fs-id1168328289076">En <emphasis effect="italics">t</emphasis> = 5 s, la velocidad es <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>s)</m:mtext><m:mo>=</m:mo><m:mn>−25</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> y la aceleración es cada vez más negativa. Entre los tiempos <emphasis effect="italics">t =</emphasis> 3 s y <emphasis effect="italics">t</emphasis> = 5 s la velocidad de la partícula ha disminuido a cero y luego se ha vuelto negativa, lo que invierte su dirección. La partícula vuelve a acelerar, pero en sentido contrario.</para>
+<para id="fs-id1168328279483">Podemos ver estos resultados gráficamente en la <link target-id="CNX_UPhysics_03_03_VelAcc"/>.</para>
+<figure id="CNX_UPhysics_03_03_VelAcc"><media id="fs-id1168328144387" alt="El gráfico A muestra la velocidad en metros por segundo en función del tiempo en segundos. La velocidad comienza en cero, aumenta a 15 en 1 segundo y alcanza el máximo de 20 en 2 segundos. Disminuye a 15 a los 3 segundos y sigue disminuyendo a -25 a los 5 segundos. El gráfico B muestra la aceleración en metros por segundo al cuadrado, trazada en función del tiempo en segundos. El gráfico es lineal y tiene una pendiente constante negativa. La aceleración comienza en 20 cuando el tiempo es cero, disminuye a 10 en 1 segundo, a cero en 2 segundos, a -10 en 3 segundos, y a -30 en 5 segundos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_VelAcc.jpg"/>
+</media>
+
+<caption>(a) Velocidad en función del tiempo. Las líneas tangentes se indican en los tiempos 1, 2 y 3 s. Las pendientes de las líneas tangentes son las aceleraciones. En <emphasis effect="italics">t</emphasis> = 3 s, la velocidad es positiva. En <emphasis effect="italics">t</emphasis> = 5 s, la velocidad es negativa, lo que indica que la dirección de la partícula se ha invertido. (b) Aceleración en función del tiempo. Comparando los valores de las aceleraciones dadas por los puntos negros con las correspondientes pendientes de las líneas tangentes (pendientes de las líneas que pasan por los puntos negros) en (a), vemos que son idénticas.</caption></figure><para id="fs-id1168328202108"><title>Importancia</title>
+Al hacer un análisis tanto numérico como gráfico de la velocidad y la aceleración de la partícula, podemos aprender mucho sobre su movimiento. El análisis numérico complementa el análisis gráfico para ofrecer una visión total del movimiento. El cero de la función de aceleración corresponde al máximo de la velocidad en este ejemplo. También en este ejemplo, la aceleración aumenta cuando es positiva y en la misma dirección que la velocidad. A medida que la aceleración se inclina a cero, hasta el punto de ser negativa, la velocidad alcanza un máximo, tras el cual comienza a disminuir. Si esperamos lo suficiente, la velocidad también se vuelve negativa, lo que indica inversión de la dirección. Un ejemplo del mundo real de este tipo de movimiento es un auto con una velocidad en aumento, hasta llegar a un máximo, tras lo cual empieza a desacelerar, se detiene y luego invierte la dirección.</para>
+</example>
+<note id="fs-id1168327988348" class="check-understanding">
+<exercise id="fs-id1168328320368">
+<problem id="fs-id1168328246386">
+<para id="fs-id1168327921621"> Un avión aterriza en una pista rumbo al este. Describa su aceleración.</para>
+</problem>
+<solution id="fs-id1168327963777">
+<para id="fs-id1168327877386">Si tomamos el este como positivo, entonces el avión tiene una aceleración negativa porque está acelerando hacia el oeste. También desacelera; su aceleración es en sentido contrario a su velocidad.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168327943280">
+<title>Cómo sentir la aceleración</title>
+<para id="fs-id1168328326412">Probablemente esté acostumbrado a experimentar la aceleración cuando entra en un elevador o pisa el acelerador de su auto. Sin embargo, la aceleración se produce en muchos otros objetos de nuestro universo con los que no tenemos contacto directo. La <link target-id="fs-id1168328304210"/> presenta la aceleración de varios objetos. Podemos ver que las aceleraciones pasan por muchos órdenes de magnitud.</para>
+<table id="fs-id1168328304210" summary="This table has two columns and fifteen rows. The first row is a header row and it labels each column: “Acceleration”, “Values in meters per second squared”. Under the “Acceleration”: High-speed train; Elevator; Cheetah; Object in a free fall without air resistance near the surface of Earth; Space shuttle maximum during launch; Parachutist peak during normal opening of parachute; F16 aircraft pulling out of a dive; Explosive seat ejection from aircraft; Sprint missile; Fastest rocket sled peak acceleration; Jumping flea; Baseball struck by a bat; Closing jaws of a trap-jaw ant; Proton in the large Hadron collider; Under the “Values in meters per second squared”: 0.25; 2; 5; 9.8; 29; 59; 79; 147; 982; 1540; 3200; 30,000; 1,000,000; 1.9 multiplied by 10 in the 9 power.">
+<title>Valores típicos de aceleración</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Aceleración</entry>
+<entry valign="top" align="center">Valor (m/s<sup>2</sup>)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Tren de alta velocidad</entry>
+<entry valign="top" align="center">0,25</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Elevador</entry>
+<entry valign="top" align="center">2</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Guepardo</entry>
+<entry valign="top" align="center">5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Objeto en caída libre, sin resistencia del aire, cerca de la superficie de la Tierra</entry>
+<entry valign="top" align="center">9,8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Máximo del transbordador espacial durante el lanzamiento</entry>
+<entry valign="top" align="center">29</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Pico del paracaidista durante la apertura normal del paracaídas</entry>
+<entry valign="top" align="center">59</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Avión F16 al salir de una caída en picada</entry>
+<entry valign="top" align="center">79</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Eyección del asiento del avión</entry>
+<entry valign="top" align="center">147</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Misil Sprint</entry>
+<entry valign="top" align="center">982</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Pico de aceleración del trineo de cohetes más rápido</entry>
+<entry valign="top" align="center">1.540</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Pulga saltarina</entry>
+<entry valign="top" align="center">3.200</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Bola de béisbol al ser golpeada por un bate</entry>
+<entry valign="top" align="center">30.000</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Cierre de las mandíbulas de una hormiga de mandíbula trampa</entry>
+<entry valign="top" align="center">1.000.000</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Protón en el Gran Colisionador de Hadrones</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+<caption>(créditos: Wikipedia: Órdenes de magnitud (aceleración))</caption>
+</table>
+<para id="fs-id1168327944321">En esta tabla, vemos que las aceleraciones típicas varían mucho con los diferentes objetos y no tienen nada que ver ni con el tamaño del objeto ni con su masa. La aceleración también puede variar mucho durante el movimiento de un objeto. Un auto de carreras tiene una gran aceleración justo después del arranque, pero luego disminuye a medida que alcanza una velocidad constante. Su aceleración media puede ser muy distinta a su aceleración instantánea en un momento determinado de su movimiento. La <link target-id="CNX_UPhysics_03_03_CompAcc"/> compara gráficamente la aceleración media con la aceleración instantánea para dos movimientos muy diferentes.</para>
+<figure id="CNX_UPhysics_03_03_CompAcc">
+<media id="fs-id1168327936263" alt="El gráfico A muestra la aceleración en metros por segundo al cuadrado, en función del tiempo en segundos. La aceleración apenas varía y es siempre en la misma dirección, ya que es positiva. La media a lo largo del intervalo es casi igual a la aceleración en un momento dado. El gráfico B muestra la aceleración en metros por segundo al cuadrado, trazada en función del tiempo en segundos. La aceleración varía mucho: desde -4 metros por segundo al cuadrado hasta 5 metros por segundo al cuadrado.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_CompAcc.jpg"/>
+</media>
+<caption>Gráficos de la aceleración instantánea en función del tiempo para dos movimientos unidimensionales diferentes. (a) La aceleración apenas varía y es siempre en la misma dirección, ya que es positiva. La media a lo largo del intervalo es casi igual a la aceleración en un momento dado. (b) La aceleración varía mucho, tal vez representando un paquete en la cinta transportadora de una oficina de correos que acelera hacia delante y hacia atrás, a medida que avanza. Es necesario considerar intervalos de tiempo pequeños (como de 0 a 1,0 s) con una aceleración constante o casi constante en tal situación.</caption>
+</figure>
+<note id="fs-id1168325673993" class="media-2">
+<para id="fs-id1168325725932">Aprenda sobre los gráficos de posición, velocidad y aceleración. Mueva al hombrecito de un lado a otro con el ratón y trace su movimiento. Establezca la posición, la velocidad o la aceleración y deje que la simulación mueva al hombre por usted. Visite <link url="https://openstax.org/l/21movmansimul_es">este enlace</link> para utilizar la simulación del hombre en movimiento.</para>
+</note>
+</section>
+<section id="fs-id1168325927723" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1168328194532" list-type="bulleted" bullet-style="bullet">
+<item>La aceleración es la tasa en la que cambia la velocidad. La aceleración es un vector: tiene tanto una magnitud como una dirección. La unidad del SI para la aceleración es el metro por segundo al cuadrado.</item>
+<item>La aceleración puede causarla un cambio en la magnitud o en la dirección de la velocidad, o en ambas.</item>
+<item>La aceleración instantánea <emphasis effect="italics">a</emphasis>(<emphasis effect="italics">t</emphasis>) es una función continua del tiempo y produce la aceleración en cualquier momento específico durante el movimiento. Se calcula a partir de la derivada de la función de velocidad. La aceleración instantánea es la pendiente del gráfico de la velocidad en función del tiempo.</item>
+<item>La aceleración negativa (a veces llamada desaceleración) es la aceleración en la dirección negativa en el sistema de coordenadas elegido.</item>
+</list>
+</section>
+<section id="fs-id1168325703483" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1168325679818">
+<problem id="fs-id1168328329529">
+<para id="fs-id1168328294152">¿Es posible que la rapidez sea constante mientras la aceleración no sea cero?</para>
+</problem>
+<solution id="fs-id1168328025381">
+<para id="fs-id1168328168345">No, en una dimensión la rapidez constante requiere una aceleración cero.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328064486">
+<problem id="fs-id1168328064488">
+<para id="fs-id1168325626004">¿Es posible que la velocidad sea constante mientras la aceleración no sea cero? Explique.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328365755">
+<problem id="fs-id1168328365757">
+<para id="fs-id1168328068199">Dé un ejemplo en el que la velocidad sea cero y la aceleración no.</para>
+</problem>
+<solution id="fs-id1168328292164">
+<para id="fs-id1168328292166">Se lanza una pelota al aire y su velocidad es cero en el vértice del lanzamiento, pero la aceleración no es cero.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328257161">
+<problem id="fs-id1168328257163">
+<para id="fs-id1168328302093">Si un tren subterráneo se desplaza hacia la izquierda (tiene una velocidad negativa) y luego se detiene, ¿cuál es la dirección de su aceleración? ¿La aceleración es positiva o negativa?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325735577">
+<problem id="fs-id1168325735579">
+<para id="fs-id1168328228853">Los signos más y menos se utilizan en el movimiento unidimensional para indicar la dirección. ¿Cuál es el signo de una aceleración que reduce la magnitud de una velocidad negativa? ¿De una velocidad positiva?</para>
+</problem>
+<solution id="fs-id1168328228855">
+<para id="fs-id1168328199023">Más, menos</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1166168283351" class="review-problems">
+<exercise id="fs-id1168328303424">
+<problem id="fs-id1168328259483">
+<para id="fs-id1168328259486">Un guepardo puede acelerar desde el reposo hasta una rapidez de 30,0 m/s en 7,00 s. ¿Cuál es su aceleración?</para>
+</problem>
+<solution id="fs-id1168328195958">
+<para id="fs-id1168328330587"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>4,29</m:mn><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328320313">
+<problem id="fs-id1168325722167">
+<para id="fs-id1168325722170">El Dr. John Paul Stapp fue un oficial de las Fuerzas Aéreas de los EE. UU. que estudió los efectos de la aceleración extrema en el cuerpo humano. El 10 de diciembre de 1954, Stapp se montó en un trineo cohete, aceleró desde el reposo hasta una velocidad máxima de 282 m/s (1.015 km/h) en 5,00 s y regresó al reposo de forma brusca en solo 1,40 s. Calcule su (a) aceleración en su dirección de movimiento y (b) aceleración opuesta a su dirección de movimiento. Exprese cada una en múltiplos de <emphasis effect="italics">g</emphasis> (9,80 m/s<sup>2</sup>) tomando su relación con la aceleración de la gravedad.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325781646">
+<problem id="fs-id1168325860093">
+<para id="fs-id1168325860095">Haga un esquema del gráfico de la aceleración en función del tiempo a partir del siguiente gráfico de velocidad en función del tiempo.</para>
+<media id="fs-id1168328333275" alt="El gráfico muestra la velocidad en metros por segundo en función del tiempo en segundos. La velocidad es cero y cero segundos, aumenta a 6 metros por segundo a los 20 segundos, disminuye a 2 metros por segundo a los 50 y se mantiene constante hasta los 70 segundos, aumenta a 4 metros por segundo a los 90 segundos y disminuye a -2 metros por segundo a los 100 segundos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_Prob8_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1168328190806">
+<para id="fs-id1168327878486"><media id="fs-id1168327878487" alt="El gráfico muestra la aceleración en metros por segundo al cuadrado en función del tiempo en segundos. La aceleración es de 0,3 metros por segundo al cuadrado entre 0 y 20 segundos, -0,1 metros por segundo al cuadrado entre 20 y 50 segundos, cero entre 50 y 70 segundos, -0,6 entre 90 y 100 segundos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_03_Prob8ans_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325878345">
+<problem id="fs-id1168328298341">
+<para id="fs-id1168328298343">Una persona sale con su auto del garaje con una aceleración de 1,40 m/s<sup>2</sup>. (a) ¿Cuánto tarda en alcanzar una rapidez de 2,00 m/s? (b) Si frena hasta detenerse en 0,800 s, ¿cuál es su aceleración?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325696669">
+<problem id="fs-id1168325696671">
+<para id="fs-id1168328267882">Supongamos que un misil balístico intercontinental pasa del reposo a una rapidez suborbital de 6,50 km/s en 60,0 s (la rapidez y el tiempo reales son clasificados). ¿Cuál es su aceleración media en metros por segundo y en múltiplos de <emphasis effect="italics">g</emphasis> (9,80 m/s<sup>2</sup>)?</para>
+</problem>
+<solution id="fs-id1168325667515">
+<para id="fs-id1168325667517"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>11,1</m:mn><m:mi>g</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327949630">
+<problem id="fs-id1168327949633">
+<para id="fs-id1168327949635">Un avión, que parte del reposo, se desplaza por la pista con aceleración constante durante 18 s y luego despega a una rapidez de 60 m/s. ¿Cuál es la aceleración media del avión?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1168328300463">
+<term>aceleración media</term>
+<meaning id="fs-id1168328180604">la tasa del cambio de la velocidad; el cambio de la velocidad en el tiempo</meaning>
+</definition>
+<definition id="fs-id1168328180609">
+<term>aceleración instantánea</term>
+<meaning id="fs-id1168328249366">aceleración en un momento determinado</meaning>
+</definition>
+</glossary>
+</document>

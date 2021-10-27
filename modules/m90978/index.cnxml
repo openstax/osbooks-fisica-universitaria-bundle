@@ -1,0 +1,77 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Interferencias de rendijas múltiples</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90978</md:content-id>
+  <md:title>Interferencias de rendijas múltiples</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir las ubicaciones e intensidades de los máximos secundarios para la interferencia de rendijas múltiples</item>
+</list></md:abstract>
+  <md:uuid>62731b28-e665-4182-a03e-f1b81979d14b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170904069863">El análisis de la interferencia de la luz que pasa a través de dos rendijas establece el marco teórico de la interferencia y nos da una visión histórica de los experimentos de Thomas Young. Sin embargo, gran parte de las aplicaciones modernas de la interferencia de rendijas no utilizan solo dos rendijas, sino muchas, acercándose al infinito a efectos prácticos. El elemento óptico clave se llama rejilla de difracción, una herramienta importante en el análisis óptico, que tratamos en detalle en la sección <link document="m90982">Difracción</link>. En esta sección, comenzamos el análisis de la interferencia de rendijas múltiples tomando los resultados de nuestro análisis de la doble rendija (<m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>) y ampliándolo a configuraciones con tres, cuatro y un número mucho mayor de rendijas.</para>
+<para id="fs-id1170904151137">La <link target-id="CNX_UPhysics_36_03_3slits"/> muestra el caso más simple de interferencia de rendijas múltiples, con tres rendijas, o <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>. El espacio entre las rendijas es <emphasis effect="italics">d</emphasis> y la diferencia de longitud de recorrido entre las rendijas adyacentes es <m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>, igual que en el caso de la doble rendija. La novedad es que la diferencia de longitud de recorrido para la primera y la tercera rendija es <m:math><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>. La condición para la interferencia constructiva es la misma que para la doble rendija, es decir</para>
+<equation id="fs-id1172101855577" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>λ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902132300">Cuando se cumple esta condición, <m:math><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> es automáticamente un múltiplo de <m:math><m:mi>λ</m:mi></m:math>, por lo que los tres rayos se combinan constructivamente, y las franjas brillantes que se producen aquí se denominan <term>máximos principales</term>. Pero, ¿qué ocurre cuando la diferencia de longitud de recorrido entre las rendijas adyacentes es solo <m:math><m:mrow><m:mrow><m:mi>λ</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:math>? Podemos pensar que el primer y el segundo rayo interfieren destructivamente, pero el tercer rayo permanece inalterado. En lugar de obtener una franja oscura, o un mínimo, como en el caso de la doble rendija, vemos un <term>máximo secundario</term> con intensidad inferior a los máximos principales.</para>
+<figure id="CNX_UPhysics_36_03_3slits">
+<media id="fs-id1170902338807" alt="La imagen muestra una interferencia con tres rendijas separadas por una distancia d. Los rayos 1, 2 y 3 atraviesan las rendijas con los ángulos theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_36_03_3slits.jpg"/>
+</media>
+<caption>Interferencia con tres rendijas. Diferentes pares de rayos emergentes pueden combinarse constructiva o destructivamente al mismo tiempo, dando lugar a máximos secundarios.</caption>
+</figure>
+<para id="fs-id1170904064450">En general, para <emphasis effect="italics">N</emphasis> rendijas, estos máximos secundarios se producen siempre que hay un rayo no apareado que no desaparece debido a la interferencia destructiva. Esto ocurre en <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>N</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> posiciones uniformes entre los máximos principales. La amplitud de la onda electromagnética disminuye en consecuencia a <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mi>N</m:mi></m:mrow></m:mrow></m:math> de la onda en los máximos principales, y la intensidad de la luz, al ser proporcional al cuadrado de la amplitud de la onda, disminuye a <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math> de la intensidad en comparación con los máximos principales. Como muestra la <link target-id="CNX_UPhysics_36_03_234slits"/>, entre cada máximo (principal o secundario) se encuentra una franja oscura. A medida que <emphasis effect="italics">N</emphasis> aumenta y el número de franjas brillantes y oscuras se incrementa, los anchos de los máximos se estrechan debido a la proximidad de las franjas oscuras. Dado que la cantidad total de energía de la luz permanece inalterada, para que los máximos sean más estrechos es necesario que cada uno de ellos alcance una intensidad correspondientemente mayor.</para>
+<figure id="CNX_UPhysics_36_03_234slits">
+<media id="fs-id1170903905254" alt="La imagen A muestra un gráfico de los patrones de franjas de interferencia para dos, tres y cuatro rendijas. A medida que aumenta el número de rendijas, aparecen más máximos secundarios, pero los máximos principales se estrechan. La imagen B muestra fotografías de patrones de franjas para dos, tres y cuatro rendijas. A medida que aumenta el número de rendijas, aparecen más máximos secundarios, pero los máximos principales son más brillantes.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_36_03_234slits.jpg"/>
+</media>
+<caption>Patrones de franjas de interferencia para dos, tres y cuatro rendijas. A medida que aumenta el número de rendijas, aparecen más máximos secundarios, pero los máximos principales se vuelven más brillantes y estrechos. (a) Gráfico y (b) fotografías de patrones de franjas.</caption>
+</figure>
+<section id="fs-id1170904048444" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170904154517">
+<item>La interferencia de múltiples rendijas (<m:math><m:mrow><m:mi>N</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn></m:mrow></m:math>) produce máximos principales y secundarios.</item>
+<item>Al aumentar el número de rendijas, la intensidad de los máximos principales aumenta y el ancho disminuye.</item>
+</list>
+</section>
+<section id="fs-id1170902148461" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170904172977">
+<problem id="fs-id1170902223599">
+<para id="fs-id1170904210389">Diez rendijas estrechas están igualmente separadas 0,25 mm y se iluminan con luz amarilla de longitud de onda 580 nm. (a) ¿Cuáles son las posiciones angulares del tercer y cuarto máximos principales? (b) ¿Cuál es la separación de estos máximos en una pantalla a 2,0 m de las rendijas?</para>
+</problem>
+<solution id="fs-id1170904062373">
+<para id="fs-id1170904055666">a. <m:math><m:mrow><m:mn>0,40</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo><m:mn>0,53</m:mn><m:mtext>°</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>4,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903895999">
+<problem id="fs-id1170904051704">
+<para id="fs-id1170903904974">El ancho de las franjas brillantes puede calcularse como la separación entre las dos franjas oscuras adyacentes a cada lado. Calcule los anchos angulares de las franjas brillantes de tercer y cuarto orden del problema anterior.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903934192">
+<problem id="fs-id1170902095847">
+<para id="fs-id1170903861632">Para un patrón de interferencia de tres rendijas, calcule la relación de las intensidades de los picos de un máximo secundario y un máximo principal.</para>
+</problem>
+<solution id="fs-id1170902135447">
+<para id="fs-id1170902153104">1:9</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902077189">
+<problem id="fs-id1170902075924">
+<para id="fs-id1170902120399">¿Cuál es el ancho angular de la franja central del patrón de interferencia de (a) 20 rendijas separadas por <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>mm</m:mtext></m:mrow></m:math>? (b) ¿50 rendijas con la misma separación? Supongamos que <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>600</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170903792446">
+<term>máximo principal</term>
+<meaning id="fs-id1170902207973">las franjas de interferencia más brillantes observadas con múltiples rendijas</meaning>
+</definition>
+<definition id="fs-id1170902265020">
+<term>máximo secundario</term>
+<meaning id="fs-id1170902161729">franjas de interferencia brillantes de intensidad inferior a los máximos principales</meaning>
+</definition>
+</glossary>
+</document>

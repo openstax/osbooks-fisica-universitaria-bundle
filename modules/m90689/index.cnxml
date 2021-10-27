@@ -1,0 +1,666 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Fluidos, densidad y presión</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90689</md:content-id>
+  <md:title>Fluidos, densidad y presión</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Indicar las diferentes fases de la materia.</item>
+<item>Describir las características de las fases de la materia a nivel molecular o atómico.</item>
+<item>Distinguir entre materiales compresibles e incompresibles.</item>
+<item>Definir densidad y sus unidades SI relacionadas.</item>
+<item>Comparar y contrastar las densidades de varias sustancias.</item>
+<item>Definir la presión y sus unidades SI relacionadas.</item>
+<item>Explicar la relación entre presión y fuerza.</item>
+<item>Calcular fuerza dada presión y área.</item>
+</list></md:abstract>
+  <md:uuid>cf0617f1-2c67-47ee-b05c-b857fc6e4fa0</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170958901977">La materia suele existir en forma sólida, líquida o gaseosa; estos estados se conocen comúnmente como <term class="no-emphasis">fases de la materia</term>. En esta sección examinaremos en detalle cada una de estas fases.</para>
+<section id="fs-id1170958691195">
+<title>Características de los sólidos</title>
+<para id="fs-id1170959052995">Los sólidos son rígidos y tienen formas específicas y volúmenes definidos. Los átomos o moléculas de un sólido están muy cerca unos de otros y existe una fuerza importante entre estas moléculas. Los sólidos adoptarán una forma determinada por la naturaleza de estas fuerzas entre las moléculas. Aunque los verdaderos sólidos no son incompresibles, se requiere una gran fuerza para cambiar la forma de un sólido. En algunos casos, la fuerza entre moléculas puede hacer que estas se organicen en una red, como se muestra en la <link target-id="CNX_UPhysics_Figure_14_01_PhasMatter"/>. La estructura de este entramado tridimensional se representa como moléculas conectadas por enlaces inflexibles (modelados como resortes rígidos), lo cual permite una libertad de movimiento limitada. Incluso una gran fuerza solo produce pequeños desplazamientos en los átomos o las moléculas de la red, y el sólido mantiene su forma. Los sólidos también resisten fuerzas de cizallamiento (fuerzas de cizallamiento son aquellas que se aplican tangencialmente a una superficie, como se describe en la sección <link document="m90676">Equilibrio estático y elasticidad</link>).</para>
+</section>
+<section id="fs-id1170958022881">
+<title>Características de los fluidos</title>
+<para id="fs-id1170958881933">Los <term class="no-emphasis">líquidos</term> y los gases se consideran <term>fluidos</term> porque ceden a las fuerzas de cizallamiento, mientras que <term class="no-emphasis">los sólidos</term> las resisten. Al igual que los sólidos, las moléculas de un líquido están unidas a las moléculas vecinas, pero poseen muchos menos enlaces. Las moléculas de un líquido no están encerradas en su sitio y se pueden mover unas respecto a otras. La distancia entre moléculas es similar a las distancias en un sólido, por lo que los líquidos tienen volúmenes definidos, pero la forma de un líquido cambia según la forma de su recipiente. <term class="no-emphasis">Los gases</term> no están unidos a átomos vecinos y pueden tener grandes separaciones entre moléculas. Los gases no tienen formas específicas ni volúmenes definidos, ya que sus moléculas se mueven para llenar el recipiente en el que se encuentran (<link target-id="CNX_UPhysics_Figure_14_01_PhasMatter"/>).</para>
+<figure id="CNX_UPhysics_Figure_14_01_PhasMatter">
+<media id="fs-id1170958009734" alt="La figura A muestra una disposición de átomos en un sólido. Los átomos están en estrecho contacto con átomos vecinos y se mantienen en su lugar mediante fuerzas representadas por resortes. La figura B muestra una disposición de los átomos en el líquido. Los átomos también están en estrecho contacto pero pueden deslizarse unos sobre otros. La figura C muestra una disposición de átomos en el gas. Los átomos se mueven libremente y están separados por grandes distancias.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_PhasMatter.jpg"/>
+</media>
+<caption>(a) Los átomos de un sólido están siempre en estrecho contacto con átomos vecinos, y se mantienen en su sitio por fuerzas representadas aquí por resortes. (b) Los átomos de un líquido están también en estrecho contacto pero pueden deslizarse unos sobre otros. Las fuerzas entre los átomos resisten en gran medida intentos de comprimirlos. (c) Los átomos de un gas se mueven libremente y están separados por grandes distancias. Un gas debe mantenerse en un recipiente cerrado para evitar que se expanda libremente y se escape.</caption>
+</figure>
+<para id="fs-id1170958942144">Los líquidos se deforman fácilmente cuando se les somete a estrés y no recuperan su forma original cuando se les retira la fuerza. Esto ocurre porque los átomos o las moléculas de un líquido son libres de deslizarse y cambiar de vecinos. Es decir, los líquidos fluyen (por lo que son un tipo de fluido) y las moléculas se mantienen unidas por atracción mutua. Cuando se coloca un líquido en un recipiente sin tapa, este permanece en el recipiente. Debido a que los átomos están estrechamente empaquetados, los líquidos, al igual que los sólidos, se resisten a la compresión; se necesita una fuerza extremadamente grande para cambiar el volumen de un líquido.</para>
+<para id="fs-id1170958873943">En cambio, los átomos de los gases están separados por grandes distancias, por lo que las fuerzas entre los átomos de un gas son muy débiles, excepto cuando los átomos chocan entre sí. Esto hace que los gases sean relativamente fáciles de comprimir y les permite fluir (lo que los convierte en fluidos). Cuando se colocan en un recipiente abierto, los gases, a diferencia de los líquidos, se escapan.</para>
+<para id="fs-id1170958761467">En este capítulo, generalmente, nos referimos a gases y a líquidos simplemente como fluidos, y haremos una distinción entre ellos solo cuando se comportan de manera diferente. Existe otra fase de la materia, <term class="no-emphasis">el plasma</term>, que existe a muy altas temperaturas. A altas temperaturas, las moléculas se pueden disociar en átomos, y los átomos se disocian en electrones (con cargas negativas) y protones (con cargas positivas), lo que forma un plasma. El plasma no se tratará en profundidad en este capítulo porque tiene propiedades muy diferentes de las otras tres fases comunes de la materia, tratadas en este capítulo, debido a las fuertes fuerzas eléctricas entre las cargas.</para>
+</section>
+<section id="fs-id1170958813966">
+<title>Densidad</title>
+<para id="fs-id1170958697975">Supongamos que un bloque de latón y un bloque de madera tienen exactamente la misma masa. Si se dejan caer ambos bloques en un tanque de agua, ¿por qué la madera flota y el latón se hunde (<link target-id="CNX_UPhysics_Figure_14_01_WoodBrassM"/>)? Esto ocurre porque el latón tiene una densidad mayor que el agua, mientras que la madera tiene una densidad menor que el agua.</para>
+<figure id="CNX_UPhysics_Figure_14_01_WoodBrassM"><media id="fs-id1170959031929" alt="La figura A es una foto de un gran bloque de madera y un pequeño bloque de latón situados en una balanza. La escala indica un peso idéntico de ambos bloques. La figura B es una foto de un gran bloque de madera en una pecera llena de agua. El pequeño bloque de latón se hunde en el fondo mientras que el bloque de madera flota.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_WoodBrassM.jpg"/>
+</media>
+
+<caption>(a) Un bloque de latón y un bloque de madera tienen ambos el mismo peso y masa, pero el bloque de madera tiene un volumen mucho mayor. (b) Cuando se coloca en una pecera llena de agua, el cubo de latón se hunde y el bloque de madera flota (el bloque de madera es el mismo en ambas imágenes; se le dio la vuelta para que cupiera en la balanza) (créditos: modificación de trabajos de Joseph J. Trout, Universidad de Stockton).</caption></figure><para id="fs-id1170958881632">La <emphasis effect="bold">densidad</emphasis> es una característica importante de las sustancias. Es crucial, por ejemplo, para determinar si un objeto se hunde o flota en un fluido.</para>
+<note id="fs-id1170958004613">
+<title>Densidad</title>
+<para id="fs-id1170958682722">La <term class="no-emphasis">densidad</term> media de una sustancia u objeto se define como su masa por unidad de volumen,</para>
+<equation id="fs-id1170959036828"><m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1170958709006">donde la letra griega <m:math><m:mi>ρ</m:mi></m:math> (rho) es el símbolo de la densidad, <emphasis effect="italics">m</emphasis> es la masa y <emphasis effect="italics">V</emphasis> es el volumen.</para>
+</note>
+<para id="fs-id1170958997490">La unidad SI de densidad es <m:math><m:mrow><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mtext>3</m:mtext></m:msup></m:mrow></m:math>. En la <link target-id="fs-id1170958649431"/> se enumeran algunos valores representativos. La unidad de densidad cgs es gramo por centímetro cúbico, <m:math><m:mrow><m:msup><m:mrow><m:mtext>g/cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>, donde</para>
+<equation id="fs-id1170959021334" class="unnumbered"><label/><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext><m:mtext>/</m:mtext><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mtext>/</m:mtext><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958616650">El sistema métrico se concibió originalmente para que el agua tuviera una densidad de <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>g/cm</m:mtext></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math>, equivalente a <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> Así, la unidad de masa básica, el kilogramo, se concibió por primera vez como la masa de 1.000 mL de agua, que tiene un volumen de <m:math><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+<table id="fs-id1170958649431" summary="This table has six columns and twenty rows. The first row is a header row and it labels the first and the second columns as “Solids at 0.0 C,” the third and the fourth columns as “Liquids at 0.0 C”, the fifth and the sixth columns as ”Gases at 0.0 C and 101 kPa”. The second row is a subheader row and it labels first, third, and fifth columns as “Substance”, second, fourth, and sixth columns as “Density in kg per meter cubed”. Under the first column is the list of substances: Bone; Brass; Concrete; Copper; Cork; Earth’s crust; Glass; Gold; Granite; Iron; Lead; Oak; Pine; Platinum; Polystyrene; Tungsten; Uranium. Under the second column are the values: 2700; 1900; 8440; 8920; 2400; 3300; 2600; 19300; 2700; 7860; 11300; 710; 373; 21400; 100; 1930; 1870. Under the third column is the list of substances: Blood; Ethyl alcohol; Gasoline Glycerin; Mercury; Olive Oil. Under the fourth column are the values: 879, 1050, 806, 680, 1260, 13600, 920. Under the fifth column is the list of substances: Carbon dioxide; Carbon monoxide; Helium; Hydrogen; Methane; Nitrogen; Nitrous oxide; Oxygen. Under the sixth column are the values: 1.29; 1.98; 1.25; 0.18; 0.09; 0.072; 1.25; 1.98; 1.43.">
+<title>Densidades de algunas sustancias comunes</title>
+<tgroup cols="6">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<thead>
+<row valign="top">
+<entry valign="top" namest="c1" nameend="c2" align="center">Sólidos<newline/>(<m:math><m:mrow><m:mn>0,0</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>)</entry>
+<entry valign="top" namest="c3" nameend="c4" align="center">Líquidos<newline/>(<m:math><m:mrow><m:mn>0,0</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>)</entry>
+<entry valign="top" namest="c5" nameend="c6" align="center">Gases<newline/>(<m:math><m:mrow><m:mn>0,0</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> 101,3 kPa)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Sustancia</emphasis></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mstyle mathvariant="bold"><m:mi>ρ</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mstyle></m:mrow></m:math></entry>
+<entry valign="top" align="left"><emphasis effect="bold">Sustancia</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold"><m:mi>ρ</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mstyle></m:mrow></m:math></entry>
+<entry valign="top" align="left"><emphasis effect="bold">Sustancia</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold"><m:mi>ρ</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Aluminio</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>2,70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Benceno</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>8,79</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Aire</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hueso</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1,90</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Sangre</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Dióxido de carbono</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,98</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Latón</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>8,44</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Alcohol etílico</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>8,06</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Monóxido de carbono</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hormigón</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>2,40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Gasolina</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>6,80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Helio</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Cobre</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>8,92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Glicerina</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,26</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Hidrógeno</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>9,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Corcho</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>2,40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Mercurio</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,36</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Metano</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>7,20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">La corteza terrestre</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>3,30</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Aceite de oliva</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>9,20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Nitrógeno</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Vidrio</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>2,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left">Óxido nitroso</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,98</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Oro</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1,93</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left">Oxígeno</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,43</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Granito</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>2,70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hierro</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>7,86</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Plomo</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1,13</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Roble</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>7,10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Pino</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>3,73</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Platino</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>2,14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Poliestireno</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Tungsteno</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1,93</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Uranio</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1,87</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1170958690535">Como se puede ver al examinar la <link target-id="fs-id1170958649431"/>, la densidad de un objeto puede ayudar a identificar su composición. La densidad del oro, por ejemplo, es unas 2,5 veces la del hierro, que es unas 2,5 veces la del aluminio. La densidad también revela algo sobre la fase de la materia y su subestructura. Obsérvese que las densidades de los líquidos y de los sólidos son más o menos comparables, lo que concuerda con el hecho de que sus átomos están en estrecho contacto. Las densidades de los gases son mucho menores que las de los líquidos y los sólidos porque los átomos de los gases están separados por grandes cantidades de espacio vacío. Los gases se muestran para una temperatura estándar de <m:math><m:mrow><m:mn>0,0</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y una presión estándar de 101,3 kPa, y existe una fuerte dependencia de las densidades con la temperatura y la presión. Las densidades de los sólidos y los líquidos mostrados se dan para la temperatura estándar de <m:math><m:mrow><m:mn>0,0</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y las densidades de sólidos y líquidos dependen de la temperatura. La densidad de sólidos y los líquidos aumenta normalmente con la disminución de la temperatura.</para>
+<para id="fs-id1170958607067">La <link target-id="fs-id1170958993859"/> muestra la densidad del agua en varias fases y temperaturas. La densidad del agua aumenta con la disminución de la temperatura, y alcanza un máximo a <m:math><m:mrow><m:mn>4,0</m:mn><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> y luego disminuye cuando la temperatura cae por debajo de <m:math><m:mrow><m:mn>4,0</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> Este comportamiento de la densidad del agua explica por qué se forma hielo en la parte superior de una masa de agua.</para>
+<table id="fs-id1170958993859" summary="This table has two columns and eight rows. The first row is a header row and it labels the first column as “Substance” and second column as “Density in kg per meter cubed”. Under the “Substance” is a list of substances: Ice at 0 C; Water at 0 C; Water at 4 C; Water at 20 C; Water at 100 C; Steam at 100 C and 101.3 kPa; Sea water at O C. Under the “Density in kg per meter cubed” is a list of values: 917; 999.8; 1000; 998.2; 9584; 167; 1030.">
+<title>Densidades de agua</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Sustancia</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ρ</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Hielo <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>9,17</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Agua <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>9,998</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Agua <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,000</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Agua <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>9,982</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Agua <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>9,584</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Vapor <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mtext>°</m:mtext><m:mtext>C,</m:mtext><m:mspace width="0.2em"/><m:mn>101,3</m:mn><m:mspace width="0.2em"/><m:mtext>kPa</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,670</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Agua de mar <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,030</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1170959007911">La densidad de una sustancia no es necesariamente constante en todo su volumen. Si la densidad es constante en toda una sustancia, se dice que es una <term class="no-emphasis">sustancia homogénea</term>. Una barra de hierro maciza es un ejemplo de sustancia homogénea. La densidad es constante en todo momento, y la densidad de cualquier muestra de la sustancia es la misma que su densidad media. Si la densidad de una sustancia no fuera constante, se dice que es una <term class="no-emphasis">sustancia heterogénea</term>. Un trozo de queso suizo es un ejemplo de material heterogéneo que contiene tanto el queso sólido como vacíos llenos de gas. La densidad en un lugar específico dentro de un material heterogéneo se llama <emphasis effect="italics">densidad local</emphasis>, y se da como una función de lugar, <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> (<link target-id="CNX_UPhysics_Figure_14_01_LocalDensi"/>).</para>
+<figure id="CNX_UPhysics_Figure_14_01_LocalDensi">
+<media id="fs-id1170959052835" alt="La figura es un dibujo de un recipiente lleno de un líquido. Se dibujan pequeños cubos en diferentes regiones del recipiente para indicar los puntos de densidad locales.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_LocalDensi.jpg"/>
+</media>
+<caption>La densidad puede variar en una mezcla heterogénea. La densidad local en un punto se obtiene de la división de la masa entre el volumen en un pequeño volumen alrededor de un punto dado.</caption>
+</figure>
+<para id="fs-id1170958648255">La densidad local se puede obtener mediante un proceso de limitación, basado en la densidad media en un pequeño volumen alrededor del punto en cuestión, tomando el límite en el que el tamaño del volumen se aproxima a cero,</para>
+<note id="fs-id1170959010490" class="equation-callout">
+<equation id="fs-id1170959034931"><label/><m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:munder><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170959049613">donde <m:math><m:mi>ρ</m:mi></m:math> es la densidad, <emphasis effect="italics">m</emphasis> es la masa y <emphasis effect="italics">V</emphasis> es el volumen.</para>
+<para id="fs-id1170958913706">Dado que los gases son libres de expandirse y contraerse, sus densidades varían considerablemente con la temperatura, mientras que las densidades de los líquidos varían poco con la temperatura. Por ello, las densidades de los líquidos suelen tratarse como constantes, con la densidad igual a la densidad media.</para>
+<para id="fs-id1170957969162">La densidad es una propiedad dimensional; por lo tanto, al comparar las densidades de dos sustancias hay que tener en cuenta las unidades. Por esto, para comparar densidades se suele usar una cantidad más conveniente y sin dimensiones llamada <term>gravedad específica</term>. La gravedad específica se define como la relación entre la densidad del material y la densidad del agua a <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> y una atmósfera de presión, la cual es <m:math><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math>:</para>
+<equation id="fs-id1170958015259" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Gravedad específica</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Densidad del material</m:mtext></m:mrow><m:mrow><m:mtext>Densidad del agua</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959045490">La comparación usa el agua porque la densidad del agua es <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>g/cm</m:mtext></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math>, que se usó originalmente para definir el kilogramo. La gravedad específica, al ser sin dimensiones, permite comparar fácilmente los materiales sin tener que preocuparse por la unidad de densidad. Por ejemplo, la densidad del aluminio es de 2,7 en <m:math><m:mrow><m:msup><m:mrow><m:mtext>g/cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> (2.700 en <m:math><m:mrow><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>), pero su gravedad específica es de 2,7, independientemente de la unidad de densidad. La gravedad específica es una magnitud especialmente útil en relación con la flotabilidad, de la que hablaremos más adelante en este capítulo.</para>
+</section>
+<section id="fs-id1170958011589">
+<title>Presión</title>
+<para id="fs-id1170959031552">Seguro que ha oído la palabra “presión” en relación con la sangre (presión arterial alta o baja) y en relación con las condiciones meteorológicas (sistemas meteorológicos de alta y baja presión). Estos son solo dos de los muchos ejemplos de presión en fluidos (recordemos que introdujimos la idea de presión en la sección <link document="m90676">Equilibrio estático y elasticidad</link>, en el contexto de tensión de compresibilidad y tensión).</para>
+<note id="fs-id1170958073520">
+<title>Presión</title>
+<para id="fs-id1170958073526">La<emphasis effect="bold">presión</emphasis> (<emphasis effect="italics">p</emphasis>) se define como la fuerza normal <emphasis effect="italics">F</emphasis> por unidad de superficie <emphasis effect="italics">A</emphasis> sobre la que se aplica la fuerza, o</para>
+<equation id="fs-id1170959029664"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958931147">Para definir la <term class="no-emphasis">presión</term> en un punto específico, se señala como la fuerza <emphasis effect="italics">dF</emphasis> ejercida por un fluido sobre un elemento infinitesimal de área <emphasis effect="italics">dA</emphasis> que contiene el punto, lo que genera <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>F</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</note>
+<para id="fs-id1170958072534">Una fuerza determinada puede tener un efecto significativamente diferente, según sea el área sobre la que se ejerce la fuerza. Por ejemplo, una fuerza aplicada a un área de <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> tiene una presión que es 100 veces mayor que la misma fuerza aplicada a un área de <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Por eso una aguja afilada es capaz de atravesar la piel cuando se ejerce una pequeña fuerza, pero al aplicar la misma fuerza con un dedo no se perfora la piel (<link target-id="CNX_UPhysics_Figure_14_01_NeedleFing"/>).</para>
+<figure id="CNX_UPhysics_Figure_14_01_NeedleFing">
+<media id="fs-id1170958965710" alt="La figura A es un dibujo de una persona pinchada con un dedo en el hombro. La fuerza del dedo se muestra ocupando un área mayor, que produce solo una pequeña cantidad de presión. La figura B es un dibujo de una persona pinchada con una jeringa con aguja en el hombro. La fuerza de la jeringa se muestra ocupando un área más pequeña, lo que produce una gran cantidad de presión.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_NeedleFing.jpg"/>
+</media>
+<caption>(a) Una persona a quien se le pincha con un dedo puede irritarse, pero la fuerza tiene un efecto poco duradero. (b) En cambio, la misma fuerza aplicada a un área del tamaño del extremo afilado de una aguja es suficiente para romper la piel.</caption>
+</figure>
+<para id="fs-id1170959036664">Tenga en cuenta que aunque la fuerza es un vector, la presión es un escalar. La presión es una cantidad escalar porque se define como proporcional a la magnitud de la fuerza que actúa perpendicularmente a la superficie. La unidad del SI para la presión es el <emphasis effect="italics">pascal</emphasis> (Pa), llamado así por el matemático y físico francés Blaise Pascal (1623-1662), donde</para>
+<equation id="fs-id1170958009402" class="unnumbered"><label/><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958929891">Para la presión se usan otras unidades, de las que hablaremos más adelante en el capítulo.</para>
+<section id="fs-id1170958929894">
+<title>Variación de presión con profundidad en un fluido de densidad constante</title>
+<para id="fs-id1170958954348">La presión se define para todos los estados de la materia, pero es especialmente importante cuando se habla de fluidos. Una característica importante de los ﬂuidos es que no existe una resistencia significativa al componente de una fuerza aplicada en paralelo a la superficie de un fluido. Las moléculas del ﬂuido simplemente circulan para acomodar la fuerza horizontal. Una fuerza aplicada perpendicularmente a la superficie comprime o expande el fluido. Si se intenta comprimir un fluido, se observa que se desarrolla una fuerza de reacción en cada punto del interior del fluido en dirección hacia el exterior, lo que equilibra la fuerza aplicada sobre las moléculas en el límite.</para>
+<para id="fs-id1170958954350">Consideremos un fluido de densidad constante como se muestra en la <link target-id="CNX_UPhysics_Figure_14_01_PressurCnt"/>. La presión en el fondo del recipiente se debe a la presión de la atmósfera <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> más la presión debido al peso del fluido. La presión debido al fluido es igual al peso del fluido dividido entre el área. El peso del fluido es igual a su masa por la aceleración debido a la gravedad.</para>
+<figure id="CNX_UPhysics_Figure_14_01_PressurCnt">
+<media id="fs-id1170958009560" alt="La figura A es un dibujo de un recipiente. El fondo del recipiente tiene un área A. El recipiente se llena con el líquido hasta la altura h. En el texto a la derecha del contenedor se lee “volumen es igual a A por h”.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_PressurCnt.jpg"/>
+</media>
+<caption>El fondo de este recipiente soporta todo el peso del fluido que contiene. Los lados verticales no pueden ejercer una fuerza ascendente sobre el fluido (ya que no puede soportar una fuerza de cizallamiento), por lo que el fondo debe soportarlo todo.</caption>
+</figure>
+<para id="fs-id1170959060825">Como la densidad es constante, el peso se puede calcular usando la densidad:</para>
+<equation id="fs-id1170959060828" class="unnumbered"><label/><m:math><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>V</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mi>h</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958929937">La presión en el fondo del recipiente es, por tanto, igual a la <term class="no-emphasis">presión atmosférica</term> sumada al peso del fluido dividido entre el área:</para>
+<equation id="fs-id1170958915345" class="unnumbered"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mi>h</m:mi><m:mi>g</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>h</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958022533">Esta ecuación solo sirve para presión a una profundidad para un fluido de densidad constante.</para>
+<note id="fs-id1170958996577">
+<title>Presión en una profundidad para un fluido de densidad constante</title>
+<para id="fs-id1170958996582">La presión a una profundidad en un fluido de densidad constante es igual a la presión de la atmósfera más la presión debido al peso del fluido, o</para>
+<equation id="fs-id1170957963962"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>h</m:mi><m:mi>g</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959031940">Donde <emphasis effect="italics">p</emphasis> es la presión a una profundidad determinada, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la presión de la atmósfera, <m:math><m:mi>ρ</m:mi></m:math> es la densidad del fluido, <emphasis effect="italics">g</emphasis> es la aceleración debido a la gravedad y <emphasis effect="italics">h</emphasis> es la profundidad.</para>
+</note>
+<figure id="CNX_UPhysics_Figure_14_01_ThrGorgDam"><media id="fs-id1170958961563" alt="Una foto de una presa erigida en un río.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_ThrGorgDam.jpg"/>
+</media>
+
+<caption>La presa de las Tres Gargantas, erigida en el río Yangtze en el centro de China en 2008, creó un enorme embalse que desplazó a más de un millón de personas (créditos: modificación de trabajo de “Le Grand Portage”/Flickr).</caption></figure><example id="fs-id1170958017886">
+<para id="fs-id1170958017888"><title>¿Qué fuerza debe soportar una presa?</title>
+Consideremos la presión y la fuerza que actúan sobre la presa que retiene un embalse de agua (<link target-id="CNX_UPhysics_Figure_14_01_ThrGorgDam"/>). Supongamos que la presa tiene 500 m de ancho y el agua tiene 80,0 m de profundidad en la presa, como se ilustra a continuación. (a) ¿Cuál es la presión media sobre la presa debido al agua? (b) Calcule la fuerza ejercida contra la presa.</para>
+<media id="fs-id1170958018373" alt="La figura es un dibujo esquemático de una presa de longitud L y altura h erigida sobre el río. Hay una pequeña canoa en el río con un solo pasajero. Las fórmulas F es igual a p por A, y p es igual a h por p por g están incluidas en esta ilustración.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_ExampleDam_img.jpg"/>
+</media>
+<para id="fs-id1170958072917">La presión media <emphasis effect="italics">p</emphasis> debido al peso del agua es la presión a la profundidad media <emphasis effect="italics">h</emphasis> de 40,0 m, ya que la presión aumenta linealmente con la profundidad. La fuerza ejercida por el agua sobre la presa es la presión media por el área de contacto, <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mi>A</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1170958006080"><title>solución</title></para>
+<list id="fs-id1170958006084" list-type="enumerated" number-style="lower-alpha"><item>La presión media debido al peso de un fluido es
+<equation id="fs-id1170959036594"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Al introducir la densidad del agua de la <link target-id="fs-id1170958993859"/> y tomando <emphasis effect="italics">h</emphasis> como la profundidad media de 40,0 m, obtenemos
+<equation id="fs-id1170959047868" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>p</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>40,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9,80</m:mn><m:mfrac><m:mtext>m</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>3,92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mtext>N</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>392</m:mn><m:mspace width="0.2em"/><m:mtext>kPa</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Ya hemos encontrado el valor de <emphasis effect="italics">p</emphasis>. El área de la presa es
+<equation id="fs-id1170959036389" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>80,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+para que
+<equation id="fs-id1170959047670" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>F</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3,92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>N/m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1,57</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list><para id="fs-id1170958009527"><title>Importancia</title>
+Aunque esta fuerza parece grande, es pequeña comparada con el <m:math><m:mrow><m:mn>1,96</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup><m:mtext>N</m:mtext></m:mrow></m:math> peso del agua en el embalse. De hecho, es solo el 0,0800 % del peso.</para>
+</example>
+<note id="fs-id1170958012924" class="check-understanding">
+<exercise id="fs-id1170958012928">
+<problem id="fs-id1170958012930">
+<para id="fs-id1170958013207">Si el embalse del <link target-id="fs-id1170958017886"/> cubriera el doble de superficie, pero se mantuviera a la misma profundidad, ¿habría que rediseñar la presa?</para>
+</problem>
+<solution id="fs-id1170958020276">
+<para id="fs-id1170958020278">La presión encontrada en la parte (a) del ejemplo es completamente independiente de la anchura y la longitud del lago; solo depende de su profundidad media en la presa. Por tanto, la fuerza solamente depende de la profundidad media del agua y de las dimensiones de la presa, no de la extensión horizontal del embalse. En el diagrama, obsérvese que el espesor de la presa aumenta con la profundidad para equilibrar la fuerza creciente debido al aumento de la presión.</para></solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170958020283">
+<title>Presión en un fluido estático en un campo gravitacional uniforme</title>
+<para id="fs-id1170958020400">Un <term class="no-emphasis"><emphasis effect="italics">fluido estático</emphasis></term> es un fluido que no está en movimiento. En cualquier punto dentro de un fluido estático, la presión en todos los lados debe ser igual; de lo contrario, el fluido en ese punto reaccionaría a una fuerza neta y se aceleraría.</para>
+<para id="fs-id1170958017850">La presión en cualquier punto de un fluido estático depende únicamente de la profundidad en ese punto. Como se ha comentado, la presión de un fluido cerca de la Tierra varía con la profundidad debido al peso del fluido por encima de un nivel determinado. En los ejemplos anteriores hemos supuesto que la densidad es constante y que la densidad media del fluido es una buena representación de la densidad. Esta es una aproximación razonable para líquidos como el agua, donde se requieren grandes fuerzas para comprimir el líquido o cambiar el volumen. En una piscina, por ejemplo, la densidad es aproximadamente constante, y el agua del fondo se comprime muy poco por el peso del agua de arriba. Sin embargo, viajar por la atmósfera es una situación muy diferente. La densidad del aire comienza a cambiar significativamente a poca distancia de la superficie de la Tierra.</para>
+<para id="fs-id1170958017853">Para obtener una fórmula de la variación de la presión con la profundidad en un tanque que contiene un fluido de densidad <emphasis effect="italics">ρ</emphasis> en la superficie de la Tierra, debemos partir de la hipótesis de que la densidad del fluido no es constante. El fluido situado en niveles más profundos está sometido a más fuerza que el fluido más cercano a la superficie debido al peso del fluido que está por encima. Por lo tanto, la presión calculada a una profundidad determinada es diferente de la presión calculada usando una densidad constante.</para>
+<para id="fs-id1170958915304">Imagine un elemento delgado de fluido a una profundidad <emphasis effect="italics">h</emphasis>, como se muestra en la <link target-id="CNX_UPhysics_Figure_14_01_VarDensity"/>. Supongamos que el elemento tenga un área de sección transversal <emphasis effect="italics">A</emphasis> y una altura <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>y</m:mi></m:mrow></m:math> Las fuerzas que actúan sobre el elemento son debido a las presiones <emphasis effect="italics">p</emphasis>(<emphasis effect="italics">y</emphasis>) por encima y <m:math><m:mrow><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> debajo de ella. El peso del propio elemento también se muestra en el diagrama de cuerpo-libre.</para>
+<figure id="CNX_UPhysics_Figure_14_01_VarDensity">
+<media id="fs-id1170958015161" alt="La figura A es un dibujo esquemático de un cilindro lleno de fluido y abierto a la atmósfera por la parte superior. Se coloca en el fluido un disco de masa Delta m, superficie A idéntica a la superficie del cilindro y altura Delta y. Por encima del disco se encuentra un fluido de altura h. La figura B es un dibujo esquemático de la fuerza Delta m x g expresada por el disco, p (y) x A aplicada por el fluido por encima del disco, y p (y + Delta y) x A aplicada por el fluido por debajo del disco.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_VarDensity.jpg"/>
+</media>
+<caption>Fuerzas sobre un elemento de masa dentro de un fluido. El peso del propio elemento se muestra en el diagrama de cuerpo-libre.</caption>
+</figure>
+<para id="fs-id1170959036605">Dado que el elemento de fluido entre <emphasis effect="italics">y</emphasis> y <m:math><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>y</m:mi></m:mrow></m:math> no se acelera, las fuerzas están equilibradas. Usando un eje cartesiano <emphasis effect="italics">y</emphasis>orientado hacia arriba, encontramos la siguiente ecuación para el componente <emphasis effect="italics">y</emphasis>:</para>
+<equation id="fs-id1170959047159"><m:math><m:mrow><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>A</m:mi><m:mo>−</m:mo><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow><m:mi>A</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math>
+</equation>
+<para id="fs-id1170958994198">Obsérvese que si el elemento tuviera un componente de aceleración <emphasis effect="italics">y</emphasis>distinto de cero, el lado derecho no sería cero, sino que sería la masa por la aceleración <emphasis effect="italics">y</emphasis>. La masa del elemento se puede escribir en términos de la densidad del fluido y del volumen de los elementos:</para>
+<equation id="fs-id1170959078048" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>y</m:mi></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>y</m:mi><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959033558">Al poner esta expresión para <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi></m:mrow></m:math> en la <link target-id="fs-id1170959047159"/> y luego dividir ambos lados entre <m:math><m:mrow><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>y</m:mi></m:mrow></m:math>, encontramos</para>
+<equation id="fs-id1170958074452"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959029918">Al tomar el límite del elemento infinitesimal <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>y</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:math>, obtenemos la siguiente ecuación diferencial, la cual da la variación de la presión en un fluido:</para>
+<note id="fs-id1170958023002" class="equation-callout">
+<equation id="fs-id1170959047641"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170958005944">Esta ecuación nos dice que la tasa de cambio de presión en un fluido es proporcional a su densidad. La solución de esta ecuación depende de si la densidad <emphasis effect="italics">ρ</emphasis> es constante o cambia con la profundidad, es decir, de la función <emphasis effect="italics">ρ</emphasis>(<emphasis effect="italics">y</emphasis>).</para>
+<para id="fs-id1170958072683">Si el rango de la profundidad analizada no es demasiado grande, podemos suponer que la densidad es constante. Pero si el rango de profundidad es lo suficientemente grande como para que la densidad varíe de forma apreciable, como en el caso de la atmósfera, hay un cambio significativo en densidad con profundidad. En ese caso, no podemos usar la aproximación de una densidad constante.</para>
+</section>
+<section id="fs-id1170958072690">
+<title>Presión en un fluido con densidad constante</title>
+<para id="fs-id1170959043716">Usemos la <link target-id="fs-id1170958999550"/> para elaborar una fórmula de la presión a una profundidad <emphasis effect="italics">h</emphasis> de la superficie en un tanque de un líquido como agua, donde la densidad del líquido se puede tomar como constante.</para>
+<media id="fs-id1170958071646" alt="Un dibujo esquemático del vaso de precipitados lleno de líquido hasta la altura h. El fluido presenta una presión P0 igual a cero en la superficie y una presión P en el fondo del vaso.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_FluidDifPrs_img.jpg"/>
+</media>
+<para id="fs-id1170958071659">Tenemos que integrar la <link target-id="fs-id1170958999550"/> de <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> donde la presión es la presión atmosférica <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> hasta <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>h</m:mi><m:mo>,</m:mo></m:mrow></m:math> la coordenada <emphasis effect="italics">y</emphasis>de la profundidad:</para>
+<equation id="fs-id1170958999550"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mi>p</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow></m:mrow></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mrow><m:mtext>−</m:mtext><m:mi>h</m:mi></m:mrow></m:msubsup><m:mrow><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow></m:mrow></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>p</m:mi><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mi>h</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>p</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mi>h</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170957969059">Por lo tanto, la presión a una profundidad del fluido en la superficie de la Tierra es igual a la presión atmosférica más <emphasis effect="italics">ρgh</emphasis> si la densidad del fluido es constante a lo largo de la altura, como hemos comprobado anteriormente.</para>
+<para id="fs-id1170957969068">Obsérvese que la presión en un fluido solo depende de la profundidad desde la superficie y no de la forma del recipiente. Así, en un recipiente en el que un fluido puede moverse libremente en varias partes, el líquido se mantiene al mismo nivel en cada parte, independientemente de la forma, como se muestra en la <link target-id="CNX_UPhysics_Figure_14_01_FldShape"/>.</para>
+<figure id="CNX_UPhysics_Figure_14_01_FldShape">
+<media id="fs-id1170958020300" alt="Foto de unos recipientes de vidrio de diferente forma conectados por un tubo de vidrio en el fondo y llenos de fluido rojo. El fluido está a la misma altura en los diferentes recipientes de vidrio.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_FldShape.jpg"/>
+</media>
+<caption>Si un fluido puede circular libremente entre las partes de un recipiente, sube a la misma altura en cada una de ellas. En el recipiente de la imagen, la presión en el fondo de cada columna es la misma; si no lo fuera, el fluido circularía hasta que las presiones se igualaran.</caption>
+</figure>
+</section>
+<section id="fs-id1170959047770">
+<title>Variación de la presión atmosférica con la altura</title>
+<para id="fs-id1170958915671">El cambio de la presión atmosférica con la altura es de especial interés. Supongamos que la temperatura del aire es constante, y que la ley de termodinámica de los gases ideales describe la atmósfera con una buena aproximación, podemos encontrar la variación de la presión atmosférica con la altura, cuando la temperatura es constante (analizaremos la ley de los gases ideales en un capítulo posterior, pero suponemos que está familiarizado con ella desde la escuela secundaria y la química). Supongamos que <emphasis effect="italics">p</emphasis>(<emphasis effect="italics">y</emphasis>) es la presión atmosférica a la altura <emphasis effect="italics">y</emphasis>. La densidad <m:math><m:mi>ρ</m:mi></m:math> en <emphasis effect="italics">y</emphasis>, la temperatura <emphasis effect="italics">T</emphasis> en la escala Kelvin (K) y la masa <emphasis effect="italics">m</emphasis> de una molécula de aire están relacionadas con la presión absoluta por la ley de los gases ideales, en la forma</para>
+<equation id="fs-id1170958999676"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mtext>(atmósfera),</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170959038017">donde <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math> es la constante de Boltzmann, que tiene un valor de <m:math><m:mrow><m:mn>1,38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mtext>J/K</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1170958072901">Es posible que haya encontrado la ley de los gases ideales en la forma <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow></m:math>, donde <emphasis effect="italics">n</emphasis> es el número de moles y <emphasis effect="italics">R</emphasis> es la constante del gas. Aquí, la misma ley se ha escrito de forma diferente, usando la densidad <m:math><m:mi>ρ</m:mi></m:math> en vez del volumen <emphasis effect="italics">V</emphasis>. Por lo tanto, si la presión <emphasis effect="italics">p</emphasis> cambia con la altura, también lo hace la densidad <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>.</m:mo></m:mrow></m:math> Usando la densidad de la ley de los gases ideales, la tasa de variación de la presión con la altura viene dada por</para>
+<equation id="fs-id1170958915613" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958073152">donde las cantidades constantes se han recogido dentro de los paréntesis. Al sustituir estas constantes por un único símbolo <m:math><m:mrow><m:mi>α</m:mi><m:mo>,</m:mo></m:mrow></m:math> la ecuación parece mucho más sencilla:</para>
+<equation id="fs-id1170958072344" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>p</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mi>p</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>d</m:mi><m:mi>y</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:munderover><m:mstyle displaystyle="true"><m:mo>∫</m:mo></m:mstyle><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:munderover><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mi>p</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:munderover><m:mstyle displaystyle="true"><m:mo>∫</m:mo></m:mstyle><m:mn>0</m:mn><m:mi>y</m:mi></m:munderover><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>d</m:mi><m:mi>y</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msubsup><m:mrow><m:mo>[</m:mo><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:msubsup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msubsup><m:mrow><m:mo>[</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>y</m:mi></m:mrow><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn><m:mi>y</m:mi></m:msubsup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>y</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>p</m:mi><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>y</m:mi></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170958073195">Esto da la solución</para>
+<equation id="fs-id1170958990834" class="unnumbered"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mtext>exp</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958994042">Así, la presión atmosférica desciende exponencialmente con la altura, ya que el eje <emphasis effect="italics">y</emphasis> apunta hacia arriba desde el suelo y <emphasis effect="italics">y</emphasis> tiene valores positivos en la atmósfera por encima del nivel del mar. La presión se reduce en un factor de <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>e</m:mi></m:mfrac></m:mrow></m:math> cuando la altura es <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>α</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> que nos da una interpretación física para <m:math><m:mi>α</m:mi></m:math>: La constante <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>α</m:mi></m:mfrac></m:mrow></m:math> es una escala de longitud que caracteriza cómo varía la presión con la altura y, a menudo, se denomina altura de la escala de presión.</para>
+<para id="fs-id1170958006061">Podemos obtener un valor aproximado de <m:math><m:mi>α</m:mi></m:math> usando la masa de una molécula de nitrógeno como sustituto de una molécula de aire. A una temperatura de <m:math><m:mrow><m:mtext>27 °C,</m:mtext></m:mrow></m:math> o 300 K, encontramos</para>
+<equation id="fs-id1170957964291" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−26</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mspace width="0.2em"/><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>9,81</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>1,38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>300 K</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>8.800</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958753637">Por lo tanto, por cada 8.800 metros, la presión del aire disminuye en un factor 1/<emphasis effect="italics">e</emphasis>, es decir, aproximadamente un tercio de su valor. Esto solo nos da una estimación aproximada de la situación real, ya que hemos asumido tanto una temperatura como un <emphasis effect="italics">g</emphasis> constantes a distancias tan grandes de la Tierra, ninguno de los cuales es correcto en la realidad.</para>
+</section>
+<section id="fs-id1170958073564">
+<title>Dirección de la presión en un fluido</title>
+<para id="fs-id1170958073570">La presión de los fluidos no tiene dirección, ya que es una cantidad escalar, mientras que las fuerzas debido a la presión tienen direcciones bien definidas: Siempre se ejercen perpendicularmente a cualquier superficie. La explicación es que los fluidos no pueden soportar ni ejercer fuerzas de cizallamiento. Así, en un fluido estático encerrado en un tanque, la fuerza ejercida sobre sus paredes se ejerce perpendicularmente a la superficie interior. Asimismo, la presión se ejerce perpendicularmente a las superficies de cualquier objeto dentro del fluido. La <link target-id="CNX_UPhysics_Figure_14_01_Tireswim"/> ilustra la presión que ejerce el aire sobre las paredes de un neumático y por el agua sobre el cuerpo de un nadador.</para>
+<figure id="CNX_UPhysics_Figure_14_01_Tireswim">
+<media id="fs-id1170958011717" alt="La figura A es un dibujo esquemático de un neumático lleno de aire. La presión dentro de este neumático ejerce fuerzas perpendiculares a todas las superficies con las que entra en contacto, incluida la válvula. La figura B es un dibujo esquemático de un nadador bajo el agua. La presión se ejerce perpendicularmente a todos los lados de este nadador con una fuerza de flotación neta mayor debajo del nadador.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_Tireswim.jpg"/>
+</media>
+<caption>(a) La presión en el interior de este neumático ejerce fuerzas perpendiculares a todas las superficies con las que entra en contacto. Las flechas representan las direcciones y magnitudes de las fuerzas ejercidas en varios puntos. (b) La presión se ejerce perpendicularmente a todos los lados de este nadador, ya que el agua fluiría en el espacio que él ocupa si no estuviera allí. Las flechas representan las direcciones y magnitudes de las fuerzas ejercidas en varios puntos del nadador. Obsérvese que las fuerzas son mayores por debajo, debido a la mayor profundidad, dando una fuerza neta ascendente o fuerza de flotación. La fuerza vertical neta sobre el nadador es igual a la suma de la fuerza de flotación y el peso del nadador.</caption>
+</figure>
+</section>
+</section>
+<section id="fs-id1170958011744" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170958018426" list-type="bulleted" bullet-style="bullet">
+<item>Un fluido es un estado de la materia que cede a las fuerzas laterales o de cizallamiento. Tanto los líquidos como los gases son fluidos. La estática de los fluidos es la física de los fluidos estacionarios.</item>
+<item>La densidad es la masa por unidad de volumen de una sustancia u objeto, definida como <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math> La unidad SI de densidad es <m:math><m:mrow><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>La presión es la fuerza por unidad de superficie perpendicular sobre la que se aplica la fuerza, <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mtext>/</m:mtext><m:mi>A</m:mi><m:mo>.</m:mo></m:mrow></m:math> La unidad SI de presión es el pascal: <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math></item>
+<item>La presión debido al peso de un líquido de densidad constante viene dada por <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mspace width="0.2em"/><m:mi>g</m:mi><m:mi>h</m:mi></m:mrow></m:math>, donde <emphasis effect="italics">p</emphasis> es la presión, <emphasis effect="italics">h</emphasis> es la profundidad del líquido, <m:math><m:mi>ρ</m:mi></m:math> es la densidad del líquido y <emphasis effect="italics">g</emphasis> es la aceleración debido a la gravedad.</item>
+</list>
+</section>
+<section id="fs-id1170958994160" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1170958994167">
+<problem id="fs-id1170958994169">
+<para id="fs-id1170958994171">¿Cuáles de las siguientes sustancias son fluidos a temperatura ambiente y presión atmosférica: aire, mercurio, agua o vidrio?</para>
+</problem>
+<solution id="fs-id1170958994176">
+<para id="fs-id1170958994179">El mercurio y el agua son líquidos a temperatura ambiente y presión atmosférica. El aire es un gas a temperatura ambiente y presión atmosférica. El vidrio es un material sólido amorfo (no cristalino) a temperatura ambiente y presión atmosférica. En una época se pensaba que el vidrio fluía, pero que lo hacía muy lentamente. Esta teoría surgió de la observación de que los antiguos planos de vidrio eran más gruesos en la parte inferior. Ahora se considera poco probable que esta teoría sea exacta.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958994188">
+<problem id="fs-id1170958006004">
+<para id="fs-id1170958006006">¿Por qué los gases son más fáciles de comprimir que los líquidos y los sólidos?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958006020">
+<problem id="fs-id1170958006022">
+<para id="fs-id1170958006025">Explique cómo varía la densidad del aire con la altitud.</para>
+</problem>
+<solution id="fs-id1170958006029">
+<para id="fs-id1170958006031">La densidad del aire disminuye con la altitud. Para una columna de aire de temperatura constante, la densidad disminuye exponencialmente con la altitud. Esta es una aproximación justa, pero como la temperatura cambia con la altitud, es solamente una aproximación.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958073375">
+<problem id="fs-id1170958073377">
+<para id="fs-id1170958073379">La imagen muestra un vaso de agua con hielo lleno hasta el borde. ¿Se desbordará el agua cuando se derrita el hielo? Explique su respuesta.</para>
+<media id="fs-id1170958073384" alt="Una foto de un vaso de agua con hielo lleno hasta el borde.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_IceWaterGl_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170958073407">
+<problem id="fs-id1170958071663">
+<para id="fs-id1170958071665">¿Cómo se relaciona la presión con el afilado de un cuchillo y su capacidad de corte?</para>
+</problem>
+<solution id="fs-id1170958071670">
+<para id="fs-id1170958071672">La presión es la fuerza dividida entre el área. Si un cuchillo está afilado, la fuerza aplicada a la superficie de corte se divide en un área menor que la misma fuerza aplicada con un cuchillo sin filo. Esto significa que la presión sería mayor para el cuchillo más afilado, lo que aumenta su capacidad de corte.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958071680">
+<problem id="fs-id1170958071682">
+<para id="fs-id1170958071684">¿Por qué una fuerza ejercida por un fluido estático sobre una superficie es siempre perpendicular a esta?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958021832">
+<problem id="fs-id1170958021834">
+<para id="fs-id1170958021836">Imagine que en un lugar remoto cerca del polo norte un trozo de hielo flota en un lago. Junto al lago, un glaciar con el mismo volumen que el hielo flotante se asienta en tierra. Si ambos trozos de hielo se derritieran debido al aumento de la temperatura global, y todo el hielo derretido fuera a parar al lago, ¿cuál de los dos haría subir más el nivel del lago? Explique.</para>
+</problem>
+<solution id="fs-id1170958021844">
+<para id="fs-id1170958021846">Si los dos trozos de hielo tuvieran el mismo volumen, producirían el mismo volumen de agua. Sin embargo, el glaciar provocaría la mayor subida del lago porque parte del trozo de hielo flotante ya está sumergido en el lago y, por tanto, ya está contribuyendo a su nivel.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958021856">
+<problem id="fs-id1170958021858">
+<para id="fs-id1170958021860">En el ballet, bailar <emphasis effect="italics">en puntas</emphasis> (sobre las puntas de los dedos) es mucho más duro para los dedos de los pies que bailar o caminar normalmente. Explique por qué en términos de presión.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958068053">
+<problem id="fs-id1170958068055">
+<para id="fs-id1170958068057">La presión atmosférica ejerce una gran fuerza (igual al peso de la atmósfera por encima de su cuerpo, unas 10 toneladas) sobre la parte superior de su cuerpo cuando está tumbado en la playa tomando el sol. ¿Por qué usted puede levantarse?</para>
+</problem>
+<solution id="fs-id1170958068067">
+<para id="fs-id1170958068069">La presión actúa alrededor de su cuerpo y supone que no está en el vacío.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958068074">
+<problem id="fs-id1170958068076">
+<para id="fs-id1170958071971">¿Por qué la presión atmosférica disminuye más rápidamente que linealmente con la altitud?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958071985">
+<problem id="fs-id1170958071987">
+<para id="fs-id1170958071989">La imagen muestra cómo sacos de arena colocados alrededor de una fuga fuera de un dique fluvial pueden detener eficazmente el flujo de agua que está debajo del dique. Explique cómo la pequeña cantidad de agua dentro de la columna de sacos de arena es capaz de equilibrar la masa de agua mucho mayor que hay detrás del dique.</para>
+<media id="fs-id1170958071994" alt="Dibujo esquemático de los sacos de arena colocados alrededor de una fuga en el exterior de un dique fluvial. La altura de la pila de sacos de arena es idéntica a la del dique y supera el nivel máximo de agua del río inundado.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_RiverLevee_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1170957963922">
+<para id="fs-id1170957963924">Como el nivel del río es muy alto, ha empezado a filtrarse debajo del dique. Se colocan sacos de arena alrededor de la fuga, y el agua retenida por ellos sube hasta alcanzar el mismo nivel del río, momento en el que el agua deja de subir. Los sacos de arena absorberán el agua hasta que esta llegue a la altura del dique.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957963932">
+<problem id="fs-id1170957963934">
+<para id="fs-id1170957963936">¿Existe una fuerza neta sobre una presa debido a la presión atmosférica? Explique su respuesta.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957963948">
+<problem id="fs-id1170957963950">
+<para id="fs-id1170957963952">¿La presión atmosférica se suma a la presión del gas en un tanque rígido? ¿Y en un globo de juguete? ¿Cuándo, en general, la presión atmosférica no afecta la presión total de un fluido?</para>
+</problem>
+<solution id="fs-id1170958011807">
+<para id="fs-id1170958011810">La presión atmosférica no afecta la presión del gas en un tanque rígido, pero sí la presión dentro de un globo. En general, la presión atmosférica afecta la presión del fluido, a menos que este esté encerrado en un recipiente rígido.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958011817">
+<problem id="fs-id1170958011819">
+<para id="fs-id1170958011821">Se puede romper una botella de vino fuerte golpeando un corcho con el puño, pero el corcho debe presionar directamente contra el líquido que llena la botella; no puede haber aire entre el corcho y el líquido. Explique por qué la botella se rompe solamente si no hay aire entre el corcho y el líquido.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170958011839" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170958071474">
+<problem id="fs-id1170958071476">
+<para id="fs-id1170958071478">El oro se vende por onza troy (31,103 g). ¿Cuál es el volumen de 1 onza troy de oro puro?</para>
+</problem>
+<solution id="fs-id1170958071483">
+<para id="fs-id1170958071486">1,610 <m:math><m:mrow><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958071499">
+<problem id="fs-id1170958071502">
+<para id="fs-id1170958071504">El mercurio se suele suministrar en frascos que contienen 34,5 kg (unas 76 lb). ¿Cuál es el volumen en litros de esta cantidad de mercurio?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958073300">
+<problem id="fs-id1170958073303">
+<para id="fs-id1170958073305">¿Cuál es la masa de una respiración profunda de aire que tiene un volumen de 2,00 L? Analice el efecto que tiene tomar esa respiración en el volumen y la densidad de su cuerpo.</para>
+</problem>
+<solution id="fs-id1170958073311">
+<para id="fs-id1170958073313">La masa es de 2,58 g. El volumen de su cuerpo aumenta por el volumen de aire que inhala. La densidad media de su cuerpo disminuye cuando respira profundamente porque la densidad del aire es sustancialmente menor que la densidad media del cuerpo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958073321">
+<problem id="fs-id1170958073323">
+<para id="fs-id1170958073325">Un método sencillo para hallar la densidad de un objeto es medir su masa y luego medir su volumen sumergiéndolo en una probeta graduada. ¿Cuál es la densidad de una roca de 240 g que desplaza <m:math><m:mrow><m:mn>89,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math> de agua? (Obsérvese que la exactitud y las aplicaciones prácticas de esta técnica son más limitadas que otras que se basan en el principio de Arquímedes).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958011222">
+<problem id="fs-id1170958011224">
+<para id="fs-id1170958011226">Supongamos que tenemos una taza de café con sección trasversal circular y lados verticales (radio uniforme). ¿Cuál es su radio interior si contiene 375 g de café cuando se llena hasta una profundidad de 7,50 cm? Supongamos que el café tiene la misma densidad que el agua.</para>
+</problem>
+<solution id="fs-id1170958915369">
+<para id="fs-id1170958915371">3,99 cm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958915376">
+<problem id="fs-id1170958915378">
+<para id="fs-id1170958915380">Un tanque de gasolina rectangular puede contener 50,0 kg de gasolina cuando está lleno. ¿Cuál es la profundidad del depósito si tiene 0,500 m de ancho por 0,900 m de largo? (b) Analice si este tanque de gasolina tiene un volumen razonable para un vehículo de pasajeros.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958915395">
+<problem id="fs-id1170958915397">
+<para id="fs-id1170958915399">Un compactador de basura puede comprimir su contenido hasta 0,350 veces su volumen original. Sin tener en cuenta la masa de aire expulsada, ¿en qué factor aumenta la densidad de la basura?</para>
+</problem>
+<solution id="fs-id1170958915405">
+<para id="fs-id1170958011228">2,86 veces más denso.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958994053">
+<problem id="fs-id1170958994055">
+<para id="fs-id1170958994057">Un bidón de gasolina de acero de 2,50 kg contiene 20,0 L de gasolina cuando está lleno. ¿Cuál es la densidad media del bidón de gasolina lleno teniendo en cuenta el volumen ocupado por el acero y por la gasolina?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958073252">
+<problem id="fs-id1170958073254">
+<para id="fs-id1170958073256">¿Cuál es la densidad del oro de 18,0 quilates que es una mezcla de 18 partes de oro, 5 partes de plata y 1 parte de cobre? (Estos valores son partes por masa, no por volumen). Supongamos que se trata de una mezcla simple que tiene una densidad media igual a las densidades ponderadas de sus constituyentes.</para>
+</problem>
+<solution id="fs-id1170958073263">
+<para id="fs-id1170958073265"><m:math><m:mrow><m:mn>15,6</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>g/cm</m:mtext></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958073284">
+<problem id="fs-id1170958073286">
+<para id="fs-id1170958073289">La punta de un clavo ejerce una tremenda presión cuando se golpea con un martillo, ya que ejerce una gran fuerza sobre un área pequeña. ¿Qué fuerza se debe ejercer sobre un clavo con una punta circular de 1,00 mm de diámetro para crear una presión de <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>?</m:mtext></m:mrow></m:math> (Esta alta presión es posible porque el martillo que golpea el clavo se apoya en una distancia muy corta).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958073447">
+<problem id="fs-id1170958073449">
+<para id="fs-id1170958073451">Un tubo de vidrio contiene mercurio. ¿Cuál sería la altura de la columna de mercurio que crearía una presión igual a 1,00 atm?</para>
+</problem>
+<solution id="fs-id1170958073457">
+<para id="fs-id1170958073459"><m:math><m:mrow><m:mn>0,760</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>76,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>760</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958072301">
+<problem id="fs-id1170958072303">
+<para id="fs-id1170958072305">Las mayores profundidades oceánicas de la Tierra se encuentran en la Fosa de las Marianas, cerca de Filipinas. Calcule la presión debido al océano en el fondo de esta fosa, dado que su profundidad es de 11,0 km y se supone que la densidad del agua de mar es constante en todo su recorrido.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958072335">
+<problem id="fs-id1170958072337">
+<para id="fs-id1170958072340">Verifique que la unidad SI de <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math> es <m:math><m:mrow><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1170958698863">
+<para id="fs-id1170958698866">prueba</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958074511">
+<problem id="fs-id1170958074513">
+<para id="fs-id1170958074515">¿Qué presión se ejerce en el fondo de un depósito de gasolina de 0,500 m de ancho y 0,900 m de largo que puede contener 50,0 kg de gasolina cuando está lleno?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170958071444">
+<problem id="fs-id1170958071446">
+<para id="fs-id1170958071448">Una presa sirve para contener un río. La presa tiene una altura <m:math><m:mrow><m:mi>H</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> y una anchura <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Supongamos que la densidad del agua es <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> (a) Determine la fuerza neta sobre la presa. (b) ¿Por qué el espesor de la presa aumenta con la profundidad?</para>
+<media id="fs-id1170958071736" alt="La figura es un dibujo esquemático de una presa de altura H y anchura w que se usa para contener un río. La región de la presa etiquetada como dy se encuentra a la altura y del fondo de la presa y a la altura h por debajo del nivel del agua.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_01_riverdamprob_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1170958071750">
+<para id="fs-id1170958071752">a. Presión en <m:math><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>7,06</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>N</m:mtext></m:math>;<newline/> b. La presión aumenta a medida que aumenta la profundidad, por lo que la presa se debe construir más gruesa hacia el fondo para soportar la mayor presión.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170958068082">
+<term>densidad</term>
+<meaning id="fs-id1170958068088">masa por unidad de volumen de una sustancia u objeto</meaning>
+</definition>
+<definition id="fs-id1170958068092">
+<term>fluidos</term>
+<meaning id="fs-id1170958068097">líquidos y gases; un fluido es un estado de la materia que cede a las fuerzas de cizallamiento</meaning>
+</definition>
+<definition id="fs-id1170958068101">
+<term>presión</term>
+<meaning id="fs-id1170958068107">fuerza por unidad de superficie ejercida perpendicularmente a la superficie sobre la que actúa la fuerza</meaning>
+</definition>
+<definition id="fs-id1170958068111">
+<term>gravedad específica</term>
+<meaning id="fs-id1170958068116">relación entre la densidad de un objeto y la de un fluido (generalmente agua)</meaning>
+</definition>
+</glossary>
+</document>

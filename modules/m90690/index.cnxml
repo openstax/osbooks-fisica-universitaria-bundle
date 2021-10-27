@@ -1,0 +1,183 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Medir la presión</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90690</md:content-id>
+  <md:title>Medir la presión</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Definir presión manométrica y presión absoluta.</item>
+<item>Explicar distintos métodos para medir la presión.</item>
+<item>Comprender el funcionamiento de barómetros de tubo abierto.</item>
+<item>Describir detalladamente cómo funcionan manómetros y barómetros.</item>
+</list></md:abstract>
+  <md:uuid>a7bb3724-df2b-4450-9f0d-1198ced91bf1</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170958521761">En la sección anterior, derivamos una fórmula para calcular la variación de la presión para un fluido en equilibrio hidrostático. Resulta que es un cálculo muy útil. Las mediciones de la presión son importantes tanto en la vida cotidiana como en aplicaciones científicas y de ingeniería. En esta sección, analizaremos las diferentes formas en que se puede registrar y medir la presión.</para>
+<section id="fs-id1170959033707">
+<title>Presión manométrica vs. presión absoluta</title>
+<para id="fs-id1170958010984">Supongamos que el manómetro de un tanque de buceo lleno marca 3000 psi, lo que equivale a 207 atmósferas aproximadamente. Cuando se abre la válvula, el aire comienza a escapar porque la presión interna del tanque es mayor que la presión atmosférica fuera del tanque. El aire sigue saliendo del tanque hasta que la presión interna del tanque es igual a la presión de la atmósfera fuera del tanque. En este punto, el manómetro del tanque marca cero, aunque la presión interna del tanque es en realidad de 1 atmósfera, la misma que la presión del aire fuera del tanque.</para>
+<para id="fs-id1170958944826">La mayoría de los manómetros, como el del tanque de buceo, están calibrados para leer cero a la presión atmosférica. Las lecturas de presión de estos medidores se denominan <term>presión manométrica</term>, que es la presión relativa a la presión atmosférica. Cuando la presión interna del tanque es superior a la presión atmosférica, el medidor registra un valor positivo.</para>
+<para id="fs-id1170958744683">Algunos medidores están diseñados para medir presión negativa. Por ejemplo, muchos experimentos de física se deben llevar a cabo en una cámara de vacío, una cámara rígida de la que se extrae parte del aire. La presión interna de la cámara de vacío es menor que la presión atmosférica, por lo que el manómetro de la cámara lee un valor negativo.</para>
+<para id="fs-id1170958708380">A diferencia de la presión manométrica, la <term>presión absoluta</term> tiene en cuenta la <term class="no-emphasis">presión atmosférica</term>, la cual en efecto se suma a la presión de cualquier fluido que no esté encerrado en un recipiente rígido.</para>
+<note id="fs-id1170958657525">
+<title>Presión absoluta</title>
+<para id="fs-id1170958980701">La presión absoluta, o presión total, es la suma de la presión manométrica y la presión atmosférica:</para>
+<equation id="fs-id1170959047990"><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:math></equation>
+<para id="fs-id1170959040965">donde <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> es la presión absoluta, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub></m:mrow></m:math> es la presión manométrica y <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:math> es la presión atmosférica.</para>
+</note>
+<para id="fs-id1170958679191">Por ejemplo, si un medidor de aire para neumáticos marca 34 psi, la presión absoluta es 34 psi más 14,7 psi (<m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:math> en psi) o 48,7 psi (equivalente a 336 kPa).</para>
+<para id="fs-id1170958997292">En la mayoría de los casos, la presión absoluta en fluidos no puede ser negativa. Los fluidos tienden a empujar más que a halar, por lo que la menor presión absoluta en un fluido es cero (una presión absoluta negativa es un halón). Así, la menor presión manométrica posible es <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:math> (que hace <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> cero). No existe un límite teórico para la magnitud de la presión manométrica.</para>
+</section>
+<section id="fs-id1170958881874">
+<title>Medir la presión</title>
+<para id="fs-id1170958022891">Para medir la presión se usan una variedad de dispositivos que van desde medidores de aire para neumáticos hasta tensiómetros. Para comprobar la presión de los fluidos se usan habitualmente otros tipos de manómetros, como los manómetros mecánicos. En esta sección exploraremos algunos de ellos.</para>
+<para id="fs-id1170959041845">Cualquier propiedad que cambie con la presión de forma conocida se puede usar para construir un manómetro. Algunos de los tipos más comunes son los extensómetros, lo cuales usan el cambio de forma de un material con la presión; los manómetros de capacidad, los cuales usan el cambio de capacidad eléctrica debido al cambio de forma con la presión; los manómetros piezoeléctricos, los cuales generan una diferencia de voltaje a través de un material piezoeléctrico con una diferencia de presión entre los dos lados; y los medidores de iones, los cuales miden la presión mediante ionización de moléculas en cámaras altamente evacuadas. Los diferentes manómetros son útiles en diferentes rangos de presión y en diferentes situaciones físicas. Algunos ejemplos se muestran en <link target-id="CNX_UPhysics_Figure_14_02_GaugeTyp"/>.</para>
+<figure id="CNX_UPhysics_Figure_14_02_GaugeTyp">
+<media id="fs-id1170958010765" alt="La figura A es una foto de un medidor que se usa para monitorear la presión en cilindros de gas. La figura B es una foto de un medidor de aire para neumáticos. La figura C es una foto de un medidor de ionización que se usa para monitorear la presión en sistemas de vacío.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_02_GaugeTyp.jpg"/>
+</media>
+<caption>a) Los medidores se usan para medir y monitorear la presión en cilindros de gas. Los gases comprimidos se usan en muchas aplicaciones industriales y médicas. (b) Hay muchos modelos diferentes para los medidores de aire para neumáticos, pero todos tienen el mismo propósito: medir la presión interna del neumático. Estos permiten que conductor mantenga los neumáticos inflados a la presión óptima para el peso de la carga y las condiciones de conducción. (c) Un medidor de ionización es un dispositivo de alta sensibilidad que se usa para monitorear la presión de los gases en un sistema cerrado. Las moléculas de gas neutro se ionizan por la liberación de electrones, y la corriente se traduce en una lectura de presión. Los medidores de ionización se usan habitualmente en aplicaciones industriales que dependen de sistemas de vacío.</caption>
+</figure>
+<section id="fs-id1170958991725">
+<title>Manómetros</title>
+<para id="fs-id1170958767582">Una de las clases más importantes de manómetros aplica la propiedad de que la presión debido al peso de un fluido de densidad constante viene dada por <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math>. El tubo en forma de U que se muestra en la <link target-id="CNX_UPhysics_Figure_14_02_Manometers"/> es un ejemplo de <term class="no-emphasis"><emphasis effect="italics">manómetro</emphasis></term>; en la parte (a), ambos lados del tubo están abiertos a la atmósfera, lo que permite que la presión atmosférica empuje hacia abajo en cada lado por igual para que sus efectos se anulen.</para>
+<para id="fs-id1170958760985">Un manómetro con un solo lado abierto a la atmósfera es un dispositivo ideal para medir presiones manométricas. La presión manométrica es <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math> y se encuentra al medir <emphasis effect="italics">h</emphasis>. Por ejemplo, supongamos que un lado del tubo en U está conectado a alguna fuente de presión <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> como el globo de la parte (b) de la figura o el tarro de cacahuetes envasado al vacío que se muestra en la parte (c). La presión se transmite sin disminuir al manómetro, y los niveles de fluido ya no son iguales. En la parte (b), <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> es mayor que la presión atmosférica, mientras que en la parte (c), <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> es menor que la presión atmosférica. En ambos casos, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> difiere de la presión atmosférica en una cantidad <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mi>ρ</m:mi></m:math> es la densidad del fluido en el manómetro. En la parte (b), <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> puede soportar una columna de fluido de altura <emphasis effect="italics">h</emphasis>, por lo que debe ejercer una presión <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math> mayor que la presión atmosférica (la presión manométrica <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub></m:mrow></m:math> es positiva). En la parte (c), la presión atmosférica puede soportar una columna de fluido de altura <emphasis effect="italics">h</emphasis>, por lo que <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow></m:math> es menor que la presión atmosférica en una cantidad <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math> (la presión manométrica <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub></m:mrow></m:math> es negativa).</para>
+<figure id="CNX_UPhysics_Figure_14_02_Manometers">
+<media id="fs-id1170958874200" alt="La figura A es un dibujo esquemático de un manómetro de tubo abierto que tiene ambos lados abiertos a la atmósfera. El nivel del agua está a una altura idéntica en ambos lados. La figura B es un dibujo esquemático de un manómetro de tubo abierto que tiene un lado abierto a la atmósfera y el segundo lado conectado al globo de aire. El nivel del agua es más alto en el lado abierto a la atmósfera. La figura C es un dibujo esquemático de un manómetro de tubo abierto que tiene un lado abierto a la atmósfera y el segundo lado conectado a una lata de cacahuetes envasados al vacío. El nivel del agua es más bajo en el lado abierto a la atmósfera.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_02_Manometers.jpg"/>
+</media>
+<caption>Un manómetro de tubo abierto tiene un lado abierto a la atmósfera. (a) La profundidad del fluido debe ser la misma en ambos lados, o la presión que cada lado ejerce en el fondo será desigual y el líquido fluirá desde el lado más profundo. (b) Una presión manométrica positiva <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math> transmitida a un lado del manómetro puede soportar una columna de fluido de altura <emphasis effect="italics">h</emphasis>. (c) Del mismo modo, la presión atmosférica es mayor que una presión manométrica negativa <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub></m:mrow></m:math> por una cantidad <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math>. La rigidez del tarro impide que la presión atmosférica se transmita a los cacahuetes.</caption>
+</figure>
+</section>
+<section id="fs-id1170958682722">
+<title>Barómetros</title>
+<para id="fs-id1170958709166">Los manómetros suelen usar un tubo en forma de U con un fluido (a menudo mercurio) para medir la presión. Un <term class="no-emphasis"><emphasis effect="italics">barómetro</emphasis></term> (véase la <link target-id="CNX_UPhysics_Figure_14_02_Barometers"/>) es un dispositivo que suele usar una sola columna de mercurio para medir presión atmosférica. El barómetro, inventado por el matemático y físico italiano Evangelista <term class="no-emphasis">Torricelli</term> (1608-1647) en 1643, se construye a partir de un tubo de vidrio cerrado por un extremo y lleno de mercurio. A continuación, se invierte el tubo y se coloca en una piscina de mercurio. Este dispositivo mide la presión atmosférica, en vez de la presión manométrica, porque hay un vacío casi puro por encima del mercurio en el tubo. La altura del mercurio es tal que <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:math>. Cuando la presión atmosférica varía, el mercurio sube o baja.</para>
+<para id="fs-id1170958649032">Los meteorólogos monitorean de cerca los cambios en la presión atmosférica (a menudo denominada presión barométrica) en el entendido de que el aumento del mercurio suele indicar una mejora de las condiciones meteorológicas y el descenso del mercurio indica un deterioro. El barómetro también se puede usar como un altímetro, toda vez que la presión atmosférica media varía con la altitud. Los barómetros y manómetros de mercurio son tan comunes que, a menudo, se citan unidades de mm Hg para la presión atmosférica y la presión arterial.</para>
+<figure id="CNX_UPhysics_Figure_14_02_Barometers">
+<media id="fs-id1170958891020" alt="Dibujo esquemático de un barómetro de mercurio. La atmósfera es capaz de forzar el mercurio en el tubo hasta una altura h porque la presión sobre el mercurio es cero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_02_Barometers.jpg"/>
+</media>
+<caption>Un barómetro de mercurio mide presión atmosférica. La presión debido al peso del mercurio, <m:math><m:mrow><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math>, es igual a la presión atmosférica. La atmósfera es capaz de forzar el mercurio en el tubo hasta una altura <emphasis effect="italics">h</emphasis> porque la presión sobre el mercurio es cero.</caption>
+</figure>
+<example id="fs-id1170959039409">
+<para id="fs-id1170958684958"><title>Alturas de los fluidos en un tubo en U abierto</title>
+Un tubo en U con ambos extremos abiertos se llena con un líquido de densidad <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> a una altura <emphasis effect="italics">h</emphasis> en ambos lados (<link target-id="CNX_UPhysics_Figure_14_02_UtubeTwoDe"/>). Un líquido de densidad <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> se vierte en un lado y el líquido 2 se deposita sobre el líquido 1. Las alturas de los dos lados son diferentes. La altura hasta el tope del líquido 2 desde la interfase es <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y la altura hasta el tope del líquido 1 desde el nivel de la interfase es <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>. Deduzca una fórmula para la diferencia de altura.</para>
+<figure id="CNX_UPhysics_Figure_14_02_UtubeTwoDe">
+<media id="fs-id1170958022463" alt="La figura de la izquierda muestra un tubo en U lleno de un líquido. El líquido está a la misma altura en ambos lados del tubo en U. La figura de la derecha muestra un tubo en U lleno de dos líquidos de diferente densidad. Los líquidos están a diferentes alturas en ambos lados del tubo en U.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_02_UtubeTwoDe.jpg"/>
+</media>
+<caption>En un tubo en U se muestran dos líquidos de diferente densidad.</caption>
+</figure>
+<para id="fs-id1170958943522"><title>Estrategia</title>
+La presión en los puntos situados a la misma altura en los dos lados de un tubo en U debe ser la misma mientras los dos puntos estén en el mismo líquido. Por lo tanto, consideramos dos puntos al mismo nivel en los dos brazos del tubo: un punto es la interfase en el lado del líquido 2 y el otro es un punto en el brazo con líquido 1 que está al mismo nivel que la interfase en el otro brazo. La presión en cada punto se debe a la presión atmosférica más el peso del líquido que está encima.</para>
+<equation id="fs-id1170958710369" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>Presión en el lado con líquido 1</m:mtext><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>Presión en el lado con líquido 2</m:mtext><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1170958801913"><title>Solución</title>
+Como los dos puntos están en el líquido 1 y están a la misma altura, la presión en los dos puntos debe ser la misma. Por lo tanto, tenemos</para>
+<equation id="fs-id1170958906278" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958900531">Por lo tanto,</para>
+<equation id="fs-id1170958814435" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958627161">Esto significa que la diferencia de alturas en los dos lados del tubo en U es</para>
+<equation id="fs-id1170958617734" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958989525">El resultado tiene sentido si ponemos <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> que da <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Si los dos lados tienen la misma densidad, tienen la misma altura.</para></example>
+<note id="fs-id1170958004310" class="check-understanding">
+<exercise id="fs-id1170958860785">
+<problem id="fs-id1170958643644">
+<para id="fs-id1170958906535">El mercurio es una sustancia peligrosa. ¿Por qué cree que se suele usar mercurio en los barómetros en vez de un fluido más seguro como el agua?</para>
+</problem>
+<solution id="fs-id1170958618402">
+<para id="fs-id1170958767690">La densidad del mercurio es 13,6 veces mayor que la del agua. Se necesitan 76 cm (29,9 in) de mercurio aproximadamente para medir la presión de la atmósfera, mientras que se necesitarían aproximadamente 10 m (34 ft) de agua.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170958701894">
+<title>Unidades de presión</title>
+<para id="fs-id1170958911820">Como ya se ha dicho, la unidad del Sistema Internacional (SI) para presión es el <term class="no-emphasis">pascal</term> (Pa), donde</para>
+<equation id="fs-id1170958994385" class="unnumbered"><label/><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170958539227">Además del pascal, hay muchas otras unidades de presión de uso común (<link target-id="fs-id1170958992606"/>). En meteorología, la presión atmosférica se suele describir en la unidad de milibares (mbar), donde</para><equation id="fs-id1170958586846" class="unnumbered"><label/><m:math><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:mtext>mbar</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1170958655376">El milibar es una unidad conveniente para los meteorólogos porque la presión atmosférica media a nivel del mar en la Tierra es <m:math><m:mrow><m:mn>1,013</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mn>1.013</m:mn><m:mspace width="0.2em"/><m:mtext>mbar</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext></m:mrow></m:math>. Usando las ecuaciones derivadas al considerar la presión a una profundidad en un fluido, la presión también puede medirse en milímetros o pulgadas de mercurio. La presión en el fondo de una columna de mercurio de 760 mm a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> en un recipiente cuyo tope está evacuado es igual a la presión atmosférica. Así, también se usa 760 mm Hg en vez de 1 atmósfera de presión. En los laboratorios de física del vacío, los científicos suelen usar otra unidad llamada <term class="no-emphasis">torr</term>, que recibe el nombre de Torricelli, quien, como acabamos de ver, inventó el manómetro de mercurio para medir presión. Un torr equivale a una presión de 1 mm Hg.</para><table id="fs-id1170958992606" summary="A two column table is shown. The headers for each column are “Unit” and “Definition.” The first row contains “SI unit: the Pascal” and “1 P a equals 1 N over m squared.” The second row contains “English unit: pounds per square inch (pound over inch squared or p s i)” and “1 p s i equals 7.015 times 10 to the third P a.” The third row contains “Other units of pressure” and “1 a t m equals 760 m m H g equals 1.013 times 10 to the fifth P a equals 14.7 p s i equals 29.9 inches of H g equals 1013 m b. 1 bar equals 10 to the fifth P a. 1 torr equals 1 m m h g equals 122.39 P a."><title>Resumen de las unidades de presión</title><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Unidad</entry>
+<entry valign="top" align="left">Definición</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Unidad del SI: el Pascal</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Unidad inglesa: libras por pulgada cuadrada (<m:math><m:mrow><m:msup><m:mrow><m:mtext>lb/in</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math> o psi)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>psi</m:mtext><m:mo>=</m:mo><m:mn>6,895</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" morerows="3">Otras unidades de presión</entry>
+<entry valign="top" align="left"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>760</m:mn><m:mspace width="0.2em"/><m:mtext>mm Hg</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1,013</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>14,7</m:mn><m:mspace width="0.2em"/><m:mtext>psi</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>29,9</m:mn><m:mspace width="0.2em"/><m:mtext>pulgadas de Hg</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1.013</m:mn><m:mspace width="0.2em"/><m:mtext>mbar</m:mtext></m:mtd></m:mtr></m:mtable></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>bar</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>torr</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>mm Hg</m:mtext><m:mo>=</m:mo><m:mn>133,3</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></section>
+</section>
+<section id="fs-id1170958683323" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170958014561" list-type="bulleted" bullet-style="bullet">
+<item>La presión manométrica es la presión relativa a la presión atmosférica.</item>
+<item>La presión absoluta es la suma de la presión manométrica y la presión atmosférica.</item>
+<item>Los manómetros de tubo abierto tienen tubos en forma de U y un extremo está siempre abierto. Se usan para medir presión. Un barómetro de mercurio es un aparato que mide presión atmosférica.</item>
+<item>La unidad de presión del SI es el pascal (Pa), pero se suelen usar otras unidades.</item>
+</list>
+</section>
+<section id="fs-id1170958907439" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1170958967082">
+<problem id="fs-id1170958667243">
+<para id="fs-id1170958655368">Explique por qué el fluido alcanza niveles iguales en ambos lados de un manómetro si ambos lados están abiertos a la atmósfera, aunque los tubos sean de distinto diámetro.</para>
+</problem>
+<solution id="fs-id1170958874517">
+<para id="fs-id1170958961680">La presión de la atmósfera se debe al peso del aire que hay encima. La presión, fuerza por área, en el manómetro será la misma a una profundidad de la atmósfera igual.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170958954268" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170958864727">
+<problem id="fs-id1170958709279">
+<para id="fs-id1170959051429">Encuentre las presiones manométricas y absolutas en el globo y en el tarro de cacahuetes mostrados en la <link target-id="CNX_UPhysics_Figure_14_02_Manometers"/>, suponiendo que el manómetro conectado al globo usa agua y el manómetro conectado al tarro contiene mercurio. Exprese en unidades de centímetros de agua para el globo y de milímetros de mercurio para el tarro, tomando <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>0,0500</m:mn><m:mtext>m</m:mtext></m:mrow></m:math> para cada uno.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959033299">
+<problem id="fs-id1170958876014">
+<para id="fs-id1170958809423">¿Qué altura debe tener un manómetro lleno de agua para medir una presión arterial de hasta 300 mm Hg?</para>
+</problem>
+<solution id="fs-id1170958563199">
+<para id="fs-id1170958073168">4,08 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170958010822">
+<problem id="fs-id1170958072541">
+<para id="fs-id1170958944072">Suponga que los neumáticos de la bicicleta son perfectamente flexibles y soportan el peso de la bicicleta y del ciclista solo por la presión y calcule el área total de los neumáticos en contacto con el suelo si la bicicleta y el ciclista tienen una masa total de 80,0 kg y la presión manométrica en los neumáticos es <m:math><m:mrow><m:mn>3,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170958987897">
+<term>presión absoluta</term>
+<meaning id="fs-id1170958656151">suma de la presión manométrica y la presión atmosférica</meaning>
+</definition>
+<definition id="fs-id1170958584649">
+<term>presión manométrica</term>
+<meaning id="fs-id1170958583906">presión relativa a la presión atmosférica</meaning>
+</definition>
+</glossary>
+</document>

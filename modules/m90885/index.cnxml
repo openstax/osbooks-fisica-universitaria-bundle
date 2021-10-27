@@ -1,0 +1,144 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Condensador con dieléctrico</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90885</md:content-id>
+  <md:title>Condensador con dieléctrico</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir los efectos que el dieléctrico de un condensador tiene sobre la capacitancia y otras propiedades.</item>
+<item>Calcular la capacitancia de un condensador que contiene un dieléctrico.</item>
+</list></md:abstract>
+  <md:uuid>0eb95372-b42e-4df0-b7db-b6ead42637ba</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167131412327">Como ya hemos comentado, un material aislante colocado entre las placas de un condensador se llama dieléctrico. La inserción de un dieléctrico entre las placas de un condensador afecta su capacitancia. Para ver por qué, consideremos un experimento descrito en la <link target-id="CNX_UPhysics_25_04_Experiment"/>. Inicialmente, un condensador con capacitancia <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> cuando hay aire entre sus placas es cargado por una batería hasta el voltaje <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Cuando el condensador está completamente cargado, la batería se desconecta. Un cargo <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> entonces reside en las placas, y la diferencia de potencial entre las placas se mide para ser <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Ahora, supongamos que insertamos un dieléctrico que llena <emphasis effect="italics">totalmente</emphasis> el espacio entre las placas. Si controlamos el voltaje, hallamos que la lectura del voltímetro ha bajado a un <emphasis effect="italics">menor</emphasis> valor <emphasis effect="italics">V</emphasis>. Escribimos este nuevo valor de voltaje como una fracción del voltaje original <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, con un número positivo <m:math><m:mi>κ</m:mi></m:math>, <m:math><m:mrow><m:mi>κ</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>:</para>
+<equation id="fs-id1167131588838" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167130003636">La constante <m:math><m:mi>κ</m:mi></m:math> en esta ecuación se llama la <term>constante dieléctrica</term> del material entre las placas, y su valor es característico para el material. En la siguiente sección se explica detalladamente por qué el dieléctrico reduce el voltaje. Los distintos materiales tienen diferentes constantes dieléctricas (en la siguiente sección se ofrece una tabla de valores para materiales típicos). Una vez que la batería se desconecta, no hay camino para que la carga fluya hacia la batería desde las placas del condensador. Por lo tanto, la inserción del dieléctrico no tiene ningún efecto sobre la carga en la placa, que permanece en un valor de <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Por lo tanto, hallamos que la capacitancia del condensador con dieléctrico es</para>
+<note id="fs-id1167131272327" class="equation-callout">
+<equation id="fs-id1167131579636"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mi>κ</m:mi></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>κ</m:mi><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131216776">Esta ecuación nos dice que la <emphasis effect="italics">capacitancia</emphasis> <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> <emphasis effect="italics">de un condensador vacío se puede aumentar en un factor de</emphasis> <m:math><m:mi>κ</m:mi></m:math> <emphasis effect="italics">cuando introducimos un material dieléctrico para llenar completamente el espacio entre sus placas</emphasis>. Tenga en cuenta que la <link target-id="fs-id1167131579636"/> también se puede utilizar para un condensador vacío configurando <m:math><m:mrow><m:mi>κ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>. En otras palabras, podemos decir que la constante dieléctrica del vacío es 1, que es un valor de referencia.</para>
+<figure id="CNX_UPhysics_25_04_Experiment">
+<media id="fs-id1167131420485" alt="La figura a muestra un condensador conectado en serie con un interruptor y una batería. El interruptor está cerrado y hay un voltímetro a través del condensador, mostrando la lectura V0. Las placas del condensador tienen carga +Q0 y –Q0. La figura b muestra el mismo circuito, con el interruptor abierto. Esto se denomina Paso 1. El espacio entre las placas del condensador es de color gris, lo que indica la presencia de un dieléctrico. Esto se denomina Paso 2. La placa cargada positivamente tiene signos negativos en el interior, etiquetados como –Qi. La placa cargada negativamente tiene signos positivos en el interior, etiquetados más Qi. El voltímetro muestra la lectura V, que es menor que V0.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_04_experiment.jpg"/>
+</media>
+<caption>(a) Cuando está completamente cargado, un condensador de vacío tiene un voltaje <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> y carga <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> (las cargas permanecen en las superficies interiores de las placas; el esquema indica el signo de la carga en cada placa). (b) En el paso 1, la batería está desconectada. A continuación, en el paso 2, se introduce un dieléctrico (que es eléctricamente neutro) en el condensador cargado. Cuando se mide ahora el voltaje a través del condensador se comprueba que el valor del voltaje ha disminuido a <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mi>κ</m:mi></m:mrow></m:mrow></m:math>. El esquema indica el signo de la carga inducida que ahora está presente en las superficies del material dieléctrico entre las placas.</caption>
+</figure>
+<para id="fs-id1167131332445">El principio expresado por la <link target-id="fs-id1167131579636"/> se utiliza ampliamente en la industria de la construcción (<link target-id="CNX_UPhysics_25_04_Studfinder"/>). Las placas metálicas de un localizador electrónico actúan como un condensador. Coloque un detector de vigas con su lado plano en la pared y muévalo continuamente en dirección horizontal. Cuando el buscador se desplaza sobre un poste de madera, la capacitancia de sus placas cambia, porque la madera tiene una constante dieléctrica diferente a la de una pared de yeso. Este cambio desencadena una señal en un circuito, y así se detecta el perno.</para>
+<figure id="CNX_UPhysics_25_04_Studfinder"><media id="fs-id1167134712173" alt="La figura a es una fotografía de la mano de una persona sujetando un detector de vigas electrónico contra una pared. La figura b muestra la sección transversal de una pared con un montante de madera detrás. El localizador electrónico de montantes se desliza por la pared del otro lado. Tiene placas de condensador que tocan la pared.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_04_studfinder.jpg"/>
+</media>
+
+<caption>Se utiliza un localizador electrónico de montantes para detectar los montantes de madera que hay detrás de los paneles de yeso. (Crédito superior: modificación del trabajo de Jane Whitney)</caption></figure><para id="fs-id1167131346833">La energía eléctrica almacenada por un condensador también se ve afectada por la presencia de un dieléctrico. Cuando la energía almacenada en un condensador vacío es <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, la energía <emphasis effect="italics">U</emphasis> almacenada en un condensador con dieléctrico es menor en un factor de <m:math><m:mi>κ</m:mi></m:math>,</para>
+<note id="fs-id1167131260932" class="equation-callout">
+<equation id="fs-id1167131528448"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>Q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>Q</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mi>κ</m:mi><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134639006">Al acercar una muestra de material dieléctrico a un condensador vacío cargado, la muestra reacciona al campo eléctrico de las cargas en las placas del condensador. Tal y como aprendimos en <link document="m90852">Cargas y campos eléctricos</link> sobre la electrostática, existirán las cargas inducidas en la superficie de la muestra; sin embargo, no son cargas libres como en un conductor, porque un aislante perfecto no tiene cargas en movimiento libre. Estas cargas inducidas en la superficie dieléctrica son de signo contrario a las cargas libres de las placas del condensador, por lo que son atraídas por las cargas libres de las placas. En consecuencia, el dieléctrico es "arrastrado" hacia el hueco, y el trabajo para polarizar el material dieléctrico entre las placas se realiza a expensas de la energía eléctrica almacenada, que se reduce, de acuerdo con <link target-id="fs-id1167131528448"/>.</para>
+<example id="fs-id1167134456373">
+<para id="fs-id1167134950958"><title>Inserción de un dieléctrico en un condensador aislado</title>
+Se carga un condensador vacío de 20,0 pF hasta una diferencia de potencial de 40,0 V. A continuación, se desconecta la batería de carga y se introduce un trozo de Teflon™ con una constante dieléctrica de 2,1 para rellenar completamente el espacio entre las placas del condensador (vea la <link target-id="CNX_UPhysics_25_04_Experiment"/>). ¿Cuáles son los valores de (a) la capacitancia, (b) la carga de la placa, (c) la diferencia de potencial entre las placas y (d) la energía almacenada en el condensador con y sin dieléctrico?</para>
+<para id="fs-id1167131129153"><title>Estrategia</title>
+Identificamos la capacitancia original <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext></m:mrow></m:math> y la diferencia de potencial original <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>40,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> entre las placas. Combinamos la <link target-id="fs-id1167131579636"/> con otras relaciones que implican capacitancia y sustitución.</para>
+<para id="fs-id1167131496488"><title>Solución</title></para>
+<list id="fs-id1167134834515" list-type="enumerated" number-style="lower-alpha">
+<item>La capacitancia aumenta hasta
+<equation id="fs-id1167134645852" class="unnumbered"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mi>κ</m:mi><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,1</m:mn><m:mo stretchy="false">(</m:mo><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>42,0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</item>
+<item>Sin dieléctrico, la carga en las placas es
+<equation id="fs-id1167131521987" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>40,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,8</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Como la batería se desconecta antes de introducir el dieléctrico, la carga de la placa no se ve afectada por el dieléctrico y se mantiene en 0,8 nC.</item>
+<item>Con el dieléctrico, la diferencia de potencial se convierte en
+<equation id="fs-id1167131375508" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2,1</m:mn></m:mrow></m:mfrac><m:mn>40,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>=</m:mo><m:mn>19,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</item>
+<item>La energía almacenada sin el dieléctrico es
+<equation id="fs-id1167131201606" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>40,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16,0</m:mn><m:mspace width="0.2em"/><m:mtext>nJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Con el dieléctrico insertado, utilizamos la <link target-id="fs-id1167131528448"/> para hallar que la energía almacenada disminuye a
+<equation id="fs-id1167585966916" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>κ</m:mi></m:mfrac><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2,1</m:mn></m:mrow></m:mfrac><m:mn>16,0</m:mn><m:mspace width="0.2em"/><m:mtext>nJ</m:mtext><m:mo>=</m:mo><m:mn>7,6</m:mn><m:mspace width="0.2em"/><m:mtext>nJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167134668416"><title>Importancia</title>
+Observe que el efecto de un dieléctrico sobre la capacitancia de un condensador es un aumento drástico de su capacitancia. Este efecto es mucho más profundo que un simple cambio en la geometría de un condensador.</para>
+</example>
+<note id="fs-id1167134960434" class="check-understanding">
+<exercise id="fs-id1167134921522">
+<problem id="fs-id1167134565485">
+<para id="fs-id1167134486865">Cuando se introduce un dieléctrico en un condensador aislado y cargado, la energía almacenada disminuye hasta el 33% de su valor original. (a) ¿Cuál es la constante dieléctrica? (b) ¿Cómo cambia la capacitancia?</para>
+</problem>
+<solution id="fs-id1167131162879">
+<para id="fs-id1167134536488">a. 3.0; b <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>C</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167131461918" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167134511374" list-type="bulleted" bullet-style="bullet">
+<item>La capacitancia de un condensador vacío se incrementa en un factor de <m:math><m:mi>κ</m:mi></m:math> cuando el espacio entre sus placas está completamente relleno por un dieléctrico con constante dieléctrica <m:math><m:mi>κ</m:mi></m:math>.</item>
+<item>Cada material dieléctrico tiene su constante dieléctrica específica.</item>
+<item>La energía almacenada en un condensador aislado vacío disminuye en un factor de <m:math><m:mi>κ</m:mi></m:math> cuando el espacio entre sus placas está completamente lleno de un dieléctrico con constante dieléctrica <m:math><m:mi>κ</m:mi></m:math>.</item>
+</list>
+</section>
+<section id="fs-id1167134536309" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167131430692">
+<problem id="fs-id1167134581268">
+<para id="fs-id1167134536171">Analice lo que ocurriría si en el hueco entre las placas del condensador se insertara una losa conductora en vez de un dieléctrico.</para>
+</problem>
+<solution id="fs-id1167131122225">
+<para id="fs-id1167134668871">las respuestas pueden variar</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134635338">
+<problem id="fs-id1167134668905">
+<para id="fs-id1167131205584">Analice cómo cambia la energía almacenada en un condensador vacío, pero cargado, cuando se inserta un dieléctrico si (a) el condensador se aísla para que su carga no cambie; (b) el condensador permanece conectado a una batería para que la diferencia de potencial entre sus placas no cambie.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167134626999" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167134534543">
+<problem id="fs-id1167131182047">
+<para id="fs-id1167131103744">Demuestre que para un material dieléctrico dado, la energía máxima que puede almacenar un condensador de placas paralelas es directamente proporcional al volumen de dieléctrico.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131151945">
+<problem id="fs-id1167131569032">
+<para id="fs-id1167134481807">Un condensador lleno de aire está formado por dos placas planas paralelas separadas 1,0 mm. La superficie interior de cada placa es <m:math><m:mrow><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. (a) ¿Cuál es la capacitancia de este conjunto de placas? (b) Si la región entre las placas se rellena con un material cuya constante dieléctrica es 6,0, ¿cuál es la nueva capacitancia?</para>
+</problem>
+<solution id="fs-id1167131145443">
+<para id="fs-id1167131090198">a. 7.1 pF; b. 42 pF</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134511265">
+<problem id="fs-id1167134567963">
+<para id="fs-id1167131529869">Un condensador está formado por dos esferas concéntricas, una de radio 5,00 cm y otra de radio 8,00 cm. (a) ¿Cuál es la capacitancia de este conjunto de conductores? (b) Si la región entre los conductores se rellena con un material cuya constante dieléctrica es 6,00, ¿cuál es la capacitancia del sistema?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131109738">
+<problem id="fs-id1167134657397">
+<para id="fs-id1167131406450">Un condensador de placas paralelas tiene una carga de magnitud <m:math><m:mrow><m:mn>9,00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> en cada placa y la capacitancia <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> cuando hay aire entre las placas. Las placas están separadas por 2,00 mm. Con la carga en las placas mantenida constante, un dieléctrico con <m:math><m:mrow><m:mi>κ</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> se inserta entre las placas, llenando completamente el volumen entre las placas. (a) ¿Cuál es la diferencia de potencial entre las placas del condensador, antes y después de insertar el dieléctrico? (b) ¿Cuál es el campo eléctrico en el punto medio entre las placas antes y después de insertar el dieléctrico?</para></problem>
+<solution id="fs-id1167134658357">
+<para id="fs-id1167134567874">a. antes de 3,00 V; después de 0,600 V; b. antes de 1500 V/m; después de 300 V/m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131453267">
+<problem id="fs-id1167134604058">
+<para id="fs-id1167134442240">Algunas paredes celulares del cuerpo humano tienen una capa de carga negativa en la superficie interior. Supongamos que las densidades de carga superficial son <m:math><m:mrow><m:mo>±</m:mo><m:mn>0,5</m:mn><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mrow><m:mtext>C</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>, la pared celular es <m:math><m:mrow><m:mn>5.</m:mn><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> de espesor, y el material de la pared celular tiene una constante dieléctrica de <m:math><m:mrow><m:mi>κ</m:mi><m:mo>=</m:mo><m:mn>5,4</m:mn></m:mrow></m:math>. (a) Calcule la magnitud del campo eléctrico en la pared entre dos capas de carga. (b) Calcule la diferencia de potencial entre el interior y el exterior de la célula. ¿Cuál está a mayor potencial? (c) Una célula típica del cuerpo humano tiene un volumen <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−16</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Estime la energía total del campo eléctrico almacenada en la pared de una célula de este tamaño, suponiendo que la célula es esférica. (<emphasis effect="italics">Pista</emphasis>: Calcule el volumen de la pared celular).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134966600">
+<problem id="fs-id1167131474865">
+<para id="fs-id1167134712838">Un condensador de placas paralelas con solo aire entre sus placas se carga conectando el condensador a una batería. A continuación, el condensador se desconecta de la batería, sin que la carga salga de las placas. (a) Un voltímetro marca 45,0 V cuando se coloca a través del condensador. Cuando se introduce un dieléctrico entre las placas, llenando completamente el espacio, el voltímetro marca 11,5 V. ¿Cuál es la constante dieléctrica del material? (b) ¿Qué marcará el voltímetro si ahora se retira el dieléctrico para que llene solo un tercio del espacio entre las placas?</para>
+</problem>
+<solution id="fs-id1167134812727">
+<para id="fs-id1167131498626">a. 3.91; b. 22.8 V</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134870204">
+<term>constante dieléctrica</term>
+<meaning id="fs-id1167131169785">factor por el que aumenta la capacitancia cuando se inserta un dieléctrico entre las placas de un condensador</meaning>
+</definition>
+</glossary>
+</document>

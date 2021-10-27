@@ -1,0 +1,383 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Energía potencial de un sistema</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90649</md:content-id>
+  <md:title>Energía potencial de un sistema</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Relacionar la diferencia de energía potencial con el trabajo realizado en una partícula para un sistema sin fricción ni arrastre del aire.</item>
+<item>Explicar el significado del cero de la función de energía potencial para un sistema.</item>
+<item>Calcular y aplicar la energía potencial gravitacional para un objeto cercano a la superficie terrestre y la energía potencial elástica de un sistema masa-resorte.</item>
+</list></md:abstract>
+  <md:uuid>4e2c1adf-3bb1-49eb-b9d4-b440e924bfef</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165039051689">En <link document="m90644">Trabajo</link>, vimos que el trabajo realizado sobre un objeto por la fuerza gravitacional constante, cerca de la superficie de la Tierra, sobre cualquier desplazamiento es una función solo de la diferencia en las posiciones de los puntos finales del desplazamiento. Esta propiedad nos permite definir un tipo de energía diferente para el sistema que su energía cinética, que recibe el nombre de <term>energía potencial</term>. En las siguientes subsecciones consideramos varias propiedades y tipos de energía potencial.</para>
+<section id="fs-id1165035692628">
+<title>Fundamentos de la energía potencial</title>
+<para id="fs-id1165035682820">En <link document="m90624">Movimiento en dos y tres dimensiones</link>, analizamos el movimiento de un proyectil, como patear un balón de fútbol en la <link target-id="CNX_UPhysics_08_01_football"/>. Para este ejemplo, vamos a ignorar la fricción y la resistencia del aire. Cuando el balón se eleva, el trabajo realizado por la fuerza gravitacional sobre el balón es negativo, porque su desplazamiento es positivo en sentido vertical y la fuerza debida a la gravedad es negativa en sentido vertical. También observamos que el balón desacelera hasta llegar a su punto más alto en el movimiento, lo que disminuye su energía cinética. Esta pérdida de energía cinética se traduce en una ganancia de energía potencial gravitacional del sistema balón de fútbol-Tierra.</para>
+<para id="fs-id1165035972000">A medida que el balón cae hacia la Tierra, el trabajo realizado sobre el balón es ahora positivo, ya que tanto el desplazamiento como la fuerza gravitacional apuntan verticalmente hacia abajo. El balón también se acelera, lo que indica un aumento en la energía cinética. Por lo tanto, la energía potencial gravitacional se convierte en energía cinética.</para>
+<figure id="CNX_UPhysics_08_01_football">
+<media id="fs-id1165035906458" alt="Ilustración de la trayectoria y energía de un balón de fútbol. El pateador patea el balón, realizando un trabajo sobre él y dándole la máxima energía cinética. La energía potencial es mínima. Este es el punto uno. Al subir, en el punto dos, la energía cinética del balón disminuye y su energía potencial también. En el punto más alto, el punto tres, la energía cinética del balón es mínima y su energía potencial es máxima. A medida que el balón desciende, punto cuatro, la energía cinética aumenta y la energía potencial disminuye. El receptor atrapa el balón a la misma altura del suelo a la que fue pateado, en el punto cinco. La energía cinética es máxima, la energía potencial es mínima.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_01_football.jpg"/>
+</media>
+<caption>Cuando el balón de fútbol comienza a descender hacia el receptor, la energía potencial gravitacional se convierte de nuevo en energía cinética.</caption>
+</figure>
+<para id="fs-id1165039251424">Basándonos en este escenario, podemos definir la diferencia de energía potencial del punto <emphasis effect="italics">A</emphasis> al punto <emphasis effect="italics">B</emphasis> como el negativo del trabajo realizado:</para>
+<note id="fs-id1165039074593" class="equation-callout">
+<equation id="fs-id1165039502282"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>U</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>U</m:mi><m:mi>B</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>U</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039238293">Esta fórmula indica explícitamente una <term>diferencia de energía potencial</term>, no solo una energía potencial absoluta. Por lo tanto, tenemos que definir la energía potencial en una posición determinada de manera que se establezcan valores estándar de energía potencial por sí mismos, en lugar de diferencias de energía potencial. Lo hacemos al reescribir la función de energía potencial en términos de una constante arbitraria,</para>
+<note id="fs-id1165039391866" class="equation-callout">
+<equation id="fs-id1165039502050"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>-</m:mo><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165035641022">La elección de la energía potencial en un punto de partida de <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> se hace por conveniencia en el problema dado. Lo más importante es que, sea cual sea la elección que se haga, se debería indicar y mantener la coherencia a lo largo de todo el problema. Hay algunas opciones bien aceptadas de energía potencial inicial. Por ejemplo, la altura más baja de un problema se define como energía potencial cero, o si un objeto está en el espacio, el punto más alejado del sistema se define como energía potencial cero. Entonces, la energía potencial, con respecto a cero en <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> es solo <m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1165039324524">Mientras no haya fricción ni resistencia del aire, el cambio en la energía cinética del balón es igual al negativo del cambio en su energía potencial gravitacional. Esto se puede generalizar a cualquier energía potencial:</para><equation id="fs-id1165039099001"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>K</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mo>–</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>U</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1165039503553">Veamos un ejemplo concreto, al elegir la energía potencial cero para la energía potencial gravitacional en los puntos convenientes.</para>
+<example id="fs-id1165035686790">
+<para id="fs-id1165035772252"><title>Propiedades básicas de la energía potencial</title>
+Una partícula se mueve a lo largo del eje de la <emphasis effect="italics">x</emphasis> bajo la acción de una fuerza dada por <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, donde <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. (a) ¿Cuál es la diferencia en su energía potencial al pasar de <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>? (b) ¿Cuál es la energía potencial de la partícula en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> con respecto a una determinada energía potencial de 0,5 J en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>?</para>
+<para id="fs-id1165035849830"><title>Estrategia</title>(a) La diferencia en la energía potencial es el negativo del trabajo realizado, definido por la <link target-id="fs-id1165039502282"/>. El trabajo se define en el capítulo anterior como el producto punto de la fuerza por la distancia. Dado que la partícula se desplaza hacia adelante, en la dirección de la <emphasis effect="italics">x</emphasis>, el producto punto se simplifica a una multiplicación (<m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>i</m:mi></m:mstyle><m:mo stretchy="true">^</m:mo></m:mover><m:mo>·</m:mo><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>i</m:mi></m:mstyle><m:mo stretchy="true">^</m:mo></m:mover><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>). Para hallar el trabajo total realizado, tenemos que integrar la función entre los límites dados. Después de la integración, podemos indicar el trabajo o el cambio de energía potencial. (b) La función de energía potencial, con respecto a cero en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, es la integral indefinida encontrada en la parte (a), con la constante de integración determinada a partir de la <link target-id="fs-id1165039099001"/>. A continuación, sustituimos el valor de <emphasis effect="italics">x</emphasis> en la función de energía potencial para calcular la energía potencial en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para><para id="fs-id1165035977652"><title>Solución</title></para>
+<list id="fs-id1165039484769" list-type="enumerated" number-style="lower-alpha">
+<item>El trabajo realizado por la fuerza dada cuando la partícula se mueve de la coordenada <emphasis effect="italics">x</emphasis> a <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:math> en una dimensión es
+<equation id="fs-id1165039443277" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Sustituyendo esta expresión en la <link target-id="fs-id1165039502282"/>, obtenemos
+<equation id="fs-id1165035633026" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:munderover><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msubsup><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:msubsup><m:mo>=</m:mo><m:mn>7</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>La integral indefinida para la función de energía potencial en la parte (a) es
+<equation id="fs-id1165035699939" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mtext>const</m:mtext><m:mo>.</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+y queremos que la constante esté determinada por
+<equation id="fs-id1165039462260" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0,5</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Así, la energía potencial con respecto a cero en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> es solo
+<equation id="fs-id1165039303300" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>0,5</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Por lo tanto, la energía potencial en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> es
+<equation id="fs-id1165039078983" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>0,5</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1165039187844"><title>Importancia</title>
+En este ejemplo unidimensional, cualquier función que podamos integrar, independientemente de la trayectoria, es conservativa. Observe cómo hemos aplicado la definición de diferencia de energía potencial para determinar la función de energía potencial con respecto a cero en un punto seleccionado. Observe también que la energía potencial, determinada en la parte (b), en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> es <m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> y en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> es <m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; su diferencia es el resultado de la parte (a).</para>
+</example>
+<note id="fs-id1165035756834" class="check-understanding">
+<exercise id="fs-id1165035695796">
+<problem id="fs-id1165039288706">
+<para id="fs-id1165035615978">En el <link target-id="fs-id1165035686790"/>, ¿cuál es la energía potencial de la partícula en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> con respecto a cero en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>? Compruebe que la diferencia de energía potencial sigue siendo de 7 J.</para>
+</problem>
+<solution id="fs-id1165035924241">
+<para id="fs-id1165039493913"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4,63</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>-2,38</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7,00</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1165039107955">
+<title>Sistemas de varias partículas</title>
+<para id="fs-id1165039377270">En general, un sistema de interés puede estar formado por varias partículas. La diferencia en la energía potencial del sistema es el negativo del trabajo realizado por las fuerzas gravitacionales o elásticas, que, como veremos en el siguiente apartado, son fuerzas conservativas. La diferencia de energía potencial depende solo de las posiciones inicial y final de las partículas, y de algunos parámetros que caracterizan la interacción (como la masa para la gravedad o la constante de resorte para una fuerza de la ley de Hooke).</para>
+<para id="fs-id1165039471899">Es importante recordar que la energía potencial es una propiedad de las interacciones entre los objetos de un sistema elegido, y no solo una propiedad de cada objeto. Esto es especialmente cierto para las fuerzas eléctricas, aunque en los ejemplos de energía potencial que consideramos a continuación, las partes del sistema son tan grandes (como la Tierra, comparada con un objeto en su superficie) o tan pequeñas (como un resorte sin masa), que los cambios que sufren esas partes son despreciables cuando se incluyen en el sistema.</para></section>
+<section id="fs-id1165039095325">
+<title>Tipos de energía potencial</title>
+<para id="fs-id1165039045528">Para cada tipo de interacción presente en un sistema, se puede marcar el tipo correspondiente de energía potencial. La energía potencial total del sistema es la suma de las energías potenciales de todos los tipos. (Esto se deduce de la propiedad aditiva del producto punto en la expresión del trabajo realizado). Veamos algunos ejemplos concretos de los tipos de energía potencial que se analizan en <link document="m90644">Trabajo</link>. En primer lugar, consideramos cada una de estas fuerzas cuando actúan por separado, y luego cuando ambas actúan conjuntamente.</para>
+<section id="fs-id1165039369440">
+<title>Energía potencial gravitacional cerca de la superficie de la Tierra</title>
+<para id="fs-id1165039285376">El sistema de interés consiste en nuestro planeta, la Tierra, y una o más partículas cercanas a su superficie (o cuerpos lo suficientemente pequeños para ser considerados como partículas, en comparación con la Tierra). La fuerza gravitacional sobre cada partícula (o cuerpo) es solo su peso <emphasis effect="italics">mg</emphasis> cerca de la superficie de la Tierra, que actúa verticalmente hacia abajo. Según la tercera ley de Newton, cada partícula ejerce una fuerza sobre la Tierra de igual magnitud, pero en sentido contrario. La segunda ley de Newton establece que la magnitud de la aceleración producida por cada una de estas fuerzas sobre la Tierra es <emphasis effect="italics">mg</emphasis> dividida entre la masa terrestre. Dado que el cociente entre la masa de cualquier objeto ordinario y la masa de la Tierra es diminuto, el movimiento de la Tierra puede ignorarse por completo. Por lo tanto, consideramos que este sistema es un grupo de sistemas de una sola partícula, sujetos a la fuerza gravitacional uniforme de la Tierra.</para>
+<para id="fs-id1165039209828">En <link document="m90644">Trabajo</link>, el trabajo realizado sobre un cuerpo por la fuerza gravitacional uniforme de la Tierra, cerca de su superficie, dependía de la masa del cuerpo, de la aceleración debida a la gravedad y de la diferencia de altura que el cuerpo recorría, tal como se indica en la <link document="m90644" target-id="fs-id1165035740928"/>. Por definición, este trabajo es el negativo de la diferencia de energía potencial gravitacional, por lo que esa diferencia es</para>
+<equation id="fs-id1165035676115"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>grav</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>grav</m:mtext><m:mo>,</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mi>B</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039090814">De ello se deduce que la función de <term class="no-emphasis">energía potencial gravitacional</term>, cerca de la superficie de la Tierra, es</para>
+<note id="fs-id1165039084074" class="equation-callout">
+<equation id="fs-id1165039441699"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mtext>const</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039107630">Se puede elegir el valor de la constante, como se describe en el análisis de la <link target-id="fs-id1165039502050"/>; sin embargo, para resolver la mayoría de los problemas, la constante más conveniente a elegir es cero para cuando <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> que es la posición vertical más baja del problema.</para>
+<example id="fs-id1165038964832">
+<para id="fs-id1165035785797"><title>Energía potencial gravitacional de un excursionista</title>
+La cumbre de Great Blue Hill en Milton, un pueblo localizado en Massachusetts, está a 147 m sobre su base y tiene una cota sobre el nivel del mar de 195 m (<link target-id="CNX_UPhysics_08_01_GrBlueHill"/>). (Su nombre nativo americano, <emphasis effect="italics">Massachusett</emphasis>, fue adoptado por los colonos para dar nombre a la Colonia de la Bahía y al estado cercano a su ubicación). Un excursionista de 75 kg asciende desde la base hasta la cumbre. ¿Cuál es la energía potencial gravitacional del sistema excursionista-Tierra con respecto a la energía potencial gravitacional cero a la altura de la base, cuando el excursionista está (a) en la base de la colina, (b) en la cima, y (c) a nivel del mar, después?</para>
+<figure id="CNX_UPhysics_08_01_GrBlueHill">
+<media id="fs-id1165039085986" alt="Esquema del perfil de Great Blue Hill, Milton, Massachusetts. La cumbre está a 195 metros sobre el nivel del mar. La base de la colina está a 147 metros por debajo de la cumbre.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_01_GrBlueHill.jpg"/>
+</media>
+<caption>Esquema del perfil de Great Blue Hill, Milton, Massachusetts. Se indican las altitudes de los tres niveles.</caption>
+</figure>
+<para id="fs-id1165039302945"><title>Estrategia</title>
+En primer lugar, tenemos que elegir un origen para el eje de la <emphasis effect="italics">y</emphasis> y luego determinar el valor de la constante que hace que la energía potencial sea cero a la altura de la base. Entonces, podemos determinar las energías potenciales a partir de la <link target-id="fs-id1165039441699"/>, con base en la relación entre la altura de la energía potencial cero y la altura a la que se encuentra el excursionista.</para>
+<para id="fs-id1165039075284"><title>Solución</title></para>
+<list id="fs-id1165035618779" list-type="enumerated" number-style="lower-alpha">
+<item>Elijamos el origen para el eje <emphasis effect="italics">y</emphasis> en la altura de la base, donde también queremos que esté el cero de la energía potencial. Esta elección hace que la constante sea igual a cero y
+<equation id="fs-id1165035704066" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>base</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>En la cumbre, <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>147</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, así que
+<equation id="fs-id1165039092156" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cumbre</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>147</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>h</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>9,8</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>147</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>108</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>A nivel del mar, <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>147</m:mn><m:mo>-</m:mo><m:mn>195</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>−48</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, así que
+<equation id="fs-id1165039297023" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>nivel del mar</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>9,8</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−48</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>-35,3</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1165039442596"><title>Importancia</title>
+Además de ilustrar el uso de la <link target-id="fs-id1165035676115"/> y la <link target-id="fs-id1165039441699"/>, los valores de energía potencial gravitacional que hallamos son razonables. La energía potencial gravitacional es mayor en la cumbre que en la base, y menor a nivel del mar que en la base. ¡La gravedad también actúa sobre usted al subir! Hace un trabajo negativo y no tanto (en magnitud), como el que hacen sus músculos. No obstante, ciertamente realiza un trabajo Del mismo modo, sus músculos realizan un trabajo en la bajada, como trabajo negativo. Los valores numéricos de las energías potenciales dependen de la elección del cero de la energía potencial, pero las diferencias físicamente significativas de la energía potencial no lo hacen. [Observe que, dado que la <link target-id="fs-id1165039502050"/> es una diferencia, los valores numéricos no dependen del origen de coordenadas].</para>
+</example>
+<note id="fs-id1165036083411" class="check-understanding">
+<exercise id="fs-id1165035926252">
+<problem id="fs-id1165033367269">
+<para id="fs-id1165035866394">¿Cuáles son los valores de la energía potencial gravitacional del excursionista en la base, la cumbre y al nivel del mar, con respecto a un cero de energía potencial a nivel del mar?</para>
+</problem>
+<solution id="fs-id1165035849800">
+<para id="fs-id1165036156053">35,3 kJ, 143 kJ, 0</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1165039266683">
+<title>Energía potencial elástica</title>
+<para id="fs-id1165036159199">En <link document="m90644">Trabajo</link>, vimos que el trabajo que realiza un resorte perfectamente elástico, en una dimensión, depende solo de la constante del resorte y de los cuadrados de los desplazamientos desde la posición no estirada, como se indica en la <link document="m90644" target-id="fs-id1165039209368"/>. Este trabajo se refiere única y exclusivamente a las propiedades de una interacción de la ley de Hooke y no a las propiedades de los resortes reales y de los objetos que estén unidos a ellos. Por lo tanto, podemos definir la diferencia de <term class="no-emphasis">energía potencial elástica</term> para una fuerza de resorte como el negativo del trabajo realizado por la fuerza de resorte en esta ecuación, antes de considerar los sistemas que encarnan este tipo de fuerza. Así,</para>
+<equation id="fs-id1165035743019"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>x</m:mi><m:mi>B</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>-</m:mo><m:msubsup><m:mi>x</m:mi><m:mi>A</m:mi><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165036082561">donde el objeto se desplaza del punto <emphasis effect="italics">A</emphasis> al punto <emphasis effect="italics">B</emphasis>. La función de energía potencial correspondiente a esta diferencia es</para>
+<note id="fs-id1165039074371" class="equation-callout">
+<equation id="fs-id1165039398969"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mtext>const</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039399552">Si la fuerza del resorte es la única que actúa, lo más sencillo es tomar el cero de la energía potencial en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, cuando el resorte está sin estirar. Entonces, la constante en la <link target-id="fs-id1165039398969"/> es cero. (Otras opciones pueden ser más convenientes si actúan otras fuerzas).</para>
+<example id="fs-id1165035980783">
+<para id="fs-id1165035618194"><title>Energía potencial del resorte</title>
+Un sistema contiene un resorte perfectamente elástico, con una longitud sin estirar de 20 cm y una constante de resorte de 4 N/cm. (a) ¿Cuánta energía potencial elástica aporta el resorte cuando su longitud es de 23 cm? (b) ¿Cuánta más energía potencial aporta si su longitud aumenta a 26 cm?</para>
+<para id="fs-id1165036152598"><title>Estrategia</title>
+Cuando el resorte está sin estirar, no aporta nada a la energía potencial del sistema, por lo que podemos utilizar la <link target-id="fs-id1165039398969"/> con la constante igual a cero. El valor de la <emphasis effect="italics">x</emphasis> es la longitud menos la longitud sin estirar. Cuando el resorte se expande, el desplazamiento del resorte o la diferencia entre su longitud relajada y su longitud estirada debe utilizarse para el valor de la <emphasis effect="italics">x</emphasis> en el cálculo de la energía potencial del resorte.</para>
+<para id="fs-id1165039336747"><title>Solución</title></para>
+<list id="fs-id1165039450221" list-type="enumerated" number-style="lower-alpha">
+<item>El desplazamiento del resorte es <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>23</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>-</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, por lo que la energía potencial aportada es <m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>N/cm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0,18</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>.</item>
+<item>Cuando el desplazamiento del resorte es <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>26</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>-</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, la energía potencial es <m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>N/cm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0,72</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>, lo que supone un aumento de 0,54 J sobre la cantidad de la parte (a).</item>
+</list>
+<para id="fs-id1165039096164"><title>Importancia</title>
+El cálculo de la energía potencial elástica y de las diferencias de energía potencial a partir de la <link target-id="fs-id1165039398969"/> implica la resolución de las energías potenciales en función de las longitudes dadas del resorte. Dado que <emphasis effect="italics">U</emphasis> depende de <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, la energía potencial para una compresión (<emphasis effect="italics">x</emphasis> negativa) es la misma que para una extensión de igual magnitud.</para>
+</example>
+<note id="fs-id1165035834925" class="check-understanding">
+<exercise id="fs-id1165039472655">
+<problem id="fs-id1165035712092">
+<para id="fs-id1165035944692">Cuando la longitud del resorte en el <link target-id="fs-id1165035980783"/> cambia de un valor inicial de 22,0 cm a un valor final, la energía potencial elástica que aporta cambia en <m:math><m:mrow><m:mn>−0,0800</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Halle la longitud final.</para>
+</problem>
+<solution id="fs-id1165035723425">
+<para id="fs-id1165036153427">22,8 cm. Utilizando 0,02 m para el desplazamiento inicial del resorte (vea más arriba), calculamos que el desplazamiento final del resorte es de 0,028 m; por lo tanto, la longitud del resorte es la longitud sin estirar más el desplazamiento, es decir, 22,8 cm.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1165035939827"><title>Energía potencial gravitacional y elástica</title><para id="fs-id1165035687891">Un sistema sencillo que incorpora los tipos de energía potencial gravitacional y elástica es un sistema unidimensional vertical de masa-resorte. Consiste en una partícula masiva (o bloque), colgada de un extremo de un resorte perfectamente elástico y sin masa, cuyo otro extremo está fijo, como se ilustra en la <link target-id="CNX_UPhysics_08_01_VertM-S"/>.</para><figure id="CNX_UPhysics_08_01_VertM-S"><media id="fs-id1165039475145" alt="Se ilustra un sistema vertical de masa-resorte. El extremo superior del resorte está fijado al techo. En el extremo inferior se coloca un bloque de masa m. El resorte se dibuja en dos posiciones. A la izquierda, la masa está en posición de equilibrio. A la derecha se dibuja el resorte con la masa empujada hacia abajo, a una distancia y sub halón. Esta posición de la masa se etiqueta como h igual a cero. A la derecha de las ilustraciones se muestra un gráfico de y en función de X, con y igual a cero alineada con la posición de equilibrio en las ilustraciones. El gráfico es sinusoidal, con el mínimo de la y en x=0 e incluso con la posición de la masa inferior en las ilustraciones.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_01_VertM-S_new.jpg"/>
+</media>
+
+<caption>Un sistema vertical de masa-resorte, con el eje de la <emphasis effect="italics">Y</emphasis> positivo apuntando hacia arriba. La masa se encuentra inicialmente en una longitud de resorte sin estirar, el punto A. Luego se suelta y se expande más allá del punto B hasta el punto C, donde se detiene.</caption></figure><para id="fs-id1165039472389">En primer lugar, consideremos la energía potencial del sistema. Necesitamos definir la constante en la función de energía potencial de la <link target-id="fs-id1165039441699"/>. A menudo, el suelo es una opción adecuada para cuando la energía potencial gravitacional es cero; sin embargo, en este caso, el punto más alto o cuando <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> es un lugar conveniente para la energía potencial gravitacional cero. Observe que esta elección es arbitraria, y el problema puede resolverse correctamente aunque se elija otra opción.</para><para id="fs-id1165039400355">También debemos definir la energía potencial elástica del sistema y la constante correspondiente, como se detalla en la <link target-id="fs-id1165039398969"/>. Aquí es donde el resorte está sin estirar, o en la posición <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.
+</para><para id="fs-id1165036006942">Si consideramos que la energía total del sistema se conserva, entonces la energía en el punto A es igual a la del punto C. El bloque se coloca justo sobre el resorte, por lo que su energía cinética inicial es cero. Según el planteamiento del problema analizado anteriormente, tanto la energía potencial gravitacional como la energía potencial elástica son iguales a cero. Por lo tanto, la energía inicial del sistema es cero. Cuando el bloque llega al punto C, su energía cinética es cero. Sin embargo, ahora tiene tanto energía potencial gravitacional como energía potencial elástica. Por lo tanto, podemos resolver la distancia y, que recorre el bloque antes de detenerse:
+</para><equation id="eip-335" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>K</m:mi><m:mn>A</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>+</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>U</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mi>C</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mn>C</m:mn></m:msub></m:mtd></m:mtr>
+
+<m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>0</m:mi><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>y</m:mi><m:mi>C</m:mi></m:msub><m:mo>+</m:mo>
+
+<m:msup><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mi>C</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow>
+
+<m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>y</m:mi><m:mn>C</m:mn></m:msub></m:mtd>
+
+<m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>k</m:mi></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></equation><figure id="CNX_UPhysics_08_01_Bungee">
+<media id="fs-id1165036147313" alt="Fotografía de un puente elástico.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_01_Bungee.jpg"/>
+</media>
+<caption>Un <term class="no-emphasis">puente elástico</term> transforma la energía potencial gravitacional al inicio del salto en energía potencial elástica al final del mismo.</caption>
+</figure>
+<example id="fs-id1165039485752">
+<para id="fs-id1165039398773"><title>Energía potencial de un sistema vertical de masa-resorte</title>Un bloque que pesa <m:math><m:mrow><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> se cuelga de un resorte con una constante de <m:math><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:math>, como se muestra en la <link target-id="CNX_UPhysics_08_01_VertM-S"/>. (a) ¿Cuál es la máxima expansión del resorte, vista en el punto C? (b) ¿Cuál es la energía potencial total en el punto B, a medio camino entre A y C? (c) ¿Cuál es la velocidad del bloque en el punto B?</para><para id="fs-id1165036146944"><title>Estrategia</title>En la parte (a) calculamos la distancia <m:math><m:msub><m:mi>y</m:mi><m:mi>C</m:mi></m:msub></m:math> como se ha comentado en el texto anterior. Luego, en la parte (b), utilizamos la mitad del valor de y para calcular la energía potencial en el punto B mediante la <link target-id="fs-id1165035676115"/> y la <link target-id="fs-id1165035743019"/>. Esta energía deberá ser igual a la energía cinética, la <link target-id="fs-id1165038054728" document="m90645"/>, en el punto B ya que la energía inicial del sistema es cero. Al calcular la energía cinética en el punto B, ahora podemos calcular la rapidez del bloque en el punto B.</para><para id="fs-id1165039237055"><title>Solución</title></para>
+<list id="fs-id1165036084542" list-type="enumerated" number-style="lower-alpha"><item>Dado que la energía total del sistema es cero en el punto A, como se ha comentado anteriormente, se calcula que la expansión máxima del resorte es:
+<equation id="fs-id1165035648589" class="unnumbered"><m:math><m:mtable>
+
+<m:mtr><m:mtd columnalign="right"><m:msub><m:mi>y</m:mi><m:mn>C</m:mn></m:msub></m:mtd>
+
+<m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>k</m:mi></m:mfrac></m:mtd></m:mtr>
+
+
+<m:mtr><m:mtd columnalign="left"><m:msub><m:mi>y</m:mi><m:mn>C</m:mn></m:msub></m:mtd>
+
+<m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>(</m:mo><m:mn>1,2</m:mn><m:mo>N</m:mo><m:mo>)</m:mo></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mn>6,0</m:mn><m:mo>N/m</m:mo><m:mo>)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>-0,40</m:mn><m:mo>m</m:mo></m:mtd></m:mtr>
+</m:mtable></m:math></equation></item>
+<item>La posición de <m:math><m:msub><m:mi>y</m:mi><m:mi>B</m:mi></m:msub></m:math>es la mitad de la posición en <m:math><m:msub><m:mi>y</m:mi><m:mi>C</m:mi></m:msub></m:math> o <m:math><m:mn>-0,20</m:mn><m:mo>m</m:mo></m:math>. La energía potencial total en el punto B sería, por lo tanto, la siguiente:
+<equation id="fs-id1165035906727" class="unnumbered"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>U</m:mi><m:mi>B</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>y</m:mi><m:mi>B</m:mi></m:msub><m:mo>+</m:mo><m:msup><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mi>C</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+
+<m:mtr><m:mtd columnalign="right"><m:msub><m:mi>U</m:mi><m:mi>B</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mn>1,2</m:mn><m:mo>N</m:mo><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>-0,20</m:mn><m:mo>m</m:mo><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo>
+
+<m:msup><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>6</m:mn><m:mo>N/m</m:mo><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>0,20</m:mn><m:mo>m</m:mo><m:mo>)</m:mo></m:mrow></m:mrow>
+
+<m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>U</m:mi><m:mn>B</m:mn></m:msub></m:mtd>
+
+<m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>-</m:mo><m:mn>0,12</m:mn><m:mo>J</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>La masa del bloque es el peso dividido entre la gravedad.<newline/>
+<equation id="fs-id1165039440067" class="unnumbered"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:msub><m:mi>F</m:mi><m:mi>w</m:mi></m:msub><m:mi>g</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1,2</m:mn><m:mo>N</m:mo></m:mrow><m:mrow><m:mn>9,8</m:mn><m:msup><m:mtext>m/s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mrow><m:mo>=</m:mo><m:mn>0,12</m:mn><m:mtext>kg</m:mtext></m:mrow></m:mrow></m:math></equation>Por lo tanto, la energía cinética en el punto B es de 0,12 J, porque la energía total es cero. Así, la rapidez del bloque en el punto B es igual a <equation id="eip-idm1084797856" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>K</m:mi><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+
+<m:mtr><m:mtd columnalign="left"><m:mi>v</m:mi><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left">
+
+<m:msup><m:mrow><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>K</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>(</m:mo><m:mn>0,12</m:mn><m:mo>J</m:mo><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>0,12</m:mn><m:mo>kg</m:mo><m:mo>)</m:mo></m:mrow></m:mfrac></m:msqrt><m:mo>=</m:mo><m:mn>1,4</m:mn><m:mo>m/s</m:mo></m:mrow>
+
+</m:msup></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list><para id="fs-id1165036080825"><title>Importancia</title>Aunque la energía potencial debida a la gravedad es relativa a un lugar cero elegido, las soluciones a este problema serían las mismas si los puntos de energía cero se eligieran en lugares diferentes. </para></example>
+<note id="fs-id1165035687581" class="check-understanding">
+<exercise id="fs-id1165039237492">
+<problem id="fs-id1165039047234">
+<para id="fs-id1165035867745">Supongamos que la masa en la <link target-id="fs-id1165035743019"/> se duplica mientras se mantienen las demás condiciones. ¿Aumentaría, disminuiría o permanecería igual la expansión máxima del resorte? ¿La rapidez en el punto B sería mayor, menor o igual en comparación con la masa original?</para></problem>
+<solution id="fs-id1165039422522">
+<para id="fs-id1165039510367">Aumenta porque ha tenido que ejercer una fuerza hacia abajo, haciendo un trabajo positivo, para empujar la masa hacia abajo, y eso es igual al cambio en la energía potencial total.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1165039461263" class="media-2">
+<para id="fs-id1165033371194">¡Vea esta <link url="https://openstax.org/l/21conenerskat_es">simulación</link> para aprender sobre la conservación de la energía con un patinador! Construya pistas, rampas y saltos para el patinador y observe la energía cinética, la energía potencial y la fricción mientras se mueve. ¡También puede llevar al patinador a diferentes planetas o incluso al espacio!</para>
+</note>
+<para id="fs-id1165039078790">En la <link target-id="fs-id1165036086155"/> se muestra un gráfico de muestra de una variedad de energías para darle una idea sobre los valores típicos de energía, asociados a ciertos eventos. Algunos de ellos se calculan con la energía cinética, mientras que otros se calculan con cantidades que se encuentran en una forma de energía potencial, que quizá no se haya comentado en este punto.</para>
+<table id="fs-id1165036086155" summary="The table has two columns and 14 rows. The first row is a header row with headings “Object or Phenomenon” and “Energy in Joules.” Row 2 has “Big Bang” and 10 to the 68. Row 3 has “Annual world energy use” and 4.0 times 10 to the 20. Row 4 has “Large fusion bomb (9 megaton)” and 3.8 times 10 to the 16. Row 5 has “Hiroshima-size fission bomb (10 kiloton)” and 4.2 times 10 to the 13. Row 6 has “1 barrel crude oil” and 5.9 times 10 to the 9. Row 7 has “1 ton TNT” and 4.2 times 10 to the 9. Row 8 has “1 gallon of gasoline” times 10 to the 8. Row 9 has “Daily adult food intake (recommended)” and 1.2 times 10 to the 7. Row 10 “1000 k g car at 90 k m per h” and 3.1 times 10 to the 5. Row 11 has “Tennis ball at 100 k m per h” and 22. Row 12 has “Mosquito, 10 to the minus 2 gram at 0.5 meters p0er second” and 1.3 times 10 to the minus 6. Row 13 has “single electron in a T V tune beam” and 4.0 times 10 to the minus 15. Row 14 has “Energy to break one D N A strand” and 10 to the –19."><title>Energía de diversos objetos y fenómenos</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Objeto/fenómeno</entry>
+<entry valign="top" align="left">Energía en julios</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Big Bang</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>68</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Consumo anual de energía en el mundo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Bomba grande de fusión (9 megatones)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Bomba de fisión del tamaño de la de Hiroshima (10 kilotones)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1 barril de petróleo crudo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>5,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1 tonelada métrica de TNT</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1 galón de gasolina</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ingesta diaria de alimentos para adultos (recomendada)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Auto de 1.000 kg a 90 km/h</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Pelota de tenis a 100 km/h</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>22</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mosquito <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>g a 0,5 m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Electrón individual en un haz de tubo de TV</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energía para romper una cadena de ADN</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section></section>
+<section id="fs-id1165039411801" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1165039512018" list-type="bulleted" bullet-style="bullet">
+<item>Para un sistema de una sola partícula, la diferencia de energía potencial es la opuesta al trabajo realizado por las fuerzas que actúan sobre la partícula cuando se mueve de una posición a otra.</item>
+<item>Dado que solo las diferencias de energía potencial son físicamente significativas, el cero de la función de energía potencial puede elegirse en un lugar conveniente.</item>
+<item>Las energías potenciales para la gravedad constante de la Tierra, cerca de su superficie, y para una fuerza de la ley de Hooke son funciones lineales y cuadráticas de la posición, respectivamente.</item>
+</list>
+</section>
+<section id="fs-id1165039349944" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1165039088707">
+<problem id="fs-id1165035870929">
+<para id="fs-id1165036158227">La energía cinética de un sistema deberá ser siempre positiva o cero. Explique si esto es cierto para la energía potencial de un sistema.</para>
+</problem>
+<solution id="fs-id1165036083174">
+<para id="fs-id1165039119722">La energía potencial de un sistema puede ser negativa porque su valor es relativo a un punto definido.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035863734">
+<problem id="fs-id1165039495833">
+<para id="fs-id1165035862588">La fuerza que ejerce un trampolín es conservativa, siempre que la fricción interna sea despreciable. Suponiendo que la fricción es despreciable, describa los cambios en la energía potencial de un trampolín cuando un nadador se impulsa desde este, empezando justo antes de que el nadador pise el trampolín hasta justo después de que sus pies se aparten de este.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035664421">
+<problem id="fs-id1165036075740">
+<para id="fs-id1165039420504">Describa las transferencias y transformaciones de energía potencial gravitacional de una jabalina, empezando por el punto en el que un atleta recoge la jabalina y terminando cuando la jabalina se clava en el suelo después lanzarla.</para>
+</problem>
+<solution id="fs-id1165039508390">
+<para id="fs-id1165035639538">Si el punto de referencia del suelo es una energía potencial gravitacional cero, la jabalina aumenta primero su energía potencial gravitacional, seguida de una disminución de su energía potencial gravitacional a medida que se lanza hasta que toca el suelo. El cambio global en la energía potencial gravitacional de la jabalina es cero, a menos que el centro de masa de la jabalina esté más bajo que desde donde se lanza inicialmente, y por lo tanto tendría un poco menos de energía potencial gravitacional.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035609975">
+<problem id="fs-id1165035676190">
+<para id="fs-id1165039434233">Un par de balones de fútbol de igual masa son pateados desde el suelo a la misma rapidez, pero en diferentes ángulos. El balón A se lanza con un ángulo ligeramente superior a la horizontal, mientras que el balón B se lanza ligeramente por debajo de la vertical. ¿Cómo se comparan cada uno de los siguientes elementos para el balón A y el balón B? (a) La energía cinética inicial y (b) el cambio en la energía potencial gravitacional desde el suelo hasta el punto más alto? Si la energía de la parte (a) difiere de la de la parte (b), explique por qué hay una diferencia entre las dos energías.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035640115">
+<problem id="fs-id1165035971333">
+<para id="fs-id1165039243934">¿Cuál es el factor dominante que afecta a la rapidez de un objeto que parte del reposo por una pendiente sin fricción, si el único trabajo realizado sobre el objeto procede de las fuerzas gravitacionales?</para>
+</problem>
+<solution id="fs-id1165039502736">
+<para id="fs-id1165035734500">la altura vertical desde el suelo hasta el objeto</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035951008">
+<problem id="fs-id1165039210730">
+<para id="fs-id1165035703366">Dos personas observan cómo cae una hoja de un árbol. Una persona está de pie en una escalera y la otra en el suelo. Si cada persona comparara la energía de la hoja observada, ¿encontraría lo siguiente igual o diferente para la hoja, desde el punto en el que cae del árbol hasta cuando golpea el suelo: (a) la energía cinética de la hoja; (b) el cambio en la energía potencial gravitacional; (c) la energía potencial gravitacional final?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165039426252" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1165035974202">
+<problem id="fs-id1165036084222">
+<para id="fs-id1165035707085">Utilizando los valores de la <link target-id="fs-id1165036086155"/>, ¿cuántas moléculas de ADN podrían romperse por la energía transportada por un solo electrón en el haz de un tubo antiguo de televisión? (Estos electrones no eran peligrosos en sí mismos, pero sí generaban rayos X nocivos. Los televisores de tubo de modelos posteriores tenían un blindaje que absorbía los rayos X antes de que se escaparan y expusieran a los espectadores).</para>
+</problem>
+<solution id="fs-id1165039303143">
+<para id="fs-id1165039328857">40.000</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039195103">
+<problem id="fs-id1165039274912">
+<para id="fs-id1165039045866">Si la energía de las bombas de fusión se utilizara para abastecer las necesidades energéticas del mundo, ¿cuántas de la variedad de 9 megatones se necesitarían para el suministro de energía de un año (utilizando los datos de la <link target-id="fs-id1165039099001"/>)?</para></problem>
+</exercise>
+<exercise id="fs-id1165035678778">
+<problem id="fs-id1165033368936">
+<para id="fs-id1165039506976">Una cámara que pesa 10 N cae desde un pequeño dron que flota <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> por encima y entra en caída libre. ¿Cuál es el cambio de energía potencial gravitacional de la cámara desde el dron hasta el suelo, si se toma como punto de referencia que (a) el suelo tiene una energía potencial gravitacional cero? (b) el dron tiene una energía potencial gravitacional cero? ¿Cuál es la energía potencial gravitacional de la cámara (c) antes de que caiga del dron y (d) después de que la cámara aterrice en el suelo si se toma como punto de referencia de energía potencial gravitacional cero una segunda persona que se asoma de un edificio a <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> del suelo?</para>
+</problem>
+<solution id="fs-id1165039026114">
+<para id="fs-id1165035992436"><m:math><m:mrow><m:mtext>a.</m:mtext><m:mspace width="0.2em"/><m:mn>−200</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>b.</m:mtext><m:mspace width="0.2em"/><m:mn>−200</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>c.</m:mtext><m:mspace width="0.2em"/><m:mn>−100</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>d.</m:mtext><m:mspace width="0.2em"/><m:mn>−300</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038995791">
+<problem id="fs-id1165038963823">
+<para id="fs-id1165039305629">Alguien deja caer un guijarro de <m:math><m:mrow><m:mn>50</m:mn><m:mo>-</m:mo><m:mtext>g</m:mtext></m:mrow></m:math> de un crucero atracado, a <m:math><m:mrow><m:mn>70,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> de la línea de agua. Una persona en un muelle a <m:math><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> de la línea del agua sostiene una red para atrapar el guijarro. (a) ¿Cuánto trabajo realiza la gravedad sobre el guijarro durante la caída? (b) ¿Cuál es el cambio en la energía potencial gravitacional durante la caída? Si la energía potencial gravitacional es cero en la línea del agua, ¿cuál es la energía potencial gravitacional (c) cuando se deja caer el guijarro? (d) cuando llega a la red? ¿Y si la energía potencial gravitacional fuera <m:math><m:mrow><m:mn>30,0</m:mn></m:mrow></m:math> Julios al nivel del agua? (e) Encuentre las respuestas a las mismas preguntas en (c) y (d).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039000504">
+<problem id="fs-id1165036159547">
+<para id="fs-id1165039376541">Una bola arrugada de juguete para gatos con masa <m:math><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow></m:math> se lanza directamente hacia arriba con una rapidez inicial de <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>. Supongamos en este problema que la resistencia del aire es despreciable. (a) ¿Cuál es la energía cinética de la bola cuando sale de la mano? (b) ¿Cuánto trabajo realiza la fuerza gravitacional durante el ascenso de la bola hasta su punto máximo? (c) ¿Cuál es el cambio en la energía potencial gravitacional de la bola durante el ascenso hasta su punto máximo? (d) Si se considera que la energía potencial gravitacional es cero en el punto en que sale de la mano, ¿cuál es la energía potencial gravitacional cuando alcanza la altura máxima? (e) Si se considera que la energía potencial gravitacional es cero en la altura máxima que alcanza la bola, ¿cuál sería la energía potencial gravitacional cuando sale de la mano? (f) ¿Cuál es la altura máxima que alcanza la bola?</para>
+</problem>
+<solution id="fs-id1165035962196">
+<para id="fs-id1165039218494"><m:math><m:mrow><m:mtext>a.</m:mtext><m:mspace width="0.2em"/><m:mn>0,068</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>b.</m:mtext><m:mspace width="0.2em"/><m:mn>−0,068</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>c.</m:mtext><m:mspace width="0.2em"/><m:mn>0,068</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>d.</m:mtext><m:mspace width="0.2em"/><m:mn>0,068</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>e.</m:mtext><m:mspace width="0.2em"/><m:mn>−0,068</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>f.</m:mtext><m:mspace width="0.2em"/><m:mn>46</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165039070256">
+<term>energía potencial</term>
+<meaning id="fs-id1165035651980">función de la posición, energía que posee un objeto en relación con el sistema considerado</meaning>
+</definition>
+<definition id="fs-id1165039314150">
+<term>diferencia de energía potencial</term>
+<meaning id="fs-id1165035824264">negativo del trabajo realizado y que actúa entre dos puntos del espacio</meaning>
+</definition>
+</glossary>
+</document>

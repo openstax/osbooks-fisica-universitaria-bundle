@@ -1,0 +1,215 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Ley de Lenz</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90919</md:content-id>
+  <md:title>Ley de Lenz</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Utilizar la ley de Lenz para determinar la dirección de la emf inducida siempre que cambie un flujo magnético.</item>
+<item>Utilizar la ley de Faraday con la ley de Lenz para determinar la emf inducida en una bobina y en un solenoide.</item>
+</list></md:abstract>
+  <md:uuid>9bc8ae28-04e7-4dc4-b351-d0238b99e07c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171242345816">La dirección en la que la emf inducida impulsa la corriente alrededor de un bucle de cable se puede calcular a través del signo negativo. Sin embargo, suele ser más fácil determinar esta dirección con <term>la ley de Lenz</term>, llamada así en honor a su descubridor, Heinrich <term class="no-emphasis">Lenz</term> (1804-1865) (Faraday también descubrió esta ley, independientemente de Lenz). Enunciamos la ley de Lenz de la siguiente manera:</para>
+<note id="fs-id1171242160295">
+<title>Ley de Lenz</title>
+<para id="fs-id1171242185736">La dirección de la emf inducida impulsa la corriente alrededor de un bucle de cable para <emphasis effect="italics">oponerse</emphasis> siempre al cambio de flujo magnético que causa la emf.</para>
+</note>
+<para id="fs-id1171242186242">La ley de Lenz también puede considerarse en términos de conservación de la energía. Si al empujar un imán en una bobina se produce una corriente, la energía de esa corriente tiene que venir de alguna parte. Si la corriente inducida provoca un campo magnético opuesto al aumento del campo del imán que empujamos, entonces la situación es clara. Empujamos un imán contra un campo e hicimos un trabajo en el sistema, y eso apareció como corriente. Si no fuera porque el campo inducido se opone al cambio de flujo, el imán sería atraído para producir una corriente sin que nada haya hecho trabajo. Se habría creado energía potencial eléctrica, violando la conservación de la energía.</para>
+<para id="fs-id1171242598108">Para determinar una emf inducida <m:math><m:mi>ε</m:mi></m:math>, primero se calcula el flujo magnético <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> y luego se obtiene <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math> La magnitud de <m:math><m:mi>ε</m:mi></m:math> viene dada por <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Por último, se puede aplicar la ley de Lenz para determinar el sentido de <m:math><m:mtext>ε</m:mtext></m:math>. Esto se desarrollará a través de ejemplos que ilustran la siguiente estrategia de resolución de problemas.</para>
+<note id="fs-id1171242270572" class="problem-solving">
+<title>Ley de Lenz</title>
+<para id="fs-id1171242312672">Para utilizar la ley de Lenz para determinar las direcciones de los campos magnéticos inducidos, las corrientes y las emf:</para>
+<list id="fs-id1171242325072" list-type="enumerated" number-style="arabic">
+<item>Haga un croquis de la situación para utilizarlo en la visualización y el registro de las direcciones.</item>
+<item>Determine la dirección del campo magnético aplicado <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Determine si su flujo magnético está aumentando o disminuyendo.</item>
+<item>Ahora determine la dirección del campo magnético inducido <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> El campo magnético inducido trata de reforzar un flujo magnético que está disminuyendo o se opone a un flujo magnético que está aumentando. Por lo tanto, el campo magnético inducido se suma o se resta al campo magnético aplicado, en función del cambio de flujo magnético.</item>
+<item>Utilice <term class="no-emphasis">la segunda regla de la mano derecha</term> ([right hand rule-2, RHR-2]; consulte <link document="m90901">Fuerzas y campos magnéticos</link>) para determinar la dirección de la corriente inducida <emphasis effect="italics">I</emphasis> que es responsable del campo magnético inducido <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>La dirección (o polaridad) de la emf inducida puede ahora conducir una corriente convencional en esta dirección.</item>
+</list>
+</note>
+<para id="fs-id1171242058417">Apliquemos la ley de Lenz al sistema de la <link target-id="CNX_UPhysics_30_02_Flux"/>(a). Designamos la "parte delantera" del bucle conductor cerrado como la región que contiene la barra magnética que se aproxima, y la "parte trasera" del bucle como la otra región. A medida que el polo norte del imán se desplaza hacia el bucle, el flujo que lo atraviesa debido al campo del imán aumenta porque la intensidad de las líneas de campo dirigidas desde la parte delantera hacia la parte trasera es cada vez mayor. Por lo tanto, se induce una corriente en el bucle. Según la ley de Lenz, la dirección de la corriente inducida debe ser tal que su propio campo magnético se dirija de una manera que se <emphasis effect="italics">oponga</emphasis> al flujo cambiante que causa el campo del imán que se aproxima. Por lo tanto, la corriente inducida circula de manera que sus líneas de campo magnético a través del bucle se dirigen desde la parte trasera a la delantera del bucle. En la RHR-2, coloque el pulgar apuntando hacia las líneas de campo magnético, es decir, hacia la barra magnética. Los dedos se enrollan en sentido contrario a las agujas del reloj, visto desde la barra magnética. De manera alternativa, podemos determinar la dirección de la corriente inducida tratando el bucle de corriente como un electroimán que se <emphasis effect="italics">opone</emphasis> a la aproximación del polo norte de la barra magnética. Esto ocurre cuando la corriente inducida fluye como se muestra, pues entonces la cara del bucle más cercano al imán que se aproxima es también un polo norte.</para>
+<figure id="CNX_UPhysics_30_02_Flux">
+<media id="fs-id1171242084695" alt="La figura A muestra un imán que se mueve hacia el bucle con el polo norte orientado hacia él. Las líneas de campo magnético salen del polo norte del imán y provocan el flujo de corriente en sentido contrario a las agujas del reloj en el bucle. La figura B muestra un imán que se mueve hacia el bucle con el polo sur orientado hacia él. Las líneas de campo magnético entran en el polo sur del imán y provocan el flujo de corriente en el sentido de las agujas del reloj en el bucle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_02_Flux.jpg"/>
+</media>
+<caption>El cambio en el flujo magnético que causa el imán que se aproxima induce una corriente en el bucle. (a) Un polo norte que se aproxima induce una corriente en sentido contrario a las agujas del reloj con respecto a la barra magnética. (b) Un polo sur que se aproxima induce una corriente en sentido de las agujas del reloj con respecto a la barra magnética.</caption>
+</figure>
+<para id="fs-id1171242141114">La parte (b) de la figura muestra el polo sur de un imán moviéndose hacia un bucle conductor. En este caso, el flujo que atraviesa el bucle debido al campo del imán aumenta porque el número de líneas de campo dirigidas desde la parte trasera a la delantera del bucle es cada vez mayor. Para oponerse a este cambio, se induce una corriente en el bucle cuyas líneas de campo que la atraviesan se dirigen desde la parte delantera hacia la trasera. De manera equivalente, podemos decir que la corriente fluye en una dirección tal que la cara del bucle más cercano al imán que se aproxima es un polo sur, que entonces repele al polo sur del imán que se aproxima. En la RHR-2, el pulgar apunta lejos de la barra magnética. Los dedos se enrollan en el sentido de las agujas del reloj, que es la dirección de la corriente inducida.</para>
+<para id="fs-id1171242187185">Otro ejemplo que ilustra el uso de la ley de Lenz se muestra en la <link target-id="CNX_UPhysics_30_02_Switch"/>. Cuando se abre el interruptor, la disminución de la corriente a través del <term class="no-emphasis">solenoide</term> provoca una disminución del flujo magnético a través de sus bobinas, lo que induce una emf en el solenoide. Esta emf debe oponerse al cambio (la terminación de la corriente) que la provoca. En consecuencia, la emf inducida tiene la polaridad indicada y se conduce en la dirección de la corriente original. Esto puede generar un arco en los terminales del interruptor al abrirse.</para>
+<figure id="CNX_UPhysics_30_02_Switch">
+<media id="fs-id1171242088065" alt="La figura A muestra un circuito que consta de un solenoide, un condensador y un interruptor cerrado. No hay flujo de corriente en el circuito. La figura B muestra un circuito que consta de un solenoide, un condensador y un interruptor de apertura. Hay un flujo de corriente en el circuito. La figura C es una foto de un arco eléctrico generado entre dos contactos de metal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_02_Switch.jpg"/>
+</media>
+<caption>(a) Un solenoide conectado a una fuente de emf. (b) La apertura del interruptor S termina la corriente, que a su vez induce una emf en el solenoide. (c) Se produce una diferencia de potencial entre los extremos de las varillas de punta aguda induciendo una emf en una bobina. Esta diferencia de potencial es lo suficientemente grande como para producir un arco entre las puntas afiladas.</caption>
+</figure>
+<note id="fs-id1171242104175" class="check-understanding">
+<exercise id="fs-id1171242537913">
+<problem id="fs-id1171242609174">
+<para id="fs-id1171242411358">Halle la dirección de la corriente inducida en el bucle de cable que se muestra a continuación cuando el imán entra, pasa y sale del bucle.</para>
+</problem>
+<solution id="fs-id1171242153022">
+<para id="fs-id1171242237594">Para el observador mostrado, la corriente fluye en el sentido de las agujas del reloj a medida que el imán se acerca, disminuye a cero cuando el imán está centrado en el plano de la bobina y, luego, fluye en sentido contrario a las agujas del reloj cuando el imán sale de la bobina<newline/>
+<media id="fs-id1171242160143" alt="La figura muestra un imán que se mueve dentro y a través del bucle con el polo sur orientado hacia él. La posición (a) corresponde al imán que se acerca al bucle; la posición (b) corresponde al imán que entra directamente en el bucle. La posición (c) corresponde al imán que se aleja del bucle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_02_Wloop_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1171242186795" class="check-understanding">
+<exercise id="fs-id1171242146476">
+<problem id="fs-id1171239841445">
+<para id="fs-id1171242189173">Compruebe las direcciones de las corrientes inducidas en la <link target-id="CNX_UPhysics_30_01_Circuit" document="m90918"/>.</para>
+</problem>
+</exercise>
+</note>
+<example id="fs-id1171242446729">
+<para id="fs-id1171242239280"><title>Una bobina circular en un campo magnético cambiante</title>
+Un campo magnético <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> se dirige hacia el exterior perpendicularmente al plano de una bobina circular de radio <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> (<link target-id="CNX_UPhysics_30_02_Circle"/>). El campo es cilíndricamente simétrico con respecto al centro de la bobina, y su magnitud decae exponencialmente según <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,5</m:mn><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mi>e</m:mi></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> donde <emphasis effect="italics">B</emphasis> está en teslas y <emphasis effect="italics">t</emphasis> está en segundos. (a) Calcule la emf inducida en la bobina en los tiempos <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> b) Determine la corriente en la bobina en estos tres momentos si su resistencia es <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_30_02_Circle">
+<media id="fs-id1171242171296" alt="La figura muestra una bobina circular de radio r en un campo magnético uniforme decreciente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_02_Circle.jpg"/>
+</media>
+<caption>Una bobina circular en un campo magnético decreciente.</caption>
+</figure>
+<para id="fs-id1171242160593"><title>Estrategia</title>
+Como el campo magnético es perpendicular al plano de la bobina y constante sobre cada punto de la misma, el producto punto del campo magnético <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> y la normal al vector de la unidad de área <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mover accent="true"><m:mtext>n</m:mtext><m:mo stretchy="true">^</m:mo></m:mover></m:mstyle></m:mrow></m:math> se convierten en una multiplicación. El campo magnético puede extraerse de la integración, dejando el flujo como el producto del campo magnético por el área. Tenemos que tomar la derivada temporal de la función exponencial para calcular la emf utilizando la ley de Faraday. A continuación, utilizamos la ley de Ohm para calcular la corriente.</para>
+<para id="fs-id1171242160114"><title>Solución</title></para>
+<list id="fs-id1171242156212" list-type="enumerated" number-style="lower-alpha">
+<item>Dado que <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es perpendicular al plano de la bobina, el flujo magnético viene dado por
+<equation id="fs-id1171242415681" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,5</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−5,0</m:mn><m:mi>t</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1,2</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Wb</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+A partir de la ley de Faraday, la magnitud de la emf inducida es
+<equation id="fs-id1171242534591" class="unnumbered"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mi>m</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1,2</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Wb</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+Dado que <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> se dirige hacia fuera de la página y está disminuyendo, la corriente inducida debe fluir en sentido contrario a las agujas del reloj cuando se ve desde arriba para que el campo magnético que produce a través de la bobina también apunte hacia fuera de la página. Para los tres tiempos, el sentido de ε es antihorario; sus magnitudes son
+<equation id="fs-id1171242563703" class="unnumbered"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>;</m:mo><m:mspace width="0.5em"/><m:mi>ε</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4,7</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>;</m:mo><m:mspace width="0.5em"/><m:mi>ε</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>3</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0,040</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Según la ley de Ohm, las corrientes respectivas son
+<equation id="fs-id1171242109610" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,60</m:mn><m:mspace width="0.2em"/><m:mtext>A;</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>4,7</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,47</m:mn><m:mspace width="0.2em"/><m:mtext>A;</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+y
+<equation id="fs-id1171242061934" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>3</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0,040</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1171242612340"><title>Importancia</title>
+Un voltaje de emf se crea por un flujo magnético cambiante en el tiempo. Si sabemos cómo varía el campo magnético con el tiempo sobre un área constante, podemos tomar su derivada temporal para calcular la emf inducida.</para>
+</example>
+<example id="fs-id1171242354020">
+<para id="fs-id1171242121407"><title>Cambio del campo magnético dentro de un solenoide</title>
+La corriente que pasa por los bobinados de un solenoide con <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2.000</m:mn></m:mrow></m:math> vueltas por metro está cambiando a un ritmo <m:math><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (Para obtener más información sobre los solenoides, consulte <link document="m90909">Fuentes de campos magnéticos</link>). El solenoide tiene una longitud de 50 cm y un diámetro transversal de 3,0 cm. Una pequeña bobina formada por <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> vueltas estrechamente enrolladas en un círculo de 1,0 cm de diámetro se coloca en el centro del solenoide de manera que el plano de la bobina es perpendicular al eje central del solenoide. Suponiendo que la aproximación del solenoide infinito es válida en el lugar de la pequeña bobina, determine la magnitud de la emf inducida en la bobina.</para>
+<para id="fs-id1171242428536"><title>Estrategia</title>
+El campo magnético en el centro del solenoide es un valor uniforme de <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math> Este campo está produciendo un flujo magnético máximo a través de la bobina al dirigirse a lo largo de la longitud del solenoide. Por lo tanto, el flujo magnético que atraviesa la bobina es el producto del campo magnético del solenoide por el área de la bobina. La ley de Faraday implica una derivada temporal del flujo magnético. La única cantidad que varía en el tiempo es la corriente, el resto se puede sacar de la derivada del tiempo. Por último, incluimos el número de vueltas de la bobina para determinar su emf inducida.</para>
+<para id="fs-id1171242188576"><title>Solución</title>
+Dado que el campo del solenoide viene dado por <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mo>,</m:mo></m:mrow></m:math> el flujo a través de cada vuelta de la bobina pequeña es</para>
+<equation id="fs-id1171242547782" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171239839678">donde <emphasis effect="italics">d</emphasis> es el diámetro de la bobina. Ahora, a partir de la ley de Faraday, la magnitud de la emf inducida en la bobina es</para>
+<equation id="fs-id1171242238732" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>ε</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>N</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>N</m:mi><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mfrac><m:mrow><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>20</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.000</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mtext>-1</m:mtext></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,010</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>A/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171242501795"><title>Importancia</title>
+Cuando se enciende la corriente en un solenoide vertical, como se muestra en la <link target-id="CNX_UPhysics_30_02_JRing"/>, el anillo tiene una emf inducida por el flujo magnético cambiante del solenoide que se opone al cambio. El resultado es que el anillo se dispara verticalmente en el aire.</para>
+<figure id="CNX_UPhysics_30_02_JRing">
+<media id="fs-id1171242464680" alt="La figura es una fotografía de un fino anillo de metal que levita sobre el solenoide vertical.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_02_JRing.jpg"/>
+</media>
+<caption>El anillo que salta. Cuando se enciende una corriente en el solenoide vertical, se induce una corriente en el anillo de metal. El campo perdido producido por el solenoide hace que el anillo salte.</caption>
+</figure>
+</example>
+<note id="fs-id1171242067389" class="media-2">
+<para id="fs-id1171242406394">Visite este <link url="https://openstax.org/l/21flashmagind">sitio web</link> para ver una demostración del anillo que salta del MIT.</para>
+</note>
+<section id="fs-id1171242535187" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1171242165014" list-type="bulleted" bullet-style="bullet">
+<item>Podemos utilizar la ley de Lenz para determinar las direcciones de los campos magnéticos, corrientes y emf inducidos.</item>
+<item>La dirección de una emf inducida siempre se opone al cambio en el flujo magnético que causa la emf, un resultado conocido como la ley de Lenz.</item>
+</list>
+</section>
+<section id="fs-id1171242424831" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1171242345928">
+<problem id="fs-id1171242528452">
+<para id="fs-id1171242417927">Los bucles conductores circulares mostrados en la figura adjunta son paralelos, perpendiculares al plano de la página y coaxiales. (a) Cuando el interruptor S está cerrado, ¿cuál es el sentido de la corriente inducida en <emphasis effect="italics">D</emphasis>? (b) Cuando el interruptor está abierto, ¿cuál es el sentido de la corriente inducida en el bucle <emphasis effect="italics">D</emphasis>?</para>
+<media id="fs-id1171242155146" alt="La figura muestra un circuito que consta de una resistor, un condensador, un interruptor abierto y un bucle C. Junto al bucle C se encuentra un bucle D.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01_Q6_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171242227802">
+<para id="fs-id1171242460665">a. En el sentido de las agujas del reloj visto desde el circuito; b. En sentido contrario a las agujas del reloj visto desde el circuito</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242433255">
+<problem id="fs-id1171242114108">
+<para id="fs-id1171242189532">El polo norte de un imán se mueve hacia un bucle de cobre, como se muestra a continuación. Si mira el bucle desde arriba del imán, ¿diría que la corriente inducida circula en el sentido de las agujas del reloj o en sentido contrario?</para>
+<media id="fs-id1171242148989" alt="La figura muestra un imán que se mueve hacia el bucle con el polo norte orientado hacia este.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_05_Quest_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171242177075">
+<problem id="fs-id1171242144458">
+<para id="fs-id1171242558097">La figura adjunta muestra un anillo conductor en varias posiciones mientras se mueve a través de un campo magnético. ¿Cuál es el sentido de la emf inducida para cada una de esas posiciones?</para>
+<media id="fs-id1171242528755" alt="La figura muestra el bucle que se desplaza por la zona con el campo magnético perpendicular a este.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_14_Quest_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171242164349">
+<para id="fs-id1171242570760">Cuando el bucle entra, la emf inducida crea una corriente en sentido contrario a las agujas del reloj mientras que cuando el bucle sale esta crea una corriente en el sentido de las agujas del reloj. Mientras el bucle está totalmente dentro del campo magnético, no hay cambio de flujo y, por tanto, no hay corriente inducida.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242516855">
+<problem id="fs-id1171242086128">
+<para id="fs-id1171242414349">Demuestre que <m:math><m:mi>ε</m:mi></m:math> y <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math> tienen las mismas unidades.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242504699">
+<problem id="fs-id1171242410956">
+<para id="fs-id1171242147103">Indique el sentido de la corriente inducida para cada uno de los casos que se muestran a continuación, observando desde el lado del imán.</para>
+<media id="fs-id1171242568595" alt="La figura A muestra un imán que se mueve hacia el bucle con el polo norte orientado hacia él. La figura B muestra un imán que se aleja del bucle con el polo norte orientado hacia él. La figura C muestra un imán que se mueve hacia el bucle con el polo sur orientado hacia él. La figura D muestra un imán que se mantiene constante con el polo norte orientado hacia el bucle. El bucle se mueve hacia el imán. La figura E muestra un imán que se mantiene constante con el polo norte orientado hacia el bucle. El bucle se aleja del imán. La figura F muestra un imán que se mantiene constante con el polo norte orientado hacia el bucle. El bucle gira en el sentido de las agujas del reloj.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_01pr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171239839737">
+<para id="fs-id1171242551322">a. En sentido contrario a las agujas del reloj visto desde el imán; b. En el sentido de las agujas del reloj visto desde el imán; c. En el sentido de las agujas del reloj visto desde el imán; d. En sentido contrario a las agujas del reloj visto desde el imán; e. En el sentido de las agujas del reloj visto desde el imán; f. sin corriente</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1171242122797" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1171242563925">
+<problem id="fs-id1171242085805">
+<para id="fs-id1171242531875">Un bucle circular de una sola vuelta de alambre de radio 50 mm se encuentra en un plano perpendicular a un campo magnético espacialmente uniforme. Durante un intervalo de 0,10 s, la magnitud del campo aumenta uniformemente de 200 a 300 mT. (a) Determine la emf inducida en el bucle. (b) Si el campo magnético está dirigido hacia fuera de la página, ¿cuál es la dirección de la corriente inducida en el bucle?</para>
+</problem>
+<solution id="fs-id1171242498425">
+<para id="fs-id1171242453588">a. <m:math><m:mrow><m:mn>7,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>V</m:mtext></m:mrow></m:math>; b. En sentido contrario a las agujas del reloj desde la misma vista que el campo magnético</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242577432">
+<problem id="fs-id1171242489021">
+<para id="fs-id1171242406415">Cuando un campo magnético se enciende por primera vez, el flujo que atraviesa un bucle de 20 vueltas varía con el tiempo según <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mn>5,0</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2,0</m:mn><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> está en miliwebers, <emphasis effect="italics">t</emphasis> está en segundos y el bucle está en el plano de la página con la normal unitaria apuntando hacia afuera. (a) ¿Cuál es la emf inducida en el bucle en función del tiempo? ¿Cuál es el sentido de la corriente inducida a (b) <emphasis effect="italics">t</emphasis> = 0, (c) 0,10, (d) 1,0 y (e) 2,0 s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242190325">
+<problem id="fs-id1171242190327">
+<para id="fs-id1171242185895">El flujo magnético que atraviesa el bucle mostrado en la figura adjunta varía con el tiempo según <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mn>2,00</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−3</m:mn><m:mi>t</m:mi></m:mrow></m:msup><m:mtext>sen</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>120</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> está en miliwebers. ¿Cuál es la dirección y la magnitud de la corriente que atraviesa el resistor de <m:math><m:mrow><m:mn>5,00</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> en (a) <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>; (b) <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2,17</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y (c) <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mtext>s?</m:mtext></m:mrow></m:math></para>
+<media id="fs-id1171242079794" alt="La figura muestra un bucle con el flujo magnético perpendicular a la misma. El bucle está conectado a un resistor de 5 ohmios.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_11pr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171242536074">
+<para id="fs-id1171242536076">a. 150 A hacia abajo a través del resistor; b. 46 A hacia arriba a través del resistor; c. 0,019 A hacia abajo a través del resistor</para></solution>
+</exercise>
+<exercise id="fs-id1171242570229">
+<problem id="fs-id1171242570231">
+<para id="fs-id1171242546939">Utilice la ley de Lenz para determinar el sentido de la corriente inducida en cada caso.</para>
+<media id="fs-id1171242139760" alt="La figura A muestra una barra de metal que se mueve hacia la izquierda en el campo magnético uniforme perpendicular. La figura B muestra un bucle que se mueve hacia la derecha en un campo magnético uniforme paralelo. La figura C muestra un bucle movido en un campo magnético uniforme perpendicular. La figura D muestra una barra de metal que se mueve hacia la derecha en el campo magnético uniforme perpendicular. La figura E muestra un bucle situado en un campo magnético perpendicular creciente. La figura F muestra un bucle situado en un campo magnético paralelo decreciente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_02_p09_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171242533819">
+<term>ley de Lenz</term>
+<meaning id="fs-id1171242191232">la dirección de una emf inducida se opone al cambio de flujo magnético que la produjo; este es el signo negativo en la ley de Faraday</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,160 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Principio de Pascal y la hidráulica</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90691</md:content-id>
+  <md:title>Principio de Pascal y la hidráulica</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Enunciar el principio de Pascal.</item>
+<item>Describir aplicaciones del principio de Pascal.</item>
+<item>Derivar relaciones entre fuerzas en un sistema hidráulico.</item>
+</list></md:abstract>
+  <md:uuid>aa0c9b87-d6d2-4fee-b939-73c99709515c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170959658107">En 1653, el filósofo y científico francés Blaise Pascal publicó su <emphasis effect="italics">Tratado sobre el equilibrio de los líquidos</emphasis>, en el cual trataba los principios de los fluidos estáticos. Un fluido estático es un fluido que no está en movimiento. Cuando un fluido no circula, decimos que el fluido está en equilibrio estático. Si el fluido es agua, decimos que está en <term>equilibrio hidrostático</term>. Para un fluido en equilibrio estático, la fuerza neta sobre cualquier parte del fluido debe ser cero; de lo contrario, el fluido comenzará a fluir.</para>
+<para id="fs-id1170959824678">Las observaciones de Pascal —demostradas experimentalmente— sientan las bases de la <term class="no-emphasis">hidráulica</term>, uno de los desarrollos más importantes de la tecnología mecánica moderna. Pascal observó que un cambio de presión aplicado a un fluido encerrado se transmite sin disminuir a todo el fluido y a las paredes de su recipiente. Por ello, a menudo, sabemos más sobre la presión que sobre otras magnitudes físicas de los fluidos. Además, el principio de Pascal implica que la presión total en un fluido es la suma de las presiones de diferentes fuentes. Un buen ejemplo es que el fluido a una profundidad depende de la profundidad del fluido y de la presión de la atmósfera.</para>
+<section id="fs-id1170957580041">
+<title>Principio de Pascal</title>
+<para id="fs-id1170957440068">El<term>principio de Pascal</term> (también conocido como ley de Pascal) establece que, cuando se aplica un cambio de presión a un fluido encerrado, este se transmite sin disminuir a todas las porciones del fluido y a las paredes de su recipiente. En un fluido cerrado, como los átomos del fluido son libres de moverse transmiten la presión a todas las partes del fluido <emphasis effect="italics">y</emphasis> a las paredes del recipiente. Cualquier cambio en la presión se transmite sin disminuir.</para>
+<para id="fs-id1170957485577">Obsérvese que este principio no dice que la presión es la misma en todos los puntos de un fluido, lo cual no es cierto, ya que la presión en un fluido cerca de la Tierra varía con la altura. Más bien, este principio se aplica al <emphasis effect="italics">cambio</emphasis> de presión. Supongamos que se coloca agua en un recipiente cilíndrico de altura <emphasis effect="italics">H</emphasis> y área de sección transversal <emphasis effect="italics">A</emphasis> que tiene un pistón móvil de masa <emphasis effect="italics">m</emphasis> (<link target-id="CNX_UPhysics_Figure_14_03_PressedPrs"/>). La adición de peso <emphasis effect="italics">Mg</emphasis> en la parte superior del pistón aumenta la presión en el tope en <emphasis effect="italics">Mg</emphasis>/<emphasis effect="italics">A</emphasis>, ya que el peso adicional también actúa sobre el área <emphasis effect="italics">A</emphasis> de la tapa:</para>
+<equation id="fs-id1170960159671" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>tope</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>M</m:mi><m:mi>g</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_Figure_14_03_PressedPrs">
+<media id="fs-id1170959783993" alt="La figura A es un dibujo esquemático de un cilindro lleno de líquido y abierto a la atmósfera por un lado. En el recipiente se coloca un disco de masa m y superficie A idéntica a la superficie del cilindro. La distancia entre el disco y el fondo del cilindro es h. La figura B es un dibujo esquemático del cilindro con un disco adicional de masa Mg colocado encima de la masa m que hace que la masa m se mueva más abajo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_03_PressedPrs.jpg"/>
+</media>
+<caption>La presión en un fluido cambia cuando el fluido se comprime. (a) La presión en la capa superior del fluido es diferente de la presión en la capa inferior. (b) El aumento de presión al añadir peso al pistón es el mismo en todas partes, por ejemplo, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>tope nuevo</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>tope</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>fondo nuevo</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>fondo</m:mtext></m:mrow></m:msub></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1170959791702">Según el principio de Pascal, la presión en todos los puntos del agua cambia en la misma cantidad, <emphasis effect="italics">Mg</emphasis>/<emphasis effect="italics">A</emphasis>. Así, la presión en el fondo también aumenta en <emphasis effect="italics">Mg</emphasis>/<emphasis effect="italics">A</emphasis>. La presión en el fondo del recipiente es igual a la suma de la presión atmosférica, la presión debido al fluido y la presión suministrada por la masa. El cambio de presión en el fondo del recipiente debido a la masa es</para>
+<equation id="fs-id1170957582509" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>fondo</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>M</m:mi><m:mi>g</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170957502125">Dado que los cambios de presión son los mismos en todas las partes del fluido, ya no necesitamos subíndices para designar el cambio de presión para el tope o el fondo:</para>
+<equation id="fs-id1170960191948" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>tope</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>fondo</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>en todas partes</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<note id="fs-id1170959793262" class="media-2">
+<para id="fs-id1170959657883">El barril de Pascal es una gran demostración del principio de Pascal. Vea una <link url="https://openstax.org/l/21pascalbarrel">simulación</link> del experimento de Pascal de 1646, en el que demostró los efectos del cambio de presión en un fluido.</para>
+</note>
+</section>
+<section id="fs-id1170960045269">
+<title>Aplicaciones del principio de Pascal y sistemas hidráulicos</title>
+<para id="fs-id1170959811616">Los sistemas hidráulicos se usan para accionar frenos de automóviles, gatos hidráulicos y muchos otros sistemas mecánicos (<link target-id="CNX_UPhysics_Figure_14_03_HydrylicPr"/>).</para>
+<figure id="CNX_UPhysics_Figure_14_03_HydrylicPr">
+<media id="fs-id1170959644108" alt="Dibujo esquemático de un sistema hidráulico con dos cilindros llenos de fluido, tapados con pistones y conectados por un tubo. Una fuerza descendente F1 sobre el pistón izquierdo con la superficie A1 crea un cambio de presión que genera una fuerza ascendente F2 sobre el pistón derecho con la superficie A2. La superficie A2 es mayor que la superficie A1.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_03_HydrylicPr.jpg"/>
+</media>
+<caption>Un sistema hidráulico típico con dos cilindros llenos de fluido, tapados con pistones y conectados por un tubo llamado línea hidráulica. Una fuerza descendente <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub></m:mrow></m:math> en el pistón izquierdo crea un cambio en la presión que se transmite sin disminuir a todas las partes del fluido encerrado. Esto genera una fuerza ascendente <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>2</m:mn></m:msub></m:mrow></m:math> en el pistón derecho que es más grande que <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub></m:mrow></m:math> porque el pistón derecho tiene una mayor superficie.</caption>
+</figure>
+<para id="fs-id1170959817166">Podemos derivar una relación entre las fuerzas en este sencillo sistema hidráulico al aplicar el principio de Pascal. Obsérvese en primer lugar que los dos pistones del sistema están a la misma altura, por lo que no hay diferencia de presión debido a una diferencia de profundidad. La presión debido a <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> que actúa en el área <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es simplemente</para>
+<equation id="fs-id1170959817861" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>según la definición de</m:mtext><m:mspace width="0.2em"/><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959658411">Según el principio de Pascal, esta presión se transmite sin disminuir en todo el fluido y a todas las paredes del recipiente. Así, una presión <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> se siente en el otro pistón que es igual a <m:math><m:mrow><m:msub><m:mrow><m:mi>p</m:mi></m:mrow><m:mn>1</m:mn></m:msub></m:mrow></m:math> Eso es, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Sin embargo, dado que<m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> vemos que</para>
+<note id="fs-id1170959803105" class="equation-callout">
+<equation id="fs-id1170959778996"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170959749801">Esta ecuación relaciona las proporciones entre la fuerza y el área en cualquier sistema hidráulico, siempre que los pistones estén a la misma altura vertical y que la fricción en el sistema sea insignificante.</para>
+<para id="fs-id1170957512191">Los sistemas hidráulicos pueden aumentar o disminuir la fuerza que se les aplica. Para que la fuerza sea mayor, la presión se aplica a un área más grande. Por ejemplo, si se aplica una fuerza de 100 N al cilindro izquierdo en la <link target-id="CNX_UPhysics_Figure_14_03_HydrylicPr"/> y el cilindro derecho tiene un área cinco veces mayor, entonces la fuerza de salida es de 500 N. Los sistemas hidráulicos son análogos a las palancas simples, pero tienen la ventaja de que la presión se puede enviar a través de líneas tortuosamente curvas a varios lugares a la vez.</para>
+<para id="fs-id1170959797007">El <term>gato hidráulico</term> es un sistema hidráulico de este tipo. Un gato hidráulico se usa para levantar cargas pesadas, como las que usan los mecánicos para levantar un automóvil. Consta de un fluido incompresible en un tubo en U provisto de un pistón móvil a cada lado. Un lado del tubo en U es más estrecho que el otro. Una pequeña fuerza aplicada sobre un área pequeña puede equilibrar una fuerza mucho mayor en el otro lado sobre un área mayor (<link target-id="CNX_UPhysics_Figure_14_03_HydraulicJ"/>).</para>
+<figure id="CNX_UPhysics_Figure_14_03_HydraulicJ"><media id="fs-id1170959803831" alt="La figura A es un dibujo esquemático de un tubo en U lleno de un fluido. En el lado izquierdo se aplica una fuerza descendente F1 con la superficie A1. En el lado derecho se aplica una fuerza descendente F2 con la superficie A2. La superficie A2 es mayor que la superficie A1. La figura B es una foto de un automóvil de pasajeros colocado sobre el gato hidráulico.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_03_HydraulicJ.jpg"/>
+</media>
+
+<caption>(a) Un gato hidráulico funciona al aplicar fuerzas <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> a un fluido incompresible en un tubo en U mediante un pistón móvil <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> a cada lado del tubo. (b) Los mecánicos de automóviles suelen usar gatos hidráulicos para levantar vehículos y poder hacer reparaciones y mantenimiento (créditos b: modificación de trabajo de Jane Whitney).</caption></figure><para id="fs-id1170959693557">A partir del principio de Pascal, se puede demostrar que la fuerza necesaria para levantar el automóvil es menor que su peso:</para>
+<equation id="fs-id1170959870334" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170957514264">donde <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es la fuerza aplicada para levantar el automóvil, <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es el área de la sección transversal del pistón más pequeño, <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es el área de la sección transversal del pistón más grande y <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es el peso del automóvil.</para>
+<example id="fs-id1170959644656">
+<para id="fs-id1170960161979"><title>Calcular la fuerza en los cilindros de las ruedas: Pascal pisa el freno</title>
+Considere el sistema hidráulico de un automóvil que se muestra en la <link target-id="CNX_UPhysics_Figure_14_03_AutoBrake"/>. Supongamos que se aplica una fuerza de 100 N al pedal de freno, la cual actúa sobre el cilindro del pedal (actúa como cilindro “maestro”) a través de una palanca. Se ejerce una fuerza de 500 N sobre el cilindro del pedal. La presión creada en el cilindro del pedal se transmite a los cuatro cilindros de las ruedas. El cilindro del pedal tiene un diámetro de 0,500 cm y cada cilindro de la rueda tiene un diámetro de 2,50 cm. Calcular la magnitud de la fuerza <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> creada en cada uno de los cilindros de las ruedas.</para>
+<figure id="CNX_UPhysics_Figure_14_03_AutoBrake">
+<media id="fs-id1170959807107" alt="La figura es un dibujo esquemático de un sistema de freno hidráulico. El pie se aplica al pedal de freno con la fuerza F1. Se transmite al cilindro del pedal con el área A1 de 0,5 cm. El cilindro del pedal está conectado al sistema hidráulico con dos cilindros de rueda con un área A2 de 2,5 cm. Los cilindros de las ruedas crean la fuerza de salida F2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_03_AutoBrake.jpg"/>
+</media>
+<caption>Los frenos hidráulicos usan el principio de Pascal. El conductor pisa el pedal de freno, y ejerce una fuerza que se ve incrementada por la palanca simple y de nuevo por el sistema hidráulico. Cada uno de los cilindros de rueda idénticos recibe la misma presión y, por lo tanto, crea la misma salida de fuerza <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> Las áreas de la sección transversal circular de los cilindros del pedal y de la rueda están representadas por <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, respectivamente.</caption>
+</figure>
+<para id="fs-id1170959749142"><title>Estrategia</title>
+Nos dan la fuerza <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> aplicada al cilindro del pedal. Las áreas de la sección transversal <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> se pueden calcular a partir de sus diámetros dados. Entonces podemos usar la siguiente relación para encontrar la fuerza <m:math><m:mrow><m:msub><m:mrow><m:mi>F</m:mi></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math>:</para>
+<equation id="fs-id1170959658897" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959821126">Manipule esto algebraicamente para obtener <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> en un lado y sustituir valores conocidos.</para>
+<para id="fs-id1170959806822"><title>Solución</title>
+El principio de Pascal aplicado a sistemas hidráulicos viene dado por <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1170959730848" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,25</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,250</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>=</m:mo><m:mn>1,25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mtext>10</m:mtext><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170959788783"><title>Importancia</title>
+Este valor es la fuerza ejercida por cada uno de los cuatro cilindros de la rueda. Tenga en cuenta que podemos añadir tantos cilindros de rueda como queramos. Si cada uno tiene un diámetro de 2,50 cm, cada uno ejercerá <m:math><m:mrow><m:mn>1,25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Un sistema hidráulico simple, como ejemplo de máquina simple, puede aumentar la fuerza pero no puede soportar más trabajo del que se realiza en él. El trabajo es la fuerza por la distancia recorrida, y el cilindro de la rueda se desplaza una distancia menor que el cilindro del pedal. Además, cuantas más ruedas se añaden, menor es la distancia que recorre cada una. Muchos sistemas hidráulicos —como los frenos de potencia y los de las excavadoras— tienen una bomba motorizada que realiza la mayor parte del trabajo del sistema.</para>
+</example>
+<note id="fs-id1170959938408" class="check-understanding">
+<exercise id="fs-id1170959801934">
+<problem id="fs-id1170959975966">
+<para id="fs-id1170959801106">¿Una prensa hidráulica seguirá funcionando correctamente si se usa un gas en vez de un líquido?</para>
+</problem>
+<solution id="fs-id1170959756282">
+<para id="fs-id1170959970582">Sí, seguiría funcionando, pero como el gas es compresible, no funcionaría con la misma eficacia. Cuando se aplica la fuerza, el gas primero se comprime y se calienta. Por lo tanto, hay que purgar el aire de los conductos de los frenos para hacer que estos funcionen correctamente.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170957416473" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170957584067" list-type="bulleted" bullet-style="bullet">
+<item>La presión es la fuerza por unidad de área.</item>
+<item>Un cambio en la presión aplicada a un fluido encerrado se transmite sin disminuir a todas las porciones del fluido y a las paredes de su recipiente.</item>
+<item>Un sistema hidráulico es un sistema de fluidos cerrado que se usa para ejercer fuerzas.</item>
+</list>
+</section>
+<section id="fs-id1170959800895" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1170959944526">
+<problem id="fs-id1170959817267">
+<para id="fs-id1170959828882">Supongamos que el cilindro principal de un sistema hidráulico está a una altura mayor que el cilindro que controla. Explique cómo afectará esto a la fuerza producida en el cilindro que se está controlando.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170959937015" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170957416264">
+<problem id="fs-id1170959788541">
+<para id="fs-id1170960167510">¿Cuánta presión se transmite en el sistema hidráulico considerado en el <link target-id="fs-id1170959644656"/>? Exprese su respuesta en atmósferas.</para>
+</problem>
+<solution id="fs-id1170959796341">
+<para id="fs-id1170959863128">251 atm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959815428">
+<problem id="fs-id1170959820291">
+<para id="fs-id1170959804300">¿Qué fuerza se debe ejercer sobre el cilindro principal de un ascensor hidráulico para soportar el peso de un automóvil de 2.000 kg (un automóvil grande) que descansa sobre un segundo cilindro? El cilindro principal tiene un diámetro de 2,00 cm y el segundo cilindro tiene un diámetro de 24,0 cm.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959690514">
+<problem id="fs-id1170959790906">
+<para id="fs-id1170959813498">Un anfitrión vierte los restos de varias botellas de vino en una jarra después de una fiesta. A continuación, el anfitrión introduce un corcho de 2,00 cm de diámetro en la botella y lo pone en contacto directo con el vino. El anfitrión se sorprende cuando golpea el corcho en su lugar y el fondo de la jarra (con un diámetro de 14,0 cm) se rompe. Calcule la fuerza adicional ejercida contra el fondo si golpea el corcho con una fuerza de 120 N.</para>
+</problem>
+<solution id="fs-id1170959801033">
+<para id="fs-id1170959723876"><m:math><m:mrow><m:mn>5,76</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mspace width="0.2em"/><m:mtext>fuerza adicional</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959645158">
+<problem id="fs-id1170959641429">
+<para id="fs-id1170960187461">Un determinado sistema hidráulico está diseñado para ejercer una fuerza 100 veces mayor que la que se introduce en él. (a) ¿Cuál debe ser la relación entre el área del cilindro que se controla y el área del cilindro principal? (b) ¿Cuál debe ser la relación entre sus diámetros? (c) ¿En qué factor se reduce la distancia por la que se mueve la fuerza de salida en relación con la distancia por la que se mueve la fuerza de entrada? Supongamos que no hay pérdidas por fricción.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959731581">
+<problem id="fs-id1170957506857">
+<para id="fs-id1170959792959">Verifique que el trabajo de entrada es igual al trabajo de salida para un sistema hidráulico y suponga que no hay pérdidas por fricción. Demuestre que la distancia que recorre la fuerza de salida se reduce en el mismo factor en que se incrementa la fuerza de salida. Supongamos que el volumen del fluido es constante. ¿Qué efecto tendría la fricción dentro del fluido y entre los componentes del sistema sobre la fuerza de salida? ¿De qué manera dependerá esto de que el fluido se mueva o no?</para>
+</problem>
+<solution id="fs-id1170960184163">
+<para id="fs-id1170957425203">Si el sistema no se mueve, la fricción no tendría importancia. Con la fricción, sabemos que hay pérdidas, por lo que <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>W</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>W</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>;</m:mo></m:mrow></m:math> por lo tanto, la producción de trabajo es menor que la entrada de trabajo. En otras palabras, para tener en cuenta la fricción, habría que empujar el pistón de entrada con más fuerza de la calculada.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170959671759">
+<term>gato hidráulico</term>
+<meaning id="fs-id1170957409654">máquina simple que usa cilindros de diferentes diámetros para distribuir fuerza</meaning>
+</definition>
+<definition id="fs-id1170959977716">
+<term>equilibrio hidrostático</term>
+<meaning id="fs-id1170959657924">estado en el que el agua no circula, o es estática</meaning>
+</definition>
+<definition id="fs-id1170959657635">
+<term>principio de Pascal</term>
+<meaning id="fs-id1170959780581">un cambio en la presión aplicada a un fluido encerrado se transmite sin disminuir a todas las porciones del fluido y a las paredes de su recipiente.</meaning>
+</definition>
+</glossary>
+</document>

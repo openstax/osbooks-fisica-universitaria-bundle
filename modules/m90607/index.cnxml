@@ -1,0 +1,239 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Conversión de unidades</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90607</md:content-id>
+  <md:title>Conversión de unidades</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Utilizar los factores de conversión para expresar el valor de una cantidad dada en diferentes unidades.</item>
+</list></md:abstract>
+  <md:uuid>ac5200c1-37b3-478c-a3c6-f814f1472c15</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168327934938">A menudo es necesario convertir de una unidad a otra. Por ejemplo, si está leyendo un libro de cocina europeo, es posible que algunas cantidades estén expresadas en unidades de litros y tenga que convertirlas a tazas. Alternativamente, quizá esté leyendo las indicaciones para ir a pie de un lugar a otro y le interese saber cuántas millas va a recorrer. En este caso, es posible que tenga que convertir las unidades de pies o metros a millas.</para>
+<para id="fs-id1168328205340">Veamos un ejemplo sencillo de cómo convertir unidades. Supongamos que queremos convertir 80 metros (m) en kilómetros (km). Lo primero que hay que hacer es enumerar las unidades que tenemos y las unidades a las que queremos convertir. En este caso, tenemos unidades en <emphasis effect="italics">metros</emphasis> y queremos convertir a <emphasis effect="italics">kilómetros</emphasis>. A continuación, tenemos que determinar un factor de conversión que relacione los metros con los kilómetros. Un <term>factor de conversión</term> es una relación que expresa cuántas cantidades de una unidad son iguales a otra unidad. Por ejemplo, hay 12 pulgadas (in) en 1 pie, 1609 m en 1 milla (mi), 100 centímetros (cm) en 1 m, 60 segundos (s) en 1 minuto (min), etc. Consulte el <link document="m90719">Apéndice B</link> para obtener una lista más completa de los factores de conversión. En este caso, sabemos que hay 1000 m en 1 km. Ahora podemos configurar nuestra conversión de unidades. Escribimos las unidades que tenemos y luego las multiplicamos por el factor de conversión para que se anulen, como se indica:</para>
+<equation id="fs-id1168328201234" class="unnumbered"><label/><m:math><m:mrow><m:mn>80</m:mn><m:mspace width="0.2em"/><m:menclose notation="updiagonalstrike"><m:mtext>m</m:mtext></m:menclose><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:menclose notation="updiagonalstrike"><m:mtext>m</m:mtext></m:menclose></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,080</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168327941758">Observe que la unidad de metro no deseada se anula, lo que deja solamente la unidad de kilómetro deseada. Puede utilizar este método para convertir entre cualquier tipo de unidad. Ahora, la conversión de 80 m a kilómetros es simplemente el uso de un prefijo métrico, como vimos en la sección anterior, por lo que podemos obtener la misma respuesta con la misma facilidad al observar que</para>
+<equation id="fs-id1168328191070" class="unnumbered"><label/><m:math><m:mrow><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>1</m:mn></m:msup><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>km</m:mtext><m:mo>=</m:mo><m:mn>0,080</m:mn><m:mspace width="0.2em"/><m:mtext>km,</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1168328144040">ya que "kilo" significa 10<sup>3</sup> (vea la <link target-id="fs-id1168326843228" document="m90606"/>) y <m:math><m:mrow><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> Sin embargo, el uso de factores de conversión es útil cuando se convierte entre unidades que no son métricas o cuando se convierte entre unidades derivadas, como ilustran los siguientes ejemplos.</para>
+<example id="fs-id1168328168078">
+<para id="fs-id1168327943333">
+<title>Conversión de unidades no métricas a métricas</title>
+La distancia de la universidad a casa es de 10 mi y normalmente tarda 20 minutos en conducir esta distancia. Calcule la rapidez media en metros por segundo (m/s). (<emphasis effect="italics">Nota:</emphasis> La rapidez media es la distancia recorrida, dividida entre el tiempo de viaje).</para>
+<para id="fs-id1168328184191">
+<title>Estrategia</title>
+Primero, calculamos la rapidez media con las unidades dadas, luego podemos obtener la rapidez media en las unidades deseadas, al elegir los factores de conversión correctos y multiplicar por estos. Los factores de conversión correctos son los que anulan las unidades no deseadas y dejan en su lugar las unidades deseadas. En este caso, queremos convertir millas a metros, por lo que necesitamos saber que hay 1609 m en 1 mi. También queremos convertir minutos a segundos, por lo que utilizamos la conversión de 60 s en 1 min.</para>
+<para id="fs-id1168327916801">
+<title>Solución</title>
+</para>
+<list id="fs-id1168327949701" list-type="enumerated" number-style="arabic">
+<item>Calcule la rapidez media. La rapidez media es la distancia recorrida, dividida entre el tiempo de viaje. (Por el momento, tome esta definición como un hecho. La rapidez media y otros conceptos de movimiento se tratan en capítulos posteriores). En forma de ecuación, <equation id="fs-id1168328070162" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Rapidez media</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Distancia</m:mtext></m:mrow><m:mrow><m:mtext>Tiempo</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Sustituya los valores dados para la distancia y el tiempo: <equation id="fs-id1168327942214" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Rapidez media</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>mi</m:mtext></m:mrow><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>min</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>mi</m:mtext></m:mrow><m:mrow><m:mtext>min</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Convierta las millas por minuto en metros por segundo al multiplicar por el factor de conversión que anula las millas y deja los metros, y también por el factor de conversión que anula los minutos y deja los segundos: <equation id="fs-id1168327891322" class="unnumbered"><label/><m:math><m:mrow><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:menclose notation="updiagonalstrike"><m:mtext>milla</m:mtext></m:menclose></m:mrow><m:mrow><m:menclose notation="downdiagonalstrike"><m:mtext>min</m:mtext></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>1.609</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="updiagonalstrike"><m:mtext>milla</m:mtext></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:menclose notation="downdiagonalstrike"><m:mtext>min</m:mtext></m:menclose></m:mrow><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,50</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.609</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>60</m:mn></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>=</m:mo><m:mn>13</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1168327957037">
+<title>Importancia</title>
+Compruebe la respuesta de las siguientes maneras:</para>
+<list id="fs-id1168328187129" list-type="enumerated" number-style="arabic">
+<item>Asegúrese de que las unidades en la conversión de unidades se anulen correctamente. Si el factor de conversión de unidades se ha escrito al revés, las unidades no se anulan correctamente en la ecuación. Vemos que la "milla" en el numerador en 0,50 mi/min anula la "milla" en el denominador en el primer factor de conversión. Además, el "min" del denominador en 0,50 mi/min anula el "min" del numerador en el segundo factor de conversión.</item>
+<item>Compruebe que las unidades de la respuesta final son las deseadas. El problema nos pedía resolver la rapidez media en unidades de metros por segundo y, tras las anulaciones, las únicas unidades que quedan son un metro (m) en el numerador y un segundo (s) en el denominador, por lo que efectivamente hemos obtenido estas unidades.</item>
+</list>
+</example>
+<note id="fs-id1168327874278" class="check-understanding">
+<exercise id="fs-id1168328327747">
+<problem id="fs-id1168327988106">
+<para id="fs-id1168328242532"> La luz viaja alrededor de 9 petámetros (Pm) en un año. Dado que un año es aproximadamente <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>s</m:mtext><m:mo>,</m:mo></m:mrow></m:math> ¿cuál es la velocidad de la luz en metros por segundo?</para>
+</problem>
+<solution id="fs-id1168328199684">
+<para id="fs-id1168327986853"><m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168328289500">
+<para id="fs-id1168327965188">
+<title>Conversión entre unidades métricas</title>
+La densidad del hierro es <m:math><m:mrow><m:mn>7,86</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>g/cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> en condiciones normales. Convierta esto a kg/m<sup>3</sup>.</para>
+<para id="fs-id1168327961631">
+<title>Estrategia</title>
+Necesitamos convertir los gramos en kilogramos y los centímetros cúbicos en metros cúbicos. Los factores de conversión que necesitamos son <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>g</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Sin embargo, estamos tratando con centímetros cúbicos <m:math><m:mrow><m:msup><m:mrow><m:mtext>(cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>cm),</m:mtext></m:mrow></m:math> por lo que tenemos que utilizar el segundo factor de conversión tres veces (es decir, tenemos que elevarlo al cubo). La idea sigue siendo multiplicar por los factores de conversión de forma que se anulen las unidades que queremos eliminar y se introduzcan las que queremos mantener.</para>
+<para id="fs-id1168328196730">
+<title>Solución</title></para>
+<equation id="fs-id1168328194417" class="unnumbered"><label/><m:math><m:mrow><m:mn>7,86</m:mn><m:mspace width="0.1em"/><m:mfrac><m:menclose notation="updiagonalstrike"><m:mtext>g</m:mtext></m:menclose><m:mrow><m:msup><m:mrow><m:menclose notation="downdiagonalstrike"><m:mtext>cm</m:mtext></m:menclose></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:menclose notation="updiagonalstrike"><m:mtext>g</m:mtext></m:menclose></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:menclose notation="downdiagonalstrike"><m:mtext>cm</m:mtext></m:menclose></m:mrow><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>7,86</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mspace width="0.1em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>7,86</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1168328280234">
+<title>Importancia</title>
+Recuerde que siempre es importante comprobar la respuesta.</para>
+<list id="fs-id1168327984172" list-type="enumerated" number-style="arabic">
+<item>Asegúrese de anular correctamente las unidades en la conversión de unidades. Vemos que el gramo ("g") en el numerador en 7,86 g/cm<sup>3</sup> anula el "g" en el denominador en el primer factor de conversión. Además, los tres factores de "cm" en el denominador en 7,86 g/cm<sup>3</sup> se anulan con los tres factores de "cm" en el numerador que obtenemos al elevar al cubo el segundo factor de conversión.</item>
+<item>Compruebe que las unidades de la respuesta final son las deseadas. El problema nos pedía la conversión a kilogramos por metro cúbico. Tras las anulaciones que acabamos de describir, vemos que las únicas unidades que nos quedan son "kg" en el numerador y tres factores de "m" en el denominador (es decir, un factor de "m" al cubo, o "m<sup>3</sup>"). Por lo tanto, las unidades de la respuesta final son correctas.</item>
+</list>
+</example>
+<note id="fs-id1168327874671" class="check-understanding">
+<exercise id="fs-id1168327876191">
+<problem id="fs-id1168328204361">
+<para id="fs-id1168327929521"> Sabemos por la <link target-id="CNX_UPhysics_01_01_MagnitTb" document="m90605"/> que el diámetro de la Tierra es del orden de 10<sup>7</sup> m, por lo que el orden de magnitud de su área de superficie es de 10<sup>14</sup> m<sup>2</sup>. ¿Cuánto es eso en kilómetros cuadrados (es decir, km<sup>2</sup>)? (Intente hacerlo tanto al convertir 10<sup>7</sup> m a km y luego elevar al cuadrado como al convertir 10<sup>14</sup> m<sup>2</sup> directamente a kilómetros cuadrados. Debería obtener la misma respuesta en ambos casos).</para>
+</problem>
+<solution id="fs-id1168327864339">
+<para id="fs-id1168328228670"><m:math><m:mrow><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mn>8</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168328063269">Puede que las conversiones de unidades no parezcan muy interesantes, pero no hacerlas quizá resulte costoso. Un ejemplo famoso de esta situación se vio con el <term class="no-emphasis"><emphasis effect="italics">orbitador climático de Marte</emphasis></term>. Esta sonda fue lanzada por la NASA el 11 de diciembre de 1998. El 23 de septiembre de 1999, mientras intentaba guiar la sonda hacia su órbita prevista alrededor de Marte, la NASA perdió el contacto con la sonda. Las investigaciones posteriores demostraron que un programa informático denominado SM_FORCES (o "small forces" [pequeñas fuerzas]) registraba los datos de rendimiento de los propulsores en las unidades inglesas de libra-segundo (lb-s). Sin embargo, otros programas informáticos que utilizaban estos valores para las correcciones de rumbo esperaban que se registraran en las unidades del sistema internacional de newton-segundos (N-s), tal y como dictaban los protocolos de la interfaz del software. A causa de este error, la sonda siguió una trayectoria muy distinta a la que la NASA pensaba que estaba siguiendo, lo que probablemente hizo que la sonda se quemara en la atmósfera de Marte o saliera disparada al espacio. Esta falta de atención a las conversiones de unidades costó cientos de millones de dólares, por no mencionar todo el tiempo invertido por los científicos e ingenieros que trabajaron en el proyecto.</para>
+<note id="fs-id1168327869372" class="check-understanding">
+<exercise id="fs-id1168328059712">
+<problem id="fs-id1168328224586">
+<para id="fs-id1168327873248"> Dado que 1 lb (libra) equivale a 4,45 newton (N), ¿los números emitidos por SM_FORCES eran demasiado grandes o demasiado pequeños?</para>
+</problem>
+<solution id="fs-id1168328289312">
+<para id="fs-id1168328242737">Los números eran demasiado pequeños, por un factor de 4,45.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1168328267596" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1168328066342" list-type="bulleted" bullet-style="bullet">
+<item>Para convertir una cantidad de una unidad a otra, multiplique por los factores de conversión de forma que anule las unidades de las que quiere deshacerse e introduzca las unidades con las que quiere acabar.</item>
+<item>Tenga cuidado con las áreas y los volúmenes. Las unidades obedecen a las reglas de álgebra, motivo por el cual, por ejemplo, si una unidad se eleva al cuadrado, necesitamos dos factores para anularla.</item>
+</list>
+</section>
+<section id="fs-id1168327956216" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1168327939270">
+<problem id="fs-id1168327926028">
+<para id="fs-id1168328193378">El volumen de la Tierra es del orden de 10<sup>21</sup> m<sup>3</sup>. (a) ¿Cuánto es esto en kilómetros cúbicos (km<sup>3</sup>)? (b) ¿Cuánto es en millas cúbicas (mi<sup>3</sup>)? (c) ¿Cuánto es en centímetros cúbicos (cm<sup>3</sup>)?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168327854111">
+<problem id="fs-id1168327874834">
+<para id="fs-id1168328177870">El límite de velocidad en algunas autopistas interestatales es de aproximadamente 100 km/h. (a) ¿Cuánto es esto en metros por segundo? (b) ¿Cuántas millas por hora es esto?</para>
+</problem>
+<solution id="fs-id1168328294280">
+<para id="fs-id1168328269910">a. 27,8 m/s; b. 62 mi/h</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328285914">
+<problem id="fs-id1168328071458">
+<para id="fs-id1168327876205">Un auto viaja a una rapidez de 33 m/s. (a) ¿Cuál es su rapidez en kilómetros por hora? (b) ¿Está superando el límite de velocidad de 90 km/h?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328059510">
+<problem id="fs-id1168328229974">
+<para id="fs-id1168327951931">En las unidades del SI, los valores de rapidez se miden en metros por segundo (m/s). Sin embargo, dependiendo de dónde viva usted, probablemente se sienta más cómodo pensando en rapidez en términos de kilómetros por hora (km/h) o millas por hora (mi/h). En este problema, verá que 1 m/s es aproximadamente 4 km/h o 2 mi/h, lo cual sirve para afinar su intuición física. Más concretamente, demuestre que (a) <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>=</m:mo><m:mn>3,6</m:mn><m:mspace width="0.2em"/><m:mtext>km/h</m:mtext></m:mrow></m:math> y (b) <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>=</m:mo><m:mn>2,2</m:mn><m:mspace width="0.2em"/><m:mtext>mi/h</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168328204121">
+<para id="fs-id1168327958773">a. 3,6 km/h; b. 2,2 mi/h</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327924198">
+<problem id="fs-id1168328170085">
+<para id="fs-id1168328293595">El fútbol americano se juega en un campo de 100 yardas de largo, excluyendo las zonas de anotación. ¿Qué longitud tiene el campo en metros? (Supongamos que 1 m = 3,281 pies)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328297906">
+<problem id="fs-id1168327931904">
+<para id="fs-id1168327933995">Los campos de fútbol varían en tamaño. Un campo grande de fútbol tiene 115 m de largo y 85,0 m de ancho. ¿Cuál es su área en pies cuadrados? (Supongamos que 1 m = 3,281 pies)</para>
+</problem>
+<solution id="fs-id1168328059139">
+<para id="fs-id1168328169332"><m:math><m:mrow><m:mn>1,05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>pies</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328222458">
+<problem id="fs-id1168327943116">
+<para id="fs-id1168327956404">¿Cuál es la estatura en metros de una persona que mide 6 pies y 1,0 pulgadas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168327939869">
+<problem id="fs-id1168327922500">
+<para id="fs-id1168328295075">El Monte Everest, con 29.028 pies, es la montaña más alta de la Tierra. ¿Cuál es su altura en kilómetros? (Supongamos que 1 m = 3,281 pies)</para>
+</problem>
+<solution id="fs-id1168328025151">
+<para id="fs-id1168328059572">8,847 km</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328222906">
+<problem id="fs-id1168328189735">
+<para id="fs-id1168328301961">La velocidad del sonido se mide en 342 m/s en un día determinado. ¿Cuál es esta medida en kilómetros por hora?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328171083">
+<problem id="fs-id1168328247343">
+<para id="fs-id1168328222416">Las placas tectónicas son grandes segmentos de la corteza terrestre que se desplazan lentamente. Supongamos que una de estas placas tiene una rapidez media de 4,0 cm/año. (a) ¿Qué distancia recorre en 1,0 s a esta rapidez? (b) ¿Cuál es su rapidez en kilómetros por millón de años (Million Years, My)?</para>
+</problem>
+<solution id="fs-id1168327911343">
+<para id="fs-id1168327940797">a. <m:math><m:mrow><m:mn>1,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. 40 km/My</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328294774">
+<problem id="fs-id1168328222883">
+<para id="fs-id1168327872186">La distancia media entre la Tierra y el Sol es <m:math><m:mrow><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mtext>m.</m:mtext></m:mrow></m:math> (a) Calcule la rapidez media de la Tierra en su órbita (que se supone que es circular) en metros por segundo. (b) ¿Cuál es esta rapidez en kilómetros por hora?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328311640">
+<problem id="fs-id1168328364226">
+<para id="fs-id1168328025058">La densidad de la materia nuclear es de unos 10<sup>18</sup> kg/m<sup>3</sup>. Dado que 1 mL es igual en volumen a cm<sup>3</sup>, ¿cuál es la densidad de la materia nuclear en megagramos por microlitro (es decir, <m:math><m:mrow><m:mtext>Mg/</m:mtext><m:mi>μ</m:mi><m:mtext>L</m:mtext></m:mrow></m:math>)?</para>
+</problem>
+<solution id="fs-id1168328240950">
+<para id="fs-id1168328329673"><m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>Mg/</m:mtext><m:mi>μ</m:mi><m:mtext>L</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328064287">
+<problem id="fs-id1168328201081">
+<para id="fs-id1168328175768">La densidad del aluminio es de 2,7 g/cm<sup>3</sup>. ¿Cuál es la densidad en kilogramos por metro cúbico?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328170090">
+<problem id="fs-id1168327961174">
+<para id="fs-id1168327923356">Una unidad de masa que más se utiliza en el sistema inglés es la libra-masa, abreviada lbm, donde 1 lbm = 0,454 kg. ¿Cuál es la densidad del agua en libras-masa por pie cúbico?</para>
+</problem>
+<solution id="fs-id1168327931285">
+<para id="fs-id1168327879321">62,4 lbm/pies<sup>3</sup></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327871170">
+<problem id="fs-id1168327935365">
+<para id="fs-id1168327873821">Un furlong son 220 yardas (yd). Una quincena son 2 semanas. Convierta una rapidez de un furlong por quincena en milímetros por segundo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168327941954">
+<problem id="fs-id1168327918284">
+<para id="fs-id1168328181668">Se necesitan <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:math> radianes (rad) para dar la vuelta a un círculo, que es lo mismo que 360°. ¿Cuántos radianes hay en 1°?</para>
+</problem>
+<solution id="fs-id1168327854847">
+<para id="fs-id1168328190635">0,017 rad</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328293255">
+<problem id="fs-id1168327953647">
+<para id="fs-id1168328185095">La luz recorre una distancia de aproximadamente <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mtext>m/s.</m:mtext></m:mrow></m:math> Un minuto-luz es la distancia que recorre la luz en 1 minuto. Si el Sol está a <m:math><m:mrow><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> de la Tierra, ¿a qué distancia está en minutos-luz?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328303932">
+<problem id="fs-id1168327927709">
+<para id="fs-id1168327983780">Un nanosegundo de luz es la distancia que recorre la luz en 1 nanosegundo (ns). Convierta 1 pie a nanosegundos de luz.</para>
+</problem>
+<solution id="fs-id1168327943341">
+<para id="fs-id1168328329635">1 nanosegundo de luz</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327934441">
+<problem id="fs-id1168327982880">
+<para id="fs-id1168327943847">Un electrón tiene una masa de <m:math><m:mrow><m:mn>9,11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mtext>kg.</m:mtext></m:mrow></m:math> Un protón tiene una masa de <m:math><m:mrow><m:mn>1,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> ¿Cuál es la masa de un protón en masas de electrones?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328195795">
+<problem id="fs-id1168328286055">
+<para id="fs-id1168328289390">Una onza líquida (fluid ounce, fl-oz) equivale a unos 30 mL. ¿Cuál es el volumen de una lata de refresco de 12 fl-oz en metros cúbicos?</para>
+</problem>
+<solution id="fs-id1168328280449">
+<para id="fs-id1168327870505"><m:math><m:mrow><m:mn>3,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1168327920641">
+<term>factor de conversión</term>
+<meaning id="fs-id1168328329236">la proporción que expresa cuántas cantidades de una unidad son iguales a otra unidad</meaning>
+</definition>
+</glossary>
+</document>

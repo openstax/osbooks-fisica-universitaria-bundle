@@ -1,0 +1,216 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Solenoides y toroides</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90915</md:content-id>
+  <md:title>Solenoides y toroides</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Establecer una relación de cómo varía el campo magnético de un solenoide con la distancia y la corriente utilizando tanto la ley de Biot-Savart como la ley de Ampère.</item>
+<item>Establecer una relación de cómo varía el campo magnético de un toroide con la distancia y la corriente utilizando la ley de Ampère.</item>
+</list></md:abstract>
+  <md:uuid>92c6175e-701f-4fdf-af35-c964f08a933b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1166167102424">Dos de los dispositivos electromagnéticos más comunes y útiles son los llamados solenoides y toroides. De una forma u otra, forman parte de numerosos instrumentos, tanto grandes como pequeños. En esta sección examinamos el campo magnético típico de estos dispositivos.</para>
+<section id="fs-id1166166091145">
+<title>Solenoides</title>
+<para id="fs-id1166166964752">Un cable largo enrollado en forma de bobina helicoidal se conoce como <term>solenoide</term>. Los solenoides se utilizan habitualmente en la investigación experimental que requiere campos magnéticos. Un solenoide es generalmente fácil de enrollar, y cerca de su centro, su campo magnético es bastante uniforme y directamente proporcional a la corriente en el cable.</para>
+<para id="fs-id1166167291735">La <link target-id="CNX_UPhysics_29_06_Solenoid"/> muestra un solenoide formado por <emphasis effect="italics">N</emphasis> vueltas de alambre fuertemente enrolladas sobre una longitud <emphasis effect="italics">L</emphasis>. Por el alambre del solenoide circula una corriente <emphasis effect="italics">I</emphasis>. El número de vueltas por unidad de longitud es <emphasis effect="italics">N</emphasis>/<emphasis effect="italics">L</emphasis>; por tanto, el número de vueltas en una longitud infinitesimal <emphasis effect="italics">dy</emphasis> son (<emphasis effect="italics">N</emphasis>/<emphasis effect="italics">L</emphasis>)<emphasis effect="italics">dy</emphasis> vueltas. Esto produce una corriente</para>
+<equation id="fs-id1166167126253"><m:math><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow><m:mi>L</m:mi></m:mfrac><m:mi>d</m:mi><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167289670">Primero calculamos el campo magnético en el punto <emphasis effect="italics">P</emphasis> de la <link target-id="CNX_UPhysics_29_06_Solenoid"/>. Este punto se encuentra en el eje central del solenoide. Básicamente, estamos cortando el solenoide en rebanadas finas que tienen un grosor <emphasis effect="italics">dy</emphasis> y tratando cada una de ellas como un bucle de corriente. Por lo tanto, <emphasis effect="italics">dI</emphasis> es la corriente que atraviesa cada rodaja. El campo magnético <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> debido a la corriente <emphasis effect="italics">dI</emphasis> en <emphasis effect="italics">dy</emphasis> se puede calcular con la ayuda de la <link document="m90913" target-id="fs-id1166167108123"/> y la <link target-id="fs-id1166167126253"/>:</para>
+<equation id="fs-id1166167132433"><m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mi>N</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1166167131929">donde utilizamos la <link target-id="fs-id1166167126253"/> para sustituir a <emphasis effect="italics">dI</emphasis>. El campo resultante en <emphasis effect="italics">P</emphasis> se encuentra integrando <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> a lo largo de toda la longitud del solenoide. Es más fácil evaluar esta integral al cambiar la variable independiente de <emphasis effect="italics">y</emphasis> a <m:math><m:mi>θ</m:mi><m:mo>.</m:mo></m:math> De la inspección de la <link target-id="CNX_UPhysics_29_06_Solenoid"/>, tenemos:</para>
+<equation id="fs-id1166167105673"><m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>y</m:mi><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_29_06_Solenoid">
+<media id="fs-id1166167047822" alt="La figura A es un dibujo de un solenoide que es un alambre largo enrollado en forma de hélice. La figura B muestra que el campo magnético en el punto P del eje del solenoide es el campo neto debido a todos los bucles de corriente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_06_Solenoid.jpg"/>
+</media>
+<caption>(a) Un solenoide es un alambre largo enrollado en forma de hélice. (b) El campo magnético en el punto <emphasis effect="italics">P</emphasis> del eje del solenoide es el campo neto debido a todos los bucles de corriente.</caption>
+</figure>
+<para id="fs-id1166167125300">Al tomar la diferencial de ambos lados de esta ecuación, obtenemos</para>
+<equation id="fs-id1166167124660" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>θ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mo>−</m:mo><m:mspace width="0.05em"/><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1166167132239">Cuando esto se sustituye en la ecuación de <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> tenemos</para>
+<equation id="fs-id1166166970572"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mi>N</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:munderover><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mi>I</m:mi></m:mrow><m:mi>N</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1166167062073">que es el campo magnético a lo largo del eje central de un solenoide finito.</para>
+<para id="fs-id1166165865893">De especial interés es el solenoide infinitamente largo, para el que <m:math><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>.</m:mo></m:mrow></m:math> Desde un punto de vista práctico, el solenoide infinito es aquel cuya longitud es mucho mayor que su radio <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>L</m:mi><m:mo>≫</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> En este caso, <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:mi>π</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>π</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Entonces de la <link target-id="fs-id1166166970572"/>, el campo magnético a lo largo del eje central de un solenoide infinito es</para>
+<equation id="fs-id1166167127506" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mrow><m:mi>μ</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>I</m:mi><m:mi>N</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mrow><m:mo>[</m:mo><m:mrow><m:mtext>sen</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mtext>sen</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mrow><m:mi>μ</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>I</m:mi><m:mi>N</m:mi></m:mrow><m:mi>L</m:mi></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1166166020859">o</para>
+<equation id="fs-id1166167134612"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mrow><m:mi>μ</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167375088">donde <emphasis effect="italics">n</emphasis> es el número de vueltas por unidad de longitud. Puede calcular la dirección de <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> con una regla de la mano derecha: Envuelva los dedos en la dirección de la corriente y el pulgar apunta a lo largo del campo magnético en el interior del solenoide.</para>
+<para id="fs-id1166167034515">Ahora utilizamos estas propiedades, junto con la ley de Ampère, para calcular la magnitud del campo magnético en cualquier lugar dentro del solenoide infinito. Consideremos la trayectoria cerrada de la <link target-id="CNX_UPhysics_29_06_InsideSol"/>. A lo largo del segmento 1, <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es uniforme y paralelo a la trayectoria. A lo largo de los segmentos 2 y 4, <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es perpendicular a una parte de la trayectoria y se desvanece en el resto. Por lo tanto, los segmentos 2 y 4 no contribuyen a la integral de línea en la ley de Ampère. A lo largo del segmento 3, <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> porque el campo magnético es cero fuera del solenoide. Si se considera un bucle de la ley de Ampère fuera del solenoide, la corriente fluye en direcciones opuestas en diferentes segmentos de cable. Por lo tanto, no hay corriente encerrada ni campo magnético según la ley de Ampère. Por lo tanto, no hay contribución a la integral de la línea del segmento 3. Como resultado, hallamos</para>
+<equation id="fs-id1166167379468"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∫</m:mo><m:mn>1</m:mn></m:msub><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_29_06_InsideSol">
+<media id="fs-id1166167134042" alt="La figura muestra la trayectoria rectangular cerrada y el solenoide infinito. El segmento 1 está dentro del solenoide y es paralelo a la trayectoria. Los segmentos 2 y 4 son perpendiculares a la trayectoria. El segmento 3 está fuera del solenoide.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_06_InsideSol.jpg"/>
+</media>
+<caption>La vía de integración utilizada en la ley de Ampère para evaluar el campo magnético de un solenoide infinito.</caption>
+</figure>
+<para id="fs-id1166167091392">El solenoide tiene <emphasis effect="italics">n</emphasis> vueltas por unidad de longitud, por lo que la corriente que pasa por la superficie encerrada por la trayectoria es <emphasis effect="italics">nlI</emphasis>. Por lo tanto, a partir de la ley de Ampère,</para>
+<equation id="fs-id1166167200343" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>I</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1166167122202">y</para>
+<note id="fs-id1168329158981" class="equation-callout">
+<equation id="fs-id1166166975561"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166167293946">dentro del solenoide. Esto coincide con lo que hemos encontrado antes para <emphasis effect="italics">B</emphasis> en el eje central del solenoide. Aquí, sin embargo, la ubicación del segmento 1 es arbitraria, por lo que hemos encontrado que esta ecuación da el campo magnético en cualquier lugar dentro del solenoide infinito.</para>
+<para id="fs-id1166167448283">Fuera del solenoide, se puede dibujar un bucle de la ley de Ampère alrededor de todo él. Esto encerraría la corriente que fluye en ambas direcciones. Por lo tanto, la corriente neta dentro del bucle es cero. Según la ley de Ampère, si la corriente neta es cero, el campo magnético debe ser cero. Por lo tanto, para lugares fuera del radio del solenoide, el campo magnético es cero.</para>
+<para id="fs-id1166165855053">Cuando un paciente se somete a una <term class="no-emphasis">imagen de resonancia magnética</term> (IRM), la persona se acuesta en una mesa que se mueve hacia el centro de un gran solenoide que puede generar campos magnéticos muy grandes. El solenoide es capaz de producir estos altos campos a partir de altas corrientes que fluyen a través de los cables superconductores. El gran campo magnético se utiliza para cambiar el giro de los protones en el cuerpo del paciente. El tiempo que tardan los espines en alinearse o relajarse (volver a la orientación original) es una marca de los diferentes tejidos que pueden analizarse para ver si sus estructuras son normales (<link target-id="CNX_UPhysics_29_06_MRI"/>).</para>
+<figure id="CNX_UPhysics_29_06_MRI">
+<media id="fs-id1166167041985" alt="La foto muestra un sistema de IRM. Consiste en un solenoide cilíndrico que se utiliza para generar un gran campo magnético.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_06_MRI.jpg"/>
+</media>
+<caption>En una máquina de IRM el solenoide cilíndrico que rodea al paciente genera un gran campo magnético (créditos: Liz West)</caption>
+</figure>
+<example id="fs-id1166166959786">
+<para id="fs-id1168329084833"><title>Campo magnético dentro de un solenoide</title>
+Un solenoide tiene 300 vueltas enrolladas alrededor de un cilindro de 1,20 cm de diámetro y 14,0 cm de longitud. Si la corriente que atraviesa las bobinas es de 0,410 A, ¿cuál es la magnitud del campo magnético en el interior y cerca del centro del solenoide?</para>
+<para id="fs-id1168329050572"><title>Estrategia</title>
+Nos dan el número de vueltas y la longitud del solenoide para que podamos calcular el número de vueltas por unidad de longitud. Por lo tanto, el campo magnético dentro y cerca del centro del solenoide viene dado por la <link target-id="fs-id1166166975561"/>. Fuera del solenoide, el campo magnético es cero.</para>
+<para id="fs-id1168329057799"><title>Solución</title>
+El número de vueltas por unidad de longitud es</para>
+<equation id="fs-id1166167344311" class="unnumbered"><label/><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>vueltas</m:mtext></m:mrow><m:mrow><m:mn>0,140</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>vueltas/m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167388587">El campo magnético producido en el interior del solenoide es</para>
+<equation id="fs-id1166167427879" class="unnumbered"><label/><m:math><m:mtable columnalign="right"><m:mtr><m:mtd><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup><m:mtext>vueltas/m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,410</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1,10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168329155423"><title>Importancia</title>
+Esta solución solo es válida si la longitud del solenoide es razonablemente grande en comparación con su diámetro. Este ejemplo es un caso en el que esto es válido.</para>
+</example>
+<note id="fs-id1166167290790" class="check-understanding">
+<exercise id="fs-id1166166949167">
+<problem id="fs-id1166167120018">
+<para id="fs-id1166167089259">¿Cuál es la relación entre el campo magnético producido al utilizar una fórmula finita sobre la aproximación infinita para un ángulo <m:math><m:mi>θ</m:mi></m:math> de (a) <m:math><m:mrow><m:mn>85</m:mn><m:mtext>°</m:mtext><m:mtext>?</m:mtext></m:mrow></m:math> (b) ¿<m:math><m:mrow><m:mn>89</m:mn><m:mtext>°</m:mtext><m:mtext>?</m:mtext></m:mrow></m:math> El solenoide tiene 1.000 vueltas en 50 cm con una corriente de 1,0 A que fluye a través de las bobinas</para>
+</problem>
+<solution id="fs-id1166167044492">
+<para id="fs-id1166167378950">a. 1,00382; b. 1,00015</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1166167001467">
+<title>Toroides</title>
+<para id="fs-id1166167311570">Un toroide es una bobina en forma de rosquilla estrechamente enrollada con un alambre continuo, como se ilustra en la parte (a) de la <link target-id="CNX_UPhysics_29_06_Toroid"/>. Si el toroide tiene <emphasis effect="italics">N</emphasis> bobinados y la corriente en el cable es <emphasis effect="italics">I</emphasis>, ¿cuál es el campo magnético dentro y fuera del toroide?</para>
+<figure id="CNX_UPhysics_29_06_Toroid">
+<media id="fs-id1166167242794" alt="La figura A muestra un toroide que es una bobina bobinada en un objeto con forma de rosquilla. La figura B muestra un toroide bobinado de manera holgada que no tiene simetría cilíndrica. La figura C muestra un toroide muy bobinado con una simetría muy cercana a la cilíndrica. La figura D muestra varias trayectorias. Las trayectorias D1 y D3 son externas al toroide. La trayectoria D2 se encuentra dentro del toroide.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_06_Toroid.jpg"/>
+</media>
+<caption>(a) Un toroide es una bobina bobinada en un objeto con forma de rosquilla. (b) Un toroide poco bobinado no tiene simetría cilíndrica. (c) En un toroide muy bobinado la simetría cilíndrica es una muy buena aproximación. (d) Varias trayectorias de integración para la ley de Ampère.</caption>
+</figure>
+<para id="fs-id1166167134785">Comenzamos asumiendo una simetría cilíndrica alrededor del eje <emphasis effect="italics">OO</emphasis>'. En realidad, esta suposición no es precisamente correcta, pues como muestra la parte (b) de la <link target-id="CNX_UPhysics_29_06_Toroid"/>, la vista de la bobina toroidal varía de un punto a otro (por ejemplo, <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>) en una trayectoria circular centrada en <emphasis effect="italics">OO</emphasis>'. Sin embargo, si el toroide está fuertemente bobinado, todos los puntos del círculo se vuelven esencialmente equivalentes (parte [c] de la <link target-id="CNX_UPhysics_29_06_Toroid"/>), y la simetría cilíndrica es una aproximación precisa.</para>
+<para id="fs-id1166166202986">Con esta simetría, el campo magnético debe ser tangente y de magnitud constante a lo largo de cualquier trayectoria circular centrada en <emphasis effect="italics">OO</emphasis>'. Esto nos permite escribir para cada una de las trayectorias <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>D</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> que se muestra en la parte (d) de la <link target-id="CNX_UPhysics_29_06_Toroid"/>,</para>
+<equation id="fs-id1166167107434"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167123212">La ley de Ampère relaciona esta integral con la corriente neta que atraviesa cualquier superficie delimitada por la trayectoria de integración. En el caso de una trayectoria externa al toroide, o bien no pasa corriente a través de la superficie envolvente (trayectoria <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>) o la corriente que pasa por la superficie en una dirección se equilibra exactamente con la corriente que pasa por ella en la dirección opuesta <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>trayectoria</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>D</m:mi><m:mn>3</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> En cualquier caso, no hay corriente neta que pase por la superficie, por lo que</para>
+<equation id="fs-id1166165865830" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1166167132275">y</para>
+<equation id="fs-id1166167100065"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="1em"/><m:mrow><m:mtext>(fuera del toroide)</m:mtext><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1166167078779">Las vueltas de un toroide forman una hélice, en vez de bucles circulares. Como resultado, hay un pequeño campo externo a la bobina; sin embargo, la derivación anterior se mantiene si las bobinas fueran circulares.</para>
+<para id="fs-id1166167277065">Para una trayectoria circular dentro del toroide (trayectoria <m:math><m:mrow><m:msub><m:mi>D</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>), la corriente en el cable corta la superficie <emphasis effect="italics">N</emphasis> veces, lo que resulta en una corriente neta <emphasis effect="italics">NI</emphasis> a través de la superficie. Ahora calculamos con la ley de Ampère,</para>
+<equation id="fs-id1166167109033" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1166167270212">y</para>
+<note id="fs-id1168329308671" class="equation-callout">
+<equation id="fs-id1166167025500"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mspace width="1em"/><m:mrow><m:mtext>(dentro del toroide)</m:mtext><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166167109110">El campo magnético está dirigido en el sentido contrario a las agujas del reloj para los bobinados mostrados. Cuando se invierte la corriente en las bobinas, la dirección del campo magnético también se invierte.</para>
+<para id="fs-id1166166988127">El campo magnético en el interior de un toroide no es uniforme, ya que varía inversamente con la distancia <emphasis effect="italics">r</emphasis> del eje <emphasis effect="italics">OO</emphasis>'. Sin embargo, si el radio central <emphasis effect="italics">R</emphasis> (el radio a medio camino entre los radios interior y exterior del toroide) es mucho mayor que el diámetro de la sección transversal de las bobinas <emphasis effect="italics">r</emphasis>, la variación es bastante pequeña, y la magnitud del campo magnético puede calcularse mediante la <link target-id="fs-id1166167025500"/> donde <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</section>
+<section id="fs-id1166167427241" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1166167448382" list-type="bulleted" bullet-style="bullet">
+<item>La intensidad del campo magnético dentro de un solenoide es
+<equation id="fs-id1166167099887" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mspace width="1em"/><m:mtext>(dentro de un solenoide)</m:mtext></m:mrow></m:math></equation>
+donde <emphasis effect="italics">n</emphasis> es el número de bucles por unidad de longitud del solenoide. El campo interior es muy uniforme en magnitud y dirección.</item>
+<item>La intensidad del campo magnético dentro de un toroide es
+<equation id="fs-id1166167117250" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mspace width="1em"/><m:mtext>(dentro del toroide)</m:mtext></m:mrow></m:math></equation>
+donde <emphasis effect="italics">N</emphasis> es el número de bobinas. El campo dentro de un toroide no es uniforme y varía con la distancia como 1/<emphasis effect="italics">r</emphasis>.</item>
+</list>
+</section>
+<section id="fs-id1166167126195" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1166167089697">
+<problem id="fs-id1166167416478">
+<para id="fs-id1166166093775">¿El campo magnético dentro de un toroide es completamente uniforme? ¿Casi uniforme?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166167369188">
+<problem id="fs-id1166167415714">
+<para id="fs-id1166167132427">Explique por qué <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:math> dentro de un tubo de cobre largo y hueco que porta una corriente eléctrica paralela al eje. ¿Está <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:math> fuera de la tubería?</para>
+</problem>
+<solution id="fs-id1166166061389">
+<para id="fs-id1166167376981">Si no hay corriente dentro del bucle, no hay campo magnético (consulte la ley de Ampère). Fuera de la tubería, puede haber una corriente encerrada a través de la tubería de cobre, por lo que el campo magnético puede no ser cero fuera de esta.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1166167155605" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1166165854949">
+<problem id="fs-id1166167127077">
+<para id="fs-id1166166020748">Un solenoide se embobina con 2.000 vueltas por metro. Cuando la corriente es de 5,2 A, ¿cuál es el campo magnético dentro del solenoide?</para>
+</problem>
+<solution id="fs-id1166167103019">
+<para id="fs-id1166167099849"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167416515">
+<problem id="fs-id1166167344409">
+<para id="fs-id1166167074508">Un solenoide tiene 12 vueltas por centímetro. ¿Qué corriente producirá un campo magnético de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> dentro del solenoide?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166166092478">
+<problem id="fs-id1166167425431">
+<para id="fs-id1166167131416">Si una corriente es de 2,0 A, ¿cuántas vueltas por centímetro debe bobinar un solenoide para producir un campo magnético de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> dentro de él?</para>
+</problem>
+<solution id="fs-id1166167019343">
+<para id="fs-id1166167085962">aproximadamente ocho vueltas por cm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167293535">
+<problem id="fs-id1166167207617">
+<para id="fs-id1166167243190">Un solenoide mide 40 cm de largo, tiene un diámetro de 3,0 cm y está bobinado con 500 vueltas. Si la corriente que pasa por los bobinados es de 4,0 A, ¿cuál es el campo magnético en un punto del eje del solenoide que está (a) en el centro del solenoide; (b) a 10,0 cm de un extremo del solenoide; y (c) a 5,0 cm de un extremo del solenoide? (d) Compare estas respuestas con el caso del solenoide infinito.</para>
+<media id="fs-id1166167048226" alt="La figura A es una sección transversal de un solenoide que muestra tres bobinados. La distancia desde el centro hasta el bobinado es de 1,5 centímetros. La distancia entre los bobinados es de 20 centímetros. El punto se encuentra en el eje central del solenoide opuesto al segundo bobinado. La figura B es una sección transversal de un solenoide que muestra tres bobinados. La distancia desde el centro hasta el bobinado es de 1,5 centímetros. La distancia entre los bobinados es de 20 centímetros. El punto está situado en el eje central del solenoide, entre el primer y el segundo bobinado. La figura C es una sección transversal de un solenoide que muestra tres bobinados. La distancia desde el centro hasta el bobinado es de 1,5 centímetros. La distancia entre los bobinados es de 20 centímetros. El punto está situado en el eje central del solenoide, cinco centímetros por debajo del primer bobinado.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr40ans_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166166206996">
+<problem id="fs-id1166166206998">
+<para id="fs-id1166166208442">Determine el campo magnético en el eje central en la apertura de un solenoide seminfinito. (Es decir, tomar la apertura para estar en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> y el otro extremo para estar en<newline/><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>∞</m:mi><m:mo>.</m:mo></m:mrow></m:math>)</para>
+</problem>
+<solution id="fs-id1166166203005">
+<para id="fs-id1166166203007"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167416540">
+<problem id="fs-id1166167093129">
+<para id="fs-id1166167093131">¿Por cuánto es la aproximación <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math> errónea en el centro de un solenoide que mide 15,0 cm de largo, tiene un diámetro de 4,0 cm, está envuelto con <emphasis effect="italics">n</emphasis> vueltas por metro y lleva una corriente <emphasis effect="italics">I</emphasis>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166167085033">
+<problem id="fs-id1166167085035">
+<para id="fs-id1166167085037">Un solenoide de 25 vueltas por centímetro porta una corriente <emphasis effect="italics">I</emphasis>. Un electrón se mueve dentro del solenoide en un círculo que tiene un radio de 2,0 cm y es perpendicular al eje del solenoide. Si la velocidad del electrón es <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>m/s</m:mtext><m:mo>,</m:mo></m:mrow></m:math> ¿cuánto es <emphasis effect="italics">I</emphasis>?</para>
+</problem>
+<solution id="fs-id1166167223188">
+<para id="fs-id1166167223190">0,0181 A</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167388851">
+<problem id="fs-id1166167388854">
+<para id="fs-id1166167275127">Un toroide tiene 250 vueltas de alambre y transporta una corriente de 20 A. Sus radios interior y exterior son de 8,0 y 9,0 cm. ¿Cuáles son los valores de su campo magnético en <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>8,1</m:mn><m:mo>,</m:mo><m:mn>8,5</m:mn><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mn>8,9</m:mn><m:mspace width="0.2em"/><m:mtext>cm?</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1166167106300">
+<problem id="fs-id1166167106302">
+<para id="fs-id1166167106304">Un toroide de sección cuadrada de 3,0 cm <m:math><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/></m:math> 3,0 cm tiene un radio interior de 25,0 cm. Está bobinado con 500 vueltas de cable y porta una corriente de 2,0 A. ¿Cuál es la intensidad del campo magnético en el centro de la sección transversal cuadrada?</para>
+</problem>
+<solution id="fs-id1166166202860">
+<para id="fs-id1166166205461">0,0008 T</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1166167375969">
+<term>solenoide</term>
+<meaning id="fs-id1166167106191">alambre fino bobinado en una bobina que produce un campo magnético cuando se hace pasar una corriente eléctrica a través de él</meaning>
+</definition>
+<definition id="fs-id1166167100678">
+<term>toroide</term>
+<meaning id="fs-id1166165864964">bobina en forma de rosquilla estrechamente bobinada que es un alambre continuo</meaning>
+</definition>
+</glossary>
+</document>

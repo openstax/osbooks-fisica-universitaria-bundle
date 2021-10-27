@@ -1,0 +1,129 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Sistemas termodinámicos</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90834</md:content-id>
+  <md:title>Sistemas termodinámicos</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Definir un sistema termodinámico, su límite y su entorno.</item>
+<item>Explicar las funciones de todos los componentes que intervienen en la termodinámica.</item>
+<item>Definir equilibrio térmico y temperatura termodinámica.</item>
+<item>Vincular una ecuación de estado a un sistema.</item>
+</list></md:abstract>
+  <md:uuid>094ab089-10e3-4089-b65c-42087872c8ba</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172099475189">Un <term>sistema termodinámico</term> incluye cualquier cosa cuyas propiedades termodinámicas sean de interés. Está incrustado en su <term>entorno</term> o <term>ambiente</term>; puede intercambiar calor con su ambiente y realizar trabajo sobre él a través de un <term>límite</term>, que es la pared imaginaria que separa el sistema y el ambiente (<link target-id="CNX_UPhysics_20_01_System"/>). En realidad, el entorno inmediato del sistema interactúa directamente con él y, por tanto, influye mucho más en su comportamiento y propiedades. Por ejemplo, si estudiamos el motor de un automóvil, la gasolina que se quema dentro del cilindro del motor es el sistema termodinámico; el pistón, el sistema de escape, el radiador y el aire del exterior forman el entorno del sistema. El límite está formado por las superficies interiores del cilindro y del pistón.</para>
+<figure id="CNX_UPhysics_20_01_System">
+<media id="fs-id1172102005957" alt="La figura a ilustra el concepto de un sistema. Un límite separa el sistema, dentro sí mismo, del entorno que está por fuera del límite. La figura b es una ilustración esquemática de un cilindro de motor como ejemplo de un sistema específico. El sistema es el gas dentro del pistón. El límite está formado por el cuerpo del cilindro que contiene el gas y el pistón que tapa el cilindro en la parte superior. El entorno consiste en todo lo que está fuera del cilindro y por encima del pistón.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_01_System.jpg"/>
+</media>
+<caption>(a) Un sistema, que puede incluir cualquier proceso o valor relevante, es autónomo en un área. El entorno también puede tener información relevante; sin embargo, solo es importante para estudiar si la situación es un sistema abierto. (b) La gasolina que se quema en el cilindro de un motor de automóvil es un ejemplo de sistema termodinámico.</caption>
+</figure>
+<para id="fs-id1172097147928">Normalmente, un sistema debe tener algunas interacciones con su entorno. Un sistema se denomina aislado y <term>sistema cerrado</term> si está completamente separado de su ambiente; por ejemplo, un gas que está rodeado de paredes inamovibles y térmicamente aislantes. En realidad, un sistema cerrado no existe, a menos que se trate todo el universo como el sistema, o se use como modelo de un sistema real que tenga interacciones mínimas con su ambiente. La mayoría de los sistemas se conocen como <term>sistema abierto</term>, que pueden intercambiar energía o materia con su entorno (<link target-id="CNX_UPhysics_20_01_Kettle"/>).</para><figure id="CNX_UPhysics_20_01_Kettle"><media id="fs-id1172099507018" alt="La figura a es una fotografía de una tetera en una estufa. Se ve salir vapor de agua de la boquilla de la tetera. La figura b es una fotografía de una olla a presión sobre una estufa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_01_Kettle.jpg"/>
+</media>
+
+<caption>(a) Esta tetera hirviendo es un sistema termodinámico abierto. Transfiere calor y materia (vapor de agua) a su entorno. (b) Una olla a presión es una buena aproximación a un sistema cerrado. Un poco de vapor de agua se escapa por la válvula superior para evitar la explosión (crédito a: modificación del trabajo de Gina Hamilton; crédito b: modificación del trabajo de Jane Whitney).</caption></figure><para id="fs-id1172099762620">Cuando examinamos un sistema termodinámico, ignoramos la diferencia de comportamiento de un lugar a otro dentro del sistema para un momento dado. En otras palabras, nos concentramos en las propiedades macroscópicas del sistema, que son los promedios de las propiedades microscópicas de todas las moléculas o entidades del sistema. Por lo tanto, cualquier sistema termodinámico se trata como un continuo que tiene el mismo comportamiento en todas las partes de su interior. Suponemos que el sistema está en <term>equilibrio</term>. Podría tener, por ejemplo, un gradiente de temperatura a través del sistema. Sin embargo, cuando hablamos de un sistema termodinámico en este capítulo estudiamos aquellos que tienen propiedades uniformes en todo el sistema.</para>
+<para id="fs-id1172099758592">Antes de poder llevar a cabo cualquier estudio sobre un sistema termodinámico necesitamos una caracterización fundamental del sistema. Cuando estudiamos un sistema mecánico nos centramos en las fuerzas y los torques del sistema, y sus balances dictan el equilibrio mecánico del sistema. Del mismo modo, deberíamos examinar la transferencia de calor entre un sistema termodinámico y su ambiente o entre las diferentes partes del sistema, y su equilibrio debería dictar el equilibrio térmico del sistema. Intuitivamente, dicho equilibrio se alcanza si la temperatura pasa a ser la misma para los distintos objetos o partes del sistema en contacto térmico, y la transferencia de calor neta en el tiempo pasa a ser cero.</para>
+<para id="fs-id1172102143279">Así, cuando decimos que dos objetos (un sistema termodinámico y su ambiente, por ejemplo) están en <term class="no-emphasis">equilibrio térmico</term>, nos referimos a que están a la misma temperatura, tal y como comentamos en la sección <link document="m90812">Temperatura y calor</link>. Consideremos tres objetos a temperaturas <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>3</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectivamente. ¿Cómo sabemos si están en equilibrio térmico? El principio que rige en este caso es la <term class="no-emphasis">ley cero de termodinámica</term>, tal y como se describe en la sección <link document="m90812">Temperatura y calor</link> sobre la temperatura y el calor:</para>
+<para id="fs-id1172102114993"><emphasis effect="italics">Si el objeto 1 está en equilibrio térmico con los objetos 2 y 3, respectivamente, entonces los objetos 2 y 3 también deben estar en equilibrio térmico.</emphasis></para>
+<para id="fs-id1172102115502">Matemáticamente, podemos escribir simplemente la ley cero de termodinámica como</para>
+<equation id="fs-id1172099674434"><m:math><m:mrow><m:mtext>Si</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mn>3</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>entonces</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172097225444">Esta es la forma más fundamental de definir la temperatura: dos objetos deben estar a la misma temperatura termodinámicamente si la transferencia de calor neta entre ellos es cero cuando se ponen en contacto térmico y han alcanzado un equilibrio térmico.</para>
+<para id="fs-id1172101984195">La ley cero de termodinámica es igualmente aplicable a las diferentes partes de un sistema cerrado y requiere que la temperatura en todas partes dentro del sistema sea la misma si el sistema ha alcanzado un equilibrio térmico. Para simplificar nuestra discusión, suponemos que el sistema es uniforme con un solo tipo de material, por ejemplo, agua en un tanque. Las propiedades medibles del sistema incluyen, al menos, su volumen, presión y temperatura. El rango de variables específicas relevantes depende del sistema. Por ejemplo, para una banda elástica estirada las variables relevantes serían longitud, tensión y temperatura. La relación entre estas tres propiedades básicas del sistema se denomina <term>ecuación de estado</term> del sistema y se escribe simbólicamente <emphasis effect="italics">para un sistema cerrado</emphasis> como</para>
+<note id="fs-id1172099392828" class="equation-callout">
+<equation id="fs-id1172099499787"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>,</m:mo><m:mi>V</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172099387507">donde <emphasis effect="italics">V</emphasis>, <emphasis effect="italics">p</emphasis> y <emphasis effect="italics">T</emphasis> son el volumen, la presión y la temperatura del sistema en una condición determinada.</para>
+<para id="fs-id1172102125532">En principio, esta ecuación de estado existe para cualquier sistema termodinámico, pero no siempre está disponible. Las formas de <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>,</m:mo><m:mi>V</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> para muchos materiales se han determinado experimental o teóricamente. En el capítulo anterior vimos un ejemplo de ecuación de estado para un gas ideal, <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>,</m:mo><m:mi>V</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>−</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172097407125">Hasta ahora hemos introducido varias propiedades físicas que son relevantes para la termodinámica de un sistema termodinámico, como su volumen, presión y temperatura. Podemos separar estas cantidades en dos categorías genéricas. La cantidad asociada a una porción de materia es una <term>variable extensiva</term>, como el volumen y el número de moles. Las otras propiedades de un sistema son <term>variables intensiva</term><emphasis effect="bold">s</emphasis>, como la presión y la temperatura. Una variable extensiva duplica su valor si se duplica la cantidad de materia en el sistema, siempre que todas las variables intensivas sigan siendo las mismas. Por ejemplo, el volumen o la energía total del sistema se duplica si duplicamos la cantidad de materia en el sistema manteniendo la temperatura y la presión del sistema sin cambios.</para>
+<section id="fs-id1172101903950" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172102006679" list-type="bulleted" bullet-style="bullet">
+<item>Un sistema termodinámico, su límite y su entorno se deben definir con todas las funciones de los componentes completamente explicados antes de que podamos analizar una situación.</item>
+<item>El equilibrio térmico se alcanza con dos objetos si un tercer objeto está en equilibrio térmico con los otros dos por separado.</item>
+<item>Una ecuación de estado general para un sistema cerrado tiene la forma <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>,</m:mo><m:mi>V</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> con un gas ideal como ejemplo ilustrativo.</item>
+</list>
+</section>
+<section id="fs-id1172099809964" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1172099515427">
+<problem id="fs-id1172099719015">
+<para id="fs-id1172099668060">Considere estos escenarios e indique si el trabajo es realizado por el sistema sobre el ambiente (system on the environment, SE) o por el ambiente sobre el sistema (environment on the system, ES): (a) abrir una bebida carbonatada; (b) llenar un neumático vacío; (c) una lata de gas vacía y sellada se expande en un día caluroso y arquea las paredes.</para>
+</problem>
+<solution id="fs-id1172099505906">
+<para id="fs-id1172099923886">a. SE; b. ES; c. ES</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172099493239" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172097515926">
+<problem id="fs-id1172099902294">
+<para id="fs-id1172102146250">Un gas sigue <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mi>p</m:mi><m:mo>+</m:mo><m:msub><m:mi>c</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:math> en una curva isotérmica, donde <emphasis effect="italics">p</emphasis> es la presión, <emphasis effect="italics">V</emphasis> es el volumen, <emphasis effect="italics">b</emphasis> es una constante y <emphasis effect="italics">c</emphasis> es una función de la temperatura. Demostrar que con este gas se puede establecer una escala de temperatura en un proceso isocórico y que es idéntica a la de un gas ideal.</para>
+</problem>
+<solution id="fs-id1172097272400">
+<para id="fs-id1172101665108"><m:math><m:mrow><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>V</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>c</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:math> es la escala de temperatura deseada y refleja el gas ideal si está a volumen constante.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101846930">
+<problem id="fs-id1172101795910">
+<para id="fs-id1172099870894">Un mol de gas tiene un coeficiente de dilatación isobárica <m:math><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mi>p</m:mi></m:mrow></m:math> y el coeficiente isocórico de presión-temperatura <m:math><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mtext>/</m:mtext><m:mi>T</m:mi></m:mrow></m:math>. Calcule la ecuación de estado del gas.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099486343">
+<problem id="fs-id1172102074345">
+<para id="fs-id1172099531653">Calcule la ecuación de estado de un sólido que tiene un coeficiente de dilatación isobárico<m:math><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>c</m:mi><m:mi>T</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>p</m:mi></m:mrow></m:math> y un coeficiente isotérmico presión-volumen <m:math><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>p</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1172099479868">
+<para id="fs-id1172101786939"><m:math><m:mrow><m:mi>V</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>p</m:mi><m:mi>T</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:msup><m:mi>T</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172102099892">
+<term>límite</term>
+<meaning id="fs-id1172101922908">paredes imaginadas que separan el sistema y su entorno</meaning>
+</definition>
+<definition id="fs-id1172101853853">
+<term>sistema cerrado</term>
+<meaning id="fs-id1172099577131">sistema aislado mecánica y térmicamente de su ambiente</meaning>
+</definition>
+<definition id="fs-id1172101895712">
+<term>ambiente</term>
+<meaning id="fs-id1172101768797">la parte de afuera del sistema estudiado</meaning>
+</definition>
+<definition id="fs-id1172101922639">
+<term>ecuación de estado</term>
+<meaning id="fs-id1172102097056">describe propiedades de la materia en determinadas condiciones físicas</meaning>
+</definition>
+<definition id="fs-id1172099762172">
+<term>equilibrio</term>
+<meaning id="fs-id1172099555973">equilibrio térmico establecido entre dos objetos o partes de un sistema</meaning>
+</definition>
+<definition id="fs-id1172101682298">
+<term>variable extensiva</term>
+<meaning id="fs-id1172099537154">variable que es proporcional a la cantidad de materia en el sistema</meaning>
+</definition>
+<definition id="fs-id1172097162441">
+<term>variable intensiva</term>
+<meaning id="fs-id1172101785280">variable que es independiente de la cantidad de materia en el sistema</meaning>
+</definition>
+<definition id="fs-id1172101926820">
+<term>sistema abierto</term>
+<meaning id="fs-id1172101692196">sistema que puede intercambiar energía o materia con su entorno</meaning>
+</definition>
+<definition id="fs-id1172099514507">
+<term>entorno</term>
+<meaning id="fs-id1172101773902">ambiente que interactúa con un sistema abierto</meaning>
+</definition>
+<definition id="fs-id1172101787795">
+<term>sistema termodinámico</term>
+<meaning id="fs-id1172099534639">objeto y enfoque del estudio termodinámico</meaning>
+</definition>
+</glossary>
+
+</document>

@@ -1,0 +1,53 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>La cámara</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90969</md:content-id>
+  <md:title>La cámara</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir la óptica de una cámara</item>
+<item>Caracterizar la imagen creada por una cámara</item>
+</list></md:abstract>
+  <md:uuid>72e69266-dc7a-4ed6-9479-f942ecb587b5</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167132525720">Las <term class="no-emphasis">cámaras</term> son muy comunes en nuestra vida cotidiana. Entre 1825 y 1827, el inventor francés Nicéphore Niépce logró fotografiar una imagen creada por una cámara primitiva. Desde entonces, se han logrado enormes avances en el diseño de cámaras y detectores con cámaras.</para>
+<para id="fs-id1167132376585">Al principio, las fotografías se grababan utilizando la reacción sensible a la luz de compuestos a base de plata, como el cloruro de plata o el bromuro de plata. El papel fotográfico con base de plata era de uso común hasta la llegada de la fotografía digital en la década de 1980, que está íntimamente relacionada con los detectores de <term>dispositivos de carga acoplada (CCD)</term>. En pocas palabras, un CCD es un chip semiconductor que graba las imágenes como una matriz de diminutos píxeles, cada uno de los cuales está situado en una "bandeja" de la superficie. Cada píxel es capaz de detectar la intensidad de la luz que incide sobre él. El color se pone en juego colocando filtros de color rojo, azul y verde sobre los pixeles, lo que da lugar a imágenes digitales coloreadas (<link target-id="CNX_UPhysics_35_06_CCD"/>). En su mejor resolución, un píxel del CCD corresponde a un pixel de la imagen. Para reducir la resolución y disminuir el tamaño del archivo, podemos “agrupar” varios pixeles del CCD en uno solo, lo que da como resultado una imagen más pequeña pero “pixelada”.</para>
+<figure id="CNX_UPhysics_35_06_CCD">
+<media id="fs-id1167132383214" alt="Se muestra una fotografía de un dispositivo de carga acoplada. Una pequeña parte se amplía y muestra varios pixeles con cuadros rojos, azules y verdes. Se trata de los “sensores para longitudes de onda roja, azul o verde de la luz” y la “conversión a voltaje”. Se muestra una fotografía de flores, marcada como “salida de imagen”.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_06_CCD.jpg"/>
+</media>
+<caption>Un dispositivo de carga acoplada (CCD) convierte las señales de luz en señales electrónicas, lo que permite el procesamiento electrónico y el almacenamiento de imágenes visuales. Esta es la base de las imágenes electrónicas en todas las cámaras digitales, desde los teléfonos móviles hasta las cámaras de cine. (crédito a la izquierda: modificación de la obra de Bruce Turner)</caption>
+</figure>
+<para id="fs-id1167132317679">Está claro que la electrónica es una parte importante de una cámara digital; sin embargo, la física subyacente es la óptica básica. De hecho, la óptica de una cámara es prácticamente la misma que la de una lente simple con una distancia del objeto significativamente mayor que la distancia focal del objetivo (<link target-id="CNX_UPhysics_35_06_camera"/>).</para>
+<figure id="CNX_UPhysics_35_06_camera">
+<media id="fs-id1167133545804" alt="La figura muestra la vista lateral de una cámara digital. En la parte delantera de la cámara hay un disco marcado como abertura, seguido de una lente biconvexa, una lente bicóncava, un espejo inclinado marcado como espejo abatible, un obturador y un sensor. La trayectoria de la luz se muestra de tal manera que la luz entra en la cámara a través de la abertura y las lentes e incide en el espejo. Se refleja hacia arriba en el sistema de visión. Aquí se refleja en otros dos espejos antes de pasar por una lente biconvexa y salir de la cámara.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_06_camera.jpg"/>
+</media>
+<caption>Las cámaras digitales modernas tienen varios objetivos para producir una imagen clara con una aberración mínima y utilizan filtros rojos, azules y verdes para producir una imagen en color.</caption>
+</figure>
+<para id="fs-id1167132371645">Por ejemplo, considere la cámara de un teléfono inteligente. La cámara media de un teléfono inteligente está equipada con un objetivo gran angular fijo con una distancia focal de unos 4 a 5 mm. (Esta distancia focal es aproximadamente igual al grosor del teléfono) La imagen creada por el objetivo se enfoca en el detector del CCD montado en el lado opuesto del teléfono. En un teléfono móvil, el objetivo y el CCD no pueden moverse uno respecto al otro. Entonces, ¿cómo nos aseguramos de que tanto las imágenes de un objeto lejano como las de un objeto cercano estén enfocadas?</para>
+<para id="fs-id1167132371404">Recordemos que el ojo humano puede adaptarse a las imágenes lejanas y cercanas cambiando su distancia focal. Una cámara de teléfono móvil no puede hacerlo porque la distancia del objetivo al detector es fija. Aquí es donde la pequeña distancia focal se vuelve importante. Supongamos que tenemos una cámara con una distancia focal de 5 mm. ¿Cuál es la distancia de imagen para una selfi? La distancia del objeto para una selfi (la longitud de la mano que sostiene el teléfono) es de unos 50 cm. Utilizando la ecuación de lentes delgadas, podemos escribir</para>
+<equation id="fs-id1167133789925" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167132612705">A continuación, obtenemos la distancia de imagen:</para>
+<equation id="fs-id1167133568137" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167133325177">Tenga en cuenta que la distancia del objeto es 100 veces mayor que la distancia focal. Podemos ver claramente que el término 1/(500 mm) es significativamente menor que 1/(5 mm), lo que significa que la distancia de imagen es prácticamente igual a la distancia focal del objetivo. Un cálculo real nos da la distancia de imagen <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:mn>5,05</m:mn><m:mspace width="0.2em"/><m:mtext>mm</m:mtext></m:mrow></m:math>. Este valor está muy cerca de la distancia focal del objetivo.</para>
+<para id="fs-id1167132422778">Considere ahora el caso de un objeto lejano. Supongamos que queremos fotografiar a una persona que se encuentra a unos 5 m de nosotros. Al utilizar de nuevo la ecuación de lentes delgadas, obtenemos la distancia de imagen de 5,005 mm. Cuanto más lejos esté el objeto del objetivo, más cerca estará la distancia de imagen de la distancia focal. En el caso límite de un objeto infinitamente lejano, obtenemos la distancia de imagen exactamente igual a la distancia focal del objetivo.</para>
+<para id="fs-id1167133659361">Como puedes ver, la diferencia entre la distancia de imagen para una selfi y la distancia de imagen para un objeto lejano es solo de unos 0,05 mm o 50 micras. Incluso una corta distancia del objeto, como la longitud de la mano, es dos órdenes de magnitud mayor que la distancia focal del objetivo, lo que provoca variaciones mínimas en la distancia de imagen. (La diferencia de 50 micras es menor que el grosor de una hoja de papel media) Una diferencia tan pequeña puede ser fácilmente acomodada por el mismo detector, colocado a la distancia focal del objetivo. El software de análisis de imágenes puede ayudar a mejorar la calidad de las mismas.</para>
+<para id="fs-id1167132301327">Las cámaras convencionales de apuntar y disparar suelen utilizar un objetivo móvil para cambiar la distancia entre el objetivo y la imagen. Los complejos objetivos de las cámaras réflex más caras permiten obtener imágenes fotográficas de gran calidad. La óptica de estos objetivos de cámara está fuera del alcance de este libro de texto.</para>
+<section id="fs-id1167133329208" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167132463207">
+<item>Las cámaras utilizan combinaciones de objetivos para crear una imagen para la grabación.</item>
+<item>La fotografía digital se basa en dispositivos de carga acoplada (CCD) que dividen una imagen en diminutos “pixeles” que pueden convertirse en señales electrónicas.</item>
+</list>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167132627862">
+<term>dispositivo de carga acoplada (CCD)</term>
+<meaning id="fs-id1167132534168">chip semiconductor que convierte una imagen luminosa en pequeños pixeles que pueden convertirse en señales electrónicas de color e intensidad</meaning>
+</definition>
+</glossary>
+</document>

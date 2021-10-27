@@ -1,0 +1,231 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Dispositivos semiconductores</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91038</md:content-id>
+  <md:title>Dispositivos semiconductores</md:title>
+  <md:abstract><para>Al final de esta sección podrá:</para><list>
+<item>Describir lo que ocurre cuando se unen materiales de tipo n y p utilizando el concepto de difusión y corriente de deriva (tensión aplicada cero).</item>
+<item>Explicar la respuesta de una unión p-n a un voltaje de polarización directa e inversa.</item>
+<item>Describir la función de un transistor en un circuito eléctrico.</item>
+<item>Utilizar el concepto de unión p-n para explicar sus aplicaciones en amplificadores de audio y computadoras.</item></list></md:abstract>
+  <md:uuid>63813d8b-0381-4e48-9316-14e0ff4b01de</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172099418397">Los semiconductores tienen muchas aplicaciones en la electrónica moderna. En esta sección describimos algunos dispositivos semiconductores básicos. Una gran ventaja del uso de semiconductores para los elementos de los circuitos es el hecho de que se pueden combinar muchos miles o millones de dispositivos semiconductores en la misma pieza minúscula de silicio y conectarlos mediante vías conductoras. La estructura resultante se denomina circuito integrado (Integrated Circuit, IC), y los chips de ic son la base de muchos dispositivos modernos, desde las computadoras y los teléfonos inteligentes hasta Internet y las redes de comunicaciones globales.</para>
+<section id="fs-id1172099755319">
+<title>Diodos</title>
+<para id="fs-id1172099660684">Quizás el dispositivo más sencillo que se puede crear con un semiconductor es un diodo. Un diodo es un elemento del circuito que permite que la corriente eléctrica fluya en una sola dirección, como una válvula de un solo sentido (vea <link document="m90889">Modelo de Conducción en los Metales</link>). Un diodo se crea uniendo un semiconductor de tipo <emphasis effect="italics">p</emphasis> con un semiconductor de tipo <emphasis effect="italics">n</emphasis> (<link target-id="CNX_UPhysics_42_07_PNJunction"/>). La unión entre estos materiales se denomina <term>unión <emphasis effect="italics">p-n</emphasis></term>. En la <link target-id="CNX_UPhysics_42_07_PNJunction"/>(b) se muestra una comparación de las bandas de energía de un diodo de silicio. Las posiciones de las bandas de valencia y de conducción son las mismas, pero los niveles de impurezas son muy diferentes. Cuando se forma una unión <emphasis effect="italics">p-n</emphasis>, los electrones de la banda de conducción del material de tipo <emphasis effect="italics">n</emphasis> se difunden hacia el lado <emphasis effect="italics">p</emphasis>, donde se combinan con los agujeros de la banda de valencia. Esta migración de carga deja iones donantes ionizados positivos en el lado <emphasis effect="italics">n</emphasis> e iones aceptadores ionizados negativos en el lado <emphasis effect="italics">p</emphasis>, produciendo una estrecha capa doble de carga en la unión <emphasis effect="italics">p</emphasis>-<emphasis effect="italics">n</emphasis> llamada <term>capa de agotamiento</term>. El campo eléctrico asociado a la capa de agotamiento impide la difusión posterior. La energía potencial de los electrones a través de la unión <emphasis effect="italics">p-n</emphasis> viene dada por la <link target-id="CNX_UPhysics_42_07_Equilib"/>.</para><figure id="CNX_UPhysics_42_07_PNJunction">
+<media id="fs-id1172101764488" alt="La figura a muestra dos bloques colocados uno al lado del otro, en contacto. El de la izquierda está marcado como p y el de la derecha como n. La figura b muestra una banda de valencia en la parte inferior y una banda de conducción en la parte superior. Hay agujeros dentro de la banda de valencia a la izquierda, marcados como agujeros en la parte superior de la banda de valencia. Hay electrones por encima de la línea de conducción a la derecha, marcados como electrones en la parte inferior de la banda de conducción. Las bandas de impurezas se muestran por encima de los agujeros y por debajo de los electrones.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_07_PNJunction.jpg"/>
+</media>
+<caption>(a) Representación de una unión <emphasis effect="italics">p-n</emphasis>. (b) Comparación de las bandas de energía del silicio tipo <emphasis effect="italics">p</emphasis> y tipo <emphasis effect="italics">n</emphasis> antes del equilibrio.</caption>
+</figure>
+<figure id="CNX_UPhysics_42_07_Equilib">
+<media id="fs-id1172101797066" alt="La figura a muestra dos bloques colocados uno al lado del otro, en contacto. El de la izquierda está marcado como p y el de la derecha como n. Los signos de menos se muestran en el bloque p cerca del lado en contacto. Los signos de más se muestran en el bloque n cerca del lado en contacto. La figura b muestra una banda de valencia en la parte inferior y una línea de conducción en la parte superior. La banda de valencia es más alta en el lado izquierdo y casi alcanza la línea central entre las dos bandas. Hay agujeros con la banda de valencia en la parte superior izquierda. La línea de conducción es más baja a la derecha, llegando casi a la línea central entre las dos bandas. Hay electrones justo por encima de la línea, a la derecha. El desplazamiento de las bandas está marcado como eV subíndice 0, la diferencia de potencial impide la difusión de los electrones del lado n al lado p.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_07_Equilib.jpg"/>
+</media>
+<caption>En equilibrio, (a) el exceso de carga reside cerca de la interfase y la corriente neta es cero, y (b) la diferencia de energía potencial para los electrones (en azul claro) impide la difusión adicional de electrones hacia el lado <emphasis effect="italics">p</emphasis>.</caption>
+</figure>
+<para id="fs-id1172099746404">Ahora se puede entender el comportamiento de un diodo semiconductor. Si el lado positivo de la batería se conecta al material de tipo <emphasis effect="italics">n</emphasis>, la capa de agotamiento se amplía y la diferencia de energía potencial a través de la unión <emphasis effect="italics">p-n</emphasis> aumenta. Pocos o ninguno de los electrones (agujeros) tienen suficiente energía para subir la barrera de potencial, y la corriente se reduce considerablemente. Esto se llama la <term>configuración de polarización inversa</term>. Por otro lado, si el lado positivo de una batería se conecta al material de tipo <emphasis effect="italics">p</emphasis>, la capa de agotamiento se estrecha, la diferencia de energía potencial a través de la unión <emphasis effect="italics">p-n</emphasis> se reduce y los electrones (agujeros) fluyen fácilmente. Esto se llama la <term>configuración de polarización directa</term> del diodo. En resumen, el diodo permite que la corriente fluya libremente en una dirección, pero impide el flujo de corriente en la dirección opuesta. En este sentido, el diodo semiconductor es una válvula unidireccional.</para>
+<para id="fs-id1172101715702">Podemos estimar la relación matemática entre la corriente y el voltaje de un diodo utilizando el concepto de potencial eléctrico. Considere portadores mayoritarios <emphasis effect="italics">N</emphasis> cargados negativamente (electrones donados por átomos de impureza) en el material de tipo <emphasis effect="italics">n</emphasis> y una barrera de potencial <emphasis effect="italics">V</emphasis> a través de la unión <emphasis effect="italics">p-n</emphasis>. Según la distribución de Maxwell-Boltzmann, la fracción de electrones que tienen suficiente energía para difundir a través de la barrera de potencial es <m:math><m:mrow><m:mi>N</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>e</m:mi><m:mi>V</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup></m:mrow></m:math>. Sin embargo, si una batería de voltaje <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>b</m:mi></m:msub></m:mrow></m:math> se aplica en la configuración de polarización directa, esta fracción mejora a <m:math><m:mrow><m:mi>N</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>e</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>V</m:mi><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mi>b</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup></m:mrow></m:math>. Por lo tanto, la corriente eléctrica debida a los portadores mayoritarios del lado <emphasis effect="italics">n</emphasis> al lado <emphasis effect="italics">p</emphasis> es</para>
+<equation id="fs-id1172099545275"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>e</m:mi><m:mi>V</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mi>e</m:mi><m:msub><m:mi>V</m:mi><m:mi>b</m:mi></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>e</m:mi><m:msub><m:mi>V</m:mi><m:mi>b</m:mi></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099877962">donde <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la corriente sin voltaje aplicado y <emphasis effect="italics">T</emphasis> es la temperatura. La corriente debida a los portadores minoritarios (excitación térmica de los electrones desde la banda de valencia a la banda de conducción en el lado <emphasis effect="italics">p</emphasis> y posterior atracción hacia el lado <emphasis effect="italics">n</emphasis>) es <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, independientemente del voltaje de polarización. Por lo tanto, la corriente neta es</para>
+<note id="fs-id1172099703062" class="equation-callout">
+<equation id="fs-id1172102117326"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>e</m:mi><m:msub><m:mi>V</m:mi><m:mi>b</m:mi></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172099547904">Un ejemplo de gráfico de la corriente en función del voltaje de polarización aparece en la <link target-id="CNX_UPhysics_42_07_CurrVsVolt"/>. En la configuración de polarización directa, pequeños cambios en el voltaje de polarización conducen a grandes cambios en la corriente. En la configuración de polarización inversa, la corriente es <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. Para valores extremos de polarización inversa, los átomos del material se ionizan, lo que desencadena una avalancha de corriente. Este caso se da en la <term>tensión de ruptura</term>.</para>
+<figure id="CNX_UPhysics_42_07_CurrVsVolt">
+<media id="fs-id1172102136101" alt="Gráfico de la I subíndice net en función de V. La flecha que apunta a la derecha del eje y está marcada como polarización directa. Una flecha que apunta a la izquierda desde el eje y está marcada como como polarización inversa. La curva sube y se dirige a la derecha en el primer cuadrante y luego se vuelve casi vertical en los valores más altos de x y y. Cruza el eje x positivo en el cuarto cuadrante y luego el eje y negativo en menos I subíndice 0. Se desplaza hacia la izquierda en una línea horizontal hasta un punto en el que gira bruscamente hacia abajo en lo que se convierte en una línea casi vertical. El valor x del punto de inflexión está marcado como tensión de ruptura.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_07_CurrVsVolt.jpg"/>
+</media>
+<caption>Corriente en función del voltaje a través de una unión <emphasis effect="italics">p-n</emphasis> (diodo). En la configuración de polarización directa, la corriente eléctrica fluye fácilmente. Sin embargo, en la configuración de polarización inversa, la corriente eléctrica fluye muy poco.</caption>
+</figure>
+<example id="fs-id1172101766536">
+<para id="fs-id1172099524505"><title>Corriente del diodo</title>
+Al conectar el extremo positivo de una batería al lado <emphasis effect="italics">p</emphasis> y el extremo negativo al lado <emphasis effect="italics">n</emphasis>de un diodo semiconductor se produce una corriente de <m:math><m:mrow><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> La corriente de saturación inversa es <m:math><m:mrow><m:mn>2,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> (La corriente de saturación inversa es la corriente de un diodo en una configuración de polarización inversa como esta). El voltaje de la batería es de 0,12 V. ¿Cuál es la temperatura del diodo?</para>
+<para id="fs-id1172101777146"><title>Estrategia</title>
+La primera disposición es una configuración de polarización directa, y la segunda es la configuración de polarización inversa. En cualquier caso, la <link target-id="fs-id1172096287067" document="m91031"/> da la corriente.</para>
+<para id="fs-id1172097227571"><title>Solución</title>
+La corriente en las configuraciones de polarización directa e inversa viene dada por</para>
+<equation id="fs-id1172099755478" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>e</m:mi><m:msub><m:mi>V</m:mi><m:mi>b</m:mi></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102072565">La corriente sin polarización está relacionada con la corriente de saturación inversa por</para>
+<equation id="fs-id1172099490522" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>≈</m:mo><m:mo>−</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>sat</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099500677">Por lo tanto,</para>
+<equation id="fs-id1172101736249" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mrow><m:mn>2,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101753402"><link target-id="fs-id1172096287067" document="m91031"/> puede escribirse como</para>
+<equation id="fs-id1172099417171" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mi>e</m:mi><m:msub><m:mi>V</m:mi><m:mi>b</m:mi></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102110887">Esta relación es mucho mayor que uno, por lo que el segundo término del lado izquierdo de la ecuación desaparece. Tomando el logaritmo natural de ambos lados se obtiene</para>
+<equation id="fs-id1172101790249" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>e</m:mi><m:msub><m:mi>V</m:mi><m:mi>b</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>19</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099376052">Por lo tanto, la temperatura es</para>
+<equation id="fs-id1172102148799" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>e</m:mi><m:msub><m:mi>V</m:mi><m:mi>b</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>19</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>e</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,12</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>8,617</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mtext>/</m:mtext><m:mtext>K</m:mtext></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>19</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>73</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172099501574"><title>Importancia</title>
+La corriente que atraviesa un diodo en la configuración de polarización directa y en la inversa es sensible a la temperatura del diodo. Si la energía potencial suministrada por la batería es grande en comparación con la energía térmica del entorno del diodo, <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math> entonces la corriente de polarización directa es muy grande comparada con la corriente de saturación inversa.</para>
+</example>
+<note id="fs-id1172101983460" class="check-understanding">
+<exercise id="fs-id1172101730237">
+<problem id="fs-id1172101728664">
+<para id="fs-id1172099601774">¿Cómo se compara la magnitud de la corriente de polarización directa con la corriente de polarización inversa?</para>
+</problem>
+<solution id="fs-id1172099495879">
+<para id="fs-id1172099742512">La corriente de polarización directa es mucho mayor. En una buena aproximación, los diodos permiten el flujo de corriente en una sola dirección.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1172101915525" class="media-2">
+<para id="fs-id1172101899004">Cree una unión <emphasis effect="italics">p</emphasis>-<emphasis effect="italics">n</emphasis> y observe el comportamiento de un circuito sencillo para voltajes de polarización directa e inversa. Visite este <link url="https://openstax.org/l/21semiconductor_es">sitio</link> para saber más sobre los diodos semiconductores.</para>
+</note>
+</section>
+<section id="fs-id1172099760392">
+<title>Transistor de unión</title>
+<para id="fs-id1172101735289">Si los diodos son válvulas unidireccionales, los transistores son válvulas unidireccionales que pueden abrirse y cerrarse cuidadosamente para controlar la corriente. Un tipo especial de transistor es el transistor de unión. Un <term>transistor de unión</term> tiene tres partes, incluyendo un semiconductor de tipo <emphasis effect="italics">n</emphasis>, también llamado emisor; un semiconductor delgado de tipo <emphasis effect="italics">p</emphasis>, que es la base; y otro semiconductor de tipo <emphasis effect="italics">n</emphasis>, llamado colector (<link target-id="CNX_UPhysics_42_07_Junction"/>). Cuando se conecta un terminal positivo a la capa de tipo <emphasis effect="italics">p</emphasis> (la base), una pequeña corriente de electrones, llamada <term>corriente de base</term> <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mi>B</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> fluye hacia el terminal. Esto provoca que una gran <term>corriente de colector</term> <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mi>c</m:mi></m:msub></m:mrow></m:math> fluya a través del colector. La corriente de base puede ajustarse para controlar la gran corriente de colector. Por lo tanto, la ganancia de corriente es</para>
+<note id="fs-id1172101794550" class="equation-callout">
+<equation id="fs-id1172101677158"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mi>β</m:mi><m:msub><m:mi>I</m:mi><m:mi>B</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_42_07_Junction">
+<media id="fs-id1172099456922" alt="Se muestran tres bloques en contacto. De izquierda a derecha están marcados: emisor (tipo n) base (tipo p) y colector (tipo n). Una fuente de voltaje se conecta a través del colector y el emisor, siendo el colector positivo. Otra fuente de voltaje se conecta a través del emisor y la base, siendo la base positiva. Una flecha gruesa parte del emisor, pasa por los otros dos bloques, sale del colector y recorre el primer bucle de voltaje. La flecha está marcada como flujo grande de electrones, corriente de colector. Una flecha más fina desde la base se dirige al segundo bucle de voltaje. Está marcada como flujo pequeño de electrones, corriente de base.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_07_Junction.jpg"/>
+</media>
+<caption>Un transistor de unión tiene tres partes: emisor, base y colector. El voltaje aplicado a la base actúa como una válvula para controlar la corriente eléctrica del emisor al colector.</caption>
+</figure>
+<para id="fs-id1172101971020">Un transistor de unión puede utilizarse para amplificar el voltaje de un micrófono para accionar un altavoz. En esta aplicación, las ondas sonoras hacen que un diafragma del interior del micrófono se mueva rápidamente hacia dentro y hacia fuera (<link target-id="CNX_UPhysics_42_07_Amp"/>). Cuando el diafragma está en la posición de "entrada", se aplica un pequeño voltaje positivo a la base del transistor. Esto abre la "válvula" del transistor y permite un gran flujo de corriente eléctrica hacia el altavoz. Cuando el diafragma está en la posición de "salida", se aplica un pequeño voltaje negativo a la base del transistor, que apaga la válvula del transistor para que no fluya corriente al altavoz. Esto apaga la "válvula" del transistor para que no fluya corriente al altavoz. De este modo, la corriente que llega al altavoz está controlada por las ondas sonoras, y el sonido se amplifica. Cualquier dispositivo eléctrico que amplifica una señal se llama <term>amplificador</term>.</para>
+<figure id="CNX_UPhysics_42_07_Amp">
+<media id="fs-id1172101939467" alt="La figura a muestra tres bloques en contacto. De izquierda a derecha están marcados: emisor (tipo n) base (tipo p) y colector (tipo n). Un altavoz se conecta a través del colector y el emisor. Un micrófono se conecta a través del emisor y la base. El diafragma se mueve hacia fuera. El voltaje a través del micrófono está marcado como voltaje base. Es negativo en la base. En la figura se marca poco o ningún flujo de electrones. La figura b muestra una disposición similar a la de la figura a. Una flecha gruesa parte del emisor, atraviesa los otros dos bloques, sale del colector y recorre el bucle del altavoz. La flecha está marcada como flujo grande de electrones, corriente de colector. Una flecha más fina desde la base se dirige al bucle del micrófono. Está marcada como flujo pequeño de electrones, corriente de base. La polaridad del voltaje base a través del micrófono es opuesta a la de la figura a. El micrófono está marcado como diafragma y se mueve hacia adentro. Se muestra el altavoz que emite ondas sonoras.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_07_Amp.jpg"/>
+</media>
+<caption>Un amplificador de audio basado en un transistor de unión. El voltaje aplicado a la base por un micrófono actúa como una válvula para controlar una corriente eléctrica mayor que pasa por un altavoz.</caption>
+</figure>
+<para id="fs-id1172099566754">En los dispositivos electrónicos modernos, las señales digitales se utilizan con diodos y transistores para realizar tareas como el manejo de datos. Los circuitos eléctricos transmiten dos tipos de señales eléctricas: analógicas y digitales (<link target-id="CNX_UPhysics_42_07_Digital"/>). Una señal analógica varía continuamente, mientras que una señal digital alterna entre dos valores fijos de voltaje, como más 1 voltio y cero voltios. En los circuitos digitales, como los de las computadoras, un transistor se comporta como un interruptor de encendido y apagado. El transistor está encendido, lo que significa que la válvula está completamente abierta, o está apagado, lo que significa que la válvula está completamente cerrada. Los circuitos integrados contienen vastas colecciones de transistores en una sola pieza de silicio. Están diseñados para manejar señales digitales que representan unos y ceros, lo que también se conoce como código binario. La invención del ic contribuyó a poner en marcha la revolución informática moderna.</para>
+<figure id="CNX_UPhysics_42_07_Digital">
+<media id="fs-id1172099884450" alt="Se muestran dos gráficos de V en función de t. La primera señal, marcada como analógica tiene una onda sinusoidal irregular. La segunda señal, marcada como digital tiene una onda cuadrada.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_42_07_Digital.jpg"/>
+</media>
+<caption>Los datos del mundo real son con frecuencia analógicos, lo que significa que los datos pueden variar continuamente. Los valores de intensidad de las imágenes sonoras o visuales suelen ser analógicos. Estos datos se convierten en señales digitales para su procesamiento electrónico en dispositivos de grabación o computadoras. La señal digital se genera a partir de la señal analógica exigiendo un determinado valor de corte de voltaje.</caption>
+</figure>
+</section>
+<section id="fs-id1172102098640" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172097136499" list-type="bulleted" bullet-style="bullet">
+<item>Un diodo se produce por una unión <emphasis effect="italics">n-p</emphasis>, y permite que la corriente se mueva en una sola dirección. En la configuración de un diodo con polarización directa, la corriente aumenta exponencialmente con el voltaje.</item>
+<item>Un transistor se produce mediante una unión <emphasis effect="italics">n-p-n</emphasis>. Un transistor es una válvula eléctrica que controla la corriente en un circuito.</item>
+<item>El transistor es un componente fundamental en los amplificadores de audio, computadoras y muchos otros dispositivos.</item>
+</list>
+</section>
+<section id="fs-id1172099885192" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172102130236">
+<problem id="fs-id1172102031833">
+<para id="fs-id1172102071299">Cuando se unen materiales de tipo <emphasis effect="italics">p</emphasis> y <emphasis effect="italics">n</emphasis>, ¿por qué se genera un campo eléctrico uniforme cerca de la unión?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101778674">
+<problem id="fs-id1172101755179">
+<para id="fs-id1172099730422">Cuando se unen materiales de tipo <emphasis effect="italics">p</emphasis> y <emphasis effect="italics">n</emphasis>, ¿por qué la capa de agotamiento no crece indefinidamente?</para>
+</problem>
+<solution id="fs-id1172099496694">
+<para id="fs-id1172102048770">El campo eléctrico producido por los iones descubiertos reduce la difusión posterior. En equilibrio, las corrientes de difusión y de deriva se anulan, por lo que la corriente neta es cero. Por lo tanto, la resistencia de la región de agotamiento es grande.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099682115">
+<problem id="fs-id1172101755191">
+<para id="fs-id1172099906619">¿Cómo se sabe si un diodo está en la configuración de <emphasis effect="italics">polarización directa</emphasis>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101699737">
+<problem id="fs-id1172099472034">
+<para id="fs-id1172101790279">¿Por qué la configuración de polarización inversa conduce a una corriente muy pequeña?</para>
+</problem>
+<solution id="fs-id1172101949372">
+<para id="fs-id1172099388266">El terminal positivo se aplica al lado <emphasis effect="italics">n</emphasis>, lo que descubre más iones cerca de la unión (amplía la capa de agotamiento), aumenta la diferencia de voltaje de la unión y por tanto, reduce la difusión de agujeros a través de la unión.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101788476">
+<problem id="fs-id1172101715697">
+<para id="fs-id1172101926382">¿Qué ocurre en el caso extremo de que los materiales de tipo <emphasis effect="italics">n</emphasis> y <emphasis effect="italics">p</emphasis> estén muy dopados?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101911875">
+<problem id="fs-id1172102007595">
+<para id="fs-id1172102081938">Explique cómo funciona un amplificador de audio, utilizando el concepto de transistor.</para>
+</problem>
+<solution id="fs-id1172101764329">
+<para id="fs-id1172101779876">El sonido mueve un diafragma hacia dentro y hacia fuera, lo que hace variar la corriente de entrada o base del circuito del transistor. El transistor amplifica esta señal (semiconductor <emphasis effect="italics">p-n-p</emphasis>). La corriente de salida o de colector acciona un altavoz.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172101762680" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172101884832">
+<problem id="fs-id1172099375186">
+<para id="fs-id1172101732025">Demuestre que para <emphasis effect="italics">V</emphasis> menor que cero, <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101939928">
+<problem id="fs-id1172101939930">
+<para id="fs-id1172099666123">Un diodo <emphasis effect="italics">p-n</emphasis> tiene una corriente de saturación inversa <m:math><m:mrow><m:mn>1,44</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>. Está polarizado directamente por lo que tiene una corriente de <m:math><m:mrow><m:mn>6,78</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math> que se mueve a través de él. ¿Qué voltaje de polarización se aplica si la temperatura es de 300 K?</para>
+</problem>
+<solution id="fs-id1172101764012">
+<para id="fs-id1172101764014"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>b</m:mi></m:msub><m:mo>=</m:mo><m:mn>0,458</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102037908">
+<problem id="fs-id1172102037910">
+<para id="fs-id1172101753799">La corriente de colector de un transistor es de 3,4 A para una corriente de base de 4,2 mA. ¿Cuál es la ganancia de corriente?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099661297">
+<problem id="fs-id1172101752960">
+<para id="fs-id1172101752962">Aplicando el extremo positivo de una batería al lado <emphasis effect="italics">p</emphasis> y el extremo negativo al lado <emphasis effect="italics">n</emphasis> de una unión <emphasis effect="italics">p-n</emphasis>, la corriente medida es <m:math><m:mrow><m:mn>8,76</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>. Si se invierte esta polaridad se obtiene una corriente de saturación inversa de <m:math><m:mrow><m:mn>4,41</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>. ¿Cuál es la temperatura si el voltaje de polarización es de 1,2 V?</para>
+</problem>
+<solution id="fs-id1172102105825">
+<para id="fs-id1172102105828"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>829</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101793340">
+<problem id="fs-id1172101793342">
+<para id="fs-id1172099382767">La corriente de base de un transistor es de 4,4 A, y su ganancia de corriente de 1126. ¿Cuál es la corriente de colector?</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172102150394">
+<term>amplificador</term>
+<meaning id="fs-id1172102112630">dispositivo eléctrico que amplifica una señal eléctrica.</meaning>
+</definition>
+<definition id="fs-id1172102103603">
+<term>corriente de base</term>
+<meaning id="fs-id1172099799687">corriente extraída del material de tipo <emphasis effect="italics">n</emphasis> de la base en un transistor.</meaning>
+</definition>
+<definition id="fs-id1172099386529">
+<term>tensión de ruptura</term>
+<meaning id="fs-id1172099577109">en un diodo, el voltaje de polarización inversa necesaria para provocar una avalancha de corriente.</meaning>
+</definition>
+<definition id="fs-id1172102125070">
+<term>corriente de colector</term>
+<meaning id="fs-id1172099665963">corriente extraída del material tipo <emphasis effect="italics">p</emphasis> del colector.</meaning>
+</definition>
+<definition id="fs-id1172101921694">
+<term>capa de agotamiento</term>
+<meaning id="fs-id1172101854037">región cercana a la unión <emphasis effect="italics">p-n</emphasis> que produce un campo eléctrico.</meaning>
+</definition>
+<definition id="fs-id1172101730423">
+<term>configuración de polarización directa</term>
+<meaning id="fs-id1172099499479">configuración de diodos que da lugar a una corriente alta.</meaning>
+</definition>
+<definition id="fs-id1172099535115">
+<term>transistor de unión</term>
+<meaning id="fs-id1172101882991">válvula eléctrica con base en una unión <emphasis effect="italics">p-n-p</emphasis>.</meaning>
+</definition>
+<definition id="fs-id1172102025287">
+<term>unión <emphasis effect="italics">p-n</emphasis></term>
+<meaning id="fs-id1172101805865">unión formada por la unión de semiconductores de tipo <emphasis effect="italics">p</emphasis> y <emphasis effect="italics">n</emphasis>.</meaning>
+</definition>
+<definition id="fs-id1172099753934">
+<term>configuración de polarización inversa</term>
+<meaning id="fs-id1172099412673">configuración de diodos que da lugar a una corriente baja.</meaning>
+</definition>
+</glossary>
+
+</document>

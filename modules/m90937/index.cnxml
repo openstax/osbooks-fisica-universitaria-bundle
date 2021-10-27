@@ -1,0 +1,195 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Resonancia en un circuito de ac</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90937</md:content-id>
+  <md:title>Resonancia en un circuito de ac</md:title>
+  <md:abstract>Al final de esta sección, podrá: <list>
+<item>Determinar la frecuencia angular de resonancia ac máxima para un circuito RLC.</item>
+<item>Explicar el ancho de la curva de potencia media versus la frecuencia angular y su significado utilizando términos como ancho de banda y factor de calidad.</item></list></md:abstract>
+  <md:uuid>d14fd3ac-eaf6-4b89-869b-730b6f2a6d6c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172100859886">En el circuito en serie <emphasis effect="italics">RLC</emphasis> de la <link target-id="CNX_UPhysics_32_03_acrlc" document="m90935"/>, la amplitud de la corriente es, según la <link target-id="fs-id1172101904392" document="m90935"/>:</para>
+<equation id="fs-id1172100799858"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>ω</m:mtext><m:mi>L</m:mi><m:mo>−</m:mo><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:mtext>ω</m:mtext><m:mi>C</m:mi></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100915011">Si podemos variar la frecuencia del generador de ac manteniendo constante la amplitud de su voltaje de salida, la corriente cambia en consecuencia. Un gráfico de <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> en función de <m:math><m:mtext>ω</m:mtext></m:math> se muestra en la <link target-id="CNX_UPhysics_32_05_ivsw"/>.</para>
+<figure id="CNX_UPhysics_32_05_ivsw">
+<media id="fs-id1172100726653" alt="La figura muestra un gráfico de I0 en función de omega. La curva asciende gradualmente, tiene un pico romo en el centro y luego desciende gradualmente hasta su valor original. El valor y en el pico es V0 por R y el valor x es omega 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_05_ivsw.jpg"/>
+</media>
+<caption>En la frecuencia de resonancia de un circuito <emphasis effect="italics">RLC</emphasis>, <m:math><m:mrow><m:msub><m:mtext>ω</m:mtext><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mrow></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> la amplitud de la corriente está en su valor máximo.</caption>
+</figure>
+<para id="fs-id1172100785250">En <link document="m90696">Oscilaciones</link> encontramos un gráfico similar en el que la amplitud de un oscilador armónico amortiguado se trazaba frente a la frecuencia angular de una fuerza motriz sinusoidal (vea <link target-id="CNX_UPhysics_15_07_ForcDmpAmp" document="m90702">Oscilaciones forzadas</link>). Esta similitud no es solo una coincidencia, como se ha demostrado anteriormente con la aplicación de la regla de las tensiones de Kirchhoff al circuito de la <link target-id="CNX_UPhysics_32_03_acrlc" document="m90935"/>. Esto da como resultado</para><equation id="fs-id1172100744720"><m:math><m:mrow><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>i</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>i</m:mi><m:mi>R</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>q</m:mi><m:mi>C</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mtext>ω</m:mtext><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100584131">o</para>
+<equation id="fs-id1172100746864" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>R</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>C</m:mi></m:mfrac><m:mi>q</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mtext>ω</m:mtext><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100659302">donde hemos sustituido <emphasis effect="italics">dq</emphasis>(t)/<emphasis effect="italics">dt</emphasis> por <emphasis effect="italics">i</emphasis>(t). Una comparación de la <link target-id="fs-id1172100744720"/> y de <link document="m90696">Oscilaciones</link> y <link target-id="fs-id1167131231570" document="m90701">Oscilaciones amortiguadas</link> para el movimiento armónico amortiguado demuestra claramente que el circuito en serie <emphasis effect="italics">RLC</emphasis> controlado es el análogo eléctrico del oscilador armónico amortiguado controlado.</para><para id="fs-id1172100876537">La <term>frecuencia de resonancia</term> <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> del circuito <emphasis effect="italics">RLC</emphasis> es la frecuencia a la que la amplitud de la corriente es máxima y el circuito oscilaría si no fuera alimentado por una fuente de voltaje. Por inspección, esto corresponde a la frecuencia angular <m:math><m:mrow><m:msub><m:mtext>ω</m:mtext><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>f</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> en la que la impedancia <emphasis effect="italics">Z</emphasis> en la <link target-id="fs-id1172100799858"/> es un mínimo, o cuando</para>
+<equation id="fs-id1172100815006" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>ω</m:mtext><m:mn>0</m:mn></m:msub><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mtext>ω</m:mtext><m:mn>0</m:mn></m:msub><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1172100664791">y</para>
+<note id="fs-id1172100831401" class="equation-callout">
+<equation id="fs-id1172100657430"><label/><m:math><m:mrow><m:msub><m:mtext>ω</m:mtext><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172100732198">Esta es la frecuencia angular de resonancia del circuito. Sustituyendo <m:math><m:mrow><m:msub><m:mtext>ω</m:mtext><m:mn>0</m:mn></m:msub></m:mrow></m:math> en la <link target-id="fs-id1172101939335" document="m90935"/>, la <link target-id="fs-id1172101904392" document="m90935"/> y la <link target-id="fs-id1172101939380" document="m90935"/>, hallamos que en la resonancia,</para>
+<equation id="fs-id1172100760871" class="unnumbered"><label/><m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext>,</m:mtext><m:mtext> </m:mtext><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:mrow><m:mtext> </m:mtext><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mtext> </m:mtext><m:mi>Z</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100781156">Por lo tanto, en resonancia, un circuito <emphasis effect="italics">RLC</emphasis> es puramente resistivo, con la emf y la corriente aplicadas en fase.</para>
+<para id="fs-id1172100757806">¿Qué ocurre con la potencia en resonancia? La <link target-id="fs-id1172102033252" document="m90936"/> nos dice cómo varía la potencia media transferida desde un generador de ac a la combinación <emphasis effect="italics">RLC</emphasis> con la frecuencia. Además, <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub></m:mrow></m:math> alcanza un máximo cuando <emphasis effect="italics">Z</emphasis>, que depende de la frecuencia, es un mínimo, es decir, cuando <m:math><m:mrow><m:msub><m:mi>X</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>X</m:mi><m:mi>C</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>Z</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math> Así, en resonancia, la potencia media de salida de la fuente en un circuito en serie <emphasis effect="italics">RLC</emphasis> es máxima. Usando la <link target-id="fs-id1172102033252" document="m90936"/>, este máximo es <m:math><m:mrow><m:mrow><m:mrow><m:msubsup><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172100638065">La <link target-id="CNX_UPhysics_32_05_band"/> es un gráfico típico de <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub></m:mrow></m:math> en función a <m:math><m:mtext>ω</m:mtext></m:math> en la región de máxima potencia. El <term>ancho de banda</term> <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mtext>ω</m:mtext></m:mrow></m:math> del pico de resonancia se define como el rango de frecuencias angulares <m:math><m:mtext>ω</m:mtext></m:math> sobre la cual la potencia media <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub></m:mrow></m:math> es mayor que la mitad del valor máximo de <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> La agudeza del pico se describe mediante una cantidad sin dimensiones conocida como el <term>factor de calidad</term> <emphasis effect="italics">Q</emphasis> del circuito. Por definición,</para>
+<note id="fs-id1172100836100" class="equation-callout">
+<equation id="fs-id1172100858447"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mtext>ω</m:mtext><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mtext>ω</m:mtext></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172100556251">donde <m:math><m:mrow><m:msub><m:mtext>ω</m:mtext><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la frecuencia angular de resonancia. Un <emphasis effect="italics">Q</emphasis> alto indica un pico de resonancia agudo. Podemos dar <emphasis effect="italics">Q</emphasis> en términos de los parámetros del circuito como</para>
+<note id="fs-id1172100639871" class="equation-callout">
+<equation id="fs-id1172100780758"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mtext>ω</m:mtext><m:mn>0</m:mn></m:msub><m:mi>L</m:mi></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_32_05_band">
+<media id="fs-id1172100667039" alt="La figura muestra un gráfico de la barra P en función de omega. La curva asciende gradualmente, tiene un pico romo en el centro y luego desciende gradualmente hasta su valor original. El valor y en el pico es V al cuadrado subíndice rms por R y el valor x es omega 0. El valor y cerca del centro de la curva es V al cuadrado subíndice rms por 2R. La anchura de la curva cerca del centro se denomina delta omega.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_05_band.jpg"/>
+</media>
+<caption>Al igual que la corriente, la potencia media transferida desde un generador de ac a un circuito <emphasis effect="italics">RLC</emphasis> alcanza su máximo en la frecuencia de resonancia.</caption>
+</figure>
+<para id="fs-id1172100627991">Los circuitos resonantes se utilizan habitualmente para pasar o rechazar rangos de frecuencia seleccionados. Esto se hace ajustando el valor de uno de los elementos y, por tanto, "sintonizando" el circuito a una frecuencia de resonancia determinada. Por ejemplo, en las radios, el receptor se sintoniza con la emisora deseada ajustando la frecuencia de resonancia de sus circuitos para que coincida con la frecuencia de la emisora. Si el circuito de sintonía tiene un <emphasis effect="italics">Q</emphasis> alto, tendrá un ancho de banda pequeño, por lo que las señales de otras emisoras a frecuencias incluso ligeramente diferentes de la frecuencia de resonancia encuentran una alta impedancia y no pasan por el circuito. Los teléfonos móviles funcionan de forma similar, comunicándose con señales de alrededor de 1 GHz que se sintonizan mediante un circuito inductor-condensador. Una de las aplicaciones más comunes de los condensadores es su uso en circuitos de sincronización de ac, basados en la obtención de una frecuencia de resonancia. Un detector de metales también utiliza un desplazamiento de la frecuencia de resonancia en la detección de metales (<link target-id="CNX_UPhysics_32_05_swim"/>).</para>
+<figure id="CNX_UPhysics_32_05_swim"><media id="fs-id1172100526304" alt="Fotografía de un buceador subacuático utilizando un detector de metales.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_05_swim.jpg"/>
+</media>
+
+<caption>Cuando un detector de metales se acerca a un trozo de metal, la autoinducción de una de sus bobinas cambia. Esto provoca un cambio en la frecuencia de resonancia de un circuito que contiene la bobina. Ese desplazamiento es detectado por los circuitos y transmitido al buceador por medio de los auriculares (créditos: modificación del trabajo de Eric Lippmann, de la Marina de EE. UU.).</caption></figure><example id="fs-id1172100517213">
+<para id="fs-id1172100598834"><title>Resonancia en un circuito <emphasis effect="italics">RLC</emphasis> en serie</title>(a) ¿Cuál es la frecuencia de resonancia de un circuito que utiliza los valores de voltaje y LRC conectados en serie del <link target-id="fs-id1172101788195" document="m90934"/>? (b) Si el generador de ac se ajusta a esta frecuencia sin cambiar la amplitud del voltaje de salida, ¿cuál es la amplitud de la corriente?</para><para id="fs-id1172100882291"><title>Estrategia</title>
+La frecuencia de resonancia de un circuito <emphasis effect="italics">RLC</emphasis> se calcula a partir de la <link target-id="fs-id1172100657430"/>, que proviene de un equilibrio entre las reactancias del condensador y del inductor. Como el circuito está en resonancia, la impedancia es igual al resistor. A continuación, la corriente de pico se calcula mediante la división del voltaje entre la resistencia.</para>
+<para id="fs-id1172100876587"><title>Solución</title></para>
+<list id="fs-id1172100618230" list-type="enumerated" number-style="lower-alpha">
+<item>La frecuencia de resonancia se calcula con la <link target-id="fs-id1172100657430"/>:
+<equation id="fs-id1172100730270" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>f</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1,03</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>En resonancia, la impedancia del circuito es puramente resistiva, y la amplitud de la corriente es
+<equation id="fs-id1172100876870" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0,100</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1172100781040"><title>Importancia</title>
+Si el circuito no estuviera ajustado a la frecuencia de resonancia, necesitaríamos la impedancia de todo el circuito para calcular la corriente.</para>
+</example>
+<example id="fs-id1172100841992">
+<para id="fs-id1172100766614"><title>Transferencia de potencia en un circuito en serie <emphasis effect="italics">RLC</emphasis> en resonancia</title>
+(a) ¿Cuál es la frecuencia angular de resonancia de un circuito <emphasis effect="italics">RLC</emphasis> con <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>0,200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mtext>,</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H,</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F?</m:mtext></m:mrow></m:math> (b) Si una fuente de ac de amplitud constante 4,00 V se ajusta a esta frecuencia, ¿cuál es la potencia media transferida al circuito? (c) Determine <emphasis effect="italics">Q</emphasis> y el ancho de banda de este circuito.</para>
+<para id="fs-id1172100620759"><title>Estrategia</title>
+La frecuencia angular de resonancia se calcula a partir de la <link target-id="fs-id1172100657430"/>. La potencia media se calcula a partir del voltaje rms y la resistencia del circuito. El factor de calidad se calcula a partir de la <link target-id="fs-id1172100780758"/> y conociendo la frecuencia de resonancia. El ancho de banda se calcula a partir de la <link target-id="fs-id1172100858447"/> y conociendo el factor de calidad.</para>
+<para id="fs-id1172100858423"><title>Solución</title></para>
+<list id="fs-id1172100845573" list-type="enumerated" number-style="lower-alpha">
+<item>La frecuencia angular de resonancia es
+<equation id="fs-id1172100917090" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:msub><m:mtext>ω</m:mtext><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1,12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>A esta frecuencia, la potencia media transferida al circuito es máxima. Es
+<equation id="fs-id1172100883235" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>0,200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>40,0</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>El factor de calidad del circuito es
+<equation id="fs-id1172100883186" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mtext>ω</m:mtext><m:mn>0</m:mn></m:msub><m:mi>L</m:mi></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−3</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>0,200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>224</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1172100639150">Entonces calculamos para el ancho de banda</para>
+<equation id="fs-id1172100876222" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mtext>ω</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mtext>ω</m:mtext><m:mn>0</m:mn></m:msub></m:mrow><m:mi>Q</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1,12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow><m:mrow><m:mn>224</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>50,0</m:mn><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172100916265"><title>Importancia</title>
+Si se desea un ancho de banda más estrecho, una resistencia más baja o una inductancia más alta ayudarían. Sin embargo, una resistencia más baja aumenta la potencia transferida al circuito, lo que puede no ser deseable, dependiendo de la potencia máxima que se pueda transferir.</para>
+</example>
+<note id="fs-id1172100796341" class="check-understanding">
+<exercise id="fs-id1172100796345">
+<problem id="fs-id1172100867248">
+<para id="fs-id1172100867250">En el circuito de la <link target-id="CNX_UPhysics_32_03_acrlc" document="m90935"/>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H,</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F,</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> (a) ¿Cuál es la frecuencia de resonancia? (b) ¿Cuál es la impedancia del circuito en la resonancia? (c) Si la amplitud del voltaje es de 10 V, ¿cuál es <emphasis effect="italics">i</emphasis><emphasis effect="italics">(t</emphasis>) en la resonancia? (d) La frecuencia del generador de ac se cambia ahora a 200 Hz. Calcule el desfase entre la corriente y la emf del generador.</para>
+</problem>
+<solution id="fs-id1172100845433">
+<para id="fs-id1172100810831">a. 160 Hz; b <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; c <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mi>t</m:mi></m:mrow></m:math>; d. 0,023 rad</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1172100754660" class="check-understanding">
+<exercise id="fs-id1172100754663">
+<problem id="fs-id1172100842006">
+<para id="fs-id1172100842009">¿Qué ocurre con la frecuencia de resonancia de un circuito en serie <emphasis effect="italics">RLC</emphasis> cuando las siguientes cantidades se incrementan en un factor de 4: (a) la capacitancia, (b) la autoinducción y (c) la resistencia?</para>
+</problem>
+<solution id="fs-id1172100886257">
+<para id="fs-id1172100845864">a. reducido a la mitad; b. reducido a la mitad; c. igual</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1172100800113" class="check-understanding">
+<exercise id="fs-id1172100800116">
+<problem id="fs-id1172100800118">
+<para id="fs-id1172100769034">La frecuencia angular de resonancia de un circuito en serie <emphasis effect="italics">RLC</emphasis> es <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Una fuente de ac que funciona a esta frecuencia transfiere una potencia media de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math> al circuito La resistencia del circuito es <m:math><m:mrow><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Escriba una expresión para la emf de la fuente.</para>
+</problem>
+<solution id="fs-id1172100632808">
+<para id="fs-id1172100882781"><m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,14</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1172100878722" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172100780985" list-type="bulleted" bullet-style="bullet">
+<item>En la frecuencia de resonancia, la reactancia inductiva es igual a la capacitiva.</item>
+<item>El gráfico de potencia media en función de la frecuencia angular de un circuito <emphasis effect="italics">RLC</emphasis> tiene un pico situado en la frecuencia de resonancia; la agudeza o ancho del pico se conoce como ancho de banda.</item>
+<item>El ancho de banda está relacionado con una cantidad sin dimensiones llamada factor de calidad. Un valor alto del factor de calidad es un pico agudo o estrecho.</item>
+</list>
+</section>
+<section id="fs-id1172100846205" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172100841908">
+<problem id="fs-id1172100841910">
+<para id="fs-id1172100785228">(a) Calcule la frecuencia angular de resonancia de un <emphasis effect="italics">circuito en serie</emphasis> RLC para el que <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mtext>5 mH</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> (b) Si se cambia <emphasis effect="italics">R</emphasis> por <m:math><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo></m:mrow></m:math> ¿qué ocurre con la frecuencia angular de resonancia?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100840243">
+<problem id="fs-id1172100840245">
+<para id="fs-id1172100842118">La frecuencia de resonancia de un circuito <emphasis effect="italics">RLC</emphasis> en serie es <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>Hz</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Si la autoinducción en el circuito es de 5,0 mH, ¿cuál es la capacitancia en el circuito?</para>
+</problem>
+<solution id="fs-id1172100639465">
+<para id="fs-id1172100639467"><m:math><m:mrow><m:mn>1,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172100796516">
+<problem id="fs-id1172100796518">
+<para id="fs-id1172100796520">(a) ¿Cuál es la frecuencia de resonancia de un circuito en serie <emphasis effect="italics">RLC</emphasis> con <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>? (b) ¿Cuál es la impedancia del circuito en resonancia?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100887307">
+<problem id="fs-id1172100887310">
+<para id="fs-id1172100762598">Para un circuito en serie <emphasis effect="italics">RLC</emphasis>, <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0,25</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> (a) Si se conecta al circuito una fuente de ac de frecuencia variable, ¿a qué frecuencia se disipa la máxima potencia en el resistor? (b) ¿Cuál es el factor de calidad del circuito?</para>
+</problem>
+<solution id="fs-id1172100886504">
+<para id="fs-id1172100886506">a. 820 Hz; b. 7,8</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100790890">
+<problem id="fs-id1172100790892">
+<para id="fs-id1172100790894">Una fuente de ac de amplitud de voltaje de 100 V y frecuencia variable <emphasis effect="italics">f</emphasis> acciona un circuito en serie <emphasis effect="italics">RLC</emphasis> con <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>25</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> (a) Trace la corriente a través del resistor en función de la frecuencia <emphasis effect="italics">f</emphasis>. (b) Utilice el gráfico para determinar la frecuencia de resonancia del circuito.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100886484">
+<problem id="fs-id1172100886486">
+<para id="fs-id1172100886488">(a) ¿Cuál es la frecuencia de resonancia de un resistor, un condensador y un inductor conectados en serie si <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω,</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>? (b) Si esta combinación se conecta a una fuente de 100 V que funciona a la frecuencia de resonancia, ¿cuál es la potencia de salida de la fuente? (c) ¿Cuál es el <emphasis effect="italics">Q</emphasis> del circuito? (d) ¿Cuál es el ancho de banda del circuito?</para></problem>
+<solution id="fs-id1172100883713">
+<para id="fs-id1172100883716">a. 50 Hz; b. 50 W; c. 6,32; d. 50 rad/s</para></solution>
+</exercise>
+<exercise id="fs-id1172100884947">
+<problem id="fs-id1172100884949">
+<para id="fs-id1172100884951">Supongamos que una bobina tiene una autoinducción de 20,0 H y una resistencia de <m:math><m:mrow><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. ¿Qué (a) capacitancia y (b) resistencia deben conectarse en serie con la bobina para producir un circuito que tenga una frecuencia de resonancia de 100 Hz y un <emphasis effect="italics">Q</emphasis> de 10?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100884986">
+<problem id="fs-id1172100916201">
+<para id="fs-id1172100916203">Un generador de ac se conecta a un dispositivo cuyos circuitos internos no se conocen. Solo conocemos la corriente y el voltaje fuera del aparato, como se muestra a continuación. Basándose en la información dada, ¿qué puede deducir sobre la naturaleza eléctrica del dispositivo y su uso de potencia?</para>
+<media id="fs-id1172100916208" alt="La figura muestra una fuente de ac conectada a una caja marcada como Z. La fuente es de 170 V, cos 120 pi t. La corriente que atraviesa el circuito es de 0,5 Amp, cos paréntesis 120 pi t más pi por 4 paréntesis.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_05_Problem49_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100885112">
+<para id="fs-id1172100885114">La reactancia del condensador es mayor que la reactancia del inductor, porque la corriente lidera el voltaje. El consumo de energía es de 30 W.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172100886540">
+<term>ancho de banda</term>
+<meaning id="fs-id1172100886545">gama de frecuencias angulares en las que la potencia media es superior a la mitad del valor máximo de la potencia media</meaning>
+</definition>
+<definition id="fs-id1172100846558">
+<term>factor de calidad</term>
+<meaning id="fs-id1172100846563">cantidad sin dimensiones que describe la agudeza del pico del ancho de banda; un factor de calidad alto es un pico de resonancia agudo o estrecho</meaning>
+</definition>
+<definition id="fs-id1172100846569">
+<term>frecuencia de resonancia</term>
+<meaning id="fs-id1172100858659">frecuencia a la que la amplitud de la corriente es máxima y el circuito oscilaría si no fuera conducido por una fuente de voltaje</meaning>
+</definition>
+</glossary>
+</document>

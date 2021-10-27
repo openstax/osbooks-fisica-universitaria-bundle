@@ -1,0 +1,133 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Máquinas térmicas</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90843</md:content-id>
+  <md:title>Máquinas térmicas</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir el funcionamiento y los componentes de una máquina térmica.</item>
+<item>Explicar la eficiencia de una máquina.</item>
+<item>Calcular el rendimiento de una máquina para un ciclo determinado de un gas ideal.</item></list></md:abstract>
+  <md:uuid>a362f38f-5f08-425b-9a5e-fa59f5dc8493</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167586268105">Una <term>máquina térmica</term> es un dispositivo utilizado para extraer el calor de una fuente y convertirlo en trabajo mecánico que se utiliza para todo tipo de aplicaciones. Por ejemplo, una máquina de vapor en un tren antiguo puede producir el trabajo necesario para conducir el tren. La construcción y la aplicación de las máquinas térmicas plantean varias cuestiones. Por ejemplo, ¿cuál es el porcentaje máximo del calor extraído que puede utilizarse para realizar trabajo? Esto resulta ser una pregunta que solo puede responderse a través de la segunda ley de la termodinámica.</para>
+<para id="fs-id1167586032431">La segunda ley de la termodinámica puede enunciarse formalmente de varias maneras. Una de las afirmaciones presentadas hasta ahora es la relativa a la dirección del flujo de calor espontáneo, conocida como declaración de Clausius. Otras dos afirmaciones se basan en las máquinas térmicas <emphasis effect="italics">Cuando consideramos las máquinas térmicas y los dispositivos asociados, como los refrigeradores y las bombas de calor, no utilizamos la convención normal de signos para el calor y el trabajo</emphasis>. Por comodidad, suponemos que los símbolos <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> y <emphasis effect="italics">W</emphasis> representan únicamente las cantidades de calor transferido y de trabajo entregado, independientemente de cuáles sean los dadores o los receptores. El hecho de que el calor entre o salga de un sistema y que el trabajo lo haga un sistema, o hacia un él, se indica con los signos adecuados delante de los símbolos y con las direcciones de las flechas en los diagramas.</para>
+<para id="fs-id1167585966477">Resulta que necesitamos más de una fuente de calor/sumidero para construir una máquina térmica. Volveremos sobre este punto más adelante, cuando comparemos diferentes enunciados de la segunda ley de la termodinámica. Por el momento, suponemos que se construye una máquina térmica entre una fuente de calor (reservorio de alta temperatura o reservorio caliente) y un disipador de calor (reservorio de baja temperatura o reservorio frío), representado esquemáticamente en la <link target-id="CNX_UPhysics_21_02_Engine"/>. La máquina absorbe el calor <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> desde una fuente de calor (<term>reservorio caliente</term>) de temperatura Kelvin <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> utiliza parte de esa energía para producir un trabajo <emphasis effect="italics">W</emphasis> útil, y luego desecha la energía restante en forma de calor <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> en un disipador de calor (<term>reservorio frío</term>) de temperatura Kelvin <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Las centrales eléctricas y los motores de combustión interna son ejemplos de máquinas térmicas. Las <term class="no-emphasis">centrales eléctricas</term> utilizan el vapor producido a alta temperatura para accionar los generadores eléctricos, al tiempo que expulsan el calor a la atmósfera o a una masa de agua cercana en el papel de disipador de calor. En un <term class="no-emphasis">motor de combustión interna</term> se utiliza una mezcla de gas y aire caliente para empujar un pistón, y el calor se expulsa a la atmósfera cercana de manera similar.</para>
+<figure id="CNX_UPhysics_21_02_Engine">
+<media id="fs-id1167582396709" alt="La figura muestra el esquema de una máquina con una flecha hacia abajo Q subíndice h en T subíndice h. Cuando esta atraviesa el motor, la flecha se divide con una flecha hacia abajo Q subíndice c en T subíndice c y una flecha hacia la izquierda W.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_02_Engine.jpg"/>
+</media>
+<caption>Representación esquemática de una máquina térmica. La energía fluye del reservorio caliente al reservorio frío mientras se realiza el trabajo.</caption>
+</figure>
+<para id="fs-id1167586179099">Las máquinas térmicas reales tienen muchos diseños diferentes. Algunos ejemplos son los motores de combustión interna, como los utilizados en la mayoría de los autos actuales, y los motores de combustión externa, como las máquinas de vapor utilizadas en los antiguos trenes con máquinas de vapor. La <link target-id="CNX_UPhysics_21_02_Reactor"/> muestra una foto de una central eléctrica nuclear en funcionamiento. La atmósfera que rodea a los reactores actúa como reservorio frío, y el calor que genera la reacción nuclear proporciona el calor del reservorio caliente.</para>
+<figure id="CNX_UPhysics_21_02_Reactor"><media id="fs-id1167586055759" alt="La foto muestra los gases que se desprenden de una central eléctrica.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_02_Reactor.jpg"/>
+</media>
+
+<caption>El calor que se expulsa en una central eléctrica nuclear va a las torres de refrigeración, donde se libera a la atmósfera.</caption></figure><para id="fs-id1167582389650">Las máquinas térmicas funcionan llevando una <emphasis effect="italics">sustancia de trabajo</emphasis> a través de un ciclo. En una central eléctrica de vapor, la <term class="no-emphasis">sustancia de trabajo</term> es el agua, que comienza como líquido, se vaporiza, se utiliza para accionar una turbina y finalmente se condensa de nuevo en estado líquido. Como ocurre con todas las sustancias de trabajo en los procesos cíclicos, una vez que el agua vuelve a su estado inicial, repite la misma secuencia.</para>
+<para id="fs-id1167585860571">Por ahora, suponemos que los ciclos de las máquinas térmicas son reversibles, por lo que no hay pérdida de energía por fricción u otros efectos irreversibles. Supongamos que la máquina de la <link target-id="CNX_UPhysics_21_02_Engine"/> realiza un ciclo completo y que <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> y <emphasis effect="italics">W</emphasis> representan los calores intercambiados y el trabajo realizado para ese ciclo. Dado que los estados inicial y final del sistema son los mismos, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> para el ciclo. Por lo tanto, tenemos de la primera ley de la termodinámica,</para>
+<equation id="fs-id1167582518199" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167582386259">para que</para>
+<note id="fs-id1167586284710" class="equation-callout">
+<equation id="fs-id1167585933490"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167585804511">La medida más importante de una máquina térmica es su <term>eficiencia (<emphasis effect="italics">e</emphasis>)</term>, que es simplemente "lo que sacamos" dividido por "lo que metemos" durante cada ciclo, como se define por <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fuera</m:mtext></m:mrow></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>dentro</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167586008613">Con una máquina térmica trabajando entre dos reservorios de calor, sacamos <emphasis effect="italics">W</emphasis> y ponemos <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> por lo que la eficiencia de la máquina es</para>
+<note id="fs-id1167586245966" class="equation-callout">
+<equation id="fs-id1167585928177"><label/><m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>W</m:mi><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167586285675">En este caso, utilizamos la <link target-id="fs-id1167585933490"/>, <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> en el último paso de esta expresión para la eficiencia.</para>
+<example id="fs-id1167586006152">
+<para id="fs-id1167585899958"><title>Una cortadora de césped</title>
+Un cortacésped está clasificado para tener una eficiencia de <m:math><m:mrow><m:mn>25,0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> y una potencia media de 3,00 kW. ¿Cuál es (a) el trabajo medio y (b) la descarga mínima de calor en el aire por el cortacésped en un minuto de uso?</para>
+<para id="fs-id1167582509920"><title>Estrategia</title>
+A partir de la potencia media (es decir, del ritmo de producción de trabajo) podemos calcular el trabajo realizado en un tiempo transcurrido. Entonces, a partir de la eficiencia dada, podemos calcular la descarga mínima de calor <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> con <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>+</m:mo><m:mi>W</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167586038077"><title>Solución</title></para>
+<list id="fs-id1167582455785" list-type="enumerated" number-style="lower-alpha">
+<item>El trabajo medio realizado por el cortacésped es
+<equation id="fs-id1167582859861" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>El calor mínimo descargado en el aire viene dado por
+<equation id="fs-id1167585843417" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>+</m:mo><m:mi>W</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+lo que lleva a
+<equation id="fs-id1167586000635" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>W</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mi>e</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>0,25</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>=</m:mo><m:mn>540</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167582528366"><title>Importancia</title>
+A medida que aumenta la eficiencia, disminuye el calor mínimo descargado. Esto ayuda al medio ambiente y a la atmósfera al no expulsar tanto calor residual.</para>
+</example>
+<section id="fs-id1167586050521" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167586278445" list-type="bulleted" bullet-style="bullet">
+<item>El trabajo realizado por una máquina térmica es la diferencia entre el calor absorbido del reservorio caliente y el calor descargado al reservorio frío, es decir, <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>La relación entre el trabajo realizado por la máquina y el calor absorbido del reservorio caliente proporciona la eficiencia de la máquina, es decir, <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mi>W</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+<section id="fs-id1167582672160" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1167585821688">
+<problem id="fs-id1167586032056">
+<para id="fs-id1167585824306">Explique en términos prácticos por qué la eficiencia se define como <m:math><m:mrow><m:mrow><m:mi>W</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167585832637" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167582426530">
+<problem id="fs-id1167585997807">
+<para id="fs-id1167586036662">Un motor tiene un rendimiento de 0,40. Si realiza 200 J de trabajo por ciclo, ¿cuáles son las cantidades correspondientes de calor absorbido y descargado?</para></problem>
+</exercise>
+<exercise id="fs-id1167585748069">
+<problem id="fs-id1167586032488">
+<para id="fs-id1167586007583">Al realizar 100,0 J de trabajo, una máquina descarga 50,0 J de calor. ¿Cuál es la eficiencia de la máquina?</para></problem>
+<solution id="fs-id1167585853526">
+<para id="fs-id1167585848423">0,667</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167582669088">
+<problem id="fs-id1167582575458">
+<para id="fs-id1167585746468">Una máquina con un rendimiento de 0,30 absorbe 500 J de calor por ciclo. (a) ¿Cuánto trabajo realiza por ciclo? (b) ¿Cuánto calor descarga por ciclo?</para></problem>
+</exercise>
+<exercise id="fs-id1167586035959">
+<problem id="fs-id1167585880945">
+<para id="fs-id1167585918379">Se comprueba que una máquina descarga 100,0 J mientras absorbe 125,0 J en cada ciclo de funcionamiento. (a) ¿Cuál es el rendimiento de la máquina? (b) ¿Cuánto trabajo realiza por ciclo?</para></problem>
+<solution id="fs-id1167586021813">
+<para id="fs-id1167582459417">a. 0,200; b. 25 J</para></solution>
+</exercise>
+<exercise id="fs-id1167585832280">
+<problem id="fs-id1167585823426">
+<para id="fs-id1167585954660">La temperatura del reservorio frío de la máquina es de 300 K. Tiene un rendimiento de 0,30 y absorbe 500 J de calor por ciclo. (a) ¿Cuánto trabajo realiza por ciclo? (b) ¿Cuánto calor descarga por ciclo?</para></problem>
+</exercise>
+<exercise id="fs-id1167586262884">
+<problem id="fs-id1167586002388">
+<para id="fs-id1167585926010">Una máquina absorbe tres veces más calor del que descarga. El trabajo realizado por la máquina por ciclo es de 50 J. Calcule (a) el rendimiento de la máquina, (b) el calor absorbido por ciclo y (c) el calor descargado por ciclo.</para></problem>
+<solution id="fs-id1167585776800">
+<para id="fs-id1167585979206">a. 0,67; b. 75 J; c. 25 J</para></solution>
+</exercise>
+<exercise id="fs-id1167585846256">
+<problem id="fs-id1167585771476">
+<para id="fs-id1167585999132">Una central eléctrica de carbón consume 100.000 kg de carbón por hora y produce 500 MW de energía. Si el calor de combustión del carbón es de 30 MJ/kg, ¿cuál es el rendimiento de la central eléctrica?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167586284074">
+<term>reservorio frío</term>
+<meaning id="fs-id1167582645344">disipador de calor utilizado por una máquina térmica</meaning>
+</definition>
+<definition id="fs-id1167585844109">
+<term>eficiencia (<emphasis effect="italics">e</emphasis>)</term>
+<meaning id="fs-id1167586180439">trabajo de salida de la máquina sobre el calor de entrada a la máquina desde el reservorio caliente</meaning>
+</definition>
+<definition id="fs-id1167586052936">
+<term>máquina térmica</term>
+<meaning id="fs-id1167585967050">dispositivo que convierte el calor en trabajo</meaning>
+</definition>
+<definition id="fs-id1167585875419">
+<term>reservorio caliente</term>
+<meaning id="fs-id1167585798145">fuente de calor utilizada por una máquina térmica</meaning>
+</definition>
+</glossary>
+
+</document>

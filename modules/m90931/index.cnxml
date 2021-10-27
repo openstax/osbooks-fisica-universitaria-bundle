@@ -1,0 +1,295 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Circuitos RLC en serie</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90931</md:content-id>
+  <md:title>Circuitos RLC en serie</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Determinar la frecuencia angular de oscilación de un circuito de un resistor, un inductor y un condensador <m:math><m:mrow><m:mo>(</m:mo><m:mi>R</m:mi><m:mi>L</m:mi><m:mi>C</m:mi><m:mo>)</m:mo></m:mrow></m:math> en serie.</item>
+<item>Relacionar el circuito <m:math><m:mrow><m:mi>R</m:mi><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:math> a una oscilación de resorte amortiguada.</item>
+</list></md:abstract>
+  <md:uuid>780474ea-3594-4224-8f2d-b9ae382920d0</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167131427799">Cuando el interruptor se cierra en el <term><emphasis effect="italics">circuito</emphasis> RLC</term> de <link target-id="CNX_UPhysics_31_06_RLC"/>(a), el condensador comienza a descargarse y la energía electromagnética se disipa por el resistor a una tasa de <m:math><m:mrow><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow></m:math>. Con <emphasis effect="italics">U</emphasis> dado por la <link document="m90928" target-id="fs-id1167134963649"/>, tenemos</para>
+<equation id="fs-id1167131187496"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>U</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>q</m:mi><m:mi>C</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>L</m:mi><m:mi>i</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>i</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167134812842">donde <emphasis effect="italics">i</emphasis> y <emphasis effect="italics">q</emphasis> son funciones que dependen del tiempo. Esto se reduce a</para>
+<equation id="fs-id1167131262832"><m:math><m:mrow><m:mi>L</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>R</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>C</m:mi></m:mfrac><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_31_06_RLC">
+<media id="fs-id1167131091260" alt="La figura a es un circuito con un condensador, un inductor y un resistor en serie. También están en serie con un interruptor, que está abierto. La figura b muestra el gráfico de la carga en función del tiempo. La carga está en su valor máximo, q0, en t = 0. La curva es similar a una onda sinusoidal que reduce su amplitud hasta llegar a cero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_06_RLC.jpg"/>
+</media>
+<caption>(a) Un circuito <emphasis effect="italics">RLC</emphasis>. Las oscilaciones electromagnéticas comienzan cuando se cierra el interruptor. El condensador está totalmente cargado inicialmente. (b) Las oscilaciones amortiguadas de la carga del condensador se muestran en esta curva de carga versus tiempo, o <emphasis effect="italics">q</emphasis> versus <emphasis effect="italics">t</emphasis>. El condensador contiene una carga <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> antes de que se cierre el interruptor.</caption>
+</figure>
+<para id="fs-id1167131632316">Esta ecuación es análoga a</para>
+<equation id="fs-id1167131274811" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>b</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134541538">que es la ecuación del movimiento para un <emphasis effect="italics">sistema masa-resorte amortiguado</emphasis> (la primera vez que usted vio esta ecuación fue en <link document="m90696">Oscilaciones</link>). Como vimos en ese capítulo, se puede demostrar que la solución de esta ecuación diferencial toma tres formas, dependiendo de si la frecuencia angular del resorte no amortiguado es mayor, igual o menor que <emphasis effect="italics">b</emphasis>/2<emphasis effect="italics">m</emphasis>. Por lo tanto, el resultado puede ser subamortiguado <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msqrt><m:mrow><m:mi>k</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:msqrt><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, amortiguado críticamente <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msqrt><m:mrow><m:mi>k</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:msqrt><m:mo>=</m:mo><m:mi>b</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, o sobreamortiguado <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msqrt><m:mrow><m:mi>k</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:msqrt><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Por analogía, la solución <emphasis effect="italics">q</emphasis><emphasis effect="italics">(t</emphasis>) de la ecuación diferencial <emphasis effect="italics">RLC</emphasis> tiene la misma característica. En este caso, solo se trata de un caso de subamortiguación. Sustituyendo <emphasis effect="italics">m</emphasis> por <emphasis effect="italics">L</emphasis>, <emphasis effect="italics">b</emphasis> por <emphasis effect="italics">R</emphasis>, <emphasis effect="italics">k</emphasis> por 1/<emphasis effect="italics">C</emphasis>, y <emphasis effect="italics">x</emphasis> por <emphasis effect="italics">q</emphasis> en la <link target-id="fs-id1167131262832"/>, y asumiendo <m:math><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:msqrt><m:mo>&gt;</m:mo><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:math>, obtenemos</para>
+<note id="fs-id1167131269228" class="equation-callout">
+<equation id="fs-id1167131111252"><label/><m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>R</m:mi><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext>′</m:mtext><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134869818">donde la frecuencia angular de las oscilaciones viene dada por</para>
+<note id="fs-id1167134940770" class="equation-callout">
+<equation id="fs-id1167134958768"><label/><m:math><m:mrow><m:msup><m:mi>ω</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134476902">Esta solución subamortiguada se muestra en la <link target-id="CNX_UPhysics_31_06_RLC"/>(b). Observe que la amplitud de las oscilaciones disminuye a medida que la energía se disipa en el resistor. La <link target-id="fs-id1167131111252"/> puede confirmarse experimentalmente midiendo el voltaje a través del condensador en función del tiempo. Este voltaje, multiplicado por la capacitancia del condensador, da entonces <emphasis effect="italics">q</emphasis><emphasis effect="italics">(t</emphasis>).</para>
+<note id="fs-id1167131082824" class="media-2">
+<para id="fs-id1167131331119">Haga una prueba con un <link url="https://openstax.org/l/21phetcirconstr">kit de construcción de circuitos interactivos</link> que permita hacer un gráfico de la corriente y el voltaje como una función de tiempo. Puede añadir inductores y condensadores para trabajar con cualquier combinación de circuitos <emphasis effect="italics">R</emphasis>, <emphasis effect="italics">L</emphasis> y <emphasis effect="italics">C</emphasis> con fuentes tanto de dc como de ac.</para>
+</note>
+<note id="fs-id1167131183816" class="media-2">
+<para id="fs-id1167131549948">Pruebe un <link url="https://openstax.org/l/21cirphysbascur_es">sitio web de applet java basado en circuitos</link> que tiene muchos problemas con fuentes de dc y ac que le ayudarán a practicar problemas de circuitos.</para>
+</note>
+<note id="fs-id1167131584277" class="check-understanding">
+<exercise id="fs-id1167134713946">
+<problem id="fs-id1167131102121">
+<para id="fs-id1167131502463">En un circuito <emphasis effect="italics">RLC</emphasis>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext><m:mo>,</m:mo><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>6,0</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) ¿Está el circuito subamortiguado, amortiguado críticamente o sobreamortiguado? (b) Si el circuito comienza a oscilar con una carga de <m:math><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> en el condensador, ¿cuánta energía se ha disipado en el resistor cuando cesan las oscilaciones?</para>
+</problem>
+<solution id="fs-id1167131459285">
+<para id="fs-id1167131201247">a. Sobreamortiguado; b. 0,75 J</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167131227727" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167131225149" list-type="bulleted" bullet-style="bullet">
+<item>La solución subamortiguada para la carga del condensador en un circuito <emphasis effect="italics">RLC</emphasis> es
+<equation id="fs-id1167131204578" class="unnumbered"><label/><m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>R</m:mi><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext>′</m:mtext><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>La frecuencia angular dada en la solución subamortiguada para el circuito <emphasis effect="italics">RLC</emphasis> es
+<equation id="fs-id1167134967794" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>ω</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+</section>
+<section id="fs-id1167134863650" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1167584933154" class="unnumbered unstyled" summary="The table has two columns and thirteen rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Mutual inductance by flux” and “M equals N subscript 2 phi subscript 21 divided by I subscript 1 equals N subscript 1 phi subscript 12 divided by I subscript 2”. The second row contains “Mutual inductance in circuits” and “epsilon subscript 1 equals minus M differential of I subscript 2 with respect to t”. The third row contains “Self-inductance in terms of magnetic flux” and “N phi subscript m equals L I”. The fourth row contains “Self-inductance in terms of emf” and “epsilon equals minus L differential of I with respect to t”. The fifth row contains “Self-inductance of a solenoid” and “L subscript solenoid equals mu subscript 0 N square A divided by l”. The sixth row contains “Self-inductance of a toroid” and “L subscript toroid equals mu subscript 0 N square h divided by 2 pi multiplied by natural log of R subscript 2 divided by R subscript 1”. The seventh row contains “Energy stored in an inductor” and “U equals half L I square”. The eighth row contains “Current as a function of time for a RL circuit” and “I opening parenthesis t closing parenthesis equals epsilon divided by R multiplied by opening parenthesis 1 minus exponential e power minus t divided by tau subscript L closing parenthesis”. The ninth row contains “Time constant for a RL circuit” and “tau subscript L equals L divided by R”. The tenth row contains “Charge oscillation in LC circuits” and “q opening parenthesis t closing parenthesis equals q subscript 0 cosine opening parenthesis omega t plus phi closing parenthesis”. The eleventh row contains “Angular frequency in LC circuits” and “omega equals square root 1 divided by L C”. The twelfth row contains “Current oscillations in LC circuits” and “i opening parenthesis t closing parenthesis equals minus omega q subscript 0 sine opening parenthesis omega t plus phi closing parenthesis”. The thirteenth row contains “Charge as a function of time in RLC circuit” and “q opening parenthesis t closing parenthesis equals q subscript 0 exponential e power minus R t divided by 2 L multiplied by cosine opening parenthesis omega dash t plus phi closing parenthesis”. The fourteenth row contains “Angular frequency in RLC circuit” and “omega dash equals square root 1 divided by L C minus opening parenthesis R divided by 2 L closing parenthesis square”.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Inductancia mutua por flujo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Inductancia mutua en los circuitos</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>M</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Autoinducción en términos de flujo magnético</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mi>I</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Autoinducción en términos de emf</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Autoinducción de un solenoide</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>solenoide</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi></m:mrow><m:mi>l</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Autoinducción de un toroide</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>toroide</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>In</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energía almacenada en un inductor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Corriente en función del tiempo para un circuito <emphasis effect="italics">RL</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mtext>ε</m:mtext><m:mi>R</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Constante de tiempo para un circuito <emphasis effect="italics">RL</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Oscilación de la carga en los circuitos <emphasis effect="italics">LC</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Frecuencia angular en circuitos <emphasis effect="italics">LC</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Oscilaciones de corriente en circuitos <emphasis effect="italics">LC</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>ω</m:mi><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Carga en función del tiempo en un circuito <emphasis effect="italics">RLC</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>R</m:mi><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext>′</m:mtext><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Frecuencia angular en circuito <emphasis effect="italics">RLC</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mtext>′</m:mtext><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</section>
+<section id="fs-id1167129963317" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167131375593">
+<problem id="fs-id1167131375595">
+<para id="fs-id1167131589779">Cuando se conecta un cable entre los dos extremos de un solenoide, el circuito resultante puede oscilar como un circuito <emphasis effect="italics">RLC</emphasis>. Describa la causa de la capacitancia en este circuito.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131332160">
+<problem id="fs-id1167134435225">
+<para id="fs-id1167134435228">Describe qué efecto tiene la resistencia de los cables de conexión en un circuito <emphasis effect="italics">LC</emphasis> oscilante.</para>
+</problem>
+<solution id="fs-id1167131548526">
+<para id="fs-id1167131584168">Esto crea un circuito <emphasis effect="italics">RLC</emphasis> que disipa energía, haciendo que las oscilaciones disminuyan en amplitud lenta o rápidamente dependiendo del valor de la resistencia.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131563568">
+<problem id="fs-id1167131563570">
+<para id="fs-id1167131631269">Suponga que quiere diseñar un circuito <emphasis effect="italics">LC</emphasis> con una frecuencia de 0,01 Hz. ¿Qué problemas puede encontrar?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131389037">
+<problem id="fs-id1167131389039">
+<para id="fs-id1167130363828">Un receptor de radio utiliza un circuito <emphasis effect="italics">RLC</emphasis> para seleccionar determinadas frecuencias para escuchar en su casa o automóvil sin oír otras frecuencias no deseadas. ¿Cómo podría alguien diseñar un circuito de este tipo?</para>
+</problem>
+<solution id="fs-id1167131485960">
+<para id="fs-id1167131571411">Tendría que elegir una resistencia lo suficientemente pequeña como para que solo se capte una emisora a la vez, pero lo suficientemente grande como para que el sintonizador no tenga que estar ajustado exactamente a la frecuencia correcta. La inductancia o la capacitancia tendrían que variar para sintonizar la emisora, sin embargo, en la práctica, los condensadores variables son mucho más fáciles de construir en un circuito.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167131399674" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167130042880">
+<problem id="fs-id1167130042882">
+<para id="fs-id1167131496539">En un circuito <emphasis effect="italics">RLC</emphasis> oscilante, <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la frecuencia angular de las oscilaciones?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167129991327">
+<problem id="fs-id1167129991329">
+<para id="fs-id1167134830787">En un circuito <emphasis effect="italics">RLC</emphasis> oscilante con <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext><m:mo>,</m:mo><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mi>µ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo></m:mrow></m:math> ¿cuánto tiempo transcurre antes de que la amplitud de las oscilaciones caiga a la mitad de su valor inicial?</para>
+</problem>
+<solution id="fs-id1167131475304">
+<para id="fs-id1167131341458">6,9 ms</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131140433">
+<problem id="fs-id1167134582582">
+<para id="fs-id1167134582584">¿Qué resistencia <emphasis effect="italics">R</emphasis> debe conectarse en serie con un inductor de 200 mH y un condensador de <m:math><m:mrow><m:mn>10</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> para que el circuito <emphasis effect="italics">RLC</emphasis> oscilante resultante, pueda disminuir al <m:math><m:mrow><m:mn>50</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> de su valor inicial de carga en 50 ciclos? A <m:math><m:mrow><m:mn>0,10</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> de su valor inicial en 50 ciclos?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167131581260" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1167131567322">
+<problem id="fs-id1167131567324">
+<para id="fs-id1167131204931">Demostrar que la autoinducción por unidad de longitud de un alambre infinito, recto y delgado es infinita.</para>
+</problem>
+<solution id="fs-id1167131231390">
+<para id="fs-id1167131231393">Sea <emphasis effect="italics">a</emphasis> igual al radio del alambre largo y delgado, <emphasis effect="italics">r</emphasis> el lugar donde se mide el campo magnético, y <emphasis effect="italics">R</emphasis> el límite superior del problema donde tomaremos <emphasis effect="italics">R</emphasis> al acercarse al infinito. <newline/> Realice una prueba. <m:math><m:mtable>
+<m:mtr><m:mtd columnalign="right"><m:mtext>En el exterior,</m:mtext><m:mspace width="1em"/><m:mi>B</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mspace width="0.5em"/><m:mtext>En el interior,</m:mtext><m:mspace width="1em"/><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mi>r</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>U</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>l</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mtext>In</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mi>R</m:mi><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mtext>Así que,</m:mtext><m:mspace width="2em"/><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>U</m:mi></m:mrow><m:mrow><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>l</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mtext>In</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mi>R</m:mi><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mtext>y</m:mtext><m:mspace width="1em"/><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>∞</m:mi></m:mtd></m:mtr></m:mtable></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167131343417">
+<problem id="fs-id1167131510640">
+<para id="fs-id1167131510642">Dos cables largos y paralelos transportan corrientes iguales en direcciones opuestas. El radio de cada cable es <emphasis effect="italics">a</emphasis>, y la distancia entre los centros de los cables es <emphasis effect="italics">d</emphasis>. Demuestre que si se puede ignorar el flujo magnético dentro de los propios cables, la autoinductancia de una longitud <emphasis effect="italics">l</emphasis> de ese par de cables es</para>
+<para id="fs-id1167134519627"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>l</m:mi></m:mrow><m:mi>π</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mtext>In</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow><m:mi>a</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167131375320"><emphasis effect="italics">(Pista</emphasis>: Calcule el flujo magnético a través de un rectángulo de longitud <emphasis effect="italics">l</emphasis> entre los cables y luego utilice <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mtext>Φ</m:mtext><m:mtext>/</m:mtext><m:mi>I</m:mi></m:mrow></m:math>.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134990271">
+<problem id="fs-id1167134884275">
+<para id="fs-id1167134884277">Un pequeño bucle rectangular de alambre con dimensiones <emphasis effect="italics">l</emphasis>, y <emphasis effect="italics">a</emphasis> se coloca, como se muestra a continuación, en el plano de un bucle rectangular de alambre mucho más grande. Los dos lados cortos del bucle mayor están tan alejados del bucle menor que sus campos magnéticos sobre los campos menores del bucle menor se pueden ignorar. ¿Cuál es la inductancia mutua de los dos bucles?</para>
+<media id="fs-id1167129979424" alt="La figura muestra un bucle rectangular de alambre. La longitud del rectángulo es l y la anchura es a. En ambos lados del rectángulo hay cables paralelos a su longitud. Están a una distancia d del rectángulo. La corriente I1 fluye a través de ambos en direcciones opuestas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_06_Problem47_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131263669">
+<para id="fs-id1167131327853"><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>l</m:mi></m:mrow><m:mi>π</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mtext>In</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mo>+</m:mo><m:mi>a</m:mi></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167129970346">
+<problem id="fs-id1167129970348">
+<para id="fs-id1167131199484">Supongamos que un solenoide cilíndrico está enrollado en un núcleo de hierro cuya susceptibilidad magnética es <emphasis effect="bold"><emphasis effect="italics">x</emphasis></emphasis>. Utilizando la <link document="m90927" target-id="fs-id1167133805496"/>, demuestre que la autoinducción del solenoide viene dada por</para>
+<para id="fs-id1167131268449"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi></m:mrow><m:mi>l</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167131110351">donde <emphasis effect="italics">l</emphasis> es su longitud, <emphasis effect="italics">A</emphasis> su área de sección transversal y <emphasis effect="italics">N</emphasis> su número total de vueltas.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131615186">
+<problem id="fs-id1167131615188">
+<para id="fs-id1167134717550">Un solenoide con <m:math><m:mn>4</m:mn><m:mo>x</m:mo><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:math> vueltas/m tiene un núcleo de hierro colocado en él cuya susceptibilidad magnética es <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. (a) Si una corriente de 2,0 A fluye a través del solenoide, ¿cuál es el campo magnético en el núcleo de hierro? (b) ¿Cuál es la corriente superficial efectiva formada por los bucles de corriente atómica alineados en el núcleo de hierro? (c) ¿Cuál es la autoinducción del solenoide con núcleo de hierro?</para></problem>
+<solution id="fs-id1167134565655">
+<para id="fs-id1167134565657">a. 100 T; b. 2 A; c. 0,50 H</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131619226">
+<problem id="fs-id1167131619228">
+<para id="fs-id1167134921523">Un toroide rectangular con radio interior <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>7,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm,</m:mtext></m:mrow></m:math> radio exterior <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>9,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>, altura <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>3,0</m:mn></m:mrow></m:math>, y <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>3.000</m:mn></m:mrow></m:math> vueltas está lleno de un núcleo de hierro de susceptibilidad magnética <m:math><m:mrow><m:mn>5,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. (a) ¿Cuál es la autoinducción del toroide? (b) Si la corriente que atraviesa el toroide es de 2,0 A, ¿cuál es el campo magnético en el centro del núcleo? (c) Para esta misma corriente de 2,0 A, ¿cuál es la corriente superficial efectiva formada por los bucles de corriente atómica alineados en el núcleo de hierro?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131399352">
+<problem id="fs-id1167131399354">
+<para id="fs-id1167131205180">El interruptor S del circuito que se muestra a continuación está cerrado a <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Determine (a) la corriente inicial de la batería y (b) la corriente en estado estacionario de la batería.</para>
+<media id="fs-id1167131399490" alt="Una batería de 12 voltios está conectada en serie con un resistor de 5 ohmios, un inductor de 1 henrio, un resistor de 3 ohmios y un interruptor abierto S. En paralelo al resistor de 3 ohmios hay un inductor de 2 henrios.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_06_Problem51_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167134932628">
+<para id="fs-id1167131256402">a. 0 A; b. 2,4 A</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131233926">
+<problem id="fs-id1167131233928">
+<para id="fs-id1167131144509">En un circuito <emphasis effect="italics">RLC</emphasis> oscilante, <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>7,0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>. Inicialmente, el condensador tiene una carga de <m:math><m:mrow><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> y la corriente es cero. Calcule la carga del condensador (a) cinco ciclos después y (b) 50 ciclos después.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131422580">
+<problem id="fs-id1167131422582">
+<para id="fs-id1167131255835">Un inductor de 25,0 H tiene 100 A de corriente apagada en 1,00 ms. (a) ¿Qué voltaje se induce para oponerse a esto? (b) ¿Qué no es razonable en este resultado? (c) ¿Qué suposición o premisa es responsable?</para>
+</problem>
+<solution id="fs-id1167131615087">
+<para id="fs-id1167129963748">a <m:math><m:mrow><m:mn>2,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>; (b) El voltaje es tan extremadamente alto que se produciría un arco eléctrico y la corriente no se reduciría tan rápidamente. (c) No es razonable apagar una corriente tan grande en un inductor tan grande en un tiempo tan extremadamente corto.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167130203588" class="review-challenge">
+<title>Problemas de desafíos</title>
+<exercise id="fs-id1167134858899">
+<problem id="fs-id1167134858901">
+<para id="fs-id1167131315192">Un cable coaxial tiene un conductor interno de radio a, y una capa cilíndrica delgada externa de radio b. Una corriente <emphasis effect="italics">I</emphasis> circula por el conductor interior y regresa por el exterior. La autoinducción de la estructura dependerá de cómo tienda a distribuirse la corriente en el cilindro interior. Investigue los dos casos extremos siguientes. (a) Deje que la corriente en el conductor interior se distribuya solo en la superficie y calcule la autoinducción. (b) Deje que la corriente en el cilindro interior se distribuya uniformemente en su sección transversal y calcule la autoinducción. Compárelo con sus resultados en (a).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134573587">
+<problem id="fs-id1167134951548">
+<para id="fs-id1167134951550">En un circuito oscilante amortiguado la energía se disipa en el resistor. El factor <emphasis effect="italics">Q</emphasis> es una medida de la persistencia del oscilador frente a la pérdida disipativa. (a) Demuestre que para un circuito ligeramente amortiguado la energía, <emphasis effect="italics">U</emphasis>, en el circuito disminuye según la siguiente ecuación.</para>
+<para id="fs-id1167131406196"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>U</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>β</m:mi><m:mi>U</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167134880779">(b) Utilizando la definición del factor <emphasis effect="italics">Q</emphasis> como la energía dividida entre la pérdida en el siguiente ciclo, demuestre que el <emphasis effect="italics">factor Q</emphasis> de un oscilador ligeramente amortiguado como se define en este problema es <m:math><m:mrow/></m:math></para>
+<para id="fs-id1167131234015"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>≡</m:mo><m:mfrac><m:mrow><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>de inicio</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>de un ciclo</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>C</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></para><para id="fs-id1167131605251"><emphasis effect="italics">(Pista:</emphasis> Para (b), para obtener <emphasis effect="italics">Q</emphasis>, dividir <emphasis effect="italics">E</emphasis> al principio de un ciclo por el cambio <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> durante el siguiente ciclo)</para>
+</problem>
+<solution id="fs-id1167131374552">
+<para id="fs-id1167131374554">prueba</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131225222">
+<problem id="fs-id1167131225224">
+<para id="fs-id1167134929702">El interruptor del circuito que se muestra a continuación está cerrado en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>. Calcule las corrientes a través de (a) <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, (b) <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y (c) la batería en función del tiempo.</para>
+<media id="fs-id1167134969759" alt="Una batería de 12 voltios está conectada a un resistor de 6 ohmios y a un interruptor S, que está abierto en el tiempo t = 0. Conectado en paralelo con el resistor de 6 ohmios hay otro resistor de 6 ohmios y un inductor de 24 henrios.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_06_Problem80_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167134717198"><problem id="fs-id1167134717200">
+<para id="fs-id1167129962405">Un bucle cuadrado de 2 cm de lado se coloca a 1 cm de un cable largo que transporta una corriente que varía con el tiempo a una velocidad constante de 3 A/s como se muestra a continuación. (a) Utilice la ley de Ampère y halle el campo magnético. (b) Determine el flujo magnético que atraviesa el bucle. (c) Si el bucle tiene una resistencia de <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, ¿cuánta corriente inducida fluye en el bucle?</para><media id="fs-id1167134964759" alt="Una batería de 12 voltios está conectada a un resistor de 6 ohmios y a un interruptor S, que está abierto en el tiempo t = 0. Conectado en paralelo con el resistor de 6 ohmios hay otro resistor de 6 ohmios y un inductor de 24 henrios.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_06_Problem85_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131225968">
+<para id="fs-id1167131282092">a <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T/s;</m:mtext></m:mrow></m:math> b <m:math><m:mrow><m:mtext>Φ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>a</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>In</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>; c. 4,4 nA</para></solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134655841">
+<term>Circuito<emphasis effect="italics">RLC</emphasis></term>
+<meaning id="fs-id1167131188977">circuito con una fuente de ac, un resistor, un inductor y un condensador en serie.</meaning>
+</definition>
+</glossary>
+</document>

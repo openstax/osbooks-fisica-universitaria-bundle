@@ -1,0 +1,586 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Polarización</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90959</md:content-id>
+  <md:title>Polarización</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar el cambio de intensidad al pasar la luz polarizada por un filtro polarizador</item>
+<item>Calcular el efecto de la polarización por reflexión y el ángulo de Brewster</item>
+<item>Describir el efecto de la polarización por dispersión</item>
+<item>Explicar el uso de materiales polarizantes en dispositivos como las pantallas de cristal líquido (liquid-crystal display, LCD)</item>
+</list></md:abstract>
+  <md:uuid>091ba93d-ac8b-44c7-ba41-901f97ce3803</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172100629808">La mayoría de nosotros conoce los lentes de sol polarizados. Tienen una capacidad especial para cortar el resplandor de la luz reflejada por el agua o el vidrio (<link target-id="CNX_UPhysics_34_07_River"/>). Tienen esta capacidad debido a una característica de onda de la luz llamada polarización. ¿Qué es la polarización? ¿Cómo se produce? ¿Cuáles son algunos de sus usos? Las respuestas a estas preguntas están relacionadas con el carácter ondulatorio de la luz.</para>
+<figure id="CNX_UPhysics_34_07_River">
+<media id="fs-id1172098363447" alt="La figura tiene dos fotografías de la misma parte de un río. En la figura a, las nubes y el cielo se reflejan en el agua, lo que hace difícil ver las piedras del fondo del río. En la figura b, el reflejo del cielo está ausente y el fondo del río se puede ver más claramente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_River.jpg"/>
+</media>
+<caption>Estas dos fotografías de un río muestran el efecto de un filtro polarizador para reducir el brillo de la luz que se refleja en la superficie del agua. La parte (b) de esta figura se tomó con un filtro polarizador y la parte (a) no. Como resultado, el reflejo de las nubes y el cielo observado en la parte (a) no se observa en la parte (b). Los lentes de sol polarizadores son especialmente útiles en la nieve y el agua. (crédito a y crédito b: modificaciones de la obra de "Amithshs"/Wikimedia Commons)</caption>
+</figure>
+<section id="fs-id1172100665277">
+<title>Ley de Malus</title>
+<para id="fs-id1172098373712">La luz es un tipo de onda electromagnética (electromagnetic, EM). Como se señaló en el capítulo anterior sobre las <link document="m90941">ondas electromagnéticas</link>, las ondas EM son <emphasis effect="italics">ondas transversales</emphasis> que consisten en campos eléctricos y magnéticos variables que oscilan perpendicularmente a la dirección de propagación (<link target-id="CNX_UPhysics_34_07_EMWave"/>). Sin embargo, en general, no hay direcciones específicas para las oscilaciones de los campos eléctricos y magnéticos; vibran en cualquier plano orientado al azar perpendicular a la dirección de propagación. La <emphasis effect="bold">polarización</emphasis> es el atributo por el cual las oscilaciones de una onda tienen una dirección definida con respecto a la dirección de propagación de la onda. (Este no es el mismo tipo de polarización que se discute para la separación de cargas) Se dice que las ondas que tienen esa dirección están <term>polarizadas</term>. Para una onda EM, definimos la <term>dirección de polarización</term> como la dirección paralela al campo eléctrico. Así, podemos pensar que las flechas del campo eléctrico muestran la dirección de polarización, como en la <link target-id="CNX_UPhysics_34_07_EMWave"/>.</para><figure id="CNX_UPhysics_34_07_EMWave">
+<media id="fs-id1172098479739" alt="Se muestra una parte de una onda electromagnética que se mueve con velocidad c en un instante de tiempo. Se muestran los dos componentes vectoriales, E y B, que son perpendiculares entre sí y a la dirección de propagación. Los vectores que representan la magnitud y la dirección de E, mostrados como flechas cuyas colas se encuentran en la línea de propagación de la onda, forman una onda sinusoidal en un plano. Del mismo modo, los vectores B forman una onda sinusoidal en un plano perpendicular a la onda E. Las ondas E y B están en fase. La dirección de polarización viene dada por la dirección de los vectores E.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_EMWave.jpg"/>
+</media>
+<caption>Una onda EM, como la luz, es una onda transversal. Los campos eléctrico <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:math> y magnético <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:math> son perpendiculares a la dirección de propagación. La dirección de polarización de la onda es la dirección del campo eléctrico.</caption>
+</figure>
+<para id="fs-id1172098377199">Para examinar esto con más detalle, imaginemos las ondas transversales en las cuerdas que se muestran en la <link target-id="CNX_UPhysics_34_07_TransOsc"/>. Las oscilaciones en una cuerda están en un plano vertical y se dice que están <term>polarizadas verticalmente</term>. Los de la otra cuerda están en un plano horizontal y están <term>polarizadas horizontalmente</term>. Si se coloca una rendija vertical en la primera cuerda, las ondas pasan. Sin embargo, una rendija vertical bloquea las ondas polarizadas horizontalmente. En el caso de las ondas EM, la dirección del campo eléctrico es análoga a las perturbaciones en las cuerdas.</para>
+<figure id="CNX_UPhysics_34_07_TransOsc"><media id="fs-id1172098407330" alt="La figura a muestra las ondas de una cuerda que oscila verticalmente y que pasa por una rendija vertical. La oscilación vertical es la dirección de polarización. La figura b muestra las ondas en una cuerda que oscila horizontalmente y que no pasan por una rendija vertical similar. La oscilación horizontal es la dirección de polarización.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_TransOsc_New.jpg"/>
+</media>
+
+<caption>Las oscilaciones transversales en una cuerda (a) están en un plano vertical, y las de la otra cuerda (b) están en un plano horizontal. Se dice que las primeras oscilaciones están polarizadas verticalmente, y las otras se dice que están polarizadas horizontalmente. Las rendijas verticales permiten el paso de las ondas polarizadas verticalmente y bloquean el paso de las ondas polarizadas horizontalmente.</caption></figure><para id="fs-id1172098696422">El Sol y muchas otras fuentes de luz producen ondas que tienen los campos eléctricos en direcciones aleatorias (<link target-id="CNX_UPhysics_34_07_PolFilter"/>(a)). Se dice que esa luz es <term>no polarizada</term>, porque está compuesta por muchas ondas con todas las direcciones posibles de polarización. Los materiales Polaroid -inventados por el fundador de la Polaroid Corporation, Edwin Land- actúan como una rendija polarizadora para la luz, permitiendo que solo pase la polarización en una dirección. Los filtros polarizadores están compuestos por moléculas largas alineadas en una dirección. Si pensamos en las moléculas como muchas rendijas, análogas a las de las cuerdas oscilantes, podemos entender por qué solo puede pasar la luz con una polarización específica. El eje de un filtro polarizador es la dirección a lo largo de la cual el filtro pasa el campo eléctrico de una onda EM.</para>
+<figure id="CNX_UPhysics_34_07_PolFilter"><media id="fs-id1172100971110" alt="La figura a muestra una delgada flecha azul que apunta hacia fuera de la página y hacia la derecha y que está marcada como dirección del rayo. De un punto de la semirrecta parten ocho flechas rojas, marcadas como vectores E. Estas flechas están todas en un plano perpendicular a la semirrecta y están distribuidas uniformemente alrededor de la misma. Están marcadas como representación de una polarización aleatoria. En la figura b, se muestra un rayo similar pero más largo con las mismas flechas rojas que emanan de un punto cercano al extremo izquierdo del rayo. Más a la derecha, en el mismo rayo, hay un rectángulo delgado con seis rendijas verticales igualmente espaciadas. Este rectángulo está marcado como filtro polarizador. Una flecha vertical de doble punta en su superficie está marcada como eje. A la derecha del filtro, centrado en el rayo, hay una única flecha azul de doble punta orientada verticalmente que está marcada con una E y la dirección de polarización.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_PolFilter_New.jpg"/>
+</media>
+
+<caption>La flecha delgada representa un rayo de luz no polarizado. Las flechas en negrita representan la dirección de polarización de las ondas individuales que componen el rayo. (a) Si la luz no está polarizada, las flechas apuntan en todas las direcciones. (b) Un filtro polarizador tiene un eje de polarización que actúa como una rendija que atraviesa campos eléctricos paralelos a su dirección. La dirección de polarización de una onda EM se define como la dirección de su campo eléctrico.</caption></figure><para id="fs-id1172100922102">La <link target-id="CNX_UPhysics_34_07_RotateFilt"/> muestra el efecto de dos filtros polarizadores sobre una luz originalmente no polarizada. El primer filtro polariza la luz a lo largo de su eje. Cuando los ejes del primer y segundo filtro están alineados (paralelos), toda la luz polarizada que pasa por el primer filtro también pasa por el segundo. Si se gira el segundo filtro polarizador, solo pasa el componente de luz paralela al eje del segundo filtro. Cuando los ejes son perpendiculares, el segundo filtro no deja pasar la luz.</para>
+<figure id="CNX_UPhysics_34_07_RotateFilt"><media id="fs-id1172098319371" alt="Esta figura muestra tres ilustraciones de luz polarizada al azar que pasa a través de dos filtros polarizadores, uno tras otro, en varias orientaciones. En la figura a, los dos filtros tienen ejes orientados en paralelo, en la b el eje del segundo filtro forma un ángulo intermedio, entre cero y noventa grados, con el del primero, y en la c el eje del segundo filtro es perpendicular al del primero. La figura d es una fotografía del resultado real de la primera (paralela) y la última (perpendicular) disposición. En todas las disposiciones, la luz de la fuente está polarizada de forma aleatoria, indicada por las flechas del vector E que apuntan en todas las direcciones en un plano perpendicular a la dirección de propagación del rayo. En todas las disposiciones, la luz que ha pasado por el primer filtro, cuyo eje está orientado verticalmente, está polarizada verticalmente, lo que se indica con flechas de vectores E que solo apuntan verticalmente hacia arriba y hacia abajo. En la figura a, toda la luz polarizada pasa por el segundo filtro polarizador, cuyo eje es paralelo al primero, y sigue estando polarizada verticalmente. En la figura b, solo una parte de la luz pasa por el segundo filtro polarizador, cuyo eje está inclinado respecto al primero. La luz que pasa por el segundo filtro se polariza en la dirección del eje del segundo filtro, y la magnitud de E se reduce. En la figura c, en la que los ejes de los filtros son perpendiculares entre sí, ninguna luz atraviesa el segundo filtro. La figura D muestra una foto de tres filtros ópticos circulares colocados sobre un patrón brillante de colores. Dos de estos filtros se colocan uno al lado del otro y el tercero se coloca encima de los otros dos de forma que el centro del tercero esté en el punto en el que se tocan los bordes de los dos filtros por debajo del tercero. Parte de luz pasa por donde el filtro superior se superpone al filtro inferior izquierdo. No pasa luz donde el filtro superior se superpone al filtro inferior derecho.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_RotateFilt_New.jpg"/>
+</media>
+
+<caption>Efecto de la rotación de dos filtros polarizadores, donde el primero polariza la luz. (a) Toda la luz polarizada pasa por el segundo filtro polarizador, porque su eje es paralelo al primero. (b) Al girar el segundo filtro, solo pasa una parte de la luz. (c) Cuando el segundo filtro es perpendicular al primero, no pasa ninguna luz. (d) En esta fotografía, un filtro polarizador está colocado sobre otros dos. Su eje es perpendicular al filtro de la derecha (zona oscura) y paralelo al filtro de la izquierda (zona más clara). (crédito d: modificación del trabajo de P.P. Urone)</caption></figure><para id="fs-id1172098448775">Solo pasa el componente de la onda EM paralela al eje de un filtro. Llamemos al ángulo entre la dirección de polarización y el eje de un filtro <m:math><m:mi>θ</m:mi></m:math>. Si el campo eléctrico tiene una amplitud <emphasis effect="italics">E</emphasis>, entonces la parte transmitida de la onda tiene una amplitud <m:math><m:mrow><m:mi>E</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> (<link target-id="CNX_UPhysics_34_07_PolFilter2"/>). Dado que la intensidad de una onda es proporcional a su amplitud al cuadrado, la intensidad <emphasis effect="italics">I</emphasis> de la onda transmitida está relacionada con la onda incidente por</para>
+<note id="fs-id1172100989017" class="equation-callout">
+<equation id="fs-id1172100999223"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172098377558">donde <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la intensidad de la onda polarizada antes de pasar por el filtro. Esta ecuación se conoce como <term>ley de Malus</term>.</para>
+<figure id="CNX_UPhysics_34_07_PolFilter2"><media id="fs-id1172098435845" alt="Esta figura proporciona detalles adicionales a los esquemas de las dos figuras anteriores. En esta figura, solo se muestra uno de los vectores E de la luz fuente polarizada aleatoriamente a la izquierda del filtro polarizador orientado verticalmente, junto con el componente de ese vector paralelo al filtro. El vector E forma un ángulo theta con la vertical. La componente vertical del vector E es E coseno de theta. Después de pasar por el filtro, la luz solo tiene E vertical, con magnitud E coseno de theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_PolFilter2_New.jpg"/>
+</media>
+
+<caption>Un filtro polarizador transmite solo la componente de la onda paralela a su eje, reduciendo la intensidad de cualquier luz no polarizada paralela a su eje.</caption></figure><note id="fs-id1172098460506" class="media-2">
+<para id="fs-id1172100668367">Esta <link url="https://openstax.org/l/21phyanielefie">animación de Open Source Physics</link> le ayuda a visualizar los vectores del campo eléctrico cuando la luz se encuentra con un filtro polarizador. Puede girar el filtro; tenga en cuenta que el ángulo mostrado está en radianes. También puede girar la animación para visualizarla en 3D.</para>
+</note>
+<example id="fs-id1172100714884">
+<para id="fs-id1172100536203"><title>Calcular la reducción de la intensidad mediante un filtro polarizador</title>
+¿Qué ángulo es necesario entre la dirección de la luz polarizada y el eje de un filtro polarizador para reducir su intensidad en <m:math><m:mrow><m:mn>90,0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>?</para>
+<para id="fs-id1172100814638"><title>Estrategia</title>
+Cuando la intensidad se reduce en <m:math><m:mrow><m:mn>90,0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>, es el <m:math><m:mrow><m:mn>10,0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> o 0,100 veces su valor original. Es decir, <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>0,100</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Al utilizar esta información, se puede usar la ecuación <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> para resolver el ángulo necesario.</para>
+<para id="fs-id1172100827264"><title>Solución</title>
+Resolver la ecuación <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> para el <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> y sustituir con la relación entre <emphasis effect="italics">I</emphasis> y <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> da como resultado</para>
+<equation id="fs-id1172100775846" class="unnumbered"><label/><m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>0,100</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>0,3162</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098449926">Al resolver para <m:math><m:mi>θ</m:mi></m:math> se obtiene</para>
+<equation id="fs-id1172098379559" class="unnumbered"><label/><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mn>0,3162</m:mn><m:mo>=</m:mo><m:mn>71,6</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098377209"><title>Importancia</title>
+Se necesita un ángulo bastante grande entre la dirección de polarización y el eje del filtro para reducir la intensidad a <m:math><m:mrow><m:mn>10,0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> de su valor original. Esto parece razonable basándose en experimentos con películas polarizadoras. Es interesante que en un ángulo de <m:math><m:mrow><m:mn>45</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, la intensidad se reduce a <m:math><m:mrow><m:mn>50</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> de su valor original. Tenga en cuenta que <m:math><m:mrow><m:mn>71,6</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> es <m:math><m:mrow><m:mn>18,4</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> al reducir la intensidad a cero, y que en un ángulo de <m:math><m:mrow><m:mn>18,4</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, la intensidad se reduce a <m:math><m:mrow><m:mn>90,0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> de su valor original, dando muestras de simetría.</para>
+</example>
+<note id="fs-id1172098574910" class="check-understanding">
+<exercise id="fs-id1172100757932">
+<problem id="fs-id1172100557956">
+<para id="fs-id1172100831171">Aunque no hemos especificado la dirección en el <link target-id="fs-id1172100714884"/>, digamos que el filtro polarizador fue girado en el sentido de las agujas del reloj <m:math><m:mrow><m:mn>71,6</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> para reducir la intensidad de la luz en <m:math><m:mrow><m:mn>90,0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>. ¿Cuál sería la reducción de intensidad si el filtro polarizador se girara en el sentido contrario a las agujas del reloj <m:math><m:mrow><m:mn>71,6</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172098390808">
+<para id="fs-id1172100532304">también <m:math><m:mrow><m:mn>90,0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1172098375889">
+<title>Polarización por reflexión</title>
+<para id="fs-id1172100528765">Es probable que a estas alturas pueda adivinar que los lentes de sol polarizados reducen el resplandor de la luz reflejada, porque esa luz está polarizada. Puede comprobarlo usted mismo al sostener unos lentes de sol polarizados delante de usted y hacerlos girar mientras mira la luz reflejada en el agua o el cristal. Al girar los lentes de sol, notará que la luz se vuelve brillante y tenue, pero no completamente negra. Esto implica que la luz reflejada está parcialmente polarizada y un filtro polarizador no puede bloquearla completamente.</para>
+<para id="fs-id1172100781361">La <link target-id="CNX_UPhysics_34_07_PolByRef"/> ilustra lo que ocurre cuando la luz no polarizada se refleja en una superficie. La luz polarizada verticalmente se refracta preferentemente en la superficie, por lo que la luz reflejada queda más polarizada horizontalmente. Las razones de este fenómeno están fuera del alcance de este texto, pero una mnemotecnia conveniente para recordarlo es imaginar que la dirección de polarización es como una flecha. La polarización vertical es como una flecha perpendicular a la superficie y es más probable que se pegue y no se refleje. La polarización horizontal es como una flecha que rebota en su lado y es más probable que se refleje. Así, los lentes de sol con eje vertical bloquean más la luz reflejada que la luz no polarizada procedente de otras fuentes.</para>
+<figure id="CNX_UPhysics_34_07_PolByRef">
+<media id="fs-id1172100967416" alt="La figura es un diagrama que muestra un bloque de vidrio en el aire. La superficie reflectante es horizontal. Un rayo marcado como luz no polarizada parte de la parte superior izquierda e incide en el centro del bloque, con un ángulo theta uno respecto a la vertical. Centrados en este rayo incidente hay dos flechas de doble punta, una horizontal y otra vertical. Desde el punto en el que este rayo choca con el bloque de vidrio, surgen dos rayos. Uno es el rayo reflejado que va hacia arriba y hacia la derecha en un ángulo theta uno con la vertical, y el segundo es un rayo refractado que va hacia abajo y hacia la derecha en un ángulo theta dos con la vertical. La luz reflejada se marca como parcialmente polarizada paralela a la superficie. Se muestran dos flechas de doble punta, similares a las del rayo incidente, centradas en el rayo reflejado, pero la flecha vertical es significativamente más corta que la horizontal. El rayo refractado se marca como parcialmente polarizado perpendicular a la superficie. Se muestran dos flechas de doble punta, similares a las del rayo incidente, centradas en el rayo reflejado, pero la flecha horizontal es significativamente más corta que la vertical. Una nota indica que cuando theta uno es igual al ángulo de Brewster, el ángulo entre el rayo reflejado y refractado es de noventa grados.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_PolByRef.jpg"/>
+</media>
+<caption>Polarización por reflexión. La luz no polarizada tiene cantidades iguales de polarización vertical y horizontal. Tras la interacción con una superficie, los componentes verticales se absorben o refractan preferentemente, dejando la luz reflejada más polarizada horizontalmente. Esto es similar a las flechas que golpean en sus lados y rebotan, mientras que las flechas que golpean en sus puntas entran en la superficie.</caption>
+</figure>
+<para id="fs-id1172098530951">Dado que la parte de la luz que no se refleja se refracta, la cantidad de polarización depende de los índices de refracción de los medios implicados. Se puede demostrar que la luz reflejada está completamente polarizada en un ángulo de reflexión <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math> dado por</para>
+<note id="fs-id1172100644222" class="equation-callout">
+<equation id="fs-id1172100841185"><label/><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172100513646">donde <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es el medio por el que viajan la luz incidente y la reflejada y <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es el índice de refracción del medio que forma la interfase que refleja la luz. Esta ecuación se conoce como <term>ley de Brewster</term> y <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math> se conoce como <term>ángulo de Brewster</term>, llamado así por el físico escocés del siglo XIX que los descubrió.</para>
+<note id="fs-id1172098486520" class="media-2">
+<para id="fs-id1172100668302">Esta <link url="https://openstax.org/l/21phyaniincref">animación de Open Source Physics</link> muestra la luz incidente, reflejada y refractada como rayos y ondas EM. Pruebe girar la animación para visualizarla en 3D y también cambiar el ángulo de incidencia. Cerca del ángulo de Brewster, la luz reflejada se vuelve altamente polarizada.</para>
+</note>
+<example id="fs-id1172100925296">
+<para id="fs-id1172100912228"><title>Cálculo de la polarización por reflexión</title>
+(a) ¿A qué ángulo se polariza completamente en sentido horizontal la luz que viaja en el aire cuando se refleja en el agua? (b) ¿Y en el vidrio?</para>
+<para id="fs-id1172100490937"><title>Estrategia</title>
+Todo lo que necesitamos para resolver estos problemas son los índices de refracción. El aire tiene <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,00</m:mn><m:mo>,</m:mo></m:mrow></m:math> el agua tiene <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,333</m:mn><m:mo>,</m:mo></m:mrow></m:math> y el vidrio crown tiene <m:math><m:mrow><m:msubsup><m:mi>n</m:mi><m:mn>2</m:mn><m:mtext>′</m:mtext></m:msubsup><m:mo>=</m:mo><m:mn>1,520</m:mn><m:mo>.</m:mo></m:mrow></m:math> La ecuación <m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math> puede aplicarse directamente para encontrar <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math> en cada caso.</para>
+<para id="fs-id1172101007884"><title>Solución</title></para>
+<list id="fs-id1172100958116" list-type="enumerated" number-style="lower-alpha">
+<item>Al introducir las cantidades conocidas en la ecuación
+<equation id="fs-id1172098441154" class="unnumbered"><label/><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+ da como resultado
+<equation id="fs-id1172100594390" class="unnumbered"><label/><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1,333</m:mn></m:mrow><m:mrow><m:mn>1,00</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,333</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+Al resolver el ángulo <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math> se obtiene
+<equation id="fs-id1172100639419" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mn>1,333</m:mn><m:mo>=</m:mo><m:mn>53,1</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Del mismo modo, para el vidrio crown y el aire,
+<equation id="fs-id1172098265891" class="unnumbered"><label/><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msubsup><m:mi>θ</m:mi><m:mtext>b</m:mtext><m:mtext>′</m:mtext></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>n</m:mi><m:mn>2</m:mn><m:mtext>′</m:mtext></m:msubsup></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1,520</m:mn></m:mrow><m:mrow><m:mn>1,00</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,52</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+Por lo tanto,
+<equation id="fs-id1172098390363" class="unnumbered"><label/><m:math><m:mrow><m:msubsup><m:mi>θ</m:mi><m:mtext>b</m:mtext><m:mtext>′</m:mtext></m:msubsup><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mn>1,52</m:mn><m:mo>=</m:mo><m:mn>56,7</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1172100945299"><title>Importancia</title>
+La luz reflejada en estos ángulos podría bloquearse completamente con un buen filtro polarizador sostenido con su eje vertical. Los ángulos de Brewster para el agua y el aire son similares a los del vidrio y el aire, de modo que los lentes de sol son igualmente eficaces para la luz reflejada por el agua o el vidrio en circunstancias similares. La luz que no se refleja se refracta en estos medios. Por lo tanto, con un ángulo de incidencia igual al ángulo de Brewster, la luz refractada está ligeramente polarizada en sentido vertical. No está completamente polarizada verticalmente, porque solo una pequeña fracción de la luz incidente se refleja, por lo que una cantidad significativa de luz polarizada horizontalmente se refracta.</para>
+</example>
+<note id="fs-id1172098322409" class="check-understanding">
+<exercise id="fs-id1172098391712">
+<problem id="fs-id1172100800490">
+<para id="fs-id1172098456401">¿Qué ocurre en el ángulo de Brewster si la luz incidente original ya está <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> polarizada verticalmente?</para>
+</problem>
+<solution id="fs-id1172098266479">
+<para id="fs-id1172100854452">Solo habrá refracción, pero no reflexión.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1172100810889">
+<title>Explicación atómica de los filtros polarizadores</title>
+<para id="fs-id1172100536282">Los filtros polarizadores tienen un eje de polarización que actúa como una rendija. Esta rendija deja pasar las ondas EM (a menudo luz visible) que tienen un campo eléctrico paralelo al eje. Esto se consigue con moléculas largas alineadas perpendicularmente al eje, como se muestra en la <link target-id="CNX_UPhysics_34_07_LongMol"/>.</para>
+<figure id="CNX_UPhysics_34_07_LongMol">
+<media id="fs-id1172100636252" alt="La figura muestra una ilustración de una pila de moléculas horizontales largas e idénticas. Se dibuja un eje vertical sobre las moléculas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_LongMol.jpg"/>
+</media>
+<caption>Las moléculas largas se alinean perpendicularmente al eje de un filtro polarizador. En una onda EM, la componente del campo eléctrico perpendicular a estas moléculas pasa a través del filtro, mientras que la componente paralela a las moléculas se absorbe.</caption>
+</figure>
+<para id="fs-id1172100611110">La <link target-id="CNX_UPhysics_34_07_ElectrMol"/> ilustra cómo se absorbe la componente del campo eléctrico paralela a las moléculas largas. Una onda EM está compuesta por campos eléctricos y magnéticos oscilantes. El campo eléctrico es fuerte en comparación con el campo magnético y es más eficaz a la hora de ejercer fuerza sobre las cargas de las moléculas. Las partículas cargadas más afectadas son los electrones, dado que las masas de los electrones son pequeñas. Si un electrón es forzado a oscilar, puede absorber energía de la onda EM. Esto reduce el campo en la onda y, por lo tanto, reduce su intensidad. En las moléculas largas, los electrones pueden oscilar más fácilmente en paralelo a la molécula que en la dirección perpendicular. Los electrones están unidos a la molécula y están más restringidos en su movimiento perpendicular hacia la molécula. Así, los electrones pueden absorber las ondas EM que tienen un componente de su campo eléctrico paralelo a la molécula. Los electrones responden mucho menos a los campos eléctricos perpendiculares a la molécula y dejan pasar estos campos. Así, el eje del filtro polarizador es perpendicular a la longitud de la molécula.</para>
+<figure id="CNX_UPhysics_34_07_ElectrMol">
+<media id="fs-id1172100626105" alt="La figura a muestra el dibujo de una molécula larga. Una onda electromagnética atraviesa la molécula. La dirección de propagación de la onda es perpendicular al eje molecular y las oscilaciones de la onda son paralelas al eje molecular. Los electrones oscilan en paralelo a la longitud de la molécula. Después de pasar la molécula larga, la amplitud de las oscilaciones de la onda se reduce considerablemente. La figura b muestra un dibujo similar, excepto que la onda oscila perpendicularmente al eje de la molécula larga. Los electrones oscilan débilmente de forma perpendicular a la longitud de la molécula. Después de pasar la molécula larga, la magnitud de la oscilación de la onda EM no cambia.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_ElectrMol.jpg"/>
+</media>
+<caption>Diagrama de un electrón en una molécula larga que oscila en paralelo a la molécula. La oscilación del electrón absorbe energía y reduce la intensidad de la componente de la onda EM que es paralela a la molécula.</caption>
+</figure>
+</section>
+<section id="fs-id1172100526505">
+<title>Polarización por dispersión</title>
+<para id="fs-id1172100510937">Si sostiene sus lentes de sol polarizados frente a usted y los gira mientras mira el cielo azul, verá cómo el cielo se vuelve brillante y se oscurece. Esto es una clara indicación de que la luz dispersada por el aire está parcialmente polarizada. La <link target-id="CNX_UPhysics_34_07_Scattering"/> ayuda a ilustrar cómo ocurre esto. Dado que la luz es una onda EM transversal, hace vibrar los electrones de las moléculas de aire perpendicularmente a la dirección en la que viaja. Los electrones irradian entonces como pequeñas antenas. Dado que oscilan perpendicularmente a la dirección del rayo de luz, producen una radiación electromagnética polarizada perpendicularmente a la dirección del rayo. Cuando se ve la luz a lo largo de una línea perpendicular al rayo original, como en la figura, no puede haber polarización en la luz dispersa paralela al rayo original, porque eso requeriría que el rayo original fuera una onda longitudinal. En otras direcciones, un componente de la otra polarización puede proyectarse a lo largo de la línea de visión, y la luz dispersada solo está parcialmente polarizada. Además, la dispersión múltiple puede hacer que la luz llegue a sus ojos desde otras direcciones y puede contener diferentes polarizaciones.</para>
+<figure id="CNX_UPhysics_34_07_Scattering">
+<media id="fs-id1172101028759" alt="La figura ilustra la dispersión de la luz no polarizada por una molécula. Como es habitual, los rayos se representan con flechas azules rectas y las direcciones del campo eléctrico con flechas rojas de doble punta. La luz incidente no polarizada tiene vectores de campo eléctrico que oscilan en todas las direcciones en el plano perpendicular a la dirección de propagación de los rayos de luz. La molécula dispersa la luz en todas las direcciones. La luz que se dispersa en la misma dirección que la luz incidente permanece no polarizada. La luz dispersada en la dirección perpendicular a la dirección de la luz incidente se polariza perpendicularmente al plano definido por los rayos incidentes y dispersos. La luz que se dispersa en una dirección intermedia está parcialmente polarizada. El campo eléctrico perpendicular al plano tiene una amplitud mayor que el campo paralelo al rayo incidente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_Scattering.jpg"/>
+</media>
+<caption>Polarización por dispersión. La dispersión de la luz no polarizada de las moléculas de aire agita sus electrones perpendicularmente a la dirección del rayo original. Por lo tanto, la luz dispersa tiene una polarización perpendicular a la dirección original y ninguna paralela a la dirección original.</caption>
+</figure>
+<para id="fs-id1172100939578">Las fotografías del cielo pueden oscurecerse con filtros polarizadores, un truco que utilizan muchos fotógrafos para hacer más brillantes las nubes por contraste. La dispersión de otras partículas, como el humo o el polvo, también puede polarizar la luz. La detección de la polarización en las ondas EM dispersas puede ser una herramienta analítica útil para determinar la fuente de dispersión.</para>
+<para id="fs-id1172098389173">En los lentes de sol se utilizan diversos efectos ópticos. Además de ser polarizantes, los lentes de sol pueden tener pigmentos de color incrustados, mientras que otros utilizan un revestimiento no reflectante o reflectante. Un avance reciente son las lentes fotocromáticas, que se oscurecen con la luz del sol y se vuelven claras en interiores. Las lentes fotocromáticas llevan incrustadas moléculas orgánicas microcristalinas que cambian sus propiedades cuando se exponen a los rayos ultravioleta de la luz solar, pero se vuelven transparentes con luz artificial sin rayos ultravioleta.</para>
+</section>
+<section id="fs-id1172098701855">
+<title>Cristales líquidos y otros efectos de polarización en los materiales</title>
+<para id="fs-id1172101032824">Aunque sin duda conoce las <term class="no-emphasis">pantallas de cristal líquido (LCD</term>) que se encuentran en los relojes, las calculadoras, las pantallas de las computadoras, los teléfonos móviles, los televisores de pantalla plana y que tienen muchos otros usos, es posible que no sepa que se basan en la polarización. Los cristales líquidos se llaman así porque sus moléculas pueden alinearse aunque estén en un líquido. Los cristales líquidos tienen la propiedad de poder girar la polarización de la luz que los atraviesa a <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. Además, esta propiedad puede desactivarse mediante la aplicación de un voltaje, como se ilustra en la <link target-id="CNX_UPhysics_34_07_Laptop"/>. Es posible manipular esta característica rápidamente y en regiones pequeñas y bien definidas para crear los patrones de contraste que vemos en tantos dispositivos LCD.</para>
+<para id="fs-id1172098524793">En los televisores LCD de pantalla plana, se genera una gran luz en la parte posterior del televisor. La luz viaja hasta la pantalla frontal a través de millones de unidades diminutas llamadas pixeles (elementos de imagen). Una de ellas se muestra en la <link target-id="CNX_UPhysics_34_07_Laptop"/>(a) y (b). Cada unidad tiene tres celdas, con filtros rojos, azules o verdes, cada una de ellas controlada de forma independiente. Cuando se desconecta el voltaje a través de un cristal líquido, este hace pasar la luz a través del filtro correspondiente. Podemos variar el contraste de la imagen variando la intensidad del voltaje aplicado al cristal líquido.</para>
+<figure id="CNX_UPhysics_34_07_Laptop"><media id="fs-id1172100969204" alt="La figura a es una ilustración de un rayo de luz inicialmente no polarizado que pasa por un polarizador vertical, luego por un elemento marcado como L C D sin voltaje de rotación de noventa grados, y finalmente por un polarizador horizontal. La luz inicialmente no polarizada se polariza verticalmente después del polarizador vertical, luego es girada noventa grados por el elemento L C D para que se polarice horizontalmente, luego pasa por el polarizador horizontal. La figura b es la misma, excepto que el elemento L C D está marcado como voltaje encendido, sin rotación. La luz que sale del elemento L C D está, por tanto, polarizada verticalmente y no pasa por el polarizador horizontal, lo que hace que la región en este lugar sea oscura. Por último, en la figura c, se muestra una fotografía de un computador portátil que está abierto para que se pueda ver su pantalla, que está encendida y tiene algunos iconos y ventanas visibles.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_Laptop.jpg"/>
+</media>
+
+<caption>(a) La luz polarizada se hace girar <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> por un cristal líquido y luego pasa por un filtro polarizador que tiene su eje perpendicular a la dirección de la polarización original. (b) Cuando se aplica un voltaje al cristal líquido, la luz polarizada no gira y el filtro la bloquea, lo que hace que la región sea oscura en comparación con su entorno. (c) Las pantallas de cristal líquido pueden hacerse de un color específico, ser lo suficientemente pequeñas y rápidas como para usarlas en computadores portátiles y televisores. (crédito c: modificación del trabajo de Jane Whitney)</caption></figure><para id="fs-id1172098315410">Muchos cristales y soluciones hacen girar el plano de polarización de la luz que los atraviesa. Se dice que estas sustancias son <term>ópticamente activas</term>. Algunos ejemplos son el agua azucarada, la insulina y el colágeno (<link target-id="CNX_UPhysics_34_07_OptAvail"/>). Además de depender del tipo de sustancia, la cantidad y el sentido de la rotación dependen de otros factores. Entre ellas, la concentración de la sustancia, la distancia que recorre la luz a través de ella y la longitud de onda de la luz. La actividad óptica se debe a la forma asimétrica de las moléculas de la sustancia, como por ejemplo si son helicoidales. Así, las mediciones de la rotación de la luz polarizada que atraviesa las sustancias pueden utilizarse para medir las concentraciones, una técnica estándar para los azúcares. También puede dar información sobre las formas de las moléculas, como las proteínas, y los factores que afectan a sus formas, como la temperatura y el pH.</para>
+<figure id="CNX_UPhysics_34_07_OptAvail">
+<media id="fs-id1172098454815" alt="La figura muestra un rayo de luz inicialmente no polarizado que atraviesa tres elementos ópticos. El primero es un filtro polarizador vertical, por lo que el campo eléctrico es vertical después de que el rayo lo atraviese. A continuación viene un bloque marcado como sustancia ópticamente activa. El campo eléctrico sale del bloque girado por un ángulo theta con respecto a la vertical. Finalmente, el rayo pasa a través de otro polarizador vertical que se denomina analizador. El campo eléctrico final vuelve a estar polarizado verticalmente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_OptAvail.jpg"/>
+</media>
+<caption>La actividad óptica es la capacidad de algunas sustancias de girar el plano de polarización de la luz que las atraviesa. La rotación se detecta con un filtro polarizador o un analizador.</caption>
+</figure>
+<para id="fs-id1172100624043">El vidrio y el plástico se vuelven ópticamente activos cuando se les somete a estrés: cuanto mayor sea el estrés, mayor será el efecto. El <term class="no-emphasis">análisis de estrés óptico</term> en formas complicadas puede realizarse haciendo modelos plásticos de las mismas y observándolas a través de filtros cruzados, como se ve en la <link target-id="CNX_UPhysics_34_07_OptStress"/>. Es evidente que el efecto depende tanto de la longitud de onda como del estrés. La dependencia de la longitud de onda también se utiliza a veces con fines artísticos.</para>
+<figure id="CNX_UPhysics_34_07_OptStress">
+<media id="fs-id1172100575863" alt="La figura muestra una fotografía de una lente de plástico que es apretada por una pinza. Aparecen patrones de arco iris que muestran la deformación de la lente. Las regiones coloreadas están delimitadas por curvas oscuras que conectan los centros de los bordes de la lente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_OptStress.jpg"/>
+</media>
+<caption>Análisis de estrés óptico de una lente de plástico colocada entre polarizadores cruzados. (crédito: "Infopro"/Wikimedia Commons)</caption>
+</figure>
+<para id="fs-id1172098486449">Otro fenómeno interesante asociado a la luz polarizada es la capacidad de algunos cristales de dividir un haz de luz no polarizado en dos haces polarizados. Esto ocurre porque el cristal tiene un valor para el índice de refracción de la luz polarizada pero un valor diferente para el índice de refracción de la luz polarizada en la dirección perpendicular, de modo que cada componente tiene su propio ángulo de refracción. Se dice que estos cristales son <term>birrefringentes</term> y, cuando se alinean correctamente, salen del cristal dos haces polarizados perpendicularmente (<link target-id="CNX_UPhysics_34_07_Birefringe"/>). Los cristales birrefringentes pueden utilizarse para producir haces polarizados a partir de luz no polarizada. Algunos materiales birrefringentes absorben preferentemente una de las polarizaciones. Estos materiales se denominan dicroicos y pueden producir polarización por esta absorción preferencial. Así es como funcionan fundamentalmente los filtros polarizadores y otros polarizadores.</para>
+<figure id="CNX_UPhysics_34_07_Birefringe">
+<media id="fs-id1172098262182" alt="La figura muestra un rayo de luz horizontal y no polarizado que incide sobre un bloque marcado como cristal birrefringente. El rayo es perpendicular a la cara del cristal por donde entra. El rayo incidente se divide en dos rayos cuando entra en el cristal. Una parte del rayo continúa en línea recta. Este rayo está polarizado horizontalmente. La otra parte del rayo se propaga a un. Este rayo está polarizado verticalmente. El segundo rayo se refracta al salir del cristal de manera que los dos rayos son paralelos fuera del cristal. Los rayos están marcados como dos haces polarizados perpendicularmente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_07_Birefringe.jpg"/>
+</media>
+<caption>Los materiales birrefringentes, como el mineral común calcita, dividen los haces de luz no polarizados en dos con dos valores diferentes de índice de refracción.</caption>
+</figure>
+</section>
+<section id="fs-id1172100558574" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172100999574" list-type="bulleted" bullet-style="bullet">
+<item>La polarización es el atributo de que las oscilaciones de las ondas tienen una dirección definida con respecto a la dirección de propagación de la onda. La dirección de polarización se define como la dirección paralela al campo eléctrico de la onda EM.</item>
+<item>La luz no polarizada se compone de muchos rayos con direcciones de polarización aleatorias.</item>
+<item>La luz no polarizada se puede polarizar haciéndola pasar por un filtro polarizador u otro material polarizador. El proceso de polarización de la luz disminuye su intensidad en un factor de 2.</item>
+<item>La intensidad, <emphasis effect="italics">I</emphasis>, de la luz polarizada después de pasar por un filtro polarizador es <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>, donde <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la intensidad incidente y <m:math><m:mi>θ</m:mi></m:math> es el ángulo entre la dirección de polarización y el eje del filtro.</item>
+<item>La polarización también se produce por reflexión.</item>
+<item>La ley de Brewster establece que la luz reflejada está completamente polarizada en el ángulo de reflexión <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math>, conocido como el ángulo de Brewster.</item>
+<item>La polarización también puede producirse por dispersión.</item>
+<item>Varios tipos de sustancias ópticamente activas hacen girar la dirección de la polarización de luz que las atraviesa.</item>
+</list>
+</section>
+<section id="fs-id1172098579240" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1172098409992" class="unnumbered unstyled" summary="Seven key equations are given. The first equation is that speed of light c equals 2.99792458 times 10 to the eight meters per second, or about 3.00 times 10 to the eight meters per second. The second equation is the index of refraction n equals c over v. The third equation is The law of reflection which is theta r equals theta i. The fourth equation is The law of refraction, called Snell’s law, which is n one times sine of theta one equals n two times sine of theta two. The fifth equation is the critical angle which is theta c which is equal to the inverse sine of the ratio of n 2 to n 1 for n 1 larger than n 2. The sixth equation is Malus’s law which is that I equals I naught times the square of cosine of theta. The seventh equation is Brewster’s law which is that the tangent of theta b equals n 2 divided by n 1.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Velocidad de la luz</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>2,99792458</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>≈</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Índice de refracción</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>v</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ley de reflexión</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>r</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ley de refracción (ley de Snell)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ángulo crítico</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>sen</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mtext>para</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ley de Malus</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ley de Brewster</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1172098312896" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172100563480">
+<problem id="fs-id1172100563482">
+<para id="fs-id1172100563484">¿Puede polarizarse una onda sonora en el aire? Explique.</para>
+</problem>
+<solution id="fs-id1172098566216">
+<para id="fs-id1172098566218">No. Las ondas sonoras no son ondas transversales.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098444519">
+<problem id="fs-id1172098444521">
+<para id="fs-id1172100854720">Ninguna luz pasa a través de dos filtros polarizadores perfectos con ejes perpendiculares. Sin embargo, si se coloca un tercer filtro polarizador entre los dos originales, puede pasar algo de luz. ¿Por qué? ¿En qué circunstancias pasa la mayor parte de la luz?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100937612">
+<problem id="fs-id1172101004648">
+<para id="fs-id1172101004650">Explique qué ocurre con la energía que la luz transporta que se atenúa al pasarla por dos filtros polarizadores cruzados.</para>
+</problem>
+<solution id="fs-id1172098378846">
+<para id="fs-id1172098378848">La energía se absorbe en los filtros.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098419614">
+<problem id="fs-id1172098419616">
+<para id="fs-id1172100836743">Cuando las partículas que dispersan la luz son mucho más pequeñas que su longitud de onda, la cantidad de dispersión es proporcional a <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac></m:mrow></m:math>. ¿Significa esto que hay más dispersión para las pequeñas <m:math><m:mi>λ</m:mi></m:math> que para las grandes <m:math><m:mi>λ</m:mi></m:math>? ¿Qué relación tiene esto con el hecho de que el cielo sea azul?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098515484">
+<problem id="fs-id1172098515486">
+<para id="fs-id1172098515488">A partir de la información dada en la pregunta anterior, explique por qué las puestas de sol son rojas.</para>
+</problem>
+<solution id="fs-id1172101031408">
+<para id="fs-id1172101031410">Las puestas de sol se ven con la luz viajando directamente desde el Sol hacia nosotros. Cuando la luz azul se dispersa fuera de esta trayectoria, la luz roja restante domina el aspecto general del Sol poniente.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100939538">
+<problem id="fs-id1172101031412">
+<para id="fs-id1172098375700">Cuando la luz se refleja con el ángulo de Brewster desde una superficie lisa, es polarizada <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> paralela a la superficie. Parte de la luz se refractará en la superficie. Describa cómo se haría un experimento para determinar la polarización de la luz refractada. ¿Qué dirección espera que tenga la polarización y que sea de un <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101006692">
+<problem id="fs-id1172101006694">
+<para id="fs-id1172101006696">Si se tumba en una playa mirando al agua con la cabeza ligeramente inclinada hacia un lado, sus lentes de sol polarizados no funcionan muy bien. ¿Por qué no?</para>
+</problem>
+<solution id="fs-id1172100597205">
+<para id="fs-id1172100597207">El eje de polarización de los lentes de sol se ha girado <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172100900223" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172098509539">
+<problem id="fs-id1172098509541">
+<para id="fs-id1172098509543">¿Qué ángulo es necesario entre la dirección de la luz polarizada y el eje de un filtro polarizador para reducir su intensidad a la mitad?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100652283">
+<problem id="fs-id1172100652285">
+<para id="fs-id1172098449543">El ángulo entre los ejes de dos filtros polarizadores es de <m:math><m:mrow><m:mn>45,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. ¿En qué medida el segundo filtro reduce la intensidad de la luz que entra por el primero?</para>
+</problem>
+<solution id="fs-id1172101004740">
+<para id="fs-id1172101004742">0,500</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100972697">
+<problem id="fs-id1172100972699">
+<para id="fs-id1172100972701">Dos hojas polarizadoras <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> se colocan juntos con sus ejes de transmisión orientados en un ángulo <m:math><m:mi>θ</m:mi></m:math> entre sí. ¿Cuál es el valor de <m:math><m:mi>θ</m:mi></m:math> cuando solo <m:math><m:mrow><m:mn>25</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> de la intensidad máxima de luz transmitida pasa a través de ellos?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100831638">
+<problem id="fs-id1172100831640">
+<para id="fs-id1172100831643">Supongamos que en el problema anterior la luz que incide en <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> no está polarizada. Con el valor determinado de <m:math><m:mi>θ</m:mi></m:math>, ¿qué fracción de la luz incidente atraviesa la combinación?</para>
+</problem>
+<solution id="fs-id1172098524565">
+<para id="fs-id1172098524568">0,125 o 1/8</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100883879">
+<problem id="fs-id1172100883882">
+<para id="fs-id1172100883884">Si se tiene una luz completamente polarizada de intensidad <m:math><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, ¿cuál será su intensidad después de pasar por un filtro polarizador con su eje a un ángulo de <m:math><m:mrow><m:mn>89,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con respecto a la dirección de polarización de la luz?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100965586">
+<problem id="fs-id1172100965588">
+<para id="fs-id1172100965590">¿Qué ángulo tendría que formar el eje de un filtro polarizador con la dirección de la luz polarizada a una intensidad de <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kW/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> para reducir la intensidad a <m:math><m:mrow><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172100986358">
+<para id="fs-id1172100986360"><m:math><m:mrow><m:mn>84,3</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100878132">
+<problem id="fs-id1172098271698">
+<para id="fs-id1172098271700">Al final del <link target-id="fs-id1172100714884"/>, se afirmó que la intensidad de la luz polarizada se reduce a <m:math><m:mrow><m:mn>90,0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> de su valor original al pasar por un filtro polarizador con su eje en un ángulo de <m:math><m:mrow><m:mn>18,4</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> hacia la dirección de polarización. Compruebe esta afirmación.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098363428">
+<problem id="fs-id1172098363431">
+<para id="fs-id1172098258739">Demuestre que si tiene tres filtros polarizadores, con el segundo en un ángulo de <m:math><m:mrow><m:mn>45,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> al primero y al tercero con un ángulo de <m:math><m:mrow><m:mn>90,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, la intensidad de la luz que pasa el primero se reducirá a <m:math><m:mrow><m:mn>25,0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> de su valor. (Esto contrasta con tener solo el primero y el tercero, que reduce la intensidad a cero, por lo que colocar el segundo entre ellos aumenta la intensidad de la luz transmitida)</para>
+</problem>
+<solution id="fs-id1172100560156">
+<para id="fs-id1172100560158"><m:math><m:mrow><m:mn>0,250</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100896541">
+<problem id="fs-id1172100909609">
+<para id="fs-id1172100909611">Se colocan tres láminas polarizadoras juntas de forma que el eje de transmisión de la segunda lámina se orienta a <m:math><m:mrow><m:mn>25,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con respecto al eje de la primera, mientras que el eje de transmisión de la tercera hoja está orientado a <m:math><m:mrow><m:mn>40,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> (en el mismo sentido) con respecto al eje de la primera. ¿Qué fracción de la intensidad de un rayo no polarizado incidente es transmitida por la combinación?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098382077">
+<problem id="fs-id1172098382079">
+<para id="fs-id1172098382081">Para girar el eje de polarización de un haz de luz linealmente polarizado a <m:math><m:mrow><m:mn>90,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, un estudiante coloca hojas <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> con sus ejes de transmisión a <m:math><m:mrow><m:mn>45,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>90,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, respectivamente, con respecto al eje de polarización del haz. (a) ¿Qué fracción de la luz incidente atraviesa <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> y (b) a través de la combinación? (c) Repita sus cálculos de la parte (b) para ángulos del eje de transmisión de <m:math><m:mrow><m:mn>30,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>90,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, respectivamente.</para>
+</problem>
+<solution id="fs-id1172098265582">
+<para id="fs-id1172098265584">a. 0,500; b. 0,250; c. 0,187</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098265590">
+<problem id="fs-id1172101033453">
+<para id="fs-id1172101033455">Se ha observado que cuando la luz que viaja en el agua cae sobre un bloque de plástico, el ángulo de Brewster es <m:math><m:mrow><m:mn>50,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. ¿Cuál es el índice de refracción del plástico?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098380655">
+<problem id="fs-id1172098380657">
+<para id="fs-id1172098593133">¿Con qué ángulo se polariza completamente la luz reflejada por el diamante?</para>
+</problem>
+<solution id="fs-id1172098593137">
+<para id="fs-id1172098593139"><m:math><m:mrow><m:mn>67,54</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100935643">
+<problem id="fs-id1172100935645">
+<para id="fs-id1172100935647">¿Cuál es el ángulo de Brewster de la luz que viaja en el agua y que se refleja en el vidrio crown?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100985340">
+<problem id="fs-id1172100985342">
+<para id="fs-id1172100969327">Un buceador ve la luz reflejada en la superficie del agua. ¿A qué ángulo relativo a la superficie del agua se polarizará completamente esta luz?</para></problem>
+<solution id="fs-id1172100969334">
+<para id="fs-id1172100969336"><m:math><m:mrow><m:mn>53,1</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172100987373" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1172100987379">
+<problem id="fs-id1172098434220">
+<para id="fs-id1172098434222">A partir de sus mediciones, Roemer estimó que la luz tardaba 22 minutos en recorrer una distancia igual al diámetro de la órbita de la Tierra alrededor del Sol. (a) Utilice esta estimación junto con el diámetro conocido de la órbita de la Tierra para obtener un valor aproximado de la velocidad de la luz. (b) La luz tarda realmente 16,5 minutos en recorrer esta distancia. Utilice este tiempo para calcular la velocidad de la luz.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100950005">
+<problem id="fs-id1172100950007">
+<para id="fs-id1172100950009">Cornu realizó la medición de Fizeau de la velocidad de la luz utilizando una rueda de 4,00 cm de diámetro que contenía 180 dientes. La distancia de la rueda al espejo era de 22,9 km. Suponiendo que midiera la velocidad de la luz con precisión, ¿cuál era la velocidad angular de la rueda?</para>
+</problem>
+<solution id="fs-id1172100987541">
+<para id="fs-id1172100987543">114 radianes/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100950011">
+<problem id="fs-id1172100905366">
+<para id="fs-id1172100905368">Supongamos que tenemos una sustancia transparente desconocida sumergida en agua, y queremos identificarla encontrando su índice de refracción. Se dispone que un haz de luz entre en él con un ángulo de <m:math><m:mrow><m:mn>45,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, y se observa que el ángulo de refracción es de <m:math><m:mrow><m:mn>40,3</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. ¿Cuál es el índice de refracción de la sustancia y su probable identidad?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098391417">
+<problem id="fs-id1172098391419">
+<para id="fs-id1172098391421">A continuación se muestra un rayo de luz que pasa del aire al agua a través de un vidrio crown, como el que entra en una pecera. Calcule la cantidad de rayo desplazado por el vidrio <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> dado que el ángulo de incidencia es de <m:math><m:mrow><m:mn>40,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> y el vidrio tiene un grosor de 1,00 cm.</para>
+<media id="fs-id1172100534700" alt="La figura ilustra la refracción que se produce cuando la luz viaja del medio n 1 al n 3 a través de un medio intermedio n 2. El rayo incidente forma un ángulo theta 1 con una perpendicular trazada en el punto de incidencia en la interfase entre n 1 y n 2. El rayo de luz que entra en n 2 se dobla hacia la línea perpendicular formando con ella un ángulo theta 2 en el lado n 2. El rayo llega a la interfase entre n 2 y n 3 con un ángulo de theta 2 con respecto a una perpendicular trazada en el punto de incidencia en esta interfase, y el rayo transmitido se dobla alejándose de la perpendicular, formando un ángulo de theta tres con la perpendicular en el lado n 3. Una extrapolación en línea recta del rayo incidente original se muestra como una línea de puntos. Esta línea es paralela al rayo refractado en el tercer medio, n 3, y está desplazada una distancia delta x del rayo refractado. El rayo extrapolado forma el mismo ángulo theta tres con la perpendicular en el medio n 3 que el rayo refractado.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_03_RayofLight_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100560909">
+<para id="fs-id1172100560911">3,72 mm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100560916">
+<problem id="fs-id1172100560918">
+<para id="fs-id1172100560920">Considerando el problema anterior, demuestre que <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> es la misma que la que se daría si el segundo medio no estuviera presente.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100953673">
+<problem id="fs-id1172100953675">
+<para id="fs-id1172100953677">¿Con qué ángulo se polariza completamente la luz dentro del vidrio crown cuando se refleja en el agua, como en una pecera?</para>
+</problem>
+<solution id="fs-id1172100953683">
+<para id="fs-id1172100953685"><m:math><m:mrow><m:mn>41,2</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100530383">
+<problem id="fs-id1172100530386">
+<para id="fs-id1172100530388">La luz reflejada a <m:math><m:mrow><m:mn>55,6</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> de una ventana está completamente polarizada. ¿Cuál es el índice de refracción de la ventana y la sustancia probable de la que está hecha?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100935188">
+<problem id="fs-id1172100935190">
+<para id="fs-id1172100935193">(a) La luz reflejada a <m:math><m:mrow><m:mn>62,5</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> de una piedra preciosa en un anillo está completamente polarizada. ¿Puede ser la gema un diamante? b) ¿Con qué ángulo se polarizaría completamente la luz si la gema estuviera en el agua?</para>
+</problem>
+<solution id="fs-id1172100909673">
+<para id="fs-id1172100909676">a. 1,92. La gema no es un diamante (es un circón). b <m:math><m:mrow><m:mn>55,2</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098419019">
+<problem id="fs-id1172098419021">
+<para id="fs-id1172098419023">Si <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math> es el ángulo de Brewster para la luz reflejada desde la parte superior de una interfase entre dos sustancias, y <m:math><m:mrow><m:msubsup><m:mi>θ</m:mi><m:mtext>b</m:mtext><m:mtext>′</m:mtext></m:msubsup></m:mrow></m:math> es el ángulo de Brewster para la luz reflejada desde abajo, demuestre que <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>+</m:mo><m:msubsup><m:mi>θ</m:mi><m:mtext>b</m:mtext><m:mtext>′</m:mtext></m:msubsup><m:mo>=</m:mo><m:mn>90,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100999154">
+<problem id="fs-id1172100999157">
+<para id="fs-id1172100999159"><emphasis effect="bold">Resultados irrazonables</emphasis> Supongamos que la luz viaja del agua a otra sustancia, con un ángulo de incidencia de <m:math><m:mrow><m:mn>10,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> y un ángulo de refracción de <m:math><m:mrow><m:mn>14,9</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. (a) ¿Cuál es el índice de refracción de la otra sustancia? (b) ¿Qué es lo irrazonable de este resultado? (c) ¿Qué suposiciones son irrazonables o incoherentes?</para>
+</problem>
+<solution id="fs-id1172098406224">
+<para id="fs-id1172100668145">a. 0,898; b. No podemos obtener <m:math><m:mrow><m:mi>n</m:mi><m:mo>&lt;</m:mo><m:mn>1,00</m:mn></m:mrow></m:math>, dado que esto implicaría una velocidad mayor de <emphasis effect="italics">c</emphasis>. c. El ángulo de refracción es demasiado grande en relación con el ángulo de incidencia.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100922176">
+<problem id="fs-id1172100922178">
+<para id="fs-id1172100922180"><emphasis effect="bold">Resultados irrazonables</emphasis> La luz que viaja desde el agua hasta una piedra preciosa incide en la superficie con un ángulo de <m:math><m:mrow><m:mn>80,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> y tiene un ángulo de refracción de <m:math><m:mrow><m:mn>15,2</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. (a) ¿Cuál es la velocidad de la luz en la piedra preciosa? (b) ¿Qué es lo irrazonable de este resultado? (c) ¿Qué suposiciones son irrazonables o incoherentes?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098429876">
+<problem id="fs-id1172098429878">
+<para id="fs-id1172098429880">Si un filtro polarizador reduce la intensidad de la luz polarizada a <m:math><m:mrow><m:mn>50,0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> de su valor original, ¿en cuánto se reducen los campos eléctricos y magnéticos?</para>
+</problem>
+<solution id="fs-id1172098509427">
+<para id="fs-id1172098509429"><m:math><m:mrow><m:mn>0,707</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100676846">
+<problem id="fs-id1172100676848">
+<para id="fs-id1172100676850">Supongamos que se pone dos pares de lentes de sol polarizados con sus ejes en un ángulo de <m:math><m:mrow><m:mn>15,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. ¿Cuánto tiempo tardará la luz en depositar una determinada cantidad de energía en su ojo en comparación con unos lentes de sol? Supongamos que las lentes son claras, excepto por sus características de polarización.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100639757">
+<problem id="fs-id1172100676914">
+<para id="fs-id1172100676916">(a) En un día en que la intensidad de la luz solar es <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kW/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, una lente circular de 0,200 m de diámetro enfoca la luz sobre el agua en un vaso negro. Dos láminas polarizadoras de plástico se colocan delante de la lente con sus ejes en un ángulo de <m:math><m:mrow><m:mn>20,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. Supongamos que la luz solar no está polarizada y los polarizadores son <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> eficientes, ¿cuál es la tasa inicial de calentamiento del agua en <m:math><m:mrow><m:mtext>°</m:mtext><m:mtext>C/s</m:mtext></m:mrow></m:math>, suponiendo que sea <m:math><m:mrow><m:mn>80,0</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> absorbida? El vaso de aluminio tiene una masa de 30,0 gramos y contiene 250 gramos de agua. (b) ¿Se calientan los filtros polarizadores? Explique.</para>
+</problem>
+<solution id="fs-id1172098500115">
+<para id="fs-id1172098500117">a. <m:math><m:mrow><m:mn>1,69</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>°</m:mtext><m:mtext>C/s</m:mtext></m:mrow></m:math>; b. sí</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172098319875" class="review-challenge">
+<title>Problemas de desafío</title>
+<exercise id="fs-id1172100967724">
+<problem id="fs-id1172100967726">
+<para id="fs-id1172100967728">Los espectáculos de luz montados con láseres utilizan espejos móviles para hacer oscilar los haces y crear efectos de color. Demuestre que un rayo de luz reflejado en un espejo cambia de dirección en <m:math><m:mrow><m:mn>2</m:mn><m:mi>θ</m:mi></m:mrow></m:math> cuando el espejo se gira en un ángulo <m:math><m:mi>θ</m:mi></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098560089">
+<problem id="fs-id1172098560092">
+<para id="fs-id1172098560094">Considere la luz solar que entra en la atmósfera de la Tierra al amanecer y al atardecer, es decir, a un ángulo de incidencia de <m:math><m:mrow><m:mn>90,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. Al tomar como súbito el límite entre el espacio casi vacío y la atmósfera, calcule el ángulo de refracción de la luz solar. Esto alarga el tiempo que el Sol parece estar sobre el horizonte, tanto al amanecer como al atardecer. Ahora construya un problema en el que determine el ángulo de refracción para diferentes modelos de la atmósfera, como varias capas de densidad variable. Su instructor puede orientarle sobre el nivel de complejidad a considerar y sobre cómo varía el índice de refracción con la densidad del aire.</para>
+</problem>
+<solution id="fs-id1172098431972">
+<para id="fs-id1172098431974">Primera parte: <m:math><m:mrow><m:mn>88,6</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. El resto depende de la complejidad de la solución que el lector construya.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100523258">
+<problem id="fs-id1172100523260">
+<para id="fs-id1172098525185">Un rayo de luz que entra en una fibra óptica rodeada de aire se refracta primero y se refleja después como se muestra a continuación. Demuestre que si la fibra está hecha de vidrio crown, cualquier rayo incidente se reflejará totalmente de forma interna.</para>
+<media id="fs-id1172098525190" alt="La figura muestra la luz que viaja desde n 1 e incide en la cara izquierda de un bloque rectangular de material n 2. El rayo incide con un ángulo de incidencia theta 1, medido con respecto a la normal de la superficie donde entra el rayo. El ángulo de refracción es theta 2, de nuevo, respecto a la normal de la superficie. El rayo refractado incide sobre la cara superior del bloque y se refleja totalmente en el interior con theta 3 como ángulo de incidencia.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_04_FiberEnd_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172098526741">
+<problem id="fs-id1172098526743">
+<para id="fs-id1172098526745">Un rayo de luz incide en la cara izquierda de un prisma (ver más abajo) en el ángulo de incidencia <m:math><m:mi>θ</m:mi></m:math> para el que el haz emergente tiene un ángulo de refracción <m:math><m:mi>θ</m:mi></m:math> en la cara derecha. Demuestre que el índice de refracción <emphasis effect="italics">n</emphasis> del prisma de vidrio viene dado por</para>
+<para id="fs-id1172098373758"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ϕ</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+<para id="fs-id1172100814342">donde <m:math><m:mi>ϕ</m:mi></m:math> es el ángulo del vértice del prisma y <m:math><m:mi>α</m:mi></m:math> es el ángulo por el que se ha desviado el rayo. Si <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>37,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> y los ángulos de la base del prisma son cada uno <m:math><m:mrow><m:mn>50,0</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math> ¿cuál es el valor de <emphasis effect="italics">n</emphasis>?</para>
+<media id="fs-id1172098388409" alt="Un rayo de luz incide en la cara izquierda de un prisma triangular cuyo vértice superior tiene un ángulo de phi y cuyo índice de refracción es n. El ángulo de incidencia del rayo respecto a la normal de la cara izquierda es theta. El rayo se refracta en el prisma. El rayo refractado es horizontal, paralelo a la base del prisma. El rayo refractado llega a la cara derecha del prisma y se refracta al salir de este. El rayo emergente hace un ángulo de theta con la normal a la cara derecha.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_34_05_PrismRefr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101009095">
+<para id="fs-id1172101009097">prueba; 1,33</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098501758">
+<problem id="fs-id1172098501761">
+<para id="fs-id1172098501763">Si el ángulo del vértice <m:math><m:mi>ϕ</m:mi></m:math> en el problema anterior es <m:math><m:mrow><m:mn>20,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1,50</m:mn></m:mrow></m:math>, ¿cuál es el valor de <m:math><m:mi>α</m:mi></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098410996">
+<problem id="fs-id1172098410998">
+<para id="fs-id1172098411000">La luz que incide en la lámina polarizadora <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> se polariza linealmente con un ángulo de <m:math><m:mrow><m:mn>30,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con respecto al eje de transmisión de <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math>. La lámina <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> se coloca de forma que su eje sea paralelo al eje de polarización de la luz incidente, es decir, también en <m:math><m:mrow><m:mn>30,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con respecto a <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math>. (a) ¿Qué fracción de la luz incidente atraviesa <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math>? (b) ¿Qué fracción de la luz incidente pasa por la combinación? (c) Al girar <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math>, se obtiene un máximo en la intensidad transmitida. ¿Cuál es la relación entre esta intensidad máxima y la intensidad de la luz transmitida cuando <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> está a <m:math><m:mrow><m:mn>30,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con respecto a <m:math><m:mrow><m:msub><m:mtext>P</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172098379450">
+<para id="fs-id1172098379453">a. 0,750; b. 0,563; c. 1,33</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098379458">
+<problem id="fs-id1172098379460">
+<para id="fs-id1172098379462">Demuestre que si <emphasis effect="italics">I</emphasis> es la intensidad de la luz transmitida por dos filtros polarizadores con ejes en ángulo <m:math><m:mi>θ</m:mi></m:math> y <m:math><m:mrow><m:mi>I</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> es la intensidad cuando los ejes están en ángulo <m:math><m:mrow><m:mn>90,0</m:mn><m:mtext>°</m:mtext><m:mo>−</m:mo><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> entonces <m:math><m:mrow><m:mi>I</m:mi><m:mo>+</m:mo><m:msup><m:mi>I</m:mi><m:mtext>′</m:mtext></m:msup><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> la intensidad original. (<emphasis effect="italics">Pista:</emphasis> Utilice las identidades trigonométricas <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mn>90,0</m:mn><m:mtext>°</m:mtext><m:mo>−</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>+</m:mo><m:msup><m:mrow><m:mtext>sen</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172098320034">
+<term>Ángulo de Brewster</term>
+<meaning id="fs-id1172098320039">ángulo de incidencia en el que la luz reflejada está completamente polarizada</meaning>
+</definition>
+<definition id="fs-id1172098451460">
+<term>birrefringente</term>
+<meaning id="fs-id1172098451465">se refiere a los cristales que dividen un haz de luz no polarizado en dos haces</meaning>
+</definition>
+<definition id="fs-id1172098406649">
+<term>dirección de polarización</term>
+<meaning id="fs-id1172098406655">dirección paralela al campo eléctrico para las ondas EM</meaning>
+</definition>
+<definition id="fs-id1172098320044">
+<term>Ley de Brewster</term>
+<meaning id="fs-id1172098320049"><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>, donde <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es el medio por el que viajan la luz incidente y la reflejada y <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es el índice de refracción del medio que forma la interfase que refleja la luz</meaning>
+</definition>
+<definition id="fs-id1172098269312">
+<term>Ley de Malus</term>
+<meaning id="fs-id1172098269317">donde <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la intensidad de la onda polarizada antes de pasar por el filtro</meaning>
+</definition>
+<definition id="fs-id1172100925830">
+<term>no polarizada</term>
+<meaning id="fs-id1172100925835">se refiere a las ondas que se polarizan aleatoriamente</meaning>
+</definition>
+<definition id="fs-id1172100923666">
+<term>ópticamente activa</term>
+<meaning id="fs-id1172100923672">sustancias que rotan el plano de polarización de la luz que las atraviesa</meaning>
+</definition>
+<definition id="fs-id1172100923676">
+<term>polarización</term>
+<meaning id="fs-id1172098528169">atributo por el que las oscilaciones de las ondas tienen una dirección definida con respecto a la dirección de propagación de la onda</meaning>
+</definition>
+<definition id="fs-id1172098528174">
+<term>polarizada</term>
+<meaning id="fs-id1172098528180">se refiere a las ondas que tienen las oscilaciones del campo eléctrico y magnético en una dirección definida</meaning>
+</definition>
+<definition id="fs-id1172100925839">
+<term>polarizada verticalmente</term>
+<meaning id="fs-id1172100897291">las oscilaciones son en un plano vertical</meaning>
+</definition>
+<definition id="fs-id1172098406659">
+<term>polarizado horizontalmente</term>
+<meaning id="fs-id1172098406664">las oscilaciones son en un plano horizontal</meaning>
+</definition>
+</glossary>
+</document>

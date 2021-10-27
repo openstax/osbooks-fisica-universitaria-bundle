@@ -1,0 +1,274 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Energía transportada por las ondas electromagnéticas</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90944</md:content-id>
+  <md:title>Energía transportada por las ondas electromagnéticas</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Expresar la densidad de energía promediada en el tiempo de las ondas electromagnéticas en términos de sus amplitudes de campo eléctrico y magnético.</item>
+<item>Calcular el vector de Poynting y la intensidad energética de ondas electromagnéticas.</item>
+<item>Explicar cómo la energía de una onda electromagnética depende de su amplitud, mientras que la energía de un fotón es proporcional a su frecuencia.</item>
+</list></md:abstract>
+  <md:uuid>fa169dc7-4ec7-4205-a7ea-71eadc1d6730</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171242549184">Cualquiera que haya utilizado un horno microondas sabe que hay energía en las ondas electromagnéticas. A veces esta energía es evidente, como en el calor del Sol de verano. Otras veces, es sutil, como la energía no percibida de los rayos gamma, que puede destruir células vivas.</para>
+<para id="fs-id1171242542035">Las ondas electromagnéticas aportan energía a un sistema en virtud de sus campos eléctricos y magnéticos. Estos campos pueden ejercer fuerzas y mover cargas en el sistema y, por tanto, realizar un trabajo sobre ellas. Sin embargo, hay energía en una onda electromagnética en sí misma, tanto si es absorbida o no. Una vez creados, los campos transportan energía que se aleja de una fuente. Si posteriormente se absorbe algo de energía, las intensidades de campo disminuyen y todo lo que queda se desplaza.</para>
+<para id="fs-id1171240332344">Evidentemente, cuanto mayor sea la fuerza de los campos eléctricos y magnéticos, más trabajo podrán realizar y mayor será la energía que transporte la onda electromagnética. En las ondas electromagnéticas, la amplitud es la intensidad máxima de los campos eléctrico y magnético (<link target-id="CNX_UPhysics_33_03_EngbyWave"/>). La energía de las ondas viene determinada por su amplitud.</para>
+<figure id="CNX_UPhysics_33_03_EngbyWave">
+<media id="fs-id1171242345463" alt="La figura de la izquierda muestra una onda electromagnética con un campo eléctrico E y un campo magnético B. Está marcada como u. La figura de la derecha muestra una onda electromagnética con el campo eléctrico 2E y el campo magnético 2B. Aquí, las amplitudes de las ondas sinusoidales se duplican. La onda está marcada como 4u.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_33_03_EngbyWave.jpg"/>
+</media>
+<caption>La energía transportada por una onda depende de su amplitud. En el caso de las ondas electromagnéticas, la duplicación de los campos <emphasis effect="italics">E</emphasis> y <emphasis effect="italics">B</emphasis> cuadruplica la densidad de energía <emphasis effect="italics">u</emphasis> y el flujo de energía <emphasis effect="italics">uc</emphasis>.</caption>
+</figure>
+<para id="fs-id1171242528655">Para una onda plana que viaja en la dirección del eje <emphasis effect="italics">x</emphasis> positivo con la fase de la onda elegida para que el máximo de la onda esté en el origen en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, los campos eléctricos y magnéticos obedecen a las ecuaciones</para>
+<equation id="fs-id1171242478964" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>E</m:mi><m:mi>y</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>B</m:mi><m:mi>z</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171242138106">La energía de cualquier parte de la onda electromagnética es la suma de las energías de los campos eléctrico y magnético. Esta energía por unidad de volumen, o <term class="no-emphasis">densidad de energía</term> <emphasis effect="italics">u</emphasis>, es la suma de la densidad de energía del campo eléctrico y la densidad de energía del campo magnético. Las expresiones para ambas densidades de energía de campo se discutieron anteriormente (<m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub></m:mrow></m:math> en la sección <link document="m90881">Capacitancia</link> y <m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:math> en la sección <link document="m90925">Inductancia</link>). Combinando estas contribuciones, obtenemos</para>
+<equation id="fs-id1171242524070" class="unnumbered"><label/><m:math><m:mrow><m:mi>u</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>u</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242316546">La expresión <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mi>B</m:mi></m:mrow></m:math> muestra entonces que la densidad de energía magnética <m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:math> y la densidad de energía eléctrica <m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>E</m:mi></m:msub></m:mrow></m:math> son iguales, a pesar de que los campos eléctricos cambiantes generalmente solo producen pequeños campos magnéticos. La igualdad de las densidades de energía eléctrica y magnética conduce a</para>
+<equation id="fs-id1171242562347"><m:math><m:mrow><m:mi>u</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242499562">La densidad de energía se mueve con los campos eléctricos y magnéticos de forma similar a las propias ondas.</para>
+<para id="fs-id1171242141252">Podemos calcular la tasa de transporte de energía considerando un pequeño intervalo de tiempo <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>. Como se muestra en la <link target-id="CNX_UPhysics_33_03_EnergyCyl"/>, la energía contenida en un cilindro de longitud <m:math><m:mrow><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> y la sección transversal <emphasis effect="italics">A</emphasis> pasa por el plano de la sección transversal en el intervalo <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_33_03_EnergyCyl">
+<media id="fs-id1171242159784" alt="La figura muestra un cilindro de longitud c delta t y de sección transversal A. Las flechas indican que la dirección de una onda es a lo largo de la longitud del cilindro. Se muestra un plano perpendicular a la dirección de la onda.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_33_03_EnergyCyl.jpg"/>
+</media>
+<caption>La energía <m:math><m:mrow><m:mi>u</m:mi><m:mi>A</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> contenida en los campos eléctricos y magnéticos de la onda electromagnética en el volumen <m:math><m:mrow><m:mi>A</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> pasa por la zona <emphasis effect="italics">A</emphasis> en el tiempo <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1171242566489">La energía que pasa por el área <emphasis effect="italics">A</emphasis> en el tiempo <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> es</para>
+<equation id="fs-id1171242551205" class="unnumbered"><label/><m:math><m:mrow><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>volumen</m:mtext><m:mo>=</m:mo><m:mi>u</m:mi><m:mi>A</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242064677">La energía por unidad de superficie y por unidad de tiempo que pasa por un plano perpendicular a la onda, llamada <term class="no-emphasis">flujo de energía</term> y denotada con una <emphasis effect="italics">S</emphasis>, puede calcularse dividiendo la energía por la superficie <emphasis effect="italics">A</emphasis> y el intervalo de tiempo <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>.</para>
+<equation id="fs-id1171239841131" class="unnumbered"><label/><m:math><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Zona de paso de la energía</m:mtext><m:mspace width="0.2em"/><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>en el tiempo</m:mtext><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow><m:mrow><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>u</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>c</m:mi><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mi>E</m:mi><m:mi>B</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242576327">De forma más general, el flujo de energía atraviesa cualquier superficie también depende de la orientación de la misma. Para tener en cuenta la dirección, introducimos un vector <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>S</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>, llamado <term>vector de Poynting</term>, con la siguiente definición:</para>
+<note id="fs-id1171242373735" class="equation-callout">
+<equation id="fs-id1171242344911"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>S</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171242567316">El producto cruzado de <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> y <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> apunta en la dirección perpendicular a ambos vectores. Para confirmar que la dirección de <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>S</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es la de la propagación de las ondas, y no su negativo, vuelva a la <link target-id="CNX_UPhysics_33_02_GaussBox2" document="m90943"/>. Tenga en cuenta que las leyes de Lenz y Faraday implican que cuando el campo magnético mostrado es creciente en el tiempo, el campo eléctrico es mayor en <emphasis effect="italics">x</emphasis> que en <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math>. El campo eléctrico disminuye con el aumento de <emphasis effect="italics">x</emphasis> en un momento y lugar determinados. La proporcionalidad entre los campos eléctricos y magnéticos requiere que el campo eléctrico aumente en el tiempo junto con el campo magnético. Esto solo es posible si la onda se propaga hacia la derecha en el diagrama, en cuyo caso, las orientaciones relativas muestran que <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>S</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> es específicamente en la dirección de propagación de la onda electromagnética.</para>
+<para id="fs-id1171242505237">El flujo de energía en cualquier lugar también varía en el tiempo, como puede verse sustituyendo la <link document="m90943" target-id="fs-id1171241058834"/> en la <link target-id="fs-id1171242562347"/>para obtener la <emphasis effect="italics">u</emphasis></para>
+<equation id="fs-id1171242360612"><m:math><m:mrow><m:mi>S</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1171242062174">Como la frecuencia de la luz visible es muy alta, del orden de <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz,</m:mtext></m:mrow></m:math> el flujo de energía de la luz visible a través de cualquier área es una cantidad que varía muy rápidamente. La mayoría de los dispositivos de medición, incluidos nuestros ojos, solo detectan una media de muchos ciclos. El promedio temporal del flujo de energía es la <term class="no-emphasis">intensidad</term> <emphasis effect="italics">I</emphasis> de la onda electromagnética y es la potencia por unidad de superficie. Se puede expresar promediando la función coseno en la <link target-id="fs-id1171242360612"/> a lo largo de un ciclo completo, que es lo mismo que promediar el tiempo a lo largo de muchos ciclos (aquí, <emphasis effect="italics">T</emphasis> es un periodo):</para>
+<equation id="fs-id1171242538156"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>avg</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mfrac><m:mn>1</m:mn><m:mi>T</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>T</m:mi></m:munderover><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mfrac><m:mi>t</m:mi><m:mi>T</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242140509">Podemos evaluar la integral, o bien observar que como el seno y el coseno difieren simplemente en la fase, la media sobre un ciclo completo para <m:math><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mi>ξ</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> es el mismo que para <m:math><m:mrow><m:msup><m:mrow><m:mtext>sen</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mi>ξ</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, para obtener</para>
+<equation id="fs-id1167586002515" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>〈</m:mo><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mi>ξ</m:mi></m:mrow><m:mo>〉</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mo>〈</m:mo><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mi>ξ</m:mi></m:mrow><m:mo>〉</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:msup><m:mrow><m:mtext>sen</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mi>ξ</m:mi></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>〈</m:mo><m:mn>1</m:mn><m:mo>〉</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242488778">donde los paréntesis angulares <m:math><m:mrow><m:mrow><m:mo>〈</m:mo><m:mtext>⋯</m:mtext><m:mo>〉</m:mo></m:mrow></m:mrow></m:math> representan la operación de promediación del tiempo. La intensidad de la luz que se mueve a la velocidad <emphasis effect="italics">c</emphasis> en el vacío es entonces</para>
+<note id="fs-id1171242499648" class="equation-callout">
+<equation id="fs-id1171242360811"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>avg</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171242414188">en función de la intensidad máxima del campo eléctrico <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> que es también la amplitud del campo eléctrico. La manipulación algebraica produce la relación</para>
+<note id="fs-id1171242515090" class="equation-callout">
+<equation id="fs-id1171242568244"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:msubsup><m:mi>B</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171242105521">donde <sub><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> </sub> es la amplitud del campo magnético, que es igual a la intensidad máxima del campo magnético. Una expresión más para <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>avg</m:mtext></m:mrow></m:msub></m:mrow></m:math> en términos de intensidad de campo eléctrico y magnético es útil. Sustituyendo el hecho de que <m:math><m:mrow><m:mi>c</m:mi><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> la expresión anterior se convierte en</para>
+<note id="fs-id1171242166069" class="equation-callout">
+<equation id="fs-id1171242374771"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171242354546">Podemos utilizar cualquiera de las tres ecuaciones anteriores que nos resulte más conveniente, porque las tres ecuaciones son en realidad diferentes versiones del mismo resultado: La energía de una onda está relacionada con la amplitud al cuadrado. Además, como estas ecuaciones se basan en la suposición de que las ondas electromagnéticas son sinusoidales, la intensidad máxima es el doble de la intensidad media; es decir, <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1171242455314">
+<para id="fs-id1171242431424"><title>Un rayo láser</title>
+El haz de un pequeño láser de laboratorio suele tener una intensidad de aproximadamente <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Suponiendo que el haz está compuesto por ondas planas, calcule las amplitudes de los campos eléctrico y magnético en el haz.</para>
+<para id="fs-id1171242439140"><title>Estrategia</title>
+Utilice la ecuación que expresa la intensidad en términos de campo eléctrico para calcular el campo eléctrico a partir de la intensidad.</para>
+<para id="fs-id1171242348569"><title>Solución</title>
+A partir de la <link target-id="fs-id1171242360811"/>, la intensidad del rayo láser es</para>
+<equation id="fs-id1171242506434" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242435205">Por lo tanto, la amplitud del campo eléctrico es</para>
+<equation id="fs-id1167582483527" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mi>I</m:mi></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F/m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>0,87</m:mn><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171242568379">La amplitud del campo magnético puede obtenerse a partir de la <link document="m90943" target-id="fs-id1171241429995"/>:</para>
+<equation id="fs-id1171242611644" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>2,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</example>
+<example id="fs-id1171239838901">
+<para id="fs-id1171242408743"><title>Campos de bombillas</title>
+Una bombilla emite 5,00 W de potencia como luz visible. ¿Cuáles son los campos eléctricos y magnéticos medios de la luz a una distancia de 3,0 m?</para>
+<para id="fs-id1171242105224"><title>Estrategia</title>
+Supongamos que la potencia disipada <emphasis effect="italics">P</emphasis> de la bombilla, que se encuentra en el interior de una esfera de radio 3,0 m, se distribuye uniformemente, calcule la intensidad de la potencia en la superficie y, a partir de estos datos, calcule el campo eléctrico.</para>
+<media id="fs-id1171242172415" alt="La figura muestra una bombilla en el centro que ilumina una zona circular a su alrededor. Esta zona tiene un radio de 3 m.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_33_03_Lightbulb_img.jpg"/>
+</media>
+<para id="fs-id1171240153273"><title>Solución</title>
+La potencia radiada como luz visible es entonces</para>
+<equation id="fs-id1171239846457" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>P</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>2</m:mn><m:mfrac><m:mi>P</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mfrac><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>/N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>5,77</m:mn><m:mspace width="0.2em"/><m:mtext>N/C,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mtext>/</m:mtext><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>1,92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171242479138"><title>Importancia</title>
+La intensidad <emphasis effect="italics">I</emphasis> disminuye con la distancia al cuadrado si la radiación se dispersa uniformemente en todas las direcciones.</para>
+</example>
+<example id="fs-id1171240283503">
+<para id="fs-id1171242228461"><title>Alcance de la radio</title>
+Un transmisor de radio de 60 kW en la Tierra envía su señal a un satélite situado a 100 km (<link target-id="CNX_UPhysics_33_03_SolidAngle"/>). ¿A qué distancia en la misma dirección la señal tendría la misma intensidad de campo máxima si la potencia de salida del transmisor se aumentara a 90 kW?</para>
+<figure id="CNX_UPhysics_33_03_SolidAngle">
+<media id="fs-id1171242359289" alt="Un punto es etiquetado como fuente de radio. Un pequeño cuadrado marcado como A1 está en la trayectoria de las líneas que irradian de la fuente de radio. Las líneas continúan desde las esquinas de A1 y llegan a A2, un cuadrado ligeramente más grande. A1 está a una distancia r1 de la fuente y A2 está a una distancia R2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_33_03_SolidAngle.jpg"/>
+</media>
+<caption>En tres dimensiones, una señal se propaga en un ángulo sólido a medida que se desplaza hacia el exterior desde su fuente.</caption>
+</figure>
+<para id="fs-id1171242155523"><title>Estrategia</title>
+El área sobre la que se dispersa la potencia en una dirección determinada aumenta con la distancia al cuadrado, como se ilustra en la figura. Cambie la potencia de salida <emphasis effect="italics">P</emphasis> por un factor de (90 kW/60 kW) y cambie el área por el mismo factor para mantener <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>P</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> son iguales. A continuación, utilice la proporción entre el área <emphasis effect="italics">A</emphasis> del diagrama y la distancia al cuadrado para calcular la distancia que produce el cambio calculado en el área.</para>
+<para id="fs-id1171242413699"><title>Solución</title>
+Utilizando la proporcionalidad de las áreas a los cuadrados de las distancias, y resolviendo, obtenemos del diagrama</para>
+<equation id="fs-id1170901629480" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>90</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:mfrac><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>90</m:mn></m:mrow><m:mrow><m:mn>60</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>122</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171242340458"><title>Importancia</title>
+El alcance de una señal de radio es la distancia máxima entre el emisor y el receptor que permite un funcionamiento normal. En ausencia de complicaciones como las reflexiones de los obstáculos, la intensidad sigue una ley del cuadrado inverso, y para duplicar el alcance habría que multiplicar la potencia por cuatro.</para>
+</example>
+<section id="fs-id1171242456256" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1171242517585" list-type="bulleted" bullet-style="bullet">
+<item>La energía transportada por cualquier onda es proporcional a su amplitud al cuadrado. Para las ondas electromagnéticas, esto significa que la intensidad puede expresarse como</item>
+</list>
+<equation id="fs-id1171242432986" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msubsup><m:mi>E</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1171242416248">donde <emphasis effect="italics">I</emphasis> es la intensidad media en <m:math><m:mrow><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la intensidad máxima del campo eléctrico de una onda sinusoidal continua. Esto también puede expresarse en términos de la intensidad máxima del campo magnético <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> como</para>
+<equation id="fs-id1171240332761" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:msubsup><m:mi>B</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1171242410795">y en términos de campos eléctricos y magnéticos como</para>
+<equation id="fs-id1171242188234" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171240173894">Las tres expresiones para <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>avg</m:mtext></m:mrow></m:msub></m:mrow></m:math> son todas equivalentes.</para>
+</section>
+<section id="fs-id1171240053962" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1171242355872">
+<problem id="fs-id1171242469779">
+<para id="fs-id1171242502683">Cuando se está al aire libre bajo la luz del sol, ¿por qué se puede sentir la energía que lleva la luz del sol, pero no el momento que lleva?</para>
+</problem>
+<solution id="fs-id1171242448224">
+<para id="fs-id1171242366683">La cantidad de energía (alrededor de <m:math><m:mrow><m:msup><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) puede producir rápidamente un cambio considerable de temperatura, pero la ligera presión (alrededor de <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) es demasiado pequeño para notarlo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242169995">
+<problem id="fs-id1171242156968">
+<para id="fs-id1171242528032">¿Cómo depende la intensidad de una onda electromagnética de su campo eléctrico? ¿Cómo depende de su campo magnético?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242366776">
+<problem id="fs-id1171242557970">
+<para id="fs-id1171242557973">¿Qué significado físico tiene el vector de Poynting?</para>
+</problem>
+<solution id="fs-id1171242522614">
+<para id="fs-id1171242522616">Tiene la magnitud del flujo de energía y apunta en la dirección de propagación de la onda. Da la dirección del flujo de energía y la cantidad de energía por área transportada por segundo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242367061">
+<problem id="fs-id1171239828028">
+<para id="fs-id1171242574803">Un láser de helio-neón de 2,0 mW transmite un haz continuo de luz roja de sección transversal <m:math><m:mrow><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Si el rayo no diverge de forma apreciable, ¿cuánto variaría su campo eléctrico rms con respecto a la distancia del láser? Explique.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1171242092483" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1171240157941">
+<problem id="fs-id1171240157943">
+<para id="fs-id1171242428917">Mientras está en el exterior en un día soleado, un estudiante sostiene una gran lente convexa de radio 4,0 cm por encima de una hoja de papel para producir un punto brillante en el papel de 1,0 cm de radio, en lugar de un foco nítido. ¿Por qué factor está relacionado el campo eléctrico del punto luminoso con el campo eléctrico de la luz solar que sale por el lado de la lente que da al papel?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242539584">
+<problem id="fs-id1171242539587">
+<para id="fs-id1171242344124">Una onda electromagnética plana viaja hacia el norte. En un instante, su campo eléctrico tiene una magnitud de 6,0 V/m y apunta hacia el este. ¿Cuál es la magnitud y la dirección del campo magnético en este instante?</para>
+</problem>
+<solution id="fs-id1171242344127">
+<para id="fs-id1171242137715">El campo magnético es descendente y tiene una magnitud <m:math><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242551529">
+<problem id="fs-id1171240174140">
+<para id="fs-id1171240174142">El campo eléctrico de una onda electromagnética viene dado por<newline/> <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mrow><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math><newline/> Escriba las ecuaciones para el campo magnético asociado y el vector de Poynting.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242431518">
+<problem id="fs-id1171242431520">
+<para id="fs-id1171242431522">Una emisora de radio emite a una frecuencia de 760 kHz. En un receptor a cierta distancia de la antena, el campo magnético máximo de la onda electromagnética detectada es <m:math><m:mrow><m:mn>2,15</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math>.<newline/> (a) ¿Cuál es el campo eléctrico máximo? (b) ¿Cuál es la longitud de onda de la onda electromagnética?</para>
+</problem>
+<solution id="fs-id1171242114360">
+<para id="fs-id1171242114362">a <m:math><m:mrow><m:mn>6,45</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V/m;</m:mtext></m:mrow></m:math> b. 394 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242164209">
+<problem id="fs-id1171242164211">
+<para id="fs-id1171242525673">El filamento de una bombilla incandescente transparente irradia luz visible con una potencia de 5,00 W. Modele la parte de vidrio de la bombilla como una esfera de radio <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> y calcular la cantidad de energía electromagnética de la luz visible dentro de la bombilla.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242361457">
+<problem id="fs-id1171239825179">
+<para id="fs-id1171239825181">¿A qué distancia una bombilla de 100 W produce la misma intensidad de luz que una bombilla de 75 W a 10 m de distancia? (Supongamos que ambos tienen la misma eficacia para convertir la energía eléctrica del circuito en energía electromagnética emitida)</para>
+</problem>
+<solution id="fs-id1171242528002">
+<para id="fs-id1171242528004">11,5 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242532548">
+<problem id="fs-id1171242532550">
+<para id="fs-id1171242576251">Una bombilla incandescente solo emite 2,6 W de su potencia como luz visible. ¿Cuál es el campo eléctrico eficaz de la luz emitida a una distancia de 3,0 m de la bombilla?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242411876">
+<problem id="fs-id1171242411878">
+<para id="fs-id1171242347677">Una bombilla de 150 W emite el 5 % de su energía como radiación electromagnética. ¿Cuál es la magnitud del vector de Poynting medio a 10 m de la bombilla?</para>
+</problem>
+<solution id="fs-id1171242375717">
+<para id="fs-id1171242375719"><m:math><m:mrow><m:mn>5,97</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242466690">
+<problem id="fs-id1171242466692">
+<para id="fs-id1171242483096">Un pequeño láser de helio-neón tiene una potencia de salida de 2,5 mW. ¿Cuál es la energía electromagnética en una longitud de 1,0 m del haz?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242092064">
+<problem id="fs-id1171242502572">
+<para id="fs-id1171242502574">En la parte superior de la atmósfera terrestre, el vector de Poynting promediado en el tiempo asociado a la luz solar tiene una magnitud de aproximadamente <m:math><m:mrow><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kW/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math><newline/> (a) ¿Cuáles son los valores máximos de los campos eléctrico y magnético para una onda de esta intensidad? (b) ¿Cuál es la potencia total radiada por el sol? Supongamos que la Tierra está a <m:math><m:mrow><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> del Sol y que la luz solar está compuesta por ondas electromagnéticas planas.</para>
+</problem>
+<solution id="fs-id1171242346093">
+<para id="fs-id1171242346095"><m:math><m:mrow><m:mtext>a.</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>1.027</m:mn><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo>,</m:mo><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>3,42</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>b.</m:mtext><m:mspace width="0.2em"/><m:mn>3,96</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>26</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242448084">
+<problem id="fs-id1171242448086">
+<para id="fs-id1171242443597">El campo magnético de una onda electromagnética plana que se mueve a lo largo del eje <emphasis effect="italics">z</emphasis> viene dado por <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>k</m:mi><m:mi>z</m:mi><m:mo>+</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, donde <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>3,14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math><newline/> (a) Escriba una expresión para el campo eléctrico asociado a la onda. (b) ¿Cuál es la frecuencia y la longitud de onda? (c) ¿Cuál es su vector de Poynting medio?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242352995">
+<problem id="fs-id1171240241267">
+<para id="fs-id1171240241269">¿Cuál es la intensidad de una onda electromagnética con una intensidad de campo eléctrico máxima de 125 V/m?</para>
+</problem>
+<solution id="fs-id1171240241273">
+<para id="fs-id1171242438862"><m:math><m:mrow><m:mn>20,8</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171240245064">
+<problem id="fs-id1171240245067">
+<para id="fs-id1171240245069">Supongamos que los láseres de helio-neón que se utilizan habitualmente en los laboratorios de física para estudiantes tienen potencias de 0,500 mW. (a) Si se proyecta un rayo láser de este tipo sobre un punto circular de 1,00 mm de diámetro, ¿cuál es su intensidad? (b) Calcule la intensidad máxima del campo magnético. (c) Calcule la intensidad máxima del campo eléctrico.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171240174365">
+<problem id="fs-id1171240174367">
+<para id="fs-id1171240174370">Un transmisor de radio AM emite 50,0 kW de potencia de manera uniforme en todas las direcciones. (a) Suponiendo que todas las ondas de radio que llegan al suelo son completamente absorbidas, y que no hay absorción por la atmósfera u otros objetos, ¿cuál es la intensidad a 30,0 km de distancia? <emphasis effect="italics">(Pista:</emphasis> La mitad de la potencia se repartirá en la superficie de una semiesfera). b) ¿Cuál es la intensidad máxima del campo eléctrico a esta distancia?</para>
+</problem>
+<solution id="fs-id1171240157845">
+<para id="fs-id1171240056679">a <m:math><m:mrow><m:mn>4,42</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>‒6</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>; b <m:math><m:mrow><m:mn>5,77</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>‒2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242430038">
+<problem id="fs-id1171242430040">
+<para id="fs-id1171240035278">Suponga que la intensidad máxima segura de las microondas para la exposición humana se considera de <m:math><m:mrow><m:mn>1,00</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. (a) Si una unidad de radar emite 10,0 W de microondas (distintas de las enviadas por su antena) de manera uniforme en todas las direcciones, ¿a qué distancia debe estar para exponerse a una intensidad considerada segura? Supongamos que la potencia se propaga uniformemente sobre el área de una esfera sin complicaciones por absorción o reflexión. (b) ¿Cuál es la máxima intensidad del campo eléctrico con la intensidad segura? (Tenga en cuenta que los primeros radares tenían más fugas que los modernos. Esto causaba problemas de salud identificables, como cataratas, a las personas que trabajaban cerca de ellos)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171242357814">
+<problem id="fs-id1171242357816">
+<para id="fs-id1171242357818">Una antena parabólica de comunicaciones universitarias de 2,50 m de diámetro recibe señales de televisión que tienen una intensidad de campo eléctrico máxima (para un canal) de <m:math><m:mrow><m:mn>7,50</m:mn><m:mspace width="0.2em"/><m:mtext>μV/m</m:mtext></m:mrow></m:math> (vea más abajo). (a) ¿Cuál es la intensidad de esta onda? (b) ¿Cuál es la potencia recibida por la antena? (c) Si el satélite en órbita emite uniformemente sobre un área de <m:math><m:mrow><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> (una gran fracción de América del Norte), ¿cuánta potencia irradia?</para>
+<media id="fs-id1171242485223" alt="La figura muestra las ondas que inciden en una antena parabólica.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_33_03_Dish_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171240219486">
+<para id="fs-id1171240219488">a <m:math><m:mrow><m:mn>7,47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>; b <m:math><m:mrow><m:mn>3,66</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>; c. 1,12 W</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171242407498">
+<problem id="fs-id1171242407500">
+<para id="fs-id1171242407502">Se pueden construir láseres que produzcan una onda electromagnética de intensidad extremadamente alta durante un breve periodo, llamados láseres pulsados. Se utilizan para iniciar la fusión nuclear, por ejemplo. Dicho láser puede producir una onda electromagnética con una intensidad de campo eléctrico máxima de <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:math> durante un tiempo de 1,00 ns. (a) ¿Cuál es la intensidad máxima del campo magnético en la onda? (b) ¿Cuál es la intensidad del haz? (c) ¿Qué energía entrega en un área de <m:math><m:mrow><m:mn>1,00</m:mn><m:msup><m:mrow><m:mtext>-mm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171240142790">
+<term>vector de Poynting</term>
+<meaning id="fs-id1171242454673">vector igual al producto cruz de los campos eléctrico y magnético, que describe el flujo de energía electromagnética en una superficie</meaning>
+</definition>
+</glossary>
+</document>

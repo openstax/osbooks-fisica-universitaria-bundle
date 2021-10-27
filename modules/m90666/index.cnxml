@@ -1,0 +1,303 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Momento de inercia y energía cinética rotacional</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90666</md:content-id>
+  <md:title>Momento de inercia y energía cinética rotacional</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir las diferencias entre la energía cinética rotacional y traslacional.</item>
+<item>Definir el concepto físico de momento de inercia en términos de la distribución de la masa desde el eje rotacional.</item>
+<item>Explicar cómo el momento de inercia de los cuerpos rígidos afecta su energía cinética rotacional.</item>
+<item>Utilizar la conservación de la energía mecánica para analizar sistemas que sufren tanto rotación como traslación.</item>
+<item>Calcular la velocidad angular de un sistema en rotación cuando hay pérdidas de energía debido a fuerzas no conservativas.</item>
+</list></md:abstract>
+  <md:uuid>fa459159-b1cd-4f34-aac6-737211eda898</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167133803097">Hasta ahora en este capítulo, hemos estado trabajando con la cinemática rotacional: la descripción del movimiento de un cuerpo rígido en rotación con un eje fijo de rotación. En esta sección, definimos dos nuevas magnitudes que sirven para analizar las propiedades de los objetos en rotación: el momento de inercia y la energía cinética rotacional. Con estas propiedades definidas, tendremos dos herramientas importantes que necesitamos para analizar la dinámica rotacional.</para>
+<section id="fs-id1167133665168">
+<title>Energía cinética rotacional</title>
+<para id="fs-id1167133317220">Cualquier objeto en movimiento tiene energía cinética. Sabemos cómo calcular esto para un cuerpo que experimenta un movimiento traslacional, pero ¿qué pasa con un cuerpo rígido que experimenta una rotación? Esto puede parecer complicado porque cada punto del cuerpo rígido tiene una velocidad diferente. Sin embargo, podemos utilizar la velocidad angular, que es la misma para todo el cuerpo rígido, a objeto de expresar la energía cinética de un objeto en rotación. La <link target-id="CNX_UPhysics_10_04_Motor"/> muestra un ejemplo de un cuerpo en rotación muy energético: una piedra eléctrica de amolar, impulsada por un motor. Saltan chispas y se generan ruidos y vibraciones mientras la piedra de amolar hace su trabajo. Este sistema tiene una energía considerable, parte de ella en forma de calor, luz, sonido y vibración. Sin embargo, la mayor parte de esta energía está en forma de <term>energía cinética rotacional</term>.</para>
+<figure id="CNX_UPhysics_10_04_Motor">
+<media id="fs-id1167133455977" alt="La figura es la foto de un hombre afilando una pieza de metal en la piedra de amolar en rotación. Las chispas de la piedra de amolar son evidentes.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_Motor.jpg"/>
+</media>
+<caption>La energía cinética rotacional de la piedra de amolar se convierte en calor, luz, sonido y vibración (créditos: Zachary David Bell, Marina de los EE. UU.).</caption>
+</figure>
+<para id="fs-id1167133826446">La energía en el movimiento rotacional no es ninguna nueva forma de energía, sino que es la energía asociada al movimiento rotacional, igual que la energía cinética en el movimiento traslacional. Sin embargo, ya que la energía cinética viene dada por <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, y la velocidad es una cantidad que es diferente para cada punto de un cuerpo que rota en torno a un eje, tiene sentido encontrar una manera de escribir la energía cinética en términos de la variable <m:math><m:mrow><m:mi>ω</m:mi></m:mrow></m:math>, que es la misma para todos los puntos de un cuerpo rígido en rotación. Para una sola partícula que rota en torno a un eje fijo, esto es sencillo de calcular. Podemos relacionar la velocidad angular con la magnitud de la velocidad de traslación mediante la relación <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub><m:mo>=</m:mo><m:mi>ω</m:mi><m:mi>r</m:mi></m:mrow></m:math>, donde <emphasis effect="italics">r</emphasis> es la distancia de la partícula al eje de rotación y <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow></m:math> es su rapidez tangencial. Al sustituir en la ecuación de la energía cinética, hallamos</para>
+<equation id="fs-id1167133524308" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mtext>t</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133862890">En el caso de un cuerpo rígido en rotación, podemos dividir cualquier cuerpo en un gran número de masas más pequeñas, cada una con una masa <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:math> y una distancia al eje de rotación <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:math>, de manera que la masa total del cuerpo es igual a la suma de todas y cada una de las masas <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:mstyle></m:mrow></m:math>. Cada masa menor tiene una rapidez tangencial <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:math>, donde por el momento hemos suprimido el subíndice <emphasis effect="italics">t</emphasis>. La energía cinética total del cuerpo rígido en rotación es</para>
+<equation id="fs-id1167133358611" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>v</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>r</m:mi><m:mi>j</m:mi></m:msub><m:msub><m:mi>ω</m:mi><m:mi>j</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1167133358290">y dado que <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>j</m:mi></m:msub><m:mo>=</m:mo><m:mi>ω</m:mi></m:mrow></m:math> para todas las masas,</para>
+<note id="fs-id1167133567128" class="equation-callout">
+<equation id="fs-id1167133826374"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133319266">Las unidades de la <link target-id="fs-id1167133826374"/> son julios (J). La ecuación en esta forma es completa, aunque poco manejable; tenemos que encontrar una manera de generalizarla.</para>
+</section>
+<section id="fs-id1167133345938">
+<title>Momento de inercia</title>
+<para id="fs-id1167133530188">Si comparamos la <link target-id="fs-id1167133826374"/> con la forma en que escribimos la energía cinética en <link document="m90643">Trabajo y energía cinética</link>, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, esto sugiere que tenemos una nueva variable rotacional que añadir a la lista de nuestras relaciones entre variables rotacionales y traslacionales. La cantidad <m:math><m:mrow><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow></m:math> es la contraparte de la masa en la ecuación de la energía cinética rotacional. Este es un término nuevo e importante para el movimiento rotacional. Esta cantidad recibe el nombre de <term>momento de inercia</term> <emphasis effect="italics">I</emphasis>, con unidades de <m:math><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>:</para>
+<note id="fs-id1167133613872" class="equation-callout">
+<equation id="fs-id1167133439500"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133517642">Por ahora, dejamos la expresión en forma de suma, representando el momento de inercia de un sistema de partículas puntuales que rotan en torno a un eje fijo. Observamos que el momento de inercia de una partícula puntual en torno a un eje fijo es simplemente <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, siendo <emphasis effect="italics">r</emphasis> la distancia de la partícula puntual al eje de rotación. En la siguiente sección, exploramos la forma integral de esta ecuación, que puede utilizarse para calcular el momento de inercia de algunos cuerpos rígidos de forma regular.</para>
+<para id="fs-id1167133665443">El momento de inercia es la medida cuantitativa de la inercia rotacional, al igual que en el movimiento traslacional, y la masa es la medida cuantitativa de la inercia lineal, es decir, cuanto más masivo sea un objeto, más inercia tiene y mayor será su resistencia al cambio de velocidad lineal. Del mismo modo, cuanto mayor sea el momento de inercia de un cuerpo rígido o de un sistema de partículas, mayor será su resistencia al cambio de velocidad angular en torno a un eje fijo de rotación. Es interesante ver cómo varía el momento de inercia con <emphasis effect="italics">r,</emphasis> la distancia al eje de rotación de las partículas de masa en la <link target-id="fs-id1167133439500"/>. Los cuerpos rígidos y los sistemas de partículas con más masa concentrados a mayor distancia del eje de rotación tienen mayores momentos de inercia que los cuerpos y sistemas de la misma masa, pero concentrados cerca del eje de rotación. De esta manera, podemos ver que un cilindro hueco tiene más inercia rotacional que un cilindro sólido de la misma masa cuando rota en torno a un eje que pasa por el centro. Sustituyendo la <link target-id="fs-id1167133439500"/> en la <link target-id="fs-id1167133826374"/>, la expresión para la energía cinética de un cuerpo rígido en rotación se convierte en</para>
+<note id="fs-id1167133455622" class="equation-callout">
+<equation id="fs-id1167133565679"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133534266">De esta ecuación se desprende que la energía cinética de un cuerpo rígido en rotación es directamente proporcional al momento de inercia y al cuadrado de la velocidad angular. Esto se aprovecha en los dispositivos de almacenamiento de energía de los <term class="no-emphasis">volantes de inercia</term>, que están diseñados para almacenar grandes cantidades de energía cinética rotacional. Muchos fabricantes de automóviles están probando ahora dispositivos de almacenamiento de energía en volantes de inercia en sus automóviles, como el volante de inercia, o sistema de recuperación de energía cinética, que se muestra en la <link target-id="CNX_UPhysics_10_04_KERS"/>.</para>
+<figure id="CNX_UPhysics_10_04_KERS">
+<media id="fs-id1167133558891" alt="La figura es la foto de un volante de inercia del sistema de recuperación de energía cinética instalado junto al asiento del conductor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_KERS.jpg"/>
+</media>
+<caption>Volante de inercia del sistema de recuperación de energía cinética (Kinetic Energy Recovery System, KERS) utilizado en los autos (créditos: "cmonville"/Flickr).</caption>
+</figure>
+<para id="fs-id1167133446421">Las magnitudes rotacional y traslacional para la energía cinética y la inercia se resumen en la <link target-id="fs-id1167133375236"/>. La columna de relación no se incluye porque no existe ninguna constante por la que podamos multiplicar la cantidad rotacional para obtener la cantidad traslacional, como se puede hacer con las variables en la <link target-id="fs-id1167134477583" document="m90665"/>.</para>
+<table id="fs-id1167133375236" summary="This table consists of two columns and three rows. The first row contains headings: ‘Rotational’; ‘Translational’. In the column under the ‘Rotational’: I is equal to the sum of products mj and rj squared for all j; K is equal to the half of product of I and omega squared. In the column under the ‘Translational’: m; K is equal to the half of product of m and v squared.">
+<title>Energías cinéticas rotacionales y traslacionales e inercia</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Rotacional</entry>
+<entry valign="top" align="left">Traslacional</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mi>m</m:mi></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<example id="fs-id1167133565706">
+<para id="fs-id1167133473126"><title>Momento de inercia de un sistema de partículas</title>
+Seis pequeñas arandelas están separadas por 10 cm en una varilla de masa insignificante y 0,5 m de longitud. La masa de cada arandela es de 20 g. La varilla rota en torno a un eje situado a 25 cm, como se muestra en la <link target-id="CNX_UPhysics_10_04_SysPart"/>. (a) ¿Cuál es el momento de inercia del sistema? (b) Si se quitan las dos arandelas más cercanas al eje, ¿cuál es el momento de inercia de las cuatro arandelas restantes? (c) Si el sistema con seis arandelas gira a 5 rev/s, ¿cuál es su energía cinética rotacional?</para>
+<figure id="CNX_UPhysics_10_04_SysPart">
+<media id="fs-id1167133822890" alt="La figura muestra seis arandelas separadas por 10 cm en una varilla que rota en torno a un eje vertical.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_SysPart.jpg"/>
+</media>
+<caption>Seis arandelas están separadas por 10 cm en una varilla de masa despreciable y rotan en torno a un eje vertical.</caption>
+</figure>
+<para id="fs-id1167133473202"><title>Estrategia</title></para>
+<list id="fs-id1167133467676" list-type="enumerated" number-style="lower-alpha">
+<item>Utilizamos la definición de momento de inercia para un sistema de partículas y realizamos la suma para evaluar esta cantidad. Las masas son todas iguales, así que podemos poner esa cantidad delante del símbolo de la suma.</item>
+<item>Hacemos un cálculo similar.</item>
+<item>Insertamos el resultado de (a) en la expresión de la energía cinética rotacional.</item>
+</list>
+<para id="fs-id1167133677768"><title>Solución</title></para>
+<list id="fs-id1167133697931" list-type="enumerated" number-style="lower-alpha">
+<item><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,02</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,15</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,05</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,0035</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</item>
+<item><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,02</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,15</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,0034</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</item>
+<item><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>0,0035</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>1,73</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>.</item>
+</list>
+<para id="fs-id1167133326272"><title>Importancia</title>
+Podemos ver los aportes individuales al momento de inercia. Las masas cercanas al eje de rotación tienen un aporte muy pequeño. Cuando las quitamos, tuvo un efecto muy pequeño en el momento de inercia.</para>
+</example>
+<para id="fs-id1167133464006">En la siguiente sección, generalizamos la ecuación de suma para partículas puntuales y desarrollamos un método para calcular los momentos de inercia de los cuerpos rígidos. Por ahora, sin embargo, la <link target-id="CNX_UPhysics_10_04_RotInertia"/> ofrece valores de inercia rotacional para formas de objetos comunes alrededor de ejes específicos.</para>
+<figure id="CNX_UPhysics_10_04_RotInertia"><media id="fs-id1167133398687" alt="La figura muestra diez objetos en rotación. Se trata de un aro que rota en torno al eje del cilindro, un cilindro o disco macizo que rota en torno al eje del cilindro, una varilla delgada que rota en torno al eje a través del centro, una esfera maciza que rota en torno al diámetro, un aro que rota en torno al diámetro, un cilindro anular que rota en torno al eje del cilindro, un cilindro o disco macizo que rota en torno al diámetro central, una varilla delgada que rota en torno al eje a través de un extremo perpendicular a la longitud, una cubierta esférica delgada en torno a cualquier diámetro, una losa en torno al eje perpendicular a través del centro.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_10_04_RotInertia.jpg"/>
+</media>
+
+<caption>Valores de inercia rotacional para formas comunes de objetos.</caption></figure></section>
+<section id="fs-id1167133533766">
+<title>Aplicación de la energía cinética rotacional</title>
+<para id="fs-id1167133858335">Apliquemos ahora las ideas de la energía cinética rotacional y la tabla de momentos de inercia para tener una idea de la energía asociada a algunos objetos en rotación. Los siguientes ejemplos también le harán sentirse cómodo utilizando estas ecuaciones. En primer lugar, veamos una estrategia general de resolución de problemas de energía rotacional.</para>
+<note id="fs-id1167132287720" class="problem-solving">
+<title>Energía rotacional</title>
+<list id="fs-id1167132204443" list-type="enumerated" number-style="arabic">
+<item>Determine que la energía o el trabajo está implicado en la rotación.</item>
+<item>Determine el sistema de interés. Un esquema suele ayudar.</item>
+<item>Analice la situación para determinar los tipos de trabajo y energía implicados.</item>
+<item>Si no hay pérdidas de energía debido a la fricción y otras fuerzas no conservativas, la energía mecánica se conserva, es decir, <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math>.</item>
+<item>Si hay fuerzas no conservativas, la energía mecánica no se conserva y otras formas de energía, como el calor y la luz, pueden entrar o salir del sistema. Determine cuáles son y calcúlelas según sea necesario.</item>
+<item>Elimine los términos siempre que sea posible para simplificar el álgebra.</item>
+<item>Evalúe la solución numérica para ver si tiene sentido en la situación física presentada en el enunciado del problema.</item>
+</list>
+</note>
+<example id="fs-id1167133355217">
+<para id="fs-id1167133398560"><title>Calcular la energía de los helicópteros</title>
+Un pequeño <term class="no-emphasis">helicóptero</term> de rescate típico tiene cuatro aspas: cada una mide 4,00 m de largo y tiene una masa de 50,0 kg (<link target-id="CNX_UPhysics_10_04_Heli"/>). Las aspas pueden tomarse como varillas delgadas que rotan en torno a un extremo de un eje perpendicular a su longitud. El helicóptero tiene una masa total cargada de 1.000 kg. (a) Calcule la energía cinética rotacional en las aspas cuando giran a 300 rpm. (b) Calcule la energía cinética traslacional del helicóptero cuando vuela a 20,0 m/s, y compárela con la energía rotacional en las aspas.</para>
+<figure id="CNX_UPhysics_10_04_Heli"><media id="fs-id1167133396132" alt="La figura A es el esquema de un helicóptero de cuatro aspas con aspas de 4,0 metros que giran en el sentido contrario de las agujas del reloj. La figura B es la foto de una operación de rescate en el agua con un helicóptero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_Heli.jpg"/>
+</media>
+
+<caption>(a) Esquema de un helicóptero de cuatro aspas. (b) Una operación de rescate en el agua con un helicóptero del Servicio de Helicópteros de Rescate de Auckland Westpac (créditos b: modificación del trabajo de "111 Emergency"/Flickr).</caption></figure><para id="fs-id1167133521334"><title>Estrategia</title>
+Las energías cinéticas rotacional y traslacional pueden calcularse a partir de sus definiciones. El enunciado del problema arroja todas las constantes necesarias para evaluar las expresiones de las energías cinéticas rotacional y traslacional.</para>
+<para id="fs-id1167133612297"><title>Solución</title></para>
+<list id="fs-id1167133395999" list-type="enumerated" number-style="lower-alpha">
+<item>La energía cinética rotacional es
+<equation id="fs-id1167133395100" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Debemos convertir la velocidad angular a radianes por segundo y calcular el momento de inercia antes de poder encontrar <emphasis effect="italics">K</emphasis>. La velocidad angular <m:math><m:mi>ω</m:mi></m:math> es
+<equation id="fs-id1167133365814" class="unnumbered"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>rev</m:mtext></m:mrow><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>min</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow><m:mrow><m:mtext>1 rev</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>min</m:mtext></m:mrow><m:mrow><m:mn>60,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>31,4</m:mn><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+El momento de inercia de un aspa es el de una varilla delgada que rota en torno a su extremo, que figura en la <link target-id="CNX_UPhysics_10_04_RotInertia"/>. El <emphasis effect="italics">I</emphasis> total es cuatro veces este momento de inercia porque hay cuatro aspas. Así,
+<equation id="fs-id1167132282573" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mfrac><m:mrow><m:mi>M</m:mi><m:msup><m:mi>l</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>50,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1067,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Al introducir <m:math><m:mi>ω</m:mi></m:math> y <emphasis effect="italics">I</emphasis> en la expresión de la energía cinética rotacional da
+<equation id="fs-id1167133521632" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>0,5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1.067</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mtext>(31,4 rad/s)</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>5,26</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>Al introducir los valores dados en la ecuación de la energía cinética traslacional, obtenemos
+<equation id="fs-id1167133795143" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.000,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Para comparar la energía cinética, tomamos el cociente entre la energía cinética traslacional y la energía cinética rotacional. Este cociente es
+<equation id="fs-id1167133550294" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>5,26</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,380</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+</item>
+</list>
+<para id="fs-id1167133549687"><title>Importancia</title>
+El cociente entre la energía traslacional y la energía cinética rotacional es solo de 0,380. Este cociente nos indica que la mayor parte de la energía cinética del helicóptero está en sus aspas giratorias.</para>
+</example>
+<example id="fs-id1167133361011">
+<para id="fs-id1167133536707"><title>Energía en un búmeran</title>
+Una persona lanza un <term class="no-emphasis">bumerán</term> al aire, a una velocidad de 30,0 m/s en un ángulo de <m:math><m:mrow><m:mn>40,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con respecto a la horizontal (<link target-id="CNX_UPhysics_10_04_Boom"/>). Tiene una masa de 1,0 kg y gira a 10,0 rev/s. El momento de inercia del bumerán viene dado por <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> donde <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>0,7</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. (a) ¿Cuál es la energía total del bumerán cuando sale de la mano? (b) ¿A qué altura llega el bumerán desde la elevación de la mano, descartando la resistencia del aire?</para>
+<figure id="CNX_UPhysics_10_04_Boom">
+<media id="fs-id1167133549484" alt="La figura es el esquema de un hombre que lanza un bumerán al aire en un ángulo de 40 grados.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_Boom.jpg"/>
+</media>
+<caption>Un bumerán se lanza al aire en un ángulo inicial de <m:math><m:mrow><m:mn>40</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1167133407070"><title>Estrategia</title>
+Utilizamos las definiciones de energía cinética rotacional y lineal para hallar la energía total del sistema. El problema señala que hay que descartar la resistencia del aire, por lo que no hay que preocuparse por la pérdida de energía. En la parte (b), utilizamos la conservación de la energía mecánica para hallar la altura máxima del bumerán.</para>
+<para id="fs-id1167133384915"><title>Solución</title></para>
+<list id="fs-id1167132201423" list-type="enumerated" number-style="lower-alpha">
+<item>Momento de inercia: <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,7</m:mn><m:msup><m:mrow><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0,041</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>.<newline/> Velocidad angular: <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rev</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>62,83</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math>.<newline/> Por lo tanto, la energía cinética rotacional es
+<equation id="fs-id1167133357725" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>0,041</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>62,83</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>80,93</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+La energía cinética traslacional es
+<equation id="fs-id1167132288115" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>450,0</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Por lo tanto, la energía total del bumerán es
+<equation id="fs-id1167133858465" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>K</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mn>80,93</m:mn><m:mo>+</m:mo><m:mn>450,0</m:mn><m:mo>=</m:mo><m:mn>530,93</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Utilizamos la conservación de la energía mecánica. Dado que el bumerán se lanza en ángulo, necesitamos escribir la energía total del sistema en términos de su energía cinética lineal al utilizar la velocidad en las direcciones de la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis>. La energía total cuando el bumerán sale de la mano es
+<equation id="fs-id1167133465238" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Antes</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+La energía total a la altura máxima es
+<equation id="fs-id1167133822152" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Final</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>h</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Por conservación de la energía mecánica, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Antes</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Final</m:mtext></m:mrow></m:msub></m:mrow></m:math> por lo que tenemos, después de cancelar términos similares,
+<equation id="fs-id1167133325875" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>h</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Dado que <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mn>40</m:mn></m:mrow><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>19,28</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>, hallamos
+<equation id="fs-id1167133795233" class="unnumbered"><label/><m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>19,28</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>9,8</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>18,97</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167133326017"><title>Importancia</title>
+En la parte (b), la solución demuestra cómo la conservación de energía es un método alternativo para resolver un problema que normalmente se resolvería utilizando la cinemática. En ausencia de resistencia del aire, la energía cinética rotacional no era un factor en la solución para la altura máxima.</para>
+</example>
+<note id="fs-id1167133326026" class="check-understanding">
+<exercise id="fs-id1167133326029">
+<problem id="fs-id1167133326032">
+<para id="fs-id1167133326034">La hélice de un submarino nuclear tiene un momento de inercia de <m:math><m:mrow><m:mn>800,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Si la hélice sumergida tiene una tasa de rotación de 4,0 rev/s cuando se corta el motor, ¿cuál es la tasa de rotación de la hélice después de 5,0 s cuando la resistencia del agua ha quitado 50.000 J al sistema?</para>
+</problem>
+<solution id="fs-id1167133407380">
+<para id="fs-id1167133407382">La energía cinética rotacional inicial de la hélice es<newline/> <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>800,0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>2,53</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>.<newline/> A los 5,0 s la nueva energía cinética rotacional de la hélice es<newline/> <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>2,03</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>.<newline/> y la nueva velocidad angular es<newline/> <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2,03</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>800,0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>22,53</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math><newline/> que es de 3,58 rev/s.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167133868705" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167133868711" list-type="bulleted" bullet-style="bullet">
+<item>La energía cinética rotacional es la energía cinética de rotación de un cuerpo rígido o sistema de partículas en rotación, y viene dada por <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>I</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, donde <emphasis effect="italics">I</emphasis> es el momento de inercia, o "masa rotacional" del cuerpo rígido o sistema de partículas.</item>
+<item>El momento de inercia para un sistema de partículas puntuales que rotan en torno a un eje fijo es <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow></m:math>, donde <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:math> es la masa de la partícula puntual y <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:math> es la distancia de la partícula puntual al eje de rotación. Debido al término <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, el momento de inercia aumenta como el cuadrado de la distancia al eje fijo de rotación. El momento de inercia es la contraparte rotacional de la masa en movimiento lineal.</item>
+<item>En los sistemas que están en rotación y traslación, la conservación de la energía mecánica puede utilizarse si no hay fuerzas no conservativas en funcionamiento. La energía mecánica total se conserva entonces y es la suma de las energías cinéticas rotacional y traslacional, y la energía potencial gravitacional.</item>
+</list>
+</section>
+<section id="fs-id1167132278518" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167132278524">
+<problem id="fs-id1167132278526">
+<para id="fs-id1167132278528">¿Qué pasaría si otro planeta del mismo tamaño que la Tierra se pusiera en órbita alrededor del Sol junto con la Tierra? ¿El momento de inercia del sistema aumentaría, disminuiría o se mantendría igual?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132278543">
+<problem id="fs-id1167132278545">
+<para id="fs-id1167132278547">Una esfera sólida rota en torno a un eje que pasa por su centro a una tasa de rotación constante. Otra esfera hueca de la misma masa y radio rota en torno a su eje por el centro, a la misma tasa de rotación. ¿Qué esfera tiene mayor energía cinética rotacional?</para>
+</problem>
+<solution id="fs-id1167133686306">
+<para id="fs-id1167133686308">La esfera hueca, dado que la masa se distribuye más lejos del eje de rotación.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167133686314" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167133686321">
+<problem id="fs-id1167133686323">
+<para id="fs-id1167133686325">En la siguiente figura se muestra un sistema de partículas puntuales. Cada partícula tiene una masa de 0,3 kg y todas se encuentran en el mismo plano. (a) ¿Cuál es el momento de inercia del sistema alrededor del eje dado? (b) Si el sistema gira a 5 rev/s, ¿cuál es su energía cinética rotacional?</para>
+<media id="fs-id1167133686331" alt="La figura muestra un sistema de coordenadas XYZ. Tres partículas están situadas en el eje de la X a 20 cm del centro, en el eje de la Y a 60 centímetros del centro y en el eje de la Z a 40 centímetros del centro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_PoinPar_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167133871945">
+<problem id="fs-id1167133871947">
+<para id="fs-id1167133871949">(a) Calcule la energía cinética rotacional de la Tierra sobre su eje. (b) ¿Cuál es la energía cinética rotacional de la Tierra en su órbita alrededor del Sol?</para>
+</problem>
+<solution id="fs-id1167133871955">
+<para id="fs-id1167133871957">a. <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>2,56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>29</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J;</m:mtext></m:mrow></m:math><newline/> b. <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>2,68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>33</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132282314">
+<problem id="fs-id1167132282316">
+<para id="fs-id1167132282318">Calcule la energía cinética rotacional de una rueda de motocicleta de 12 kg si su velocidad angular es de 120 rad/s y su radio interior es de 0,280 m y el exterior de 0,330 m.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133328918">
+<problem id="fs-id1167133328920">
+<para id="fs-id1167133328922">Un lanzador de béisbol lanza la pelota con un movimiento en el que hay rotación del antebrazo sobre la articulación del codo, así como otros movimientos. Si la velocidad lineal de la pelota respecto a la articulación del codo es de 20,0 m/s a una distancia de 0,480 m de la articulación y el momento de inercia del antebrazo es <m:math><m:mrow><m:mn>0,500</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, ¿cuál es la energía cinética rotacional del antebrazo?</para>
+</problem>
+<solution id="fs-id1167133328943">
+<para id="fs-id1167133328945"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>434,0</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132288041">
+<problem id="fs-id1167132288044">
+<para id="fs-id1167132288046">Una clavadista da una voltereta durante una inmersión plegando las extremidades. Si su energía cinética rotacional es de 100 J y su momento de inercia al plegarse es <m:math><m:mrow><m:mn>9,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>, ¿cuál es su velocidad de rotación durante la voltereta?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132283944">
+<problem id="fs-id1167132283947">
+<para id="fs-id1167132283949">Un avión aterriza a 300 metros de altura cuando la hélice se desprende. El avión vuela a 40,0 m/s en horizontal. La hélice tiene un índice de rotación de 20 rev/s, un momento de inercia de <m:math><m:mrow><m:mn>70,0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg-m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, y una masa de 200 kg. Descarte la resistencia del aire. (a) ¿Con qué velocidad de traslación golpea la hélice el suelo? (b) ¿Cuál es la tasa de rotación de la hélice al momento del impacto?</para>
+</problem>
+<solution id="fs-id1167132287070">
+<para id="fs-id1167132287072">a. <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>86,5</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>;<newline/> b. La tasa de rotación de la hélice se mantiene en 20 rev/s.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132283454">
+<problem id="fs-id1167132283456">
+<para id="fs-id1167132283459">Si la resistencia del aire está presente en el problema anterior y reduce la energía cinética rotacional de la hélice en el momento del impacto en un 30 %, ¿cuál es la tasa de rotación de la hélice en el momento del impacto?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132279446">
+<problem id="fs-id1167132279448">
+<para id="fs-id1167132279450">Una estrella de neutrones de masa <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> y un radio de 10 km rota en un periodo de 0,02 segundos. ¿Cuál es su energía cinética rotacional?</para>
+</problem>
+<solution id="fs-id1167132279482">
+<para id="fs-id1167132279484"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>3,95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>42</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132207267">
+<problem id="fs-id1167132207269">
+<para id="fs-id1167132207272">Una lijadora eléctrica formada por un disco giratorio de 0,7 kg de masa y radio 10 cm rota a 15 rev/s. Cuando se aplica a una pared de madera rugosa, la tasa de rotación disminuye en un 20 %. (a) ¿Cuál es la energía cinética de rotación final del disco giratorio? (b) ¿Cuánto ha disminuido su energía cinética rotacional?</para></problem>
+</exercise>
+<exercise id="fs-id1167132282082">
+<problem id="fs-id1167132282084">
+<para id="fs-id1167132282086">Un sistema consiste de un disco de 2,0 kg de masa y radio 50 cm sobre el que está montado un cilindro anular de 1,0 kg de masa con radio interior de 20 cm y exterior de 30 cm (vea abajo). El sistema gira alrededor de un eje que pasa por el centro del disco y del cilindro anular a 10 rev/s. (a) ¿Cuál es el momento de inercia del sistema? (b) ¿Cuál es su energía cinética rotacional?</para>
+<media id="fs-id1167132282093" alt="La figura muestra un disco de radio de 50 cm sobre el que está montado un cilindro anular de radio interior de 20 cm y exterior de 30 cm">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_AnnCyl_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167132282106">
+<para id="fs-id1167132282108">a. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>0,315</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>621,8</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167132283419">
+<term>momento de inercia</term>
+<meaning id="fs-id1167132283425">masa rotacional de los cuerpos rígidos que se relaciona con lo fácil o difícil que será cambiar la velocidad angular del cuerpo rígido en rotación</meaning>
+</definition>
+<definition id="fs-id1167132283430">
+<term>energía cinética rotacional</term>
+<meaning id="fs-id1167132205291">energía cinética debida a la rotación de un objeto; forma parte de su energía cinética total</meaning>
+</definition>
+</glossary>
+</document>

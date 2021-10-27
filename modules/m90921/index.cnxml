@@ -1,0 +1,213 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Campos eléctricos inducidos</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90921</md:content-id>
+  <md:title>Campos eléctricos inducidos</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Conectar la relación entre una emf inducida de la ley de Faraday con un campo eléctrico, lo que muestra que un flujo magnético cambiante crea un campo eléctrico.</item>
+<item>Resolver el campo eléctrico basado en un flujo magnético cambiante en el tiempo.</item>
+</list></md:abstract>
+  <md:uuid>7ac71a16-6315-4690-b753-edecc1c58785</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171241204243">El hecho de que se induzcan emf en los circuitos implica que se está realizando un trabajo sobre los electrones de conducción en los cables. ¿Cuál puede ser el origen de este trabajo? Sabemos que no se trata ni de una batería ni de un campo magnético, ya que una batería no tiene por qué estar presente en un circuito en el que se induce la corriente, y los campos magnéticos nunca realizan trabajo sobre cargas en movimiento. La respuesta es que la fuente de trabajo es un campo eléctrico <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> que se induce en los cables. El trabajo que realiza <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> al mover una carga unitaria completamente alrededor de un circuito es la emf inducida ε; es decir,</para>
+<equation id="fs-id1171241198392"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1171241057622">donde <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow/></m:mrow></m:mstyle></m:mrow></m:math> representa la integral de línea alrededor del circuito. La ley de Faraday se puede escribir en términos del <term>campo eléctrico inducido</term> como</para>
+<equation id="fs-id1171241245801"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mo>−</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241151786">Existe una importante distinción entre el campo eléctrico inducido por un campo magnético cambiante y el campo electrostático producido por una distribución de carga fija. En concreto, el campo eléctrico inducido no es conservativo porque realiza un trabajo neto al mover una carga sobre una trayectoria cerrada, mientras que el campo electrostático es conservativo y no realiza ningún trabajo neto sobre una trayectoria cerrada. Por lo tanto, el potencial eléctrico puede asociarse con el campo electrostático, pero no con el campo inducido. Las siguientes ecuaciones representan la distinción entre los dos tipos de campo eléctrico:</para>
+<equation id="fs-id1171241321731"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>≠</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn><m:mspace width="0.5em"/><m:mo stretchy="false">(</m:mo><m:mtext>inducido</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn><m:mspace width="0.5em"/><m:mo stretchy="false">(</m:mo><m:mtext>electrostática</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171241141534">Nuestros resultados pueden resumirse combinando estas ecuaciones:</para>
+<note id="fs-id1171241203698" class="equation-callout">
+<equation id="fs-id1171241323591"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mtext>−</m:mtext></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1171241195336">
+<para id="fs-id1171241244436"><title>Campo eléctrico inducido en una bobina circular</title>
+¿Cuál es el campo eléctrico inducido en la bobina circular del <link target-id="fs-id1171242446729" document="m90919"/> (y la <link target-id="CNX_UPhysics_30_02_Circle" document="m90919"/>) en los tres momentos indicados?</para>
+<para id="fs-id1171241091640"><title>Estrategia</title>
+Al utilizar la simetría cilíndrica, la integral del campo eléctrico se simplifica en el campo eléctrico por la circunferencia de un círculo. Como ya conocemos la emf inducida, podemos conectar estas dos expresiones mediante la ley de Faraday para resolver el campo eléctrico inducido.</para>
+<para id="fs-id1171241203115"><title>Solución</title>
+El campo eléctrico inducido en la bobina es de magnitud constante sobre la superficie cilíndrica, de forma similar a como se resuelven los problemas de la ley de Ampere con cilindros. Dado que <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es tangente a la bobina,</para>
+<equation id="fs-id1171240984625" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mi>E</m:mi><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>E</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241342749">Cuando se combina con la <link target-id="fs-id1171241323591"/>, se obtiene</para>
+<equation id="fs-id1171240951972" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171241158935">La dirección de <m:math><m:mi>ε</m:mi></m:math> es en sentido contrario a las agujas del reloj, y <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> circula en la misma dirección alrededor de la bobina. Los valores de <emphasis effect="italics">E</emphasis> son</para>
+<equation id="fs-id1171241075648" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,9</m:mn><m:mspace width="0.2em"/><m:mtext>V/m;</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4,7</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mtext>V/m;</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>t</m:mi><m:mn>3</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0,040</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,013</m:mn><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171241066391"><title>Importancia</title>
+Cuando el flujo magnético a través de un circuito cambia, se induce un campo eléctrico no conservativo, que impulsa la corriente a través del circuito. Pero, ¿qué pasa si <m:math><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> en el espacio libre donde no hay un camino conductor? La respuesta es que este caso puede tratarse <emphasis effect="italics">como si existiera una vía conductora</emphasis>; es decir, se inducen campos eléctricos no conservativos allí donde <m:math><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> si hay o no un camino conductor presente.</para>
+<para id="fs-id1171241200342">Estos campos eléctricos no conservativos siempre satisfacen la <link target-id="fs-id1171241323591"/>. Por ejemplo, si se eliminara la bobina circular de la <link target-id="CNX_UPhysics_30_02_Circle" document="m90919"/>, un campo eléctrico <emphasis effect="italics">en el espacio libre</emphasis> a <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> seguiría dirigiéndose en sentido contrario a las agujas del reloj, y su magnitud seguiría siendo de 1,9 V/m en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, 1,5 V/m en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>,</m:mo></m:mrow></m:math> etc. La existencia de campos eléctricos inducidos <emphasis effect="italics">no</emphasis> se limita a los cables de los circuitos.</para>
+</example>
+<example id="fs-id1171241016755">
+<para id="fs-id1171240990101"><title>Campo eléctrico inducido por el campo magnético cambiante de un solenoide</title>
+La parte (a) de la <link target-id="CNX_UPhysics_30_04_Solenoid"/> muestra un solenoide largo con radio <emphasis effect="italics">R</emphasis> y <emphasis effect="italics">n</emphasis> vueltas por unidad de longitud; su corriente disminuye con el tiempo según <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la magnitud del campo eléctrico inducido en un punto a una distancia <emphasis effect="italics">r</emphasis> del eje central del solenoide (a) cuando <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mi>R</m:mi></m:mrow></m:math> y (b) cuando <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi></m:mrow></m:math> (vea la parte [b] de la <link target-id="CNX_UPhysics_30_04_Solenoid"/>). (c) ¿Cuál es la dirección del campo inducido en ambos lugares? Supongamos que la aproximación del solenoide infinito es válida en todas las regiones de interés.</para>
+<figure id="CNX_UPhysics_30_04_Solenoid">
+<media id="fs-id1171241035326" alt="La figura A muestra una vista lateral del solenoide largo con la corriente eléctrica fluyendo a través de él. La figura B muestra una vista transversal del solenoide desde su extremo izquierdo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_04_Solenoid.jpg"/>
+</media>
+<caption>(a) La corriente en un solenoide largo disminuye exponencialmente. (b) Una vista transversal del solenoide desde su extremo izquierdo. La sección transversal mostrada está cerca del centro del solenoide. Se induce un campo eléctrico tanto dentro como fuera del solenoide.</caption>
+</figure>
+<para id="fs-id1171241094382"><title>Estrategia</title>
+Al utilizar la fórmula del campo magnético dentro de un solenoide infinito y la ley de Faraday, calculamos la emf inducida. Como tenemos simetría cilíndrica, la integral del campo eléctrico se reduce al campo eléctrico por la circunferencia de la trayectoria de integración. A continuación, resolvemos el campo eléctrico.</para>
+<para id="fs-id1171241082512"><title>Solución</title></para>
+<list id="fs-id1171241273247" list-type="enumerated" number-style="lower-alpha">
+<item>El campo magnético está confinado en el interior del solenoide donde
+<equation id="fs-id1171240994834" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Así, el flujo magnético que atraviesa una trayectoria circular cuyo radio <emphasis effect="italics">r</emphasis> es mayor que <emphasis effect="italics">R</emphasis>, el radio del solenoide, es
+<equation id="fs-id1171240988292" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+El campo inducido <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es tangente a esta trayectoria, y debido a la simetría cilíndrica del sistema, su magnitud es constante en la trayectoria. Por lo tanto, tenemos
+<equation id="fs-id1171240988508" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>|</m:mo><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>α</m:mi><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>E</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>α</m:mi><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mspace width="0.5em"/><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Para una trayectoria de radio <emphasis effect="italics">r</emphasis> dentro del solenoide, <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> así que
+<equation id="fs-id1171241235897" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>α</m:mi><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+y el campo inducido es
+<equation id="fs-id1171241083066" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>α</m:mi><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mi>r</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>El campo magnético apunta hacia la página como se muestra en la parte (b) y está disminuyendo. Si cualquiera de las trayectorias circulares estuviera ocupada por anillos conductores, las corrientes inducidas en ellos circularían como se muestra, de conformidad con la ley de Lenz. El campo eléctrico inducido también debe estar dirigido así.</item>
+</list>
+<para id="fs-id1171241244155"><title>Importancia</title>
+En la parte (b), observe que <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow></m:mrow></m:math> aumenta con <emphasis effect="italics">r</emphasis> en el interior y disminuye como 1/<emphasis effect="italics">r</emphasis> en el exterior del solenoide, como se muestra en la <link target-id="CNX_UPhysics_30_04_Evsr"/>.</para>
+<figure id="CNX_UPhysics_30_04_Evsr">
+<media id="fs-id1171241130904" alt="La figura es un gráfico de campo eléctrico E versus distancia r. El campo eléctrico es cero al principio, sube linealmente hasta que r es igual a R, alcanza un máximo brusco en R y cae de forma proporcional a 1/r.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_04_Evsr.jpg"/>
+</media>
+<caption>El campo eléctrico frente a la distancia <emphasis effect="italics">r</emphasis>. Cuando <m:math><m:mrow><m:mi>r</m:mi><m:mo>&lt;</m:mo><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> el campo eléctrico aumenta linealmente, mientras que cuando <m:math><m:mrow><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> el campo eléctrico cae de forma proporcional a 1/<emphasis effect="italics">r</emphasis>.</caption>
+</figure>
+</example>
+<note id="fs-id1171241157923" class="check-understanding">
+<exercise id="fs-id1171241243710">
+<problem id="fs-id1171241248499">
+<para id="fs-id1171241425740">Suponga que la bobina del <link target-id="fs-id1171242446729" document="m90919"/> es un cuadrado en vez de un círculo. ¿Puede utilizarse la <link target-id="fs-id1171241323591"/> para calcular (a) la emf inducida y (b) el campo eléctrico inducido?</para>
+</problem>
+<solution id="fs-id1171241197414">
+<para id="fs-id1171241142920">a. sí; b. Sí; sin embargo, hay una falta de simetría entre el campo eléctrico y la bobina, lo que hace que <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> una relación más complicada que no se puede simplificar como se muestra en el ejemplo.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1171240945988" class="check-understanding">
+<exercise id="fs-id1171241331054">
+<problem id="fs-id1171241331056">
+<para id="fs-id1171241088370">¿Cuál es la magnitud del campo eléctrico inducido en el <link target-id="fs-id1171241016755"/> en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> si <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>,</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2.000</m:mn></m:mrow></m:math> vueltas por metro, <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>1</m:mn></m:mrow></m:msup><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1171241075827">
+<para id="fs-id1171241075829"><m:math><m:mrow><m:mn>3,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1171241192683" class="check-understanding">
+<exercise id="fs-id1171241129179">
+<problem id="fs-id1171241129181">
+<para id="fs-id1171241129183">El campo magnético que se muestra a continuación está confinado en la región cilíndrica indicada y cambia con el tiempo. Identifique las vías para las que <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>≠</m:mo><m:mn>0.</m:mn></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></para>
+<media id="fs-id1171241195887" alt="La figura muestra el campo magnético confinado en la región cilíndrica. El área P1 se encuentra parcialmente en el campo magnético. El área P2 es mayor que el área del campo magnético y lo incluye completamente. El área P3 se encuentra fuera del campo magnético. El área P4 es menor que el área del campo magnético y está completamente incluida en él.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_04_Region_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171241094324">
+<para id="fs-id1171241414829"><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1171241255355" class="check-understanding">
+<exercise id="fs-id1171241255358">
+<problem id="fs-id1171241131182">
+<para id="fs-id1171241131184">Un solenoide largo con una sección transversal de <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> se bobina con 25 vueltas de alambre por centímetro. Se coloca en el centro de una bobina de 10 vueltas y radio de 25 cm, como se muestra a continuación. (a) ¿Cuál es la emf inducida en la bobina cuando la corriente que pasa por el solenoide disminuye a un ritmo <m:math><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>−0,20</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo>?</m:mo></m:mrow></m:math> b) ¿Cuál es el campo eléctrico inducido en la bobina?</para>
+<media id="fs-id1171241165866" alt="La figura muestra un solenoide largo colocado en el centro de una bobina estrechamente envuelta con un radio de 25 cm.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_04_SCoil.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171241451052">
+<para id="fs-id1171241451054">a. <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mtext>−</m:mtext><m:mn>6</m:mn></m:mrow></m:msup><m:mtext>V</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1171241153673" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1171241257935" list-type="bulleted" bullet-style="bullet">
+<item>Un flujo magnético cambiante induce un campo eléctrico.</item>
+<item>Tanto el flujo magnético cambiante como el campo eléctrico inducido están relacionados con la emf inducida a partir de la ley de Faraday.</item>
+</list>
+</section>
+<section id="fs-id1171241132657" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1171241132504">
+<problem id="fs-id1171241132506">
+<para id="fs-id1171241132508">¿El trabajo es necesario para acelerar una varilla desde el reposo hasta una velocidad <emphasis effect="italics">v</emphasis> en un campo magnético mayor que la energía cinética final de la varilla? ¿Por qué?</para>
+</problem>
+<solution id="fs-id1171240975000">
+<para id="fs-id1171240975002">El trabajo es mayor que la energía cinética porque se necesita energía para contrarrestar la emf inducida.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241134196">
+<problem id="fs-id1171241134198">
+<para id="fs-id1171241134200">La lámina de cobre que se muestra a continuación está parcialmente en un campo magnético. Cuando se tira hacia la derecha, una fuerza de resistencia tira hacia la izquierda. Explique. ¿Qué pasa si la lámina se empuja hacia la izquierda?</para>
+<media id="fs-id1171241148028" alt="La figura muestra una lámina de cobre arrastrada hacia la derecha a través del campo magnético perpendicular uniforme con la fuerza F.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_20_Quest_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1171241195649" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1171241183790">
+<problem id="fs-id1171241183792">
+<para id="fs-id1171241183794">Calcule el campo eléctrico inducido en una bobina de 50 vueltas y 15 cm de diámetro que se encuentra en un campo magnético espacialmente uniforme de magnitud 0,50 T de forma que la cara de la bobina y el campo magnético son perpendiculares. Este campo magnético se reduce a cero en 0,10 segundos. Supongamos que el campo magnético es cilíndricamente simétrico con respecto al eje central de la bobina.</para>
+</problem>
+<solution id="fs-id1171241197423">
+<para id="fs-id1171241246077">9,375 V/m</para></solution>
+</exercise>
+<exercise id="fs-id1171241255876"><problem id="fs-id1171241255878">
+<para id="fs-id1171241255880">El campo magnético a través de un bucle circular de radio 10,0 cm varía con el tiempo como se muestra en la figura adjunta. El campo es perpendicular al bucle. Suponiendo una simetría cilíndrica con respecto al eje central del bucle, grafique el campo eléctrico inducido en el bucle en función del tiempo.</para><media id="fs-id1121241148028" alt="">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_07pr_img_new.jpg"/>
+</media>
+ </problem>
+</exercise><exercise id="fs-id1171241247333">
+<problem id="fs-id1171241247335">
+<para id="fs-id1171241204624">La corriente <emphasis effect="italics">I</emphasis> a través de un solenoide largo con <emphasis effect="italics">n</emphasis> vueltas por metro y radio <emphasis effect="italics">R</emphasis> está cambiando con el tiempo como se obtiene de <emphasis effect="italics">dI</emphasis>/<emphasis effect="italics">dt</emphasis>. Calcule el campo eléctrico inducido en función de la distancia <emphasis effect="italics">r</emphasis> desde el eje central del solenoide.</para>
+</problem>
+<solution id="fs-id1171241207785">
+<para id="fs-id1171241202414">Adentro, <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi><m:mtext>,</m:mtext><m:mspace width="0.5em"/><m:mstyle displaystyle="true"><m:mrow><m:mo>∮</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> así que, <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>r</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> (adentro). Afuera, <m:math><m:mrow><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> así que, <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> (afuera)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241330321">
+<problem id="fs-id1171241330323">
+<para id="fs-id1171241330325">Calcule el campo eléctrico inducido tanto dentro como fuera del solenoide del problema anterior si <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1171241185426">
+<problem id="fs-id1171241185428">
+<para id="fs-id1171241185430">En una región de radio <emphasis effect="italics">R</emphasis>, existe un campo magnético espacialmente uniforme <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> (Vea más abajo.) En <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>T,</m:mtext></m:mrow></m:math> después de lo cual disminuye a un ritmo constante hasta llegar a cero en 30 s. (a) ¿Cuál es el campo eléctrico en las regiones donde <m:math><m:mrow><m:mi>r</m:mi><m:mo>≤</m:mo><m:mi>R</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi></m:mrow></m:math> durante ese intervalo de 30 segundos? (b) Supongamos que <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>. ¿Cuánto trabajo realiza el campo eléctrico sobre un protón que es transportado una vez en el sentido de las agujas del reloj alrededor de una trayectoria circular de radio 5,0 cm? (c) ¿Cuánto trabajo realiza el campo eléctrico sobre un protón que es transportado una vez en sentido contrario a las agujas del reloj alrededor de una trayectoria circular de cualquier radio <m:math><m:mrow><m:mi>r</m:mi><m:mo>≥</m:mo><m:mi>R</m:mi></m:mrow></m:math>? (d) En el instante en que <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:math>, un protón entra en el campo magnético en <emphasis effect="italics">A</emphasis>, moviendo una velocidad <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> como se muestra. ¿Cuáles son las fuerzas eléctricas y magnéticas sobre el protón en ese instante?</para>
+<media id="fs-id1171241131068" alt="La figura muestra un protón llevado a un campo magnético uniforme con un radio R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_33pr_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171241129190">
+<para id="fs-id1171241129192">a. <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>adentro</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac><m:mi>r</m:mi><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>afuera</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>4,19</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; c. 0 J; d <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>mag.</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>elec.</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−22</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241330299">
+<problem id="fs-id1171241330301">
+<para id="fs-id1171241330486">El campo magnético en todos los puntos de la región cilíndrica cuya sección transversal se indica en la figura adjunta comienza a 1,0 T y disminuye uniformemente hasta cero en 20 s. ¿Cuál es el campo eléctrico (tanto la magnitud como la dirección) en función de <emphasis effect="italics">r</emphasis>, la distancia al centro geométrico de la región?</para>
+<media id="fs-id1171241330495" alt="La figura muestra un campo magnético uniforme con un radio de 20 centímetros.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_34pr_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171241460910">
+<problem id="fs-id1171241460912">
+<para id="fs-id1171241460914">La corriente en un solenoide largo de 20 vueltas por centímetro de radio de 3 cm se varía con el tiempo a una velocidad de 2 A/s. Un bucle circular de alambre de radio 5 cm y resistencia <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> rodea el solenoide. Calcule la corriente eléctrica inducida en el bucle.</para></problem>
+<solution id="fs-id1171241154619">
+<para id="fs-id1171241154621"><m:math><m:mrow><m:mn>7,1</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>A</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171241431590">
+<problem id="fs-id1171241431593">
+<para id="fs-id1171241431595">La corriente en un solenoide largo de radio 3 cm y 20 vueltas/cm se varía con el tiempo a una velocidad de 2 A/s. Calcule el campo eléctrico a una distancia de 4 cm del centro del solenoide.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171241245169">
+<term>campo eléctrico inducido</term>
+<meaning id="fs-id1171241245174">creado en base al flujo magnético cambiante con el tiempo</meaning>
+</definition>
+</glossary>
+</document>

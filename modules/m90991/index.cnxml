@@ -1,0 +1,138 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Difracción de rayos X</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90991</md:content-id>
+  <md:title>Difracción de rayos X</md:title>
+  <md:abstract><para>Al final de esta sección podrá:</para><list>
+<item>Describir los efectos de interferencia y difracción exhibidos por los rayos X en interacción con las estructuras a escala atómica</item></list></md:abstract>
+  <md:uuid>a3d7c847-bd8d-4b53-877a-c18dbcece1c8</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101970859">Como los fotones de rayos X son muy energéticos, tienen longitudes de onda relativamente cortas, del orden de <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup></m:mrow></m:math> m a <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup></m:mrow></m:math> m. Así, los fotones típicos de los rayos X actúan como rayos cuando encuentran objetos macroscópicos, como los dientes, y producen sombras nítidas. Sin embargo, como los átomos tienen un tamaño del orden de 0,1 nm, los rayos X pueden utilizarse para detectar la ubicación, la forma y el tamaño de los átomos y las moléculas. El proceso se denomina <term>difracción de rayos X</term>, y consiste en la interferencia de los rayos X para producir patrones que pueden ser analizados para obtener información sobre las estructuras que dispersaron los rayos X.</para>
+<para id="fs-id1172102054074">Quizá el ejemplo más famoso de la difracción de rayos X sea el descubrimiento de la estructura doble helicoidal del <term class="no-emphasis">ADN</term> en 1953 por un equipo internacional de científicos que trabajaban en el Laboratorio Cavendish de Inglaterra: el estadounidense James Watson, el inglés Francis Crick y el neozelandés Maurice Wilkins. Utilizando los datos de difracción de rayos X producidos por Rosalind Franklin, fueron los primeros en modelar la estructura de doble hélice del ADN, tan crucial para la vida. Por este trabajo, Watson, Crick y Wilkins recibieron en 1962 el Premio Nobel de Fisiología o Medicina. (Hay cierto debate y controversia sobre la cuestión de que Rosalind Franklin no fue incluida en el premio, aunque murió en 1958, antes de que se concediera el premio).</para>
+<para id="fs-id1172099385015">La <link target-id="CNX_UPhysics_37_06_X-ray"/> muestra un patrón de difracción producido por la dispersión de rayos X de un cristal. Este proceso se conoce como cristalografía de rayos X por la información que puede aportar sobre la estructura de los cristales, y fue el tipo de datos que Rosalind Franklin proporcionó a Watson y Crick para el ADN. Los rayos X no solo confirman el tamaño y la forma de los átomos, sino que proporcionan información sobre la disposición atómica de los materiales. Por ejemplo, las investigaciones más recientes sobre superconductores de alta temperatura se refieren a materiales complejos cuya disposición de la red es crucial para obtener un material superconductor. Se pueden estudiar mediante cristalografía de rayos X.</para>
+<figure id="CNX_UPhysics_37_06_X-ray">
+<media id="fs-id1172099493902" alt="La figura muestra un fondo blanco con un patrón de líneas punteadas negras. Hay un punto blanco brillante en el centro rodeado por un anillo gris. Una línea blanca sube y baja desde el lugar.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_37_06_X-ray.jpg"/>
+</media>
+<caption>La difracción de rayos X del cristal de una proteína (lisozima de clara de huevo de gallina) produjo este patrón de interferencia. El análisis del patrón arroja información sobre la estructura de la proteína. (crédito: “Del45”/Wikimedia Commons)</caption>
+</figure>
+<para id="fs-id1172101904943">Históricamente, la dispersión de los rayos X en los cristales se utilizó para demostrar que los rayos X son ondas electromagnéticas (electromagnetic, EM) energéticas. Esto se sospechaba desde el descubrimiento de los rayos X en 1895, pero no fue hasta 1912 cuando el alemán Max <term class="no-emphasis">von Laue</term> (1879-1960) convenció a dos de sus colegas para que dispersaran los rayos X de los cristales. Si se obtiene un patrón de difracción, razonó, entonces los rayos X deben ser ondas, y se podría determinar su longitud de onda. (El espaciado de los átomos en varios cristales se conocía razonablemente bien en aquella época, basándose en buenos valores del número de Avogadro). Los experimentos fueron convincentes, y el Premio Nobel de Física de 1914 fue concedido a von Laue por su sugerencia que condujo a la prueba de que los rayos X son ondas EM. En 1915, el singular equipo de padre e hijo formado por Sir William Henry <term class="no-emphasis">Bragg</term> y su hijo, Sir William Lawrence Bragg, fue galardonado con un premio Nobel conjunto por inventar el espectrómetro de rayos X y la entonces nueva ciencia del análisis de rayos X.</para>
+<para id="fs-id1172101884882">De una manera que recuerda a la interferencia de película delgada, consideramos dos ondas planas a longitudes de onda de rayos X, cada una de las cuales se refleja en un plano diferente de átomos dentro de la red de un cristal, como se muestra en la <link target-id="CNX_UPhysics_37_06_reflection"/>. A partir de la geometría, la diferencia de longitudes de trayectoria es <m:math><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>. La interferencia constructiva se produce cuando esta distancia es un múltiplo entero de la longitud de onda. Esta condición se recoge en la <emphasis effect="italics">ecuación de Bragg</emphasis>,</para>
+<note id="fs-id1172099415304" class="equation-callout">
+<equation id="fs-id1172101894702"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>..</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172101802132">donde <emphasis effect="italics">m</emphasis> es un número entero positivo y <emphasis effect="italics">d</emphasis> es el espacio entre los planos. Siguiendo la ley de reflexión, tanto las ondas incidentes como las reflejadas se describen con el mismo ángulo, <m:math><m:mrow><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> pero a diferencia de la práctica general en la óptica geométrica, <m:math><m:mi>θ</m:mi></m:math> se mide con respecto a la propia superficie, en lugar de la normal.</para>
+<figure id="CNX_UPhysics_37_06_reflection">
+<media id="fs-id1172101641537" alt="La figura muestra los átomos de un cristal como puntos dispuestos en una cuadrícula. Están a una distancia d entre sí. Dos rayos paralelos, etiquetados como rayos de luz en fase, golpean un átomo cada uno desde arriba y desde la izquierda, se desvían y van hacia arriba y hacia la derecha. Los átomos en cuestión están marcados como a y b, estando b directamente debajo de a. Los rayos incidentes forman un ángulo theta con la horizontal. Sus extensiones forman un ángulo de 20 grados con los rayos desviados. Una línea de puntos une a y b. Otra conecta a con el rayo que incide en b, formando un ángulo theta con ab, formando así un triángulo. El lado del triángulo a lo largo de la semirrecta que incide sobre b se denomina d seno theta. El rayo desviado desde b es menor que el rayo desviado desde a, por una distancia 2d seno theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_37_06_reflection.jpg"/>
+</media>
+<caption>Difracción de rayos X con un cristal. Dos ondas incidentes se reflejan en dos planos de un cristal. La diferencia en las longitudes de las trayectorias se indica con la línea discontinua.</caption>
+</figure>
+<example id="fs-id1172102022234">
+<para id="fs-id1172101738178"><title>Difracción de rayos X con cristales de sal</title>
+La sal de mesa común está compuesta principalmente por cristales de NaCl. En un cristal de NaCl, hay una familia de planos separados 0,252 nm. Si el máximo de primer orden se observa en un ángulo de incidencia de <m:math><m:mrow><m:mn>18,1</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, ¿cuál es la longitud de onda de la dispersión de rayos X de este cristal?</para>
+<para id="fs-id1172101939764"><title>Estrategia</title>
+Utilice la ecuación de Bragg, <link target-id="fs-id1172101894702"/>, <m:math><m:mrow><m:mi>m</m:mi><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>, para resolver <m:math><m:mi>θ</m:mi></m:math>.</para>
+<para id="fs-id1172101928751"><title>Solución</title>
+Para el primer orden, <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> y se conoce la distancia entre planos <emphasis effect="italics">d</emphasis>. Al resolver la ecuación de Bragg para la longitud de onda se obtiene</para>
+<equation id="fs-id1172102078931" class="unnumbered"><label/><m:math><m:mrow><m:mtext>λ</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,252</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>18,1</m:mn><m:mtext>°</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>1</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1,57</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>o</m:mtext><m:mspace width="0.2em"/><m:mn>0,157</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102029112"><title>Importancia</title>
+La longitud de onda determinada se ajusta a la región de los rayos X del espectro electromagnético. Una vez más, la naturaleza ondulatoria de la luz se pone de manifiesto cuando la longitud de onda <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>λ</m:mtext><m:mo>=</m:mo><m:mn>0,157</m:mn><m:mspace width="0.2em"/><m:mtext>nm)</m:mtext></m:mrow></m:math> es comparable al tamaño de las estructuras físicas <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>0,252</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mo>)</m:mo></m:mrow></m:math> con la que interactúa.</para>
+</example>
+<note id="fs-id1172101695371" class="check-understanding">
+<exercise id="fs-id1172102007440">
+<problem id="fs-id1172101650528">
+<para id="fs-id1172101906156">Para el experimento descrito en el <link target-id="fs-id1172102022234"/>, ¿cuáles son los otros dos ángulos en los que se pueden observar los máximos de interferencia? ¿Qué limita el número de máximos?</para>
+</problem>
+<solution id="fs-id1172101619075">
+<para id="fs-id1172102020327"><m:math><m:mrow><m:mn>38,4</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>68,8</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>; entre <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">→</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, los órdenes 1, 2 y 3, son todos los que existen.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1172101662758">Aunque la <link target-id="CNX_UPhysics_37_06_reflection"/> representa un cristal como un conjunto bidimensional de centros de dispersión para simplificar, los cristales reales son estructuras en tres dimensiones. La dispersión puede producirse simultáneamente a partir de diferentes familias de planos con diferentes orientaciones y patrones de espaciado, conocidos como <term>planos de Bragg</term>, como se muestra en la <link target-id="CNX_UPhysics_37_06_planes"/>. El patrón de interferencia resultante puede ser bastante complejo.</para>
+<figure id="CNX_UPhysics_37_06_planes">
+<media id="fs-id1172102032358" alt="La figura muestra dos redes cristalinas, con los átomos mostrados como pequeños círculos, conectados entre sí por líneas. En la primera red, se destacan los planos formados en la red. En el segundo, se destacan los planos inclinados que se forman en la red. En cada caso, los planos se ven como una combinación de diferentes átomos en la misma red.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_37_06_planes.jpg"/>
+</media>
+<caption>Debido a la regularidad que hace una estructura cristalina, un cristal puede tener muchas familias de planos dentro de su geometría, cada una de las cuales da lugar a la difracción de rayos X.</caption>
+</figure>
+<section id="fs-id1172101634643" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172102022872" list-type="bulleted" bullet-style="bullet">
+<item>Los rayos X son una radiación electromagnética de longitud de onda relativamente corta y pueden presentar características ondulatorias como la interferencia cuando interactúan con objetos correspondientemente pequeños.</item>
+</list>
+</section>
+<section id="fs-id1172101934819" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172101615700">
+<problem id="fs-id1172101757890">
+<para id="fs-id1172101806946">Las redes de cristal pueden examinarse con rayos X, pero no con rayos UV. ¿Por qué?</para>
+</problem>
+<solution id="fs-id1172099494314">
+<para id="fs-id1172101968933">Las longitudes de onda de los rayos ultravioleta son mucho mayores que las separaciones de la red de los cristales, por lo que no hay difracción. La ecuación de Bragg implica un valor de <emphasis effect="italics">senθ</emphasis> mayor que la unidad, que no tiene solución.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172102075132" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172101911663">
+<problem id="fs-id1172102067094">
+<para id="fs-id1172102052710">Los rayos X de longitud de onda de 0,103 nm se reflejan en un cristal y se registra un máximo de segundo orden con un ángulo de Bragg de <m:math><m:mrow><m:mn>25,5</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. ¿Cuál es el espacio entre los planos de dispersión en este cristal?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101763901">
+<problem id="fs-id1172101889683">
+<para id="fs-id1172102137976">Se observa un máximo de reflexión de Bragg de primer orden cuando un rayo X monocromático incide sobre un cristal en un ángulo de <m:math><m:mrow><m:mn>32,3</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con respecto a un plano reflectante. ¿Cuál es la longitud de onda de estos rayos X?</para>
+</problem>
+<solution id="fs-id1172101889229">
+<para id="fs-id1172101904275">0,120 nm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101912603">
+<problem id="fs-id1172101985774">
+<para id="fs-id1172101658267">Se realiza un experimento de dispersión de rayos X en un cristal cuyos átomos forman planos separados por 0,440 nm. Al utilizar una fuente de rayos X de longitud de onda 0,548 nm, ¿cuál es el ángulo (con respecto a los planos en cuestión) con el que el experimentador necesita iluminar el cristal para observar un máximo de primer orden?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102138756">
+<problem id="fs-id1172102067766">
+<para id="fs-id1172101922646">La estructura del cristal de NaCl forma planos reflectantes con 0,541 nm de separación. ¿Cuál es el ángulo más pequeño, medido desde estos planos, en el que se puede observar la difracción de rayos X, si se utilizan rayos X de longitud de onda de 0,085 nm?</para>
+</problem>
+<solution id="fs-id1172102131174">
+<para id="fs-id1172101703136"><m:math><m:mrow><m:mn>4,51</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101668448">
+<problem id="fs-id1172102130530">
+<para id="fs-id1172101655670">Al utilizar una fuente de rayos X de longitud de onda desconocida en un cristal determinado, se observa un máximo de difracción de rayos X de primer orden en un ángulo de <m:math><m:mrow><m:mn>27,1</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> en relación con su superficie. Además, cuando se ilumina con otro rayo, esta vez de una longitud de onda conocida de 0,137 nm, se detecta un máximo de segundo orden en <m:math><m:mrow><m:mn>37,3</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Determine (a) la separación entre los planos reflectantes, y (b) la longitud de onda desconocida.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102002122">
+<problem id="fs-id1172101651578">
+<para id="fs-id1172102097372">Los cristales de calcita contienen planos de dispersión con 0,30 nm de separación. ¿Cuál es la separación angular entre los máximos de difracción de primer y segundo orden cuando se utilizan rayos X de 0,130 nm de longitud de onda?</para>
+</problem>
+<solution id="fs-id1172101754429">
+<para id="fs-id1172101969854"><m:math><m:mrow><m:mn>13,2</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101754625">
+<problem id="fs-id1172101731039">
+<para id="fs-id1172101641596">El ángulo de Bragg de primer orden para un determinado cristal es <m:math><m:mrow><m:mn>12,1</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. ¿Cuál es el ángulo de segundo orden?</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172101985298">
+<term>Planos de Bragg</term>
+<meaning id="fs-id1172101694487">familias de planos dentro de los cristales que pueden dar lugar a la difracción de rayos X</meaning>
+</definition>
+<definition id="fs-id1172101805638">
+<term>Difracción de rayos X</term>
+<meaning id="fs-id1172101658825">técnica que proporciona información detallada sobre la estructura cristalográfica de los materiales naturales y manufacturados</meaning>
+</definition>
+</glossary>
+
+</document>

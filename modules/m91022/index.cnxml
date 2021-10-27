@@ -1,0 +1,553 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>El átomo de hidrógeno</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91022</md:content-id>
+  <md:title>El átomo de hidrógeno</md:title>
+  <md:abstract><para>Al final de esta sección podrá:</para><list>
+<item>Describir el átomo de hidrógeno en términos de función de onda, densidad de probabilidad, energía total y momento angular orbital.</item>
+<item>Identificar el significado físico de cada uno de los números cuánticos (<m:math><m:mrow><m:mi>n</m:mi><m:mo>,</m:mo><m:mi>l</m:mi><m:mo>,</m:mo><m:mi>m</m:mi></m:mrow></m:math>) del átomo de hidrógeno.</item>
+<item>Distinguir entre los modelos de Bohr y Schrödinger del átomo.</item>
+<item>Utilizar los números cuánticos para calcular información importante sobre el átomo de hidrógeno.</item>
+</list></md:abstract>
+  <md:uuid>a28bdceb-9a13-454a-9d84-586b0189fb5f</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170901592759">El átomo de hidrógeno es el más simple de la naturaleza y, por tanto, un buen punto de partida para estudiar los átomos y la estructura atómica. El átomo de hidrógeno está formado por un solo electrón con carga negativa que se mueve alrededor de un protón con carga positiva (<link target-id="CNX_UPhysics_41_01_HydAtom"/>). En el modelo de Bohr, el electrón es atraído alrededor del protón en una órbita perfectamente circular por una fuerza de Coulomb de atracción. El protón es aproximadamente 1.800 veces más masivo que el electrón, por lo que el protón se mueve muy poco en respuesta a la fuerza que ejerce el electrón sobre él. (Esto es análogo al sistema Tierra-Sol, donde el Sol se mueve muy poco en respuesta a la fuerza ejercida sobre él por la Tierra). Una explicación de este efecto utilizando las leyes de Newton se ofrece en <link document="m91005">Fotones y ondas de materia</link>.</para>
+<figure id="CNX_UPhysics_41_01_HydAtom">
+<media id="fs-id1170901570588" alt="El modelo de Bohr del átomo de hidrógeno tiene el protón, una carga q = más e, en el centro y el electrón, una carga q = menos e, en una órbita circular centrada en el protón.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_01_HydAtom.jpg"/>
+</media>
+<caption>Una representación del <term class="no-emphasis">modelo de Bohr</term> del átomo de hidrógeno.</caption>
+</figure>
+<para id="fs-id1170901568193">Suponiendo el protón fijo, nos centramos en el movimiento del electrón.</para>
+<para id="fs-id1170902894329">En el campo eléctrico del protón, la energía potencial del electrón es</para>
+<equation id="fs-id1170903082088"><m:math><m:mrow><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>k</m:mi><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902902294">donde <m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> y <emphasis effect="italics">r</emphasis> es la distancia entre el electrón y el protón. Como vimos antes, la fuerza sobre un objeto es igual al negativo del gradiente (o pendiente) de la función de energía potencial. Para el caso especial de un átomo de hidrógeno, la fuerza entre el electrón y el protón es una fuerza de Coulomb atractiva.</para>
+<para id="fs-id1170902719456">Observe que la función de energía potencial <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">r</emphasis>) no varía en el tiempo. Como resultado, la <term class="no-emphasis">ecuación de Schrödinger</term> del átomo de hidrógeno se reduce a dos ecuaciones más simples: una que depende solo del espacio (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>, <emphasis effect="italics">z</emphasis>) y otra que depende solo del tiempo (<emphasis effect="italics">t</emphasis>). (La separación de una función de onda en partes dependientes del espacio y del tiempo para funciones de energía potencial independientes del tiempo se discute en <link document="m91013">Mecánica cuántica</link>). Lo que más nos interesa es la ecuación dependiente del espacio:</para>
+<equation id="fs-id1170903052286"><m:math><m:mrow><m:mfrac><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>ψ</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>ψ</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>ψ</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mi>ψ</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mi>ψ</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903065210">donde <m:math><m:mrow><m:mi>ψ</m:mi><m:mo>=</m:mo><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> es la función de onda tridimensional del electrón, <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub></m:mrow></m:math> es la masa del electrón, y <emphasis effect="italics">E</emphasis> es la energía total del electrón. Recordemos que la función de onda total <m:math><m:mrow><m:mn>Ψ</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> es el producto de la función de onda dependiente del espacio <m:math><m:mrow><m:mi>ψ</m:mi><m:mo>=</m:mo><m:mi>ψ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> y la función de onda dependiente del tiempo <m:math><m:mrow><m:mi>φ</m:mi><m:mo>=</m:mo><m:mi>φ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para><para id="fs-id1170902893842">Además de ser independiente del tiempo, <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">r</emphasis>) también es esféricamente simétrico. Esto sugiere que podemos resolver la ecuación de Schrödinger más fácilmente si la expresamos en términos de coordenadas esféricas <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> en lugar de coordenadas rectangulares <m:math><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi><m:mo>)</m:mo></m:math>. Un sistema de coordenadas esféricas se muestra en la <link target-id="CNX_UPhysics_41_01_SphCoord"/>. En las coordenadas esféricas, la variable <emphasis effect="italics">r</emphasis> es la coordenada radial, <m:math><m:mi>θ</m:mi></m:math> es el ángulo polar (relativo al eje de la <emphasis effect="italics">z</emphasis>vertical), y <m:math><m:mi>ϕ</m:mi></m:math> es el ángulo acimutal (respecto al eje de la <emphasis effect="italics">x</emphasis>). La relación entre las coordenadas esféricas y rectangulares es <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>z</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></para><figure id="CNX_UPhysics_41_01_SphCoord">
+<media id="fs-id1170902793872" alt="Se muestra un sistema de coordenadas x y z, junto con un punto P y el vector r desde el origen hasta P. En esta figura, el punto P tiene coordenadas de la x, la y y la z positivas. El vector r está inclinado por un ángulo theta desde el eje de la z positiva. Su proyección en el plano x y hace un ángulo theta desde el eje de la x positiva hacia el eje de la y positiva.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_01_SphCoord.jpg"/>
+</media>
+<caption>La relación entre los sistemas de coordenadas esféricas y rectangulares.</caption>
+</figure>
+<para id="fs-id1170903095566">El factor <m:math><m:mrow><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> es la magnitud de un vector formado por la proyección del vector polar sobre el plano <emphasis effect="italics">xy</emphasis>. Además, las coordenadas de la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> se obtienen proyectando este vector sobre los ejes de la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis>, respectivamente. La transformación inversa da</para>
+<equation id="fs-id1170903139998" class="unnumbered"><label/><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>z</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>x</m:mi><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1170903044398">La ecuación de onda de Schrödinger para el átomo de hidrógeno en coordenadas esféricas se discute en cursos más avanzados de física moderna, por lo que aquí no la consideramos en detalle. Sin embargo, debido a la simetría esférica de <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">r</emphasis>), esta ecuación se reduce a tres ecuaciones más simples: una para cada una de las tres coordenadas <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>,</m:mo><m:mi>θ</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Las soluciones a la función de onda independiente del tiempo se escriben como un producto de tres funciones:</para>
+<equation id="fs-id1170902913459" class="unnumbered"><label/><m:math><m:mrow><m:mi>ψ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>,</m:mo><m:mi>θ</m:mi><m:mo>,</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>R</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>Θ</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>θ</m:mtext><m:mo stretchy="false">)</m:mo><m:mn>Φ</m:mn><m:mo stretchy="false">(</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1170902898644">donde <emphasis effect="italics">R</emphasis> es la función radial que depende únicamente de la coordenada radial <emphasis effect="italics">r</emphasis> <m:math><m:mtext>Θ</m:mtext></m:math> es la función polar que depende de la coordenada polar <m:math><m:mi>θ</m:mi></m:math> solamente; y <m:math><m:mtext>Φ</m:mtext></m:math> es la función phi de <m:math><m:mi>ϕ</m:mi></m:math> solamente. Las soluciones válidas de la ecuación de Schrödinger <m:math><m:mrow><m:mi>ψ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>,</m:mo><m:mi>θ</m:mi><m:mo>,</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> están marcadas con los números cuánticos <emphasis effect="italics">n</emphasis>, <emphasis effect="italics">l</emphasis> y <emphasis effect="italics">m</emphasis>.</para>
+<equation id="fs-id1170901533514" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mi>n</m:mi><m:mo>:</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mtext>número cuántico principal</m:mtext></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mi>l</m:mi><m:mo>:</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mtext>número cuántico de momento angular</m:mtext></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mi>m</m:mi><m:mo>:</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mtext>número cuántico de proyección del momento angular</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170902666863">(Las razones de estos nombres se explicarán en la siguiente sección). La función radial <emphasis effect="italics">R</emphasis> solo depende de <emphasis effect="italics">n</emphasis> y <emphasis effect="italics">l</emphasis>; la función polar <m:math><m:mtext>Θ</m:mtext></m:math> solo depende de <emphasis effect="italics">l</emphasis> y <emphasis effect="italics">m</emphasis>; y la función phi <m:math><m:mtext>Φ</m:mtext></m:math> solo depende de <emphasis effect="italics">m</emphasis>. La dependencia de cada función de los números cuánticos se indica con subíndices:</para>
+<equation id="fs-id1170901741972" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>,</m:mo><m:mi>θ</m:mi><m:mo>,</m:mo><m:mi> </m:mi><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mtext>Θ</m:mtext><m:mrow><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mtext>Φ</m:mtext><m:mi>m</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902925786">No todos los conjuntos de números cuánticos<emphasis effect="italics">(n</emphasis>, <emphasis effect="italics">l</emphasis>, <emphasis effect="italics">m</emphasis>) son posibles. Por ejemplo, el número cuántico angular orbital <emphasis effect="italics">l</emphasis> nunca puede ser mayor o igual que el número cuántico principal <m:math><m:mrow><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>l</m:mi><m:mo>&lt;</m:mo><m:mi>n</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. En concreto, tenemos</para>
+<equation id="fs-id1170902660979" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>n</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>l</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>l</m:mi><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mi>l</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo>+</m:mo><m:mi>l</m:mi></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170901578315">Observe que en el estado fundamental, <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, y <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. En otras palabras, solo hay un estado cuántico con la función de onda para <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, y es <m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>100</m:mn></m:mrow></m:msub></m:mrow></m:math>. Sin embargo, para <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, tenemos</para>
+<equation id="fs-id1170902941717" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1170901800555">Por lo tanto, los estados permitidos para el estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> son <m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>200</m:mn></m:mrow></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>21</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>,</m:mo><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>210</m:mn></m:mrow></m:msub></m:mrow></m:math>, y <m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>211</m:mn></m:mrow></m:msub></m:mrow></m:math>. En la <link target-id="fs-id1170901599432"/> se ofrecen ejemplos de funciones de onda para el átomo de hidrógeno. Observe que algunas de estas expresiones contienen la letra <emphasis effect="italics">i</emphasis>, que representa <m:math><m:mrow><m:msqrt><m:mrow><m:mn>−1</m:mn></m:mrow></m:msqrt></m:mrow></m:math>. Cuando se calculan las probabilidades, estos números complejos no aparecen en la respuesta final.</para>
+<table id="fs-id1170901599432" summary="The table has two columns and 5 rows. The first column has the n, l, m quantum numbers as follows: row 1, “n=1, l=0, m sub l = 0,” row 2, “n=2, l=0, m sub l = 0,” row 3, . Third row: “n=2, l=1, m sub l = -1”, row 4, “n=2, l=1, m sub l = 0”, and row 5, “n=2, l=1, m sub l = 1”. The second column has the corresponding wave functions. Each wave function has several factors: multiples of one over the square root of pi, one over a sub 0 to the three halves, a polynomial in r, and an exponential factor of e to the r over a sub 0 or over 2 a sub 0. Some wave functions also have a sine or cosine of theta function and some also have an e to the plus or minus i phi. The entries in the column are as follows: Row 1, psi sub 1 0 0 equals 1 over square root of pi, one over a sub 0 to the three halves, e to the minus r over a sub 0. Row 2, psi sub 2 0 0 equals 1 over 4 square root of 2 pi, one over a sub 0 to the three halves, the polynomial 2 minus r over a sub 0, exponential e to the minus r over 2 a sub 0. Row 3, psi sub 2 1 -1 equals 1 over 8 square root of pi, one over a sub 0 to the three halves, the polynomial r over a sub 0, exponential e to the minus r over 2 a sub 0, function sine of theta, all times e to the minus i phi. Row 4, psi sub 2 1 0 equals 1 over 4 square root of 2 pi, one over a sub 0 to the three halves, the polynomial r over a sub 0, exponential e to the minus r over 2 a sub 0, function cosine of theta. Row 5, psi sub 2 1 1 equals 1 over 8 square root of pi, one over a sub 0 to the three halves, the polynomial r over a sub 0, exponential e to the minus r over 2 a sub 0, function sine of theta, all times e to the i phi.">
+<title>Funciones de onda del átomo de hidrógeno</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>100</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:mspace width="0.3em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>r</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>200</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:msqrt><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mspace width="0.3em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mfrac><m:mi>r</m:mi><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>r</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>21</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>8</m:mn><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:mspace width="0.3em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mspace width="0.3em"/><m:mfrac><m:mi>r</m:mi><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>r</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:msup><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mi>ϕ</m:mi></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>210</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:msqrt><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mspace width="0.3em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mspace width="0.3em"/><m:mfrac><m:mi>r</m:mi><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>r</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:msup><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>211</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>8</m:mn><m:msqrt><m:mi>π</m:mi></m:msqrt></m:mrow></m:mfrac><m:mspace width="0.3em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mspace width="0.3em"/><m:mfrac><m:mi>r</m:mi><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>r</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:msup><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>i</m:mi><m:mi>ϕ</m:mi></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<section id="fs-id1170902884504">
+<title>Significado de los números cuánticos</title>
+<para id="fs-id1170902884509">Cada uno de los tres números cuánticos del átomo de hidrógeno (<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">l</emphasis>, <emphasis effect="italics">m</emphasis>) está asociado a una cantidad física diferente. El <term>número cuántico principal</term> <emphasis effect="italics">n</emphasis> está asociado a la energía total del electrón, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math>. Según la ecuación de Schrödinger:</para>
+<equation id="fs-id1170902869741"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mn>2</m:mn><m:mo>ħ</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902691065">donde <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>−13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Observe que esta expresión es idéntica a la del modelo de Bohr. Al igual que en el modelo de Bohr, el electrón en un determinado estado de energía no radia.</para>
+<example id="fs-id1170902858591">
+<para id="fs-id1170902858593"><title>¿Cuántos estados posibles hay?</title>
+En el átomo de hidrógeno, ¿cuántos estados cuánticos posibles corresponden al número principal <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>? ¿Cuáles son las energías de estos estados?</para>
+<para id="fs-id1170902921527"><title>Estrategia</title>
+En un átomo de hidrógeno de una energía determinada, el número de estados permitidos depende de su momento angular orbital. Podemos contar estos estados para cada valor del número cuántico principal, <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> Sin embargo, la energía total depende únicamente del número cuántico principal, lo que significa que podemos utilizar la <link target-id="fs-id1170902869741"/> y el número de estados contados.</para>
+<para id="fs-id1170902891664"><title>Solución</title>
+Si <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, los valores permitidos de <emphasis effect="italics">l</emphasis> son 0, 1 y 2. Si <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> (1 estado). Si <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> (3 estados); y si <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> (5 estados). En total, hay <m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math> estados permitidos. Debido a que la energía total solo depende del número cuántico principal, <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, la energía de cada uno de estos estados es</para>
+<equation id="fs-id1170901632559" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mi>n</m:mi><m:mn>3</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mn>9</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>-1,51</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901769524"><title>Importancia</title>
+Un electrón en un átomo de hidrógeno puede ocupar muchos estados de momento angular diferentes con la misma energía. A medida que aumenta el momento angular orbital, aumenta el número de estados permitidos con la misma energía.</para>
+</example>
+<para id="fs-id1170902861506">El <term>número cuántico de momento angular orbital</term> <emphasis effect="italics">l</emphasis> está asociado al momento angular orbital del electrón en un átomo de hidrógeno. La teoría cuántica nos dice que cuando el átomo de hidrógeno está en el estado <m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow></m:msub></m:mrow></m:math>, la magnitud de su momento angular orbital es</para>
+<note id="fs-id1170901596395" class="equation-callout">
+<equation id="fs-id1170901596400"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">(</m:mo><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt><m:mi>ℏ</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902850025">donde</para>
+<equation id="fs-id1170901842631" class="unnumbered"><label/><m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903077401">Este resultado es ligeramente diferente al encontrado con la teoría de Bohr, que cuantiza el momento angular según la regla <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mo>,</m:mo><m:mtext>donde</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext>...</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1170901596724">Los estados cuánticos con diferentes valores de momento angular orbital se distinguen utilizando <term class="no-emphasis">la notación espectroscópica</term> (<link target-id="fs-id1170902779373"/>). Las denominaciones <emphasis effect="italics">s</emphasis>, <emphasis effect="italics">p</emphasis>, <emphasis effect="italics">d</emphasis> y <emphasis effect="italics">f</emphasis> provienen de los primeros intentos históricos de clasificar las líneas espectrales atómicas. (Las letras significan agudo, principal, difuso y fundamental, respectivamente) Después de la <emphasis effect="italics">f</emphasis>, las letras continúan en orden alfabético.</para>
+<para id="fs-id1170902899390">El <term class="no-emphasis">estado fundamental</term> del hidrógeno se denomina estado 1<emphasis effect="italics">s</emphasis>, donde "1" indica el nivel de energía <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> y "<emphasis effect="italics">s</emphasis>" indica el estado del momento angular orbital (<m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>). Cuando <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, <emphasis effect="italics">l</emphasis> puede ser 0 o 1. El estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> se designa "2<emphasis effect="italics">s</emphasis>". El estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> se designa "2<emphasis effect="italics">p</emphasis>". Cuando <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, <emphasis effect="italics">l</emphasis> puede ser 0, 1 o 2, y los estados son 3<emphasis effect="italics">s</emphasis>, 3<emphasis effect="italics">p</emphasis>, y 3<emphasis effect="italics">d</emphasis>, respectivamente. La notación para otros estados cuánticos se da en la <link target-id="fs-id1170903078180"/>.</para>
+<para id="fs-id1170902891111">El <term>número cuántico de proyección del momento angular</term> <emphasis effect="italics">m</emphasis> está asociado al ángulo acimutal <m:math><m:mi>ϕ</m:mi></m:math> (vea la <link target-id="CNX_UPhysics_41_01_SphCoord"/>) y está relacionado con el componente <emphasis effect="italics">z</emphasis> del momento angular orbital de un electrón en un átomo de hidrógeno. Este componente viene dado por</para>
+<note id="fs-id1170901537852" class="equation-callout">
+<equation id="fs-id1170902878710"><label/><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>ℏ</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170901867971">donde</para>
+<equation id="fs-id1170901621612" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>l</m:mi><m:mo>,</m:mo><m:mtext>−</m:mtext><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>,</m:mo><m:mo>+</m:mo><m:mi>l</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902849835">El componente <emphasis effect="italics">z</emphasis> del momento angular está relacionado con la magnitud del momento angular a través de</para>
+<equation id="fs-id1170903125406"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mi>o</m:mi><m:mi>s</m:mi><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902860442">donde <m:math><m:mi>θ</m:mi></m:math> es el ángulo entre el vector de momento angular y el eje de la <emphasis effect="italics">z</emphasis>. Observe que la dirección del eje de la <emphasis effect="italics">z</emphasis> se determina por el experimento, es decir, a lo largo de cualquier dirección, el experimentador decide medir el momento angular. Por ejemplo, la dirección de la <emphasis effect="italics">z</emphasis> podría corresponder a la dirección de un campo magnético externo. La relación entre <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>L</m:mi></m:mrow></m:math> se encuentra en la <link target-id="CNX_UPhysics_41_01_ZcompAng"/>.</para>
+<figure id="CNX_UPhysics_41_01_ZcompAng">
+<media id="fs-id1170901752466" alt="Se muestra un sistema de coordenadas x y z. El vector L forma un ángulo theta con el eje de la z positiva y tiene un componente z positivo L sub z igual a m por h barra. Los componentes x e y son positivos pero no se especifican.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_01_ZcompAng.jpg"/>
+</media>
+<caption>El componente <emphasis effect="italics">z</emphasis> del momento angular está cuantizado con su propio número cuántico <emphasis effect="italics">m</emphasis>.</caption>
+</figure>
+<table id="fs-id1170902779373" summary="The table has 4 columns and 6 rows. The first row is a header row and labels the columns “Orbital quantum number l,” “Angular Momentum,” “state,” and “Spectroscopic name.” Under the Orbital quantum number l column are the numbers 0, 1, 2, 3, 4, and 5. Under the angular momentum column are the values 0, h times square root of 2, h times square root of 6, h times square root of twelve, h times square root of twenty, and h times square root of thirty. Under the state column are the entries s, p, d, f, g, and h. Under the spectroscopic name column are the entries “Sharp,” “Principal,” “Diffuse,” and “Fundamental.” The last two rows in this column are blank.">
+<title>Notación espectroscópica y momento angular orbital</title>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Número cuántico orbital <emphasis effect="italics">l</emphasis></entry>
+<entry valign="top" align="left">Momento angular</entry>
+<entry valign="top" align="left">Estado</entry>
+<entry valign="top" align="left">Nombre espectroscópico</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">0</entry>
+<entry valign="top" align="left">0</entry>
+<entry valign="top" align="left"><emphasis effect="italics">s</emphasis></entry>
+<entry valign="top" align="left">Fino</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>h</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><emphasis effect="italics">p</emphasis></entry>
+<entry valign="top" align="left">Principal</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">2</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msqrt><m:mn>6</m:mn></m:msqrt><m:mi>h</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><emphasis effect="italics">d</emphasis></entry>
+<entry valign="top" align="left">Difuso</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">3</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msqrt><m:mrow><m:mn>12</m:mn></m:mrow></m:msqrt><m:mi>h</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><emphasis effect="italics">f</emphasis></entry>
+<entry valign="top" align="left">Fundamental</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">4</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msqrt><m:mrow><m:mn>20</m:mn></m:mrow></m:msqrt><m:mi>h</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><emphasis effect="italics">g</emphasis></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">5</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msqrt><m:mrow><m:mn>30</m:mn></m:mrow></m:msqrt><m:mi>h</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><emphasis effect="italics">h</emphasis></entry>
+<entry valign="top" align="left"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table id="fs-id1170903078180" summary="The table has 7 columns and 7 rows. The first row is a header row and labels the columns. The first column header is blank, the second is “l=0”, the third is “l=1”, the fourth is “l=2”, the fifth is “l=3”, the sixth is “l=4”, and the seventh is “l=5.” The first column is a header column and labels the rows. As noted, the first row header is blank, the second is “n=1”, the third is “n=2”, the fourth is “n=3”, the fifth is “n=4”, the sixth is “n=5”, and the seventh is “n=6.” Under the l=0 column are the spectroscopic notations 1s, then 2 s, then 3 s, then 4 s, then 5 s, the 6 s. Under the l=1 column, the n=1 row is blank, then 2 p, then 3 p, then 4 p, then 5 p, then 6 p. Under the l=2 column, the n=1 and n=2 rows are blank, then 3 d, 4 d, 5 d, and 6 d. Under the l=3 column, the n=1 through n=3 rows are blank, then 4 f, 5 f, and 6 f. Under the l=4 column, the n=1 through n=4 rows are blank, then 5 g and 6 g. Under the l=5 column, the n=1 through n=5 rows are blank, and the last row is 6 h.">
+<title>Descripción espectroscópica de los estados cuánticos</title>
+<tgroup cols="7">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">1<emphasis effect="italics">s</emphasis></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">2<emphasis effect="italics">s</emphasis></entry>
+<entry valign="top" align="left">2<emphasis effect="italics">p</emphasis></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">3<emphasis effect="italics">s</emphasis></entry>
+<entry valign="top" align="left">3<emphasis effect="italics">p</emphasis></entry>
+<entry valign="top" align="left">3<emphasis effect="italics">d</emphasis></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">4<emphasis effect="italics">s</emphasis></entry>
+<entry valign="top" align="left">4<emphasis effect="italics">p</emphasis></entry>
+<entry valign="top" align="left">4<emphasis effect="italics">d</emphasis></entry>
+<entry valign="top" align="left">4<emphasis effect="italics">f</emphasis></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">5<emphasis effect="italics">s</emphasis></entry>
+<entry valign="top" align="left">5<emphasis effect="italics">p</emphasis></entry>
+<entry valign="top" align="left">5<emphasis effect="italics">d</emphasis></entry>
+<entry valign="top" align="left">5<emphasis effect="italics">f</emphasis></entry>
+<entry valign="top" align="left">5<emphasis effect="italics">g</emphasis></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">6<emphasis effect="italics">s</emphasis></entry>
+<entry valign="top" align="left">6<emphasis effect="italics">p</emphasis></entry>
+<entry valign="top" align="left">6<emphasis effect="italics">d</emphasis></entry>
+<entry valign="top" align="left">6<emphasis effect="italics">f</emphasis></entry>
+<entry valign="top" align="left">6<emphasis effect="italics">g</emphasis></entry>
+<entry valign="top" align="left">6<emphasis effect="italics">h</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1170901531308">La cuantización de <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:math> equivale a la cuantización de <m:math><m:mi>θ</m:mi></m:math>. Sustituyendo <m:math><m:mrow><m:msqrt><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">(</m:mo><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt><m:mi>ℏ</m:mi></m:mrow></m:math> para <emphasis effect="italics">L</emphasis> y <emphasis effect="italics">m para</emphasis> <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:math> en esta ecuación, encontramos</para>
+<equation id="fs-id1170902680809"><m:math><m:mrow><m:mi>m</m:mi><m:mi>ℏ</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">(</m:mo><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt><m:mi>ℏ</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902905558">Así, el ángulo <m:math><m:mi>θ</m:mi></m:math> se cuantiza con los valores particulares</para>
+<equation id="fs-id1170901754937"><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>m</m:mi><m:mrow><m:msqrt><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">(</m:mo><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902601618">Observe que tanto el ángulo polar (<m:math><m:mi>θ</m:mi></m:math>) y la proyección del vector de momento angular sobre un eje de la <emphasis effect="italics">z</emphasis> arbitrario (<m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:math>) están cuantizados.</para>
+<para id="fs-id1170901648045">La cuantización del ángulo polar para el estado <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> se muestra en la <link target-id="CNX_UPhysics_41_01_QuantTheta"/>. El vector de momento angular orbital se encuentra en algún lugar de la superficie de un cono con un ángulo de apertura <m:math><m:mi>θ</m:mi></m:math> en relación con el eje de la <emphasis effect="italics">z</emphasis>(a menos que <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> en cuyo caso <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> y los puntos del vector son perpendiculares al eje de la <emphasis effect="italics">z</emphasis>).</para>
+<figure id="CNX_UPhysics_41_01_QuantTheta">
+<media id="fs-id1170902682944" alt="Siete vectores, todos de la misma longitud L, se dibujan en 7 ángulos diferentes con respecto al eje de la z. Las componentes z de los vectores se indican tanto con líneas horizontales desde la punta del vector hasta el eje de la z y con marcas en el eje de la z. Para cuatro de los vectores, también se marca el ángulo entre el eje de la z y el vector. Los valores de la componente z son 3 h barra en el ángulo theta sub tres, 2 h barra en el ángulo theta sub dos, h barra en el ángulo theta sub uno, cero en el ángulo theta sub cero, menos h barra, menos 2 h barra y menos 3 h barra.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_01_QuantTheta.jpg"/>
+</media>
+<caption>La cuantización del momento angular orbital. Cada vector se encuentra en la superficie de un cono con eje a lo largo del eje de la <emphasis effect="italics">z</emphasis>.</caption>
+</figure>
+<para id="fs-id1170901577555">Un estudio detallado del momento angular revela que no podemos conocer los tres componentes simultáneamente. En la sección anterior, el componente <emphasis effect="italics">z</emphasis> del momento angular orbital tiene valores definidos que dependen del número cuántico <emphasis effect="italics">m</emphasis>. Esto implica que no podemos conocer los componentes <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis> del momento angular, <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>y</m:mi></m:msub></m:mrow></m:math>, con certeza. En consecuencia, se desconoce la dirección exacta del vector del momento angular orbital.</para>
+<example id="fs-id1170902705884">
+<para id="fs-id1170902705886"><title>¿Cuáles son las direcciones permitidas?</title>
+Calcule los ángulos que el vector de momento angular <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> puede hacer con el eje de la <emphasis effect="italics">z</emphasis> para <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, como se muestra en la <link target-id="CNX_UPhysics_41_01_AngMoment"/>.</para>
+<figure id="CNX_UPhysics_41_01_AngMoment">
+<media id="fs-id1170902930377" alt="La imagen muestra tres posibles valores de un componente de un determinado momento angular a lo largo del eje de la z. La órbita circular superior se muestra en m sub t = 1 a una distancia L sub z sobre el origen. El vector L forma un ángulo theta uno con el eje de la z. El radio de la órbita es el componente de L perpendicular al eje de la z. La órbita circular del centro se muestra para m sub t = 0. Está en el plano x y. El vector L hace un ángulo de theta dos de 90 grados con el eje de la z. El radio de la órbita es L. La órbita circular inferior se muestra en m sub t = -1 a una distancia L sub z por debajo del origen. El vector L forma un ángulo de theta tres con el eje de la z. El radio de la órbita es el componente de L perpendicular al eje de la z.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_01_AngMoment.jpg"/>
+</media>
+<caption>El componente de un momento angular dado a lo largo del eje de la <emphasis effect="italics">z</emphasis> (definido por la dirección de un campo magnético) solo puede tener ciertos valores. Estos se muestran aquí para <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, para lo cual <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>y</m:mtext><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> La dirección de <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> está cuantizada en el sentido de que solo puede tener ciertos ángulos respecto al eje de la <emphasis effect="italics">z</emphasis>.</caption>
+</figure>
+<para id="fs-id1170902877881"><title>Estrategia</title>
+Los vectores <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> y <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>z</m:mi></m:msub></m:mrow></m:math> (en la dirección <emphasis effect="italics">z</emphasis>) forman un triángulo rectángulo, donde <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es la hipotenusa y <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>z</m:mi></m:msub></m:mrow></m:math> es el lado adyacente. La proporción de <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:math> a |<m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>| es el coseno del ángulo de interés. Las magnitudes <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mo>|</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:math> vienen dadas por</para>
+<equation id="fs-id1170902866146" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">(</m:mo><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt><m:mi>ℏ</m:mi><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>ℏ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902778967"><title>Solución</title>
+Se nos da <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, por lo que <emphasis effect="italics">ml</emphasis> puede ser <m:math><m:mrow><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>o</m:mtext><m:mspace width="0.2em"/><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Así, <emphasis effect="italics">L</emphasis> tiene el valor dado por</para>
+<equation id="fs-id1170902861390" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">(</m:mo><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt><m:mi>ℏ</m:mi><m:mo>=</m:mo><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>ℏ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901496211">La cantidad <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:math> puede tener tres valores, dados por <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mi>ℏ</m:mi></m:mrow></m:math>.</para>
+<equation id="fs-id1170902897710" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mi>ℏ</m:mi><m:mo>=</m:mo><m:mrow><m:mo>{</m:mo><m:mtable columnalign="left"><m:mtr><m:mtd columnalign="left"><m:mspace width="0.5em"/><m:mi>ℏ</m:mi><m:mo>,</m:mo><m:mtext/><m:mspace width="0.2em"/><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="0.5em"/><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>ℏ</m:mi><m:mo>,</m:mo><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mo>=</m:mo><m:mn>−1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1170902859411">Como puede ver en la <link target-id="CNX_UPhysics_41_01_AngMoment"/>, <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub><m:mtext>/</m:mtext><m:mi>L</m:mi><m:mo>,</m:mo></m:mrow></m:math> entonces para <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>, tenemos</para>
+<equation id="fs-id1170902923917" class="unnumbered"><label/><m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mi>Z</m:mi></m:msub></m:mrow><m:mi>L</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>ℏ</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,707</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901756368">Por lo tanto,</para>
+<equation id="fs-id1170902652024" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mn>0,707</m:mn><m:mo>=</m:mo><m:mn>45,0</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902869545">Del mismo modo, para <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, encontramos <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo></m:mrow></m:math> esto da</para>
+<equation id="fs-id1170901489064" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>90,0</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902896996">Entonces para <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow></m:math>:</para>
+<equation id="fs-id1170902765413" class="unnumbered">
+<label/>
+<m:math>
+<m:mrow>
+<m:mtext>cos</m:mtext>
+<m:mspace width="0.2em"/>
+<m:msub>
+<m:mi>θ</m:mi>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>L</m:mi>
+<m:mi>Z</m:mi>
+</m:msub>
+</m:mrow>
+<m:mi>L</m:mi>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mtext>−</m:mtext>
+<m:mi>ℏ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mn>2</m:mn>
+</m:msqrt>
+<m:mi>ℏ</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mo>−</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:msqrt>
+<m:mn>2</m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>−0,707</m:mn>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1170903131576">para que</para>
+<equation id="fs-id1170902922844" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mn>−0,707</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>135,0</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902858291"><title>Importancia</title>
+Los ángulos son coherentes con la figura. Solo se cuantifica el ángulo relativo al eje de la <emphasis effect="italics">z</emphasis>. <emphasis effect="italics">L</emphasis> puede apuntar en cualquier dirección siempre que forme el ángulo adecuado con el eje de la <emphasis effect="italics">z</emphasis>. Por lo tanto, los vectores del momento angular se encuentran en conos, como se ilustra. Para ver cómo se cumple aquí el principio de correspondencia, considere que el ángulo más pequeño (<m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> en el ejemplo) es para el valor máximo de <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> a saber <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub><m:mo>=</m:mo><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math> Para ese ángulo más pequeño,</para>
+<equation id="fs-id1170901642419" class="unnumbered"><label/><m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub></m:mrow><m:mi>L</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>l</m:mi><m:mrow><m:msqrt><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">(</m:mo><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901803721">que se aproxima a 1 cuando <emphasis effect="italics">l</emphasis> es muy grande. Si <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, entonces <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>º</m:mo></m:mrow></m:math>. Además, para <emphasis effect="italics">l</emphasis> grande, hay muchos valores de <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>l</m:mi></m:msub></m:mrow></m:math>, de modo que todos los ángulos son posibles a medida que <emphasis effect="italics">l</emphasis> se hace muy grande.</para>
+</example>
+<note id="fs-id1170902908673" class="check-understanding">
+<exercise id="fs-id1170902879174">
+<problem id="fs-id1170902879176">
+<para id="fs-id1170902879178">¿Puede la magnitud de <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:math> igualar en algún momento a <emphasis effect="italics">L</emphasis>?</para>
+</problem>
+<solution id="fs-id1170901629418">
+<para id="fs-id1170901629420">No. El número cuántico <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>l</m:mi><m:mo>,</m:mo><m:mtext>−</m:mtext><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mtext>,…</m:mtext><m:mo>,</m:mo><m:mn>0</m:mn><m:mtext>,…</m:mtext><m:mo>,</m:mo><m:mi>l</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, la magnitud de <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>z</m:mi></m:msub></m:mrow></m:math> es siempre menor que <emphasis effect="italics">L</emphasis> porque <m:math><m:mrow><m:mo>&lt;</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170901751543">
+<title>Uso de la función de onda para hacer predicciones</title>
+<para id="fs-id1170901751548">Como hemos visto antes, podemos utilizar la mecánica cuántica para hacer predicciones sobre los eventos físicos mediante el uso de declaraciones de probabilidad. Por lo tanto, es correcto afirmar: "un electrón se encuentra dentro de este volumen con esta probabilidad en este momento", pero no: "un electrón se encuentra en la posición (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>, <emphasis effect="italics">z</emphasis>) en este momento". Para determinar la probabilidad de encontrar un electrón en un átomo de hidrógeno en una región particular del espacio, es necesario integrar la densidad de probabilidad <m:math><m:mrow><m:mo>|</m:mo><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow></m:msub><m:msup><m:mo>|</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math> sobre esa región:</para>
+<equation id="fs-id1170902682281"><m:math><m:mrow><m:mtext>Probabilidad</m:mtext><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msub><m:mo>∫</m:mo><m:mrow><m:mtext>volumen</m:mtext></m:mrow></m:msub><m:mrow><m:mo>|</m:mo><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow></m:msub><m:msup><m:mo>|</m:mo><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902723990">donde <emphasis effect="italics">dV</emphasis> es un elemento de volumen infinitesimal. Si esta integral se calcula para todo el espacio, el resultado es 1, porque la probabilidad de que la partícula se encuentre <emphasis effect="italics">en algún lugar</emphasis> es del 100 % (la condición de <term class="no-emphasis">normalización</term>). En un curso más avanzado de física moderna, encontrará que <m:math><m:mrow><m:mo>|</m:mo><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow></m:msub><m:msup><m:mo>|</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow><m:mo>*</m:mo></m:msubsup><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msubsup><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow><m:mo>*</m:mo></m:msubsup></m:mrow></m:math> es el conjugado complejo. Esto elimina las ocurrencias de <m:math><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>−1</m:mn></m:mrow></m:msqrt></m:mrow></m:math> en el cálculo anterior.</para>
+<para id="fs-id1170901581153">Considere un electrón en un estado de momento angular cero (<m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>). En este caso, la función de onda del electrón solo depende de la coordenada radial <emphasis effect="italics">r</emphasis>. (Consulte los estados <m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>100</m:mn></m:mrow></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>200</m:mn></m:mrow></m:msub></m:mrow></m:math> en la <link target-id="fs-id1170901599432"/>.) El elemento de volumen infinitesimal corresponde a una cáscara esférica de radio <emphasis effect="italics">r</emphasis> y espesor infinitesimal <emphasis effect="italics">dr</emphasis>, escrita como</para>
+<equation id="fs-id1170902923744"><m:math><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903087760">La probabilidad de encontrar el electrón en la región <emphasis effect="italics">r</emphasis> para <m:math><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow></m:math> ("aproximadamente en <emphasis effect="italics">r</emphasis>") es de</para>
+<note id="fs-id1170902912761" class="equation-callout">
+<equation id="fs-id1170901597018"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>=</m:mo><m:mo>|</m:mo><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mn>00</m:mn></m:mrow></m:msub><m:msup><m:mo>|</m:mo><m:mn>2</m:mn></m:msup><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902863981">Aquí, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">r</emphasis>) se denomina <term>función de densidad y probabilidad radial</term> (una probabilidad por unidad de longitud). Para un electrón en el estado fundamental del hidrógeno, la probabilidad de encontrar un electrón en la región <emphasis effect="italics">r</emphasis> para <m:math><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow></m:math> es de</para>
+<equation id="fs-id1170902719337"><m:math><m:mrow><m:mo>|</m:mo><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mn>00</m:mn></m:mrow></m:msub><m:msup><m:mo>|</m:mo><m:mn>2</m:mn></m:msup><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mtext>/</m:mtext><m:msubsup><m:mi>a</m:mi><m:mn>0</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>exp</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mi>r</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903021593">donde <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,5</m:mn></m:mrow></m:math> angstroms. La función de densidad y probabilidad radial <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">r</emphasis>) se representa en la <link target-id="CNX_UPhysics_41_01_RadProb"/>. El área bajo la curva entre dos posiciones radiales cualesquiera, por ejemplo <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, da la probabilidad de encontrar el electrón en ese rango radial. Para encontrar la posición radial más probable, fijamos la primera derivada de esta función en cero (<m:math><m:mrow><m:mi>d</m:mi><m:mi>P</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>) y resolvemos para <emphasis effect="italics">r</emphasis>. La posición radial más probable no es igual al valor medio o esperado de la posición radial porque <m:math><m:mrow><m:mo>|</m:mo><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mn>00</m:mn></m:mrow></m:msub><m:msup><m:mo>|</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math> no es simétrica respecto a su valor máximo.</para>
+<figure id="CNX_UPhysics_41_01_RadProb">
+<media id="fs-id1170902781676" alt="Se muestra una gráfica de la función P de r en función de r. Es cero en r = 0, se eleva a un máximo en r = a sub 0, luego disminuye gradualmente y va asintóticamente a cero en r grande. El máximo está en la posición radial más probable. El área de la región bajo la curva de r sub 1 a r sub 2 está sombreada.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_01_RadProb.jpg"/>
+</media>
+<caption>La función de densidad y probabilidad radial para el estado fundamental del hidrógeno.</caption>
+</figure>
+<para id="fs-id1170902650156">Si el electrón tiene momento angular orbital (<m:math><m:mrow><m:mi>l</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>), entonces las funciones de onda que representan al electrón dependen de los ángulos <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math> y <m:math/><m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>;</m:mo></m:mrow></m:math> es decir, <m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow></m:msub><m:mo>=</m:mo></m:mrow></m:math><m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow></m:msub></m:mrow></m:math> (<emphasis effect="italics">r</emphasis>, <m:math><m:mi>θ</m:mi></m:math>, <m:math><m:mi>ϕ</m:mi></m:math>). Orbitales atómicos para tres estados con <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> y <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> se muestran en la <link target-id="CNX_UPhysics_41_01_EOrbitals"/>. Un <term>orbital atómico</term> es una región en el espacio que encierra un determinado porcentaje (normalmente el 90 %) de la probabilidad del electrón. (A veces se habla de los orbitales atómicos como "nubes" de probabilidad). Observe que estas distribuciones se acentúan en ciertas direcciones. Esta direccionalidad es importante para los químicos cuando analizan cómo se unen los átomos para formar moléculas.</para>
+<figure id="CNX_UPhysics_41_01_EOrbitals">
+<media id="fs-id1170902879204" alt="Este diagrama ilustra las formas de los orbitales p. Los orbitales tienen forma de campana y están orientados a lo largo de los ejes de la x, la y y la z.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_01_EOrbitals.jpg"/>
+</media>
+<caption>Las distribuciones de densidad de probabilidad para tres estados con <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> y <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Las distribuciones se dirigen a lo largo de los ejes de la (a) <emphasis effect="italics">x</emphasis>, (b) la <emphasis effect="italics">y</emphasis>, y la (c) <emphasis effect="italics">z</emphasis>.</caption>
+</figure>
+<para id="fs-id1170902890222">Una representación ligeramente diferente de la función de onda se da en la <link target-id="CNX_UPhysics_41_01_PClouds"/>. En este caso, las regiones claras y oscuras indican lugares de probabilidad relativamente alta y baja, respectivamente. A diferencia del modelo de Bohr del átomo de hidrógeno, el electrón no se mueve alrededor del núcleo del protón en una trayectoria bien definida. De hecho, el principio de incertidumbre hace imposible saber cómo llega el electrón de un lugar a otro.</para>
+<figure id="CNX_UPhysics_41_01_PClouds">
+<media id="fs-id1170901651135" alt="La figura muestra nubes de probabilidad para electrones en los estados n igual a 1, 2 y 3, l igual a 0, 1 y 2 en una cuadrícula de 3 por 3. n=1, l=0 es una distribución esféricamente simétrica, más brillante en el centro y que se desvanece gradualmente con el aumento del radio, sin nodos. n=2, l=0 es una distribución esféricamente simétrica con un nodo esférico y concéntrico. El nodo aparece como un círculo negro dentro de la nube. La nube es más brillante en el centro, desvaneciéndose hasta el negro en el nodo, volviendo a ser más brillante fuera del nodo (pero no tan brillante como en el centro de la nube), y luego desvaneciéndose de nuevo en r grande. n=2, l=1 tiene un nodo plano a lo largo del diámetro de la nube, apareciendo como una línea oscura a través de la distribución y hendiduras en los bordes. La nube es más brillante cerca del centro, por encima y por debajo del nodo. n=3, l=0 es una distribución esféricamente simétrica con dos nodos esféricos y concéntricos. Los nodos aparecen como círculos negros concéntricos dentro de la nube. La nube es más brillante en el centro, desvaneciéndose hasta el negro en el primer nodo, iluminándose de nuevo hasta un brillo máximo fuera del nodo, desvaneciéndose hasta el negro en el segundo nodo iluminándose de nuevo, y desvaneciéndose de nuevo en r grande. Los máximos locales (en el centro, entre los nodos y fuera del nodo exterior) disminuyen en intensidad. n=3, l=2 tiene tanto un nodo circular concéntrico como un nodo plano a lo largo del diámetro, apareciendo como un círculo en y una línea a través de la nube. La nube es más brillante dentro del nodo circular. Se observa un segundo brillo máximo local dentro de los lóbulos por encima y por debajo del nodo plano. n=3, l=2 tiene dos nodos planos, que aparecen como una X a través de la nube. Los cuartos de la nube así definidos están profundamente hundidos en los bordes, formando lóbulos redondeados. La nube es más brillante cerca del centro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_01_PClouds.jpg"/>
+</media>
+<caption>Nubes de probabilidad para el electrón en el estado fundamental y varios estados excitados del hidrógeno. La probabilidad de encontrar el electrón se indica mediante el tono de color; cuanto más claro sea el color, mayor será la probabilidad de encontrar el electrón.</caption>
+</figure>
+</section>
+<section id="fs-id1170901695797" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170902632764" list-type="bulleted" bullet-style="bullet">
+<item>Un átomo de hidrógeno puede describirse en términos de su función de onda, densidad de probabilidad, energía total y momento angular orbital.</item>
+<item>El estado de un electrón en un átomo de hidrógeno está especificado por sus números cuánticos (<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">l</emphasis>, <emphasis effect="italics">m</emphasis>).</item>
+<item>A diferencia del modelo del átomo de Bohr, el modelo de Schrödinger hace predicciones con base en declaraciones de probabilidad.</item>
+<item>Los números cuánticos de un átomo de hidrógeno pueden utilizarse para calcular información importante sobre el átomo.</item>
+</list>
+</section>
+<section id="fs-id1170902753074" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1170901692206">
+<problem id="fs-id1170901692208">
+<para id="fs-id1170901692210">Identifique el significado físico de cada uno de los números cuánticos del átomo de hidrógeno.</para>
+</problem>
+<solution id="fs-id1170902956657">
+<para id="fs-id1170902956659"><emphasis effect="italics">n</emphasis> (número cuántico principal) <m:math><m:mo stretchy="false">→</m:mo></m:math> energía total<newline/> <m:math><m:mi>l</m:mi></m:math> (número cuántico angular orbital) <m:math><m:mo stretchy="false">→</m:mo></m:math> magnitud absoluta total del momento angular orbital <emphasis effect="italics">m</emphasis> (número cuántico de proyección angular orbital) <m:math><m:mo stretchy="false">→</m:mo></m:math> componente <emphasis effect="italics">z</emphasis> del momento angular orbital.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902923253">
+<problem id="fs-id1170902923255">
+<para id="fs-id1170901771343">Describa el estado básico del hidrógeno en términos de función de onda, densidad de probabilidad y orbitales atómicos.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901556306">
+<problem id="fs-id1170901556308">
+<para id="fs-id1170901556311">Distinga entre el modelo del átomo de hidrógeno de Bohr y el de Schrödinger. En particular, compare la energía y el momento angular orbital de los estados fundamentales.</para>
+</problem>
+<solution id="fs-id1170902923704">
+<para id="fs-id1170902923706">El modelo de Bohr describe al electrón como una partícula que se mueve alrededor del protón en órbitas bien definidas. El modelo de Schrödinger describe el electrón como una onda, y el conocimiento de la posición del electrón se limita a las declaraciones de probabilidad. La energía total del electrón en el estado fundamental (y en todos los estados excitados) es la misma para ambos modelos. Sin embargo, el momento angular orbital del estado fundamental es diferente para estos modelos. En el modelo de Bohr, <m:math><m:mrow><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>estado fundamental</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, y en el modelo de Schrödinger, <m:math><m:mrow><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>estado fundamental</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170902907785" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170902872611">
+<problem id="fs-id1170902872613">
+<para id="fs-id1170902872615">La función de onda se evalúa en coordenadas rectangulares (<m:math><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi></m:mrow></m:math>) <m:math><m:mo>=</m:mo></m:math> (2, 1, 1) en unidades arbitrarias. ¿Cuáles son las coordenadas esféricas de esta posición?</para>
+</problem>
+<solution id="fs-id1170902913964">
+<para id="fs-id1170902683052"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>,</m:mo><m:mi>θ</m:mi><m:mo>,</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msqrt><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:msqrt><m:mn>66</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo><m:mn>27</m:mn><m:mtext>°</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903088728">
+<problem id="fs-id1170903088730">
+<para id="fs-id1170902871062">Si un átomo tiene un electrón en el estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> con <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, ¿cuáles son los valores posibles de <emphasis effect="italics">l</emphasis>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901770906">
+<problem id="fs-id1170901770908">
+<para id="fs-id1170901770910">¿Cuáles son los valores posibles de <emphasis effect="italics">m</emphasis> para un electrón en el estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170901525609">
+<para id="fs-id1170901525611"><m:math><m:mrow><m:mo>±</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>±</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>±</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow></m:math> son posibles</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903099641">
+<problem id="fs-id1170902792550">
+<para id="fs-id1170902792552">¿Qué limitaciones, si las hay, imponen un valor de <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> en los otros números cuánticos para un electrón en un átomo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901583996">
+<problem id="fs-id1170901583999">
+<para id="fs-id1170901584001">¿Cuántos estados posibles hay para el estado <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>?</para></problem>
+<solution id="fs-id1170902794746">
+<para id="fs-id1170902794748">18</para></solution>
+</exercise>
+<exercise id="fs-id1170903082786">
+<problem id="fs-id1170903082788">
+<para id="fs-id1170901508815">(a) ¿Cuántos ángulos puede formar <emphasis effect="italics">L</emphasis> con el eje de la <emphasis effect="italics">z</emphasis> para un electrón <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>? (b) Calcule el valor del ángulo más pequeño.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901872988">
+<problem id="fs-id1170901872990">
+<para id="fs-id1170901872992">La fuerza sobre un electrón es "el negativo del gradiente de la función de energía potencial". Utilice estos conocimientos y la <link target-id="fs-id1170903082088"/> para demostrar que la fuerza sobre el electrón en un átomo de hidrógeno viene dada por la ley de fuerza de Coulomb.</para>
+</problem>
+<solution id="fs-id1170901761056">
+<para id="fs-id1170901761058"><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>k</m:mi><m:mfrac><m:mrow><m:mi>Q</m:mi><m:mi>q</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902605585">
+<problem id="fs-id1170902605587">
+<para id="fs-id1170901751354">¿Cuál es el número total de estados con momento angular orbital <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>? (Ignore el espín del electrón).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901631330">
+<problem id="fs-id1170901631333">
+<para id="fs-id1170901631335">La función de onda se evalúa en coordenadas esféricas <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>,</m:mo><m:mi>θ</m:mi><m:mo>,</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo>,</m:mo><m:mn>45</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo><m:mn>45</m:mn><m:mtext>°</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> donde el valor de la coordenada radial se da en unidades arbitrarias. ¿Cuáles son las coordenadas rectangulares de esta posición?</para>
+</problem>
+<solution id="fs-id1170901649448">
+<para id="fs-id1170901649450">(1, 1, 1)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902779106">
+<problem id="fs-id1170902779108">
+<para id="fs-id1170902779110">La ley de la fuerza de Coulomb establece que la fuerza entre dos partículas cargadas es:</para>
+<para id="fs-id1170902779115"><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:mi>Q</m:mi><m:mi>q</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Utilice esta expresión para determinar la función de energía potencial.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901583052">
+<problem id="fs-id1170901583054">
+<para id="fs-id1170901583056">Escriba una expresión para el número total de estados con momento angular orbital <emphasis effect="italics">l</emphasis>.</para>
+</problem>
+<solution id="fs-id1170902836519">
+<para id="fs-id1170902836521">Para el número cuántico del momento angular orbital, <emphasis effect="italics">l</emphasis>, los valores permitidos de<newline/> <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>l</m:mi><m:mo>,</m:mo><m:mtext>−</m:mtext><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mtext>,...</m:mtext><m:mspace width="0.2em"/><m:mn>0</m:mn><m:mtext>,...</m:mtext><m:mspace width="0.2em"/><m:mi>l</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>l</m:mi></m:mrow></m:math>.<newline/> Con la excepción de <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, el número total es solo 2<emphasis effect="italics">l</emphasis> porque el número de estados a cada lado de <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> es solo <emphasis effect="italics">l</emphasis>. Incluyendo <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, el número total de estados de momento angular orbital para el número cuántico de momento angular orbital, <emphasis effect="italics">l</emphasis>, es <m:math><m:mrow><m:mn>2</m:mn><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> (Más adelante, cuando consideremos el espín del electrón, el número total de estados de momento angular se encontrará al doble de este valor porque cada estado de momento angular orbital está asociado a dos estados de espín del electrón: espín arriba y espín abajo).</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902878848">
+<problem id="fs-id1170902878850">
+<para id="fs-id1170902878852">Consideremos el hidrógeno en estado fundamental, <m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mn>100</m:mn></m:mrow></m:msub></m:mrow></m:math>. (a) Utilice la derivada para determinar la posición radial para la que la densidad de probabilidad, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">r</emphasis>), es un máximo.</para>
+<para id="fs-id1170902869564">(b) Utilice el concepto de integral para determinar la posición radial media. (Esto se llama el valor esperado de la posición radial del electrón). Exprese sus respuestas en términos del radio de Bohr, <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>o</m:mi></m:msub></m:mrow></m:math>. Sugerencia: El valor esperado es el valor medio justo. (c) ¿Por qué estos valores son diferentes?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901749836">
+<problem id="fs-id1170901749838">
+<para id="fs-id1170901749840">¿Cuál es la probabilidad de que el electrón 1<emphasis effect="italics">s</emphasis> de un átomo de hidrógeno se encuentre fuera del radio de Bohr?</para>
+</problem>
+<solution id="fs-id1170902960885">
+<para id="fs-id1170902960887">La probabilidad de que el electrón 1<emphasis effect="italics">s</emphasis> de un átomo de hidrógeno se encuentre fuera del radio de Bohr es <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>∞</m:mi></m:msubsup><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mi>r</m:mi><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>≈</m:mo><m:mn>0,68</m:mn></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902872041">
+<problem id="fs-id1170902872043">
+<para id="fs-id1170901529132">¿Cuántos ángulos polares son posibles para un electrón en el estado <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901604098">
+<problem id="fs-id1170901604100">
+<para id="fs-id1170901604103">¿Cuál es el número máximo de estados orbitales de momento angular de los electrones en la capa <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> de un átomo de hidrógeno? (Ignore el espín del electrón).</para>
+</problem>
+<solution id="fs-id1170902907558">
+<para id="fs-id1170903014279">Para <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> (1 estado), y <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> (3 estados). El total es de 4.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902780643">
+<problem id="fs-id1170902780645">
+<para id="fs-id1170902780647">¿Cuál es el número máximo de estados orbitales de momento angular de los electrones en la capa <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> de un átomo de hidrógeno? (Ignore el espín del electrón).</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170902685108">
+<term>número cuántico de momento angular orbital (<emphasis effect="italics">l</emphasis>)</term>
+<meaning id="fs-id1170902883846">número cuántico asociado al momento angular orbital de un electrón en un átomo de hidrógeno.</meaning>
+</definition>
+<definition id="fs-id1170902754596">
+<term>número cuántico de proyección del momento angular (<emphasis effect="italics">m</emphasis>)</term>
+<meaning id="fs-id1170903084175">número cuántico asociado al componente <emphasis effect="italics">z</emphasis> del momento angular orbital de un electrón en un átomo de hidrógeno.</meaning>
+</definition>
+<definition id="fs-id1170902691199">
+<term>orbital atómico</term>
+<meaning id="fs-id1170902691205">región en el espacio que encierra un determinado porcentaje (normalmente el 90 %) de la probabilidad del electrón.</meaning>
+</definition>
+<definition id="fs-id1170902867693">
+<term>número cuántico principal (<emphasis effect="italics">n</emphasis>)</term>
+<meaning id="fs-id1170903125937">número cuántico asociado a la energía total de un electrón en un átomo de hidrógeno.</meaning>
+</definition>
+<definition id="fs-id1170903125941">
+<term>función de densidad y probabilidad radial</term>
+<meaning id="fs-id1170903125946">función utilizada para determinar la probabilidad de que un electrón se encuentre en un intervalo espacial en <emphasis effect="italics">r</emphasis>.
+</meaning>
+</definition>
+</glossary>
+</document>

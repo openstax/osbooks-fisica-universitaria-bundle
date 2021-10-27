@@ -1,0 +1,265 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Trabajo, calor y energía interna</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90835</md:content-id>
+  <md:title>Trabajo, calor y energía interna</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir el trabajo realizado por un sistema, la transferencia de calor entre objetos y el cambio de energía interna de un sistema.</item>
+<item>Calcular el trabajo, la transferencia de calor y el cambio de energía interna en un proceso sencillo.</item>
+</list></md:abstract>
+  <md:uuid>eb5df8d1-e307-4d5d-ab44-656e887d96b3</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101965196">Ya hemos hablado de los conceptos de trabajo y energía en mecánica. En los capítulos anteriores también se han tratado ejemplos y asuntos relacionados con transferencia de calor entre diferentes objetos. Aquí queremos ampliar estos conceptos a un sistema termodinámico y su ambiente. En concreto, en los dos capítulos anteriores hemos profundizado en los conceptos de calor y transferencia de calor. En este caso, queremos entender cómo se realiza el trabajo por o hacia un sistema termodinámico; cómo se transfiere el calor entre un sistema y su ambiente; y cómo cambia la energía total del sistema con la influencia del trabajo realizado y la transferencia de calor.</para>
+<section id="fs-id1172101789654">
+<title>Trabajo realizado por un sistema</title>
+<para id="fs-id1172099799759">Una fuerza creada a partir de cualquier fuente puede realizar un <term class="no-emphasis">trabajo</term> al mover un objeto a través de un desplazamiento. Entonces, ¿cómo hace el trabajo un sistema termodinámico? En la <link target-id="CNX_UPhysics_20_02_WorkByExp"/> se muestra un gas confinado en un cilindro que tiene un pistón móvil en un extremo. Si el gas se expande contra el pistón, ejerce una fuerza a través de una distancia y realiza un trabajo sobre el pistón. Si el pistón comprime el gas cuando se mueve hacia dentro, también se realiza un trabajo, en este caso, sobre el gas. El trabajo asociado a estos cambios de volumen se puede determinar de la siguiente manera: Supongamos que la presión del gas sobre la cara del pistón es <emphasis effect="italics">p</emphasis>. Entonces la fuerza sobre el pistón debido al gas es <emphasis effect="italics">pA</emphasis>, donde <emphasis effect="italics">A</emphasis> es el área de la cara. Cuando el pistón es empujado hacia fuera una distancia infinitesimal <emphasis effect="italics">dx</emphasis>, la magnitud del trabajo realizado por el gas es</para>
+<equation id="fs-id1172101808782" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102029008">Como el cambio de volumen del gas es <m:math><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> esto se convierte en</para>
+<equation id="fs-id1172101903266"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172097163920">Para un cambio de volumen finito de <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> podemos integrar esta ecuación desde <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> para calcular el trabajo neto:</para>
+<note id="fs-id1172097610082" class="equation-callout">
+<equation id="fs-id1172099491076"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_20_02_WorkByExp">
+<media id="fs-id1172099399474" alt="La figura es una ilustración de un pistón con gas en su interior. El pistón se muestra en dos posiciones, separadas por una distancia d x. Se muestra una fuerza F igual a p A que empuja el pistón hacia fuera.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_02_WorkByExp.jpg"/>
+</media>
+<caption>El trabajo realizado por un gas confinado al mover un pistón una distancia <emphasis effect="italics">dx</emphasis> viene dado por <m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1172097263026">Esta integral solo tiene sentido para un <term>proceso cuasiestático</term>, es decir, un proceso que se lleva a cabo en pasos infinitesimales y mantiene el sistema en equilibrio térmico (examinaremos esta idea con más detalle más adelante en este capítulo). Solo entonces existe una relación matemática bien definida (la ecuación de estado) entre la presión y el volumen. Esta relación se puede representar en un diagrama <emphasis effect="italics">pV</emphasis> de presión versus volumen, donde la curva es el cambio de estado. Podemos aproximar dicho proceso como uno que ocurre lentamente, a través de una serie de estados de equilibrio. La integral se interpreta gráficamente como el área debajo de la curva <emphasis effect="italics">pV</emphasis> (el área sombreada de la <link target-id="CNX_UPhysics_20_02_WorkRep"/>). El trabajo realizado por el gas es positivo para expansión y negativo para compresión.</para>
+<figure id="CNX_UPhysics_20_02_WorkRep">
+<media id="fs-id1172099378160" alt="La figura muestra un gráfico de p en el eje vertical como una función de V en el eje horizontal. No se indica la escala ni las unidades para ninguno de los dos ejes. Se identifican dos puntos: p 1, V 1 y p 2, V 2, siendo V 2 mayor que V 1 y p 2 menor que p 1. Una curva conecta los dos puntos y el área debajo de la curva está sombreada. La curva es cóncava.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_02_WorkRep.jpg"/>
+</media>
+<caption>Cuando un gas se expande lentamente desde <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> el trabajo realizado por el sistema está representado por el área sombreada debajo de la curva <emphasis effect="italics">pV</emphasis>.</caption>
+</figure>
+<para id="fs-id1172101985075">Considere los dos procesos que involucran a un gas ideal y que están representados por las trayectorias <emphasis effect="italics">AC</emphasis> y <emphasis effect="italics">ABC</emphasis> en la <link target-id="CNX_UPhysics_20_02_DiffWork"/>. El primer proceso es una <term class="no-emphasis">expansión isotérmica</term>, con el volumen del gas cambiando su volumen de <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Este proceso isotérmico está representado por la curva entre los puntos <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">C</emphasis>. El gas se mantiene a una temperatura constante <emphasis effect="italics">T</emphasis> manteniéndolo en equilibrio térmico con un depósito de calor a esa temperatura. De la <link target-id="fs-id1172099491076"/> y la ley de los gases ideales,</para>
+<equation id="fs-id1172099641199" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow><m:mi>V</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_20_02_DiffWork">
+<media id="fs-id1172099388357" alt="La figura es un gráfico de p en el eje vertical como una función de V en el eje horizontal. En el eje vertical se indican dos presiones, p 1 y p 2, siendo p 1 mayor que p 2. En el eje horizontal se indican dos volúmenes, V 1 y V 2, siendo V 1 menor que V 2. Se identifican cuatro puntos, A, B, C y D. El punto A está en V 1, p 1. El punto B está en V 2, p 1. El punto C está en V 2, p 2. El punto D está en V 1, p 2. Una línea horizontal recta conecta A con B mediante una flecha que apunta hacia la derecha e indica la dirección de A a B. Una línea vertical recta conecta B con C mediante una flecha hacia abajo que indica la dirección de B a C. Una línea vertical recta conecta A con D mediante una flecha que apunta hacia abajo e indica la dirección de A a D. Una línea horizontal recta conecta D con C mediante una flecha que apunta hacia la derecha e indica la dirección de D a C. Finalmente, una línea curva conecta A con C mediante una flecha que apunta en la dirección de A a C.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_02_DiffWork.jpg"/>
+</media>
+<caption>Las trayectorias <emphasis effect="italics">ABC</emphasis>, <emphasis effect="italics">AC</emphasis> y <emphasis effect="italics">ADC</emphasis> representan tres transiciones cuasi estáticas diferentes entre los estados de equilibrio <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">C</emphasis>.</caption>
+</figure>
+<para id="fs-id1172102085448">La expansión es isotérmica, por lo que <emphasis effect="italics">T</emphasis> permanece constante durante todo el proceso. Como <emphasis effect="italics">n</emphasis> y <emphasis effect="italics">R</emphasis> también son constantes, la única variable en el integrando es <emphasis effect="italics">V</emphasis>, por lo que el trabajo realizado por un gas ideal en un proceso isotérmico es</para>
+<equation id="fs-id1172102103333" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mi>V</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101717238">Tenga en cuenta que si <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> (expansión), <emphasis effect="italics">W</emphasis> es positivo, como se esperaba.</para>
+<para id="fs-id1172099757832">Las líneas rectas de <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis> y luego de <emphasis effect="italics">B</emphasis> a <emphasis effect="italics">C</emphasis> representan un proceso diferente. Aquí, un gas a una presión <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> se expande primero de forma isobárica (presión constante) y cuasiestáticamente desde <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, tras lo cual se enfría cuasiestáticamente a volumen constante <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> hasta que su presión baje a <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. De <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis>, la presión es constante en <emphasis effect="italics">p</emphasis>, por lo que el trabajo en esta parte de la trayectoria es</para>
+<equation id="fs-id1172101802388" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172097273483">De <emphasis effect="italics">B</emphasis> a <emphasis effect="italics">C</emphasis>, no hay cambio de volumen y, por tanto, no se realiza ningún trabajo. El trabajo neto en la trayectoria <emphasis effect="italics">ABC</emphasis> es entonces</para>
+<equation id="fs-id1172101949115" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099454933">Una comparación de las expresiones para el trabajo realizado por el gas en los dos procesos de la <link target-id="CNX_UPhysics_20_02_DiffWork"/> muestra que son bastante diferentes. Esto ilustra una propiedad muy importante del trabajo termodinámico: <emphasis effect="italics">depende</emphasis> <emphasis effect="italics">de la trayectoria</emphasis>. No podemos determinar el trabajo realizado por un sistema al pasar de un estado de equilibrio a otro, a menos que conozcamos su trayectoria termodinámica. Los diferentes valores del trabajo se asocian a diferentes trayectorias.</para>
+<example id="fs-id1172097163211">
+<para id="fs-id1172099880268"><title>Expansión isotérmica de un gas de van der Waals</title>
+Los estudios de un <term class="no-emphasis">gas de van der Waals</term> requieren un ajuste de la ley de los gases ideales que tenga en cuenta que las moléculas del gas tienen un volumen definido (vea la sección <link document="m90827">Teoría cinética de los gases</link>). Un mol de un gas de van der Waals tiene una ecuación de estado</para>
+<equation id="fs-id1172101726817" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>a</m:mi><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>V</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172099577506">donde <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis> son dos parámetros para un gas específico. Suponga que el gas se expande de forma isotérmica y cuasiestática a partir del volumen <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> al volumen <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> ¿Cuánto trabajo realiza el gas durante la expansión?</para>
+<para id="fs-id1172099748080"><title>Estrategia</title>
+Como la ecuación de estado está dada, podemos usar la <link target-id="fs-id1172099491076"/> para expresar la presión en términos de <emphasis effect="italics">V</emphasis> y <emphasis effect="italics">T</emphasis>. Además, la temperatura <emphasis effect="italics">T</emphasis> es una constante bajo la condición isotérmica, por lo que <emphasis effect="italics">V</emphasis> se convierte en la única variable cambiante bajo la integral.</para>
+<para id="fs-id1172101662157"><title>Solución</title>
+Para evaluar esta integral, debemos expresar <emphasis effect="italics">p</emphasis> como una función de <emphasis effect="italics">V</emphasis>. A partir de la ecuación de estado dada, la presión del gas es</para>
+<equation id="fs-id1172099546908" class="unnumbered"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow><m:mrow><m:mi>V</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mi>a</m:mi><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172097444574">Dado que <emphasis effect="italics">T</emphasis> es constante bajo la condición isotérmica, el trabajo realizado por 1 mol de un gas de van der Waals al expandirse de un volumen <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> a un volumen <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>así pues, es</para>
+<equation id="fs-id1172102129191" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>W</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:munderover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow><m:mrow><m:mi>V</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mi>a</m:mi><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:msubsup><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>V</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mrow><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><para id="fs-id1172102132940"><title>Importancia</title>
+Al tener en cuenta el volumen de las moléculas, la expresión del trabajo es mucho más compleja. Sin embargo, si establecemos <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> y <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> vemos que la expresión del trabajo coincide exactamente con el trabajo realizado por un proceso isotérmico para un mol de un gas ideal.</para>
+</example>
+<note id="fs-id1172099534639" class="check-understanding">
+<exercise id="fs-id1172097241658">
+<problem id="fs-id1172099476200">
+<para id="fs-id1172101754429">¿Cuánto trabajo realiza el gas, dado en la <link target-id="CNX_UPhysics_20_02_DiffWork"/>, cuando se expande cuasiestáticamente a lo largo de la trayectoria <emphasis effect="italics">ADC</emphasis>?</para>
+</problem>
+<solution id="fs-id1172099609128">
+<para id="fs-id1172097209143"><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1172101922639">
+<title>Energía interna</title>
+<para id="fs-id1172099909972">La <term>energía interna</term> <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mrow></m:math> de un sistema termodinámico es, por definición, la suma de las energías mecánicas de todas las moléculas o entidades del sistema. Si las energías cinética y potencial de la molécula <emphasis effect="italics">i</emphasis> son <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>i</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectivamente, entonces la energía interna del sistema es el promedio de la energía mecánica total de todas las entidades:</para>
+<note id="fs-id1172099658302" class="equation-callout">
+<equation id="fs-id1172102118199"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mover><m:mi>K</m:mi><m:mtext>−</m:mtext></m:mover><m:mi>i</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mover><m:mi>U</m:mi><m:mtext>−</m:mtext></m:mover><m:mi>i</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172099723534">donde la suma es sobre todas las moléculas del sistema, y las barras sobre <emphasis effect="italics">K</emphasis> y <emphasis effect="italics">U</emphasis> indican valores promedios. La energía cinética <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> de una molécula individual incluye los aportes debido a su rotación y vibración, así como su energía de traslación <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mi>i</m:mi></m:msub><m:msubsup><m:mi>v</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> es la velocidad de la molécula medida con respecto al centro de masa del sistema. La energía potencial <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> se asocia únicamente a las interacciones entre la molécula <emphasis effect="italics">i</emphasis> y las demás moléculas del sistema. De hecho, ni la ubicación del sistema ni su movimiento tienen importancia en lo que respecta a la energía interna. La energía interna del sistema no se ve afectada por el hecho de trasladarlo del sótano a la azotea de un edificio de 100 pisos o por colocarlo en un tren en movimiento.</para>
+<para id="fs-id1172102131254">En un gas monoatómico ideal cada molécula es un solo átomo. Por lo tanto, no hay energía cinética rotacional ni vibracional y <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mi>i</m:mi></m:msub><m:msubsup><m:mi>v</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:math>. Además, no hay interacciones interatómicas (a pesar de las colisiones), por lo que <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:mtext>constante</m:mtext></m:mrow></m:math>, lo cual fijamos en cero. Por tanto, la energía interna se debe únicamente a la energía cinética de traslación y</para>
+<equation id="fs-id1172102010653" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mover><m:mi>K</m:mi><m:mtext>−</m:mtext></m:mover><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mi>i</m:mi></m:msub><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mo stretchy="true">¯</m:mo></m:mover></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101974215">A partir de la discusión del capítulo anterior, sabemos que la energía cinética promedio de una molécula en un gas monoatómico ideal es</para>
+<equation id="fs-id1172101659240" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mi>i</m:mi></m:msub><m:mover><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>−</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172097162869">donde <emphasis effect="italics">T</emphasis> es la temperatura kelvin del gas. En consecuencia, la energía mecánica promedio por molécula de un gas monoatómico ideal es también <m:math><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo>,</m:mo></m:mrow></m:math> es decir,</para>
+<equation id="fs-id1172099655194" class="unnumbered"><label/><m:math><m:mrow><m:mover accent="true"><m:mrow><m:msub><m:mi>K</m:mi><m:mi>i</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mo stretchy="true">¯</m:mo></m:mover><m:mo>=</m:mo><m:mover><m:mrow><m:msub><m:mi>K</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mtext>−</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101753810">La energía interna no es más que el número de moléculas multiplicado por la energía mecánica promedio por molécula. Por lo tanto, para <emphasis effect="italics">n</emphasis> moles de un gas monoatómico ideal,</para>
+<note id="fs-id1172101761769" class="equation-callout">
+<equation id="fs-id1172099472321"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172102122329">Observe que la energía interna de una cantidad dada de un gas ideal monoatómico depende solo de la temperatura y es completamente independiente de la presión y del volumen del gas. Para otros sistemas, la energía interna no se puede expresar de forma tan sencilla. Sin embargo, un aumento de la energía interna se puede asociar, a menudo, con un aumento de temperatura.</para>
+<para id="fs-id1172099880807">Sabemos por la ley cero de termodinámica que cuando dos sistemas se ponen en contacto térmico acaban alcanzando el equilibrio térmico, momento en el que se encuentran a la misma temperatura. Como ejemplo, suponga que mezclamos dos gases ideales monoatómicos. Ahora bien, la energía por molécula de un gas monoatómico ideal es proporcional a su temperatura. Así, cuando los dos gases se mezclan, las moléculas del gas más caliente deben perder energía y las moléculas del gas más frío deben ganar energía. Esto continúa hasta que se alcanza el equilibrio térmico, momento en el que la temperatura, y por tanto la energía cinética traslacional promedio por molécula, es la misma para ambos gases. La aproximación al equilibrio para los sistemas reales es algo más complicada que para un gas monoatómico ideal. Aun así, podemos decir que la energía se intercambia entre los sistemas hasta que sus temperaturas son iguales.</para>
+</section>
+<section id="fs-id1172101890158" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172101939930" list-type="bulleted" bullet-style="bullet">
+<item>Un sistema termodinámico realiza trabajo positivo (negativo) cuando se expande (contrae) bajo una presión externa.</item>
+<item>El calor es la energía que se transfiere entre dos objetos (o dos partes de un sistema) debido a una diferencia de temperatura.</item>
+<item>La energía interna de un sistema termodinámico es su energía mecánica total.</item>
+</list>
+</section>
+<section id="fs-id1172099510601" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1172101840270">
+<problem id="fs-id1172101761982">
+<para id="fs-id1172102100498">¿Es posible determinar si un cambio en la energía interna está causado por el calor transferido, por el trabajo realizado o por una combinación de ambos?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102097292">
+<problem id="fs-id1172102024715">
+<para id="fs-id1172099477591">Cuando un líquido se vaporiza, su cambio de energía interna no es igual al calor añadido. ¿Por qué?</para>
+</problem>
+<solution id="fs-id1172101883607">
+<para id="fs-id1172101674922">Parte de la energía se destina a cambiar la fase del líquido a gas.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099475372">
+<problem id="fs-id1172099877458">
+<para id="fs-id1172099705617">¿Por qué la bomba de la bicicleta se calienta al inflar el neumático?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101727547">
+<problem id="fs-id1172101781654">
+<para id="fs-id1172099716889">¿Es posible que la temperatura de un sistema permanezca constante cuando el calor entra o sale de él? Si es así, dé ejemplos.</para>
+</problem>
+<solution id="fs-id1172101765930">
+<para id="fs-id1172101911471">Sí, mientras el trabajo realizado sea igual al calor añadido no habrá cambio en la energía interna y, por tanto, no habrá cambio en la temperatura. Cuando el agua se congela o cuando el hielo se derrite al quitar o añadir calor, respectivamente, la temperatura permanece constante.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172102043582" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172101778617">
+<problem id="fs-id1172101853203">
+<para id="fs-id1172099673962">Un gas a una presión de 2,00 atm experimenta una expansión isobárica cuasiestática de 3,00 a 5,00 L. ¿Cuánto trabajo realiza el gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099493426">
+<problem id="fs-id1172099599273">
+<para id="fs-id1172101727749">Se necesitan 500 J de trabajo para comprimir cuasiestáticamente 0,50 mol de un gas ideal hasta una quinta parte de su volumen original. Calcule la temperatura del gas, suponiendo que se mantiene constante durante la compresión.</para>
+</problem>
+<solution id="fs-id1172102149079">
+<para id="fs-id1172101779352">74 K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172097204076">
+<problem id="fs-id1172099692899">
+<para id="fs-id1172099493633">Se halla que, cuando un gas diluido se expande cuasiestáticamente de 0,50 a 4,0 L, realiza 250 J de trabajo. Suponiendo que la temperatura del gas se mantiene constante a 300 K, ¿cuántos moles de gas hay?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101922253">
+<problem id="fs-id1172101734082">
+<para id="fs-id1172099413035">En una expansión isobárica cuasiestática, el gas realiza 500 J de trabajo. Si la presión del gas es de 0,80 atm, ¿cuál es el aumento fraccionario del volumen del gas, suponiendo que estaba originalmente a 20,0 L?</para>
+</problem>
+<solution id="fs-id1172101737068">
+<para id="fs-id1172102111907">0,31</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102127719">
+<problem id="fs-id1172099386873">
+<para id="fs-id1172099457764">Cuando un gas experimenta un cambio isobárico cuasiestático de volumen de 10,0 a 2,0 L, se requieren 15 J de trabajo de una fuente externa. ¿Cuál es la presión del gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101775207">
+<problem id="fs-id1172101920768">
+<para id="fs-id1172101915726">Un gas ideal se expande cuasiestáticamente e isotérmicamente desde un estado con presión p y volumen V a un estado con volumen 4V. Demuestre que el trabajo realizado por el gas en la expansión es pV(ln 4).</para>
+</problem>
+<solution id="fs-id1172099717140">
+<para id="fs-id1172099374583">pVln(4)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101724355">
+<problem id="fs-id1172102063591">
+<para id="fs-id1172099841660">Como se muestra a continuación, calcule el trabajo realizado por el gas en los procesos cuasiestáticos representados por las trayectorias (a) AB; (b) ADB; (c) ACB; y (d) ADCB.</para>
+<media id="fs-id1172101905630" alt="La figura es un trazado de presión, p, en atmósferas en el eje vertical como una función de volumen, V, en litros en el eje horizontal. La escala de volumen horizontal va de 0 a 5,0 litros, y la escala de presión vertical va de 0 a 4,0 atmósferas. Se identifican cuatro puntos, A, B, C y D. El punto A está a 1,0 L, 1,0 atmósferas. El punto B está a 3,0 L, 1,0 atmósferas. El punto C está a 3,0 L, 2,0 atmósferas. El punto D está a 1,0 L, 3,0 atmósferas. Una línea recta horizontal conecta A con B, con una flecha que apunta hacia la derecha e indica la dirección de A a B. Una línea recta horizontal conecta D con C, con una flecha hacia la derecha que indica la dirección de D a C. Una línea recta vertical conecta A con D, con una flecha que apunta hacia arriba e indica la dirección de A a D. Una línea recta vertical conecta C con B, con una flecha hacia abajo que indica la dirección de C a B. Finalmente, una línea recta diagonal conecta D con B con una flecha que apunta en la dirección de D a B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_02_SMP207_img-95c9.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172101791987">
+<problem id="fs-id1172101969503">
+<para id="fs-id1172101678806">(a) Calcule el trabajo realizado por el gas a lo largo de la trayectoria cerrada que se muestra a continuación. La sección curva entre R y S es semicircular. (b) Si el proceso se realiza en sentido contrario, ¿cuál es el trabajo realizado sobre el gas?</para><media id="fs-id1172102016167" alt="La figura es un trazado de presión, p, en atmósferas en el eje vertical como una función de volumen, V, en litros en el eje horizontal. La escala de volumen horizontal va de 0 a 5,0 litros, y la escala de presión vertical va de 0 a 4,0 atmósferas. Dos puntos, R y S, están identificados. El punto R está a 1,0 L, 1,0 atmósferas. El punto S está a 3,0 L, 1,0 atmósferas. Un semicírculo sube de R y pasa a S, con una flecha que muestra la dirección de las agujas del reloj en la curva. Vuelve una línea horizontal, con una flecha que apunta a la izquierda, de S a R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_02_SMP208_img-a58f.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101779801">
+<para id="fs-id1172097233079">a. 160 J; b. –160 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101881452">
+<problem id="fs-id1172102142809">
+<para id="fs-id1172102145294">Un gas ideal se expande cuasiestáticamente hasta tres veces su volumen original. ¿Qué proceso requiere más trabajo del gas, un proceso isotérmico o uno isobárico? Determine la relación del trabajo realizado en estos procesos.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172097493305">
+<problem id="fs-id1172102004872">
+<para id="fs-id1172101759456">Un gas diluido a una presión de 2,0 atm y un volumen de 4,0 L es llevado a través de los siguientes pasos cuasiestáticos: (a) una expansión isobárica hasta un volumen de 10,0 L; (b) un cambio isocórico hasta una presión de 0,50 atm; (c) una compresión isobárica hasta un volumen de 4,0 L; y (d) un cambio isocórico hasta una presión de 2,0 atm. Muestre estos pasos en un diagrama pV y determine en su gráfico el trabajo neto realizado por el gas.</para>
+</problem>
+<solution id="fs-id1172101895479">
+<para id="fs-id1167582435569"><newline/><media id="fs-id1172102010720" alt="La figura es un trazado de presión, p, en atmósferas en el eje vertical como una función de volumen, V, en litros en el eje horizontal. La escala horizontal de volumen va de 0 a 10 litros, y la escala vertical de presión va de 0 a 2 atmósferas. Se identifican cuatro segmentos, A, B, C y D. El segmento A es una línea horizontal con una flecha hacia la derecha que se extiende desde 4 L hasta 10 L a una presión constante de 2 atmósferas. El segmento B es una línea vertical con una flecha hacia abajo que se extiende de 2 atmósferas a 0,5 atmósferas a una presión constante de 10 L. El segmento C es una línea horizontal con una flecha hacia la izquierda que se extiende de 10 L a 4 L a una presión constante de 0,5 atmósferas. El segmento D es una línea vertical con una flecha hacia arriba que se extiende desde 0,5 atmósferas hasta 2 atmósferas a una constante de 4 L.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_02_Prob10_img.jpg"/>
+</media><newline/> <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>900</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099683808">
+<problem id="fs-id1172101663575">
+<para id="fs-id1172102006318">¿Cuál es la energía mecánica promedio del átomo de un gas monoatómico ideal a 300 K?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172097161509">
+<problem id="fs-id1172099906979">
+<para id="fs-id1172101665278">¿Cuál es la energía interna de 6,00 mol de un gas monoatómico ideal a <m:math><m:mrow><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172101755955">
+<para id="fs-id1172101757459"><m:math><m:mrow><m:mn>3,53</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102137212">
+<problem id="fs-id1172102025004">
+<para id="fs-id1172102148182">Calcule la energía interna de 15 mg de helio a una temperatura de <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102001555">
+<problem id="fs-id1172101758242">
+<para id="fs-id1172101762920">Dos gases ideales monoatómicos A y B están a la misma temperatura. Si 1,0 g de gas A tiene la misma energía interna que 0,10 g de gas B, ¿cuáles son (a) la relación del número de moles de cada gas y (b) la relación de las masas atómicas de los dos gases?</para>
+</problem>
+<solution id="fs-id1172099550107">
+<para id="fs-id1172099514382">a. 1:1; b. 10:1</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101855547">
+<problem id="fs-id1172101793148">
+<para id="fs-id1172102072632">Los coeficientes de van der Waals para el oxígeno son <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0,138</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mrow><m:mtext>mol</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>3,18</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/</m:mtext><m:mtext>mol</m:mtext></m:mrow></m:math>. Use estos valores para dibujar una isoterma de van der Waals del oxígeno a 100 K. En el mismo gráfico, dibuje las isotermas de un mol de un gas ideal.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099551056">
+<problem id="fs-id1172099567809">
+<para id="fs-id1172099492392">Calcule el trabajo realizado en los procesos cuasiestáticos que se muestran a continuación. Los estados se dan como valores (p, V) para los puntos del plano pV: 1 (3 atm, 4 L), 2 (3 atm, 6 L), 3 (5 atm, 4 L), 4 (2 atm, 6 L), 5 (4 atm, 2 L), 6 (5 atm, 5 L) y 7 (2 atm, 5 L).</para>
+<media id="fs-id1172101811822" alt="Las figuras desde a hasta f son gráficos de p en la vertical como una función de V en el eje horizontal. La figura a tiene los puntos 1 y 2 a la misma presión y con V 2 mayor que V 1. Una línea horizontal con una flecha hacia la derecha va del punto 1 al punto 2. La figura b tiene los puntos 1 y 3 en el mismo volumen y con p 3 mayor que p 1. Una línea vertical con una flecha hacia arriba va del punto 1 al punto 3. La figura c tiene los puntos 1 y 4, donde p 1 es mayor que p 4 y V 1 es menor que V 4. Una línea diagonal con una flecha que apunta hacia abajo y hacia la derecha va del punto 1 al punto 4. La figura d tiene los puntos 1, 3 y 5, donde V 1 y V 3 son iguales y mayores que V 5. P 1 es menor que P 5, lo cual es menor que P 3. Una línea diagonal con una flecha que apunta hacia arriba y hacia la izquierda va del punto 1 al punto 5. Una segunda línea diagonal con una flecha que apunta hacia arriba y hacia la derecha va del punto 5 al punto 3. La figura e tiene los puntos 1, 2 y 6, donde p 1 y p 2 son iguales y menores que p 6. V 1 es menor que V 6, lo cual es menor que V 2. Una línea diagonal con una flecha que apunta hacia arriba y hacia la derecha va del punto 1 al punto 6. Una segunda línea diagonal con una flecha que apunta hacia abajo y hacia la derecha va del punto 6 al punto 2. La figura f tiene los puntos 1, 2 y 7, donde p 1 y p 2 son iguales y mayores que p 7. V 1 es menor que V 6, lo cual es menor que V 2. Una línea diagonal con una flecha que apunta hacia abajo y hacia la derecha va del punto 1 al punto 7. Una segunda línea diagonal con una flecha que apunta hacia arriba y hacia la derecha va del punto 7 al punto 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_02_Prob16_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101896520">
+<para id="fs-id1172099615700">a. 600 J; b. 0; c. 500 J; d. 200 J; e. 800 J; f. 500 J</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172099489735">
+<term>energía interna</term>
+<meaning id="fs-id1172099511850">promedio de la energía mecánica total de todas las moléculas o entidades del sistema</meaning>
+</definition>
+<definition id="fs-id1172101781722">
+<term>proceso cuasiestático</term>
+<meaning id="fs-id1172099766500">evolución de un sistema que va tan lentamente que el sistema involucrado está siempre en equilibrio termodinámico</meaning>
+</definition>
+</glossary>
+</document>

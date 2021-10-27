@@ -1,0 +1,676 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Estrés, tensión y módulo elástico</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90678</md:content-id>
+  <md:title>Estrés, tensión y módulo elástico</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar los conceptos de estrés y tensión en la descripción de la deformación elástica de los materiales.</item>
+<item>Describir los tipos de deformación elástica de objetos y materiales.</item>
+</list></md:abstract>
+  <md:uuid>6307a730-ece9-42b8-a63f-71dc6c448e5d</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1163713173290">Un modelo de cuerpo rígido es un ejemplo idealizado de un objeto que no se deforma bajo la acción de fuerzas externas. Es muy útil cuando se analizan sistemas mecánicos. De hecho, muchos objetos físicos son rígidos en gran medida. El punto hasta el cual un objeto se <emphasis effect="italics">percibe</emphasis> como rígido depende de las propiedades físicas del material del que está hecho. Por ejemplo, una pelota de <emphasis effect="italics">ping-pong</emphasis> de plástico es frágil, y una pelota de tenis de caucho es elástica cuando se le aplican fuerzas de aplastamiento. Sin embargo, en otras circunstancias, tanto la pelota de <emphasis effect="italics">ping-pong</emphasis> como la de tenis pueden rebotar bien como cuerpos rígidos. Del mismo modo, quien diseña prótesis puede aproximarse a la mecánica de las extremidades humanas al modelarlas como cuerpos rígidos. Sin embargo, la combinación real de huesos y tejidos es un medio elástico.</para>
+<para id="fs-id1163713152747">En el resto de este capítulo, pasamos de considerar las fuerzas que inciden en el movimiento de un objeto a las que influyen en la forma de un objeto. El cambio de forma debido a la aplicación de una fuerza se conoce como <term class="no-emphasis">deformación</term>. Se sabe que hasta las fuerzas más pequeñas provocan cierta deformación. La deformación es la que experimentan los objetos o los medios físicos bajo la acción de fuerzas externas; por ejemplo, puede tratarse de aplastar, apretar, rasgar, retorcer, cizallar o tirar de los objetos. En el lenguaje de la física, hay dos términos que describen las fuerzas que se ejercen sobre los objetos que experimentan deformación: <emphasis effect="italics">estrés</emphasis> y <emphasis effect="italics">tensión</emphasis>.</para>
+<para id="fs-id1163709817608">El estrés es una cantidad que describe la magnitud de las fuerzas que causan la deformación. El estrés se define generalmente como la <emphasis effect="italics">fuerza por unidad de superficie</emphasis>. Cuando las fuerzas tiran de un objeto y provocan su elongación, como el estiramiento de una banda elástica, ese estrés lo denominamos <term>tensión de tracción</term>. Cuando las fuerzas provocan la compresión de un objeto, lo llamamos <term>tensión de compresión</term>. Cuando se presiona a un objeto desde todos los lados, como un submarino en las profundidades de un océano, este tipo de estrés lo denominamos <term>tensión de compresibilidad</term> (o <term>tensión de volumen</term>). En otras situaciones, las fuerzas que actúan pueden no ser ni de tracción ni de compresión, y aun así producir una deformación notable. Por ejemplo, suponga que sujeta un libro con fuerza entre las palmas de las manos, y que con una mano presiona y tira de la cubierta delantera en dirección contraria a usted, mientras que con la otra mano presiona y tira de la cubierta trasera hacia usted. En este caso, cuando las fuerzas deformantes actúan tangencialmente a la superficie del objeto, las llamamos fuerzas "de corte" y el estrés que provocan recibe el nombre de <term>tensión de corte</term>.</para>
+<para id="fs-id1163709705004">En el SI la unidad del estrés es el pascal (Pa). Cuando un newton de fuerza presiona sobre una superficie unitaria de un metro cuadrado, el estrés resultante es de un pascal:</para>
+<equation id="fs-id1163713428309" class="unnumbered"><label/><m:math><m:mrow><m:mtext>un pascal</m:mtext><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713097813">En el sistema británico de unidades, la unidad de estrés es "psi", que significa "libra por pulgada cuadrada" <m:math><m:mrow><m:mo>(</m:mo><m:msup><m:mrow><m:mtext>lb/in</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Otra unidad que se suele utilizar para la tensión de compresibilidad es la atm (atmósfera). Los factores de conversión son</para>
+<equation id="fs-id1163713421708" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>psi</m:mtext><m:mo>=</m:mo><m:mn>6.895</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mspace width="0.5em"/><m:mtext>y</m:mtext><m:mspace width="0.5em"/><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mn>1,450</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>psi</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext><m:mo>=</m:mo><m:mn>1,013</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mn>14,7</m:mn><m:mspace width="0.2em"/><m:mtext>psi.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1163709749578">Un objeto o medio sometido a estrés se deforma. La cantidad que describe esta deformación recibe el nombre de <term>tensión</term>. La tensión se da como un cambio fraccional en la longitud (bajo tensión de tracción) o el volumen (bajo tensión de compresibilidad) o la geometría (bajo tensión de corte). Por lo tanto, la tensión es un número adimensional. El esfuerzo bajo una tensión de tracción se denomina <term>esfuerzo de tracción</term>, el esfuerzo bajo una tensión de compresibilidad se denomina <term>esfuerzo de compresibilidad</term> (o <term>esfuerzo de volumen</term>), y el causado por una tensión de corte se denomina <term>esfuerzo</term> <term>cortante</term>.</para>
+<para id="fs-id1163713006766">Cuanto mayor sea el estrés, mayor será la tensión. Sin embargo, la relación entre la tensión y el estrés no tiene por qué ser lineal. Solo cuando el estrés es suficientemente bajo, la deformación que provoca es directamente proporcional a su valor. La constante de proporcionalidad en esta relación se denomina <term>módulo</term> <term>elástico</term>. En el límite lineal de valores bajos de estrés, la relación general entre estrés y tensión es</para>
+<note id="fs-id1163713326594" class="equation-callout">
+<equation id="fs-id1163713135600"><m:math><m:mrow><m:mtext>estrés</m:mtext><m:mo>=</m:mo><m:mtext>(módulo elástico)</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>tensión.</m:mtext></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713278031">Como podemos ver en el análisis dimensional de esta relación, el módulo elástico tiene la misma unidad física que el estrés porque la tensión es adimensional.</para>
+<para id="fs-id1163713051760">Asimismo, podemos observar a partir de la <link target-id="fs-id1163713135600"/> que, cuando un objeto se caracteriza por un gran valor del módulo elástico, el efecto del estrés es pequeño. Por otro lado, un módulo elástico pequeño significa que el estrés produce una gran tensión y una notable deformación. Por ejemplo, el estrés en una banda de goma produce una tensión (deformación) mayor que el mismo estrés en una banda de acero de iguales dimensiones, porque el módulo elástico del caucho es dos órdenes de magnitud menor que el del acero.</para>
+<para id="fs-id1163713172253">El módulo elástico para la tensión de tracción se denomina <term>módulo de Young</term>; el de la tensión de compresibilidad, <term>módulo de compresibilidad</term>, y el de la tensión de corte, <term>módulo de corte</term>. Obsérvese que la relación entre el estrés y la tensión es una relación <emphasis effect="italics">observada</emphasis>, medida en el laboratorio. Los módulos elásticos de varios materiales se miden en diversas condiciones físicas, como la variación de la temperatura, y se recogen en tablas de datos de ingeniería para su consulta (<link target-id="fs-id1163713086230"/>). Estas tablas son una valiosa referencia para la industria y para cualquier persona relacionada con la ingeniería o la construcción. En la siguiente sección, analizamos las relaciones estrés-tensión más allá del límite lineal representado por la <link target-id="fs-id1163713135600"/>, en toda la gama de valores de tensión hasta un punto de fractura. En el resto de esta sección, estudiamos el límite lineal expresado por la <link target-id="fs-id1163713135600"/>.</para>
+<table id="fs-id1163713086230" summary="This table has four columns and twenty five rows. The first row is a header row and it labels each column: “Material”, “Young’s Modulus in 10 at 10-th power Pa”, “Bulk Modulus in 10 at 10-th power Pa”, and “Shear Modulus in 10 at 10-th power Pa”. Under the “Material” column is the list of materials: Aluminum; Bone (tension); Bone (compression); Brass; Brick; Concrete; Copper; Crown glass; Granite; Hair (human); Hardwood; Iron; Lead; Marble; Nickel; Polystyrene; Silk; Spider thread; Steel; Acetone; Ethanol; Glycerin; Mercury; Water. Under the “Young’s Modulus” column is the list of values: 7.0; 1.6; 0.9; 90; 1.5; 2.0; 11.0; 6.0; 4.5; 1.0; 1.5; 21.0; 1.6; 6.0; 21.0; 1.6; 6.0; 21.0; 3.0; 6.0; 3.0; 20.0; blank; blank; blank; blank; blank. Under the “Bulk Modulus” column is the list of values: 7.5; 0.8; blank; 6.0; blank; blank; 14.0; 5.0; 4.5; blank; blank; 16.0; 4.1; 7.0; 17.0; blank; blank; blank; 16.0; 0.07; 0.09; 0.45; 2.5 0.22. Under the Shear Modulus” column is the list of values: 2.5; 8.0; blank; 3.5; blank; blank; 4.4; 2.5; 2.0; blank; 1.0; 7.7; 0.6; 2.0; 7.8; blank; blank; blank; 7.5; blank; blank; blank; blank; blank.">
+<title>Módulos elásticos aproximados de algunos materiales</title>
+<tgroup cols="4">
+<colspec colnum="1" colname="cl"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Material</entry>
+<entry valign="top" align="center">Módulo de Young<newline/><m:math><m:mrow><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mtext>Pa</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center">Módulo de compresibilidad<newline/><m:math><m:mrow><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mtext>Pa</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center">Módulo de corte<newline/><m:math><m:mrow><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mtext>Pa</m:mtext></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Aluminio</entry>
+<entry valign="top" align="center">7,0</entry>
+<entry valign="top" align="center">7,5</entry>
+<entry valign="top" align="center">2,5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hueso (tensión)</entry>
+<entry valign="top" align="center">1,6</entry>
+<entry valign="top" align="center">0,8</entry>
+<entry valign="top" align="center">8,0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hueso (compresión)</entry>
+<entry valign="top" align="center">0,9</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Latón</entry>
+<entry valign="top" align="center">9,0</entry>
+<entry valign="top" align="center">6,0</entry>
+<entry valign="top" align="center">3,5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ladrillo</entry>
+<entry valign="top" align="center">1,5</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hormigón</entry>
+<entry valign="top" align="center">2,0</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Cobre</entry>
+<entry valign="top" align="center">11,0</entry>
+<entry valign="top" align="center">14,0</entry>
+<entry valign="top" align="center">4,4</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Vidrio Crown</entry>
+<entry valign="top" align="center">6,0</entry>
+<entry valign="top" align="center">5,0</entry>
+<entry valign="top" align="center">2,5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Granito</entry>
+<entry valign="top" align="center">4,5</entry>
+<entry valign="top" align="center">4,5</entry>
+<entry valign="top" align="center">2,0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Cabello (humano)</entry>
+<entry valign="top" align="center">1,0</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Madera dura</entry>
+<entry valign="top" align="center">1,5</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center">1,0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hierro</entry>
+<entry valign="top" align="center">21,0</entry>
+<entry valign="top" align="center">16,0</entry>
+<entry valign="top" align="center">7,7</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Plomo</entry>
+<entry valign="top" align="center">1,6</entry>
+<entry valign="top" align="center">4,1</entry>
+<entry valign="top" align="center">0,6</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mármol</entry>
+<entry valign="top" align="center">6,0</entry>
+<entry valign="top" align="center">7,0</entry>
+<entry valign="top" align="center">2,0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Níquel</entry>
+<entry valign="top" align="center">21,0</entry>
+<entry valign="top" align="center">17,0</entry>
+<entry valign="top" align="center">7,8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Poliestireno</entry>
+<entry valign="top" align="center">3,0</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Seda</entry>
+<entry valign="top" align="center">6,0</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Telaraña</entry>
+<entry valign="top" align="center">3,0</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Acero</entry>
+<entry valign="top" align="center">20,0</entry>
+<entry valign="top" align="center">16,0</entry>
+<entry valign="top" align="center">7,5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Acetona</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center">0,07</entry>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Etanol</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center">0,09</entry>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Glicerina</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center">0,45</entry>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mercurio</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center">2,5</entry>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Agua</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="center">0,22</entry>
+<entry valign="top" align="center"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+<section id="fs-id1163713129345">
+<title>Tensión de tracción o de compresión, tensión y módulo de Young</title>
+<para id="fs-id1163713148856">La tensión o la compresión se producen cuando dos fuerzas antiparalelas de igual magnitud actúan sobre un objeto a lo largo de una sola de sus dimensiones, de manera que el objeto no se mueve. Una forma de imaginar esta situación se ilustra en la <link target-id="CNX_UPhysics_12_03_tensile"/>. Un segmento de varilla es estirado o comprimido por un par de fuerzas que actúan a lo largo de su longitud y perpendicularmente a su sección transversal. El efecto neto de estas fuerzas es que la varilla cambia su longitud desde la longitud original <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> que tenía antes de la aparición de las fuerzas, a una nueva longitud <emphasis effect="italics">L</emphasis> que tiene bajo la acción de las fuerzas. Este cambio de longitud <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mo>−</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> puede ser un alargamiento (cuando <emphasis effect="italics">L</emphasis> es mayor que la longitud original <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> o contracción (cuando <emphasis effect="italics">L</emphasis> es menor que la longitud original <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> La tensión y el esfuerzo de tracción se producen cuando las fuerzas estiran un objeto y provocan su elongación, con el cambio de longitud <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:math> es positivo. La tensión y el esfuerzo de compresión se producen cuando las fuerzas contraen un objeto y provocan su acortamiento, con el cambio de longitud <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:math> es negativo.</para>
+<para id="fs-id1163713186886">En cualquiera de estas situaciones, definimos el estrés como la relación entre la fuerza deformante <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow></m:math> al área de la sección transversal <emphasis effect="italics">A</emphasis> del objeto que se deforma. El símbolo <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow></m:math> que reservamos para la fuerza deformante significa que esta fuerza actúa perpendicularmente a la sección transversal del objeto. Las fuerzas que actúan en paralelo a la sección transversal no modifican la longitud de un objeto. La definición de la tensión de tracción es</para>
+<equation id="fs-id1163713098779"><m:math><m:mrow><m:mtext>tensión de tracción</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713201871">El esfuerzo de tracción es la medida de la deformación de un objeto sometido a una tensión de tracción y se define como el cambio fraccional de la longitud del objeto cuando este experimenta una tensión de tracción</para>
+<equation id="fs-id1163713490698"><m:math><m:mrow><m:mtext>esfuerzo de tracción</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713060284">La tensión y el esfuerzo de compresión se definen con las mismas fórmulas, <link target-id="fs-id1163713098779"/> y <link target-id="fs-id1163713490698"/>, respectivamente. La única diferencia con respecto a la situación de tracción es que, para la tensión y el esfuerzo de compresión, tomamos los valores absolutos al lado derecho en la <link target-id="fs-id1163713098779"/> y la <link target-id="fs-id1163713490698"/>.</para>
+<figure id="CNX_UPhysics_12_03_tensile">
+<media id="fs-id1163709833081" alt="La Figura A es el esquema de un cilindro con una longitud L0 que está sometido al esfuerzo de tracción. Dos fuerzas en los diferentes lados del cilindro aumentan su longitud en Delta L. La Figura B es el esquema de un cilindro con una longitud L0 que está bajo el esfuerzo de compresión. Dos fuerzas en los diferentes lados del cilindro reducen su longitud en Delta L.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_12_03_tensile.jpg"/>
+</media>
+<caption>Cuando un objeto está en tensión o compresión, la fuerza neta que se ejerce sobre este es cero, pero el objeto se deforma al cambiar su longitud original <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> (a) Tensión: La varilla es elongada por <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>.</m:mo></m:mrow></m:math> (b) Compresión: La varilla se contrae por <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>.</m:mo></m:mrow></m:math> En ambos casos, la fuerza deformante actúa a lo largo de la varilla y perpendicularmente a su sección transversal. En el rango lineal de estrés bajo, el área de la sección transversal de la varilla no cambia.</caption>
+</figure>
+<para id="fs-id1163713258776">El módulo de Young <emphasis effect="italics">Y</emphasis> es el módulo elástico cuando la deformación es causada bien sea por tensión de tracción o de compresión, y se define por la <link target-id="fs-id1163713135600"/>. Al dividir esta ecuación entre el esfuerzo de tracción, obtenemos la expresión del módulo de Young:</para>
+<note id="fs-id1163713128107" class="equation-callout">
+<equation id="fs-id1163713125336"><m:math><m:mrow><m:mi>Y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>tensión de tracción</m:mtext></m:mrow><m:mrow><m:mtext>esfuerzo de tracción</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mo>⊥</m:mo></m:msub><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>A</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1163713246664">
+<para id="fs-id1163713434757">
+<title>Tensión de compresión en un pilar</title>
+Una escultura que pesa 10.000 N descansa sobre una superficie horizontal en la parte superior de un pilar vertical de 6,0 m de altura (<link target-id="CNX_UPhysics_12_03_Nelson"/>). El área de la sección transversal del pilar es <m:math><m:mrow><m:mn>0</m:mn><m:msup><m:mrow><m:mtext>.20 m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y es de granito con una densidad de masa de <m:math><m:mrow><m:msup><m:mrow><m:mn>2.700</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Encuentre la tensión de compresión en la sección transversal situada 3,0 m por debajo de la parte superior del pilar y el valor del esfuerzo de compresión del segmento superior de 3,0 m del pilar.</para>
+<figure id="CNX_UPhysics_12_03_Nelson">
+<media id="fs-id1163709780300" alt="La imagen muestra una fotografía de la Columna de Nelson en Trafalgar Square.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_12_03_Nelson.jpg"/>
+</media>
+<caption>Columna de Nelson en Trafalgar Square, Londres, Inglaterra (créditos: modificación de la obra de Cristian Bortes).</caption>
+</figure>
+<para id="fs-id1163713069700">
+<title>Estrategia</title>
+Primero calculamos el peso de la sección superior del pilar, de 3,0 m de longitud. La fuerza normal que actúa sobre la sección transversal situada a 3,0 m de la parte superior es la suma del peso del pilar y del peso de la escultura. Una vez que tenemos la fuerza normal, utilizamos la <link target-id="fs-id1163713098779"/> para calcular el estrés. Para hallar el esfuerzo de compresión, calculamos el valor del módulo de Young para el granito en la <link target-id="fs-id1163713086230"/> e invertimos la <link target-id="fs-id1163713125336"/>.</para>
+<para id="fs-id1163713437248">
+<title>Solución</title>
+El volumen del segmento del pilar con la altura <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> y el área de la sección transversal <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0,20</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> es</para>
+<equation id="fs-id1168327958779" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>h</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,20</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,60</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709737755">Con la densidad del granito <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>2,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> la masa del segmento del pilar es</para>
+<equation id="fs-id1168325680415" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,60</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709709169">El peso del segmento del pilar es</para>
+<equation id="fs-id1168328186946" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9,80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1,568</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>N.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1163713130556">El peso de la escultura es <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mi>s</m:mi></m:msub><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>N</m:mtext><m:mo>,</m:mo></m:mrow></m:math> por lo que la fuerza normal en la superficie de la sección transversal situada a 3,0 m por debajo de la escultura es</para>
+<equation id="fs-id1168328204494" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mo>⊥</m:mo></m:msub><m:mo>=</m:mo><m:msub><m:mi>w</m:mi><m:mi>p</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>w</m:mi><m:mi>s</m:mi></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,568</m:mn><m:mo>+</m:mo><m:mn>1,0</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>N</m:mtext><m:mo>=</m:mo><m:mn>2,568</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>N.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1163713245850">Por lo tanto, el estrés es</para>
+<equation id="fs-id1168325696172" class="unnumbered"><label/><m:math><m:mrow><m:mtext>estrés</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2,568</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mn>0,20</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,284</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mtext>128,4 kPa.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1163713099836">El módulo de Young para el granito es <m:math><m:mrow><m:mi>Y</m:mi><m:mo>=</m:mo><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>kPa</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, el esfuerzo de compresión en esta posición es</para>
+<equation id="fs-id1168327864550" class="unnumbered"><label/><m:math><m:mrow><m:mtext>tensión</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>estrés</m:mtext></m:mrow><m:mi>Y</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>128,4</m:mn><m:mspace width="0.2em"/><m:mtext>kPa</m:mtext></m:mrow><m:mrow><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>kPa</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713424877">
+<title>Significación</title>
+Observe que la fuerza normal que actúa sobre la sección transversal del pilar no es constante a lo largo de su longitud, sino que varía desde su valor más pequeño en la parte superior hasta su valor más grande en la parte inferior del pilar. Así, si el pilar tiene una sección transversal uniforme a lo largo de su longitud, el estrés es mayor en su base.</para>
+</example>
+<note id="fs-id1163713195146" class="check-understanding">
+<exercise id="fs-id1163713106683">
+<problem id="fs-id1163713254799">
+<para id="fs-id1163713036496">Encuentre la tensión y estrés de compresión en la base de la columna de Nelson.</para>
+</problem>
+<solution id="fs-id1163709836524">
+<para id="fs-id1163709815365"><m:math><m:mrow><m:mn>206,8</m:mn><m:mspace width="0.2em"/><m:mtext>kPa</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mn>4,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1163713254716">
+<para id="fs-id1163713489652">
+<title>Estirar una varilla</title>
+Una varilla de acero de 2,0 m de longitud tiene una sección transversal de <m:math><m:mrow><m:mn>0,30</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> La varilla forma parte de un soporte vertical que sostiene una pesada plataforma de 550 kg, que cuelga unida al extremo inferior de la varilla. Ignorando el peso de la varilla, ¿cuál es la tensión de tracción en la varilla y la elongación de la varilla bajo el estrés?</para>
+<para id="fs-id1163713270290">
+<title>Estrategia</title>
+Primero calculamos la tensión de tracción en la varilla bajo el peso de la plataforma de acuerdo con la <link target-id="fs-id1163713098779"/>. Luego invertimos la <link target-id="fs-id1163713125336"/> para hallar la elongación de la varilla, con <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math> De la  <link target-id="fs-id1163713086230"/>, el módulo de Young para el acero es <m:math><m:mrow><m:mi>Y</m:mi><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mtext>Pa</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1163709882591">
+<title>Solución</title>
+Sustituyendo los valores numéricos en las ecuaciones obtenemos</para>
+<equation id="fs-id1168325756585" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>550</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9,8</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mtext>Pa</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>Y</m:mi></m:mfrac><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mtext>Pa</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mtext>Pa</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>1,8</m:mn><m:mspace width="0.2em"/><m:mtext>mm.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1163713130016">
+<title>Significación</title>
+Al igual que en el ejemplo de la columna, la tensión de tracción en este ejemplo no es uniforme a lo largo de la varilla. Sin embargo, a diferencia del ejemplo anterior, si se tiene en cuenta el peso de la varilla, el estrés en la varilla es mayor en la parte superior y menor en la parte inferior de la varilla, donde se fija el equipo.</para>
+</example>
+<note id="fs-id1163709658304" class="check-understanding">
+<exercise id="fs-id1163709751929">
+<problem id="fs-id1163709751931">
+<para id="fs-id1163713429579">Un cable de 2,0 m de longitud se estira 1,0 mm cuando se somete a una carga. ¿Cuál es el esfuerzo de tracción en el cable?</para>
+</problem>
+<solution id="fs-id1163713286423">
+<para id="fs-id1163713286425"><m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1163713244829">A menudo los objetos pueden experimentar simultáneamente tensión de compresión y tensión de tracción (<link target-id="CNX_UPhysics_12_03_bending"/>). Un ejemplo es una estantería larga cargada de libros pesados que se hunde entre los soportes de los extremos por el peso de los libros. La superficie superior de la plataforma está en tensión de compresión y la superficie inferior de la plataforma está en tensión de tracción. Del mismo modo, las vigas largas y pesadas se hunden por su propio peso. En la construcción de edificios modernos, estos esfuerzos de flexión pueden eliminarse prácticamente con el uso de <term class="no-emphasis">vigas en I</term> (<link target-id="CNX_UPhysics_12_03_I-beam"/>).</para>
+<figure id="CNX_UPhysics_12_03_bending">
+<media id="fs-id1163709723867" alt="La Figura A es el esquema de las fuerzas experimentadas por el objeto durante la flexión hacia abajo. Experimenta una tensión de tracción (estiramiento) en la sección superior y una tensión de compresión (compresión) en la sección inferior. La Figura B muestra una fotografía de un levantador de pesas durante el levantamiento. La barra de hierro que sostiene está doblada.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_12_03_bending.jpg"/>
+</media>
+<caption>(a) Un objeto que se dobla hacia abajo experimenta una tensión de tracción (estiramiento) en la sección superior y una tensión de compresión (compresión) en la sección inferior. (b) Los levantadores de pesas de élite suelen doblar las barras de hierro temporalmente durante el levantamiento, como en la competición de los Juegos Olímpicos de 2012 (créditos: b. modificación del trabajo de Oleksandr Kocherzhenko).</caption>
+</figure>
+<figure id="CNX_UPhysics_12_03_I-beam">
+<media id="fs-id1163713203301" alt="La figura es una fotografía de las vigas en I de acero que se utilizan en la construcción.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_12_03_I-beam.jpg"/>
+</media>
+<caption>Las vigas en I de acero se utilizan en la construcción para reducir las tensiones de flexión (créditos: modificación de la obra por "US Army Corps of Engineers Europe District"/Flickr).</caption>
+</figure>
+<note id="fs-id1163713365603" class="media-2">
+<para id="fs-id1163709752460">Una pesada caja descansa sobre una mesa apoyada en tres columnas. Vea esta <link url="https://openstax.org/l/21movebox">demostración</link> para mover la caja y ver cómo la compresión (o tensión) en las columnas se ve afectada cuando la caja cambia de posición.</para>
+</note>
+</section>
+<section id="fs-id1163713009441">
+<title>Tensión de compresibilidad, tensión y módulos</title>
+<para id="fs-id1163713556636">Cuando usted se sumerge en el agua, siente una fuerza que presiona cada parte del cuerpo desde todas las direcciones. Lo que usted experimenta entonces es una tensión de compresibilidad, o lo que es lo mismo, una <term>presión</term>. La tensión de compresibilidad siempre tiende a disminuir el volumen encerrado por la superficie de un objeto sumergido. Las fuerzas de este "apretón" son siempre perpendiculares a la superficie sumergida (<link target-id="CNX_UPhysics_12_03_volume"/>). El efecto de estas fuerzas es la disminución del volumen del objeto sumergido en una cantidad <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math> en comparación con el volumen <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> del objeto en ausencia de tensión de compresibilidad. Este tipo de deformación se denomina esfuerzo de compresibilidad y se describe mediante un cambio de volumen en relación con el volumen original:</para>
+<equation id="fs-id1163709880471"><m:math><m:mrow><m:mtext>esfuerzo de compresibilidad</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_12_03_volume">
+<media id="fs-id1163713286593" alt="La figura es el esquema de las fuerzas que experimenta un objeto sometido a la tensión de compresibilidad. Fuerzas iguales perpendiculares a la superficie actúan desde todas las direcciones y reducen el volumen en la cantidad delta V en comparación con el volumen original, V0.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_12_03_volume.jpg"/>
+</media>
+<caption>Un objeto sometido a una tensión de compresibilidad en aumento constante experimenta una disminución de su volumen. Fuerzas iguales perpendiculares a la superficie actúan desde todas las direcciones. El efecto de estas fuerzas consiste en disminuir el volumen en la cantidad <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math> en comparación con el volumen original, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1163713283449">El esfuerzo de compresibilidad es el resultado de la tensión de compresibilidad, que es una fuerza <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow></m:math> normal a una superficie que presiona sobre la superficie unitaria <emphasis effect="italics">A</emphasis> de un objeto sumergido. Este tipo de cantidad física, o presión <emphasis effect="italics">p</emphasis>, se define como</para>
+<equation id="fs-id1163709828123"><m:math><m:mrow><m:mtext>presión</m:mtext><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>≡</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713365776">Estudiaremos la presión en los fluidos con más detalle en <link document="m90688">Mecánica de Fluidos</link>. Una característica importante de la presión es que es una cantidad escalar y no tiene ninguna dirección particular; es decir, la presión actúa por igual en todas las direcciones posibles. Cuando se sumerge la mano en el agua, se percibe la misma cantidad de presión que actúa sobre la superficie superior de la mano que sobre la superficie inferior, o sobre la superficie lateral, o sobre la superficie de la piel entre los dedos. Lo que se percibe en este caso es un aumento de la presión <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:math> sobre lo que se está acostumbrado a sentir cuando su mano no está sumergida en el agua. Lo que se siente cuando la mano no está sumergida en el agua es la <term>presión normal</term> <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> de una atmósfera, que sirve de punto de referencia. La tensión de compresibilidad es este aumento de la presión, o <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>,</m:mo></m:mrow></m:math> sobre el nivel normal, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1163713171222">Cuando la tensión de compresibilidad aumenta, el esfuerzo de compresibilidad también aumenta, de acuerdo con la <link target-id="fs-id1163713135600"/>. La constante de proporcionalidad en esta relación se denomina módulo de compresibilidad, <emphasis effect="italics">B</emphasis>, o</para>
+<note id="fs-id1163713354845" class="equation-callout">
+<equation id="fs-id1163713354848"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>tensión de compresibilidad</m:mtext></m:mrow><m:mrow><m:mtext>esfuerzo de compresibilidad</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713246537">El signo menos que aparece en la <link target-id="fs-id1163713354848"/> es por coherencia, para asegurar que <emphasis effect="italics">B</emphasis> sea una cantidad positiva. Tenga en cuenta que el signo menos <m:math><m:mo>(</m:mo><m:mo>–</m:mo><m:mo>)</m:mo></m:math> es necesario porque un aumento <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:math> en la presión (una cantidad positiva) siempre provoca una disminución <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math> en volumen, y la disminución del volumen es una cantidad negativa. El recíproco del módulo de compresibilidad se denomina <term>compresibilidad</term> <m:math><m:mi>k</m:mi><m:mo>,</m:mo></m:math> o</para>
+<equation id="fs-id1163709658483"><m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>B</m:mi></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709817921">El término "compresibilidad" se utiliza en relación con los fluidos (gases y líquidos). La compresibilidad describe el cambio de volumen de un fluido por unidad de aumento de presión. Los fluidos caracterizados por una gran compresibilidad son relativamente fáciles de comprimir. Por ejemplo, la compresibilidad del agua es <m:math><m:mrow><m:mn>4,64</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>/atm</m:mtext></m:mrow></m:math> y la compresibilidad de la acetona es <m:math><m:mrow><m:mn>1,45</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>/atm</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Esto significa que, bajo un aumento de presión de 1,0 atm, la disminución relativa del volumen es aproximadamente el triple con la acetona que con el agua.</para>
+<example id="fs-id1163713123564">
+<para id="fs-id1163713143480">
+<title>Prensa hidráulica</title>
+En una prensa hidráulica, <link target-id="CNX_UPhysics_12_03_hydrolics"/>, un volumen de 250 litros de aceite se somete a un aumento de presión de 2.300 psi. Si la compresibilidad del petróleo es <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mspace width="0.1em"/><m:mtext>atm</m:mtext><m:mo>,</m:mo></m:mrow></m:math> halle el esfuerzo de compresibilidad y la disminución absoluta del volumen de aceite cuando la prensa está en funcionamiento.</para>
+<figure id="CNX_UPhysics_12_03_hydrolics">
+<media id="fs-id1163713149955" alt="La figura es el esquema de una prensa hidráulica. Un pistón pequeño se desplaza hacia abajo y hace que el pistón grande que sostiene el objeto se mueva hacia arriba.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_12_03_hydrolics.jpg"/>
+</media>
+<caption>En una prensa hidráulica, cuando un pistón pequeño se desplaza hacia abajo, la presión del aceite se transmite por todo el aceite al pistón grande, lo que hace que se desplace hacia arriba. Una pequeña fuerza aplicada a un pistón pequeño provoca una gran fuerza de presión, que el pistón grande ejerce sobre un objeto que se levanta o se aprieta. El dispositivo actúa como una palanca mecánica.</caption>
+</figure>
+<para id="fs-id1163713436768">
+<title>Estrategia</title>
+Debemos invertir la <link target-id="fs-id1163709658483"/> para hallar el esfuerzo de compresibilidad. Primero, convertimos el aumento de presión de psi a atm, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>2.300</m:mn><m:mspace width="0.2em"/><m:mtext>psi</m:mtext><m:mo>=</m:mo><m:mrow><m:mrow><m:mn>2.300</m:mn></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mn>14,7</m:mn></m:mrow></m:mrow><m:mspace width="0.2em"/><m:mtext>atm</m:mtext><m:mo>≈</m:mo><m:mspace width="0.2em"/><m:mn>160</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext><m:mo>,</m:mo></m:mrow></m:math> e identificar <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>250</m:mn><m:mspace width="0.2em"/><m:mtext>L</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1163713271102">
+<title>Solución</title>
+Sustituyendo los valores en la ecuación, tenemos</para>
+<equation id="fs-id1168327948380" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>esfuerzo de compresibilidad</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow><m:mi>B</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>k</m:mi><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>/atm</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>160</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,0032</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>respuesta:</m:mtext><m:mspace width="0.5em"/><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0,0032</m:mn><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,0032</m:mn><m:mo stretchy="false">(</m:mo><m:mn>250</m:mn><m:mspace width="0.2em"/><m:mtext>L</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,78</m:mn><m:mspace width="0.2em"/><m:mtext>L.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1163713129793">
+<title>Significación</title>
+Obsérvese que, dado que la compresibilidad del agua es 2,32 veces mayor que la del aceite, si la sustancia de trabajo en la prensa hidráulica de este problema se cambiara por agua, el esfuerzo de compresibilidad, así como el cambio de volumen, serían 2,32 veces mayores.</para>
+</example>
+<note id="fs-id1163713514830" class="check-understanding">
+<exercise id="fs-id1163713090726">
+<problem id="fs-id1163713090729">
+<para id="fs-id1163713090731">Si la fuerza normal que actúa sobre cada cara de un cubo <m:math><m:mrow><m:mn>1</m:mn><m:msup><m:mrow><m:mtext>.0-m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> pieza de acero se cambia por <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>N</m:mtext><m:mo>,</m:mo></m:mrow></m:math> calcule el cambio resultante en el volumen de la pieza de acero.</para>
+</problem>
+<solution id="fs-id1163713080974">
+<para id="fs-id1163713080977">63 ml</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1163709751944">
+<title>Tensión de corte, tensión y módulo</title>
+<para id="fs-id1163709751949">Los conceptos de tensión de corte y tensión solo se refieren a objetos o materiales sólidos. Los edificios y las placas tectónicas son ejemplos de objetos que pueden estar sometidos a tensión de corte. En general, estos conceptos no se aplican a los fluidos.</para>
+<para id="fs-id1163713488175">La deformación por corte se produce cuando dos fuerzas antiparalelas de igual magnitud se aplican tangencialmente a superficies opuestas de un objeto sólido, sin causar ninguna deformación en la dirección transversal a la línea de fuerza, como en el ejemplo típico de tensión de corte ilustrado en la <link target-id="CNX_UPhysics_12_03_shear"/>. La deformación por corte se caracteriza por un cambio gradual <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> de capas en la dirección tangente a las fuerzas actuantes. Esta gradación en <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> se produce en la dirección transversal a lo largo de cierta distancia <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> El esfuerzo cortante se define por la relación entre el mayor desplazamiento <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> a la distancia transversal <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></para>
+<equation id="fs-id1163713548282"><m:math><m:mrow><m:mtext>esfuerzo cortante</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713243964">El esfuerzo cortante es causado por la tensión de corte. La tensión de corte se debe a las fuerzas que actúan <emphasis effect="italics">en paralelo</emphasis> a la superficie. Utilizamos el símbolo <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mo>∥</m:mo></m:msub></m:mrow></m:math> para tales fuerzas. La magnitud <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mo>∥</m:mo></m:msub></m:mrow></m:math> por área de superficie <emphasis effect="italics">A</emphasis> donde se aplica la fuerza de corte es la medida de la tensión de corte</para>
+<equation id="fs-id1163713490507"><m:math><m:mrow><m:mtext>tensión de corte</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mo>∥</m:mo></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713086239">El módulo de corte es la constante de proporcionalidad en la <link target-id="fs-id1163713135600"/> y se define por el cociente de estrés y tensión. El módulo de corte se denota comúnmente por <emphasis effect="italics">S</emphasis>:</para>
+<note id="fs-id1163709646547" class="equation-callout">
+<equation id="fs-id1163713265048"><m:math><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>tensión de corte</m:mtext></m:mrow><m:mrow><m:mtext>esfuerzo cortante</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mo>∥</m:mo></m:msub><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>A</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mo>∥</m:mo></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_12_03_shear">
+<media id="fs-id1163709882516" alt="La figura es el esquema de un objeto bajo tensión de corte: Dos fuerzas antiparalelas de igual magnitud se aplican tangencialmente a superficies paralelas opuestas del objeto. Como resultado, el objeto se transforma de la forma de rectángulo a la de paralelogramo. Mientras que la altura del objeto permanece igual, las esquinas superiores se mueven hacia la derecha por el Delta X.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_12_03_shear.jpg"/>
+</media>
+<caption>Objeto sometido a tensión de corte: Dos fuerzas antiparalelas de igual magnitud se aplican tangencialmente a superficies paralelas opuestas del objeto. El contorno de la línea discontinua representa la deformación resultante. No hay cambio en la dirección transversal a las fuerzas actuantes y la longitud transversal <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> no se ve afectado. La deformación por corte se caracteriza por un cambio gradual <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> de capas en la dirección tangente a las fuerzas.</caption>
+</figure>
+<example id="fs-id1163713088242">
+<para id="fs-id1163709681439">
+<title>Una vieja estantería</title>
+Una persona de la limpieza intenta mover una pesada y vieja estantería en un suelo enmoquetado al empujar tangencialmente la superficie del estante superior. Sin embargo, el único efecto perceptible de este esfuerzo es similar al que se observa en la <link target-id="CNX_UPhysics_12_03_shear"/>, y desaparece cuando la persona deja de empujar. La librería tiene 180,0 cm de alto y 90,0 cm de ancho, con cuatro estantes de 30,0 cm de profundidad, todos ellos parcialmente cargados de libros. El peso total de la librería y de los libros es de 600,0 N. Si la persona da un empujón de 50,0 N a la estantería superior que la desplaza horizontalmente 15,0 cm respecto a la estantería inferior inmóvil, halle el módulo de corte de la librería.</para>
+<para id="fs-id1163713263532">
+<title>Estrategia</title>
+Los únicos datos pertinentes son las dimensiones físicas de la librería, el valor de la fuerza tangencial y el desplazamiento que provoca esta fuerza. Identificamos <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mo>∥</m:mo></m:msub><m:mo>=</m:mo><m:mn>50,0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>15,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>180,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mtext>(30,0 cm)</m:mtext><m:mspace width="0.1em"/><m:mtext>(90,0 cm)</m:mtext><m:mo>=</m:mo><m:mn>2.700,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> y utilizamos la <link target-id="fs-id1163713265048"/> para calcular el módulo de corte.</para>
+<para id="fs-id1163709733376">
+<title>Solución</title>
+Sustituyendo los números en las ecuaciones, obtenemos para el módulo de corte</para>
+<equation id="fs-id1168325703867" class="unnumbered"><label/><m:math><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mo>∥</m:mo></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>50,0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mn>2.700,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>180,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mrow><m:mn>15,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>9</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mtext>N</m:mtext><m:mrow><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>9</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mfrac><m:mtext>N</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>20</m:mn></m:mrow><m:mn>9</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>Pa</m:mtext><m:mo>=</m:mo><m:mtext>2,222 kPa.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1163713163823">También podemos encontrar la tensión de corte y la tensión, respectivamente:</para>
+<equation id="fs-id1168328304167" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mo>∥</m:mo></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>50,0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mn>2.700,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>kPa</m:mtext><m:mo>=</m:mo><m:mtext>185,2 Pa</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>15,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mrow><m:mn>180,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,083</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1163713072260">
+<title>Significación</title>
+Si la persona de este ejemplo diera un buen empujón a la estantería, podría ocurrir que el corte inducido la derrumbara hasta convertirla en un montón de basura. El mismo mecanismo de corte causa las fallas en las represas y diques rellenos de tierra y, en general, de los deslizamientos de tierra.</para>
+</example>
+<note id="fs-id1163709661853" class="check-understanding">
+<exercise id="fs-id1163713161722">
+<problem id="fs-id1163713161724">
+<para id="fs-id1163713161726">Explique por qué los conceptos de módulo de Young y módulo de corte no se aplican a los fluidos.</para>
+</problem>
+<solution id="fs-id1163713558669">
+<para id="fs-id1163713558671">Los fluidos tienen propiedades mecánicas diferentes a las de los sólidos; los fluidos fluyen.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1163713487603" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1163709830870" list-type="bulleted" bullet-style="bullet">
+<item>Las fuerzas externas sobre un objeto (o medio) provocan su deformación, que es un cambio de tamaño y forma. La intensidad de las fuerzas que causan la deformación se expresa mediante el estrés, que en unidades del SI se mide en la unidad de presión (pascal). El alcance de la deformación bajo estrés se expresa mediante la tensión, que es adimensional.</item>
+<item>Para un estrés pequeño, la relación entre el estrés y la tensión es lineal. El módulo elástico es la constante de proporcionalidad en esta relación lineal.</item>
+<item>El esfuerzo de tracción (o de compresión) es la respuesta de un objeto o medio a la tensión de tracción (o de compresión). En este caso, el módulo elástico se denomina módulo de Young. La tensión de tracción (o de compresión) causa la elongación (o el acortamiento) del objeto o del medio y se debe a una fuerza externa que actúa en una sola dirección perpendicular a la sección transversal.</item>
+<item>El esfuerzo de compresibilidad es la respuesta de un objeto o medio a la tensión de compresibilidad. En este caso, el módulo elástico se denomina módulo de compresibilidad. La tensión de compresibilidad provoca un cambio en el volumen del objeto o medio y la causan las fuerzas que actúan sobre el cuerpo desde todas las direcciones, perpendiculares a su superficie. La compresibilidad de un objeto o medio es el recíproco de su módulo de compresibilidad.</item>
+<item>El esfuerzo cortante es la deformación de un objeto o un medio sometido a tensión de corte. El módulo de corte es el módulo elástico en este caso. La tensión de corte la causan las fuerzas que actúan a lo largo de las dos superficies paralelas del objeto.</item>
+</list>
+</section>
+<section id="fs-id1163713490871" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<para id="fs-id1163713328471"><emphasis effect="italics">Nota:</emphasis> A menos que se indique lo contrario, se asume que los pesos de los cables, varillas y otros elementos son despreciables. Los módulos elásticos de los materiales seleccionados figuran en la <link target-id="fs-id1163713086230" document="m90678"/>.</para>
+<exercise id="fs-id1163713200108">
+<problem id="fs-id1163713200111">
+<para id="fs-id1163713200113">¿Por qué una ardilla puede saltar desde la rama de un árbol hasta el suelo y salir corriendo sin sufrir daños, mientras que un humano podría fracturarse en una caída así?</para>
+</problem>
+<solution id="fs-id1163713160498">
+<para id="fs-id1163713160500">En contacto con el suelo, el estrés en las extremidades de la ardilla es menor que el estrés en las extremidades del ser humano.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713355204">
+<problem id="fs-id1163713355206">
+<para id="fs-id1163713355208">Cuando una botella de vidrio llena de vinagre se calienta, tanto el vinagre como el vidrio se expanden, pero el vinagre se expande mucho más con la temperatura que el vidrio. La botella se rompe si se llena hasta el tope. Explique por qué y cómo una bolsa de aire sobre el vinagre evita que la botella se rompa.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713171026">
+<problem id="fs-id1163713171028">
+<para id="fs-id1163713171030">Se utiliza un alambre fino ensartado entre dos clavos en la pared para sostener un cuadro grande. ¿Es probable que el cable se rompa si se tensa mucho o si se tensa de forma que se combe considerablemente?</para>
+</problem>
+<solution id="fs-id1163713201312">
+<para id="fs-id1163713521027">estrechamente</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713521033">
+<problem id="fs-id1163709783571">
+<para id="fs-id1163709783573">Repase la relación entre el estrés y la tensión. ¿Puede hallar alguna similitud entre las dos cantidades?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713194306">
+<problem id="fs-id1163713194308">
+<para id="fs-id1163713156022">¿Qué tipo de estrés se aplica al presionar los extremos de una varilla de madera cuando tira de sus extremos?</para>
+</problem>
+<solution id="fs-id1163713296478">
+<para id="fs-id1163713296480">compresión; tracción</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713427998">
+<problem id="fs-id1163713428000">
+<para id="fs-id1163713428002">¿Se puede aplicar tensión de compresión a una goma elástica?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713195592">
+<problem id="fs-id1163713277163">
+<para id="fs-id1163713277165">¿Puede el módulo de Young tener un valor negativo? ¿Y el módulo de compresibilidad?</para>
+</problem>
+<solution id="fs-id1163713263717">
+<para id="fs-id1163713263719">no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709874098">
+<problem id="fs-id1163709874100">
+<para id="fs-id1163713051720">Si un material hipotético tiene un módulo de compresibilidad negativo, ¿qué ocurre cuando se aprieta un trozo de este?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713166159">
+<problem id="fs-id1163713166162">
+<para id="fs-id1163713166164">Explique de qué manera podría medir el módulo de compresibilidad de un líquido.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1163709682984" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1163713162478">
+<problem id="fs-id1163709673462">
+<para id="fs-id1163709673464">La "mina" de los lápices es una composición de grafito con un módulo de Young de aproximadamente <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mrow><m:mtext>N</m:mtext><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Calcule el cambio de longitud de la mina de un lápiz automático si se golpea directamente en el lápiz con una fuerza de 4,0 N. La mina tiene 0,50 mm de diámetro y 60 mm de longitud.</para>
+</problem>
+<solution id="fs-id1163709736795">
+<para id="fs-id1163709704982">1,2 mm</para></solution>
+</exercise>
+<exercise id="fs-id1163709704987">
+<problem id="fs-id1163709668462">
+<para id="fs-id1163709668464">Las antenas de televisión son las estructuras artificiales más altas de la Tierra. En 1987, un físico de 72,0 kg se colocó a sí mismo y colocó además 400 kg de equipo en la parte superior de una antena de 610 m de altura para realizar experimentos sobre la gravedad. ¿En cuánto se comprimió la antena, si la consideramos equivalente a un cilindro de acero de 0,150 m de radio?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709704702">
+<problem id="fs-id1163713277954">
+<para id="fs-id1163713277956">¿Cuánto estira una alpinista de 65,0 kg su cuerda de nailon de 0,800 cm de diámetro cuando se cuelga a 35,0 m por debajo de un afloramiento rocoso? (Para el nailon, <m:math><m:mrow><m:mi>Y</m:mi><m:mo>=</m:mo><m:mn>1,35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mtext>Pa</m:mtext><m:mtext>.)</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1163709830348">
+<para id="fs-id1163709830350">9,0 cm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709817998">
+<problem id="fs-id1163709818000">
+<para id="fs-id1163709827122">Cuando el agua se congela, su volumen aumenta en 9,05 %. ¿Qué fuerza por unidad de superficie es capaz de ejercer el agua sobre un recipiente cuando se congela?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709757961">
+<problem id="fs-id1163709757963">
+<para id="fs-id1163709757965">Un agricultor que hace zumo de uva llena una botella de cristal hasta el borde y la tapa bien. El zumo se expande más que el vaso cuando se calienta, de forma que el volumen aumenta en 0,2 %. Calcule la fuerza ejercida por el jugo por centímetro cuadrado si su módulo de compresibilidad es <m:math><m:mrow><m:mn>1,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mn>9</m:mn></m:msup><m:mtext>N</m:mtext><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> suponiendo que la botella no se rompa.</para></problem>
+<solution id="fs-id1163709680492">
+<para id="fs-id1163713186232"><m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>
+
+</para></solution>
+</exercise>
+<exercise id="fs-id1163713254086">
+<problem id="fs-id1163713254088">
+<para id="fs-id1163713254090">Un disco de la columna vertebral está sometido a una fuerza de corte de 600,0 N. Calcule su deformación con el módulo de corte de <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> El disco equivale a un cilindro macizo de 0,700 cm de altura y 4,00 cm de diámetro.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709668352">
+<problem id="fs-id1163709668354">
+<para id="fs-id1163709668356">Una vértebra está sometida a una fuerza de corte de 500,0 N. Calcule la deformación, considerando la vértebra como un cilindro de 3,00 cm de altura y 4,00 cm de diámetro. ¿Cómo se compara su resultado con el obtenido en el problema anterior? ¿Son los problemas de la columna vertebral más comunes en los discos que en las vértebras?</para>
+</problem>
+<solution id="fs-id1163713274089">
+<para id="fs-id1163709882428"><m:math><m:mrow><m:mn>0,149</m:mn><m:mspace width="0.2em"/><m:mtext>μm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713350246">
+<problem id="fs-id1163709750810">
+<para id="fs-id1163709750813">Calcule la fuerza que aplica un afinador de pianos para estirar una cuerda de acero en 8,00 mm, si la cuerda tiene originalmente 1,35 m de longitud y su diámetro es de 0,850 mm.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713264893">
+<problem id="fs-id1163713251791">
+<para id="fs-id1163713251793">Un asta hueca de aluminio de 20,0 m de altura es equivalente en resistencia a un cilindro macizo de 4,00 cm de diámetro. Un viento fuerte dobla el poste tanto como lo haría una fuerza horizontal de 900,0 N en la parte superior. ¿Hasta dónde se flexiona la parte superior del poste?</para>
+</problem>
+<solution id="fs-id1163709733857">
+<para id="fs-id1163709733859">0,57 mm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713163366">
+<problem id="fs-id1163713163368">
+<para id="fs-id1163709676768">Un cable de cobre de 1,0 cm de diámetro se estira un 1,0 % cuando se utiliza para levantar una carga ascendente con una aceleración de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es el peso de la carga?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709879200">
+<problem id="fs-id1163709879202">
+<para id="fs-id1163713267254">A medida que se perfora un pozo de petróleo, cada nueva sección de la tubería de perforación soporta su propio peso y el de la tubería y la broca que hay debajo. Calcule el estiramiento en una nueva tubería de acero de 6,00 m de longitud que soporta una broca de 100 kg y una longitud de tubería de 3,00 km con una densidad lineal de masa de 20,0 kg/m. Trate al tubo como un cilindro sólido de 5,00 cm de diámetro.</para>
+</problem>
+<solution id="fs-id1163713356867">
+<para id="fs-id1163713356869">8,59 mm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713070452">
+<problem id="fs-id1163713070454">
+<para id="fs-id1163709825189">Una gran barra de acero cilíndrica y uniforme de densidad <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>7,8</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>g/cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> tiene una longitud de 2,0 m y un diámetro de 5,0 cm. La varilla se sujeta a un suelo de hormigón con su eje largo en posición vertical. ¿Cuál es el estrés normal en la varilla en la sección transversal situada a (a) 1,0 m de su extremo inferior? (b) 1,5 m del extremo inferior?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713526118">
+<problem id="fs-id1163713526120">
+<para id="fs-id1163713526123">Un alpinista de 90 kg se cuelga de una cuerda de nailon y la estira 25,0 cm. Si la cuerda tiene originalmente 30,0 m de longitud y su diámetro es de 1,0 cm, ¿cuál es el módulo de Young del nailon?</para>
+</problem>
+<solution id="fs-id1163709646172">
+<para id="fs-id1163709646174"><m:math><m:mrow><m:mn>1,35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mtext>Pa</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709667698">
+<problem id="fs-id1163709667700">
+<para id="fs-id1163713294166">Una barra de suspensión de un puente colgante tiene una longitud de 25,0 m. Si la varilla es de acero, ¿cuál debe ser su diámetro para que no se estire más de 1,0 cm cuando un <m:math><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>-kg</m:mtext></m:mrow></m:math> ¿pasa un camión por allí? Supongamos que la barra soporta todo el peso del camión.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709733622">
+<problem id="fs-id1163709733624">
+<para id="fs-id1163713277900">Un cable de cobre tiene una longitud de 1,0 m y un diámetro de 1,0 mm. Si el cable cuelga verticalmente, ¿cuánto peso hay que añadir a su extremo libre para poder estirarlo 3,0 mm?</para>
+</problem>
+<solution id="fs-id1163713527113">
+<para id="fs-id1163713527115">259,0 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713429616">
+<problem id="fs-id1163713429619">
+<para id="fs-id1163713429621">Una pesa de 100 N se sujeta al extremo libre de un cable metálico que cuelga del techo. Cuando se añade un segundo peso de 100 N al cable, este se estira 3,0 mm. El diámetro y la longitud del cable son de 1,0 mm y 2,0 m, respectivamente. ¿Cuál es el módulo de Young del metal que se utiliza para fabricar el alambre?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709653876">
+<problem id="fs-id1163713265707">
+<para id="fs-id1163713265709">El módulo de compresibilidad de un material es <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> ¿Qué cambio fraccional de volumen experimenta un trozo de este material cuando se somete a un aumento de la tensión de compresibilidad de <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>?</m:mtext></m:mrow></m:math> Supongamos que la fuerza se aplica uniformemente sobre la superficie.</para>
+</problem>
+<solution id="fs-id1163713247853">
+<para id="fs-id1163713450517">0,01 %</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713433578">
+<problem id="fs-id1163713433580">
+<para id="fs-id1163713433582">Fuerzas normales de magnitud <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>N</m:mtext></m:mrow></m:math> se aplican uniformemente a una superficie esférica que encierra el volumen de un líquido. Esto hace que el radio de la superficie disminuya de 50,000 cm a 49,995 cm. ¿Cuál es el módulo de compresibilidad del líquido?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709786788">
+<problem id="fs-id1163709786790">
+<para id="fs-id1163709646387">Durante un paseo por la cuerda, un equilibrista crea una tensión de <m:math><m:mrow><m:mn>3,94</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mn>3</m:mn></m:msup><m:mi>N</m:mi></m:mrow></m:math> en un cable que se estira entre dos postes de soporte que están a 15,0 m de distancia. El alambre tiene un diámetro de 0,50 cm cuando no está estirado. Cuando el equilibrista está en el cable en el medio entre los postes el cable hace un ángulo de <m:math><m:mrow><m:mn>5,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> por debajo de la horizontal. ¿Cuánto estira esta tensión el cable de acero cuando el equilibrista está en esta posición?</para>
+</problem>
+<solution id="fs-id1163709766552">
+<para id="fs-id1163709766554">1,44 cm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713246837">
+<problem id="fs-id1163713172221">
+<para id="fs-id1163713172223">Al utilizar un borrador de lápiz, se ejerce una fuerza vertical de 6,00 N a una distancia de 2,00 cm de la unión entre la madera y el borrador. El lápiz tiene un diámetro de 6,00 mm y se mantiene en un ángulo de <m:math><m:mrow><m:mn>20,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> a la horizontal. (a) ¿Cuánto se flexiona la madera perpendicularmente a su longitud? (b) ¿Cuánto se comprime longitudinalmente?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713052308">
+<problem id="fs-id1163709786574">
+<para id="fs-id1163709786576">Las fuerzas normales se aplican uniformemente sobre la superficie de un volumen esférico de agua cuyo radio es de 20,0 cm. Si la presión sobre la superficie aumenta en 200 MPa, ¿en cuánto disminuye el radio de la esfera?</para>
+</problem>
+<solution id="fs-id1163713365459">
+<para id="fs-id1163709786578">0,63 cm</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1163713087228">
+<term>módulo de compresibilidad</term>
+<meaning id="fs-id1163709743397">módulo elástico para la tensión de compresibilidad</meaning>
+</definition>
+<definition id="fs-id1163709743401">
+<term>esfuerzo de compresibilidad</term>
+<meaning id="fs-id1163713262677">(o <emphasis effect="bold">esfuerzo de volumen</emphasis>) tensión bajo la tensión de compresibilidad, dada como cambio fraccional de volumen</meaning>
+</definition>
+<definition id="fs-id1163713434462">
+<term>tensión de compresibilidad</term>
+<meaning id="fs-id1163713355210">(o <emphasis effect="bold">tensión de volumen</emphasis>) estrés causado por las fuerzas de compresión, en todas las direcciones</meaning>
+</definition>
+<definition id="fs-id1163713249621">
+<term>compresibilidad</term>
+<meaning id="fs-id1163713486986">recíproco del módulo de compresibilidad</meaning>
+</definition>
+<definition id="fs-id1163713486990">
+<term>esfuerzo de compresión</term>
+<meaning id="fs-id1163713199479">tensión que se produce cuando las fuerzas contraen un objeto, lo que provoca su acortamiento</meaning>
+</definition>
+<definition id="fs-id1163713143355">
+<term>tensión de compresión</term>
+<meaning id="fs-id1163713199122">estrés causado por fuerzas de compresión, solo en una dirección</meaning>
+</definition>
+<definition id="fs-id1163713199126">
+<term>módulo elástico</term>
+<meaning id="fs-id1163709747183">constante de proporcionalidad en relación lineal entre el estrés y la tensión, en pascales del SI</meaning>
+</definition>
+<definition id="fs-id1163709828024">
+<term>presión normal</term>
+<meaning id="fs-id1163713433078">presión de una atmósfera; sirve como nivel de referencia para la presión</meaning>
+</definition>
+<definition id="fs-id1163713433082">
+<term>pascal (Pa)</term>
+<meaning id="fs-id1163713487602">Unidad SI de estrés, unidad SI de presión</meaning>
+</definition>
+<definition id="fs-id1163713261863">
+<term>presión</term>
+<meaning id="fs-id1163713490870">fuerza que presiona en dirección normal sobre una superficie según el área de la superficie; la tensión de compresibilidad en los fluidos</meaning>
+</definition>
+<definition id="fs-id1163713490874">
+<term>módulo de corte</term>
+<meaning id="fs-id1163713288480">módulo elástico para la tensión de corte</meaning>
+</definition>
+<definition id="fs-id1163713294973">
+<term>esfuerzo cortante</term>
+<meaning id="fs-id1163713285912">deformación causada por la tensión de corte</meaning>
+</definition>
+<definition id="fs-id1163713285916">
+<term>tensión de corte</term>
+<meaning id="fs-id1163709681303">estrés causado por las fuerzas de corte</meaning>
+</definition>
+<definition id="fs-id1163709704960">
+<term>tensión</term>
+<meaning id="fs-id1163709826792">cantidad adimensional que da la cantidad de deformación de un objeto o medio bajo estrés</meaning>
+</definition>
+<definition id="fs-id1163709826796">
+<term>estrés</term>
+<meaning id="fs-id1163713262202">cantidad que contiene información sobre la magnitud de la fuerza que causa la deformación, definida como fuerza por unidad de superficie</meaning>
+</definition>
+<definition id="fs-id1163713052592">
+<term>esfuerzo de tracción</term>
+<meaning id="fs-id1163709831766">el esfuerzo bajo tensión de tracción, dado como cambio fraccional de longitud, que se produce cuando las fuerzas estiran un objeto, lo cual provoca su elongación</meaning>
+</definition>
+<definition id="fs-id1163713189396">
+<term>tensión de tracción</term>
+<meaning id="fs-id1163709671279">estrés provocado por fuerzas de tracción, solo en una dirección, que se produce cuando las fuerzas estiran un objeto, lo cual provoca su elongación</meaning>
+</definition>
+<definition id="fs-id1163709671285">
+<term>módulo de Young</term>
+<meaning id="fs-id1163713186236">módulo elástico para tensión de tracción o de compresión</meaning>
+</definition>
+</glossary>
+</document>

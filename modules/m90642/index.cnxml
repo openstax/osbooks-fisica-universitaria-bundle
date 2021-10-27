@@ -1,0 +1,743 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Fuerza de arrastre y velocidad límite</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90642</md:content-id>
+  <md:title>Fuerza de arrastre y velocidad límite</md:title>
+  <md:abstract>Al final de esta sección, podrá: <list>
+<item>Expresar matemáticamente la fuerza de arrastre.</item>
+<item>Describir las aplicaciones de la fuerza de arrastre.</item>
+<item>Definir la velocidad límite.</item>
+<item>Determinar la velocidad límite de un objeto dada su masa.</item>
+</list></md:abstract>
+  <md:uuid>abc3727a-a85f-4299-b4c3-da2a21eaad63</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165039047079">Otra fuerza interesante en la vida cotidiana es la fuerza de arrastre sobre un objeto cuando se mueve en un fluido (ya sea un gas o un líquido). Siente la fuerza de arrastre cuando usted mueve la mano en el agua. También puede sentirla si mueve la mano durante un viento fuerte. Cuanto más rápido se mueva la mano, más difícil será el movimiento. Sentirá una menor fuerza de arrastre cuando incline la mano de manera que solo el lado pase por el aire: habrá disminuido el área de la mano que se enfrenta a la dirección del movimiento.</para>
+<section id="fs-id1165039242508">
+<title>Fuerzas de arrastre</title>
+<para id="fs-id1165035784729">Al igual que la fricción, la <term>fuerza de arrastre</term> siempre se opone al movimiento de un objeto. A diferencia de la fricción simple, la fuerza de arrastre es proporcional a alguna función de la velocidad del objeto en ese fluido. Esta funcionalidad es complicada y depende de la forma del objeto, su tamaño, su velocidad y el fluido en el que se encuentra. Para la mayoría de los objetos grandes, como ciclistas, autos y pelotas de béisbol que no se mueven demasiado despacio, la magnitud de la fuerza de arrastre <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub></m:mrow></m:math> es proporcional al cuadrado de la rapidez del objeto. Podemos escribir esta relación matemáticamente como <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>∝</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Si se tienen en cuenta otros factores, esta relación se convierte en</para>
+<note id="fs-id1165035834941" class="equation-callout">
+<equation id="fs-id1165035612959"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>C</m:mi><m:mi>ρ</m:mi><m:mi>A</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039240894">donde <emphasis effect="italics">C</emphasis> es el coeficiente de arrastre, <emphasis effect="italics">A</emphasis> es el área del objeto frente al fluido, y <m:math><m:mi>ρ</m:mi></m:math> es la densidad del fluido. (Recordemos que la densidad es la masa por unidad de volumen). Esta ecuación también puede escribirse de forma más generalizada como <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>=</m:mo><m:mi>b</m:mi><m:msup><m:mi>v</m:mi><m:mi>n</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> donde <emphasis effect="italics">b</emphasis> es una constante equivalente a <m:math><m:mrow><m:mn>0,5</m:mn><m:mi>C</m:mi><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mo>.</m:mo></m:mrow></m:math> Hemos fijado el exponente <emphasis effect="italics">n</emphasis> para estas ecuaciones en 2 porque, cuando un objeto se mueve a gran velocidad por el aire, la magnitud de la fuerza de arrastre es proporcional al cuadrado de la rapidez. Como veremos en <link document="m90688">Mecánica de fluidos</link>, para partículas pequeñas que se mueven a poca rapidez en un fluido, el exponente <emphasis effect="italics">n</emphasis> es igual a 1.</para><note id="fs-id1165035991133">
+<title>Fuerza de arrastre</title>
+<para id="fs-id1165039245532">Fuerza de arrastre <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub></m:mrow></m:math> es proporcional al cuadrado de la rapidez del objeto. Matemáticamente,</para>
+<equation id="fs-id1165035683638" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>C</m:mi><m:mspace width="0.2em"/><m:mi>ρ</m:mi><m:mspace width="0.2em"/><m:mi>A</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039450525">donde <emphasis effect="italics">C</emphasis> es el <term class="no-emphasis">coeficiente de arrastre</term>, <emphasis effect="italics">A</emphasis> es el área del objeto frente al fluido, y <m:math><m:mi>ρ</m:mi></m:math> es la densidad del fluido.</para>
+</note>
+<para id="fs-id1165035693556">Tanto los atletas como los diseñadores de autos buscan reducir la fuerza de arrastre para disminuir su tiempo de carrera (<link target-id="CNX_UPhysics_06_04_BobSled"/>). La configuración aerodinámica de un automóvil puede reducir la fuerza de arrastre y, por ende, aumentar el kilometraje de un auto.</para>
+<figure id="CNX_UPhysics_06_04_BobSled">
+<media id="fs-id1165035993058" alt="Fotografía de un trineo de carreras en una pista de los Juegos Olímpicos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_Bobsled.jpg"/>
+</media>
+<caption>Desde los autos de carreras hasta los corredores de trineo, la forma aerodinámica es crucial para alcanzar velocidades máximas. Los trineos de carreras están diseñados para la rapidez y tienen forma de bala con aletas cónicas (crédito: "Ejército de los EE. UU."/Wikimedia Commons).</caption>
+</figure>
+<para id="fs-id1165035977652">El valor del coeficiente de arrastre <emphasis effect="italics">C</emphasis> se determina empíricamente, normalmente con el uso de un <term class="no-emphasis">túnel de viento</term> (<link target-id="CNX_UPhysics_06_04_WindTunnel"/>).</para>
+<figure id="CNX_UPhysics_06_04_WindTunnel">
+<media id="fs-id1165039251933" alt="Fotografía de un modelo de avión en un túnel de viento.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_WindTunnel.jpg"/>
+</media>
+<caption>Investigadores de la NASA prueban un modelo de avión en un túnel de viento (créditos: NASA/Ames).</caption>
+</figure>
+<para id="fs-id1165039236753">El coeficiente de arrastre puede depender de la velocidad, pero aquí suponemos que es una constante. La <link target-id="fs-id1165035723394"/> enumera algunos coeficientes de arrastre típicos para una variedad de objetos. Observe que el coeficiente de arrastre es una cantidad sin dimensiones. A velocidades de autopista, más del <m:math><m:mrow><m:mn>50</m:mn><m:mi>%</m:mi></m:mrow></m:math> de la potencia de un auto se utiliza para superar el arrastre del aire. La velocidad de crucero más eficiente en cuanto a consumo de combustible es de unos 70 a 80 km/h (unas 45 a 50 mi/h). Por esta razón, durante la crisis del petróleo de la década de los años 70 del siglo XX en los Estados Unidos, la velocidad máxima en las autopistas se fijó en unos 90 km/h (55 mi/h).</para>
+<table id="fs-id1165035723394" summary="The table has two columns and thirteen rows. The first row is a header row and has entries “object” for the first column and “C” for the second column. The second row has entries Airfoil, 0.05. The third row has entries Toyota Camry, 0.28. The fourth row has entries Ford Focus, 0.32. The fifth row has entries Honda Civic, 0.36. The sixth row has entries Ferrari Testarossa, 0.37. The seventh row has entries Dodge Ram Pickup, 0.43. The eighth row has entries Sphere, 0.45. The ninth row has entries Hummer H2 SUV, 0.64. The tenth row has entries Skydiver (feet first), 0.70. The eleventh row has entries Bicycle, 0.90. The twelfth row has entries Skydiver (horizontal), 1.0. The thirteenth row has entries Circular flat plate, 1.12.">
+<title>Valores típicos del coeficiente de arrastre <emphasis effect="italics">C</emphasis></title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Objeto</entry>
+<entry valign="top" align="center"><emphasis effect="italics">C</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Perfil alar</entry>
+<entry valign="top" align="left">0,05</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Toyota Camry</entry>
+<entry valign="top" align="left">0,28</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ford Focus</entry>
+<entry valign="top" align="left">0,32</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Honda Civic</entry>
+<entry valign="top" align="left">0,36</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ferrari Testarossa</entry>
+<entry valign="top" align="left">0,37</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Dodge Ram Pickup</entry>
+<entry valign="top" align="left">0,43</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Esfera</entry>
+<entry valign="top" align="left">0,45</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Vehículo todoterreno Hummer H2</entry>
+<entry valign="top" align="left">0,64</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Paracaidista (con los pies por delante)</entry>
+<entry valign="top" align="left">0,70</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Bicicleta</entry>
+<entry valign="top" align="left">0,90</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Paracaidista (horizontal)</entry>
+<entry valign="top" align="left">1,0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Placa plana circular</entry>
+<entry valign="top" align="left">1,12</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1165038975746">En el mundo del deporte se está investigando mucho para minimizar el arrastre. Los hoyuelos de las pelotas de golf se están rediseñando, al igual que la ropa que llevan los deportistas. Los ciclistas y algunos nadadores y corredores llevan trajes de cuerpo entero. La australiana Cathy Freeman llevó un traje de cuerpo entero en los Juegos Olímpicos de Sydney 2000 y ganó una medalla de oro en la carrera de 400 metros. Muchos nadadores de los Juegos Olímpicos de Pekín 2008 llevaban trajes de baño de cuerpo entero (Speedo), lo que podría haber marcado la diferencia a la hora de batir muchos récords mundiales (<link target-id="CNX_UPhysics_06_04_BodySuit"/>). La mayoría de los nadadores de élite (y los ciclistas) se afeitan el vello corporal. Estas innovaciones tendrían el efecto de recortar milésimas de segundo en una carrera, lo que a veces marca la diferencia entre una medalla de oro y una de plata. Una de las consecuencias es que hay que elaborar continuamente directrices cuidadosas y precisas para mantener la integridad del deporte.</para>
+<figure id="CNX_UPhysics_06_04_BodySuit">
+<media id="fs-id1165035683609" alt="Fotografía de tres nadadores con trajes de baño de cuerpo entero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_BodySuit.jpg"/>
+</media>
+<caption>A los trajes de cuerpo entero, como este LZR Racer Suit, se les atribuye la ayuda en muchos récords mundiales luego de su lanzamiento en 2008. Una "piel" más suave y más fuerzas de compresión en el cuerpo del nadador proporcionan al menos <m:math><m:mrow><m:mn>10</m:mn><m:mi>%</m:mi></m:mrow></m:math> menos arrastre (créditos: NASA/Kathy Barnstorff).</caption>
+</figure>
+</section>
+<section id="fs-id1165039253705">
+<title>Velocidad límite</title>
+<para id="fs-id1165039119204">Algunas situaciones interesantes relacionadas con la segunda ley de Newton se producen al considerar los efectos de las fuerzas de arrastre sobre un objeto en movimiento. Por ejemplo, pensemos en un paracaidista que se lanza bajo la influencia de la gravedad. Las dos fuerzas que actúan sobre él son la fuerza de gravedad y la fuerza de arrastre (sin tomar en cuenta la pequeña fuerza de flotación). La fuerza de gravedad hacia abajo se mantiene constante, independientemente de la velocidad a la que se mueva la persona. Sin embargo, a medida que aumenta la velocidad de la persona, la magnitud de la fuerza de arrastre aumenta hasta que la magnitud de la fuerza de arrastre es igual a la fuerza gravitatoria, lo que produce una fuerza neta de cero. La fuerza neta de cero significa que no hay aceleración, como lo demuestra la segunda ley de Newton. En este punto, la velocidad de la persona permanece constante y decimos que la persona ha alcanzado su <term>velocidad límite</term> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Dado que <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub></m:mrow></m:math> es proporcional a la rapidez al cuadrado, un paracaidista más pesado deberá ir más rápido para que <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub></m:mrow></m:math> sea igual a su peso. Veamos cómo funciona esto de forma más cuantitativa.</para>
+<para id="fs-id1165039111305">En la velocidad terminal,</para>
+<equation id="fs-id1165039421474" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>-</m:mo><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165035706192">Por lo tanto,</para>
+<equation id="fs-id1165039345579" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039317309">Al utilizar la ecuación de la fuerza de arrastre, tenemos</para>
+<equation id="fs-id1165039269273" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>C</m:mi><m:mi>ρ</m:mi><m:mi>A</m:mi><m:msubsup><m:mi>v</m:mi><m:mtext>T</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039048514">Al resolver la velocidad, obtenemos</para>
+<equation id="fs-id1165035866534" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mrow><m:mi>ρ</m:mi><m:mi>C</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165035634619">Supongamos que la densidad del aire es <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>1,21</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Un paracaidista de 75 kg que desciende de cabeza tiene un área transversal de aproximadamente <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0,18</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y un coeficiente de arrastre de aproximadamente <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0,70</m:mn></m:mrow></m:math>. Encontramos que</para>
+<equation id="fs-id1165039027481" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>75</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9,80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,21</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,70</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,18</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>98</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>=</m:mo><m:mn>350</m:mn><m:mspace width="0.2em"/><m:mtext>km/h</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165035691370">Esto significa que un paracaidista con una masa de 75 kg alcanza una velocidad límite de unos 350 km/h mientras se desplaza en posición de cabeza, lo que minimiza el área y su resistencia. En una posición de águila extendida, esa velocidad límite puede disminuir a unos 200 km/h a medida que aumenta el área. Esta velocidad límite se reduce mucho después de que se abra el paracaídas.</para><example id="fs-id1165039257532">
+<para id="fs-id1165035708311"><title>Velocidad límite de un paracaidista</title>
+Halle la velocidad límite de un paracaidista de 85 kg que cae en posición de águila extendida.</para>
+<para id="fs-id1165039377270"><title>Estrategia</title>
+Para la velocidad límite, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, la fuerza de arrastre sobre el paracaidista deberá ser igual a la fuerza de gravedad (el peso de la persona). Al utilizar la ecuación de la fuerza de arrastre, encontramos <m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:mi>C</m:mi><m:mi>A</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1165039515508"><title>Solución</title>
+La velocidad límite <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub></m:mrow></m:math> puede escribirse como</para>
+<equation id="fs-id1165038986825" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mrow><m:mi>ρ</m:mi><m:mi>C</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>85</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9,80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,21</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,70</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>44</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165035669750"><title>Importancia</title>
+Este resultado es coherente con el valor de <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub></m:mrow></m:math> mencionado anteriormente. El paracaidista de 75 kg que iba con los pies por delante tenía una velocidad límite de <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mn>98</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Pesaba menos, pero tenía un área frontal más pequeña y, por ende, menor arrastre debido al aire.</para>
+</example>
+<note id="fs-id1165039044234" class="check-understanding">
+<exercise id="fs-id1165038974070">
+<problem id="fs-id1165039290042">
+<para id="fs-id1165035831943"> Halle la velocidad límite de un paracaidista de 50 kg que cae en forma de águila extendida.</para>
+</problem>
+<solution id="fs-id1165039346376">
+<para id="fs-id1165039026935">34 m/s</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165035662117">El tamaño del objeto que cae por el aire presenta otra interesante aplicación del arrastre del aire. Si se cae de una rama de un árbol de 5 metros de altura, es probable que se haga daño, y posiblemente se fracture un hueso. Sin embargo, una ardilla pequeña hace esto todo el tiempo, sin hacerse daño. Usted no alcanza una velocidad límite en una distancia tan corta, pero la ardilla sí.</para>
+<para id="fs-id1165039087288">La siguiente cita interesante sobre el tamaño de los animales y la velocidad límite procede de un ensayo de 1928 de un biólogo británico, J. B. S. Haldane, titulado "Sobre ser del tamaño correcto" ("On Being the Right Size").</para>
+<para id="fs-id1165039112798">"Para el ratón y cualquier animal más pequeño, [la gravedad] no presenta prácticamente ningún peligro. Se puede dejar caer un ratón por el pozo de una mina de mil metros; y, al llegar al fondo, recibe una ligera sacudida y se aleja, siempre que el suelo sea bastante blando. Una rata muere, un hombre se fractura los huesos y un caballo se desparrama. Esto se debe a que la resistencia que presenta el aire al movimiento es proporcional a la superficie del objeto en movimiento. Dividiendo por diez la longitud, la anchura y la altura de un animal, su peso se reduce a una milésima parte, pero su superficie solo a una centésima parte. Así que la resistencia a la caída en el caso del animal pequeño es relativamente diez veces mayor que la fuerza motriz".</para>
+<para id="fs-id1165039095325">La anterior dependencia cuadrática del arrastre del aire con respecto a la velocidad no se cumple si el objeto es muy pequeño, va muy lento o se encuentra en un medio más denso que el aire. Entonces encontramos que la fuerza de arrastre es proporcional justo a la velocidad. Esta relación viene dada por la ley de Stokes.</para>
+<note id="fs-id1165039085225">
+<title>Ley de Stokes</title>
+<para id="fs-id1165035658086">Para un objeto esférico que cae en un medio, la fuerza de arrastre es</para>
+<equation id="fs-id1165035633045"><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>η</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039268020">donde <emphasis effect="italics">r</emphasis> es el radio del objeto, <m:math><m:mi>η</m:mi></m:math> es la viscosidad del fluido y <emphasis effect="italics">v</emphasis> es la velocidad del objeto.</para>
+</note>
+<para id="fs-id1165039496329">Los microorganismos, el polen y las partículas de polvo son buenos ejemplos de la ley de Stokes. Como cada uno de estos objetos es tan pequeño, nos encontramos con que muchos de ellos se desplazan sin ayuda solo a una velocidad constante (límite). Las velocidades límites de las bacterias (tamaño de aproximadamente de <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>μm</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> pueden ser casi <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>μm/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Para desplazarse a mayor rapidez, muchas bacterias nadan con flagelos (orgánulos con forma de pequeñas colas) que son impulsados por pequeños motores incrustados en la célula.</para>
+<para id="fs-id1165036080352">Los sedimentos en un lago pueden moverse a una velocidad límite mayor (alrededor de <m:math><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>μm/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> por lo que puede tardar días en llegar al fondo del lago después de haberse depositado en la superficie.</para>
+<para id="fs-id1165039052942">Si comparamos los animales terrestres con los acuáticos, se observa cómo el arrastre ha influido en la evolución. Los peces, los delfines e incluso las enormes ballenas tienen una forma aerodinámica para reducir las fuerzas de arrastre. Las aves son aerodinámicas y las especies migratorias que vuelan grandes distancias suelen tener características particulares, como cuellos largos. Las bandadas de pájaros vuelan en forma de punta de lanza mientras la bandada forma un patrón aerodinámico (<link target-id="CNX_UPhysics_06_04_Geese"/>). En los seres humanos, un ejemplo importante de aerodinámica es la forma de los espermatozoides, que deben ser eficientes en el uso de la energía.</para>
+<figure id="CNX_UPhysics_06_04_Geese"><media id="fs-id1165039323727" alt="Fotografía de gansos que vuelan en formación de V.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_Geese.jpg"/>
+</media>
+
+<caption>Los gansos vuelan en formación de V durante sus largos viajes migratorios. Esta forma reduce el arrastre y el consumo de energía de cada una de las aves, y también les permite comunicarse mejor (créditos: modificación de la obra de "Julo"/Wikimedia Commons).</caption></figure><note id="fs-id1165035866394" class="media-2"><para id="fs-id1165039305307">En las exposiciones de clase, hacemos <link url="https://openstax.org/l/21dragforce">mediciones de la fuerza de arrastre</link> en diferentes objetos. Los objetos se colocan en una corriente de aire uniforme creada por un ventilador. Calcule el número de Reynolds y el coeficiente de arrastre.</para></note></section>
+<section id="fs-id1165036154918">
+<title>El cálculo de las fuerzas de fricción dependientes de la velocidad</title>
+<para id="fs-id1165035888646">Cuando un cuerpo se desliza por una superficie, la fuerza de fricción sobre este es aproximadamente constante y viene dada por <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub><m:mi>N</m:mi><m:mo>.</m:mo></m:mrow></m:math> Desgraciadamente, la fuerza de fricción sobre un cuerpo que se mueve a través de un líquido o un gas no se comporta de forma tan sencilla. Esta fuerza de arrastre es generalmente una función complicada de la velocidad del cuerpo. Sin embargo, para un cuerpo que se mueve en línea recta a una rapidez moderada a través de un líquido como el agua, la fuerza de fricción puede aproximarse a menudo por</para>
+<equation id="fs-id1165039145268" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165035864268">donde <emphasis effect="italics">b</emphasis> es una constante, cuyo valor depende de las dimensiones y la forma del cuerpo y de las propiedades del líquido, y <emphasis effect="italics">v</emphasis> es la velocidad del cuerpo. Dos situaciones para las que la fuerza de fricción puede representarse mediante esta ecuación son una lancha a motor que se mueve por el agua y un pequeño objeto que cae lentamente por un líquido.</para><para id="fs-id1165039107750">Consideremos el objeto que cae a través de un líquido. El diagrama de cuerpo libre de este objeto con la dirección positiva hacia abajo se muestra en la <link target-id="CNX_UPhysics_06_04_Sphere"/>. La segunda ley de Newton en la dirección vertical da la ecuación diferencial</para>
+<equation id="fs-id1165035708053" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>-</m:mo><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038998310">donde hemos escrito la aceleración como <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math> A medida que <emphasis effect="italics">v</emphasis> aumenta, la fuerza de fricción -<emphasis effect="italics">bv</emphasis> aumenta hasta igualar a <emphasis effect="italics">mg</emphasis>. En este punto, no hay aceleración y la velocidad se mantiene constante en la velocidad límite <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> De la ecuación anterior,</para>
+<equation id="fs-id1165035654506" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>-</m:mo><m:mi>b</m:mi><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039494996">así que</para>
+<equation id="fs-id1165039074189" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_06_04_Sphere">
+<media id="fs-id1165035758180" alt="El diagrama de cuerpo libre muestra las fuerzas m por el vector g que apuntan verticalmente hacia abajo y b por el vector v que apunta verticalmente hacia arriba. La velocidad, el vector v, es vertical hacia abajo. La dirección de la y positiva es también verticalmente hacia abajo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_Sphere.jpg"/>
+</media>
+<caption>Diagrama de cuerpo libre de un objeto que cae a través de un medio resistivo.</caption>
+</figure>
+<para id="fs-id1165039111046">Podemos encontrar la velocidad del objeto al integrar la ecuación diferencial para <emphasis effect="italics">v</emphasis>. Primero, reordenamos los términos de esta ecuación para obtener</para>
+<equation id="fs-id1165035701016" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>g</m:mi><m:mo>-</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>b</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>v</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039091855">Suponiendo que <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>en</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> la integración de esta ecuación da como resultado</para>
+<equation id="fs-id1165039096589" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>v</m:mi></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mrow><m:mrow><m:mi>g</m:mi><m:mo>-</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>b</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:mrow></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039027144">o</para>
+<equation id="fs-id1165039051159" class="unnumbered"><label/><m:math><m:mrow><m:msubsup><m:mstyle displaystyle="true"><m:mrow><m:mrow><m:mrow><m:mo>-</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>b</m:mi></m:mfrac><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>-</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mstyle><m:mn>0</m:mn><m:mi>v</m:mi></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mstyle mathsize="140%" displaystyle="true"><m:mrow><m:mrow><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>|</m:mo></m:mrow></m:mrow></m:mstyle><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165035747796">donde <m:math><m:mrow><m:mi>v</m:mi><m:mo>'</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>'</m:mo></m:mrow></m:math> son variables ficticias de integración. Con los límites dados, encontramos</para>
+<equation id="fs-id1165039045687" class="unnumbered"><label/><m:math><m:mrow><m:mo>-</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>b</m:mi></m:mfrac><m:mo stretchy="false">[</m:mo><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>-</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>-</m:mo><m:mtext>ln</m:mtext><m:mi>g</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039315146">Dado que <m:math><m:mrow><m:mtext>ln</m:mtext><m:mi>A</m:mi><m:mo>-</m:mo><m:mtext>ln</m:mtext><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>A</m:mi><m:mtext>/</m:mtext><m:mi>B</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>B</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>implica</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mrow><m:mi>A</m:mi><m:mtext>/</m:mtext><m:mi>B</m:mi></m:mrow><m:mo>,</m:mo></m:mrow></m:math> obtenemos</para>
+<equation id="fs-id1165039045529" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>g</m:mi><m:mo>-</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>b</m:mi><m:mi>v</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>g</m:mi></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165036152293">y</para>
+<equation id="fs-id1165036075500" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039100593">Observe que, como <m:math><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>b</m:mi></m:mrow><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> que es la velocidad límite.</para>
+<para id="fs-id1165035784373">La posición en cualquier momento se encuentra al integrar la ecuación de <emphasis effect="italics">v</emphasis>. Con <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1165033369184" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039086738">Suponiendo que <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>cuando</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1165036159467" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>y</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:msup><m:mi>y</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi><m:mo>'</m:mo></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039306882">que se integra en</para>
+<equation id="fs-id1165036148549" class="unnumbered"><label/><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mi>g</m:mi></m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo>-</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<example id="fs-id1165039028114">
+<para id="fs-id1165036087933"><title>Efecto de la fuerza de resistencia en una lancha a motor</title>
+Una lancha a motor se desplaza por un lago a una rapidez <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> cuando su motor se congela y se para de repente. La lancha desacelera entonces por la fuerza de fricción <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math> (a) ¿Cuáles son la velocidad y la posición de la lancha en función del tiempo? (b) Si la lancha desacelera de 4,0 a 1,0 m/s en 10 s, ¿qué distancia recorre antes de detenerse?</para>
+<para id="fs-id1165036162614"><title>Solución</title></para>
+<list id="fs-id1165039234072" list-type="enumerated" number-style="lower-alpha">
+<item>Con el motor detenido, la única fuerza horizontal sobre la lancha es <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> por lo que de la segunda ley de Newton,
+<equation id="fs-id1165039242125" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+que podemos escribir como
+<equation id="fs-id1165039082029" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mi>v</m:mi></m:mfrac><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Integrando esta ecuación entre el tiempo cero cuando la velocidad es <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> y el tiempo <emphasis effect="italics">t</emphasis> cuando la velocidad es <m:math><m:mi>v</m:mi></m:math>, tenemos
+<equation id="fs-id1165039331888" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>v</m:mi></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mrow><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>.</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+Por lo tanto,
+<equation id="fs-id1165039448756" class="unnumbered"><label/><m:math><m:mrow><m:mtext>ln</m:mtext><m:mfrac><m:mi>v</m:mi><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+que, dado que <m:math><m:mrow><m:mtext>ln</m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>implica</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mi>A</m:mi><m:mo>,</m:mo></m:mrow></m:math> podemos escribirlo como
+<equation id="fs-id1165035869730" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Ahora, desde la definición de velocidad,
+<equation id="fs-id1165039188486" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+por lo que tenemos
+<equation id="fs-id1165035728192" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Con la posición inicial cero, tenemos
+<equation id="fs-id1165035639973" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>x</m:mi></m:msubsup><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>'</m:mo><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi><m:mo>'</m:mo></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>'</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+y
+<equation id="fs-id1165039028783" class="unnumbered"><label/><m:math><m:mrow><m:msubsup><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>b</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi><m:mo>'</m:mo></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+A medida que aumenta el tiempo, <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> y la posición de la lancha se acerca a un valor límite
+<equation id="fs-id1165035869228" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>máx</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Aunque esto nos dice que la lancha tarda infinidad de tiempo en llegar <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>máx</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> la lancha se detiene efectivamente después de un tiempo razonable. Por ejemplo, en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:mn>10</m:mn><m:mi>m</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>b</m:mi></m:mrow><m:mo>,</m:mo></m:mrow></m:math> tenemos
+<equation id="fs-id1165035924469" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mo>≃</m:mo><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+mientras que también tenemos
+<equation id="fs-id1165033369044" class="unnumbered"><label/><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>máx</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>≃</m:mo><m:mn>0,99995</m:mn><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>máx</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+Por lo tanto, la velocidad y la posición de la lancha han alcanzado esencialmente sus valores finales.</item>
+<item>Con <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext></m:mrow></m:math> tenemos <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>b</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> así que
+<equation id="fs-id1165039392040" class="unnumbered"><label/><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mn>0,25</m:mn><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mn>4,0</m:mn><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+y
+<equation id="fs-id1165039504471" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>b</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mtext>-1</m:mtext></m:mrow></m:msup><m:mo>=</m:mo><m:mn>0,14</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mtext>-1</m:mtext></m:mrow></m:msup><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+Ahora la posición límite del barco es
+<equation id="fs-id1165035858807" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>máx</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>0,14</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mtext>−1</m:mtext></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>29</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1165033374126"><title>Importancia</title>
+En los dos ejemplos anteriores, hallamos valores "límite". La velocidad límite es la misma que la velocidad terminal, que es la velocidad del objeto que cae después de un tiempo (relativamente) largo. Del mismo modo, la distancia límite de la lancha es la distancia que la lancha recorrerá después de que haya transcurrido una gran cantidad de tiempo. Debido a las propiedades del decaimiento exponencial, el tiempo necesario para alcanzar cualquiera de estos valores no es en realidad demasiado largo (¡ciertamente no es un tiempo infinito!), pero se encuentran rápidamente para llevar el límite al infinito.</para>
+</example>
+<note id="fs-id1165039483104" class="check-understanding">
+<exercise id="fs-id1165035859767">
+<problem id="fs-id1165036153052">
+<para id="fs-id1165035673258"> Supongamos que la fuerza de resistencia del aire sobre un paracaidista puede aproximarse mediante <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>b</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Si la velocidad terminal de un paracaidista de 100 kg es de 60 m/s, ¿cuál es el valor de b?</para>
+</problem>
+<solution id="fs-id1165036146724">
+<para id="fs-id1165039425318">0,27 kg/m</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1165039277022" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1165035867590" list-type="bulleted" bullet-style="bullet">
+<item>Las fuerzas de arrastre que actúan sobre un objeto que se mueve en un fluido se oponen al movimiento. Para objetos más grandes (como una pelota de béisbol) que se mueven a una velocidad en el aire, la fuerza de arrastre se determina con el coeficiente de arrastre (los valores típicos se dan en la <link target-id="fs-id1165035723394"/>), el área del objeto que se enfrenta al fluido y la densidad del fluido.</item>
+<item>Para objetos pequeños (como una bacteria) que se mueven en un medio más denso (como el agua), la fuerza de arrastre viene dada por la ley de Stokes.</item>
+</list>
+</section>
+<section id="fs-id1165035743931" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1170902765576" class="unnumbered unstyled" summary="This table gives the following formulae: Magnitude of static friction, f subscript s is less than or equal to mu subscript s N; Magnitude of kinetic friction, f subscript k equal to mu subscript k N; Centripetal force, F subscript C equal to m v squared by r or F subscript C equal to m r omega squared; Ideal angle of a banked curve, tan theta equal to v squared by rg; Drag force, F subscript D equal to half C rho A v squared; Stokes’ law, F subscript S equal to 6 pi r eta v.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Magnitud de la fricción estática</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mi>N</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnitud de la fricción cinética</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>k</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mi>k</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Fuerza centrípeta</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mspace width="0.5em"/><m:mtext>o</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>r</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ángulo ideal de una curva con peralte</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>r</m:mi><m:mi>g</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Fuerza de arrastre</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>D</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>C</m:mi><m:mi>ρ</m:mi><m:mi>A</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ley de Stokes</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>η</m:mi><m:mi>v</m:mi></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1165035772600" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1165036157277">
+<problem id="fs-id1165038999340">
+<para id="fs-id1165036144143">Los atletas, como los nadadores y los ciclistas, llevan trajes de cuerpo entero en competición. Formule una lista de los pros y los contras de estos trajes.</para>
+</problem>
+<solution id="fs-id1165035687890">
+<para id="fs-id1165035695370">Entre los pros de usar trajes de cuerpo entero se encuentran: (1) el traje de cuerpo entero reduce la fuerza de arrastre sobre el nadador y el deportista puede moverse con más facilidad; (2) la estrechez del traje de cuerpo entero reduce el área del deportista, y aunque sea una cantidad pequeña, puede marcar la diferencia en el tiempo de rendimiento. Los contras de usar trajes de cuerpo entero son: (1) la estrechez de los trajes puede provocar calambres y problemas respiratorios. (2) Se retendrá el calor y, por ende, el atleta podría sobrecalentarse durante mucho tiempo de uso.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039276994">
+<problem id="fs-id1165039512659">
+<para id="fs-id1165039079000">Se utilizaron dos expresiones para la fuerza de arrastre experimentada por un objeto en movimiento en un líquido. Uno dependía de la rapidez, mientras que el otro era proporcional al cuadrado de la rapidez. ¿En qué tipo de movimiento sería más aplicable cada una de estas expresiones que la otra?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036143556">
+<problem id="fs-id1165036148102">
+<para id="fs-id1165035639634">Cuando los autos circulan, el aceite y la gasolina se filtran en la superficie de la carretera. Si cae una lluvia ligera, ¿qué le hace al control del auto? ¿La lluvia fuerte hace alguna diferencia?</para>
+</problem>
+<solution id="fs-id1165039104764">
+<para id="fs-id1165035860685">El aceite es menos denso que el agua, por lo que sube a la superficie cuando cae una lluvia ligera y se acumula en la carretera. Esto crea una situación peligrosa en la que la fricción disminuye considerablemente, por lo que el auto puede perder el control. En caso de lluvia intensa, el aceite se dispersa y no afecta tanto al movimiento de los autos.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035977406">
+<problem id="fs-id1165039391020">
+<para id="fs-id1165039291834">¿Por qué una ardilla puede saltar desde la rama de un árbol hasta el suelo y salir corriendo sin sufrir daños, mientras que un humano podría fracturarse un hueso en una caída así?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165039390902" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1165039251723">
+<problem id="fs-id1165039092545">
+<para id="fs-id1165035682260">La velocidad límite de una persona que cae en el aire depende del peso y del área de la persona frente al fluido. Halle la velocidad límite (en metros por segundo y kilómetros por hora) de un paracaidista de 80,0 kg que cae de cabeza con una superficie de <m:math><m:mrow><m:mn>0,140</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para></problem>
+<solution id="fs-id1165039424273">
+<para id="fs-id1165039088988">115 m/s o 414 km/h</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035906453">
+<problem id="fs-id1165036153774">
+<para id="fs-id1165035682242">Un paracaidista de 60,0 kg y otro de 90,0 kg saltan desde un avión a una altura de <m:math><m:mrow><m:mn>6,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>m</m:mtext></m:mrow></m:math>, ambos caen de cabeza. Haga algunas suposiciones sobre sus áreas frontales y calcule sus velocidades límites. ¿Cuánto tiempo tardará cada paracaidista en llegar al suelo (suponiendo que el tiempo para alcanzar la velocidad límite es pequeño)? Asuma que todos los valores son precisos con tres dígitos significativos.</para></problem>
+</exercise>
+<exercise id="fs-id1165036158571">
+<problem id="fs-id1165039458614">
+<para id="fs-id1165035663631">Una ardilla de 560 g con una superficie de <m:math><m:mrow><m:mn>930</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> cae desde un árbol de 5,0 m al suelo. Calcule su velocidad límite. (Utilice un coeficiente de arrastre para un paracaidista horizontal). ¿Cuál será la velocidad de una persona de 56 kg al chocar contra el suelo, suponiendo que no hay contribución del arrastre en una distancia tan corta?</para>
+</problem>
+<solution id="fs-id1165039463943">
+<para id="fs-id1165035944344"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>T</m:mtext></m:msub><m:mo>=</m:mo><m:mn>11,8</m:mn><m:mspace width="0.2em"/><m:mtext>m/s;</m:mtext><m:msub><m:mtext>v</m:mtext><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>9,9</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1165039111535">
+<problem id="fs-id1165036148072">
+<para id="fs-id1165036141290">Para mantener una rapidez constante, la fuerza proporcionada por el motor de un auto deberá ser igual a la fuerza de arrastre más la fuerza de fricción de la carretera (la resistencia a la rodadura). (a) ¿Cuáles son las fuerzas de arrastre a 70 km/h y a 100 km/h para un Toyota Camry? (El área de arrastre es <m:math><m:mrow><m:mn>0,70</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) b) ¿Cuál es la fuerza de arrastre a 70 km/h y a 100 km/h de una Hummer H2? (El área de arrastre es <m:math><m:mrow><m:mn>2,44</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math> Asuma que todos los valores son precisos con tres dígitos significativos.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039477110">
+<problem id="fs-id1165039103252">
+<para id="fs-id1165039312187">¿En qué factor aumenta la fuerza de arrastre de un auto cuando pasa de 65 a 110 km/h?</para>
+</problem>
+<solution id="fs-id1165039237992">
+<para id="fs-id1165039414436"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>110</m:mn></m:mrow><m:mrow><m:mn>65</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2,86</m:mn></m:mrow></m:math> veces</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035834936">
+<problem id="fs-id1165036080908">
+<para id="fs-id1165035939537">Calcule la velocidad que alcanzaría una gota de lluvia esférica que cae desde 5,00 km (a) en ausencia de arrastre del aire (b) con arrastre del aire. Tomemos que el tamaño de la gota es de 4 mm y la densidad es de <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>, y el área de superficie como <m:math><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039434228">
+<problem id="fs-id1165036152519">
+<para id="fs-id1165035698600">Utilizando la ley de Stokes, verifique que las unidades de la viscosidad sean kilogramos por metro por segundo.</para>
+</problem>
+<solution id="fs-id1165035692202">
+<para id="fs-id1165035685783">La ley de Stokes es <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>η</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math> Al resolver la viscosidad, <m:math><m:mrow><m:mi>η</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>v</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Considerando solo las unidades, esto se convierte en <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mi>η</m:mi><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039415482">
+<problem id="fs-id1165039292226">
+<para id="fs-id1165035730440">Halle la velocidad límite de una bacteria esférica (diámetro <m:math><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mtext>μm</m:mtext></m:mrow></m:math>) que cae en el agua. En primer lugar, debe tener en cuenta que la fuerza de arrastre es igual al peso a velocidad límite. Tome la densidad de la bacteria como <m:math><m:mrow><m:mn>1,10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039396162">
+<problem id="fs-id1165039423411">
+<para id="fs-id1165039028296">La ley de Stokes describe la sedimentación de las partículas en los líquidos y puede utilizarse para medir la viscosidad. Las partículas en los líquidos alcanzan rápidamente la velocidad límite. Se puede medir el tiempo que tarda una partícula en caer una determinada distancia y luego utilizar la ley de Stokes para calcular la viscosidad del líquido. Supongamos que un rodamiento de bolas de acero (densidad <m:math><m:mrow><m:mn>7,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>, de 3,0 mm de diámetro) se deja caer en un recipiente con aceite de motor. Tarda 12 s en caer una distancia de 0,60 m. Calcule la viscosidad del aceite.</para>
+</problem>
+<solution id="fs-id1165035731597">
+<para id="fs-id1165039513008"><m:math><m:mrow><m:mn>0,76</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165033377748">
+<problem id="fs-id1165039192558">
+<para id="fs-id1165036153540">Supongamos que la fuerza de resistencia del aire sobre un paracaidista puede aproximarse por <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>b</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Si la velocidad límite de un paracaidista de 50,0 kg es de 60,0 m/s, ¿cuál es el valor de <emphasis effect="italics">b</emphasis>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035732089">
+<problem id="fs-id1165035938648">
+<para id="fs-id1165036151480">Un pequeño diamante de masa 10,0 g se desprende del pendiente de una nadadora y cae por el agua, hasta alcanzar una velocidad límite de 2,0 m/s. (a) Suponiendo que la fuerza de fricción sobre el diamante obedece a <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> ¿cuánto es <emphasis effect="italics">b</emphasis>? (b) ¿A qué distancia cae el diamante antes de alcanzar el 90 % de su velocidad límite?</para>
+</problem>
+<solution id="fs-id1165035859851">
+<para id="fs-id1165039454246">a. 0,049 kg/s; b. 0,57 m</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1165035682534" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1165039345130">
+<problem id="fs-id1165038989787">
+<para id="fs-id1165033370856">(a) ¿Cuál es la velocidad final de un auto que originalmente viajaba a 50,0 km/h y que desacelera a una tasa de <m:math><m:mrow><m:mn>0,400</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> durante 50,0 s? Supongamos un coeficiente de fricción de 1,0. (b) ¿Qué es lo poco razonable del resultado? (c) ¿Qué premisa es poco razonable o qué premisas son incompatibles?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035761606">
+<problem id="fs-id1165035729743">
+<para id="fs-id1165039464292">Una mujer de 75,0 kg se sube a una báscula de baño en un elevador que acelera desde el reposo hasta 30,0 m/s en 2,00 s. (a) Calcule la lectura de la báscula en newtons y compárela con su peso. (La báscula ejerce sobre ella una fuerza ascendente igual a su lectura). (b) ¿Qué es lo poco razonable del resultado? (c) ¿Qué premisa es poco razonable, o qué premisas son incompatibles?</para>
+</problem>
+<solution id="fs-id1165036145269">
+<para id="fs-id1165035712091">a. 1.860 N, 2,53; b. El valor (1.860 N) es más fuerza de la que se espera experimentar en un elevador. La fuerza de 1.860 N es de 418 libras, comparada con la fuerza en un elevador típico de 904 N (que son unas 203 libras); esto se calcula para una velocidad de 0 a 10 millas por hora, que son unos 4,5 m/s, en 2,00 s). c. La aceleración <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1,53</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>g</m:mi></m:mrow></m:math> es mucho más alta que cualquier elevador estándar. ¡La rapidez final es demasiado grande (30,0 m/s es MUY rápido)! El tiempo de 2,00 s no es poco razonable para un elevador.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039351979">
+<problem id="fs-id1165039241179">
+<para id="fs-id1165039396054">(a) Calcule el coeficiente de fricción mínimo necesario para que un auto recorra una curva de 50,0 m de radio sin peralte a 30,0 m/s. (b) ¿Qué es lo poco razonable del resultado? (c) ¿Qué premisas son absurdas o incompatibles?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036006942">
+<problem id="fs-id1165035863813">
+<para id="fs-id1165039411492">Como se muestra a continuación, si <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>5,50</m:mn><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> ¿cuál es la tensión de la cuerda 1?</para>
+<media id="fs-id1165035723285" alt="La masa M está suspendida de las cuerdas 1 y 2. La cuerda 1 se conecta a una pared en un punto por debajo y hacia la izquierda de la masa. La cuerda 1 forma un ángulo de 40 grados por debajo de la horizontal. La cuerda 2 se conecta a un techo en un punto por encima y hacia la derecha de la masa. La cuerda 2 forma un ángulo de 40 grados hacia la derecha de la vertical.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP1_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039237078">
+<para id="fs-id1165039442974">199 N</para></solution>
+</exercise>
+<exercise id="fs-id1165038979966">
+<problem id="fs-id1165035641506">
+<para id="fs-id1165035721482">Como se muestra a continuación, si <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>60,0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> ¿cuál es la magnitud de la aceleración del objeto suspendido? Todas las superficies son sin fricción.</para>
+<media id="fs-id1165039112562" alt="Se muestran dos bloques. Un bloque, marcado como 2 M está en una mesa horizontal. Una fuerza F hala el bloque de 2 M hacia arriba y hacia la izquierda en un ángulo de 30 grados sobre la horizontal. En el lado opuesto, el bloque está atado a una cuerda que hala este hacia la derecha. La cuerda pasa por encima de una polea en el borde de la mesa, luego cuelga directamente hacia abajo y se ata al segundo bloque, marcado como M. El bloque 2 no está en contacto con la rampa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP2_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165035615426">
+<problem id="fs-id1165035868420">
+<para id="fs-id1165035939480">Como se muestra a continuación, si <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> ¿cuál es la tensión de la cuerda de conexión? La polea y todas las superficies no tienen fricción.</para>
+<media id="fs-id1165039485639" alt="Dos bloques, ambos de masa M, están unidos por una cuerda que pasa por una polea entre los bloques. El bloque superior está en una superficie que se inclina hacia abajo y hacia la derecha en un ángulo de 30 grados con respecto a la horizontal. La polea se fija en la esquina de la parte inferior de la pendiente, donde la superficie se dobla y desciende verticalmente. La masa inferior cuelga hacia abajo. No está en contacto con la superficie.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP3_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039266756">
+<para id="fs-id1165039312716">15 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039103753">
+<problem id="fs-id1165035676708">
+<para id="fs-id1165039337931">Una pequeña sonda espacial es liberada de una nave espacial. La sonda espacial tiene una masa de 20,0 kg y contiene 90,0 kg de combustible. Parte del reposo en el espacio profundo, desde el origen de un sistema de coordenadas basado en la nave espacial, y quema combustible a razón de 3,00 kg/s. El motor proporciona un empuje constante de 120,0 N. (a) Escriba una expresión para la masa de la sonda espacial en función del tiempo, entre 0 y 30 segundos, suponiendo que el motor encienda el combustible a partir de <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> (b) ¿Cuál es la velocidad después de 15,0 s? (c) ¿Cuál es la posición de la sonda espacial después de 15,0 s, con la posición inicial en el origen? (d) Escriba una expresión para la posición en función del tiempo, para <m:math><m:mrow><m:mi>t</m:mi><m:mo>&gt;</m:mo><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039109864">
+<problem id="fs-id1165039367916">
+<para id="fs-id1165035868296">Un contenedor de reciclaje medio lleno tiene una masa de 3,0 kg y es empujado hacia arriba por una pendiente de <m:math><m:mrow><m:mn>40,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con rapidez constante bajo la acción de una fuerza de 26 N que actúa hacia arriba y paralela a la pendiente. La pendiente tiene fricción. ¿Qué magnitud de fuerza debe actuar hacia arriba y en paralelo a la pendiente para que el contenedor se mueva hacia abajo con velocidad constante?</para>
+</problem>
+<solution id="fs-id1165035758540">
+<para id="fs-id1165039110476">12 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039268406">
+<problem id="fs-id1165035866354">
+<para id="fs-id1165039353641">Un niño tiene una masa de 6,0 kg y se desliza por una pendiente de <m:math><m:mrow><m:mn>35</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con rapidez constante bajo la acción de una fuerza de 34 N que actúa hacia arriba y paralela a la inclinación. ¿Cuál es el coeficiente de fricción cinética entre el niño y la superficie de la pendiente?</para>
+</problem>
+</exercise>
+
+<exercise id="fs-id1165039234785">
+<problem id="fs-id1165039219140">
+<para id="fs-id1165036160772">Las dos barcazas mostradas aquí están acopladas por un cable de masa despreciable. La masa de la barcaza de adelante es <m:math><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> y la masa de la barcaza de atrás es <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Un remolcador hala la barcaza de adelante con una fuerza horizontal de magnitud <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N,</m:mtext></m:mrow></m:math> y las fuerzas de fricción del agua sobre las barcazas de adelante y atrás son <m:math><m:mrow><m:mn>8,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N,</m:mtext></m:mrow></m:math> respectivamente. Halle la aceleración horizontal de las barcazas y la tensión en el cable de conexión.</para>
+<media id="fs-id1165033379354" alt="Ilustración de un remolcador halando dos barcazas. La barcaza unida directamente al remolcador tiene una masa de 2,00 por 10 al tercio kilogramos. La barcaza del final, detrás de la primera barcaza, tiene una masa de 3,00 por 10 al tercio kilogramos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_01_P25_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039100454">
+<para id="fs-id1165036081064"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mn>0,40</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>11,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036035448">
+<problem id="fs-id1165038990654">
+<para id="fs-id1165035669137">Si se invierte el orden de las barcazas del ejercicio anterior para que el remolcador hale la barcaza de <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>kg</m:mtext></m:mrow></m:math> con una fuerza de <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>,</m:mo></m:mrow></m:math> ¿cuál es la aceleración de las barcazas y la tensión en el cable de acoplamiento?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039027173">
+<problem id="fs-id1165039293063">
+<para id="fs-id1165039296223">Un objeto con masa <emphasis effect="italics">m</emphasis> se mueve a lo largo del eje de la <emphasis effect="italics">x</emphasis>. Su posición en cualquier momento viene dada por <m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mi>q</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> donde <emphasis effect="italics">p</emphasis> y <emphasis effect="italics">q</emphasis> son constantes. Halle la fuerza neta sobre este objeto para cualquier tiempo <emphasis effect="italics">t</emphasis>.</para>
+</problem>
+<solution id="fs-id1165036084223">
+<para id="fs-id1165036084654"><emphasis effect="italics">m</emphasis>(6<emphasis effect="italics">pt</emphasis> + 2<emphasis effect="italics">q</emphasis>)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039335542">
+<problem id="fs-id1165035792005">
+<para id="fs-id1165039352836">Un helicóptero con masa <m:math><m:mrow><m:mn>2,35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> tiene una posición dada por <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,020</m:mn><m:mspace width="0.2em"/><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,2</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>-</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,060</m:mn><m:mspace width="0.2em"/><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Halle la fuerza neta sobre el helicóptero en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039453675">
+<problem id="fs-id1165035980452">
+<para id="fs-id1165035688942">Situado en el origen, un auto eléctrico de masa <emphasis effect="italics">m</emphasis> está en reposo y en equilibrio. Una fuerza dependiente del tiempo de <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> se aplica en el tiempo <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, y sus componentes son <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>t</m:mi></m:mrow></m:math> donde <emphasis effect="italics">p</emphasis>, <emphasis effect="italics">q</emphasis> y <emphasis effect="italics">n</emphasis> son constantes. Halle la posición <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> y la velocidad <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> en función del tiempo <emphasis effect="italics">t</emphasis>.</para>
+</problem>
+<solution id="fs-id1165039302241">
+<para id="fs-id1165039250433"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mi>t</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>q</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> y <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>q</m:mi><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1165033378093">
+<problem id="fs-id1165039402799">
+<para id="fs-id1165035867149">Una partícula de masa <emphasis effect="italics">m</emphasis> se encuentra en el origen. Está en reposo y en equilibrio. Una fuerza dependiente del tiempo de <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> se aplica en el tiempo <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, y sus componentes son <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mi>t</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mi>t</m:mi></m:mrow></m:math> donde <emphasis effect="italics">p</emphasis>, <emphasis effect="italics">q</emphasis> y <emphasis effect="italics">n</emphasis> son constantes. Halle la posición <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> y la velocidad <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> en función del tiempo <emphasis effect="italics">t</emphasis>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035661242">
+<problem id="fs-id1165035639346">
+<para id="fs-id1165035662853">Un objeto de 2,0 kg tiene una velocidad de <m:math><m:mrow><m:mn>4,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> Una fuerza resultante constante de <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>4,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> actúa entonces sobre el objeto durante 3,0 s. ¿Cuál es la magnitud de la velocidad del objeto al final del intervalo de 3,0 s?</para>
+</problem>
+<solution id="fs-id1165039391048">
+<para id="fs-id1165039312561">9,2 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035975760">
+<problem id="fs-id1165039234284">
+<para id="fs-id1165039323978">Una masa de 1,5 kg tiene una aceleración de <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>-</m:mo><m:mn>3,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Solamente dos fuerzas actúan sobre la masa. Si una de las fuerzas es <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>-</m:mo><m:mn>1,4</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>N,</m:mtext></m:mrow></m:math> ¿cuál es la magnitud de la otra fuerza?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035669542">
+<problem id="fs-id1165036075410">
+<para id="fs-id1165039345662">Se deja caer una caja sobre una cinta transportadora que se mueve a 3,4 m/s. Si el coeficiente de fricción entre la caja y la correa es de 0,27, ¿cuánto tiempo tardará la caja en moverse sin resbalar?</para>
+</problem>
+<solution id="fs-id1165039441007">
+<para id="fs-id1165036077668">1,3 s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039426530">
+<problem id="fs-id1165033371416">
+<para id="fs-id1165039273532">A continuación, se muestra un bloque de 10,0 kg empujado por una fuerza horizontal <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> de magnitud 200,0 N. El coeficiente de fricción cinética entre las dos superficies es de 0,50. Calcule la aceleración del bloque.</para>
+<media id="fs-id1165039091495" alt="Ilustración de un bloque de 10,0 kilogramos que es empujado hacia una pendiente por una fuerza horizontal F. La pendiente forma un ángulo hacia arriba y hacia la derecha de 30 grados con respecto a la horizontal y la fuerza F apunta hacia la derecha.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_02_P25_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165035865609">
+<problem id="fs-id1165038974227">
+<para id="fs-id1165036162461">Como se muestra a continuación, la masa del bloque 1 es <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> mientras que la masa del bloque 2 es <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> El coeficiente de fricción entre <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y la superficie inclinada es <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0,40</m:mn><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la aceleración del sistema?</para>
+<media id="fs-id1165035730256" alt="El bloque 1 está en una rampa inclinada hacia arriba y hacia la derecha en un ángulo de 37 grados sobre la horizontal. Está atado a una cuerda que pasa por encima de una polea en la parte superior de la rampa, luego cuelga directamente hacia abajo y se conecta al bloque 2. El bloque 2 no está en contacto con la rampa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_02_P26_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165036151286">
+<para id="fs-id1165039445369"><m:math><m:mrow><m:mn>3,5</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1165039114252">
+<problem id="fs-id1165033370832">
+<para id="fs-id1165035946630">Una estudiante intenta trasladar una mininevera de 30 kg a su dormitorio. Durante un momento de desatención, la mininevera se desliza por una pendiente de 35 grados a rapidez constante cuando ella aplica una fuerza de 25 N que actúa hacia arriba y en paralelo a la pendiente. ¿Cuál es el coeficiente de fricción cinética entre la nevera y la superficie de la pendiente?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039077028">
+<problem id="fs-id1165039398265">
+<para id="fs-id1165035640986">Una caja de 100,0 kg de masa descansa sobre una superficie rugosa inclinada con un ángulo de <m:math><m:mrow><m:mn>37,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con la horizontal. Una cuerda sin masa a la que se puede aplicar una fuerza paralela a la superficie está unida a la caja y conduce a la parte superior de la pendiente. En su estado actual, la caja está a punto de resbalar y empezar a bajar por el plano. El coeficiente de fricción es <m:math><m:mrow><m:mn>80</m:mn><m:mi>%</m:mi></m:mrow></m:math> de eso para el caso estático. (a) ¿Cuál es el coeficiente de fricción estática? (b) ¿Cuál es la fuerza máxima que puede aplicarse hacia arriba a lo largo del plano en la cuerda y no mover el bloque? (c) Con una fuerza aplicada ligeramente mayor, el bloque se deslizará hacia arriba en el plano. Una vez que comienza a moverse, ¿cuál es su aceleración y qué fuerza reducida es necesaria para mantenerlo en movimiento hacia arriba a rapidez constante? (d) Si se le da un ligero empujón al bloque para que comience a descender por el plano, ¿cuál será su aceleración en esa dirección? (e) Una vez que el bloque comienza a deslizarse hacia abajo, ¿qué fuerza ascendente sobre la cuerda es necesaria para evitar que el bloque acelere hacia abajo?</para>
+</problem>
+<solution id="fs-id1165038998256">
+<para id="fs-id1165035680752">a. 0,75; b. 1.200 N; c <m:math><m:mrow><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y 1080 N; d. <m:math><m:mrow><m:mn>−1,2</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> e. 120 N</para></solution>
+</exercise>
+<exercise id="fs-id1165039470299">
+<problem id="fs-id1165039297163">
+<para id="fs-id1165039079533">Un auto circula a gran rapidez por una autopista cuando el conductor frena de emergencia. Las ruedas se bloquean (dejan de rodar), y las marcas de derrape tienen una longitud de 32,0 metros. Si el coeficiente de fricción cinética entre los neumáticos y la carretera es de 0,550, y la aceleración fue constante durante el frenado, ¿a qué velocidad iba el auto cuando se bloquearon las ruedas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039446833">
+<problem id="fs-id1165035610527">
+<para id="fs-id1165039376043">Una caja con una masa de 50,0 kg cae horizontalmente desde la parte trasera del camión de plataforma, que se desplaza a 100 km/h. Calcule el valor del coeficiente de fricción cinética entre la carretera y la caja si esta se desliza 50 m sobre la carretera al llegar al reposo. La rapidez inicial de la caja es la misma que la del camión, 100 km/h.</para>
+<media id="fs-id1165036158315" alt="La figura muestra un camión que se desplaza hacia la derecha a 100 kilómetros por hora y una caja de 50 kilos en el suelo detrás del camión.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_02_P30ans_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165038999486">
+<para id="fs-id1165039302278">0,789</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039111122">
+<problem id="fs-id1165039074000">
+<para id="fs-id1165039392702">Un trineo de 15 kg es halado por una superficie horizontal cubierta de nieve mediante una fuerza aplicada a una cuerda a 30 grados con la horizontal. El coeficiente de fricción cinética entre el trineo y la nieve es de 0,20. (a) Si la fuerza es de 33 N, ¿cuál es la aceleración horizontal del trineo? (b) ¿Cuál debe ser la fuerza para halar el trineo a velocidad constante?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039446792">
+<problem id="fs-id1165036146754">
+<para id="fs-id1165039422312">Una bola de 30,0 g en el extremo de una cuerda se balancea en un círculo vertical con un radio de 25,0 cm. La velocidad tangencial es de 200,0 cm/s. Halle la tensión en la cuerda: (a) en la parte superior del círculo, (b) en la parte inferior del círculo, y (c) a una distancia de 12,5 cm del centro del círculo <m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>12,5</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1165035617314">
+<para id="fs-id1165038988627">a. 0,186 N; b. 0,774 N; c. 0,48 N</para></solution>
+</exercise>
+<exercise id="fs-id1165035619639">
+<problem id="fs-id1165036154120">
+<para id="fs-id1165039003350">Una partícula de masa 0,50 kg comienza a moverse por una trayectoria circular en el plano <emphasis effect="italics">xy</emphasis> con una posición dada por <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> donde <emphasis effect="italics">r</emphasis> está en metros y <emphasis effect="italics">t</emphasis> está en segundos. (a) Halle los vectores velocidad y aceleración en función del tiempo. (b) Demuestre que el vector de aceleración siempre apunta hacia el centro del círculo (y por tanto representa la aceleración centrípeta). (c) Halle el vector de fuerza centrípeta como función del tiempo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039274986">
+<problem id="fs-id1165039371171">
+<para id="fs-id1165035869114">Un ciclista de acrobacia circula por el interior de un cilindro de 12 m de radio. El coeficiente de fricción estática entre los neumáticos y la pared es de 0,68. Calcule el valor de la rapidez mínima para que el ciclista realice la acrobacia.</para>
+</problem>
+<solution id="fs-id1165036141382">
+<para id="fs-id1165033377982">13 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035662464">
+<problem id="fs-id1165039401204">
+<para id="fs-id1165039046569">Cuando un cuerpo de masa de 0,25 kg está unido a un resorte vertical sin masa, se extiende 5,0 cm desde su longitud no estirada de 4,0 cm. El cuerpo y el resorte se colocan en una superficie horizontal sin fricción y se hace rotar alrededor del extremo del resorte sostenido a 2,0 rev/s. ¿Hasta dónde se estira el resorte?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035654187">
+<problem id="fs-id1165038993163">
+<para id="fs-id1165039297494">Un trozo de tocino se desliza por la sartén cuando un lado de esta se eleva 5,0 cm. Si la longitud de la sartén desde el pivote hasta el punto de elevación es de 23,5 cm, ¿cuál es el coeficiente de fricción estática entre la sartén y el tocino?</para></problem>
+<solution id="fs-id1165035785562">
+<para id="fs-id1165039295147">0,21</para></solution>
+</exercise>
+<exercise id="fs-id1165039317700">
+<problem id="fs-id1165039297475">
+<para id="fs-id1165035733788">Una plomada cuelga del techo de un vagón de ferrocarril. El auto rodea una pista circular de radio 300,0 m a una rapidez de 90,0 km/h. ¿Con qué ángulo con respecto a la vertical cuelga la plomada?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036081646">
+<problem id="fs-id1165039300224">
+<para id="fs-id1165035870165">Un avión vuela a 120,0 m/s y se inclina a un ángulo de <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. Si su masa es <m:math><m:mrow><m:mn>2,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> (a) ¿Cuál es la magnitud de la fuerza de sustentación? (b) ¿Cuál es el radio del giro?</para>
+</problem>
+<solution id="fs-id1165039351339">
+<para id="fs-id1165039311841">a. 28.300 N; b. 2540 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039443997">
+<problem id="fs-id1165035633482">
+<para id="fs-id1165036147875">La posición de una partícula viene dada por <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mi>ω</m:mi></m:math> es una constante. (a) Demuestre que la partícula se mueve en un círculo de radio <emphasis effect="italics">A</emphasis>. (b) Calcule <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:math> y luego muestre que la rapidez de la partícula es una constante <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mi>ω</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> (c) Determine <m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math> y muestre que <emphasis effect="italics">a</emphasis> viene dada por<m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> (d) Calcule la fuerza centrípeta sobre la partícula. [<emphasis effect="italics">Pista</emphasis>: Para (b) y (c), tendrá que utilizar <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mi>d</m:mi><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mi>d</m:mi><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>ω</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039504554"><problem id="fs-id1165035635058">
+<para id="fs-id1165039073034">Dos bloques unidos por una cuerda son arrastrados a través de una superficie horizontal por una fuerza aplicada a uno de los bloques, como se muestra a continuación. El coeficiente de fricción cinética entre los bloques y la superficie es de 0,25. Si cada bloque tiene una aceleración de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> hacia la derecha, ¿cuál es la magnitud <emphasis effect="italics">F</emphasis> de la fuerza aplicada?</para>
+<media id="fs-id1165035715506" alt="Dos bloques, de 1,0 kilogramos a la izquierda y de 3,0 kilogramos a la derecha, están unidos por una cuerda y se encuentran sobre una superficie horizontal. La fuerza F actúa sobre la masa de 3,0 kilogramos y apunta hacia arriba y hacia la derecha en un ángulo de 60 grados sobre la horizontal.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_06_04_AP7_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039504249">
+<para id="fs-id1165039504252">25 N</para>
+</solution>
+</exercise><exercise id="fs-id1165039479037">
+<problem id="fs-id1165035646533">
+<para id="fs-id1165035646536">Como se muestra a continuación, el coeficiente de fricción cinética entre la superficie y el bloque más grande es de 0,20, y el coeficiente de fricción cinética entre la superficie y el bloque más pequeño es de 0,30. Si <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>, ¿cuál es la tensión de la cuerda de conexión?</para>
+<media id="fs-id1165039351827" alt="Dos bloques, 2 M a la izquierda y M a la derecha, están unidos por una cuerda y se encuentran en una superficie horizontal. La fuerza F actúa sobre M y apunta hacia la derecha.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP8_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165036007610">
+<problem id="fs-id1165035664399">
+<para id="fs-id1165035664401">En la figura, el coeficiente de fricción cinética entre la superficie y los bloques es <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Si <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> halle una expresión para la magnitud de la aceleración de cualquiera de los bloques (en términos de <emphasis effect="italics">F</emphasis>, <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> y <emphasis effect="italics">g</emphasis>).</para>
+<media id="fs-id1165035748378" alt="Dos bloques, M a la izquierda y 3 M a la derecha, están unidos por una cuerda y se encuentran en una superficie horizontal. Se indican las siguientes fuerzas: f sub k 2 que actúa sobre M y apunta hacia la derecha, f sub k 1 que actúa sobre 3 M y apunta hacia la derecha, F que actúa sobre 3 M y apunta hacia la izquierda, N sub 2 que actúa sobre M y apunta hacia arriba, N sub 1 que actúa sobre 3 M y apunta hacia arriba, M g que actúa sobre M y apunta hacia abajo, 3 M g que actúa sobre 3 M y apunta hacia abajo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP9_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165035700051">
+<para id="fs-id1165039305558"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mn>4</m:mn></m:mfrac><m:mo>-</m:mo><m:msub><m:mi>μ</m:mi><m:mi>k</m:mi></m:msub><m:mi>g</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035662213">
+<problem id="fs-id1165039209290">
+<para id="fs-id1165039209292">Dos bloques se apilan como se muestra a continuación, y descansan sobre una superficie sin fricción. Hay fricción entre los dos bloques (coeficiente de fricción <m:math><m:mi>μ</m:mi></m:math>). Se aplica una fuerza externa al bloque superior en un ángulo <m:math><m:mi>θ</m:mi></m:math> con la horizontal. ¿Cuál es la fuerza máxima <emphasis effect="italics">F</emphasis> que se puede aplicar para que los dos bloques se muevan juntos?</para>
+<media id="fs-id1165035758924" alt="El bloque rectangular M sub 2 está en una superficie horizontal. El bloque rectangular M sub 1 está encima del bloque M sub 2. Una fuerza F empuja el bloque M sub 1. La fuerza F se dirige hacia abajo y hacia la derecha, en un ángulo theta respecto a la horizontal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP10_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165039496071">
+<problem id="fs-id1165039443360">
+<para id="fs-id1165039433646">Una caja descansa sobre la parte trasera (horizontal) de un camión. El coeficiente de fricción estática entre la caja y la superficie sobre la que se apoya es de 0,24. ¿Qué distancia máxima puede recorrer el camión (partiendo del reposo y moviéndose horizontalmente con aceleración constante) en 3,0 s sin que la caja se deslice?</para>
+</problem>
+<solution id="fs-id1165039247223">
+<para id="fs-id1165039026961">11 m</para></solution>
+</exercise>
+<exercise id="fs-id1165039232615">
+<problem id="fs-id1165039257182">
+<para id="fs-id1165039070262">A continuación, se muestra un plano de doble inclinación. El coeficiente de fricción en la superficie izquierda es de 0,30 y en la derecha de 0,16. Calcule la aceleración del sistema.</para>
+<media id="fs-id1165035627255" alt="Dos carros unidos por una cuerda que pasa por encima de una polea se encuentran a ambos lados de un plano inclinado doble. La cuerda pasa sobre una polea sujeta a la parte superior de la doble inclinación. A la izquierda, la inclinación hace un ángulo de 37 grados con la horizontal y el carro de ese lado tiene una masa de 10 kilogramos. A la derecha, la inclinación hace un ángulo de 53 grados con la horizontal y el carro de ese lado tiene una masa de 15 kilogramos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_04_AP12_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165039325516" class="review-challenge">
+<title>Problemas de desafío</title>
+<exercise id="fs-id1165039026859">
+<problem id="fs-id1165035723079">
+<para id="fs-id1165036007334">En un capítulo posterior, encontrará que el peso de una partícula varía con la altitud de forma que <m:math><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mrow/></m:msup></m:mrow></m:math> es el radio de la Tierra y <emphasis effect="italics">r</emphasis> es la distancia al centro de la Tierra. Si la partícula se dispara verticalmente con velocidad <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mrow/></m:msup></m:mrow></m:math> de la superficie de la Tierra, determine su velocidad en función de la posición <emphasis effect="italics">r</emphasis>. (<emphasis effect="italics">Pista:</emphasis> Utilice <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mrow/></m:msup><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>=</m:mo><m:msup><m:mi>v</m:mi><m:mrow/></m:msup><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> la reordenación mencionada en el texto).</para>
+</problem>
+<solution id="fs-id1165035627931">
+<para id="fs-id1165039303828"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>-</m:mo><m:mfrac><m:mrow><m:msub><m:mi>r</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039315132">
+<problem id="fs-id1165039315134">
+<para id="fs-id1165035926222">Una gran centrifugadora, como la que se muestra a continuación, se utiliza para exponer a los aspirantes a astronautas a aceleraciones similares a las que se experimentan en los lanzamientos de cohetes y en los reingresos a la atmósfera. (a) ¿A qué velocidad angular corresponde una aceleración centrípeta de 10<emphasis effect="italics">g</emphasis> si el piloto se encuentra a 15,0 m del centro de rotación? (b) La jaula del piloto cuelga de un pivote en el extremo del brazo, lo que le permite oscilar hacia fuera durante la rotación, como se muestra en la figura inferior adjunta. En qué ángulo <m:math><m:mi>θ</m:mi></m:math> por debajo de la horizontal colgará la jaula cuando la aceleración centrípeta sea de 10<emphasis effect="italics">g</emphasis>? (<emphasis effect="italics">Pista:</emphasis> El brazo suministra la fuerza centrípeta y soporta el peso de la jaula. Dibuje un diagrama de cuerpo libre de las fuerzas para ver cuál ángulo <m:math><m:mi>θ</m:mi></m:math> debería ser).</para>
+<media id="fs-id1165039487271" alt="(a) Fotografía de una centrifugadora de entrenamiento de alta g. El astronauta se sienta en una jaula al final de un largo brazo que gira en un plano horizontal. (b) Ilustración de la vista superior de la centrifugadora junto con una ilustración de las fuerzas. El diagrama de cuerpo libre muestra el peso, w, que apunta verticalmente hacia abajo y la fuerza F sub brazo apunta hacia arriba y hacia la izquierda. A continuación, se muestran las fuerzas reordenadas para formar un triángulo rectángulo. F sub brazo es la hipotenusa del triángulo que apunta hacia arriba y hacia la izquierda, w es el lado vertical que apunta hacia abajo, y F sub c es la base que apunta hacia la izquierda. La flecha F sub c se muestra entonces por separado con la notación de que el vector F sub c es igual a F sub neta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_P22_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165035646117">
+<problem id="fs-id1165035772540">
+<para id="fs-id1165035772542">Un auto de masa de 1000,0 kg circula por una carretera llana a 100,0 km/h cuando se aplican los frenos. Calcule la distancia de frenado si el coeficiente de fricción cinética de los neumáticos es de 0,500. Ignore la resistencia del aire. (<emphasis effect="italics">Pista:</emphasis> Como lo que interesa es la distancia recorrida y no el tiempo, <emphasis effect="italics">x</emphasis> es la variable independiente deseada y no <emphasis effect="italics">t</emphasis>. Utilice la regla de la cadena para cambiar la variable: <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>v</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1165039314578">
+<para id="fs-id1165035772772">78,7 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035679412">
+<problem id="fs-id1165039494317">
+<para id="fs-id1165039331601">Un avión que vuela a 200,0 m/s realiza un giro que tarda 4,0 min. ¿Qué ángulo de ladeo se requiere? ¿Cuál es el porcentaje de aumento del peso percibido de los pasajeros?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039416120">
+<problem id="fs-id1165035975002">
+<para id="fs-id1165035975004">Un paracaidista se encuentra a una altura de 1.520 m. Tras 10,0 segundos de caída libre, abre su paracaídas y comprueba que la resistencia del aire, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub></m:mrow></m:math>, viene dada por la fórmula <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>b</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <emphasis effect="italics">b</emphasis> es una constante y <emphasis effect="italics">v</emphasis> es la velocidad. Si <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0,750</m:mn><m:mo>,</m:mo></m:mrow></m:math> y la masa del paracaidista es de 82,0 kg, establezca primero las ecuaciones diferenciales para la velocidad y la posición, y luego halle: (a) la rapidez del paracaidista cuando se abre el paracaídas, (b) la distancia caída antes de que se abra el paracaídas, (c) la velocidad límite después de que se abra el paracaídas (calcule la velocidad terminal), y (d) el tiempo que el paracaidista está en el aire después de que se abra el paracaídas.</para>
+</problem>
+<solution id="fs-id1165035992646">
+<para id="fs-id1165035992648">a. 98 m/s; b. 490 m; c. 107 m/s; d. 9,6 s</para></solution>
+</exercise>
+<exercise id="fs-id1165035694730">
+<problem id="fs-id1165035654245">
+<para id="fs-id1165035654247">En un anuncio de televisión, una pequeña cuenta esférica de 4,00 g de masa se libera del reposo en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> en un frasco de champú líquido. Se observa que la velocidad límite es de 2,00 cm/s. Calcule: (a) el valor de la constante <emphasis effect="italics">b</emphasis> en la ecuación <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> y (b) el valor de la fuerza resistiva cuando la cuenta alcanza la velocidad límite.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035685642">
+<problem id="fs-id1165039511826">
+<para id="fs-id1165039511828">Un navegante y una lancha a motor descansan en un lago. Juntos, tienen una masa de 200,0 kg. Si el empuje del motor es una fuerza constante de 40,0 N en la dirección del movimiento, y si la fuerza resistiva del agua es numéricamente equivalente a 2 veces la rapidez <emphasis effect="italics">v</emphasis> de la lancha, plantee y resuelva la ecuación diferencial para encontrar: (a) la velocidad de la lancha en el tiempo <emphasis effect="italics">t</emphasis>; (b) la velocidad límite (la velocidad después de transcurrido un tiempo largo).</para>
+</problem>
+<solution id="fs-id1165035699313">
+<para id="fs-id1165035933452">a. <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>20,0</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>-0,01</m:mn><m:mi>t</m:mi></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>límite</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165039331836">
+<term>fuerza de arrastre</term>
+<meaning id="fs-id1165039450582">fuerza que siempre se opone al movimiento de un objeto en un fluido; a diferencia de la fricción simple, la fuerza de arrastre es proporcional a alguna función de la velocidad del objeto en ese fluido</meaning>
+</definition>
+<definition id="fs-id1165039337073">
+<term>velocidad límite</term>
+<meaning id="fs-id1165035673837">velocidad constante alcanzada por un objeto que cae, que se produce cuando el peso del objeto se equilibra con la fuerza de arrastre hacia arriba</meaning>
+</definition>
+</glossary>
+</document>

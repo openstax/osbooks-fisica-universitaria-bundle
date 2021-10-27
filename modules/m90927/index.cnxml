@@ -1,0 +1,317 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Autoinducción e inductores</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90927</md:content-id>
+  <md:title>Autoinducción e inductores</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Correlacionar la tasa de cambio de la corriente con la emf inducida creada por esa corriente en el mismo circuito.</item>
+<item>Derivar la autoinducción para un solenoide cilíndrico.</item>
+<item>Derivar la autoinducción para un toroide rectangular.</item>
+</list></md:abstract>
+  <md:uuid>d26374ba-2c5d-43d0-b7d5-9f952de1fada</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167133465343">La inductancia mutua surge cuando una corriente en un circuito produce un campo magnético cambiante que induce una emf en otro circuito. Pero, ¿puede el campo magnético afectar a la corriente del circuito original que produjo el campo? La respuesta es sí, y se trata del fenómeno llamado <emphasis effect="italics">autoinducción</emphasis>.</para>
+<section id="fs-id1167132283212">
+<title>Los inductores</title>
+<para id="fs-id1167132606326">La <link target-id="CNX_UPhysics_31_02_Circuit"/> muestra algunas de las líneas de campo magnético que se deben a la corriente en un bucle circular de alambre. Si la corriente es constante, el flujo magnético que atraviesa el bucle también lo es. Sin embargo, si la corriente <emphasis effect="italics">I</emphasis> variara con el tiempo, por ejemplo, inmediatamente después de cerrar el interruptor S, el flujo magnético <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> cambiaría en consecuencia. Entonces la ley de Faraday nos dice que una emf <m:math><m:mi>ε</m:mi></m:math> se induciría en el circuito, donde</para>
+<equation id="fs-id1167132299241"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132394304">Como el campo magnético debido a un alambre conductor de corriente es directamente proporcional a la corriente, el flujo debido a este campo es también proporcional a la corriente; es decir,</para>
+<equation id="fs-id1167133366925"><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>∝</m:mo><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_31_02_Circuit">
+<media id="fs-id1167132576465" alt="La figura muestra una batería, un resistor, un bucle circular de alambre y un interruptor S conectados en serie, formando un circuito cerrado. La corriente I fluye a través de ella. Las líneas de campo magnético B se muestran yendo hacia adentro alrededor del bucle de alambre, siguiendo la regla del pulgar derecho.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Circuit.jpg"/>
+</media>
+<caption>La corriente <emphasis effect="italics">I</emphasis> en el bucle produce un campo magnético.  <emphasis effect="italics">Si</emphasis> variara con el tiempo, el flujo magnético que atraviesa el bucle también variaría y se induciría una emf en el bucle.</caption>
+</figure>
+<para id="fs-id1167133533189">Esto también puede escribirse como</para>
+<equation id="fs-id1167133366048"><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mi>I</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167133409595">donde la constante de proporcionalidad <emphasis effect="italics">L</emphasis> se conoce como la <term>autoinducción</term> del bucle de alambre. Si el bucle tiene <emphasis effect="italics">N</emphasis> vueltas, esta ecuación se convierte en</para>
+<note id="fs-id1167132335938" class="equation-callout">
+<equation id="fs-id1167133805496"><label/><m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167132340403">Por convención, el sentido positivo de la normal al bucle está relacionado con la corriente por la regla de la mano derecha, por lo que en la <link target-id="CNX_UPhysics_31_02_Circuit"/>, la normal apunta hacia abajo. Con esta convención, <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow></m:math> es positivo en la <link target-id="fs-id1167133805496"/>, por lo que <emphasis effect="italics">L siempre tiene un valor positivo</emphasis>.</para>
+<para id="fs-id1167132612397">Para un bucle con <emphasis effect="italics">N</emphasis> vueltas, <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>N</m:mi><m:mi>d</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> por lo que la emf inducida puede escribirse en términos de la autoinducción como</para>
+<note id="fs-id1167132494452" class="equation-callout">
+<equation id="fs-id1167133822340"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133332174">Al utilizar esta ecuación para determinar <emphasis effect="italics">L</emphasis>, lo más fácil es ignorar los signos de <m:math><m:mrow><m:mi>ε</m:mi><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math> y calcular <emphasis effect="italics">L</emphasis> como</para>
+<equation id="fs-id1167133384280" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>ε</m:mi><m:mo>|</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133451962">Como la autoinducción está asociada al campo magnético producido por una corriente, cualquier configuración de conductores posee autoinducción. Por ejemplo, además del bucle de cable, un cable largo y recto tiene autoinducción, al igual que un cable coaxial. El cable coaxial es el más utilizado por la industria de la televisión por cable y también puede encontrarse conectado a su cablemódem. Los cables coaxiales se utilizan por su capacidad de transmitir señales eléctricas con mínimas distorsiones. Los cables coaxiales están formados por dos largos conductores cilíndricos que conducen corriente que a su vez producen una autoinducción que puede tener efectos indeseables</para>
+<para id="fs-id1167133605846">Un elemento de circuito utilizado para proporcionar autoinducción se conoce como <term>inductor</term>. Está representado por el símbolo que se muestra en la <link target-id="CNX_UPhysics_31_02_Inductor"/>, que se asemeja a una bobina de alambre, la forma básica del inductor. La <link target-id="CNX_UPhysics_31_02_Examples"/> muestra varios tipos de inductores utilizados habitualmente en los circuitos.</para>
+<figure id="CNX_UPhysics_31_02_Inductor">
+<media id="fs-id1167132317547" alt="Una línea horizontal hace cuatro bucles completos por debajo de su eje x.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Inductor.jpg"/>
+</media>
+<caption>Símbolo utilizado para representar un inductor en un circuito.</caption>
+</figure>
+<figure id="CNX_UPhysics_31_02_Examples">
+<media id="fs-id1167132586654" alt="Fotografía de una variedad de inductores.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Examples.jpg"/>
+</media>
+<caption>Una variedad de inductores. Tanto si están encapsulados, como los tres primeros mostrados o enrollados en una bobina o como el último, cada uno es simplemente una bobina de alambre relativamente larga (créditos: Windell Oskay).</caption>
+</figure>
+<para id="fs-id1167129103256">De acuerdo con la ley de Lenz, el signo negativo en la <link target-id="fs-id1167133822340"/> indica que la emf inducida a través de un inductor siempre tiene una polaridad que <emphasis effect="italics">se opone</emphasis> al cambio de la corriente. Por ejemplo, si la corriente que fluye de <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis> en la <link target-id="CNX_UPhysics_31_02_Current"/>(a) fuera creciente, la emf inducida (representada por la batería imaginaria) tendría la polaridad mostrada para oponerse al aumento. Si la corriente de <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis> disminuyera, entonces la emf inducida tendría la polaridad opuesta, de nuevo para oponerse al cambio de corriente (<link target-id="CNX_UPhysics_31_02_Current"/>(b)). Por último, si la corriente a través del inductor fuera constante, no se induciría ninguna emf en la bobina.</para>
+<figure id="CNX_UPhysics_31_02_Current">
+<media id="fs-id1167132507892" alt="La figura a muestra una corriente creciente que fluye del punto A al punto B a través de una bobina. Se muestra una batería imaginaria con su terminal positivo hacia A y el negativo hacia B. La figura b muestra una corriente decreciente que fluye desde el punto A al punto B a través de una bobina. Se muestra una batería imaginaria con su terminal negativo hacia A y el positivo hacia B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Current.jpg"/>
+</media>
+<caption>La emf inducida a través de un inductor siempre actúa para oponerse al cambio de la corriente. Esto puede visualizarse como una batería imaginaria que hace fluir la corriente para oponerse al cambio en (a) y reforzar el cambio en (b).</caption>
+</figure>
+<para id="fs-id1167133698055">Una aplicación común de la inductancia es permitir que <term class="no-emphasis">señales de tráfico</term> detecten cuándo hay vehículos esperando en una intersección de calles. Se coloca un circuito eléctrico con un inductor en la carretera, debajo del lugar donde se detendrá un automóvil en espera. La carrocería del automóvil aumenta la inductancia y el circuito cambia, enviando una señal a los semáforos para que cambien de color. Del mismo modo, los <term class="no-emphasis">detectores de metales</term> utilizados en la seguridad de los aeropuertos emplean la misma técnica. Una bobina o inductor en el marco del detector de metales actúa como transmisor y receptor. Una señal en forma de pulsos procedente de la bobina transmisora induce una señal en el receptor. La autoinducción del circuito se ve afectada por cualquier objeto metálico en el camino (<link target-id="CNX_UPhysics_31_02_Security"/>). Los detectores de metales pueden ajustarse en cuanto a sensibilidad y también pueden detectar la presencia de metal en una persona.</para>
+<figure id="CNX_UPhysics_31_02_Security">
+<media id="fs-id1167133845972" alt="Fotografía de personas haciendo cola en la puerta del detector de metales de un aeropuerto.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Security.jpg"/>
+</media>
+<caption>La conocida puerta de seguridad de un aeropuerto no solo detecta los metales, sino que también puede indicar su altura aproximada sobre el suelo (créditos: "Alexbuirds"/Wikimedia Commons).</caption>
+</figure>
+<para id="fs-id1167133675760">En los <term class="no-emphasis">destellos de cámara</term> se encuentran grandes voltajes inducidos. Los destello de cámara utilizan una batería, dos inductores que funcionan como un transformador y un sistema de conmutación u <emphasis effect="italics">oscilador</emphasis> para inducir grandes voltajes. Recordemos que en <link document="m90696">Oscilaciones</link> se define "oscilación" como la fluctuación de una cantidad, o las fluctuaciones regulares repetidas de una cantidad, entre dos valores extremos en torno a un valor medio. Recuerde también (en la sección <link document="m90917">Inducción electromagnética</link> sobre la inducción electromagnética) que necesitamos un campo magnético cambiante, provocado por una corriente cambiante, para inducir un voltaje en otra bobina. El sistema de oscilación hace esto muchas veces mientras el voltaje de la batería se eleva a más de 1.000 voltios (es posible que escuche el silbido agudo del transformador mientras se carga el condensador). Un condensador almacena el alto voltaje para su posterior uso en la alimentación del destello.</para>
+<example id="fs-id1167132367239">
+<para id="fs-id1167133613719"><title>La autoinducción de una bobina</title>
+Se mide una emf inducida de 2,0 V a través de una bobina de 50 vueltas estrechamente enrolladas mientras la corriente que la atraviesa aumenta uniformemente de 0,0 a 5,0 A en 0,10 s. (a) ¿Cuál es la autoinducción de la bobina? (b) Con la corriente a 5,0 A, ¿cuál es el flujo que atraviesa cada vuelta de la bobina?</para>
+<para id="fs-id1167132537172"><title>Estrategia</title>
+Ambas partes de este problema dan toda la información necesaria para resolver la autoinducción en la parte (a) o el flujo a través de cada vuelta de la bobina en la parte (b). Las ecuaciones necesarias son la <link target-id="fs-id1167133822340"/> para la parte (a) y la <link target-id="fs-id1167133805496"/> para la parte (b).</para>
+<para id="fs-id1167133613964"><title>Solución</title></para>
+<list id="fs-id1167133863190" list-type="enumerated" number-style="lower-alpha">
+<item>Ignorando el signo negativo y utilizando las magnitudes, tenemos, a partir de la <link target-id="fs-id1167133822340"/>,
+<equation id="fs-id1167133549484" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mrow><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mn>0,10</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>A partir de la <link target-id="fs-id1167133805496"/>, el flujo está dado en términos de la corriente por <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mrow><m:mi>L</m:mi><m:mi>I</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>N</m:mi></m:mrow><m:mo>,</m:mo></m:mrow></m:math> así que
+<equation id="fs-id1167132401200" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>gira</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Wb</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167133862595"><title>Importancia</title>
+La autoinducción y el flujo calculados en las partes (a) y (b) son valores típicos de las bobinas que se encuentran en los dispositivos contemporáneos. Si la corriente no cambia en el tiempo, el flujo no cambia en el tiempo, por lo que no se induce ninguna emf.</para>
+</example>
+<note id="fs-id1167133321320" class="check-understanding">
+<exercise id="fs-id1167132717173">
+<problem id="fs-id1167132605810">
+<para id="fs-id1167132575349">La corriente fluye a través del inductor en la <link target-id="CNX_UPhysics_31_02_Current"/> de <emphasis effect="italics">B</emphasis> a <emphasis effect="italics">A</emphasis> en vez de <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis> como se muestra. ¿La corriente aumenta o disminuye para producir la emf dada en el diagrama (a)? ¿En el diagrama (b)?</para>
+</problem>
+<solution id="fs-id1167133748122">
+<para id="fs-id1167133349834">a. disminuyendo; b. aumentando; Dado que la corriente fluye en el sentido contrario del diagrama, para obtener una emf positiva en el lado izquierdo del diagrama (a), tenemos que disminuir la corriente hacia la izquierda, lo que crea una emf reforzada donde el extremo positivo está en el lado izquierdo. Para obtener una emf positiva en el lado derecho del diagrama (b), necesitamos aumentar la corriente hacia la izquierda, lo que crea una emf reforzada donde el extremo positivo está en el lado derecho.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167132467070" class="check-understanding">
+<exercise id="fs-id1167133775357">
+<problem id="fs-id1167132531695">
+<para id="fs-id1167132284221">Una corriente cambiante induce una emf de 10 V a través de un inductor de 0,25 H. ¿A qué tasa cambia la corriente?</para>
+</problem>
+<solution id="fs-id1167133803113">
+<para id="fs-id1167133871526">40 A/s</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167132301285">Un buen enfoque para calcular la autoinducción de un inductor consiste en los siguientes pasos:</para>
+<note id="fs-id1167132572695" class="problem-solving">
+<title>La autoinducción</title>
+<list id="fs-id1167132301324" list-type="enumerated" number-style="arabic">
+<item>Supongamos que por el inductor circula una corriente <emphasis effect="italics">I</emphasis>.</item>
+<item>Determinar el campo magnético <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> producido por la corriente. Si hay una simetría adecuada, se puede hacer esto con la ley de Ampère.</item>
+<item>Obtener el flujo magnético, <m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Conocido el flujo, la autoinducción se puede calcular a partir de la <link target-id="fs-id1167133805496"/>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>I</m:mi></m:mrow></m:math>.</item>
+</list>
+</note>
+<para id="fs-id1167132372616">Para demostrar este procedimiento, calculamos ahora las autoinducciones de dos inductores.</para>
+</section>
+<section id="fs-id1167132501769">
+<title>Solenoide cilíndrico</title>
+<para id="fs-id1167133578592">Considere un solenoide largo y cilíndrico con longitud <emphasis effect="italics">l</emphasis>, área de sección transversal <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">N</emphasis> vueltas de alambre. Suponemos que la longitud del solenoide es mucho mayor que su diámetro, por lo que podemos tomar el campo magnético como <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>n</m:mi><m:mi>I</m:mi></m:mrow></m:math> en todo el interior del solenoide, es decir, ignoramos los efectos finales en el solenoide. Con una corriente <emphasis effect="italics">I</emphasis> circulando por las bobinas, el campo magnético producido dentro del solenoide es</para>
+<equation id="fs-id1167133636610"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>N</m:mi><m:mi>l</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>I</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133687111">por lo que el flujo magnético a través de una vuelta es</para>
+<equation id="fs-id1167133796548"><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:mrow><m:mi>l</m:mi></m:mfrac><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133805312">Utilizando <link target-id="fs-id1167133805496"/>, calculamos para la autoinducción del solenoide,</para>
+<note id="fs-id1167132311062" class="equation-callout">
+<equation id="fs-id1167132395345"><label/><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>solenoide</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi></m:mrow><m:mi>l</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167132535946">Si <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mrow><m:mi>N</m:mi><m:mtext>/</m:mtext><m:mi>l</m:mi></m:mrow></m:mrow></m:math> es el número de vueltas por unidad de longitud del solenoide, podemos escribir <link target-id="fs-id1167132395345"/> como</para>
+<equation id="fs-id1167132749881"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>N</m:mi><m:mi>l</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mi>A</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mi>V</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132749797">donde <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>l</m:mi></m:mrow></m:math> es el volumen del solenoide. Observe que <emphasis effect="italics">la autoinducción de un solenoide largo solo depende de sus propiedades físicas</emphasis> (como el número de vueltas de cable por unidad de longitud y el volumen) y no del campo magnético ni de la corriente. Esto es cierto para los inductores en general.</para>
+</section>
+<section id="fs-id1167132290367">
+<title>Toroide rectangular</title>
+<para id="fs-id1167132706305">En la <link target-id="CNX_UPhysics_31_02_Toroid"/> se muestra un toroide de sección rectangular. Los radios interior y exterior del toroide son <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>h</m:mi></m:mrow></m:math> es la altura del toroide. Aplicando la ley de Ampère de la misma manera que lo hicimos en el <link target-id="fs-id1171241016755" document="m90921"/> para un toroide de sección circular, hallamos que el campo magnético dentro de un toroide rectangular también viene dado por</para>
+<equation id="fs-id1167132259531"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132231130">donde <emphasis effect="italics">r</emphasis> es la distancia al eje central del toroide. Como el campo cambia dentro del toroide, debemos calcular el flujo integrando sobre la sección transversal del toroide. Utilizando el elemento de la sección transversal infinitesimal <m:math><m:mrow><m:mi>d</m:mi><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow></m:math> que se muestra en la <link target-id="CNX_UPhysics_31_02_Toroid"/>, obtenemos</para>
+<equation id="fs-id1167132200528"><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mi>B</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>a</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>h</m:mi><m:mi>d</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>N</m:mi><m:mi>h</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_31_02_Toroid">
+<media id="fs-id1167133698792" alt="La figura muestra la sección transversal de un toroide. El radio interior del anillo es R1 y el radio exterior es R2. La altura de la sección transversal rectangular es h. Una pequeña sección de espesor dr se encuentra en el centro de la sección transversal rectangular. Esto está a una distancia r del centro del anillo. El área dentro de la sección transversal rectangular con el grosor dr y la altura h está resaltada y marcada como da. Se muestran las líneas de campo y la corriente i que circula por el toroide.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Toroid.jpg"/>
+</media>
+<caption>Cálculo de la autoinducción de un toroide rectangular.</caption>
+</figure>
+<para id="fs-id1167132464580">Ahora, a partir de la <link target-id="fs-id1167132200528"/>, obtenemos para la autoinducción de un toroide rectangular</para>
+<note id="fs-id1167132615660" class="equation-callout">
+<equation id="fs-id1167133510385"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub></m:mrow><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133824873">Como era de esperar, la autoinducción es una constante determinada únicamente por las propiedades físicas del toroide.</para>
+<note id="fs-id1167132220801" class="check-understanding">
+<exercise id="fs-id1167132743306">
+<problem id="fs-id1167133562015">
+<para id="fs-id1167132490690">(a) Calcule la autoinducción de un solenoide que está enrollado estrechamente con un alambre de 0,10 cm de diámetro, tiene una sección transversal de <m:math><m:mrow><m:msup><m:mrow><m:mn>0,90</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y tiene una longitud de 40 cm. (b) Si la corriente que atraviesa el solenoide disminuye uniformemente de 10 a 0 A en 0,10 s, ¿cuál es la emf inducida entre los extremos del solenoide?</para>
+</problem>
+<solution id="fs-id1167132270624">
+<para id="fs-id1167132243315">a <m:math><m:mrow><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math>; b <m:math><m:mrow><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167133534998" class="check-understanding">
+<exercise id="fs-id1167132656703">
+<problem id="fs-id1167132295149">
+<para id="fs-id1167132452911">(a) ¿Cuál es el flujo magnético que pasa por un solenoide de autoinducción de una vuelta <m:math><m:mrow><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math> cuando circula una corriente de 3,0 A? Supongamos que el solenoide tiene 1.000 vueltas y está bobinado con alambre de 1,0 mm de diámetro. (b) ¿Cuál es la sección transversal del solenoide?</para>
+</problem>
+<solution id="fs-id1167132286639">
+<para id="fs-id1167132283172">a <m:math><m:mrow><m:mn>2,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Wb</m:mtext></m:mrow></m:math>; b <m:math><m:mrow><m:mn>6,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167132205717" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167132316332" list-type="bulleted" bullet-style="bullet">
+<item>Los cambios de corriente en un dispositivo inducen una emf en el propio dispositivo, llamada autoinducción,
+<equation id="fs-id1167132236556" class="unnumbered"><label/><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>L</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde <emphasis effect="italics">L</emphasis> es la autoinducción del inductor y <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:math> es la tasa de cambio de la corriente que lo atraviesa. El signo menos indica que la emf se opone a la variación de la corriente, de acuerdo con la ley de Lenz. La unidad de autoinducción e inductancia es el henrio (H), donde <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>.</item>
+<item>La autoinducción de un solenoide es
+<equation id="fs-id1167132385028" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>A</m:mi></m:mrow><m:mi>l</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde <emphasis effect="italics">N</emphasis> es su número de vueltas en el solenoide, <emphasis effect="italics">A</emphasis> es su área de sección transversal, <emphasis effect="italics">l</emphasis> es su longitud, y <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:math> es la permeabilidad del espacio libre.</item>
+<item>La autoinducción de un toroide es
+<equation id="fs-id1167132281563" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde <emphasis effect="italics">N</emphasis> es su número de vueltas en el toroide, <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> son los radios interior y exterior del toroide, <emphasis effect="italics">h</emphasis> es la altura del toroide y <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>·</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:math> es la permeabilidad del espacio libre.</item>
+</list>
+</section>
+<section id="fs-id1167132736124" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167132371781">
+<problem id="fs-id1167132690052">
+<para id="fs-id1167133358230">¿Depende la autoinducción del valor del flujo magnético? ¿Depende de la corriente que pasa por el cable? Correlacione sus respuestas con la ecuación <m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mtext>Φ</m:mtext><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mi>I</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167132745650">
+<para id="fs-id1167132287877">La autoinducción es proporcional al flujo magnético e inversamente proporcional a la corriente. Sin embargo, como el flujo magnético depende de la corriente <emphasis effect="italics">I</emphasis>, estos efectos se anulan. Esto significa que la autoinducción no depende de la corriente. Si la emf se induce a través de un elemento, sí depende de cómo cambia la corriente con el tiempo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132422885">
+<problem id="fs-id1167133611311">
+<para id="fs-id1167132528978">¿Difiere la autoinducción de un solenoide de 1,0 m de longitud, estrechamente enrollado, de la autoinducción por metro de un solenoide infinito, pero por lo demás idéntico?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132372313">
+<problem id="fs-id1167132270474">
+<para id="fs-id1167132344832">Analiza cómo podría determinar la autoinducción por unidad de longitud de un cable largo y recto.</para>
+</problem>
+<solution id="fs-id1167132282486">
+<para id="fs-id1167133677682">Considere los extremos de un cable como parte de un circuito <emphasis effect="italics">RL</emphasis> y determine la autoinducción de este circuito.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132526676">
+<problem id="fs-id1167132307110">
+<para id="fs-id1167132415782">La autoinducción de una bobina es cero si no pasa corriente por los bobinados. ¿Verdadero o falso?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133640473">
+<problem id="fs-id1167132625093">
+<para id="fs-id1167132268139">¿Cómo se compara la autoinducción por unidad de longitud cerca del centro de un solenoide (lejos de los extremos) con su valor cerca del extremo del solenoide?</para>
+</problem>
+<solution id="fs-id1167132311804">
+<para id="fs-id1167133792617">El campo magnético se ensanchará al final del solenoide, por lo que hay menos flujo a través de la última vuelta que a través del centro del solenoide.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167133717187" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167132333188">
+<problem id="fs-id1167133766479">
+<para id="fs-id1167133575950">Se induce una emf de 0,40 V a través de una bobina cuando la corriente que la atraviesa cambia uniformemente de 0,10 a 0,60 A en 0,30 s. ¿Cuál es la autoinducción de la bobina?</para>
+</problem>
+<solution id="fs-id1167132305435">
+<para id="fs-id1167133660431">0,24 H</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132505609">
+<problem id="fs-id1167133524752">
+<para id="fs-id1167132466440">La corriente mostrada en la parte (a) es creciente, mientras que la mostrada en la parte (b) es decreciente. En cada caso, determina qué extremo del inductor está a mayor potencial.</para>
+<media id="fs-id1167132307120" alt="La figura a muestra la corriente que circula por una bobina de izquierda a derecha. La figura b muestra la corriente que circula por una bobina de derecha a izquierda.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Problem09_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167133407919">
+<problem id="fs-id1167133525844">
+<para id="fs-id1167132274652">¿Cuál es la velocidad a la que cambia la corriente a través de una bobina de 0,30 H si se induce una emf de 0,12 V a través de la bobina?</para>
+</problem>
+<solution id="fs-id1167132230042">
+<para id="fs-id1167132241605">0,4 A/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132602184">
+<problem id="fs-id1167128956190">
+<para id="fs-id1167132281470">Cuando una cámara utiliza un destello, un condensador completamente cargado se descarga a través de un inductor. ¿En qué tiempo debe conectarse o desconectarse la corriente de 0,100 A a través de un inductor de 2,00 mH para inducir una emf de 500 V?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133871022">
+<problem id="fs-id1167133694290">
+<para id="fs-id1167132466244">Una bobina con una autoinducción de 2,0 H transporta una corriente que varía con el tiempo según <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mn>120</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math> Calcule una expresión para la emf inducida en la bobina.</para>
+</problem>
+<solution id="fs-id1167132460816">
+<para id="fs-id1167132267417"><m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>480</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>120</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132559745">
+<problem id="fs-id1167132524604">
+<para id="fs-id1167132753868">Un solenoide de 50 cm de longitud se enrolla con 500 vueltas de alambre. El área de la sección transversal de la bobina es <m:math><m:mrow><m:msup><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> ¿Cuál es la autoinducción del solenoide?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133845735">
+<problem id="fs-id1167132422781">
+<para id="fs-id1167132617434">Una bobina con una autoinducción de 3,0 H transporta una corriente que disminuye a un ritmo uniforme <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mi>I</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>−0,050</m:mn><m:mspace width="0.2em"/><m:mtext>A/s</m:mtext></m:mrow></m:math>. ¿Cuál es la emf inducida en la bobina? Describa la polaridad de la emf inducida.</para>
+</problem>
+<solution id="fs-id1167132487087">
+<para id="fs-id1167132444608">0,15 V. Esta es la misma polaridad que la emf que conduce la corriente.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132342299">
+<problem id="fs-id1167132217549">
+<para id="fs-id1167133824204">La corriente <emphasis effect="italics">I(t)</emphasis> a través de un inductor de 5,0 mH varía con el tiempo, como se muestra a continuación. La resistencia del inductor es <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Calcule el voltaje a través del inductor en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>,</m:mo><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext></m:mrow></m:math>.</para>
+<media id="fs-id1167132326315" alt="El gráfico de la corriente en amperios versus el tiempo en milisegundos. La corriente parte de 0 a los 0 milisegundos, aumenta con el tiempo y alcanza algo más de 6 amperios a los 3 milisegundos aproximadamente. Disminuye bruscamente hasta unos 6 milisegundos, y luego disminuye a un ritmo algo más lento hasta llegar a 0 a los 12 milisegundos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Problem14_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167133775680">
+<problem id="fs-id1167132444948">
+<para id="fs-id1167132686452">Un solenoide largo y cilíndrico con 100 vueltas por centímetro tiene un radio de 1,5 cm. (a) Sin tener en cuenta los efectos de los extremos, ¿cuál es la autoinducción por unidad de longitud del solenoide? (b) Si la corriente que pasa por el solenoide cambia a una velocidad de 5,0 A/s, ¿cuál es la emf inducida por unidad de longitud?</para>
+</problem>
+<solution id="fs-id1167132276189">
+<para id="fs-id1167132458420">a. 0,089 H/m; b. 0,44 V/m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133579828">
+<problem id="fs-id1167133334227">
+<para id="fs-id1167133711199">Supongamos que un toroide rectangular tiene 2.000 bobinados y una autoinducción de 0,040 H. Si <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>0,10</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, ¿cuál es la relación entre su radio exterior y su radio interior?</para>
+<media id="fs-id1167132315705" alt="La figura muestra la sección transversal de un toroide. El radio interior del anillo es R1 y el radio exterior es R2. La altura de la sección transversal rectangular es h. Una pequeña sección de espesor dr se encuentra en el centro de la sección transversal rectangular. Esto está a una distancia r del centro del anillo. El área dentro de la sección transversal rectangular con el grosor dr y la altura h está resaltada y marcada como da. Se muestran las líneas de campo y la corriente i que circula por el toroide.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_02_Problem16_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167132540818">
+<problem id="fs-id1167133828384">
+<para id="fs-id1167133722347">¿Cuál es la autoinducción por metro de un cable coaxial cuyo radio interior es de 0,50 mm y cuyo radio exterior es de 4,00 mm?</para>
+</problem>
+<solution id="fs-id1167133715817">
+<para id="fs-id1167133635444"><m:math><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>4,16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H/m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167132203243">
+<term>inductor</term>
+<meaning id="fs-id1167133825437">parte de un circuito eléctrico para proporcionar autoinducción, que se simboliza con una bobina de alambre</meaning>
+</definition>
+<definition id="fs-id1167133334241">
+<term>autoinducción</term>
+<meaning id="fs-id1167132477001">efecto del dispositivo que induce la emf en sí mismo</meaning>
+</definition>
+</glossary>
+</document>

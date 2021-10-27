@@ -1,0 +1,723 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Viscosidad y turbulencia</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90695</md:content-id>
+  <md:title>Viscosidad y turbulencia</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar qué es la viscosidad.</item>
+<item>Calcular el flujo y la resistencia con la ley de Poiseuille.</item>
+<item>Explicar cómo cae la presión debido a la resistencia.</item>
+<item>Calcular el número de Reynolds para un objeto que se mueve a través de un fluido.</item>
+<item>Usar el número de Reynolds de un sistema para determinar si es laminar o turbulento.</item>
+<item>Describir las condiciones en las que un objeto tiene una velocidad terminal.</item>
+</list></md:abstract>
+  <md:uuid>1ed6799f-00fe-4f52-ba71-d87167d92a52</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170959826602">En <link document="m90638">Aplicaciones de las leyes de Newton</link>, donde se introdujo el concepto de fricción, vimos que un objeto que se desliza por el suelo con una velocidad inicial y sin fuerza aplicada llega al reposo debido a la fuerza de fricción. La fricción depende de los tipos de materiales en contacto y es proporcional a la fuerza normal. En ese mismo capítulo hablamos también de arrastre y resistencia del aire. Explicamos que a bajas velocidades el arrastre es proporcional a la velocidad, mientras que a altas velocidades el arrastre es proporcional a la velocidad al cuadrado. En esta sección introducimos las fuerzas de fricción que actúan sobre fluidos en movimiento. Por ejemplo, un fluido que circula por una tubería está sujeto a una resistencia, un tipo de fricción, entre el fluido y las paredes. La fricción también se produce entre las diferentes capas de fluido. Estas fuerzas resistivas afectan la forma en que el fluido circula a través de la tubería.</para>
+<section id="fs-id1170959824719">
+<title>Viscosidad y flujo laminar</title>
+<para id="fs-id1170957547260">Cuando se sirve un vaso de jugo, el líquido fluye libre y rápidamente. Pero si vierte sirope de arce sobre sus panqueques, ese líquido fluye lentamente y se pega a la jarra. La diferencia es la fricción del fluido, tanto dentro del propio fluido como entre este y su entorno. A esta propiedad de los fluidos la llamamos <emphasis effect="italics">viscosidad</emphasis>. El jugo tiene una baja viscosidad, mientras que el sirope tiene una alta viscosidad.</para>
+<para id="fs-id1170957568742">La definición precisa de la viscosidad se basa en el flujo laminar, o no turbulento. La <link target-id="CNX_UPhysics_Figure_14_07_LaminarTur"/> muestra de forma esquemática en qué se diferencian el flujo laminar y el turbulento. Cuando el flujo es laminar, las capas fluyen sin mezclarse. Cuando el flujo es turbulento, las capas se mezclan y se producen velocidades significativas en direcciones distintas de la dirección general del flujo.</para>
+<figure id="CNX_UPhysics_Figure_14_07_LaminarTur">
+<media id="fs-id1170959803964" alt="La figura A es el esquema de un flujo laminar que se produce en capas sin mezclarse. La velocidad del fluido es diferente para las distintas capas. La figura B es el esquema de un flujo turbulento causado por la obstrucción. El flujo turbulento mezcla el fluido y genera una velocidad uniforme del este.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_07_LaminarTur.jpg"/>
+</media>
+<caption>(a) El flujo laminar se produce en capas sin mezclarse. Obsérvese que la viscosidad provoca un arrastre entre las capas, así como con la superficie fija. La velocidad cerca del fondo del flujo (<m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>b</m:mtext></m:msub></m:mrow></m:math>) es menor que la velocidad cerca de la cima (<m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub></m:mrow></m:math>) porque en este caso, la superficie del recipiente contenedor está en el fondo. (b) Una obstrucción en el recipiente provoca un flujo turbulento. El flujo turbulento mezcla el fluido. Hay más interacción, mayor calentamiento y más resistencia que en el flujo laminar.</caption>
+</figure>
+<para id="fs-id1170957575338"><emphasis effect="bold">La turbulencia</emphasis> es un fluido circulante en el cual las capas se mezclan entre sí mediante torbellinos y remolinos. Tiene dos causas principales. En primer lugar, cualquier obstrucción o esquina afilada, como en un grifo, crea turbulencia al impartir velocidades perpendiculares al flujo. En segundo lugar, las altas velocidades provocan <term class="no-emphasis">turbulencia</term>. El arrastre entre capas adyacentes de fluido y entre el fluido y su entorno puede formar remolinos y torbellinos si la velocidad es lo suficientemente grande. En la <link target-id="CNX_UPhysics_Figure_14_07_SmokesEddy"/>, la velocidad del humo que se acelera alcanza el punto en que comienza a arremolinarse debido al arrastre entre el humo y el aire circundante.</para>
+<figure id="CNX_UPhysics_Figure_14_07_SmokesEddy">
+<media id="fs-id1170959788750" alt="La figura es una foto del humo que sube suavemente por la parte inferior y forma remolinos y torbellinos en la parte superior.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_07_SmokesEddy.jpg"/>
+</media>
+<caption>El humo se eleva suavemente durante un tiempo y luego comienza a formar remolinos y torbellinos. El flujo suave se denomina flujo laminar, mientras que los remolinos y torbellinos tipifican el flujo turbulento. El humo se eleva más rápidamente cuando fluye suavemente que después de volverse turbulento, lo que sugiere que la turbulencia plantea más resistencia al flujo (créditos: “Creativity103”/Flickr).</caption>
+</figure>
+<para id="fs-id1170957605490">La <link target-id="CNX_UPhysics_Figure_14_07_PlatesLami"/> muestra cómo se mide la viscosidad de un fluido. El fluido que se va a medir se coloca entre dos placas paralelas. La placa inferior se mantiene fija, mientras que la placa superior se mueve hacia la derecha y arrastra el fluido con ella. La capa (o lámina) de fluido en contacto con cualquiera de las placas no se mueve con respecto a la placa, por lo que la capa superior se mueve a una velocidad <emphasis effect="italics">v</emphasis> mientras que la capa inferior permanece en reposo. Cada capa sucesiva, de arriba hacia abajo, ejerce una fuerza sobre la que está por debajo, tratando de arrastrarla, lo que produce una variación continua de la velocidad desde <emphasis effect="italics">v</emphasis> hasta 0, como se muestra. Se procura que el flujo sea laminar, es decir, que las capas no se mezclen. El movimiento de la figura es como un movimiento de cizallamiento continuo. Los fluidos tienen una resistencia al cizallamiento cero, pero la velocidad a la que se cizallan está relacionada con los mismos factores geométricos <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">L</emphasis> que la deformación por cizallamiento de los sólidos. En el diagrama, el fluido está inicialmente en reposo. La capa de fluido en contacto con la placa móvil se acelera y comienza a moverse debido a la fricción interna entre la placa móvil y el fluido. La siguiente capa está en contacto con la capa en movimiento; como hay fricción interna entre las dos capas, también se acelera, y así sucesivamente a través de la profundidad del fluido. También hay fricción interna entre la placa estacionaria y la capa más baja de fluido, junto a la placa de la estación. La fuerza es necesaria para mantener la placa en movimiento a una velocidad constante debido a la fricción interna.</para>
+<figure id="CNX_UPhysics_Figure_14_07_PlatesLami">
+<media id="fs-id1170959817862" alt="La figura es un dibujo esquemático del montaje para la medición de la viscosidad para un flujo laminar de fluido entre dos placas de área A. L es la separación entre dos placas. La placa inferior es fija. Cuando la placa superior es empujada hacia la derecha, arrastra el fluido con ella. ">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_07_PlatesLami.jpg"/>
+</media>
+<caption>Medición de viscosidad para el flujo laminar de un fluido entre dos placas de área <emphasis effect="italics">A</emphasis>. La placa inferior es fija. Cuando la placa superior es empujada hacia la derecha, arrastra el fluido con ella.</caption>
+</figure>
+<para id="fs-id1170959732663">Se requiere una fuerza <emphasis effect="italics">F</emphasis> para mantener la placa superior en <link target-id="CNX_UPhysics_Figure_14_07_PlatesLami"/> movimiento a una velocidad constante <emphasis effect="italics">v</emphasis>, y hay experimentos que han demostrado que esta fuerza depende de cuatro factores. En primer lugar, <emphasis effect="italics">F</emphasis> es directamente proporcional a <emphasis effect="italics">v</emphasis> (hasta que la velocidad es tan alta que se produce turbulencia; entonces se necesita una fuerza mucho mayor, y tiene una dependencia más complicada de <emphasis effect="italics">v</emphasis>). En segundo lugar, <emphasis effect="italics">F</emphasis> es proporcional al área <emphasis effect="italics">A</emphasis> de la placa. Esta relación parece razonable, ya que <emphasis effect="italics">A</emphasis> es directamente proporcional a la cantidad de fluido que se mueve. En tercer lugar, <emphasis effect="italics">F</emphasis> es inversamente proporcional a la distancia entre las placas <emphasis effect="italics">L</emphasis>. Esta relación también es razonable; <emphasis effect="italics">L</emphasis> es como un brazo de palanca, y cuanto mayor sea el brazo de palanca, menor será la fuerza necesaria. En cuarto lugar, <emphasis effect="italics">F</emphasis> es directamente proporcional al <term class="no-emphasis">coeficiente de viscosidad</term>, <m:math><m:mi>η</m:mi></m:math>. Cuanto mayor sea la viscosidad, mayor será la fuerza necesaria. Estas dependencias se combinan en la ecuación</para>
+<equation id="fs-id1170960187113" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>η</m:mi><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi>A</m:mi></m:mrow><m:mi>L</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170960164078">Esta ecuación nos da una definición de trabajo de la viscosidad del fluido <m:math><m:mi>η</m:mi></m:math>. Resolver para <m:math><m:mi>η</m:mi></m:math> da</para>
+<note id="fs-id1170957414482" class="equation-callout">
+<equation id="fs-id1170959643666"><label/><m:math><m:mrow><m:mi>η</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>F</m:mi><m:mi>L</m:mi></m:mrow><m:mrow><m:mi>v</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170959723888">que define la viscosidad en términos de cómo se mide.</para>
+<para id="fs-id1170959775662">La unidad SI de la viscosidad es <m:math><m:mrow><m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:mtext>m/</m:mtext><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>s o Pa</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>. En la <link target-id="fs-id1170959763405"/> se enumeran los coeficientes de viscosidad de varios fluidos. La viscosidad varía de un fluido a otro en varios órdenes de magnitud. Como es de esperar, las viscosidades de los gases son mucho menores que las de los líquidos, y estas viscosidades suelen depender de la temperatura.</para>
+<table id="fs-id1170959763405" summary="This table has three columns and thirty one rows. The first row is a header row and it labels each column, “Fluid”, “Temperature in degrees C”, and “Viscosity in Pascal times seconds”. Under the “Fluid” column is the list of fluids: Air; Air; Air; Air; Ammonia; Carbon dioxide; Helium; Hydrogen; Mercury; Oxygen; Steam; Liquid water; Liquid water; Liquid water; Liquid water; Liquid water; Whole blood; Whole blood; Blood plasma; Blood plasma; Ethyl alcohol; Methanol; Oil (heavy machine); Oil (motor, SAE 10); Oil (olive); Glycerin; Honey; Maple syrup; Milk; Oil (corn). Under the “Temperature in degrees C” is the list of values: 0; 20; 40; 100; 20; 20; 20; 0; 20; 20; 100; 0; 20; 37; 40; 100; 20; 37; 20; 37; 20; 20; 20; 30; 20; 20; 20; 20; 20; 20. Under the “Viscosity in Pascal times seconds” is the list of values: 0.0171; 0.0181; 0.0190; 0.0218; 0.00974; 0.0147; 0.0196; 0.0090; 0.0450; 0.0203; 0.0130; 1.792; 1.002; 0.6947; 0.653; 0.282; 3.015; 2.084; 1.810; 1.257; 1.20; 0.584; 660; 200; 138; 1500; 2000–10000; 2000–3000; 3.0; 65."><title>Coeficientes de viscosidad de varios fluidos</title><tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Fluido</entry>
+<entry valign="top" align="center">Temperatura<newline/><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>°C)</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center">Viscosidad<newline/><m:math><m:mi>η</m:mi></m:math> <m:math><m:mrow><m:mo>×</m:mo><m:mrow><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="top" align="left" morerows="3">Aire</entry>
+<entry valign="top" align="center">0</entry>
+<entry valign="top" align="right">0,0171</entry>
+</row>
+<row>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="right">0,0181</entry>
+</row>
+<row>
+<entry valign="top" align="center">40</entry>
+<entry valign="top" align="right">0,0190</entry>
+</row>
+<row>
+<entry valign="top" align="center">100</entry>
+<entry valign="top" align="right">0,0218</entry>
+</row>
+<row>
+<entry valign="top" align="left">Amoníaco</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="right">0,00974</entry>
+</row>
+<row>
+<entry valign="top" align="left">Dióxido de carbono</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="right">0,0147</entry>
+</row>
+<row>
+<entry valign="top" align="left">Helio</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="right">0,0196</entry>
+</row>
+<row>
+<entry valign="top" align="left">Hidrógeno</entry>
+<entry valign="top" align="center">0</entry>
+<entry valign="top" align="right">0,0090</entry>
+</row>
+<row>
+<entry valign="top" align="left">Mercurio</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="right">0,0450</entry>
+</row>
+<row>
+<entry valign="top" align="left">Oxígeno</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="right">0,0203</entry>
+</row>
+<row>
+<entry valign="top" align="left">Vapor</entry>
+<entry valign="top" align="center">100</entry>
+<entry valign="top" align="right">0,0130</entry>
+</row>
+<row>
+<entry valign="top" align="left" morerows="4">Agua líquida</entry>
+<entry valign="top" align="center">0</entry>
+<entry valign="top" align="right">1,792</entry>
+</row>
+<row>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="right">1,002</entry>
+</row>
+<row>
+<entry valign="top" align="center">37</entry>
+<entry valign="top" align="right">0,6947</entry>
+</row>
+<row>
+<entry valign="top" align="center">40</entry>
+<entry valign="top" align="right">0,653</entry>
+</row>
+<row>
+<entry valign="top" align="center">100</entry>
+<entry valign="top" align="right">0,282</entry>
+</row>
+<row>
+<entry valign="top" align="left" morerows="1">Sangre completa</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="right">3,015</entry>
+</row>
+<row>
+<entry valign="top" align="center">37</entry>
+<entry valign="top" align="right">2,084</entry>
+</row>
+<row>
+<entry valign="top" align="left" morerows="1">Plasma sanguíneo</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="right">1,810</entry>
+</row>
+<row>
+<entry valign="top" align="center">37</entry>
+<entry valign="top" align="right">1,257</entry>
+</row>
+<row>
+<entry valign="top" align="left">Alcohol etílico</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="right">1,20</entry>
+</row>
+<row>
+<entry valign="top" align="left">Metanol</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="right">0,584</entry>
+</row>
+<row>
+<entry valign="top" align="left">Aceite (máquina pesada)</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="center">660</entry>
+</row>
+<row>
+<entry valign="top" align="left">Aceite (motor, SAE 10)</entry>
+<entry valign="top" align="center">30</entry>
+<entry valign="top" align="center">200</entry>
+</row>
+<row>
+<entry valign="top" align="left">Aceite (de oliva)</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="center">138</entry>
+</row>
+<row>
+<entry valign="top" align="left">Glicerina</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="center">1.500</entry>
+</row>
+<row>
+<entry valign="top" align="left">Miel</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="center">2.000-10.000</entry>
+</row>
+<row>
+<entry valign="top" align="left">Sirope de arce</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="center">2.000-3.000</entry>
+</row>
+<row>
+<entry valign="top" align="left">Leche</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="center">3,0</entry>
+</row>
+<row>
+<entry valign="top" align="left">Aceite (maíz)</entry>
+<entry valign="top" align="center">20</entry>
+<entry valign="top" align="center">65</entry>
+</row>
+</tbody>
+</tgroup>
+</table></section>
+<section id="fs-id1170959657924">
+<title>Flujo laminar confinado en tubos: Ley de Poiseuille</title>
+<para id="fs-id1170959680154">¿Qué causa el flujo? La respuesta, como es lógico, es una diferencia de presión. De hecho, existe una relación muy sencilla entre flujo horizontal y presión. La tasa de flujo <emphasis effect="italics">Q</emphasis> está en la dirección de alta a baja presión. Cuanto mayor sea la diferencia de presión entre dos puntos, mayor será la tasa de flujo. Esta relación se puede expresar como</para>
+<equation id="fs-id1170959809336" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1170959702846">donde <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> son las presiones en dos puntos, como por ejemplo en cada extremo de un tubo, y <emphasis effect="italics">R</emphasis> es la resistencia al flujo. La resistencia <emphasis effect="italics">R</emphasis> incluye todo, excepto la presión, que afecta la tasa de flujo. Por ejemplo, <emphasis effect="italics">R</emphasis> es mayor para un tubo largo que para uno corto. Cuanto mayor es la viscosidad de un fluido, mayor es el valor de <emphasis effect="italics">R</emphasis>. La turbulencia aumenta mucho <emphasis effect="italics">R</emphasis>, mientras que el aumento del diámetro de un tubo disminuye <emphasis effect="italics">R</emphasis>.</para>
+<para id="fs-id1170959719704">Si la viscosidad es cero, el fluido no tiene fricción y la resistencia al flujo también es cero. Al comparar el flujo sin fricción en un tubo con el flujo viscoso, como en la <link target-id="CNX_UPhysics_Figure_14_07_ViscousNon"/>, vemos que para un fluido viscoso, la velocidad es mayor a mitad de camino debido al arrastre en los límites. Podemos ver el efecto de la viscosidad en la llama de un mechero Bunsen [parte (c)], aunque la viscosidad del gas natural es pequeña.</para>
+<figure id="CNX_UPhysics_Figure_14_07_ViscousNon"><media id="fs-id1170959698378" alt="La figura A es un dibujo esquemático del flujo no viscoso de un fluido en un tubo. Todas las capas de fluido se mueven con la misma velocidad. La figura B es un dibujo esquemático del flujo no viscoso de un fluido en un tubo. Las capas del centro del tubo se mueven a mayor velocidad. La figura C es una foto de un mechero Bunsen con la llama cónica encima.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_07_ViscousNon.jpg"/>
+</media>
+
+<caption>(a) Si el fluido circulante en un tubo tiene una resistencia insignificante, la velocidad es la misma a lo largo de todo el tubo. (b) Cuando un fluido viscoso circula a través de un tubo, su velocidad en las paredes es cero, y aumenta constantemente hasta su máximo en el centro del tubo. (c) La forma de la llama de un mechero Bunsen se debe al perfil de velocidad a través del tubo (créditos c: modificación de trabajo de “jasonwoodhead23”/Flickr).</caption></figure><para id="fs-id1170960047674">La resistencia <emphasis effect="italics">R</emphasis> al flujo laminar de un fluido incompresible con viscosidad <m:math><m:mi>η</m:mi></m:math> a través de un tubo horizontal de radio uniforme <emphasis effect="italics">r</emphasis> y longitud <emphasis effect="italics">l</emphasis>, viene dada por</para>
+<note id="fs-id1170959712611" class="equation-callout">
+<equation id="fs-id1170959706366"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170959670072">Esta ecuación se denomina <term>ley de Poiseuille para la resistencia</term>, llamada así en honor al científico francés J. L. <term class="no-emphasis">Poiseuille</term> (1799-1869), que la dedujo en un intento de comprender el flujo de la sangre a través del cuerpo.</para>
+<para id="fs-id1170959795586">Examinemos la expresión de Poiseuille para <emphasis effect="italics">R</emphasis> para ver si tiene un buen sentido intuitivo. Vemos que la resistencia es directamente proporcional a la viscosidad del fluido <m:math><m:mi>η</m:mi></m:math> y la longitud <emphasis effect="italics">l</emphasis> de un tubo. Al fin y al cabo, ambos afectan directamente a la cantidad de fricción encontrada: cuanto mayor sea uno de ellos, mayor será la resistencia y menor el flujo. El radio <emphasis effect="italics">r</emphasis> de un tubo afecta la resistencia, lo que también tiene sentido, porque cuanto mayor sea el radio, mayor será el flujo (los demás factores permanecen iguales). Pero es sorprendente que <emphasis effect="italics">r</emphasis> se eleve a la cuarta potencia en la ley de Poiseuille. Este exponente significa que cualquier cambio en el radio de un tubo tiene un efecto muy grande en la resistencia. Por ejemplo, duplicar el radio de un tubo disminuye la resistencia en un factor de <m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math>.</para>
+<para id="fs-id1170959748267">En conjunto, <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math> y <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> dan la siguiente expresión para la tasa de flujo:</para>
+<note id="fs-id1170959712759" class="equation-callout">
+<equation id="fs-id1170959765405"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170960194977">Esta ecuación describe el flujo laminar a través de un tubo. A veces se denomina ley de Poiseuille para el flujo laminar, o simplemente <term>ley de Poiseuille</term> (<link target-id="CNX_UPhysics_Figure_14_07_LaminrPipe"/>).</para>
+<figure id="CNX_UPhysics_Figure_14_07_LaminrPipe">
+<media id="fs-id1170959801955" alt="La figura es el esquema de un tubo de longitud l y radio r. El fluido circula a través del tubo en la dirección de una presión mayor p2 a una presión menor p1. El flujo es laminar y es mayor en el centro del tubo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_07_LaminrPipe.jpg"/>
+</media>
+<caption>La ley de Poiseuille se aplica al flujo laminar de un fluido incompresible de viscosidad <m:math><m:mi>η</m:mi></m:math> a través de un tubo de longitud <emphasis effect="italics">l</emphasis> y radio <emphasis effect="italics">r</emphasis>. El sentido del flujo es de mayor a menor presión. La tasa de flujo <emphasis effect="italics">Q</emphasis> es directamente proporcional a la diferencia de presión <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, e inversamente proporcional a la longitud <emphasis effect="italics">l</emphasis> del tubo y a la viscosidad <m:math><m:mi>η</m:mi></m:math> del fluido. La tasa de flujo aumenta con el radio en un factor de <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math>.</caption>
+</figure>
+<example id="fs-id1170959803130">
+<para id="fs-id1170959718938"><title>Usar la tasa de flujo: sistemas de aire acondicionado</title>
+Se está diseñando un sistema de aire acondicionado para suministrar aire a una presión manométrica de 0,054 Pa a una temperatura de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext> °</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math> El aire se envía a través de un conducto redondo aislado de 18,00 cm de diámetro. El conducto tiene una longitud de 20 metros y está abierto a una habitación a una presión atmosférica de 101,30 kPa. La habitación tiene una longitud de 12 metros, una anchura de 6 metros y una altura de 3 metros. (a) ¿Cuál es la tasa de flujo volumétrica que pasa por la tubería al suponer un flujo laminar? (b) Estime el tiempo necesario para sustituir completamente el aire de la habitación. (c) Los constructores deciden ahorrar dinero usando un conducto de 9,00 cm de diámetro. ¿Cuál es la nueva tasa de flujo?</para>
+<para id="fs-id1170960078288"><title>Estrategia</title>
+Al suponer un flujo laminar, la ley de Poiseuille establece que</para>
+<equation id="fs-id1170960189942" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170960190939">Tenemos que comparar el radio de la arteria antes y después de la reducción de la tasa de flujo. Obsérvese que se nos da el diámetro del conducto, por lo que debemos dividir entre dos para obtener el radio.</para>
+<para id="fs-id1170959875767"><title>Solución</title></para>
+<list id="fs-id1170959697768" list-type="enumerated" number-style="lower-alpha">
+<item>Se supone una diferencia de presión constante y se usa la viscosidad <m:math><m:mrow><m:mi>η</m:mi><m:mo>=</m:mo><m:mn>0,0181</m:mn><m:mspace width="0.2em"/><m:mtext>mPa</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>,
+<equation id="fs-id1170959644606" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,054</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,09</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,0181</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3,84</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow><m:mtext>s</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Se supone un flujo constante <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>
+<equation id="fs-id1170959788489" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow><m:mi>Q</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3,84</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow><m:mtext>s</m:mtext></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>5,63</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>=</m:mo><m:mn>15,63</m:mn><m:mspace width="0.2em"/><m:mtext>h</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Usando el flujo laminar, la ley de Poiseuille arroja
+<equation id="fs-id1170957516048" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,054</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,045</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,0181</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow><m:mtext>s</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Así, la disminución del radio del conducto a la mitad reduce la tasa de flujo al 6,25 % del valor original.</item>
+</list>
+<para id="fs-id1170959875235"><title>Importancia</title>
+En general, al suponer un flujo laminar, la disminución del radio tiene un efecto más dramático que la modificación de la longitud. Si se aumenta la longitud y todas las demás variables permanecen constantes, la tasa de flujo disminuye:</para>
+<equation id="fs-id1170957419057" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mi>A</m:mi><m:mn>4</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:msub><m:mi>l</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mi>B</m:mi><m:mn>4</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:msub><m:mi>l</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>l</m:mi><m:mi>B</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>l</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:msub><m:mi>Q</m:mi><m:mi>B</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>l</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>l</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:mfrac><m:msub><m:mi>Q</m:mi><m:mi>A</m:mi></m:msub><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1170960054881">Al duplicar la longitud, la tasa de flujo se reduce a la mitad de la original.</para>
+<para id="fs-id1170957416772">Si se disminuye el radio y todas las demás variables permanecen constantes, la tasa de flujo volumétrica disminuye en un factor mucho mayor.</para>
+<equation id="fs-id1170959814449" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mi>A</m:mi><m:mn>4</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:msub><m:mi>l</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mi>B</m:mi><m:mn>4</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:msub><m:mi>l</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>r</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:msub><m:mi>Q</m:mi><m:mi>B</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>r</m:mi><m:mi>B</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:msub><m:mi>Q</m:mi><m:mi>A</m:mi></m:msub></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1170959960940">Al reducir el radio a la mitad, la tasa de flujo disminuye a una dieciseisava parte del original.</para>
+</example>
+</section>
+<section id="fs-id1170959753093">
+<title>El flujo y la resistencia como causas de caídas de presión</title>
+<para id="fs-id1170959732135">La presión del agua en los hogares es, a veces, más baja de lo normal en momentos de mucho uso, como los días calurosos de verano. La caída de presión se produce en el conducto de agua antes de que llegue a los hogares. Consideremos el flujo a través del conducto de agua como se ilustra en la <link target-id="CNX_UPhysics_Figure_14_07_WtrPrHouse"/>. Podemos entender por qué la presión <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> a la vivienda disminuye en los momentos de mayor uso, reordenando la ecuación de la tasa de flujo:</para>
+<equation id="fs-id1170959936580" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>Q</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>R</m:mi><m:mi>Q</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170960187837">En este caso, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es la presión en la obra de agua y <emphasis effect="italics">R</emphasis> es la resistencia del conducto de agua. En los momentos de mayor uso, la tasa de flujo <emphasis effect="italics">Q</emphasis> es grande. Esto significa que <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> también debe ser grande. Así, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> debe disminuir. Es correcto pensar que el flujo y la resistencia hacen que la presión baje de <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> hasta <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>. La ecuación <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>Q</m:mi></m:mrow></m:math> es válido tanto para flujos laminares como turbulentos.</para>
+<figure id="CNX_UPhysics_Figure_14_07_WtrPrHouse">
+<media id="fs-id1170959654530" alt="La figura es el dibujo esquemático de unas pocas líneas de agua pequeñas que conducen a las casas individuales y que se unen a la línea de agua principal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_07_WtrPrHouse.jpg"/>
+</media>
+<caption>Durante los momentos de mayor uso se produce una importante caída de presión en el conducto de agua, y <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> suministrado a los usuarios es significativamente menor que <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> creado en las obras de agua. Si el flujo es muy pequeño, la caída de presión es insignificante y <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>≈</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1170959869238">También podemos usar <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>Q</m:mi></m:mrow></m:math> para analizar las caídas de presión que se producen en sistemas más complejos en los que el radio del tubo no es el mismo en todas partes. La resistencia es mucho mayor en lugares estrechos, como en una arteria coronaria obstruida. Para una tasa de flujo dada <emphasis effect="italics">Q</emphasis>, la pérdida de carga es mayor donde el tubo es más estrecho. Así es como los grifos de agua controlan el flujo. Además, <emphasis effect="italics">R</emphasis> aumenta mucho con la turbulencia, y una constricción que crea turbulencia reduce mucho la presión descendente. La placa en una arteria reduce la presión y, por tanto, el flujo, tanto por su resistencia como por la turbulencia que crea.</para>
+</section>
+<section id="fs-id1170959865673">
+<title>Medición de turbulencia</title>
+<para id="fs-id1170957521193">Un indicador llamado <term>número de Reynolds</term> <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub></m:mrow></m:math> puede revelar si el flujo es laminar o turbulento. Para un flujo en un tubo de diámetro uniforme, el número de Reynolds se define como</para>
+<equation id="fs-id1170959658247"><label/><m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>ρ</m:mi><m:mi>v</m:mi><m:mi>r</m:mi></m:mrow><m:mi>η</m:mi></m:mfrac><m:mtext>(flujo en el tubo)</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170959713645">donde <m:math><m:mi>ρ</m:mi></m:math> es la densidad del fluido, <emphasis effect="italics">v</emphasis> su velocidad, <m:math><m:mi>η</m:mi></m:math> su viscosidad y <emphasis effect="italics">r</emphasis> el radio del tubo. El número de Reynolds es una cantidad sin dimensiones. Hay experimentos que han revelado que <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub></m:mrow></m:math> está relacionado con el inicio de turbulencia. Para <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub></m:mrow></m:math> por debajo de unos 2.000, el flujo es laminar. Para <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub></m:mrow></m:math> por encima de unos 3.000, el flujo es turbulento.</para>
+<para id="fs-id1170960164102">Para valores de <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub></m:mrow></m:math> entre 2.000 y 3.000 aproximadamente, el flujo es inestable, es decir, puede ser laminar, pero pequeños obstáculos y la rugosidad de la superficie pueden hacerlo turbulento, y puede oscilar aleatoriamente entre ser laminar y turbulento. De hecho, el flujo de un fluido con un número de Reynolds entre 2.000 y 3.000 es un buen ejemplo de comportamiento caótico. Un sistema se define como caótico cuando su comportamiento es tan sensible a algún factor que es extremadamente difícil de predecir. Es difícil, pero no imposible, predecir si el flujo es turbulento o no cuando el número de Reynolds de un fluido cae en este rango debido a la dependencia extremadamente sensible de factores como rugosidad y obstrucciones en la naturaleza del flujo. Una pequeña variación de un factor tiene un efecto exagerado (o no lineal) en el flujo.</para>
+<example id="fs-id1170959970547">
+<para id="fs-id1170957594773"><title>Usar la tasa de flujo: flujo turbulento o flujo laminar</title>
+En el <link target-id="fs-id1170959803130"/>, encontramos que la tasa de flujo volumétrica de un sistema de aire acondicionado es <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>3,84</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Este cálculo suponía un flujo laminar. (a) ¿Esta era una buena suposición? (b) ¿A qué velocidad se convertiría el flujo en turbulento?</para>
+<para id="fs-id1170957517578"><title>Estrategia</title>
+Para determinar si el flujo de aire a través del sistema de aire acondicionado es laminar, primero tenemos que encontrar la velocidad, que se puede encontrar por</para>
+<equation id="fs-id1170959936919" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959781203">Entonces, podemos calcular el número de Reynolds usando la ecuación siguiente, y determinar si entra en el rango del flujo laminar</para>
+<equation id="fs-id1170957588838" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>ρ</m:mi><m:mi>v</m:mi><m:mi>r</m:mi></m:mrow><m:mi>η</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959801676"><title>Solución</title></para>
+<list id="fs-id1170960179988" list-type="enumerated" number-style="lower-alpha">
+<item>Usando los valores dados:
+<equation id="fs-id1170959766539" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>v</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>3,84</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow><m:mtext>s</m:mtext></m:mfrac></m:mrow><m:mrow><m:mn>3,14</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,09</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,15</m:mn><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>R</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>ρ</m:mi><m:mi>v</m:mi><m:mi>r</m:mi></m:mrow><m:mi>η</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,23</m:mn><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,15</m:mn><m:mspace width="0.2em"/><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,09</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>0,0181</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.835</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+Como el número de Reynolds es 1.835 &lt; 2.000, el flujo es laminar y no turbulento. La suposición de que el flujo era laminar es válida.</item>
+<item>Para encontrar la velocidad máxima del aire para mantener el flujo laminar, considere el número de Reynolds.
+<equation id="fs-id1170959973499" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>R</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>ρ</m:mi><m:mi>v</m:mi><m:mi>r</m:mi></m:mrow><m:mi>η</m:mi></m:mfrac><m:mo>≤</m:mo><m:mn>2.000</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>v</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>2.000</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,0181</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>Pa</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,23</m:mn><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,09</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,16</m:mn><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1170957613120"><title>Importancia</title>
+Cuando se traslada un fluido de un punto a otro, es deseable limitar la turbulencia. La turbulencia provoca un desperdicio de energía, ya que parte de la energía destinada a mover el fluido se disipa cuando se forman torbellinos. En este caso, el sistema de aire acondicionado será menos eficiente una vez que la velocidad supere los 0,16 m/s, ya que este es el punto en el que comenzará a producirse turbulencia.</para>
+</example>
+</section>
+<section id="fs-id1170957408166" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170960151568" list-type="bulleted" bullet-style="bullet">
+<item>El flujo laminar se caracteriza por un flujo suave del fluido en capas que no se mezclan.</item>
+<item>La turbulencia se caracteriza por torbellinos y remolinos que mezclan capas de fluido.</item>
+<item>Viscosidad del fluido <m:math><m:mi>η</m:mi></m:math> se debe a la fricción dentro de un fluido.</item>
+<item>El flujo es proporcional a la diferencia de presión e inversamente proporcional a la resistencia:
+<equation id="fs-id1170960071681" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>La caída de presión causada por el flujo y la resistencia viene dada por <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>Q</m:mi></m:mrow></m:math>.</item>
+<item>El número de Reynolds <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub></m:mrow></m:math> puede revelar si el flujo es laminar o turbulento. Es <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>ρ</m:mi><m:mi>v</m:mi><m:mi>r</m:mi></m:mrow><m:mi>η</m:mi></m:mfrac></m:mrow></m:math>.</item>
+<item>Para <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub></m:mrow></m:math> por debajo de unos 2.000, el flujo es laminar. Para <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub></m:mrow></m:math> por encima de unos 3.000, el flujo es turbulento. Para valores de <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub></m:mrow></m:math> entre 2.000 y 3.000, puede ser cualquiera de los dos o ambos.</item>
+</list>
+</section>
+<section id="fs-id1170957599964" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1170901514019" class="unnumbered unstyled" summary="This table gives the following formulae: Density of a sample at constant density, rho equal to m by V; Pressure, p equal to F by A; Pressure at a depth h in a fluid of constant density, p equal to p0 plus rho g h; Change of pressure with height in a constant-density fluid, dp by dy equal to minus rho g; Absolute pressure, p subscript abs equal to p subscript g plus p subscript atm; Pascal’s principle, F1 by A1 equal to F2 by A2; Volume flow rate, Q equal to dV by dt; Continuity equation (constant density), A1 v1 equal to A2 v2; Continuity equation (general form), rho 1 A1 v1 equal to rho 2 A 2 v2; Bernoulli’s equation, p plus half rho v squared plus rho gy equal to constant; Viscosity, eta equal to FL by vA; Poiseuille’s law for resistance, R equal to 8 eta L by pi r raised to four; Poiseuille’s law, Q equal to in numerator open parentheses p2 minus p1 close parentheses pi r raised to four upon in denominator 8 eta l.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Densidad de una muestra a densidad constante</entry>
+<entry align="left"><m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Presión</entry>
+<entry align="left"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Presión a una profundidad <emphasis effect="italics">h</emphasis> en un fluido de densidad constante</entry>
+<entry align="left"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mi>h</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Cambio de la presión con la altura en<newline/>un fluido de densidad constante</entry>
+<entry align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>ρ</m:mi><m:mi>g</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Presión absoluta</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mtext>g</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Principio de Pascal</entry>
+<entry align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Tasa de flujo volumétrica</entry>
+<entry align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Ecuación de continuidad (densidad constante)</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Ecuación de continuidad (forma general)</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Ecuación de Bernoulli</entry>
+<entry align="left"><m:math><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>constante</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Viscosidad</entry>
+<entry align="left"><m:math><m:mrow><m:mi>η</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>F</m:mi><m:mi>L</m:mi></m:mrow><m:mrow><m:mi>v</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Ley de Poiseuille para la resistencia</entry>
+<entry align="left"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Ley de Poiseuille</entry>
+<entry align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1170957570933" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1170959709434">
+<problem id="fs-id1170957579618">
+<para id="fs-id1170957579620">Explique por qué la viscosidad de un líquido disminuye con la temperatura, es decir, ¿cómo un aumento de la temperatura puede reducir los efectos de las fuerzas de cohesión en un líquido? Explique también por qué la viscosidad de un gas aumenta con la temperatura, es decir, ¿cómo el aumento de la temperatura del gas crea más colisiones entre átomos y moléculas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957503452">
+<problem id="fs-id1170957503454">
+<para id="fs-id1170957599930">Cuando se rema con una canoa río arriba, lo más sensato es viajar lo más cerca posible de la orilla. Cuando se navega en canoa río abajo, generalmente, es mejor permanecer cerca del centro. Explique por qué.</para>
+</problem>
+<solution id="fs-id1170957574903">
+<para id="fs-id1170957574905">El agua en el centro de la corriente se mueve más rápido que el agua cerca de la orilla debido a la resistencia entre el agua y la orilla y entre las capas de fluido. También es probable que haya más turbulencia cerca de la orilla, lo que también ralentizará el agua. Al remar corriente arriba, el agua empuja la canoa, por lo que es mejor permanecer cerca de la orilla para minimizar la fuerza que empuja la canoa. Al desplazarse río abajo, el agua empuja la canoa, lo que aumenta su velocidad, y lo más conveniente es permanecer en el centro de la corriente para maximizar este efecto.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170960047636"><problem id="fs-id1170959693566">
+<para id="fs-id1170959693568">Las tuberías suelen incluir tubos llenos de aire cerca de los grifos de agua (véase la siguiente figura). Explique por qué son necesarios y cómo funcionan. </para>
+
+<media id="fs-id1170919654530" alt="La figura es el dibujo esquemático de unas pocas líneas de agua pequeñas que conducen a las casas individuales y que se unen a la línea de agua principal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_07_FaucetsATu_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1170960071345">
+<problem id="fs-id1170960071347">
+<para id="fs-id1170960071349">El ultrasonido doppler se puede usar para medir la velocidad de la sangre en el cuerpo. Si se produce una constricción parcial de una arteria, ¿dónde se espera que la velocidad de la sangre sea mayor: en la constricción o después de ella? ¿Cuáles son las dos causas distintas de una mayor resistencia en la constricción?</para>
+</problem>
+<solution id="fs-id1170959972868">
+<para id="fs-id1170959972870">Es de esperar que la velocidad sea menor después de la obstrucción. La resistencia aumenta debido a la reducción del tamaño de la abertura, y se creará turbulencia a causa de la obstrucción, y ambas disposiciones harán que el fluido disminuya su velocidad.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959972872">
+<problem id="fs-id1170960179941">
+<para id="fs-id1170960179943">Los desagües del fregadero suelen tener un dispositivo como el que se muestra a continuación para ayudar a acelerar el flujo de agua. ¿Cómo funciona esto?</para>
+<media id="fs-id1170959782856" alt="La figura es el dibujo esquemático del dispositivo que alinea el agua en las corrientes. El dispositivo tiene forma circular y está separado en cuatro segmentos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_07_SinkDrains_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170959706338" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170959814351">
+<problem id="fs-id1170959814353">
+<para id="fs-id1170957613137">(a) Calcule la fuerza de retardo debido a la viscosidad de la capa de aire entre un carrito y una pista de aire nivelada dada la siguiente información: la temperatura del aire es <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, el carrito se mueve a 0,400 m/s, su superficie es <m:math><m:mrow><m:mn>2,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> y el espesor de la capa de aire es <m:math><m:mrow><m:mn>6,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math>. (b) ¿Cuál es la relación entre esta fuerza y el peso del carrito de 0,300 kg?</para>
+</problem>
+<solution id="fs-id1170959868708">
+<para id="fs-id1170960143892">a. <m:math><m:mrow><m:mn>3,02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>1,03</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957613003">
+<problem id="fs-id1170957565280">
+<para id="fs-id1170957565282">Las arteriolas (pequeñas arterias) que conducen a un órgano se estrechan para disminuir el flujo hacia el órgano. Para apagar un órgano, el flujo sanguíneo se reduce de forma natural al 1,00 % de su valor original. ¿En qué factor se contraen los radios de las arteriolas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959961278">
+<problem id="fs-id1170959961280">
+<para id="fs-id1170959961282">Una partícula esférica que cae a una velocidad terminal en un líquido debe tener la fuerza gravitacional equilibrada por la fuerza de arrastre y la fuerza de flotación. La fuerza de flotación es igual al peso del fluido desplazado, mientras que la fuerza de arrastre se supone dada por la Ley de Stokes, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>η</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math> Demuestre que la velocidad terminal viene dada por <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mi>g</m:mi></m:mrow><m:mrow><m:mn>9</m:mn><m:mi>η</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>ρ</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, donde <emphasis effect="italics">R</emphasis> es el radio de la esfera, <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow></m:math> es su densidad y <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es la densidad del fluido y <m:math><m:mi>η</m:mi></m:math> el coeficiente de viscosidad.</para>
+</problem>
+<solution id="fs-id1170959827747">
+<para id="fs-id1170959827749">prueba</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957601837">
+<problem id="fs-id1170957601839">
+<para id="fs-id1170957601841">Usando la ecuación del problema anterior, encuentre la viscosidad del aceite de motor en el que cae una bola de acero de radio 0,8 mm con una velocidad terminal de 4,32 cm/s. Las densidades de la bola y del aceite son de 7,86 y 0,88 g/mL, respectivamente.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959806563">
+<problem id="fs-id1170957602656">
+<para id="fs-id1170957602658">Un paracaidista alcanzará una velocidad límite cuando el arrastre del aire sea igual a su peso. Para un paracaidista con un cuerpo grande, la turbulencia es un factor a altas velocidades. La fuerza de arrastre es entonces aproximadamente proporcional al cuadrado de la velocidad. Tomando la fuerza de arrastre como <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>D</m:mtext></m:msub><m:mo>=</m:mo><m:mstyle><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mstyle><m:mi>ρ</m:mi><m:mi>A</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> y fijando esta igual al peso del paracaidista, encuentre la velocidad terminal para una persona que cae en “águila abierta”.</para>
+</problem>
+<solution id="fs-id1170957601474">
+<para id="fs-id1170957588652">40 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957588658">
+<problem id="fs-id1170957471940">
+<para id="fs-id1170957471942">(a) Compruebe que una disminución del 19,0 % del flujo laminar a través de un tubo se debe a una disminución del 5,00 % del radio, al suponer que todos los demás factores permanecen constantes. (b) ¿Qué incremento del flujo se obtiene de un aumento del 5,00 % del radio, al suponer también que todos los demás factores permanecen constantes?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170960195065">
+<problem id="fs-id1170957441732">
+<para id="fs-id1170957441735">Cuando los médicos diagnostican obstrucciones arteriales, citan la reducción de la tasa de flujo. Si la tasa de flujo de una arteria se ha reducido al 10,0 % de su valor normal por un coágulo de sangre y la diferencia de presión media ha aumentado un 20,0 %, ¿en qué factor ha reducido el coágulo el radio de la arteria?</para>
+</problem>
+<solution id="fs-id1170960072383">
+<para id="fs-id1170957408851"><m:math><m:mrow><m:mn>0,537</m:mn><m:mi>r</m:mi></m:mrow></m:math>; el radio se reduce al 53,7 % de su valor normal.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959978251">
+<problem id="fs-id1170957505676">
+<para id="fs-id1170957505678">Un pozo de petróleo lanza crudo a 25,0 m en el aire a través de una tubería de 0,100 m de diámetro. Descarte la resistencia del aire, pero no la de la tubería, suponga un flujo laminar y calcule la presión en la entrada de la tubería vertical de 50,0 m de longitud. Tome la densidad del petróleo para ser <m:math><m:mrow><m:mn>900</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> y que su viscosidad sea <m:math><m:mrow><m:mn>1,00</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:math> (o <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>). Hay que tener en cuenta la presión debido a la columna de aceite de 50,0 m en la tubería.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959807462">
+<problem id="fs-id1170959807464">
+<para id="fs-id1170959807467">El hormigón se bombea desde una mezcladora hasta el lugar donde se va a vaciar, en vez de transportarlo en carretillas. La tasa de flujo es de 200 L/min a través de una manguera de 50,0 m de longitud y 8,00 cm de diámetro, y la presión en la bomba es de <m:math><m:mrow><m:mn>8,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. (a) Calcule la resistencia de la manguera. (b) ¿Cuál es la viscosidad del hormigón si se supone que el flujo es laminar? (c) ¿Cuánta potencia se suministra, si se supone que el punto de uso está al mismo nivel que la bomba? Puede descartar la potencia suministrada para aumentar la velocidad del hormigón.</para>
+</problem>
+<solution id="fs-id1170960042194">
+<para id="fs-id1170960042196">a. <m:math><m:mrow><m:mn>2,40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup><m:mrow><m:mtext>s/m</m:mtext></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>48,3</m:mn><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mn>2,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170960161804">
+<problem id="fs-id1170960161806">
+<para id="fs-id1170960161808">Compruebe que el flujo de petróleo es laminar para un pozo de petróleo que lanza crudo a 25,0 m en el aire a través de una tubería de 0,100 m de diámetro. El tubo vertical tiene 50 m de longitud. Tome la densidad del petróleo para ser <m:math><m:mrow><m:mn>900</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> y que su viscosidad sea <m:math><m:mrow><m:mn>1,00</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:math> (o <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957554980">
+<problem id="fs-id1170960159678">
+<para id="fs-id1170960159680">Calcule los números de Reynolds para el flujo de agua a través de (a) una boquilla con un radio de 0,250 cm; y (b) una manguera de jardín con un radio de 0,900 cm, cuando la boquilla está unida a la manguera. La tasa de flujo que pasa por la manguera y la boquilla es de 0,500 L/s. ¿Es posible que el flujo en cualquiera de ellos sea laminar?</para>
+</problem>
+<solution id="fs-id1170959671891">
+<para id="fs-id1170960159682">a. Boquilla <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>25,5</m:mn><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow></m:math><newline/> <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1,27</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mo>&gt;</m:mo><m:mn>2.000</m:mn><m:mo stretchy="false">⇒</m:mo></m:mrow></m:math><newline/> El flujo no es laminar.<newline/> b. Manguera: <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>1,96</m:mn><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow></m:math><newline/> <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mn>35.100</m:mn><m:mo>&gt;</m:mo><m:mn>2.000</m:mn><m:mo stretchy="false">⇒</m:mo></m:mrow></m:math><newline/> El flujo no es laminar.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957590612">
+<problem id="fs-id1170957590614">
+<para id="fs-id1170957590616">Una manguera de incendios tiene un diámetro interior de 6,40 cm. Supongamos que dicha manguera transporta un flujo de 40,0 L/s a partir de una presión manométrica de <m:math><m:mrow><m:mn>1,62</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. La manguera sube 10,0 m por una escalera hasta una boquilla con un diámetro interior de 3,00 cm. Calcule los números de Reynolds para el flujo en la manguera y en la boquilla para demostrar que el flujo en cada una debe ser turbulento.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957530985">
+<problem id="fs-id1170957530987">
+<para id="fs-id1170957530989">¿A partir de qué tasa de flujo se puede producir turbulencia en una tubería de agua de 0,200 m de diámetro? Supongamos que un <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> temperatura.</para>
+</problem>
+<solution id="fs-id1170957594680">
+<para id="fs-id1170957594683"><m:math><m:mrow><m:mn>3,16</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170960026175" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1170960026182">
+<problem id="fs-id1170960026184">
+<para id="fs-id1170957628345">Antes de los dispositivos de almacenamiento digital, como la memoria del teléfono móvil, la música se almacenaba en discos de vinilo con surcos de distinta profundidad cortados en el disco. Un fonógrafo usaba una aguja, la cual se movía sobre los surcos y medía su profundidad. La presión que ejerce la aguja de un fonógrafo sobre un disco es sorprendentemente grande. Si el equivalente a 1,00 g es soportado por una aguja cuya punta es un círculo de 0,200 mm de radio, ¿qué presión se ejerce sobre el disco en Pa?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957529939">
+<problem id="fs-id1170957529941">
+<para id="fs-id1170957529944">Las torres de agua almacenan agua por encima del nivel de los consumidores para los momentos de mayor uso, lo que elimina la necesidad de usar bombas de alta velocidad. ¿A qué altura sobre el usuario debe estar el nivel de agua para crear una presión manométrica de <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170957554936">
+<para id="fs-id1170957554938">30,6 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957554944">
+<problem id="fs-id1170957554946">
+<para id="fs-id1170960071725">El humor acuoso del ojo de una persona ejerce una fuerza de 0,300 N sobre la <m:math><m:mrow><m:mn>1,10</m:mn><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> área de la córnea. ¿Qué presión es esta en mm Hg?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959869293">
+<problem id="fs-id1170959869295">
+<para id="fs-id1170959869297">(a) Convierta las lecturas normales de presión arterial de 120 sobre 80 mm Hg a newtons por metro cuadrado usando la relación para presión debido al peso de un fluido <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> en vez de un factor de conversión. (b) Explique por qué la presión arterial de un bebé sería, probablemente, menor que la de un adulto. En concreto, considere la menor altura a la que debe bombearse la sangre.</para>
+</problem>
+<solution id="fs-id1170957485561">
+<para id="fs-id1170957485563">a. <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>p</m:mi><m:mrow><m:mn>120</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>N/m</m:mtext><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>p</m:mi><m:mrow><m:mn>80</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1,07</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>N/m</m:mtext><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:math>;<newline/> b. Dado que un bebé solo mide 20 pulgadas aproximadamente, mientras que un adulto mide 70 pulgadas aproximadamente, se espera que la presión arterial de un bebé sea menor que la de un adulto. La sangre solo siente una presión de 20 pulgadas en vez de 70 pulgadas, por lo que la presión debería ser menor.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957568640">
+<problem id="fs-id1170957568642">
+<para id="fs-id1170957568644">Las ollas a presión existen desde hace más de 300 años, aunque su uso ha disminuido mucho en los años recientes (los primeros modelos tenían la desagradable costumbre de explotar). ¿Qué fuerza deben soportar los cierres que sujetan la tapa de una olla a presión si la tapa circular es <m:math><m:mrow><m:mn>25,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> de diámetro y la presión manométrica en su interior es de 300 atm? Ignore el peso de la tapa.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959874302">
+<problem id="fs-id1170959874304">
+<para id="fs-id1170957570978">Los huesos de las aves tienen bolsas de aire para reducir su peso, lo que también les confiere una densidad media significativamente menor que la de los huesos de otros animales. Supongamos que un ornitólogo pesa un hueso de ave en el aire y en el agua y encuentra que su masa es de 45,0 g y su masa aparente cuando está sumergido es de 3,60 g (supongamos que el hueso es hermético). (a) ¿Qué masa de agua se desplaza? (b) ¿Cuál es el volumen del hueso? (c) ¿Cuál es su densidad media?</para>
+</problem>
+<solution id="fs-id1170959924880">
+<para id="fs-id1170959924882">a. 41,4 g; b. 41,4 cm<sup>3</sup>; c. 1,09 g/cm<sup>3</sup>. Está claro que no es la densidad del hueso en todas partes. Las bolsas de aire tendrán una densidad de, aproximadamente, <m:math><m:mrow><m:mn>1,29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>g/cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>, mientras que el hueso será sustancialmente más denso.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170960195222">
+<problem id="fs-id1170960195224">
+<para id="fs-id1170960195227">En una medición por inmersión de la densidad de una mujer, se encuentra que tiene una masa de 62,0 kg en el aire y una masa aparente de 0,0850 kg cuando está completamente sumergida con los pulmones vacíos. (a) ¿Qué masa de agua desplaza? (b) ¿Cuál es su volumen? (c) Calcule su densidad. (d) Si su capacidad pulmonar es de 1,75 L, ¿es capaz de flotar sin pisar el agua con los pulmones llenos de aire?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957599332">
+<problem id="fs-id1170959874323">
+<para id="fs-id1170959874325">Algunos peces tienen una densidad ligeramente inferior a la del agua y deben ejercer una fuerza (nadar) para mantenerse sumergidos. ¿Qué fuerza debe ejercer un mero de 85,0 kg para permanecer sumergido en agua salada si la densidad de su cuerpo es <m:math><m:mrow><m:mn>1.015</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1170960013511">
+<para id="fs-id1170960013513">12,3 N</para></solution>
+</exercise>
+<exercise id="fs-id1170957609864">
+<problem id="fs-id1170957609866">
+<para id="fs-id1170957609868">El sistema circulatorio humano tiene, aproximadamente, <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup></m:mrow></m:math> vasos capilares. Cada recipiente tiene un diámetro de, aproximadamente, <m:math><m:mrow><m:mn>8</m:mn><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:math>. Suponga que el gasto cardíaco es de 5 L/min y determine la velocidad media del flujo sanguíneo a través de cada vaso capilar.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959842107">
+<problem id="fs-id1170959842109">
+<para id="fs-id1170959842112">La tasa de flujo a través de un <m:math><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>radio capilar es <m:math><m:mrow><m:mn>3,80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>. (a) ¿Cuál es la velocidad del flujo sanguíneo? (b) Suponga que toda la sangre del cuerpo pasa por los capilares, ¿cuántos debe haber para transportar un flujo total de <m:math><m:mrow><m:mn>90,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170957578552">
+<para id="fs-id1170957578554">a. <m:math><m:mrow><m:mn>3,02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>cm/s</m:mtext></m:mrow></m:math>. (esta pequeña velocidad permite el tiempo de difusión de los materiales hacia y desde la sangre). b <m:math><m:mrow><m:mn>2,37</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math> capilares (esta gran cifra es una sobreestimación, pero sigue siendo razonable).</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957470462">
+<problem id="fs-id1170957470464">
+<para id="fs-id1170957470466">El ventrículo izquierdo del corazón de un adulto en reposo bombea sangre a una tasa de flujo de <m:math><m:mrow><m:mn>83,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>, aumentando su presión en 110 mm Hg, su velocidad de cero a 30,0 cm/s, y su altura en 5,00 cm (todas las cifras se promedian a lo largo de todo el latido del corazón). Calcule la potencia total del ventrículo izquierdo. Tenga en cuenta que la mayor parte de la potencia se usa para aumentar la presión arterial.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957531081">
+<problem id="fs-id1170957604295">
+<para id="fs-id1170957604297">Una bomba de sumidero (que se usa para drenar el agua del sótano de casas construidas por debajo del nivel freático) está drenando un sótano inundado a una velocidad de 0,750 L/s, con una presión de salida de <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. a) El agua entra en una manguera con un diámetro interior de 3,00 cm y sube 2,50 m por encima de la bomba. ¿Cuál es su presión en este punto? b) La manguera pasa por encima del muro de los cimientos, pierde 0,500 m de altura y se ensancha hasta los 4,00 cm de diámetro. ¿Cuál es la presión ahora? Es posible que descarte pérdidas por fricción en ambas partes del problema.</para>
+</problem>
+<solution id="fs-id1170957599532">
+<para id="fs-id1170957599535">a. <m:math><m:mrow><m:mn>2,76</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,81</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957594743">
+<problem id="fs-id1170957594745">
+<para id="fs-id1170957594747">Una solución de glucosa que se administra por vía intravenosa tiene una tasa de flujo de<m:math><m:mrow><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/min</m:mtext></m:mrow></m:math>. ¿Cuál será la nueva tasa de flujo si se sustituye la glucosa por sangre total con la misma densidad pero con una viscosidad 2,50 veces superior a la de la glucosa? Todos los demás factores permanecen constantes.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170960057837">
+<problem id="fs-id1170960057839">
+<para id="fs-id1170960057842">Una arteria pequeña tiene una longitud de <m:math><m:mrow><m:mn>1,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> y un radio de <m:math><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math>. Si la caída de presión a través de la arteria es de 1,3 kPa, ¿cuál es la tasa de flujo a través de la arteria? (Supongamos que la temperatura es <m:math><m:mrow><m:mn>37</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>).</para>
+</problem>
+<solution id="fs-id1170960151186">
+<para id="fs-id1170960151188"><m:math><m:mrow><m:mn>8,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957554901">
+<problem id="fs-id1170957554903">
+<para id="fs-id1170957568845">La angioplastia es una técnica en la que se dilatan las arterias parcialmente obstruidas por la placa para aumentar el flujo sanguíneo. ¿En qué factor debe aumentar el radio de una arteria para que el flujo sanguíneo se multiplique por 10?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957569717">
+<problem id="fs-id1170957569719">
+<para id="fs-id1170957509456">Supongamos que el radio de un vaso sanguíneo disminuye hasta el 90,0 % de su valor original debido a los depósitos de placa y que el organismo compensa aumentando la diferencia de presión a lo largo del vaso para mantener la tasa de flujo constante. ¿En qué factor debe aumentar la diferencia de presión? b) Si la obstrucción crea turbulencia, ¿qué efecto adicional tendría sobre la tasa de flujo?</para>
+</problem>
+<solution id="fs-id1170957509467">
+<para id="fs-id1170957590261">a. 1,52; b. La turbulencia disminuiría la tasa de flujo de la sangre, lo que requeriría un aumento aún mayor de la diferencia de presión, lo que provocaría una mayor presión arterial.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170957590269" class="review-challenge">
+<title>Problemas de desafíos</title>
+<exercise id="fs-id1170960192139">
+<problem id="fs-id1170960192141">
+<para id="fs-id1170960192143">La presión sobre la presa mostrada al principio de la sección de problemas aumenta con la profundidad. Por lo tanto, hay un torque neto en la presa. Encuentre el torque neto.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957601146">
+<problem id="fs-id1170957601148">
+<para id="fs-id1170957601150">La temperatura de la atmósfera no es siempre constante y puede aumentar o disminuir con la altura. En una atmósfera neutra, donde no hay una cantidad significativa de mezcla vertical, la temperatura disminuye a un ritmo de 6,5 K por km aproximadamente. La magnitud de la disminución de la temperatura a medida que aumenta la altura se conoce como la tasa de lapso <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtext>Γ</m:mtext><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> (el símbolo es la letra griega mayúscula gamma). Supongamos que la presión superficial es <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,013</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> donde <m:math><m:mrow><m:mtext>T</m:mtext><m:mo>=</m:mo><m:mn>293</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> y la tasa de caída es <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>Γ</m:mi><m:mo>=</m:mo><m:mn>6,5</m:mn><m:mfrac><m:mtext>K</m:mtext><m:mrow><m:mtext>km</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Estime la presión a 3,0 km por encima de la superficie de la Tierra.</para>
+</problem>
+<solution id="fs-id1170957582636">
+<para id="fs-id1170957582638"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0,99</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957530781">
+<problem id="fs-id1170957530783">
+<para id="fs-id1170957530785">Un submarino queda varado en el fondo del océano con su escotilla a 25,0 m de profundidad. Calcule la fuerza necesaria para abrir la escotilla desde el interior, dado que es circular y tiene 0,450 m de diámetro. La presión del aire dentro del submarino es de 1,00 atm.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957529493">
+<problem id="fs-id1170957529495">
+<para id="fs-id1170957529498">Los troncos, a veces, flotan verticalmente en un lago porque un extremo se ha encharcado y es más denso que el otro. ¿Cuál es la densidad media de un tronco de diámetro uniforme que flota con el 20,0 % de su longitud por encima del agua?</para>
+</problem>
+<solution id="fs-id1170957529504">
+<para id="fs-id1170957529506"><m:math><m:mrow><m:mn>800</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957529523">
+<problem id="fs-id1170957529525">
+<para id="fs-id1170957529527">Se sabe de estafadores que representan lingotes de tungsteno chapados en oro como si fueran de oro puro y los venden a precios muy inferiores al valor del oro, pero muy superiores al coste del tungsteno. ¿Con qué exactitud se debe poder medir la masa de un lingote de este tipo dentro y fuera del agua para saber que se trata de tungsteno casi puro y no de oro puro?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957604246">
+<problem id="fs-id1170957604248">
+<para id="fs-id1170957604250">El volumen interior de una casa equivale al de un sólido rectangular de 13,0 m de ancho por 20,0 m de largo y 2,75 m de alto. La casa se calienta con un calentador de gas de aire forzado. El conducto principal de entrada de aire del calentador tiene un diámetro de 0,300 m. ¿Cuál es la rapidez media del aire en el conducto si este transporta un volumen igual al del interior de la casa cada 15 minutos?</para>
+</problem>
+<solution id="fs-id1170957604260">
+<para id="fs-id1170957604262">11,2 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957604268">
+<problem id="fs-id1170957604270">
+<para id="fs-id1170957604272">Se usa una manguera de jardín con un diámetro de 2,0 cm para llenar un cubo, que tiene un volumen de 0,10 metros cúbicos. Tarda 1,2 minutos en llenarse. Una boquilla ajustable se acopla a la manguera para disminuir el diámetro de la abertura, lo que aumenta la velocidad del agua. La manguera se mantiene nivelada con el suelo a una altura de 1,0 metros y se va disminuyendo el diámetro hasta llegar a un lecho de flores que se encuentra a 3,0 metros de distancia. (a) ¿Cuál es la tasa de flujo volumétrica del agua que pasa por la boquilla cuando el diámetro es de 2,0 cm? (b) ¿Cuál es la velocidad del agua que sale de la manguera? (c) ¿Cuál debe ser la velocidad del agua que sale de la manguera para llegar al lecho de flores que se encuentra a 3,0 metros de distancia? (d) ¿Cuál es el diámetro de la boquilla necesario para llegar al lecho de flores?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957555075">
+<problem id="fs-id1170957555077">
+<para id="fs-id1170957555079">Una regla general citada con frecuencia en el diseño de aeronaves es que las alas deben producir unos 1.000 N de sustentación por metro cuadrado de ala (el hecho de que un ala tenga una superficie superior y otra inferior no duplica su área). (a) En el despegue, un avión viaja a 60,0 m/s, por lo que la velocidad del aire respecto a la parte inferior del ala es de 60,0 m/s. Dada la densidad del aire a nivel del mar como <m:math><m:mrow><m:mn>1,29</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>, ¿a qué velocidad debe moverse sobre la superficie superior para crear la sustentación ideal? b) ¿A qué velocidad debe moverse el aire sobre la superficie superior a una velocidad de crucero de 245 m/s y a una altitud en la que la densidad del aire es una cuarta parte de la del nivel del mar? (Obsérvese que no se trata de toda la sustentación del avión: una parte procede del cuerpo del avión, otra del empuje del motor, etc. Además, el principio de Bernoulli da una respuesta aproximada porque el flujo sobre el ala crea turbulencia).</para>
+</problem>
+<solution id="fs-id1170957555105">
+<para id="fs-id1170957555108">a. 71,8 m/s; b. 257 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957555113">
+<problem id="fs-id1170957555115">
+<para id="fs-id1170957555117">Dos tuberías de diámetro igual y constante salen de una estación de bombeo de agua y vierten el agua por un extremo abierto a la atmósfera (véase la siguiente figura). El agua entra a una presión de dos atmósferas y a una velocidad de <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mtext>v</m:mtext><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Un tubo desciende una altura de 10 m. ¿Cuál es la velocidad del agua al salir de cada tubería?</para>
+<media id="fs-id1170960151274" alt="La figura es el dibujo esquemático de dos tubos de diámetro igual y constante. Están abiertas a la atmósfera por un lado y conectadas a un tanque lleno de agua por el otro. La conexión para un tubo de fondo está a 10 metros del suelo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_06_pumpstatn_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170960071568">
+<problem id="fs-id1170960071570">
+<para id="fs-id1170960071572">El fluido circula originalmente a través de un tubo a una velocidad de <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>. Para ilustrar la sensibilidad de la tasa de flujo a diversos factores, calcule la nueva tasa de flujo para los siguientes cambios, todos los demás factores permanecen iguales que en las condiciones originales. (a) La diferencia de presión aumenta en un factor de 1,50. (b) Se sustituye un nuevo fluido con una viscosidad 3,00 veces mayor. (c) Se sustituye el tubo por uno con una longitud 4,00 veces mayor. (d) Se usa otro tubo con un radio 0,100 veces mayor que el original. (e) Se sustituye otro tubo con un radio 0,100 veces mayor que el original y la mitad de la longitud, y la diferencia de presión aumenta en un factor de 1,50.</para>
+</problem>
+<solution id="fs-id1170957542556">
+<para id="fs-id1170957542558">a. <m:math><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>33,3</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mn>25,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>; d. <m:math><m:mrow><m:mn>0,0100</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>; e. <m:math><m:mrow><m:mn>0,0300</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957472076">
+<problem id="fs-id1170957472078">
+<para id="fs-id1170957472080">Durante una carrera de maratón, el flujo sanguíneo de un corredor aumenta hasta 10,0 veces su ritmo en reposo. La viscosidad de la sangre descendió al 95,0 % de su valor normal, y la diferencia de presión sanguínea en el sistema circulatorio aumentó en un 50,0 %. ¿En qué factor ha aumentado los radios medios de sus vasos sanguíneos?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957472106">
+<problem id="fs-id1170957472108">
+<para id="fs-id1170957472110">El agua suministrada a una casa por una tubería principal tiene una presión de <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> temprano en un día de verano cuando el uso del vecindario es bajo. Esta presión produce un flujo de 20,0 L/min a través de una manguera de jardín. Más tarde, la presión a la salida del conducto de agua y a la entrada de la casa disminuye y se obtiene un flujo de solo 8,00 L/min a través de la misma manguera. (a) ¿Qué presión se suministra ahora a la casa si se supone que la resistencia es constante? (b) ¿En qué factor ha aumentado la tasa de flujo en el conducto de agua para provocar esta disminución de la presión suministrada? La presión en la entrada del conducto de agua es <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, y la tasa de flujo original era de 200 L/min. (c) ¿Cuántos usuarios más hay, si se supone que cada uno consuma 20,0 L/min por la mañana?</para>
+</problem>
+<solution id="fs-id1170957445235">
+<para id="fs-id1170957445237">a. <m:math><m:mrow><m:mn>1,20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>; b. La tasa de flujo en el conducto aumenta un 90 %. c. Hay 38 usuarios más por la tarde aproximadamente.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957545156">
+<problem id="fs-id1170957545158">
+<para id="fs-id1170957545160">La gasolina se transporta por tuberías subterráneas desde las refinerías hasta los principales usuarios. La tasa de flujo es <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math> (unos 500 gal/min), la viscosidad de la gasolina es <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>, y su densidad es <m:math><m:mrow><m:mn>680</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> (a) ¿Qué diámetro mínimo debe tener la tubería para que el número de Reynolds sea inferior a 2.000? (b) ¿Qué diferencia de presión debe mantenerse a lo largo de cada kilómetro de la tubería para mantener esta tasa de flujo?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170957530015">
+<term>Ley de Poiseuille</term>
+<meaning id="fs-id1170957530020">velocidad de flujo laminar de un fluido incompresible en un tubo: <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170957613559">
+<term>Ley de Poiseuille para la resistencia</term>
+<meaning id="fs-id1170957613564">resistencia al flujo laminar de un fluido incompresible en un tubo <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170957573257">
+<term>número de Reynolds</term>
+<meaning id="fs-id1170957573262">parámetro sin dimensiones que puede revelar si un determinado flujo es laminar o turbulento</meaning>
+</definition>
+<definition id="fs-id1170957573267">
+<term>turbulencia</term>
+<meaning id="fs-id1170957573272">fluido circulante en el que las capas se mezclan por torbellinos y remolinos</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,469 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Potencia</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90647</md:content-id>
+  <md:title>Potencia</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Relacionar el trabajo realizado durante un intervalo de tiempo con la potencia entregada.</item>
+<item>Hallar la potencia gastada por una fuerza que actúa sobre un cuerpo en movimiento.</item>
+</list></md:abstract>
+  <md:uuid>8cbdb52f-a325-430f-98fd-51f066b61edd</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165037985721">El concepto de trabajo implica fuerza y desplazamiento; el teorema de trabajo-energía relaciona el trabajo neto que se realiza sobre un cuerpo con la diferencia de su energía cinética, calculada entre dos puntos de su trayectoria. Ninguna de estas cantidades o relaciones implica explícitamente el tiempo, pero sabemos que el tiempo disponible para realizar una determinada cantidad de trabajo suele ser tan importante para nosotros como la propia cantidad. En la figura que abre el capítulo, varios velocistas pueden haber alcanzado la misma velocidad en la meta y, por lo tanto, haber realizado la misma cantidad de trabajo, pero el ganador de la carrera lo hizo en el menor tiempo.</para>
+<para id="fs-id1165038030116">Expresamos la relación entre el trabajo realizado y el intervalo de tiempo que implica su realización, al introducir el concepto de potencia. Dado que el trabajo puede variar en función del tiempo, primero definimos la <term>potencia media</term> (Average, ave) como el trabajo realizado durante un intervalo de tiempo, dividido entre el intervalo,</para>
+<equation id="fs-id1165036978924"><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>W</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165037028184">A continuación, podemos definir la <term>potencia instantánea</term> (a menudo denominada simplemente <term>potencia</term>).</para>
+<note id="fs-id1165037157132">
+<title>Potencia</title>
+<para id="fs-id1165037157156">La potencia se define como la tasa de realización de trabajo, o el límite de la potencia media para los intervalos de tiempo que se acercan a cero,</para>
+<equation id="fs-id1165037065048"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math>
+</equation>
+</note>
+<para id="fs-id1165038157627">Si la potencia es constante a lo largo de un intervalo de tiempo, la potencia media de ese intervalo es igual a la potencia instantánea, y el trabajo realizado por el agente que suministra la potencia es <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow></m:math>. Si la potencia durante un intervalo varía con el tiempo, entonces el trabajo realizado es la integral del tiempo de la potencia,</para>
+<equation id="fs-id1165038025843" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mi>P</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1165037849420">El teorema de trabajo-energía relaciona cómo se puede transformar el trabajo en energía cinética. Dado que también existen otras formas de energía, como veremos en el próximo capítulo, también podemos definir la potencia como la tasa de transferencia de energía. El trabajo y la energía se miden en unidades de julios, por lo que la potencia se mide en unidades de julios por segundo, a las que el SI ha dado el nombre de vatios, con abreviatura W: <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>. Otra unidad común para expresar la capacidad de potencia de los dispositivos cotidianos es el caballo de fuerza (Horsepower, hp): <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>hp</m:mtext><m:mo>=</m:mo><m:mn>746</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>.</para>
+<example id="fs-id1165037910246">
+<para id="fs-id1165037201009"><title>Potencia de levantamiento</title>Un aprendiz del ejército de 80 kg hace dominadas en una barra horizontal (<link target-id="CNX_UPhysics_07_04_Pullup"/>). El aprendiz tarda 0,8 segundos en levantar el cuerpo desde una posición baja hasta que la barbilla está por encima de la barra. ¿Cuánta fuerza suministran los músculos del aprendiz al mover su cuerpo desde la posición inferior hasta que la barbilla está por encima de la barra? (<emphasis effect="italics">Pista:</emphasis> Haga una estimación razonable de las cantidades necesarias).</para><figure id="CNX_UPhysics_07_04_Pullup">
+<media id="fs-id1165038173237" alt="La figura ilustra a una persona haciendo una dominada. La persona se desplaza una distancia vertical de delta y durante la dominada. Se muestra una fuerza descendente de m veces el vector g que actúa sobre la persona tanto en la posición superior como en la inferior de la dominada.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_04_Pullup.jpg"/>
+</media>
+<caption>¿Cuál es la potencia gastada al hacer diez dominadas en diez segundos?</caption>
+</figure>
+<para id="fs-id1165038158684"><title>Estrategia</title>El trabajo realizado contra la gravedad, subiendo o bajando una distancia <m:math><m:mrow><m:mi>Δ</m:mi><m:mi>y</m:mi></m:mrow></m:math>, es <m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mtext>Δ</m:mtext><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math> Supongamos que <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext>pies</m:mtext><m:mo>≈</m:mo><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Supongamos también que los brazos representan el 10 % de la masa del cuerpo y no se incluyen en la masa en movimiento. Con estos supuestos, podemos calcular el trabajo realizado.</para><para id="fs-id1165037997888"><title>Solución</title>
+El resultado que obtenemos, aplicando nuestros supuestos, es</para>
+<equation id="fs-id1165038223996" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>mg</m:mtext><m:mo stretchy="false">(</m:mo><m:mo>Δ</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>t</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/>
+
+<m:mfrac><m:mrow><m:mn>0,9</m:mn><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9,8</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,60</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>0,8</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>529</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation><para id="fs-id1165036966381"><title>Importancia</title>
+Esto es típico para el gasto de energía en el ejercicio extenuante; en unidades cotidianas, es algo más de un caballo de fuerza <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>hp</m:mtext><m:mo>=</m:mo><m:mn>746</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+</example>
+<note id="fs-id1165038398497" class="check-understanding">
+<exercise id="fs-id1165038053400">
+<problem id="fs-id1165038243338">
+<para id="fs-id1165038154854">Calcule la potencia que gasta un levantador de pesas al levantar una barra de 150 kg 2 m en 3 s.</para>
+</problem>
+<solution id="fs-id1165037975569">
+<para id="fs-id1165037090003">980 W</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165037846922">La potencia necesaria para mover un cuerpo también puede expresarse en términos de las fuerzas que actúan sobre este. Si una fuerza <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> actúa sobre un cuerpo que es desplazado <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> en un tiempo <emphasis effect="italics">dt</emphasis>, la potencia gastada por la fuerza es</para>
+<note id="fs-id1165037877524" class="equation-callout">
+<equation id="fs-id1165037986585"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165037207818">donde <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es la velocidad del cuerpo. El hecho de que los límites implicados por las derivadas existan, para el movimiento de un cuerpo real, justifica el reordenamiento de los infinitesimales.</para>
+<example id="fs-id1165038046047">
+<para id="fs-id1165037896236"><title>Potencia automotriz conduciendo cuesta arriba</title>
+¿Cuánta potencia debe gastar el motor de un automóvil para mover un auto de 1.200 kg por una pendiente de grado del 15 % a 90 km/h (<link target-id="CNX_UPhysics_07_04_Ex2"/>)? Supongamos que el 25 % de esta potencia se disipa al vencer la resistencia del aire y la fricción.</para>
+<figure id="CNX_UPhysics_07_04_Ex2"><media id="fs-id1165038197586" alt="Se muestra un automóvil subiendo por una pendiente de grado del 15 % a una velocidad de v = 90 kilómetros por hora. El auto tiene una masa m = 1.200 kilogramos.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_07_04_Ex2.jpg"/>
+</media>
+
+<caption>Queremos calcular la potencia necesaria para subir un auto por una colina a velocidad constante.</caption></figure><para id="fs-id1165036771408"><title>Estrategia</title>
+A velocidad constante, no hay cambio en la energía cinética, por lo que el trabajo neto realizado para mover el auto es cero. Por lo tanto, la potencia suministrada por el motor para mover el auto es igual a la potencia gastada contra la gravedad y la resistencia del aire. Suponiendo que el 75 % de la potencia se suministre contra la gravedad, lo que equivale a <m:math><m:mrow><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>v</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mi>θ</m:mi></m:math> es el ángulo de la pendiente. Un grado del 15 % significa <m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0,15</m:mn><m:mo>.</m:mo></m:mrow></m:math> Este razonamiento nos permite resolver la potencia necesaria.</para>
+<para id="fs-id1165038219683"><title>Solución</title>
+Al llevar a cabo los pasos sugeridos, hallamos</para>
+<equation id="fs-id1165036784440" class="unnumbered"><label/><m:math><m:mrow><m:mn>0,75</m:mn><m:mspace width="0.2em"/><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>v</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mn>0,15</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038038348">o</para>
+<equation id="fs-id1165038308190" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.200</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>9,8</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>90</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mn>3,6</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>sen</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>8,53</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>0,75</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>58</m:mn><m:mspace width="0.2em"/><m:mtext>kW,</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165038050999">o unos 78 hp. (Deberá suministrar los pasos utilizados para convertir las unidades).</para>
+<para id="fs-id1165036899239"><title>Importancia</title>
+Esta es una cantidad razonable de potencia para que el motor de un auto pequeño o mediano suministre <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>hp</m:mtext><m:mo>=</m:mo><m:mn>0,746</m:mn><m:mspace width="0.2em"/><m:mtext>kW</m:mtext><m:mtext>).</m:mtext></m:mrow></m:math> Observe que esto es solo la potencia gastada para mover el auto. Gran parte de la potencia del motor va a parar a otra parte, por ejemplo, al calor residual. Por eso los autos necesitan radiadores. La potencia restante puede utilizarse para acelerar o para hacer funcionar los accesorios del auto.</para>
+</example>
+<section id="fs-id1165038021692" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1165037011227" list-type="bulleted" bullet-style="bullet">
+<item>La potencia es la tasa de realización del trabajo, es decir, la derivada del trabajo con respecto al tiempo.</item>
+<item>Alternativamente, el trabajo realizado durante un intervalo de tiempo es la integral de la potencia suministrada durante dicho intervalo.</item>
+<item>La potencia entregada por una fuerza, que actúa sobre una partícula en movimiento, es el producto punto de la fuerza por la velocidad de la partícula.</item>
+</list>
+</section>
+<section id="fs-id1165038022158" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1171242283244" class="unnumbered unstyled" summary="This table gives the following formulae: Work done by a force over an infinitesimal displacement, dW equal to vector F dot d vector r equal to mod vector F mod d vector r cos theta; Work done by a force acting along a path from A to B, W subscript AB equal to integration path AB vector F dot d vector r; Work done by a constant force of kinetic friction, W subscript fr equal to minus f subscript k mod l subscript AB; Work done going from A to B by Earth’s gravity, near its surface W subscript grav, AB equal to minus mg open parentheses y subscript B minus y subscript A close parentheses; Work done going from A to B by one-dimensional spring force, W subscript spring, AB equal to minus half k open parentheses x subscript B squared minus x subscript A squared close parentheses; Kinetic energy of a non-relativistic particle, K equal to half m v squared equal to p squared by 2m; Work-energy theorem, W net equal to K subscript B minus K subscript A; Power as rate of doing work, P equal to d W by dt; Power as the dot product of force and velocity, P equal to vector F dot vector v.">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Trabajo realizado por una fuerza en un desplazamiento infinitesimal</entry><entry align="left"><m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mi>d</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>r</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow><m:mo>|</m:mo></m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>d</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>r</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow><m:mo>|</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Trabajo realizado por una fuerza que actúa a lo largo de una trayectoria de <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis></entry><entry align="left"><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∫</m:mo><m:mrow><m:mtext>trayectoria</m:mtext><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:munder><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Trabajo realizado por una fuerza constante de fricción cinética</entry><entry align="left"><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:msub><m:mi>f</m:mi><m:mi>k</m:mi></m:msub><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>l</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Trabajo realizado por la gravedad de la Tierra para ir de <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis>, cerca de su superficie</entry><entry align="left"><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>grav,</m:mtext><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mi>B</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Trabajo realizado por la fuerza de un resorte unidimensional para ir de <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis></entry><entry align="left"><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>resorte,</m:mtext><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msubsup><m:mi>x</m:mi><m:mi>B</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>-</m:mo><m:msubsup><m:mi>x</m:mi><m:mi>A</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Energía cinética de una partícula no relativista</entry><entry align="left"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Teorema de trabajo-energía</entry><entry align="left"><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>neto</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mi>B</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>K</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Potencia como tasa de realización del trabajo</entry><entry align="left"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Potencia como producto punto de la fuerza y la velocidad</entry><entry align="left"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1165038303143" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1165038242219">
+<problem id="fs-id1165036730586">
+<para id="fs-id1165036850831">La mayoría de los aparatos eléctricos están clasificados en vatios. ¿Depende esta clasificación del tiempo que esté encendido el aparato? (Cuando está apagado, es un dispositivo de cero vatios). Explique en términos de la definición de potencia.</para>
+</problem>
+<solution id="fs-id1165038305400">
+<para id="fs-id1165037865162">Los aparatos se clasifican en función de la energía consumida en un intervalo de tiempo relativamente pequeño. No importa el tiempo que el aparato esté encendido, sino la tasa de cambio de energía por unidad de tiempo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037983073">
+<problem id="fs-id1165038341489">
+<para id="fs-id1165037020395">Explique, en términos de la definición de potencia, por qué el consumo de energía se indica a veces en kilovatios-hora en lugar de julios. ¿Cuál es la relación entre estas dos unidades de energía?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038224823">
+<problem id="fs-id1165038386171">
+<para id="fs-id1165037083718">Una chispa de electricidad estática, como la que puede recibir de un pomo de la puerta en un día frío y seco, puede llevar unos cientos de vatios de potencia. Explique por qué no lo lastima dicha chispa.</para>
+</problem>
+<solution id="fs-id1165038056103">
+<para id="fs-id1165038034212">La chispa se produce en un lapso relativamente corto, por lo que proporciona una cantidad muy baja de energía a su cuerpo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038375134">
+<problem id="fs-id1165037027929">
+<para id="fs-id1165037923581">¿Depende el trabajo realizado al levantar un objeto de que tan rápido este es levantado? ¿Depende la potencia gastada de la rapidez con la que se levanta?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038343460">
+<problem id="fs-id1165038034020">
+<para id="fs-id1165036783995">¿Puede ser negativa la potencia gastada por una fuerza?</para>
+</problem>
+<solution id="fs-id1165037888131">
+<para id="fs-id1165038299407">Si la fuerza es antiparalela o apunta en dirección opuesta a la velocidad, la potencia gastada puede ser negativa.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038041746">
+<problem id="fs-id1165036741586">
+<para id="fs-id1165036776465">¿Cómo puede una bombilla de 50 W consumir más energía que un horno de 1.000 W?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165037977362" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1165037911852">
+<problem id="fs-id1165038356315">
+<para id="fs-id1165037981020">Una persona en buenas condiciones físicas puede emitir 100 W de potencia útil durante varias horas seguidas, quizás pedaleando un mecanismo que accione un generador eléctrico. Descartando los problemas de eficiencia de los generadores ni consideraciones prácticas como el tiempo de descanso: (a) ¿Cuántas personas harían falta para hacer funcionar una secadora de ropa eléctrica de 4,00 kW? (b) ¿Cuántas personas harían falta para sustituir una gran central eléctrica que genera 800 MW?</para>
+</problem>
+<solution id="fs-id1165038334155">
+<para id="fs-id1165036894008">a. 40; b. 8 millones</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038360609">
+<problem id="fs-id1165036736700">
+<para id="fs-id1165038397862">¿Cuál es el costo de funcionamiento de un reloj eléctrico de 3,00 W durante un año si el costo de la electricidad es de 0,0900 dólares por <m:math><m:mrow><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037004050">
+<problem id="fs-id1165038007340">
+<para id="fs-id1165037181328">Un gran aparato de aire acondicionado residencial puede consumir 15,0 kW de potencia. ¿Cuál es el costo de hacer funcionar este aire acondicionado 3,00 h al día durante 30,0 d si el costo de la electricidad es de 0,110 $ por <m:math><m:mrow><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1165038223846">
+<para id="fs-id1165036787657">$149</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038244067">
+<problem id="fs-id1165038191715">
+<para id="fs-id1165038270257">(a) ¿Cuál es el consumo medio de potencia en vatios de un aparato que utiliza 5,00 <m:math><m:mrow><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow></m:math> de energía al día? b) ¿Cuántos julios de energía consume este aparato en un año?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037900054">
+<problem id="fs-id1165038038234">
+<para id="fs-id1165037057081">(a) ¿Cuál es la producción de potencia útil media de una persona que hace <m:math><m:mrow><m:mn>6,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> de trabajo útil en 8,00 h? (b) Trabajando a este ritmo, ¿cuánto tiempo tardará esta persona en levantar 2.000 kg de ladrillos en 1,50 m hasta una plataforma? (El trabajo realizado para levantar su cuerpo puede omitirse porque no se considera aquí una producción útil).</para>
+</problem>
+<solution id="fs-id1165036992162">
+<para id="fs-id1165038017780">a. 208 W; b. 141 s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037998949">
+<problem id="fs-id1165037980130">
+<para id="fs-id1165037020202">Un dragster de 500 kg acelera desde el reposo hasta una rapidez final de 110 m/s en 400 m (aproximadamente un cuarto de milla) y encuentra una fuerza de fricción media de 1.200 N. ¿Cuál es su producción de potencia media en vatios y caballos de fuerza si esto le toma 7,30 s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037214291">
+<problem id="fs-id1165036884035">
+<para id="fs-id1165038033700">(a) ¿Cuánto tardará un auto de 850 kg con una potencia útil de 40,0 hp (1 hp equivale a 746 W) en alcanzar una rapidez de 15,0 m/s, ignorando la fricción? (b) ¿Cuánto tardará esta aceleración si el auto también sube una colina de 3,00 m de altura en el proceso?</para>
+</problem>
+<solution id="fs-id1165037013377">
+<para id="fs-id1165038239438">a. 3,20 s; b. 4,04 s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038299734">
+<problem id="fs-id1165037914404">
+<para id="fs-id1165038187415">(a) Halle la potencia útil de un motor de elevador que eleva una carga de 2.500 kg a una altura de 35,0 m en 12,0 s, si además aumenta la rapidez desde el reposo a 4,00 m/s. Observe que la masa total del sistema de contrapesos es de 10.000 kg, de modo que solo se elevan 2.500 kg en altura, pero se aceleran los 10.000 kg completos. (b) ¿Cuánto cuesta, si la electricidad es de 0,0900 dólares por <m:math><m:mrow><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036763179">
+<problem id="fs-id1165037909308">
+<para id="fs-id1165036967816">(a) ¿Cuánto tiempo tardaría un avión de <m:math><m:mrow><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>-kg</m:mtext></m:mrow></m:math> con motores que generan 100 MW de potencia para alcanzar una rapidez de 250 m/s y una altitud de 12,0 km si la resistencia del aire fuera despreciable? (b) Si realmente tarda 900 s, ¿cuál es la potencia? (c) Dada esta potencia, ¿cuál es la fuerza media de la resistencia del aire si el avión tarda 1.200 s? (<emphasis effect="italics">Pista:</emphasis> Debe encontrar la distancia que recorre el avión en 1.200 s suponiendo una aceleración constante).</para>
+</problem>
+<solution id="fs-id1165038053815">
+<para id="fs-id1165037046391">a. 224 s; b. 24,8 MW; c. 49,7 kN</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038130053">
+<problem id="fs-id1165038201202">
+<para id="fs-id1165037163630">Calcule la producción de potencia necesaria para que un auto de 950 kg suba una pendiente de <m:math><m:mrow><m:mn>2,00</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> a 30,0 m/s constantes mientras se encuentra con una resistencia al viento y una fricción de 600 N.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038158671">
+<problem id="fs-id1165036775912">
+<para id="fs-id1165038218542">Un hombre de 80 kg de masa sube corriendo un tramo de escaleras de 20 m de altura en 10 s. (a) ¿Cuánta potencia se utiliza para levantar al hombre? (b) Si el cuerpo del hombre tiene un rendimiento del 25 %, ¿cuánta potencia gasta?</para>
+</problem>
+<solution id="fs-id1165038386418">
+<para id="fs-id1165037155202">a. 1,57 kW; b. 6,28 kW</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038183984">
+<problem id="fs-id1165038058070">
+<para id="fs-id1165038007907">El hombre del problema anterior consume aproximadamente <m:math><m:mrow><m:mn>1,05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> (2.500 calorías) de energía al día para mantener un peso constante. ¿Cuál es la potencia media que produce en un día? Compare esto con su producción de energía cuando sube las escaleras.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036891514">
+<problem id="fs-id1165037222059">
+<para id="fs-id1165037974204">Un electrón en un tubo de televisión se acelera uniformemente desde el reposo hasta una rapidez de <m:math><m:mrow><m:mn>8,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> a una distancia de 2,5 cm. ¿Cuál es la potencia entregada al electrón en el instante en que su desplazamiento es de 1,0 cm?</para>
+</problem>
+<solution id="fs-id1165038330800">
+<para id="fs-id1165036961172"><m:math><m:mrow><m:mn>6,83</m:mn><m:mtext>μW</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037165337">
+<problem id="fs-id1165038154368">
+<para id="fs-id1165037968816">El carbón se eleva desde una mina una distancia vertical de 50 m mediante un motor que suministra 500 W a una cinta transportadora. ¿Cuánto carbón por minuto se puede sacar a la superficie? Ignore los efectos de la fricción.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038158851">
+<problem id="fs-id1165038398439">
+<para id="fs-id1165036771289">Una niña hala su vagón de 15 kg por una acera plana al aplicar una fuerza de 10 N a <m:math><m:mrow><m:mn>37</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> de la horizontal. Supongamos que la fricción es despreciable y que el vagón parte del reposo. (a) ¿Cuánto trabajo realiza la niña sobre el vagón en los primeros 2,0 s. (b) ¿Cuánta potencia instantánea ejerce en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1165036833915">
+<para id="fs-id1165037089678">a. 8,51 J; b. 8,51 W</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038037603">
+<problem id="fs-id1165038020918">
+<para id="fs-id1165038220048">Un motor de automóvil típico tiene un rendimiento del 25 %. Supongamos que el motor de un automóvil de 1.000 kg tiene una potencia máxima de 140 hp. ¿Cuál es el grado máximo que puede subir el automóvil a 50 km/h si la fuerza de fricción retardante sobre este es de 300 N?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038364981">
+<problem id="fs-id1165038332556">
+<para id="fs-id1165037982085">Al trotar a 13 km/h en una superficie plana, un hombre de 70 kg utiliza energía a una tasa de aproximadamente 850 W. Con base en el hecho de que el "motor humano" tiene una eficiencia de aproximadamente el 25 %, determine la tasa a la que este hombre utiliza energía al correr por una pendiente de <m:math><m:mrow><m:mn>5,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> a esta misma rapidez. Supongamos que la fuerza de fricción retardante es la misma en ambos casos.</para>
+</problem>
+<solution id="fs-id1165038334994">
+<para id="fs-id1165038294101">1,7 kW</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1165036741735" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1165037948977">
+<problem id="fs-id1165038383578">
+<para id="fs-id1165038016349">Un carro es arrastrado una distancia <emphasis effect="italics">D</emphasis> sobre una superficie plana y horizontal por una fuerza constante <emphasis effect="italics">F</emphasis> que actúa a un ángulo <m:math><m:mi>θ</m:mi></m:math> con respecto a la dirección horizontal. Las otras fuerzas sobre el objeto durante este tiempo son la gravedad (<m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>w</m:mi></m:msub></m:mrow></m:math>), las fuerzas normales (<m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mi>N</m:mi><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:math>) y (<m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mi>N</m:mi><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:math>), y las fricciones de rodadura <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mi>r</m:mi><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mi>r</m:mi><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:math>, como se muestra a continuación. ¿Cuál es el trabajo que realiza cada fuerza?</para>
+<media id="fs-id1165038384103" alt="La figura ilustra un carro que es halado con una fuerza F aplicada hacia arriba y hacia la derecha, en un ángulo theta sobre la horizontal. El desplazamiento es horizontal hacia la derecha. La fuerza F sub w actúa verticalmente hacia abajo en el centro del carro. La fuerza F sub N 1 actúa verticalmente hacia arriba sobre la rueda trasera. La fuerza F sub r 1 actúa horizontalmente a la izquierda sobre la rueda trasera. La fuerza F sub N 2 actúa verticalmente hacia arriba sobre la rueda delantera. La fuerza F sub r 2 actúa horizontalmente hacia la izquierda sobre la rueda delantera.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_AP_P1_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165038377029">
+<problem id="fs-id1165038219724">
+<para id="fs-id1165037979643">Consideremos una partícula sobre la que actúan varias fuerzas, una de las cuales se sabe que es constante en el tiempo: <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Como resultado, la partícula se mueve a lo largo del eje de la <emphasis effect="italics">x</emphasis> desde <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> a <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> en algún intervalo de tiempo. ¿Cuál es el trabajo que realiza <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1165037912676">
+<para id="fs-id1165037973639"><m:math><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037974926">
+<problem id="fs-id1165038248999">
+<para id="fs-id1165037064750">Consideremos una partícula sobre la que actúan varias fuerzas, una de las cuales se sabe que es constante en el tiempo: <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Como resultado, la partícula se mueve primero a lo largo del eje de la <emphasis effect="italics">x</emphasis> de <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> a <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> y luego paralela al eje de la <emphasis effect="italics">y</emphasis> de <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> a <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> ¿Cuál es el trabajo que realiza <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036765515">
+<problem id="fs-id1165037008907">
+<para id="fs-id1165038239327">Consideremos una partícula sobre la que actúan varias fuerzas, una de las cuales se sabe que es constante en el tiempo: <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Como resultado, la partícula se desplaza por una trayectoria recta desde una coordenada cartesiana de (0 m, 0 m) a (5 m, 6 m). ¿Cuál es el trabajo que realiza <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1165036795656">
+<para id="fs-id1165038307773"><m:math><m:mrow><m:mn>39</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036775783">
+<problem id="fs-id1165038357265">
+<para id="fs-id1165037029729">Consideremos una partícula sobre la que actúa una fuerza que depende de la posición de la partícula. Esta fuerza viene dada por <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Calcule el trabajo que realiza esta fuerza cuando la partícula se mueve desde el origen hasta un punto situado 5 metros a la derecha en el eje de la <emphasis effect="italics">x</emphasis>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036982732">
+<problem id="fs-id1165037224741">
+<para id="fs-id1165038386264">Un niño hala de un carro de 5 kg con una fuerza de 20 N en un ángulo de <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> por encima de la horizontal durante un tiempo. Durante este tiempo, el carro se desplaza una distancia de 12 m sobre el suelo horizontal. (a) Calcule el trabajo que realiza el niño sobre el carro. (b) ¿Cuál será el trabajo que realiza el niño si hala con la misma fuerza horizontalmente en lugar de en un ángulo de <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> sobre la horizontal en la misma distancia?</para>
+</problem>
+<solution id="fs-id1165036876968">
+<para id="fs-id1165036750828">a. <m:math><m:mrow><m:mn>208</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>240</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037078587">
+<problem id="fs-id1165037078589">
+<para id="fs-id1165036980286">Hay que llevar una caja de 200 kg de masa desde un sitio en la planta baja hasta el tercer piso. Los trabajadores saben que pueden utilizar primero el elevador y luego deslizarla por el tercer piso hasta el apartamento, o bien deslizar primero la caja hasta otro lugar marcado con una C abajo, y luego tomar el elevador hasta el tercer piso y deslizarla en el tercer piso una distancia más corta. El problema es que la tercera planta es muy áspera en comparación con la planta baja. Dado que el coeficiente de fricción cinética entre la caja y el suelo es de 0,100 y entre la caja y la superficie del tercer piso es de 0,300, calcule el trabajo que necesitan realizar los trabajadores para cada trayectoria mostrada desde <emphasis effect="italics">A</emphasis> hasta <emphasis effect="italics">E</emphasis>. Suponga que la fuerza que necesitan ejercer los trabajadores es la suficiente para deslizar la caja a velocidad constante (aceleración cero). <emphasis effect="italics">Nota:</emphasis> El trabajo del elevador contra la fuerza de la gravedad no lo realizan los trabajadores.</para>
+<media id="fs-id1165037094141" alt="La figura muestra la caja tridimensional de 30 metros por 10 metros por 10 metros, definida por las trayectorias descritas en el problema. El punto de partida A está en la esquina inferior izquierda frontal. El punto B está a 30 metros a la derecha de A. El punto C está a 10 metros por detrás del punto B. El punto D está a 10 metros por encima del punto C. El punto E está directamente por encima del punto B y por delante del punto D. El punto F está directamente por encima del punto A y a la izquierda del punto E. Dos trayectorias, ambas comenzando en A y terminando en E, se indican con flechas. Una trayectoria comienza en A, va a la derecha hasta B, vuelve a C, sube por el ascensor hasta D y avanza hasta E. La otra trayectoria comienza en A, sube por el ascensor hasta F y luego a la derecha hasta E.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_AP_P7_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165036783731">
+<problem id="fs-id1165036893330">
+<para id="fs-id1165036895352">Un disco de hockey con una masa de 0,17 kg se lanza por un suelo áspero con una aspereza diferente en distintos lugares, que puede describirse mediante un coeficiente de fricción cinética que depende de la posición. Para un disco que se mueve a lo largo del eje de la <emphasis effect="italics">x</emphasis>, el coeficiente de fricción cinética es la siguiente función de <emphasis effect="italics">x</emphasis>, donde <emphasis effect="italics">x</emphasis> está en m: <m:math><m:mrow><m:mi>μ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,1</m:mn><m:mo>+</m:mo><m:mn>0,05</m:mn><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math> Calcule el trabajo realizado por la fuerza cinética de fricción sobre el disco de hockey cuando se ha movido (a) de <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> a <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, y (b) de <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1165037218717">
+<para id="fs-id1165037218719">a. <m:math><m:mrow><m:mtext>-</m:mtext><m:mn>0,9</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>-0,83</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038013682">
+<problem id="fs-id1165037982265">
+<para id="fs-id1165037982267">Se requiere una fuerza horizontal de 20 N para mantener una caja de 5,0 kg subiendo a rapidez constante por una pendiente sin fricción durante un cambio de altura vertical de 3,0 m. (a) ¿Cuál es el trabajo realizado por la gravedad durante este cambio de altura? (b) ¿Cuál es el trabajo realizado por la fuerza normal? (c) ¿Cuál es el trabajo realizado por la fuerza horizontal?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037032938">
+<problem id="fs-id1165037032940">
+<para id="fs-id1165037913007">Una caja de 7,0 kg se desliza por un suelo horizontal sin fricción a 1,7 m/s y colisiona con un resorte relativamente sin masa que se comprime 23 cm antes de que la caja se detenga. (a) ¿Cuánta energía cinética tiene la caja antes de chocar con el resorte? (b) Calcule el trabajo realizado por el resorte. (c) Determine la constante del resorte.</para>
+</problem>
+<solution id="fs-id1165038051527">
+<para id="fs-id1165037218969">a. 10. J; b. 10. J; c. 380 N/m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036968115">
+<problem id="fs-id1165037168543">
+<para id="fs-id1165038051358">Está conduciendo su auto por una carretera recta con un coeficiente de fricción entre los neumáticos y la carretera de 0,55. Un gran trozo de escombro cae enfrente; usted frena de súbito y deja una marca de derrape de 30,5 m (100 pies) antes de detenerse. Un policía ve su auto parado en la carretera, mira la marca de derrape y le impone una multa por superar el límite de velocidad de 13,4 m/s (30 mph). ¿Debe impugnar la multa por exceso de velocidad en los tribunales?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038008557">
+<problem id="fs-id1165036730796">
+<para id="fs-id1165036730798">Se empuja una caja por una superficie de suelo áspero. Si no se aplica ninguna fuerza sobre la caja, esta desacelerá y se detendrá. Si la caja de 50 kg de masa que se mueve a una rapidez de 8 m/s llega al reposo en 10 segundos, ¿cuál es la tasa a la que la fuerza de fricción sobre la caja le quita energía?</para>
+</problem>
+<solution id="fs-id1165037997961">
+<para id="fs-id1165037997963">160 J/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037027909">
+<problem id="fs-id1165037027911">
+<para id="fs-id1165038014177">Supongamos que se requiere una fuerza horizontal de 20 N para mantener una rapidez de 8 m/s de una caja de 50 kg. (a) ¿Cuál es la potencia de esta fuerza? (b) Observe que la aceleración de la caja es cero, a pesar de que la fuerza de 20 N actúa sobre la caja horizontalmente. ¿Qué ocurre con la energía que recibe la caja como resultado del trabajo realizado por esta fuerza de 20 N?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037178422">
+<problem id="fs-id1165037178424">
+<para id="fs-id1165037085022">Los granos de una tolva caen a una tasa de 10 kg/s en vertical sobre una cinta transportadora que se mueve en horizontal a una rapidez constante de 2 m/s. (a) ¿Qué fuerza se necesita para mantener la cinta transportadora en movimiento a la velocidad constante? (b) ¿Cuál es la potencia mínima del motor que mueve la cinta transportadora?</para>
+</problem>
+<solution id="fs-id1165037085026">
+<para id="fs-id1165037200189">a. 10 N; b. 20 W</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037983831">
+<problem id="fs-id1165037948300">
+<para id="fs-id1165037948302">Un ciclista en una carrera debe subir una colina de <m:math><m:mrow><m:mn>5</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> a una rapidez de 8 m/s. Si la masa de la bicicleta y del ciclista juntos es de 80 kg, ¿cuál debe ser la producción de potencia del ciclista para alcanzar la meta?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165038037832" class="review-challenge">
+<title>Problemas de desafío</title>
+<exercise id="fs-id1165036793037">
+<problem id="fs-id1165036793039">
+<para id="fs-id1165036994603">A continuación, se muestra una caja de 40 kg, que se empuja a velocidad constante, a una distancia de 8,0 m por una pendiente de <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> por la fuerza horizontal <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> El coeficiente de fricción cinética entre la caja y la pendiente es <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>k</m:mi></m:msub><m:mo>=</m:mo><m:mn>0,40</m:mn><m:mo>.</m:mo></m:mrow></m:math> Calcule el trabajo realizado por (a) la fuerza aplicada, (b) la fuerza de fricción, (c) la fuerza gravitacional y (d) la fuerza neta.</para>
+<media id="fs-id1165038356787" alt="Un bloque de 40 kilos se encuentra en una pendiente que forma un ángulo de 30 grados con la horizontal. Un vector de fuerza F empuja el bloque horizontalmente hacia la pendiente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_01_CrateIncl_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165038383774">
+<para id="fs-id1165038005203">Si la caja sube: a. 3,46 kJ; b. -1,89 kJ; c. -1,57 kJ; d. 0; Si la caja baja: a. -0,39 kJ; b. -1,18 kJ; c. 1,57 kJ; d. 0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036736045">
+<problem id="fs-id1165036736047">
+<para id="fs-id1165038313934">La superficie del problema anterior se modifica para que el coeficiente de fricción cinética disminuya. Se aplica la misma fuerza horizontal a la caja y, tras empujarse 8,0 m, su rapidez es de 5,0 m/s. ¿Cuánto trabajo realiza ahora la fuerza de fricción? Supongamos que la caja comienza en reposo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038293237">
+<problem id="fs-id1165038042316">
+<para id="fs-id1165038042318">La fuerza <emphasis effect="italics">F</emphasis>(<emphasis effect="italics">x</emphasis>) varía con la posición, como se muestra a continuación. Calcule el trabajo realizado por esta fuerza sobre una partícula cuando se mueve de <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<media id="fs-id1165036869535" alt="Este gráfico muestra la función F(x) en newtons como función de x en metros. F(x) es constante a 1,0 N desde x = 0 hasta x=1,0 m. Se eleva linealmente hasta 5,0 N en x = 2,0 m y luego disminuye linealmente hasta 1,0 N en x = 4,0 m, donde cae instantáneamente hasta 0 newtons. F(x) disminuye entonces linealmente desde 0 N en 4,0 m hasta -4,0 N en x=6,0 m.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_04_ChProb_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165038005957">
+<para id="fs-id1165037090319">8,0 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037017869">
+<problem id="fs-id1165037017871">
+<para id="fs-id1165038303352">Calcule el trabajo realizado por la misma fuerza en el <link target-id="fs-id1165039284876" document="m90644"/>, entre los mismos puntos, <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>B</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, sobre un arco circular de radio 2 m, centrado en (0, 2 m). Evalúe la integral de la trayectoria mediante el empleo de coordenadas cartesianas. (<emphasis effect="italics">Pista:</emphasis> Probablemente tendrá que consultar una tabla de integrales).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037170309">
+<problem id="fs-id1165037170312">
+<para id="fs-id1165037850930">Responda al problema anterior mediante el empleo de coordenadas polares.</para>
+</problem>
+<solution id="fs-id1165038348662">
+<para id="fs-id1165038348664">35,7 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037198591">
+<problem id="fs-id1165037198593">
+<para id="fs-id1165038299695">Calcule el trabajo realizado por la misma fuerza en el <link target-id="fs-id1165039284876" document="m90644"/>, entre los mismos puntos, <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>B</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, sobre un arco de radio 2 m, centrado en (2 m, 0). Evalúe la integral de la trayectoria mediante el empleo de coordenadas cartesianas. (<emphasis effect="italics">Pista:</emphasis> Probablemente tendrá que consultar una tabla de integrales).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037884039">
+<problem id="fs-id1165037884041">
+<para id="fs-id1165036884400">Responda al problema anterior mediante el empleo de coordenadas polares.</para>
+</problem>
+<solution id="fs-id1165036771171">
+<para id="fs-id1165036771173">24,3 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037862240">
+<problem id="fs-id1165038283119">
+<para id="fs-id1165038283121">A un auto de masa <emphasis effect="italics">m</emphasis> le llega una potencia constante <emphasis effect="italics">P</emphasis> a través de su motor. Demuestre que, si se puede ignorar la resistencia del aire, la distancia recorrida en un tiempo <emphasis effect="italics">t</emphasis> por el auto, partiendo del reposo, está dada por <m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mn>8</m:mn><m:mi>P</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mn>9</m:mn><m:mi>m</m:mi></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>t</m:mi><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038015692">
+<problem id="fs-id1165038015694">
+<para id="fs-id1165038237542">Supongamos que la resistencia del aire que encuentra un auto es independiente de su rapidez. Cuando el auto se desplaza a 15 m/s, su motor entrega 20 hp a sus ruedas. (a) ¿Cuál es la potencia entregada a las ruedas cuando el auto se desplaza a 30 m/s? (b) ¿Cuánta energía utiliza el auto para recorrer 10 km a 15 m/s? ¿A 30 m/s? Supongamos que el motor tiene un rendimiento del 25 %. (c) Responda las mismas preguntas si la fuerza de la resistencia del aire es proporcional a la rapidez del automóvil. (d) ¿Qué le dicen estos resultados, más su experiencia con el consumo de gasolina, acerca de la resistencia del aire?</para>
+</problem>
+<solution id="fs-id1165036867242">
+<para id="fs-id1165036867244">a. 40 hp; b. 39,8 MJ, independientemente de la rapidez; c. 80 hp, 79,6 MJ a 30 m/s; d. Si la resistencia del aire es proporcional a la rapidez, el auto obtiene alrededor de 22 mpg a 34 mph y la mitad de eso al doble de rapidez, más cerca de la experiencia de conducción real.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036974100">
+<problem id="fs-id1165036974102">
+<para id="fs-id1165036966262">Consideremos un resorte lineal, como el de la <link target-id="CNX_UPhysics_07_01_Spring" document="m90644"/>(a), con una masa <emphasis effect="italics">M</emphasis>, distribuida uniformemente a lo largo. El extremo izquierdo del resorte está fijo, pero el extremo derecho, en la posición de equilibrio <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> se desplaza a una rapidez <emphasis effect="italics">v</emphasis> en la dirección de la <emphasis effect="italics">x</emphasis>. ¿Cuál es la energía cinética total del resorte? (<emphasis effect="italics">Pista:</emphasis> Primero, exprese la energía cinética de un elemento infinitesimal del resorte <emphasis effect="italics">dm</emphasis> en términos de la masa total, la longitud de equilibrio, la rapidez del extremo derecho y la posición a lo largo del resorte; luego integre).</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165038026773">
+<term>potencia media</term>
+<meaning id="fs-id1165036771180">trabajo realizado en un intervalo de tiempo dividido entre el intervalo de tiempo</meaning>
+</definition>
+<definition id="fs-id1165038198752">
+<term>potencia</term>
+<meaning id="fs-id1165038022190">(o potencia instantánea) tasa de realización del trabajo</meaning>
+</definition>
+</glossary>
+</document>

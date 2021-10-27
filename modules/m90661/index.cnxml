@@ -1,0 +1,529 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Propulsión de cohetes</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90661</md:content-id>
+  <md:title>Propulsión de cohetes</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir la aplicación de la conservación del momento cuando la masa cambia con el tiempo, así como la velocidad.</item>
+<item>Calcular la rapidez de un cohete en el espacio vacío, en algún momento, dadas las condiciones iniciales.</item>
+<item>Calcular la rapidez de un cohete en el campo gravitacional de la Tierra, en algún momento, dadas las condiciones iniciales.</item>
+</list></md:abstract>
+  <md:uuid>63a8faed-c3fa-4a9c-a09e-cb6e1375eb0b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167132331513">Ahora tratamos el caso en el que la masa de un objeto cambia. Analizamos el movimiento de un cohete, que cambia su velocidad (y, por ende, su momento) al expulsar los gases del combustible quemado, lo que hace que se acelere en la dirección opuesta a la velocidad del combustible expulsado (vea la <link target-id="CNX_UPhysics_09_07_Shuttle"/>). Específicamente: Un cohete con todo el combustible en el espacio profundo tiene una masa total <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> (esta masa incluye la masa inicial del combustible). En algún momento, el cohete tiene una velocidad <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> y masa <emphasis effect="italics">m</emphasis>; esta masa es una combinación de la masa del cohete vacío y la masa del combustible restante no quemado que contiene. (Nos referimos a <emphasis effect="italics">m</emphasis> como la "masa instantánea" y <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> como "velocidad instantánea"). El cohete acelera al quemar el combustible que lleva y expulsar los gases quemados de escape. Si la tasa de combustión del combustible es constante, y la velocidad a la que se expulsa el escape también es constante, ¿cuál es el cambio de velocidad del cohete como resultado de la quema de todo su combustible?</para>
+<figure id="CNX_UPhysics_09_07_Shuttle">
+<media id="fs-id1167133396746" alt="Fotografía del transbordador espacial despegando.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_07_Shuttle.jpg"/>
+</media>
+<caption>El transbordador espacial tenía varias piezas reutilizables. Los propulsores de combustible sólido situados a ambos lados se recuperaban y reabastecían de combustible después de cada vuelo, y todo el orbitador volvía a la Tierra para ser utilizado en vuelos posteriores. El gran tanque de combustible líquido se gastó. El transbordador espacial era un complejo conjunto de tecnologías, que empleaba tanto combustible sólido como líquido, y fue pionero en el uso de baldosas de cerámica como escudos térmicos de reentrada. Como resultado, permitía realizar varios lanzamientos en lugar de cohetes de un solo uso (créditos: modificación de un trabajo de la NASA).</caption>
+</figure>
+<section id="fs-id1167133406272">
+<title>Análisis físico</title>
+<para id="fs-id1167132501076">A continuación, se describe lo que ocurre, para que se haga una idea de la física implicada.</para>
+<list id="fs-id1167132274414" list-type="bulleted" bullet-style="bullet">
+<item>Cuando los motores de los cohetes funcionan, expulsan continuamente gases quemados de combustible, que tienen masa y velocidad, y por ende, cierto momento. Por conservación del momento, el momento del cohete cambia en esta misma cantidad (con el signo contrario). Supondremos que el combustible quemado se expulsa a una tasa constante, lo que significa que la tasa de cambio del momento del cohete también es constante. Con la <link target-id="fs-id1167131584453" document="m90656"/>, esto representa una fuerza constante sobre el cohete.</item>
+<item>Sin embargo, a medida que pasa el tiempo, la masa del cohete (que incluye la masa del combustible restante) disminuye continuamente. Así, aunque la fuerza sobre el cohete es constante, la aceleración resultante no lo es; aumenta continuamente.</item>
+<item>Entonces, el cambio total de la velocidad del cohete dependerá de la cantidad de masa de combustible que se queme, y esa dependencia no es lineal.</item>
+</list>
+<para id="fs-id1167133823900">El problema hace que cambien la masa y la velocidad del cohete; también cambia la masa total de los gases expulsados. Si definimos nuestro sistema como el cohete + el combustible, entonces se trata de un sistema cerrado (ya que el cohete está en el espacio profundo, no hay fuerzas externas que actúen sobre este sistema); como resultado, el momento se conserva para este sistema. Así, podemos aplicar la conservación del momento para responder la pregunta (<link target-id="CNX_UPhysics_09_07_rocket"/>).</para>
+<figure id="CNX_UPhysics_09_07_rocket">
+<media id="fs-id1167132415258" alt="Se muestra un sistema de coordenadas x y. Un cohete de masa m se mueve hacia la derecha con velocidad v. la masa de escape del cohete d m sub g se mueve hacia la izquierda con velocidad u. El sistema está formado por el cohete y el escape.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_07_rocket.jpg"/>
+</media>
+<caption>El cohete acelera hacia la derecha debido a la expulsión de parte de su masa de combustible hacia la izquierda. La conservación del momento nos permite determinar el cambio de velocidad resultante. La masa <emphasis effect="italics">m</emphasis> es la masa total instantánea del cohete (es decir, la masa del cuerpo del cohete más la masa del combustible en ese momento) (créditos: modificación del trabajo de la NASA / Bill Ingalls).</caption>
+</figure>
+<para id="fs-id1167132260598">En el mismo momento en que la masa total instantánea del cohete es <emphasis effect="italics">m</emphasis> (es decir, <emphasis effect="italics">m</emphasis> es la masa del cuerpo del cohete más la masa del combustible en ese momento), definimos que la velocidad instantánea del cohete como <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>v</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> (en la dirección de la <emphasis effect="italics">x</emphasis> +); esta velocidad se mide en relación con un sistema de referencia inercial (la Tierra, por ejemplo). Así, el momento inicial del sistema es</para>
+<para id="fs-id1167133366597"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>v</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167133784377">Los motores del cohete queman combustible a un ritmo constante y expulsan los gases de escape en la dirección de la -<emphasis effect="italics">x</emphasis>. Durante un intervalo infinitesimal <emphasis effect="italics">dt</emphasis>, los motores expulsan una masa infinitesimal (positiva) de gas <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> a la velocidad <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>u</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>; observe que, aunque la velocidad del cohete <m:math><m:mrow><m:mi>v</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> se mide con respecto a la Tierra, la velocidad de los gases de escape se mide con respecto al cohete (en movimiento). Por lo tanto, medido con respecto a la Tierra, el gas de escape tiene una velocidad <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo>-</m:mo><m:mi>u</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>.</para>
+<para id="fs-id1167132371915">A consecuencia de la expulsión del gas combustible, la masa del cohete disminuye en <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math>, y su velocidad aumenta en <m:math><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>. Por lo tanto, si se incluye tanto el cambio para el cohete como el cambio para el gas de escape, el momento final del sistema es</para>
+<equation id="fs-id1167133658461" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>f</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>cohete</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>gas</m:mtext></m:mrow></m:msub></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>-</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo>-</m:mo><m:mi>u</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd></m:mtr></m:mtable><m:mtext>.</m:mtext></m:math></equation>
+<para id="fs-id1167132423342">Como todos los vectores están en la dirección de la <emphasis effect="italics">x</emphasis>, dejamos de lado la notación vectorial. Aplicando la conservación del momento, obtenemos</para>
+<equation id="fs-id1167133396253" class="unnumbered"><label/><m:math><m:mtable columnalign="left"><m:mtr><m:mtd><m:msub><m:mi>p</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mtext>f</m:mtext></m:msub></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>m</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>-</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo>-</m:mo><m:mi>u</m:mi><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>m</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>-</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>v</m:mi><m:mo>-</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>v</m:mi><m:mo>-</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>u</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>u</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><para id="fs-id1167132416648">Ahora, <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> y <emphasis effect="italics">dv</emphasis> son muy pequeños cada uno; por lo tanto, su producto <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow></m:math> es muy, muy pequeño, mucho menor que los otros dos términos de esta expresión. Por lo tanto, ignoramos este término y obtenemos:</para>
+<equation id="fs-id1167133822229" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>u</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132414244">Nuestro siguiente paso es recordar que, dado que <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> representa un aumento en la masa de los gases expulsados, también deberá representar una disminución en la masa del cohete:</para>
+<equation id="fs-id1167132261159" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>d</m:mi><m:mi>m</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133565517">Sustituyendo esto, tenemos</para>
+<equation id="fs-id1167133331678" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>d</m:mi><m:mi>m</m:mi><m:mi>u</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167133544606">o</para>
+<equation id="fs-id1167133354925" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>u</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132231097">Integrando desde la masa inicial <emphasis effect="italics">m</emphasis><sub>0</sub> hasta la masa final <emphasis effect="italics">m</emphasis> del cohete obtenemos el resultado que buscamos:</para><equation id="fs-id1167133700691" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mi>v</m:mi></m:msubsup><m:mi>d</m:mi></m:mrow></m:mstyle><m:mi>v</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>-</m:mtext><m:mi>u</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mrow><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>m</m:mi></m:msubsup><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>m</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>m</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>v</m:mi><m:mo>-</m:mo><m:msub><m:mi>v</m:mi><m:mtext>i</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation><para id="fs-id1167133568482">y así, nuestra respuesta final es</para>
+<note id="fs-id1167131393821" class="equation-callout">
+<equation id="fs-id1167133539448"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation></note>
+<para id="fs-id1167133445045">Este resultado se denomina <term>ecuación del cohete</term>. Fue derivado originalmente por el físico soviético Konstantin Tsiolkovsky en 1897. Nos da el cambio de velocidad que obtiene el cohete al quemar una masa de combustible que disminuye la masa total del cohete de <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> hasta <emphasis effect="italics">m.</emphasis> Como se esperaba, la relación entre <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow></m:math> y el cambio de masa del cohete es no lineal.</para>
+<note id="fs-id1167133635427" class="problem-solving">
+<title>Propulsión de cohetes</title>
+<para id="fs-id1167133830184">En los problemas de cohetes, las preguntas más comunes son calcular el cambio de velocidad debido a la quema de alguna cantidad de combustible durante algún tiempo o determinar la aceleración que resulta de la quema de combustible.</para>
+<list id="fs-id1167131138658" list-type="enumerated" number-style="arabic">
+<item>Para determinar el cambio de velocidad, utilice la ecuación del cohete en la <link target-id="fs-id1167133539448"/>.</item>
+<item>Para determinar la aceleración, calcule la fuerza mediante el teorema del momento-impulso; utilice la ecuación del cohete para determinar el cambio de velocidad.</item>
+</list>
+</note>
+<example id="fs-id1167132331629">
+<para id="fs-id1167133562110"><title>Empuje en una nave espacial</title>
+Una nave espacial se mueve en el espacio sin gravedad en una trayectoria recta cuando su piloto decide acelerar hacia adelante. Enciende los propulsores, y el combustible quemado es expulsado a una tasa constante de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg/s</m:mtext></m:mrow></m:math>, a una rapidez (relativa al cohete) de <m:math><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>. La masa inicial de la nave y su combustible no quemado es <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>, y los propulsores están encendidos durante 30 s.</para>
+<list id="fs-id1167133557994" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuál es el empuje (la fuerza aplicada al cohete por el combustible expulsado) sobre la nave espacial?</item>
+<item>¿Cuál es la aceleración de la nave en función del tiempo?</item>
+<item>¿Cuáles son las aceleraciones de la nave en <emphasis effect="italics">t</emphasis> = 0, 15, 30 y 35 s?</item>
+</list>
+<para id="fs-id1167133560436"><title>Estrategia</title></para>
+<list id="fs-id1167132319102" list-type="enumerated" number-style="lower-alpha">
+<item>La fuerza sobre la nave es igual a la tasa de cambio del momento del combustible.</item>
+<item>Conociendo la fuerza de la parte (a), podemos utilizar la segunda ley de Newton para calcular la aceleración consiguiente. La clave aquí es que, aunque la fuerza aplicada a la nave es constante (el combustible se expulsa a una tasa constante), la masa de la nave no lo es; por lo tanto, la aceleración causada por la fuerza no será constante. Por lo tanto, esperamos obtener una función <emphasis effect="italics">a</emphasis>(<emphasis effect="italics">t</emphasis>).</item>
+<item>Utilizaremos la función que obtenemos en la parte (b), y solo sustituiremos los números dados. Importante: Esperamos que la aceleración sea mayor a medida que pasa el tiempo, ya que la masa que se acelera disminuye continuamente (el combustible se expulsa del cohete).</item>
+</list>
+<para id="fs-id1167133676986"><title>Solución</title></para>
+<list id="fs-id1167133685958" list-type="enumerated" number-style="lower-alpha">
+<item>El momento del gas combustible expulsado es
+<equation id="fs-id1167133560380" class="unnumbered"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+La velocidad de eyección <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> es constante, y por ende, la fuerza es
+<equation id="fs-id1167132331662" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>v</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>v</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Ahora, <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> es la tasa de cambio de la masa del combustible; el problema dice que es <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>kg/s</m:mtext></m:mrow></m:math>. Sustituyendo, obtenemos
+<equation id="fs-id1167132375260" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>F</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>v</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Anteriormente, definimos <emphasis effect="italics">m</emphasis> como la masa combinada del cohete vacío más la cantidad de combustible no quemado que contenía: <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math>. De la segunda ley de Newton,
+<equation id="fs-id1167132375186" class="unnumbered"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mrow><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+La fuerza es constante y la masa vacía del cohete <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math> es constante, pero la masa de combustible <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> está disminuyendo a una tasa uniforme; en concreto:
+<equation id="fs-id1167133399469" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:msub><m:mi>g</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:msub><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Esto nos da
+<equation id="fs-id1167133344911" class="unnumbered"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:msub><m:mi>g</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:msub><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mrow><m:mi>M</m:mi><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Observe que, como era de esperar, la aceleración es una función del tiempo. Sustituyendo los números dados:
+<equation id="fs-id1167132340651" class="unnumbered"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>En <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>:
+<equation id="fs-id1167132504089" class="unnumbered"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,5</m:mn><m:mfrac><m:mtext>m</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+En <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mn>2,9</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.<newline/> En <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3,6</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m/s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>.<newline/> La aceleración va en aumento, como esperábamos.</item>
+</list>
+<para id="fs-id1167133406211"><title>Importancia</title>
+Observe que la aceleración no es constante, por lo que las magnitudes dinámicas deberán calcularse mediante integrales o (más fácilmente) mediante la conservación de la energía total.</para>
+</example>
+<note id="fs-id1167133365488" class="check-understanding">
+<exercise id="fs-id1167133451449">
+<problem id="fs-id1167133792368">
+<para id="fs-id1167132436151">¿Cuál es la diferencia física (o la relación) entre <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> y <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> en este ejemplo?</para>
+</problem>
+<solution id="fs-id1167132289452">
+<para id="fs-id1167133789987">La notación <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> representa la masa del combustible y <emphasis effect="italics">m</emphasis> la masa del cohete más la masa inicial del combustible. Observe que <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> cambia con el tiempo, por lo que la escribimos como <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Utilizando <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math> como la masa del cohete sin combustible, la masa total del cohete más el combustible es <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. La diferenciación con respecto al tiempo da como resultado<newline/> <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math><newline/> donde utilizamos <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>R</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> porque la masa del cohete no cambia. Así, la tasa de cambio de la masa del cohete es la misma que la del combustible.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167133375888">
+<title>Cohete en un campo gravitacional</title>
+<para id="fs-id1167133535955">Analicemos ahora el cambio de velocidad del cohete durante la fase de lanzamiento, desde la superficie de la Tierra. Para mantener las matemáticas manejables, restringiremos nuestra atención a las distancias para las cuales la aceleración causada por la gravedad puede tratarse como una <emphasis effect="italics">g</emphasis> constante.</para>
+<para id="fs-id1167133558499">El análisis es similar, salvo que ahora hay una fuerza externa de <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> actuando en nuestro sistema. Esta fuerza aplica un impulso <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, que es igual al cambio de momento. Esto nos da</para>
+<equation id="fs-id1167133612598" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>i</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>-</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>-</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mo>-</m:mo><m:mi>u</m:mi><m:mo stretchy="false">)</m:mo><m:mo>-</m:mo><m:mi>m</m:mi><m:mi>v</m:mi></m:mrow><m:mo>]</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>-</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167132205531">y así</para>
+<equation id="fs-id1167133540165" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>-</m:mo><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>u</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167133513938">donde hemos vuelto a ignorar el término <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow></m:math> y eliminado la notación vectorial. A continuación, sustituimos <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>m</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> con <m:math><m:mrow><m:mtext>-</m:mtext><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow></m:math>:</para>
+<equation id="fs-id1167133612085" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>m</m:mi><m:mi>u</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>-</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi><m:mi>d</m:mi><m:mi>v</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>-</m:mtext><m:mi>d</m:mi><m:mi>m</m:mi><m:mi>u</m:mi><m:mo>-</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167133514676">Dividiendo entre <emphasis effect="italics">m</emphasis> obtenemos</para>
+<equation id="fs-id1167132539368" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>u</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>-</m:mo><m:mi>g</m:mi><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167133694572">e integrando, tenemos</para>
+<note id="fs-id1167131226099" class="equation-callout">
+<equation id="fs-id1167133523104"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>-</m:mo><m:mi>g</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></note>
+<para id="fs-id1167132573500">Como es lógico, la velocidad del cohete se ve afectada por la aceleración (constante) de la gravedad.</para>
+<para id="fs-id1167133446981">Recuerde que <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> es el tiempo de combustión del combustible. Ahora bien, en ausencia de gravedad, la <link target-id="fs-id1167133539448"/> implica que es indiferente el tiempo que se tarda en quemar toda la masa de combustible; el cambio de velocidad no depende de <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>. Sin embargo, en presencia de la gravedad, importa mucho. El término -<emphasis effect="italics">g</emphasis><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> en la <link target-id="fs-id1167133523104"/> nos indica que, cuanto <emphasis effect="italics">mayor</emphasis> sea el tiempo de combustión, <emphasis effect="italics">menor</emphasis> será el cambio de velocidad del cohete. Esta es la razón por la que el lanzamiento de un cohete es tan espectacular en el primer momento del despegue: Es esencial quemar el combustible lo más rápido posible, para obtener la mayor cantidad de <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow></m:math> como sea posible.</para>
+</section>
+<section id="fs-id1167131237917" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167133384840" list-type="bulleted" bullet-style="bullet">
+<item>Un cohete es un ejemplo de conservación del momento en el que la masa del sistema no es constante, ya que el cohete expulsa combustible para proporcionar empuje.</item>
+<item>La ecuación del cohete nos da el cambio de velocidad que obtiene el cohete al quemar una masa de combustible y que disminuye la masa total del cohete.</item>
+</list>
+</section>
+<section id="fs-id1167133829595" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1170902236204" class="unnumbered unstyled" summary="This table gives the following formulae:  Definition of momentum, vector p equal to m vector v; Impulse, vector J equal to integration ti to tf vector F t dt or vector J equal to vector F subscript ave delta t; Impulse-momentum theorem, vector J equal to vector delta P; Average force from momentum, vector F equal to delta vector P by delta t; Instantaneous force from momentum, Newton’s second law, vector F t equal to d by dt vector p; Conservation of momentum, d by dt vector p1 plus d by dt vector p2 equal to zero or vector p1 plus vector p2 equal to constant; Generalized conservation of momentum, summation j from 1 to N vector p subscript J equal to constant; Conservation of momentum in two dimensions, P subscript f, x equal to P subscript 1, i, x plus P subscript 2, i, x, P subscript f, y equal to P subscript 1, i, y plus P subscript 2, i, y; External forces, vector F ext equal to summation j from 1 to N d by dt vector p subscript j; Newton’s second law for an extended object, vector F equal to d by dt vector P subscript CM; Acceleration of the center of mass, vector a subscript CM equal to d squared by dt squared open parentheses 1 by M summation j from 1 to N m subscript j vector r subscript j close parentheses equal to i by M summation j from 1 to N m subscript j vector a subscript j; Position of the center of mass for a system of particles, vector r subscript CM equal to 1 by M summation j from 1 to N m subscript j vector subscript j; Velocity of the center of mass, vector  v subscript  CM equal to d by dt open parentheses 1 by M summation j equal to 1 to N m subscript j vector r subscript j close parentheses equal to 1 by M summation j from 1 to N m subscript j vector v subscript j; Position of the center of mass of a continuous object, vector r subscript CM equal to 1 by M integration vector r d m; Rocket equation, delta v equal to U natural log open parentheses m subscript i by m close parentheses.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Definición de momento</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Impulso</entry>
+<entry align="left"><m:math><m:mrow><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>≡</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:msubsup><m:mrow><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow><m:mspace width="0.2em"/><m:mtext>o</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Teorema del momento-impulso</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Fuerza media a partir del momento</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>Δ</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Fuerza instantánea a partir del momento<newline/>(segunda ley de Newton)</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Conservación del momento</entry>
+<entry align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mn>1</m:mn></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mn>2</m:mn></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mspace width="0.5em"/><m:mtext>o</m:mtext><m:mspace width="0.5em"/><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mn>1</m:mn></m:mstyle></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mn>2</m:mn></m:mstyle></m:msub><m:mo>=</m:mo><m:mtext>constante</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Conservación generalizada del momento</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>j</m:mi></m:mstyle></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:mtext>constante</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Conservación del momento en dos dimensiones</entry>
+<entry align="left"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>f</m:mtext><m:mo>,</m:mo><m:mi>x</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>1,i</m:mtext><m:mo>,</m:mo><m:mi>x</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>2,i</m:mtext><m:mo>,</m:mo><m:mi>x</m:mi></m:mrow></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>f</m:mtext><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>1,i</m:mtext><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>2,i</m:mtext><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow></m:msub></m:mtd></m:mtr></m:mtable></m:math></entry>
+</row>
+<row>
+<entry align="left">Fuerzas externas</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>ext</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>j</m:mi></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Segunda ley de Newton para un objeto extendido</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Aceleración del centro de masa</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>M</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:mstyle><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>j</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>M</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:mstyle><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>j</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Posición del centro de masa para un sistema <newline/>de partículas</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>≡</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>M</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:mstyle><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>j</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Velocidad del centro de masa</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>M</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:mstyle><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>j</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>M</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>j</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:mstyle><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>j</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Posición del centro de masa de un<newline/>objeto continuo</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>≡</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>M</m:mi></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Ecuación del cohete</entry>
+<entry align="left"><m:math><m:mrow><m:mi>Δ</m:mi><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167133333085" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167133603524">
+<problem id="fs-id1167133603526">
+<para id="fs-id1167132235862">Es posible que la velocidad de un cohete sea mayor que la velocidad de escape de los gases que expulsa. En ese caso, la velocidad y el momento del gas están en la misma dirección que la del cohete. ¿Cómo puede el cohete seguir obteniendo empuje al expulsar los gases?</para>
+</problem>
+<solution id="fs-id1167133780024">
+<para id="fs-id1167133780026">Sí, la rapidez del cohete puede superar la de los gases que expulsa. El empuje del cohete no depende de las velocidades relativas de los gases y del cohete, simplemente depende de la conservación del momento.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167133780028" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167132243654">
+<problem id="fs-id1167133346136">
+<para id="fs-id1167133346138">(a) Un calamar de 5,00 kg inicialmente en reposo expulsa 0,250 kg de fluido con una velocidad de 10,0 m/s. ¿Cuál es la velocidad de retroceso del calamar si la eyección se realiza en 0,100 s y existe una fuerza de fricción de 5,00 <emphasis effect="italics">N</emphasis> que se opone al movimiento del calamar?</para>
+<para id="fs-id1167132273365">(b) ¿Cuánta energía se pierde por el trabajo realizado contra la fricción?</para>
+</problem>
+<solution id="fs-id1167132273369">
+<para id="fs-id1167132522511">(a) 0,413 m/s, (b) aproximadamente 0,2 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132522517">
+<problem id="fs-id1167132620035">
+<para id="fs-id1167132620037">Un cohete despega de la Tierra y alcanza una rapidez de 100 m/s en 10,0 s. Si la rapidez de escape es de 1.500 m/s y la masa de combustible quemada es de 100 kg, ¿cuál era la masa inicial del cohete?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132362217">
+<problem id="fs-id1167132467177">
+<para id="fs-id1167132467179">Repita el problema anterior, pero para un cohete que despega de una estación espacial, donde no hay más gravedad que la despreciable, debido a la estación espacial.</para>
+</problem>
+<solution id="fs-id1167132414203">
+<para id="fs-id1167132414205">1.551 kg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133842903">
+<problem id="fs-id1167133842905">
+<para id="fs-id1167132528474">¿Cuánto combustible se necesitaría para que un cohete de 1.000 kg (esta es su masa sin combustible) despegara de la Tierra y alcanzara 1.000 m/s en 30 s? La velocidad de escape es de 1.000 m/s.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132616660">
+<problem id="fs-id1167132616662">
+<para id="fs-id1167132446574">¿Qué velocidad de escape es necesaria para acelerar un cohete en el espacio profundo de 800 m/s a 1.000 m/s en 5,0 s si la masa total del cohete es de 1.200 kg y solo le quedan 50 kg de combustible?</para>
+</problem>
+<solution id="fs-id1167133464000">
+<para id="fs-id1167133464002">4,9 km/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132376612">
+<problem id="fs-id1167132376614">
+<para id="fs-id1167132361762"><emphasis effect="bold">Resultados poco razonables</emphasis> Se ha informado de que los calamares saltan desde el océano y recorren 30,0 m (medidos horizontalmente) antes de volver a entrar en el agua.</para>
+<para id="fs-id1167132619975">(a) Calcule la velocidad inicial del calamar si sale del agua con un ángulo de 20,0º, suponiendo que la sustentación del aire es insignificante y la resistencia del aire también.</para>
+<para id="fs-id1167132267521">(b) El calamar se propulsa chorreando agua. ¿Qué fracción de su masa tendría que expulsar para alcanzar la velocidad encontrada en la parte anterior? El agua se expulsa a 12,0 m/s; se ignoran la fuerza gravitacional y la fricción.</para>
+<para id="fs-id1167132267526">(c) ¿Qué es lo que no es razonable en los resultados?</para>
+<para id="fs-id1167133457650">(d) ¿Qué premisa no es razonable, o qué premisas son incongruentes?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167133856322" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1167132530479">
+<problem id="fs-id1167132243177">
+<para id="fs-id1167132243179">Dos canoeros de 70 kg reman en una sola canoa de 50 kg. Su remo mueve la canoa a 1,2 m/s con respecto al agua, y el río en el que están fluye a 4 m/s con respecto a la tierra. ¿Cuál es su momento con respecto a la tierra?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133606659">
+<problem id="fs-id1167133606661">
+<para id="fs-id1167133606663">¿Qué tiene una magnitud mayor de momento: un elefante de 3.000 kg que se mueve a 40 km/h o un guepardo de 60 kg que se mueve a 112 km/h?</para>
+</problem>
+<solution id="fs-id1167132228807">
+<para id="fs-id1167133550418">El elefante tiene un mayor momento.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133550424">
+<problem id="fs-id1167132276399">
+<para id="fs-id1167132276401">Una conductora aplica los frenos y reduce la velocidad de su auto en un 20 % sin cambiar la dirección en la que se mueve el auto. ¿En cuánto cambia el momento del auto?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133863112">
+<problem id="fs-id1167133484982">
+<para id="fs-id1167133484984">Su amigo afirma que el momento es la masa multiplicada por la velocidad, por lo que las cosas con más masa tienen más momento. ¿Está de acuerdo? Explique.</para>
+</problem>
+<solution id="fs-id1167132463331">
+<para id="fs-id1167132463334">Las respuestas pueden variar. La primera cláusula es verdadera, pero la segunda cláusula no es verdadera en general porque la velocidad de un objeto con una masa pequeña puede ser lo suficientemente grande como para que el momento del objeto sea mayor que el de un objeto de mayor masa con una velocidad menor.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133718494">
+<problem id="fs-id1167133805059">
+<para id="fs-id1167133805062">Es más probable que se rompa un vaso en un suelo de cemento que si se deja caer desde la misma altura en césped. Explíquelo en términos de impulso.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132319328">
+<problem id="fs-id1167132319330">
+<para id="fs-id1167133683538">Su auto deportivo de 1.500 kg acelera de 0 a 30 m/s en 10 s. ¿Qué fuerza media se ejerce sobre este durante esta aceleración?</para>
+</problem>
+<solution id="fs-id1167132412597">
+<para id="fs-id1167132412599"><m:math><m:mrow><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132426568">
+<problem id="fs-id1167132426570">
+<para id="fs-id1167132371110">Una pelota de masa <m:math><m:mi>m</m:mi></m:math> se deja caer. ¿Cuál es la fórmula del impulso ejercido sobre la pelota desde el instante en que se deja caer hasta un tiempo arbitrario <m:math><m:mi>τ</m:mi></m:math> más tarde? Ignore la resistencia del aire.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132463268">
+<problem id="fs-id1167132361231">
+<para id="fs-id1167132361233">Repita el problema anterior, pero incluya una fuerza de arrastre debida al aire de <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>arrastre</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>b</m:mi><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167132541928">
+<para id="fs-id1167133793004"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mn>0</m:mn><m:mi>τ</m:mi></m:msubsup><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>m</m:mi><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>-</m:mo><m:mi>m</m:mi><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>t</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>b</m:mi></m:mfrac><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mrow><m:mi>b</m:mi><m:mi>τ</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:mrow></m:msup><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133549801">
+<problem id="fs-id1167133855091">
+<para id="fs-id1167133855093">Un huevo de 5,0 g cae desde un mostrador de 90 cm de altura al suelo y se rompe. ¿Qué impulso ejerce el suelo sobre el huevo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132305009">
+<problem id="fs-id1167132305011">
+<para id="fs-id1167133395287">Un auto choca contra un gran árbol que no se mueve. El auto pasa de 30 m/s a 0 en 1,3 m. (a) ¿Qué impulso aplica el cinturón de seguridad al conductor, suponiendo que sigue el mismo movimiento que el auto? (b) ¿Cuál es la fuerza media aplicada sobre el conductor por el cinturón de seguridad?</para>
+</problem>
+<solution id="fs-id1167132423412">
+<para id="fs-id1167132423414">a. <m:math><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, b. <m:math><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>24</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132230395">
+<problem id="fs-id1167132230397">
+<para id="fs-id1167132579530">Dos jugadores de hockey se acercan de frente; cada uno se desplaza a la misma rapidez <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>. Chocan y se enredan, caen y se alejan a una rapidez <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mtext>/</m:mtext><m:mn>5</m:mn></m:mrow></m:mrow></m:math>. ¿Cuál es la relación de sus masas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132257267">
+<problem id="fs-id1167133775656">
+<para id="fs-id1167133775658">Va en su bicicleta de 10 kg a 15 m/s y un insecto de 5,0 g choca y salpica en su casco. El insecto volaba inicialmente a 2,0 m/s en la misma dirección que usted. Si su masa es de 60 kg, (a) ¿cuál es el momento inicial suyo más el de su bicicleta? (b) ¿cuál es el momento inicial del insecto? (c) ¿cuál es su cambio de velocidad debido a la colisión con el insecto? (d) ¿cuál habría sido el cambio de velocidad si el insecto viajara en sentido contrario?</para>
+</problem>
+<solution id="fs-id1167133775660">
+<para id="fs-id1167133862928">a. <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, b. <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,010</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, c. <m:math><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,00093</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, d. <m:math><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,0012</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132371653">
+<problem id="fs-id1167132259332">
+<para id="fs-id1167132259334">Una carga de grava se vierte directamente en un vagón de carga de 30.000 kg que circula a 2,2 m/s en un tramo recto de ferrocarril. Si la rapidez del vagón tras recibir la grava es de 1,5 m/s, ¿qué masa de grava ha recibido?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132411513">
+<problem id="fs-id1167132586714">
+<para id="fs-id1167132586716">Dos carros en una pista recta chocan de frente. El primer carro se desplaza a 3,6 m/s en la dirección de la <emphasis effect="italics">x</emphasis> positiva y el segundo se mueve a 2,4 m/s en la dirección opuesta. Tras la colisión, el segundo carro sigue moviéndose en su dirección inicial a 0,24 m/s. Si la masa del segundo carro es 5,0 veces la del primero, ¿cuál es la velocidad final del primer carro?</para>
+</problem>
+<solution id="fs-id1167132415512">
+<para id="fs-id1167132415514"><m:math><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7,2</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133359911">
+<problem id="fs-id1167133359913">
+<para id="fs-id1167132465617">Un astronauta de 100 kg se encuentra separado de su nave espacial por 10 m y se aleja de ella a 0,1 m/s. Para volver a la nave espacial, lanza una bolsa de herramientas de 10 kg lejos de la nave a 5,0 m/s. ¿Cuánto tiempo tardará en volver a la nave espacial?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132227134">
+<problem id="fs-id1167132227136">
+<para id="fs-id1167132227138">Derive las ecuaciones que dan la rapidez final de dos objetos que colisionan elásticamente, donde la masa de los objetos es <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y la rapidez inicial es <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,i</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> (es decir, el segundo objeto está inmóvil inicialmente).</para>
+</problem>
+<solution id="fs-id1167133396887">
+<para id="fs-id1167133396889"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,f</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,f</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub><m:mfrac><m:mrow><m:mn>2</m:mn><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132202557">
+<problem id="fs-id1167132252231">
+<para id="fs-id1167132252233">Repita el problema anterior en el caso en que la rapidez inicial del segundo objeto sea distinta a cero.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133780121">
+<problem id="fs-id1167133780123">
+<para id="fs-id1167133780125">Un niño baja en trineo por una colina y choca a 5,6 m/s con un trineo inmóvil, idéntico al suyo. El niño es lanzado hacia delante a la misma rapidez; atrás deja los dos trineos que se traban juntos y se deslizan hacia delante más lentamente. ¿Cuál es la rapidez de los dos trineos después de esta colisión?</para>
+</problem>
+<solution id="fs-id1167132320046">
+<para id="fs-id1167132320049">2,8 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132238341">
+<problem id="fs-id1167132238343">
+<para id="fs-id1167132238345">Para el problema anterior, calcule la rapidez final de cada trineo para el caso de una colisión elástica.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132369938">
+<problem id="fs-id1167132369940">
+<para id="fs-id1167133805123">Un jugador de fútbol de 90 kg salta verticalmente en el aire para atrapar un balón de fútbol de 0,50 kg que se lanza esencialmente en horizontal hacia él a 17 m/s. ¿Cuál es su velocidad horizontal después de atrapar el balón?</para>
+</problem>
+<solution id="fs-id1167133396908">
+<para id="fs-id1167133396910">0,094 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132539301">
+<problem id="fs-id1167132539303">
+<para id="fs-id1167133792513">Tres paracaidistas caen en picada hacia la tierra. Al principio se agarran el uno al otro, pero luego se separan. Dos paracaidistas de 70 y 80 kg de masa adquieren velocidades horizontales de 1,2 m/s al norte y 1,4 m/s al sureste, respectivamente. ¿Cuál es la velocidad horizontal del tercer paracaidista, cuya masa es de 55 kg?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133829088">
+<problem id="fs-id1167133829090">
+<para id="fs-id1167132374798">Dos bolas de billar están en reposo y se tocan en una mesa de billar. La bola blanca se desplaza a 3,8 m/s a lo largo de la línea de simetría entre estas bolas y las golpea simultáneamente. Si la colisión es elástica, ¿cuál es la velocidad de las tres bolas después de la colisión?</para>
+</problem>
+<solution id="fs-id1167132306238">
+<para id="fs-id1167132306240">la velocidad final de la bola blanca es <m:math><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,76</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, la velocidad final de las otras dos bolas es de 2,6 m/s a ±30° con respecto a la velocidad inicial de la bola blanca</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133647819">
+<problem id="fs-id1167133647821">
+<para id="fs-id1167132240717">Una bola de billar que viaja a <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,2</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> choca contra una pared que está alineada en la dirección <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math>. Suponiendo que la colisión es elástica, ¿cuál es la velocidad final de la bola?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133403316">
+<problem id="fs-id1167133403318">
+<para id="fs-id1167133403320">Dos bolas de billar idénticas colisionan. La primera viaja inicialmente a <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,2</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> y la segunda a <m:math><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>. Supongamos que colisionan cuando el centro de la bola 1 está en el origen y el centro de la bola 2 está en el punto <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> donde <emphasis effect="italics">R</emphasis> es el radio de las bolas. ¿Cuál es la velocidad final de cada bola?</para>
+</problem>
+<solution id="fs-id1167132573202">
+<para id="fs-id1167133822121">bola 1: <m:math><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, bola 2: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,2</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132452153">
+<problem id="fs-id1167132452155">
+<para id="fs-id1167133328891">Repita el problema anterior si las bolas chocan cuando el centro de la bola 1 está en el origen y el centro de la bola 2 está en el punto <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132273346">
+<problem id="fs-id1167132273348">
+<para id="fs-id1167132410318">Repita el problema anterior si las bolas chocan cuando el centro de la bola 1 está en el origen y el centro de la bola 2 está en el punto <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mi>R</m:mi></m:mrow><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo>,</m:mo><m:mrow><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167132497150">
+<para id="fs-id1167133521698">bola 1: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,7</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, bola 2: <m:math><m:mrow><m:mtext>-</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,8</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,012</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132241577">
+<problem id="fs-id1167132241579">
+<para id="fs-id1167132241581">¿Dónde está el centro de masa de un alambre semicircular de radio <emphasis effect="italics">R</emphasis> que está centrado en el origen, comienza y termina en el eje de la <emphasis effect="italics">x</emphasis>, y se encuentra en el plano <emphasis effect="italics">x</emphasis>,<emphasis effect="italics">y</emphasis>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133717950">
+<problem id="fs-id1167133717952">
+<para id="fs-id1167133717954">¿Dónde está el centro de masa de una rebanada de pizza cortada en ocho trozos iguales? Supongamos que el origen está en el vértice de la rebanada y midamos los ángulos con respecto a un borde de la rebanada. El radio de la pizza es <emphasis effect="italics">R</emphasis>.</para>
+</problem>
+<solution id="fs-id1167132396715">
+<para id="fs-id1167132396717"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>,</m:mo><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow><m:mo>,</m:mo><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>8</m:mn></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132244398">
+<problem id="fs-id1167132437387">
+<para id="fs-id1167132437389">Si el 1 % de la masa de la Tierra se transfiriera a la Luna, ¿a qué distancia se desplazaría el centro de masa del sistema Tierra-Luna-población? La masa de la Tierra es <m:math><m:mrow><m:mn>5,97</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow></m:math> y la de la Luna es <m:math><m:mrow><m:mn>7,34</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow></m:math>. El radio de la órbita de la Luna es de aproximadamente <m:math><m:mrow><m:mn>3,84</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>m</m:mtext></m:mrow></m:math>.</para></problem>
+</exercise>
+<exercise id="fs-id1167132497049">
+<problem id="fs-id1167132497052">
+<para id="fs-id1167132497054">Su amigo se pregunta cómo un cohete sigue subiendo al cielo una vez que está lo suficientemente alto sobre la superficie de la Tierra como para que sus gases expulsados ya no empujen sobre la superficie. ¿Cómo responde usted?</para>
+</problem>
+<solution id="fs-id1167133703698">
+<para id="fs-id1167133703700">Las respuestas pueden variar. Los gases que empujan sobre la superficie de la Tierra no impulsan el cohete, sino la conservación del momento. El momento del gas que se expulsa por la parte trasera del cohete deberá compensarse con un aumento del momento hacia delante del cohete.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133703708">
+<problem id="fs-id1167132228842">
+<para id="fs-id1167132228844">Para aumentar la aceleración de un cohete, ¿hay que lanzar piedras por la ventanilla delantera del cohete o por la trasera?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167132306218" class="review-challenge">
+<title>Desafío</title>
+<exercise id="fs-id1167132278372">
+<problem id="fs-id1167132278374">
+<para id="fs-id1167132278376">Una persona de 65 kg salta desde la ventana del primer piso de un edificio en llamas y aterriza casi verticalmente en el suelo, a una velocidad horizontal de 3 m/s y vertical de <m:math><m:mrow><m:mn>−9</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>. Al impactar con el suelo, es llevado al reposo en poco tiempo. La fuerza que experimentan sus pies depende de si mantiene las rodillas rígidas o las dobla. Encuentre la fuerza en sus pies en cada caso.</para>
+<media id="fs-id1167132298477" alt="Dibujo de una persona cerca del suelo. Su vector de velocidad está dirigido hacia abajo y ligeramente hacia la izquierda y viene dado como 3,0 metros por segundo por el vector i menos 9,0 metros por segundo por el vector j. Las direcciones x y se muestran como referencia, con la x a la derecha y la y hacia arriba.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_02_Falling_img.jpg"/>
+</media>
+<list id="fs-id1167133581069" list-type="enumerated" number-style="lower-alpha">
+<item>Primero halle el impulso en la persona por el impacto en el suelo. Calcule tanto su magnitud como su dirección.</item>
+<item>Halle la fuerza media sobre los pies si la persona mantiene la pierna rígida y recta y su centro de masa desciende únicamente 1 cm verticalmente y 1 cm horizontalmente durante el impacto.</item>
+<item>Halle la fuerza media sobre los pies si la persona dobla las piernas durante el impacto de forma que su centro de masa descienda 50 cm en vertical y 5 cm en horizontal durante el impacto.</item>
+<item>Compare los resultados de las partes (b) y (c), y saque conclusiones sobre cuál forma es mejor.</item>
+</list>
+<para id="fs-id1167133564676">Tendrá que calcular el tiempo que dura el impacto con suposiciones razonables sobre la desaceleración. Aunque la fuerza no es constante durante el impacto, es aceptable trabajar con una fuerza media constante para este problema.</para>
+</problem>
+<solution id="fs-id1167132441490">
+<para id="fs-id1167132441492">a. <m:math><m:mrow><m:mn>617</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>, 108°; b. <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mn>2,91</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mn>2,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mn>5.850</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mn>5.265</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132415455">
+<problem id="fs-id1167132415458">
+<para id="fs-id1167132415460">Dos proyectiles de masa <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> se disparan a la misma rapidez, pero en direcciones opuestas desde dos lugares de lanzamiento separados por una distancia <emphasis effect="italics">D</emphasis>. Ambos alcanzan el mismo punto en su punto más alto y golpean allí. Como resultado del impacto, se pegan y se mueven como un solo cuerpo después. Halle el lugar en el que aterrizarán.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132201915">
+<problem id="fs-id1167132201918">
+<para id="fs-id1167132201920">Dos objetos idénticos (como las bolas de billar) tienen una colisión unidimensional en la que uno está inicialmente inmóvil. Después de la colisión, el objeto que se mueve queda inmóvil y el otro se mueve con la misma rapidez que tenía el otro originalmente. Demuestre que, tanto el momento como la energía cinética se conservan.</para>
+</problem>
+<solution id="fs-id1167133694087">
+<para id="fs-id1167133694089">La conservación del momento exige <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,i</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,f</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,f</m:mtext></m:mrow></m:msub></m:mrow></m:math>. Se nos da que <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,f</m:mtext></m:mrow></m:msub></m:mrow></m:math>, y <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>2,i</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,f</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Al combinar estas ecuaciones con la ecuación dada por la conservación del momento se obtiene <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub></m:mrow></m:math>, lo cual es cierto, por lo que se cumple la conservación del momento. La conservación de la energía exige <m:math><m:mrow><m:mstyle scriptlevel="+1"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mstyle><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mstyle scriptlevel="+1"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mstyle><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>2,i</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mstyle scriptlevel="+1"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mstyle><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>1,f</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mstyle scriptlevel="+1"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mstyle><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>2,f</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:math>. De nuevo, al combinar esta ecuación con las condiciones dadas anteriormente, se obtiene <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>1,i</m:mtext></m:mrow></m:msub></m:mrow></m:math>, por lo que se cumple la conservación de la energía.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132426551">
+<problem id="fs-id1167132426553">
+<para id="fs-id1167132426555">Una rampa de masa <emphasis effect="italics">M</emphasis> reposa en una superficie horizontal. Se coloca un pequeño carro de masa <emphasis effect="italics">m</emphasis> en la parte superior de la rampa y se suelta.</para>
+<media id="fs-id1167132606907" alt="Antes de soltarse, el carro, de masa m, se encuentra en la parte superior de una estructura, que consta de un tramo horizontal en la parte inferior y una rampa que se eleva hacia arriba y hacia la derecha, hasta una altura h. La rampa tiene masa M y va sobre ruedas. Después de que se suelta, el carro de masa m está en la parte horizontal de la rampa y se mueve hacia la izquierda con velocidad v carro. La rampa se mueve hacia la derecha, a una velocidad v rampa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_04_CProb2_img.jpg"/>
+</media>
+<para id="fs-id1167132260464">¿Cuál es la velocidad de la rampa y del carro con respecto al suelo en el instante en que el carro sale de la rampa?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132416290">
+<problem id="fs-id1167132416293">
+<para id="fs-id1167132416295">Halle el centro de masa de la estructura dada en la figura siguiente. Supongamos un grosor uniforme de 20 cm, y una densidad uniforme de <m:math><m:mrow><m:mn>1</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>g/cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167132355036" alt="Se muestra un diagrama de varias masas dispuestas de manera que asemejan el modelo de una persona. En la parte superior hay una esfera de 8 cm de radio. Centrado bajo esta hay un rectángulo de 25 cm de ancho en horizontal y 60 cm de alto que luce como el cuerpo de la persona. A cada lado del rectángulo hay unos rectángulos de 60 cm en horizontal y 5 cm de alto que parecen los brazos extendidos. La parte superior de los brazos está alineada con la parte superior del cuerpo, y cada brazo se extiende desde los lados del cuerpo horizontalmente. En el extremo de cada brazo hay un cuadrado de 5 cm de ancho. Debajo del cuerpo están las piernas. Cada pierna mide 70 cm de alto y 8 cm de ancho. La parte superior de las piernas está alineada con la parte inferior del cuerpo. Los lados exteriores de las piernas están alineados con los lados del cuerpo. Debajo de cada pierna están los pies, que miden 3 cm de alto y 15 cm de ancho. El lado interno de cada pie se alinea con el lado interno de la pierna que está encima.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_06_CProb1_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167132460519">
+<para id="fs-id1167132460521">Supongamos que el origen está en la línea central y en el suelo, entonces <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.86</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167132409972">
+<term>ecuación del cohete</term>
+<meaning id="fs-id1167132320522">derivada por el físico soviético Konstantin Tsiolkovsky en 1897, nos da el cambio de velocidad que el cohete obtiene al quemar una masa de combustible que disminuye la masa total del cohete de <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> hasta <emphasis effect="italics">m</emphasis></meaning>
+</definition>
+</glossary>
+</document>

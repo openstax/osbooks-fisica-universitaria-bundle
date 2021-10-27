@@ -1,0 +1,504 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Cableado doméstico y seguridad eléctrica</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90900</md:content-id>
+  <md:title>Cableado doméstico y seguridad eléctrica</md:title>
+  <md:abstract>Al final de esta sección, podrá: <list>
+<item>Enumerar los conceptos básicos de la instalación eléctrica de una casa.</item>
+<item>Definir los términos riesgo térmico y riesgo de choque.</item>
+<item>Describir los efectos de los choques eléctricos en la fisiología humana y su relación con la cantidad de corriente que atraviesa el cuerpo.</item>
+<item>Explicar la función de fusibles y disyuntores.</item>
+</list></md:abstract>
+  <md:uuid>38a9405c-48de-4ba1-acdb-e90f5f4b1ea4</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101765962">La electricidad presenta dos riesgos conocidos: el térmico y el de choque. Un <term>riesgo térmico</term> es aquel en el que una corriente eléctrica excesiva provoca efectos térmicos no deseados, como el inicio de un incendio en la pared de una casa. Un <term>riesgo de choque</term> se produce cuando una corriente eléctrica pasa a través de una persona. Los choques varían en gravedad, desde los más dolorosos, pero inofensivos, hasta los más letales. En esta sección consideramos estos riesgos y los diversos factores que los afectan de manera cuantitativa. También examinamos los sistemas y dispositivos para prevenir los riesgos eléctricos.</para>
+<section id="fs-id1172099702478">
+<title>Riesgos térmicos</title>
+<para id="fs-id1172101965324">La potencia eléctrica provoca efectos de calentamiento no deseados siempre que la energía eléctrica se convierte en energía térmica a una velocidad superior a la que se puede disipar de forma segura. Un ejemplo clásico es el <term class="no-emphasis">cortocircuito</term>, una trayectoria de baja resistencia entre los terminales de una fuente de voltaje. En la <link target-id="CNX_UPhysics_27_06_ShortCur"/> se muestra un ejemplo de cortocircuito. Una tostadora se enchufa a una toma de corriente doméstica común. El aislamiento de los cables que conducen a un aparato se ha desgastado, lo que permite que los dos cables entren en contacto, o hagan "cortocircuito" En consecuencia, la energía térmica puede elevar rápidamente la temperatura de los materiales circundantes, fundiendo el aislamiento y pudiendo provocar un incendio.</para>
+<para id="fs-id1172099466879">El diagrama del circuito muestra un símbolo que consiste en una onda sinusoidal encerrada en un círculo. Este símbolo representa una fuente de voltaje de corriente alterna (ac). En una fuente de voltaje alterno, el voltaje oscila entre una amplitud máxima positiva y otra negativa. Hasta ahora hemos considerado las fuentes de voltaje de corriente continua (dc), pero muchos de los mismos conceptos son aplicables a circuitos ac.</para>
+<figure id="CNX_UPhysics_27_06_ShortCur">
+<media id="fs-id1172101942881" alt="La parte a muestra el diagrama de una tostadora. La parte b muestra el circuito de la parte a con el voltaje de la fuente de ac conectada a dos resistores en paralelo r y R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_ShortCur.jpg"/>
+</media>
+<caption>Un cortocircuito es una trayectoria no deseada de baja resistencia a través de una fuente de voltaje. (a) El aislamiento desgastado de los cables de una tostadora permite que entren en contacto con una resistencia baja <emphasis effect="italics">r</emphasis>. Dado que <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mi>r</m:mi></m:mrow></m:mrow></m:math>, la potencia térmica se crea tan rápidamente que el cable se funde o se quema. (b) Un esquema del cortocircuito.</caption>
+</figure>
+<para id="fs-id1172101895022">Otro riesgo térmico grave se produce cuando los cables que suministran potencia a un aparato están sobrecargados. Los cables y aparatos eléctricos suelen estar clasificados según la corriente máxima que pueden soportar con seguridad. El término "sobrecarga" se refiere a una condición en la que la corriente supera la corriente máxima nominal. Como la corriente fluye a través de un cable, la potencia disipada en los cables de alimentación es <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>R</m:mi><m:mtext>W</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>W</m:mtext></m:msub></m:mrow></m:math> es la resistencia de los cables e <emphasis effect="italics">I</emphasis> es la corriente que circula por ellos. Si <emphasis effect="italics">I</emphasis> o <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>W</m:mtext></m:msub></m:mrow></m:math> son demasiado grandes, los cables se sobrecalientan. Los fusibles y disyuntores se utilizan para limitar las corrientes excesivas.</para>
+</section>
+<section id="fs-id1172099494115">
+<title>Riesgos de choque</title>
+<para id="fs-id1172099892942">El choque eléctrico es la reacción o lesión fisiológica causada por una corriente eléctrica externa que atraviesa el cuerpo. El efecto de un choque eléctrico puede ser negativo o positivo. Cuando una corriente con una magnitud superior a 300 mA pasa por el corazón, puede producirse la muerte. La mayoría de las muertes por choque eléctrico se producen porque la corriente provoca una fibrilación ventricular, un latido del corazón muy irregular y a menudo mortal. Por otro lado, una víctima de un infarto, cuyo corazón está en fibrilación, puede ser salvada por el choque eléctrico de un desfibrilador.</para>
+<para id="fs-id1172099626146">Los efectos de un choque eléctrico indeseable pueden variar en gravedad: una ligera sensación en el punto de contacto, dolor, pérdida de control muscular voluntario, dificultad para respirar, fibrilación cardíaca y posiblemente la muerte. La pérdida de control muscular voluntario puede hacer que la víctima no sea capaz de soltar la fuente de la corriente.</para>
+<para id="fs-id1172101921157">Los principales factores de los que depende la gravedad de los efectos de los choques eléctricos son:</para>
+<list id="fs-id1172101847649" list-type="enumerated" number-style="arabic">
+<item>la cantidad de corriente <emphasis effect="italics">I</emphasis>;</item>
+<item>la trayectoria que sigue la corriente;</item>
+<item>la duración del choque;</item>
+<item>la frecuencia <emphasis effect="italics">f</emphasis> de la corriente (<m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> para dc).</item>
+</list>
+<para id="fs-id1172101760173">Nuestros cuerpos son relativamente buenos conductores eléctricos debido al contenido de agua del cuerpo. Se produce una condición peligrosa cuando el cuerpo está en contacto con una fuente de voltaje y “tierra”. El término "tierra" se refiere a un gran sumidero o fuente de electrones, por ejemplo, la tierra (de ahí el nombre). Cuando hay una trayectoria directa a tierra, las grandes corrientes pasarán por las partes del cuerpo con menor resistencia y una trayectoria directa a tierra. Muchas profesiones usan calzado aislante como medida de seguridad. Los zapatos aislantes impiden el paso de los electrones a tierra a través de los pies, ya que ofrecen una gran resistencia. Siempre que trabaje con herramientas de alta potencia, o con cualquier circuito eléctrico, asegúrese de no proporcionar una vía para el flujo de corriente (especialmente a través del corazón). Una medida de seguridad habitual es trabajar con una sola mano, lo que reduce la posibilidad de que la corriente atraviese el corazón.</para>
+<para id="fs-id1172099588218">Las corrientes muy pequeñas pasan sin hacer daño y no se sienten a través del cuerpo. Esto ocurre regularmente sin que lo sepa. El umbral de sensibilidad es de solo 1 mA y, aunque es desagradable, las descargas son aparentemente inofensivas para corrientes inferiores a 5 mA. Un gran número de normas de seguridad toman el valor de 5 mA para el choque máximo permitido. A partir de 5 a 30 mA, la corriente puede estimular contracciones musculares sostenidas, de forma parecida a los impulsos nerviosos normales (<link target-id="CNX_UPhysics_27_06_HotWire"/>). Las corrientes muy grandes (superiores a 300 mA) hacen que el corazón y el diafragma del pulmón se contraigan mientras dura el choque. Tanto el corazón como la respiración se detienen. Ambos suelen volver a la normalidad tras el choque.</para>
+<figure id="CNX_UPhysics_27_06_HotWire">
+<media id="fs-id1172101618163" alt="La parte a muestra a una persona lanzada hacia atrás tras tocar un cable eléctricamente caliente. La parte b muestra la mano de la persona que toca el cable eléctricamente caliente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_HotWire.jpg"/>
+</media>
+<caption>Una corriente eléctrica puede provocar contracciones musculares con efectos diversos. (a) La víctima es "lanzada" hacia atrás por contracciones musculares involuntarias que extienden las piernas y el torso. (b) La víctima no puede soltar el cable que está estimulando todos los músculos de la mano. Los que cierran los dedos son más fuertes que los que los abren.</caption>
+</figure>
+<para id="fs-id1172099475524">La corriente es el principal factor que determina la gravedad del choque. Un voltaje mayor es más peligroso, pero como <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> la gravedad del choque depende de la combinación de voltaje y resistencia. Por ejemplo, una persona con piel seca tiene una resistencia de aproximadamente <m:math><m:mrow><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>. Si entra en contacto con 120 V ac, una corriente</para>
+<equation id="fs-id1172099476252" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,6</m:mn><m:mspace width="0.2em"/><m:mtext>mA</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172097144718">pasa inofensivamente a través de ella. La misma persona empapada puede tener una resistencia de <m:math><m:mrow><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> y los mismos 120 V producirán una corriente de 12 mA, por encima del umbral de "no poder soltar" y potencialmente peligrosa.</para>
+</section>
+<section id="fs-id1172099898524">
+<title>Seguridad eléctrica: sistemas y dispositivos</title>
+<para id="fs-id1172099499895">La <link target-id="CNX_UPhysics_27_06_ACCur"/>(a) muestra el esquema de un circuito simple de ac sin elementos de seguridad. No es así como se distribuye la potencia en la práctica. El cableado doméstico e industrial moderno requiere el <term>sistema de tres cables</term>, mostrado esquemáticamente en la parte (b), que tiene varias características de seguridad, con cables vivos, neutros y de tierra. La primera es el conocido disyuntor (o fusible) para evitar la sobrecarga térmica. La segunda es una caja protectora alrededor del aparato, como una tostadora o un refrigerador. La característica de seguridad de la caja es que impide que una persona toque los cables expuestos y entre en contacto eléctrico con el circuito, lo que ayuda a evitar los choques.</para>
+<figure id="CNX_UPhysics_27_06_ACCur">
+<media id="fs-id1172099514920" alt="La parte a muestra una fuente de voltaje alterno conectada al resistor R y la parte b muestra el esquema de un sistema de tres cables.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_ACCur.jpg"/>
+</media>
+<caption>(a) Esquema de un circuito simple de ac con una fuente de voltaje y un solo aparato representado por la resistencia <emphasis effect="italics">R</emphasis>. En este circuito no hay elementos de seguridad. (b) El sistema de tres cables conecta el cable neutro a tierra en la fuente de voltaje y en el lugar del usuario, obligándolo a estar a cero voltios y proporcionando una vía de retorno alternativa para la corriente a través de tierra. La caja del aparato también está conectada a tierra a cero voltios. Un disyuntor o fusible protege contra la sobrecarga térmica y está en serie en el cable activo (vivo/caliente).</caption>
+</figure>
+<para id="fs-id1172099490504">Hay tres conexiones a tierra que se muestran en la <link target-id="CNX_UPhysics_27_06_ACCur"/>(b). Recordemos que una conexión a tierra es una trayectoria de baja resistencia directamente a tierra. Las dos conexiones a tierra del cable neutro lo obligan a estar a cero voltios con respecto a la tierra, lo que da nombre al cable. Por lo tanto, este cable es seguro al tacto, incluso si no tiene su aislamiento, que generalmente es blanco. El cable neutro es la vía de retorno que sigue la corriente para completar el circuito. Además, las dos conexiones a tierra proporcionan una vía alternativa a través de la tierra (un buen conductor) para completar el circuito. La conexión a tierra más cercana a la fuente de potencia podría estar en la planta generadora, mientras que la otra está en la ubicación del usuario. La tercera toma de tierra es a la caja del aparato, a través del cable verde de tierra, obligando a la caja a estar a cero voltios, también. El cable vivo o caliente (en lo sucesivo denominado "vivo/caliente") suministra voltaje y corriente para el funcionamiento del aparato. La <link target-id="CNX_UPhysics_27_06_Prong"/> muestra una versión más pictórica de cómo se conecta el sistema de tres cables a través de un enchufe de tres clavijas a un aparato.</para>
+<figure id="CNX_UPhysics_27_06_Prong">
+<media id="fs-id1172097184180" alt="La figura muestra el esquema de un sistema de tres cables con un enchufe de tres clavijas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_Prong.jpg"/>
+</media>
+<caption>El enchufe estándar de tres clavijas solo puede insertarse en un sentido, para garantizar el correcto funcionamiento del sistema de tres cables.</caption>
+</figure>
+<para id="fs-id1172099834177">El plástico aislante está codificado por colores para identificar los cables vivos/calientes, neutros y de tierra, pero estos códigos varían en todo el mundo. Es esencial determinar el código de colores en su región. Los revestimientos a rayas se utilizan a veces en beneficio de los daltónicos.</para>
+<para id="fs-id1172099587696">La puesta a tierra de la caja resuelve más de un problema. El problema más sencillo es un aislamiento desgastado en el cable vivo/caliente que le permite entrar en contacto con la caja, como se muestra en la <link target-id="CNX_UPhysics_27_06_Insulate"/>. Si no hay puesta a tierra, es posible que se produzca un choque fuerte. Esto es especialmente peligroso en la cocina, donde se dispone de una buena puesta a tierra a través del agua del suelo o de un grifo. Con la puesta a tierra intacta, el disyuntor se disparará, obligando a reparar el aparato.</para>
+<figure id="CNX_UPhysics_27_06_Insulate">
+<media id="fs-id1172101896703" alt="La parte a muestra a una persona recibiendo una descarga al romperse la puesta a tierra. La parte b muestra un diagrama similar al de la parte a, pero con una puesta a tierra adecuada para que la persona no reciba un choque.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_Insulate.jpg"/>
+</media>
+<caption>Un aislamiento desgastado permite que el cable vivo/caliente entre en contacto directo con la caja de metal de este aparato. (a) Al romperse la puesta a tierra, la persona recibe un fuerte choque. El aparato puede funcionar normalmente en esta situación. (b) Con una puesta a tierra adecuada, el disyuntor se dispara, obligando a reparar el aparato.</caption>
+</figure>
+<para id="fs-id1172099598491">Un <term class="no-emphasis">interruptor de circuito de falla a tierra</term> (GFCI) es un dispositivo de seguridad que se encuentra en el cableado actualizado de cocinas y baños y que funciona con base en la inducción electromagnética. Los GFCI comparan las corrientes de los cables vivos/calientes y del neutro. Cuando las corrientes del cable vivo/caliente y del neutro no son iguales, casi siempre es porque la corriente en el neutro es menor que en el vivo/caliente. Entonces una parte de la corriente, llamada corriente de fuga, vuelve a la fuente de voltaje por una trayectoria distinta a la del cable neutro. Se supone que esta trayectoria presenta un riesgo. Los GFCI suelen estar configurados para interrumpir el circuito si la corriente de fuga es superior a 5 mA, el choque máximo inocuo aceptado. Incluso si la corriente de fuga llega a tierra de forma segura a través de un cable de tierra intacto, el GFCI se disparará, obligando a reparar la fuga.</para>
+</section>
+<section id="fs-id1172099613599" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172102142489" list-type="bulleted" bullet-style="bullet">
+<item>Los dos tipos de riesgos eléctricos son el térmico (potencia excesiva) y el de choque (corriente a través de una persona). Se emplean sistemas y dispositivos de seguridad eléctrica para evitar los riesgos térmicos y de choque.</item>
+<item>La gravedad del choque viene determinada por la corriente, la trayectoria, la duración y la frecuencia de la ac.</item>
+<item>Los disyuntores y fusibles interrumpen las corrientes excesivas para evitar riesgos térmicos.</item>
+<item>El sistema de tres cables protege contra los riesgos térmicos y de choque, utilizando cables vivos/calientes, neutros y de tierra, y conectando a tierra el cable neutro y la caja del aparato.</item>
+<item>Un interruptor de circuito de falla a tierra (GFCI) previene descargas eléctricas al detectar la pérdida de corriente en trayectorias involuntarias.</item>
+</list>
+</section>
+<section id="fs-id1172099397062" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1172097162216" class="unnumbered unstyled" summary="The table has two columns and twelve rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Terminal voltage of a single voltage source” and “V subscript terminal equals ε minus I r subscript eq”. The second row contains “Equivalent resistance of a series circuit” and “R subscript eq equals R subscript 1 plus R subscript 2 pus R subscript 3 plus R subscript N-1 plus R subscript N equals summation i equals 1 to N R subscript i”. The third row contains “Equivalent resistance of a parallel circuit” and “R subscript eq equals inverse of 1 divided by R subscript 1 plus 1 divided by R subscript 2 plus 1 divided by R subscript N equals inverse of summation of i equals 1 to N 1 divided by R subscript i”. The fourth row contains “Junction rule” and “summation I subscript in equals summation I subscript out”. The fifth row contains “Loop rule” and “summation of V equals 0”. The sixth row contains “Terminal voltage of N voltage sources in series” and “V subscript terminal equals summation i equals 1 to N ε subscript i minus I summation i equals 1 to N r subscript i equals summation i equals 1 to N ε subscript i minus I r subscript eq”. The seventh row contains “Terminal voltage of N voltage sources in parallel” and “V subscript terminal equals ε minus I summation i equals 1 to N inverse of 1 divided by r subscript i equals ε minus I r subscript eq”. The eighth row contains “Charge on a charging capacitor” and “C ε opening parenthesis 1 minus e power minus t divided by RC closing parenthesis equals Q opening parenthesis 1 minus e power minus t divided by τ closing parenthesis”. The ninth row contains “Time constant” and “τ equals R C”. The tenth row contains “Current during charging of a capacitor” and “I equals ε divided by R e power minus t divided by R C equals I subscript 0 e power minus t divided by R C”. The eleventh row contains “Charge on a discharging capacitor” and “q opening parenthesis t closing parenthesis equals Q e power minus t divided by τ”. The twelfth row contains “Current during discharging of a capacitor” and “I opening parenthesis t closing parenthesis equals minus Q divided by R C e power minus t divided by τ”.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Voltaje de terminal de una fuente de voltaje única</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:msub><m:mi>r</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Resistencia equivalente de un circuito en serie</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:mtext>⋯</m:mtext><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mi>N</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mi>N</m:mi></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>R</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Resistencia equivalente de un circuito paralelo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>R</m:mi><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mtext>⋯</m:mtext><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>R</m:mi><m:mi>N</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>R</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Regla de nodos</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>dentro</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>fuera</m:mtext></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Regla de las tensiones</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mi>V</m:mi></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Voltaje de terminal de <emphasis effect="italics">N</emphasis> fuentes de voltaje en serie</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>ε</m:mi><m:mi>i</m:mi></m:msub><m:mo>−</m:mo><m:mi>I</m:mi><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:msub><m:mi>ε</m:mi><m:mi>i</m:mi></m:msub><m:mo>−</m:mo><m:mi>I</m:mi><m:msub><m:mi>r</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Voltaje de terminal de <emphasis effect="italics">N</emphasis> fuentes de voltaje en paralelo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:msup><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>r</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:msub><m:mi>r</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Carga en un condensador de carga</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>ε</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mrow><m:mi>R</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>Q</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mi>τ</m:mi></m:mfrac></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Constante de tiempo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>C</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Corriente durante la carga de un condensador</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mi>R</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mrow><m:mi>R</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msup><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mi>o</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mrow><m:mi>R</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Carga en un condensador en descarga</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>Q</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mi>τ</m:mi></m:mfrac></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Corriente durante la descarga de un condensador</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mi>R</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>t</m:mi><m:mi>τ</m:mi></m:mfrac></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1172099717591" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172099412919">
+<problem id="fs-id1172099720584">
+<para id="fs-id1172097229335">¿Por qué un cortocircuito no es necesariamente un riesgo de choque?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099575574">
+<problem id="fs-id1172101948865">
+<para id="fs-id1172101789314">A menudo se nos aconseja no pulsar los interruptores eléctricos con las manos mojadas, séquese primero la mano. También se aconseja no echar nunca agua a un fuego eléctrico. ¿Por qué?</para>
+</problem>
+<solution id="fs-id1172099909660">
+<para id="fs-id1172099549934">No solo puede caer agua en el interruptor y provocar un choque, sino que además la resistencia de su cuerpo es menor cuando está mojado.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172099647494" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172101732659">
+<problem id="fs-id1172099651751">
+<para id="fs-id1172101618530">(a) ¿Cuánta potencia se disipa en un cortocircuito de 240 V ac a través de una resistencia de <m:math><m:mrow><m:mn>0,250</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>? (b) ¿Qué corriente fluye?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099682367">
+<problem id="fs-id1172099768000">
+<para id="fs-id1172101765113">¿Qué voltaje se produce en un cortocircuito de 1,44 kW a través de una resistencia de <m:math><m:mrow><m:mn>0,100</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172099922492">
+<para id="fs-id1172101729561">12,0 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101731641">
+<problem id="fs-id1172101876901">
+<para id="fs-id1172099565817">Calcule la corriente que atraviesa una persona e identifique el efecto probable en ella si toca una fuente de ac de 120 V: (a) si está de pie sobre una alfombra de goma y ofrece una resistencia total de <m:math><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>; (b) si está descalza sobre la hierba mojada y tiene una resistencia de solo <m:math><m:mrow><m:mn>4000</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099486343">
+<problem id="fs-id1172102066555">
+<para id="fs-id1172099554641">Mientras se baña, una persona toca la caja de metal de una radio. La trayectoria a través de la persona hasta la tubería de desagüe y la tierra tiene una resistencia de <m:math><m:mrow><m:mn>4000</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. ¿Cuál es el menor voltaje en la caja de la radio que podría causar una fibrilación ventricular?</para>
+</problem>
+<solution id="fs-id1172099910088">
+<para id="fs-id1172101786937">400 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102074495">
+<problem id="fs-id1172099514412">
+<para id="fs-id1172097405218">Un hombre intenta tontamente pescar un trozo de pan quemado de una tostadora con un cuchillo para untar de metal y entra en contacto con 120 V de ac. Ni siquiera lo siente ya que, por suerte, lleva zapatos con suela de goma. ¿Cuál es la resistencia mínima de la trayectoria que sigue la corriente a través de la persona?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099476187">
+<problem id="fs-id1172099418350">
+<para id="fs-id1172102132725">(a) Durante la cirugía, una corriente tan pequeña como <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>A</m:mtext></m:mrow></m:math> aplicada directamente al corazón puede provocar una fibrilación ventricular. Si la resistencia del corazón expuesto es <m:math><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo></m:mrow></m:math> ¿cuál es el voltaje más pequeño que supone este riesgo? b) ¿Su respuesta implica que se necesitan precauciones especiales de seguridad eléctrica?</para>
+</problem>
+<solution id="fs-id1172099722023">
+<para id="fs-id1172101639594">a. 6,00 mV; b. No sería necesario tomar precauciones adicionales con respecto a la potencia que viene de la pared. Sin embargo, es posible generar voltajes de aproximadamente este valor a partir de la carga estática acumulada en los guantes, por ejemplo, por lo que es necesario tomar algunas precauciones.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101884733">
+<problem id="fs-id1172097211279">
+<para id="fs-id1172101771844">(a) ¿Cuál es la resistencia de un cortocircuito de 220 V ac que genera una potencia máxima de 96,8 kW? (b) ¿Cuál sería la potencia media si el voltaje fuera de 120 V ac?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101929188">
+<problem id="fs-id1172101837311">
+<para id="fs-id1172101729360">Un desfibrilador cardíaco hace pasar a través del torso de un paciente 10,0 A durante 5,00 ms en un intento de restablecer el latido normal. (a) ¿Cuánta carga pasó? (b) ¿Qué voltaje se aplicó si se disiparon 500 J de energía? (c) ¿Cuál fue la resistencia del trayecto? (d) Halle el aumento de temperatura causado en los 8,00 kg de tejido afectado.</para>
+</problem>
+<solution id="fs-id1172099604261">
+<para id="fs-id1172099567421">a. <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C;</m:mtext></m:mrow></m:math> b. 10,0 kV; c. <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>kΩ</m:mtext><m:mspace width="0.2em"/></m:mrow></m:math>; d. <m:math><m:mrow><m:mn>1,79</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099646380">
+<problem id="fs-id1172101695829">
+<para id="fs-id1172101785902">Un cortocircuito en el cable de un aparato de 120 V tiene una resistencia de <m:math><m:mrow><m:mn>0,500</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>. Calcule el aumento de temperatura de los 2,00 g de materiales circundantes, suponiendo que su capacidad calorífica específica es <m:math><m:mrow><m:mn>0,200</m:mn><m:mspace width="0.2em"/><m:mtext>cal/g</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y que un disyuntor tarda 0,0500 s en interrumpir la corriente. ¿Es probable que esto sea perjudicial?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172102150575" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1172099544191">
+<problem id="fs-id1172102026791">
+<para id="fs-id1172099642064">Un circuito contiene una batería de celdas D, un interruptor, un resistor de <m:math><m:mrow><m:mn>20</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> y cuatro condensadores de 20 mF conectados en serie. (a) ¿Cuál es la capacitancia equivalente del circuito? (b) ¿Cuál es la constante de tiempo <emphasis effect="italics">RC</emphasis>? (c) ¿Cuánto tiempo pasa antes de que la corriente disminuya al <m:math><m:mrow><m:mn>50</m:mn><m:mi>%</m:mi></m:mrow></m:math> del valor inicial una vez cerrado el interruptor?</para>
+</problem>
+<solution id="fs-id1172099647949">
+<para id="fs-id1172102143387">a. <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mtext>mF</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>0,1</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>; c. 0,069 s</para></solution>
+</exercise>
+<exercise id="fs-id1172102021422">
+<problem id="fs-id1172099695433">
+<para id="fs-id1172102060010">Un circuito contiene una batería de celda D, un interruptor, un resistor de <m:math><m:mrow><m:mn>20</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> y tres condensadores de 20 mF. Los condensadores están conectados en paralelo y esta conexión está conectada en serie con el interruptor, el resistor y la batería. (a) ¿Cuál es la capacitancia equivalente del circuito? (b) ¿Cuál es la constante de tiempo <emphasis effect="italics">RC</emphasis>? (c) ¿Cuánto tiempo pasa antes de que la corriente disminuya al <m:math><m:mrow><m:mn>50</m:mn><m:mi>%</m:mi></m:mrow></m:math> del valor inicial una vez cerrado el interruptor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099712314">
+<problem id="fs-id1172099604068">
+<para id="fs-id1172101707247">Considere el siguiente circuito. La batería tiene una emf de <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mn>30,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> y una resistencia interna de <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) Calcule la resistencia equivalente del circuito y la corriente de salida de la batería. (b) Halle la corriente a través de cada resistor. (c) Halle la caída de potencial a través de cada resistor. (d) Halle la potencia disipada por cada resistor. (e) Halle la potencia total suministrada por las baterías.</para>
+<media id="fs-id1172099474677" alt="La figura muestra el terminal positivo de la fuente de voltaje de 30 V y la resistencia interna de 1 Ω conectada en serie a dos conjuntos de resistores en paralelo. El primer conjunto tiene R subíndice 1 de 9 Ω y R subíndice 2 de 18 Ω. El segundo tiene R subíndice 3 de 10 Ω y R subíndice 4 de 10 Ω. Los conjuntos están conectados en serie con el resistor R subíndice 5 de 8 Ω.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_AP3_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099531653">
+<para id="fs-id1172099596741">a. <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>20,00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,75</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,75</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>5</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>;<newline/> c. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>9,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>9,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>7,50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>7,50</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>5</m:mn></m:msub><m:mo>=</m:mo><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>;<newline/> d. <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mi>r</m:mi></m:msub><m:mo>=</m:mo><m:mn>2,25</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>9,00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>4,50</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>5,625</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>5,625</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>5</m:mn></m:msub><m:mo>=</m:mo><m:mn>18,00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>;<newline/> e. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>45,00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101876445">
+<problem id="fs-id1172099526006">
+<para id="fs-id1172097234878">Un condensador casero se construye con 2 láminas de papel de aluminio de 2,00 metros cuadrados de superficie, separadas por un papel de 0,05 mm de espesor, de la misma superficie y con una constante dieléctrica de 3,7. El condensador casero se conecta en serie con un resistor de <m:math><m:mrow><m:mn>100,00</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>, un interruptor y una fuente de voltaje de 6,00 V. (a) ¿Cuál es la constante de tiempo <emphasis effect="italics">RC</emphasis> del circuito? (b) ¿Cuál es la corriente inicial que atraviesa el circuito, cuando el interruptor está cerrado? (c) ¿Cuánto tiempo tarda la corriente en alcanzar un tercio de su valor inicial?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101759500">
+<problem id="fs-id1172099386873">
+<para id="fs-id1172101903269">Un estudiante fabrica un resistor casero con un lápiz de grafito de 5,00 cm de longitud, donde el grafito tiene 0,05 mm de diámetro. La resistividad del grafito es <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>1,38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:math>. El resistor casero se coloca en serie con un interruptor, un condensador sin carga de 10,00 mF y una fuente de alimentación de 0,50 V. (a) ¿Cuál es la constante de tiempo <emphasis effect="italics">RC</emphasis> del circuito? (b) ¿Cuál es la caída de potencial a través del lápiz 1,00 s después de cerrar el interruptor?</para>
+</problem>
+<solution id="fs-id1172099490758">
+<para id="fs-id1172102010842">a. <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>Ω</m:mtext><m:mtext>m</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>3,14</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>0,05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mn>3,52</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0,014</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>3,52</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>351,59</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>=</m:mo><m:mn>0,376</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172101764479">
+<problem id="fs-id1172099456424">
+<para id="fs-id1172099551362">El circuito bastante sencillo que se muestra a continuación se conoce como divisor de voltaje. El símbolo formado por tres líneas horizontales representa la "tierra" y puede definirse como el punto donde el potencial es cero. El divisor de voltaje es muy utilizado en los circuitos y se puede utilizar una única fuente de voltaje para proporcionar un voltaje reducido a un resistor de carga, como se muestra en la segunda parte de la figura. (a) ¿Cuál es el voltaje de salida <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>fuera</m:mtext></m:mrow></m:msub></m:mrow></m:math> del circuito (a) en términos de <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>dentro</m:mtext></m:mrow></m:msub><m:mo>?</m:mo></m:mrow></m:math> (b) ¿Cuál es el voltaje de salida <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>fuera</m:mtext></m:mrow></m:msub></m:mrow></m:math> del circuito (b) en términos de <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>R</m:mi><m:mi>L</m:mi></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>dentro</m:mtext></m:mrow></m:msub><m:mo>?</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172101793148" alt="La parte a muestra el terminal positivo de la fuente de voltaje V subíndice dentro conectado en serie a los resistores R subíndice 1 y R subíndice 2. El terminal negativo de la fuente está conectado a tierra y V subíndice fuera está entre los dos resistores. La parte b muestra el mismo circuito que la parte a pero con V subíndice fuera conectado a tierra a través del resistor R subíndice L.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_AP6_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172099514038">
+<problem id="fs-id1172101906046">
+<para id="fs-id1172099643460">Tres resistores de <m:math><m:mrow><m:mn>300</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> se conectan en serie con una batería AAA de 3 amperios/hora. (a) ¿Por cuánto tiempo puede suministrar potencia la batería a los resistores? (b) Si los resistores se conectan en paralelo, ¿cuánto tiempo puede durar la batería?</para>
+</problem>
+<solution id="fs-id1172099526884">
+<para id="fs-id1172102023874">a. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>900</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.800</m:mn><m:mspace width="0.2em"/><m:mtext>h</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>h</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101779662">
+<problem id="fs-id1172099724294">
+<para id="fs-id1172101788265">Considere un circuito que consiste en una batería real con una emf <m:math><m:mi>ε</m:mi></m:math> y una resistencia interna de <emphasis effect="italics">r</emphasis> conectada a un resistor variable <emphasis effect="italics">R</emphasis>. (a) Para que el voltaje del terminal de la batería sea igual a su emf, ¿a qué debe ajustarse la resistencia del resistor variable? (b) Para obtener la máxima corriente de la batería, ¿a qué debe ajustarse la resistencia del resistor variable? (c) Para alcanzar la máxima potencia de la batería, ¿a qué debe ajustarse la resistencia del resistor variable?</para></problem>
+</exercise>
+<exercise id="fs-id1172099386985">
+<problem id="fs-id1172102109647">
+<para id="fs-id1172101968439">Considere el circuito que se muestra a continuación. ¿Cuál es la energía almacenada en cada condensador después de que el interruptor haya estado cerrado durante mucho tiempo?</para>
+<media id="fs-id1172099906415" alt="El terminal positivo de la fuente de voltaje V de 12 V está conectado a un interruptor abierto. El otro extremo del interruptor abierto se conecta al resistor R subíndice 1 de 100 Ω que se conecta a dos ramas paralelas. La primera rama tiene el condensador C subíndice 1 de 10 mF y R subíndice 2 de 100 Ω. La segunda rama tiene R subíndice 3 de 100 Ω y C subíndice 2 de 4,7 mF.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_AP9_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099515983">
+<para id="fs-id1172099509373"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mn>0,72</m:mn><m:mtext>J</m:mtext><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>U</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mn>0,338</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172099414258">
+<problem id="fs-id1172099908439">
+<para id="fs-id1172102128849">Considere un circuito formado por una batería con una emf <m:math><m:mi>ε</m:mi></m:math> y una resistencia interna de <emphasis effect="italics">r</emphasis> conectada en serie con un resistor <emphasis effect="italics">R</emphasis> y un condensador <emphasis effect="italics">C</emphasis>. Demuestre que la energía total suministrada por la batería mientras se carga es igual a <m:math><m:mrow><m:msup><m:mi>ε</m:mi><m:mn>2</m:mn></m:msup><m:mi>C</m:mi></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102066961">
+<problem id="fs-id1172101883529">
+<para id="fs-id1172101887424">Considere el circuito que se muestra a continuación. Se muestran los voltajes del terminal de las baterías. (a) Calcule la resistencia equivalente del circuito y la corriente que sale de la batería. (b) Calcule la corriente que pasa por cada resistor. (c) Halle la caída de potencial a través de cada resistor. (d) Halle la potencia disipada por cada resistor. (e) Halle la potencia total suministrada por las baterías.</para>
+<media id="fs-id1172102148682" alt="La figura muestra dos fuentes de voltaje en serie de 12 V cada una con los terminales negativos hacia arriba conectados a cuatro resistores. Las fuentes están conectadas en serie al resistor R subíndice 1 de 14 Ω conectada en serie a dos resistores en paralelo, R subíndice 2 de 9 Ω y R subíndice 3 de 18 Ω conectadas en serie al resistor R subíndice 4 de 4 Ω.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_01_P15_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101665126">
+<para id="fs-id1172099377125">a. <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>24,00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,67</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,33</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>;<newline/> c. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>14,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>6,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>6,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>;<newline/> d. <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>14,00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>4,04</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,96</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>; e. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>24,00</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101737782">
+<problem id="fs-id1172101922462">
+<para id="fs-id1172099548415">Considere el circuito que se muestra a continuación. (a) ¿Cuál es el voltaje del terminal de la batería? (b) ¿Cuál es la caída de potencial a través del resistor <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>?</para>
+<media id="fs-id1172101737830" alt="El terminal negativo de la fuente de voltaje V se conecta a dos ramas en paralelo, una con el resistor R subíndice 1 de 40 Ω con corriente descendente I subíndice 1 de 50 mA y la segunda con R subíndice 2 de 5 Ω en serie con R subíndice 3 de 15 Ω.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_01_P16_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172102147484">
+<problem id="fs-id1172099522007">
+<para id="fs-id1172102104655">Considere el circuito que se muestra a continuación. (a)Determine la resistencia equivalente y la corriente de la batería con interruptor <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> abierto. (b) Determine la resistencia equivalente y la corriente de la batería con el interruptor <m:math><m:mrow><m:msub><m:mi>S</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> cerrado.</para>
+<media id="fs-id1172099837201" alt="El terminal negativo de la fuente de voltaje de 12 V se conecta a dos ramas en paralelo, una con la resistor R subíndice 1 de 8 Ω en serie con el resistor R subíndice 4 de 8 Ω y la segunda con R subíndice 2 de 8 Ω en serie con R subíndice 3 de 8 Ω. Las ramas se conectan juntas al resistor R subíndice 5 de 4 Ω. Un interruptor abierto S conecta las dos ramas en el centro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_01_P17_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172097227552">
+<para id="fs-id1172101891854">a. <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101801960">
+<problem id="fs-id1172099703026">
+<para id="fs-id1172099750977">Dos resistores, uno con una resistencia de <m:math><m:mrow><m:mn>145</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, se conectan en paralelo para producir una resistencia total de <m:math><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. (a) ¿Cuál es el valor de la segunda resistencia? (b) ¿Qué es lo irrazonable de este resultado? (c) ¿Qué suposiciones son irrazonables o inconsistentes?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099601463">
+<problem id="fs-id1172099566057">
+<para id="fs-id1172101911295">Dos resistores, uno con una resistencia de <m:math><m:mrow><m:mn>900</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext><m:mo>,</m:mo></m:mrow></m:math> se conectan en serie para producir una resistencia total de <m:math><m:mrow><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>M</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>. (a) ¿Cuál es el valor de la segunda resistencia? (b) ¿Qué es lo irrazonable de este resultado? (c) ¿Qué suposiciones son irrazonables o inconsistentes?</para>
+</problem>
+<solution id="fs-id1172102120479">
+<para id="fs-id1172099657898">a. <m:math><m:mrow><m:mn>−400</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>; b. No se puede tener una resistencia negativa. c. La suposición de que <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> no es razonable. La resistencia en serie es siempre mayor que cualquiera de las resistencias individuales.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099707203">
+<problem id="fs-id1172099647060">
+<para id="fs-id1172099799729">Aplique la regla de nodos en el punto <emphasis effect="italics">a</emphasis> que se muestra a continuación.</para>
+<media id="fs-id1172101913402" alt="La figura muestra un circuito con tres ramas horizontales y dos verticales. La primera rama horizontal tiene una fuente de voltaje ε subíndice 1 de 24 V y una resistencia interna de 0,1 Ω con el terminal positivo derecho. La segunda rama horizontal tiene una fuente de voltaje ε subíndice 2 de 48 V y resistencia interna 0,5 Ω con terminal positivo derecho y resistor R subíndice 2 de 40 Ω con corriente I subíndice 2 derecha. La tercera rama horizontal tiene una fuente de voltaje ε subíndice 3 de 6 V y una resistencia interna de 0,05 Ω con el terminal positivo izquierdo. La primera y la segunda rama se conectan a la izquierda a través del resistor R subíndice 1 de 5 Ω con corriente ascendente I subíndice 1 y a la derecha a través de R subíndice 5 de 20 Ω. La segunda y la tercera ramas se conectan a la izquierda a través del resistor R subíndice 3 de 78 Ω con corriente ascendente I subíndice 3 y a la derecha a través de la fuente de voltaje ε subíndice 4 de 36 V y resistencia interna 0,2 Ω con terminal positivo ascendente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_P12_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172097162326">
+<problem id="fs-id1172099665645">
+<para id="fs-id1172099760732">Aplique la regla de las tensiones <emphasis effect="italics">akledcba</emphasis> en el problema anterior.</para>
+</problem>
+<solution id="fs-id1172101785346">
+<para id="fs-id1172101903230"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>5</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099554876">
+<problem id="fs-id1172099924055">
+<para id="fs-id1172101732843">Halle las corrientes que fluyen en el circuito del problema anterior. Muestre explícitamente cómo sigue los pasos de la <link target-id="fs-id1172100970039" document="m90896">Estrategia de resolución de problemas: resistores en serie y en paralelo</link>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101971117">
+<problem id="fs-id1172102143971">
+<para id="fs-id1172099416823">Considere el circuito que se muestra a continuación. (a) Calcule la corriente que pasa por cada resistor. (b) Compruebe los cálculos analizando la potencia en el circuito.</para>
+<media id="fs-id1172099417930" alt="El terminal positivo de la fuente de voltaje de 20 V y resistencia interna 5 Ω se conecta a dos ramas en paralelo. La primera rama tiene resistores R subíndice 1 de 15 Ω y R subíndice 3 de 10 Ω. La segunda rama tiene resistores R subíndice 2 de 10 Ω y R subíndice 4 de 15 Ω. Las dos ramas se conectan en el centro utilizando el resistor R subíndice 5 de 5 Ω.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_P15_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099498960">
+<para id="fs-id1172102146531">a. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>1,17</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,67</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,67</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>5</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,17</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>23,4</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>,</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>entrada</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>23,4</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099679879">
+<problem id="fs-id1172097137824">
+<para id="fs-id1172099811289">Una lámpara intermitente de un pendiente de Navidad se basa en la descarga <emphasis effect="italics">RC</emphasis> de un condensador a través de su resistencia. La duración efectiva del destello es de 0,250 s, durante los cuales produce una media de 0,500 W a partir de una media de 3,00 V. (a) ¿Qué energía disipa? (b) ¿Cuánta carga se mueve por la lámpara? (c) Calcule la capacitancia. (d) ¿Cuál es la resistencia de la lámpara? (Dado que se dan valores medios para algunas cantidades, no es necesario conocer la forma del perfil del pulso).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102117768">
+<problem id="fs-id1172102044423">
+<para id="fs-id1172101747764">Un condensador de <m:math><m:mrow><m:mn>160</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> cargado a 450 V se descarga a través de un resistor de <m:math><m:mrow><m:mn>31,2</m:mn><m:mtext>-k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>. (a) Halle la constante de tiempo. (b) Calcule el aumento de temperatura de la resistor, dado que su masa es de 2,50 g y su calor específico es <m:math><m:mrow><m:mn>1,67</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> observando que la mayor parte de la energía térmica se retiene en el corto tiempo de la descarga. (c) Calcule la nueva resistencia, suponiendo que se trata de carbono puro. (d) ¿Le parece significativo este cambio de resistencia?</para>
+</problem>
+<solution id="fs-id1172099511434">
+<para id="fs-id1172101891897">a. 4,99 s; b. <m:math><m:mrow><m:mn>3,87</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mn>3,11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; d. No, este cambio no parece significativo. Probablemente no se notaría.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172099531735" class="review-challenge">
+<title>Problemas de desafíos</title>
+<exercise id="fs-id1172099898370">
+<problem id="fs-id1172099574631">
+<para id="fs-id1172099473826">Algunos destellos de cámara utilizan tubos de flash que requieren un alto voltaje. Obtienen un alto voltaje cargando condensadores en paralelo y luego cambiando internamente las conexiones de los condensadores para colocarlos en serie. Considere un circuito que utiliza cuatro baterías AAA conectadas en serie para cargar seis condensadores de 10 mF a través de una resistencia equivalente de <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. Las conexiones se conmutan internamente para colocar los condensadores en serie. Los condensadores se descargan a través de una lámpara con una resistencia de <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. (a) ¿Cuál es la constante de tiempo <emphasis effect="italics">RC</emphasis> y la corriente inicial de las baterías mientras están conectadas en paralelo? (b) ¿Cuánto tiempo tardan los condensadores en cargarse hasta el <m:math><m:mrow><m:mn>90</m:mn><m:mi>%</m:mi></m:mrow></m:math> del voltaje del terminal de las baterías? (c) ¿Cuál es la constante de tiempo <emphasis effect="italics">RC</emphasis> y la corriente inicial de los condensadores conectados en serie suponiendo que se descarga al <m:math><m:mrow><m:mn>90</m:mn><m:mi>%</m:mi></m:mrow></m:math> de carga completa? (d) ¿Cuánto tiempo tarda la corriente en disminuir hasta el <m:math><m:mrow><m:mn>10</m:mn><m:mi>%</m:mi></m:mrow></m:math> del valor inicial?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102078125">
+<problem id="fs-id1172099877481">
+<para id="fs-id1172097139070">Considere el circuito que se muestra a continuación. Cada batería tiene una emf de 1,50 V y una resistencia interna de <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) ¿Cuál es la corriente que pasa por el resistor externo, que tiene una resistencia de 10,00 ohmios? (b) ¿Cuál es el voltaje del terminal de cada batería?</para>
+<media id="fs-id1172102099042" alt="El circuito muestra tres ramas paralelas. La primera y la segunda ramas tienen dos fuentes de voltaje ε con terminales positivos hacia arriba y resistencias internas r. La tercera rama tiene un resistor R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP2_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099513429">
+<para id="fs-id1172099559243">a. 0,273 A; b. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mn>1,36</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099576644">
+<problem id="fs-id1172101797345">
+<para id="fs-id1172097198746">Los medidores analógicos utilizan un galvanómetro, que consiste esencialmente en una bobina de cable con una pequeña resistencia y un puntero con una escala adjunta. Cuando la corriente pasa por la bobina, la aguja gira; la cantidad que gira la aguja es proporcional a la cantidad de corriente que pasa por la bobina. Los galvanómetros pueden utilizarse para hacer un amperímetro si se coloca un resistor en paralelo con el galvanómetro. Considere un galvanómetro que tiene una resistencia de <m:math><m:mrow><m:mn>25,00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> y da una lectura de escala completa cuando una corriente de <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>A</m:mtext></m:mrow></m:math> pasa a través de ella. El galvanómetro se utilizará para hacer un amperímetro que tenga una lectura de escala completa de 10,00 A, como se muestra a continuación. Recuerde que un amperímetro está conectado en serie con el circuito de interés, por lo que los 10 A deben pasar por el medidor. (a) ¿Cuál es la corriente que pasa por el resistor en paralelo del medidor? (b) ¿Cuál es el voltaje a través del resistor en paralelo? (c) ¿Cuál es la resistencia del resistor en serie?</para><media id="fs-id1172102130737" alt="La figura muestra un amperímetro con la resistencia R subíndice M conectada a través del resistor R subíndice P con una corriente de 10 A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP3_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172099479603">
+<problem id="fs-id1172101767924">
+<para id="fs-id1172101805829">Los medidores analógicos utilizan un galvanómetro, que consiste esencialmente en una bobina de cable con una pequeña resistencia y un puntero con una escala adjunta. Cuando la corriente pasa por la bobina, la punta gira; la cantidad de vueltas que da es proporcional a la cantidad de corriente que pasa por la bobina. Los galvanómetros pueden utilizarse para hacer un voltímetro si se coloca un resistor en serie con el galvanómetro. Considere un galvanómetro que tiene una resistencia de <m:math><m:mrow><m:mn>25,00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> y da una lectura de escala completa cuando una corriente de <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>A</m:mtext></m:mrow></m:math> pasa a través de ella. El galvanómetro se utilizará para hacer un voltímetro que tiene una lectura de escala completa de 10,00 V, como se muestra a continuación. Recuerde que un voltímetro se conecta en paralelo con la componente de interés, por lo que el medidor debe tener una resistencia alta o cambiará la corriente que pasa por la componente. (a) ¿Cuál es la caída de potencial a través del resistor en serie del medidor? (b) ¿Cuál es la resistencia del resistor en paralelo?</para>
+<media id="fs-id1172101663186" alt="La figura muestra un resistor R subíndice S conectado en serie con un voltímetro con resistencia R subíndice M. La diferencia de voltaje a través de los extremos es de 10 V.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP4_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101738075">
+<para id="fs-id1172099608553">a. <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>s</m:mi></m:msub><m:mo>=</m:mo><m:mi>V</m:mi><m:mo>−</m:mo><m:msub><m:mi>I</m:mi><m:mi>M</m:mi></m:msub><m:msub><m:mi>R</m:mi><m:mi>M</m:mi></m:msub><m:mo>=</m:mo><m:mn>9,99875</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mi>S</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mi>M</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>199,975</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099504170">
+<problem id="fs-id1172101760297">
+<para id="fs-id1172101945578">Considere el circuito que se muestra a continuación. Calcule <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mn>3</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172099406112" alt="El circuito muestra el terminal positivo de la fuente de voltaje V de 12 V conectado a un amperímetro conectado al resistor R subíndice 1 de 1 Ω con el voltímetro a través de él conectado a dos ramas paralelas. La primera rama tiene un amperímetro conectado al resistor R subíndice 2 de 6 Ω y la segunda rama tiene R subíndice 3 de 13 Ω y voltímetro a través de ella.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP5_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172099905986">
+<problem id="fs-id1172099550431">
+<para id="fs-id1172101657309">Considere el siguiente circuito. (a) ¿Cuál es la constante de tiempo <emphasis effect="italics">RC</emphasis> del circuito? (b) ¿Cuál es la corriente inicial en el circuito una vez que se cierra el interruptor? (c) ¿Cuánto tiempo pasa entre el instante en que se cierra el interruptor y el momento en que la corriente ha alcanzado la mitad de la corriente inicial?</para>
+<media id="fs-id1172099409575" alt="El circuito muestra el terminal positivo de la fuente de voltaje V subíndice 1 de 24 V conectado al terminal negativo de la fuente de voltaje V subíndice 2 de 24 V. El terminal positivo de V subíndice 2 está conectado a un interruptor abierto. El otro extremo del interruptor se conecta al condensador C subíndice 1 de 100 mF que se conecta a dos ramas en paralelo, una con el resistor R subíndice 2 de 10 kΩ y otra con R subíndice 1 de 10 kΩ y R subíndice 3 de 30 kΩ. Las dos ramas se conectan a la fuente V subíndice 1 a través del resistor R subíndice 4 de 30 kΩ.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP6_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172101918475">
+<para id="fs-id1172099477643">a. <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>3.800</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>; b. 1,26 mA; c. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2633,96</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172099515898">
+<problem id="fs-id1172101888472">
+<para id="fs-id1172101812363">Considere el siguiente circuito. (a) ¿Cuál es la corriente inicial a través del resistor <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> cuando el interruptor está cerrado? (b) ¿Cuál es la corriente que atraviesa el resistor <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> cuando el condensador está completamente cargado, mucho después de que el interruptor esté cerrado? (c) ¿Qué sucede si el interruptor se abre después de haber estado cerrado durante algún tiempo? (d) Si el interruptor ha estado cerrado durante un tiempo suficiente para que el condensador se cargue completamente, y luego se abre el interruptor, ¿cuánto tiempo pasará antes de que la corriente a través del resistor <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> alcance la mitad de su valor inicial?</para>
+<media id="fs-id1172101618414" alt="El terminal positivo de la fuente de voltaje V subíndice 1 de 24 V está conectado a un interruptor abierto. El otro extremo del interruptor se conecta a dos ramas paralelas, una con resistor R subíndice 1 de 10 kΩ y otra con condensador C de 10 μF. Las dos ramas se conectan a la fuente V subíndice 1 a través del resistor R subíndice 2 de 30 kΩ.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP7_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172102054924">
+<problem id="fs-id1172101987117">
+<para id="fs-id1172099901779">Considere la cadena infinitamente larga de resistores que se muestra a continuación. ¿Cuál es la resistencia entre los terminales <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis>?</para>
+<media id="fs-id1172102150170" alt="El circuito muestra un circuito infinitamente largo con un resistor vertical R y sus dos extremos conectados a ramas horizontales con resistores R conectados al resistor vertical R conectado a ramas horizontales con resistores R y así sucesivamente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP8_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172102054644">
+<para id="fs-id1172102044295"><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>eq</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>R</m:mi></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172101753211">
+<problem id="fs-id1172102096973">
+<para id="fs-id1172097274213">Considere el siguiente circuito. El condensador tiene una capacitancia de 10 mF. El interruptor está cerrado y después de un largo tiempo el condensador está completamente cargado. (a) ¿Cuál es la corriente a través de cada resistor mucho tiempo después de cerrar el interruptor? (b) ¿Cuál es el voltaje a través de cada resistor mucho tiempo después de cerrar el interruptor? (c) ¿Cuál es el voltaje a través del condensador mucho tiempo después de cerrar el interruptor? (d) ¿Cuál es la carga del condensador mucho tiempo después de cerrar el interruptor? (e) A continuación, se abre el interruptor. El condensador se descarga a través de los resistores. ¿Cuánto tiempo pasa antes de que la corriente baje a una quinta parte del valor inicial?</para>
+<media id="fs-id1172099660463" alt="El terminal positivo de la fuente de voltaje V de 12 V está conectado a un interruptor abierto. El otro extremo del interruptor está conectado a dos ramas paralelas. La primera rama tiene resistores R subíndice 2 de 2 Ω y R subíndice 2 de 4 Ω. La segunda rama tiene resistores R subíndice 3 de 3 Ω y R subíndice 4 de 3 Ω. Las dos ramas se conectan en el centro mediante el condensador C. Los otros extremos de las ramas están conectados a tierra.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP9_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172101714914">
+<problem id="fs-id1172102116965">
+<para id="fs-id1172099381858">Un calefactor de inmersión de 120 V consiste en una bobina de cable que se coloca en una taza para hervir el agua. El calefactor puede hervir una taza de agua de <m:math><m:mrow><m:mn>20,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> en 180,00 segundos. Compra uno para utilizarlo en su dormitorio, pero le preocupa que se sobrecargue el circuito y se dispare el disyuntor de 15,00 A, 120 V, que abastece a su dormitorio. En su dormitorio, tiene cuatro bombillas incandescentes de 100,00 W y un calefactor de 1500,00 W. (a) ¿Cuál es la potencia del calefactor de inmersión? (b) ¿Hará saltar el disyuntor cuando todo esté encendido? (c) Si sustituye las bombillas incandescentes por LED de 18,00 W, ¿hará saltar el disyuntor cuando todo esté encendido?</para>
+</problem>
+<solution id="fs-id1172099467024">
+<para id="fs-id1172099627454">a. <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>calefactor de inmersión</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mtext>taza</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>0,000237</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mtext>taza</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4186</m:mn><m:mfrac><m:mtext>J</m:mtext><m:mrow><m:mtext>kg °C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>180,00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>441</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>441</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>1.500</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>19,51</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>; Sí, el disyuntor se disparará.<newline/> c. <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>441</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>1.500</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>16,78</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>; Sí, el disyuntor se disparará.</para></solution>
+</exercise>
+<exercise id="fs-id1172099380030">
+<problem id="fs-id1172101808620">
+<para id="fs-id1172099496269">Halle la resistencia que debe colocarse en serie con un galvanómetro de <m:math><m:mrow><m:mn>25,0</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> que tiene <m:math><m:mrow><m:mn>50,0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>A</m:mtext></m:mrow></m:math> de sensibilidad (la misma que se comenta en el texto) para poder utilizarlo como voltímetro con una lectura de 3.000 V a escala real. Incluya un diagrama del circuito con su solución.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172097224528">
+<problem id="fs-id1172101802255">
+<para id="fs-id1172099391441">Halle la resistencia que debe colocarse en paralelo con un galvanómetro de <m:math><m:mrow><m:mn>60,0</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> con una sensibilidad de 1,00 mA (la misma que se comenta en el texto) para poder utilizarlo como amperímetro con una lectura a escala real de 25,0 A. Incluya un diagrama del circuito con su solución.</para>
+</problem>
+<solution id="fs-id1172102100616">
+<para id="fs-id1172099376204"><newline/>
+<media id="fs-id1172099841628" alt="La figura muestra un circuito con dos ramas paralelas, una con el galvanómetro conectado a los resistores r y otra con el resistor R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_06_CP12ans_img.jpg"/>
+</media>,<newline/> <m:math><m:mrow><m:mn>2,40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172101769292">
+<term>riesgo de choque</term>
+<meaning id="fs-id1172101694531">riesgo en el que una corriente eléctrica pasa a través de una persona</meaning>
+</definition>
+<definition id="fs-id1172101793967">
+<term>riesgo térmico</term>
+<meaning id="fs-id1172099501602">riesgo en el que una corriente eléctrica excesiva provoca efectos térmicos no deseados</meaning>
+</definition>
+<definition id="fs-id1172101727117">
+<term>sistema de tres cables</term>
+<meaning id="fs-id1172101920492">sistema de cableado utilizado en la actualidad por razones de seguridad, con cables vivos, neutros y de tierra</meaning>
+</definition>
+</glossary>
+</document>

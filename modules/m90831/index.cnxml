@@ -1,0 +1,270 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Capacidad calorífica y equipartición de energía</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90831</md:content-id>
+  <md:title>Capacidad calorífica y equipartición de energía</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Resolver problemas de transferencia de calor hacia y desde gases monoatómicos ideales cuyos volúmenes se mantienen constantes.</item>
+<item>Resolver problemas similares para gases ideales no monoatómicos basados en el número de grados de libertad de una molécula.</item>
+<item>Estimar las capacidades caloríficas de metales mediante un modelo basado en grados de libertad.</item></list></md:abstract>
+  <md:uuid>09f62f5c-6836-437d-9ba0-dfb5f7ca3c25</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172098714628">En el capítulo sobre temperatura y calor definimos la capacidad calorífica específica con la ecuación <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math> o <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>. Sin embargo, las propiedades de un gas ideal dependen directamente del número de moles en una muestra, por lo que aquí definimos la capacidad calorífica específica en términos del número de moles, no de la masa. Además, al hablar de sólidos y líquidos, ignoramos los cambios de volumen y presión con los cambios de temperatura: una buena aproximación para sólidos y líquidos, pero para los gases tenemos que poner alguna condición a los cambios de volumen o presión. Aquí nos centramos en la capacidad calorífica y el volumen se mantiene constante. Podemos calcularlo para un gas ideal.</para>
+<section id="fs-id1172100974304">
+<title>Capacidad calorífica de un gas monoatómico ideal a volumen constante</title>
+<para id="fs-id1172096030973">Definimos la <term class="no-emphasis"><emphasis effect="italics">capacidad calorífica molar a volumen constante</emphasis></term> <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> dado que</para>
+<equation id="fs-id1172098566696" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>con</m:mtext><m:mspace width="0.2em"/><m:mi>V</m:mi><m:mspace width="0.2em"/><m:mtext>que se mantiene constante</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172096076046">Esto se expresa a menudo de la forma</para>
+<note id="fs-id1172100623460" class="equation-callout">
+<equation id="fs-id1172100981775"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172100715507">Si el volumen no cambia, no hay desplazamiento global, por lo que no se realiza trabajo, y el único cambio en la energía interna se debe al flujo de calor <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>.</m:mo></m:mrow></m:math> (este enunciado se analiza con más detalle en el siguiente capítulo). Utilizamos la ecuación <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math> para escribir <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mi>R</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math> y sustituir <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> para <emphasis effect="italics">Q</emphasis> para calcular <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mi>R</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>, lo que da el siguiente resultado simple para un gas ideal monoatómico:</para>
+<equation id="fs-id1172100529526" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100854990">Es independiente de la temperatura, lo que justifica que utilicemos diferencias finitas en vez de una derivada. Esta fórmula coincide con resultados experimentales.</para>
+<para id="fs-id1172100937613">En el siguiente capítulo tratamos el calor específico molar a presión constante <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> que siempre es mayor que <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1172096016703">
+<para id="fs-id1172100563470"><title>Calcular la temperatura</title>
+Una muestra de 0,125 kg de xenón está contenida en un cilindro metálico rígido, lo suficientemente grande como para que el xenón se pueda modelar como un gas ideal, a una temperatura de <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. El cilindro se traslada al exterior en un día caluroso de verano. A medida que el xenón entra en equilibrio al alcanzar la temperatura de su entorno, se le conducen 180 J de calor a través de las paredes del cilindro. ¿Cuál es la temperatura de equilibrio? Ignore la expansión del cilindro metálico.</para>
+<para id="fs-id1172098449406"><title>Solución</title></para>
+<list id="fs-id1172100894015" list-type="enumerated" number-style="arabic">
+<item>Identifique los aspectos conocidos: Sabemos que la temperatura inicial <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es de <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, el calor <emphasis effect="italics">Q</emphasis> es de 180 J y la masa <emphasis effect="italics">m</emphasis> del xenón es de 0,125 kg.</item>
+<item>Identifique la incógnita. Necesitamos la temperatura final, por lo que necesitaremos <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>.</item>
+<item>Determine cuáles ecuaciones son necesarias. Como el gas xenón es monoatómico, podemos utilizar <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mi>R</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> Entonces necesitamos el número de moles, <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mtext>/</m:mtext><m:mi>M</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Sustituya los valores conocidos en las ecuaciones y despeje las incógnitas.<newline/> La masa molar del xenón es de 131,3 g, por lo que obtenemos
+<equation id="fs-id1172100841128" class="unnumbered"><label/><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>125</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow><m:mrow><m:mn>131,3</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,952</m:mn><m:mspace width="0.2em"/><m:mtext>mol,</m:mtext></m:mrow></m:math></equation>
+<equation id="fs-id1172100664522" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>Q</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0,952</m:mn><m:mspace width="0.2em"/><m:mtext>mol</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8,31</m:mn><m:mspace width="0.2em"/><m:mtext>J/mol</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>15,2</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Por lo tanto, la temperatura final es <m:math><m:mrow><m:mn>35,2</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. El problema se podría resolver igualmente en kelvin; como un kelvin es del mismo tamaño que un grado Celsius de cambio de temperatura, se obtendría <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>15,2</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+</list>
+<para id="fs-id1172098790637"><title>Importancia</title>
+El calentamiento de un gas ideal o casi ideal a volumen constante es importante en los motores de los automóviles y en muchos otros sistemas prácticos.</para>
+</example>
+<note id="fs-id1172098524927" class="check-understanding">
+<exercise id="fs-id1172098699963">
+<problem id="fs-id1172100991399">
+<para id="fs-id1172098722294">Suponga que se mezclan 2 moles de gas helio a 200 K con 2 moles de gas criptón a 400 K en un calorímetro. ¿Cuál es la temperatura final?</para>
+</problem>
+<solution id="fs-id1172100527957">
+<para id="fs-id1172100644070">Como el número de moles es igual y sabemos que las capacidades caloríficas molares de los dos gases son iguales, la temperatura está a medio camino entre las temperaturas iniciales, 300 K.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1172098371727">Nos gustaría generalizar nuestros resultados a gases ideales con más de un átomo por molécula. En estos sistemas, las moléculas pueden tener otras formas de energía además de la energía cinética traslacional, como la energía cinética rotacional y las energías vibracional cinética y potencial. Veremos que una regla sencilla nos permite determinar las energías promedio presentes en estas formas y resolver problemas de forma muy parecida a como lo hemos hecho con gases monoatómicos.</para>
+</section>
+<section id="fs-id1172098598559">
+<title>Grados de libertad</title>
+<para id="fs-id1172100617206">En la sección anterior hemos comprobado que <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mn>3</m:mn><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:math>, de lo que se deduce que <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math>. La misma ecuación es válida para <m:math><m:mrow><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:math> y para <m:math><m:mrow><m:mover accent="true"><m:mrow><m:msubsup><m:mi>v</m:mi><m:mi>z</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mtext>–</m:mtext></m:mover></m:mrow></m:math>. Por lo tanto, podemos ver nuestra energía de <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> como la suma de los aportes de <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> de cada una de las tres dimensiones del movimiento de traslación. Pasando al gas en su conjunto, vemos que el 3 de la fórmula <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi></m:mrow></m:math> también refleja esas tres dimensiones. Definimos un <term>grado de libertad</term> como un movimiento posible e independiente de una molécula, como cada una de las tres dimensiones de traslación. Entonces, dejando que <emphasis effect="italics">d</emphasis> represente el número de grados de libertad, la capacidad calorífica molar a volumen constante de un gas ideal monoatómico es <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+<para id="fs-id1172098733834">La rama de la física llamada <emphasis effect="italics">mecánica estadística</emphasis> nos dice, y la experiencia lo confirma, que <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> de cualquier gas ideal viene dada por esta ecuación, independientemente del número de grados de libertad. Este hecho se desprende de un resultado más general, el <term>teorema de equipartición</term>, que se mantiene en la termodinámica clásica (no cuántica) para sistemas en equilibrio térmico en condiciones técnicas que están fuera de nuestro alcance. Aquí solo mencionamos que en un sistema la energía se reparte entre los grados de libertad mediante colisiones.</para>
+<note id="fs-id1172098432136">
+<title>Teorema de equipartición</title>
+<para id="fs-id1172100590123">La energía de un sistema termodinámico en equilibrio se reparte por igual entre sus grados de libertad. En consecuencia, la capacidad calorífica molar de un gas ideal es proporcional a su número de grados de libertad, <emphasis effect="italics">d</emphasis>:</para>
+<equation id="fs-id1172100959365"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172096037909">Este resultado se debe al físico escocés James Clerk <term class="no-emphasis">Maxwell</term> (1831-1871), cuyo nombre aparecerá varias veces más en este libro.</para>
+<para id="fs-id1172100735531">Por ejemplo, considere un gas ideal diatómico (un buen modelo para el nitrógeno, <m:math><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> y el oxígeno, <m:math><m:mrow><m:msub><m:mtext>O</m:mtext><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Un gas así tiene más grados de libertad que un gas monoatómico. Además de los tres grados de libertad para la traslación, tiene dos grados de libertad para la rotación perpendicular a su eje. Además, la molécula puede vibrar a lo largo de su eje. Este movimiento se suele modelar imaginando un resorte que conecta los dos átomos, y sabemos por el movimiento armónico simple que dicho movimiento tiene energía cinética y potencial. Cada una de estas formas de energía corresponde a un grado de libertad, lo que da dos más.</para>
+<para id="fs-id1172098308617">Podríamos esperar que para un gas diatómico deberíamos utilizar 7 como número de grados de libertad; clásicamente, si las moléculas de un gas solo tuvieran energía cinética traslacional, las colisiones entre moléculas pronto las harían girar y vibrar. Sin embargo, como se explicó en el módulo anterior, la mecánica cuántica controla qué grados de libertad están activos. El resultado se muestra en la <link target-id="CNX_UPhysics_19_03_DegFreedom"/>. Tanto las energías rotacionales como las vibracionales están limitadas a valores discretos. Para temperaturas inferiores a unos 60 K, las energías de las moléculas de hidrógeno son demasiado bajas para que una colisión lleve el estado rotacional o el estado vibracional de una molécula de la energía más baja a la segunda más baja, por lo que la única forma de energía es la energía cinética traslacional, y <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> o <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math> como en un gas monoatómico. Por encima de esa temperatura, los dos grados de libertad rotacionales comienzan a aportar, es decir, algunas moléculas se excitan al estado rotacional con la segunda energía más baja (esta temperatura es mucho más baja que aquella a la que aportan las rotaciones de los gases monoatómicos porque las moléculas diatómicas tienen inercias rotacionales mucho más altas y, por tanto, energías rotacionales mucho más bajas). Desde la temperatura ambiente (un poco menos de 300 K) hasta alrededor de 600 K, los grados de libertad rotacionales están totalmente activos, pero los vibracionales no, y <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>. Finalmente, por encima de alrededor de 3.000 K, los grados de libertad vibracionales están totalmente activos, y <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> como predecía la teoría clásica.</para>
+<figure id="CNX_UPhysics_19_03_DegFreedom">
+<media id="fs-id1172098317398" alt="Gráfico de la capacidad calorífica molar C V en julios por mol kelvin como una función de temperatura en Kelvin. La escala horizontal es logarítmica y va de 10 a 10.000. La escala vertical es lineal y va de 10 a 30. El gráfico muestra tres fases. El primero se extiende de 20 K a 50 K aproximadamente con un valor constante de alrededor de 12,5 julios por mol kelvin. Esta fase se identifica con tres mitades R. El gráfico sube gradualmente hasta otra fase que se extiende desde 300 K hasta 500 K, aproximadamente, con un valor constante de alrededor de 20 julios por mol kelvin. Esta fase se identifica con cinco mitades R. El gráfico vuelve a subir gradualmente y se aplana para iniciar una tercera fase alrededor de los 3.000 K con un valor constante de algo menos de 30 julios por mol kelvin. Esta fase está identificada como siete mitades R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_03_DegFreedom.jpg"/>
+</media>
+<caption>La capacidad calorífica molar del hidrógeno como una función de temperatura (en una escala logarítmica). Las tres “fases” o “mesetas” muestran diferentes números de grados de libertad que las energías típicas de las moléculas deben alcanzar para activarse. La energía cinética traslacional corresponde a tres grados de libertad, la rotacional a otros dos y la vibracional a otros dos.</caption>
+</figure>
+<para id="fs-id1172100959807">Las moléculas poliatómicas suelen tener un grado de libertad rotacional adicional a temperatura ambiente, ya que tienen momentos de inercia comparables alrededor de cualquier eje. Así, a temperatura ambiente, tienen <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math> y a alta temperatura, <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math> Solemos suponer que los gases a temperatura ambiente tienen los valores teóricos de <emphasis effect="italics">d</emphasis>.</para>
+<para id="fs-id1172098275449">Como se muestra en la <link target-id="fs-id1172100673759"/>, los resultados concuerdan bien con los experimentos para muchos gases monoatómicos y diatómicos, pero la concordancia para los gases triatómicos es solo justa. Las diferencias surgen de las interacciones que hemos ignorado entre y dentro de las moléculas.</para>
+<table id="fs-id1172100673759" summary="The table has two columns and 12 rows. The first row is a header row with headings “Gas” and “C v over R at 25 degrees Celcius and one atmosphere.” The first column entries are A r, H e, N e, C O, H 2, N 2, O 2, F 2, C O 2, H 2 S, N 2 O. The second column entries are 1.50, 1.50, 1.50, 2.50, 2.47, 2.50, 2.53, 2.8, 3.48, 3.13, 3.66.">
+<title><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math> para varios gases monoatómicos, diatómicos y triatómicos</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Gas</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math> a <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> y 1 atm</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Ar</entry>
+<entry valign="top" align="center">1,50</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">He</entry>
+<entry valign="top" align="center">1,50</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ne</entry>
+<entry valign="top" align="center">1,50</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">CO</entry>
+<entry valign="top" align="center">2,50</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center">2,47</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center">2,50</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mtext>O</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center">2,53</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mtext>F</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center">2,8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mrow><m:mtext>CO</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math></entry>
+<entry valign="top" align="center">3,48</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>S</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center">3,13</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center">3,66</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1172100841876">¿Y qué pasa con la energía interna de los gases diatómicos y poliatómicos? Para esos gases, <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> es una función de temperatura (<link target-id="CNX_UPhysics_19_03_DegFreedom"/>), por lo que no tenemos el tipo de resultado simple que tenemos para gases ideales monoatómicos.</para>
+</section>
+<section id="fs-id1172098650642">
+<title>Capacidad calorífica molar de elementos sólidos</title>
+<para id="fs-id1172100915997">La idea de equipartición conduce a una estimación de la capacidad calorífica molar de los elementos sólidos a temperaturas ordinarias. Podemos modelar los átomos de un sólido como si estuvieran unidos a los átomos vecinos mediante resortes (<link target-id="CNX_UPhysics_19_03_MetalSprng"/>).</para>
+<figure id="CNX_UPhysics_19_03_MetalSprng">
+<media id="fs-id1172100991060" alt="La figura es una ilustración del modelo de un sólido. Siete átomos, uno en el centro y otro a cada lado, por encima, por debajo, por delante y por detrás, se representan como pequeñas esferas. El átomo central está conectado a cada uno de los otros por un resorte, identificado como resortes ideales. Los átomos vecinos tienen resortes adicionales para conectarlos a sus vecinos más cercanos, los cuales no están incluidos en el dibujo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_19_03_MetalSprng.jpg"/>
+</media>
+<caption>En un modelo sencillo de un elemento sólido, cada átomo está unido a otros por seis resortes, dos para cada movimiento posible: <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis> y <emphasis effect="italics">z</emphasis>. Cada uno de los tres movimientos corresponde a dos grados de libertad, uno de energía cinética y otro de energía potencial. Así, <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1172098730890">De forma análoga a la discusión de la vibración en el módulo anterior, cada átomo tiene seis grados de libertad: uno cinético y uno potencial para cada una de las direcciones <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis> y <emphasis effect="italics">z</emphasis>. En consecuencia, el calor específico molar de un metal debe ser 3<emphasis effect="italics">R</emphasis>. Este resultado, conocido como la <term class="no-emphasis">Ley de Dulong y Petit</term>, funciona bastante bien experimentalmente a temperatura ambiente (para cada elemento, falla a bajas temperaturas por razones de mecánica cuántica. Dado que los efectos cuánticos son especialmente importantes para partículas de baja masa, la Ley de Dulong y Petit ya falla a temperatura ambiente para algunos elementos ligeros, como el berilio y el carbono. También falla para algunos elementos más pesados por varias razones más allá de lo que podemos cubrir).</para>
+<note id="fs-id1172100621493" class="problem-solving">
+<title>Capacidad calorífica y equipartición</title>
+<para id="fs-id1172100617814">La estrategia para resolver estos problemas es la misma que la que vimos en la sección <link document="m90825">Cambios de fase</link> para los efectos de la transferencia de calor. La única novedad es que debe determinar si el caso que acabamos de presentar —gases ideales a volumen constante— se aplica al problema (para los elementos sólidos, buscar la capacidad calorífica específica es, generalmente, mejor que estimarla a partir de la Ley de Dulong y Petit). En el caso de un gas ideal, determine el número <emphasis effect="italics">d</emphasis> de grados de libertad a partir del número de átomos de la molécula del gas y utilícelo para calcular <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> (o use <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math> para despejar <emphasis effect="italics">d</emphasis>).</para>
+</note>
+<example id="fs-id1172098418051">
+<para id="fs-id1172100986540"><title>Calcular la temperatura: calorimetría con un gas ideal</title>
+Un trozo de 300 g de galio sólido (un metal utilizado en dispositivos semiconductores) en su punto de fusión de solo <m:math><m:mrow><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> está en contacto con 12,0 moles de aire (que se suponen diatómicos) a <m:math><m:mrow><m:mn>95,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> en un recipiente aislado. Cuando el aire alcanza el equilibrio con el galio, 202 g de galio se han fundido. Según estos datos, ¿cuál es el calor de fusión del galio? Suponga que el volumen del aire no cambia y que no hay otras transferencias de calor.</para>
+<para id="fs-id1172100575288"><title>Estrategia</title>
+Usaremos la ecuación <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>caliente</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>frío</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> Como parte del galio no se funde, sabemos que la temperatura final sigue siendo el punto de fusión. Entonces el único <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>caliente</m:mtext></m:mrow></m:msub></m:mrow></m:math> es el calor que se pierde al enfriar el aire, <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>caliente</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>aire</m:mtext></m:mrow></m:msub><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> El único <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>frío</m:mtext></m:mrow></m:msub></m:mrow></m:math> es el calor de fusión latente del galio, <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>frío</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Ga</m:mtext></m:mrow></m:msub><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Es positivo porque el calor fluye hacia el galio.</para>
+<para id="fs-id1172101038372"><title>Solución</title></para>
+<list id="fs-id1172100803337" list-type="enumerated" number-style="arabic">
+<item>Plantee la ecuación:
+<equation id="fs-id1172100824453" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>aire</m:mtext></m:mrow></m:msub><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Ga</m:mtext></m:mrow></m:msub><m:mspace width="0.2em"/><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Sustituya los valores conocidos y despeje:
+<equation id="fs-id1172100634488" class="unnumbered"><label/><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>12,0</m:mn><m:mspace width="0.2em"/><m:mtext>mol</m:mtext><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,31</m:mn><m:mfrac><m:mtext>J</m:mtext><m:mrow><m:mtext>mol</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>95,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,202</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msub><m:mrow><m:mtext>L</m:mtext></m:mrow><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+Despejamos para hallar que el calor de fusión del galio es de 80,2 kJ/kg.</item>
+</list>
+</example>
+</section>
+<section id="fs-id1172100627358" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172100557968" list-type="bulleted" bullet-style="bullet">
+<item>Cada grado de libertad de un gas ideal aporta <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:math> por átomo o molécula a sus cambios de energía interna.</item>
+<item>Cada grado de libertad aporta <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi></m:mrow></m:math> a su capacidad calorífica molar a volumen constante <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Los grados de libertad no aportan si la temperatura es demasiado baja para excitar la energía mínima del grado de libertad según lo que indica la mecánica cuántica. Por lo tanto, a temperaturas ordinarias, <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> para gases monoatómicos, <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> para gases diatómicos y <m:math><m:mrow><m:mi>d</m:mi><m:mo>≈</m:mo><m:mn>6</m:mn></m:mrow></m:math> para gases poliatómicos.</item>
+</list>
+</section>
+<section id="fs-id1172100532319" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172100886521">
+<problem id="fs-id1172100900781">
+<para id="fs-id1172100993058">Experimentalmente, parece que los grados de libertad vibracionales de muchas moléculas poliatómicas pueden aportar en cierta medida a su energía a temperatura ambiente. ¿Esperaría que ese hecho aumentara o disminuyera su capacidad calorífica a partir del valor <emphasis effect="italics">R</emphasis>? Explique.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098632103">
+<problem id="fs-id1172098370632">
+<para id="fs-id1172100623888">Se podría pensar que la energía interna de los gases diatómicos viene dada por <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> ¿Los gases diatómicos cercanos a la temperatura ambiente tienen más o menos energía interna que esta? <emphasis effect="italics">Pista:</emphasis> Su energía interna incluye la energía total añadida al elevar la temperatura desde el punto de ebullición (muy bajo) hasta la temperatura ambiente.</para>
+</problem>
+<solution id="fs-id1172096024846">
+<para id="fs-id1172098278709">Menos, porque a temperaturas más bajas su capacidad calorífica era solo de 3<emphasis effect="italics">RT</emphasis>/2.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100745186">
+<problem id="fs-id1172100842100">
+<para id="fs-id1172098548548">Se mezclan 5 moles de <m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> a 300 K con 5 moles de He a 360 K en un calorímetro perfectamente aislado. ¿La temperatura final es superior o inferior a 330 K?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172100969340" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172096077953">
+<problem id="fs-id1172100558782">
+<para id="fs-id1172100921638">Para que un átomo de helio tenga un momento angular diferente a cero se necesitan unos 21,2 eV de energía (es decir, 21,2 eV es la diferencia entre las energías del estado de menor energía o estado fundamental y el estado de menor energía con momento angular). El electronvoltio o eV se define como <m:math><m:mrow><m:mn>1,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Calcule la temperatura <emphasis effect="italics">T</emphasis> donde esta cantidad de energía es igual a <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> ¿Esto explica por qué podemos ignorar la energía rotacional del helio para la mayoría de los propósitos? (Los resultados para otros gases monoatómicos, y para gases diatómicos que giran alrededor del eje que une los dos átomos, tienen órdenes de magnitud comparables).</para>
+</problem>
+<solution id="fs-id1172098730514">
+<para id="fs-id1172098395538"><m:math><m:mrow><m:mn>4,92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>; Sí, es una temperatura alta poco práctica.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098622901">
+<problem id="fs-id1172100552786">
+<para id="fs-id1172100632653">(a) ¿Cuánto calor hay que añadir para elevar la temperatura de 1,5 mol de aire de <m:math><m:mrow><m:mn>25,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>33,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> a volumen constante? Suponga que el aire es completamente diatómico. (b) Repita el problema para el mismo número de moles de xenón, Xe.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100757566">
+<problem id="fs-id1172100757044">
+<para id="fs-id1172100716464">Un recipiente rígido y cerrado con 0,560 moles de un gas ideal desconocido a una temperatura de <m:math><m:mrow><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> se enfría a <m:math><m:mrow><m:mn>−40,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. En el proceso, se eliminan 980 J de calor del gas. ¿El gas es monoatómico, diatómico o poliatómico?</para>
+</problem>
+<solution id="fs-id1172100583582">
+<para id="fs-id1172100729714">poliatómico</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172096214348">
+<problem id="fs-id1172100642535">
+<para id="fs-id1172096305587">Una muestra de gas neón (Ne, masa molar <m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>20,2</m:mn><m:mspace width="0.2em"/><m:mtext>g/mol</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> a una temperatura de <m:math><m:mrow><m:mn>13,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> se pone en un recipiente de acero con una masa de 47,2 g que está a una temperatura de <m:math><m:mrow><m:mn>−40,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. La temperatura final es<m:math><m:mrow><m:mn>−28,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> (no se intercambia calor con el entorno y se puede desestimar cualquier cambio en el volumen del recipiente). ¿Cuál es la masa de la muestra de neón?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100992146">
+<problem id="fs-id1172098405909">
+<para id="fs-id1172098408408">Un recipiente de acero con una masa de 135 g contiene 24,0 g de amoníaco, <m:math><m:mrow><m:msub><m:mrow><m:mtext>NH</m:mtext></m:mrow><m:mn>3</m:mn></m:msub></m:mrow></m:math>, que tiene una masa molar de 17,0 g/mol. El recipiente y el gas están en equilibrio a <m:math><m:mrow><m:mn>12,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> ¿Cuánto calor hay que eliminar para alcanzar una temperatura de <m:math><m:mrow><m:mn>−20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>? Ignore el cambio de volumen del acero.</para>
+</problem>
+<solution id="fs-id1172100744228">
+<para id="fs-id1172098776041"><m:math><m:mrow><m:mn>3,08</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098321243">
+<problem id="fs-id1172100639888">
+<para id="fs-id1172098696567">Una habitación cerrada tiene un volumen de <m:math><m:mrow><m:mn>24</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> Está llena de aire, que puede suponerse diatómico, a una temperatura de <m:math><m:mrow><m:mn>24</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> y una presión de <m:math><m:mrow><m:mn>9,83</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Se coloca un bloque de hielo de 1,00 kg en su punto de fusión. Suponga que las paredes de la habitación no transfieren calor. ¿Cuál es la temperatura de equilibrio?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098318467">
+<problem id="fs-id1172100982943">
+<para id="fs-id1172100736205">El heliox, una mezcla de helio y oxígeno, se administra a veces a pacientes hospitalizados que tienen problemas para respirar, ya que la baja masa del helio hace que sea más fácil de respirar que el aire. Suponga que el helio a <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> se mezcla con oxígeno a <m:math><m:mrow><m:mn>35</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> para hacer una mezcla que sea <m:math><m:mrow><m:mn>70</m:mn><m:mi>%</m:mi></m:mrow></m:math> helio por mol. ¿Cuál es la temperatura final? Ignore cualquier flujo de calor hacia o desde los entornos, y asuma que el volumen final es la suma de los volúmenes iniciales.</para>
+</problem>
+<solution id="fs-id1172098723458">
+<para id="fs-id1172101000024"><m:math><m:mrow><m:mn>29,2</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098791819">
+<problem id="fs-id1172098314897">
+<para id="fs-id1172098661570">Los buzos profesionales, a veces, usan heliox, que está compuesto de <m:math><m:mrow><m:mn>79</m:mn><m:mi>%</m:mi></m:mrow></m:math> de helio y <m:math><m:mrow><m:mn>21</m:mn><m:mi>%</m:mi></m:mrow></m:math> de oxígeno por mol. Suponga que un tanque de buceo perfectamente rígido con un volumen de 11 L contiene heliox a una presión absoluta de <m:math><m:mrow><m:mn>2,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> a una temperatura de <m:math><m:mrow><m:mn>31</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. (a) ¿Cuántos moles de helio y cuántos de oxígeno hay en el tanque? (b) El buceador desciende hasta un punto donde la temperatura del océano es <m:math><m:mrow><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> y usa una cantidad insignificante de la mezcla. Cuando el gas del tanque alcanza esta nueva temperatura, ¿cuánto calor se le quita?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098393508">
+<problem id="fs-id1172096170446">
+<para id="fs-id1172096082716">En las carreras de automóviles, una de las ventajas de mezclar óxido nitroso líquido <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> con aire es que la ebullición del “nitroso” absorbe el calor de vaporización latente y, por tanto, enfría el aire y, finalmente, la mezcla de combustible y aire, lo que permite que entre más mezcla de combustible y aire en cada cilindro. Como una mirada muy aproximada a este proceso, suponga 1,0 mol de gas de óxido nitroso en su punto de ebullición, <m:math><m:mrow><m:mn>−88</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, se mezcla con 4,0 moles de aire (que se suponen diatómicos) a <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. ¿Cuál es la temperatura final de la mezcla? Use la capacidad térmica medida de <m:math><m:mrow><m:msub><m:mtext>N</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, que es <m:math><m:mrow><m:mn>30,4</m:mn><m:mspace width="0.2em"/><m:mtext>J/mol</m:mtext><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> (la principal ventaja del óxido nitroso es que está compuesto por 1/3 de oxígeno, que es más de lo que contiene el aire, por lo que suministra más oxígeno para quemar el combustible. Otra ventaja es que su descomposición en nitrógeno y oxígeno libera energía en el cilindro).</para>
+</problem>
+<solution id="fs-id1172096304745">
+<para id="fs-id1172096232395"><m:math><m:mrow><m:mn>−1,6</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172098314323">
+<term>grado de libertad</term>
+<meaning id="fs-id1172096056226">tipo de movimiento independiente que posee energía, como la energía cinética del movimiento en una de las tres direcciones espaciales ortogonales</meaning>
+</definition>
+<definition id="fs-id1172098284452">
+<term>teorema de equipartición</term>
+<meaning id="fs-id1172098391682">teorema que indica que la energía de un sistema termodinámico clásico se reparte por igual entre sus grados de libertad</meaning>
+</definition>
+</glossary>
+
+</document>

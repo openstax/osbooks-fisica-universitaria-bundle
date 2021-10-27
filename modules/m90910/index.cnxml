@@ -1,0 +1,221 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>La ley de Biot-Savart</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90910</md:content-id>
+  <md:title>La ley de Biot-Savart</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar cómo derivar un campo magnético a partir de una corriente arbitraria en un segmento de línea.</item>
+<item>Calcular el campo magnético a partir de la ley de Biot-Savart en geometrías específicas, como una corriente en una línea y una corriente en un arco circular.</item>
+</list></md:abstract>
+  <md:uuid>4987ebda-2c2c-4a46-9441-a090e2fd8f8c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1166166991968">Hemos visto que la masa produce un campo gravitacional y también interactúa con ese campo. La carga produce un campo eléctrico y también interactúa con ese campo. Dado que la carga en movimiento (es decir, la corriente) interactúa con un campo magnético, cabe esperar que también cree ese campo, y así es.</para>
+<para id="fs-id1166167055730">La ecuación utilizada para calcular el campo magnético producido por una corriente se conoce como ley de Biot-Savart. Se trata de una ley empírica que recibe su nombre en honor a dos científicos que investigaron la interacción entre un cable recto conductor de corriente y un imán permanente. Esta ley permite calcular la magnitud y la dirección del campo magnético producido por una corriente en un cable. La <term>ley de Biot-Savart</term> establece que en cualquier punto <emphasis effect="italics">P</emphasis> (<link target-id="CNX_UPhysics_29_01_LineSeg"/>), el campo magnético <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> debido a un elemento <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> de un cable conductor de corriente viene dado por</para>
+<equation id="fs-id1166166987338"><m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_29_01_LineSeg">
+<media id="fs-id1166167062746" alt="Esta figura demuestra la ley de Biot-Savart. Por un cable magnético circula una corriente dI. Un punto P está situado a la distancia r del cable. Un vector r hacia el punto P forma un ángulo theta con el cable. El campo magnético dB existe en el punto P.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_01_LineSeg.jpg"/></media>
+<caption>Un elemento de corriente <m:math><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> produce un campo magnético en el punto <emphasis effect="italics">P</emphasis> dado por la ley de Biot-Savart.</caption>
+</figure>
+<para id="fs-id1166167019446">La constante <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> se conoce como la <term>permeabilidad del espacio libre</term> y es exactamente</para>
+<note id="fs-id1168329013869" class="equation-callout">
+<equation id="fs-id1166166991575"><label/><m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−7</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166167055480">en el sistema SI. El segmento de cable infinitesimal <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> está en la misma dirección que la corriente <emphasis effect="italics">I</emphasis> (que se supone positiva), <emphasis effect="italics">r</emphasis> es la distancia desde <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> a <emphasis effect="italics">P</emphasis> y <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> es un vector unitario que apunta desde <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> a <emphasis effect="italics">P</emphasis>, como se muestra en la figura.</para>
+<para id="fs-id1166167055326">La dirección de <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> se determina aplicando la regla de la mano derecha al producto vectorial <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> La magnitud de <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> es</para>
+<note id="fs-id1168326822851" class="equation-callout">
+<equation id="fs-id1166167034410"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mi>sen</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>
+</equation>
+</note>
+<para id="fs-id1166167125946">donde <m:math><m:mi>θ</m:mi></m:math> es el ángulo entre <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> y <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Observe que si <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> entonces <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mn>0</m:mn><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> El campo producido por un elemento de corriente <m:math><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> no tiene ningún componente paralelo a <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math>
+</para>
+<para id="fs-id1166167037138">El campo magnético debido a una longitud finita de cable conductor de corriente se encuentra integrando la <link target-id="fs-id1166167034410"/> a lo largo del cable, lo que nos da la forma habitual de la ley de Biot-Savart.</para>
+<note id="fs-id1166167080199">
+<title>Ley de Biot-Savart</title>
+<para id="fs-id1166167020469">El campo magnético <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> debido a un elemento <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> de un cable conductor de corriente viene dado por</para>
+<equation id="fs-id1166167042098"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo stretchy="true">∫</m:mo><m:mrow><m:mtext>cable</m:mtext></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166167062557">Como se trata de una integral vectorial, las contribuciones de los distintos elementos de la corriente pueden no apuntar en la misma dirección. En consecuencia, la integral suele ser difícil de evaluar, incluso para geometrías bastante sencillas. La siguiente estrategia puede ser útil.</para>
+<note id="fs-id1166167062559" class="problem-solving">
+<title>Resolución de los problemas de Biot-Savart</title>
+<para id="fs-id1166167048182">Para resolver los problemas de la ley de Biot-Savart, son útiles los siguientes pasos:</para>
+<list id="fs-id1166167120491" list-type="enumerated" number-style="arabic">
+<item>Identifique que la ley de Biot-Savart es el método elegido para resolver el problema dado. Si hay simetría en el problema al comparar <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> y <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> La ley de Ampère puede ser el método preferido para resolver la cuestión.</item>
+<item>Dibuje la longitud del elemento de corriente <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> y el vector unitario <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> señalando que <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> apunta en la dirección de la corriente y <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> apunta desde el elemento de corriente hacia el punto donde se desea el campo.</item>
+<item>Calcule el producto cruz <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> El vector resultante da la dirección del campo magnético según la ley de Biot-Savart.</item>
+<item>Utilice la <link target-id="fs-id1166167042098"/> y sustituya todas las cantidades dadas en la expresión para resolver el campo magnético. Observe que todas las variables que permanecen constantes a lo largo de toda la longitud del cable pueden ser eliminadas de la integración.</item>
+<item>Utilice la regla de la mano derecha para verificar la dirección del campo magnético producido por la corriente o para escribir la dirección del campo magnético si solo se resolvió la magnitud en la parte anterior.</item>
+</list>
+</note>
+<example id="fs-id1166167048393">
+<para id="fs-id1168329265123"><title>Cálculo de los campos magnéticos de los segmentos cortos de corriente</title>
+Un cable corto de 1,0 cm de longitud porta una corriente de 2,0 A en la dirección vertical (<link target-id="CNX_UPhysics_29_01_LineSeg2"/>). El resto del cable está protegido para que no se sume al campo magnético producido por el cable. Calcule el campo magnético en el punto <emphasis effect="italics">P</emphasis>, que está a 1 metro del cable en la dirección <emphasis effect="italics">x</emphasis>.</para>
+<figure id="CNX_UPhysics_29_01_LineSeg2">
+<media id="fs-id1166167034979" alt="Esta figura muestra un cable I con un trozo corto sin protección dI que porta corriente. El punto P está situado a la distancia x del cable. Un vector hacia el punto P desde dI forma un ángulo theta con el cable. La longitud del vector es la raíz cuadrada de las sumas de los cuadrados de x e I.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_01_LineSeg2.jpg"/></media>
+<caption>Un pequeño segmento de línea lleva una corriente <emphasis effect="italics">I</emphasis> en la dirección vertical. ¿Cuál es el campo magnético a una distancia <emphasis effect="italics">x</emphasis> del segmento?</caption>
+</figure>
+<para id="fs-id1168326797824"><title>Estrategia</title>
+Podemos determinar el campo magnético en el punto <emphasis effect="italics">P</emphasis> mediante la ley de Biot-Savart. Como el segmento actual es mucho más pequeño que la distancia <emphasis effect="italics">x</emphasis>, podemos eliminar la integral de la expresión. La integración se convierte de nuevo en una suma, pero solo para segmentos <emphasis effect="italics">dl</emphasis> pequeños, que ahora escribimos como <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math> Otra forma de pensar en ello es que cada uno de los valores del radio es casi el mismo, sin importar dónde se encuentre el elemento actual en el segmento de línea, si <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi></m:mrow></m:math> es pequeño en comparación con <emphasis effect="italics">x</emphasis>. El ángulo <m:math><m:mi>θ</m:mi></m:math> se calcula mediante una función tangente. Al utilizar los números dados, podemos calcular el campo magnético en <emphasis effect="italics">P</emphasis>.</para>
+<para id="fs-id1168329297195"><title>Solución</title>
+El ángulo entre <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> y <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> se calcula a partir de la trigonometría, conociendo las distancias <emphasis effect="italics">l</emphasis> y <emphasis effect="italics">x</emphasis> del problema:</para>
+<equation id="fs-id1166167064390" class="unnumbered"><label/><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>0,01</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>89,4</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167081489">El campo magnético en el punto <emphasis effect="italics">P</emphasis> se calcula mediante la ley de Biot-Savart:</para>
+<equation id="fs-id1166167075876" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>I</m:mi><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0,01</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.1em"/><m:mtext>sen</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>89,4</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167128916">A partir de la regla de la mano derecha y la ley de Biot-Savart, el campo se dirige hacia la página.</para>
+<para id="fs-id1168329023098"><title>Importancia</title>
+Esta aproximación solo es buena si la longitud del segmento de línea es muy pequeña comparada con la distancia del elemento de corriente al punto. Si no es así, hay que utilizar la forma integral de la ley de Biot-Savart en todo el segmento de línea para calcular el campo magnético.</para>
+</example>
+<note id="fs-id1166167121799" class="check-understanding">
+<exercise id="fs-id1166167121803">
+<problem id="fs-id1166167121805">
+<para id="fs-id1166167108807">Al utilizar el <link target-id="fs-id1166167048393"/>, ¿a qué distancia tendría que estar <emphasis effect="italics">P</emphasis> para medir un campo magnético la mitad de la respuesta dada?</para>
+</problem>
+<solution id="fs-id1166167091875">
+<para id="fs-id1166167091877">1,41 metros</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1166167020907">
+<para id="fs-id1168329138688"><title>Cálculo del campo magnético de un arco de cable circular</title>
+Un cable porta una corriente <emphasis effect="italics">I</emphasis> en un arco circular de radio <emphasis effect="italics">R</emphasis> barrido por un ángulo arbitrario <m:math><m:mi>θ</m:mi></m:math> (<link target-id="CNX_UPhysics_29_01_ArcSeg"/>). Calcule el campo magnético en el centro de este arco en el punto <emphasis effect="italics">P</emphasis>.</para>
+<figure id="CNX_UPhysics_29_01_ArcSeg">
+<media id="fs-id1166167041080" alt="Esta figura muestra un trozo de cable en forma de arco circular de radio R barrido por un ángulo arbitrario theta. El cable lleva una corriente dI. El punto P se encuentra en el centro. Un vector r al punto P es perpendicular al vector dI.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_01_ArcSeg.jpg"/>
+</media>
+<caption>Un segmento de cable que porta una corriente <emphasis effect="italics">I</emphasis>. La trayectoria <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> y dirección radial <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> se indican.</caption>
+</figure>
+<para id="fs-id1168326794340"><title>Estrategia</title>
+Podemos determinar el campo magnético en el punto <emphasis effect="italics">P</emphasis> mediante la ley de Biot-Savart. Las direcciones radial y de la longitud de la trayectoria están siempre en ángulo recto, por lo que el producto cruz se convierte en una multiplicación. También sabemos que la distancia a lo largo de la trayectoria <emphasis effect="italics">dl</emphasis> está relacionada con el radio por el ángulo <m:math><m:mi>θ</m:mi></m:math> (en radianes). Entonces podemos sacar todas las constantes de la integración y resolver el campo magnético.</para>
+<para id="fs-id1168329167072"><title>Solución</title>
+La ley de Biot-Savart parte de la siguiente ecuación:</para>
+<equation id="fs-id1166167046877" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∫</m:mo><m:mrow><m:mtext>cable</m:mtext></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167079902">Al integrar a lo largo del arco, todas las contribuciones al campo magnético están en la misma dirección (fuera de la página), por lo que podemos trabajar con la magnitud del campo. El producto cruz se convierte en multiplicación porque la trayectoria <emphasis effect="italics">dl</emphasis> y la dirección radial son perpendiculares. También podemos sustituir la fórmula de la longitud de arco, <m:math><m:mrow><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math>:</para>
+<equation id="fs-id1166167043038" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo stretchy="true">∫</m:mo><m:mrow><m:mtext>cable</m:mtext></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167124731">La corriente y el radio se pueden sacar de la integral porque son los mismos sin importar el lugar en el que nos encontremos en la trayectoria. Esto deja solo la integral sobre el ángulo,</para>
+<equation id="fs-id1166167124736" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∫</m:mo><m:mrow><m:mtext>cable</m:mtext></m:mrow></m:munder><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166167091897">El ángulo varía en el cable de 0 a <m:math><m:mi>θ</m:mi></m:math>; por lo tanto, el resultado es</para>
+<equation id="fs-id1166167088986" class="unnumbered"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168329265214"><title>Importancia</title>
+La dirección del campo magnético en el punto <emphasis effect="italics">P</emphasis> viene determinada por la regla de la mano derecha, tal y como se ha mostrado en el capítulo anterior. Si hay otros cables en el diagrama junto con el arco, y se le pide que calcule el campo magnético neto, halle cada contribución de un cable o arco y sume los resultados por superposición de vectores. Asegúrese de prestar atención a la dirección de cada contribución. También hay que tener en cuenta que en una situación simétrica, como un cable recto o circular, las contribuciones de los lados opuestos del punto <emphasis effect="italics">P</emphasis> se anulan entre sí.</para>
+</example>
+<note id="fs-id1166167040282" class="check-understanding">
+<exercise id="fs-id1166167040286">
+<problem id="fs-id1166167040288">
+<para id="fs-id1166167040290">El bucle de cable forma un círculo completo de radio <emphasis effect="italics">R</emphasis> y corriente <emphasis effect="italics">I</emphasis>. ¿Cuál es la magnitud del campo magnético en el centro?</para>
+</problem>
+<solution id="fs-id1166167076293">
+<para id="fs-id1166167076295"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1166167108217" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1166167040339" list-type="bulleted" bullet-style="bullet">
+<item>El campo magnético creado por un cable conductor de corriente se halla por la ley de Biot-Savart.</item>
+<item>El elemento de corriente <m:math><m:mrow><m:mi>I</m:mi><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> produce un campo magnético a una distancia <emphasis effect="italics">r</emphasis>.</item>
+</list>
+</section>
+<section id="fs-id1171358168833" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1166167092951">
+<problem id="fs-id1166167092953">
+<para id="fs-id1166167092955">Para calcular los campos magnéticos, ¿cuáles son las ventajas e inconvenientes de la ley de Biot-Savart?</para>
+</problem>
+<solution id="fs-id1166167095907">
+<para id="fs-id1166167095909">La ventaja de la ley de Biot-Savart es que funciona con cualquier campo magnético producido por un bucle de corriente. La desventaja es que puede llevar mucho tiempo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167095917">
+<problem id="fs-id1166167095920">
+<para id="fs-id1166167050739">Describa el campo magnético debido a la corriente en dos cables conectados a los dos terminales de una fuente de emf y retorcidos fuertemente uno alrededor del otro.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166167036448">
+<problem id="fs-id1166167036450">
+<para id="fs-id1166167036453">¿Cómo se puede decidir si un cable es infinito?</para>
+</problem>
+<solution id="fs-id1166167036457">
+<para id="fs-id1166167020030">Si fuera al inicio de un segmento de línea y calculara el ángulo <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math> para ser aproximadamente <m:math><m:mrow><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, el cable puede considerarse infinito. Este juicio se basa también en la precisión que necesita el resultado.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167085625">
+<problem id="fs-id1166167085627">
+<para id="fs-id1166167085629">Se transportan corrientes idénticas en dos bucles circulares; sin embargo, un bucle tiene el doble de diámetro que el otro. Compare los campos magnéticos creados por los bucles en el centro de cada uno de ellos.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1166167104163" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1166167104169">
+<problem id="fs-id1166167104171">
+<para id="fs-id1166167104173">Por el cable mostrado circula una corriente de 10 A. ¿Cuál es la magnitud del campo magnético debido a un segmento de cable de 0,5 mm medido en (a) el punto A y (b) el punto B?</para>
+<media id="fs-id1166167084939" alt="Esta figura muestra un trozo de cable. El punto A está situado 3 centímetros por encima del segmento de cable de 0,5 mm. El punto B está situado a 4 centímetros a la derecha del punto A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr01_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166167043170">
+<problem id="fs-id1166167043172">
+<para id="fs-id1166167043174">Diez amperios fluyen a través de un bucle cuadrado en el que cada lado tiene 20 cm de longitud. En cada esquina del bucle hay un segmento de 0,01 cm que conecta los cables más largos como se muestra. Calcule la magnitud del campo magnético en el centro del bucle.</para>
+<media id="fs-id1166167120308" alt="Se muestra un bucle cuadrado con esquinas redondeadas. No hay marcas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr02_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166167120319">
+<para id="fs-id1166167135241"><m:math><m:mrow><m:mn>5,66</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1166167097421">
+<problem id="fs-id1166167097423">
+<para id="fs-id1166167097425">¿Cuál es el campo magnético en P debido a la corriente <emphasis effect="italics">I</emphasis> en el cable mostrado?</para>
+<media id="fs-id1166167092345" alt="Esta figura muestra un bucle de corriente formado por dos arcos circulares concéntricos y dos líneas radiales paralelas. El arco exterior está situado a la distancia b del centro; el arco interior está situado a la distancia a del centro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr03_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166167100738">
+<problem id="fs-id1166167100740">
+<para id="fs-id1166167100742">La figura adjunta muestra un bucle de corriente formado por dos arcos circulares concéntricos y dos líneas radiales perpendiculares. Determine el campo magnético en el punto P.</para>
+<media id="fs-id1166167100914" alt="Esta figura muestra un bucle de corriente formado por dos arcos circulares concéntricos y dos líneas radiales perpendiculares. El arco exterior está situado a la distancia b del centro; el arco interior está situado a la distancia a del centro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr04_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166167100928">
+<para id="fs-id1166167109082"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mn>8</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>−</m:mo><m:mspace width="0.05em"/><m:mfrac><m:mn>1</m:mn><m:mi>b</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> fuera de la página</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166167037116">
+<problem id="fs-id1166167037118">
+<para id="fs-id1166167037120">Halle el campo magnético en el centro C del bucle rectangular de cable mostrado en la figura adjunta.</para>
+<media id="fs-id1166167037124" alt="Esta figura muestra un bucle de corriente rectangular. La longitud del lado corto es b; la longitud del lado largo es a. El punto C es el centro del bucle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr14_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1166167076307">
+<problem id="fs-id1166167076310">
+<para id="fs-id1166167076312">Dos cables largos, uno de los cuales tiene una curva semicircular de radio <emphasis effect="italics">R</emphasis>, se colocan como se muestra en la figura adjunta. Si ambos cables portan una corriente <emphasis effect="italics">I</emphasis>, ¿a qué distancia deben estar sus secciones paralelas para que el campo magnético neto en P sea cero? ¿La corriente en el cable recto fluye hacia arriba o hacia abajo?</para>
+<media id="fs-id1166167079101" alt="Esta figura muestra dos cables largos paralelos situados a una distancia a entre sí. Uno de los cables tiene una curva semicircular de radio R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr15_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166167079114">
+<para id="fs-id1166167028690"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow><m:mi>π</m:mi></m:mfrac></m:mrow></m:math>; la corriente en el cable de la derecha debe subir por la página.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1166167093070">
+<term>ley de Biot-Savart</term>
+<meaning id="fs-id1166167093076">una ecuación que da el campo magnético en un punto producido por un cable portador de corriente</meaning>
+</definition>
+<definition id="fs-id1166167093080">
+<term>permeabilidad del espacio libre</term>
+<meaning id="fs-id1166167080668"><m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> medida de la capacidad de un material, en este caso el espacio libre, para soportar un campo magnético
+</meaning>
+</definition>
+</glossary>
+</document>

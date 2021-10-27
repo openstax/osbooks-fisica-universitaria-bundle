@@ -1,0 +1,397 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Fuerza centrípeta</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90641</md:content-id>
+  <md:title>Fuerza centrípeta</md:title>
+  <md:abstract>Al final de esta sección, podrá: <list>
+<item>Explicar la ecuación de la aceleración centrípeta.</item>
+<item>Aplicar la segunda ley de Newton para desarrollar la ecuación de la fuerza centrípeta.</item>
+<item>Utilizar los conceptos de movimiento circular para resolver problemas relacionados con las leyes del movimiento de Newton.</item>
+</list></md:abstract>
+  <md:uuid>739aeb24-c8cb-446a-bff0-d757854e5052</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165035615464">En <link document="m90624">Movimiento en dos y tres dimensiones</link>, examinamos los conceptos básicos del movimiento circular. Un objeto que experimenta un movimiento circular, como uno de los autos de carreras mostrados al principio de este capítulo, debe estar acelerando porque está cambiando la dirección de su velocidad. Demostramos que esta aceleración dirigida al centro, llamada <term class="no-emphasis">aceleración centrípeta</term>, está dada por la fórmula</para>
+<equation id="fs-id1165039232609" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1165039098371">donde <emphasis effect="italics">v</emphasis> es la velocidad del objeto, dirigida a lo largo de una línea tangente a la curva en cualquier instante. Si conocemos la velocidad angular <m:math><m:mi>ω</m:mi></m:math>, entonces podemos utilizar</para>
+<equation id="fs-id1165038988718" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165035863155">La velocidad angular da la proporción con la que el objeto gira a través de la curva, en unidades de rad/s. Esta aceleración actúa a lo largo del radio de la trayectoria curva, por lo que también se denomina aceleración radial.</para>
+<para id="fs-id1165039311347">La fuerza deberá producir la aceleración. Cualquier fuerza o combinación de fuerzas puede provocar una aceleración centrípeta o radial. Algunos ejemplos son la tensión en la cuerda de un balón atado a un poste (<emphasis effect="italics">tether ball</emphasis>), la fuerza de la gravedad terrestre en la Luna, la fricción entre los patines y el suelo de una pista de patinaje, la fuerza de una calzada con peralte sobre un auto y las fuerzas en el tubo de una centrífuga que gira. Cualquier fuerza neta que cause un movimiento circular uniforme se denomina <term>fuerza centrípeta</term>. La dirección de una fuerza centrípeta es hacia el centro de curvatura, igual que la dirección de la aceleración centrípeta. Según la segunda ley del movimiento de Newton, la fuerza neta es la masa por la aceleración: <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math> Para un movimiento circular uniforme, la aceleración es la aceleración centrípeta:<emphasis effect="italics"><sub>.</sub></emphasis><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, la magnitud de la fuerza centrípeta <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> es</para>
+<equation id="fs-id1165039345908" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039303226">Al sustituir las expresiones para la aceleración centrípeta <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>;</m:mo><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> obtenemos dos expresiones para la fuerza centrípeta <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> en términos de masa, velocidad, velocidad angular y radio de la curvatura:</para>
+<note id="fs-id1165039517621" class="equation-callout">
+<equation id="fs-id1165039069818"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>;</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>r</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165035706721">Puede utilizar la expresión de la fuerza centrípeta que más le convenga. La fuerza centrípeta <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>c</m:mtext></m:msub></m:mrow></m:math><sub/>es siempre perpendicular a la trayectoria y apunta al centro de curvatura, porque <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> es perpendicular a la velocidad y apunta al centro de curvatura. Observe que, si se resuelve la primera expresión para <emphasis effect="italics">r</emphasis>, obtiene</para>
+<equation id="fs-id1165039094906" class="unnumbered"><label/><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039310439">Esto implica que, para una masa y una velocidad dadas, una fuerza centrípeta grande provoca un radio de curvatura pequeño, es decir, una curva cerrada, como en la <link target-id="CNX_UPhysics_06_03_CentForce"/>.</para>
+<figure id="CNX_UPhysics_06_03_CentForce">
+<media id="fs-id1165039315627" alt="La figura está formada por dos semicírculos. El semicírculo de la izquierda tiene radio r y es mayor que el de la derecha, que tiene radio r primo. En ambas figuras, la dirección del movimiento se da en sentido contrario de las agujas del reloj a lo largo de los semicírculos. Se muestra un punto en la trayectoria, donde el radio se muestra con una flecha que apunta hacia fuera desde el centro del semicírculo. En el mismo punto, la fuerza centrípeta, F sub c, se muestra que apunta hacia adentro, en la dirección opuesta a la de la flecha del radio. La velocidad, v, se muestra también en este punto, y es tangente al semicírculo, apunta hacia la izquierda y hacia arriba, perpendicular a las fuerzas. En ambas figuras, la velocidad es la misma, pero el radio primo es menor y la fuerza centrípeta es mayor en la figura de la derecha. Se observa que el vector F sub c es paralelo al vector a sub c ya que el vector F sub c es igual a m por el vector a sub c.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_CentForce.jpg"/>
+</media>
+<caption>La fuerza de fricción suple la fuerza centrípeta y es numéricamente igual a ella. La fuerza centrípeta es perpendicular a la velocidad y provoca un movimiento circular uniforme. Cuanto más grande sea la <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> menor será el radio de curvatura <emphasis effect="italics">r</emphasis> y más pronunciada será la curva. La segunda curva tiene la misma <emphasis effect="italics">v</emphasis>, pero una mayor <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> produce un <emphasis effect="italics">r</emphasis>′ más pequeño.</caption>
+</figure>
+<example id="fs-id1165039113797">
+<para id="fs-id1165039337640"><title>¿Qué coeficiente de fricción necesitan los autos en una curva plana?</title>
+(a) Calcule la fuerza centrípeta ejercida sobre un auto de 900,0 kg que recorre una curva de 500,0 m de radio a 25,00 m/s. (b) Suponiendo una curva sin peralte, halle el mínimo coeficiente de fricción estática entre los neumáticos y la carretera, siendo la fricción estática la que impide que el auto resbale (<link target-id="CNX_UPhysics_06_03_RedCar"/>).</para>
+<figure id="CNX_UPhysics_06_03_RedCar"><media id="fs-id1165035614003" alt="En esta figura, se muestra un auto que se aleja del espectador y gira hacia la izquierda en una superficie plana. En el auto aparecen las siguientes fuerzas: w apunta hacia abajo, N apuntan hacia arriba y f que es igual a F sub c que es igual a mu sub s por N, y apunta hacia la izquierda. Las fuerzas w y N actúan sobre la carrocería del auto, mientras que f actúa en el lugar donde la rueda entra en contacto con el suelo. El diagrama de cuerpo libre se muestra a un lado de la ilustración del auto y muestra las fuerzas w, N y f como flechas, donde sus colas se reúnen en un punto.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_06_03_RedCar.jpg"/>
+</media><caption>Este auto en terreno llano se aleja y gira a la izquierda. La fuerza centrípeta que hace que el auto gire en una trayectoria circular se debe a la fricción entre los neumáticos y la carretera. Se necesita un mínimo coeficiente de fricción; de otra manera, el auto se moverá en una curva de mayor radio y se saldrá de la calzada.</caption></figure><para id="fs-id1165039285311"><title>Estrategia</title></para>
+<list id="fs-id1168586337861" list-type="enumerated" number-style="lower-alpha">
+<item>Sabemos que <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Así,
+<equation id="fs-id1165035681116" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>900,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>25,00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>500,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.125</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>La <link target-id="CNX_UPhysics_06_03_RedCar"/> muestra las fuerzas que actúan sobre el auto en una curva sin peralte (terreno llano). La fricción está a la izquierda, lo que impide que el auto resbale, y como es la única fuerza horizontal que actúa sobre el auto, la fricción es la fuerza centrípeta en este caso. Sabemos que la fricción estática máxima (con la que los neumáticos ruedan pero no resbalan) es <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mi>N</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow></m:math> es el coeficiente de fricción estática y <emphasis effect="italics">N</emphasis> es la fuerza normal. La fuerza normal es igual al peso del auto sobre terreno llano, por lo que <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math> Así, la fuerza centrípeta en esta situación es
+<equation id="fs-id1165039325486" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>≡</m:mo><m:mi>f</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Ahora tenemos una relación entre la fuerza centrípeta y el coeficiente de fricción. Al utilizar la ecuación
+<equation id="fs-id1165039250680" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+obtenemos
+<equation id="fs-id1165039374168" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Resolvemos esto para <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> observamos que la masa se anula, y obtenemos
+<equation id="fs-id1165039052741" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>r</m:mi><m:mi>g</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Al sustituir los valores conocidos,
+<equation id="fs-id1165039104568" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>25,00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>500,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9,80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,13</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+(Como los coeficientes de fricción son aproximados, la respuesta se da con apenas dos dígitos).</item>
+</list>
+<para id="fs-id1165039083344"><title>Importancia</title>El coeficiente de fricción que se encuentra en la <link target-id="CNX_UPhysics_06_03_RedCar"/>(b) es mucho menor que el que se encuentra normalmente entre los neumáticos y las carreteras. El auto sigue maniobrando en la curva si el coeficiente es superior a 0,13, ya que la fricción estática es una fuerza de respuesta, capaz de asumir un valor inferior, pero no superior a <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mi>N</m:mi><m:mo>.</m:mo></m:mrow></m:math> Un coeficiente más alto también permitiría al auto tomar la curva a mayor rapidez, pero si el coeficiente de fricción es menor, la rapidez segura sería inferior a 25 m/s. Observe que la masa se anula, lo que implica que, en este ejemplo, no importa la carga del auto para maniobrar el giro. La masa se anula porque la fricción se supone proporcional a la fuerza normal, que a su vez es proporcional a la masa. Si la superficie de la carretera tuviera peralte, la fuerza normal sería mayor, como se explica a continuación.</para></example>
+<note id="fs-id1165035722482" class="check-understanding">
+<exercise id="fs-id1165039073815">
+<problem id="fs-id1165039044607">
+<para id="fs-id1165039073474"> Un auto que se mueve a 96,8 km/h recorre una curva circular de radio 182,9 m en una carretera rural plana. ¿Cuál debe ser el coeficiente mínimo de fricción estática para que el auto no resbale?</para>
+</problem>
+<solution id="fs-id1165039077205">
+<para id="fs-id1165038962554">0,40</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1165039070329">
+<title>Curvas con peralte</title>
+<para id="fs-id1165039021138">Consideremos ahora las <term>curvas con peralt</term><emphasis effect="bold">e</emphasis>, en las que la pendiente de la carretera permite maniobrar en la curva (<link target-id="CNX_UPhysics_06_03_BlueCar"/>). Cuanto mayor sea el ángulo <m:math><m:mi>θ</m:mi></m:math>, más rápido se puede tomar la curva. Los circuitos de carreras, tanto de motos como de autos, por ejemplo, suelen tener curvas con peralte muy pronunciados. En una "curva con peralte ideal", el ángulo <m:math><m:mi>θ</m:mi></m:math> es tal que puede maniobrar en la curva a cierta rapidez sin la ayuda de la fricción entre los neumáticos y la carretera. Derivamos una expresión <m:math><m:mi>θ</m:mi></m:math> para una curva con peralte ideal y consideramos un ejemplo relacionado con ella.</para>
+<figure id="CNX_UPhysics_06_03_BlueCar"><media id="fs-id1165039311416" alt="En esta figura, se muestra un auto que se aleja del espectador y gira hacia la izquierda en una pendiente descendente y hacia la izquierda. La pendiente forma un ángulo theta con la superficie horizontal por debajo de la pendiente. El diagrama de cuerpo libre se superpone sobre el auto. El diagrama de cuerpo libre muestra el peso, w, que apunta verticalmente hacia abajo, y la fuerza N, en un ángulo theta a la izquierda de la vertical. Además de los vectores de fuerza, dibujados como flechas rojas en negritas, los componentes verticales y horizontales del vector N se muestran como flechas negras finas: una apunta verticalmente hacia arriba y la otra, horizontalmente hacia la izquierda. Se dan dos relaciones: N por el coseno de theta es igual a w, y N por el seno de theta es igual a la fuerza centrípeta y también es igual a la fuerza neta.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_06_03_BlueCar.jpg"/>
+</media>
+
+<caption>El auto en esta curva con peralte se aleja y gira a la izquierda.</caption></figure><para id="fs-id1165039347166">Para el <term>peralte ideal</term>, la fuerza externa neta es igual a la fuerza centrípeta horizontal en ausencia de fricción. Las componentes de la fuerza normal <emphasis effect="italics">N</emphasis> en las direcciones horizontal y vertical deberán ser iguales a la fuerza centrípeta y al peso del auto, respectivamente. En los casos en que las fuerzas no son paralelas, lo más conveniente es considerar los componentes a lo largo de los ejes perpendiculares, en este caso, las direcciones vertical y horizontal.</para>
+<para id="fs-id1165039463714">La <link target-id="CNX_UPhysics_06_03_BlueCar"/> muestra un diagrama de cuerpo libre para un auto en una curva con peralte sin fricción. Si el ángulo <m:math><m:mi>θ</m:mi></m:math> es ideal para la rapidez y el radio, entonces la fuerza externa neta es igual a la fuerza centrípeta necesaria. Las dos únicas fuerzas externas que actúan sobre el auto son su peso <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>w</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> y la fuerza normal de la carretera <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>N</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> (Una superficie sin fricción puede ejercer solamente una fuerza perpendicular a la superficie, es decir, una fuerza normal). Estas dos fuerzas deberán sumarse para dar una fuerza externa neta que es horizontal hacia el centro de la curvatura y tiene magnitud <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math> Como esta es la fuerza crucial y es horizontal, utilizamos un sistema de coordenadas con ejes verticales y horizontales. Solo la fuerza normal tiene un componente horizontal, por lo que este deberá ser igual a la fuerza centrípeta, es decir,</para>
+<equation id="fs-id1165039315332" class="unnumbered"><label/><m:math><m:mrow><m:mi>N</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165035716444">Dado que el auto no abandona la superficie de la carretera, la fuerza vertical neta deberá ser cero, lo que significa que los componentes verticales de las dos fuerzas externas deberán ser iguales en magnitud y opuestas en dirección. En la <link target-id="CNX_UPhysics_06_03_BlueCar"/>, vemos que el componente vertical de la fuerza normal es <m:math><m:mrow><m:mi>N</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> y la única otra fuerza vertical es el peso del auto. Estas deberán ser iguales en magnitud; por lo tanto,</para>
+<equation id="fs-id1165039288224" class="unnumbered"><label/><m:math><m:mrow><m:mi>N</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165035662256">Ahora podemos combinar estas dos ecuaciones para eliminar <emphasis effect="italics">N</emphasis> y obtener una expresión para <m:math><m:mi>θ</m:mi></m:math>, según se desee. Al resolver la segunda ecuación para <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mtext>/</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>c</m:mi><m:mi>o</m:mi><m:mi>s</m:mi><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> y sustituir esto en la primera obtiene</para>
+<equation id="fs-id1165039251149" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi><m:mi>g</m:mi><m:mfrac><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>r</m:mi><m:mi>g</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1165039334057">Al tomar la tangente inversa se obtiene</para>
+<note id="fs-id1165039305213" class="equation-callout">
+<equation id="fs-id1165039072621"><label/><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>r</m:mi><m:mi>g</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165035746991">Esta expresión puede entenderse al considerar cómo <m:math><m:mi>θ</m:mi></m:math> depende de <emphasis effect="italics">v</emphasis> y <emphasis effect="italics">r</emphasis>. Un gran <m:math><m:mi>θ</m:mi></m:math> se obtiene para una <emphasis effect="italics">v</emphasis> grande y un <emphasis effect="italics">r</emphasis> pequeño. Es decir, las carreteras deben tener un peralte pronunciado para la rapidez elevada y las curvas cerradas. La fricción permite tomar la curva a mayor o menor rapidez que si la curva no tuviera fricción. Observe que <m:math><m:mi>θ</m:mi></m:math> no depende de la masa del vehículo.</para>
+<example id="fs-id1165035742526">
+<para id="fs-id1165039250332"><title>¿Cuál es la rapidez ideal para tomar una curva cerrada con peralte pronunciado?</title>
+Las curvas de algunos circuitos de pruebas y de carreras, como el Daytona International Speedway de Florida, tienen un peralte muy pronunciado. Este peralte, junto con la fricción de los neumáticos y las configuraciones de los autos muy estables, permite tomar las curvas a muy alta velocidad. Para ilustrarlo, calcule la rapidez a la que una curva de 100,0 m de radio con peralte a <m:math><m:mrow><m:mn>31,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> debería conducirse si la carretera no tuviera fricción.</para>
+<para id="fs-id1165035609299"><title>Estrategia</title>
+En primer lugar, observamos que todos los términos de la expresión para el ángulo ideal de una curva con peralte son conocidos, excepto la rapidez; por lo tanto, solo tenemos que reorganizarla para que la rapidez aparezca en el lado izquierdo y luego sustituir las cantidades conocidas.</para>
+<para id="fs-id1165038986838"><title>Solución</title>
+A partir de</para>
+<equation id="fs-id1165039242619" class="unnumbered"><label/><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>r</m:mi><m:mi>g</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038961079">obtenemos</para>
+<equation id="fs-id1165039433633" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>r</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165035709787">Al observar que <m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mn>31,0</m:mn><m:mtext>°</m:mtext><m:mo>=</m:mo><m:mn>0,609</m:mn><m:mo>,</m:mo></m:mrow></m:math> obtenemos</para>
+<equation id="fs-id1165038975313" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>100,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9,80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,609</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>24,4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165039025810"><title>Importancia</title>
+Se trata de unos 165 km/h, lo que se corresponde con una curva con peralte muy pronunciado y bastante cerrada. La fricción de los neumáticos permite que el vehículo tome la curva a una rapidez mucho mayor.</para>
+</example>
+<para id="fs-id1165039487859">Los aviones también hacen virajes por ladeo. La fuerza de sustentación, debida a la fuerza del aire sobre el ala, actúa en ángulo recto con el ala. Cuando el avión se ladea, el piloto obtiene mayor sustentación de la necesaria para el vuelo nivelado. El componente vertical de la sustentación equilibra el peso del avión, y el componente horizontal acelera el avión. El ángulo de ladeo que se muestra en la <link target-id="CNX_UPhysics_06_03_BankAngle"/> viene dado por <m:math><m:mi>θ</m:mi></m:math>. Analizamos las fuerzas de la misma manera que tratamos el caso del auto que toma una curva con peralte.</para>
+<figure id="CNX_UPhysics_06_03_BankAngle">
+<media id="fs-id1165035613396" alt="Ilustración de un avión que viene hacia nosotros y se ladea (es decir, se inclina) con un ángulo theta en el sentido de las agujas del reloj, de nuevo visto por nosotros. El peso w se muestra como una flecha que apunta hacia abajo. Se muestra una fuerza L que apunta perpendicularmente a las alas, en un ángulo theta a la derecha de la vertical hacia arriba. El componente horizontal de la fuerza L se muestra que apunta a la derecha y marcado como vector L sub horizontal. Las líneas discontinuas completan el paralelogramo definido por los vectores L y w, y muestran que el componente vertical de L es del mismo tamaño que w.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_BankAngle.jpg"/>
+</media>
+<caption>En un giro inclinado, el componente horizontal de la sustentación se desequilibra y acelera el avión. El componente normal de la sustentación equilibra el peso del avión. El ángulo de ladeo viene dado por <m:math><m:mi>θ</m:mi></m:math>. Compare el diagrama vectorial con el que se muestra en la <link target-id="CNX_UPhysics_06_03_BlueCar"/>.</caption>
+</figure>
+<note id="fs-id1165039412095" class="media-2">
+<para id="fs-id1165039053843">Acompañe a la <link url="https://openstax.org/l/21ladybug_es">mariquita</link> en una exploración del movimiento rotacional. Rote el carrusel para cambiar su ángulo o elija una velocidad angular o una aceleración angular constantes. Explore cómo el movimiento circular se relaciona con la posición <emphasis effect="italics">xy</emphasis> del insecto, la velocidad y la aceleración mediante el empleo de vectores o gráficos.</para>
+</note>
+<note id="fs-id1165039399540" class="media-2">
+<para id="fs-id1165039120360">El movimiento circular requiere una fuerza, la llamada fuerza centrípeta, que se dirige al eje de rotación. Este <link url="https://openstax.org/l/21carousel">modelo de un carrusel</link> simplificado demuestra esta fuerza.</para>
+</note>
+</section>
+<section id="fs-id1165039100184">
+<title>Fuerzas inerciales y marcos no inerciales (acelerados): la fuerza de Coriolis</title>
+<para id="fs-id1165038999017">¿Qué tienen en común el despegue de un avión de reacción, el giro de una esquina en un auto, el paseo en un carrusel y el movimiento circular de un ciclón tropical? Cada uno de ellos presenta fuerzas inerciales, es decir, fuerzas que simplemente parecen surgir del movimiento, porque el marco de referencia del observador acelera o rota. Al despegar en un jet, la mayoría de la gente estará de acuerdo en que se siente como si le empujaran hacia atrás en el asiento mientras el avión acelera por la pista. Sin embargo, un físico diría que <emphasis effect="italics">usted</emphasis> tiende a permanecer inmóvil mientras el <emphasis effect="italics">asiento</emphasis> le empuja hacia delante. Una experiencia aún más común ocurre cuando se toma una curva cerrada con el auto, por ejemplo, hacia la derecha (<link target-id="CNX_UPhysics_06_03_RightTurn"/>). Tiene la sensación de ser lanzado (es decir, <emphasis effect="italics">forzado</emphasis>) hacia la izquierda en relación con el auto. De nuevo, un físico diría que <emphasis effect="italics">usted</emphasis> va en línea recta (recuerde la primera ley de Newton), pero que el <emphasis effect="italics">auto</emphasis> se desplaza hacia la derecha, no que usted esté experimentando una fuerza desde la izquierda.</para>
+<figure id="CNX_UPhysics_06_03_RightTurn"><media id="fs-id1165035742430" alt="La Figura a es la ilustración de una conductora que dirige un auto hacia la derecha, vista desde arriba. Se muestra un vector de fuerza ficticio F sub fict que apunta a la izquierda que actúa sobre ella. En la Figura b, se ilustran el mismo auto y la misma conductora, pero el vector de fuerza real, F sub real, que actúa sobre la conductora se muestra que apunta a la derecha. En la Figura b, la conductora se muestra inclinada hacia la izquierda.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_06_03_RightTurn.jpg"/>
+</media>
+
+<caption>(a) La conductora del auto se siente forzada hacia la izquierda con respecto al auto cuando hace un giro a la derecha. Se trata de una fuerza de inercia derivada del uso del auto como marco de referencia. (b) En el marco de referencia de la Tierra, la conductora se mueve en línea recta, obedeciendo la primera ley de Newton, y el auto se mueve hacia la derecha. No hay ninguna fuerza hacia la izquierda sobre la conductora en relación con la Tierra. En cambio, hay una fuerza hacia la derecha sobre el auto para hacerlo girar.</caption></figure><para id="fs-id1165039397195">Podemos conciliar estos puntos de vista examinando los marcos de referencia utilizados. Concentrémonos en las personas en un auto. Los pasajeros utilizan instintivamente el auto como marco de referencia, mientras que un físico podría utilizar la Tierra. El físico podría hacer esta elección porque la Tierra es casi un marco de referencia inercial, en el que todas las fuerzas tienen un origen físico identificable. En este marco de referencia, las leyes del movimiento de Newton adoptan la forma dada en <link document="m90630">Leyes de movimiento de Newton</link>. El auto es un <term>marco de referencia no inercial</term> porque está acelerado hacia un lado. La fuerza hacia la izquierda que perciben los pasajeros de un auto es una <term>fuerza inercial</term> que no tiene origen físico (se debe puramente a la inercia del pasajero, no a ninguna causa física como la tensión, la fricción o la gravitación). El auto, al igual que el conductor, acelera hacia la derecha. Se dice que esta fuerza inercial es una fuerza inercial porque no tiene ningún origen físico, como la gravedad.</para>
+<para id="fs-id1165039268847">Un físico elige el marco de referencia que sea más conveniente para la situación analizada. El físico no tiene ningún problema en incluir las fuerzas inerciales y la segunda ley de Newton, como es habitual, si eso es más conveniente, por ejemplo, en un carrusel o en un planeta en rotación. Los marcos de referencia no inerciales (acelerados) se utilizan cuando es útil hacerlo. Hay que tener en cuenta diferentes marcos de referencia al hablar del movimiento de un astronauta en una nave espacial que viaja a velocidades cercanas a la velocidad de la luz, como apreciará en el estudio de la teoría especial de la relatividad.</para>
+<para id="fs-id1165039290290">Ahora, demos un paseo mental en un carrusel, concretamente en un carrusel de parque infantil que rota rápidamente (<link target-id="CNX_UPhysics_06_03_Inertia"/>). Usted toma el carrusel como marco de referencia porque ambos rotan juntos. Al rotar en ese marco de referencia no inercial, se siente una fuerza inercial que tiende a despedirlo hacia afuera; esto se denomina <term class="no-emphasis"><emphasis effect="italics">fuerza centrífuga</emphasis></term> (no confundirla con la fuerza centrípeta). La fuerza centrífuga es un término que se utiliza comúnmente, pero en realidad no existe. Debe agarrarse con fuerza para contrarrestar su inercia (que la gente denomina fuerza centrífuga). En el marco de referencia de la Tierra, no hay ninguna fuerza que intente despedirlo hacia afuera; subrayamos que la fuerza centrífuga es una ficción. Tiene que agarrarse para ir en círculo, porque, de lo contrario, iría en línea recta, justo fuera del carrusel, de acuerdo con la primera ley de Newton. Sin embargo, la fuerza que se ejerce actúa hacia el centro del círculo.</para>
+<figure id="CNX_UPhysics_06_03_Inertia"><media id="fs-id1165035708348" alt="En la Figura a, se mira un carrusel desde arriba, vemos a un niño sentado en un caballo que se mueve en sentido contrario de las agujas del reloj con velocidad angular omega. La fuerza F sub fict es igual a la fuerza centrífuga en el punto de contacto entre el caballo que lleva el poste y la superficie del carrusel. La fuerza se ejerce radialmente hacia afuera del centro del carrusel. Este es el marco de referencia rotativo del carrusel. En la Figura b, vemos la situación en el marco de referencia inercial, visto rotando a velocidad angular omega en el sentido contrario de las agujas del reloj. El niño sobre el caballo se muestra en la misma posición que en la Figura a. La fuerza neta es igual a la fuerza centrípeta y apunta radialmente hacia el centro. En sombreado, también se nos muestra al niño como en una posición anterior y en la posición que tendría si la fuerza neta sobre él fuera cero, que es recta y, por tanto, en un radio mayor que su posición real.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_06_03_Inertia.jpg"/>
+</media>
+
+<caption>(a) Una persona que se monta en un carrusel tiene la sensación de salir despedido hacia afuera. Esta fuerza inercial a veces se denomina erróneamente fuerza centrífuga en un intento por explicar el movimiento de la persona montada en el marco de referencia rotativo. (b) En un marco de referencia inercial y según las leyes de Newton, es su inercia la que lo arrastra (la persona sin sombrear tiene <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> y se dirige en línea recta). Una fuerza, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>centrípeta</m:mtext></m:mrow></m:msub></m:mrow></m:math>, es necesaria para provocar una trayectoria circular.</caption></figure><para id="fs-id1165038971058">Este efecto inercial, que lo aleja del centro de rotación si no hay una fuerza centrípeta que provoque un movimiento circular, se aprovecha en las centrífugas (<link target-id="CNX_UPhysics_06_03_Centrifuge"/>). Una <term class="no-emphasis">centrífuga</term> hace girar una muestra muy rápidamente, como se ha mencionado anteriormente en este capítulo. Visto desde el marco de referencia rotativo, la fuerza inercial lanza las partículas hacia el exterior, lo que acelera su sedimentación. Cuanto mayor sea la velocidad angular, mayor será la fuerza centrífuga. Sin embargo, lo que realmente ocurre es que la inercia de las partículas las lleva a lo largo de una línea tangente al círculo, mientras que el tubo de ensayo es forzado en una trayectoria circular por una fuerza centrípeta.</para>
+<figure id="CNX_UPhysics_06_03_Centrifuge">
+<media id="fs-id1165039400156" alt="Ilustración de un tubo de ensayo en una centrífuga, moviéndose en un círculo en el sentido de las agujas del reloj con velocidad angular omega. El tubo de ensayo se muestra en dos posiciones diferentes: en la parte inferior del círculo y aproximadamente 45 grados después. Está orientado radialmente, con el extremo abierto más cerca del centro. El contenido está en el fondo del tubo de ensayo. Se indican las siguientes direcciones: En la posición inferior, la aceleración centrípeta a sub c está radialmente hacia dentro, la velocidad, v, y la fuerza inercial están horizontalmente en la dirección del movimiento (hacia la izquierda en la figura). Poco después, cuando el tubo se ha desplazado hacia arriba y hacia la izquierda, la aceleración centrípeta a sub c es radialmente hacia dentro, la fuerza inercial es hacia la izquierda y la fuerza centrífuga es radialmente hacia fuera. Nos dicen que la partícula sigue a la izquierda mientras el tubo de ensayo se mueve hacia arriba. Por lo tanto, la partícula se mueve hacia abajo en el tubo en virtud de su inercia.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_Centrifuge.jpg"/>
+</media>
+<caption>Las centrífugas utilizan la inercia para realizar su tarea. Las partículas del sedimento fluido se depositan porque su inercia las aleja del centro de rotación. La gran velocidad angular de la centrífuga acelera la sedimentación. Al final, las partículas entran en contacto con las paredes del tubo de ensayo, que aportan la fuerza centrípeta necesaria para que se muevan en un círculo de radio constante.</caption>
+</figure>
+<para id="fs-id1165039044955">Consideremos ahora lo que ocurre si algo se mueve en un marco de referencia rotativo. Por ejemplo, ¿qué ocurre si desliza una pelota directamente desde el centro del carrusel, como se muestra en la <link target-id="CNX_UPhysics_06_03_Coriolis"/>? La pelota sigue una trayectoria recta con respecto a la Tierra (suponiendo una fricción despreciable) y una trayectoria curvada hacia la derecha en la superficie del carrusel. Una persona situada junto al carrusel ve que la pelota se mueve en línea recta y que el carrusel rota debajo de ella. En el marco de referencia del carrusel, explicamos la aparente curva hacia la derecha mediante una fuerza de inercia, llamada <term>fuerza de Coriolis</term>, que hace que la pelota se curve hacia la derecha. Cualquiera puede utilizar la fuerza de Coriolis en ese marco de referencia para explicar por qué los objetos siguen trayectorias curvas y nos permite aplicar las leyes de Newton en marcos de referencia no inerciales.</para>
+<figure id="CNX_UPhysics_06_03_Coriolis">
+<media id="fs-id1165039384035" alt="(a) Los puntos A y B se encuentran en el radio de un carrusel. El punto A está más cerca del centro que el B. También se muestran dos niños en caballos, que no están en el mismo radio que A y B. El carrusel rota en sentido contrario de las agujas del reloj con velocidad angular omega. Una pelota se desliza desde el punto A hacia el exterior. La trayectoria relativa a la Tierra es recta. (b) Se muestra de nuevo el carrusel y se añaden las ubicaciones de los puntos A y B en un momento posterior y están marcados como A primo y B primo respectivamente. La trayectoria de la pelota con respecto al carrusel es una trayectoria que se curva hacia atrás.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_Coriolis.jpg"/>
+</media>
+<caption>Observando la rotación en sentido contrario de las agujas del reloj de un carrusel, vemos que una pelota que se desliza directamente hacia el borde sigue una trayectoria curvada hacia la derecha. La persona desliza la pelota hacia el punto <emphasis effect="italics">B</emphasis>, partiendo del punto <emphasis effect="italics">A</emphasis>. Ambos puntos rotan hasta las posiciones sombreadas (<emphasis effect="italics">A</emphasis>' y <emphasis effect="italics">B</emphasis>') que se muestran en el tiempo que la pelota sigue la trayectoria curva en el marco rotativo y una trayectoria recta en el marco de la Tierra.</caption>
+</figure>
+<para id="fs-id1165039345939">Hasta ahora, hemos considerado que la Tierra es un marco de referencia inercial, sin preocuparse por los efectos debidos a su rotación. Sin embargo, estos efectos <emphasis effect="italics">existen</emphasis>, por ejemplo, en la rotación de los sistemas meteorológicos. La mayoría de las consecuencias de la rotación de la Tierra pueden entenderse cualitativamente por analogía con el carrusel. Vista desde el Polo Norte, la Tierra rota en sentido contrario de las agujas del reloj, al igual que el carrusel en la <link target-id="CNX_UPhysics_06_03_Coriolis"/>. Como en el carrusel, cualquier movimiento en el hemisferio norte de la Tierra experimenta una fuerza de Coriolis hacia la derecha. Lo contrario ocurre en el hemisferio sur; allí, la fuerza es hacia la izquierda. Dado que la velocidad angular de la Tierra es pequeña, la fuerza de Coriolis suele ser despreciable, pero para los movimientos a gran escala, como los patrones de viento, tiene efectos sustanciales.</para>
+<para id="fs-id1165039046375">La fuerza de Coriolis hace que los huracanes del hemisferio norte roten en el sentido contrario a las agujas del reloj, mientras que los ciclones tropicales del hemisferio sur rotan en el sentido de las agujas del reloj. (Los términos huracán, tifón y tormenta tropical son nombres regionales específicos para los ciclones, que son sistemas de tormentas caracterizados por centros de baja presión, fuertes vientos y lluvias intensas). La <link target-id="CNX_UPhysics_06_03_Hurricane"/> ayuda a mostrar cómo se producen estas rotaciones. El aire fluye hacia cualquier región de baja presión, y los ciclones tropicales contienen presiones particularmente bajas. Así, los vientos fluyen hacia el centro de un ciclón tropical o de un sistema meteorológico de baja presión en la superficie. En el hemisferio norte, estos vientos de entrada se desvían hacia la derecha, como se muestra en la figura, lo que produce una circulación en sentido contrario a las agujas del reloj en la superficie para las zonas de baja presión de cualquier tipo. Las bajas presiones en la superficie se asocian al ascenso del aire, que también produce el enfriamiento y la formación de nubes, lo que hace que los patrones de bajas presiones sean bastante visibles desde el espacio. Por el contrario, la circulación del viento en torno a las zonas de alta presión se produce en el sentido de las agujas del reloj en el hemisferio sur, pero es menos visible porque las altas presiones se asocian al hundimiento del aire y producen cielos despejados.</para>
+<figure id="CNX_UPhysics_06_03_Hurricane">
+<media id="fs-id1165038998581" alt="(a) Una foto de satélite de un huracán. Las nubes forman una espiral que rota en sentido contrario de las agujas del reloj. (b) Diagrama del flujo involucrado en un huracán. La presión es baja en el centro. Las flechas rectas de color azul oscuro apuntan hacia dentro desde todas las direcciones. Se muestran cuatro de estas flechas, desde el norte, el este, el sur y el oeste. El viento, representado por las flechas azul claro, comienza igual que las flechas oscuras, pero se desvía hacia la derecha. (c) La presión es baja en el centro. El círculo azul oscuro indica una rotación en el sentido de las agujas del reloj. Las flechas de color azul claro llegan desde todas las direcciones y se desvían hacia la derecha, como en la Figura (b). (d) Ahora la presión es alta en el centro. El círculo azul oscuro indica de nuevo la rotación en el sentido de las agujas del reloj, pero las flechas azul claro comienzan en el centro y apuntan hacia fuera y se desvían hacia la derecha. (e) Foto de satélite de un ciclón tropical. Las nubes forman una espiral que rota en el sentido de las agujas del reloj.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_Hurricane.jpg"/>
+</media>
+<caption>(a) La rotación en sentido contrario de las agujas del reloj de este huracán del hemisferio norte es una de las principales consecuencias de la fuerza de Coriolis. (b) Sin la fuerza de Coriolis, el aire fluiría directamente hacia una zona de baja presión, como la que se encuentra en los ciclones tropicales. (c) La fuerza de Coriolis desvía los vientos hacia la derecha y produce una rotación en sentido contrario de las agujas del reloj. (d) El viento que se aleja de una zona de alta presión también se desvía hacia la derecha y produce una rotación en sentido de las agujas del reloj. (e) La fuerza de Coriolis produce el sentido de rotación contrario en el hemisferio sur, lo que da lugar a los ciclones tropicales (créditos: a y créditos e. modificaciones del trabajo de la NASA).</caption>
+</figure>
+<para id="fs-id1165039316978">La rotación de los ciclones tropicales y la trayectoria de una pelota en un carrusel se explican igualmente por la inercia y la rotación del sistema que hay debajo. Cuando se utilizan marcos no inerciales, hay que inventar fuerzas inerciales, como la fuerza de Coriolis, para explicar la trayectoria curva. No existe ninguna fuente física identificable para estas fuerzas de inercia. En un marco inercial, la inercia explica la trayectoria, y no se encuentra ninguna fuerza sin una fuente identificable. Cualquiera de los dos puntos de vista nos permite describir la naturaleza, pero un punto de vista en un marco inercial es el más simple, en el sentido de que todas las fuerzas tienen orígenes y explicaciones.</para>
+</section>
+<section id="fs-id1165039291121" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1165038989422" list-type="bulleted" bullet-style="bullet">
+<item>La fuerza centrípeta <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> es una fuerza de "búsqueda de centro" que siempre apunta hacia el centro de rotación. Es perpendicular a la velocidad lineal y tiene la magnitud
+<equation id="fs-id1165035627257" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Los marcos de referencia rotativos y acelerados son no inerciales. Las fuerzas inerciales, como la fuerza de Coriolis, son necesarias para explicar el movimiento en esos marcos.</item>
+</list>
+</section>
+<section id="fs-id1165039026731" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1165039075190">
+<problem id="fs-id1165035760150">
+<para id="fs-id1165035718736">Si desea reducir el estrés (que está relacionado con la fuerza centrípeta) en los neumáticos de alta velocidad, ¿utilizaría neumáticos de diámetro grande o pequeño? Explique.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039326296">
+<problem id="fs-id1165035715382">
+<para id="fs-id1165038959750">Defina la fuerza centrípeta. ¿Puede cualquier tipo de fuerza (por ejemplo, la tensión, la fuerza gravitatoria, la fricción, etc.) ser una fuerza centrípeta? ¿Puede cualquier combinación de fuerzas ser una fuerza centrípeta?</para>
+</problem>
+<solution id="fs-id1165039453744">
+<para id="fs-id1165035687039">La fuerza centrípeta se define como cualquier fuerza neta que provoca un movimiento circular uniforme. La fuerza centrípeta no es un nuevo tipo de fuerza. La etiqueta "centrípeta" se refiere a <emphasis effect="italics">cualquier</emphasis> fuerza que mantiene algo girando en un círculo. Esa fuerza puede ser la tensión, la gravedad, la fricción, la atracción eléctrica, la fuerza normal o cualquier otra fuerza. Cualquier combinación de ellas podría ser la fuente de la fuerza centrípeta; por ejemplo, la fuerza centrípeta en la parte superior de la trayectoria de un balón atado a un poste (<emphasis effect="italics">tether ball</emphasis>) que se balancea a través de un círculo vertical es el resultado tanto de la tensión como de la gravedad.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039510688">
+<problem id="fs-id1165038990778">
+<para id="fs-id1165039496835">Si la fuerza centrípeta se dirige hacia el centro, ¿por qué siente que es "lanzado" lejos del centro cuando un auto toma una curva? Explique.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039003212"><problem id="fs-id1165039384949">
+<para id="fs-id1165039113906">Los conductores de autos de carreras suelen cortar las curvas, como se muestra a continuación (Trayectoria 2). Explique cómo esto permite tomar la curva a la mayor rapidez.</para>
+<media id="fs-id1165039497191" alt="Se muestran dos trayectorias dentro de una pista de carreras a través de una curva de noventa grados. Se muestran dos autos, uno rojo y otro azul, y sus trayectorias. El auto azul hace un giro cerrado en el camino uno, que es la trayectoria interior de la pista. El auto rojo se muestra adelantando al primer auto, al tiempo que toma una curva más amplia y cruza por delante del auto azul hacia la trayectoria interior y luego vuelve a salir de ella.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_06_03_P4_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165035743127">
+<para id="fs-id1165039312717">El conductor que corta la curva (en la Trayectoria 2) tiene una curva más gradual, con un radio mayor. Esa será la mejor línea de carrera. Si el conductor va demasiado rápido en una curva por una línea de carrera, seguirá deslizándose fuera de la pista; la clave es mantenerse en el valor máximo de fricción estática. Por lo tanto, el conductor quiere la máxima rapidez posible y la máxima fricción. Considere la ecuación de la fuerza centrípeta: <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math> donde <emphasis effect="italics">v</emphasis> es la rapidez y <emphasis effect="italics">r</emphasis> es el radio de curvatura. Por lo tanto, al disminuir la curvatura (1/<emphasis effect="italics">r</emphasis>) de la trayectoria que sigue el auto, reducimos la cantidad de fuerza que los neumáticos tienen que ejercer sobre la carretera, lo que significa que ahora podemos aumentar la rapidez, <emphasis effect="italics">v</emphasis>. Desde el punto de vista del conductor en la Trayectoria 1, podemos razonar de la siguiente manera: cuanto más pronunciado sea el giro, menor será el radio de giro; cuanto menor sea el radio de giro, mayor será la fuerza centrípeta necesaria. Si no se ejerce esta fuerza centrípeta, el resultado es un derrape.</para>
+</solution>
+</exercise><exercise id="fs-id1165039393190">
+<problem id="fs-id1165039073338">
+<para id="fs-id1165035726450">Muchos parques de atracciones tienen atracciones que hacen giros circulares verticales como el que se muestra a continuación. Por seguridad, los vagones se fijan a los rieles de forma que no puedan caerse. Si el vagón pasa por encima a la rapidez adecuada, solo la gravedad suministrará la fuerza centrípeta. Qué otra fuerza actúa y cuál es su dirección si:</para>
+<para id="fs-id1165039284952">(a) ¿El vagón pasa por encima a una rapidez mayor a la indicada?</para>
+<para id="fs-id1165039000642">(b) ¿El vagón pasa por encima a una rapidez inferior a la indicada?</para>
+<media id="fs-id1165039287645" alt="Foto de una montaña rusa con un giro circular vertical. El giro circular tiene una curvatura más cerrada en la parte superior que en la inferior, lo que da una forma de lágrima invertida.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_P5_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165039264324">
+<problem id="fs-id1165039066680">
+<para id="fs-id1165035685329">¿Qué hace que se elimine el agua de la ropa en una secadora?</para>
+</problem>
+<solution id="fs-id1165039477270">
+<para id="fs-id1165035735743">El tambor de la secadora ejerce una fuerza centrípeta sobre la ropa (incluidas las gotas de agua) para mantenerla en movimiento en una trayectoria circular. Cuando una gota de agua llegue a uno de los agujeros del tambor, se moverá en una trayectoria tangente al círculo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039302968">
+<problem id="fs-id1165039458614">
+<para id="fs-id1165035703891">Cuando un patinador forma un círculo, ¿qué fuerza es la responsable de realizar su giro? Utilice un diagrama de cuerpo libre en su respuesta.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039099187">
+<problem id="fs-id1165039108353">
+<para id="fs-id1165039483406">Supongamos que una niña está montada en un carrusel a una distancia aproximada de la mitad de su centro y su borde. Tiene una fiambrera apoyada en papel encerado, de modo que hay muy poca fricción entre ella y el carrusel. ¿Qué trayectoria tomará la fiambrera cuando la suelte? La fiambrera deja un rastro de polvo sobre el carrusel. ¿Ese rastro es recto, curvado a la izquierda o curvado a la derecha? Razone su respuesta.</para>
+<media id="fs-id1165039286742" alt="Ilustración de la base circular de un carrusel con un solo caballo y una niña sobre este. La velocidad angular, omega, es en el sentido de las agujas del reloj, mostrada aquí con una flecha. Se muestra un punto P cerca del caballo, en un círculo concéntrico con el carrusel. Se muestran tres flechas que salen del punto P, que representan las tres posibles trayectorias de la fiambrera. La trayectoria A se curva en el círculo, a la derecha desde la perspectiva de la fiambrera. La trayectoria B es recta, tangente al círculo. La trayectoria C se curva hacia la izquierda desde la perspectiva de la fiambrera, fuera del círculo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_P8_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039049993">
+<para id="fs-id1165035711660">Si no hay fricción, entonces no hay fuerza centrípeta. Esto significa que la fiambrera se moverá a lo largo de una trayectoria tangente al círculo, y por lo tanto sigue la trayectoria <emphasis effect="italics">B</emphasis>. El rastro de polvo será recto. Esto es el resultado de la primera ley del movimiento de Newton.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039122580">
+<problem id="fs-id1165035708917">
+<para id="fs-id1165039376236">¿Siente que lo tiran hacia un lado u otro cuando toma una curva con peralte ideal para la rapidez de su auto? ¿Cuál es la dirección de la fuerza ejercida sobre usted por el asiento del auto?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035731478">
+<problem id="fs-id1165039297560">
+<para id="fs-id1165039098694">Supongamos que una masa se mueve en una trayectoria circular sobre una mesa sin fricción como se muestra a continuación. En el marco de referencia de la Tierra, no hay ninguna fuerza centrífuga que hale a la masa del centro de rotación, pero sí hay una fuerza que estira la cuerda que une la masa al clavo. Utilizando conceptos relacionados con la fuerza centrípeta y la tercera ley de Newton, explique qué fuerza estira la cuerda, identificando su origen físico.</para>
+<media id="fs-id1165039121255" alt="Ilustración de una masa que se mueve en una trayectoria circular sobre una mesa. La masa está unida a una cuerda que se clava en el centro del círculo a la mesa en el otro extremo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_P10_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039294129">
+<para id="fs-id1165035699826">Debe haber una fuerza centrípeta para mantener el movimiento circular; esto lo proporciona el clavo en el centro. La tercera ley de Newton explica el fenómeno. La fuerza de acción es la fuerza de la cuerda sobre la masa; la fuerza de reacción es la fuerza de la masa sobre la cuerda. Esta fuerza de reacción hace que la cuerda se estire.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039064683">
+<problem id="fs-id1165039419790">
+<para id="fs-id1165036155941">Cuando se tira de la cadena de un inodoro o se vacía un fregadero, el agua (y otros materiales) empieza a rotar alrededor del desagüe en su descenso. Suponiendo que no hay rotación inicial y que el flujo es inicialmente recto hacia el desagüe, explique qué causa la rotación y qué dirección tiene en el hemisferio norte. (Tenga en cuenta que se trata de un efecto pequeño y que en la mayoría de los inodoros la rotación se debe a los chorros de agua direccionales). ¿Se invertiría el sentido de la rotación si el agua fuera forzada a subir por el desagüe?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039347286">
+<problem id="fs-id1165039021031">
+<para id="fs-id1165039264802">Un auto toma una curva y se encuentra con una placa de hielo con un coeficiente de fricción cinética muy bajo. El auto se sale de la carretera. Describa la trayectoria del auto al salir de la carretera.</para>
+</problem>
+<solution id="fs-id1165039077662">
+<para id="fs-id1165039267294">Como la fricción radial con los neumáticos suministra la fuerza centrípeta, y la fricción es casi 0 cuando el auto se encuentra con el hielo, el auto obedecerá la primera ley de Newton y se saldrá de la carretera en una trayectoria en línea recta, tangente a la curva. Un error común es que el auto seguirá una trayectoria curva fuera de la carretera.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039315339">
+<problem id="fs-id1165039293336">
+<para id="fs-id1165039376622">En una atracción del parque de atracciones, los pasajeros entran en un gran barril vertical y se colocan contra la pared sobre su suelo horizontal. El barril gira hacia arriba y el suelo cae. Los pasajeros se sienten como si estuvieran clavados a la pared por una fuerza parecida a la gravitatoria. Se trata de una fuerza inercial percibida y utilizada por los pasajeros para explicar los acontecimientos en el marco de referencia rotativo del barril. Explique en un marco de referencia inercial (la Tierra es casi uno) qué es lo que sujeta a los pasajeros a la pared, e identifique todas las fuerzas que actúan sobre ellos.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039098388">
+<problem id="fs-id1165039087924">
+<para id="fs-id1165038974400">Dos amigos mantienen una conversación. Anna dice que un satélite en órbita está en caída libre porque el satélite sigue cayendo hacia la Tierra. Tom afirma que un satélite en órbita no está en caída libre porque la aceleración debida a la gravedad no es <m:math><m:mrow><m:mn>9,80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. ¿Con quién está de acuerdo y por qué?</para>
+</problem>
+<solution id="fs-id1165039083736">
+<para id="fs-id1165035704143">Anna tiene razón. El satélite cae libremente hacia la Tierra debido a la gravedad, aunque la gravedad es más débil a la altura del satélite, y <emphasis effect="italics">g</emphasis> no es <m:math><m:mrow><m:mn>9,80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. La caída libre no depende del valor de <emphasis effect="italics">g</emphasis>; es decir, se podría experimentar la caída libre en Marte si se saltara desde el monte Olimpo (el volcán más alto del sistema solar).</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039224165">
+<problem id="fs-id1165035756498">
+<para id="fs-id1165039027867">Un marco de referencia no rotativo situado en el centro del Sol es casi un marco inercial. ¿Por qué no es exactamente un marco inercial?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165035734743" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1165039087650">
+<problem id="fs-id1165039479306">
+<para id="fs-id1165035682097">(a) Un niño de 22,0 kg está montado en un carrusel de un parque infantil que rota a 40,0 rev/min. ¿Qué fuerza centrípeta se ejerce si está a 1,25 m de su centro? (b) ¿Qué fuerza centrípeta se ejerce si el carrusel rota a 3,00 rev/min y él está a 8,00 m de su centro? (c) Compare cada fuerza con su peso.</para>
+</problem>
+<solution id="fs-id1165039026811">
+<para id="fs-id1165039331654">a. 483 N; b. 17,4 N; c. 2,24, 0,0807</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039100614">
+<problem id="fs-id1165039242547">
+<para id="fs-id1165039209500">Calcule la fuerza centrípeta en el extremo de un aspa de una turbina eólica de 100 m (de radio) que rota a 0,5 rev/s. Supongamos que la masa es de 4 kg.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039098944">
+<problem id="fs-id1165035636247">
+<para id="fs-id1165039438998">¿Cuál es el ángulo de peralte ideal para un giro suave de 1,20 km de radio en una autopista con un límite de velocidad de 105 km/h (unas 65 mi/h), suponiendo que todo el mundo viaja al límite?</para>
+</problem>
+<solution id="fs-id1165039344901">
+<para id="fs-id1165039509076"><m:math><m:mrow><m:mn>4,14</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036159224">
+<problem id="fs-id1165039085659">
+<para id="fs-id1165038974988">¿Cuál es la rapidez ideal para tomar una curva de 100,0 m de radio con peralte a un ángulo de <m:math><m:mrow><m:mn>20,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039399485">
+<problem id="fs-id1165035619493">
+<para id="fs-id1165039104015">(a) ¿Cuál es el radio de un giro de trineo con peralte de <m:math><m:mrow><m:mn>75,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> y tomado a 30,0 m/s, suponiendo que tiene un peralte ideal? (b) Calcule la aceleración centrípeta. (c) ¿Le parece que esta aceleración es grande?</para>
+</problem>
+<solution id="fs-id1165039104209">
+<para id="fs-id1165035619343">a. 24,6 m; b <m:math><m:mrow><m:mn>36,6</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> c. 3,73 por <emphasis effect="italics">g</emphasis></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039426342"><problem id="fs-id1165038981681">
+<para id="fs-id1165039276298">Parte de montar en bicicleta implica inclinarse en el ángulo correcto al hacer un giro, como se ve a continuación. Para ser estable, la fuerza ejercida por el suelo debe estar en una línea que pase por el centro de gravedad. La fuerza sobre la rueda de la bicicleta puede resolverse en dos componentes perpendiculares: la fricción paralela a la carretera (que debe suministrar la fuerza centrípeta) y la fuerza normal vertical (que deberá ser igual al peso del sistema). (a) Demuestre que <m:math><m:mi>θ</m:mi></m:math> (definido como se muestra) está relacionado con la rapidez <emphasis effect="italics">v</emphasis> y el radio de curvatura <emphasis effect="italics">r</emphasis> de la curva de la misma manera que para una calzada con peralte ideal, es decir, <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mi>r</m:mi><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> (b) Calcule <m:math><m:mi>θ</m:mi></m:math> para un giro de 12,0 m/s de radio 30,0 m (como en una carrera).</para>
+<media id="fs-id1165039285032" alt="La figura es una ilustración de un hombre que monta bicicleta, visto de frente. El ciclista y la bicicleta están inclinados hacia la derecha con un ángulo theta con respecto a la vertical. Los tres vectores de fuerza se muestran como flechas de líneas continuas. Una es desde la parte inferior de la rueda delantera hacia la derecha y muestra la fuerza centrípeta F sub c. Una segunda es desde el mismo punto verticalmente hacia arriba y muestra la fuerza N. La tercera es desde el pecho del ciclista verticalmente hacia abajo y muestra su peso, w. También se muestra una flecha de línea discontinua adicional desde la parte inferior de la rueda hasta el punto del pecho, con un ángulo theta a la derecha de la vertical, y marcada con la fuerza F que se ejerce sobre ella. Los vectores F sub c, w y F forman un triángulo rectángulo cuya hipotenusa es F. Encima de la figura también se da un diagrama de cuerpo libre que muestra los vectores w y F. Las relaciones vectoriales F igual a la suma de N y F sub c, y N igual a w también se dan junto a la figura.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_P21_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1165039512072">
+<problem id="fs-id1165039115696">
+<para id="fs-id1165039115698">Si un auto toma una curva con peralte a una rapidez inferior a la ideal, la fricción es necesaria para evitar que se deslice hacia el interior de la curva (un problema en las carreteras de montaña con hielo). (a) Calcule la rapidez ideal para tomar una curva de 100,0 m de radio con peralte de <m:math><m:mrow><m:mn>15,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. b) ¿Cuál es el mínimo coeficiente de fricción necesario para que un conductor asustado tome la misma curva a 20,0 km/h?</para>
+</problem>
+<solution id="fs-id1165038980331">
+<para id="fs-id1165038980334">a. 16,2 m/s; b. 0,234</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039045013"><problem id="fs-id1165039045015">
+<para id="fs-id1165039125365">Las montañas rusas modernas tienen giros circulares verticales como el que se muestra aquí. El radio de curvatura es menor en la parte superior que en los laterales, de modo que la aceleración centrípeta descendente en la parte superior será mayor que la aceleración debida a la gravedad, lo que mantendrá a los pasajeros firmemente presionados a sus asientos. ¿Cuál es la rapidez de la montaña rusa en la parte superior del giro circular si el radio de curvatura allí es de 15,0 m y la aceleración hacia abajo del vagón es de 1,50 <emphasis effect="italics">g</emphasis>?</para><media id="fs-id1165035733795" alt="Ilustración de un giro circular de una montaña rusa. El radio de curvatura es menor en la parte superior que en los laterales y la parte inferior. El radio del giro circular en la parte superior se muestra y está marcado como r sub mínimo. El radio en la parte más baja del giro circular está marcado como r sub máximo. La pista está en la superficie interior del giro circular. El movimiento se indica con flechas: comienza a nivel del suelo a la derecha del giro circular, sube por el interior del giro circular a la izquierda, luego baja por el interior a la derecha del giro circular, y sale de nuevo a nivel del suelo a la izquierda. Cuatro lugares sobre la pista, A, B, C, y D y B, están marcados. El punto A está a nivel del suelo, a la derecha del giro circular, donde la pista es recta y horizontal. El punto B se encuentra a mitad de camino en el lado izquierdo del giro circular. El punto C se encuentra a mitad de camino en el lado derecho del giro circular, al mismo nivel que el punto B. El punto D está a nivel del suelo, a la izquierda del giro circular, donde la pista es recta y horizontal.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_06_03_P24_img.jpg"/>
+</media>
+</problem>
+</exercise><exercise id="fs-id1165039091562">
+<problem id="fs-id1165039234647">
+<para id="fs-id1165039234649">Un niño de masa 40,0 kg está en un vagón de montaña rusa, que se desplaza en un giro circular de radio 7,00 m. En el punto A la velocidad del vagón es de 10,0 m/s, y en el punto B, la rapidez es de 10,5 m/s. Supongamos que el niño no se sujeta y no lleva cinturón de seguridad. (a) ¿Cuál es la fuerza del asiento del vagón sobre el niño en el punto A? (b) ¿Cuál es la fuerza del asiento del vagón sobre el niño en el punto B? (c) ¿Qué rapidez mínima es necesaria para mantener al niño en su asiento en el punto A?</para>
+<media id="fs-id1165039439426" alt="Ilustración de un giro circular de una montaña rusa con un niño sentado en un vagón que se acerca al bucle. La pista está en la superficie interior del giro circular. Dos lugares del giro circular, A y B, están marcados. El punto A está en la parte superior del giro circular. El punto B está abajo y a la izquierda de A. El ángulo entre los radios de los puntos A y B es de treinta grados.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_P26_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039194995">
+<para id="fs-id1165039084153">a. 179 N; b. 290 N; c. 8,3 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039445011">
+<problem id="fs-id1165039445013">
+<para id="fs-id1165039516436">En el modelo de Bohr simple del estado fundamental del átomo de hidrógeno, el electrón viaja en una órbita circular alrededor de un protón fijo. El radio de la órbita es <m:math><m:mrow><m:mn>5,28</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m,</m:mtext></m:mrow></m:math> y la rapidez del electrón es <m:math><m:mrow><m:mn>2,18</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:math> La masa de un electrón es <m:math><m:mrow><m:mn>9,11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>. ¿Cuál es la fuerza sobre el electrón?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035610496">
+<problem id="fs-id1165035610498">
+<para id="fs-id1165039421074">Las vías férreas siguen una curva circular de 500,0 m de radio y con peralte a un ángulo de <m:math><m:mrow><m:mn>5,0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. ¿Para qué trenes de qué rapidez están diseñadas estas vías?</para>
+</problem>
+<solution id="fs-id1165039111532">
+<para id="fs-id1165039111534">20,7 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039295768">
+<problem id="fs-id1165039440552">
+<para id="fs-id1165039440554">El acelerador de partículas del CERN es circular con una circunferencia de 7,0 km. (a) ¿Cuál es la aceleración de los protones <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> que se mueven en torno al acelerador a <m:math><m:mrow><m:mn>5</m:mn><m:mi>%</m:mi></m:mrow></m:math> de la velocidad de la luz? (La velocidad de la luz es <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math>) (b) ¿Cuál es la fuerza sobre los protones?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039071024">
+<problem id="fs-id1165039237696">
+<para id="fs-id1165039237698">Un auto rodea una curva sin peralte de radio de 65 m. Si el coeficiente de fricción estática entre la carretera y el auto es de 0,70, ¿cuál es la rapidez máxima a la que el auto puede atravesar la curva sin resbalar?</para></problem>
+<solution id="fs-id1165039269152">
+<para id="fs-id1165039269154">21 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039315651">
+<problem id="fs-id1165039513150">
+<para id="fs-id1165039513152">Una autopista con peralte está diseñada para el tráfico que se mueve a 90,0 km/h. El radio de la curva es de 310 m. ¿Cuál es el ángulo de peralte de la carretera?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165039331406">
+<term>curva con peralte</term>
+<meaning id="fs-id1165039440814">curva en una carretera con una pendiente que permite al vehículo maniobrar en la curva</meaning>
+</definition>
+<definition id="fs-id1165039353624">
+<term>fuerza centrípeta</term>
+<meaning id="fs-id1165039106544">cualquier fuerza neta que cause un movimiento circular uniforme</meaning>
+</definition>
+<definition id="fs-id1165039329539">
+<term>fuerza de Coriolis</term>
+<meaning id="fs-id1165039425267">fuerza inercial que causa la desviación aparente de los objetos en movimiento cuando se ven en un marco de referencia rotativo</meaning>
+</definition>
+<definition id="fs-id1165039255178">
+<term>peralte ideal</term>
+<meaning id="fs-id1165035708390">pendiente de una curva en una carretera, donde el ángulo de la pendiente permite al vehículo maniobrar en la curva a una determinada rapidez, sin la ayuda de la fricción entre los neumáticos y la carretera; la fuerza externa neta sobre el vehículo es igual a la fuerza centrípeta horizontal en ausencia de fricción</meaning>
+</definition>
+<definition id="fs-id1165035708392">
+<term>fuerza inercial</term>
+<meaning id="fs-id1165039075055">fuerza que no tiene origen físico</meaning>
+</definition>
+<definition id="fs-id1165039512549">
+<term>marco de referencia no inercial</term>
+<meaning id="fs-id1165039234658">marco de referencia acelerado</meaning>
+</definition>
+</glossary>
+</document>

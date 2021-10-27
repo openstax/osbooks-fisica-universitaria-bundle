@@ -1,0 +1,395 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Oscilaciones forzadas</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90702</md:content-id>
+  <md:title>Oscilaciones forzadas</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Definir oscilaciones forzadas.</item>
+<item>Enumerar las ecuaciones de movimiento asociadas a oscilaciones forzadas.</item>
+<item>Explicar el concepto de resonancia y su efecto en la amplitud de un oscilador.</item>
+<item>Enumerar las características de un sistema que oscila en resonancia.</item>
+</list></md:abstract>
+  <md:uuid>db1a104f-90c2-4b04-b4bc-07a3128e6332</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134821372">Siéntese alguna vez delante de un piano y cante una breve nota fuerte con los apagadores fuera de sus cuerdas (<link target-id="CNX_UPhysics_15_06_PianoStr"/>). Le devolverá la misma nota: las cuerdas, que tienen las mismas frecuencias que su voz, están resonando en respuesta a las fuerzas de las ondas sonoras que les envió. Este es un buen ejemplo del hecho de que los objetos —en este caso, las cuerdas del piano— se pueden forzar a oscilar, y oscilan más fácilmente en su frecuencia natural. En esta sección exploramos brevemente la aplicación de una <term class="no-emphasis">fuerza impulsora periódica</term> que actúa sobre un oscilador armónico simple. La fuerza impulsora introduce energía en el sistema a una determinada frecuencia, que no es necesariamente la misma que la frecuencia natural del sistema. Recuerde que la frecuencia natural es la frecuencia a la que oscilaría un sistema si no hubiera ninguna fuerza impulsora ni amortiguadora.</para>
+<figure id="CNX_UPhysics_15_06_PianoStr"><media id="fs-id1167131204890" alt="Una foto de cerca de las cuerdas de un piano">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_06_PianoStr.jpg"/>
+</media>
+
+<caption>Puede hacer vibrar las cuerdas de un piano simplemente produciendo ondas sonoras con su voz (créditos: Matt Billings).</caption></figure><para id="fs-id1167131190697">La mayoría de nosotros se ha entretenido con juguetes que implican un objeto apoyado en una banda elástica, algo así como la pelota de pádel suspendida de un dedo en la <link target-id="CNX_UPhysics_15_07_PaddleBall"/>. Imagine que el dedo de la figura es su dedo. Al principio, mantiene el dedo firme y la pelota rebota hacia arriba y hacia abajo con una pequeña amortiguación. Si mueve el dedo hacia arriba y hacia abajo lentamente, la pelota sigue sin rebotar mucho por sí sola. A medida que se aumenta la frecuencia con la que mueva el dedo hacia arriba y hacia abajo, la pelota responde oscilando con una amplitud cada vez mayor. Cuando impulsa la pelota a su frecuencia natural, las oscilaciones de la pelota aumentan en amplitud con cada oscilación durante el tiempo que usted la impulsa. El fenómeno de impulsar un sistema con una frecuencia igual a su frecuencia natural se llama <term>resonancia</term>. Se dice que un sistema que se mueve a su frecuencia natural <emphasis effect="italics">resuena</emphasis>. A medida que la frecuencia de impulso es progresivamente más alta que la frecuencia de resonancia o natural, la amplitud de las oscilaciones se hace más pequeña hasta que las oscilaciones casi desaparecen, y su dedo, simplemente, se mueve hacia arriba y hacia abajo con poco efecto sobre la pelota.</para>
+<figure id="CNX_UPhysics_15_07_PaddleBall">
+<media id="fs-id1167131182754" alt="La figura muestra tres imágenes de una horizontal vista una cuerda suspendida de un dedo con una pelota atada en su extremo inferior. En la primera figura, el dedo se mueve hacia arriba y hacia abajo con una frecuencia baja f, y la pelota se mueve hacia arriba y hacia abajo a cierta distancia de su altura de equilibrio, el desplazamiento se muestra en las figuras como sombras difuminadas de la pelota y la posición de equilibrio como una imagen más oscura. En la segunda figura, el dedo se mueve hacia arriba y hacia abajo con una frecuencia f sub cero y el movimiento de la pelota es mucho mayor que en la primera. En la tercera figura, el dedo se mueve hacia arriba y hacia abajo con una alta frecuencia f, y el movimiento de la pelota es menor que en la primera figura. En las tres figuras la distancia total desde la posición más baja a la más alta de la pelota se indica como 2 A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_07_PaddleBall.jpg"/>
+</media>
+<caption>La pelota de pádel en su banda elástica se mueve en respuesta al dedo que la sostiene. Si el dedo se mueve con la frecuencia natural <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> de la pelota en la banda elástica, entonces se alcanza una resonancia, y la amplitud de las oscilaciones de la pelota aumenta drásticamente. A frecuencias de impulso más altas y más bajas, la energía se transfiere a la pelota con menos eficacia, y esta responde con oscilaciones de menor amplitud.</caption>
+</figure>
+<para id="fs-id1167134874251">Considere un simple experimento. Sujete una masa <emphasis effect="italics">m</emphasis> a un resorte en un fluido viscoso, de forma similar al aparato comentado en el oscilador armónico amortiguado. Esta vez, en vez de fijar el extremo libre del resorte, sujete el extremo libre a un disco impulsado por un motor de velocidad variable. El motor gira con una frecuencia de impulso angular de <m:math><m:mi>ω</m:mi></m:math>. El disco giratorio proporciona energía al sistema por el trabajo hecho por la fuerza impulsora <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>d</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mn>0</m:mn></m:msub><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. El aparato experimental se muestra en la <link target-id="CNX_UPhysics_15_06_ForDampOsc"/>.</para>
+<figure id="CNX_UPhysics_15_06_ForDampOsc">
+<media id="fs-id1167131524223" alt="Una masa m está suspendida de un resorte vertical y sumergida en un fluido que tiene una viscosidad eta. La parte superior del resorte está unida al borde de un disco vertical que gira sobre un eje horizontal con velocidad angular omega.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_06_ForDampOsc.jpg"/>
+</media>
+<caption>Movimiento armónico amortiguado y forzado producido por el impulso de un resorte y una masa con un disco impulsado por un motor de velocidad variable.</caption>
+</figure>
+<para id="fs-id1167131345700">Al usar la segunda ley de Newton <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> podemos analizar el movimiento de la masa. La ecuación resultante es similar a la ecuación de fuerza para el oscilador armónico amortiguado, con la adición de la fuerza impulsora:</para>
+<note id="fs-id1167130226812" class="equation-callout">
+<equation id="fs-id1167129981857"><label/><m:math><m:mrow><m:mtext>–</m:mtext><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>b</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:msub><m:mi>F</m:mi><m:mn>0</m:mn></m:msub><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134541006">Cuando se fuerza un oscilador con una fuerza impulsora periódica, el movimiento puede parecer caótico. Los movimientos del oscilador se conocen como transitorios. Una vez que los transitorios desaparecen, el oscilador alcanza un estado estable, en el que el movimiento es periódico. Después de algún tiempo, la solución en estado estable de esta ecuación diferencial es</para>
+<note id="fs-id1167131225098" class="equation-callout">
+<equation id="fs-id1167131341414"><label/><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131201320">Una vez más, se deja como ejercicio demostrar que esta ecuación es una solución. Tomando la primera y la segunda derivada temporal de <emphasis effect="italics">x</emphasis><emphasis effect="italics">(t</emphasis>) y sustituyéndolas en la ecuación de fuerza se observa que <m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> es una solución siempre que la amplitud sea igual a</para>
+<note id="fs-id1167134674963" class="equation-callout">
+<equation id="fs-id1167134586964"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></equation></note>
+<para id="fs-id1167131436606">donde <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> es la frecuencia angular de la fuerza impulsora. Recuerde que la frecuencia angular, y por tanto la frecuencia, del motor se puede ajustar. Al observar el denominador de la ecuación de la amplitud, cuando la frecuencia de impulso es mucho menor, o mucho mayor, que la frecuencia natural, el cuadrado de la diferencia de las dos frecuencias angulares <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> es positivo y grande, lo que hace que el denominador sea grande, y el resultado es una pequeña amplitud para las oscilaciones de la masa. A medida que la frecuencia de la fuerza impulsora se acerca a la frecuencia natural del sistema, el denominador se hace pequeño y la amplitud de las oscilaciones se hace grande. La amplitud máxima se genera cuando la frecuencia de la fuerza impulsora es igual a la frecuencia natural del sistema <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mi>b</m:mi><m:mi>ω</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para><para id="fs-id1167131237840">La <link target-id="CNX_UPhysics_15_07_ForcDmpAmp"/> muestra un gráfico de la amplitud de un oscilador armónico amortiguado como función de la frecuencia de la fuerza periódica que lo impulsa. Cada una de las tres curvas del gráfico representa una cantidad diferente de amortiguación. Las tres curvas alcanzan su pico en el punto en el que la frecuencia de la fuerza impulsora es igual a la frecuencia natural del oscilador armónico. El pico más alto, o la mayor respuesta, es para la menor cantidad de amortiguación, ya que se elimina menos energía por la fuerza de amortiguación. Observe que, dado que la amplitud crece a medida que disminuye la amortiguación, y al llevar esto al límite en el que no hay amortiguación <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, la amplitud se vuelve infinita.</para>
+<para id="fs-id1167131629451">Tenga en cuenta que una fuerza impulsora de pequeña amplitud puede producir una respuesta de gran amplitud. Este fenómeno se conoce como resonancia. Un ejemplo común de resonancia es el de un padre que empuja a un niño pequeño en un columpio. Cuando el niño quiere ir más alto, el padre no retrocede y entonces, tomando carrerilla, se abalanza sobre el niño y aplica una gran fuerza en un corto intervalo. En cambio, el padre aplica pequeños empujones al niño con la frecuencia adecuada, y la amplitud de los balanceos del niño aumenta.</para>
+<figure id="CNX_UPhysics_15_07_ForcDmpAmp">
+<media id="fs-id1167131376316" alt="Un gráfico de la amplitud versus la frecuencia de impulso que muestra curvas para amortiguaciones pequeña, media y fuerte. Las frecuencias f sub cero sobre dos, f sub cero y tres f sub cero sobre dos están identificadas en el eje horizontal. Las curvas son simétricas y todas con su máxima amplitud a la frecuencia f sub cero. La curva de amortiguación pequeña tiene el máximo más grande, y la curva de amortiguación pesada tiene el máximo más pequeño. Se indican las anchuras de las curvas a la mitad de su valor máximo. La curva más estrecha es la curva de amortiguación pequeña, la más ancha es la curva de amortiguación fuerte.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_07_ForcDmpAmp.jpg"/>
+</media>
+<caption>Amplitud de un oscilador armónico como una función de la frecuencia de la fuerza impulsora. Las curvas representan el mismo oscilador con la misma frecuencia natural, pero con diferentes cantidades de amortiguación. La resonancia se produce cuando la frecuencia de impulso es igual a la frecuencia natural, y la mayor respuesta es para la menor cantidad de amortiguación. La respuesta más estrecha es también para la menor amortiguación.</caption>
+</figure>
+<para id="fs-id1167131421041">Es interesante observar que las anchuras de las curvas de resonancia mostradas en la <link target-id="CNX_UPhysics_15_07_ForcDmpAmp"/> dependen de la amortiguación: cuanto menos amortiguación, más estrecha es la resonancia. La consecuencia es que si quiere que un oscilador impulsado resuene a una frecuencia muy específica, necesitará la menor amortiguación posible. Por ejemplo, una radio tiene un circuito que se utiliza para elegir una determinada emisora de radio. En este caso, el oscilador amortiguado forzado consiste en un resistor, un condensador y un inductor, lo cual se analizará más adelante en este curso. El circuito se “sintoniza” para elegir una emisora de radio específica. Aquí es deseable que la curva de resonancia sea muy estrecha, para captar la frecuencia exacta de la emisora elegida. La estrechez del gráfico, y la capacidad de elegir una determinada frecuencia, se conoce como la calidad del sistema. La calidad se define como la dispersión de la frecuencia angular, o lo que es lo mismo, la dispersión en la frecuencia, a la mitad de la amplitud máxima, dividida entre la frecuencia natural <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>ω</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> como se muestra en la <link target-id="CNX_UPhysics_15_07_ResQuality"/>. Para una pequeña amortiguación, la calidad es, aproximadamente, igual a <m:math><m:mrow><m:mi>Q</m:mi><m:mo>≈</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:math>.</para><figure id="CNX_UPhysics_15_07_ResQuality">
+<media id="fs-id1167134870307" alt="Un gráfico de amplitud versus frecuencia angular. La curva es simétrica y tiene un pico, con una amplitud máxima de A en una frecuencia identificada como omega sub cero. Se indica la anchura de la curva, en la que la amplitud es una mitad A a cada lado del máximo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_07_ResQuality.jpg"/>
+</media>
+<caption>La calidad de un sistema se define como la dispersión de las frecuencias a la mitad de la amplitud dividida entre la frecuencia natural.</caption>
+</figure>
+<para id="fs-id1167131150474">Estas características de los osciladores armónicos impulsados se aplican a una enorme variedad de sistemas. Por ejemplo, la imagen de resonancia magnética (IRM) es una herramienta de diagnóstico médico muy utilizada en la que se hace resonar núcleos atómicos (principalmente núcleos de hidrógeno o protones) mediante ondas de radio entrantes (en el orden de 100 MHz). En todos estos casos, la eficacia de la transferencia de energía de la fuerza impulsora al oscilador es mejor en la resonancia. En la <link target-id="CNX_UPhysics_15_07_TacomaNarr"/> se muestra la pasarela London Millennium que permite a los peatones cruzar el río Támesis en Londres. Este puente recibió el apodo de “wobbly bridge” (puente tambaleante) cuando los peatones experimentaban movimientos de vaivén al cruzarlo. El puente estuvo cerrado durante unos dos años para eliminar este movimiento.</para><figure id="CNX_UPhysics_15_07_TacomaNarr"><media id="fs-id1167131360872" alt="Una imagen muestra la pasarela London Millennium.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_07_TacomaNarr.jpg"/>
+</media>
+
+<caption>Al principio, cuando la gente cruzaba la pasarela London Millennium experimentaba un movimiento de vaivén. El hecho de que las personas sigan cruzando reforzó la amplitud de la oscilación, lo que aumentó el problemático vaivén (créditos: Adrian Pingstone/Wikimedia Commons).</caption></figure><note id="fs-id1167131149112" class="check-understanding">
+<exercise id="fs-id1167129967545">
+<problem id="fs-id1167130264731">
+<para id="fs-id1167131451901"> Un famoso truco de magia consiste en que un artista canta una nota hacia una copa de cristal hasta que esta se rompe. Explique por qué el truco funciona en términos de resonancia y frecuencia natural.</para>
+</problem>
+<solution id="fs-id1167131436929">
+<para id="fs-id1167131444820">El intérprete debe cantar una nota que corresponda a la frecuencia natural de la copa. Cuando la onda sonora se dirige a la copa, esta responde resonando a la misma frecuencia que la onda sonora. Si se introduce suficiente energía en el sistema, la copa empieza a vibrar y acaba por romperse.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167131606284" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167131430391" list-type="bulleted" bullet-style="bullet">
+<item>La frecuencia natural de un sistema es la frecuencia a la que el sistema oscila si no se ve afectado por fuerzas impulsoras o amortiguadoras.</item>
+<item>Una fuerza periódica que impulsa un oscilador armónico a su frecuencia natural produce resonancia. Se dice que el sistema resuena.</item>
+<item>Cuanto menos amortiguación tenga un sistema, mayor será la amplitud de las oscilaciones forzadas cerca de la resonancia. Cuanto más amortiguación tenga un sistema, más amplia será su respuesta a las distintas frecuencias de impulso.</item>
+</list>
+</section>
+<section id="fs-id1167131448950" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1170902871265" class="unnumbered unstyled" summary="This table gives the following formulae: Relationship between frequency and period, f equal to 1 by T; Position in SHM with phi equal to 0.00, xt equal to A cos open parentheses omega t close parentheses; General position in SHM, xt equal to A cos open parentheses omega t plus phi close parentheses; General velocity in SHM, vt equal to minus A omega sine open parentheses omega t plus phi close parentheses; General acceleration in SHM, a t equal to minus A omega squared cos open parentheses omega t plus phi close parentheses; Maximum displacement (amplitude) of SHM, x subscript max equal to A; Maximum velocity of SHM, mod v subscript max equal to A omega; Maximum acceleration of SHM, mod a subscript max equal to A omega squared; Angular frequency of a mass-spring system in SHM, omega equal to root of k by m end of root; Period of a mass-spring system in SHM, T equal to 2 pi root of m by k end of root; Frequency of a mass-spring system in SHM, f equal to 1 by 2 pi root of m by k end of root; Energy in a mass-spring system in SHM, E subscript total equal to half kx squared plus half mv squared equal to half kA squared; The velocity of the mass in a spring-mass system in SHM, v equal to plus or minus root of k by m into open parentheses A squared minus x squared close parentheses end of root; The x-component of the radius of a rotating disk, x t equal to A cos open parentheses omga t plus phi close parentheses; The x-component of the velocity of the edge of a rotating disk, v t equal to minus v subscript max sine open parentheses omega t plus phi close parentheses; The x-component of the acceleration of the edge of a rotating disk, a t equal to minus a subscript max cos open parentheses omega t plus phi close parentheses; Force equation for a simple pendulum, d squared theta by dt squared equal to minus g theta by L; Angular frequency for a simple pendulum, omega equal to root of g by L end of root; Period of a simple pendulum, T equal to 2 pi root of L by g end of root; Angular frequency of a physical pendulum, omega equal to root of mgL by I end of root; Period of a physical pendulum, T equal to 2 pi root of I upon mgL end of root; Period of a torsional pendulum, T equal to 2 pi root of I by kappa end of root; Newton’s second law for harmonic motion, m d squared x by dt squared plus b dx by dt plus kx equal to zero; Solution for underdamped harmonic motion, x t equal to A subscript 0 e to the power open parentheses minus bt by 2m close parentheses into cos open parentheses omega t plus phi close parentheses; Natural angular frequency of a mass-spring system, omega 0 equal to root of k by m end of root; Angular frequency of underdamped harmonic motion, omega equal to root of open parentheses omega zero squared minus open parentheses b by 2m close parentheses squared close parentheses; Newton’s second law for forced, damped oscillation, minus kx minus b dx by dt plus F subscript 0 sine omega t equal to m d squared x by dt squared; Solution to Newton’s second law for forced, damped oscillations, x t equal to A cos open parentheses omega t plus phi close parentheses; Amplitude of system undergoing forced, damped oscillations A equal to F0 upon under root m open parentheses omega squared minus omega 0 squared close parentheses whole squared plus b squared omega squared end of root."><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Relación entre frecuencia y periodo</entry>
+<entry align="left"><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>T</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left"><m:math><m:mrow><m:mtext>Posición en SHM con</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mn>0,00</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Posición general en SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Velocidad general en SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>–</m:mtext><m:mi>A</m:mi><m:mi>ω</m:mi><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Aceleración general en SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>–</m:mtext><m:mi>A</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Desplazamiento máximo (amplitud) del SHM</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>A</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Velocidad máxima de SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>ω</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Aceleración máxima de SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Frecuencia angular de un sistema masa-resorte en SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Periodo de un sistema masa-resorte en SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>k</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Frecuencia de un sistema masa-resorte en SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Energía en un sistema masa-resorte en SHM</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:msup><m:mi>A</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">La velocidad de la masa en un sistema resorte-masa<newline/>en SHM</entry>
+<entry align="left"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>A</m:mi><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">El componente <emphasis effect="italics">x</emphasis> del radio de un disco giratorio</entry>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mspace width="0.1em"/><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">El componente <emphasis effect="italics">x</emphasis> de la velocidad del borde de un disco giratorio</entry>
+<entry align="left"><m:math><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>–</m:mtext><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mspace width="0.1em"/><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">El componente <emphasis effect="italics">x</emphasis> de la aceleración del borde<newline/>de un disco giratorio</entry>
+<entry align="left"><m:math><m:mrow><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>–</m:mtext><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mspace width="0.1em"/><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Ecuación de fuerza para un péndulo simple</entry>
+<entry align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac><m:mi>g</m:mi><m:mi>L</m:mi></m:mfrac><m:mi>θ</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Frecuencia angular de un péndulo simple</entry>
+<entry align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>g</m:mi><m:mi>L</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Periodo de un péndulo simple</entry>
+<entry align="left"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Frecuencia angular de un péndulo físico</entry>
+<entry align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow><m:mi>I</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Periodo de un péndulo físico</entry>
+<entry align="left"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Periodo de un péndulo de torsión</entry>
+<entry align="left"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mi>κ</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Segunda ley de Newton para el movimiento armónico</entry>
+<entry align="left"><m:math><m:mrow><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>b</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Solución para un movimiento armónico subamortiguado</entry>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mi>t</m:mi></m:mrow></m:msup><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Frecuencia angular natural de un sistema masa-resorte<newline/></entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Frecuencia angular del movimiento armónico<newline/>subamortiguado</entry>
+<entry align="left"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>–</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Segunda ley de Newton para una oscilación<newline/>forzada y amortiguada</entry>
+<entry align="left"><m:math><m:mrow><m:mtext>–</m:mtext><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>b</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:msub><m:mi>F</m:mi><m:mi>o</m:mi></m:msub><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Solución de la segunda ley de Newton para oscilaciones forzadas y amortiguadas<newline/></entry>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Amplitud del sistema que experimenta oscilaciones<newline/>forzadas y amortiguadas</entry>
+<entry align="left"><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mi>o</m:mi></m:msub></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:msubsup><m:mi>ω</m:mi><m:mi>o</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+<section id="fs-id1167130140737" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167131477718">
+<problem id="fs-id1167131236971">
+<para id="fs-id1167134790961">¿Por qué se ordena a los soldados, en general, que den un “paso en ruta” (que se salgan del paso) al cruzar un puente?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134716949">
+<problem id="fs-id1167129994753">
+<para id="fs-id1167134929480">¿Cree que hay algún movimiento armónico en el mundo físico que no sea un movimiento armónico amortiguado? Intente hacer una lista de cinco ejemplos de movimiento armónico no amortiguado y de movimiento armónico amortiguado. ¿Qué lista fue más fácil de hacer?</para>
+</problem>
+<solution id="fs-id1167134870890">
+<para id="fs-id1167130035194">Todo movimiento armónico es un movimiento armónico amortiguado, pero la amortiguación puede ser insignificante. Esto se debe a las fuerzas de fricción y arrastre. Es fácil calcular cinco ejemplos de movimiento amortiguado: (1) Una masa que oscila sobre un resorte (al final llega al reposo). (2) El sistema de suspensión de un automóvil (por suerte, también llegan a estar en reposo). (3) Un péndulo es un reloj de pie (se añaden pesos para añadir energía a las oscilaciones). (4) Un niño en un columpio (al final se queda parado, a menos que se añada energía empujándolo). (5) Una canica rodando en un bol (al final se detiene). En cuanto al movimiento no amortiguado, incluso una masa sobre un resorte en el vacío acabará por llegar al reposo debido a las fuerzas internas del resorte. La amortiguación puede ser insignificante, pero no puede eliminarse.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131483624">
+<problem id="fs-id1167129966482">
+<para id="fs-id1167131266737">Algunos ingenieros utilizan el sonido para diagnosticar problemas de desempeño de motores de automóviles. En ocasiones, se diseña una pieza del motor que resuena a la frecuencia de este. Las oscilaciones no deseadas pueden provocar ruidos que irriten al conductor o pueden hacer que la pieza falle prematuramente. En un caso, se localizó una pieza que tenía una longitud <emphasis effect="italics">L</emphasis> hecha de un material con una masa <emphasis effect="italics">M</emphasis>. ¿Qué se puede hacer para corregir este problema?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167131552073" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167131262688">
+<problem id="fs-id1167134723517">
+<para id="fs-id1167131262972">¿Cuánta energía debe disipar el sistema de suspensión de un automóvil de 1.200 kg para amortiguar un rebote que inicialmente tiene una velocidad de 0,800 m/s en la posición de equilibrio? Suponga que el automóvil vuelve a su posición vertical original.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167130203838">
+<problem id="fs-id1167134958410">
+<para id="fs-id1167129970058">Si un automóvil tiene un sistema de suspensión con una constante de fuerza de <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow></m:math>, ¿cuánta energía debe eliminar el sistema de suspensión del automóvil para amortiguar una oscilación que comienza con un desplazamiento máximo de 0,0750 m?</para>
+</problem>
+<solution id="fs-id1167131550352">
+<para id="fs-id1167131524754">141 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131471659">
+<problem id="fs-id1167131547567">
+<para id="fs-id1167130051867">(a) ¿Cuánto se estirará un resorte que tiene una constante de fuerza de 40,0 N/m por un objeto con una masa de 0,500 kg cuando se cuelga inmóvil del resorte? (b) Calcule la disminución de la energía potencial gravitacional del objeto de 0,500 kg cuando desciende esta distancia. (c) Parte de esta energía gravitacional va al resorte. Calcule la energía almacenada en el resorte por este estiramiento y compárela con la energía potencial gravitacional. Explique a dónde puede ir el resto de la energía.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131096562">
+<problem id="fs-id1167131401283">
+<para id="fs-id1167131388068">Suponga que tiene un objeto de 0,750 kg en una superficie horizontal conectado a un resorte que tiene una constante de fuerza de 150 N/m. Hay una fricción simple entre el objeto y la superficie con un coeficiente de fricción estática <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0,100</m:mn></m:mrow></m:math>. (a) ¿Hasta dónde puede estirarse el resorte sin que se mueva la masa? (b) Si el objeto se pone en oscilación con una amplitud dos veces superior a la distancia hallada en la parte (a), y el coeficiente cinético de fricción es <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0,0850</m:mn></m:mrow></m:math>, ¿qué distancia total recorre antes de detenerse? Suponga que comienza en la máxima amplitud.</para>
+</problem>
+<solution id="fs-id1167131426181">
+<para id="fs-id1167131556362">a. <m:math><m:mrow><m:mn>4,90</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>1,15</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167131615614" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1167134831739">
+<problem id="fs-id1167134889056">
+<para id="fs-id1167129962581">Suponga que fijara un objeto de masa <emphasis effect="italics">m</emphasis> a un resorte vertical originalmente en reposo y lo deja rebotar hacia arriba y hacia abajo. Usted suelta el objeto desde el reposo hasta la longitud de reposo original del resorte, la longitud del resorte en equilibrio, sin la masa unida. La amplitud del movimiento es la distancia entre la posición de equilibrio del resorte sin la masa unida y la posición de equilibrio del resorte con la masa unida. (a) Demuestre que el resorte ejerce una fuerza ascendente de 2,00<emphasis effect="italics">mg</emphasis> sobre el objeto en su punto más bajo. (b) Si el resorte tiene una constante de fuerza de 10,0 N/m, está colgado horizontalmente y la posición del extremo libre del resorte está marcada como <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0,0</m:mn><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, ¿dónde está la nueva posición de equilibrio si se cuelga del resorte un objeto de 0,25 kg de masa? (c) Si el resorte tiene una constante de fuerza de 10,0 N/m y se pone en movimiento un objeto de 0,25 kg de masa como se ha descrito, calcule la amplitud de las oscilaciones. (d) Calcule la velocidad máxima.</para></problem>
+</exercise>
+<exercise id="fs-id1167131414095">
+<problem id="fs-id1167131456481">
+<para id="fs-id1167134990591">Un buceador en un trampolín experimenta un SHM. Su masa es de 55,0 kg y el periodo de su movimiento es de 0,800 s. El siguiente buceador es un hombre cuyo periodo de oscilación armónica simple es de 1,05 s. ¿Cuál es su masa si la masa de la tabla es insignificante?</para>
+</problem>
+<solution id="fs-id1167131407689">
+<para id="fs-id1167131360268">94,7 kg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131182847">
+<problem id="fs-id1167131138184">
+<para id="fs-id1167134888545">Suponga que un trampolín sin nadie encima rebota en un SHM con una frecuencia de 4,00 Hz. El trampolín tiene una masa efectiva de 10,0 kg. ¿Cuál es la frecuencia del SHM de un buceador de 75,0 kg en el trampolín?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131621754">
+<problem id="fs-id1167131633716">
+<para id="fs-id1167134723709">El dispositivo que se muestra en la siguiente figura entretiene a los bebés al tiempo que evita que deambulen. El niño rebota en un arnés suspendido del marco de una puerta por un resorte. (a) Si el resorte se estira 0,250 m mientras soporta a un niño de 8,0 kg, ¿cuál es su constante de fuerza? (b) ¿Cuál es el tiempo para un rebote completo de este niño? (c) ¿Cuál es la velocidad máxima del niño si la amplitud de su rebote es de 0,200 m?</para>
+<figure id="CNX_UPhysics_15_02_JollyJump">
+<media id="fs-id1167131182615" alt="Una foto de un bebé en una silla colgante que rebota">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_02_JollyJump.jpg"/>
+</media>
+<caption>(créditos: Lisa Doehnert).</caption>
+</figure>
+</problem>
+<solution id="fs-id1167134724774">
+<para id="fs-id1167131531197">a. 314 N/m; b. 1,00 s; c. 1,25 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131549180">
+<problem id="fs-id1167131263521">
+<para id="fs-id1167131609076">Se coloca una masa en una mesa horizontal sin fricción. Un resorte <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, el cual se puede estirar o comprimir, se coloca en la mesa. Una masa de 5,00 kg está unida a un extremo del resorte y el otro extremo se ancla a la pared. La posición de equilibrio está marcada en cero. Un estudiante mueve la masa hacia afuera para <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4,00</m:mn><m:mtext>cm</m:mtext></m:mrow></m:math> y lo libera del reposo. La masa oscila en SHM. (a) Determine las ecuaciones del movimiento. (b) Calcule la posición, la velocidad y la aceleración de la masa en el tiempo <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para></problem>
+</exercise>
+<exercise id="fs-id1167131151532">
+<problem id="fs-id1167131313379">
+<para id="fs-id1167134576125">Calcule la relación entre los periodos nuevo y viejo de un péndulo si este fuera transportado desde la Tierra hasta la Luna, donde la aceleración debido a la gravedad es <m:math><m:mrow><m:mn>1,63</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mtext>2</m:mtext></m:msup></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167134858445">
+<para id="fs-id1167129995466">relación de 2,45</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131482411">
+<problem id="fs-id1167134671736">
+<para id="fs-id1167130145635">¿A qué velocidad funcionará un reloj de péndulo en la Luna, donde la aceleración debido a la gravedad es <m:math><m:mrow><m:mn>1,63</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mtext>2</m:mtext></m:msup></m:mrow></m:math>, si mantiene la hora con precisión en la Tierra? Es decir, hallar el tiempo (en horas) que tarda la aguja horaria del reloj en dar una vuelta a la Luna.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131554892">
+<problem id="fs-id1167131515416">
+<para id="fs-id1167134672596">Si un reloj de péndulo gana 5,00 s/día, ¿qué cambio fraccionario en la longitud del péndulo se debe hacer para que mantenga la hora perfecta?</para>
+</problem>
+<solution id="fs-id1167131496710">
+<para id="fs-id1167131516259">La longitud debe aumentar un 0,0116 %.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134958577">
+<problem id="fs-id1167131114440">
+<para id="fs-id1167131617315">Un objeto de 2,00 kg cuelga, en reposo, de una cuerda de 1,00 m de longitud sujeta al techo. Una masa de 100 g se dispara con una velocidad de 20 m/s contra la masa de 2,00 kg, y la masa de 100,00 g colisiona perfectamente de forma elástica con la masa de 2,00 kg. Escriba una ecuación para el movimiento de la masa colgante después de la colisión. Suponga que la resistencia del aire es insignificante.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131621011">
+<problem id="fs-id1167131090312">
+<para id="fs-id1167131511804">Un objeto de 2,00 kg cuelga, en reposo, de una cuerda de 1,00 m de longitud sujeta al techo. Un objeto de 100 g se dispara con una velocidad de 20 m/s contra el objeto de 2,00 kg, y los dos objetos chocan y se pegan en una colisión totalmente inelástica. Escriba una ecuación para el movimiento del sistema después de la colisión. Suponga que la resistencia del aire es insignificante.</para>
+</problem>
+<solution id="fs-id1167134951444">
+<para id="fs-id1167131537511"><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,31</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,13</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131248680">
+<problem id="fs-id1167131512341">
+<para id="fs-id1167131387612">Suponga que un péndulo utilizado para accionar un reloj de pie tiene una longitud <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> y una masa <emphasis effect="italics">M</emphasis> a la temperatura <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>20,00</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Se puede modelar como un péndulo físico, como una varilla que oscila alrededor de un extremo. ¿En qué porcentaje cambiará el periodo si la temperatura aumenta en <m:math><m:mrow><m:mn>10</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext><m:mo>?</m:mo></m:mrow></m:math> Suponga que la longitud de la varilla cambia linealmente con la temperatura, donde <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> y la varilla es de latón <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>°</m:mtext><m:msup><m:mtext>C</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131473203">
+<problem id="fs-id1167131173143">
+<para id="fs-id1167131497464">Un bloque de 2,00 kg está en reposo sobre una mesa sin fricción. Un resorte, con una constante de resorte de 100 N/m, se fija a la pared y al bloque. Un segundo bloque de 0,50 kg se coloca encima del primer bloque. El bloque de 2,00 kg se hala suavemente hasta una posición <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>A</m:mi></m:mrow></m:math> y se libera del reposo. Hay un coeficiente de fricción de 0,45 entre los dos bloques. (a) ¿Cuál es el periodo de las oscilaciones? (b) ¿Cuál es la mayor amplitud de movimiento que permitirá que los bloques oscilen sin que el bloque de 0,50 kg se deslice?</para>
+</problem>
+<solution id="fs-id1167131627144">
+<para id="fs-id1167131492529">a. 0,99 s; b. 0,11 m</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167131394997" class="review-challenge">
+<title>Problemas de desafío</title>
+<exercise id="fs-id1167131129740">
+<problem id="fs-id1167131142234">
+<para id="fs-id1167131605843">Un puente colgante oscila con una constante de fuerza efectiva de <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow></m:math>. (a) ¿Cuánta energía se necesita para hacerlo oscilar con una amplitud de 0,100 m? (b) Si los soldados marchan por el puente con una cadencia igual a la frecuencia natural del puente e imparten <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> de energía cada segundo, ¿cuánto tiempo tardan las oscilaciones del puente en pasar de 0,100 m a 0,500 m de amplitud?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167130004589">
+<problem id="fs-id1167130228135">
+<para id="fs-id1167131237006">Cerca de la cima del edificio Citigroup Center en la ciudad de Nueva York hay un objeto con masa de <m:math><m:mrow><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> en resortes que tienen constantes de fuerza ajustables. Su función es amortiguar las oscilaciones del edificio provocadas por el viento mediante la oscilación a la misma frecuencia con la que se impulsa el edificio: la fuerza impulsora se transfiere al objeto, el cual oscila en vez de que lo haga todo el edificio. (a) ¿Qué constante de fuerza efectiva deben tener los resortes para que el objeto oscile con un periodo de 2,00 s? (b) ¿Qué energía se almacena en los resortes para un desplazamiento de 2,00 m desde el equilibrio?</para>
+</problem>
+<solution id="fs-id1167131363225">
+<para id="fs-id1167131497541">a. <m:math><m:mrow><m:mn>3,95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>7,90</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131360805">
+<problem id="fs-id1167131343177">
+<para id="fs-id1167134578430">Las parcelas de aire (pequeños volúmenes de aire) en una atmósfera estable (en la que la temperatura aumenta con la altura) pueden oscilar hacia arriba y hacia abajo debido a la fuerza restauradora proporcionada por la flotabilidad de la parcela de aire. La frecuencia de las oscilaciones es una medida de la estabilidad de la atmósfera. Al asumir que la aceleración de una parcela de aire se puede modelar como <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mo>′</m:mo></m:msup></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>g</m:mi><m:mrow><m:msub><m:mi>ρ</m:mi><m:mi>o</m:mi></m:msub></m:mrow></m:mfrac><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>ρ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>z</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>z</m:mi></m:mrow></m:mfrac><m:msup><m:mi>z</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>, demuestre que <m:math><m:mrow><m:msup><m:mi>z</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:msub><m:mi>z</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mo>′</m:mo></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mi>t</m:mi><m:msqrt><m:mrow><m:mtext>–</m:mtext><m:msup><m:mi>N</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:msup></m:mrow></m:math> es una solución, donde <emphasis effect="italics">N</emphasis> se conoce como la frecuencia de Brunt-Väisälä. Observe que en una atmósfera estable la densidad disminuye con la altura y la parcela oscila hacia arriba y hacia abajo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134881674">
+<problem id="fs-id1167134722587">
+<para id="fs-id1167134488043">Considere el potencial de van der Waals <m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>r</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>U</m:mi><m:mi>o</m:mi></m:msub><m:mrow><m:mo>[</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mi>o</m:mi></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mo>–</m:mo><m:mn>2</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mi>o</m:mi></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math>, utilizado para modelar la función de energía potencial de dos moléculas, donde el potencial mínimo está en <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mi>o</m:mi></m:msub></m:mrow></m:math>. Calcule la fuerza como una función de <emphasis effect="italics">r</emphasis>. Considere un pequeño desplazamiento <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mi>o</m:mi></m:msub><m:mo>+</m:mo><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math> y use el teorema del binomio:</para>
+<para id="fs-id1167129992133"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>n</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>!</m:mo></m:mrow></m:mfrac><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>!</m:mo></m:mrow></m:mfrac><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mo>⋯</m:mo></m:mrow></m:math>,</para>
+<para id="fs-id1167134928515">para demostrar que la fuerza se aproxima a la ley de Hooke.</para>
+</problem>
+<solution id="fs-id1167131452068">
+<para id="fs-id1167134885908"><m:math><m:mrow><m:mi>F</m:mi><m:mo>≈</m:mo><m:mo>–</m:mo><m:mtext>constante</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131435260">
+<problem id="fs-id1167129994169">
+<para id="fs-id1167134722908">Suponga que la longitud del péndulo de un reloj se modifica en un 1,000 %, exactamente al mediodía de un día. ¿Qué hora marcará el reloj 24,00 horas más tarde, suponiendo que el péndulo haya mantenido la hora perfecta antes del cambio? Tenga en cuenta que hay dos respuestas, y haga el cálculo con una precisión de cuatro dígitos.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131482475">
+<problem id="fs-id1167131554264">
+<para id="fs-id1167134896880">(a) Los resortes de una camioneta actúan como un solo resorte con una constante de fuerza de <m:math><m:mrow><m:mn>1,30</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow></m:math>. ¿Cuánto bajará la camioneta con su carga máxima de 1.000 kg? (b) Si la camioneta tiene cuatro resortes idénticos, ¿cuál es la constante de fuerza de cada uno?</para>
+</problem>
+<solution id="fs-id1167134531839">
+<para id="fs-id1167131413088">a. 7,54 cm; b <m:math><m:mrow><m:mn>3,25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167131294649">
+<term>resonancia</term>
+<meaning id="fs-id1167131084781">oscilaciones de gran amplitud en un sistema producidas por una fuerza impulsora de pequeña amplitud, la cual tiene una frecuencia igual a la frecuencia natural</meaning>
+</definition>
+</glossary>
+</document>

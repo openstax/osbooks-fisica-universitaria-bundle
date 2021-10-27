@@ -1,0 +1,193 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Análisis dimensional</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90608</md:content-id>
+  <md:title>Análisis dimensional</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Hallar las dimensiones de una expresión matemática que implique cantidades físicas.</item>
+<item>Determinar si una ecuación que involucre cantidades físicas es dimensionalmente coherente.</item>
+</list></md:abstract>
+  <md:uuid>8ee82911-8919-4fce-a5b2-891ef7ae9cbf</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168328152648">La <term>dimensión</term> de cualquier cantidad física expresa su dependencia de las cantidades base como un producto de símbolos (o potencias de símbolos) que representan las cantidades base. La <link target-id="fs-id1168328269910"/> enumera las cantidades base y los símbolos utilizados para su dimensión. Por ejemplo, se dice que una medida de longitud tiene la dimensión L o L<sup>1</sup>, una medida de masa tiene la dimensión M o M<sup>1</sup>, y una medida de tiempo tiene la dimensión T o T<sup>1</sup>. Al igual que las unidades, las dimensiones obedecen a las reglas de álgebra. Así pues, el área es el producto de dos longitudes y, por tanto, tiene la dimensión L<sup>2</sup>, o sea, la longitud al cuadrado. Del mismo modo, el volumen es el producto de tres longitudes y tiene la dimensión L<sup>3</sup>, o longitud al cubo. La rapidez tiene una dimensión de longitud en el tiempo, L/T o LT<sup>-1</sup>. La densidad volumétrica de la masa tiene la dimensión M/L<sup>3</sup> o ML<sup>-3</sup>, o masa sobre longitud al cubo. En general, la dimensión de cualquier cantidad física puede escribirse como <m:math><m:mrow><m:msup><m:mtext>L</m:mtext><m:mi>a</m:mi></m:msup><m:msup><m:mtext>M</m:mtext><m:mi>b</m:mi></m:msup><m:msup><m:mtext>T</m:mtext><m:mi>c</m:mi></m:msup><m:msup><m:mtext>I</m:mtext><m:mi>d</m:mi></m:msup><m:msup><m:mtext>Θ</m:mtext><m:mi>e</m:mi></m:msup><m:msup><m:mtext>N</m:mtext><m:mi>f</m:mi></m:msup><m:msup><m:mtext>J</m:mtext><m:mi>g</m:mi></m:msup></m:mrow></m:math> para algunas potencias <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>,</m:mo><m:mi>d</m:mi><m:mo>,</m:mo><m:mi>e</m:mi><m:mo>,</m:mo><m:mi>f</m:mi><m:mo>,</m:mo></m:mrow></m:math> y <emphasis effect="italics">g</emphasis>. Podemos escribir las dimensiones de una longitud en esta forma con <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> y las seis potencias restantes, todas iguales a cero: <m:math><m:mrow><m:msup><m:mtext>L</m:mtext><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mtext>L</m:mtext><m:mn>1</m:mn></m:msup><m:msup><m:mtext>M</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>T</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>I</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>Θ</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>N</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>J</m:mtext><m:mn>0</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Cualquier cantidad con una dimensión que pueda escribirse de forma que las siete potencias sean cero (es decir, su dimensión es <m:math><m:mrow><m:msup><m:mtext>L</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>M</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>T</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>I</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>Θ</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>N</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>J</m:mtext><m:mn>0</m:mn></m:msup></m:mrow></m:math>) se denomina <term>adimensional</term> (o a veces "de dimensión 1", porque cualquier cosa elevada a la potencia cero es uno). Los físicos suelen llamar a las cantidades adimensionales <emphasis effect="italics">números puros</emphasis>.</para>
+<table id="fs-id1168328269910" summary="This table has two columns and eight rows. The first row is a header row and labels the columns “Base Quantity,” and “Symbol for Dimension.” The remaining rows are as follows: Length, L; Mass, M; Time, T; Current, I; Thermodynamic temperature, Theta; Amount of substance, N; Luminous intensity, J.">
+<title>Cantidades base y sus dimensiones</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Cantidad base</emphasis></entry>
+<entry valign="top" align="left"><emphasis effect="bold">Símbolo de la dimensión</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Longitud</entry>
+<entry valign="middle" align="left">L</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Masa</entry>
+<entry valign="middle" align="left">M</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Tiempo</entry>
+<entry valign="middle" align="left">T</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Corriente</entry>
+<entry valign="middle" align="left">I</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Temperatura termodinámica</entry>
+<entry valign="middle" align="left">Θ</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Cantidad de sustancia</entry>
+<entry valign="middle" align="left">N</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Intensidad luminosa</entry>
+<entry valign="middle" align="left">J</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1168328227587">Los físicos suelen utilizar corchetes alrededor del símbolo de una cantidad física para representar las dimensiones de dicha magnitud. Por ejemplo, si <m:math><m:mi>r</m:mi></m:math> es el radio de un cilindro y <m:math><m:mi>h</m:mi></m:math> es su altura, entonces escribimos <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>r</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mtext>L</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>h</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mtext>L</m:mtext></m:mrow></m:math> para indicar que las dimensiones del radio y de la altura son las de la longitud, o L. Del mismo modo, si utilizamos el símbolo <m:math><m:mi>A</m:mi></m:math> para el área de la superficie de un cilindro y <m:math><m:mi>V</m:mi></m:math> para su volumen, entonces<emphasis effect="italics">[A</emphasis>] = L<sup>2</sup> y <emphasis effect="italics">[V</emphasis>] = L<sup>3</sup>. Si utilizamos el símbolo <m:math><m:mi>m</m:mi></m:math> para la masa del cilindro y <m:math><m:mi>ρ</m:mi></m:math> para la densidad del material del que está hecho el cilindro, entonces <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>m</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mtext>M</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>ρ</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>ML</m:mtext></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para><para id="fs-id1168328194195">La importancia del concepto de dimensión surge del hecho de que cualquier ecuación matemática que relacione cantidades físicas debe ser <term>dimensionalmente coherente</term>, lo que significa que la ecuación debe obedecer las siguientes reglas:</para>
+<list id="fs-id1168328228670" list-type="bulleted" bullet-style="bullet">
+<item>Todos los términos de una expresión deben tener las mismas dimensiones; no tiene sentido sumar o restar cantidades de distinta dimensión (piense en el viejo dicho: "No se pueden sumar manzanas y naranjas"). En particular, las expresiones de cada lado de la igualdad en una ecuación deben tener las mismas dimensiones.</item>
+<item>Los argumentos de cualquiera de las funciones matemáticas estándar como las funciones trigonométricas (como el seno y el coseno), los logaritmos o las funciones exponenciales que aparecen en la ecuación deben ser adimensionales. Estas funciones requieren números puros como entradas y dan números puros como salidas.</item>
+</list>
+<para id="fs-id1168327924785">Si se viola alguna de estas reglas, una ecuación no es dimensionalmente coherente y no puede ser un enunciado correcto de la ley física. Este simple hecho sirve para comprobar si hay errores tipográficos o de álgebra, recordar las distintas leyes de la física e incluso sugerir la forma que podrían adoptar las nuevas leyes de la física. Este último uso de las dimensiones no se contempla en este texto, pero es algo que sin duda aprenderá más adelante en su carrera académica.</para>
+<example id="fs-id1168327875278">
+<para id="fs-id1168328260225">
+<title>Usar las dimensiones para recordar una ecuación</title>
+Supongamos que necesitamos la fórmula del área de un círculo para algún cálculo. Al igual que muchas personas que aprendieron geometría hace demasiado tiempo como para recordarlo con certeza, hay dos expresiones que nos vienen a la mente cuando pensamos en círculos: <m:math><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> y <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math> Una expresión es la circunferencia de un círculo de radio <emphasis effect="italics">r</emphasis> y la otra es su área. Pero ¿cuál es cuál?</para>
+<para id="fs-id1168328200011">
+<title>Estrategia</title>
+Una estrategia natural es buscarla, pero puede llevar tiempo encontrar información de una fuente fiable. Además, aunque creamos que la fuente es fiable, no debemos confiar en todo lo que leemos. Es bueno tener una forma de comprobarlo dos veces con solo pensarlo. Además, es posible que nos encontremos en una situación en la que no podamos consultar estos aspectos (por ejemplo, durante un examen). Por lo tanto, la estrategia es encontrar las dimensiones de ambas expresiones por el hecho de que dichas dimensiones siguen las reglas de álgebra. Si una de las expresiones no tiene las mismas dimensiones que el área, entonces no puede ser la ecuación correcta para el área de un círculo.</para>
+<para id="fs-id1168328166110">
+<title>Solución</title>
+Sabemos que la dimensión del área es L<sup>2</sup>. Ahora, la dimensión de la expresión <m:math><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> es</para>
+<equation id="fs-id1168328230548" class="unnumbered"><label/><m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mo stretchy="false">[</m:mo><m:mi>π</m:mi><m:mo stretchy="false">]</m:mo><m:mo>·</m:mo><m:msup><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>r</m:mi><m:mo stretchy="false">]</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:msup><m:mtext>L</m:mtext><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mtext>L</m:mtext><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168327873797">ya que la constante <m:math><m:mi>π</m:mi></m:math> es un número puro y el radio <m:math><m:mi>r</m:mi></m:math> es una longitud. Por lo tanto, <m:math><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> tiene la dimensión de área. Del mismo modo, la dimensión de la expresión <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:math> es</para>
+<equation id="fs-id1168327928019" class="unnumbered"><label/><m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mo stretchy="false">[</m:mo><m:mn>2</m:mn><m:mo stretchy="false">]</m:mo><m:mo>·</m:mo><m:mo stretchy="false">[</m:mo><m:mi>π</m:mi><m:mo stretchy="false">]</m:mo><m:mo>·</m:mo><m:mo stretchy="false">[</m:mo><m:mi>r</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mtext>L</m:mtext><m:mo>=</m:mo><m:mtext>L,</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1168328144407">ya que las constantes <m:math><m:mn>2</m:mn></m:math> y <m:math><m:mi>π</m:mi></m:math> son adimensionales y el radio <m:math><m:mi>r</m:mi></m:math> es una longitud. Vemos que <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:math> tiene la dimensión de la longitud, lo que significa que no puede ser un área.</para>
+<para id="fs-id1168328196275">Descartamos <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:math> porque no es dimensionalmente coherente con ser un área. Vemos que <m:math><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> es dimensionalmente coherente con ser un área, así que si tenemos que elegir entre estas dos expresiones, <m:math><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> es la que hay que elegir.</para>
+<para id="fs-id1168328292063">
+<title>Importancia</title>
+Esto puede parecer un ejemplo tonto, pero las ideas son muy generales. Siempre que conozcamos las dimensiones de cada una de las magnitudes físicas que aparecen en una ecuación, podremos comprobar si la ecuación es dimensionalmente coherente. Por otro lado, al saber que las ecuaciones verdaderas son dimensionalmente coherentes, podemos hacer coincidir las expresiones de nuestra memoria imperfecta con las cantidades para las que podrían ser expresiones. Hacer esto no nos ayudará a recordar los factores adimensionales que aparecen en las ecuaciones (por ejemplo, si accidentalmente hubiera confundido las dos expresiones del ejemplo en <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> entonces el análisis dimensional no ayuda), aunque sí nos permite recordar la forma básica correcta de las ecuaciones.</para>
+</example>
+<note id="fs-id1168327966053" class="check-understanding">
+<exercise id="fs-id1168328063625">
+<problem id="fs-id1168327920976">
+<para id="fs-id1168327948336"> Supongamos que queremos la fórmula del volumen de una esfera. Las dos expresiones que suelen mencionarse en los análisis elementales de las esferas son <m:math><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> y <m:math><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> Una es el volumen de una esfera de radio <emphasis effect="italics">r</emphasis> y la otra es su superficie. ¿Cuál es el volumen?</para>
+</problem>
+<solution id="fs-id1168328152709">
+<para id="fs-id1168327943803"><m:math><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168327962248">
+<para id="fs-id1168327876346">
+<title>Comprobación de la coherencia dimensional de las ecuaciones</title>
+Considere las cantidades físicas <m:math><m:mi>s</m:mi><m:mo>,</m:mo></m:math> <m:math><m:mi>v</m:mi><m:mo>,</m:mo></m:math> <m:math><m:mi>a</m:mi><m:mo>,</m:mo></m:math> y <m:math><m:mi>t</m:mi></m:math> con dimensiones <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>s</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mtext>L</m:mtext><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>v</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>t</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Determine si cada una de las siguientes ecuaciones es dimensionalmente coherente: (a) <m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>0,5</m:mn><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>0,5</m:mn><m:mi>a</m:mi><m:mi>t</m:mi><m:mo>;</m:mo></m:mrow></m:math> y (c) <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mtext>sen</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mi>s</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1168327934569">
+<title>Estrategia</title>
+Según la definición de coherencia dimensional, tenemos que comprobar que cada término de una ecuación dada tiene las mismas dimensiones que los demás términos de esa ecuación y que los argumentos de cualquier función matemática estándar son adimensionales.</para>
+<para id="fs-id1168327942625">
+<title>Solución</title></para>
+<list id="fs-id1168327934419" list-type="enumerated" number-style="lower-alpha"><item>No hay funciones trigonométricas, logarítmicas ni exponenciales de las que preocuparse en esta ecuación, por lo que solo tenemos que fijarnos en las dimensiones de cada término que aparece en la ecuación. Hay tres términos, uno en la expresión de la izquierda y dos en la expresión de la derecha, así que los examinaremos uno por uno:
+<equation id="fs-id1168328246149" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo stretchy="false">[</m:mo><m:mi>s</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mtext>L</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo stretchy="false">[</m:mo><m:mi>v</m:mi><m:mi>t</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mo stretchy="false">[</m:mo><m:mi>v</m:mi><m:mo stretchy="false">]</m:mo><m:mo>·</m:mo><m:mo stretchy="false">[</m:mo><m:mi>t</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:mtext>T</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mtext>L</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo stretchy="false">[</m:mo><m:mn>0,5</m:mn><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mo stretchy="false">]</m:mo><m:mo>·</m:mo><m:msup><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>t</m:mi><m:mo stretchy="false">]</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mtext>T</m:mtext><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mtext>L</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation> Los tres términos tienen la misma dimensión, por lo que esta ecuación es dimensionalmente coherente.</item>
+<item>De nuevo, no hay funciones trigonométricas, exponenciales ni logarítmicas, por lo que solo tenemos que mirar las dimensiones de cada uno de los tres términos que aparecen en la ecuación:
+<equation id="fs-id1168327968069" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo stretchy="false">[</m:mo><m:mi>s</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mtext>L</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo stretchy="false">[</m:mo><m:mi>v</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mo stretchy="false">[</m:mo><m:mi>v</m:mi><m:mo stretchy="false">]</m:mo><m:mo>·</m:mo><m:msup><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>t</m:mi><m:mo stretchy="false">]</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mtext>T</m:mtext><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mtext>LT</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mi>t</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mo stretchy="false">]</m:mo><m:mo>·</m:mo><m:mo stretchy="false">[</m:mo><m:mi>t</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:mtext>T</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation> Ninguno de los tres términos tiene la misma dimensión que otro, así que esto es lo incompatible con la coherencia dimensional. El término técnico para una ecuación como esta es <emphasis effect="italics">sin sentido</emphasis>.</item>
+<item>Esta ecuación contiene una función trigonométrica, por lo que primero debemos comprobar que el argumento de la función seno es adimensional:
+<equation id="fs-id1168328067628" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>s</m:mi></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mo stretchy="false">]</m:mo><m:mo>·</m:mo><m:msup><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>t</m:mi><m:mo stretchy="false">]</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>s</m:mi><m:mo stretchy="false">]</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mtext>T</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>L</m:mtext></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mtext>L</m:mtext><m:mtext>L</m:mtext></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation> El argumento es adimensional. Hasta ahora, todo va bien. Ahora tenemos que comprobar las dimensiones de cada uno de los dos términos (es decir, la expresión de la izquierda y la de la derecha) de la ecuación:
+<equation id="fs-id1168327968560" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo stretchy="false">[</m:mo><m:mi>v</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>[</m:mo><m:mrow><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>s</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list><para id="fs-id1168327988704">Los dos términos tienen dimensiones diferentes, es decir, la ecuación no es dimensionalmente coherente. Esta ecuación es otro ejemplo de "sin sentido".</para>
+<para id="fs-id1168328187420">
+<title>Importancia</title>
+Si confiamos en las personas, este tipo de comprobaciones dimensionales pueden parecer innecesarias. Sin embargo, tranquilo, cualquier libro de texto sobre una materia cuantitativa como la física (incluido este) contiene casi con toda seguridad algunas ecuaciones con errores tipográficos. La comprobación rutinaria de las ecuaciones mediante el análisis dimensional nos ahorra la vergüenza de utilizar una ecuación incorrecta. Además, comprobar las dimensiones de una ecuación que obtenemos a través de la manipulación algebraica es una buena manera de asegurarnos de que no nos hemos equivocado (o de detectar un error, si lo hemos hecho).</para>
+</example>
+<note id="fs-id1168328324841" class="check-understanding">
+<exercise id="fs-id1168328196554">
+<problem id="fs-id1168328311467">
+<para id="fs-id1168328223038"> ¿La ecuación <emphasis effect="italics">v</emphasis> = <emphasis effect="italics">at</emphasis> es dimensionalmente coherente?</para>
+</problem>
+<solution id="fs-id1168328194212">
+<para id="fs-id1168328290643">sí</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1168328267650">Otro punto que hay que mencionar es el efecto de las operaciones de cálculo sobre las dimensiones. Hemos visto que las dimensiones obedecen a las reglas de álgebra, al igual que las unidades, pero ¿qué ocurre cuando tomamos la derivada de una cantidad física con respecto a otra o integramos una cantidad física sobre otra? La derivada de una función no es más que la pendiente de la recta tangente a su gráfico y las pendientes son proporciones, por lo que, para las cantidades físicas <emphasis effect="italics">v</emphasis> y <emphasis effect="italics">t</emphasis>, tenemos que la dimensión de la derivada de <emphasis effect="italics">v</emphasis> respecto a <emphasis effect="italics">t</emphasis> no es más que la proporción de la dimensión de <emphasis effect="italics">v</emphasis> sobre la de <emphasis effect="italics">t</emphasis>:</para>
+<equation id="fs-id1168328355646" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>v</m:mi><m:mo stretchy="false">]</m:mo></m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>t</m:mi><m:mo stretchy="false">]</m:mo></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168328277240">Del mismo modo, dado que las integrales son solo sumas de productos, la dimensión de la integral de <emphasis effect="italics">v</emphasis> con respecto a <emphasis effect="italics">t</emphasis> es simplemente la dimensión de <emphasis effect="italics">v</emphasis> por la dimensión de <emphasis effect="italics">t</emphasis>:</para>
+<equation id="fs-id1168328240961" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mi>v</m:mi></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mo stretchy="false">[</m:mo><m:mi>v</m:mi><m:mo stretchy="false">]</m:mo><m:mo>·</m:mo><m:mo stretchy="false">[</m:mo><m:mi>t</m:mi><m:mo stretchy="false">]</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168328025044">Por el mismo razonamiento, las reglas análogas son válidas para las unidades de las cantidades físicas derivadas de otras cantidades por integración o diferenciación.</para>
+<section id="fs-id1168328356781" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1168327870263" list-type="bulleted" bullet-style="bullet">
+<item>La dimensión de una cantidad física no es más que la expresión de las magnitudes de base de las que se deriva.</item>
+<item>Todas las ecuaciones que expresen leyes o principios físicos deberán ser dimensionalmente coherentes. Este hecho puede utilizarse como ayuda para recordar las leyes físicas, como forma de comprobar si son posibles las relaciones entre cantidades físicas que se afirman, e incluso para derivar nuevas leyes físicas.</item>
+</list>
+</section>
+<section id="fs-id1168328364228" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1168327942540">
+<problem id="fs-id1168327942542">
+<para id="fs-id1168328329443">Un estudiante intenta recordar algunas fórmulas de geometría. En consecuencia, supongamos que <m:math><m:mi>A</m:mi></m:math> es área, <m:math><m:mi>V</m:mi></m:math> es volumen, y todas las demás variables son longitudes. Determine qué fórmulas son dimensionalmente coherentes. (a) <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi><m:mo>;</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>h</m:mi><m:mo>;</m:mo></m:mrow></m:math> (c) <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0,5</m:mn><m:mi>b</m:mi><m:mi>h</m:mi><m:mo>;</m:mo></m:mrow></m:math> (d) <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> (e) <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mn>3</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328369689">
+<problem id="fs-id1168328369691">
+<para id="fs-id1168328365066">Considere las cantidades físicas <emphasis effect="italics">s</emphasis>, <emphasis effect="italics">v, a</emphasis> y <emphasis effect="italics">t</emphasis> con dimensiones <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>s</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mtext>L</m:mtext><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>v</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>t</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Determine si cada una de las siguientes ecuaciones es dimensionalmente coherente. (a) <m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>s</m:mi><m:mo>;</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>0,5</m:mn><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> (c) <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>s</m:mi><m:mtext>/</m:mtext><m:mi>t</m:mi><m:mo>;</m:mo></m:mrow></m:math> (d) <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mtext>/</m:mtext><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168328201713">
+<para id="fs-id1168328201715">a. Sí, ambos términos tienen la dimensión L<sup>2</sup>T<sup>-2</sup> b. No. c. Sí, ambos términos tienen la dimensión LT<sup>-1</sup> d. Sí, ambos términos tienen la dimensión LT<sup>-2</sup></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327948663">
+<problem id="fs-id1168327948665">
+<para id="fs-id1168327948668">Considere las cantidades físicas <m:math><m:mi>m</m:mi><m:mo>,</m:mo></m:math> <m:math><m:mi>s</m:mi><m:mo>,</m:mo></m:math> <m:math><m:mi>v</m:mi><m:mo>,</m:mo></m:math> <m:math><m:mi>a</m:mi><m:mo>,</m:mo></m:math> y <m:math><m:mi>t</m:mi></m:math> con dimensiones [<emphasis effect="italics">m</emphasis>] = M, [<emphasis effect="italics">s</emphasis>] = L, [<emphasis effect="italics">v</emphasis>] = LT<sup>-1</sup>, [<emphasis effect="italics">a</emphasis>] = LT<sup>-2</sup>, y [<emphasis effect="italics">t</emphasis>] = T. Suponiendo que cada una de las siguientes ecuaciones es dimensionalmente coherente, halle la dimensión de la cantidad en el lado izquierdo de la ecuación: (a) <emphasis effect="italics">F</emphasis> = <emphasis effect="italics">ma</emphasis>; (b) <emphasis effect="italics">K</emphasis> = 0,5<emphasis effect="italics">mv</emphasis><sup>2</sup>; (c) <emphasis effect="italics">p</emphasis> = <emphasis effect="italics">mv</emphasis>; (d) <emphasis effect="italics">W</emphasis> = <emphasis effect="italics">mas</emphasis>; (e) <emphasis effect="italics">L = mvr</emphasis>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168327876941">
+<problem id="fs-id1168327998123">
+<para id="fs-id1168327998125">Supongamos que la cantidad <m:math><m:mi>s</m:mi></m:math> es la longitud y la cantidad <m:math><m:mi>t</m:mi></m:math> el tiempo. Supongamos que las cantidades <m:math><m:mi>v</m:mi></m:math> y <m:math><m:mi>a</m:mi></m:math> están definidas por <emphasis effect="italics">v</emphasis> = <emphasis effect="italics">ds</emphasis>/<emphasis effect="italics">dt</emphasis> y <emphasis effect="italics">a</emphasis> = <emphasis effect="italics">dv</emphasis>/<emphasis effect="italics">dt</emphasis>. (a) ¿Cuál es la dimensión de <emphasis effect="italics">v</emphasis>? (b) ¿Cuál es la dimensión de la cantidad <emphasis effect="italics">a</emphasis>? ¿Cuáles son las dimensiones de (c) <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mi>v</m:mi></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> (d) <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mi>a</m:mi></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> y (e) <emphasis effect="italics">da</emphasis>/<emphasis effect="italics">dt</emphasis>?</para>
+</problem>
+<solution id="fs-id1168328204280">
+<para id="fs-id1168327862374">a. [v] = LT<sup>-1</sup>; b. [a] = LT<sup>-2</sup>; c. <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow><m:mo>]</m:mo><m:mo>=</m:mo><m:mtext>L;</m:mtext></m:mrow></m:mrow></m:math> d. <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mi>a</m:mi></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>-1</m:mn></m:mrow></m:msup><m:mtext>;</m:mtext></m:mrow></m:math> e. <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>LT</m:mtext></m:mrow><m:mrow><m:mn>-3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328144822">
+<problem id="fs-id1168328144824">
+<para id="fs-id1168327956741">Supongamos que [V] = L<sup>3</sup>, <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>ρ</m:mi><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>ML</m:mtext></m:mrow><m:mrow><m:mn>-3</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> y [t] = T. (a) ¿Cuál es la dimensión de <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mi>ρ</m:mi></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>?</m:mo></m:mrow></m:math> (b) ¿Cuál es la dimensión de <emphasis effect="italics">dV</emphasis>/<emphasis effect="italics">dt</emphasis>? (c) ¿Cuál es la dimensión de <m:math><m:mrow><m:mi>ρ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168327918102">
+<problem id="fs-id1168328364252">
+<para id="fs-id1168328364255">La fórmula de la longitud de arco señala que la longitud <m:math><m:mi>s</m:mi></m:math> de arco subtendido por el ángulo <m:math><m:mo>Ɵ</m:mo></m:math> en un círculo de radio <m:math><m:mi>r</m:mi></m:math> viene dada por la ecuación <m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mo>Ɵ</m:mo><m:mo>.</m:mo></m:mrow></m:math> ¿Cuáles son las dimensiones de (a) <emphasis effect="italics">s</emphasis>, (b) <emphasis effect="italics">r</emphasis>, y (c) <m:math><m:mtext>Ɵ?</m:mtext></m:math></para></problem>
+<solution id="fs-id1168327948973">
+<para id="fs-id1168327948975">a. L; b. L; c. L<sup>0</sup> = 1 (es decir, es adimensional)</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1168327872808">
+<term>dimensión</term>
+<meaning id="fs-id1168327908525">expresión de la dependencia de una cantidad física de las cantidades base como producto de potencias de símbolos que representan las cantidades base; en general, la dimensión de una cantidad tiene la forma <m:math><m:mrow><m:msup><m:mtext>L</m:mtext><m:mtext>a</m:mtext></m:msup><m:msup><m:mtext>M</m:mtext><m:mtext>b</m:mtext></m:msup><m:msup><m:mtext>T</m:mtext><m:mtext>c</m:mtext></m:msup><m:msup><m:mtext>I</m:mtext><m:mtext>d</m:mtext></m:msup><m:msup><m:mtext>Θ</m:mtext><m:mtext>e</m:mtext></m:msup><m:msup><m:mtext>N</m:mtext><m:mtext>f</m:mtext></m:msup><m:msup><m:mtext>J</m:mtext><m:mtext>g</m:mtext></m:msup></m:mrow></m:math> para algunas potencias a, b, c, d, e, f y g.</meaning>
+</definition>
+<definition id="fs-id1168328025074">
+<term>dimensionalmente coherente</term>
+<meaning id="fs-id1168327873954">ecuación en la que cada término tiene las mismas dimensiones y los argumentos de las funciones matemáticas que aparecen en la ecuación son adimensionales</meaning>
+</definition>
+<definition id="fs-id1168328321073">
+<term>adimensional</term>
+<meaning id="fs-id1168327949717">cantidad con una dimensión de <m:math><m:mrow><m:msup><m:mtext>L</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>M</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>T</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>I</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>Θ</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>N</m:mtext><m:mn>0</m:mn></m:msup><m:msup><m:mtext>J</m:mtext><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>;</m:mo></m:mrow></m:math> también llamada cantidad de dimensión 1 o número puro</meaning>
+</definition>
+</glossary>
+</document>

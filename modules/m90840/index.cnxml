@@ -1,0 +1,443 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Procesos adiabáticos para un gas ideal</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90840</md:content-id>
+  <md:title>Procesos adiabáticos para un gas ideal</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Definir la expansión adiabática de un gas ideal.</item>
+<item>Demostrar la diferencia cualitativa entre expansiones adiabáticas e isotérmicas.</item>
+</list></md:abstract>
+  <md:uuid>f99b1490-d563-496b-8c68-390e2dd3eb1b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172098592340">Cuando un gas ideal se comprime adiabáticamente <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> se realiza trabajo sobre él y su temperatura aumenta; en una <term class="no-emphasis">expansión adiabática</term>, el gas realiza trabajo y su temperatura desciende. Las <term class="no-emphasis">compresiones adiabáticas</term> se producen en realidad en los cilindros de un automóvil, donde las compresiones de la mezcla de gas y aire ocurren tan rápidamente que no hay tiempo para que la mezcla intercambie calor con su ambiente. Aun así, como se realiza un trabajo sobre la mezcla durante la compresión, su temperatura aumenta considerablemente. De hecho, los aumentos de temperatura pueden ser tan grandes que la mezcla puede explotar sin necesidad de una chispa. Estas explosiones, al no estar cronometradas, hacen que el automóvil funcione con deficiencia: suele “golpear”. Dado que la temperatura de ignición aumenta con el octanaje de la gasolina, una forma de superar este problema es utilizar una gasolina de mayor octanaje.</para>
+<para id="fs-id1172100560963">Otro proceso adiabático interesante es la expansión libre de un gas. En la <link target-id="CNX_UPhysics_20_06_FreeExp"/> se muestra un gas confinado por una membrana a un lado de un recipiente de dos compartimentos aislado térmicamente. Cuando se perfora la membrana, el gas entra en el lado vacío del recipiente y se expande libremente. Porque el gas se expande “contra el vacío” <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, no realiza ningún trabajo, y como el recipiente está aislado térmicamente, la expansión es adiabática. Con <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> y <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> en la primera ley, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> así que <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:msub><m:mrow/><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:msub><m:mrow/><m:mi>f</m:mi></m:msub></m:mrow></m:math> para la expansión libre.</para>
+<figure id="CNX_UPhysics_20_06_FreeExp">
+<media id="fs-id1172100936317" alt="La figura de la izquierda es una ilustración del estado de equilibrio inicial de un recipiente con una división en el centro que lo separa en dos cámaras. Las paredes exteriores están aisladas. La cámara de la izquierda está llena de gas, indicada por un sombreado azul y muchos puntos pequeños que representan las moléculas de gas. La cámara derecha está vacía. La figura de la derecha es una ilustración del estado de equilibrio final del recipiente. La división tiene un agujero. Todo el recipiente, a ambos lados de la división, está lleno de gas, lo que se indica por el sombreado azul y muchos puntos pequeños que representan las moléculas de gas. Los puntos de la segunda ilustración, la del estado de equilibrio final, son menos densos que los de la primera ilustración, la del estado inicial.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_06_FreeExp.jpg"/>
+</media>
+<caption>El gas de la cámara izquierda se expande libremente hacia la cámara derecha cuando se perfora la membrana.</caption>
+</figure>
+<para id="fs-id1172096044321">Si el gas es ideal, la energía interna depende solo de la temperatura. Por lo tanto, cuando un gas ideal se expande libremente, su temperatura no cambia.</para>
+<para id="fs-id1172098371365">Una expansión cuasiestática adiabática de un gas ideal se representa en la <link target-id="CNX_UPhysics_20_06_Quasistat"/>, que muestra un cilindro aislado que contiene 1 mol de un gas ideal. Se hace que el gas se expanda de forma cuasiestática al retirar un grano de arena a la vez de la parte superior del pistón. Cuando el gas se expande en <emphasis effect="italics">dV</emphasis>, el cambio en su temperatura es <emphasis effect="italics">dT</emphasis>. El trabajo realizado por el gas en la expansión es <m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>;</m:mo><m:mi>d</m:mi><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> porque el cilindro está aislado; y el cambio en la energía interna del gas es, desde la <link target-id="fs-id1172098447995" document="m90838"/>, <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mi>n</m:mi><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, a partir de la primera ley,</para><equation id="fs-id1172100528492" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mi>n</m:mi><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1172098460428">así que</para>
+<equation id="fs-id1172098524812" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mi>n</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><figure id="CNX_UPhysics_20_06_Quasistat">
+<media id="fs-id1172098459022" alt="La figura es una ilustración de un recipiente. Las paredes y el fondo están rellenos con una gruesa capa de aislamiento. La cámara del recipiente se cierra desde arriba mediante un pistón. Dentro de la cámara hay un gas. Hay un montón de arena encima del pistón, y una mano con pinzas está sacando granos del montón.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_06_Quasistat.jpg"/>
+</media>
+<caption>Cuando se retira la arena del pistón, grano a grano, el gas se expande adiabática y cuasiestáticamente en el recipiente aislado.</caption>
+</figure>
+<para id="fs-id1172098294869">Además, para 1 mol de un gas ideal,</para>
+<equation id="fs-id1172098649376" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mi>V</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mi>R</m:mi><m:mi>n</m:mi><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation><para id="fs-id1172100653420">así que</para>
+<equation id="fs-id1172101031772" class="unnumbered"><label/><m:math><m:mrow><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>+</m:mo><m:mi>V</m:mi><m:mi>d</m:mi><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mi>n</m:mi><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:math></equation><para id="fs-id1172100972675">y</para>
+<equation id="fs-id1172100908970" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>+</m:mo><m:mi>V</m:mi><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mrow><m:mi>R</m:mi><m:mi>n</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1172100850958">Ahora tenemos dos ecuaciones para <emphasis effect="italics">dT</emphasis>. Al equipararlos, hallamos que</para>
+<equation id="fs-id1172096023291" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mi>n</m:mi><m:mi>V</m:mi><m:mi>d</m:mi><m:mi>p</m:mi><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mi>n</m:mi><m:mo>+</m:mo><m:mi>R</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1172100893733">Ahora, dividimos esta ecuación entre <emphasis effect="italics">npV</emphasis> y usamos <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow></m:math>. Nos quedamos entonces con</para><equation id="fs-id1172100623872" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mi>p</m:mi></m:mfrac><m:mo>+</m:mo><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100630431">que se convierte en</para>
+<equation id="fs-id1172100988301" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mi>p</m:mi></m:mfrac><m:mo>+</m:mo><m:mi>γ</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100925719">donde definimos <m:math><m:mtext>γ</m:mtext></m:math> como la relación de las capacidades térmicas molares:</para>
+<note id="fs-id1172098358341" class="equation-callout">
+<equation id="fs-id1172100814684"><label/><m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172098406869">Así,</para>
+<equation id="fs-id1172098586261" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mi>p</m:mi></m:mfrac><m:mo>+</m:mo><m:mi>γ</m:mi><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1172100664196">y</para>
+<equation id="fs-id1172100624866" class="unnumbered"><label/><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>p</m:mi><m:mo>+</m:mo><m:mtext>γ</m:mtext><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>V</m:mi><m:mo>=</m:mo><m:mtext>constante</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172100958925">Por último, al usar <m:math><m:mrow><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:msup><m:mi>A</m:mi><m:mi>x</m:mi></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mtext>ln</m:mtext><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>A</m:mi><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>A</m:mi><m:mo>+</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>B</m:mi></m:mrow></m:math>, podemos escribirla de la forma</para>
+<note id="fs-id1172100716384" class="equation-callout">
+<equation id="fs-id1172096146381"><label/><m:math><m:mrow><m:mi>p</m:mi><m:msup><m:mi>V</m:mi><m:mi>γ</m:mi></m:msup><m:mo>=</m:mo><m:mtext>constante</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172098523552">Esta ecuación es la condición que debe cumplir un gas ideal en un proceso adiabático cuasiestático. Por ejemplo, si un gas ideal realiza una transición adiabática cuasiestática desde un estado con presión y volumen <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> a un estado con <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> entonces debe ser cierto que <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>1</m:mn><m:mi>γ</m:mi></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>2</m:mn><m:mi>γ</m:mi></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172100624216">La condición adiabática de la <link target-id="fs-id1172096146381"/> se puede escribir en términos de otros pares de variables termodinámicas combinándola con la ley de los gases ideales. Al hacer esto, hallamos que</para>
+<equation id="fs-id1172098408409"><m:math><m:mrow><m:msup><m:mi>p</m:mi><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>γ</m:mi></m:mrow></m:msup><m:msup><m:mi>T</m:mi><m:mi>γ</m:mi></m:msup><m:mo>=</m:mo><m:mtext>constante</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172098449068">y</para>
+<equation id="fs-id1172101006189"><m:math><m:mrow><m:mi>T</m:mi><m:msup><m:mi>V</m:mi><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mtext>constante</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172100936148">Una expansión adiabática reversible de un gas ideal se representa en el diagrama <emphasis effect="italics">pV</emphasis> de la <link target-id="CNX_UPhysics_20_06_AdiabIsoth"/>. La pendiente de la curva en cualquier punto es</para>
+<equation id="fs-id1172100657694" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mtext>constante</m:mtext></m:mrow><m:mrow><m:msup><m:mi>V</m:mi><m:mi>γ</m:mi></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>γ</m:mi><m:mfrac><m:mi>p</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_20_06_AdiabIsoth">
+<media id="fs-id1172100761220" alt="La figura es un trazado de presión, p, en el eje vertical como una función de volumen, V, en el eje horizontal. Se trazan dos curvas. Ambos son monótonamente decrecientes y cóncavos. Uno es ligeramente más alto y tiene una mayor curvatura. Esta curva está identificada como “isotérmica”. La segunda curva está por debajo de la curva isotérmica y tiene una curvatura ligeramente menor. Esta curva está identificada como “adiabática”.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_06_AdiabIsoth.jpg"/>
+</media>
+<caption>Expansiones adiabáticas e isotérmicas cuasiestáticas de un gas ideal.</caption>
+</figure>
+<para id="fs-id1172100559491">La curva discontinua que se muestra en este diagrama de <emphasis effect="italics">pV</emphasis> representa una expansión isotérmica en la que <emphasis effect="italics">T</emphasis> (y por tanto <emphasis effect="italics">pV</emphasis>) es constante. La pendiente de esta curva es útil cuando consideramos la segunda ley de la termodinámica en el próximo capítulo. Esta pendiente es</para>
+<equation id="fs-id1172096034216" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>p</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>p</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100909260">Porque <m:math><m:mrow><m:mtext>γ</m:mtext><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> la curva isotérmica no es tan pronunciada como la de la expansión adiabática.</para>
+
+<example id="fs-id1172098497596">
+<para id="fs-id1172100965550"><title>Compresión de un gas ideal en un motor de automóvil</title>
+El vapor de la gasolina se inyecta en el cilindro de un motor de automóvil cuando el pistón está en posición de expansión. La temperatura, la presión y el volumen de la mezcla gas-aire resultante son <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>,</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>240</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>, respectivamente. A continuación, la mezcla se comprime adiabáticamente hasta un volumen de <m:math><m:mrow><m:mn>40</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. Tome en cuenta que en el funcionamiento real de un motor de automóvil, la compresión no es cuasiestática, aunque aquí hagamos esa suposición. (a) ¿Cuáles son la presión y la temperatura de la mezcla después de la compresión? (b) ¿Cuánto trabajo realiza la mezcla durante la compresión?</para>
+<para id="fs-id1172098291187"><title>Estrategia</title>
+Como estamos modelando el proceso como una compresión adiabática cuasiestática de un gas ideal, tenemos <m:math><m:mrow><m:mi>p</m:mi><m:msup><m:mi>V</m:mi><m:mi>γ</m:mi></m:msup><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mtext>constante</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow></m:math>. El trabajo necesario se puede entonces evaluar con <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math>.</para>
+<para id="fs-id1172098353587"><title>Solución</title></para>
+<list id="fs-id1167741334099" list-type="enumerated" number-style="lower-alpha">
+<item>Para una compresión adiabática tenemos
+<equation id="fs-id1167741588358" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>γ</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+por lo que después de la compresión, la presión de la mezcla es
+<equation id="fs-id1167741510273" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>240</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1,40</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>1,23</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+A partir de la ley de los gases ideales, la temperatura de la mezcla después de la compresión es
+<equation id="fs-id1167741539486" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,23</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>240</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>·</m:mo><m:mn>293</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>600</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>=</m:mo><m:mn>328</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+</item>
+<item>El trabajo realizado por la mezcla durante la compresión es
+<equation id="fs-id1167741320556" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+Con la condición adiabática de la <link target-id="fs-id1172096146381"/>, podemos escribir <emphasis effect="italics">p</emphasis> como <m:math><m:mrow><m:mrow><m:mi>K</m:mi><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>V</m:mi><m:mtext>γ</m:mtext></m:msup></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>1</m:mn><m:mi>γ</m:mi></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>2</m:mn><m:mi>γ</m:mi></m:msubsup><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, el trabajo es
+<equation id="fs-id1167741549361" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>W</m:mi></m:mtd><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mi>K</m:mi><m:mrow><m:msup><m:mi>V</m:mi><m:mi>γ</m:mi></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>V</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mfrac><m:mi>K</m:mi><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>γ</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>γ</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>2</m:mn><m:mi>γ</m:mi></m:msubsup></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:msubsup><m:mi>V</m:mi><m:mn>1</m:mn><m:mi>γ</m:mi></m:msubsup></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>γ</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>1,40</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,23</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>N/m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>N/m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>240</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mn>-63</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1172096022205"><title>Importancia</title>
+El signo negativo del trabajo hecho indica que el pistón realiza un trabajo sobre la mezcla gas-aire. El motor no funcionaría si la mezcla de gas y aire funcionara en el pistón.</para>
+</example>
+<section id="fs-id1172096332092" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172098490233" list-type="bulleted" bullet-style="bullet">
+<item>Una expansión adiabática cuasiestática de un gas ideal produce una curva pV más pronunciada que la de la isoterma correspondiente.</item>
+<item>Una expansión realista puede ser adiabática pero es poco común que sea cuasiestática.</item>
+</list>
+</section>
+<section id="fs-id1172100525099" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1172098320730" summary="Eight key equations are given. The Equation of state for a closed system is f of p, V, and T equals zero. The Net work for a finite change in volume is W equals the integral from V 1 to V 2 of p d V. The Internal energy of a system (average total energy) is E int equals the sum over I of K bar I plus U bar i. The Internal energy of a monatomic ideal gas is E int equals n times N A times the quantity three halves k B T. This all also equals three halves n R T. The First law of thermodynamics is Delta E int equals Q minus W. The Molar heat capacity at constant pressure is C p equals C sub V plus R. The Ratio of molar heat capacities is gamma equals C sup p divided by C sub V. The Condition for an ideal gas in a quasi-static adiabatic process is p times the gamma power of V equals a constant." class="unnumbered unstyled">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Ecuación de estado para un sistema cerrado</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo>,</m:mo><m:mi>V</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Trabajo neto para un cambio de volumen finito</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mi>p</m:mi><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energía interna de un sistema (energía total promedio)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mover accent="true"><m:mi>K</m:mi><m:mo>¯</m:mo></m:mover><m:mi>i</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mover accent="true"><m:mi>U</m:mi><m:mo>¯</m:mo></m:mover><m:mi>i</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energía interna de un gas ideal monoatómico</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:msub><m:mi>N</m:mi><m:mtext>A</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Primera ley de la termodinámica</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Capacidad calorífica molar a presión constante</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Relación de capacidades térmicas molares</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Condición para un gas ideal en un proceso adiabático cuasiestático</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>p</m:mi><m:msup><m:mi>V</m:mi><m:mi>γ</m:mi></m:msup><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mtext>constante</m:mtext></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1172100867186" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1172100854678">
+<problem id="fs-id1172100854680">
+<para id="fs-id1172100625440">¿Es posible que <m:math><m:mtext>γ</m:mtext></m:math> sea menor que la unidad?</para>
+</problem>
+<solution id="fs-id1172100894378">
+<para id="fs-id1172100894380">No, siempre es mayor que 1.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172096065589">
+<problem id="fs-id1172096065591">
+<para id="fs-id1172098282907">¿Espera que <m:math><m:mtext>γ</m:mtext></m:math> ser mayor para un gas o un sólido? Explique.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098593991">
+<problem id="fs-id1172098593993">
+<para id="fs-id1172100854545">La energía interna de un gas ideal que sufre un proceso isotérmico no varía, ya que la energía interna solo depende de la temperatura. ¿Es, por tanto, correcto decir que un proceso isotérmico es lo mismo que un proceso adiabático para un gas ideal? Explique su respuesta.</para>
+</problem>
+<solution id="fs-id1172098459277">
+<para id="fs-id1172098544231">Un proceso adiabático tiene un cambio de temperatura pero no hay flujo de calor. El proceso isotérmico no tiene cambio de temperatura, pero tiene flujo de calor.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098642392">
+<problem id="fs-id1172098775249">
+<para id="fs-id1172098775251">¿Un gas realiza algún trabajo cuando se expande adiabáticamente? Si es así, ¿cuál es la fuente de energía necesaria para realizar este trabajo?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172098454180" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172098451861">
+<problem id="fs-id1172100584714">
+<para id="fs-id1172100584716">Un gas ideal monoatómico experimenta una expansión adiabática cuasiestática en la que su volumen se duplica. ¿Cómo cambia la presión del gas?</para>
+</problem>
+<solution id="fs-id1172098585881">
+<para id="fs-id1172098585884">la presión se redujo en 0,31 veces la presión original</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100978763">
+<problem id="fs-id1172100815207">
+<para id="fs-id1172100815209">Un gas ideal tiene una presión de 0,50 atm y un volumen de 10 L. Se comprime adiabática y cuasiestáticamente hasta que su presión es de 3,0 atm y su volumen de 2,8 L. ¿El gas es monoatómico, diatómico o poliatómico?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100674047">
+<problem id="fs-id1172100674050">
+<para id="fs-id1172100828187">A continuación se muestran las mediciones de presión y volumen de un gas diluido que experimenta una expansión adiabática cuasiestática. Grafique ln p versus V y determine <m:math><m:mtext>γ</m:mtext></m:math> para este gas de su gráfico.</para>
+<table id="fs-id1172098450852" summary="The table has two rows and nine columns. The first column is a header column with headings “P (atmosphere)” and “V (Liter).” The first, pressure, row has entries 20.0, 17.0, 14.0, 11.0, 8.0, 5.0, 2.0, and 1.0. The second, volume, row has entries 1.0, 1.1, 1.3, 1.5, 2.0, 2.6, 5.2, and 8.4." class="unnumbered">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">P (atm)</entry>
+<entry valign="top" align="left">V (L)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">20,0</entry>
+<entry valign="top" align="left">1,0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">17,0</entry>
+<entry valign="top" align="left">1,1</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">14,0</entry>
+<entry valign="top" align="left">1,3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">11,0</entry>
+<entry valign="top" align="left">1,5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">8,0</entry>
+<entry valign="top" align="left">2,0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">5,0</entry>
+<entry valign="top" align="left">2,6</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">2,0</entry>
+<entry valign="top" align="left">5,2</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1,0</entry>
+<entry valign="top" align="left">8,4</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-id1172100666120">
+<para id="fs-id1167585024281"><newline/><media id="fs-id1172100666122" alt="La figura es un trazado de presión, p, en atmósferas en el eje vertical como una función de volumen, V, en litros en el eje horizontal. La escala horizontal de volumen va de 0 a 20, y la escala vertical de presión va de 0 a 9. Los datos de la tabla anterior se trazan como puntos, y la ecuación y es igual a 8,4372 x a la potencia menos 0,713 que se traza como una curva. Todos los puntos se encuentran en la curva o muy cerca de ella.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_06_PressVol_img.jpg"/>
+</media><newline/><m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>0,713</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100669552">
+<problem id="fs-id1172098559939">
+<para id="fs-id1172098559942">Un gas monoatómico ideal a 300 K se expande adiabáticamente y de forma reversible hasta el doble de su volumen. ¿Cuál es su temperatura final?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098676120">
+<problem id="fs-id1172098662198">
+<para id="fs-id1172098662200">Un gas diatómico ideal a 80 K se comprime lentamente de forma adiabática y reversible hasta la mitad de su volumen. ¿Cuál es su temperatura final?</para></problem>
+<solution id="fs-id1172096196738">
+<para id="fs-id1172100530184">84 K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098657150">
+<problem id="fs-id1172098316827">
+<para id="fs-id1172098316829">Un gas diatómico ideal a 80 K se comprime lentamente de forma adiabática hasta un tercio de su volumen original. ¿Cuál es su temperatura final?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098406649">
+<problem id="fs-id1172098377791">
+<para id="fs-id1172098377794">Compare la carga de energía interna de un gas ideal para una expansión adiabática cuasiestática con la de una expansión isotérmica cuasiestática. ¿Qué ocurre con la temperatura de un gas ideal en una expansión adiabática?</para>
+</problem>
+<solution id="fs-id1172098766306">
+<para id="fs-id1172098766308">Una expansión adiabática tiene menos trabajo realizado y ningún flujo de calor, por lo que la energía interna es menor en comparación con una expansión isotérmica que tiene tanto flujo de calor como trabajo realizado. La temperatura disminuye durante la expansión adiabática.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098393131">
+<problem id="fs-id1172098393133">
+<para id="fs-id1172100905785">La temperatura de n moles de un gas ideal cambia de <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> a <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> en una transición adiabática cuasiestática. Demuestre que el trabajo realizado por el gas viene dado por</para>
+<para id="fs-id1172098587979"><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mi>R</m:mi></m:mrow><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100761172">
+<problem id="fs-id1172098436123">
+<para id="fs-id1172098436125">Un gas diluido se expande cuasiestáticamente hasta tres veces su volumen inicial. ¿La presión final del gas es mayor para una expansión isotérmica o una adiabática? ¿Su respuesta depende de si el gas es monoatómico, diatómico o poliatómico?</para>
+</problem>
+<solution id="fs-id1172100900087">
+<para id="fs-id1172100900090">La isoterma tiene una mayor presión final y no depende del tipo de gas.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098695101">
+<problem id="fs-id1172098695103">
+<para id="fs-id1172100623794">(a) Un gas ideal se expande adiabáticamente a partir de un volumen de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> a <m:math><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. Si la presión y la temperatura iniciales fueran <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> y 300 K, respectivamente, ¿cuáles son la presión y la temperatura finales del gas? Use <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math> para el gas. (b) En un proceso isotérmico, un gas ideal se expande desde un volumen de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> a <m:math><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. Si la presión y la temperatura iniciales fueran <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> y 300 K, respectivamente, ¿cuáles son la presión y la temperatura finales del gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100623057">
+<problem id="fs-id1172100637603">
+<para id="fs-id1172100637605">En un proceso adiabático de un gas ideal la presión, el volumen y la temperatura cambian de manera que <m:math><m:mrow><m:mi>p</m:mi><m:msup><m:mi>V</m:mi><m:mi>γ</m:mi></m:msup></m:mrow></m:math> es constante con <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math> para gases monoatómicos como el helio y <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mtext>/</m:mtext><m:mn>5</m:mn></m:mrow></m:math> para un gas diatómico como el hidrógeno a temperatura ambiente. Use valores numéricos para trazar dos isotermas de 1 mol de gas helio y ponga en práctica la ley de los gases ideales y dos procesos adiabáticos que medien entre ellas. Use <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>L</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> para su trazado.</para>
+</problem>
+<solution id="fs-id1172100716856">
+<para id="fs-id1167585158424"><newline/><media id="fs-id1172100716858" alt="La figura es un trazado de presión, p, en atmósferas en el eje vertical como una función de volumen, V, en litros en el eje horizontal. El eje horizontal, V, va de 1,0 a 2,0. El eje vertical, p, va de 0 a 40 aproximadamente. Se muestran dos isotermas. Una de las isotermas es para T igual a 500 K, con una presión que comienza en unas 40 atmósferas cuando el volumen es de 1,0 litro y que disminuye con el volumen hasta unas 25 atmósferas a 2,0 litros. La segunda isoterma es para T igual a 300 K, con una presión que comienza en unas 25 atmósferas cuando el volumen es de 1,0 litro y que disminuye con el volumen hasta poco más de 10 atmósferas a 2,0 litros. Un tercer gráfico, identificado como “adiabático” comienza con la isoterma de 500 K, a 1,0 L y unas 40 atmósferas, y termina con la isoterma de 300 K, a 2,0 L y algo más de 10 atmósferas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_06_2Isotherms_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100726929">
+<problem id="fs-id1172100970504">
+<para id="fs-id1172100970506">Dos moles de un gas ideal monoatómico como el helio se comprimen adiabáticamente y de forma reversible desde un estado (3 atm, 5 L) a un estado con presión 4 atm. (a) Calcule el volumen y la temperatura del estado final. (b) Calcule la temperatura del estado inicial del gas. (c) Calcule el trabajo realizado por el gas en el proceso. (d) Calcule el cambio de energía interna del gas en el proceso.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172100959461" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1172098643662">
+<problem id="fs-id1172096037215">
+<para id="fs-id1172096037217">Considere el proceso que se muestra a continuación. Durante los pasos <emphasis effect="italics">AB</emphasis> y <emphasis effect="italics">BC</emphasis>, se añaden al sistema 3.600 J y 2.400 J de calor, respectivamente. (a) Halle el trabajo realizado en cada uno de los procesos <emphasis effect="italics">AB</emphasis>, <emphasis effect="italics">BC</emphasis>, <emphasis effect="italics">AD</emphasis> y <emphasis effect="italics">DC</emphasis>. (b) Halle el cambio de energía interna en los procesos <emphasis effect="italics">AB</emphasis> y <emphasis effect="italics">BC</emphasis>. (c) Halle la diferencia de energía interna entre los estados <emphasis effect="italics">C</emphasis> y <emphasis effect="italics">A</emphasis>. (d) Halle el calor total añadido en el proceso <emphasis effect="italics">ADC</emphasis>. (e) A partir de la información dada, ¿puede calcular el calor añadido en el proceso <emphasis effect="italics">AD</emphasis>? ¿Por qué sí o por qué no?</para>
+<media id="fs-id1172100940998" alt="La figura es un trazado de presión, p, en atmósferas en el eje vertical como una función de volumen, V, en litros en el eje horizontal. La escala horizontal de volumen va de 0 a 7, y la escala vertical de presión va de 0 a 5. Cuatro puntos, A, B, C y D, están identificados en el gráfico, y sus presiones y volúmenes están identificados en los ejes. El punto A está a un volumen de 3 L, con una presión de 2 atmósferas. El punto B está a un volumen de 3 L, con una presión de 5 atmósferas. El punto C está a un volumen de 7 L, con una presión de 5 atmósferas. El punto D está a un volumen de 7 L, con una presión de 2 atmósferas. Una trayectoria va de A a B y cruza a C. Otra trayectoria va de A a D y luego a C.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_Sami1819_img-c7ad.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172098401953">
+<para id="fs-id1172100665746">a. <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2.026</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>,</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>810,4</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>,</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3.600</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>,</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>374</m:mn><m:mspace width="0.2em"/><m:mtext>J;</m:mtext></m:mrow></m:math> c. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3.974</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo></m:mrow></m:math> d. <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>4.784</m:mn><m:mspace width="0.2em"/><m:mtext>J;</m:mtext></m:mrow></m:math> e. No, porque el calor fue añadido para ambas partes <emphasis effect="italics">AD</emphasis> y <emphasis effect="italics">DC</emphasis>. No hay suficiente información para saber cuánto es de cada segmento de la trayectoria.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100959004">
+<problem id="fs-id1172098523008">
+<para id="fs-id1172098523010">Un neumático de automóvil contiene <m:math><m:mrow><m:mn>0,0380</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> de aire a una presión de <m:math><m:mrow><m:mn>2,20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> (unos 32 psi). ¿Cuánta más energía interna tiene este gas que la que tiene el mismo volumen a presión manométrica cero (que equivale a la presión atmosférica normal)?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098353006">
+<problem id="fs-id1172098434283">
+<para id="fs-id1172098434285">Un globo de juguete lleno de helio tiene una presión manométrica de 0,200 atm y un volumen de 10,0 L. ¿Cuánto mayor es la energía interna del helio en el globo de lo que sería a presión manométrica cero?</para>
+</problem>
+<solution id="fs-id1172098549545">
+<para id="fs-id1172098549547">300 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172096201842">
+<problem id="fs-id1172098501472">
+<para id="fs-id1172098501474">El vapor para accionar una locomotora de vapor antigua se suministra a una presión manométrica constante de <m:math><m:mrow><m:mn>1,75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> (unos 250 psi) a un pistón con un radio de 0,200 m. (a) Al calcular <m:math><m:mrow><m:mi>p</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math>, calcule el trabajo realizado por el vapor cuando el pistón se mueve 0,800 m. Tome en cuenta que este es el trabajo neto realizado, ya que se utiliza la presión manométrica. (b) Ahora halle la cantidad de trabajo al calcular la fuerza ejercida por la distancia recorrida. ¿La respuesta es la misma que en la parte (a)?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172096052198">
+<problem id="fs-id1172098445081">
+<para id="fs-id1172098445083">Una bomba de neumáticos manual tiene un pistón con un diámetro de 2,50 cm y un tiro máximo de 30,0 cm. (a) ¿Cuánto trabajo realiza en un tiro si la presión manométrica promedio <m:math><m:mrow><m:mn>2,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> (unos 35 psi)? b) ¿Qué fuerza promedio ejerce sobre el pistón si desestima fricción y fuerza gravitacional?</para>
+</problem>
+<solution id="fs-id1172100645237">
+<para id="fs-id1172100645239">a. 59,5 J; b. 170 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100850573">
+<problem id="fs-id1172101004872">
+<para id="fs-id1172101004874">Calcule la producción de trabajo neto de una máquina térmica que sigue la trayectoria <emphasis effect="italics">ABCDA</emphasis> como se muestra a continuación.</para>
+<media id="fs-id1172100538351" alt="La figura es un gráfico de presión, p, en nuits de 10 a los 6 newtons por metro cuadrado en el eje vertical como una función de volumen, V, en 10 a los menos 3 metros cúbicos en el eje horizontal. La escala horizontal de volumen va de 0 a 4, y la escala vertical de presión va de 0 a 4 aproximadamente. Cuatro puntos, A, B, C y D, están identificados en el gráfico, y sus presiones y volúmenes están identificados en los ejes. El punto A tiene un volumen de 1,0 veces 10 a los –3 metros cúbicos, una presión de 2,6 veces 10 a los 6 newtons por metro cuadrado. El punto B tiene un volumen de 4,0 veces 10 a los –3 metros cúbicos, una presión de 2,0 veces 10 a los 6 newtons por metro cuadrado. El punto C tiene un volumen de 4,0 veces 10 a los –3 metros cúbicos, una presión de 0,6 veces 10 a los 6 newtons por metro cuadrado. El punto D tiene un volumen de 1,0 vez 10 a los –3 metros cúbicos, una presión de 1,0 vez 10 a los 6 newtons por metro cuadrado. Una línea recta conecta A con B, otra línea recta B con C, otra línea recta C con D y otra línea recta de vuelta hasta A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_04_OSC1543_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172098261212">
+<problem id="fs-id1172098261214">
+<para id="fs-id1172100900853">¿Cuál es el trabajo neto de una máquina térmica que sigue la trayectoria <emphasis effect="italics">ABDA</emphasis> del problema anterior con una línea recta de <emphasis effect="italics">B</emphasis> a <emphasis effect="italics">D</emphasis>? ¿Por qué el rendimiento del trabajo es menor que el de la trayectoria <emphasis effect="italics">ABCDA</emphasis>?</para>
+</problem>
+<solution id="fs-id1172100510827">
+<para id="fs-id1172100510829"><m:math><m:mrow><m:mn>2,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098401294">
+<problem id="fs-id1172098401296">
+<para id="fs-id1172098504226">Cinco moles de un gas ideal monoatómico en un cilindro a <m:math><m:mrow><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> se expanden isotérmicamente de un volumen de 5 L a 10 L. (a) ¿Cuál es el cambio en la energía interna? (b) ¿Cuánto trabajo se realizó sobre el gas en el proceso? (c) ¿Cuánto calor se transfirió al gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100563754">
+<problem id="fs-id1172096288244">
+<para id="fs-id1172096288246">Cuatro moles de un gas ideal monoatómico en un cilindro a <m:math><m:mrow><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> se expanden a presión constante igual a 1 atm hasta que su volumen se duplica. (a) ¿Cuál es el cambio en la energía interna? (b) ¿Cuánto trabajo realizó el gas en el proceso? (c) ¿Cuánto calor se transfirió al gas?</para>
+</problem>
+<solution id="fs-id1172098546027">
+<para id="fs-id1172098546029">a. 15.000 J; b. 10.000 J; c. 25.000 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100986840">
+<problem id="fs-id1172098431412">
+<para id="fs-id1172098431414">El gas helio se enfría de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y se expande de 40 atm a 1 atm. Si hay 1,4 mol de helio, (a) ¿cuál es el volumen final de helio? (b) ¿Cuál es el cambio de energía interna?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098269845">
+<problem id="fs-id1172098516592">
+<para id="fs-id1172098516594">En un proceso adiabático, el gas oxígeno en un recipiente se comprime a lo largo de una trayectoria que puede describirse mediante la siguiente presión en atm como una función de volumen V, con <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mi>L</m:mi></m:mrow></m:math>: <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>−1,2</m:mn></m:mrow></m:msup></m:mrow></m:math>. Los volúmenes inicial y final durante el proceso fueron de 2 L y 1,5 L, respectivamente. Calcule la cantidad de trabajo realizado en el gas.</para>
+</problem>
+<solution id="fs-id1172100597803">
+<para id="fs-id1172100597805">78 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100653650">
+<problem id="fs-id1172100734942">
+<para id="fs-id1172100734945">Un cilindro que contiene tres moles de un gas ideal monoatómico se calienta a una presión constante de 2 atm. La temperatura del gas cambia de 300 K a 350 K como consecuencia de la expansión. Calcule el trabajo realizado (a) sobre el gas; y (b) por el gas.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172096097412">
+<problem id="fs-id1172096097414">
+<para id="fs-id1172100674063">Un cilindro que contiene tres moles de gas nitrógeno se calienta a una presión constante de 2 atm. La temperatura del gas cambia de 300 K a 350 K como consecuencia de la expansión. Calcule el trabajo realizado (a) en el gas, y (b) por el gas mediante la ecuación de estado de van der Waals en vez de la ley de los gases ideales.</para>
+</problem>
+<solution id="fs-id1172098384519">
+<para id="fs-id1172096055635">Un cilindro que contiene tres moles de gas nitrógeno se calienta a una presión constante de 2 atm. a. <emphasis effect="italics">–</emphasis>1.220 J; b. +1.220 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100564756">
+<problem id="fs-id1172096233380">
+<para id="fs-id1172096233382">Dos moles de un gas ideal monoatómico como el helio se comprimen adiabáticamente y de forma reversible desde un estado (3 atm, 5 L) a un estado con una presión de 4 atm. (a) Calcule el volumen y la temperatura del estado final. (b) Calcule la temperatura del estado inicial. (c) Calcule el trabajo realizado por el gas en el proceso. (d) Calcule el cambio de energía interna en el proceso. Suponga que <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>R</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>C</m:mi><m:mi>V</m:mi></m:msub><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow></m:math> para el gas ideal diatómico en las condiciones dadas.</para></problem>
+</exercise>
+<exercise id="fs-id1172098407930">
+<problem id="fs-id1172098407932">
+<para id="fs-id1172098527498">Un recipiente aislado contiene 1,5 moles de argón a 2 atm. El gas ocupa inicialmente un volumen de 5 L. Como consecuencia de la expansión adiabática la presión del gas se reduce a 1 atm. (a) Calcule el volumen y la temperatura del estado final. (b) Calcule la temperatura del gas en el estado inicial. (c) Calcule el trabajo realizado por el gas en el proceso. (d) Calcule el cambio en la energía interna del gas en el proceso.</para>
+</problem>
+<solution id="fs-id1172100993166">
+<para id="fs-id1172100993169">a. 7,6 L, 61,6 K; b. 81,3 K; c <m:math><m:mrow><m:mn>3,63</m:mn><m:mspace width="0.2em"/><m:mtext>L</m:mtext><m:mo>·</m:mo><m:mtext>atm</m:mtext><m:mo>=</m:mo><m:mn>367</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; d. –367 J</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172098376670" class="review-challenge">
+<title>Problemas de desafío</title>
+<exercise id="fs-id1172100628844">
+<problem id="fs-id1172100940965">
+<para id="fs-id1172100940967">Un mol de un gas monoatómico ideal ocupa un volumen de <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> a una presión de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> (a) ¿Cuál es la temperatura del gas? (b) El gas sufre una compresión adiabática cuasiestática hasta que su volumen disminuye a <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la nueva temperatura del gas? (c) ¿Cuánto trabajo se realiza sobre el gas durante la compresión? (d) ¿Cuál es el cambio en la energía interna del gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100557248">
+<problem id="fs-id1172096194399">
+<para id="fs-id1172096194401">Un mol de un gas ideal se encuentra inicialmente en una cámara de volumen <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> y a una temperatura de <m:math><m:mrow><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (a) ¿Cuánto calor absorbe el gas cuando se expande lentamente de forma isotérmica hasta el doble de su volumen inicial? (b) Suponga que el gas se transforma lentamente hasta el mismo estado final al disminuir primero la presión a volumen constante y luego la expande de forma isobárica. ¿Cuál es el calor transferido para este caso? (c) Calcule el calor transferido cuando el gas se transforma cuasiestáticamente al mismo estado final expandiéndolo isobáricamente, y luego disminuyendo su presión a volumen constante.</para>
+</problem>
+<solution id="fs-id1172100943998">
+<para id="fs-id1172096094514">a. 1.700 J; n. 1.200 J; c. 2.400 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098427530">
+<problem id="fs-id1172098316905">
+<para id="fs-id1172098316907">Una bala con una masa de 10 g se desplaza horizontalmente a 200 m/s cuando choca y se incrusta en una masa pendular de 2,0 kg. (a) ¿Cuánta energía mecánica se disipa en la colisión? (b) Suponga que <m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mi>v</m:mi></m:msub></m:mrow></m:math> para el péndulo más la bala es 3R y calcule el aumento de temperatura del sistema debido a la colisión. Tome la masa molecular del sistema como 200 g/mol.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098451353">
+<problem id="fs-id1172098451355">
+<para id="fs-id1172098592750">El cilindro aislado que se muestra a continuación está cerrado por ambos extremos y contiene un pistón aislante que se mueve libremente sobre cojinetes sin fricción. El pistón divide la cámara en dos compartimentos que contienen los gases A y B. Originalmente, cada compartimento tiene un volumen de <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> y contiene un gas ideal monoatómico a una temperatura de <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y una presión de 1,0 atm. (a) ¿Cuántos moles de gas hay en cada compartimento? (b) Se añade lentamente calor (Q) hasta A para que se expanda, y se comprima B hasta que la presión de ambos gases sea de 3,0 atm. Use el hecho de que la compresión de B es adiabática para determinar el volumen final de ambos gases. (c) ¿Cuáles son sus temperaturas finales? (d) ¿Cuál es el valor de Q?</para>
+<media id="fs-id1172098381987" alt="La figura es una ilustración de un recipiente con una división en el centro que lo separa en dos cámaras. Una flecha horizontal de doble punta sobre la división indica que es móvil. Las paredes exteriores están aisladas. La cámara de la izquierda está identificada con una A, y está llena de un gas, indicado por el sombreado azul y muchos puntos pequeños que representan las moléculas de gas. La cámara de la derecha está identificada con una B y está llena de un segundo gas, lo que se indica por el sombreado rojo y muchos puntos pequeños que representan las moléculas de gas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_06_SMP2046_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172096215387">
+<para id="fs-id1172096215389">a. 2,2 mol; b <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mn>2,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mn>7,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math>; c. <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mn>1.220</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>,</m:mo><m:msub><m:mi>T</m:mi><m:mi>B</m:mi></m:msub><m:mo>=</m:mo><m:mn>430</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>; d. 30,500 J</para></solution>
+</exercise>
+<exercise id="fs-id1172098268616">
+<problem id="fs-id1172098268618">
+<para id="fs-id1172098269205">En un motor diésel el combustible se enciende sin bujía. En cambio, el aire de un cilindro se comprime adiabáticamente hasta una temperatura superior a la de ignición del combustible; en el punto de máxima compresión, el combustible se inyecta en el cilindro. Suponga que se introduce aire a <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> en el cilindro a un volumen <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y luego se comprime adiabáticamente y cuasiestáticamente a una temperatura de <m:math><m:mrow><m:mn>600</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y un volumen <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Si <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>1,4</m:mn><m:mo>,</m:mo></m:mrow></m:math> ¿cuál es la relación <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mrow><m:mo>?</m:mo></m:mrow></m:math> (Nota: En un motor diésel en funcionamiento la compresión no es cuasiestática)</para>
+</problem>
+</exercise>
+</section>
+ </content>
+</document>

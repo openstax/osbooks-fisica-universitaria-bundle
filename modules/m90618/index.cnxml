@@ -1,0 +1,279 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Posición, desplazamiento y velocidad media</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90618</md:content-id>
+  <md:title>Posición, desplazamiento y velocidad media</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Definir la posición, el desplazamiento y la distancia recorrida.</item>
+<item>Calcular el desplazamiento total dada la posición en función del tiempo.</item>
+<item>Determinar la distancia total recorrida.</item>
+<item>Calcular la velocidad media dado el desplazamiento y el tiempo transcurrido.</item>
+</list></md:abstract>
+  <md:uuid>431ca338-9efd-4d8a-987a-de0759768ac1</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168329489850">Cuando está en movimiento, las preguntas básicas que debe hacerse son: ¿dónde está? ¿A dónde va? ¿Qué tan rápido llega? Las respuestas a estas preguntas requieren que especifique su posición, su desplazamiento y su velocidad media, los términos que definimos en esta sección.</para>
+<section id="fs-id1168329158454">
+<title>Posición</title>
+<para id="fs-id1168326782871">Para describir el movimiento de un objeto, primero hay que poder describir su <term>posición</term> (<emphasis effect="italics">x</emphasis>): <emphasis effect="italics">dónde se encuentra en un momento determinado</emphasis>. Más concretamente, necesitamos especificar su posición respecto a un marco de referencia conveniente. Un <term class="no-emphasis">marco de referencia</term> es un conjunto arbitrario de ejes a partir del cual se describen la posición y el movimiento de un objeto. La Tierra se utiliza a menudo como marco de referencia, y con frecuencia describimos la posición de un objeto en relación con los objetos estacionarios de la Tierra. Por ejemplo, el lanzamiento de un cohete podría describirse en términos de la posición del cohete con respecto a la Tierra en su conjunto, mientras que la posición de una ciclista podría describirse en términos de dónde se encuentra en relación con los edificios por los que pasa en la <link target-id="CNX_UPhysics_03_01_Cyclists"/>. En otros casos, utilizamos marcos de referencia que no son estacionarios, sino que están en movimiento respecto a la Tierra. Para describir la posición de una persona en un avión, por ejemplo, utilizamos el avión, no la Tierra, como marco de referencia. Para describir la posición de un objeto que experimenta un movimiento unidimensional, solemos utilizar la variable <emphasis effect="italics">x</emphasis>. Más adelante en el capítulo, durante el análisis de la caída libre, utilizamos la variable <emphasis effect="italics">y</emphasis>.</para>
+<figure id="CNX_UPhysics_03_01_Cyclists"><media id="fs-id1168329041530" alt="La imagen muestra a tres personas montando en bicicleta junto a un canal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_01_Cyclists.jpg"/>
+</media>
+
+<caption>Estos ciclistas en Vietnam pueden describirse por sus posiciones con respecto a los edificios o al canal. Sus movimientos pueden describirse mediante sus cambios de posición, o desplazamientos, en un marco de referencia (créditos: modificación de un trabajo de Suzan Black).</caption></figure></section>
+<section id="fs-id1168326761623">
+<title>Desplazamiento</title>
+<para id="fs-id1168329187699">Si un objeto se mueve con respecto a un marco de referencia, por ejemplo, si una profesora se desplaza hacia la derecha con respecto a una pizarra como en la <link target-id="CNX_UPhysics_03_01_Chalkboard"/>, la posición del objeto cambia. Este cambio de posición se denomina <term>desplazamiento</term>. La palabra <emphasis effect="italics">desplazamiento</emphasis> implica que un objeto se ha movido o ha sido desplazado. Si bien la posición es el valor numérico de la <emphasis effect="italics">x</emphasis> a lo largo de una línea recta en la que puede estar situado un objeto, el desplazamiento da el <emphasis effect="italics">cambio</emphasis> de posición a lo largo de esta línea. Dado que el desplazamiento indica la dirección, es un vector y puede ser positivo o negativo, dependiendo de la elección de la dirección positiva. Además, en un análisis de movimiento puede haber muchos desplazamientos. Si la derecha es positiva y un objeto se desplaza 2 m a la derecha y luego 4 m a la izquierda, los desplazamientos individuales son 2 m y <m:math><m:mrow><m:mn>−4</m:mn></m:mrow></m:math> m, respectivamente.</para>
+<figure id="CNX_UPhysics_03_01_Chalkboard">
+<media id="fs-id1168329510811" alt="La ilustración muestra a la profesora en dos ubicaciones diferentes. La primera está marcada como 1,5 metros en el eje x; la segunda está marcada como 3,5 metros en el eje x. El desplazamiento entre las dos ubicaciones es de 2 metros.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_01_Chalkboard.jpg"/>
+</media>
+<caption>La profesora se pasea a la izquierda y a la derecha mientras da una conferencia. Su posición respecto a la Tierra viene dada por la <emphasis effect="italics">x</emphasis>. El desplazamiento de +2,0 m de la profesora con respecto a la Tierra está representado por una flecha que apunta a la derecha.</caption>
+</figure>
+<note id="fs-id1168328983002">
+<title>Desplazamiento</title>
+<para id="fs-id1168327144862">Desplazamiento <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> es el cambio de posición de un objeto:</para>
+<equation id="fs-id1168329338892"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168326911738">donde <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> es el desplazamiento, <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> es la posición final, y <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la posición inicial.</para>
+</note>
+<para id="fs-id1168326795409">Utilizamos la letra griega mayúscula delta (Δ) con el significado de "cambio en" cualquier cantidad que le siga; así, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> significa <emphasis effect="italics">cambio de posición</emphasis> (posición final menos posición inicial). Siempre resolvemos el desplazamiento restando la posición inicial <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> de la posición final <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math>. Hay que tener en cuenta que la unidad del SI para el desplazamiento es el metro, pero a veces utilizamos kilómetros u otras unidades de longitud. Asimismo, que cuando en un problema se utilicen unidades distintas a los metros, es posible que tenga que convertirlas a metros para completar el cálculo (vea el <link document="m90719">Apéndice B</link>).</para>
+<para id="fs-id1168329464556">Los objetos en movimiento también pueden tener una serie de desplazamientos. En el ejemplo anterior de la profesora que se paseaba, los desplazamientos individuales son de 2 m y <m:math><m:mrow><m:mn>−4</m:mn></m:mrow></m:math> m, lo que supone un desplazamiento total de -2 m. Definimos el <term>desplazamiento total</term> <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub></m:mrow></m:math>, como <emphasis effect="italics">la suma de los desplazamientos individuales</emphasis>, y lo expresamos matemáticamente con la ecuación</para>
+<note id="fs-id1168329037259" class="equation-callout">
+<equation id="fs-id1168326821763"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1168329069172">donde <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> son cada uno de los desplazamientos. En el ejemplo anterior,</para>
+<equation id="fs-id1168326796770" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1168329410562">De la misma manera,</para>
+<equation id="fs-id1168329155289" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−4</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1168329081791">Por lo tanto,</para>
+<equation id="fs-id1168326753395" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>−2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>​.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1168329518900">El desplazamiento total es de 2 - 4 = -2 m hacia la izquierda, es decir, en dirección negativa. También es útil para calcular la magnitud del desplazamiento, o su tamaño. La magnitud del desplazamiento siempre es positiva. Es el valor absoluto del desplazamiento, porque el desplazamiento es un vector y no puede tener un valor negativo de magnitud. En nuestro ejemplo, la magnitud del desplazamiento total es de 2 m, mientras que las magnitudes de cada uno de los desplazamientos son de 2 m y 4 m.</para>
+<para id="fs-id1168326908350">La magnitud del desplazamiento total no debe confundirse con la distancia recorrida. La distancia recorrida <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub></m:mrow></m:math>, es la longitud total del camino recorrido entre dos posiciones. En el problema anterior, la <term>distancia recorrida</term> es la suma de las magnitudes de cada uno de los desplazamientos:</para>
+<equation id="fs-id1168329266306" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</section>
+<section id="fs-id1168326783743">
+<title>Velocidad media</title>
+<para id="fs-id1168329046092">Para calcular las demás magnitudes físicas de la cinemática debemos introducir la variable de tiempo. La variable de tiempo nos permite no solo indicar dónde está el objeto (su posición) durante su movimiento, sino también a qué velocidad se mueve. La velocidad a la que se mueve un objeto viene dada por la tasa en la que cambia la posición con el tiempo.</para>
+<para id="fs-id1168329333293">Para cada posición <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>, asignamos un tiempo determinado <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>. Si los detalles del movimiento en cada instante no son importantes, la tasa suele expresarse como la <term>velocidad media</term> <m:math><m:mrow><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover></m:mrow></m:math>. Esta cantidad vectorial es simplemente el desplazamiento total entre dos puntos, dividido entre el tiempo que tarda en viajar entre ellos. El tiempo que tarda en viajar entre dos puntos se denomina <term>tiempo transcurrido</term> <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>.</para>
+<note id="fs-id1168329050548">
+<title>Velocidad media</title>
+<para id="fs-id1168329192944">Si <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> son las posiciones de un objeto en los tiempos <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, respectivamente, entonces</para>
+<equation id="fs-id1168326922062"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd><m:mtext>Velocidad media</m:mtext><m:mo>=</m:mo><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Desplazamiento entre dos puntos</m:mtext></m:mrow><m:mrow><m:mtext>Tiempo transcurrido entre dos puntos</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+</note>
+<para id="fs-id1168326875739">Es importante señalar que la velocidad media es un vector y puede ser negativa, dependiendo de las posiciones <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</para>
+<example id="fs-id1168329011730">
+<para id="fs-id1168329266287"><title>Entrega de volantes</title>
+Jill sale de su casa para entregar volantes para su venta de garaje; viaja hacia el este a lo largo de la calle bordeada de casas. A <m:math><m:mrow><m:mn>0,5</m:mn></m:mrow></m:math> km y 9 minutos después se queda sin volantes y tiene que volver sobre sus pasos hasta su casa para conseguir más. Esto le toma 9 minutos más. Tras recoger más volantes, vuelve a emprender el mismo camino al continuar por donde lo dejó, y termina a 1,0 km de su casa. En esta tercera etapa de su viaje tarda <m:math><m:mrow><m:mn>15</m:mn></m:mrow></m:math> minutos. En ese momento regresa hacia su casa, en dirección al oeste. Después de <m:math><m:mrow><m:mn>1,75</m:mn></m:mrow></m:math> km y <m:math><m:mrow><m:mn>25</m:mn></m:mrow></m:math> minutos se detiene a descansar.</para>
+<list id="fs-id1168329101865" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuál es el desplazamiento total de Jill hasta el punto en que se detiene a descansar?</item>
+<item>¿Cuál es la magnitud del desplazamiento final?</item>
+<item>¿Cuál es la velocidad media durante todo su viaje?</item>
+<item>¿Cuál es la distancia total recorrida?</item>
+<item>Haga un gráfico de la posición en función del tiempo.</item>
+</list>
+<para id="fs-id1168329133729">Se muestra un esquema de los movimientos de Jill en la <link target-id="CNX_UPhysics_03_01_Flyers"/>.</para>
+<figure id="CNX_UPhysics_03_01_Flyers">
+<media id="fs-id1168329123975" alt="La figura muestra una línea de tiempo del movimiento de una persona. El primer desplazamiento es desde la casa hacia la derecha por 0,5 kilómetros. El segundo desplazamiento es volver al punto de partida. El tercer desplazamiento es hacia la derecha por 1,0 kilómetro. El cuarto desplazamiento es desde el punto final hacia la izquierda por 1,75 kilómetros.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_01_Flyers.jpg"/>
+</media>
+<caption>Línea del tiempo de los movimientos de Jill.</caption>
+</figure>
+<para id="fs-id1168329090144"><title>Estrategia</title>
+El problema contiene datos sobre los distintos tramos del viaje de Jill, por lo que valdría la pena hacer una tabla con las cantidades físicas. En el enunciado del problema se nos da la posición y el tiempo para poder calcular los desplazamientos y el tiempo transcurrido. Consideramos que el este es la dirección positiva. A partir de esta información podemos encontrar el desplazamiento total y la velocidad media. La casa de Jill es el punto de partida <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>. En la siguiente tabla se indican la hora y la posición de Jill en las dos primeras columnas, y los desplazamientos se calculan en la tercera columna.</para>
+<table id="fs-id1168326821006" class="unnumbered" summary="This table has three columns and six rows. The first row is a header row and it labels each column: “Time ti in minutes”, “Position xi in kilometers”, “Displacement Delta xi in kilometers”. Under the “Time ti in minutes”: t0 = 0; t1 = 9; t2 = 18; t3 = 33; t4 = 58; Under the “Position xi in kilometers”: x0 = 0; x1 = 0.5; x2 = 0; x3 = 1.0; x4 = -0.75; Under the “Displacement Delta xi in kilometers”: Delta x0 = 0; Delta x1 = x1 – x0 = 0.5; Delta x2 = x2 – x1 = -0.5; Delta x3 = x3 – x2 = 1.0; Delta x4 = x4 – x3 =  -1.75;">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<colspec colnum="3" colname="col3"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Tiempo <emphasis effect="italics">t</emphasis><sub>i</sub> (min)</entry>
+<entry valign="top" align="left">Posición <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> (km)</entry>
+<entry valign="top" align="left">Desplazamiento <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> (km)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,5</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,5</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>18</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>−0,5</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>33</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>58</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>−0,75</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>4</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>−1,75</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1168329282476"><title>Solución</title></para>
+<list id="fs-id1168329466395" list-type="enumerated" number-style="lower-alpha">
+<item>De la tabla anterior, el desplazamiento total es
+<equation id="fs-id1168326917264" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0,5</m:mn><m:mo>−</m:mo><m:mn>0,5</m:mn><m:mo>+</m:mo><m:mn>1,0</m:mn><m:mo>−</m:mo><m:mn>1,75</m:mn></m:mrow></m:mstyle><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>=</m:mo><m:mn>−0,75</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>La magnitud del desplazamiento total es <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−0,75</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>=</m:mo><m:mn>0,75</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math>.</item>
+<item><m:math><m:mrow><m:mtext>Velocidad media</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Desplazamiento</m:mtext><m:mspace width="0.2em"/><m:mtext>total</m:mtext></m:mrow><m:mrow><m:mtext>Tiempo</m:mtext><m:mspace width="0.2em"/><m:mtext>transcurrido</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−0,75</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow><m:mrow><m:mn>58</m:mn><m:mspace width="0.2em"/><m:mtext>min</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>-0,013</m:mn><m:mspace width="0.2em"/><m:mtext>km/min</m:mtext></m:mrow></m:math></item>
+<item>La distancia total recorrida (suma de las magnitudes de cada uno de los desplazamientos) es <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0,5</m:mn><m:mo>+</m:mo><m:mn>0,5</m:mn><m:mo>+</m:mo><m:mn>1,0</m:mn><m:mo>+</m:mo><m:mn>1,75</m:mn></m:mrow></m:mstyle><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>=</m:mo><m:mn>3,75</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math>.</item>
+<item>Podemos graficar la posición de Jill en función del tiempo como una herramienta útil para ver el movimiento; el gráfico se muestra en la <link target-id="CNX_UPhysics_03_01_Pos"/>.<newline/>
+<figure id="CNX_UPhysics_03_01_Pos"><media id="fs-id1168326927107" alt="El gráfico muestra la posición en kilómetros en función del tiempo en minutos.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_03_01_Pos.jpg"/>
+</media>
+
+<caption>Este gráfico representa la posición de Jill en función del tiempo. La velocidad media es la pendiente de una línea que une los puntos inicial y final.</caption></figure></item>
+</list>
+<para id="fs-id1168329462699"><title>Importancia</title>
+El desplazamiento total de Jill es de -0,75 km, lo que significa que al final de su viaje termina <m:math><m:mrow><m:mn>0,75</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math> al oeste de su casa. La velocidad media significa que si alguien caminara hacia el oeste a <m:math><m:mrow><m:mn>0,013</m:mn></m:mrow></m:math> km/min comenzando a la misma hora que Jill salió de su casa, ambos llegarían al punto de parada final al mismo tiempo. Hay que tener en cuenta que si Jill terminara su viaje en su casa, su desplazamiento total sería cero, así como su velocidad media. La distancia total recorrida durante los 58 minutos de tiempo transcurrido de su viaje es de 3,75 km.</para>
+</example>
+<note id="fs-id1168326766711" class="check-understanding">
+<exercise id="fs-id1168326766714">
+<problem id="fs-id1168327092291">
+<para id="fs-id1168327092293"> Un ciclista recorre 3 km hacia el oeste y luego da la vuelta y recorre 2 km hacia el este. (a) ¿Cuál es su desplazamiento? (b) ¿Cuál es la distancia recorrida? (c) ¿Cuál es la magnitud de su desplazamiento?</para>
+<media id="fs-id1168326777142" alt="La figura muestra la línea de tiempo del movimiento del ciclista. El primer desplazamiento es hacia la izquierda por 3,0 kilómetros. El segundo desplazamiento es desde el punto final hacia la derecha por 2,0 kilómetros.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_01_CYU1_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1168326836246">
+<para id="fs-id1168326920106">(a) El desplazamiento del ciclista es <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>−1</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math>. (El desplazamiento es negativo porque tomamos el este como positivo y el oeste como negativo). (b) La distancia recorrida es de 3 km + 2 km = 5 km. (c) La magnitud del desplazamiento es de 1 km.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168326809070" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1168327091282" list-type="bulleted" bullet-style="bullet">
+<item>La cinemática es la descripción del movimiento sin considerar sus causas. En este capítulo, se limita al movimiento ectilíneo, llamado movimiento unidimensional.</item>
+<item>El desplazamiento es el cambio de posición de un objeto. La unidad del SI para el desplazamiento es el metro. El desplazamiento tiene tanto dirección como magnitud.</item>
+<item>La distancia recorrida es la longitud total del camino recorrido entre dos posiciones.</item>
+<item>El tiempo se mide en términos de cambio. El tiempo entre dos puntos de posición <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>. El tiempo transcurrido de un evento es <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:msub><m:mi>t</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, donde <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> es el tiempo final y <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es el tiempo inicial. El tiempo inicial se toma como cero.</item>
+<item>La velocidad media <m:math><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover></m:math> se define como el desplazamiento dividido entre el tiempo transcurrido. Si <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> son dos puntos temporales de posición, la velocidad media entre estos puntos es
+<equation id="fs-id1168329006610" class="unnumbered"><label/><m:math><m:mrow><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+</section>
+<section id="fs-id1168329187572" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1168327144875">
+<problem id="fs-id1168327144877">
+<para id="fs-id1168329137112">Dé un ejemplo en el que haya distinciones claras entre la distancia recorrida, el desplazamiento y la magnitud del desplazamiento. Identifique específicamente cada cantidad en su ejemplo.</para>
+</problem>
+<solution id="fs-id1168329491939">
+<para id="fs-id1168326857976">Conduce su auto hasta la ciudad y vuelve a pasar por su casa para ir a la de un amigo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168326781258"><problem id="fs-id1168329516813">
+<para id="fs-id1168329516815">¿En qué circunstancias la distancia recorrida equivale a la magnitud del desplazamiento? ¿Cuál es el único caso en el que la magnitud del desplazamiento y la distancia son exactamente iguales?</para>
+</problem>
+</exercise><exercise id="fs-id1168329042862">
+<problem id="fs-id1168329042864">
+<para id="fs-id1168329175042">Las bacterias se mueven de un lado a otro utilizando sus flagelos (estructuras que parecen pequeñas colas). Se han observado valores de rapidez de hasta 50 μm/s (50 × 10<sup>-6</sup> m/s). La distancia total recorrida por una bacteria es grande para su tamaño, mientras que su desplazamiento es pequeño. ¿Por qué?</para>
+</problem>
+<solution id="fs-id1168326792665">
+<para id="fs-id1168329332700">Si las bacterias se mueven de un lado a otro, los desplazamientos se anulan entre sí y el desplazamiento final es pequeño.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168326851243">
+<problem id="fs-id1168329050745">
+<para id="fs-id1168329050747">Dé un ejemplo de un dispositivo utilizado para medir el tiempo e identifique qué cambio en ese dispositivo indica un cambio en el tiempo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328991098">
+<problem id="fs-id1168326786808">
+<para id="fs-id1168326786810">¿El cuentakilómetros de un auto mide la distancia recorrida o el desplazamiento?</para>
+</problem>
+<solution id="fs-id1168329476976">
+<para id="fs-id1168329476978">La distancia recorrida</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329466274">
+<problem id="fs-id1168329516953">
+<para id="fs-id1168329516955">Durante un intervalo de tiempo determinado, la velocidad media de un objeto es cero. ¿Qué puede concluir sobre su desplazamiento en el intervalo de tiempo?</para></problem>
+</exercise>
+</section>
+<section id="fs-id1168329282324" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1168329317598">
+<problem id="fs-id1168329400845">
+<para id="fs-id1168329400847">Consideremos un sistema de coordenadas en el que el eje de la <emphasis effect="italics">x</emphasis> positiva se dirige verticalmente hacia arriba. ¿Cuáles son las posiciones de una partícula (a) 5,0 m directamente por encima del origen y (b) 2,0 m por debajo del origen?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168329490110">
+<problem id="fs-id1168329490112">
+<para id="fs-id1168329492788">Un auto se encuentra a 2,0 km al oeste de un semáforo en <emphasis effect="italics">t</emphasis> = 0 y 5,0 km al este del semáforo en <emphasis effect="italics">t</emphasis> = 6,0 min. Supongamos que el origen del sistema de coordenadas es el semáforo y la dirección de la <emphasis effect="italics">x</emphasis> positiva es hacia el este. (a) ¿Cuáles son los vectores de posición del auto en estos dos momentos? (b) ¿Cuál es el desplazamiento del auto entre 0 min y 6,0 min?</para>
+</problem>
+<solution id="fs-id1168329462686">
+<para id="fs-id1168329462688">a. <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−2,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math>; b. 7,0 m al este</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168326780779">
+<problem id="fs-id1168326780782">
+<para id="fs-id1168326860701">El tren maglev de Shanghái conecta Longyang Road con el aeropuerto internacional de Pudong, a una distancia de 30 km. El trayecto dura un promedio de 8 minutos. ¿Cuál es la velocidad media del tren maglev?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168326940079">
+<problem id="fs-id1168326940081">
+<para id="fs-id1168326805722">La posición de una partícula que se mueve a lo largo del eje de la <emphasis effect="italics">x</emphasis> viene dada por <m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mo>−</m:mo><m:mn>2,0</m:mn><m:mi>t</m:mi></m:mrow></m:math> m. (a) ¿En qué momento la partícula cruza el origen? (b) ¿Cuál es el desplazamiento de la partícula entre <m:math><m:mrow><m:mtext>t</m:mtext><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mtext>t</m:mtext><m:mo>=</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1168326770074">
+<para id="fs-id1168326770076">a. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2,0</m:mn></m:mrow></m:math> s; b. <m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6,0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3,0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−8,0</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−2,0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−6,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168326798194">
+<problem id="fs-id1168326822694">
+<para id="fs-id1168326822697">Un ciclista recorre 8,0 km hacia el este durante 20 minutos, luego gira y se dirige al oeste durante 8 minutos y 3,2 km. Finalmente, recorre 16 km hacia el este, lo que le lleva 40 minutos. (a) ¿Cuál es el desplazamiento final del ciclista? (b) ¿Cuál es su velocidad media?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168329063635">
+<problem id="fs-id1168329063637">
+<para id="fs-id1168329517547">El 15 de febrero de 2013, un meteorito superbólido (más brillante que el Sol) entró en la atmósfera terrestre sobre Cheliábinsk (Rusia) y estalló a 23,5 km de altura. Los testigos pudieron sentir el intenso calor de la bola de fuego, y la onda expansiva de la explosión hizo volar las ventanas de los edificios. La onda expansiva tardó aproximadamente 2 minutos y 30 segundos en alcanzar el nivel del suelo. La onda expansiva se desplazó a 10° sobre el horizonte. a) ¿Cuál fue la velocidad media de la onda expansiva? b) Compárela con la velocidad del sonido, que es de 343 m/s a nivel del mar.</para></problem>
+<solution id="fs-id1168329517552">
+<para id="fs-id1168329318052">a. 150,0 s, <m:math><m:mrow><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mn>156,7</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>; b. El 163 % de la velocidad del sonido a nivel del mar o aproximadamente Mach 2.</para></solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1168326791706">
+<term>velocidad media</term>
+<meaning id="fs-id1168329400870">el desplazamiento dividido entre el tiempo en que se produce el desplazamiento a una aceleración constante</meaning>
+</definition>
+<definition id="fs-id1168329400874">
+<term>desplazamiento</term>
+<meaning id="fs-id1168329511515">el cambio de posición de un objeto</meaning>
+</definition>
+<definition id="fs-id1168326897289">
+<term>distancia recorrida</term>
+<meaning id="fs-id1168326925585">la longitud total del camino recorrido entre dos posiciones</meaning>
+</definition>
+<definition id="fs-id1168326925589">
+<term>tiempo transcurrido</term>
+<meaning id="fs-id1168326801364">la diferencia entre el tiempo final y el tiempo inicial</meaning>
+</definition>
+<definition id="fs-id1168326794388">
+<term>cinemática</term>
+<meaning id="fs-id1168329394919">la descripción del movimiento mediante propiedades como la posición, el tiempo, la velocidad y la aceleración</meaning>
+</definition>
+<definition id="fs-id1168329394923">
+<term>posición</term>
+<meaning id="fs-id1168329181740">la ubicación de un objeto en un momento determinado</meaning>
+</definition>
+<definition id="fs-id1168329478031">
+<term>desplazamiento total</term>
+<meaning id="fs-id1168329193012">la suma de cada uno de los desplazamientos durante un tiempo determinado</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,161 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>El efecto Hall</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90907</md:content-id>
+  <md:title>El efecto Hall</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar la corrección de Maxwell de la ley de Ampère incluida la corriente de desplazamiento.</item>
+<item>Enunciar y aplicar las ecuaciones de Maxwell en forma integral.</item>
+<item>Describir cómo la simetría entre los campos eléctricos y magnéticos cambiantes explica la predicción de Maxwell sobre ondas electromagnéticas.</item>
+<item>Describir cómo Hertz confirmó la predicción de Maxwell sobre las ondas electromagnéticas.</item>
+</list></md:abstract>
+  <md:uuid>f809b979-7f3e-4e46-a2e1-db10b106f55e</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171360231297">En 1879, E. H. <term class="no-emphasis">Hall</term> ideó un experimento que puede utilizarse para identificar el signo de los portadores de carga predominantes en un material conductor. Desde una perspectiva histórica, este experimento fue el primero en demostrar que los portadores de carga en la mayoría de los metales son negativos.</para>
+<note id="fs-id1171360088313" class="media-2">
+<para id="fs-id1171358975680">Visite este <link url="https://openstax.org/l/21halleffect">sitio web</link> para encontrar más información sobre el efecto Hall.</para>
+</note>
+<para id="fs-id1171358995404">Investigamos el <term>efecto Hall</term> al estudiar el movimiento de los electrones libres a lo largo de una banda de metal de anchura <emphasis effect="italics">l</emphasis> en un campo magnético constante (<link target-id="CNX_UPhysics_28_06_Hall"/>). Los electrones se mueven de izquierda a derecha, por lo que la fuerza magnética que experimentan los empuja hacia el borde inferior de la tira. Esto deja un exceso de carga positiva en el borde superior de la tira, lo que da lugar a un campo eléctrico <emphasis effect="italics">E</emphasis> dirigido de arriba a abajo. La concentración de carga en ambos bordes se acumula hasta que la fuerza eléctrica sobre los electrones en una dirección se equilibra con la fuerza magnética sobre ellos en la dirección opuesta. El equilibrio se alcanza cuando:</para>
+<equation id="fs-id1171360234750"><m:math><m:mrow><m:mi>e</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>e</m:mi><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mi>B</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1171360139672">donde <emphasis effect="italics">e</emphasis> es la magnitud de la carga del electrón, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub></m:mrow></m:math> es la velocidad de deriva de los electrones, y <emphasis effect="italics">E</emphasis> es la magnitud del campo eléctrico creado por la carga separada. Al resolver esto para la velocidad de deriva se obtiene</para>
+<note id="fs-id1163710980707" class="equation-callout">
+<equation id="fs-id1171360336437"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mi>B</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_28_06_Hall">
+<media id="fs-id1171360211349" alt="Una ilustración del efecto Hall: En ambas figuras, la corriente en la tira está a la izquierda y el campo magnético apunta hacia la página. En la figura a, una carga negativa se mueve hacia la derecha con velocidad v d. Las cargas positivas se acumulan en la parte superior de la tira y las negativas en la parte inferior. Un campo eléctrico E subíndice H apunta hacia abajo. La carga en movimiento experimenta una fuerza hacia arriba e E subíndice H y una fuerza hacia abajo e v subíndice d B. En la figura b, una carga positiva se mueve hacia la izquierda con velocidad v d. Las cargas negativas se acumulan en la parte superior de la tira y las positivas en la inferior. Un campo eléctrico E subíndice H apunta hacia arriba. La carga en movimiento experimenta una fuerza ascendente e E subíndice H y una fuerza descendente e v subíndice d B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_06_Hall.jpg"/>
+</media>
+<caption>En el efecto Hall, se produce una diferencia de potencial entre los bordes superior e inferior de la banda metálica cuando los portadores de carga en movimiento son desviados por el campo magnético. (a) Efecto Hall para portadores de carga negativa; (b) Efecto Hall para portadores de carga positiva.</caption>
+</figure>
+<para id="fs-id1171360220861">Una situación en la que los campos eléctrico y magnético son perpendiculares entre sí se denomina situación de campo cruzado. Si estos campos producen fuerzas iguales y opuestas sobre una partícula cargada con la velocidad que iguala las fuerzas, estas partículas son capaces de pasar por un aparato, llamado <term>selector de velocidad</term>, sin ser desviadas. Esta velocidad se representa en la <link target-id="fs-id1171359000965"/>. Cualquier otra velocidad de una partícula cargada enviada a los mismos campos sería desviada por la fuerza magnética o la fuerza eléctrica.</para>
+<para id="fs-id1171359055613">Volviendo al efecto Hall, si la corriente en la tira es <emphasis effect="italics">I</emphasis>, entonces a partir de <link document="m90887">Corriente y resistencia</link>, sabemos que</para>
+<equation id="fs-id1171359000965"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>e</m:mi><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mi>A</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1171360217050">donde <emphasis effect="italics">n</emphasis> es el número de portadores de carga por volumen y <emphasis effect="italics">A</emphasis> es el área de la sección transversal de la tira. Al combinar las ecuaciones de <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub></m:mrow></m:math> y <emphasis effect="italics">I</emphasis> se obtiene</para>
+<equation id="fs-id1171360269255"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>e</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>E</m:mi><m:mi>B</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>A</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171360212429">El campo <emphasis effect="italics">E</emphasis> está relacionado con la diferencia de potencial <emphasis effect="italics">V</emphasis> entre los bordes de la tira por</para>
+<equation id="fs-id1171360485906"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171360104810">La cantidad <emphasis effect="italics">V</emphasis> se denomina potencial Hall y se puede medir con un voltímetro. Finalmente, al combinar las ecuaciones de <emphasis effect="italics">I</emphasis> y <emphasis effect="italics">E</emphasis> obtenemos</para>
+<note id="fs-id1163712314724" class="equation-callout">
+<equation id="fs-id1171359011013"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>e</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171358990724">donde el borde superior de la tira en la <link target-id="CNX_UPhysics_28_06_Hall"/> es positivo con respecto al borde inferior.</para>
+<para id="fs-id1171360356223">También podemos combinar la <link target-id="fs-id1171360234750"/> y la <link target-id="fs-id1171360485906"/> para obtener una expresión para el voltaje Hall en términos del campo magnético:</para>
+<note id="fs-id1163712378765" class="equation-callout">
+<equation id="fs-id1171358949627"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171360404117">¿Y si los portadores de carga son positivos, como en la <link target-id="CNX_UPhysics_28_06_Hall"/>? Para la misma corriente <emphasis effect="italics">I</emphasis>, la magnitud de <emphasis effect="italics">V</emphasis> sigue estando dada por la <link target-id="fs-id1171359011013"/>. Sin embargo, el borde superior es ahora negativo con respecto al borde inferior. Por lo tanto, simplemente al medir el signo de <emphasis effect="italics">V</emphasis>, podemos determinar el signo de los portadores de carga mayoritarios en un metal.</para>
+<para id="fs-id1171360221404">Las mediciones del potencial Hall muestran que los electrones son los portadores de carga dominantes en la mayoría de los metales. Sin embargo, los potenciales Hall indican que para unos pocos metales, como el tungsteno, el berilio y muchos semiconductores, la mayoría de los portadores de carga son positivos. Resulta que la conducción por carga positiva está causada por la migración de sitios de electrones perdidos (llamados agujeros) en los iones. La conducción por agujeros se estudia más adelante en <link document="m91030">Física de la materia condensada</link>.</para>
+<para id="fs-id1171360308019">El efecto Hall puede utilizarse para medir campos magnéticos. Si un material con una densidad conocida de portadores de carga <emphasis effect="italics">n</emphasis> se coloca en un campo magnético y se mide <emphasis effect="italics">V</emphasis>, entonces se puede determinar el campo a partir de la <link target-id="fs-id1171359011013"/>. En los laboratorios de investigación en los que los campos de los electroimanes utilizados para mediciones precisas tienen que ser extremadamente estables, se suele utilizar una "sonda Hall" como parte de un circuito electrónico que regula el campo.</para>
+<example id="fs-id1171358968547">
+<para id="fs-id1171360156172"><title>Selector de velocidad</title>
+Un rayo de electrones entra en un selector de velocidad de campo cruzado con campos magnéticos y eléctricos de 2,0 mT y <m:math><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N/C,</m:mtext></m:mrow></m:math> respectivamente. (a) ¿Cuál debe ser la velocidad del rayo de electrones para atravesar los campos cruzados sin ser desviado? Si se apaga el campo eléctrico, (b) ¿cuál es la aceleración del rayo de electrones y (c) cuál es el radio del movimiento circular resultante?</para>
+<para id="fs-id1167586271449"><title>Estrategia</title>
+El rayo de electrones no es desviado por ninguno de los dos campos magnéticos o eléctricos si estas fuerzas están equilibradas. A partir de estas fuerzas equilibradas, calculamos la velocidad del rayo. Sin el campo eléctrico, en la segunda ley de Newton solo se utiliza la fuerza magnética para hallar la aceleración. Por último, el radio de la trayectoria se basa en el movimiento circular resultante de la fuerza magnética.</para>
+<para id="fs-id1167586011976"><title>Solución</title></para>
+<list id="fs-id1171360235736" list-type="enumerated" number-style="lower-alpha">
+<item>La velocidad del rayo de electrones no perturbado con campos cruzados se calcula mediante <link target-id="fs-id1171360336437"/>:
+<equation id="fs-id1171360168684" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mi>B</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>N</m:mtext><m:mtext>/</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s.</m:mtext></m:mrow></m:mrow></m:math></equation></item>
+<item>La aceleración se calcula a partir de la fuerza neta del campo magnético, igual a la masa por la aceleración. La magnitud de la aceleración es:
+<equation id="fs-id1171360182944" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>9,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>El radio de la trayectoria proviene de un equilibrio de las fuerzas circulares y magnéticas, o <link target-id="fs-id1171360336437"/>:
+<equation id="fs-id1171360267138" class="unnumbered"><label/><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>9,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167585882024"><title>Importancia</title>
+Si los electrones del rayo tuvieran velocidades superiores o inferiores a la respuesta de la parte (a), esos electrones tendrían una fuerza neta más fuerte ejercida por el campo magnético o eléctrico. Por lo tanto, solo los electrones a esta velocidad específica lo lograrían.</para>
+</example>
+<example id="fs-id1171359210019">
+<para id="fs-id1171360368308"><title>El potencial Hall en una cinta de plata</title>
+La <link target-id="CNX_UPhysics_28_06_Silver"/> muestra una cinta de plata cuya sección transversal es de 1,0 cm por 0,20 cm. La cinta lleva una corriente de 100 A de izquierda a derecha, y se encuentra en un campo magnético uniforme de magnitud 1,5 T. Utilizando un valor de densidad de <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>28</m:mn></m:mrow></m:msup></m:mrow></m:math> electrones por metro cúbico para la plata, calcule el potencial Hall entre los bordes de la cinta.</para>
+<figure id="CNX_UPhysics_28_06_Silver">
+<media id="fs-id1171360138176" alt="La cinta de plata se muestra con la corriente fluyendo hacia la derecha, un campo magnético apuntando hacia arriba, cargas negativas acumulándose en el borde cercano a nosotros y cargas positivas acumulándose en el borde lejano. Las dimensiones de la tira son de 1,0 cm por 0,20 cm.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_06_Silver.jpg"/>
+</media>
+<caption>Se muestra el potencial Hall en una cinta de plata en un campo magnético.</caption>
+</figure>
+<para id="fs-id1167582827322"><title>Estrategia</title>
+Como la mayoría de los portadores de carga son electrones, la polaridad del voltaje Hall es la indicada en la figura. El valor del voltaje Hall se calcula mediante la <link target-id="fs-id1171359011013"/>:</para>
+<equation id="fs-id1171360385199" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>e</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167582610779"><title>Solución</title>
+Para calcular el voltaje Hall, necesitamos conocer la corriente que atraviesa el material, el campo magnético, la longitud, el número de portadores de carga y el área. Como todo esto está dado, el voltaje Hall se calcula como:</para>
+<equation id="fs-id1171360533266" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>e</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−2</m:mn></m:msup><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>28</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>V.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167582920861"><title>Importancia</title>
+Como en este ejemplo, el potencial Hall es generalmente muy pequeño y se requiere una cuidadosa experimentación con equipos sensibles para su medición.</para>
+</example>
+<note id="fs-id1171360227261" class="check-understanding">
+<exercise id="fs-id1171360531682">
+<problem id="fs-id1171359175258">
+<para id="fs-id1171359085779">Una sonda Hall consiste en una tira de cobre, <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>8,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>28</m:mn></m:mrow></m:msup></m:mrow></m:math> electrones por metro cúbico, que tiene 2,0 cm de ancho y 0,10 cm de espesor. ¿Cuál es el campo magnético cuando <emphasis effect="italics">I</emphasis> = 50 A y el potencial Hall es (a) <m:math><m:mrow><m:mn>4,0</m:mn><m:mi>μ</m:mi><m:mtext>V</m:mtext></m:mrow></m:math> y (b) <m:math><m:mrow><m:mn>6,0</m:mn><m:mi>μ</m:mi><m:mtext>V</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1171360520173">
+<para id="fs-id1171360121659">a. 1,1 T; b. 1,6 T</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1171360250462" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1171359032056" list-type="bulleted" bullet-style="bullet">
+<item>Los campos eléctricos y magnéticos perpendiculares ejercen fuerzas iguales y opuestas para una velocidad específica de las partículas que entran, actuando así como un selector de velocidad. La velocidad que pasa sin desviarse se calcula mediante <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mi>B</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>El efecto Hall puede utilizarse para medir el signo de la mayoría de los portadores de carga de los metales. También puede utilizarse para medir un campo magnético.</item>
+</list>
+</section>
+<section id="fs-id1171360084769" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1171360138563">
+<problem id="fs-id1171360268299">
+<para id="fs-id1171360275051">Los potenciales Hall son mucho mayores para los malos conductores que para los buenos. ¿Por qué?</para>
+</problem>
+<solution id="fs-id1171360128851">
+<para id="fs-id1171360293978">Los malos conductores tienen una menor densidad de portadores de carga, <emphasis effect="italics">n</emphasis>, que, según la fórmula del efecto Hall, se relaciona con un mayor potencial Hall. Los buenos conductores tienen una mayor densidad de portadores de carga y, por tanto, un menor potencial Hall.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1171360295439" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1171359011064">
+<problem id="fs-id1171360293920">
+<para id="fs-id1171360121897">Se coloca una tira de cobre en un campo magnético uniforme de magnitud 2,5 T. Se mide que el campo eléctrico Hall es <m:math><m:mrow><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>V/m</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) ¿Cuál es la velocidad de deriva de los electrones de conducción? (b) Suponiendo que n = <m:math><m:mrow><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>28</m:mn></m:mrow></m:msup></m:mrow></m:math> electrones por metro cúbico y que el área de la sección transversal de la banda es <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> calcule la corriente en la tira. (c) ¿Cuál es el coeficiente Hall 1/nq?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171358939774">
+<problem id="fs-id1171360353889">
+<para id="fs-id1171360345872">Las dimensiones de la sección transversal de la tira de cobre mostrada son de 2,0 cm por 2,0 mm. La cinta lleva una corriente de 100 A y se coloca en un campo magnético de magnitud <emphasis effect="italics">B</emphasis> = 1,5 T. ¿Cuáles son el valor y la polaridad del potencial Hall en la cinta de cobre?</para>
+<media id="fs-id1171358968478" alt="Una tira de cobre cuadrada horizontal de 2,0 cm por 2,0 cm tiene una corriente I que fluye a través de ella hacia la derecha. Un campo magnético, B, apunta hacia arriba, perpendicular a la cara de la tira.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_06_copperstrp.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171358952083">
+<para id="fs-id1171359044595"><m:math><m:mrow><m:mn>5,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>V</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1171356720797">
+<problem id="fs-id1171360065073">
+<para id="fs-id1171360587460">Las magnitudes de los campos eléctricos y magnéticos en un selector de velocidad son <m:math><m:mrow><m:mn>1,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>V/m</m:mtext></m:mrow></m:math> y 0,080 T, respectivamente. (a) ¿Qué velocidad debe tener un protón para atravesar el selector? (b) Calcule también las velocidades necesarias para una partícula alfa y un átomo ionizado simple <m:math><m:mrow><m:msubsup><m:mrow/><m:mrow><m:mspace width="0.5em"/><m:mi>s</m:mi></m:mrow><m:mn/></m:msubsup><m:msup><m:mi>O</m:mi><m:mn>16</m:mn></m:msup></m:mrow></m:math> para pasar por el selector.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171360353816">
+<problem id="fs-id1171360497368">
+<para id="fs-id1171360066166">Una partícula cargada se mueve a través de un selector de velocidad a velocidad constante. En el selector, <emphasis effect="italics">E</emphasis> = <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>N/C</m:mtext></m:mrow></m:math> y <emphasis effect="italics">B</emphasis> = 0,250 T. Cuando se apaga el campo eléctrico, la partícula cargada recorre una trayectoria circular de radio 3,33 mm. Determine la relación carga-masa de la partícula.</para>
+</problem>
+<solution id="fs-id1171358972982">
+<para id="fs-id1171360168250"><m:math><m:mrow><m:mn>4,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>C/kg</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171360346981">
+<problem id="fs-id1171360251965">
+<para id="fs-id1171359161710">Una sonda Hall da una lectura de <m:math><m:mrow><m:mn>1,5</m:mn><m:mo>μ</m:mo><m:mtext>V</m:mtext></m:mrow></m:math> para una corriente de 2 A cuando se coloca en un campo magnético de 1 T. ¿Cuál es el campo magnético en una región donde la lectura es <m:math><m:mrow><m:mn>2</m:mn><m:mo>μ</m:mo><m:mtext>V</m:mtext></m:mrow></m:math> para 1,7 A de corriente?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171360099439">
+<term>efecto Hall</term>
+<meaning id="fs-id1171360155261">creación de voltaje a través de un conductor portador de corriente por un campo magnético</meaning>
+</definition>
+<definition id="fs-id1171360156536">
+<term>selector de velocidad</term>
+<meaning id="fs-id1171360162598">aparato en el que los campos eléctrico y magnético cruzados producen fuerzas iguales y opuestas sobre una partícula cargada que se desplaza con una velocidad específica; esta partícula se desplaza a través del selector de velocidad sin verse afectada por ninguno de los dos campos, mientras que las partículas que se desplazan con velocidades diferentes son desviadas por el aparato</meaning>
+</definition>
+</glossary>
+</document>

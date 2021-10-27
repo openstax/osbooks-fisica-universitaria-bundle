@@ -1,0 +1,258 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Péndulos</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90700</md:content-id>
+  <md:title>Péndulos</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Indicar las fuerzas que actúan sobre un péndulo simple.</item>
+<item>Determinar la frecuencia angular, la frecuencia y el periodo de un péndulo simple en términos de la longitud del péndulo y de la aceleración debido a la gravedad.</item>
+<item>Definir el periodo de un péndulo físico.</item>
+<item>Definir el periodo de un péndulo de torsión.</item>
+</list></md:abstract>
+  <md:uuid>fe7fd9b4-2f8e-4027-a2eb-7b04079cb476</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167131485483">Los péndulos son de uso común. Los relojes de pie utilizan un péndulo para dar la hora, y un péndulo se puede usar para medir la aceleración debido a la gravedad. Para desplazamientos cortos, un péndulo es un oscilador armónico simple.</para>
+<section id="fs-id1167130004423">
+<title>El péndulo simple</title>
+<para id="fs-id1167131090422">Un <term>péndulo simple</term> se define por tener una masa puntual, también conocida como <term class="no-emphasis">masa pendular</term>, la cual está suspendida de una cuerda de longitud <emphasis effect="italics">L</emphasis> con masa insignificante (<link target-id="CNX_UPhysics_15_05_SimplePend"/>). En este caso, las únicas fuerzas que actúan sobre la pesa son la fuerza de gravedad (es decir, el peso de la pesa) y la tensión de la cuerda. Se supone que la masa de la cuerda es insignificante en comparación con la masa de la pesa.</para>
+<figure id="CNX_UPhysics_15_05_SimplePend">
+<media id="fs-id1167131102347" alt="En la figura se muestra una barra horizontal. Una cuerda de longitud L se extiende desde la barra con un ángulo theta en sentido contrario a las agujas del reloj desde la vertical. La dirección vertical se indica con una línea discontinua que se extiende hacia abajo desde el punto en que la cuerda está atada a la barra. En el extremo inferior de la cuerda se ata una pesa circular de masa m. El arco que va de la masa a la vertical se indica con otra línea discontinua y tiene una longitud s. A lo largo de la línea de la cuerda hacia la barra se muestra una flecha roja que muestra el tiempo T de la oscilación de la pesa. Se muestra un sistema de coordenadas cerca de la pesa con la dirección y positiva alineada con la cuerda y señala hacia el punto de apoyo; y la dirección x positiva señala tangente al arco y se aleja de la posición de equilibrio. Una flecha azul desde la pesa hacia el apoyo, a lo largo de la cuerda, está identificada como F sub T. Una flecha roja desde la pesa que señala hacia abajo está identificada como w = m g. Una flecha roja que señala tangente al arco y hacia el equilibrio, en la dirección menos x, está identificada como menos m g seno theta. Una flecha roja en un ángulo theta en sentido contrario a las agujas del reloj desde w está identificada como menos m g coseno theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_05_SimplePend.jpg"/>
+</media>
+<caption>Un péndulo simple tiene una pesa de pequeño diámetro y una cuerda que tiene una masa muy pequeña pero es lo suficientemente fuerte como para no estirarse de forma apreciable. El desplazamiento lineal desde el equilibrio es <emphasis effect="italics">s</emphasis>, la longitud del arco. También se muestran las fuerzas sobre la pesa, lo que resulta en una fuerza neta de <m:math><m:mrow><m:mtext>–</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> hacia la posición de equilibrio, es decir, una fuerza restauradora.</caption>
+</figure>
+<para id="fs-id1167130036041">Considere el torque en el péndulo. La fuerza que proporciona el torque restaurador es el componente del peso de la masa pendular que actúa a lo largo de la longitud del arco. El torque es la longitud de la cuerda <emphasis effect="italics">L</emphasis> por el componente de la fuerza neta perpendicular al radio del arco. El signo menos indica que el torque actúa en dirección opuesta al desplazamiento angular:</para>
+<equation id="fs-id1167131404192" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>τ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>–</m:mtext><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi><m:mi>α</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>–</m:mtext><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>–</m:mtext><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>–</m:mtext><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>–</m:mo><m:mfrac><m:mi>g</m:mi><m:mi>L</m:mi></m:mfrac><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167134638924">La solución de esta ecuación diferencial implica un cálculo avanzado, y está fuera del alcance de este texto. Pero tenga en cuenta que para ángulos pequeños (menos de 15 grados), <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> y <m:math><m:mi>θ</m:mi></m:math> difieren en menos de un 1 %, por lo que podemos utilizar la aproximación de ángulo pequeño <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math> El ángulo <m:math><m:mi>θ</m:mi></m:math> describe la posición del péndulo. El uso de la aproximación de ángulo pequeño da una solución aproximada para ángulos pequeños,</para>
+<note id="fs-id1167134443125" class="equation-callout">
+<equation id="fs-id1167134582750"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac><m:mi>g</m:mi><m:mi>L</m:mi></m:mfrac><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167130344667">Dado que esta ecuación tiene la misma forma que la ecuación de SHM, la solución es fácil de calcular. La frecuencia angular es</para>
+<note id="fs-id1167131238164" class="equation-callout">
+<equation id="fs-id1167134588131"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>g</m:mi><m:mi>L</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131402009">y el periodo es</para>
+<note id="fs-id1167131554269" class="equation-callout">
+<equation id="fs-id1167131398670"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131262321">El periodo de un péndulo simple depende de su longitud y de la aceleración debido a la gravedad. El periodo es completamente independiente de otros factores, como masa y desplazamiento máximo. Como en el caso de los osciladores armónicos simples, el periodo <emphasis effect="italics">(T)</emphasis> de un péndulo es casi independiente de la amplitud, especialmente si <m:math><m:mi>θ</m:mi></m:math> es inferior a unos <m:math><m:mrow><m:mn>15</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Incluso relojes de péndulo simple se pueden ajustar con precisión y seguir siendo exactos.</para>
+<para id="fs-id1167130005326">Note la dependencia de <emphasis effect="italics">T</emphasis> con respecto a <emphasis effect="italics">g</emphasis>. Si se conoce con precisión la longitud de un péndulo, se puede utilizar para medir la aceleración debido a la gravedad, como en el siguiente ejemplo.</para>
+<example id="fs-id1167131235662">
+<para id="fs-id1167130143455"><title>Medición de la aceleración debido a la gravedad mediante el periodo de un péndulo</title>
+¿Cuál es la aceleración debido a la gravedad en una región donde un péndulo simple de 75,000 cm de longitud tiene un periodo de 1,7357 s?</para>
+<para id="fs-id1167130050927"><title>Estrategia</title>
+Se nos pide calcular <emphasis effect="italics">g</emphasis> dado el periodo <emphasis effect="italics">(T)</emphasis> y la longitud <emphasis effect="italics">L</emphasis> de un péndulo. Podemos resolver <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> para <emphasis effect="italics">g</emphasis>, suponiendo únicamente que el ángulo de desviación es menor de <m:math><m:mrow><m:mn>15</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167131167842"><title>Solución</title></para>
+<list id="fs-id1167131583258" list-type="enumerated" number-style="arabic">
+<item>Cuadrado <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> y resuelva para <emphasis effect="italics">g</emphasis>:
+<equation id="fs-id1167131453570" class="unnumbered"><label/><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:mfrac><m:mi>L</m:mi><m:mrow><m:msup><m:mi>T</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Sustituya los valores conocidos en la nueva ecuación:
+<equation id="fs-id1167131123290" class="unnumbered"><label/><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:mfrac><m:mrow><m:mn>0,75000</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,7357</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Calcule para hallar <emphasis effect="italics">g</emphasis>:
+<equation id="fs-id1165168894703" class="unnumbered"><label/><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9,8281</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167131517509"><title>Importancia</title>
+Este método para determinar <emphasis effect="italics">g</emphasis> puede ser muy preciso, por lo que la longitud y el periodo se dan con cinco dígitos en este ejemplo. Para la precisión de la aproximación <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math> para ser mejor que la precisión de la longitud y el periodo del péndulo, el ángulo máximo de desplazamiento debe mantenerse por debajo de <m:math><m:mrow><m:mn>0,5</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> aproximadamente.</para>
+</example>
+<note id="fs-id1167131404748" class="check-understanding">
+<exercise id="fs-id1167131578889">
+<problem id="fs-id1167134882828">
+<para id="fs-id1167131149152"> Un ingeniero construye dos péndulos simples. Ambos están suspendidos de pequeños cables fijados al techo de una habitación. Cada péndulo se sitúa a 2 cm del suelo. El péndulo 1 tiene una pesa con una masa de 10 kg. El péndulo 2 tiene una pesa con una masa de 100 kg. Describa cómo diferirá el movimiento de los péndulos si ambas pesas están desplazadas por <m:math><m:mrow><m:mn>12</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167131444820">
+<para id="fs-id1167130002571">El movimiento de los péndulos no diferirá en absoluto porque la masa de la pesa no tiene ningún efecto sobre el movimiento de un péndulo simple. Los péndulos solo se ven afectados por el periodo (el cual está relacionado con la longitud del péndulo) y por la aceleración debido a la gravedad.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167131545002">
+<title>Péndulo físico</title>
+<para id="fs-id1167131547848">Cualquier objeto puede oscilar como un péndulo. Piense en una taza de café colgada en un gancho en la despensa. Si la taza recibe un golpe, oscila de un lado a otro como un péndulo hasta que las oscilaciones se detienen. Hemos descrito un péndulo simple como una masa puntual y una cuerda. Un <term>péndulo físico</term> es cualquier objeto cuyas oscilaciones son similares a las del péndulo simple, pero no se puede modelar como una masa puntual en una cuerda, y la distribución de la masa se debe incluir en la ecuación de movimiento.</para>
+<para id="fs-id1167130142276">En cuanto al péndulo simple, la fuerza restauradora del péndulo físico es la fuerza de la gravedad. En el péndulo simple la fuerza de gravedad actúa sobre el centro de la masa pendular. En el caso del péndulo físico, la fuerza de gravedad actúa sobre el centro de masa (CM) de un objeto. El objeto oscila alrededor de un punto <emphasis effect="italics">O</emphasis>. Considere un objeto de forma genérica como el que se muestra en la <link target-id="CNX_UPhysics_15_05_PhysicalPd"/>.</para>
+<figure id="CNX_UPhysics_15_05_PhysicalPd"><media id="fs-id1167130222676" alt="Un dibujo de un péndulo físico. En la figura, el péndulo es un objeto de forma irregular. El centro de masa, CM, está a una distancia L del punto de apoyo, O. El centro de masa traza un arco circular, centrado en O. La línea que va de O a L forma un ángulo theta en sentido contrario a las agujas del reloj con respecto a la vertical. Las tres fuerzas se representan con flechas rojas en el centro de masa. La fuerza m g señala hacia abajo. Sus componentes son menos m g seno theta, el cual señala tangente al arco trazado por el centro de masa y m g coseno theta, el cual señala radialmente hacia afuera.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_15_05_PhysicalPd.jpg"/>
+</media>
+
+<caption>Un péndulo físico es cualquier objeto que oscila como un péndulo, pero que no se puede modelar como una masa puntual en una cuerda. La fuerza de gravedad actúa sobre el centro de masa (CM) y proporciona la fuerza restauradora que hace que el objeto oscile. El signo menos en el componente del peso que proporciona la fuerza restauradora está presente porque la fuerza actúa en la dirección opuesta al ángulo creciente <m:math><m:mi>θ</m:mi></m:math>.</caption></figure><para id="fs-id1167131098246">Cuando un péndulo físico está colgado de un punto pero es libre de girar, lo hace debido al torque aplicado en el CM, producido por el componente del peso del objeto que actúa tangente al movimiento del CM. Tomando la dirección contraria a las agujas del reloj como positiva, el componente de la fuerza gravitacional que actúa tangente al movimiento es <m:math><m:mrow><m:mtext>–</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>. El signo menos es el resultado de la fuerza restauradora que actúa en la dirección opuesta al ángulo creciente. Recuerde que el torque es igual a <m:math><m:mrow><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. La magnitud del torque es igual a la longitud del brazo del radio por el componente tangencial de la fuerza aplicada, <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>τ</m:mi><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>r</m:mi><m:mi>F</m:mi><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>. Aquí, la longitud <emphasis effect="italics">L</emphasis> del brazo del radio es la distancia entre el punto de rotación y el CM. Para analizar el movimiento, empiece con el torque neto. Al igual que el péndulo simple, considere solo los ángulos pequeños para que <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math>. Recuerde del capítulo <link document="m90662">Rotación de eje fijo</link> sobre rotación que el torque neto es igual al momento de inercia <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math> por la aceleración angular <m:math><m:mrow><m:mi>α</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>:</para><equation id="fs-id1167131402339" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mi>α</m:mi><m:mo>=</m:mo><m:msub><m:mi>τ</m:mi><m:mrow><m:mtext>neto</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>–</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134527205">Al usar la aproximación de ángulo pequeño y reordenar:</para>
+<equation id="fs-id1167131262469" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi><m:mi>α</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>–</m:mtext><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>θ</m:mi><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>–</m:mtext><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>θ</m:mi><m:mo>;</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>–</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow><m:mi>I</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>θ</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167131536730">Una vez más, la ecuación dice que la segunda derivada temporal de la posición (en este caso, el ángulo) es igual a menos una constante <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>–</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow><m:mi>I</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> por la posición. La solución es</para>
+<equation id="fs-id1167131152814" class="unnumbered"><label/><m:math><m:mrow><m:mi>θ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>Θ</m:mtext><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131360584">donde <m:math><m:mtext>Θ</m:mtext></m:math> es el desplazamiento angular máximo. La frecuencia angular es</para>
+<note id="fs-id1167134735579" class="equation-callout">
+<equation id="fs-id1167131497484"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow><m:mi>I</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131168215">Por lo tanto, el periodo es</para>
+<note id="fs-id1167131407523" class="equation-callout">
+<equation id="fs-id1167129979902"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134891195">Observe que para un péndulo simple, el momento de inercia es <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> y el periodo se reduce a <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+<example id="fs-id1167134722590"><para id="fs-id1167131509230"><title>Cómo reducir el vaivén de un rascacielos</title>
+En condiciones extremas, los rascacielos pueden tener un vaivén de hasta dos metros con una frecuencia de hasta 20,00 Hz debido a vientos fuertes o a actividad sísmica. Varias compañías han desarrollado péndulos físicos que se colocan en lo alto de los rascacielos. Cuando el rascacielos se inclina hacia la derecha, el péndulo lo hace hacia la izquierda, lo que reduce el vaivén. Suponiendo que las oscilaciones tienen una frecuencia de 0,50 Hz, diseñe un péndulo que consista en una viga larga, de densidad constante, con una masa de 100 toneladas métricas y un punto de apoyo en un extremo de la viga. ¿Cuál debería ser la longitud de la viga?</para>
+<media id="fs-id1167129964010" alt="La figura representa un edificio alto con una columna en el techo y una varilla larga de longitud H que se balancea en un punto de apoyo cerca de la parte superior de la columna.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_05_SkyPend_img.jpg"/>
+</media>
+<para id="fs-id1167131618916"><title>Estrategia</title>
+Se nos pide que hallemos la longitud del péndulo físico con una masa conocida. Primero tenemos que hallar el momento de inercia de la viga. A continuación, podemos utilizar la ecuación del periodo de un péndulo físico para calcular la longitud.</para>
+<para id="fs-id1167131346450"><title>Solución</title></para>
+<list id="fs-id1167131420681" list-type="enumerated" number-style="arabic"><item>Calcule el momento de inercia del CM:</item>
+<item>Use el teorema del eje paralelo para hallar el momento de inercia en torno al punto de rotación<newline/>
+<equation id="fs-id1167129965832" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msup><m:mrow><m:mfrac><m:mi>L</m:mi><m:mn>4</m:mn></m:mfrac></m:mrow><m:mn>2</m:mn></m:msup><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>El periodo de un péndulo físico tiene un periodo de <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>. Use el momento de inercia para resolver la longitud <emphasis effect="italics">L</emphasis>:
+<equation id="fs-id1167134964462" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>T</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>M</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>M</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mrow><m:mn>3</m:mn><m:mi>g</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>;</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>L</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>g</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9,8</m:mn><m:mfrac><m:mtext>m</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2,98</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation></item>
+<item>Esta longitud <emphasis effect="italics">L</emphasis> es desde el centro de masa hasta el eje de rotación, que es la mitad de la longitud del péndulo. Por lo tanto, la longitud <emphasis effect="italics">H</emphasis> del péndulo es:
+<equation id="addedequation" class="unnumbered"><label/><m:math><m:mrow><m:mi>H</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>5,96</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></equation></item>
+</list><para id="fs-id1167134972224"><title>Importancia</title>
+Hay muchas formas de reducir las oscilaciones, entre las que se encuentran modificar la forma de los rascacielos, utilizar varios péndulos físicos y emplear amortiguadores de masa sintonizada.</para>
+</example></section>
+<section id="fs-id1167131178689">
+<title>Péndulo de torsión</title>
+<para id="fs-id1167131214545">Un <term>péndulo de torsión</term> consiste en un cuerpo rígido suspendido por un cable o resorte ligero (<link target-id="CNX_UPhysics_15_05_TorsionPnd"/>). Cuando el cuerpo se retuerce un poco en un pequeño ángulo máximo <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mtext>Θ</m:mtext><m:mo>)</m:mo></m:mrow></m:mrow></m:math> y liberado del reposo, el cuerpo oscila entre <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mtext>Θ</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> y <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mtext>–</m:mtext><m:mspace width="0.2em"/><m:mtext>Θ</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. El torque restaurador es suministrado por el corte de la cuerda o el cable.</para>
+<figure id="CNX_UPhysics_15_05_TorsionPnd">
+<media id="fs-id1167131157418" alt="En esta figura se ilustra un péndulo de torsión. El péndulo consiste en un disco horizontal que cuelga del techo mediante una cuerda. La cuerda se une al disco en su centro, en el punto O. El disco y la cuerda pueden oscilar en un plano horizontal entre los ángulos más theta y menos theta. La posición de equilibrio se encuentra entre estas, en theta = 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_05_TorsionPnd.jpg"/>
+</media>
+<caption>Un péndulo de torsión consiste en un cuerpo rígido suspendido mediante una cuerda o un cable. El cuerpo rígido oscila entre <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mtext>Θ</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mtext>–</m:mtext><m:mtext>Θ</m:mtext></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1167131487002">El torque restaurador se puede modelar como proporcional al ángulo:</para>
+<equation id="fs-id1167134834825" class="unnumbered"><label/><m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mtext>–</m:mtext><m:mi>κ</m:mi><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131590102">La variable kappa <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>κ</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> se conoce como la <term class="no-emphasis">constante de torsión</term> del cable o cuerda. El signo menos indica que el torque restaurador actúa en dirección opuesta al aumento del desplazamiento angular. El torque neto es igual al momento de inercia por la aceleración angular:</para>
+<equation id="fs-id1167134947445" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>I</m:mi><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>–</m:mtext><m:mi>κ</m:mi><m:mi>θ</m:mi><m:mo>;</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac><m:mi>κ</m:mi><m:mi>I</m:mi></m:mfrac><m:mi>θ</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167131606037">Esta ecuación dice que la segunda derivada temporal de la posición (en este caso, el ángulo) es igual a una constante negativa por la posición. Esto se parece mucho a la ecuación de movimiento del SHM <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:math>, donde se halló que el periodo era <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>k</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>. Por lo tanto, el periodo del péndulo de torsión se puede calcular mediante</para>
+<note id="fs-id1167131633578" class="equation-callout">
+<equation id="fs-id1167131389919"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mi>κ</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131181173">Las unidades de la constante de torsión son <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mi>κ</m:mi><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>N – m</m:mtext><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>kg</m:mtext><m:mfrac><m:mtext>m</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mtext>kg</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> y las unidades para el momento de inercia son <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mi>I</m:mi><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>kg – m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> que muestran que la unidad del periodo es el segundo.</para>
+<example id="fs-id1167131104537">
+<para id="fs-id1167129966482"><title>Medición de la constante de torsión de una cuerda</title>
+Una varilla tiene una longitud de <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0,30</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> y una masa de 4,00 kg. Se fija una cuerda al CM de la varilla y el sistema se cuelga del techo (<link target-id="CNX_UPhysics_15_05_TorsPenRod"/>). La varilla se desplaza 10 grados desde la posición de equilibrio y se libera del reposo. La varilla oscila con un periodo de 0,5 s. ¿Cuál es la constante de torsión <m:math><m:mi>κ</m:mi></m:math>?</para>
+<figure id="CNX_UPhysics_15_05_TorsPenRod">
+<media id="fs-id1167131152402" alt="La figura a muestra una varilla horizontal, de 30,0 centímetros de longitud y 4,00 kilogramos de masa, que cuelga del techo mediante una cuerda. La cuerda se fija en el centro de la varilla. La varilla gira con la cuerda en el plano horizontal. La figura b muestra la varilla con los detalles necesarios para hallar su momento de inercia. La longitud de la varilla, de extremo a extremo, es L y su masa total es M. Tiene una densidad lineal de masa lambda igual a d m d x que también es igual a M sobre L. Se destaca un pequeño segmento de la varilla que tiene una longitud d x a una distancia x del centro de la varilla. La cuerda está atada en el centro de la varilla.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_05_TorsPenRod.jpg"/>
+</media>
+<caption>(a) Una varilla suspendida del techo mediante una cuerda. (b) Halle el momento de inercia de la varilla.</caption>
+</figure>
+<para id="fs-id1167131589368"><title>Estrategia</title>
+Se nos pide que hallemos la constante de torsión de la cuerda. Primero tenemos que hallar el momento de inercia.</para>
+<para id="fs-id1167131119882"><title>Solución</title></para>
+<list id="fs-id1167131104595" list-type="enumerated" number-style="arabic">
+<item>Calcule el momento de inercia del CM:
+<equation id="fs-id1167131435658" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:mo>∫</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>m</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:mtext>–</m:mtext><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mrow><m:mo>+</m:mo><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msubsup><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>λ</m:mi><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mi>λ</m:mi><m:msubsup><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>–</m:mtext><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mrow><m:mo>+</m:mo><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>=</m:mo><m:mi>λ</m:mi><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>L</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>M</m:mi><m:mi>L</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>L</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Calcule la constante de torsión mediante la ecuación del periodo:
+<equation id="fs-id1167130003263" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>T</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mi>κ</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>κ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>I</m:mi><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>M</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,30</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4,73</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1167131634436"><title>Importancia</title>
+Al igual que la constante de fuerza del sistema de un bloque y un resorte, cuanto mayor sea la constante de torsión, más corto será el periodo.</para>
+</example>
+</section>
+<section id="fs-id1167134790815" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167131325699" list-type="bulleted" bullet-style="bullet">
+<item>Una masa <emphasis effect="italics">m</emphasis> suspendida por un cable de longitud <emphasis effect="italics">L</emphasis> y masa insignificante es un péndulo simple y experimenta SHM para amplitudes inferiores a <m:math><m:mrow><m:mn>15</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. El periodo de un péndulo simple es <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>, donde <emphasis effect="italics">L</emphasis> es la longitud de la cuerda y <emphasis effect="italics">g</emphasis> es la aceleración debido a la gravedad.</item>
+<item>El periodo de un péndulo físico <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> se puede calcular si se conoce el momento de inercia. La longitud entre el punto de rotación y el centro de masa es <emphasis effect="italics">L</emphasis>.</item>
+<item>El periodo de un péndulo de torsión <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>I</m:mi><m:mi>κ</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> se puede calcular si se conoce el momento de inercia y la constante de torsión.</item>
+</list>
+</section>
+<section id="fs-id1167134858260" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167130204232">
+<problem id="fs-id1167134989908">
+<para id="fs-id1167131142943">Los relojes de péndulo se hacen funcionar a la velocidad correcta al ajustar la longitud del péndulo. Suponga que usted se traslada de una ciudad a otra donde la aceleración debido a la gravedad es ligeramente mayor y lleva consigo su reloj de péndulo, ¿tendrá que alargar o acortar el péndulo para mantener la hora correcta mientras los demás factores permanecen constantes? Explique su respuesta.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167130002201">
+<problem id="fs-id1167131422142">
+<para id="fs-id1167131621010">Un reloj de péndulo funciona al medir el periodo de un péndulo. En primavera, el reloj funciona con un tiempo perfecto, pero en verano e invierno la longitud del péndulo cambia. Cuando la mayoría de los materiales se calientan, se expanden. ¿El reloj va demasiado rápido o demasiado lento en verano? ¿Y en el invierno?</para>
+</problem>
+<solution id="fs-id1167134926082">
+<para id="fs-id1167131515354">El periodo del péndulo es <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>g</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> En verano, la longitud aumenta y el periodo también. Si el periodo debe ser de un segundo, pero el periodo es mayor de un segundo en el verano, oscilará menos de 60 veces por minuto y el reloj funcionará lentamente. En invierno irá rápido.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167130292275">
+<problem id="fs-id1167131434754">
+<para id="fs-id1167131564655">Mediante un deslizamiento de fase, la posición de un objeto se puede modelar como una función coseno o seno. Si le dieran la opción, ¿qué función elegiría? Suponiendo que el deslizamiento de fase es cero, ¿cuáles son las condiciones iniciales de la función, es decir, la posición, la velocidad y la aceleración iniciales, cuando se utiliza una función senoidal? ¿Y cuándo se utiliza una función coseno?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167130004778" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167131621714">
+<problem id="fs-id1167134573578">
+<para id="fs-id1167130310101">¿Cuál es la longitud de un péndulo que tiene un periodo de 0,500 s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131346070">
+<problem id="fs-id1167131510582">
+<para id="fs-id1167130145331">Algunas personas piensan que un péndulo con un periodo de 1,00 s se puede impulsar con “energía mental” o psicocinética, ya que su periodo es el mismo que el de un latido de corazón promedio. Cierto o no, ¿cuál es la longitud de dicho péndulo?</para>
+</problem>
+<solution id="fs-id1167131468450">
+<para id="fs-id1167134969626">24,8 cm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134937568">
+<problem id="fs-id1167131604234">
+<para id="fs-id1167130143060">¿Cuál es el periodo de un péndulo de 1,00 m de longitud?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131598147">
+<problem id="fs-id1167131452685">
+<para id="fs-id1167134723805">¿Cuánto tiempo tarda un niño en un columpio en hacer un balanceo si su centro de gravedad está a 4,00 m por debajo del apoyo?</para>
+</problem>
+<solution id="fs-id1167131602999">
+<para id="fs-id1167130034736">4,01 s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134722587">
+<problem id="fs-id1167130187485">
+<para id="fs-id1167131083711">El péndulo de un reloj cucú mide 5,00 cm de largo. ¿Cuál es su frecuencia?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167129964005">
+<problem id="fs-id1167131088826">
+<para id="fs-id1167131211907">Dos periquitos se sientan en un columpio con sus CM combinados a 10,0 cm por debajo del apoyo. ¿A qué frecuencia se balancean?</para>
+</problem>
+<solution id="fs-id1167134910173">
+<para id="fs-id1167130304351">1,58 s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134734848">
+<problem id="fs-id1167130262451">
+<para id="fs-id1167131326742">a) Un péndulo que tiene un periodo de 3,00000 s y que está situado donde la aceleración debido a la gravedad es <m:math><m:mrow><m:mn>9,79</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> se traslada a un lugar donde la aceleración debido a la gravedad es <m:math><m:mrow><m:mn>9,82</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. ¿Cuál es su nuevo periodo? (b) Explique por qué se necesitan tantos dígitos en el valor del periodo, basándose en la relación entre el periodo y la aceleración debido a la gravedad.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167130202347">
+<problem id="fs-id1167131607925">
+<para id="fs-id1167134572374">Un péndulo con un periodo de 2,00000 s en un lugar (<m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9,80</m:mn><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>) se traslada a una nueva ubicación donde el periodo es ahora de 1,99796 s. ¿Cuál es la aceleración debido a la gravedad en su nueva ubicación?</para>
+</problem>
+<solution id="fs-id1167131471258">
+<para id="fs-id1167130035528"><m:math><m:mrow><m:mn>9,82002</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131503450">
+<problem id="fs-id1167131621293">
+<para id="fs-id1167130238850">(a) ¿Cuál es el efecto en el periodo de un péndulo si duplicara su longitud? (b) ¿Cuál es el efecto en el periodo de un péndulo si disminuyera su longitud en un 5,00 %?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134992245">
+<term>péndulo físico</term>
+<meaning id="fs-id1167131103658">cualquier objeto extendido que se balancee como un péndulo</meaning>
+</definition>
+<definition id="fs-id1167131496711">
+<term>péndulo simple</term>
+<meaning id="fs-id1167131615793">una masa puntual, llamada masa pendular, unida a una cuerda casi sin masa</meaning>
+</definition>
+<definition id="fs-id1167131248348">
+<term>péndulo de torsión</term>
+<meaning id="fs-id1167130033412">cualquier objeto suspendido que oscile mediante la torsión de su suspensión</meaning>
+</definition>
+</glossary>
+</document>

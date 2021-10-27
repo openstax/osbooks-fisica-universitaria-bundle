@@ -1,0 +1,263 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Cifras significativas</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90610</md:content-id>
+  <md:title>Cifras significativas</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Determinar el número correcto de cifras significativas para el resultado de un cálculo.</item>
+<item>Describir la relación entre los conceptos de exactitud, precisión, incertidumbre y discrepancia.</item>
+<item>Calcular el porcentaje de incertidumbre de una medición, dado su valor y su incertidumbre.</item>
+<item>Determinar la incertidumbre del resultado de un cálculo en el que intervienen cantidades con incertidumbres dadas.</item>
+</list></md:abstract>
+  <md:uuid>9ba8321b-e885-46d5-97c8-e34720722d26</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168325678215">La <link target-id="CNX_UPhysics_01_06_Balance"/> muestra dos instrumentos utilizados para medir la masa de un objeto. La báscula digital ha sustituido en su mayor parte a la báscula de doble plato en los laboratorios de física, ya que proporciona mediciones más exactas y precisas. Pero, ¿qué entendemos exactamente por <emphasis effect="italics">exacto</emphasis> y <emphasis effect="italics">preciso</emphasis>? ¿No son lo mismo? En esta sección examinamos en detalle el proceso de realización y notificación de una medición.</para>
+<figure id="CNX_UPhysics_01_06_Balance">
+<media id="fs-id1168328247494" alt="La Figura a muestra una vieja balanza oxidada de doble plato, con una masa estándar en un plato. La Figura b muestra una moderna balanza analítica digital.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_01_06_Balance.jpg"/>
+</media>
+<caption>(a) Se utiliza una balanza mecánica de doble plato para comparar diferentes masas. Normalmente se coloca un objeto de masa desconocida en un plato y objetos de masa conocida en el otro plato. Cuando la barra que une los dos platos es horizontal, entonces las masas en ambos platos son iguales. Las "masas conocidas" suelen ser cilindros metálicos de masa estándar, como 1 g, 10 g y 100 g. (b) Muchas básculas mecánicas, como las de doble plato, han sido sustituidas por balanzas digitales, que miden la masa de un objeto con mayor precisión. La báscula mecánica puede leer solamente la masa de un objeto hasta la décima de gramo más cercana. Sin embargo, muchas básculas digitales pueden medir la masa de un objeto hasta la milésima de gramo más cercana (créditos: a. modificación del trabajo de Serge Melki; b. modificación del trabajo de Karel Jakubec).</caption>
+</figure>
+<section id="fs-id1168328303418">
+<title>Exactitud y precisión de una medida</title>
+<para id="fs-id1168327922756">La ciencia se basa en la observación y la experimentación, es decir, en las mediciones. La <emphasis effect="bold">exactitud</emphasis> es la proximidad de una medición al valor de referencia aceptado para esa medición. Por ejemplo, digamos que queremos medir la longitud de un papel de impresora estándar. El embalaje en el que compramos el papel indica que tiene una longitud de 11,0 in. A continuación, medimos la longitud del papel tres veces y obtenemos las siguientes medidas: 11,1 in, 11,2 in y 10,9 in. Estas mediciones son bastante exactas porque se acercan mucho al valor de referencia de 11,0 in. Por el contrario, si hubiéramos obtenido una medida de 12 in, nuestra medición no sería muy exacta. Observe que el concepto de <term class="no-emphasis">exactitud</term> requiere que se dé un valor de referencia aceptado.</para>
+<para id="fs-id1168327967767">La <term>precisión</term> de las mediciones se refiere a la concordancia entre mediciones repetidas e independientes (que se repiten en las mismas condiciones). Consideremos el ejemplo de las medidas del papel. La precisión de las mediciones se refiere a la dispersión de los valores medidos. Una forma de analizar la precisión de las mediciones es determinar el rango, o la diferencia, entre los valores medidos más bajos y los más altos. En este caso, el valor más bajo fue de 10,9 in y el más alto de 11,2 in. Así, los valores medidos se desviaron entre sí, como máximo, en 0,3 in. Estas mediciones eran relativamente precisas porque no variaban demasiado en valor. Sin embargo, si los valores medidos hubieran sido 10,9 in, 11,1 in y 11,9 in, las mediciones no serían muy precisas porque habría una variación significativa de una medición a otra. Observe que el concepto de precisión depende únicamente de las mediciones reales adquiridas y no depende de un valor de referencia aceptado.</para>
+<para id="fs-id1168328285619">Las mediciones del ejemplo del papel son exactas y precisas, pero en algunos casos, las mediciones son exactas, pero no precisas, o son precisas, pero no exactas. Consideremos un ejemplo de un GPS que intenta localizar la posición de un restaurante en una ciudad. Piense en la ubicación del restaurante como si existiera en el centro de una diana y piense en cada intento del GPS por localizar el restaurante como un punto negro. En la <link target-id="CNX_UPhysics_01_06_Target"/>(a), vemos que las mediciones del GPS están muy separadas entre sí, pero todas están relativamente cerca de la ubicación real del restaurante en el centro del objetivo. Esto indica un sistema de medición de baja precisión y alta exactitud. Sin embargo, en la <link target-id="CNX_UPhysics_01_06_Target"/>(b), las mediciones del GPS se concentran bastante cerca unas de otras, pero están lejos de la ubicación del objetivo. Esto indica un sistema de medición de alta precisión y baja exactitud.</para>
+<figure id="CNX_UPhysics_01_06_Target"><media id="fs-id1168327956371" alt="Dos patrones de objetivos, cada uno de los cuales consiste en tres anillos concéntricos blancos sobre un fondo rojo. La Figura a, marcada como &quot;alta exactitud, baja precisión&quot;, muestra cuatro puntos negros, repartidos a lo largo de la circunferencia del círculo más interno. La Figura b, marcada como &quot;baja exactitud, alta precisión&quot;, muestra cuatro puntos negros agrupados muy cerca entre los círculos centrales y exteriores.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_01_06_Target.jpg"/>
+</media>
+
+<caption>Un GPS intenta localizar un restaurante en el centro de la diana. Los puntos negros representan cada uno de los intentos por localizar el restaurante. (a) Los puntos están bastante separados entre sí, lo que indica una baja precisión, pero están bastante cerca de la ubicación real del restaurante, lo que indica una alta exactitud. (b) Los puntos están concentrados bastante cerca entre sí, lo que indica una alta precisión, pero están bastante lejos de la ubicación real del restaurante, lo que indica una baja exactitud (créditos a y b: modificación de obras de "DarkEvil"/Wikimedia Commons).</caption></figure></section>
+<section id="fs-id1168328178931">
+<title>Exactitud, precisión, incertidumbre y discrepancia</title>
+<para id="fs-id1168327908843">La precisión de un sistema de medición se relaciona con la <term>incertidumbre</term> en las mediciones, mientras que la exactitud se relaciona con la <term>discrepancia</term> con respecto al valor de referencia aceptado. La incertidumbre es una medida cuantitativa de la desviación de los valores medidos. Hay muchos métodos diferentes para calcular la incertidumbre, cada uno de los cuales es apropiado para diferentes situaciones. Algunos ejemplos son tomar el rango (es decir, el mayor menos el menor) o encontrar la desviación estándar de las medidas. La discrepancia (o "error de medición") es la diferencia entre el valor medido y un determinado valor estándar o previsto. Si las mediciones no son muy precisas, la incertidumbre de los valores es alta. Si las mediciones no son muy exactas, la discrepancia de los valores es alta.</para><para id="fs-id1168327854645">Recordemos nuestro ejemplo de la medición de la longitud del papel; obtuvimos mediciones de 11,1, 11,2 y 10,9 pulgadas, y el valor aceptado fue de 11,0 pulgadas. Podríamos promediar las tres mediciones para concluir que nuestro mejor cálculo es de 11,1 pulgadas; en este caso, nuestra discrepancia es de 11,1 - 11,0 = 0,1 pulgadas, lo que proporciona una medida cuantitativa de la exactitud. Podríamos calcular la incertidumbre de nuestra mejor estimación con la mitad del rango de nuestros valores medidos: 0,15 pulgadas. Entonces diríamos que la longitud del papel es de 11,1 pulgadas más o menos 0,15 pulgadas. La incertidumbre en una medición, <emphasis effect="italics">A</emphasis>, que se indica como <emphasis effect="italics">δA</emphasis> (leer como "delta <emphasis effect="italics">A</emphasis>"), por lo que el resultado de la medición se registraría como <emphasis effect="italics">A</emphasis> ± <emphasis effect="italics">δA</emphasis>. Volviendo a nuestro ejemplo del papel, la longitud medida del papel podría expresarse como 11,1 ± 0,15 pulgadas. Dado que la discrepancia de 0,1 pulgadas es menor que la incertidumbre de 0,15 pulgadas, podríamos decir que el valor medido coincide con el valor de referencia aceptado dentro de la incertidumbre experimental.</para><para id="fs-id1168327948810">Algunos factores que contribuyen a la incertidumbre en una medición son los siguientes:</para>
+<list id="fs-id1168328196584" list-type="bulleted" bullet-style="bullet">
+<item>Limitaciones del dispositivo de medición.</item>
+<item>La habilidad de la persona que realiza la medición.</item>
+<item>Irregularidades en el objeto que se mide.</item>
+<item>Cualquier otro factor que afecte el resultado (depende mucho de la situación).</item>
+</list>
+<para id="fs-id1168327924918">En nuestro ejemplo, los factores que contribuyen a la incertidumbre podrían ser que la división más pequeña de la regla sea de 1/16 pulgadas, que la persona que utiliza la regla tenga problemas de visión, que la regla esté desgastada en un extremo o que un lado del papel sea ligeramente más largo que el otro. En cualquier caso, deberá calcularse la incertidumbre de una medición para cuantificar su precisión. Si se conoce un valor de referencia, tiene sentido calcular también la discrepancia para cuantificar su exactitud.</para>
+<section id="fs-id1168327944324">
+<title>Porcentaje de incertidumbre</title>
+<para id="fs-id1168327991650">Otro método de expresar la incertidumbre es como porcentaje del valor medido. Si una medición <emphasis effect="italics">A</emphasis> se expresa con una incertidumbre <emphasis effect="italics">δA</emphasis>, el <term>porcentaje de incertidumbre</term> se define como</para>
+<equation id="fs-id1168328214545" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Porcentaje de incertidumbre</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<example id="fs-id1168328260761">
+<para id="fs-id1168327986964">
+<title>Calcular el porcentaje de incertidumbre: una bolsa de manzanas</title>
+Una tienda de comestibles vende bolsas de 5 lb de manzanas. Supongamos que compramos cuatro bolsas durante el transcurso de un mes y las pesamos cada vez. Obtenemos las siguientes medidas:</para>
+<list id="fs-id1168328289500" list-type="bulleted" bullet-style="bullet">
+<item>Peso de la semana 1: 4,8 lb</item>
+<item>Peso de la semana 2: 5,3 lb</item>
+<item>Peso de la semana 3: 4,9 lb</item>
+<item>Peso de la semana 4: 5,4 lb</item>
+</list>
+<para id="fs-id1168327869229">A continuación, determinamos que el peso medio de la bolsa de 5 libras de manzanas es de 5,1 ± 0,3 lb al utilizar la mitad del rango. ¿Cuál es el porcentaje de incertidumbre del peso de la bolsa?</para><para id="fs-id1168327942231"><title>Estrategia</title>En primer lugar, observe que el valor promedio del peso de la bolsa, <emphasis effect="italics">A</emphasis>, es de 5,1 lb. La incertidumbre en este valor, <m:math><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi><m:mo>,</m:mo></m:mrow></m:math> es 0,3 lb. Podemos utilizar la siguiente ecuación para determinar el porcentaje de incertidumbre del peso:</para><note id="fs-id1168327873248" class="equation-callout">
+<equation id="fs-id1168327916436"><m:math><m:mrow><m:mtext>Porcentaje de incertidumbre</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1168328063119">
+<title>Solución</title>
+Sustituya los valores en la ecuación:</para>
+<equation id="fs-id1168328294056" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Porcentaje de incertidumbre</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0,3</m:mn><m:mspace width="0.2em"/><m:mtext>lb</m:mtext></m:mrow><m:mrow><m:mn>5,1</m:mn><m:mspace width="0.2em"/><m:mtext>lb</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi><m:mo>=</m:mo><m:mn>5,9</m:mn><m:mi>%</m:mi><m:mo>≈</m:mo><m:mn>6</m:mn><m:mi>%</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1168328178160"><title>Importancia</title>Podemos concluir que el peso promedio de una bolsa de manzanas de esta tienda es de 5,1 libras ± 6 %. Observe que el porcentaje de incertidumbre es adimensional porque las unidades de peso en <m:math><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0,2</m:mn></m:mrow></m:math> lb anularon las de <emphasis effect="italics">A</emphasis> = 5,1 lb cuando tomamos la proporción.</para></example>
+<note id="fs-id1168328179945" class="check-understanding">
+<exercise id="fs-id1168328204614">
+<problem id="fs-id1168327886179">
+<para id="fs-id1168328214242"> Un entrenador de atletismo de preparatoria acaba de comprar un nuevo cronómetro. El manual del cronómetro indica que tiene una incertidumbre de ±0,05 s. Los corredores del equipo del entrenador de atletismo realizan regularmente carreras de 100 metros en 11,49 s a 15,01 s. En el último encuentro de atletismo de la escuela, el primer clasificado llegó a 12,04 s y el segundo a 12,07 s. ¿Acaso servirá el nuevo cronómetro del entrenador para cronometrar al equipo de corredores? ¿Por qué sí por qué no?</para>
+</problem>
+<solution id="fs-id1168328204335">
+<para id="fs-id1168328222976">No, el nuevo cronómetro del entrenador no servirá. La incertidumbre del cronómetro es demasiado grande para diferenciar los tiempos de las carreras de forma eficaz.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168328203147">
+<title>Incertidumbre en los cálculos</title>
+<para id="fs-id1168327869120">La incertidumbre existe en cualquier cosa calculada a partir de cantidades medidas. Por ejemplo, el área de un suelo calculada a partir de las mediciones de su longitud y anchura tiene una incertidumbre porque la longitud y la anchura tienen incertidumbres. ¿Cuán grande es la incertidumbre en algo que se calcula por multiplicación o división? Si las mediciones que entran en el cálculo tienen poca incertidumbre (unos cuantos porcentajes o menos), se puede utilizar el <term>método de suma de porcentajes</term> para la multiplicación o la división. Este método establece que <emphasis effect="italics">el porcentaje de incertidumbre de una cantidad calculada por multiplicación o división es la suma de las incertidumbres porcentuales de los elementos utilizados para realizar el cálculo</emphasis>. Por ejemplo, si un suelo tiene una longitud de 4,00 m y una anchura de 3,00 m, con incertidumbre del 2 % y el 1 %, respectivamente, entonces el área del suelo es de 12,0 m<sup>2</sup> y tiene una incertidumbre del 3 %. (Expresado en forma de área es de 0,36 m<sup>2</sup> [<m:math><m:mrow><m:mn>12,0</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>0,03</m:mn></m:mrow></m:math>], que redondeamos a 0,4 m<sup>2</sup> ya que el área del suelo viene dada a una décima de metro cuadrado).</para>
+</section>
+</section>
+<section id="fs-id1168328203265">
+<title>Precisión de las herramientas de medición y cifras significativas</title>
+<para id="fs-id1168327960157">Un factor importante en la precisión de las mediciones es la precisión de la herramienta de medición. En general, una herramienta de medición precisa es aquella que mide valores en incrementos muy pequeños. Por ejemplo, una regla estándar mide la longitud con una precisión de un milímetro, mientras que un calibre mide la longitud con una precisión de 0,01 mm. El calibre es una herramienta de medición más precisa porque mide diferencias de longitud extremadamente pequeñas. Cuanto más precisa sea la herramienta de medición, más precisas serán las medidas.</para>
+<para id="fs-id1168328065844">Cuando expresamos valores medidos, solo podemos enumerar tantos dígitos como hayamos medido inicialmente con nuestra herramienta de medición. Por ejemplo, si utilizamos una regla estándar para medir la longitud de un palo, podemos medirla como 36,7 cm. No podemos expresar este valor como 36,71 cm porque nuestra herramienta de medición no es lo suficientemente precisa para medir una centésima de centímetro. Hay que tener en cuenta que el último dígito de un valor medido ha sido estimado de alguna manera por la persona que realiza la medición. Por ejemplo, la persona que mide la longitud de un palo con una regla se da cuenta de que la longitud del palo parece estar entre 36,6 cm y 36,7 cm, y debe estimar el valor del último dígito. Utilizando el método de las <term>cifras significativas</term>, por regla, <emphasis effect="italics">el último dígito anotado en una medición es el primer dígito con cierta incertidumbre</emphasis>. Para determinar el número de dígitos significativos de un valor, comience con el primer valor medido a la izquierda y cuente el número de dígitos hasta el último dígito escrito a la derecha. Por ejemplo, el valor medido 36,7 cm tiene tres dígitos, o tres cifras significativas. Las cifras significativas indican la precisión de la herramienta de medición utilizada para medir un valor.</para>
+<section id="fs-id1168328361496">
+<title>Ceros</title>
+<para id="fs-id1168325631408">En el recuento de cifras significativas se tienen en cuenta especialmente los ceros. Los ceros de 0,053 no son significativos, porque son marcadores de posición que localizan el punto decimal. Hay dos cifras significativas en 0,053. Los ceros de 10,053 no son marcadores de posición; son significativos. Este número tiene cinco cifras significativas. Los ceros de 1300 pueden ser significativos o no, dependiendo del estilo de escritura de los números. Pueden significar que se conoce el número hasta el último dígito o pueden ser marcadores de posición. Así que 1300 puede tener dos, tres o cuatro cifras significativas. Para evitar esta ambigüedad, debemos escribir 1300 en notación científica como <m:math><m:mrow><m:mn>1,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mn>1,30</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> o <m:math><m:mrow><m:mn>1,300</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> dependiendo de si tiene dos, tres o cuatro cifras significativas. <emphasis effect="italics">Los ceros son significativos, excepto cuando sirven solo como marcadores de posición</emphasis>.</para>
+</section>
+<section id="fs-id1168328242879">
+<title>Cifras significativas en los cálculos</title>
+<para id="fs-id1168327954787">Cuando se combinan mediciones con diferentes grados de precisión, <emphasis effect="italics">el número de dígitos significativos en la respuesta final no puede ser mayor que el número de dígitos significativos en el valor medido menos preciso</emphasis>. Hay dos reglas diferentes, una para la multiplicación y la división y otra para la suma y la resta.</para>
+<list id="fs-id1168327965135" list-type="enumerated" number-style="arabic">
+<item><emphasis effect="italics">Para la multiplicación y la división, el resultado debería tener el mismo número de cifras significativas que la cantidad con el menor número de cifras significativas que entra en el cálculo</emphasis>. Por ejemplo, el área de un círculo puede calcularse a partir de su radio mediante <emphasis effect="italics">A</emphasis> = <emphasis effect="italics">πr</emphasis><sup>2</sup>. Veamos cuántas cifras significativas tiene el área si el radio tiene solo dos, es decir, <emphasis effect="italics">r</emphasis> = 1,2 m. Utilizando una calculadora con una salida de ocho dígitos, calcularíamos <equation id="fs-id1168327920583" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3,1415927</m:mn><m:mtext>…</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4,5238934</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation> No obstante, dado que el radio tiene solamente dos cifras significativas, limita la cantidad calculada a dos cifras significativas, o sea <equation id="fs-id1168327874061" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>4,5</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation> aunque <emphasis effect="italics">π</emphasis> es apropiado hasta al menos ocho dígitos.</item>
+<item><emphasis effect="italics">En las sumas y restas, la respuesta no puede contener más decimales que la medida menos precisa.</emphasis> Supongamos que compramos 7,56 kg de papas en una tienda de comestibles, pesados con una báscula con precisión de 0,01 kg, y luego dejamos 6,052 kg de papas en su laboratorio, pesados con una báscula con precisión de 0,001 kg. Luego, vamos a casa y añadimos 13,7 kg de papas, pesados con una báscula de baño con precisión de 0,1 kg. ¿Cuántos kilogramos de papas tenemos ahora y cuántas cifras significativas corresponden a la respuesta? La masa se encuentra por simple suma y resta: <equation id="fs-id1168328171097" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="1.2em"/><m:mn>7,56</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>6,052</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mspace width="0.2em"/><m:mo>+</m:mo><m:mn>13,7</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:mn>15,208</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>15,2</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation> A continuación, identificamos la medida menos precisa: 13,7 kg. Esta medida se expresa con 0,1 decimales, por lo que nuestra respuesta final también debe expresarse con 0,1 decimales. Por lo tanto, la respuesta se redondea a la décima, lo que nos da 15,2 kg.</item>
+</list>
+</section>
+<section id="fs-id1168328059075">
+<title>Cifras significativas en este texto</title>
+<para id="fs-id1168328071559">En este texto, se supone que la mayoría de los números tienen tres cifras significativas. Además, en todos los ejemplos trabajados se utilizan números de cifras significativas coherentes. Una respuesta dada a tres dígitos se basa en una entrada apropiada de al menos tres dígitos, por ejemplo. Si la entrada tiene menos cifras significativas, la respuesta también tendrá menos cifras significativas. También se procura que el número de cifras significativas sea razonable para la situación planteada. En algunos temas, sobre todo en óptica, se necesitan números más precisos y utilizamos más de tres cifras significativas. Por último, si un número es <emphasis effect="italics">exacto</emphasis>, como el dos de la fórmula de la circunferencia de un círculo, <emphasis effect="italics">C</emphasis> = 2π<emphasis effect="italics">r</emphasis>, no afecta el número de cifras significativas de un cálculo. Asimismo, los factores de conversión como 100 cm/1 m se consideran exactos y no afectan el número de cifras significativas de un cálculo.</para>
+</section>
+</section>
+<section id="fs-id1168327942183" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1168328287488" list-type="bulleted" bullet-style="bullet"><item>La exactitud de un valor medido se refiere a la proximidad de una medición a un valor de referencia aceptado. La discrepancia en una medición es la cantidad en la que el resultado de la medición difiere de este valor.</item>
+<item>La precisión de los valores medidos se refiere a la concordancia entre las mediciones repetidas. La incertidumbre de una medición es una cuantificación de esto.</item>
+<item>La precisión de una herramienta de medición se relaciona con el tamaño de sus incrementos de medición. Cuanto más pequeño sea el incremento de medición, más precisa será la herramienta.</item>
+<item>Las cifras significativas expresan la precisión de una herramienta de medición.</item>
+<item>Al multiplicar o dividir valores medidos, la respuesta final puede contener únicamente tantas cifras significativas como el valor con el menor número de cifras significativas.</item>
+<item>Al sumar o restar valores medidos, la respuesta final no puede contener más decimales que el valor menos preciso.</item>
+</list></section>
+<section id="fs-id1168327957009" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1171240074559" class="unnumbered unstyled" summary="This table gives the formula for percent uncertainty. Percent uncertainty is equal to delta A upon A into 100 percent.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Porcentaje de incertidumbre</entry>
+<entry align="left"><m:math><m:mrow><m:mtext>Porcentaje de incertidumbre</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>δ</m:mi><m:mi>A</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mi>%</m:mi></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1168328294544" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1168327923331">
+<problem id="fs-id1168327954045">
+<para id="fs-id1168328365189">(a) ¿Cuál es la relación entre la precisión y la incertidumbre de una medición? (b) ¿Cuál es la relación entre la exactitud y la discrepancia de una medición?</para>
+</problem>
+<solution id="fs-id1168328247310">
+<para id="fs-id1168327948438">a. La incertidumbre es una medida cuantitativa de la precisión. b. La discrepancia es una medida cuantitativa de la exactitud.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1168325631295" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1168327949034">
+<problem id="fs-id1168328229974">
+<para id="fs-id1168327924163">Considere la ecuación 4000/400 = 10,0. Suponiendo que el número de cifras significativas de la respuesta es correcto, ¿qué puede decir sobre el número de cifras significativas de 4000 y 400?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328286258">
+<problem id="fs-id1168328327887">
+<para id="fs-id1168327966053">Supongamos que la báscula de baño indica que su masa es de 65 kg con una incertidumbre del 3 %. ¿Cuál es la incertidumbre de su masa (en kilogramos)?</para>
+</problem>
+<solution id="fs-id1168328204121">
+<para id="fs-id1168327909173">2 kg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328242872">
+<problem id="fs-id1168327945421">
+<para id="fs-id1168327958874">Una cinta métrica de buena calidad puede tener un error de 0,50 cm en una distancia de 20 m. ¿Cuál es su porcentaje de incertidumbre?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328329316">
+<problem id="fs-id1168325667956">
+<para id="fs-id1168328361965">La frecuencia del pulso de un bebé se mide en 130 ± 5 latidos/min. ¿Cuál es el porcentaje de incertidumbre en esta medición?</para>
+</problem>
+<solution id="fs-id1168327876346">
+<para id="fs-id1168327878251">4 %</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328196830">
+<problem id="fs-id1168328260685">
+<para id="fs-id1168327911517">(a) Supongamos que una persona tiene una frecuencia cardíaca media de 72,0 latidos/min. ¿Cuántos latidos tiene en 2,0 años? (b) ¿En 2,00 años? (c) ¿En 2.000 años?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328064091">
+<problem id="fs-id1168328071200">
+<para id="fs-id1168328064572">Una lata contiene 375 mL de refresco. ¿Cuánto queda después de extraer 308 mL?</para>
+</problem>
+<solution id="fs-id1168328295068">
+<para id="fs-id1168328197692">67 mL</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328167911">
+<problem id="fs-id1168327928014">
+<para id="fs-id1168328260650">Indique cuántas cifras significativas son adecuadas en los resultados de los siguientes cálculos: (a) <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>106,7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>98,2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>/</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>46,210</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,01</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math> (b) <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>18,7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> (c) <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.712</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1168327943766">
+<problem id="fs-id1168327957081">
+<para id="fs-id1168328229273">(a) ¿Cuántas cifras significativas tienen los números 99 y 100.? (b) Si la incertidumbre de cada número es 1, ¿cuál es el porcentaje de incertidumbre de cada uno? (c) ¿Cuál es una forma más significativa de expresar la exactitud de estos dos números: las cifras significativas o los porcentajes de incertidumbre?</para>
+</problem>
+<solution id="fs-id1168327948324">
+<para id="fs-id1168328214735">a. El número 99 tiene 2 cifras significativas; el 100. tiene 3 cifras significativas. b. 1,00 %; c. porcentajes de incertidumbre</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328311438">
+<problem id="fs-id1168328311640">
+<para id="fs-id1168328329336">(a) Si su velocímetro tiene una incertidumbre de 2,0 km/h a una rapidez de 90 km/h, ¿cuál es el porcentaje de incertidumbre? (b) Si tiene el mismo porcentaje de incertidumbre cuando marca 60 km/h, ¿cuál es el rango de los valores de rapidez al que podría ir?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168327942624">
+<problem id="fs-id1168328226916">
+<para id="fs-id1168328205320">(a) La presión arterial de una persona se mide como <m:math><m:mrow><m:mn>120</m:mn><m:mo>±</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>mm Hg</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es su porcentaje de incertidumbre? (b) Suponiendo el mismo porcentaje de incertidumbre, ¿cuál es la incertidumbre en una medición de la presión arterial de 80 mm Hg?</para>
+</problem>
+<solution id="fs-id1168328222883">
+<para id="fs-id1168328329673">a. 2 %; b. 1 mm Hg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328171083">
+<problem id="fs-id1168327869727">
+<para id="fs-id1168328295934">Una persona mide su frecuencia cardíaca contando el número de latidos en 30 s. Si se cuentan 40 ± 1 latidos en 30,0 ± 0,5 s, ¿cuál es la frecuencia cardíaca y su incertidumbre en latidos por minuto?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328267903">
+<problem id="fs-id1168328187317">
+<para id="fs-id1168328245345">¿Cuál es el área de un círculo de 3,102 cm de diámetro?</para>
+</problem>
+<solution id="fs-id1168328249411">
+<para id="fs-id1168328189782">7,557 cm<sup>2</sup></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328222416">
+<problem id="fs-id1168328260134">
+<para id="fs-id1168328323688">Determine el número de cifras significativas de las siguientes medidas: (a) 0,0009, (b) 15.450,0, (c) 6×10<sup>3</sup>, (d) 87,990 y (e) 30,42.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328229571">
+<problem id="fs-id1168327988158">
+<para id="fs-id1168327958204">Realice los siguientes cálculos y exprese su respuesta con el número correcto de dígitos significativos. (a) Una mujer tiene dos bolsas que pesan 13,5 lb y una bolsa con un peso de 10,2 lb. ¿Cuál es el peso total de las bolsas? (b) La fuerza <emphasis effect="italics">F</emphasis> sobre un objeto es igual a su masa <emphasis effect="italics">m</emphasis> multiplicada por su aceleración <emphasis effect="italics">a</emphasis>. Si un vagón de mercancía con una masa de 55 kg acelera a una tasa de 0,0255 m/s<sup>2</sup>, ¿cuál es la fuerza sobre el vagón? (La unidad de fuerza se llama <emphasis effect="italics">newton</emphasis> y se expresa con el símbolo N).</para>
+</problem>
+<solution id="fs-id1168328280169">
+<para id="fs-id1168328362071">a. 37,2 lb; como el número de bolsas es un valor exacto, no se considera en las cifras significativas; b. 1,4 N; como el valor 55 kg solo tiene dos cifras significativas, el valor final también debe contener dos cifras significativas</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1168328355532">
+<term>exactitud</term>
+<meaning id="fs-id1168328238378">el grado de concordancia de un valor medido con un valor de referencia aceptado para esa medición</meaning>
+</definition>
+<definition id="fs-id1168328328497">
+<term>discrepancia</term>
+<meaning id="fs-id1168327873821">la diferencia entre el valor medido y un determinado valor estándar o esperado</meaning>
+</definition>
+<definition id="fs-id1168328237292">
+<term>método de suma de porcentajes</term>
+<meaning id="fs-id1168327931285">el porcentaje de incertidumbre de una cantidad calculada por multiplicación o división es la suma de los porcentajes de incertidumbre de los elementos utilizados para realizar el cálculo</meaning>
+</definition>
+<definition id="fs-id1168327927708">
+<term>porcentaje de incertidumbre</term>
+<meaning id="fs-id1168328290905">la proporción entre la incertidumbre de una medición y el valor medido, expresada en porcentaje</meaning>
+</definition>
+<definition id="fs-id1168328286055">
+<term>precisión</term>
+<meaning id="fs-id1168328357317">el grado de concordancia de las mediciones repetidas</meaning>
+</definition>
+<definition id="fs-id1168327925704">
+<term>cifras significativas</term>
+<meaning id="fs-id1168328367297">se utilizan para expresar la precisión de una herramienta de medición utilizada para medir un valor</meaning>
+</definition>
+<definition id="fs-id1168328241816">
+<term>incertidumbre</term>
+<meaning id="fs-id1168328329079">medida cuantitativa de la desviación de los valores medidos</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,175 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Líneas de campo eléctrico</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90863</md:content-id>
+  <md:title>Líneas de campo eléctrico</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar la finalidad de un diagrama de campo eléctrico.</item>
+<item>Describir la relación entre un diagrama vectorial y un diagrama de líneas de campo.</item>
+<item>Explicar las reglas para crear un diagrama de campo y por qué estas reglas tienen sentido físico.</item>
+<item>Dibujar el campo de una carga fuente arbitraria.</item>
+</list></md:abstract>
+  <md:uuid>e46a4324-90b6-4de6-a802-c174b7d75912</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172099903090">Ahora que tenemos algo de experiencia en el cálculo de campos eléctricos, vamos a intentar comprender la geometría de los campos eléctricos. Como se ha mencionado anteriormente, nuestro modelo es que la carga de un objeto (la carga fuente) altera el espacio en la región que lo rodea de tal manera que cuando se coloca otro objeto cargado (la carga de prueba) en esa región del espacio, esa carga de prueba experimenta una fuerza eléctrica. El concepto de <term>líneas de campo</term><emphasis effect="bold"> </emphasis>eléctrico, y de diagramas de líneas de campo eléctrico, nos permite visualizar la forma en que se altera el espacio, permitiéndonos visualizar el campo. El propósito de esta sección es permitirle crear bocetos de esta geometría, por lo que enumeraremos los pasos y reglas específicas que intervienen en la creación de un boceto preciso y útil de un campo eléctrico.</para>
+<para id="fs-id1172101763733">Es importante recordar que los campos eléctricos son tridimensionales. Aunque en este libro incluimos algunas imágenes pseudotridimensionales, varios de los diagramas que verá (tanto aquí como en los capítulos siguientes) serán proyecciones bidimensionales o secciones transversales. Tenga siempre presente que, de hecho, está viendo un fenómeno tridimensional.</para>
+<para id="fs-id1172099624189">Nuestro punto de partida es el hecho físico de que el campo eléctrico de la carga fuente hace que una carga de prueba en ese campo experimente una fuerza. Por definición, los vectores del campo eléctrico apuntan en la misma dirección que la fuerza eléctrica que experimentaría una (hipotética) carga de prueba positiva, si se colocara en el campo (<link target-id="CNX_UPhysics_22_06_EPosVect"/>)</para>
+<figure id="CNX_UPhysics_22_06_EPosVect">
+<media id="fs-id1172101945544" alt="El campo eléctrico se muestra en forma de flechas en los puntos de prueba de una cuadrícula. En la figura a, el campo se muestra en el plano x y, con x y y medidos en metros y oscilando entre –4 metros y 4 metros. Las flechas apuntan hacia fuera del origen, y son mayores cerca del origen, disminuyendo con la distancia desde el origen. En la figura b, se muestra un campo vectorial tridimensional. La carga está en el centro y, de nuevo, las flechas son mayores cerca del origen, disminuyendo con la distancia al origen.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_EPosVect.jpg"/>
+</media>
+<caption>El campo eléctrico de una carga de puntos positiva. Se muestra un gran número de vectores de campo. Como todas las flechas vectoriales, la longitud de cada vector es proporcional a la magnitud del campo en cada punto. (a) Campo en dos dimensiones; (b) campo en tres dimensiones.</caption>
+</figure>
+<para id="fs-id1172097266009">En la figura hemos trazado muchos vectores de campo, que se distribuyen uniformemente alrededor de la carga fuente. Como el campo eléctrico es un vector, las flechas que dibujamos corresponden en cada punto del espacio tanto a la magnitud como a la dirección del campo en ese punto. Como siempre, la longitud de la flecha que dibujamos corresponde a la magnitud del vector campo en ese punto. Para una carga de origen de puntos, la longitud disminuye por el cuadrado de la distancia a la carga de origen. Además, la dirección del vector campo se aleja radialmente de la carga fuente, porque la dirección del campo eléctrico está definida por la dirección de la fuerza que experimentaría una carga de prueba positiva en ese campo. (De nuevo, tenga en cuenta que el campo real es tridimensional; también hay líneas de campo que apuntan hacia fuera y hacia dentro de la página).</para>
+<para id="fs-id1172102141385">Este diagrama es correcto, pero se vuelve menos útil a medida que la distribución de la carga de la fuente se complica. Por ejemplo, consideremos el diagrama de campo vectorial de un dipolo (<link target-id="CNX_UPhysics_22_06_DipoleVect"/>).</para>
+<figure id="CNX_UPhysics_22_06_DipoleVect">
+<media id="fs-id1172099666105" alt="Un gráfico vectorial del campo eléctrico debido a dos fuentes. Las fuentes no se muestran. El campo se representa mediante flechas en un gráfico x y. Tanto x como y están en metros y ambas escalas son de –2 metros a 4 metros. Cerca del origen, las flechas son largas y apuntan hacia fuera. Cerca del punto en las coordenadas 2, 0 las flechas son largas y apuntan hacia el punto. Las flechas se hacen más pequeñas a medida que nos alejamos de esos dos lugares y apuntan en direcciones intermedias.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_DipoleVect.jpg"/>
+</media>
+<caption>El campo vectorial de un dipolo. Incluso con solo dos cargas idénticas, el diagrama del campo vectorial se vuelve difícil de entender.</caption>
+</figure>
+<para id="fs-id1172099895293">Hay una forma más útil de presentar la misma información. En lugar de dibujar un gran número de flechas vectoriales cada vez más pequeñas, conectamos todas ellas, formando líneas y curvas continuas, como se muestra en la <link target-id="CNX_UPhysics_22_06_FieldPos"/>.</para>
+<figure id="CNX_UPhysics_22_06_FieldPos">
+<media id="fs-id1172097456707" alt="En la parte a, las líneas de campo eléctrico que emanan de una carga positiva se muestran como flechas rectas que irradian desde la carga en todas las direcciones. En la parte b, se muestra un par de cargas, con una positiva y otra negativa. Las líneas de campo están representadas por flechas curvas. Las flechas parten de la carga positiva, irradian hacia fuera pero se curvan para terminar en la carga negativa. Las líneas de campo exteriores se extienden más allá de la región de dibujo, pero siguen el mismo comportamiento que las que están dentro del área de dibujo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_FieldPos.jpg"/>
+</media>
+<caption>(a) El diagrama de líneas de campo eléctrico de una carga de puntos positiva. (b) El diagrama de líneas de campo de un dipolo. En ambos diagramas, la magnitud del campo se indica mediante la densidad de líneas de campo. Los <emphasis effect="italics">vectores</emphasis> de campo (no mostrados aquí) son en todas partes tangentes a las líneas de campo.</caption>
+</figure>
+<para id="fs-id1172101756863">Aunque no sea evidente a primera vista, estos diagramas de campo transmiten la misma información sobre el campo eléctrico que los diagramas vectoriales. En primer lugar, la dirección del campo en cada punto es simplemente la dirección del vector campo en ese mismo punto. En otras palabras, en cualquier punto del espacio, el vector campo en cada punto es tangente a las líneas de campo en ese mismo punto. La punta de flecha colocada en una línea de campo indica su dirección.</para>
+<para id="fs-id1172101841004">En cuanto a la magnitud del campo, se indica mediante la <term>densidad de líneas de campo</term>, es decir, el número de líneas de campo por unidad de superficie que pasan por una pequeña zona de sección transversal perpendicular al campo eléctrico. Esta densidad de líneas de campo se dibuja para ser proporcional a la magnitud del campo en esa sección transversal. En consecuencia, si las líneas de campo están muy juntas (es decir, la densidad de líneas de campo es mayor), esto indica que la magnitud del campo es grande en ese punto. Si las líneas de campo están muy separadas en la sección transversal, esto indica que la magnitud del campo es pequeña. La <link target-id="CNX_UPhysics_22_06_FieldAreas"/> muestra la idea.</para>
+<figure id="CNX_UPhysics_22_06_FieldAreas">
+<media id="fs-id1172099500973" alt="Se muestran siete líneas de campo eléctrico, que generalmente van de abajo a la izquierda a arriba a la derecha. Las líneas de campo se acercan hacia la parte superior. Dos áreas cuadradas, perpendiculares a las líneas de campo, están sombreadas. Todas las líneas de campo pasan por cada zona sombreada. La zona de arriba es más pequeña que la de abajo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_FieldAreas.jpg"/>
+</media>
+<caption>Líneas de campo eléctrico que pasan por zonas imaginarias. Como el número de líneas que pasan por cada zona es el mismo, pero las zonas en sí son diferentes, la densidad de líneas de campo es diferente. Esto indica diferentes magnitudes del campo eléctrico en estos puntos.</caption>
+</figure>
+<para id="fs-id1172101807196">En la <link target-id="CNX_UPhysics_22_06_FieldAreas"/>, el mismo número de líneas de campo pasa por ambas superficies (<emphasis effect="italics">S</emphasis> y <m:math><m:mrow><m:mi>S</m:mi><m:mtext>′</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> pero la superficie <emphasis effect="italics">S</emphasis> es mayor que la superficie <m:math><m:mrow><m:mi>S</m:mi><m:mtext>′</m:mtext></m:mrow></m:math>. Por lo tanto, la densidad de líneas de campo (número de líneas por unidad de superficie) es mayor en la ubicación de <m:math><m:mrow><m:mi>S</m:mi><m:mtext>′</m:mtext></m:mrow></m:math>, lo que indica que el campo eléctrico es más fuerte en el lugar de <m:math><m:mrow><m:mi>S</m:mi><m:mtext>′</m:mtext></m:mrow></m:math> que en <emphasis effect="italics">S</emphasis>. Las reglas para crear un diagrama de campo eléctrico son las siguientes.</para>
+<note id="fs-id1172099693426" class="problem-solving">
+<title>Dibujo de líneas de campo eléctrico</title>
+<list id="fs-id1172101805974" list-type="enumerated" number-style="arabic">
+<item>Las líneas de campo eléctrico se originan en cargas positivas o llegan desde el infinito, y terminan en cargas negativas o se extienden hasta el infinito.</item>
+<item>El número de líneas de campo que se originan o terminan en una carga es proporcional a la magnitud de esa carga. Una carga de 2<emphasis effect="italics">q</emphasis> tendrá el doble de líneas que una carga de <emphasis effect="italics">q</emphasis>.</item>
+<item>En cada punto del espacio, el vector campo en ese punto es tangente a la línea de campo en ese mismo punto.</item>
+<item>La densidad de la línea de campo en cualquier punto del espacio es proporcional (y por tanto representativa) a la magnitud del campo en ese punto del espacio.</item>
+<item>Las líneas de campo nunca pueden cruzarse. Como una línea de campo representa la dirección del campo en un punto determinado, si dos líneas de campo se cruzaran en algún punto, eso implicaría que el campo eléctrico apuntaba en dos direcciones diferentes en un mismo punto. Esto, a su vez, sugeriría que la fuerza (neta) sobre una carga de prueba colocada en ese punto apuntaría en dos direcciones diferentes. Como esto es obviamente imposible, se deduce que las líneas de campo no deben cruzarse nunca.</item>
+</list>
+</note>
+<para id="fs-id1172102004479">Tenga siempre en cuenta que las líneas de campo solo sirven para visualizar el campo eléctrico; no son entidades físicas. Aunque la dirección y la intensidad relativa del campo eléctrico pueden deducirse de un conjunto de líneas de campo, las líneas también pueden ser engañosas. Por ejemplo, las líneas de campo trazadas para representar el campo eléctrico en una región deben ser necesariamente discretas. Sin embargo, el campo eléctrico real en esa región existe en cada punto del espacio.</para>
+<para id="fs-id1172099544731">Las líneas de campo para tres grupos de cargas discretas se muestran en la <link target-id="CNX_UPhysics_22_06_ThreeDiags"/>. Como las cargas de las partes (a) y (b) tienen la misma magnitud, se muestra el mismo número de líneas de campo que parten o terminan en cada carga. En (c), sin embargo, dibujamos tres veces más líneas de campo dejando la carga <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>3</m:mn><m:mi>q</m:mi></m:mrow></m:math> como que entra en <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>q</m:mi></m:mrow></m:math>. Las líneas de campo que no terminan en <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>q</m:mi></m:mrow></m:math> emanan hacia fuera de la configuración de la carga, hasta el infinito.</para>
+<figure id="CNX_UPhysics_22_06_ThreeDiags">
+<media id="fs-id1172101658583" alt="Se muestran tres pares de cargas y sus líneas de campo. La carga de la izquierda es positiva en cada caso. En la parte a, la carga de la derecha es negativa. Las líneas de campo están representadas por flechas curvas que comienzan en la carga positiva de la izquierda, se curvan hacia la carga negativa de la derecha y terminan en ella. Entre las cargas, las líneas de campo son densas. En la parte b, la carga de la derecha es positiva. Las líneas de campo representadas por flechas curvas comienzan en cada una de las cargas positivas y divergen hacia el exterior. Entre las cargas, las líneas de campo son menos densas, y hay una región negra a medio camino entre las cargas. En la parte c, la carga de la derecha es negativa. Las líneas de campo comienzan en la carga positiva. Algunas de las líneas, las que comienzan más cerca de la carga negativa, se curvan hacia la carga negativa y terminan allí. Las líneas que comienzan más lejos de la carga negativa se curvan hacia ella pero luego divergen hacia afuera. Hay una zona con muy poca densidad de líneas a la derecha del par de cargas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_ThreeDiags.jpg"/>
+</media>
+<caption>Tres diagramas típicos de campo eléctrico. (a) Un dipolo. (b) Dos cargas idénticas. (c) Dos cargas con signos opuestos y magnitudes diferentes. ¿Puede decir en el diagrama qué carga tiene la mayor magnitud?</caption>
+</figure>
+<para id="fs-id1172101792451">La capacidad de construir un diagrama de campo eléctrico preciso es una habilidad importante y útil; facilita mucho la estimación, la predicción y, por tanto, el cálculo del campo eléctrico de una carga fuente. La mejor manera de desarrollar esta habilidad es con un software que le permite colocar las cargas de origen y luego dibujar el campo de la red a petición. Le recomendamos encarecidamente que busque un programa en Internet. Una vez que haya encontrado uno que le guste, realiza varias simulaciones para obtener las ideas esenciales de la construcción de diagramas de campo. A continuación, practique el dibujo de diagramas de campo y compruebe sus predicciones con los diagramas que dibuje la computadora.</para>
+<note id="fs-id1172099694822" class="media-2">
+<para id="fs-id1172102122891">Un ejemplo de <link url="https://openstax.org/l/21fieldlindrapr_es">programa de dibujo de líneas de campo</link> es el de la simulación "Charges and Fields” (Cargas y campos) de PhET.</para>
+</note>
+<section id="fs-id1172101876872" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172099491798" list-type="bulleted" bullet-style="bullet">
+<item>Los diagramas de campo eléctrico ayudan a visualizar el campo de una carga fuente.</item>
+<item>La magnitud del campo es proporcional a la densidad de líneas de campo.</item>
+<item>Los vectores de campo son siempre tangentes a las líneas de campo.</item>
+</list>
+</section>
+<section id="fs-id1172099910051" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1172099718264">
+<problem id="fs-id1172102121413">
+<para id="fs-id1172102098207">Si una carga de puntos se libera del reposo en un campo eléctrico uniforme, ¿seguirá una línea de campo? ¿Lo hará si el campo eléctrico no es uniforme?</para>
+</problem>
+<solution id="fs-id1172101907363">
+<para id="fs-id1172101752489">sí; no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172097162216">
+<problem id="fs-id1172099524520">
+<para id="fs-id1172099416752">¿En qué condiciones, si las hay, la trayectoria de una partícula cargada no seguirá una línea de campo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101805718">
+<problem id="fs-id1172099537529">
+<para id="fs-id1172101876752">¿Cómo distinguiría experimentalmente un campo eléctrico de un campo gravitacional?</para>
+</problem>
+<solution id="fs-id1172101753244">
+<para id="fs-id1172099382531">En la superficie de la Tierra, el campo gravitacional está siempre dirigido hacia el centro de la Tierra. Un campo eléctrico podría mover una partícula cargada en una dirección diferente a la del centro de la Tierra. Esto indicaría que hay un campo eléctrico presente.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172099511587">
+<problem id="fs-id1172101736558">
+<para id="fs-id1172101920381">Una representación de un campo eléctrico muestra 10 líneas de campo perpendiculares a una placa cuadrada. ¿Cuántas líneas de campo deben pasar perpendicularmente por la placa para representar un campo con el doble de magnitud?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099482379">
+<problem id="fs-id1172099515828">
+<para id="fs-id1172102005067">¿Cuál es la relación entre el número de líneas de campo eléctrico que salen de una carga 10<emphasis effect="italics">q</emphasis> y una carga <emphasis effect="italics">q</emphasis>?</para>
+</problem>
+<solution id="fs-id1172099501398">
+<para id="fs-id1172097184589">10</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172099495989" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172099478054">
+<problem id="fs-id1172101766305">
+<para id="fs-id1172099703207">¿Cuál de las siguientes líneas de campo eléctrico es incorrecta para cargas de puntos? Explique por qué.</para>
+<media id="fs-id1172101838219" alt="La figura a muestra las líneas de campo que se alejan de una carga positiva. Las líneas se distribuyen uniformemente alrededor de la carga. La figura b muestra las líneas de campo que se alejan de una carga negativa. Las líneas se distribuyen uniformemente alrededor de la carga. La figura c muestra las líneas de campo que se alejan de una carga positiva. Las líneas son más densas en el lado derecho de la carga que en el izquierdo. La figura d muestra las líneas de campo que apuntan hacia una carga positiva. Las líneas se distribuyen uniformemente alrededor de la carga. La figura e muestra las líneas de campo que apuntan hacia una carga negativa. Las líneas se distribuyen uniformemente alrededor de la carga. La figura f muestra dos cargas positivas. Las líneas de campo comienzan en cada carga positiva y apuntan lejos de cada una. Las líneas se distribuyen uniformemente en las cargas y se doblan lejos de la línea media. Algunas líneas se intersecan entre sí. La figura g muestra una carga positiva de 5 micro culombios y una carga negativa de micro culombios. Se muestran varias líneas de campo. La línea que conecta las cargas es una línea de campo que apunta lejos de la carga positiva y hacia la negativa. Otra línea de campo forma una elipse que comienza en la carga positiva y termina en la carga negativa. Otra línea de campo también forma una elipse que apunta lejos del positivo y termina en la carga negativa, pero parece envolver las cargas en lugar de empezar y terminar en ellas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_EDiags_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172101626222">
+<problem id="fs-id1172099410485">
+<para id="fs-id1172097229977">En este ejercicio, practicará el dibujo de líneas de campo eléctrico. Asegúrese de representar adecuadamente tanto la magnitud como la dirección del campo eléctrico. Observe que el número de líneas de entrada o salida de cargas es proporcional a las cargas.</para>
+<para id="fs-id1172099491651">(a) Dibuje el mapa de líneas de campo eléctrico para dos cargas <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>−20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> situados a 5 cm uno del otro.</para>
+<para id="fs-id1172099380040">(b) Dibuje el mapa de líneas de campo eléctrico para dos cargas <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> situados a 5 cm uno del otro.</para>
+<para id="fs-id1172099538510">(c) Dibuje el mapa de líneas de campo eléctrico para dos cargas <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>−30</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> situados a 5 cm uno del otro.</para>
+</problem>
+<solution id="fs-id1172099490504">
+<para id="fs-id1167742716034"><newline/><media id="fs-id1172099643350" alt="La figura a muestra una carga positiva de 20 micro culombios a la izquierda, una carga negativa de 20 micro culombios a la derecha y las líneas de campo debidas a las cargas. Las líneas de campo salen de la carga positiva y convergen llegando a la carga negativa. Las líneas de campo exteriores se extienden más allá del área de dibujo y por eso las vemos doblarse hacia la derecha, hacia la carga negativa, pero solo vemos una parte de la línea. La densidad de las líneas que salen del positivo es la misma que la que entra en el negativo. La figura b muestra una carga positiva de 20 micro Coulomb a la izquierda, una carga positiva de 20 micro Coulomb a la derecha y las líneas de campo debidas a las cargas. Las líneas de campo salen de las cargas positivas y divergen, alejándose de la carga lejana. La densidad de líneas es la misma cerca de cada una de las cargas. La figura c muestra una carga positiva de 20 micro culombios a la izquierda, una carga negativa de 30 micro culombios a la derecha y las líneas de campo debidas a las cargas. Las líneas de campo salen de la carga positiva. En la carga negativa de 20 micro culombios entran más líneas que las que salen de la carga positiva de 20 micro culombios. Todas las líneas que salen de la carga positiva terminan en la negativa, mientras que las líneas exteriores que entran en la negativa comienzan en el infinito.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_P2ans_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101984629">
+<problem id="fs-id1172102014579">
+<para id="fs-id1172101856148">Dibuje el campo eléctrico para un sistema de tres partículas de cargas <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mtext>+</m:mtext><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mn>−3</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> fijadas en las esquinas de un triángulo equilátero de lado 2 cm.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172099531126">
+<problem id="fs-id1172101755234">
+<para id="fs-id1172101965485">Dos cargas de igual magnitud pero de signo contrario forman un dipolo eléctrico. Un cuadrupolo está formado por dos dipolos eléctricos que se colocan de forma antiparalela en dos aristas de un cuadrado, como se muestra.</para><media id="fs-id1172099384845" alt="Se muestran cuatro cargas en las esquinas de un cuadrado. En la parte superior izquierda hay 10 nanoculombios positivos. En la parte superior derecha hay 10 nanoculombios negativos. En la parte inferior izquierda hay 10 nanoculombios negativos. En la parte inferior derecha es positivo 10 nanoculombios.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_TwoDipoles_img.jpg"/>
+</media>
+<para id="fs-id1172099719139">Dibuje el campo eléctrico de la distribución de carga.</para>
+</problem>
+<solution id="fs-id1172099503889">
+<para id="fs-id1167742416311"><newline/><media id="fs-id1172099456161" alt="Se muestran cuatro cargas en las esquinas de un cuadrado. En la parte superior izquierda hay 10 nanoculombios positivos. En la parte superior derecha hay 10 nanoculombios negativos. En la parte inferior izquierda hay 10 nanoculombios negativos. En la parte inferior derecha es positivo 10 nanoculombios. También se muestran las líneas de campo. Salen de las cargas positivas y se curvan hacia las cargas negativas y terminan en ellas. La densidad más baja se encuentra cerca del centro del cuadrado.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_22_06_P4ans_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102000514">
+<problem id="fs-id1172099884110">
+<para id="fs-id1172101949138">Supongamos que el campo eléctrico de una carga de puntos aislada disminuye con la distancia como <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mi>δ</m:mi></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math> y no como <m:math><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>. Demuestre que entonces es imposible trazar líneas de campo continuas de modo que su número por unidad de superficie sea proporcional a <emphasis effect="italics">E</emphasis>.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172101884075">
+<term>línea de campo</term>
+<meaning id="fs-id1172099482832">línea suave, generalmente curva, que indica la dirección del campo eléctrico</meaning>
+</definition>
+<definition id="fs-id1172102003446">
+<term>densidad de líneas de campo</term>
+<meaning id="fs-id1172099490330">número de líneas de campo por metro cuadrado que atraviesan un área imaginaria; su objetivo es indicar la intensidad de campo en diferentes puntos del espacio</meaning>
+</definition>
+</glossary>
+</document>

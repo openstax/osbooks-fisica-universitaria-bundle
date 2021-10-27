@@ -1,0 +1,366 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Espectros atómicos y rayos X</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91026</md:content-id>
+  <md:title>Espectros atómicos y rayos X</md:title>
+  <md:abstract><para>Al final de esta sección podrá:</para><list>
+<item>Describir la absorción y la emisión de radiación en términos de niveles de energía atómica y diferencias de energía.</item>
+<item>Utilizar los números cuánticos para estimar la energía, la frecuencia y la longitud de onda de los fotones producidos por las transiciones atómicas en los átomos de varios electrones.</item>
+<item>Explicar los conceptos de radiación en el contexto de la fluorescencia atómica y los rayos X.</item>
+</list></md:abstract>
+  <md:uuid>a3963b19-adde-4a27-971d-61d516b64bbe</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170902894659">El estudio de los espectros atómicos es la fuente de la mayor parte de nuestros conocimientos sobre los átomos. En la ciencia moderna, los espectros atómicos se utilizan para identificar especies de átomos en una serie de objetos, desde galaxias lejanas hasta muestras de sangre en la escena del crimen.</para>
+<para id="fs-id1170901982420">La base teórica de la espectroscopia atómica es la transición de los electrones entre los niveles de energía de los átomos. Por ejemplo, si un electrón de un átomo de hidrógeno hace una transición desde la capa <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> hasta la capa <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, el átomo emite un fotón con una longitud de onda</para>
+<equation id="fs-id1170902772590"><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>f</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>h</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>h</m:mi><m:mo>·</m:mo><m:mi>f</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mn>3</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902766610">donde <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>3</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es la energía que se lleva el fotón y <m:math><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>1.940</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>·</m:mo><m:mtext>nm</m:mtext></m:mrow></m:math>. Después de que esta radiación pasa por un espectrómetro, aparece como una línea espectral nítida en una pantalla. El modelo de Bohr de este proceso se muestra en la <link target-id="CNX_UPhysics_41_05_AtomicRad"/>. Si el electrón absorbe posteriormente un fotón con energía <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math>, el electrón vuelve a la capa <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>. (Ya examinamos el modelo de Bohr en <link document="m91005">Fotones y ondas de materia</link>).</para>
+<figure id="CNX_UPhysics_41_05_AtomicRad">
+<media id="fs-id1170902724010" alt="El átomo de hidrógeno se representa como un protón en el núcleo, una carga más e, y un electrón en una órbita circular alrededor del núcleo. Se muestran tres órbitas, marcadas como n =1, n = 2 y n = 3 en orden de radio creciente. Una flecha indica la transición de un electrón de la órbita exterior hacia la órbita central, y una onda etiquetada como delta E igual a h f se muestra cerca de la transición, abandonando al átomo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_AtomicRad.jpg"/>
+</media>
+<caption>Una transición de electrones desde <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> hasta la capa <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> de un átomo de hidrógeno.</caption>
+</figure>
+<para id="fs-id1170901785956">Para entender las transiciones atómicas en los átomos de varios electrones, es necesario considerar muchos efectos, incluyendo la fuerza de repulsión de Coulomb entre los electrones y las interacciones magnéticas internas (acoplamientos de espín-órbita y espín-espín). Afortunadamente, muchas propiedades de estos sistemas pueden entenderse despreciando las interacciones entre los electrones y representando cada electrón por su propia función de onda de una sola partícula <m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mrow><m:mi>n</m:mi><m:mi>l</m:mi><m:mi>m</m:mi></m:mrow></m:msub></m:mrow></m:math>.</para>
+<para id="fs-id1170901678412">Las transiciones atómicas deben obedecer las <term>reglas de selección</term>. Estas reglas se derivan de los principios de la mecánica cuántica y la simetría. Las reglas de selección clasifican las transiciones como permitidas o prohibidas. (Las transiciones prohibidas ocurren, pero la probabilidad de la típica transición prohibida es muy pequeña) En un átomo hidrogenoide, las transiciones atómicas que implican interacciones electromagnéticas (la emisión y absorción de fotones) obedecen a la siguiente regla de selección:</para>
+<note id="fs-id1170902686031" class="equation-callout">
+<equation id="fs-id1170902671579"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170903112016">donde <emphasis effect="italics">l</emphasis> está asociado a la magnitud del momento angular orbital,</para>
+<equation id="fs-id1170902772300"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">(</m:mo><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt><m:mi>ℏ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903014646">En los átomos de varios electrones, se aplican reglas similares. Para ilustrar esta regla, considere las transiciones atómicas observadas en el hidrógeno (H), el sodio (Na) y el mercurio (Hg) (<link target-id="CNX_UPhysics_41_05_Elevels"/>). Las líneas horizontales de este diagrama corresponden a los niveles de energía atómica, y las transiciones permitidas por esta regla de selección se muestran mediante líneas trazadas entre estos niveles. Las energías de estos estados son del orden de unos pocos electronvoltios, y los fotones emitidos en las transiciones están en el rango visible. Técnicamente, las transiciones atómicas pueden violar la regla de selección, pero tales transiciones son poco comunes.</para>
+<figure id="CNX_UPhysics_41_05_Elevels">
+<media id="fs-id1170901529359" alt="Los diagramas de niveles de energía para el hidrógeno, el sodio y el mercurio se muestran como líneas horizontales. Las líneas horizontales de este diagrama corresponden a los niveles de energía atómica, y las transiciones se muestran mediante flechas dibujadas entre estos niveles. Las líneas que pertenecen a la misma subcapa (s, p, d, etc.) se dibujan en una columna, y las diferentes subcapas se dibujan una al lado de la otra en columnas etiquetadas con la letra de la subcapa. La dirección vertical representa la energía en e V. La figura a es el espectro del hidrógeno. Se muestran las columnas de las subcapas s, p, d y f. El nivel n=1 tiene solo una subcapa, el estado 1 s, con energía de -13,6 e V. El nivel n=2 tiene estados en las subcapas s y p, con energía de -3,4 e V. El nivel n=3 tiene estados en las subcapas s, p y d, con energía de -1,5 e V. El nivel n=4 tiene estados en las subcapas s, p, d y f, con energía de -0,85 e V. Existe un número infinito de energía para todo n hasta el infinito, que se aproxima cada vez más. Se muestran varias transiciones de los estados s en el n más alto hasta los estados p en n=2, de los estados p en el n más alto hasta el estado 1 s, de los estados d en el n más alto hasta el estado 2 p, y de los estados f en el n más alto hasta el estado 2 d. La figura b es el espectro del sodio, con las energías de los estados de hidrógeno n=2 hasta n=6 mostradas a la izquierda como referencia. La escala de energía va de -5,0 a 0 e V. Se muestran las columnas de los estados s, p d y f. El espacio entre los niveles es más complejo que en el caso del hidrógeno: los niveles 3 s, 3 p y 3 d tienen energías diferentes: 3 s está un poco por debajo de -5 e V, 3 p en torno a -3 e V, y 3 d en torno a -1,5 e V. Otros estados en la misma subcapa están igualmente divididos. Las transiciones se muestran como en el caso del hidrógeno, pasando a un n inferior y cambiando de subcapa por uno, de f hasta d, de d hasta p, de s hasta p, etcétera. La figura c es el espectro del mercurio. La escala de energía es de -10,0 a 0 e V. Se muestran los estados s, p, d, f en los dos estados de espín neto de los 6 electrones s. Como en el caso del sodio, los estados con diferentes números cuánticos l (es decir, diferentes subcapas) pero con el mismo número cuántico n tienen energías diferentes. Además, vemos que los estados se dividen aún más. Uno de los estados 6 p (el llamado estado triplete) se divide en tres líneas que tienen energías cercanas pero claramente distinguibles, y el estado 7 p en este estado de espín neto también se divide en tres líneas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_Elevels.jpg"/>
+</media>
+<caption>Diagramas de nivel de energía en el (a) hidrógeno, (b) sodio y (c) mercurio. A efectos de comparación, los niveles de energía del hidrógeno se muestran en el diagrama del sodio.</caption>
+</figure>
+<para id="fs-id1170901484702">El átomo de hidrógeno tiene el diagrama de niveles de energía más sencillo. Si ignoramos el espín del electrón, todos los estados con el mismo valor de <emphasis effect="italics">n</emphasis> tienen la misma energía total. Sin embargo, el acoplamiento espín-órbita divide los estados <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> en dos estados de momento angular (<emphasis effect="italics">s</emphasis> y <emphasis effect="italics">p</emphasis>) de energías ligeramente diferentes. (Estos niveles no se encuentran desplazados verticalmente, porque el desdoblamiento de energía es demasiado pequeño para aparecer en este diagrama). Del mismo modo, el acoplamiento espín-órbita divide los estados <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> en tres estados de momento angular (<emphasis effect="italics">s</emphasis>, <emphasis effect="italics">p</emphasis> y <emphasis effect="italics">d</emphasis>).</para>
+<para id="fs-id1170902598424">El diagrama de niveles de energía del hidrógeno es similar al del sodio, porque ambos átomos tienen un electrón en la capa externa. El electrón de valencia del sodio se mueve en el campo eléctrico de un núcleo resguardado por los electrones de las capas internas, por lo que no experimenta un simple potencial de Coulomb 1/<emphasis effect="italics">r</emphasis> y su energía total depende tanto de <emphasis effect="italics">n</emphasis> como de <emphasis effect="italics">l</emphasis>. Curiosamente, el mercurio tiene dos diagramas de nivel de energía distintos; estos diagramas corresponden a dos estados de espín neto de sus electrones 6<emphasis effect="italics">s</emphasis> (de valencia).</para>
+<example id="fs-id1170902013929">
+<para id="fs-id1170903109999"><title>El doblete de sodio</title>
+El espectro del sodio se analiza con un espectrómetro. Se observan dos líneas estrechamente espaciadas con longitudes de onda de 589,00 nm y 589,59 nm. (a) Si el doblete corresponde al electrón excitado (de valencia) que hace la transición desde algún estado excitado hasta el estado 3<emphasis effect="italics">s</emphasis>, ¿cuál era el momento angular original del electrón? (b) ¿Cuál es la diferencia de energía entre estos dos estados excitados?</para>
+<para id="fs-id1170901951548"><title>Estrategia</title>
+El sodio y el hidrógeno pertenecen a la misma columna o grupo químico de la tabla periódica, por lo que el sodio es "hidrogenoide". El electrón más externo del sodio está en la subcapa 3<emphasis effect="italics">s</emphasis> (<m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>) y puede ser excitado a niveles de energía más altos. Como en el caso del hidrógeno, las transiciones posteriores a niveles de energía más bajos deben obedecer la regla de selección:</para>
+<equation id="fs-id1170902673379" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170899246581">Primero debemos determinar el número cuántico del estado inicial que satisface la regla de selección. Entonces, podemos utilizar este número para determinar la magnitud del momento angular orbital del estado inicial.</para>
+<para id="fs-id1170902917781"><title>Solución</title></para>
+<list id="fs-id1170901779095" list-type="enumerated" number-style="lower-alpha">
+<item>Las transiciones permitidas deben obedecer la regla de selección. Si el número cuántico del estado inicial es <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, la transición está prohibida porque <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Si el número cuántico del estado inicial es <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow></m:math>,...la transición está prohibida porque <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, el cuanto del estado inicial debe ser <m:math><m:mrow><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>. El momento angular orbital del estado inicial es
+<equation id="fs-id1170901568794" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">(</m:mo><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt><m:mi>ℏ</m:mi><m:mo>=</m:mo><m:mn>1,41</m:mn><m:mi>ℏ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Como el estado final de ambas transiciones es el mismo (3<emphasis effect="italics">s</emphasis>), la diferencia de energías de los fotones es igual a la diferencia de energías de los dos estados excitados. Utilizando la ecuación
+<equation id="fs-id1170903121505" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>c</m:mi><m:mi>λ</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+tenemos
+<equation id="fs-id1170901543587" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>c</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>λ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>λ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4,14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eVs</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>589,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>589,59</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>2,11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1170901856588"><title>Importancia</title>
+Para entender la dificultad de medir esta diferencia de energía, comparamos esta diferencia con la energía promedio de los dos fotones emitidos en la transición. Dada una longitud de onda promedio de 589,30 nm, la energía promedio de los fotones es</para>
+<equation id="fs-id1170902930003" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi></m:mrow><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4,14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eVs</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>589,30</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,11</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170903035217">La diferencia de energía <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> es aproximadamente el 0,1 % (1 parte en 1000) de esta energía promedio. Sin embargo, un espectrómetro sensible puede medir la diferencia.</para>
+</example>
+<section id="fs-id1170901498082">
+<title>Fluorescencia atómica</title>
+<para id="fs-id1170903134572">La <term>fluorescencia</term> se produce cuando un electrón de un átomo se excita varios pasos por encima del estado fundamental mediante la absorción de un fotón ultravioleta (UV) de alta energía. Una vez excitado, el electrón deja el estado excitado de dos maneras. El electrón puede volver a caer en el estado fundamental, emitiendo un fotón de la misma energía que lo excitó, o puede caer en una serie de pasos más pequeños, emitiendo varios fotones de baja energía. Algunos de estos fotones pueden estar en el rango visible. Los tintes fluorescentes en la ropa pueden hacer que los colores parezcan más brillantes a la luz del sol al convertir la radiación UV en luz visible. Las luces fluorescentes son más eficientes a la hora de convertir la energía eléctrica en luz visible que los filamentos incandescentes (aproximadamente cuatro veces más eficientes). La <link target-id="CNX_UPhysics_41_05_Scorpion"/> muestra un escorpión iluminado por una lámpara UV. Las proteínas cercanas a la superficie de la piel emiten una luz azul característica.</para>
+<figure id="CNX_UPhysics_41_05_Scorpion">
+<media id="fs-id1170901951855" alt="La imagen muestra un escorpión escondido en las grietas de las rocas, iluminado por una lámpara U V. La piel del escorpión brilla de color azul cuando es iluminada por una luz ultravioleta en contraste con las rocas, que brillan en color violeta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_Scorpion.jpg"/>
+</media>
+<caption>Un escorpión brilla en azul bajo una lámpara UV (crédito: Ken Bosma).</caption>
+</figure>
+</section>
+<section id="fs-id1170902792273">
+<title>Rayos X</title>
+<para id="fs-id1170902681405">El estudio de las transiciones de energía atómica nos permite entender los rayos X y la tecnología de rayos X. Como toda la radiación electromagnética, los rayos X están formados por fotones. Los fotones de rayos X se producen cuando los electrones de las capas más externas de un átomo pasan a las capas internas. (Los átomos de hidrógeno no emiten rayos X, porque los niveles de energía de los electrones están demasiado espaciados para permitir la emisión de radiación de alta frecuencia) Las transiciones de este tipo suelen estar prohibidas porque los estados inferiores ya están llenos. Sin embargo, si una capa interna tiene una vacancia (falta un electrón interno, tal vez por haber sido golpeado por un electrón de alta velocidad), un electrón de una de las capas externas puede caer en energía para llenar la vacancia. La brecha energética para dicha transición es relativamente grande, por lo que la longitud de onda del fotón de rayos X radiado es relativamente corta.</para>
+<para id="fs-id1170902765457">Los rayos X también pueden producirse bombardeando un objetivo metálico con electrones de alta energía, como se muestra en la <link target-id="CNX_UPhysics_41_05_XrayTube"/>. En la figura, los electrones se desprenden de un filamento y son acelerados por un campo eléctrico hacia un objetivo de tungsteno. Según la teoría clásica del electromagnetismo, <emphasis effect="italics">toda</emphasis> partícula cargada que se acelera emite radiación. Por lo tanto, cuando el electrón choca con el objetivo de tungsteno, y se frena repentinamente, el electrón emite <term>radiación de frenado</term>. (La radiación de frenado se refiere a la radiación producida por cualquier partícula cargada que es frenada por un medio). En este caso, la radiación de frenado contiene una gama continua de frecuencias, porque los electrones chocarán con los átomos objetivo de formas ligeramente diferentes.</para>
+<para id="fs-id1170901778267">La radiación de frenado no es el único tipo de radiación que se produce en esta interacción. En algunos casos, un electrón colisiona con otro electrón de la capa interna de un átomo objetivo y lo expulsa del átomo, al estilo de una bola de billar. El estado vacío se llena cuando un electrón de una capa superior cae en el estado (caída del nivel de energía) y emite un fotón de rayos X.</para>
+<figure id="CNX_UPhysics_41_05_XrayTube">
+<media id="fs-id1170901587465" alt="Esquema de un tubo de rayos X. Un filamento calentado en un extremo actúa como cátodo que emite un haz de electrones. Los electrones se aceleran en una brecha hacia un objetivo de tungsteno montado en un ánodo. El objetivo emite rayos X.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_XrayTube.jpg"/>
+</media>
+<caption>Un boceto de un tubo de rayos X. El objetivo de tungsteno emite rayos X.</caption>
+</figure>
+<para id="fs-id1170902893807">Históricamente, las líneas espectrales de rayos X se marcaban con letras (<emphasis effect="italics">K</emphasis>, <emphasis effect="italics">L</emphasis>, <emphasis effect="italics">M</emphasis>, <emphasis effect="italics">N</emphasis>, ...). Estas letras corresponden a las capas atómicas (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext></m:mrow></m:math>). Los rayos X producidos por una transición de cualquier capa superior a la capa <emphasis effect="italics">K</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>) se etiquetan como rayos X <emphasis effect="italics">K</emphasis>. Los rayos X producidos en una transición desde la capa <emphasis effect="italics">L</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>) se llaman rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>α</m:mtext></m:msub></m:mrow></m:math>; los rayos X producidos en una transición desde la capa <emphasis effect="italics">M</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>) se llaman rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>β</m:mtext></m:msub></m:mrow></m:math>; los rayos X producidos en una transición desde la capa <emphasis effect="italics">N</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>) se llaman rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>γ</m:mtext></m:msub></m:mrow></m:math>; y así sucesivamente. Las transiciones de las capas superiores a las capas <emphasis effect="italics">L</emphasis> y <emphasis effect="italics">M</emphasis> se etiquetan de forma similar. Estas transiciones se representan mediante un diagrama de niveles de energía en la <link target-id="CNX_UPhysics_41_05_XrayEnergy"/>.</para>
+<figure id="CNX_UPhysics_41_05_XrayEnergy">
+<media id="fs-id1170902952615" alt="Los diferentes niveles de energía se muestran en forma de líneas horizontales. La línea de la parte inferior está marcada como nivel de energía n igual a uno, o la capa K. Por encima de esta línea, otra línea horizontal está marcada como nivel de energía n igual o capa L. Del mismo modo, se muestran otras líneas en las capas M y N. A medida que nos movemos de abajo hacia arriba, la distancia entre las líneas disminuye. Las transiciones se muestran como flechas desde una línea hacia abajo a una línea inferior y están etiquetadas. Las transiciones de n=2, 3, 4 y 5 al nivel n=1 forman la serie K y son, por orden, las líneas K sub alfa, K sub beta, K sub gama y K sub delta. Las transiciones de n= 3, 4 y 5 al nivel n=2 forman la serie L y son, por orden, las líneas L sub alfa, L sub beta y L sub gama. Las transiciones de n= 4 y 5 al nivel n=3 forman la serie M y son, por orden, las líneas M sub alfa y L sub beta. La transición de n=5 al nivel n=4 también se muestra y se etiqueta como N sub alfa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_XrayEnergy.jpg"/>
+</media>
+<caption>Transiciones de rayos X en un átomo.</caption>
+</figure>
+<para id="fs-id1170901999632">La distribución de las longitudes de onda de los rayos X producidos al golpear el metal con un haz de electrones se muestra en la <link target-id="CNX_UPhysics_41_05_Braking"/>. Las transiciones de rayos X en el metal objetivo aparecen como picos en la parte superior de la curva de radiación de frenado. Las frecuencias de fotones correspondientes a los picos de la distribución de rayos X se denominan frecuencias características, ya que pueden utilizarse para identificar el metal objetivo. La longitud de onda de corte aguda (justo por debajo del pico<m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>γ</m:mtext></m:msub></m:mrow></m:math>) corresponde a un electrón que pierde toda su energía con un solo fotón. La radiación de longitudes de onda más cortas está prohibida por la conservación de la energía.</para>
+<figure id="CNX_UPhysics_41_05_Braking">
+<media id="fs-id1170902877872" alt="Se muestra un gráfico de la intensidad de los rayos X en función a la longitud de onda en nanómetros. La escala de longitudes de onda es logarítmica y su rango va de 0,01 nanómetros a poco más de 1,0 nanómetros. La curva parte de un punto a un poco más de la mitad entre 0,01 y 0,1 n m y va aumentando. Antes de que la frecuencia alcance su valor máximo, aproximadamente a 0,1 n m, se forman tres picos agudos, etiquetados como K sub alfa, K sub gama y K sub alfa, tras lo cual la intensidad de los rayos X disminuye gradualmente. Se observan dos picos agudos a un poco más de la mitad entre 0,1 y 1,0, etiquetados como L sub beta y L sub alfa. Otro pico, con una longitud de onda superior a 1,0 n m, se denomina M sub alfa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_Braking.jpg"/>
+</media>
+<caption>Espectro de rayos X de un objetivo de plata. Los picos corresponden a las frecuencias características de los rayos X emitidos por la plata al ser golpeada por un haz de electrones.</caption>
+</figure>
+<example id="fs-id1170901912852">
+<para id="fs-id1170903081131"><title>Rayos X del aluminio</title>
+Estime la energía y la frecuencia características de los rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>α</m:mtext></m:msub></m:mrow></m:math> para el aluminio (<m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math>).</para>
+<para id="fs-id1170901619916"><title>Estrategia</title>
+Los rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>α</m:mtext></m:msub></m:mrow></m:math> se producen por la transición de un electrón en la capa <emphasis effect="italics">L</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>) a la capa <emphasis effect="italics">K</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>). Un electrón en la capa <emphasis effect="italics">L</emphasis> "ve" una carga <m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>13</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>12</m:mn><m:mo>,</m:mo></m:mrow></m:math> porque un electrón de la capa <emphasis effect="italics">K</emphasis> resguarda la carga nuclear. (Recordemos que no hay dos electrones en la capa <emphasis effect="italics">K</emphasis> porque el otro estado del electrón está vacante). La frecuencia del fotón emitido puede estimarse a partir de la diferencia de energía entre las capas <emphasis effect="italics">L</emphasis> y <emphasis effect="italics">K</emphasis>.</para>
+<para id="fs-id1170902916042"><title>Solución</title>
+La diferencia de energía entre las capas <emphasis effect="italics">L</emphasis> y <emphasis effect="italics">K</emphasis> de un átomo de hidrógeno es de 10,2 eV. Suponiendo que otros electrones en la capa <emphasis effect="italics">L</emphasis> o en capas de mayor energía no protegen la carga nuclear, la diferencia de energía entre las capas <emphasis effect="italics">L</emphasis> y <emphasis effect="italics">K</emphasis> en un átomo con <m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math> es de aproximadamente</para>
+<equation id="fs-id1170903806651"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>K</m:mi></m:mrow></m:msub><m:mo>≈</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>(10,2 eV)</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>13</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10,2</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1,47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901741512">Con base en la relación <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>K</m:mi></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>/</m:mtext><m:mi>h</m:mi></m:mrow></m:math>, la frecuencia de los rayos X es</para>
+<equation id="fs-id1170902768172" class="unnumbered"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1,47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mrow><m:mn>4,14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3,55</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170902704526"><title>Importancia</title>
+La longitud de onda de los rayos X típicos es de 0,1-10 nm. En este caso, la longitud de onda es:</para>
+<equation id="fs-id1170901479644" class="unnumbered"><label/><m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>f</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>3,55</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>17</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>0,85</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901579789">Por lo tanto, la transición <emphasis effect="italics">L</emphasis><m:math><m:mo stretchy="false">→</m:mo></m:math><emphasis effect="italics">K</emphasis> en el aluminio produce una radiación de rayos X.</para>
+</example>
+<para id="fs-id1170902688849">La producción de rayos X constituye una importante prueba de la mecánica cuántica. Según el modelo de Bohr, la energía de un rayo X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:math> depende de la carga nuclear o número atómico, <emphasis effect="italics">Z</emphasis>. Si <emphasis effect="italics">Z</emphasis> es grande, las fuerzas de Coulomb en el átomo son grandes, las diferencias de energía (<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math>) son grandes y, por tanto, la energía de los fotones radiados es grande. Para ilustrarlo, consideremos un solo electrón en un átomo de varios electrones. Despreciando las interacciones entre los electrones, los niveles de energía permitidos son</para>
+<equation id="fs-id1170903052420"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>Z</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902842491">donde <emphasis effect="italics">n</emphasis> = 1, 2, ...y <emphasis effect="italics">Z</emphasis> es el número atómico del núcleo. Sin embargo, un electrón en la capa <emphasis effect="italics">L</emphasis> (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>) "ve" una carga <m:math><m:mrow><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math>, porque un electrón de la capa <emphasis effect="italics">K</emphasis> resguarda la carga nuclear. (Recordemos que solo hay un electrón en la capa <emphasis effect="italics">K</emphasis> porque el otro electrón fue "expulsado"). Por lo tanto, las energías aproximadas del electrón en las capas <emphasis effect="italics">L</emphasis> y <emphasis effect="italics">K</emphasis> son</para>
+<equation id="fs-id1170902637031" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>E</m:mi><m:mi>L</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:msub><m:mi>E</m:mi><m:mi>K</m:mi></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1170901575178">Por lo tanto, la energía transportada por un fotón en una transición de la capa <emphasis effect="italics">L</emphasis> a la capa <emphasis effect="italics">K</emphasis> es por lo tanto</para>
+<equation id="fs-id1170903037647" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>K</m:mi></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>10,2</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170901758722">donde <emphasis effect="italics">Z</emphasis> es el número atómico. En general, la energía del fotón de rayos X para una transición de una capa exterior a la capa <emphasis effect="italics">K</emphasis> es</para>
+<equation id="fs-id1170902744334" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>K</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mtext>constante</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901541393">o</para>
+<note id="fs-id1170902659301" class="equation-callout">
+<equation id="fs-id1170903111500"><label/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>constante</m:mtext><m:msqrt><m:mi>f</m:mi></m:msqrt><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170901750253">donde <emphasis effect="italics">f</emphasis> es la frecuencia de los rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>α</m:mtext></m:msub></m:mrow></m:math>. Esta ecuación es la <term>ley de Moseley</term>. Para valores grandes de <emphasis effect="italics">Z</emphasis>, tenemos aproximadamente</para>
+<equation id="fs-id1170902794648" class="unnumbered"><label/><m:math><m:mrow><m:mi>Z</m:mi><m:mo>≈</m:mo><m:mtext>constante</m:mtext><m:msqrt><m:mi>f</m:mi></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901619824">Esta predicción puede comprobarse midiendo <emphasis effect="italics">f</emphasis> en una variedad de objetivos metálicos. Este modelo se apoya si un gráfico de <emphasis effect="italics">Z</emphasis> frente a los datos <m:math><m:mrow><m:msqrt><m:mi>f</m:mi></m:msqrt></m:mrow></m:math> (llamado <term>gráfica de Moseley</term>) es lineal. La comparación de las predicciones del modelo y los resultados experimentales, tanto en la serie <emphasis effect="italics">K</emphasis> como en la <emphasis effect="italics">L</emphasis>, se muestra en la <link target-id="CNX_UPhysics_41_05_Moseley"/>. Los datos apoyan el modelo de que los rayos X se producen cuando un electrón de la capa exterior cae en energía para llenar una vacancia en la capa interior.</para>
+<note id="fs-id1170901922905" class="check-understanding">
+<exercise id="fs-id1170901927522">
+<problem id="fs-id1170902865916">
+<para id="fs-id1170901936336">Los rayos X se producen al bombardear un objetivo metálico con electrones de alta energía. Si se sustituye el objetivo por otro con el doble de número atómico, ¿qué ocurre con la frecuencia de los rayos X?</para>
+</problem>
+<solution id="fs-id1170901486196">
+<para id="fs-id1170903056245">la frecuencia se cuadruplica</para>
+</solution>
+</exercise>
+</note>
+<figure id="CNX_UPhysics_41_05_Moseley">
+<media id="fs-id1170903077405" alt="El diagrama de Moseley de los rayos X característicos muestra un gráfico del número atómico como una función de la raíz cuadrada de las frecuencias en Hertz dividida por 10 a la 16. La escala vertical va de 0 a 80 y etiqueta los elementos cuyo número atómico es un múltiplo de 5: P, C a, M n, Z n, B r, Z r, R h, S n, C s, N d, T b, Y b y R e. La escala horizontal va de 0 a 24. Los datos caen a lo largo de varias líneas rectas, correspondientes a las series. La serie L, en azul, está por encima de la serie K, en rojo, y todas las líneas L son más pronunciadas que las líneas K. La serie L sub alfa tiene la pendiente más pronunciada de la serie L. Se muestran dos curvas de la serie K, con la pendiente K sub alfa ligeramente más pronunciada que la pendiente K sub beta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_Moseley.jpg"/>
+</media>
+<caption>Una gráfica de Moseley. Estos datos fueron adaptados de los datos originales de Moseley (H. G. J. Moseley, <emphasis effect="italics">Philos. Mag</emphasis>. (6) 77:703, 1914).</caption>
+</figure>
+<example id="fs-id1170902682890">
+<para id="fs-id1170901633873"><title>Energía característica de los rayos X</title>
+Calcule la energía aproximada de los rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:math> de un ánodo de tungsteno en un tubo de rayos X.</para>
+<para id="fs-id1170902941369"><title>Estrategia</title>
+Dos electrones ocupan una capa <emphasis effect="italics">K</emphasis> llena. Una vacancia en esta capa dejaría un electrón, por lo que la carga efectiva de un electrón en la capa <emphasis effect="italics">L</emphasis> sería <emphasis effect="italics">Z</emphasis> - 1 en lugar de <emphasis effect="italics">Z</emphasis>. Para el tungsteno, <m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>74</m:mn><m:mo>,</m:mo></m:mrow></m:math> por lo que la carga efectiva es de 73. Este número puede utilizarse para calcular la diferencia del nivel de energía entre las capas <emphasis effect="italics">L</emphasis> y <emphasis effect="italics">K</emphasis> y, por tanto, la energía transportada por un fotón en la transición <m:math><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>K</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1170901760434"><title>Solución</title>
+La <emphasis effect="italics">Z</emphasis> efectiva es 73, por lo que la energía de los rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:math> está dada por</para>
+<equation id="fs-id1170901752832" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901556587">donde</para>
+<equation id="fs-id1170901586533" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>Z</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mn>73</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>1</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−72,5</m:mn><m:mspace width="0.2em"/><m:mtext>keV</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170902690632">y</para>
+<equation id="fs-id1170902885008" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>Z</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mn>73</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−18,1</m:mn><m:mspace width="0.2em"/><m:mtext>keV</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170902779863">Por lo tanto,</para>
+<equation id="fs-id1170899265589" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:msub><m:mo>=</m:mo><m:mn>−18,1</m:mn><m:mspace width="0.2em"/><m:mtext>keV</m:mtext><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−72,5</m:mn><m:mspace width="0.2em"/><m:mtext>keV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>54,4</m:mn><m:mspace width="0.2em"/><m:mtext>keV</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1170899246359"><title>Importancia</title>
+Esta gran energía de los fotones es típica de los rayos X. Las energías de los rayos X son progresivamente mayores en los elementos más pesados porque su energía aumenta aproximadamente como <m:math><m:mrow><m:msup><m:mi>Z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Se necesita un voltaje de aceleración de más de 50.000 voltios para "expulsar" un electrón interno de un átomo de tungsteno.</para>
+</example>
+</section>
+<section id="fs-id1170903019983">
+<title>Tecnología de rayos X</title>
+<para id="fs-id1170902759155">Los rayos X tienen muchas aplicaciones, como el diagnóstico médico (<link target-id="CNX_UPhysics_41_05_TeethChest"/>), la inspección de equipajes en los aeropuertos (<link target-id="CNX_UPhysics_41_05_Luggage"/>), e incluso la detección de grietas en componentes cruciales de los aviones. Las imágenes de rayos X más comunes se deben a las sombras. Como los fotones de los rayos X tienen una gran energía, penetran en materiales que son opacos a la luz visible. Cuanta más energía tiene un fotón de rayos X, más material penetra. La profundidad de penetración está relacionada con la densidad del material, así como con la energía del fotón. Cuanto más denso es el material, menos fotones de rayos X lo atraviesan y más oscura es la sombra. Los rayos X son eficaces para identificar fracturas óseas y tumores; sin embargo, la sobreexposición a los rayos X puede dañar las células de los organismos biológicos.</para>
+<figure id="CNX_UPhysics_41_05_TeethChest">
+<media id="fs-id1170902615680" alt="La figura (a) muestra una imagen radiográfica de la vista frontal de la mandíbula, especialmente de los dientes. La figura (b) muestra un dibujo de una máquina de rayos X dental.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_TeethChest.jpg"/>
+</media>
+<caption>(a) Una imagen de rayos X de los dientes de una persona. (b) Una máquina de rayos X típica en la consulta de un dentista produce una radiación de energía relativamente baja para minimizar la exposición del paciente (crédito: modificación de la obra de "Dmitry G"/Wikimedia Commons).</caption>
+</figure>
+<figure id="CNX_UPhysics_41_05_Luggage">
+<media id="fs-id1170899266417" alt="Una imagen a color de rayos X de una pieza de equipaje.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_Luggage.jpg"/>
+</media>
+<caption>Una imagen de rayos X de un equipaje. Cuanto más denso sea el material, más oscura será la sombra. Los colores de los objetos se relacionan con la composición del material: los objetos metálicos aparecen en azul en esta imagen (crédito: "IDuke"/Wikimedia Commons).</caption>
+</figure>
+<para id="fs-id1170902923280">Una imagen de rayos X estándar proporciona una vista bidimensional del objeto. Sin embargo, en las aplicaciones médicas, este punto de vista no suele proporcionar suficiente información para sacar conclusiones firmes. Por ejemplo, en una imagen bidimensional de rayos X del cuerpo, los huesos pueden ocultar fácilmente los tejidos blandos o los órganos. El escáner TAC (tomografía axial computarizada) aborda este problema recogiendo numerosas imágenes de rayos X en "cortes" por todo el cuerpo. El complejo procesamiento informático de la absorción relativa de los rayos X, en diferentes direcciones, puede producir una imagen tridimensional muy detallada del cuerpo.</para>
+<para id="fs-id1170901501480">Los rayos X también pueden utilizarse para sondear las estructuras de los átomos y las moléculas. Consideremos los rayos X que inciden en la superficie de un sólido cristalino. Algunos fotones de rayos X se reflejan en la superficie, y otros se reflejan en el "plano" de los átomos justo debajo de la superficie. La interferencia entre estos fotones, en diferentes ángulos de incidencia, produce una bella imagen en una pantalla (<link target-id="CNX_UPhysics_41_05_XrayDiff"/>). La interacción de los rayos X con un sólido se denomina difracción de rayos X. El ejemplo más famoso del uso de la difracción de rayos X es el descubrimiento de la estructura de doble hélice del ADN.</para>
+<figure id="CNX_UPhysics_41_05_XrayDiff">
+<media id="fs-id1170901557975" alt="Imagen de difracción de rayos X de una proteína. La imagen muestra un conjunto de pequeños puntos negros, dispuestos en filas ligeramente curvadas, sobre un fondo blanco. Un brazo blanco se extiende desde la parte superior izquierda hasta el centro de la imagen, donde hay un pequeño disco blanco. Este disco blanco es la sombra del bloque de rayos, que bloquea la parte del haz de rayos X incidente que no fue difractado por el cristal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_41_05_XrayDiff.jpg"/>
+</media>
+<caption>La difracción de rayos X del cristal de una proteína (lisozima de huevo de gallina) produjo este patrón de interferencia. El análisis del patrón arroja información sobre la estructura de la proteína. (crédito: "Del45"/Wikimedia Commons).</caption>
+</figure>
+</section>
+<section id="fs-id1170903096211" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170901594271" list-type="bulleted" bullet-style="bullet">
+<item>La radiación es absorbida y emitida por transiciones de niveles de energía atómicos.</item>
+<item>Los números cuánticos pueden utilizarse para estimar la energía, la frecuencia y la longitud de onda de los fotones producidos por las transiciones atómicas.</item>
+<item>La fluorescencia atómica se produce cuando un electrón de un átomo se excita varios pasos por encima del estado fundamental mediante la absorción de un fotón ultravioleta (UV) de alta energía.</item>
+<item>Los fotones de rayos X se producen cuando una vacancia en la capa interna de un átomo se llena con un electrón de la capa externa del átomo.</item>
+<item>La frecuencia de la radiación de rayos X está relacionada con el número atómico <emphasis effect="italics">Z</emphasis> de un átomo.</item>
+</list>
+</section>
+<section id="fs-id1170902661904" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1170901599950">
+<problem id="fs-id1170903141729">
+<para id="fs-id1170901497472">Los espectros atómicos y moleculares son discretos. ¿Qué significa discreto y cómo se relacionan los espectros discretos con la cuantización de la energía y los orbitales de los electrones en los átomos y las moléculas?</para>
+</problem>
+<solution id="fs-id1170903110242">
+<para id="fs-id1170901674544">Se dice que los espectros atómicos y moleculares son "discretos", porque solo se observan determinadas líneas espectrales. En cambio, los espectros de una fuente de luz blanca (formada por muchas frecuencias de fotones) son continuos porque se observa un arcoíris continuo de colores.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902748537">
+<problem id="fs-id1170901773336">
+<para id="fs-id1170902683228">Discutir el proceso de absorción de la luz por la materia en función de la estructura atómica del medio absorbente.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901597570">
+<problem id="fs-id1170901595381">
+<para id="fs-id1170902643840">NGC1763 es una nebulosa de emisión situada en la Gran Nube de Magallanes, en las afueras de nuestra Vía Láctea. La luz ultravioleta de las estrellas calientes ioniza los átomos de hidrógeno de la nebulosa. Cuando los protones y los electrones se recombinan, se emite luz en el rango visible. Compara las energías de los fotones involucrados en estas dos transiciones.</para>
+</problem>
+<solution id="fs-id1170902928625">
+<para id="fs-id1170902747805">La luz ultravioleta está formada por fotones de frecuencia relativamente alta (longitud de onda corta). Así, la energía del fotón absorbido y la transición energética (<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math>) en el átomo es relativamente grande. En comparación, la luz visible está formada por fotones de frecuencia relativamente baja. Por lo tanto, la transición energética en el átomo y la energía del fotón emitido es relativamente pequeña.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902909379">
+<problem id="fs-id1170903079519">
+<para id="fs-id1170903041080">¿Por qué solo se emiten rayos X en las transiciones de los electrones a las capas internas? ¿Qué tipo de fotón se emite en las transiciones entre las capas exteriores?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901640067">
+<problem id="fs-id1170901513031">
+<para id="fs-id1170901583450">¿En qué se diferencian las órbitas permitidas a los electrones en los átomos de las órbitas permitidas a los planetas alrededor del sol?</para>
+</problem>
+<solution id="fs-id1170902703529">
+<para id="fs-id1170901802237">En los sistemas macroscópicos, los números cuánticos son muy grandes, por lo que la diferencia de energía (<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math>) entre niveles de energía adyacentes (órbitas) es muy pequeño. La energía liberada en las transiciones entre estos niveles de energía estrechamente cercanas es demasiado pequeña para ser detectada.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170901650992" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170902759714">
+<problem id="fs-id1170902637938">
+<para id="fs-id1170902877036">¿Cuál es la frecuencia mínima de un fotón necesaria para ionizar: (a) un ion de <m:math><m:mrow><m:msup><m:mrow><m:mtext>He</m:mtext></m:mrow><m:mo>+</m:mo></m:msup></m:mrow></m:math> en su estado fundamental? (b) y un ion de <m:math><m:mrow><m:msup><m:mrow><m:mtext>Li</m:mtext></m:mrow><m:mrow><m:mtext>2+</m:mtext></m:mrow></m:msup></m:mrow></m:math> en su primer estado excitado?</para>
+</problem>
+<solution id="fs-id1170902872812">
+<para id="fs-id1170903111029">En <m:math><m:mrow><m:msup><m:mrow><m:mtext>He</m:mtext></m:mrow><m:mo>+</m:mo></m:msup></m:mrow></m:math>, un electrón "orbita" un núcleo con dos protones y dos neutrones (<m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>). La energía de ionización se refiere a la energía necesaria para eliminar el electrón del átomo. La energía necesaria para eliminar el electrón en el estado fundamental de un ion de <m:math><m:mrow><m:msup><m:mrow><m:mtext>He</m:mtext></m:mrow><m:mo>+</m:mo></m:msup></m:mrow></m:math> hasta el infinito el valor de la energía del estado fundamental es negativo, escrito<newline/> <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>−54,4</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math><newline/> Por lo tanto, la energía para ionizar el electrón es <m:math><m:mrow><m:mtext>+54,4</m:mtext><m:mspace width="0.2em"/><m:mtext>eV.</m:mtext></m:mrow></m:math><newline/> Del mismo modo, la energía necesaria para eliminar un electrón en el primer estado excitado de un ion <m:math><m:mrow><m:msup><m:mrow><m:mtext>Li</m:mtext></m:mrow><m:mrow><m:mtext>2+</m:mtext></m:mrow></m:msup></m:mrow></m:math> al infinito, el valor de la energía del primer estado excitado es negativo, y se escribe:<newline/> <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>-30,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math><newline/> La energía para ionizar el electrón es de 30,6 eV.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901538281">
+<problem id="fs-id1170901748024">
+<para id="fs-id1170901534226">El ion <m:math><m:mrow><m:msup><m:mrow><m:mtext>Li</m:mtext></m:mrow><m:mrow><m:mtext>2+</m:mtext></m:mrow></m:msup></m:mrow></m:math> hace una transición atómica de un estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> a un estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>. (a) ¿Cuál es la energía emitida por el fotón durante la transición? (b) ¿Cuál es la longitud de onda del fotón?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901839434">
+<problem id="fs-id1170902909684">
+<para id="fs-id1170902884551">La luz roja emitida por un láser de rubí tiene una longitud de onda de 694,3 nm. ¿Cuál es la diferencia de energía entre el estado inicial y el estado final correspondiente a la emisión de la luz?</para>
+</problem>
+<solution id="fs-id1170902601623">
+<para id="fs-id1170901521988">La longitud de onda del láser viene dada por<newline/> <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math><newline/> donde <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>γ</m:mi></m:msub></m:mrow></m:math> es la energía del fotón y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> es la magnitud de la diferencia de energía. Resolviendo esto último, obtenemos<newline/> <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>-2,795</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math><newline/> El signo negativo indica que el electrón perdió energía en la transición.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903090688">
+<problem id="fs-id1170901651040">
+<para id="fs-id1170903099050">La luz amarilla de una farola de vapor de sodio se produce por la transición de los átomos de sodio de un estado 3<emphasis effect="italics">p</emphasis> a un estado <emphasis effect="italics">3s</emphasis>. Si la diferencia de energías entre esos dos estados es de 2,10 eV, ¿cuál es la longitud de onda de la luz amarilla?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903027696">
+<problem id="fs-id1170902034975">
+<para id="fs-id1170901634203">Estime la longitud de onda de los rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>α</m:mtext></m:msub></m:mrow></m:math> del calcio.</para>
+</problem>
+<solution id="fs-id1170902865387">
+<para id="fs-id1170901763549"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">→</m:mo><m:mi>K</m:mi></m:mrow></m:msub><m:mo>≈</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>(</m:mo><m:mn>10,2</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>3,68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170899265579">
+<problem id="fs-id1170903032813">
+<para id="fs-id1170901800234">Estime la frecuencia de los rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>α</m:mtext></m:msub></m:mrow></m:math> del cesio.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902958119">
+<problem id="fs-id1170903112201">
+<para id="fs-id1170903049375">Los rayos X se producen al golpear un objetivo con un haz de electrones. Antes de golpear el objetivo, los electrones son acelerados por un campo eléctrico a través de una diferencia de energía potencial:</para>
+<para id="fs-id1170902600752"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>e</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1170902724064">donde <emphasis effect="italics">e</emphasis> es la carga de un electrón y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math> es la diferencia de voltaje. Si <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>15.000</m:mn></m:mrow></m:math> voltios, ¿cuál es la longitud de onda mínima de la radiación emitida?</para>
+</problem>
+<solution id="fs-id1170903077859">
+<para id="fs-id1170899367741">Según la conservación de la energía, la energía potencial del electrón se convierte completamente en energía cinética. La energía cinética inicial del electrón es cero (el electrón comienza en reposo). Por lo tanto, la energía cinética del electrón justo antes de golpear el objetivo es:<newline/> <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mi>e</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math><newline/> Si <emphasis effect="italics">toda</emphasis> esta energía se convierte en radiación de frenado, la frecuencia de la radiación emitida es máxima, por tanto<newline/> <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>e</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow><m:mi>h</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/> Cuando la frecuencia emitida es un máximo, entonces la longitud de onda emitida es un mínimo, por lo que<newline/> <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>min</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0,1293</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901856794">
+<problem id="fs-id1170902860005">
+<para id="fs-id1170902751112">En el problema anterior, ¿qué ocurre con la longitud de onda mínima si se duplica el voltaje a través del tubo de rayos X?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901534546">
+<problem id="fs-id1170903051870">
+<para id="fs-id1170901551413">Supongamos que el experimento del problema anterior se realiza con muones. ¿Qué ocurre con la longitud de onda mínima?</para>
+</problem>
+<solution id="fs-id1170899457720">
+<para id="fs-id1170901609957">Un muon es 200 veces más pesado que un electrón, pero la longitud de onda mínima no depende de la masa, por lo que el resultado no cambia.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901578203">
+<problem id="fs-id1170901874594">
+<para id="fs-id1170901515035">Un tubo de rayos X acelera un electrón con un voltaje aplicado de 50 kV hacia un objetivo metálico. (a) ¿Cuál es la radiación de rayos X de menor longitud de onda generada en el objetivo? (b) Calcule la energía del fotón en eV. (c) Explique la relación de la energía del fotón con el voltaje aplicado.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901980450">
+<problem id="fs-id1170899350841">
+<para id="fs-id1170901857210">Un tubo de televisión a color genera algunos rayos X cuando su haz de electrones incide en la pantalla. ¿Cuál es la longitud de onda más corta de estos rayos X, si se utiliza un potencial de 30,0 kV para acelerar los electrones? (Tenga en cuenta que los televisores tienen un blindaje para evitar que la exposición de los espectadores a estos rayos X).</para>
+</problem>
+<solution id="fs-id1170901495404">
+<para id="fs-id1170899293217"><m:math><m:mrow><m:mn>4,13</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902723094">
+<problem id="fs-id1170902928550">
+<para id="fs-id1170903090350">Un tubo de rayos X tiene un voltaje aplicado de 100 kV. (a) ¿Cuál es el fotón de rayos X más energético que puede producir? Exprese su respuesta en electronvoltios y julios. (b) Halle la longitud de onda de dicha radiografía.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902648791">
+<problem id="fs-id1170902955859">
+<para id="fs-id1170902925417">La máxima energía característica de los fotones de rayos X proviene de la captura de un electrón libre en una vacancia de la capa <emphasis effect="italics">K</emphasis>. ¿Cuál es esta energía del fotón en keV para el tungsteno, suponiendo que el electrón libre no tiene energía cinética inicial?</para>
+</problem>
+<solution id="fs-id1170901614645">
+<para id="fs-id1170903124342">72,5 keV</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903084325">
+<problem id="fs-id1170902960785">
+<para id="fs-id1170902777808">¿Cuáles son las energías aproximadas de los rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>β</m:mi></m:msub></m:mrow></m:math> del cobre?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902893542">
+<problem id="fs-id1170901761338">
+<para id="fs-id1170902649941">Compare las longitudes de onda de los fotones de rayos X en el cobre y el oro.</para>
+</problem>
+<solution id="fs-id1170902743796">
+<para id="fs-id1170902684811">Los números atómicos del Cu y del Au son <m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>29</m:mn></m:mrow></m:math> y 79, respectivamente. La frecuencia de los fotones de los rayos X en el oro es mayor que en el cobre por un factor<newline/> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>Au</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>79</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>29</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>≈</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/> Por lo tanto, la longitud de onda de los rayos X del Au es unas ocho veces más corta que la del cobre.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901553860">
+<problem id="fs-id1170901648451">
+<para id="fs-id1170902780773">Las energías aproximadas de los rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>β</m:mi></m:msub></m:mrow></m:math> del cobre son <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:msub><m:mo>=</m:mo><m:mn>8,00</m:mn><m:mspace width="0.2em"/><m:mtext>keV</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:msub><m:mi>K</m:mi><m:mi>β</m:mi></m:msub></m:mrow></m:msub><m:mo>=</m:mo><m:mn>9,48</m:mn><m:mspace width="0.2em"/><m:mtext>keV,</m:mtext></m:mrow></m:math> respectivamente. Determine la relación entre las frecuencias de los rayos X del oro y del cobre, y luego utilice este valor para estimar las energías correspondientes de los rayos X <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>β</m:mi></m:msub></m:mrow></m:math> del oro.</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170902887684">
+<term>radiación de frenado</term>
+<meaning id="fs-id1170902686692">radiación producida al apuntar al metal con un haz de electrones de alta energía (o radiación producida por la aceleración de cualquier partícula cargada en un material).</meaning>
+</definition>
+<definition id="fs-id1170902851307">
+<term>fluorescencia</term>
+<meaning id="fs-id1170901867903">radiación producida por la excitación y posterior disminución gradual de la excitación de un electrón en un átomo.</meaning>
+</definition>
+<definition id="fs-id1170902772283">
+<term>ley de Moseley</term>
+<meaning id="fs-id1170903077586">relación entre el número atómico y la frecuencia de los fotones de rayos X para la producción de estos rayos.</meaning>
+</definition>
+<definition id="fs-id1170901478171">
+<term>gráfica de Moseley</term>
+<meaning id="fs-id1170902759776">gráfico del número atómico en función de la raíz cuadrada de la frecuencia de los rayos X.</meaning>
+</definition>
+<definition id="fs-id1170901626575">
+<term>reglas de selección</term>
+<meaning id="fs-id1170901635157">reglas que determinan si las transiciones atómicas están permitidas o prohibidas (infrecuente).</meaning>
+</definition>
+</glossary>
+</document>

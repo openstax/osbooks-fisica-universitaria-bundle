@@ -1,0 +1,436 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Transferencia de calor, calor específico y calorimetría</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90824</md:content-id>
+  <md:title>Transferencia de calor, calor específico y calorimetría</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar fenómenos en los que interviene el calor como forma de transferencia de energía.</item>
+<item>Resolver problemas de transferencia de calor.</item>
+</list></md:abstract>
+  <md:uuid>fc0df64d-5d4d-4add-b896-e43702cd21a4</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170902183417">Hemos visto en los capítulos anteriores que la energía es uno de los conceptos fundamentales de la física. <emphasis effect="bold">El calor</emphasis> es un tipo de transferencia de energía que se produce por una diferencia de temperatura, y puede cambiar la temperatura de un objeto. Como hemos aprendido anteriormente en este capítulo, la transferencia de <term class="no-emphasis">calor</term> es el movimiento de energía de un lugar o material a otro como consecuencia de una diferencia de temperatura. La transferencia de calor es fundamental para actividades cotidianas como tener calefacción en casa y cocinar, así como para muchos procesos industriales. También sirve de base para los temas del resto de este capítulo.</para>
+<para id="fs-id1170904056434">También introducimos el concepto de energía interna, que puede aumentar o disminuir mediante transferencia de calor. Analizamos otra forma de cambiar la energía interna de un sistema, a saber, al realizar un trabajo sobre él. De este modo, iniciamos el estudio de la relación entre calor y trabajo, que es la base de motores y refrigeradores y el tema central (y el origen del nombre) de la termodinámica.</para>
+<section id="fs-id1170902213599">
+<title>Energía y calor internos</title>
+<para id="fs-id1170903859748">Un sistema térmico tiene <term class="no-emphasis"><emphasis effect="italics">energía interna</emphasis></term> (también llamada <emphasis effect="bold"><term class="no-emphasis">energía térmica)</term></emphasis>, que es la suma de las energías mecánicas de sus moléculas. La energía interna de un sistema es proporcional a su temperatura. Como hemos visto anteriormente en este capítulo, si se ponen en contacto dos objetos a diferentes temperaturas, la energía se transfiere del objeto más caliente al más frío hasta que los cuerpos alcanzan el equilibrio térmico (es decir, están a la misma temperatura). Ninguno de los dos objetos realiza trabajo alguno porque no hay fuerza que actúe a través de la distancia (como ya comentamos en la sección <link document="m90643">Trabajo y energía cinética</link>). Estas observaciones revelan que el calor es una energía que se transfiere espontáneamente debido a una diferencia de temperatura. En la <link target-id="CNX_UPhysics_18_04_SodaIce"/> se muestra un ejemplo de transferencia de calor.</para>
+<figure id="CNX_UPhysics_18_04_SodaIce">
+<media id="fs-id1170904051682" alt="La figura a muestra una lata de gaseosa a temperatura T1 y un cubo de hielo, a cierta distancia, a temperatura T2. T1 es mayor que T2. La figura b muestra la lata y el cubo en contacto. Ambos están a temperatura T prime.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_04_SodaIce.jpg"/>
+</media>
+<caption>(a) En este caso, la gaseosa tiene una temperatura más alta que el hielo, por lo que no están en equilibrio térmico. (b) Cuando se deja que el refresco y el hielo interactúen, el calor se transfiere de la bebida al hielo debido a la diferencia de temperaturas hasta que alcanzan la misma temperatura, <m:math><m:mrow><m:mi>T</m:mi><m:mo>′</m:mo></m:mrow></m:math>, y se logra el equilibrio. De hecho, como la bebida gaseosa y el hielo están en contacto con el aire circundante y el banco, la temperatura final de equilibrio será la misma que la del entorno.</caption>
+</figure>
+<para id="fs-id1170902203819">El significado de “calor” en física es diferente de su significado ordinario. Por ejemplo, en una conversación podemos decir “el calor era insoportable”, pero en física diríamos que la temperatura era alta. El calor es una forma de flujo de energía, mientras que la temperatura no lo es. Por cierto, el ser humano es más sensible a <emphasis effect="italics">flujo de calor</emphasis> que a temperatura.</para>
+<para id="fs-id1170904097076">Como el calor es una forma de energía, su unidad en el SI es el julio (J). Otra unidad común de energía que se utiliza a menudo para el calor es la <term>caloría</term> (cal), definida como la energía necesaria para cambiar la temperatura de 1,00 g de agua en <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, específicamente, entre <m:math><m:mrow><m:mn>14,5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>15,5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, ya que existe una ligera dependencia de la temperatura. También se suele utilizar la <term>kilocaloría</term> (kcal), que es la energía necesaria para cambiar la temperatura de 1,00 kg de agua en <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Dado que la masa se especifica más a menudo en kilogramos, la kilocaloría es conveniente. Las calorías de los alimentos (a veces llamadas “grandes calorías” [Cal]) son en realidad kilocalorías, un hecho que no se puede determinar fácilmente a partir de la etiqueta del envase.</para>
+</section>
+<section id="fs-id1170902235240">
+<title>Equivalente mecánico del calor</title>
+<para id="fs-id1170902256500">También es posible cambiar la temperatura de una sustancia realizando un trabajo, que transfiere energía hacia o desde un sistema. Esta constatación ayudó a establecer que el calor es una forma de energía. James Prescott <term class="no-emphasis">Joule</term> (1818-1889) realizó numerosos experimentos para establecer el <term>equivalente mecánico del calor</term><emphasis effect="italics">, es decir, el trabajo necesario para producir los mismos efectos que la transferencia de calor</emphasis>. En las unidades utilizadas para estas dos cantidades, el valor de esta equivalencia es</para>
+<equation id="fs-id1170904247908" class="unnumbered"><label/><m:math><m:mrow><m:mn>1,000</m:mn><m:mspace width="0.2em"/><m:mtext>kcal</m:mtext><m:mo>=</m:mo><m:mn>4.186</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170904102184">Consideramos que esta ecuación representa la conversión entre dos unidades de energía (otros números que puede ver se refieren a calorías definidas para rangos de temperatura diferentes a <m:math><m:mrow><m:mn>14,5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>15,5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>).</para>
+<para id="fs-id1170902360490">En la <link target-id="CNX_UPhysics_18_04_JoulesExp"/> se muestra uno de los montajes experimentales más famosos de Joule para demostrar que el trabajo y el calor pueden producir los mismos efectos y medir el equivalente mecánico del calor. Esto ayudó a establecer el principio de conservación de la energía. La energía potencial gravitacional (<emphasis effect="italics">U</emphasis>) se convirtió en energía cinética (<emphasis effect="italics">K</emphasis>), y luego se aleatorizó por viscosidad y turbulencia en un aumento de la energía cinética promedio de átomos y moléculas del sistema, lo que produjo un aumento de la temperatura. Los aportes de Joule a la termodinámica fueron tan importantes que la unidad de energía del SI recibió su nombre.</para>
+<figure id="CNX_UPhysics_18_04_JoulesExp">
+<media id="fs-id1170902113578" alt="Se llena un recipiente cilíndrico aislado con agua de volumen conocido. Una varilla vertical se sumerge en este. Tiene unas palas que agitan el agua si se gira la varilla. La parte superior de la varilla está fuera del agua. Se ata una cuerda alrededor, cuyos dos extremos pasan por encima de poleas y soportan pesos a ambos lados. Una palanca en la parte superior se utiliza para girar la varilla. Se mantiene un termómetro en el agua. La distancia desde el centro del peso y la polea hasta la base del recipiente se etiqueta como altura de descenso medida.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_04_JoulesExp.jpg"/>
+</media>
+<caption>El experimento de Joule estableció la equivalencia entre calor y trabajo. A medida que las masas descendían, hacían trabajar a las palas, <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>h</m:mi></m:mrow></m:math>, en el agua. El resultado fue un aumento de la temperatura, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>, medido por el termómetro. Joule descubrió que <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> era proporcional a <emphasis effect="italics">W</emphasis> y así se determinaba el equivalente mecánico del calor.</caption>
+</figure>
+<para id="fs-id1170903884019">Aumentar la energía interna por transferencia de calor da el mismo resultado que aumentarla realizando trabajo. Por tanto, aunque un sistema tenga una energía interna bien definida, no podemos decir que tenga un determinado “contenido de calor” o “contenido de trabajo”. Una cantidad bien definida que depende solo del estado actual del sistema, y no de la historia de ese sistema, se conoce como <term class="no-emphasis"><emphasis effect="italics">variable de estado</emphasis></term>. La temperatura y la energía interna son variables de estado. Para resumir este párrafo, <emphasis effect="italics">calor y trabajo no son variables de estado</emphasis>.</para>
+<para id="fs-id1170903726260">Por cierto, el aumento de la energía interna de un sistema no aumenta necesariamente su temperatura. Como veremos en la siguiente sección, la temperatura no cambia cuando una sustancia pasa de una fase a otra. Un ejemplo es el derretimiento del hielo, que se puede lograr al añadir calor o realizar un trabajo de fricción, como cuando se frota un cubo de hielo contra una superficie rugosa.</para>
+</section>
+<section id="fs-id1170902138118">
+<title>Cambio de temperatura y capacidad calorífica</title>
+<para id="fs-id1170904006751">Hemos notado que la transferencia de calor suele provocar un cambio de temperatura. Los experimentos demuestran que sin cambio de fase y sin trabajo realizado en o por el sistema, el calor transferido suele ser directamente proporcional al cambio de temperatura y a la masa del sistema, con una buena aproximación (a continuación mostramos cómo manejar situaciones en las que la aproximación no es válida). La constante de proporcionalidad depende de la sustancia y de su fase, que puede ser gas, líquido o sólido. Omitimos la discusión de la cuarta fase, el plasma, porque aunque es la fase más común en el universo, es poco común y de corta duración en la Tierra.</para>
+<para id="fs-id1170902113197">Podemos entender los hechos experimentales al tomar en cuenta que el calor transferido es el cambio en la energía interna, la cual es la energía total de las moléculas. En condiciones típicas, la energía cinética total de las moléculas <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub></m:mrow></m:math> es una fracción constante de la energía interna (por motivos y con excepciones que veremos en el próximo capítulo). La energía cinética promedio de una molécula <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub></m:mrow></m:math> es proporcional a la temperatura absoluta. Por lo tanto, el cambio en la energía interna de un sistema es típicamente proporcional al cambio en la temperatura y al número de moléculas, <emphasis effect="italics">N</emphasis>. Matemáticamente, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>∝</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>N</m:mi><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>∝</m:mo><m:mi>N</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> La dependencia de la sustancia se debe en gran parte a las diferentes masas de átomos y moléculas. Estamos considerando su capacidad calorífica en función de su masa, pero como veremos en el próximo capítulo, en algunos casos, las capacidades caloríficas <emphasis effect="italics">por molécula</emphasis> son similares para diferentes sustancias. La dependencia de la sustancia y la fase también se debe a las diferencias en la energía potencial asociada a interacciones entre átomos y moléculas.</para>
+<note id="fs-id1170904244740">
+<title>Transferencia de calor y cambio de temperatura</title>
+<para id="fs-id1170902061967">Una aproximación práctica para la relación entre transferencia de calor y cambio de temperatura es:</para>
+<equation id="fs-id1170902049267"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902355052">donde <emphasis effect="italics">Q</emphasis> es el símbolo de la transferencia de calor (“cantidad de calor), <emphasis effect="italics">m</emphasis> es la masa de la sustancia y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> es el cambio de temperatura. El símbolo <emphasis effect="italics">c</emphasis> representa el <term>calor específico</term> (también llamada “<emphasis effect="italics">capacidad calorífica específica</emphasis>“) y depende del material y de la fase. El calor específico es numéricamente igual a la cantidad de calor necesaria para cambiar la temperatura de <m:math><m:mrow><m:mn>1,00</m:mn></m:mrow></m:math> kg de masa por <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. La unidad del SI para calor específico es <m:math><m:mrow><m:mtext>J/</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>kg</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> o <m:math><m:mrow><m:mtext>J/</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>kg</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. (recuerde que el cambio de temperatura <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> es lo mismo en unidades de kelvin y de grados Celsius).</para>
+</note>
+<para id="fs-id1170902232562">En general, los valores del calor específico deben medirse, ya que no existe una forma sencilla de calcularlos con precisión. La <link target-id="fs-id1170903900728"/> enumera los valores representativos de calor específico de diversas sustancias. En esta tabla vemos que el calor específico del agua es cinco veces mayor que el del vidrio y 10 veces mayor que el del hierro, lo que significa que se necesita cinco veces más calor para elevar la temperatura del agua una cantidad determinada que la del vidrio, y 10 veces más que la del hierro. De hecho, el agua tiene uno de los mayores calores específicos de cualquier material, lo que es importante para mantener la vida en la Tierra.</para>
+<para id="fs-id1170904127616">Los calores específicos de los gases dependen de lo que se mantenga constante durante el calentamiento, normalmente el volumen o la presión. En la tabla, el primer valor de calor específico de cada gas se mide a volumen constante, y el segundo (entre paréntesis) se mide a presión constante. Volveremos a tratar este tema en el capítulo dedicado a la teoría cinética de los gases.</para>
+<table id="fs-id1170903900728" summary="This tables has 3 columns, 23 rows and a header row. The header row labels the first column substances and the other two specific heat in joule per kg degree Celsius and kcal per kg degree Celsius respectively. The first 12 substances in the first column are solids. These are: Aluminum, Asbestos, average Concrete or granite, Copper, Glass, Gold, human body at average temperature of 37 degrees Celsius, Ice at average of minus 50 degrees to zero degrees Celsius, Iron and steel, Lead, Silver and Wood. Rows 13 to 17 in the first column are liquids. These are: Benzene, Ethanol, Glycerin, Mercury and Water at 15 degrees Celsius. Rows 18 to 23 in the first column are: Dry Air, Ammonia, Carbon dioxide, Nitrogen, Oxygen and Steam at 100 degrees Celsius. Notes indicate that the values for solids and liquids are at constant volume and 25 degrees Celsius, except as noted. The values in the last column are identical in units of calories per gram degree Celsius. Notes for the gases indicate that specific heats are at constant volume and at 20 degrees Celsius except as noted, and at 1 atmosphere pressure. Values in parentheses are specific heats at a constant pressure of 1 atmosphere. The second column has the following values: 900, 800, 840, 387, 840, 129, 3500, 2090, 452, 128, 235, 1700, 1740, 2450, 2410, 139, 4186, 721 in parentheses 1015, 1670 in parentheses 2190, 638 in parentheses 833, 739 in parentheses 1040, 651 in parentheses 913 and 1520 in parentheses 2020. The third column 0.215, 0.19, 0.20, 0.0924, 0.20, 0.0308, 0.83, 0.50, 0.108, 0.0305, 0.0562, 0.40, 0.415, 0.586, 0.576, 0.0333, 1.000, 0.172 in parentheses 0.242, 0.399 in parentheses 0.523, 0.152 in parentheses 0.199, 0.177 in parentheses 0.248, 0.156 in parentheses 0.218 and 0.363 in parentheses 0.482.">
+<title>Calores específicos de diversas sustancias<sup>[1]</sup></title>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry valign="top" align="center">Sustancias</entry>
+<entry valign="top" align="center" namest="c2" nameend="c3">Calor específico<emphasis effect="italics">(c</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="top" align="left"><emphasis effect="italics">Sólidos</emphasis></entry>
+<entry valign="top" align="right"><m:math><m:mrow><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mtext>kcal/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:msup><m:mtext>C</m:mtext><m:mrow><m:mrow><m:mo>[</m:mo><m:mn>2</m:mn><m:mo>]</m:mo></m:mrow></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Aluminio</entry>
+<entry valign="top" align="right">900</entry>
+<entry valign="top" align="left">0,215</entry>
+</row>
+<row>
+<entry valign="top" align="left">Amianto</entry>
+<entry valign="top" align="right">800</entry>
+<entry valign="top" align="left">0,19</entry>
+</row>
+<row>
+<entry valign="top" align="left">Hormigón, granito (promedio)</entry>
+<entry valign="top" align="right">840</entry>
+<entry valign="top" align="left">0,20</entry>
+</row>
+<row>
+<entry valign="top" align="left">Cobre</entry>
+<entry valign="top" align="right">387</entry>
+<entry valign="top" align="left">0,0924</entry>
+</row>
+<row>
+<entry valign="top" align="left">Vidrio</entry>
+<entry valign="top" align="right">840</entry>
+<entry valign="top" align="left">0,20</entry>
+</row>
+<row>
+<entry valign="top" align="left">Oro</entry>
+<entry valign="top" align="right">129</entry>
+<entry valign="top" align="left">0,0308</entry>
+</row>
+<row>
+<entry valign="top" align="left">Cuerpo humano (promedio en <m:math><m:mrow><m:mn>37</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>)</entry>
+<entry valign="top" align="right">3.500</entry>
+<entry valign="top" align="left">0,83</entry>
+</row>
+<row>
+<entry valign="top" align="left">Hielo (promedio, <m:math><m:mrow><m:mn>-50</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>)</entry>
+<entry valign="top" align="right">2.090</entry>
+<entry valign="top" align="left">0,50</entry>
+</row>
+<row>
+<entry valign="top" align="left">Hierro, acero</entry>
+<entry valign="top" align="right">452</entry>
+<entry valign="top" align="left">0,108</entry>
+</row>
+<row>
+<entry valign="top" align="left">Plomo</entry>
+<entry valign="top" align="right">128</entry>
+<entry valign="top" align="left">0,0305</entry>
+</row>
+<row>
+<entry valign="top" align="left">Plata</entry>
+<entry valign="top" align="right">235</entry>
+<entry valign="top" align="left">0,0562</entry>
+</row>
+<row>
+<entry valign="top" align="left">Madera</entry>
+<entry valign="top" align="right">1.700</entry>
+<entry valign="top" align="left">0,40</entry>
+</row>
+<row>
+<entry valign="top" align="left" namest="c1" nameend="c3"><emphasis effect="italics">Líquidos</emphasis></entry>
+</row>
+<row>
+<entry valign="top" align="left">Benceno</entry>
+<entry valign="top" align="right">1.740</entry>
+<entry valign="top" align="left">0,415</entry>
+</row>
+<row>
+<entry valign="top" align="left">Etanol</entry>
+<entry valign="top" align="right">2.450</entry>
+<entry valign="top" align="left">0,586</entry>
+</row>
+<row>
+<entry valign="top" align="left">Glicerina</entry>
+<entry valign="top" align="right">2.410</entry>
+<entry valign="top" align="left">0,576</entry>
+</row>
+<row>
+<entry valign="top" align="left">Mercurio</entry>
+<entry valign="top" align="right">139</entry>
+<entry valign="top" align="left">0,0333</entry>
+</row>
+<row>
+<entry valign="top" align="left">Agua <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>15,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">4.186</entry>
+<entry valign="top" align="left">1,000</entry>
+</row>
+<row>
+<entry valign="top" align="left" namest="c1" nameend="c3"><emphasis effect="italics">Gases</emphasis><sup>[3]</sup></entry>
+</row>
+<row>
+<entry valign="top" align="left">Aire (seco)</entry>
+<entry valign="top" align="right">721 (1.015)</entry>
+<entry valign="top" align="left">0,172 (0,242)</entry>
+</row>
+<row>
+<entry valign="top" align="left">Amoníaco</entry>
+<entry valign="top" align="right">1.670 (2.190)</entry>
+<entry valign="top" align="left">0,399 (0,523)</entry>
+</row>
+<row>
+<entry valign="top" align="left">Dióxido de carbono</entry>
+<entry valign="top" align="right">638 (833)</entry>
+<entry valign="top" align="left">0,152 (0,199)</entry>
+</row>
+<row>
+<entry valign="top" align="left">Nitrógeno</entry>
+<entry valign="top" align="right">739 (1.040)</entry>
+<entry valign="top" align="left">0,177 (0,248)</entry>
+</row>
+<row>
+<entry valign="top" align="left">Oxígeno</entry>
+<entry valign="top" align="right">651 (913)</entry>
+<entry valign="top" align="left">0,156 (0,218)</entry>
+</row>
+<row>
+<entry valign="top" align="left">Vapor de agua <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="right">1.520 (2.020)</entry>
+<entry valign="top" align="left">0,363 (0,482)</entry>
+</row>
+</tbody>
+</tgroup>
+<caption><sup>[1]</sup>Los valores para sólidos y líquidos son a volumen constante y <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, salvo que se indique de otra manera. <sup>[2]</sup>Estos valores son idénticos en unidades de <m:math><m:mrow><m:mtext>cal/g</m:mtext><m:mo>·</m:mo><m:mtext>°C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> <sup>[3]</sup>Calores específicos a volumen constante y a <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, excepto cuando se indique, y a una presión de 1,00 atm. Los valores entre paréntesis son calores específicos a una presión constante de 1,00 atm.</caption>
+</table>
+<para id="fs-id1170903857839">En general, el calor específico también depende de la temperatura. Así, una definición precisa de <emphasis effect="italics">c</emphasis> para una sustancia debe darse en términos de un cambio infinitesimal de temperatura. Para ello, notamos que <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>m</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow></m:math> y reemplazar <m:math><m:mtext>Δ</m:mtext></m:math> con <emphasis effect="italics">d</emphasis>:</para>
+<equation id="fs-id1170902131005" class="unnumbered"><label/><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>m</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170904143698">Excepto en el caso de los gases, la dependencia de la temperatura y el volumen del calor específico de la mayoría de las sustancias es débil a temperaturas normales. Por lo tanto, en general, tomaremos los calores específicos como constantes en los valores indicados en la tabla.</para>
+<example id="fs-id1170903904170">
+<para id="fs-id1170902356300"><title>Calcular el calor necesario</title>
+Una olla de aluminio de 0,500 kg en una estufa y 0,250 L de agua en ella se calientan de <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>80,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (a) ¿Cuánto calor se necesita? ¿Qué porcentaje del calor se utiliza para aumentar la temperatura de (b) la olla y (c) el agua?</para>
+<para id="fs-id1170902359442"><title>Estrategia</title>
+Podemos suponer que la olla y el agua están siempre a la misma temperatura. Al poner la olla en el fuego, la temperatura del agua y la de la olla aumentan en la misma medida. Utilizamos la ecuación de la transferencia de calor para el cambio de temperatura y la masa de agua y aluminio dados. Los valores del calor específico del agua y del aluminio se indican en la <link target-id="fs-id1170903900728"/>.</para>
+<para id="fs-id1170903874449"><title>Solución</title></para>
+<list id="fs-id1170903820495" list-type="enumerated" number-style="arabic">
+<item>Calcule la diferencia de temperatura:
+<equation id="fs-id1170902355414" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>60,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Calcule la masa de agua. Como la densidad del agua es <m:math><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>, 1 L de agua tiene una masa de 1 kg, y la masa de 0,250 L de agua es <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>w</m:mi></m:msub><m:mo>=</m:mo><m:mn>0,250</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>.</item>
+<item>Calcule el calor transferido al agua. Use el calor específico del agua en la <link target-id="fs-id1170903900728"/>:
+<equation id="fs-id1170904087046" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>w</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mtext>w</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>w</m:mtext></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,250</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4186</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>60,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>62,8</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Calcule el calor transferido al aluminio. Use el calor específico del aluminio en la <link target-id="fs-id1170903900728"/>:
+<equation id="fs-id1170904008062" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>900</m:mtext><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>60,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>27,0</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Calcule el calor total transferido:
+<equation id="fs-id1170902198217" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>W</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>89,8</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1170903906994"><title>Importancia</title>
+En este ejemplo, el calor transferido al recipiente es una fracción significativa del calor total transferido. Aunque la masa de la olla es el doble de la del agua, el calor específico del agua es más de cuatro veces el del aluminio. Por lo tanto, se necesita un poco más del doble de calor para lograr el cambio de temperatura dado para el agua que para la olla de aluminio.</para>
+</example>
+<para id="fs-id1170902163361">El <link target-id="fs-id1170903814928"/> ilustra un aumento de temperatura causado por la realización de un trabajo (el resultado es el mismo que si se hubiera añadido la misma cantidad de energía con un soplete en vez de mecánicamente).</para>
+<example id="fs-id1170903814928">
+<para id="fs-id1170904050983"><title>Calcular el aumento de temperatura a partir del trabajo realizado en una sustancia</title>
+Los frenos de los camiones utilizados para controlar la velocidad en una bajada realizan un trabajo, y convierten la energía potencial gravitacional en un aumento de la energía interna (mayor temperatura) del material de los frenos (<link target-id="CNX_UPhysics_18_04_Brakes"/>). Esta conversión evita que la energía potencial gravitacional se convierta en energía cinética del camión. Dado que la masa del camión es mucho mayor que la del material de los frenos que absorbe la energía, el aumento de la temperatura se puede producir demasiado rápido para que se transfiera suficiente calor de los frenos al ambiente; en otras palabras, los frenos pueden sobrecalentarse.</para>
+<figure id="CNX_UPhysics_18_04_Brakes">
+<media id="fs-id1170903800770" alt="La figura muestra un camión en una carretera. Hay humo cerca de sus neumáticos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_04_Brakes.jpg"/>
+</media>
+<caption>Los frenos humeantes de un camión que frena son una prueba visible del equivalente mecánico del calor.</caption>
+</figure>
+<para id="fs-id1170903881938">Calcule el aumento de temperatura de 10 kg de material de freno con un calor específico promedio de <m:math><m:mrow><m:mtext>800</m:mtext><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>°C</m:mtext></m:mrow></m:math> si el material retiene el 10 % de la energía de un camión de 10.000 kg que desciende 75,0 m (en desplazamiento vertical) a velocidad constante.</para>
+<para id="fs-id1170902221928"><title>Estrategia</title>
+Calculamos la energía potencial gravitacional (<emphasis effect="italics">Mgh</emphasis>) que pierde todo el camión en su descenso, la equiparamos con el aumento de la energía interna de los frenos y, a continuación, hallamos el aumento de temperatura producido solamente en el material de los frenos.</para>
+<para id="fs-id1170903895270"><title>Solución</title>
+Primero calculamos el cambio en la energía potencial gravitacional cuando el camión va cuesta abajo:</para>
+<equation id="fs-id1170902146654" class="unnumbered"><label/><m:math><m:mrow><m:mi>M</m:mi><m:mi>g</m:mi><m:mi>h</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10.000</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9,80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>75,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7,35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902296890">Como la energía cinética del camión no cambia, la conservación de la energía nos dice que la energía potencial perdida se disipa, y suponemos que el 10 % de ella se transfiere a la energía interna de los frenos, por lo que tomamos <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>M</m:mi><m:mi>g</m:mi><m:mi>h</m:mi><m:mtext>/</m:mtext><m:mn>10</m:mn></m:mrow></m:math>. A continuación, calculamos el cambio de temperatura a partir del calor transferido, mediante</para>
+<equation id="fs-id1170902232632" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mi>m</m:mi><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170904040585">donde <emphasis effect="italics">m</emphasis> es la masa del material de freno. Inserte los valores dados para calcular</para>
+<equation id="fs-id1170904086224" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>7,35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>800</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>92</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903821973"><title>Importancia</title>
+Si el camión ha estado viajando durante algún tiempo, justo antes del descenso, la temperatura de los frenos sería probablemente más alta que la temperatura ambiente. El aumento de temperatura en el descenso probablemente elevaría mucho la temperatura del material de los frenos, por lo que esta técnica no es práctica. En cambio, el camión utilizaría la técnica del freno motor. Una idea diferente subyace en la reciente tecnología de los automóviles híbridos y eléctricos, en los que la energía mecánica (energía potencial cinética y gravitacional) es convertida por los frenos en energía eléctrica en la batería, un proceso llamado frenado regenerativo.</para>
+</example>
+<para id="fs-id1170904268745">En un tipo de problema común, se colocan objetos a diferentes temperaturas en contacto entre sí, pero aislados de todo lo demás, y se les permite entrar en equilibrio. Un recipiente que impide la transferencia de calor hacia dentro o hacia fuera se denomina <term>calorímetro</term>, y el uso de un calorímetro para realizar mediciones (normalmente de calor o capacidad calorífica específica) se denomina <term>calorimetría</term>.</para>
+<para id="fs-id1170902137769">Utilizaremos el término “problema de calorimetría” para referirnos a cualquier problema en el que los objetos en cuestión estén aislados térmicamente de su entorno. Una idea importante en la resolución de problemas de calorimetría es que durante una transferencia de calor entre objetos aislados de su entorno, el calor ganado por el objeto más frío debe ser igual al calor perdido por el objeto más caliente, debido a la conservación de energía:</para>
+<note id="fs-id1170902130217" class="equation-callout">
+<equation id="fs-id1170902099138"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>frío</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>caliente</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170903831782">Expresamos esta idea escribiendo que la suma de los calores es igual a cero, ya que el calor ganado suele considerarse positivo; el calor perdido, negativo.</para>
+<example id="fs-id1170904267465">
+<para id="fs-id1170902131951"><title>Calcular la temperatura final en calorimetría</title>
+Suponga que se vierten 0,250 kg de <m:math><m:mrow><m:mn>20,0</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> agua (aproximadamente una taza) en una olla de aluminio de 0,500 kg fuera de la estufa con una temperatura de <m:math><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Suponga que no se produce ninguna transferencia de calor a nada más: la olla se coloca sobre una almohadilla aislante y la transferencia de calor al aire se desestima en el corto tiempo necesario para alcanzar el equilibrio. Por lo tanto, se trata de un problema de calorimetría, aunque no se especifique ningún recipiente aislante. Suponga también que una cantidad insignificante de agua hierve. ¿Cuál es la temperatura cuando el agua y la olla alcanzan el equilibrio térmico?</para>
+<para id="fs-id1170904183432"><title>Estrategia</title>
+En principio, la olla y el agua no están en equilibrio térmico: La olla está a una temperatura más alta que el agua. La transferencia de calor restablece el equilibrio térmico una vez que el agua y la olla están en contacto; se detiene una vez que se alcanza el equilibrio térmico entre la olla y el agua. El calor perdido por la olla es igual al calor ganado por el agua, ese es el principio básico de la calorimetría.</para>
+<para id="fs-id1170904135223"><title>Solución</title></para>
+<list id="fs-id1170902142081" list-type="enumerated" number-style="arabic"><item>Use la ecuación de la transferencia de calor <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> para expresar el calor perdido por la olla de aluminio en términos de la masa de la olla, el calor específico del aluminio, la temperatura inicial de la olla y la temperatura final:
+<equation id="fs-id1170902305444" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>caliente</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Expresa el calor ganado por el agua en términos de su masa, calor específico, temperatura inicial y temperatura final:
+<equation id="fs-id1170902349123" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>frío</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mtext>w</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>w</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Tome en cuenta que <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>caliente</m:mtext></m:mrow></m:msub><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>frío</m:mtext></m:mrow></m:msub><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> y que, como ya se ha dicho, deben sumar cero:
+<equation id="fs-id1170904110947" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>frío</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>caliente</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>frío</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>caliente</m:mtext></m:mrow></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>m</m:mi><m:mtext>w</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>w</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Ubique todos los términos que impliquen <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> en el lado izquierdo y todos los demás términos en el lado derecho. Resuelva para <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math><newline/>
+<equation id="fs-id1170902195064" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mtext>w</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>w</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mtext>w</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>w</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+e inserte los valores numéricos:
+<equation id="fs-id1170902057968" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>900</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,250</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4186</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>900</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,250</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4186</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>59,1</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list><para id="fs-id1170902110393"><title>Importancia</title>
+¿Por qué la temperatura final está mucho más cerca de <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> que de <m:math><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? Porque el agua tiene un calor específico mayor que el de la mayoría de las sustancias comunes y, por tanto, experimenta un cambio de temperatura menor para una determinada transferencia de calor. Una gran masa de agua, como un lago, requiere una gran cantidad de calor para aumentar su temperatura de forma apreciable. Esto explica por qué la temperatura de un lago se mantiene relativamente constante durante el día incluso cuando el cambio de temperatura del aire es grande. Sin embargo, la temperatura del agua sí que cambia en periodos más largos (p. ej., de verano a invierno).</para>
+</example>
+<note id="fs-id1170902356276" class="check-understanding">
+<exercise id="fs-id1170902353065">
+<problem id="fs-id1170902353067">
+<para id="fs-id1170903721416">Si son necesarios 25 kJ para elevar la temperatura de una roca de <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> ¿cuánto calor es necesario para calentar la roca de <m:math><m:mrow><m:mn>45</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170902139188">
+<para id="fs-id1170902139190">En una buena aproximación, la transferencia de calor depende solo de la diferencia de temperatura. Como las diferencias de temperatura son las mismas en ambos casos, se necesitan los mismos 25 kJ en el segundo caso (como veremos en la siguiente sección, la respuesta habría sido diferente si el objeto hubiera estado hecho de alguna sustancia que cambia de fase en cualquier lugar entre <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>).</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1170902305036">
+<para id="fs-id1170902305038"><title>Capacidad calorífica dependiente de temperatura</title>
+A bajas temperaturas, los calores específicos de los sólidos suelen ser proporcionales a <m:math><m:mrow><m:msup><m:mi>T</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math>. La primera comprensión de este comportamiento se debe al físico holandés Peter <term class="no-emphasis">Debye</term>, que en 1912 trató oscilaciones atómicas con la teoría cuántica que Max Planck había utilizado recientemente para radiación. Por ejemplo, una buena aproximación para el calor específico de la sal, NaCl, es <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3,33</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mfrac><m:mtext>J</m:mtext><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>T</m:mi><m:mrow><m:mn>321</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> La constante 321 K se denomina <term class="no-emphasis"><emphasis effect="italics">temperatura de Debye</emphasis></term> de NaCl, <m:math><m:mrow><m:msub><m:mtext>Θ</m:mtext><m:mtext>D</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> y la fórmula funciona bien cuando <m:math><m:mrow><m:mi>T</m:mi><m:mo>&lt;</m:mo><m:mn>0,04</m:mn><m:msub><m:mtext>Θ</m:mtext><m:mtext>D</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Con esta fórmula, ¿cuánto calor se necesita para elevar la temperatura de 24,0 g de NaCl de 5 K a 15 K?</para>
+<para id="fs-id1170903814447"><title>Solución</title>
+Como la capacidad calorífica depende de la temperatura, tenemos que utilizar la ecuación</para>
+<equation id="fs-id1170902188142" class="unnumbered"><label/><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>m</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902064984">Despejamos esta ecuación para <emphasis effect="italics">Q</emphasis> al integrar ambos lados <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mi>c</m:mi><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow></m:math></para>
+<para id="fs-id1170902214816">A continuación, sustituimos los valores dados y evaluamos la integral:</para>
+<equation id="fs-id1170904189124" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,024</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mn>3,33</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>–6</m:mn></m:msup></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mtext>J</m:mtext><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>T</m:mi><m:mrow><m:mn>321</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:msubsup><m:mrow><m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6,04</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mfrac><m:mtext>J</m:mtext><m:mrow><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>T</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:msubsup><m:mo>=</m:mo><m:mn>0,302</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902339871"><title>Importancia</title>
+Si hubiéramos usado la ecuación <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> y el calor específico de la sal a temperatura ambiente, <m:math><m:mrow><m:mn>880</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>K,</m:mtext></m:mrow></m:math> habríamos obtenido un valor muy diferente.</para>
+</example>
+</section>
+<section id="fs-id1170904127384" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170902286988" list-type="bulleted" bullet-style="bullet">
+<item>El calor y el trabajo son los dos métodos distintos de transferencia de energía.</item>
+<item>La transferencia de calor a un objeto cuando su temperatura cambia suele aproximarse bien mediante <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <emphasis effect="italics">m</emphasis> es la masa del objeto y <emphasis effect="italics">c</emphasis> es el calor específico de la sustancia.</item>
+</list>
+</section>
+<section id="fs-id1170902343171" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1170904167951">
+<problem id="fs-id1170904167954">
+<para id="fs-id1170904167956">¿Cómo se relaciona transferencia de calor con temperatura?</para>
+</problem>
+<solution id="fs-id1170902161337">
+<para id="fs-id1170902161339">Las diferencias de temperatura provocan la transferencia de calor.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903868911">
+<problem id="fs-id1170903868913">
+<para id="fs-id1170902223470">Describa una situación en la que se produce transferencia de calor.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902182083">
+<problem id="fs-id1170902182085">
+<para id="fs-id1170902182087">Cuando el calor se transfiere a un sistema, ¿la energía se almacena en forma de calor? Explique brevemente.</para>
+</problem>
+<solution id="fs-id1170904099403">
+<para id="fs-id1170904099405">No, se almacena como energía térmica. Un sistema termodinámico no tiene una cantidad de calor bien definida.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902057994">
+<problem id="fs-id1170902193110">
+<para id="fs-id1170902193112">Los frenos de un automóvil aumentan su temperatura en <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> al llevar el automóvil a reposo desde una velocidad <emphasis effect="italics">v</emphasis>. ¿Cuánto mayor sería <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> si el automóvil tuviera inicialmente el doble de velocidad? Puede suponer que el automóvil se detiene lo suficientemente rápido como para que no se transfiera el calor de los frenos.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170903803006" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170902336091">
+<problem id="fs-id1170902336093">
+<para id="fs-id1170902336095">En un día caluroso, la temperatura de una piscina de 80.000 L aumenta en <m:math><m:mrow><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. ¿Cuál es la transferencia neta de calor durante este calentamiento? Ignore cualquier complicación, como pérdida de agua por evaporación.</para>
+</problem>
+<solution id="fs-id1170902089718">
+<para id="fs-id1170902089720"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>5,20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902261073">
+<problem id="fs-id1170902261075">
+<para id="fs-id1170904088380">Para esterilizar un biberón de vidrio de 50,0 g debemos elevar su temperatura de <m:math><m:mrow><m:mn>22,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>95,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. ¿Cuánta transferencia de calor se necesita?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902056934">
+<problem id="fs-id1170904111556">
+<para id="fs-id1170904111558">La misma transferencia de calor a masas idénticas de diferentes sustancias produce diferentes cambios de temperatura. Calcule la temperatura final cuando 1,00 kcal de calor se transfiere a 1,00 kg de lo siguiente, originalmente a <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>: (a) agua; (b) hormigón; (c) acero; y (d) mercurio.</para>
+</problem>
+<solution id="fs-id1170903831194">
+<para id="fs-id1170904117224"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mspace width="0.5em"/><m:mo stretchy="false">⇒</m:mo><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mi>m</m:mi><m:mi>c</m:mi></m:mrow></m:mfrac></m:mrow></m:math>; a. <m:math><m:mrow><m:mn>21,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>25,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mn>29,3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; d. <m:math><m:mrow><m:mn>50,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902449733">
+<problem id="fs-id1170902449735">
+<para id="fs-id1170903855652">Frotarse las manos las calienta al convertir el trabajo en energía térmica. Si una mujer se frota las manos de un lado a otro durante un total de 20 roces, a una distancia de 7,50 cm por fricción y con una fuerza de fricción promedio de 40,0 N, ¿cuál es el aumento de temperatura? La masa de tejidos calentados es de solo 0,100 kg, principalmente en las palmas y los dedos.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902150886">
+<problem id="fs-id1170902150888">
+<para id="fs-id1170902150890">Un bloque de <m:math><m:mrow><m:mn>0,250</m:mn><m:mtext>kg</m:mtext></m:mrow></m:math> de un material puro se calienta de <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>65,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> por la adición de 4,35 kJ de energía. Calcule su calor específico e identifique la sustancia de la que probablemente esté compuesto.</para>
+</problem>
+<solution id="fs-id1170903727251">
+<para id="fs-id1170902214543"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mspace width="0.5em"/><m:mo stretchy="false">⇒</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mi>m</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1,04</m:mn><m:mspace width="0.2em"/><m:mtext>kcal</m:mtext></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,250</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>45,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,0924</m:mn><m:mspace width="0.2em"/><m:mtext>kcal/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Es de cobre.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904260278">
+<problem id="fs-id1170904260280">
+<para id="fs-id1170900368783">Suponga que cantidades idénticas de calor se transfieren a diferentes masas de cobre y agua, lo que provoca idénticos cambios de temperatura. ¿Cuál es la relación entre la masa de cobre y la de agua?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902190103">
+<problem id="fs-id1170902190105">
+<para id="fs-id1170902190107">(a) El número de kilocalorías de los alimentos se determina mediante técnicas de calorimetría en las que se queman los alimentos y se mide la cantidad de transferencia de calor. ¿Cuántas kilocalorías por gramo hay en un cacahuete de 5,00 g si la energía de su combustión se transfiere a 0,500 kg de agua mantenida en un vaso de aluminio de 0,100 kg que provoca <m:math><m:mrow><m:mn>54,9</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> de aumento de temperatura? Suponga que el proceso ocurre en un calorímetro ideal, es decir, en un recipiente perfectamente aislado. (b) Compare su respuesta con la siguiente información de la etiqueta que se encuentra en un paquete de cacahuetes secos tostados: una ración de 33 g contiene 200 calorías. Comente si los valores son coherentes.</para>
+</problem>
+<solution id="fs-id1170902300208">
+<para id="fs-id1170902300210">a. <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mtext>w</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>w</m:mtext></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>w</m:mtext></m:msub><m:msub><m:mi>c</m:mi><m:mtext>w</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>;<newline/> <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>kcal/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,100</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,215</m:mn><m:mspace width="0.2em"/><m:mtext>kcal/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable><m:mo>]</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>54,9</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>28,63</m:mn><m:mspace width="0.2em"/><m:mtext>kcal</m:mtext></m:mrow></m:math>;<newline/> <m:math><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>m</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>28,63</m:mn><m:mspace width="0.2em"/><m:mtext>kcal</m:mtext></m:mrow><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>5,73</m:mn><m:mspace width="0.2em"/><m:mtext>kcal/g</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>m</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>kcal</m:mtext></m:mrow><m:mrow><m:mn>33</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>kcal/g</m:mtext><m:mo>,</m:mo></m:mrow></m:math> lo cual es coherente con nuestros resultados a la parte (a), a una cifra significativa.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904061142">
+<problem id="fs-id1170904061145">
+<para id="fs-id1170904061147">Tras un ejercicio vigoroso, la temperatura corporal de una persona de 80,0 kg es <m:math><m:mrow><m:mn>40,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. ¿A qué velocidad en vatios la persona debe transferir energía térmica para reducir la temperatura del cuerpo a <m:math><m:mrow><m:mn>37,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> en 30,0 min, suponiendo que el cuerpo sigue produciendo energía a un ritmo de 150 W? <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>vatios</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>julio/segundo</m:mtext><m:mspace width="0.2em"/><m:mtext>o</m:mtext><m:mspace width="0.2em"/><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902294840">
+<problem id="fs-id1170902294842">
+<para id="fs-id1170902294844">En un estudio de hombres jóvenes sanos<footnote id="fs-id1170903788335">J. W. Vezina: “An examination of the differences between two methods of estimating energy expenditure in resistance training activities”, <emphasis effect="italics">Journal of Strength and Conditioning Research</emphasis>, 28 de abril de 2014, http://www.ncbi.nlm.nih.gov/pubmed/24402448</footnote>, al hacer 20 flexiones en 1 minuto se quemó una cantidad de energía por kg que para un hombre de 70,0 kg corresponde a 8,06 calorías (kcal). ¿Cuánto aumentaría la temperatura de un hombre de 70,0 kg si no perdiera calor durante ese tiempo?</para>
+</problem>
+<solution id="fs-id1170902129059">
+<para id="fs-id1170902235388"><m:math><m:mrow><m:mn>0,139</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902110004">
+<problem id="fs-id1170902110006">
+<para id="fs-id1170902110008">Una muestra de 1,28 kg de agua a <m:math><m:mrow><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> está en un calorímetro. Se deja caer una pieza de acero con una masa de 0,385 kg a <m:math><m:mrow><m:mn>215</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> en él. Después de que el chisporroteo disminuya, ¿cuál es la temperatura de equilibrio final? (Haga las suposiciones razonables de que cualquier vapor de agua producido se condensa en agua líquida durante el proceso de equilibrio y que la evaporación y la condensación no afectan el resultado, como veremos en la siguiente sección).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902343134">
+<problem id="fs-id1170902343137">
+<para id="fs-id1170903875714">Repita el problema anterior suponiendo que el agua está en un vaso de precipitado con una masa de 0,200 kg que a su vez está en un calorímetro. El vaso de precipitado está inicialmente a la misma temperatura que el agua. Antes de hacer el problema, ¿la respuesta debe ser mayor o menor que la anterior? Al comparar la masa y el calor específico del vaso de precipitado con los del agua, ¿cree que el vaso hará mucha diferencia?</para>
+</problem>
+<solution id="fs-id1170903875716">
+<para id="fs-id1170903875719">Debería ser más bajo. El vaso de precipitado no hará mucha diferencia: <m:math><m:mrow><m:mn>16,3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170903896686">
+<term>caloría (cal)</term>
+<meaning id="fs-id1170903890416">energía necesaria para cambiar la temperatura de 1,00 g de agua en <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170904170036">
+<term>calorímetro</term>
+<meaning id="fs-id1170904267655">recipiente que impide transferencia de calor hacia dentro o hacia fuera</meaning>
+</definition>
+<definition id="fs-id1170902090653">
+<term>calorimetría</term>
+<meaning id="fs-id1170902090658">estudio de la transferencia de calor dentro de un recipiente impermeable al calor</meaning>
+</definition>
+<definition id="fs-id1170902276557">
+<term>calor</term>
+<meaning id="fs-id1170902361144">energía transferida únicamente por una diferencia de temperatura</meaning>
+</definition>
+<definition id="fs-id1170902358899">
+<term>kilocaloría (kcal)</term>
+<meaning id="fs-id1170902358904">energía necesaria para cambiar la temperatura de 1,00 kg de agua entre <m:math><m:mrow><m:mn>14,5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>15,5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170902265715">
+<term>equivalente mecánico del calor</term>
+<meaning id="fs-id1170902191160">trabajo necesario para producir los mismos efectos que la transferencia de calor</meaning>
+</definition>
+<definition id="fs-id1170902191164">
+<term>calor específico</term>
+<meaning id="fs-id1170904225624">cantidad de calor necesaria para cambiar la temperatura de 1,00 kg de una sustancia en <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; también llamada “capacidad de calor específico”</meaning>
+</definition>
+</glossary>
+</document>

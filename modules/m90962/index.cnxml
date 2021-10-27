@@ -1,0 +1,400 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Espejos esféricos</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90962</md:content-id>
+  <md:title>Espejos esféricos</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir la formación de imágenes mediante espejos esféricos.</item>
+<item>Utilizar los diagramas de rayos y la ecuación del espejo para calcular las propiedades de una imagen en un espejo esférico.</item>
+</list></md:abstract>
+  <md:uuid>44c8b358-79dc-4b26-999d-4cbd30b8fdaa</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134642963">La imagen en un espejo plano tiene el mismo tamaño que el objeto, está en posición vertical y se encuentra a la misma distancia detrás del espejo que el objeto frente a él. Un <term>espejo curvo</term>, por el contrario, puede formar imágenes que pueden ser más grandes o más pequeñas que el objeto y pueden formarse delante o detrás del espejo. En general, cualquier superficie curva formará una imagen, aunque algunas imágenes pueden estar tan distorsionadas que no se pueden reconocer (piense en los espejos de las casas de diversión).</para>
+<para id="fs-id1167134717884">Dado que los espejos curvos pueden crear una gran variedad de imágenes, se utilizan en muchos dispositivos ópticos que tienen muchos usos. Nos centraremos principalmente en los espejos esféricos, ya que son más fáciles de fabricar que los espejos parabólicos y, por tanto, son más comunes.</para>
+<section id="fs-id1167131169483">
+<title>Espejos curvos</title>
+<para id="fs-id1167131215665">Podemos definir dos tipos generales de espejos esféricos. Si la superficie reflectante es la cara exterior de la esfera, el espejo se llama <term>espejo convexo</term>. Si la superficie interior es la superficie reflectante, se denomina <term>espejo cóncavo</term>.</para>
+<para id="fs-id1167134566738">La simetría es una de las principales características de muchos dispositivos ópticos, como los espejos y las lentes. El eje de simetría de estos elementos ópticos suele denominarse eje principal o <term>eje óptico</term>. Para un espejo esférico, el eje óptico pasa por el centro de curvatura del espejo y el <term>vértice</term> del mismo, como se muestra en la <link target-id="CNX_UPhysics_35_02_ConvexCave"/>.</para>
+<figure id="CNX_UPhysics_35_02_ConvexCave">
+<media id="fs-id1167134503852" alt="La figura a muestra un círculo, dividido por dos líneas paralelas, que forman dos arcos, uno naranja y el otro azul. Una línea marcada como eje óptico pasa por el centro del círculo, intersectándolo en los puntos medios de ambos arcos. Cada punto medio está marcado como vértice. En la figura b se muestra el arco naranja, marcado como espejo cóncavo, con la superficie reflectante mostrada en el interior. En la figura c se muestra el arco azul, marcado como espejo convexo, con la superficie reflectante mostrada en el exterior.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_ConvexCave.jpg"/>
+</media>
+<caption>Un espejo esférico se forma cortando un trozo de esfera y plateando la superficie interior o exterior. Un espejo cóncavo tiene un plateado en la superficie interior (piense en una "cueva"), y un espejo convexo tiene un plateado en la superficie exterior.</caption>
+</figure>
+<para id="fs-id1167134891565">Considere los rayos paralelos al eje óptico de un espejo parabólico, como se muestra en la parte (a) de la <link target-id="CNX_UPhysics_35_02_ConcFocus"/>. Siguiendo la ley de reflexión, estos rayos se reflejan de manera que convergen en un punto, llamado <term>punto focal</term>. La parte (b) de esta figura muestra un espejo esférico que es grande en comparación con su radio de curvatura. En este espejo, los rayos reflejados no se cruzan en el mismo punto, por lo que el espejo no tiene un punto focal bien definido. Esto se llama aberración esférica y da lugar a una imagen borrosa de un objeto extendido. La parte (c) muestra un espejo esférico que es pequeño en comparación con su radio de curvatura. Este espejo es una buena aproximación a un espejo parabólico, por lo que los rayos que llegan paralelos al eje óptico se reflejan en un punto focal bien definido. La distancia a lo largo del eje óptico desde el espejo hasta el punto focal se denomina <term>distancia focal</term> del espejo.</para>
+<figure id="CNX_UPhysics_35_02_ConcFocus">
+<media id="fs-id1167134641006" alt="La figura a muestra la sección transversal de un espejo parabólico. Los rayos paralelos se reflejan en él y convergen en un punto denominado F dentro de la parábola. La figura b muestra los rayos paralelos reflejados en un arco. Se reflejan hacia varios puntos diferentes cercanos entre sí. La figura c muestra un arco cuyo radio de curvatura es mucho mayor que el del arco de la figura b. Los rayos paralelos se reflejan en él y convergen en un punto denominado F. La distancia del punto F al espejo se denomina f.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_ConcFocus.jpg"/>
+</media>
+<caption>(a) Los rayos paralelos reflejados en un espejo parabólico se cruzan en un único punto llamado punto focal <emphasis effect="italics">F</emphasis>. (b) Los rayos paralelos reflejados en un espejo esférico grande no se cruzan en un punto común. (c) Si un espejo esférico es pequeño comparado con su radio de curvatura, se aproxima mejor a la parte central de un espejo parabólico, por lo que los rayos paralelos se cruzan esencialmente en un punto común. La distancia a lo largo del eje óptico desde el espejo hasta el punto focal es la distancia focal <emphasis effect="italics">f</emphasis> del espejo.</caption>
+</figure>
+<para id="fs-id1167134648994">Un espejo esférico convexo también tiene un punto focal, como se muestra en la <link target-id="CNX_UPhysics_35_02_FocConvmir"/>. Los rayos incidentes paralelos al eje óptico se reflejan en el espejo y parecen originarse en el punto <emphasis effect="italics">F</emphasis> a la distancia focal <emphasis effect="italics">f</emphasis> detrás del espejo. Por lo tanto, el punto focal es virtual porque ningún rayo real lo atraviesa realmente; solo parece que se origina en él.</para>
+<figure id="CNX_UPhysics_35_02_FocConvmir">
+<media id="fs-id1167134858739" alt="La figura a muestra la sección transversal de un espejo convexo. Los rayos paralelos se reflejan en él y divergen en diferentes direcciones. Los rayos reflejados se prolongan en la parte posterior mediante líneas de puntos y parecen originarse en un único punto detrás del espejo. Este punto se denomina F. La distancia de este punto al espejo se denomina f. La figura b muestra la fotografía de un espejo convexo que refleja la imagen de un edificio. La imagen está curvada y distorsionada. ">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_FocConvmir.jpg"/>
+</media>
+<caption>(a) Rayos reflejados por un espejo esférico convexo: Los rayos de luz incidentes paralelos al eje óptico se reflejan en un espejo esférico convexo y parecen proceder de un punto focal bien definido a la distancia focal <emphasis effect="italics">f</emphasis> en el lado opuesto del espejo. El punto focal es virtual porque ningún rayo real lo atraviesa. (b) Fotografía de una imagen virtual formada por un espejo convexo. (crédito b: modificación del trabajo de Jenny Downing)</caption>
+</figure>
+<para id="fs-id1167134512410">¿Cómo se relaciona la distancia focal de un espejo con el radio de curvatura del mismo? La <link target-id="CNX_UPhysics_35_02_FandR"/> muestra un único rayo que se refleja en un espejo esférico cóncavo. El rayo incidente es paralelo al eje óptico. El punto en el que el rayo reflejado cruza el eje óptico es el punto focal. Obsérvese que todos los rayos incidentes que son paralelos al eje óptico se reflejan a través del punto focal; solo mostramos un rayo para simplificar. Queremos encontrar la relación entre la distancia focal <emphasis effect="italics">FP</emphasis> (señalada con una <emphasis effect="italics">f</emphasis>) y el radio de curvatura del espejo, <emphasis effect="italics">R</emphasis>, cuya longitud es <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>F</m:mi><m:mo>+</m:mo><m:mi>F</m:mi><m:mi>P</m:mi></m:mrow></m:math>. La ley de reflexión nos dice que los ángulos <emphasis effect="italics">OXC</emphasis> y <emphasis effect="italics">CXF</emphasis> son iguales, y como el rayo incidente es paralelo al eje óptico, los ángulos <emphasis effect="italics">OXC</emphasis> y <emphasis effect="italics">XCP</emphasis> también son iguales. Así, el triángulo <emphasis effect="italics">CXF</emphasis> es un triángulo isósceles con <m:math><m:mrow><m:mi>C</m:mi><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>X</m:mi></m:mrow></m:math>. Si el ángulo <m:math><m:mi>θ</m:mi></m:math> es pequeño (por lo que <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math>; esto se denomina «aproximación para ángulos pequeños"), entonces <m:math><m:mrow><m:mi>F</m:mi><m:mi>X</m:mi><m:mo>≈</m:mo><m:mi>F</m:mi><m:mi>P</m:mi></m:mrow></m:math> o <m:math><m:mrow><m:mi>C</m:mi><m:mi>F</m:mi><m:mo>≈</m:mo><m:mi>F</m:mi><m:mi>P</m:mi></m:mrow></m:math>. Al insertar esto en la ecuación del radio <emphasis effect="italics">R</emphasis>, obtenemos</para>
+<equation id="fs-id1167131181005" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>F</m:mi><m:mo>+</m:mo><m:mi>F</m:mi><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>P</m:mi><m:mo>+</m:mo><m:mi>F</m:mi><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>F</m:mi><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>f</m:mi></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_35_02_FandR">
+<media id="fs-id1167134920938" alt="La figura muestra el diagrama de un espejo cóncavo. Un rayo incidente que parte del punto O incide en el espejo en el punto X. El rayo reflejado pasa por el punto F. Una recta CX biseca el ángulo formado por los rayos incidente y reflejado. Esta línea se denomina R. Una línea paralela al rayo incidente pasa por los puntos C y F y choca con el espejo en el punto P. La distancia entre los puntos F y P se denomina f. El ángulo OXC, el ángulo CXF y el ángulo XCF están marcados como theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_FandR.jpg"/>
+</media>
+<caption>Reflexión en un espejo cóncavo. En la aproximación para ángulos pequeños, un rayo paralelo al eje óptico <emphasis effect="italics">CP</emphasis> se refleja a través del punto focal <emphasis effect="italics">F</emphasis> del espejo.</caption>
+</figure>
+<para id="fs-id1167134886257">En otras palabras, en la aproximación para ángulos pequeños, la distancia focal <emphasis effect="italics">f</emphasis> de un espejo esférico cóncavo es la mitad de su radio de curvatura, <emphasis effect="italics">R</emphasis>:</para>
+<note id="fs-id1167131181004" class="equation-callout">
+<equation id="fs-id1167134653456"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>R</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134513215">En este capítulo, asumimos que la <term>aproximación para ángulos pequeños</term> (también llamada aproximación paraxial) es siempre válida. En esta aproximación, todos los rayos son paraxiales, lo que significa que forman un pequeño ángulo con el eje óptico y están a una distancia mucho menor que el radio de curvatura del eje óptico. En este caso, sus ángulos <m:math><m:mi>θ</m:mi></m:math> de reflexión son ángulos pequeños, por lo que <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math>.</para>
+</section>
+<section id="fs-id1167131232010">
+<title>Uso del trazado de rayos para localizar imágenes</title>
+<para id="fs-id1167134947600">Para encontrar la ubicación de una imagen formada por un espejo esférico, primero utilizamos el <term class="no-emphasis">trazado de rayos</term>, que es la técnica de dibujar rayos y utilizar la ley de reflexión para determinar los rayos reflejados (posteriormente, para las lentes, utilizamos la ley de refracción para determinar los rayos refractados). Combinado con algo de geometría básica, podemos utilizar el trazado de rayos para encontrar el punto focal, la ubicación de la imagen y otra información sobre cómo un espejo manipula la luz. Anteriormente utilizamos el trazado de rayos para localizar el punto focal de los espejos esféricos o la distancia de imagen de los espejos planos. Para localizar la imagen de un objeto, hay que localizar al menos dos puntos de la imagen. La localización de cada punto requiere dibujar al menos dos rayos desde un punto del objeto y construir sus rayos reflejados. El punto en el que se cruzan los rayos reflejados, ya sea en el espacio real o en el virtual, es donde se encuentra el punto correspondiente de la imagen. Para facilitar el trazado de rayos, nos concentramos en cuatro rayos "principales" cuyas reflexiones son fáciles de construir.</para>
+<para id="fs-id1167134682218">La <link target-id="CNX_UPhysics_35_02_rayTracing"/> muestra un espejo cóncavo y otro convexo, cada uno con un objeto en forma de flecha adelante. Estos son los objetos cuyas imágenes queremos localizar mediante el trazado de rayos. Para ello, trazamos rayos desde el punto <emphasis effect="italics">Q</emphasis> que está en el objeto pero no en el eje óptico. Elegimos dibujar nuestro rayo desde la punta del objeto. El rayo principal 1 parte del punto <emphasis effect="italics">Q</emphasis> y viaja paralelo al eje óptico. La reflexión de este rayo debe pasar por el punto focal, como se ha comentado anteriormente. Así, para el espejo cóncavo, la reflexión del rayo principal 1 pasa por el punto focal <emphasis effect="italics">F</emphasis>, como se muestra en la parte (b) de la figura. Para el espejo convexo, la prolongación hacia atrás de la reflexión del rayo principal 1 pasa por el punto focal (es decir, un foco virtual). El rayo principal 2 recorre primero la línea que pasa por el punto focal y luego se refleja a lo largo de una línea paralela al eje óptico. El rayo principal 3 se desplaza hacia el centro de curvatura del espejo, por lo que incide en el espejo con incidencia normal y se refleja a lo largo de la línea de la que procede. Por último, el rayo principal 4 incide en el vértice del espejo y se refleja simétricamente alrededor del eje óptico.</para>
+<figure id="CNX_UPhysics_35_02_rayTracing">
+<media id="fs-id1167131149057" alt="La figura a muestra la sección transversal de un espejo cóncavo. Una flecha hacia arriba, marcada como objeto, con base P y punta Q, está delante del espejo. Una línea une los puntos P, C, F y V, que está en el espejo. Una flecha hacia abajo con base P prima y punta Q prima se marca como imagen. Es más pequeña que el objeto. La P prima se encuentra en el eje óptico entre los puntos C y F. Cuatro rayos incidentes, marcados del 1 al 4 se originan en el punto Q. Los cuatro rayos reflejados se cruzan en el punto Q prima. La figura b muestra la sección transversal de un espejo convexo. Una flecha hacia arriba, marcada como objeto con base P y punta Q, está delante del espejo. Una línea desde el punto P pasa por el punto V del espejo y el punto F detrás del espejo antes de conectarse con el punto C. Detrás del espejo se muestra una flecha más pequeña, hacia arriba, marcada como imagen, con base P prima y punta Q prima. P prima se encuentra en el eje óptico entre los puntos V y F. Cuatro rayos incidentes se originan en el punto Q. Los rayos reflejados se extienden en la parte posterior con líneas punteadas y todos parecen originarse en el punto Q prima.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_rayTracing.jpg"/>
+</media>
+<caption>Se muestran los cuatro rayos principales para (a) un espejo cóncavo y para (b) en un espejo convexo. La imagen se forma donde se cruzan los rayos (para imágenes reales) o donde se cruzan sus prolongaciones hacia atrás (para imágenes virtuales).</caption>
+</figure>
+<para id="fs-id1167134512465">Los cuatro <term class="no-emphasis">rayos principales</term> se cruzan en el punto <m:math><m:mrow><m:msup><m:mi>Q</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>, que es donde se encuentra la imagen del punto <emphasis effect="italics">Q</emphasis>. Para localizar el punto <m:math><m:mrow><m:msup><m:mi>Q</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>, basta con dibujar dos de estos rayos principales. Por lo tanto, somos libres de elegir cualquiera de los rayos principales que deseemos para ubicar la imagen. Dibujar más de dos rayos principales a veces es útil para verificar que el trazado de rayos es correcto.</para>
+<para id="fs-id1167134716594">Para localizar completamente la imagen extendida, necesitamos localizar un segundo punto en la imagen, para saber cómo está orientada la imagen. Para hacerlo, trazamos los rayos principales desde la base del objeto. En este caso, los cuatro rayos principales recorren el eje óptico, se reflejan en el espejo y vuelven a recorrer el eje óptico. La dificultad radica en que, como estos rayos son colineales, no podemos determinar un punto único en el que se cruzan. Solo sabemos que la base de la imagen está en el eje óptico. Sin embargo, como el espejo es simétrico de arriba a abajo, no cambia la orientación vertical del objeto. Así, como el objeto es vertical, la imagen debe ser vertical. Por lo tanto, la imagen de la base del objeto está en el eje óptico directamente por encima de la imagen de la punta, como se dibuja en la figura.</para>
+<para id="fs-id1167134563908">Para el espejo cóncavo, la imagen extendida se forma en este caso entre el punto focal y el centro de curvatura del espejo. Está invertida con respecto al objeto, es una imagen real y es más pequeña que el objeto. Si acercáramos o alejáramos el objeto al espejo, las características de la imagen cambiarían. Por ejemplo, mostramos, como ejercicio posterior, que un objeto colocado entre un espejo cóncavo y su punto focal conduce a una imagen virtual que está en posición vertical y es más grande que el objeto. En el caso del espejo convexo, la imagen extendida se forma entre el punto focal y el espejo. Está en posición vertical con respecto al objeto, es una imagen virtual y es más pequeña que el objeto.</para>
+</section>
+<section id="fs-id1167134688716">
+<title>Resumen de las reglas de trazado de rayos</title>
+<para id="fs-id1167134712088">El trazado de rayos es muy útil para los espejos. Las reglas para el trazado de rayos se resumen aquí como referencia:</para>
+<list id="fs-id1167131152918">
+<item>Un rayo que viaja paralelo al eje óptico de un espejo esférico se refleja a lo largo de una línea que pasa por el punto focal del espejo (rayo 1 en la <link target-id="CNX_UPhysics_35_02_rayTracing"/>).</item>
+<item>Un rayo que viaja a lo largo de una línea que pasa por el punto focal de un espejo esférico se refleja a lo largo de una línea paralela al eje óptico del espejo (rayo 2 en la <link target-id="CNX_UPhysics_35_02_rayTracing"/>).</item>
+<item>Un rayo que viaja a lo largo de una línea que pasa por el centro de curvatura de un espejo esférico se refleja a lo largo de la misma línea (rayo 3 en la <link target-id="CNX_UPhysics_35_02_rayTracing"/>).</item>
+<item>Un rayo que incide en el vértice de un espejo esférico se refleja simétricamente alrededor del eje óptico del espejo (rayo 4 en la <link target-id="CNX_UPhysics_35_02_rayTracing"/>).</item>
+</list>
+<para id="fs-id1167131171935">Utilizamos el trazado de rayos para ilustrar cómo se forman las imágenes en los espejos y para obtener información numérica sobre las propiedades ópticas del espejo. Si suponemos que un espejo es pequeño en comparación con su radio de curvatura, también podemos utilizar el álgebra y la geometría para derivar una ecuación del espejo, lo que haremos en la siguiente sección. La combinación del trazado de rayos con la ecuación del espejo es una buena manera de analizar los sistemas de espejos.</para>
+</section>
+<section id="fs-id1167134895609">
+<title>Formación de imágenes por reflexión: la ecuación del espejo</title>
+<para id="fs-id1167134562720">Para un espejo plano, demostramos que la imagen que se forma tiene la misma altura y orientación que el objeto, y se encuentra a la misma distancia detrás del espejo que el objeto frente a él. Aunque la situación es un poco más complicada en el caso de los espejos curvos, el uso de la geometría conduce a fórmulas sencillas que relacionan las distancias del objeto y de la imagen con las distancias focales de los espejos cóncavos y convexos.</para>
+<para id="fs-id1167134665963">Considere el objeto <emphasis effect="italics">OP</emphasis> mostrado en la <link target-id="CNX_UPhysics_35_02_Mathimgcon"/>. El centro de curvatura del espejo se denomina <emphasis effect="italics">C</emphasis> y está a una distancia <emphasis effect="italics">R</emphasis> del vértice del espejo, como se marca en la figura. Las distancias del objeto y de la imagen se marcan como <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>, y las alturas del objeto y de la imagen se marcan como <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>, respectivamente. Ya que los ángulos <m:math><m:mi>ϕ</m:mi></m:math> y <m:math><m:msup><m:mi>ϕ</m:mi><m:mo>′</m:mo></m:msup></m:math> son ángulos interiores alternos, sabemos que tienen la misma magnitud. Sin embargo, deben diferir en el signo si medimos los ángulos desde el eje óptico, por lo que <m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>ϕ</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>. Una situación análoga se da para los ángulos <m:math><m:mi>θ</m:mi></m:math> y <m:math><m:msup><m:mi>θ</m:mi><m:mo>′</m:mo></m:msup></m:math>. La ley de reflexión nos dice que tienen la misma magnitud, pero sus signos deben diferir si medimos los ángulos desde el eje óptico. Así, <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>θ</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>. Al tomar la tangente de los ángulos <m:math><m:mi>θ</m:mi></m:math> y <m:math><m:msup><m:mi>θ</m:mi><m:mo>′</m:mo></m:msup></m:math>, y al utilizar la propiedad de que la <m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mo>−</m:mo><m:mi>θ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>-tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>, obtenemos</para>
+<equation id="fs-id1167134519055"><m:math><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>θ</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mtext>-tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable><m:mo stretchy="true">}</m:mo></m:mrow><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>o</m:mtext><m:mspace width="0.2em"/><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_35_02_Mathimgcon">
+<media id="fs-id1167134541425" alt="La figura muestra un espejo cóncavo, un objeto, su imagen invertida y el eje óptico. La altura del objeto es h subíndice o y la de la imagen es h subíndice i. Las distancias del objeto y de la imagen al espejo son d subíndice o y d subíndice i respectivamente. Dos rayos se originan en la punta del objeto. El rayo 1 incide sobre el espejo en el eje óptico, formando un ángulo theta con el eje. El rayo reflejado forma un ángulo theta primo con el eje y pasa por la punta de la imagen. El rayo 2 intersecta el eje en el punto C, formando ángulos opuestos phi y phi prima. Pasa por la punta de la imagen antes de chocar con el espejo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_Mathimgcon.jpg"/>
+</media>
+<caption>Imagen formada por un espejo cóncavo.</caption>
+</figure>
+<para id="fs-id1167134909753">Del mismo modo, al tomar la tangente de <m:math><m:mi>ϕ</m:mi></m:math> y <m:math><m:msup><m:mi>ϕ</m:mi><m:mo>′</m:mo></m:msup></m:math> da como resultado</para>
+<equation id="fs-id1167134509619" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>−</m:mo><m:mi>R</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>ϕ</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mtext>-tan</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:mi>R</m:mi><m:mo>−</m:mo><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable><m:mo stretchy="true">}</m:mo></m:mrow><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>−</m:mo><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:mi>R</m:mi><m:mo>−</m:mo><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>o</m:mtext><m:mspace width="0.2em"/><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>−</m:mo><m:mi>R</m:mi></m:mrow><m:mrow><m:mi>R</m:mi><m:mo>−</m:mo><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134456373">Combinando estos dos resultados se obtiene</para>
+<equation id="fs-id1167134667380" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>−</m:mo><m:mi>R</m:mi></m:mrow><m:mrow><m:mi>R</m:mi><m:mo>−</m:mo><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134563132">Después de un poco de álgebra, esto se convierte en</para>
+<equation id="fs-id1167131104972"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131204104">No se requiere ninguna aproximación para este resultado, por lo que es exacto. Sin embargo, como se ha comentado anteriormente, en la aproximación para ángulos pequeños, la distancia focal de un espejo esférico es la mitad del radio de curvatura del espejo o <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mrow><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:math>. Al insertar esto en la <link target-id="fs-id1167134519055"/> se obtiene la <term class="no-emphasis"><emphasis effect="italics">ecuación del espejo</emphasis></term>:</para>
+<note id="fs-id1167134562964" class="equation-callout">
+<equation id="fs-id1167134562965"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134442354">La ecuación del espejo relaciona las distancias de la imagen y del objeto con la distancia focal y solo es válida en la aproximación para ángulo pequeño. Aunque se derivó para un espejo cóncavo, también es válida para espejos convexos (la demostración de esto se deja como ejercicio). Podemos extender la ecuación del espejo al caso de un espejo plano observando que un espejo plano tiene un radio de curvatura infinito. Esto significa que el punto focal está en el infinito, por lo que la ecuación del espejo se simplifica a</para>
+<equation id="fs-id1167131256001"><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math></equation>
+<para id="fs-id1167134451072">que es la misma que la <link target-id="fs-id1167131222406" document="m90961"/> obtenida anteriormente.</para>
+<para id="fs-id1167134885940">Observe que hemos sido muy cuidadosos con los signos al derivar la ecuación del espejo. Para un espejo plano, la distancia de la imagen tiene el signo contrario a la distancia del objeto. Además, la imagen real formada por el espejo cóncavo en la <link target-id="CNX_UPhysics_35_02_Mathimgcon"/> está en el lado opuesto del eje óptico con respecto al objeto. En este caso, la altura de la imagen debe tener el signo contrario a la altura del objeto. Para tener en cuenta los signos de las distintas cantidades en la ecuación del espejo, introducimos ahora una convención de signos.</para>
+<section id="fs-id1167131216794">
+<title>Convención de signos para espejos esféricos</title>
+<para id="fs-id1167134890782">El utilizar una convención de signos coherente es muy importante en la óptica geométrica. Asigna valores positivos o negativos a las magnitudes que caracterizan un sistema óptico. La comprensión de la convención de signos permite describir una imagen sin construir un diagrama de rayos. Este texto utiliza la siguiente convención de signos:</para>
+<list id="fs-id1167134519562" list-type="enumerated" number-style="arabic">
+<item>La distancia focal <emphasis effect="italics">f</emphasis> es positiva para los espejos cóncavos y negativa para los convexos.</item>
+<item>La distancia de imagen <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> es positiva para las imágenes reales y negativa para las virtuales.</item>
+</list>
+<para id="fs-id1167131131437">Observe que la regla 1 significa que el radio de curvatura de un espejo esférico puede ser positivo o negativo. ¿Qué significa que tenga un radio de curvatura negativo? Esto significa simplemente que el radio de curvatura de un espejo convexo se define como negativo.</para>
+</section>
+<section id="fs-id1167134644895">
+<title>Aumento de la imagen</title>
+<para id="fs-id1167134563530">Utilicemos la convención de signos para interpretar mejor la derivación de la ecuación del espejo. Al derivar esta ecuación, encontramos que las alturas del objeto y de la imagen están relacionadas por</para>
+<equation id="fs-id1167131227749"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134673420">Consulte la <link target-id="fs-id1167134519055"/>. El objeto y la imagen formada por el espejo en la <link target-id="CNX_UPhysics_35_02_Mathimgcon"/> son reales, por lo que las distancias del objeto y de la imagen son ambas positivas. El punto más alto del objeto está por encima del eje óptico, por lo que la altura del objeto es positiva. La imagen, sin embargo, está por debajo del eje óptico, por lo que la altura de la imagen es negativa. Por tanto, esta convención de signos es coherente con nuestra derivación de la ecuación del espejo.</para>
+<para id="fs-id1167131227676">La <link target-id="fs-id1167131227749"/> describe, de hecho, el <term>aumento lineal</term> (a menudo llamado simplemente "aumento") de la imagen en términos de las distancias del objeto y de la imagen. Por lo tanto, definimos el aumento adimensional <emphasis effect="italics">m</emphasis> de la siguiente manera:</para>
+<equation id="fs-id1167131254763"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134451842">Si <emphasis effect="italics">m</emphasis> es positivo, la imagen está en posición vertical, y si <emphasis effect="italics">m</emphasis> es negativo, la imagen está invertida. Si <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>m</m:mi><m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, la imagen es mayor que el objeto, y si <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>m</m:mi><m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, la imagen es más pequeña que el objeto. Con esta definición de aumento, obtenemos la siguiente relación entre las distancias vertical y horizontal del objeto y la imagen:</para>
+<note id="fs-id1167134815876" class="equation-callout">
+<equation id="fs-id1167134815877"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></note>
+<para id="fs-id1167131135132">Es una relación muy útil porque permite obtener el aumento de la imagen a partir de las distancias del objeto y de la imagen, que se pueden obtener a partir de la ecuación del espejo.</para>
+<example id="fs-id1167134760428">
+<para id="fs-id1167131187077"><title>Sistema de generación eléctrica solar</title>
+Una de las tecnologías solares utilizadas hoy en día para generar electricidad consiste en un dispositivo (llamado colector parabólico o de concentración) que concentra la luz solar en un tubo ennegrecido que contiene un fluido. Este fluido calentado se bombea a un intercambiador de calor, donde la energía térmica se transfiere a otro sistema que se utiliza para generar vapor y, finalmente, genera electricidad mediante un ciclo de vapor convencional. La <link target-id="CNX_UPhysics_35_02_solarRefl"/> muestra un sistema de este tipo en funcionamiento en el sur de California. El espejo real es un cilindro parabólico con su foco situado en el tubo; sin embargo, podemos aproximar el espejo como exactamente un cuarto de cilindro circular.</para>
+<figure id="CNX_UPhysics_35_02_solarRefl">
+<media id="fs-id1167131138184" alt="Fotografía de varios colectores cilindro-parabólicos colocados en fila en una zona abierta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_solarRefl.jpg"/>
+</media>
+<caption>Los colectores cilindro-parabólicos se utilizan para generar electricidad en el sur de California (crédito: "kjkolb"/Wikimedia Commons)</caption>
+</figure>
+<list id="fs-id1167131232492" list-type="enumerated" number-style="lower-alpha">
+<item>Si queremos que los rayos del Sol se enfoquen a 40,0 cm del espejo, ¿cuál es el radio del espejo?</item>
+<item>¿Cuál es la cantidad de luz solar concentrada en la tubería, por metro de longitud de la misma, suponiendo que la insolación (radiación solar incidente) es de 900 <m:math><m:mrow><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>?</item>
+<item>Si la tubería que transporta el fluido tiene un diámetro de 2,00 cm, ¿cuál es el aumento de temperatura del fluido por metro de tubería durante un período de 1 minuto? Supongamos que toda la radiación solar que incide en el reflector es absorbida por el tubo y que el fluido es aceite mineral.</item>
+</list>
+<para id="fs-id1167131232493"><title>Estrategia</title>
+Primero hay que identificar los principios físicos implicados. La parte (a) está relacionada con la óptica de los espejos esféricos. La parte (b) implica un poco de matemáticas, principalmente geometría. La parte (c) requiere una comprensión del calor y la densidad.</para>
+<para id="fs-id1167134512930"><title>Solución</title></para>
+<list id="fs-id1167134512931" list-type="enumerated" number-style="lower-alpha"><item>El Sol es el objeto, por lo que la distancia del objeto es esencialmente infinita <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>∞</m:mtext></m:mrow></m:math>. La distancia de imagen deseada es <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>40,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>. Utilizamos la ecuación del espejo para encontrar la distancia focal del espejo:
+<equation id="fs-id1167134458257" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mtext>∞</m:mtext></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>40,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>40,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+Por lo tanto, el radio del espejo es <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>80,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math>.</item>
+<item>La radiación es de 900 <m:math><m:mrow><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Hay que encontrar el área de la sección transversal <emphasis effect="italics">A</emphasis> del espejo cóncavo, dado que la potencia irradiada es de 900 <m:math><m:mrow><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>A</m:mi></m:mrow></m:math>. El espejo en este caso se estima como un cuarto de sección de un cilindro, por lo que el área para una longitud <emphasis effect="italics">L</emphasis> del espejo es <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>L</m:mi></m:mrow></m:math>. El área para una longitud de 1,00 m es entonces
+<equation id="fs-id1167131119291" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>π</m:mi><m:mn>2</m:mn></m:mfrac><m:mi>R</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>3,14</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>0,800</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1,26</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+La radiación en el tubo de 1,00 m de longitud es entonces
+<equation id="fs-id1167134567228" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>9,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mfrac><m:mtext>W</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>1,26</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1130</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>El aumento de la temperatura viene dado por <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>. La masa <emphasis effect="italics">m</emphasis> del aceite mineral en la sección de un metro de tubería es
+<equation id="fs-id1167131113937" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>8,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3,14</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,0100</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0,251</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+Por lo tanto, el aumento de la temperatura en un minuto es
+<equation id="fs-id1167134565394" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>1130</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>60,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>0,251</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mn>1.670</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>kg/°C</m:mtext></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>162</m:mn><m:mtext>°C</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list><para id="fs-id1167134528565"><title>Importancia</title>
+Un conjunto de estos tubos en el desierto de California puede proporcionar una potencia térmica de 250 MW en un día soleado, con fluidos que alcanzan temperaturas de hasta <m:math><m:mrow><m:mn>400</m:mn><m:mtext>°C</m:mtext></m:mrow></m:math>. Estamos considerando solo un metro de tubería y no tenemos en cuenta las pérdidas de calor a lo largo de la tubería.</para>
+</example>
+<example id="fs-id1167134886540">
+<para id="fs-id1167134992657"><title>Imagen en un espejo convexo</title>
+Un queratómetro es un dispositivo que se utiliza para medir la curvatura de la córnea del ojo, especialmente para adaptar las lentes de contacto. La luz se refleja en la córnea, que actúa como un espejo convexo, y el queratómetro mide el aumento de la imagen. Cuanto menor sea el aumento, menor será el radio de curvatura de la córnea. Si la fuente de luz está a 12 cm de la córnea y el aumento de la imagen es de 0,032, ¿cuál es el radio de curvatura de la córnea?</para>
+<para id="fs-id1167134956406"><title>Estrategia</title>
+Si encuentra la distancia focal del espejo convexo formado por la córnea, entonces conoce su radio de curvatura (es el doble de la distancia focal). La distancia del objeto es <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> y el aumento es <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0,032</m:mn></m:mrow></m:math>. Primero hay que encontrar la distancia de imagen <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> y luego resolver la distancia focal <emphasis effect="italics">f</emphasis>.</para>
+<para id="fs-id1167134507580"><title>Solución</title>
+Empiece con la ecuación del aumento, <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mrow></m:mrow></m:math>. Al resolver para <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> e insertar los valores dados se obtiene</para>
+<equation id="fs-id1167134759652" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>0,032</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−0,384</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167134885825">donde hemos retenido una cifra significativa adicional porque se trata de un paso intermedio en el cálculo. Resuelva la ecuación del espejo para la distancia focal <emphasis effect="italics">f</emphasis> e inserte los valores conocidos para las distancias del objeto y la imagen. El resultado es</para>
+<equation id="fs-id1167134681574" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>−0,384</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>−0,40</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167131184581">El radio de curvatura es el doble de la distancia focal, por lo que</para>
+<equation id="fs-id1167134822524" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>-0,80</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167134946506"><title>Importancia</title>
+La distancia focal es negativa, por lo que el enfoque es virtual, como se espera para un espejo cóncavo y un objeto real. El radio de curvatura encontrado aquí es razonable para una córnea. La distancia de la córnea a la retina en un ojo adulto es de unos 2,0 cm. En la práctica, las córneas pueden no ser esféricas, lo que complica el trabajo de adaptación de las lentes de contacto. Tenga en cuenta que la distancia de la imagen aquí es negativa, lo que concuerda con el hecho de que la imagen está detrás del espejo. Por lo tanto, la imagen es virtual porque ningún rayo la atraviesa realmente. En los problemas y ejercicios, demostrará que, para una distancia del objeto fija, un menor radio de curvatura corresponde a un menor aumento.</para>
+</example>
+<note id="fs-id1167131180121" class="problem-solving">
+<title>Espejos esféricos</title>
+<para id="fs-id1167131121234">Paso 1. En primer lugar, asegúrese de que se trata de la formación de la imagen mediante un espejo esférico.</para>
+<para id="fs-id1167131217365">Paso 2. Determine si se requiere el trazado de rayos, la ecuación del espejo o ambos. Un boceto es muy útil, incluso si el problema no requiere específicamente el trazado de rayos. Escriba los símbolos y los valores conocidos en el boceto.</para>
+<para id="fs-id1167131135117">Paso 3. Identifique exactamente lo que hay que determinar en el problema (identifique las incógnitas).</para>
+<para id="fs-id1167131255919">Paso 4. Haga una lista de lo que se conoce o puede deducirse del problema tal y como está planteado (identifique los conocidos).</para>
+<para id="fs-id1167134651957">Paso 5. Si el trazado de rayos es necesario, utilice las reglas de trazado de rayos que se indican al principio de esta sección.</para>
+<para id="fs-id1167131086069">Paso 6. La mayoría de los problemas cuantitativos requieren el uso de la ecuación del espejo. Utilice los ejemplos como guía para utilizar la ecuación del espejo.</para>
+<para id="fs-id1167131255733">Paso 7. Compruebe si la respuesta tiene sentido. ¿Los signos de la distancia del objeto, la distancia de imagen y la distancia focal se corresponden con lo que se espera del trazado de rayos? ¿Es correcto el signo del aumento? ¿Son razonables las distancias del objeto y de la imagen?</para>
+</note>
+</section>
+</section>
+<section id="fs-id1167134507752">
+<title>Desviación de la aproximación para ángulos pequeños</title>
+<para id="fs-id1167134666147">La aproximación para ángulos pequeños es la piedra angular de la discusión anterior sobre la formación de imágenes en un espejo esférico. Cuando se viola esta aproximación, la imagen que se crea en un espejo esférico se distorsiona. Esta distorsión se llama <term>aberración</term>. A continuación, se analizan brevemente dos tipos específicos de aberraciones: la aberración esférica y la coma.</para>
+<section id="fs-id1167134678379">
+<title>Aberración esférica</title>
+<para id="fs-id1167134645135">Considere un haz ancho de rayos paralelos que inciden en un espejo esférico, como se muestra en la <link target-id="CNX_UPhysics_35_02_SphAber"/>.</para>
+<figure id="CNX_UPhysics_35_02_SphAber">
+<media id="fs-id1167134661258" alt="La figura a muestra la sección transversal de un espejo cóncavo con varios rayos paralelos al eje óptico que inciden en él. Los rayos reflejados convergen en diferentes puntos del eje óptico. Los rayos reflejados desde los puntos más alejados del eje convergen más cerca del espejo. La figura b muestra la sección transversal de un espejo cóncavo con varios rayos que inciden en él. Estos rayos son paralelos entre sí, pero en ángulo con el eje. Una línea marcada como plano focal es perpendicular al eje óptico y a una ligera distancia por delante del espejo. Los rayos reflejados inciden en esta línea en diferentes puntos. La vista frontal del plano focal se muestra como un círculo, con la etiqueta de enfoque borrosa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_SphAber.jpg"/>
+</media>
+<caption>(a) Con la aberración esférica, los rayos que están más lejos del eje óptico y los rayos que están más cerca del eje óptico se enfocan en puntos diferentes. Observe que la aberración empeora para los rayos más alejados del eje óptico. (b) En el caso de la aberración comática, los rayos paralelos que no son paralelos al eje óptico se enfocan a diferentes alturas y a diferentes distancias focales, por lo que la imagen contiene una "cola" como la de un cometa (que es "coma" en latín). Tenga en cuenta que los rayos coloreados son solo para facilitar la visualización; los colores no indican el color de la luz.</caption>
+</figure>
+<para id="fs-id1167134884716">Cuanto más lejos del eje óptico inciden los rayos, peor se aproxima el espejo esférico a un espejo parabólico. Por lo tanto, estos rayos no se enfocan en el mismo punto que los rayos que están cerca del eje óptico, como se muestra en la figura. Debido a la <term>aberración esférica</term>, la imagen de un objeto extendido en un espejo esférico será borrosa. Las aberraciones esféricas son características de los espejos y lentes que consideramos en la siguiente sección de este capítulo (se necesitan espejos y lentes más sofisticados para eliminar las aberraciones esféricas).</para>
+</section>
+<section id="fs-id1167134950782">
+<title>Coma o aberración comática</title>
+<para id="fs-id1167134638220">La <emphasis effect="bold">coma</emphasis> es similar a la aberración esférica, pero surge cuando los rayos entrantes no son paralelos al eje óptico, como se muestra en la parte (b) de la <link target-id="CNX_UPhysics_35_02_SphAber"/>. Recordemos que la aproximación para ángulos pequeños es válida para los espejos esféricos que son pequeños en comparación con su radio. En este caso, los espejos esféricos son buenas aproximaciones a los espejos parabólicos. Los espejos parabólicos enfocan todos los rayos paralelos al eje óptico en el punto focal. Sin embargo, los rayos paralelos que <emphasis effect="italics">no</emphasis> son paralelos al eje óptico se enfocan a diferentes alturas y a diferentes distancias focales, como se muestra en la parte (b) de la <link target-id="CNX_UPhysics_35_02_SphAber"/>. Dado que un espejo esférico es simétrico con respecto al eje óptico, los distintos rayos de color de esta figura crean círculos del color correspondiente en el plano focal.</para>
+<para id="fs-id1167134966743">Aunque en la parte (b) de la <link target-id="CNX_UPhysics_35_02_SphAber"/> se muestra un espejo esférico, la aberración comática también se produce en los espejos parabólicos, y no es el resultado de un fallo en la aproximación para ángulos pequeños. Sin embargo, la aberración esférica solo se produce para los espejos esféricos y es el resultado de una ruptura de la aproximación para ángulos pequeños. Más adelante, en este mismo capítulo, hablaremos del <term class="no-emphasis">coma</term> y de la aberración esférica en relación con los telescopios.</para>
+</section>
+</section>
+<section id="fs-id1167134655981" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167131152982" list-type="bulleted" bullet-style="bullet">
+<item>Los espejos esféricos pueden ser cóncavos (convergentes) o convexos (divergentes).</item>
+<item>La distancia focal de un espejo esférico es la mitad de su radio de curvatura <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>.</item>
+<item>La ecuación del espejo y el trazado de rayos permiten dar una descripción completa de una imagen formada por un espejo esférico.</item>
+<item>La aberración esférica se produce en los espejos esféricos pero no en los parabólicos; la aberración comática se produce en ambos tipos de espejos.</item>
+</list>
+</section>
+<section id="fs-id1167134873522" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167131105257">
+<problem id="fs-id1167134653213">
+<para id="fs-id1167134568622">¿A qué distancia se encuentra siempre una imagen: a <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>,</m:mo><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> o <emphasis effect="italics">f</emphasis>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131187794">
+<problem id="fs-id1167134649910">
+<para id="fs-id1167134648123">¿En qué circunstancias se situará una imagen en el punto focal de una lente esférica o un espejo?</para>
+</problem>
+<solution id="fs-id1167131216135">
+<para id="fs-id1167134542354">cuando el objeto está en el infinito; consulte la ecuación del espejo</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134816269">
+<problem id="fs-id1167134960281">
+<para id="fs-id1167134716414">¿Qué se entiende por un aumento negativo? ¿Qué se entiende por un aumento cuyo valor absoluto es inferior a uno?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134451404">
+<problem id="fs-id1167131112162">
+<para id="fs-id1167131131740">¿Puede una imagen ser más grande que el objeto aunque su aumento sea negativo? Explique.</para>
+</problem>
+<solution id="fs-id1167134651996">
+<para id="fs-id1167131131471">Sí, el aumento negativo significa simplemente que la imagen está al revés; esto no impide que la imagen sea más grande que el objeto. Por ejemplo, para un espejo cóncavo, si la distancia al objeto es mayor que una distancia focal pero menor que dos distancias focales, la imagen se invertirá y se ampliará.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167134682344" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167134872383">
+<problem id="fs-id1167134513679">
+<para id="fs-id1167134716682">La siguiente figura muestra una bombilla entre dos espejos esféricos. Uno de los espejos produce un haz de luz con rayos paralelos; el otro impide que la luz se escape sin ser introducida en el haz. ¿Dónde está el filamento de la luz en relación con el punto focal o radio de curvatura de cada espejo?</para>
+<media id="fs-id1167131273515" alt="En el centro aparece una bombilla, con un pequeño espejo cóncavo a su izquierda y otro más grande a su derecha. Los rayos de luz procedentes de la bombilla que inciden en el espejo más pequeño se reflejan en la bombilla. Los rayos de luz de la bombilla que inciden en el espejo más grande se reflejan. Estos rayos reflejados son paralelos y viajan hacia la izquierda.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_illum.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167131114436">
+<para id="fs-id1167134674757">Está en el punto focal del espejo grande y en el centro de curvatura del espejo pequeño.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134654496">
+<problem id="fs-id1167134759725">
+<para id="fs-id1167134634426">¿Por qué se suelen utilizar espejos divergentes para los retrovisores de los vehículos? ¿Cuál es la principal desventaja de utilizar un espejo de este tipo en comparación con uno plano?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134960648">
+<problem id="fs-id1167134648068">
+<para id="fs-id1167134508408">Algunas cámaras de teleobjetivo utilizan un espejo en lugar de un objetivo. ¿Qué radio de curvatura de espejo se necesita para sustituir un teleobjetivo de 800 mm de distancia focal?</para>
+</problem>
+<solution id="fs-id1167131143574">
+<para id="fs-id1167131182377"><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>R</m:mi><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>R</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>1,60</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134627352">
+<problem id="fs-id1167134860233">
+<para id="fs-id1167134937240">Calcule la distancia focal de un espejo formado por el dorso brillante de una cuchara que tiene un radio de curvatura de 3,00 cm.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131272091">
+<problem id="fs-id1167131233923">
+<para id="fs-id1167131233925">Los calefactores eléctricos de ambiente utilizan un espejo cóncavo para reflejar la radiación infrarroja (infrared, IR) de las bobinas calientes. Tenga en cuenta que la radiación IR sigue la misma ley de reflexión que la luz visible. Dado que el espejo tiene un radio de curvatura de 50,0 cm y produce una imagen de las bobinas a 3,00 m del espejo, ¿dónde están las bobinas?</para>
+</problem>
+<solution id="fs-id1167131233932">
+<para id="fs-id1167131233934"><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mn>27,3</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131234003">
+<problem id="fs-id1167131234005">
+<para id="fs-id1167134960417">Encuentre el aumento del elemento calefactor en el problema anterior. Tenga en cuenta que su gran magnitud ayuda a propagar la energía reflejada.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131257414">
+<problem id="fs-id1167131257416">
+<para id="fs-id1167131257370">¿Cuál es la distancia focal de un espejo de maquillaje que produce un aumento de 1,50 cuando la cara de una persona está a 12,0 cm de distancia? Muestre explícitamente cómo sigue los pasos en la <link target-id="fs-id1167131180121"/>.</para>
+</problem>
+<solution id="fs-id1167131257379">
+<para id="fs-id1167131257381">Paso 1: Se trata de la formación de imágenes mediante un espejo.<newline/> Paso 2: Dibuje la configuración del problema cuando sea posible.<newline/> Paso 3: Utilice la ecuación de lentes delgadas para resolver este problema.<newline/> Paso 4: Encuentre f.<newline/> Paso 5: Dado que: <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1,50</m:mn><m:mo>,</m:mo><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0,120</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.<newline/> Paso 6: No es necesario el trazado de rayos.<newline/> Paso 7: Al utilizar <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>-0,180</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.2em"/></m:mrow></m:math>. Entonces, <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>0,360</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.<newline/> Paso 8: La imagen es virtual porque la distancia de imagen es negativa. La distancia focal es positiva, por lo que el espejo es cóncavo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131222971">
+<problem id="fs-id1167131222974">
+<para id="fs-id1167131222976">Un comprador situado a 3,00 m de un espejo convexo de seguridad ve su imagen con un aumento de 0,250. (a) ¿Dónde está su imagen? (b) ¿Cuál es la distancia focal del espejo? (c) ¿Cuál es su radio de curvatura?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131210566">
+<problem id="fs-id1167131210569">
+<para id="fs-id1167131210571">Un objeto de 1,50 cm de altura se mantiene a 3,00 cm de la córnea de una persona, y su imagen reflejada se mide a 0,167 cm de altura. (a) ¿Cuál es el aumento? (b) ¿Dónde está la imagen? (c) Encuentre el radio de curvatura del espejo convexo formado por la córnea. (Tenga en cuenta que esta técnica es utilizada por los optometristas para medir la curvatura de la córnea para la adaptación de las lentes de contacto. El instrumento utilizado se llama queratómetro o medidor de curvas)</para>
+</problem>
+<solution id="fs-id1167131182075">
+<para id="fs-id1167131187843">a. para un espejo convexo <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo stretchy="false">⇒</m:mo><m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>0,111</m:mn></m:mrow></m:math>; b <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>-0,334</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> (detrás de la córnea);<newline/> c <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>-0,376</m:mn><m:mspace width="0.2em"/><m:mtext>cm, por lo que</m:mtext><m:mspace width="0.2em"/><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>-0,752</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134713889">
+<problem id="fs-id1167134713891">
+<para id="fs-id1167134713893">El trazado de rayos para un espejo plano muestra que la imagen se encuentra a una distancia detrás del espejo igual a la distancia del objeto al espejo. Esto se expresa como <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>, dado que se trata de una distancia de imagen negativa (es una imagen virtual). ¿Cuál es la distancia focal de un espejo plano?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131198995">
+<problem id="fs-id1167131198997">
+<para id="fs-id1167131198999">Demuestra que, para un espejo plano, <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>, dado que la imagen está a la misma distancia detrás del espejo que la distancia del objeto al espejo.</para>
+</problem>
+<solution id="fs-id1167131246710">
+<para id="fs-id1167131246712"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mfrac><m:mrow><m:mo>−</m:mo><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131254534">
+<problem id="fs-id1167131254536">
+<para id="fs-id1167131254538">Utiliza la ley de reflexión para demostrar que la distancia focal de un espejo es la mitad de su radio de curvatura. Es decir, demostrar que <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mrow><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:math>. Tenga en cuenta que esto es cierto para un espejo esférico solo si su diámetro es pequeño en comparación con su radio de curvatura.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131257731">
+<problem id="fs-id1167131188170">
+<para id="fs-id1167131188172">Refiriéndose al calentador eléctrico de la habitación considerado en el problema 5, calcule la intensidad de la radiación IR en <m:math><m:mrow><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> proyectada por el espejo cóncavo sobre una persona a 3,00 m de distancia. Supongamos que el elemento calefactor irradia 1500 W y tiene una superficie de <m:math><m:mrow><m:mn>100</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, y que la mitad de la potencia radiada es reflejada y enfocada por el espejo.</para>
+</problem>
+<solution id="fs-id1167131264415">
+<para id="fs-id1167131268404">
+<media id="fs-id1167131264337" alt="La figura muestra la sección transversal de un espejo cóncavo. Dos rayos que parten de un punto chocan con el espejo y se reflejan. La distancia del punto al espejo se marca como d subíndice o = 0,273 m y d subíndice i = 3,00 m.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_02_Prob17ans_img.jpg"/>
+</media><newline/> <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−11,0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>A</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mn>0,110</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>6,82</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>kW/m</m:mtext><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131239457">
+<problem id="fs-id1167131239460">
+<para id="fs-id1167131239462">Dos espejos están inclinados en un ángulo de 60<m:math><m:mtext>°</m:mtext></m:math> y se coloca un objeto en un punto equidistante de los dos espejos. Utilice un transportador para dibujar los rayos con precisión y localizar todas las imágenes. Es posible que tenga que dibujar varias figuras para que los rayos de las diferentes imágenes no saturen su dibujo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131257612">
+<problem id="fs-id1167131257614">
+<para id="fs-id1167131257616">Dos espejos paralelos están uno frente al otro y separados por una distancia de 3 cm. Se coloca un objeto puntual entre los espejos a 1 cm de uno de ellos. Encuentre las coordenadas de todas las imágenes.</para>
+</problem>
+<solution id="fs-id1167131188289">
+<para id="fs-id1167132235914"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>,</m:mo><m:mspace width="0.6em"/><m:mtext>(</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:msub><m:mo>,</m:mo><m:mspace width="0.6em"/><m:mtext>(</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>...</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>con</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167131178003">
+<term>aberración</term>
+<meaning id="fs-id1167131178008">distorsión en una imagen causada por desviaciones de la aproximación para ángulos pequeños</meaning>
+</definition>
+<definition id="fs-id1167131182507">
+<term>coma</term>
+<meaning id="fs-id1167131182512">similar a la aberración esférica, pero se produce cuando los rayos entrantes no son paralelos al eje óptico</meaning>
+</definition>
+<definition id="fs-id1167131182516">
+<term>espejo cóncavo</term>
+<meaning id="fs-id1167131122367">espejo esférico con su superficie reflectante en la cara interna de la esfera; el espejo forma una "cueva"</meaning>
+</definition>
+<definition id="fs-id1167131122373">
+<term>espejo convexo</term>
+<meaning id="fs-id1167131216325">espejo esférico con su superficie reflectante en la cara exterior de la esfera</meaning>
+</definition>
+<definition id="fs-id1167131216329">
+<term>espejo curvo</term>
+<meaning id="fs-id1167131216334">espejo formado por una superficie curva, como la esférica, la elíptica o la parabólica</meaning>
+</definition>
+<definition id="fs-id1167131272175">
+<term>distancia focal</term>
+<meaning id="fs-id1167131272180">distancia a lo largo del eje óptico desde el punto focal hasta el elemento óptico que enfoca los rayos de luz</meaning>
+</definition>
+<definition id="fs-id1167131272185">
+<term>punto focal</term>
+<meaning id="fs-id1167131234069">para una lente o un espejo convergente, el punto en el que se cruzan los rayos luminosos convergentes; para una lente o un espejo divergente, el punto en el que parecen originarse los rayos luminosos divergentes</meaning>
+</definition>
+<definition id="fs-id1167131234075">
+<term>aumento lineal</term>
+<meaning id="fs-id1167131236221">la relación entre la altura de la imagen y la altura del objeto</meaning>
+</definition>
+<definition id="fs-id1167131236225">
+<term>eje óptico</term>
+<meaning id="fs-id1167131122407">el eje en torno al cual el espejo es rotacionalmente simétrico; se puede girar el espejo en torno a este eje sin cambiar nada</meaning>
+</definition>
+<definition id="fs-id1167131122413">
+<term>aproximación para ángulos pequeños</term>
+<meaning id="fs-id1167131263359">la aproximación que es válida cuando el tamaño de un espejo esférico es significativamente menor que el radio del espejo; en esta aproximación, la aberración esférica es despreciable y el espejo tiene un punto focal bien definido</meaning>
+</definition>
+<definition id="fs-id1167131263369">
+<term>aberración esférica</term>
+<meaning id="fs-id1167131138210">la distorsión de la imagen formada por un espejo esférico cuando los rayos no están enfocados todos en el mismo punto</meaning>
+</definition>
+<definition id="fs-id1167131138215">
+<term>vértice</term>
+<meaning id="fs-id1167131138220">el punto de intersección de la superficie del espejo con el eje óptico</meaning>
+</definition>
+</glossary>
+</document>

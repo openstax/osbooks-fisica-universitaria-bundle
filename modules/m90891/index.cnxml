@@ -1,0 +1,227 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Ley de Ohm</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90891</md:content-id>
+  <md:title>Ley de Ohm</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir la ley de Ohm.</item>
+<item>Reconocer cuándo se aplica la ley de Ohm y cuándo no.</item>
+</list></md:abstract>
+  <md:uuid>3df4e218-a871-40ab-aac1-72a4c8f173d5</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170903770990">En este capítulo hemos hablado de tres propiedades eléctricas: corriente, voltaje y resistencia. Resulta que muchos materiales presentan una relación sencilla entre los valores de estas propiedades, conocida como ley de Ohm. Muchos otros materiales no muestran esta relación, por lo que, a pesar de llamarse ley de Ohm, no se considera una ley de la naturaleza, como las leyes de Newton o las leyes de la termodinámica. Pero es muy útil para los cálculos que implican materiales que sí obedecen la ley de Ohm.</para>
+<section id="fs-id1170902282495">
+<title>Descripción de la ley de Ohm</title>
+<para id="fs-id1170902208457">La corriente que atraviesa la mayoría de las sustancias es directamente proporcional a el voltaje <emphasis effect="italics">V</emphasis> que se le aplica. El físico alemán Georg Simon <term class="no-emphasis">Ohm</term> (1787-1854) fue el primero en demostrar experimentalmente que la corriente en un alambre metálico es <emphasis effect="italics">directamente proporcional a el voltaje aplicada</emphasis>:</para>
+<equation id="fs-id1170904127776" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mtext>∝</m:mtext><m:mspace width="0.2em"/><m:mi>V</m:mi></m:mrow><m:mo>.</m:mo></m:math></equation>
+<para id="fs-id1170902129518">Esta importante relación es la base de la <term>ley de Ohm</term>. Puede verse como una relación de causa y efecto, en la que el voltaje es la causa y la corriente el efecto. Se trata de una ley empírica, es decir, de un fenómeno observado experimentalmente, como la fricción. Esta relación lineal no siempre se da. Cualquier material, componente o dispositivo que obedezca la ley de Ohm, donde la corriente que atraviesa el dispositivo es proporcional al voltaje aplicado, se conoce como material <term>óhmico</term> o componente óhmico. Cualquier material o componente que no obedezca a la ley de Ohm se conoce como material <term>no fónico</term> o componente no fónico.</para>
+</section>
+<section id="fs-id1170902102040">
+<title>Experimento de Ohm</title>
+<para id="fs-id1170903886772">En un artículo publicado en 1827, Georg Ohm describió un experimento en el que midió el voltaje y la corriente a través de varios circuitos eléctricos sencillos que contenían diversas longitudes de cable. Un experimento similar se muestra en la <link target-id="CNX_UPhysics_26_04_OhmsSetup"/>. Este experimento se utiliza para observar la corriente a través de un resistor que resulta de un voltaje aplicado. En este sencillo circuito, un resistor está conectado en serie con una batería. El voltaje se mide con un voltímetro, que debe colocarse a través de resistor (en paralelo con el resistor). La corriente se mide con un amperímetro, que debe estar en línea con el resistor (en serie con el resistor).</para>
+<figure id="CNX_UPhysics_26_04_OhmsSetup">
+<media id="fs-id1170900368438" alt="Las imágenes son un dibujo esquemático de un objeto de resistencia en un circuito con el amperímetro y el voltímetro incluidos en la cadena. La batería actúa como fuente de la corriente eléctrica. En la imagen de la izquierda la corriente fluye en el sentido de las agujas del reloj; en la imagen de la derecha la corriente fluye en el sentido contrario.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_04_OhmsSetup.jpg"/>
+</media>
+<caption>El montaje experimental utilizado para determinar si un resistor es un dispositivo óhmico o no óhmico. (a) Cuando la batería está conectada, la corriente fluye en el sentido de las agujas del reloj y el voltímetro y el amperímetro tienen lecturas positivas. (b) Cuando los cables de la batería están cambiados, la corriente fluye en el sentido contrario a las agujas del reloj y el voltímetro y el amperímetro tienen lecturas negativas.</caption>
+</figure>
+<para id="fs-id1170900432880">En esta versión actualizada del experimento original de Ohm, se realizaron varias mediciones de la corriente para varios voltajes diferentes. Cuando la batería estaba conectada como en la <link target-id="CNX_UPhysics_26_04_OhmsSetup"/>(a), la corriente fluía en el sentido de las agujas del reloj y las lecturas del voltímetro y del amperímetro eran positivas. ¿Cambia el comportamiento de la corriente si esta fluye en sentido contrario? Para conseguir que la corriente fluya en sentido contrario, se pueden intercambiar los cables de la batería. Cuando se cambian los cables de la batería, las lecturas del voltímetro y del amperímetro son negativas porque la corriente fluye en sentido contrario, en este caso, en sentido contrario a las agujas del reloj. Los resultados de un experimento similar se muestran en <link target-id="CNX_UPhysics_26_04_OhmsResult"/>.</para>
+<figure id="CNX_UPhysics_26_04_OhmsResult">
+<media id="fs-id1170902197336" alt="La figura es un gráfico de corriente versus voltaje. Existe una relación lineal entre el voltaje y la corriente y la gráfica pasa por el origen.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_04_OhmsResult.jpg"/>
+</media>
+<caption>Se coloca un resistor en un circuito con una batería. El voltaje aplicada varía de –10,00 V a +10,00 V, aumentando en incrementos de 1,00 V. Un gráfico muestra los valores del voltaje versus la corriente típica de lo que podría calcular un experimentador casual.</caption>
+</figure>
+<para id="fs-id1170903802926">En este experimento, el voltaje aplicado a través del resistor varía de –10,00 a +10,00 V, con incrementos de 1,00 V. Se mide la corriente y el voltaje que pasan por el resistor. Se hace un gráfico de voltaje versus corriente, y el resultado es aproximadamente lineal. La pendiente de la línea es la resistencia, o el voltaje dividida entre la corriente. Este resultado se conoce como <term class="no-emphasis">la ley de Ohm</term>:</para>
+<note id="fs-id1170904225551" class="equation-callout">
+<equation id="fs-id1170904054935"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170904153095">donde <emphasis effect="italics">V</emphasis> es el voltaje medida en voltios a través del objeto en cuestión, <emphasis effect="italics">I</emphasis> es la corriente medida a través del objeto en amperios y <emphasis effect="italics">R</emphasis> es la resistencia en unidades de ohmios. Como se ha dicho anteriormente, cualquier dispositivo que muestra una relación lineal entre el voltaje y la corriente se conoce como un dispositivo óhmico. Por tanto, un resistor es un dispositivo óhmico.</para>
+<example id="fs-id1170902116601">
+<para id="fs-id1170904061676"><title>Medición de la resistencia</title>
+Un resistor de carbono a temperatura ambiente <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> está conectada a una batería de 9,00 V y la corriente medida a través del resistor es de 3,00 mA. (a) ¿Cuál es la resistencia del resistor medida en ohmios? (b) Si la temperatura del resistor se aumenta a <m:math><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> calentando el resistor, ¿cuál es la corriente que atraviesa el resistor?</para>
+<para id="fs-id1170904162440"><title>Estrategia</title>
+(a) La resistencia se puede calcular utilizando la ley de Ohm. La ley de Ohm establece que <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math>, por lo que la resistencia se puede calcular utilizando <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>I</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1172101651417">(b) Primero, la resistencia depende de la temperatura, por lo que la nueva resistencia después de calentar el resistor se puede calcular utilizando <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. La corriente se puede calcular mediante la ley de Ohm en la forma <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1170902304688"><title>Solución</title></para>
+<list id="fs-id1172101939764" list-type="enumerated" number-style="lower-alpha">
+<item>Utilizando la ley de Ohm y resolviendo la resistencia se obtiene la resistencia a temperatura ambiente:
+<equation id="fs-id1170902287225" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>9,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow><m:mo>.</m:mo></m:math></equation></item>
+<item>La resistencia en <m:math><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> se puede calcular mediante <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> donde el coeficiente de temperatura para el carbono es <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>−0,0005</m:mn></m:mrow></m:math> <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0,0005</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2,94</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>.<newline/> La corriente que atraviesa el resistor calentado es
+<equation id="fs-id1170904071855" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>9,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>2,94</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3,06</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext><m:mo>=</m:mo><m:mn>3,06</m:mn><m:mspace width="0.2em"/><m:mtext>mA</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1170902257173"><title>Importancia</title>
+Un cambio de temperatura de <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> ha supuesto un cambio de corriente del 2,00%. Esto puede no parecer un gran cambio, pero el cambio de las características eléctricas puede tener un fuerte efecto en los circuitos. Por esta razón, muchos aparatos electrónicos, como las computadoras, contienen ventiladores para eliminar el calor disipado por los componentes de los circuitos eléctricos.</para>
+</example>
+<note id="fs-id1170904166900" class="check-understanding">
+<exercise id="fs-id1170904041592">
+<problem id="fs-id1170904146178">
+<para id="fs-id1170902267917">El voltaje suministrado a su casa varía como <m:math><m:mrow><m:mi>V</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>f</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Si se conecta un resistor a través de esta voltaje, la ley de Ohm <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math> ¿sigue siendo válido?</para>
+</problem>
+<solution id="fs-id1170902285061">
+<para id="fs-id1170904156987">Sí, la ley de Ohm sigue siendo válida. En cada momento la corriente es igual a <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math>, por lo que la corriente también es una función del tiempo, <m:math><m:mrow><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>f</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1170902123546" class="media-2">
+<para id="fs-id1170902289644">Observe cómo se relaciona la <link url="https://openstax.org/l/21ohmslaw_es">forma de la ecuación de la ley de Ohm</link> con un circuito sencillo. Ajuste el voltaje y la resistencia, y observe cómo cambia la corriente según la ley de Ohm. Los tamaños de los símbolos de la ecuación cambian para adaptarse al diagrama del circuito.</para>
+</note>
+<para id="fs-id1170902152787">Los dispositivos no óhmicos no presentan una relación lineal entre el voltaje y la corriente. Uno de estos dispositivos es el elemento de circuito semiconductor conocido como diodo. Un <term>diodo</term> es un dispositivo de circuito que permite el flujo de corriente en una sola dirección. El diagrama de un circuito sencillo formado por una batería, un diodo y un resistor se muestra en la <link target-id="CNX_UPhysics_26_04_Diode"/>. Aunque no cubrimos la teoría del diodo en esta sección, el diodo puede ser probado para ver si es un dispositivo óhmico o no óhmico.</para>
+<figure id="CNX_UPhysics_26_04_Diode">
+<media id="fs-id1170903721355" alt="Las imágenes son un dibujo esquemático de un diodo en un circuito con el amperímetro, el voltímetro y el resistor incluidos en la cadena. En la imagen de la izquierda el ánodo es positivo y el cátodo negativo; en la imagen de la derecha el ánodo es negativo y el cátodo positivo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_04_Diode.jpg"/>
+</media>
+<caption>Un diodo es un dispositivo semiconductor que solo permite el flujo de corriente si el diodo está polarizado hacia delante, lo que significa que el ánodo es positivo y el cátodo negativo.</caption>
+</figure>
+<para id="fs-id1170903891278">En la <link target-id="CNX_UPhysics_26_04_DiodeRead"/> se muestra un gráfico de corriente versus voltaje. Observe que el comportamiento del diodo se muestra como corriente versus voltaje, mientras que el funcionamiento del resistor se mostró como voltaje versus corriente. Un diodo está formado por un ánodo y un cátodo. Cuando el ánodo está a un potencial negativo y el cátodo a un potencial positivo, como se muestra en la parte (a), se dice que el diodo tiene polarización inversa. Con polarización inversa, el diodo tiene una resistencia extremadamente grande y hay muy poco flujo de corriente —esencialmente cero— a través del diodo y del resistor. A medida que el voltaje aplicado al circuito aumenta, la corriente permanece esencialmente cero, hasta que el voltaje alcanza el voltaje de ruptura y el diodo conduce la corriente, como se muestra en la <link target-id="CNX_UPhysics_26_04_DiodeRead"/>. Cuando la batería y el potencial a través del diodo se invierten, lo que hace que el ánodo sea positivo y el cátodo negativo, el diodo conduce y la corriente fluye a través del diodo si el voltaje es superior a 0,7 V. La resistencia del diodo es cercana a cero (esta es la razón del resistor en el circuito; si no estuviera, la corriente sería muy grande). En el gráfico de la <link target-id="CNX_UPhysics_26_04_DiodeRead"/> se puede ver que el voltaje y la corriente no tienen una relación lineal. Por lo tanto, el diodo es un ejemplo de dispositivo no óhmico.</para>
+<figure id="CNX_UPhysics_26_04_DiodeRead">
+<media id="fs-id1170902199101" alt="La figura es un gráfico de corriente versus voltaje. Cuando el voltaje a través del diodo es negativo y pequeño hay muy poco flujo de corriente a través del diodo. Cuando el voltaje alcanza el voltaje de ruptura el flujo de corriente aumenta drásticamente. Cuando el voltaje a través del diodo es positivo y superior a 0,7 V el diodo conduce. A medida que aumenta el voltaje aplicado, la corriente a través del diodo aumenta, pero el voltaje a través del diodo se mantiene aproximadamente en 0,7 V.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_04_DiodeRead.jpg"/>
+</media>
+<caption>Cuando el voltaje a través del diodo es negativo y pequeño hay muy poco flujo de corriente a través del diodo. Cuando el voltaje alcanza el voltaje de ruptura el diodo conduce. Cuando el voltaje a través del diodo es positivo y superior a 0,7 V (el valor real del voltaje depende del diodo) el diodo conduce. A medida que aumenta el voltaje aplicado, la corriente a través del diodo aumenta, pero el voltaje a través del diodo se mantiene aproximadamente en 0,7 V.</caption>
+</figure>
+<para id="fs-id1170902345248">La ley de Ohm se enuncia comúnmente como <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math>, pero originalmente se planteó como una visión microscópica, en términos de la densidad de corriente, la conductividad y el campo eléctrico. Esta visión microscópica sugiere la proporcionalidad <m:math><m:mrow><m:mi>V</m:mi><m:mo>∝</m:mo><m:mi>I</m:mi></m:mrow></m:math> proviene de la velocidad de deriva de los electrones libres en el metal que resulta de un campo eléctrico aplicado. Como ya se ha dicho, la densidad de corriente es proporcional al campo eléctrico aplicado. La reformulación de la ley de Ohm se atribuye a Gustav Kirchhoff, cuyo nombre volveremos a ver en el próximo capítulo.</para>
+</section>
+<section id="fs-id1170902135606" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170904201977" list-type="bulleted" bullet-style="bullet">
+<item>La ley de Ohm es una relación empírica para corriente, voltaje y resistencia para algunos tipos comunes de elementos de circuito, incluidos los resistores. No se aplica a otros dispositivos, como los diodos.</item>
+<item>Un enunciado de la ley de Ohm da la relación entre la corriente <emphasis effect="italics">I</emphasis>, el voltaje <emphasis effect="italics">V</emphasis> y la resistencia <emphasis effect="italics">R</emphasis> en un circuito simple como <emphasis effect="italics"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math> </emphasis></item>
+<item>Otro enunciado de la ley de Ohm, a nivel microscópico, es <m:math><m:mrow><m:mi>J</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>E</m:mi></m:mrow></m:math>.</item>
+</list>
+</section>
+<section id="fs-id1170904243968" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1170902270318">
+<problem id="fs-id1170902222075">
+<para id="fs-id1170902246452">En <link document="m90878">Determinación del campo a partir del potencial</link> la resistencia se definió como <m:math><m:mrow><m:mi>R</m:mi><m:mo>≡</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>I</m:mi></m:mfrac></m:mrow></m:math>. En esta sección presentamos la ley de Ohm, que se expresa comúnmente como <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math>. Las ecuaciones son exactamente iguales. ¿Cuál es la diferencia entre la ley de Ohm y la definición de resistencia?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904037552">
+<problem id="fs-id1170904117614">
+<para id="fs-id1170902203962">A continuación se muestran los resultados de un experimento en el que se conectaron cuatro dispositivos a través de una fuente de voltaje variable. Se aumenta el voltaje y se mide la corriente. ¿Qué dispositivo, si lo hay, es un dispositivo óhmico?</para>
+<media id="fs-id1170903822002" alt="La figura es un gráfico de corriente versus voltaje. Para A, la corriente aumenta originalmente con el voltaje, luego se satura y permanece igual. Para B, la corriente aumenta linealmente con el voltaje. Para C, la corriente aumenta con el voltaje a un ritmo creciente. Para D, la corriente disminuye con el voltaje acercándose a cero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_04_Concept50_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1170902058024">
+<para id="fs-id1170902296012">El dispositivo <emphasis effect="italics">B</emphasis> muestra una relación lineal y el dispositivo es óhmico.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903880232">
+<problem id="fs-id1170902297283">
+<para id="fs-id1170904073069">La corriente <emphasis effect="italics">I</emphasis> se mide a través de una muestra de un material óhmico cuando se aplica un voltaje <emphasis effect="italics">V</emphasis>. (a) ¿Cuál es la corriente cuando el voltaje se duplica a 2V (suponiendo que el cambio de temperatura del material es insignificante)? (b) ¿Cuál es el voltaje aplicado si la corriente medida es 0,2I (suponiendo que el cambio de temperatura del material es insignificante)? ¿Qué ocurrirá con la corriente del material si el voltaje permanece constante, pero la temperatura del material aumenta considerablemente?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170904073136" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170903762813">
+<problem id="fs-id1170903806306">
+<para id="fs-id1170903809897">Un resistor de <m:math><m:mrow><m:mn>2,2</m:mn><m:mtext>-k</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor se conecta a través de una batería D (1,5 V). ¿Cuál es la corriente que pasa por el resistor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903858880">
+<problem id="fs-id1170902093392">
+<para id="fs-id1170904165079">Un resistor con un valor nominal de <m:math><m:mrow><m:mn>250</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> se conecta a través de dos baterías D (cada una de 1,50 V) en serie, con una voltaje total de 3,00 V. El fabricante anuncia que sus resistores están dentro del 5 % del valor nominal. ¿Cuál es la posible corriente mínima y máxima que pasa por el resistor?</para>
+</problem>
+<solution id="fs-id1170902191383">
+<para id="fs-id1170902102541"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>min</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2,375</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>,</m:mo><m:mspace width="0.8em"/><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>min</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>12,63</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2,625</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>,</m:mo><m:mspace width="0.8em"/><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>11,43</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902161919">
+<problem id="fs-id1170902063263">
+<para id="fs-id1170902437990">Un resistor está conectado en serie con una fuente de alimentación de 20,00 V. La medida de corriente es de 0,50 A. ¿Cuál es la resistencia del resistor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903761757">
+<problem id="fs-id1170902221718">
+<para id="fs-id1170902197081">Se coloca un resistor en un circuito con una fuente de voltaje ajustable. A continuación se muestra el voltaje y la corriente que atraviesan el resistor, así como las mediciones. Estime la resistencia del resistor.</para>
+<media id="fs-id1170903786923" alt="La figura es un gráfico de voltaje versus corriente. Existe una relación lineal entre el voltaje y la corriente. Es cero voltios a cero amperios, 200 voltios a 2 amperios, 400 voltios a 4 amperios, 600 voltios a 6 amperios y 800 voltios a 8 amperios.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_04_Quest35_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1170902305086">
+<para id="fs-id1170902197131"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903864145">
+<problem id="fs-id1170902292912">
+<para id="fs-id1170902116290">La siguiente tabla muestra las mediciones de una directa y el voltaje a través de una muestra de material. Trace los datos y, suponiendo que el objeto es un dispositivo óhmico, estime la resistencia.</para>
+<table id="fs-id1170902293374" class="unnumbered" summary="This table has two columns and ten rows. The first row is a header row and it labels each column: “I in A”, and “V in V”. Under the “I” column is the list of numbers: 0; 2; 4; 6; 8; 10; 12; 14; 16. ”. Under the “V” column is the list of numbers: 3; 23; 39; 58; 77; 100; 119; 142; 162.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="bottom" align="left"><emphasis effect="italics">I</emphasis>(A)</entry>
+<entry valign="bottom" align="left"><emphasis effect="italics">V</emphasis>(V)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="bottom" align="right">0</entry>
+<entry valign="bottom" align="right">3</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">2</entry>
+<entry valign="bottom" align="right">23</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">4</entry>
+<entry valign="bottom" align="right">39</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">6</entry>
+<entry valign="bottom" align="right">58</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">8</entry>
+<entry valign="bottom" align="right">77</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">10</entry>
+<entry valign="bottom" align="right">100</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">12</entry>
+<entry valign="bottom" align="right">119</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">14</entry>
+<entry valign="bottom" align="right">142</entry>
+</row>
+<row valign="top">
+<entry valign="bottom" align="right">16</entry>
+<entry valign="bottom" align="right">162</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170902131900">
+<term>diodo</term>
+<meaning id="fs-id1170903928987">dispositivo de circuito no óhmico que permite el flujo de corriente en una sola dirección</meaning>
+</definition>
+<definition id="fs-id1170902405808">
+<term>ley de Ohm</term>
+<meaning id="fs-id1170902381048">relación empírica que establece que la corriente <emphasis effect="italics">I</emphasis> es proporcional a la diferencia de potencial <emphasis effect="italics">V</emphasis>; a menudo se escribe como <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>R</m:mi></m:mrow></m:math>, donde <emphasis effect="italics">R</emphasis> es la resistencia</meaning>
+</definition>
+<definition id="fs-id1170902149697">
+<term>óhmico</term>
+<meaning id="fs-id1170902342874">tipo de material para el que es válida la ley de Ohm, es decir, la caída de voltaje a través del dispositivo es igual a la corriente por la resistencia</meaning>
+</definition>
+<definition id="fs-id1170903799858">
+<term>no óhmico</term>
+<meaning id="fs-id1170904170235">tipo de material para el que la ley de Ohm no es válida</meaning>
+</definition>
+</glossary>
+</document>

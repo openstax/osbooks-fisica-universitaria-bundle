@@ -1,0 +1,348 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Ecuación de Bernoulli</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90694</md:content-id>
+  <md:title>Ecuación de Bernoulli</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar los términos de la ecuación de Bernoulli.</item>
+<item>Explicar cómo se relaciona la ecuación de Bernoulli con la conservación de la energía.</item>
+<item>Describir cómo derivar el principio de Bernoulli a partir de la ecuación de Bernoulli.</item>
+<item>Hacer cálculos usando el principio de Bernoulli.</item>
+<item>Describir algunas aplicaciones del principio de Bernoulli.</item>
+</list></md:abstract>
+  <md:uuid>a4a95dee-6944-40e1-b631-720798992fc5</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170960194117">Como mostramos en la <link target-id="CNX_UPhysics_Figure_14_05_TubeNarrow" document="m90693"/>, cuando un fluido circula en un canal más estrecho, su velocidad aumenta. Eso significa que su energía cinética también aumenta. El aumento de la energía cinética procede del trabajo neto realizado sobre el fluido para empujarlo hacia el interior del canal. Además, si el fluido cambia de posición vertical, la fuerza gravitacional realiza un trabajo sobre el fluido.</para>
+<para id="fs-id1170959731449">Se produce una diferencia de presión cuando el canal se estrecha. Esta diferencia de presión resulta en una fuerza neta sobre el fluido porque la presión por el área es igual a la fuerza, y esta fuerza neta hace trabajo. Recordemos el teorema de trabajo-energía,</para>
+<equation id="fs-id1170959784297" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170957564091">El trabajo neto realizado aumenta la energía cinética del fluido. En consecuencia, la presión cae en un fluido que se mueve rápidamente, esté o no confinado en un tubo.</para>
+<para id="fs-id1170959698096">Hay muchos ejemplos comunes de caída de presión en fluidos que se mueven rápidamente. Por ejemplo, las cortinas de la ducha tienen la desagradable costumbre de abultarse dentro de la cabina cuando la ducha está abierta. La explicación es que el chorro de agua y aire a gran velocidad crea una región de menor presión en el interior de la ducha, mientras que la presión en el otro lado permanece a la presión atmosférica estándar. Esta diferencia de presión genera una fuerza neta que empuja la cortina hacia dentro. Del mismo modo, cuando un automóvil adelanta a un camión en la carretera, los dos vehículos parecen acercarse el uno al otro. La explicación es la misma: la alta velocidad del aire entre el automóvil y el camión crea una región de menor presión entre los vehículos, y una mayor presión en el exterior hace que sean empujados juntos (<link target-id="CNX_UPhysics_Figure_14_06_TruckCar"/>). Este efecto se observó a mediados del siglo XIX cuando se comprobó que trenes que pasaban en direcciones opuestas se inclinaban precariamente uno hacia el otro.</para>
+<figure id="CNX_UPhysics_Figure_14_06_TruckCar">
+<media id="fs-id1170957588874" alt="La figura es una vista aérea de un automóvil que pasa por delante de un camión en una autopista. El aire que pasa entre los vehículos fluye por un canal más estrecho y aumenta la velocidad de v1 a v2, lo que hace que la presión entre los vehículos disminuya de Po a Pi.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_06_TruckCar.jpg"/>
+</media>
+<caption>Una vista aérea de un automóvil que pasa por delante de un camión en una autopista. El aire que pasa entre los vehículos fluye por un canal más estrecho y debe aumentar su velocidad (<m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es mayor que <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>), lo que hace que la presión entre ellos disminuya (<m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> es menor que <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mtext>o</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:math> Una mayor presión en el exterior empuja al automóvil y al camión juntos.</caption>
+</figure>
+<section id="fs-id1170957582509">
+<title>Conservación de energía y ecuación de Bernoulli</title>
+<para id="fs-id1170959699159">La aplicación del principio de conservación de la energía al flujo laminar sin fricción conduce a una relación muy útil entre presión y velocidad de flujo en un fluido. Esta relación se denomina <term>ecuación de Bernoulli</term>, en honor a Daniel <term class="no-emphasis">Bernoulli</term> (1700-1782), quien publicó sus estudios sobre movimiento de fluidos en su libro <emphasis effect="italics">Hydrodynamica</emphasis> (1738).</para>
+<para id="fs-id1170960164239">Considere un fluido incompresible que circula a través de una tubería que tiene un diámetro y una altura variables, como se muestra en la <link target-id="CNX_UPhysics_Figure_14_06_Bernoullis"/>. Los subíndices 1 y 2 en la figura denotan dos lugares a lo largo de la tubería e ilustran las relaciones entre las áreas de las secciones transversales <emphasis effect="italics">A</emphasis>, la velocidad del flujo <emphasis effect="italics">v</emphasis>, la altura desde el suelo <emphasis effect="italics">y</emphasis> y la presión <emphasis effect="italics">p</emphasis> en cada punto. Suponemos que la densidad en los dos puntos es la misma, por lo tanto, la densidad se denota por <m:math><m:mi>ρ</m:mi></m:math> sin subíndices, y como el fluido es incompresible, los volúmenes sombreados deben ser iguales.</para>
+<figure id="CNX_UPhysics_Figure_14_06_Bernoullis">
+<media id="fs-id1170960183967" alt="La figura es el esquema de un fluido que circula en una tubería en forma de “S” con el área de la sección transversal que se reduce de A1 (parte inferior izquierda) a A2 (parte superior derecha). La parte inferior izquierda está a la altura y1 del suelo; la parte superior derecha está a la altura h2 del suelo. El fluido se mueve con la velocidad v1 en la parte inferior y v2 en la parte superior. El volumen de fluido dv toma dx1 en la parte de la tubería y dx2 en la parte superior.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_06_Bernoullis.jpg"/>
+</media>
+<caption>La geometría usada para la derivación de la ecuación de Bernoulli.</caption>
+</figure>
+<para id="fs-id1170959709015">También suponemos que no hay fuerzas viscosas en el fluido, por lo que la energía de cualquier parte del fluido se conservará. Para derivar la ecuación de Bernoulli, primero calculamos el trabajo realizado sobre el fluido:</para>
+<equation id="fs-id1170959658621" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mi>d</m:mi><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mi>d</m:mi><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></equation>
+<equation id="fs-id1170959641396" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:mi>d</m:mi><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:mi>d</m:mi><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>V</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959709086">El trabajo realizado se debe a la fuerza conservativa de la gravedad y al cambio en la energía cinética del fluido. El cambio en la energía cinética del fluido es igual a</para>
+<equation id="fs-id1170959675282" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959756251">El cambio de energía potencial es</para>
+<equation id="fs-id1170960174956" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959696947">La ecuación de la energía se convierte entonces en</para>
+<equation id="fs-id1170959693064" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>d</m:mi><m:mi>W</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>d</m:mi><m:mi>K</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>U</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>d</m:mi><m:mi>V</m:mi><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1170957416473">Al reordenar la ecuación se obtiene la ecuación de Bernoulli:</para>
+<equation id="fs-id1170957441861" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959649515">Esta relación establece que la energía mecánica de cualquier parte del fluido cambia como consecuencia del trabajo realizado por el fluido externo a esa parte, debido a la variación de la presión a lo largo del camino. Dado que los dos puntos fueron elegidos arbitrariamente, podemos escribir la ecuación de Bernoulli de forma más general como un principio de conservación a lo largo del flujo.</para>
+<note id="fs-id1170960172355">
+<title>Ecuación de Bernoulli</title>
+<para id="fs-id1170959713476">Para un fluido incompresible y sin fricción, la combinación de la presión y la suma de las densidades de energías cinética y potencial es constante no solo en el tiempo, sino también a lo largo de una línea de corriente:</para>
+<equation id="fs-id1170959793113"><m:math><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>constante</m:mtext></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170959719704">Hay que tener en cuenta el hecho de que en una situación dinámica las presiones a la misma altura en diferentes partes del fluido pueden ser diferentes si tienen diferentes velocidades de flujo.</para>
+</section>
+<section id="fs-id1170957601293">
+<title>Análisis de la ecuación de Bernoulli</title>
+<para id="fs-id1170959791726">Según la ecuación de Bernoulli, si seguimos un pequeño volumen de fluido a lo largo de su trayectoria, varias cantidades de la suma pueden cambiar, pero el total permanece constante. La ecuación de Bernoulli es, de hecho, solo una declaración conveniente de la conservación de la energía para un fluido incompresible en ausencia de fricción.</para>
+<para id="fs-id1170960162009">La forma general de la ecuación de Bernoulli tiene tres términos y es ampliamente aplicable. Para entenderlo mejor, consideremos algunas situaciones concretas que simplifican e ilustran su uso y significado.</para>
+<section id="fs-id1170959792748">
+<title>Ecuación de Bernoulli para fluidos estáticos</title>
+<para id="fs-id1170959945021">En primer lugar, consideremos una situación muy sencilla en la que el fluido es estático, es decir, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> La ecuación de Bernoulli en ese caso es</para>
+<equation id="fs-id1170959872309" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959790780">Podemos simplificar aún más la ecuación al establecer <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> (se puede elegir cualquier altura para una altura de referencia de cero, como se hace a menudo para otras situaciones en las que interviene la fuerza gravitacional, lo que hace que todas las demás alturas sean relativas). En este caso, obtenemos</para>
+<equation id="fs-id1170959731666" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959688671">Esta ecuación nos dice que en fluidos estáticos la presión aumenta con la profundidad. Al pasar del punto 1 al punto 2 del fluido, la profundidad aumenta en <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>h</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+</m:mrow>
+</m:math>, y en consecuencia, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es mayor que <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> por una cantidad <m:math><m:mrow><m:mi>ρ</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>. En el caso más sencillo, <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es cero en la parte superior del fluido, y obtenemos la conocida relación <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mi>h</m:mi></m:mrow></m:math>. <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Recordemos que</m:mtext><m:mspace width="0.2em"/><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mi>h</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>U</m:mi><m:mtext>g</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>h</m:mi><m:mo>.</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math> Así, la ecuación de Bernoulli confirma el hecho de que el cambio de presión debido al peso de un fluido es <m:math><m:mrow><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mi>h</m:mi></m:mrow></m:math>. Aunque presentamos la ecuación de Bernoulli para movimiento de fluidos, esta incluye gran parte de lo que hemos estudiado antes para fluidos estáticos.</para>
+</section>
+<section id="fs-id1170957510826">
+<title>Principio de Bernoulli</title>
+<para id="fs-id1170959783296">Supongamos que un fluido se mueve pero su profundidad es constante, es decir, <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Con esta condición, la ecuación de Bernoulli se convierte en</para>
+<equation id="fs-id1170959648401" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959658543">Las situaciones en las que el fluido circula a una profundidad constante son tan comunes que esta ecuación suele llamarse también <term>principio de Bernoulli</term>, lo cual es simplemente la ecuación de Bernoulli para fluidos a profundidad constante (nótese de nuevo que esto se aplica a un pequeño volumen de fluido mientras lo seguimos a lo largo de su trayectoria). El principio de Bernoulli refuerza el hecho de que la presión disminuye al aumentar la velocidad en un fluido en movimiento: Si <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es mayor que <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> en la ecuación, entonces <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> debe ser menor que <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> para que la igualdad se mantenga.</para>
+<example id="fs-id1170960046824">
+<para id="fs-id1170959694055"><title>Calcular presión</title>
+En el <link target-id="fs-id1170959644656" document="m90693"/>, comprobamos que la velocidad del agua en una manguera aumenta de 1,96 m/s a 25,5 m/s yendo de la manguera a la boquilla. Calcule la presión en la manguera, dado que la presión absoluta en la boquilla es <m:math><m:mrow><m:mn>1,01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> (atmosférico, como debe ser) y si se supone un flujo nivelado y sin fricción.</para>
+<para id="fs-id1170959762852"><title>Estrategia</title>
+Flujo nivelado significa profundidad constante, por lo que se aplica el principio de Bernoulli. Usamos el subíndice 1 para los valores de la manguera y el 2 para los de la boquilla. Por lo tanto, se nos pide que encontremos <m:math><m:mrow><m:msub><m:mrow><m:mi>p</m:mi><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:math>.</para>
+<para id="fs-id1170959722146"><title>Solución</title>
+Resolver el principio de Bernoulli para <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> arroja</para>
+<equation id="fs-id1170959753176" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959699262">Al sustituir valores conocidos,</para>
+<equation id="fs-id1170959763545" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1,01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>N/m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>+</m:mtext><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>kg/m</m:mtext><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">[</m:mo><m:msup><m:mrow><m:mtext>(25,5 m/s)</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:msup><m:mrow><m:mtext>(1,96 m/s)</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">]</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4,24</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>N/m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170957409114"><title>Importancia</title>
+Esta presión absoluta en la manguera es mayor que en la boquilla, como era de esperarse, ya que <emphasis effect="italics">v</emphasis> es mayor en la boquilla. La presión <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> en la boquilla debe ser atmosférica, ya que el agua sale a la atmósfera sin otros cambios en las condiciones.</para>
+</example>
+</section>
+</section>
+<section id="fs-id1170960050591">
+<title>Aplicaciones del principio de Bernoulli</title>
+<para id="fs-id1170959822621">Hay muchos dispositivos y situaciones en los que el fluido circula a una altura constante y, por tanto, se puede analizar con el principio de Bernoulli.</para>
+<section id="fs-id1170957589129">
+<title>Arrastre</title>
+<para id="fs-id1170957415151">El principio de Bernoulli se aplica desde hace mucho tiempo usando reducción de la presión en fluidos de alta velocidad para mover cosas. Con una mayor presión en el exterior, el fluido de alta velocidad obliga a otros fluidos a entrar en la corriente. Este proceso se denomina <term class="no-emphasis"><emphasis effect="italics">arrastre</emphasis></term>. Los dispositivos de arrastre se han usado desde la antigüedad como bombas para elevar el agua a pequeñas alturas, como es necesario para drenar pantanos, campos u otras áreas bajas. Algunos otros dispositivos que usan el concepto de arrastre se muestran en la <link target-id="CNX_UPhysics_Figure_14_06_Entrainmnt"/>.</para>
+<figure id="CNX_UPhysics_Figure_14_06_Entrainmnt">
+<media id="fs-id1170957565217" alt="La figura A es un dibujo de un mechero Bunsen: el aire y el gas natural entran por la parte inferior y se mueven hacia arriba. La figura B es un dibujo de un atomizador: una pera de presión crea un chorro de aire que fluye horizontalmente y arrastra las gotas de perfume en movimiento hacia arriba y fuera del frasco. La figura C es un dibujo de un aspirador común en el que el agua se desplaza de arriba a abajo y se combina con el flujo de aire que entra por un lateral. La figura D es el dibujo de una chimenea en la que un flujo de aire caliente se desplaza hacia arriba combinándose con el aire frío que entra por el lateral.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_06_Entrainmnt.jpg"/>
+</media>
+<caption>Los dispositivos de arrastre usan el aumento de la velocidad del fluido para crear presiones bajas, que luego arrastran un fluido dentro de otro. (a) Un mechero Bunsen usa una boquilla de gas ajustable, y arrastra aire para una combustión adecuada. (b) Un atomizador usa una pera de presión para crear un chorro de aire que arrastra gotas de perfume. Los pulverizadores de pintura y los carburadores usan técnicas muy similares para mover sus respectivos líquidos. (c) Un aspirador común usa un chorro de agua a gran velocidad para crear una región de menor presión. Los aspiradores se pueden usar como bombas de succión en situaciones dentales y quirúrgicas o para drenar un sótano inundado o producir una presión reducida en un recipiente. (d) La chimenea de un calentador de agua está diseñada para arrastrar el aire hacia la tubería que atraviesa el techo.</caption>
+</figure>
+</section>
+<section id="fs-id1170959977488">
+<title>Medición de velocidad</title>
+<para id="fs-id1170959787786">La <link target-id="CNX_UPhysics_Figure_14_06_FluidVelci"/> muestra dos dispositivos que aplican el principio de Bernoulli para medir velocidad de fluidos. El manómetro de la parte (a) está conectado a dos tubos lo suficientemente pequeños como para no perturbar apreciablemente el flujo. El tubo orientado hacia el fluido que se aproxima crea un punto muerto con velocidad cero (<m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>) delante de él, mientras que el fluido que pasa por el otro tubo tiene una velocidad <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Esto significa que el principio de Bernoulli, tal y como se establece en</para>
+<equation id="fs-id1170959799857" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:math></equation>
+<para id="fs-id1170959868739">se convierte en</para>
+<equation id="fs-id1170959692930" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959799997">Así, la presión <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> sobre la segunda apertura se reduce en <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:math>, por lo que el fluido en el manómetro aumenta en <emphasis effect="italics">h</emphasis> en el lado conectado a la segunda abertura, donde</para>
+<equation id="fs-id1170960142378" class="unnumbered"><label/><m:math><m:mrow><m:mi>h</m:mi><m:mo>∝</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959791171">(recordemos que el símbolo <m:math><m:mo>∝</m:mo></m:math> significa “proporcional a”). Al resolver para <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>v</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+</m:mrow>
+</m:math>, vemos que</para>
+<equation id="fs-id1170959872184" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>∝</m:mo><m:msqrt><m:mi>h</m:mi></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170960026134">La parte (b) muestra una versión de este dispositivo que es de uso común para medir varias velocidades de fluidos; tales dispositivos se usan frecuentemente como indicadores de la velocidad del aire en los aviones.</para>
+<figure id="CNX_UPhysics_Figure_14_06_FluidVelci">
+<media id="fs-id1170959795803" alt="La figura A es un dibujo de un manómetro que se conecta a dos tubos que están muy juntos y son lo suficientemente pequeños como para no perturbar el flujo. El tubo 1 está abierto en el extremo que da al flujo, mientras que el tubo 2 tiene una abertura lateral. La figura B es un dibujo de un manómetro que está conectado a dos tubos, uno de los cuales (tubo 1) se inserta en otro (tubo 2). El tubo 1 está abierto en el extremo que da al flujo, mientras que el tubo 2 tiene una abertura lateral.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_06_FluidVelci.jpg"/>
+</media>
+<caption>Medición de la velocidad del fluido basada en el principio de Bernoulli. (a) Se conecta un manómetro a dos tubos que están cerca entre sí y son lo suficientemente pequeños como para no perturbar el flujo. El tubo 1 está abierto en el extremo que da al flujo. Allí se crea un punto muerto con velocidad cero. El tubo 2 tiene una abertura en el lateral, por lo que el fluido tiene una velocidad <emphasis effect="italics">v</emphasis> a través de la abertura; por lo tanto, la presión allí disminuye. La diferencia de presión en el manómetro es <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:math>, por lo que <emphasis effect="italics">h</emphasis> es proporcional a <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math> (b) Este tipo de dispositivo de medición de la velocidad es un <term class="no-emphasis">tubo de Prandtl</term>, también conocido como tubo de Pitot.</caption>
+</figure>
+</section>
+<section id="fs-id1170959813428">
+<title>Una manguera de incendios</title>
+<para id="fs-id1170960194650">Todas las aplicaciones anteriores de la ecuación de Bernoulli implicaban condiciones simples, como altura o presión constantes. El siguiente ejemplo es una aplicación más general de la ecuación de Bernoulli en la que cambian presión, velocidad y altura.</para>
+<example id="fs-id1170957513743">
+<para id="fs-id1170959690398"><title>Calcular presión: una boquilla de manguera de incendios</title>
+Las mangueras que se usan en los grandes incendios estructurales tienen un diámetro interior de 6,40 cm (<link target-id="CNX_UPhysics_Figure_14_06_FireHoseTr"/>). Supongamos que dicha manguera transporta un flujo de 40,0 L/s, a partir de una presión manométrica de <m:math><m:mrow><m:mn>1,62</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. La manguera sube 10,0 m por una escalera hasta una boquilla con un diámetro interior de 3,00 cm. ¿Cuál es la presión en la boquilla?</para>
+<figure id="CNX_UPhysics_Figure_14_06_FireHoseTr">
+<media id="fs-id1170960175668" alt="La figura es un dibujo del camión de bomberos con la escalera extendida. El bombero que está en la parte superior de la escalera usa la manguera para extinguir el fuego. El flujo de agua de la manguera es paralelo al suelo y está a 10 metros por encima de él.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_06_FireHoseTr.jpg"/>
+</media>
+<caption>La presión en la boquilla de esta manguera contra incendios es menor que en el suelo por dos motivos: el agua tiene que ir cuesta arriba para llegar a la boquilla y la velocidad aumenta en la boquilla. A pesar de su baja presión, el agua puede ejercer una gran fuerza sobre cualquier cosa que golpee en virtud de su energía cinética. La presión de la corriente de agua se iguala a la presión atmosférica una vez que sale al aire.</caption>
+</figure>
+<para id="fs-id1170959693485"><title>Estrategia</title>
+Debemos usar la ecuación de Bernoulli para resolver la presión, ya que la profundidad no es constante.</para>
+<para id="fs-id1167133561393"><title>Solución</title>
+La ecuación de Bernoulli es</para>
+<equation id="fs-id1170957601304" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></equation>
+<para id="fs-id1170959806043">donde los subíndices 1 y 2 se refieren a las condiciones iniciales en el suelo y a las condiciones finales dentro de la boquilla, respectivamente. Primero debemos encontrar las velocidades <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Toda vez que <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, obtenemos</para>
+<equation id="fs-id1170959763430" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>40,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mi>π</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3,20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>m)</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>12,4</m:mn><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959808166">Del mismo modo, encontramos</para>
+<equation id="fs-id1170960054832" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>56,6</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170957579599">Esta velocidad bastante grande es útil para alcanzar el fuego. Ahora, al tomar <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> sea cero, resolvemos la ecuación de Bernoulli para <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>:</para>
+<equation id="fs-id1170959698034" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959750223">Al sustituir valores conocidos se obtiene</para>
+<equation id="fs-id1170960181024" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1,62</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>N/m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>kg/m</m:mtext><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">[</m:mo><m:msup><m:mrow><m:mtext>(12,4 m/s)</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:msup><m:mrow><m:mtext>(56,6 m/s)</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">]</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.1em"/><m:mo>−</m:mo><m:mspace width="0.1em"/><m:mo stretchy="false">(</m:mo><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>kg/m</m:mtext><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9,80</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m/s</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0.</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170957601201"><title>Importancia</title>
+Este valor es una presión manométrica, ya que la presión inicial se dio como presión manométrica. Así, la presión de la boquilla es igual a la presión atmosférica, como debe ser, porque el agua sale a la atmósfera sin cambios en sus condiciones.</para>
+</example>
+</section>
+</section>
+<section id="fs-id1170957513914" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170957410129" list-type="bulleted" bullet-style="bullet">
+<item>La ecuación de Bernoulli establece que la suma en cada lado de la siguiente ecuación es constante, o la misma en dos puntos cualesquiera de un fluido incompresible sin fricción:
+<equation id="fs-id1170960047559" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:msub><m:mi>h</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>El principio de Bernoulli es la ecuación de Bernoulli aplicada a situaciones en las que la altura del fluido es constante. Los términos que implican profundidad (o altura <emphasis effect="italics">h</emphasis>) se restan, con lo que se obtiene
+<equation id="fs-id1170960045553" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>El principio de Bernoulli tiene muchas aplicaciones, como arrastre y medición de la velocidad.</item>
+</list>
+</section>
+<section id="fs-id1170959976112" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1170960047738">
+<problem id="fs-id1170959804747">
+<para id="fs-id1170960049594">Puede lanzar un chorro de agua desde una manguera de jardín a una distancia considerablemente mayor cubriendo parcialmente la abertura con el pulgar. Explique cómo funciona esto.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957564080">
+<problem id="fs-id1170959730695">
+<para id="fs-id1170957554978">El agua se dispara casi verticalmente hacia arriba en una fuente decorativa y se observa que la corriente se ensancha a medida que sube. Por el contrario, un chorro de agua que cae directamente de un grifo se estrecha. Explique por qué.</para>
+</problem>
+<solution id="fs-id1170957542619">
+<para id="fs-id1170959809569">La masa de agua que entra en una sección transversal debe ser igual a la que sale. Por la ecuación de continuidad, sabemos que la densidad por el área por la velocidad debe permanecer constante. Como la densidad del agua no cambia, la velocidad por el área de la sección transversal que entra en una región debe ser igual al área de la sección transversal por la velocidad que sale de la región. Dado que la velocidad de la corriente de la fuente disminuye a medida que asciende debido a la gravedad, el área debe aumentar. Dado que la velocidad del chorro del grifo se acelera al caer, el área debe disminuir.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959786329">
+<problem id="fs-id1170957605409">
+<para id="fs-id1170959788758">Revise la <link target-id="CNX_UPhysics_Figure_14_06_TruckCar"/>. Responda las siguientes dos preguntas. ¿Por qué <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mi>o</m:mi></m:msub></m:mrow></m:math> es menos que la atmosférica? ¿Por qué <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mi>o</m:mi></m:msub></m:mrow></m:math> es mayor que <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959680556"><problem id="fs-id1170959671933">
+<para id="fs-id1170957603284">Un tubo con un segmento estrecho diseñado para mejorar el arrastre se llama <term class="no-emphasis">Venturi</term>, como el que se muestra a continuación. Los venturis son muy usados en carburadores y aspiradores. ¿Cómo esta estructura refuerza el arrastre?</para>
+<media id="fs-id1170957588843" alt="La figura es un dibujo de un tubo con un segmento estrecho etiquetado como “construcción de riesgo”. Se realiza una pequeña conexión adicional en la constricción y permite que el fluido arrastrado entre en el fluido circulante.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_Figure_14_06_Venturitbe_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1170957505707">
+<para id="fs-id1170957613515">Cuando el tubo se estrecha, el fluido se ve obligado a acelerar, gracias a la ecuación de continuidad y al trabajo realizado sobre el fluido. Cuando el tubo es estrecho, la presión disminuye. Esto significa que el fluido arrastrado se empujará hacia el área estrecha.</para>
+</solution>
+</exercise><exercise id="fs-id1170959731340">
+<problem id="fs-id1170959942125">
+<para id="fs-id1170957592258">Algunos tubos de chimenea tienen forma de T, con un travesaño en la parte superior que ayuda a aspirar los gases cuando hay una ligera brisa. Explique cómo funciona esto en términos del principio de Bernoulli.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959724108">
+<problem id="fs-id1170959801004">
+<para id="fs-id1170957577894">¿Existe un límite en la altura a la que un dispositivo de arrastre puede elevar un fluido? Explique su respuesta.</para>
+</problem>
+<solution id="fs-id1170959706039">
+<para id="fs-id1170957514299">El trabajo realizado por la presión se puede usar para aumentar la energía cinética y ganar energía potencial. A medida que la altura es mayor, queda menos energía para dar a la energía cinética. Finalmente, habrá una altura máxima que no podrá ser superada.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959942064">
+<problem id="fs-id1170959863653">
+<para id="fs-id1170957574878">¿Por qué es preferible que los aviones despeguen contra el viento en vez de con el viento?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957600653">
+<problem id="fs-id1170959788149">
+<para id="fs-id1170959782824">En ocasiones, los tejados se desprenden verticalmente durante un ciclón tropical, y los edificios, a veces, explotan hacia fuera cuando los golpea un tornado. Use el principio de Bernoulli para explicar estos fenómenos.</para>
+</problem>
+<solution id="fs-id1170959863908">
+<para id="fs-id1170959961025">Debido a la velocidad del aire en el exterior del edificio, la presión fuera de la casa disminuye. La mayor presión en el interior del edificio puede hacer volar el tejado o hacer que el edificio explote.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959960591">
+<problem id="fs-id1170957603313">
+<para id="fs-id1170959865718">Es peligroso situarse cerca de las vías del tren cuando pasa un tren de cercanías a gran velocidad. Explique por qué la presión atmosférica lo empujaría hacia el tren en movimiento.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959702038">
+<problem id="fs-id1170957587709">
+<para id="fs-id1170959817925">La presión del agua dentro de una boquilla de manguera puede ser inferior a la presión atmosférica debido al efecto Bernoulli. Explique en términos de energía cómo el agua puede salir de la boquilla contra la presión atmosférica opuesta.</para>
+</problem>
+<solution id="fs-id1170959828008">
+<para id="fs-id1170957598838">El aire dentro de la manguera tiene energía cinética debido a su movimiento. La energía cinética se puede usar para realizar un trabajo contra la diferencia de presión.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957584045">
+<problem id="fs-id1170959935493">
+<para id="fs-id1170959939261">David bajó la ventanilla de su automóvil mientras conducía por la autopista. Una bolsa de plástico vacía que había en el suelo salió rápidamente volando por la ventana. Explique por qué.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959957064">
+<problem id="fs-id1170959876697">
+<para id="fs-id1170957588945">Según la ecuación de Bernoulli, ¿cuáles son las tres formas de energía en un fluido? (Nótese que estas formas son conservadoras, a diferencia de la transferencia de calor y otras formas disipativas no incluidas en la ecuación de Bernoulli).</para>
+</problem>
+<solution id="fs-id1170959976391">
+<para id="fs-id1170960047588">La energía potencial debido a la posición, la energía cinética debido a la velocidad y el trabajo realizado por una diferencia de presión.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959765791">
+<problem id="fs-id1170957518670">
+<para id="fs-id1170957602071">La vieja bota de goma que se muestra a continuación tiene dos fugas. ¿A qué altura máxima puede brotar el agua de la fuga 1? ¿En qué se diferencia la velocidad del agua que sale de la fuga 2 de la de la fuga 1? Explique sus respuestas en términos de energía.</para>
+<media id="fs-id1170960013555" alt="La figura es un dibujo de una bota con dos fugas situadas a la misma altura. La fuga 1 apunta hacia arriba, mientras que la fuga dos apunta horizontalmente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_06_RubberBoot_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170959809591">
+<problem id="fs-id1170957600303">
+<para id="fs-id1170960018127">La presión del agua dentro de una boquilla de manguera puede ser inferior a la presión atmosférica debido al efecto Bernoulli. Explique en términos de energía cómo el agua puede salir de la boquilla contra la presión atmosférica opuesta.</para>
+</problem>
+<solution id="fs-id1170957578510">
+<para id="fs-id1170959818796">El agua tiene energía cinética debido a su movimiento. Esta energía puede convertirse en trabajo contra la diferencia de presión.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170957601272" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170957599506">
+<problem id="fs-id1170957569802">
+<para id="fs-id1170959865727">Compruebe que la presión tiene unidades de energía por unidad de volumen.</para>
+</problem>
+<solution id="fs-id1170959751934">
+<para id="fs-id1170957546968"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>F</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>p</m:mi><m:mi>A</m:mi><m:mo stretchy="false">⇒</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>[</m:mo><m:mi>p</m:mi><m:mo>]</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mtext>N/m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m/m</m:mtext><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mtext>J/m</m:mtext><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mtext>energía/volumen</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959724522">
+<problem id="fs-id1170957531366">
+<para id="fs-id1170959709421">Suponga que tiene un medidor de velocidad del viento como el tubo de Pitot que se muestra en la <link target-id="CNX_UPhysics_Figure_14_06_FluidVelci"/>. ¿En qué factor debe aumentar la velocidad del viento para duplicar el valor de <emphasis effect="italics">h</emphasis> en el manómetro? ¿Esto es independiente del fluido en movimiento y del fluido en el manómetro?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957588775">
+<problem id="fs-id1170959751116">
+<para id="fs-id1170959751118">Si la lectura de la presión de su tubo de Pitot es de 15,0 mm Hg a una velocidad de 200 km/h, ¿cuál será a 700 km/h a la misma altitud?</para>
+</problem>
+<solution id="fs-id1170959791712">
+<para id="fs-id1170959971703">−135 mm Hg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170960169478">
+<problem id="fs-id1170957426971">
+<para id="fs-id1170957595823">Cada pocos años, los vientos en Boulder, Colorado alcanzan velocidades sostenidas de 45,0 m/s (unas 100 mph) cuando la corriente en chorro desciende durante el comienzo de la primavera. Aproximadamente, ¿cuál es la fuerza debido a la ecuación de Bernoulli en un tejado con una superficie de <m:math><m:mrow><m:mn>220</m:mn><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>? La densidad típica del aire en Boulder es <m:math><m:mrow><m:mn>1,14</m:mn><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> y la presión atmosférica correspondiente es <m:math><m:mrow><m:mn>8,89</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> (el principio de Bernoulli, tal como se indica en el texto, supone un flujo laminar. El uso del principio aquí produce solo un resultado aproximado, porque hay una turbulencia significativa).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957418033">
+<problem id="fs-id1170957418035">
+<para id="fs-id1170959811865">¿Cuál es la caída de presión debido al efecto Bernoulli cuando el agua entra en una boquilla de 3,00 cm de diámetro desde una manguera de incendios de 9,00 cm de diámetro mientras transporta un flujo de 40,0 L/s? (b) ¿A qué altura máxima por encima de la boquilla puede subir el agua? (La altura real será significativamente menor debido a la resistencia del aire).</para>
+</problem>
+<solution id="fs-id1170960143914">
+<para id="fs-id1170960143916">a. <m:math><m:mrow><m:mn>1,58</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>; b. 163 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170960179986">
+<problem id="fs-id1170960179988">
+<para id="fs-id1170959698192">(a) Con la ecuación de Bernoulli, demuestre que la velocidad del fluido medida <emphasis effect="italics">v</emphasis> para un tubo de Pitot, como el de <link target-id="CNX_UPhysics_Figure_14_06_FluidVelci"/>(b), viene dada por <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>ρ</m:mi><m:mo>′</m:mo></m:msup><m:mi>g</m:mi><m:mi>h</m:mi></m:mrow><m:mi>ρ</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:math>, donde <emphasis effect="italics">h</emphasis> es la altura del fluido del manómetro, <m:math><m:msup><m:mi>ρ</m:mi><m:mo>′</m:mo></m:msup></m:math> es la densidad del fluido del manómetro, <m:math><m:mi>ρ</m:mi></m:math> es la densidad del fluido en movimiento y <emphasis effect="italics">g</emphasis> es la aceleración debido a la gravedad (obsérvese que <emphasis effect="italics">v</emphasis> es efectivamente proporcional a la raíz cuadrada de <emphasis effect="italics">h</emphasis>, como se indica en el texto). (b) Calcule <emphasis effect="italics">v</emphasis> para el aire en movimiento si la <emphasis effect="italics">h</emphasis> de un manómetro de mercurio es de 0,200 m.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170960013224">
+<problem id="fs-id1170960013226">
+<para id="fs-id1170959673055">Un recipiente de agua tiene un área de sección transversal de <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0,1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> Un pistón se asienta sobre el agua (véase la siguiente figura). Hay un surtidor situado a 0,15 m del fondo del tanque, abierto a la atmósfera, y un chorro de agua sale del surtidor. El área de la sección transversal del surtidor es <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mn>7,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>. (a) ¿Cuál es la velocidad del agua al salir del surtidor? (b) Si la abertura del surtidor está situada a 1,5 m del suelo, ¿a qué distancia del surtidor llega el agua al suelo? Ignore todas las fuerzas de fricción y disipación.</para>
+<media id="fs-id1170960179956" alt="La figura es un dibujo esquemático de un cilindro lleno de fluido y abierto a la atmósfera por un lado. En el fluido se coloca un disco de 20 kg de masa y área de superficie A idéntica a la del cilindro. Está a medio metro por encima del fondo del recipiente. Un surtidor, abierto a la atmósfera, está situado a 0,15 m del fondo del tanque.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_06_keg_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1170960151423">
+<para id="fs-id1170959822340">a. <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>3,28</m:mn><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0,55</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math><newline/> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1,81</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957440042">
+<problem id="fs-id1170959939131">
+<para id="fs-id1170959939133">Un fluido de densidad constante circula a través de una reducción en una tubería. Encuentre una ecuación para el cambio de presión, en términos de <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>A</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo>,</m:mo><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, y la densidad.</para>
+<media id="fs-id1170957488024" alt="La figura es el esquema de una tubería que se estrecha desde el área de la sección transversal A1 hasta el área de la sección transversal A2. El fluido circula por la tubería. La presión y la velocidad del fluido son diferentes en las distintas partes de la tubería. Son P1 y v1 en la sección transversal ancha y P2 y v2 en las regiones de sección transversal estrecha.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_06_reductionpipe_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170959795981">
+<term>ecuación de Bernoulli</term>
+<meaning id="fs-id1170959795986">ecuación resultante de aplicar conservación de la energía a un fluido incompresible sin fricción: <m:math><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>ρ</m:mi><m:mi>g</m:mi><m:mi>h</m:mi><m:mo>=</m:mo><m:mtext>constante</m:mtext><m:mo>,</m:mo></m:mrow></m:math> en todo el fluido</meaning>
+</definition>
+<definition id="fs-id1170957574182">
+<term>principio de Bernoulli</term>
+<meaning id="fs-id1170957574188">la ecuación de Bernoulli aplicada a profundidad constante: 
+<equation id="fs-id1170957604376" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>ρ</m:mi><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:math></equation></meaning>
+</definition>
+</glossary>
+</document>

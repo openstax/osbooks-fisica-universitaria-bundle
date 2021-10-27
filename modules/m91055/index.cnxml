@@ -1,0 +1,278 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>El modelo estándar</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91055</md:content-id>
+  <md:title>El modelo estándar</md:title>
+  <md:abstract><para>Al final de esta sección podrá:</para><list>
+<item>Describir el modelo estándar en términos de las cuatro fuerzas fundamentales y las partículas de intercambio.</item>
+<item>Dibujar un diagrama de Feynman de una interacción simple de partículas.</item>
+<item>Utilizar el principio de incertidumbre de Heisenberg para determinar el rango de fuerzas descrito por el modelo estándar.</item>
+<item>Explicar los fundamentos de las teorías de la gran unificación.</item></list></md:abstract>
+  <md:uuid>c9181cdb-3ec1-4f8c-970c-2a086c43f1fe</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101033955">La principal actividad intelectual de cualquier científico es el desarrollo y la revisión de modelos científicos. Un físico de partículas busca desarrollar modelos de interacciones de partículas. Este trabajo se basa directamente en los trabajos realizados sobre la gravedad y el electromagnetismo en los siglos XVII, XVIII y XIX. El objetivo final de la física es una "teoría del todo" unificada que describa todas las interacciones de las partículas en términos de una única ecuación elegante y una imagen. La ecuación en sí puede ser compleja, pero muchos científicos sospechan que la <emphasis effect="italics">idea</emphasis> que hay detrás de la ecuación nos hará exclamar: "¿Cómo se nos pudo escapar? ¡Era tan obvio!"</para>
+<para id="fs-id1172098380396">En esta sección, presentamos el modelo estándar, que es el mejor modelo actual de las interacciones de las partículas. Describimos el modelo estándar en detalle en términos de fuerzas electromagnéticas y nucleares débiles y fuertes. Al final de esta sección, revisaremos las teorías de unificación en la física de partículas.</para>
+<section id="fs-id1172100953086">
+<title>Introducción al modelo estándar</title>
+<para id="fs-id1172098268288">El <term>modelo estándar</term> de las interacciones entre partículas contiene dos ideas: la <emphasis effect="italics">teoría electrodébil</emphasis> y la <term>cromodinámica cuántica (QCD)</term> (la fuerza que actúa entre las cargas de color). La teoría electrodébil unifica la teoría de la <term>electrodinámica cuántica (QED)</term>, el equivalente moderno del electromagnetismo clásico, y la teoría de las interacciones nucleares débiles. El modelo estándar combina la teoría de la relatividad y la mecánica cuántica.</para>
+<para id="fs-id1172100535203">En el modelo estándar, las interacciones de las partículas se producen mediante el intercambio de bosones, los "portadores de fuerza". Por ejemplo, la fuerza electrostática se comunica entre dos partículas con carga positiva enviando y recibiendo fotones sin masa. Esto puede ocurrir en un rango teórico infinito. El resultado de estas interacciones es la repulsión (o atracción) de Coulomb. Del mismo modo, los cuarks se unen mediante el intercambio de gluones sin masa. Los leptones se desprenden de otros leptones (o decaen en partículas más ligeras) mediante el intercambio de bosones masivos W y Z. Un resumen de las fuerzas descritas por el modelo estándar se encuentra en la <link target-id="fs-id1172101006824"/>. La fuerza gravitacional, mediada por el intercambio de gravitaciones sin masa, se añade en esta tabla para completarla, pero no forma parte del modelo estándar.</para>
+<table id="fs-id1172101006824" summary="This table has 5 columns, 4 rows and a header row. The header row labels each column: Force, Relative strength, Exchange particle or bosons, Particles acted upon, Range. Column 1 has the following entries: Strong, Electromagnetic, Weak, Gravitational. Column 2 has the following values: 1, 1 by 137, 10 to the power minus 10, 10 to the power minus 38. Column 3 has the following entries: Gluon, photon,. W plus or W minus or Z, bosons, gravitation. Column 4 has the following entries: Quarks, Charged particles, Quarks, leptons, neutrinos, All particles. Column 5 has the following values 10 to the power minus 15 m, infinity, 10 to the power minus 38 m and infinity.">
+<title>Las cuatro fuerzas y el modelo estándar</title>
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Fuerza</entry>
+<entry valign="top" align="center">Fuerza relativa</entry>
+<entry valign="top" align="center">Partículas de intercambio (bosones)</entry>
+<entry valign="top" align="center">Partículas que reciben la acción</entry>
+<entry valign="top" align="center">Rango</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="center">Fuerte</entry>
+<entry valign="top" align="center">1</entry>
+<entry valign="top" align="center">Gluon</entry>
+<entry valign="top" align="center">Cuarks</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">Electromagnética</entry>
+<entry valign="top" align="center">1/137</entry>
+<entry valign="top" align="center">fotón</entry>
+<entry valign="top" align="center">Partículas cargadas</entry>
+<entry valign="top" align="center"><m:math><m:mi>∞</m:mi></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">Débil</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mtext>W</m:mtext><m:mo>+</m:mo></m:msup><m:mo>,</m:mo><m:msup><m:mrow><m:mtext>W</m:mtext></m:mrow><m:mtext>−</m:mtext></m:msup><m:mo>,</m:mo></m:mrow></m:math> bosones Z</entry>
+<entry valign="top" align="center">Cuarks, leptones y neutrinos</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−18</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">Gravitacional</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−38</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center">gravitón</entry>
+<entry valign="top" align="center">Todas las partículas</entry>
+<entry valign="top" align="center"><m:math><m:mi>∞</m:mi></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1172098374367">El modelo estándar puede expresarse en términos de ecuaciones y diagramas. Las ecuaciones son complejas y suelen tratarse en un curso más avanzado de física moderna. Sin embargo, la esencia del modelo estándar puede captarse mediante los <term>diagrama<emphasis effect="bold">s</emphasis> de Feynman</term>. El diagrama de Feynman, inventado por el físico estadounidense Richard <term class="no-emphasis">Feynman</term> (1918 a 1988), es un diagrama espacio-tiempo que describe cómo se mueven e interactúan las partículas. Se utilizan diferentes símbolos para diferentes partículas. Las interacciones de las partículas en una dimensión se muestran como un gráfico tiempo-posición (no un gráfico posición-tiempo). Como ejemplo, considere la dispersión de un electrón y un neutrino electrónico (<link target-id="CNX_UPhysics_44_05_Z0"/>). El electrón se mueve hacia valores positivos de la <emphasis effect="italics">x</emphasis> (hacia la derecha) y colisiona con un neutrino electrónico que se mueve hacia la izquierda. El electrón intercambia un bosón Z (carga cero). El electrón se dispersa hacia la izquierda y el neutrino se dispersa hacia la derecha. Este intercambio no es instantáneo. El bosón Z viaja de una partícula a otra en un corto periodo de tiempo. Se dice que la interacción del electrón y el neutrino se produce a través de la fuerza nuclear débil. Esta fuerza no puede ser explicada por el electromagnetismo clásico porque la carga del neutrino es cero. La fuerza nuclear débil se analiza de nuevo más adelante en esta sección.</para>
+<figure id="CNX_UPhysics_44_05_Z0">
+<media id="fs-id1172098642639" alt="La figura es un gráfico de t en función de x. Una flecha marcada como menos va hacia arriba y hacia la derecha y se encuentra con la base de otra flecha marcada como menos que va hacia arriba y hacia la izquierda. La unión está marcada como bosón z0 emitido por un electrón. A la derecha de esa imagen hay una flecha que va hacia arriba y hacia la izquierda. La punta se encuentra con la base de otra flecha que va hacia arriba y hacia la derecha. Ambas están marcadas v subíndice e y la unión está marcada como bosón z0 absorbido por un neutrino electrónico. Las dos uniones en el gráfico están conectadas por un rayo marcado como z0. Esta apunta a la derecha y ligeramente hacia arriba.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_44_05_Z0.jpg"/>
+</media>
+<caption>En este diagrama de Feynman, el intercambio de un <m:math><m:mrow><m:msup><m:mtext>Z</m:mtext><m:mn>0</m:mn></m:msup></m:mrow></m:math> virtual transporta la fuerza nuclear débil entre un electrón y un neutrino.</caption>
+</figure>
+</section>
+<section id="fs-id1172098464630">
+<title>Fuerza electromagnética</title>
+<para id="fs-id1172100664328">Según la QED, la fuerza electromagnética se transmite entre las partículas cargadas mediante el intercambio de fotones. La teoría se basa en tres procesos básicos: Un electrón viaja de un lugar a otro, emite o absorbe un fotón y vuelve a viajar de un lugar a otro. Cuando dos electrones interactúan, uno de ellos emite el fotón y el otro lo recibe (<link target-id="CNX_UPhysics_44_05_FeynEM"/>). Los fotones transfieren energía y momento de un electrón a otro. El resultado neto en este caso es una fuerza de repulsión. Los fotones intercambiados son virtuales. Una <term>partícula virtual</term> es una partícula que existe durante un tiempo demasiado corto para ser observable. Dado que el tiempo de tránsito de los fotones <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> es extremadamente pequeño, el principio de incertidumbre de Heisenberg establece que la incertidumbre en la energía del fotón, <m:math><m:mrow><m:mi>Δ</m:mi><m:mi>E</m:mi><m:mo>,</m:mo></m:mrow></m:math> puede ser muy grande.</para><figure id="CNX_UPhysics_44_05_FeynEM">
+<media id="fs-id1172100626548" alt="La figura muestra cuatro flechas marcadas como e menos. Una va hacia arriba y hacia la derecha y se encuentra con la base de otra flecha que va hacia arriba y hacia la izquierda. A la derecha de esa imagen hay una flecha que va hacia arriba y hacia la izquierda. La punta se encuentra con la base de otra flecha que va hacia arriba y hacia la derecha. Las dos uniones en el gráfico están conectadas por una línea ondulada marcada como fotón virtual. Esta apunta a la derecha y ligeramente hacia arriba.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_44_05_FeynEM.jpg"/>
+</media>
+<caption>Diagrama de Feynman de dos electrones que interactúan mediante el intercambio de un fotón.</caption>
+</figure>
+<para id="fs-id1172100776144">Para estimar el alcance de la interacción electromagnética, supongamos que la incertidumbre sobre la energía es comparable a la energía del propio fotón, escrita como</para>
+<equation id="fs-id1172100835578"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>≈</m:mo><m:mi>E</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172098308783">El principio de incertidumbre de Heisenberg establece que</para>
+<equation id="fs-id1172100776348"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100771686">Combinando estas ecuaciones, tenemos</para>
+<note id="fs-id1172100921665" class="equation-callout">
+<equation id="fs-id1172100969916"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>E</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172100811173">La energía de un fotón está dada por <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi></m:mrow></m:math>, así que</para>
+<equation id="fs-id1172100593295"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:mi>h</m:mi><m:mi>f</m:mi></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>λ</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100547188">La distancia <emphasis effect="italics">d</emphasis> que el fotón puede desplazarse en este tiempo es, por tanto</para>
+<equation id="fs-id1172098423954"><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>≈</m:mo><m:mi>c</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>λ</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>λ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100896980">La energía del fotón virtual puede ser arbitrariamente pequeña, por lo que su longitud de onda puede ser arbitrariamente grande; en principio, incluso infinitamente grande. La fuerza electromagnética es, por tanto, una fuerza de largo alcance.</para>
+</section>
+<section id="fs-id1172100840771">
+<title>Fuerza nuclear débil</title>
+<para id="fs-id1172098644053">La fuerza nuclear débil es la responsable del decaimiento radiactivo. El alcance de la fuerza nuclear débil es muy corto (solo alrededor de <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−18</m:mn></m:mrow></m:msup></m:mrow></m:math> m) y al igual que las otras fuerzas del modelo estándar, puede describirse en términos de intercambio de partículas. (No existe una función simple como la fuerza de Coulomb para describir estas interacciones). La partícula intercambiada es uno de los tres bosones: <m:math><m:mrow><m:msup><m:mtext>W</m:mtext><m:mo>+</m:mo></m:msup><m:mo>,</m:mo><m:msup><m:mtext>W</m:mtext><m:mtext>−</m:mtext></m:msup><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msup><m:mtext>Z</m:mtext><m:mn>0</m:mn></m:msup></m:mrow></m:math>. El modelo estándar predice la existencia de estas partículas de espín 1 y también predice sus masas específicas. En combinación con experimentos anteriores, se predijo que la masa de los bosones W cargados era <m:math><m:mrow><m:mn>81</m:mn><m:mspace width="0.2em"/><m:mtext>GeV/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> y la de los bosones <m:math><m:mrow><m:msup><m:mtext>Z</m:mtext><m:mn>0</m:mn></m:msup></m:mrow></m:math> se preveía como <m:math><m:mrow><m:mn>90</m:mn><m:mspace width="0.2em"/><m:mtext>GeV/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Un experimento de la Organización Europea para la Investigación Nuclear (Conseil Européen pour la Recherche Nucléaire, CERN) descubrió en la década de 1980 partículas con exactamente estas masas, una victoria impresionante para el modelo.</para>
+<para id="fs-id1172098458960">La fuerza nuclear débil se asocia con mayor frecuencia a la dispersión y decaimiento de partículas inestables en partículas ligeras. Por ejemplo, los neutrones decaen en protones a través de la fuerza nuclear débil. Esta reacción se escribe</para>
+<equation id="fs-id1172098273277" class="unnumbered"><label/><m:math><m:mrow><m:mtext>n</m:mtext><m:mo stretchy="false">→</m:mo><m:mtext>p</m:mtext><m:mo>+</m:mo><m:msup><m:mrow><m:mtext>e</m:mtext></m:mrow><m:mtext>−</m:mtext></m:msup><m:mo>+</m:mo><m:msub><m:mi>ν</m:mi><m:mtext>e</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100598769">donde n es un neutrón, p es un protón, <m:math><m:mrow><m:msup><m:mtext>e</m:mtext><m:mtext>−</m:mtext></m:msup></m:mrow></m:math> es un electrón, y <m:math><m:mrow><m:msub><m:mi>ν</m:mi><m:mtext>e</m:mtext></m:msub></m:mrow></m:math> es un neutrino electrónico casi sin masa. Este proceso, llamado decaimiento beta, es importante en muchos procesos físicos. Un diagrama de Feynman del decaimiento beta se muestra en la <link target-id="CNX_UPhysics_44_05_FeynEW"/>(a). El neutrón emite un <m:math><m:mrow><m:msup><m:mtext>W</m:mtext><m:mtext>−</m:mtext></m:msup></m:mrow></m:math> y se convierte en un protón, y luego el <m:math><m:mrow><m:msup><m:mtext>W</m:mtext><m:mtext>−</m:mtext></m:msup></m:mrow></m:math> produce un electrón y un antineutrino. Este proceso es similar al evento de dispersión</para>
+<equation id="fs-id1172100770596" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mtext>e</m:mtext><m:mtext>−</m:mtext></m:msup><m:mo>+</m:mo><m:mtext>p</m:mtext><m:mo stretchy="false">→</m:mo><m:mtext>n</m:mtext><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mtext>e</m:mtext></m:msub><m:mtext>,</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172100532305">En este proceso, el protón emite un <m:math><m:mrow><m:msup><m:mtext>W</m:mtext><m:mo>+</m:mo></m:msup></m:mrow></m:math> y se convierte en un neutrón (b). El <m:math><m:mrow><m:msup><m:mtext>W</m:mtext><m:mo>+</m:mo></m:msup></m:mrow></m:math> se combina entonces con el electrón, formando un neutrino. En los ejercicios se analizan otras interacciones electrodébiles.</para>
+<figure id="CNX_UPhysics_44_05_FeynEW">
+<media id="fs-id1172100745623" alt="La figura a muestra cuatro flechas. Una flecha, marcada como n, apunta hacia arriba y su punta se encuentra con la base de otra flecha que va hacia arriba y hacia la izquierda, marcada como p. A la derecha de ésta hay una flecha marcada como e menos que apunta hacia arriba. Su base está conectada a la base de otra flecha que va hacia arriba y hacia la derecha. Esto está marcado como v barra subíndice e. Las dos uniones en el gráfico están conectadas por una línea ondulada marcada como W menos. Esta apunta hacia arriba y hacia la derecha. La figura b muestra cuatro flechas. Una flecha, marcada como p, apunta hacia arriba y hacia la derecha. Su punta se encuentra con la base de otra flecha que va hacia arriba y hacia la izquierda, marcada como n. A la derecha de esto hay una flecha e menos que apunta hacia arriba y hacia la izquierda. Su punta se encuentra con la base de otra flecha que va hacia arriba y hacia la derecha, que está marcada como v subíndice e. Las dos uniones en el gráfico están conectadas por una línea ondulada marcada como W más. Esta apunta hacia arriba y hacia la derecha.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_44_05_FeynEW.jpg"/>
+</media>
+<caption>Diagrama de Feynman de partículas que interactúan mediante el intercambio de un bosón W: (a) decaimiento beta; (b) conversión de un protón en un neutrón.</caption>
+</figure>
+<para id="fs-id1172098319997">El alcance de la fuerza nuclear débil puede estimarse con un argumento similar al anterior. Suponiendo que la incertidumbre sobre la energía es comparable a la energía de la partícula de intercambio por <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>E</m:mi><m:mo>≈</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> tenemos</para>
+<equation id="fs-id1172100909348"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172100790675">La distancia máxima <emphasis effect="italics">d</emphasis> que puede recorrer la partícula de intercambio (suponiendo que se desplaza a una velocidad cercana a <emphasis effect="italics">c</emphasis>) es, por lo tanto</para>
+<equation id="fs-id1172100513549"><m:math><m:mrow><m:mi>d</m:mi><m:mo>≈</m:mo><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:mi>m</m:mi><m:mi>c</m:mi></m:mrow></m:mfrac><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172098265393">Para uno de los bosones vectoriales cargados con <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>≈</m:mo><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>GeV</m:mtext><m:mo>=</m:mo><m:mn>1,28</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>,</m:mo></m:mrow></m:math> obtenemos <m:math><m:mrow><m:mi>m</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>4,27</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−17</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, el rango de la fuerza mediada por este bosón es</para>
+<equation id="fs-id1172100880976"><m:math><m:mrow><m:mi>d</m:mi><m:mo>≈</m:mo><m:mfrac><m:mrow><m:mn>1,05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>4,27</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−17</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>s/m</m:mtext></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−18</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</section>
+<section id="fs-id1172098501057">
+<title>Fuerza nuclear fuerte</title>
+<para id="fs-id1172100957742">Las interacciones nucleares fuertes describen las interacciones entre los cuarks. Los detalles de estas interacciones son descritos por la QCD. Según esta teoría, los cuarks se unen enviando y recibiendo gluones. Al igual que los cuarks llevan carga eléctrica [ya sea <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>e</m:mi></m:mrow></m:math> o <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mi>e</m:mi><m:mo stretchy="false">]</m:mo></m:mrow></m:math> que determina la fuerza de las interacciones electromagnéticas entre los cuarks, estos también llevan "carga de color" (ya sea rojo, azul o verde) que determina la fuerza de las interacciones nucleares fuertes. Como ya se ha comentado, los cuarks se unen en grupos en combinaciones de color neutro (o "blanco"), como el rojo-azul-verde y el rojo-antirrojo.</para>
+<para id="fs-id1172100673345">Curiosamente, los propios gluones llevan carga de color. Existen ocho gluones conocidos: seis que llevan un color y un anticolor, y dos que son de color neutro (<link target-id="CNX_UPhysics_44_05_Gluon"/>(a)). Para ilustrar la interacción entre cuarks mediante el intercambio de gluones cargados, considere el diagrama de Feynman en la parte (b). A medida que aumenta el tiempo, un cuark rojo abajo se desplaza hacia la derecha y un cuark verde extraño se desplaza hacia la izquierda. (Estos aparecen en el borde inferior del gráfico). El cuark arriba intercambia un gluón rojo-antiverde con el cuark extraño. (Los anticolores se muestran como colores secundarios. Por ejemplo, el antirrojo se representa con el cian porque el cian se mezcla con el rojo para formar la luz blanca). Según la QCD, todas las interacciones en este proceso (identificadas con los vértices) deben ser de color neutro. Por lo tanto, el cuark abajo se transforma de rojo a verde, y el cuark extraño se transforma de verde a rojo.</para>
+<figure id="CNX_UPhysics_44_05_Gluon">
+<media id="fs-id1172100500319" alt="La figura a muestra 8 círculos en fila. Los dos últimos círculos son blancos. Las mitades superior e inferior de cada uno de los seis primeros círculos son de distinto color. Las mitades superiores están marcadas como color y las inferiores como anticolor. Las mitades superior e inferior de cada círculo, de izquierda a derecha, son las siguientes: primera: roja marcada como R y magenta marcada como G con barra, segunda: verde marcada como G y cian marcada como R con barra, tercera: azul marcada como B y cian marcada como R con barra, cuarta: roja marcada como R y amarilla marcada como B con barra, quinta: verde marcada como G y amarilla marcada como B con barra, sexta: azul marcada como B y magenta marcada como G con barra. La figura b es un gráfico de t en función de x. Una flecha que va hacia arriba y hacia la derecha está marcada como R. Su punta se encuentra con la base de la flecha G, que apunta hacia arriba y hacia la izquierda. La unión está marcada de R a R más R G con barra. A la derecha de estos hay una flecha G que apunta hacia arriba y hacia la izquierda. Su punta se encuentra con la base de la flecha R. La unión está marcada desde la R G con barra más G hasta R. Las dos uniones están conectadas por una flecha que apunta hacia la derecha. A lo largo de la flecha hay un círculo marcado como R G con barra.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_44_05_Gluon.jpg"/>
+</media>
+<caption>(a) Ocho tipos de gluones transportan la fuerza nuclear fuerte. Los gluones blancos son mezclas de pares color-anticolor. (b) Una interacción entre dos cuarks mediante el intercambio de un gluon.</caption>
+</figure>
+<para id="fs-id1172100774035">Como sugiere este ejemplo, la interacción entre cuarks en un núcleo atómico puede ser muy complicada. La <link target-id="CNX_UPhysics_44_05_NukeQuarks"/> muestra la interacción entre un protón y un neutrón. Observe que el protón se convierte en neutrón y el neutrón se convierte en protón durante la interacción. La presencia de pares cuark-anticuark en el intercambio sugiere que la unión entre nucleones puede modelarse como un intercambio de piones.</para>
+<figure id="CNX_UPhysics_44_05_NukeQuarks">
+<media id="fs-id1172100894056" alt="En la parte superior izquierda de la figura hay un círculo marcado como neutrón. Dentro de él hay tres círculos más pequeños marcados como d, u, d. En la esquina superior derecha hay un círculo marcado como protón. Dentro de él hay tres círculos marcados como u, d, u. En la parte inferior derecha hay un círculo marcado como neutrón. Dentro de él hay tres círculos marcados como d, d, u. En la parte inferior izquierda hay un círculo marcado como protón. Dentro de él hay tres círculos marcados como d, u, u. Las líneas que salen de d y u en el protón inferior izquierdo se conectan a la d y u en el neutrón superior izquierdo. Las líneas de la d y la u en el neutrón inferior derecho se conectan con las del protón superior derecho. Una línea desde la u del protón inferior izquierdo se conecta con la u del protón superior derecho. En el centro de esta línea de conexión, la u se empareja con otro círculo, que está marcado como d con barra Este par está marcado como pi más. Apuntando al círculo que está marcado como d con barra desde la izquierda hay una flecha, cuya base está marcada como d más d con barra creada. Una línea desde la base de la flecha conecta con la d del neutrón superior izquierdo. A la derecha del círculo marcado como d con barra hay una línea, cuyo punto final está marcado como d más d con barra aniquilar. Una línea conecta la d del neutrón inferior derecho con ese punto final. Se muestran líneas onduladas entre todas las líneas de conexión.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_44_05_NukeQuarks.jpg"/>
+</media>
+<caption>Diagrama de Feynman que describe una interacción nuclear fuerte entre un protón y un neutrón.</caption>
+</figure>
+<para id="fs-id1172098544450">En la práctica, las predicciones de la QCD son difíciles de producir. Esta dificultad se debe a la fuerza inherente de la fuerza y a la imposibilidad de ignorar términos en las ecuaciones. Por ello, los cálculos de la QCD se realizan a menudo con la ayuda de supercomputadoras. La existencia de los gluones está respaldada por los experimentos de dispersión electrón-nucleón. Los momentos estimados de los cuarks implicados en estos eventos de dispersión son mucho más pequeños de lo que esperaríamos sin gluones porque estos se llevan parte del momento de cada colisión.</para>
+</section>
+<section id="fs-id1172100925943">
+<title>Teorías de la unificación</title>
+<para id="fs-id1172100492749">Los físicos saben desde hace tiempo que la fuerza de una interacción entre partículas depende de la distancia de la interacción. Por ejemplo, dos partículas con carga positiva experimentan una fuerza de repulsión mayor a corta distancia que a larga. En los experimentos de dispersión, la fuerza de una interacción depende de la energía de la partícula que interactúa, ya que una mayor energía implica interacciones más cercanas y más fuertes.</para>
+<para id="fs-id1172098459341">Los físicos de partículas sospechan ahora que la fuerza de todas las interacciones de las partículas (las cuatro fuerzas) se fusionan en altas energías, y los detalles de las interacciones de las partículas a estas energías pueden describirse en términos de una sola fuerza (<link target-id="CNX_UPhysics_44_05_GUT"/>). Una teoría unificada describe estas interacciones y explica por qué esta descripción se rompe a escalas de baja energía. La teoría de la gran unificación intenta describir la interacción fuerte y electrodébil en términos de una sola fuerza. Una teoría del todo (theory of everything, TOE) lleva el concepto de unificación un paso más allá. Una TOE combina las cuatro fuerzas fundamentales (incluida la gravedad) en una sola teoría.</para>
+<figure id="CNX_UPhysics_44_05_GUT">
+<media id="fs-id1172100984603" alt="Gráfico de la fortaleza de la fuerza en función de la energía en GeV. Una curva marcada como fuerte se inclina hacia abajo y hacia la derecha. Un punto de la curva con un valor x de 10 a la potencia 19 está marcado como TOE. Una curva marcada como gravedad se ramifica desde aquí; baja y va hacia la izquierda. Un punto en la curva fuerte, con un valor de x de 10 a la potencia 15 está marcado como GUT, teoría de la gran unificación (Grand Unification Theory). Una curva que va hacia la izquierda se ramifica desde aquí. Está marcada como Electrodébil. Se bifurca en dos en un punto con un valor x de 100. La rama que va a la izquierda está marcada como EM (electromagnética) y la que va hacia abajo y a la izquierda está marcada como débil.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_44_05_GUT.jpg"/>
+</media>
+<caption>Gran unificación de fuerzas a altas energías.</caption>
+</figure>
+</section>
+<section id="fs-id1172100527686" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172100972088" list-type="bulleted" bullet-style="bullet">
+<item>El modelo estándar describe las interacciones entre partículas a través de las fuerzas nuclear fuerte, electromagnética y fuerza nuclear débil.</item>
+<item>Las interacciones de las partículas se representan mediante los diagramas de Feynman. Un diagrama de Feynman representa las interacciones entre partículas en un gráfico espacio-tiempo.</item>
+<item>Las fuerzas electromagnéticas actúan a gran distancia, pero las fuerzas fuertes y débiles actúan a corta distancia. Estas fuerzas se transmiten entre las partículas mediante el envío y la recepción de bosones.</item>
+<item>Las teorías de la gran unificación buscan una comprensión del universo en términos de una sola fuerza.</item>
+</list>
+</section>
+<section id="fs-id1172098316747" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172100985354">
+<problem id="fs-id1172100936420">
+<para id="fs-id1172100507455">¿Qué es el modelo estándar? Exprese su respuesta en términos de las cuatro fuerzas fundamentales y las partículas de intercambio.</para>
+</problem>
+<solution id="fs-id1172100848516">
+<para id="fs-id1172098406126">El modelo estándar es un modelo de las interacciones de las partículas elementales. Este modelo contiene la teoría electrodébil y la cromodinámica cuántica (QCD). Describe la interacción de leptones y cuarks mediante el intercambio de fotones (electromagnetismo) y bosones (teoría débil), y la interacción de cuarks mediante el intercambio de gluones (QCD). Este modelo no describe las interacciones gravitacionales.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098277050">
+<problem id="fs-id1172101009804">
+<para id="fs-id1172100660989">Dibuje un diagrama de Feynman para representar la aniquilación de un electrón y un positrón en un fotón.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098574792">
+<problem id="fs-id1172098320600">
+<para id="fs-id1172100989377">¿Cuál es la motivación de las teorías de la gran unificación?</para>
+</problem>
+<solution id="fs-id1172098464536">
+<para id="fs-id1172100957735">Explique las interacciones de las partículas que involucran las fuerzas nuclear fuerte, electromagnética y fuerza nuclear débil de forma unificada.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100908535">
+<problem id="fs-id1172098389679">
+<para id="fs-id1172098266479">Si se desarrolla una teoría que unifique las cuatro fuerzas, ¿seguirá siendo correcto decir que la órbita de la Luna está determinada por la fuerza gravitacional? Explique por qué.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100985481">
+<problem id="fs-id1172100638256">
+<para id="fs-id1172098257118">Si se descubre el bosón de Higgs y se comprueba que tiene masa, ¿se le considerará el portador definitivo de la fuerza débil? Explique su respuesta.</para>
+</problem>
+<solution id="fs-id1172101008788">
+<para id="fs-id1172098529677">No, pero explicará por qué los bosones W y Z son masivos (ya que el Higgs "imparte" masa a estas partículas), y por tanto por qué la fuerza débil es de corto alcance.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098589572">
+<problem id="fs-id1172100655310">
+<para id="fs-id1172100538612">Uno de los modos de decaimiento comunes de <m:math><m:mrow><m:msup><m:mtext>Λ</m:mtext><m:mn>0</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>es</m:mtext><m:mspace width="0.2em"/><m:msup><m:mtext>Λ</m:mtext><m:mn>0</m:mn></m:msup><m:mo stretchy="false">→</m:mo><m:msup><m:mi>π</m:mi><m:mtext>−</m:mtext></m:msup><m:mo>+</m:mo><m:mtext>p</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Aunque en este decaimiento solo intervienen hadrones, se produce a través de la fuerza nuclear débil. ¿Cómo sabemos que este decaimiento no se produce a través de la fuerza nuclear fuerte?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172098321580" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172098419466">
+<problem id="fs-id1172098371348">
+<para id="fs-id1172098318726">Utilizando el principio de incertidumbre de Heisenberg, determine el alcance de la fuerza débil si esta se produce por el intercambio de un bosón Z.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098322630">
+<problem id="fs-id1172101033015">
+<para id="fs-id1172100938193">Utilice el principio de incertidumbre de Heisenberg para estimar el alcance de un decaimiento nuclear débil que involucre un gravitón.</para>
+</problem>
+<solution id="fs-id1172100925293">
+<para id="fs-id1172098262338">El gravitón no tiene masa, por lo que al igual que el fotón está asociado a una fuerza de alcance infinito.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098560165">
+<problem id="fs-id1172100837116">
+<para id="fs-id1172100637107">(a) El siguiente decaimiento está mediado por la fuerza electrodébil:</para>
+<para id="fs-id1172100547256"><m:math><m:mrow><m:mtext>p</m:mtext><m:mo stretchy="false">→</m:mo><m:mtext>n</m:mtext><m:mo>+</m:mo><m:msup><m:mrow><m:mtext>e</m:mtext></m:mrow><m:mo>+</m:mo></m:msup><m:mo>+</m:mo><m:msub><m:mi>υ</m:mi><m:mtext>e</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172098455913">Dibuje el diagrama de Feynman para el decaimiento.</para>
+<para id="fs-id1172100577454">(b) La siguiente dispersión está mediada por la fuerza electrodébil:</para>
+<para id="fs-id1172098387614"><m:math><m:mrow><m:msub><m:mi>υ</m:mi><m:mi>e</m:mi></m:msub><m:mo>+</m:mo><m:msup><m:mtext>e</m:mtext><m:mtext>−</m:mtext></m:msup><m:mo stretchy="false">→</m:mo><m:msub><m:mi>υ</m:mi><m:mi>e</m:mi></m:msub><m:mo>+</m:mo><m:msup><m:mtext>e</m:mtext><m:mtext>−</m:mtext></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172098258145">Dibuje el diagrama de Feynman para la dispersión.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098391200">
+<problem id="fs-id1172100666944">
+<para id="fs-id1172098581393">Suponiendo la conservación del momento, ¿cuál es la energía de cada rayo <m:math><m:mi>γ</m:mi></m:math> producido en el decaimiento de un pion neutro en reposo, en la reacción <m:math><m:mrow><m:msup><m:mi>π</m:mi><m:mn>0</m:mn></m:msup><m:mo stretchy="false">→</m:mo><m:mi>γ</m:mi><m:mo>+</m:mo><m:mi>γ</m:mi></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1172100527992">
+<para id="fs-id1172098510860">67,5 MeV</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098408348">
+<problem id="fs-id1172100951796">
+<para id="fs-id1172100644173">¿Cuál es la longitud de onda de un electrón de 50 GeV, que se produce en el SLAC? Esto nos da una idea del límite de detalle que puede sondear.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100940327">
+<problem id="fs-id1172100632972">
+<para id="fs-id1172098455499">El modo de decaimiento primario para el pion negativo es <m:math><m:mrow><m:msup><m:mi>π</m:mi><m:mtext>−</m:mtext></m:msup><m:mo stretchy="false">→</m:mo><m:msup><m:mi>μ</m:mi><m:mtext>−</m:mtext></m:msup><m:mo>+</m:mo><m:msub><m:mover><m:mi>ν</m:mi><m:mtext>−</m:mtext></m:mover><m:mi>μ</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> (a) ¿Cuál es la energía liberada en MeV en este decaimiento? (b) Utilizando la conservación del momento, cuánta energía recibe cada uno de los productos del decaimiento, dado que <m:math><m:mrow><m:msup><m:mi>π</m:mi><m:mtext>−</m:mtext></m:msup></m:mrow></m:math> está en reposo cuando decae? Puede suponer que el antineutrino muon no tiene masa y tiene momento <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mtext>/</m:mtext><m:mi>c</m:mi></m:mrow></m:math>, al igual que un fotón.</para>
+</problem>
+<solution id="fs-id1172098257123">
+<para id="fs-id1172098444206">a. 33,9 MeV; b. Por la conservación del momento, <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mi>μ</m:mi></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mi>ν</m:mi></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>p</m:mi></m:mrow></m:math>. Por la conservación de la energía, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>ν</m:mi></m:msub><m:mo>=</m:mo><m:mn>29,8</m:mn><m:mspace width="0.2em"/><m:mtext>MeV</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>E</m:mi><m:mi>μ</m:mi></m:msub><m:mo>=</m:mo><m:mn>4,1</m:mn><m:mspace width="0.2em"/><m:mtext>MeV</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098451464">
+<problem id="fs-id1172100854194">
+<para id="fs-id1172100551582">Suponga que está diseñando un experimento de decaimiento de protones y que puede detectar el 50 por ciento de los decaimientos de protones en un tanque de agua. (a) ¿Cuántos kilogramos de agua necesitaría para ver un decaimiento por mes, suponiendo un tiempo de vida de <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>años?</m:mtext></m:mrow></m:math> (b) ¿De cuántos metros cúbicos de agua se trata? (c) Si la vida útil real es <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>33</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>años</m:mtext></m:mrow></m:math>, ¿cuánto tiempo habría que esperar en promedio para ver el decaimiento de un solo protón?</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1172100771172">
+<term>diagrama de Feynman</term>
+<meaning id="fs-id1172100539097">diagrama espacio-tiempo que describe cómo se mueven e interactúan las partículas.</meaning>
+</definition>
+<definition id="fs-id1172100894095">
+<term>cromodinámica cuántica (QCD)</term>
+<meaning id="fs-id1172100658697">teoría que describe las interacciones fuertes entre los cuarks.</meaning>
+</definition>
+<definition id="fs-id1172098315425">
+<term>electrodinámica cuántica (QED)</term>
+<meaning id="fs-id1172098524655">teoría que describe la interacción de los electrones con los fotones.</meaning>
+</definition>
+<definition id="fs-id1172100585448">
+<term>Modelo estándar</term>
+<meaning id="fs-id1172098498799">modelo de interacciones de partículas que contiene la teoría electrodébil y la cromodinámica cuántica (QCD).</meaning>
+</definition>
+<definition id="fs-id1172100844901">
+<term>partícula virtual</term>
+<meaning id="fs-id1172100771656">partícula que existe durante un tiempo demasiado corto para ser observable.</meaning>
+</definition>
+</glossary>
+</document>

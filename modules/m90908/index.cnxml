@@ -1,0 +1,576 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Aplicaciones de las fuerzas y campos magnéticos</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90908</md:content-id>
+  <md:title>Aplicaciones de las fuerzas y campos magnéticos</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar cómo funciona un espectrómetro de masas para separar cargas.</item>
+<item>Explicar cómo funciona un ciclotrón.</item>
+</list></md:abstract>
+  <md:uuid>56bae6ee-0be3-434e-9038-c1fb3b64a79f</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171361646227">Poder manipular y clasificar las partículas cargadas permite profundizar en la experimentación para entender de qué está hecha la materia. En primer lugar, observamos un espectrómetro de masas para ver cómo podemos separar los iones por su relación carga-masa. A continuación, hablaremos de los ciclotrones como método para acelerar cargas a energías muy altas.</para>
+<section id="fs-id1171361412342">
+<title>Espectrómetro de masas</title>
+<para id="fs-id1171361315100">El <term>espectrómetro de masas</term> es un dispositivo que separa los iones según su relación carga-masa. Una versión concreta, el espectrómetro de masas de Bainbridge, se ilustra en la <link target-id="CNX_UPhysics_28_07_Mass-spec"/>. Los iones producidos en una fuente se envían primero a través de un selector de velocidad, donde la fuerza magnética se equilibra por igual con la fuerza eléctrica. Estos iones salen todos con la misma velocidad <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mtext>/</m:mtext><m:mi>B</m:mi></m:mrow></m:math> ya que cualquier ion con una velocidad diferente es desviado preferentemente por la fuerza eléctrica o magnética y, en última instancia, bloqueado de la siguiente etapa. A continuación, entran en un campo magnético uniforme <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> donde recorren una trayectoria circular cuyo radio <emphasis effect="italics">R</emphasis> viene dado por la <link target-id="fs-id1171358170598" document="m90903"/>. El radio se mide con un detector de partículas situado como se muestra en la figura.</para>
+<figure id="CNX_UPhysics_28_07_Mass-spec">
+<media id="fs-id1171361420042" alt="Esquema del espectrómetro de masas de Bainbridge. Las partículas cargadas que se mueven hacia abajo entran en una región con el campo eléctrico E apuntando a la izquierda y el campo magnético B apuntando a la página. La trayectoria de la partícula continúa en línea recta hasta que entra en una región sin campo eléctrico. El campo magnético aquí es uniforme, en la página, y la magnitud B es cero. La trayectoria de la partícula en esta región se curva en un círculo de radio R en sentido contrario a las agujas del reloj hasta que llega a un detector de partículas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_07_mass-spec.jpg"/>
+</media>
+<caption>Un esquema del espectrómetro de masas de Bainbridge, que muestra las partículas cargadas que salen de una fuente, seguidas de un selector de velocidad donde se equilibran las fuerzas eléctricas y magnéticas, seguido de una región de campo magnético uniforme donde se detecta finalmente la partícula.</caption>
+</figure>
+<para id="fs-id1171361338598">La relación entre la tasa carga-masa <emphasis effect="italics">q</emphasis>/<emphasis effect="italics">m</emphasis> y el radio <emphasis effect="italics">R</emphasis> se determina combinando la <link target-id="fs-id1171358170598" document="m90903"/> y la <link target-id="fs-id1171360336437" document="m90907"/>:</para>
+<note id="fs-id1163709714343" class="equation-callout">
+<equation id="fs-id1171357884629"><label/><m:math><m:mrow><m:mfrac><m:mi>q</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mrow><m:mi>B</m:mi><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171361359763">Dado que la mayoría de los iones están cargados de manera individual <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> los valores medidos de <emphasis effect="italics">R</emphasis> pueden utilizarse con esta ecuación para determinar la masa de los iones. Con los instrumentos modernos, las masas pueden determinarse con una parte en <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1171361607280">Un uso interesante de un espectrómetro es como parte de un sistema para detectar fugas muy pequeñas en un aparato de investigación. En los laboratorios de física de baja temperatura, un dispositivo conocido como refrigerador de dilución utiliza una mezcla de He-3, He-4 y otros criógenos para alcanzar temperaturas muy por debajo de 1 K. El rendimiento del refrigerador se ve gravemente afectado si se produce incluso una mínima fuga entre sus distintos componentes. Por lo tanto, antes de que se enfríe a la temperatura deseada, el refrigerador se somete a una prueba de estanqueidad. En uno de sus compartimentos se inyecta una pequeña cantidad de helio gaseoso, mientras que un compartimento adyacente, pero supuestamente aislado, está conectado a una bomba de alto vacío a la que está conectado un espectrómetro de masas. Un filamento calentado ioniza los átomos de helio evacuados por la bomba. La detección de estos iones por el espectrómetro indica entonces una fuga entre los dos compartimentos del refrigerador de dilución.</para>
+<para id="fs-id1171358169245">Junto con la cromatografía de gases, los espectrómetros de masas se utilizan ampliamente para identificar sustancias desconocidas. Mientras que la parte de la cromatografía de gases descompone la sustancia, el espectrómetro de masas separa las moléculas ionizadas resultantes. Esta técnica se utiliza con los restos de un incendio para determinar la causa, en los cuerpos policiales para identificar drogas ilegales, en seguridad para identificar explosivos y en muchas aplicaciones medicinales.</para>
+</section>
+<section id="fs-id1171361247283">
+<title>Ciclotrón</title>
+<para id="fs-id1171361306305">El <term>ciclotrón</term> fue desarrollado por E. O. Lawrence para acelerar partículas cargadas (normalmente protones, deuterones o partículas alfa) hasta alcanzar grandes energías cinéticas. Estas partículas se utilizan después en experimentos de colisión nuclear para producir isótopos radiactivos. Se ilustra un ciclotrón en la <link target-id="CNX_UPhysics_28_07_Cyclo"/>. Las partículas se mueven entre dos recipientes de metal planos y semicilíndricos D1 y D2, llamados <term>dees</term>. Los dees están encerrados en un recipiente de metal más grande y el aparato se coloca entre los polos de un electroimán que proporciona un campo magnético uniforme. El aire se retira del gran contenedor para que las partículas no pierdan energía ni se desvíen debido a las colisiones con las moléculas de aire. Los dees están conectados a una fuente de voltaje de alta frecuencia que proporciona un campo eléctrico alterno en la pequeña región entre ellos. Como los dees son de metal, su interior está protegido del campo eléctrico.</para>
+<figure id="CNX_UPhysics_28_07_Cyclo">
+<media id="fs-id1171358170709" alt="Se ilustra la trayectoria de los iones en un ciclotrón. Los dees son dos mitades de un círculo, ligeramente separadas entre sí para formar un espacio. Una fuente de voltaje de alta frecuencia conecta los dees a través de un espacio. Las partículas son generadas por una fuente de iones cerca del centro y salen en espiral. El campo magnético es perpendicular al plano del movimiento.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_07_cyclo.jpg"/>
+</media>
+<caption>El interior de un ciclotrón. Se aplica un campo magnético uniforme a medida que los protones que circulan viajan a través de los dees, ganando energía a medida que atraviesan el espacio entre los dees.</caption>
+</figure>
+<para id="fs-id1171361378789">Supongamos que se inyecta una partícula cargada positivamente en el espacio entre los dees cuando D2 está a un potencial positivo respecto a D1. La partícula es entonces acelerada a través del espacio y entra en D1 después de ganar energía cinética <emphasis effect="italics">qV</emphasis>, donde <emphasis effect="italics">V</emphasis> es la diferencia de potencial media que experimenta la partícula entre los dees. Cuando la partícula está dentro de D1, solo el campo magnético uniforme <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> del electroimán actúa sobre ella, por lo que la partícula se mueve en un círculo de radio</para>
+<equation id="fs-id1171361372719"><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1171358146082">con un periodo de</para>
+<equation id="fs-id1171361635290"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171358066750">El periodo del curso del voltaje alterno se fija en <emphasis effect="italics">T</emphasis>, de modo que mientras la partícula está dentro de D1, moviéndose a lo largo de su órbita semicircular en un tiempo <emphasis effect="italics">T</emphasis>/2, la polaridad de los dees se invierte. Cuando la partícula vuelve a entrar en el espacio, D1 es positivo con respecto a D2, y la partícula se acelera de nuevo a través del espacio, ganando así una energía cinética <emphasis effect="italics">qV</emphasis>. A continuación, la partícula entra en D2, circula en un círculo ligeramente mayor y sale de D2 tras pasar un tiempo <emphasis effect="italics">T</emphasis>/2 en este dee. Este proceso se repite hasta que la órbita de la partícula alcanza el límite de los dees. En ese momento, la partícula (en realidad, un rayo de partículas) se extrae del ciclotrón y se utiliza para algún propósito experimental.</para>
+<para id="fs-id1171361333281">El funcionamiento del ciclotrón depende del hecho de que, en un campo magnético uniforme, el periodo orbital de una partícula es independiente de su radio y de su energía cinética. Por lo tanto, el periodo de la fuente de voltaje alterno solo debe fijarse en el valor dado por la <link target-id="fs-id1171361635290"/>. Con esa configuración, el campo eléctrico acelera las partículas cada vez que se encuentran entre los dees.</para>
+<para id="fs-id1171361435647">Si el radio orbital máximo en el ciclotrón es <emphasis effect="italics">R</emphasis>, entonces desde la <link target-id="fs-id1171361372719"/>, la velocidad máxima de una partícula circulante de masa <emphasis effect="italics">m</emphasis> y carga <emphasis effect="italics">q</emphasis> es</para>
+<note id="fs-id1163713278051" class="equation-callout">
+<equation id="fs-id1171361282158"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi><m:mi>R</m:mi></m:mrow><m:mi>m</m:mi><m:mo>.</m:mo></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171361604704">Por lo tanto, su energía cinética al ser expulsada del ciclotrón es</para>
+<equation id="fs-id1171361658078"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171361461880">La energía cinética máxima alcanzable con este tipo de ciclotrón es de aproximadamente 30 MeV. Por encima de esta energía, los efectos relativistas se vuelven importantes, lo que hace que el periodo orbital aumente con el radio. Hasta energías de varios cientos de MeV, los efectos relativistas pueden compensarse haciendo que el campo magnético aumente gradualmente con el radio de la órbita. Sin embargo, para energías más altas, hay que utilizar métodos mucho más elaborados para acelerar las partículas.</para>
+<para id="fs-id1171361372294">Las partículas se aceleran a energías muy elevadas con aceleradores lineales o sincrotrones. El acelerador lineal acelera las partículas de forma continua con el campo eléctrico de una onda electromagnética que recorre un largo tubo evacuado. El Acelerador Lineal de Stanford (Stanford Linear Accelerator, SLAC) tiene unos 3,3 km de longitud y acelera electrones y positrones (electrones con carga positiva) hasta energías de 50 GeV. El sincrotrón está construido de forma que su campo magnético de flexión aumenta con la velocidad de las partículas de forma que estas permanecen en una órbita de radio fijo. El sincrotrón de mayor energía del mundo se encuentra en la Organización Europea para la Investigación Nuclear (European Organization for Nuclear Research, CERN), en la frontera franco-suiza, cerca de Ginebra. Recientemente, la CERN ha cobrado interés con el descubrimiento verificado del Bosón de Higgs (consulte <link document="m91050">Física de partículas y cosmología</link>). Este sincrotrón puede acelerar rayos de aproximadamente <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow></m:math> protones a energías de aproximadamente <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> GeV.</para>
+<example id="fs-id1171361461865">
+<para id="fs-id1171361380630"><title>Aceleración de partículas alfa en un ciclotrón</title>
+Un ciclotrón utilizado para acelerar partículas alfa (<m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>6,64</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>,</m:mo><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>3,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math>) tiene un radio de 0,50 m y un campo magnético de 1,8 T. (a) ¿Cuál es el periodo de revolución de las partículas alfa? (b) ¿Cuál es su energía cinética máxima?</para>
+<para id="fs-id1167585978844"><title>Estrategia</title></para>
+<list id="fs-id1171361258152" list-type="enumerated" number-style="lower-alpha">
+<item>El periodo de revolución es aproximadamente la distancia recorrida en un círculo dividida entre la velocidad. Al identificar que la fuerza magnética aplicada es la fuerza centrípeta, podemos derivar la fórmula del periodo.</item>
+<item>La energía cinética puede hallarse a partir de la velocidad máxima del rayo, correspondiente al radio máximo dentro del ciclotrón.</item>
+</list>
+<para id="fs-id1167585956086"><title>Solución</title></para>
+<list id="fs-id1171361186280" list-type="enumerated" number-style="lower-alpha">
+<item>Al identificar la masa, la carga y el campo magnético en el problema, podemos calcular el periodo:
+<equation id="fs-id1171361483463" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6,64</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−27</m:mn></m:msup><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,8</m:mn><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s.</m:mtext></m:mrow></m:math></equation></item>
+<item>Al identificar la carga, el campo magnético, el radio de la trayectoria y la masa, podemos calcular la energía cinética máxima:
+<equation id="fs-id1171361465463" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>B</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,8</m:mn><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,50</m:mn><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>6,65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>39</m:mn><m:mtext>MeV.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+</example>
+<note id="fs-id1171361233164" class="check-understanding">
+<exercise id="fs-id1171361374539">
+<problem id="fs-id1171361213917">
+<para id="fs-id1171361650192">Se va a diseñar un ciclotrón para acelerar protones hasta energías cinéticas de 20 MeV utilizando un campo magnético de 2,0 T. ¿Cuál es el radio necesario del ciclotrón?</para>
+</problem>
+<solution id="fs-id1171361431421">
+<para id="fs-id1171361710079">0,32 m</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1171358086471" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1171361268776" list-type="bulleted" bullet-style="bullet">
+<item>Un espectrómetro de masas es un dispositivo que separa los iones según su proporción carga-masa haciéndolos pasar primero por un selector de velocidad y luego por un campo magnético uniforme.</item>
+<item>Los ciclotrones se utilizan para acelerar partículas cargadas hasta alcanzar grandes energías cinéticas mediante campos eléctricos y magnéticos aplicados.</item>
+</list>
+</section>
+<section id="fs-id1171361422680" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1167582745303" summary="The table has two columns and thirteen rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Force on a charge in a magnetic field” and “vector F equals q vector v cross product vector B”. The second row contains “Magnitude of magnetic force” and “F equals q v B sine theta”. The third row contains “Radius of a particle’s path in a magnetic field” and “r equals numerator m v divided by denominator q B”. The fourth row contains “Period of a particle’s motion in a magnetic field” and “T equals numerator 2 pi m divided by denominator q B”. The fifth row contains “Force on a current-carrying wire in a uniform magnetic field” and “vector F equals I vector I cross product vector B”. The sixth row contains “Magnetic dipole moment” and “vector mu equals N I A unit vector n”. The seventh row contains “Torque on a current loop” and “vector tau equals vector mu cross product vector B”. The eighth row contains “Energy of a magnetic dipole” and “U equals minus vector mu dot product vector B”. The ninth row contains “Drift velocity in crossed electric and magnetic fields” and “v subscript d equals E divided by B”. The tenth row contains “Hall potential” and “V equals numerator I B l divided by denominator n e A”. The eleventh row contains “Hall potential in terms of drift velocity” and “V equals B l v subscript d”. The twelfth row contains “Charge-to-mass ratio in a mass spectrometer” and “q divided by m equals E divided by B B subscript o R”. The thirteenth row contains “Maximum speed of a particle in a cyclotron” and “v subscript max equals q B R divided by m”." class="unnumbered unstyled">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Fuerza sobre una carga en un campo magnético</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>q</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Magnitud de la fuerza magnética</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mi>v</m:mi><m:mi>B</m:mi><m:mspace width="0.1em"/><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Radio de la trayectoria de una partícula en un campo magnético</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>v</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Periodo del movimiento de una partícula en un campo magnético</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Fuerza sobre un cable conductor de corriente en un campo magnético uniforme</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mi>I</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>l</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>B</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Momento dipolar magnético</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>μ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>N</m:mi><m:mi>I</m:mi><m:mi>A</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Torque en un bucle de corriente</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mover accent="true"><m:mi>τ</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>μ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energía de un dipolo magnético</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>μ</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Velocidad de deriva en campos eléctricos y magnéticos cruzados</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mi>B</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Potencial Hall</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>e</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Potencial Hall en términos de velocidad de deriva</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Proporción carga-masa en un espectrómetro de masas</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mi>q</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mrow><m:mi>B</m:mi><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Velocidad máxima de una partícula en un ciclotrón</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>q</m:mi><m:mi>B</m:mi><m:mi>R</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1171361427782" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1171361396276">
+<problem id="fs-id1171361401004">
+<para id="fs-id1171361425287">Describa la función principal del campo eléctrico y del campo magnético en un ciclotrón.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1171361666729" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1171361260039">
+<problem id="fs-id1171361380472">
+<para id="fs-id1171358163537">Un físico está diseñando un ciclotrón para acelerar protones a una décima parte de la velocidad de la luz. El campo magnético tendrá una intensidad de 1,5 T. Determine (a) el periodo de rotación de los protones que circulan y (b) el radio máximo de la órbita de los protones.</para>
+</problem>
+<solution id="fs-id1171361471236">
+<para id="fs-id1171361305782">a. <m:math><m:mrow><m:mn>4,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. 0,21 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171357939996">
+<problem id="fs-id1171361308364">
+<para id="fs-id1171357839002">Las intensidades de los campos en el selector de velocidad de un espectrómetro de masas de Bainbridge son <emphasis effect="italics">B</emphasis> = 0,500 T y <emphasis effect="italics">E</emphasis> = <m:math><m:mrow><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y la fuerza del campo magnético que separa los iones es <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>o</m:mi></m:msub><m:mo>=</m:mo><m:mn>0,750</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Se halla que una corriente de iones de Li cargados de manera individual se dobla en un arco circular de radio 2,32 cm. ¿Cuál es la masa de los iones Li?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361411190">
+<problem id="fs-id1171361484419">
+<para id="fs-id1171361707177">El campo magnético de un ciclotrón es de 1,25 T, y el radio orbital máximo de los protones que circulan es de 0,40 m. (a) ¿Cuál es la energía cinética de los protones cuando son expulsados del ciclotrón? (b) ¿Cuál es esta energía en MeV? (c) ¿A través de qué diferencia de potencial tendría que ser acelerado un protón para adquirir esta energía cinética? (d) ¿Cuál es el periodo de la fuente de voltaje utilizada para acelerar los protones? (e) Repita los cálculos para las partículas alfa.</para>
+</problem>
+<solution id="fs-id1171357982677">
+<para id="fs-id1171361490021">a. <m:math><m:mrow><m:mn>1,92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. 12 MeV; c. 12 MV; d. <m:math><m:mrow><m:mn>5,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>;</m:mo></m:mrow></m:math> e. <m:math><m:mrow><m:mn>1,92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>,</m:mo></m:mrow></m:math> 12 MeV, 12 V, <m:math><m:mrow><m:mn>10,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1171361413437">
+<problem id="fs-id1171361308959">
+<para id="fs-id1171361410900">Se está utilizando un espectrómetro de masas para separar el oxígeno-16 común del oxígeno-18, mucho más raro, tomado de una muestra de hielo glacial antiguo. (La abundancia relativa de estos isótopos de oxígeno está relacionada con la temperatura climática en el momento en que se depositó el hielo). La relación de las masas de estos dos iones es de 16 a 18, la masa del oxígeno-16 es <m:math><m:mrow><m:mn>2,66</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−26</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y se cargan de manera individual y viajan a <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> en un campo magnético de 1,20 T. ¿Cuál es la separación entre sus trayectorias cuando alcanzan un objetivo después de atravesar un semicírculo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361694828">
+<problem id="fs-id1171361496005">
+<para id="fs-id1171357879678">(a) En un espectrómetro de masas se separan iones de uranio 235 y uranio 238 con tres cargas. (El uranio-235, mucho más raro, se utiliza como combustible de reactores). Las masas de los iones son <m:math><m:mrow/></m:math><m:math><m:mrow><m:mn>3,90</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−25</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>3,95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−25</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>,</m:mo></m:mrow></m:math> respectivamente, y viajan a <m:math><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> en un campo de 0,250 T. ¿Cuál es la separación entre sus trayectorias cuando chocan con un objetivo después de atravesar un semicírculo? (b) Discuta si esta distancia entre sus trayectorias parece ser lo suficientemente grande como para ser práctica en la separación del uranio-235 del uranio-238.</para>
+</problem>
+<solution id="fs-id1171361722308">
+<para id="fs-id1171358067948">a. <m:math><m:mrow><m:mn>2,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. Sí, esta distancia entre sus trayectorias es claramente lo suficientemente grande como para separar el U-235 del U-238, ya que es una distancia de 2,5 cm.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167582830382" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1171361209797">
+<problem id="fs-id1171358059996">
+<para id="fs-id1171361380161">Calcule la fuerza magnética sobre una hipotética partícula de carga <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext></m:mrow></m:math> moviéndose con una velocidad de <m:math><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mtext>m/s</m:mtext></m:mrow></m:math> en un campo magnético de <m:math><m:mrow><m:mn>1,2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361409502">
+<problem id="fs-id1171361260718">
+<para id="fs-id1171361285972">Repita el problema anterior con un nuevo campo magnético de <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,4</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>1,2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1171361449806">
+<para id="fs-id1171361667574"><m:math><m:mrow><m:mn>-7,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mtext>N</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361339066">
+<problem id="fs-id1171361652516">
+<para id="fs-id1171361407997">Un electrón se proyecta en un campo magnético uniforme <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,5</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>0,8</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mtext>T</m:mtext></m:mrow></m:math> con una velocidad de <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>4,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la fuerza magnética sobre el electrón?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171358045270">
+<problem id="fs-id1171361372044">
+<para id="fs-id1171361430598">La masa y la carga de una gota de agua son <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>g</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> respectivamente. Si la gota recibe una velocidad horizontal inicial de <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mtext>m/s</m:mtext><m:mo>,</m:mo></m:mrow></m:math> ¿qué campo magnético lo mantendrá en esta dirección? ¿Por qué hay que tener en cuenta la gravedad en este caso?</para>
+</problem>
+<solution id="fs-id1171361614978">
+<para id="fs-id1171361613332"><m:math><m:mrow><m:mn>9,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mtext>T</m:mtext><m:mo>;</m:mo></m:mrow></m:math> las fuerzas magnéticas y gravitacionales deben equilibrarse para mantener el equilibrio dinámico</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171357912934">
+<problem id="fs-id1171361691320">
+<para id="fs-id1171361351913">Se dan cuatro velocidades de protones diferentes. Para cada caso, determine la fuerza magnética sobre el protón en términos de e, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1171361336383" alt="B = B cero vector k. v 1 = v cero vector k. v 2 = v cero vector I. v 3 = v cero vector j. v 4 = v cero por [medio vector I más un medio raíz de 3 vector j)">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_02_4protnCase.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171358064883">
+<problem id="fs-id1171361452368">
+<para id="fs-id1171358056297">Un electrón de energía cinética 2.000 eV pasa entre placas paralelas que están a 1,0 cm de distancia y se mantienen a una diferencia de potencial de 300 V. ¿Cuál es la intensidad del campo magnético uniforme B que permitirá al electrón viajar sin desviarse a través de las placas? Supongamos que E y B son perpendiculares.</para>
+</problem>
+<solution id="fs-id1171358224080">
+<para id="fs-id1171361698384"><m:math><m:mrow><m:mn>1,13</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−3</m:mn></m:msup><m:mtext>T</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361306607">
+<problem id="fs-id1171357835847">
+<para id="fs-id1171361472098">Una partícula alfa <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>6,64</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math> <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>3,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo>)</m:mo></m:mrow></m:math> moviéndose con una velocidad <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>4,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> entra en una región donde <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>2,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>4,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la fuerza inicial sobre ella?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361420460">
+<problem id="fs-id1171361493139">
+<para id="fs-id1171361371543">Un electrón que se mueve con una velocidad <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>3,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>2,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> entra en una región donde hay un campo eléctrico y un campo magnético uniformes. El campo magnético viene dado por <m:math><m:mrow><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>2,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>4,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Si el electrón viaja a través de una región sin ser desviado, ¿cuál es el campo eléctrico?</para>
+</problem>
+<solution id="fs-id1171358026679">
+<para id="fs-id1171361667483"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,6</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>1,4</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>1,1</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361304332">
+<problem id="fs-id1171361415727">
+<para id="fs-id1171361644794">En un instante determinado, un electrón viaja de oeste a este con una energía cinética de 10 keV. El campo magnético de la Tierra tiene una componente horizontal de <m:math><m:mrow><m:mn>1,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> norte y una componente vertical de <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> abajo. (a) ¿Cuál es la trayectoria del electrón? (b) ¿Cuál es el radio de curvatura de la trayectoria?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171357994279">
+<problem id="fs-id1171361459599">
+<para id="fs-id1171361433819">¿Cuál es la (a) trayectoria de un protón y (b) la fuerza magnética sobre el protón que viaja de oeste a este con una energía cinética de 10 keV en el campo magnético de la Tierra que tiene una componente horizontal de 1,8 x 10<sup>–5</sup> T hacia el norte y una componente vertical de 5,0 x 10<sup>–5</sup> T hacia abajo?</para></problem>
+<solution id="fs-id1171361282166">
+<para id="fs-id1171361280696">a. movimiento circular en un plano norte, hacia abajo; b. <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,61</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>−</m:mo><m:mn>0,58</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361554382">
+<problem id="fs-id1171361458689">
+<para id="fs-id1171361254729">¿Qué campo magnético se necesita para confinar un protón que se mueve con una velocidad de <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> a una órbita circular de radio 10 cm?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361471251">
+<problem id="fs-id1171361303443">
+<para id="fs-id1171361404212">Un electrón y un protón se mueven con la misma velocidad en un plano perpendicular a un campo magnético uniforme. Compare los radios y periodos de sus órbitas.</para>
+</problem>
+<solution id="fs-id1171361258484">
+<para id="fs-id1171361352404">El protón tiene más masa que el electrón, por lo que su radio y su periodo serán mayores.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361261063">
+<problem id="fs-id1171361223055">
+<para id="fs-id1171361379896">Un protón y una partícula alfa tienen la misma energía cinética y ambos se mueven en un plano perpendicular a un campo magnético uniforme. Compare los periodos de sus órbitas.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171357996987">
+<problem id="fs-id1171358221562">
+<para id="fs-id1171357879779">Un ion con carga simple toma <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math> para completar ocho revoluciones en un campo magnético uniforme de magnitud <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la masa del ion?</para>
+</problem>
+<solution id="fs-id1171361254435">
+<para id="fs-id1171361224902"><m:math><m:mrow><m:mn>1,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−25</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361237011">
+<problem id="fs-id1171361540887">
+<para id="fs-id1171361731570">Una partícula que se mueve hacia abajo a una velocidad de <m:math><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> entra en un campo magnético uniforme que es horizontal y está dirigido de este a oeste. (a) Si la partícula se desvía inicialmente hacia el norte en un arco circular, ¿su carga es positiva o negativa? (b) Si <emphasis effect="italics">B</emphasis> = 0,25 T y la proporción carga-masa (<emphasis effect="italics">q/m</emphasis>) de la partícula es <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mtext>C/kg</m:mtext><m:mo>,</m:mo></m:mrow></m:math> ¿cuál es el radio de la trayectoria? (c) ¿Cuál es la velocidad de la partícula después de haberse movido en el campo por <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>?</m:mo></m:mrow></m:math> ¿Por 2,0 s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361641923">
+<problem id="fs-id1171361333816">
+<para id="fs-id1171361444684">Un protón, un deuterón y una partícula alfa son acelerados desde el reposo por la misma diferencia de potencial. Luego entran en el mismo campo magnético, moviéndose perpendicularmente a él. Calcule los cocientes de los radios de sus trayectorias circulares. Supongamos que <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>m</m:mi><m:mi>p</m:mi></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>α</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:msub><m:mi>m</m:mi><m:mi>p</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1171361389399">
+<para id="fs-id1171361400383">1:0,707:1</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361352126">
+<problem id="fs-id1171361645134">
+<para id="fs-id1171361489386">Un ion con una sola carga que se mueve en un campo magnético uniforme de <m:math><m:mrow><m:mn>7,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> completa 10 revoluciones en <m:math><m:mrow><m:mn>3,47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Identifique el ion.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361477681">
+<problem id="fs-id1171361477683">
+<para id="fs-id1171361409466">Dos partículas tienen el mismo momento lineal, pero la partícula A tiene cuatro veces la carga de la partícula B. Si ambas partículas se mueven en un plano perpendicular a un campo magnético uniforme, ¿cuál es la proporción <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mi>A</m:mi></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>R</m:mi><m:mi>B</m:mi></m:msub></m:mrow></m:math> de los radios de sus órbitas circulares?</para>
+</problem>
+<solution id="fs-id1171361648486">
+<para id="fs-id1171361224611">1/4</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361652067">
+<problem id="fs-id1171361603999">
+<para id="fs-id1171358210276">Un campo magnético uniforme de magnitud <m:math><m:mi>B</m:mi></m:math> se dirige en paralelo al eje <emphasis effect="italics">z</emphasis>. Un protón entra en el campo con una velocidad <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>3</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> y se desplaza en una trayectoria helicoidal con un radio de 5,0 cm. (a) ¿Cuál es el valor de <m:math><m:mi>B</m:mi></m:math>? (b) ¿Cuál es el tiempo necesario para un viaje alrededor de la hélice? (c) ¿Dónde está el protón <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math> después de entrar en el campo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361258474">
+<problem id="fs-id1171361464852">
+<para id="fs-id1171361492796">Un electrón que se mueve a lo largo del eje +<emphasis effect="italics">x</emphasis> a <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> entra en un campo magnético que hace un ángulo de <m:math><m:mrow><m:msup><m:mrow><m:mn>75</m:mn></m:mrow><m:mtext>o</m:mtext></m:msup></m:mrow></m:math> con el eje <emphasis effect="italics">x</emphasis> de magnitud 0,20 T. Calcule el (a) paso y (b) radio de la trayectoria.</para></problem>
+<solution id="fs-id1171361435026">
+<para id="fs-id1171357943715">a. <m:math><m:mrow><m:mn>2,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>1,37</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1171361494745">
+<problem id="fs-id1171361400488">
+<para id="fs-id1171361667593">(a) Un tramo de cable de 0,750 m de longitud que porta corriente al motor de arranque de un automóvil forma un ángulo de 60º con el campo de <m:math><m:mrow><m:mn>5,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> de la Tierra. ¿Cuál es la corriente cuando el cable experimenta una fuerza de <m:math><m:mrow><m:mn>7,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>N</m:mtext><m:mo>?</m:mo></m:mrow></m:math> b) Si se pasa el cable entre los polos de un imán de herradura fuerte, sometiendo 5,00 cm del mismo a un campo de 1,75 T, ¿qué fuerza se ejerce sobre este segmento de cable?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171358206593">
+<problem id="fs-id1171357854276">
+<para id="fs-id1171357854278">(a) ¿Cuál es el ángulo entre un cable que porta una corriente de 8,00 A y el campo de 1,20 T en el que se encuentra si 50,0 cm del cable experimentan una fuerza magnética de 2,40 N? (b) ¿Cuál es la fuerza sobre el cable si se gira para formar un ángulo de 90º con el campo?</para>
+</problem>
+<solution id="fs-id1171358226728">
+<para id="fs-id1171358226730">a. <m:math><m:mrow><m:mn>30,0</m:mn><m:mtext>°</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. 4,80 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361663412">
+<problem id="fs-id1171361662643">
+<para id="fs-id1171361662645">Un segmento de cable de 1,0 m de longitud se encuentra a lo largo del eje <emphasis effect="italics">x</emphasis> y lleva una corriente de 2,0 A en la dirección <emphasis effect="italics">x</emphasis> positiva. Alrededor del cable está el campo magnético de <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>4,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Halle la fuerza magnética en este segmento.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361652170">
+<problem id="fs-id1171361652172">
+<para id="fs-id1171361602219">Una sección de 5,0 m de un cable largo y recto porta una corriente de 10 A mientras se encuentra en un campo magnético uniforme de magnitud <m:math><m:mrow><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Calcule la magnitud de la fuerza sobre la sección si el ángulo entre el campo y la dirección de la corriente es (a) 45°; (b) 90°; (c) 0°; o (d) 180°.</para>
+</problem>
+<solution id="fs-id1171361639446">
+<para id="fs-id1171361639449">a. 0,283 N; b. 0,4 N; c. 0 N; d. 0 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361357750">
+<problem id="fs-id1171361274328">
+<para id="fs-id1171361274330">Un electroimán produce un campo magnético de magnitud 1,5 T en toda una región cilíndrica de radio 6,0 cm. Un cable recto que porta una corriente de 25 A pasa por el campo como se muestra en la figura adjunta. ¿Cuál es la fuerza magnética sobre el cable?</para>
+<media id="fs-id1171361357200" alt="El campo en el espacio vertical de un electroimán apunta hacia abajo. El espacio es de 12,0 cm de ancho. Un cable horizontal pasa por el espacio y porta una corriente de 25 A, que fluye hacia la derecha.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_04_exerwire.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171361424258">
+<problem id="fs-id1171361424260">
+<para id="fs-id1171361667307">El bucle de corriente que se muestra en la figura adjunta se encuentra en el plano de la página, al igual que el campo magnético. Determine la fuerza neta y el torque neto en el bucle si <emphasis effect="italics">I</emphasis> = 10 A y <emphasis effect="italics">B</emphasis> = 1,5 T.</para>
+<media id="fs-id1171361346104" alt="El bucle actual forma un paralelogramo: la parte superior e inferior son horizontales y miden 10 cm, los lados están inclinados en un ángulo de 60 grados hacia arriba desde la dirección +x y miden 8,0 cm. Una corriente de 20 A fluye en sentido contrario a las agujas del reloj. El campo magnético está arriba.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_05_recttorque.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171361385971">
+<para id="fs-id1171361385973">0 N y 0,012 Nm</para></solution>
+</exercise>
+<exercise id="fs-id1171361314191">
+<problem id="fs-id1171361426555">
+<para id="fs-id1171361426557">Una bobina circular de radio 5,0 cm está enrollada con cinco vueltas y porta una corriente de 5,0 A. Si la bobina se coloca en un campo magnético uniforme de intensidad 5,0 T, ¿cuál es el torque máximo en ella?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171357997039">
+<problem id="fs-id1171361308690">
+<para id="fs-id1171358225964">Una bobina circular de alambre de radio 5,0 cm tiene 20 vueltas y porta una corriente de 2,0 A. La bobina se encuentra en un campo magnético de magnitud 0,50 T que está dirigido paralelamente al plano de la bobina. (a) ¿Cuál es el momento dipolar magnético de la bobina? (b) ¿Cuál es el torque en la bobina?</para>
+</problem>
+<solution id="fs-id1171361447536">
+<para id="fs-id1171361447538">a. <m:math><m:mrow><m:mn>0,31</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>Am</m:mtext><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> b. 0,16 Nm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361308469">
+<problem id="fs-id1171361707024">
+<para id="fs-id1171361707026">Una bobina portadora de corriente en un campo magnético experimenta un torque que es el 75 % del torque máximo posible. ¿Cuál es el ángulo entre el campo magnético y la normal al plano de la bobina?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361429819">
+<problem id="fs-id1171361429821">
+<para id="fs-id1171361642835">Un bucle rectangular de 4,0 cm por 6,0 cm porta una corriente de 10 A. ¿Cuál es el momento dipolar magnético del bucle?</para>
+</problem>
+<solution id="fs-id1171357878142">
+<para id="fs-id1171357878144"><m:math><m:mrow><m:mn>0,024</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>Am</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171357994484">
+<problem id="fs-id1171361663631">
+<para id="fs-id1171361663633">Una bobina circular de 200 vueltas tiene un radio de 2,0 cm. (a) ¿Qué corriente a través de la bobina da lugar a un momento dipolar magnético de 3,0 Am<sup>2</sup>? (b) ¿Cuál es el torque máximo que experimentará la bobina en un campo uniforme de intensidad <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>?</m:mo></m:mrow></m:math> (c) Si el ángulo entre <emphasis effect="italics">μ</emphasis> y <emphasis effect="italics">B</emphasis> es de 45°, ¿cuál es la magnitud del torque en la bobina? (d) ¿Cuál es la energía potencial magnética de la bobina para esta orientación?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361254764">
+<problem id="fs-id1171361254766">
+<para id="fs-id1171361254768">La corriente que atraviesa un bucle circular de radio 10 cm es de 5,0 A. (a) Calcule el momento dipolar magnético del bucle. (b) ¿Cuál es el torque en el bucle si está en un campo magnético uniforme de 0,20 T tal que <m:math><m:mi>μ</m:mi></m:math> y B se dirigen a <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> entre sí? (c) Para esta posición, ¿cuál es la energía potencial del dipolo?</para>
+</problem>
+<solution id="fs-id1171361407529">
+<para id="fs-id1171361407531">a. <m:math><m:mrow><m:mn>0,16</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>Am</m:mtext><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> b. 0,016 Nm; c. 0,028 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361651905">
+<problem id="fs-id1171361651907">
+<para id="fs-id1171361488086">Un cable de 1,0 m de longitud se enrolla en un bucle plano de una sola vuelta. El bucle lleva una corriente de 5,0 A, y está situado en un campo magnético uniforme de intensidad 0,25 T. (a) ¿Cuál es el torque máximo que experimentará el bucle si es cuadrado? (b) ¿Si es circular? (c) ¿Con qué ángulo respecto a <emphasis effect="italics">B</emphasis> tendría que estar orientada la normal de la bobina circular para que el torque en ella fuera el mismo que el torque máximo en la bobina cuadrada?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361374215">
+<problem id="fs-id1171361374217">
+<para id="fs-id1171361374220">Consideremos un electrón que gira en una órbita circular de radio r. Demuestre que las magnitudes del momento dipolar magnético μ y el momento angular <emphasis effect="italics">L</emphasis> del electrón están relacionadas por:</para>
+<equation id="fs-id1171358212247" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>μ</m:mi><m:mi>L</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>e</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</problem>
+<solution id="fs-id1163713088788">
+<para id="fs-id1163713088790">(Prueba)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361396268">
+<problem id="fs-id1171361396270">
+<para id="fs-id1171361396272">El efecto Hall debe utilizarse para calcular el signo de los portadores de carga en una muestra de semiconductor. La sonda se coloca entre los polos de un imán para que el campo magnético apunte hacia arriba. Se hace pasar una corriente a través de una muestra rectangular colocada horizontalmente. Al pasar la corriente a través de la muestra en dirección este, la cara norte de esta se encuentra a un potencial más alto que la cara sur. Decida si la densidad numérica de portadores de carga está cargada positiva o negativamente.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361511611">
+<problem id="fs-id1171361511613">
+<para id="fs-id1171361258683">La densidad de portadores de carga para el cobre es <m:math><m:mrow><m:mn>8,47</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>28</m:mn></m:mrow></m:msup></m:mrow></m:math> electrones por metro cúbico. ¿Cuál será la lectura del voltaje Hall de una sonda formada por una placa de cobre de <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>2 cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>1 cm</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>L</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> cuando se hace pasar por ella una corriente de 1,5 A en un campo magnético de 2,5 T perpendicular a <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mtext>2 cm</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1171361237898">
+<para id="fs-id1171361237900"><m:math><m:mrow><m:mn>4,65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mtext>V</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361258579">
+<problem id="fs-id1171361258582">
+<para id="fs-id1171361285398">Debe utilizarse el efecto Hall para calcular la densidad de portadores de carga en un material desconocido. Un voltaje Hall de 40 <m:math><m:mrow><m:mtext>μV</m:mtext></m:mrow></m:math> para una corriente de 3 A se observa en un campo magnético de 3 T para una muestra rectangular con una longitud de 2 cm, una anchura de 1,5 cm y una altura de 0,4 cm. Determine la densidad de los portadores de carga.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361430124">
+<problem id="fs-id1171361430126">
+<para id="fs-id1171361386142">Demuestre que el voltaje Hall a través de cables del mismo material, que portan corrientes idénticas y que están sometidos al mismo campo magnético, es inversamente proporcional a sus diámetros. (Pista: Considere cómo la velocidad de deriva depende del diámetro del cable).</para>
+</problem>
+<solution id="fs-id1171361325633">
+<para id="fs-id1171361325635">Dado que <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde la anchura es el doble del radio, <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>r</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>q</m:mi><m:mi>A</m:mi><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math><newline/> <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>d</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>n</m:mi><m:mi>q</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>n</m:mi><m:mi>q</m:mi><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> así que <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mtext>I</m:mtext><m:mrow><m:mi>n</m:mi><m:mi>q</m:mi><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>I</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>q</m:mi><m:mi>π</m:mi><m:mi> </m:mi><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>∝</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mo>∝</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>d</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/> El voltaje Hall es inversamente proporcional al diámetro del cable.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361254790">
+<problem id="fs-id1171361254792">
+<para id="fs-id1171361427568">Un selector de velocidad en un espectrómetro de masas utiliza un campo magnético de 0,100 T. (a) ¿Qué intensidad de campo eléctrico se necesita para seleccionar una velocidad de <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext><m:mo>?</m:mo></m:mrow></m:math> b) ¿Cuál es el voltaje entre las placas si están separadas por 1,00 cm?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361422338">
+<problem id="fs-id1171361422340">
+<para id="fs-id1171357854709">Halle el radio de curvatura de la trayectoria de un protón de 25,0 MeV que se mueve perpendicularmente al campo de 1,20 T de un ciclotrón.</para>
+</problem>
+<solution id="fs-id1171357854714">
+<para id="fs-id1171361468088"><m:math><m:mrow><m:mn>6,92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>;</m:mo></m:mrow></m:math> 0,602 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361254445">
+<problem id="fs-id1171361254448">
+<para id="fs-id1171361259234"><emphasis effect="bold">Resultados no razonables</emphasis> Para construir un medidor de agua no mecánico, se coloca un campo magnético de 0,500 T a través de la tubería de suministro de agua de una vivienda y se registra el voltaje Hall. (a) Halle el caudal que pasa por una tubería de 3,00 cm de diámetro si el voltaje Hall es de 60,0 mV. (b) ¿Cuál sería el voltaje Hall para el mismo caudal que pasa por una tubería de 10,0 cm de diámetro con el mismo campo aplicado?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171358210451">
+<problem id="fs-id1171358210453">
+<para id="fs-id1171358210455"><emphasis effect="bold">Resultados no razonables</emphasis> Una partícula cargada con masa <m:math><m:mrow><m:mn>6,64</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow></m:math> (la de un átomo de helio) que se mueve a <m:math><m:mrow><m:mn>8,70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> perpendicular a un campo magnético de 1,50 T viaja en una trayectoria circular de radio 16,0 mm. (a) ¿Cuál es la carga de la partícula? (b) ¿Qué no es razonable en este resultado? (c) ¿Qué suposiciones son responsables?</para>
+</problem>
+<solution id="fs-id1171361257916">
+<para id="fs-id1171361257918">a. <m:math><m:mrow><m:mn>2,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. no es un múltiplo entero de e; c. hay que suponer que todas las cargas tienen múltiplos de e, podría haber otras fuerzas no consideradas</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361540249">
+<problem id="fs-id1171361540251">
+<para id="fs-id1171361540254"><emphasis effect="bold">Resultados no razonables</emphasis> Un inventor quiere generar energía de 120 V moviendo un cable de 1,00 m de longitud perpendicular al campo de <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext></m:mrow></m:math> de la Tierra. (a) Halle la velocidad con la que debe moverse el cable. (b) ¿Qué es lo que no es razonable en este resultado? (c) ¿Qué suposición es la responsable?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361680743">
+<problem id="fs-id1171361680745">
+<para id="fs-id1171358052265"><emphasis effect="bold">Resultados no razonables</emphasis> Frustrado por el pequeño voltaje Hall obtenido en las mediciones del flujo sanguíneo, un físico médico decide aumentar la intensidad del campo magnético aplicado para obtener una salida de 0,500 V para la sangre que se mueve a 30,0 cm/s en un vaso de 1,50 cm de diámetro. (a) ¿Qué intensidad de campo magnético se necesita? (b) ¿Qué es lo no razonable de este resultado? (c) ¿Qué premisa es responsable?</para>
+</problem>
+<solution id="fs-id1171361431585">
+<para id="fs-id1171361431587">a. B = 5 T; b. imán muy grande; c. aplicar un voltaje tan grande</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1171361260950" class="review-challenge">
+<title>Problemas de desafíos</title>
+<exercise id="fs-id1171361427079">
+<problem id="fs-id1171361427081">
+<para id="fs-id1171361427083">Una partícula de carga +<emphasis effect="italics">q</emphasis> y masa <emphasis effect="italics">m</emphasis> se mueve con velocidad <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> apuntando en la dirección +<emphasis effect="italics">y</emphasis> al cruzar el eje <emphasis effect="italics">x</emphasis> en <emphasis effect="italics">x</emphasis> = <emphasis effect="italics">R</emphasis> en un momento determinado. Hay una carga negativa –<emphasis effect="italics">Q</emphasis> fija en el origen, y existe un campo magnético uniforme <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> apuntando en la dirección +<emphasis effect="italics">z</emphasis>. Se halla que la partícula describe un círculo de radio <emphasis effect="italics">R</emphasis> alrededor de –<emphasis effect="italics">Q</emphasis>. Calcule <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> en términos de las cantidades dadas.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171361646329">
+<problem id="fs-id1171361646331">
+<para id="fs-id1171361402585">Un protón de velocidad <emphasis effect="italics">v</emphasis> = <m:math><m:mrow><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> entra en una región de campo magnético uniforme de <emphasis effect="italics">B</emphasis> = 0,5 T con un ángulo de <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> al campo magnético. En la región del campo magnético el protón describe una trayectoria helicoidal con radio <emphasis effect="italics">R</emphasis> y paso <emphasis effect="italics">p</emphasis> (distancia entre bucles). Halle <emphasis effect="italics">R</emphasis> y <emphasis effect="italics">p</emphasis>.</para>
+</problem>
+<solution id="fs-id1171361408787">
+<para id="fs-id1171361408789"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mi>v</m:mi><m:mspace width="0.1em"/><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mi>q</m:mi><m:mi>B</m:mi><m:mo>;</m:mo></m:mrow></m:math><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>e</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>v</m:mi><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361726426">
+<problem id="fs-id1171361726428">
+<para id="fs-id1171361726430">La trayectoria de una partícula se dobla cuando pasa por una región de campo magnético distinto de cero, aunque su velocidad permanece inalterada. Esto es muy útil para la "dirección del rayo" en los aceleradores de partículas. Considere un protón de velocidad <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math> que entra en una región de campo magnético uniforme de 0,2 T en una región de 5 cm de ancho. El campo magnético es perpendicular a la velocidad de la partícula. ¿En qué ángulo se doblará la trayectoria del protón? (Pista: La partícula sale tangente a un círculo).</para>
+<media id="fs-id1171358226174" alt="La partícula entra en la región con campo desde la izquierda con una velocidad horizontal hacia la derecha. Sale en un ángulo theta sobre la dirección horizontal (derecha). La región con campo es de 5 cm de ancho.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_07_challenge3.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171361260055">
+<problem id="fs-id1171361260057">
+<para id="fs-id1171361260059">En una región existe un campo magnético no uniforme tal que <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:msub><m:mi>B</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mi>n</m:mi><m:mi>d</m:mi><m:mspace width="0.2em"/><m:msub><m:mi>B</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <emphasis effect="italics">a</emphasis> es una constante. En algún momento <emphasis effect="italics">t</emphasis>, un cable de longitud <emphasis effect="italics">L</emphasis> que porta una corriente <emphasis effect="italics">I</emphasis> se encuentra a lo largo del eje <emphasis effect="italics">x</emphasis> desde el origen hasta <emphasis effect="italics">x</emphasis> = <emphasis effect="italics">L</emphasis>. Halle la fuerza magnética sobre el cable en este instante de tiempo.</para>
+</problem>
+<solution id="fs-id1171361694843">
+<para id="fs-id1171361468450"><m:math><m:mrow><m:mi>I</m:mi><m:mi>a</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361261560">
+<problem id="fs-id1171361261562">
+<para id="fs-id1171361259162">Una varilla de cobre de masa <emphasis effect="italics">m</emphasis> y longitud <emphasis effect="italics">L</emphasis> se cuelga del techo mediante dos resortes de constante elástica <emphasis effect="italics">k</emphasis>. Un campo magnético uniforme de magnitud <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> apuntando perpendicularmente a la varilla y al resorte (entrando en la página en la figura) existe en una región del espacio que cubre una longitud <emphasis effect="italics">w</emphasis> de la varilla de cobre. Los extremos de la varilla se conectan mediante un cable de cobre flexible a los terminales de una batería de voltaje <emphasis effect="italics">V</emphasis>. Determine la variación de la longitud de los resortes cuando <emphasis effect="italics">a</emphasis> corriente <emphasis effect="italics">I</emphasis> recorre la varilla de cobre en el sentido indicado en la figura. (Ignore cualquier fuerza por el cable flexible).</para>
+<media id="fs-id1171361248351" alt="Una ilustración del problema. La varilla de cobre es horizontal y cuelga de unos resortes en ambos extremos. Una corriente I fluye hacia la derecha a través de la varilla. Un campo B apunta a la página en una región de ancho w.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_07_challenge5.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171361421930">
+<problem id="fs-id1171361421932">
+<para id="fs-id1171361421935">La figura adjunta muestra una disposición para medir la masa de los iones mediante un instrumento llamado espectrómetro de masas. Un ion de masa <emphasis effect="italics">m</emphasis> y carga +<emphasis effect="italics">q</emphasis> se produce esencialmente en reposo en la fuente <emphasis effect="italics">S</emphasis>, una cámara en la que tiene lugar una descarga de gas. El ion es acelerado por una diferencia de potencial <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>acc</m:mtext></m:mrow></m:msub></m:mrow></m:math> y se le permite entrar en una región de campo magnético constante <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> En la región del campo magnético uniforme, el ion se mueve en una trayectoria semicircular golpeando una placa fotográfica a una distancia <emphasis effect="italics">x</emphasis> del punto de entrada. Deduzca una fórmula para la masa m en términos de <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> <emphasis effect="italics">q</emphasis>, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>acc</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> y <emphasis effect="italics">x</emphasis>.</para>
+<media id="fs-id1171361260095" alt="Esquema del espectrómetro de masas. La fuente está en la parte inferior. Las partículas son aceleradas por la diferencia de potencial V acc, luego entran en una región en la que solo hay un campo magnético uniforme B cero. En esa región, las partículas siguen una trayectoria semicircular de diámetro x en el sentido de las agujas del reloj.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_07_challenge6.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171361419720">
+<para id="fs-id1171361419722"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>q</m:mi><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>acc</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1171361438650">
+<problem id="fs-id1171361438652">
+<para id="fs-id1171361438654">Se hace un alambre de forma circular de radio <emphasis effect="italics">R</emphasis> y se hace pivotar a lo largo de un soporte central. Los dos extremos del alambre están en contacto con una escobilla que está conectada a una fuente de alimentación de corriente continua. La estructura se encuentra entre los polos de un imán, por lo que podemos suponer que existe un campo magnético uniforme en el cable. En términos de un sistema de coordenadas con origen en el centro del anillo, el campo magnético es <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>B</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> y el anillo gira alrededor del eje <emphasis effect="italics">z</emphasis>. Halle el torque en el anillo cuando no está en el plano <emphasis effect="italics">xz</emphasis>.</para>
+<media id="fs-id1171361438492" alt="Entre los polos de un imán con una separación horizontal se encuentra un bucle circular y vertical por el que circula corriente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_07_challenge7.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171361420475">
+<problem id="fs-id1171361420477">
+<para id="fs-id1171361389271">Un cable largo y rígido se encuentra a lo largo del eje <emphasis effect="italics">x</emphasis> y porta una corriente de 2,5 A en la dirección <emphasis effect="italics">x</emphasis> positiva. Alrededor del cable está el campo magnético <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>2,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>5,0</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> con <emphasis effect="italics">x</emphasis> en metros y <emphasis effect="italics">B</emphasis> en militesla. Calcule la fuerza magnética sobre el segmento de cable entre <emphasis effect="italics">x</emphasis> = 2,0 m y <emphasis effect="italics">x</emphasis> = 4,0 m.</para>
+</problem>
+<solution id="fs-id1171361460280">
+<para id="fs-id1171361460282">0,23 N</para></solution>
+</exercise>
+<exercise id="fs-id1171361439092">
+<problem id="fs-id1171361439094">
+<para id="fs-id1171361439096">Un bucle circular de cable de 10 cm<sup>2</sup> lleva una corriente de 25 A. En un instante determinado el bucle se encuentra en el plano <emphasis effect="italics">xy</emphasis> y está sometido a un campo magnético <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>6,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>8,0</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Vista desde el plano <emphasis effect="italics">xy</emphasis>, la corriente circula en el sentido de las agujas del reloj. (a) ¿Cuál es el momento dipolar magnético del bucle de corriente? (b) En este instante, ¿cuál es el torque magnético en el bucle?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1171357887811">
+<term>ciclotrón</term>
+<meaning id="fs-id1171357887816">dispositivo utilizado para acelerar partículas cargadas hasta alcanzar grandes energías cinéticas</meaning>
+</definition>
+<definition id="fs-id1171361255504">
+<term>dees</term>
+<meaning id="fs-id1171361248385">grandes contenedores de metal utilizados en los ciclotrones que sirven para contener una corriente de partículas cargadas al aumentar su velocidad</meaning>
+</definition>
+<definition id="fs-id1171361248391">
+<term>espectrómetro de masas</term>
+<meaning id="fs-id1171361259986">dispositivo que separa los iones según su proporción carga-masa</meaning>
+</definition>
+</glossary>
+</document>

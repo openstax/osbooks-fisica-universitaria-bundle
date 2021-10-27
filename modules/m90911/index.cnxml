@@ -1,0 +1,164 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Campo magnético debido a un cable recto delgado</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90911</md:content-id>
+  <md:title>Campo magnético debido a un cable recto delgado</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar cómo se utiliza la ley de Biot-Savart para determinar el campo magnético debido a un cable delgado y recto.</item>
+<item>Determinar la dependencia del campo magnético de un cable delgado y recto en función de la distancia al mismo y de la corriente que circula por él.</item>
+<item>Hacer un croquis del campo magnético creado a partir de un cable delgado y recto utilizando la segunda regla de la mano derecha.</item>
+</list></md:abstract>
+  <md:uuid>271660e6-b9fd-4817-8662-0363402e04ec</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1166168109021">¿Cuánta corriente se necesita para producir un campo magnético significativo, quizás tan fuerte como el campo de la Tierra? Los topógrafos le dirán que las líneas eléctricas aéreas crean campos magnéticos que interfieren con sus lecturas de la brújula. De hecho, cuando Oersted descubrió en 1820 que una corriente en un cable afectaba a la aguja de brújula, no se trataba de corrientes extremadamente grandes. ¿Cómo afecta la forma de los cables que portan la corriente a la forma del campo magnético creado? En el capítulo 28 observamos que un bucle de corriente creaba un campo magnético similar al de una barra magnética, pero ¿qué ocurre con un cable recto? Podemos utilizar la ley de Biot-Savart para responder a todas estas preguntas, lo que incluye la determinación del campo magnético de un cable largo y recto.</para>
+<para id="fs-id1166168173733">La <link target-id="CNX_UPhysics_29_02_WireB"/> muestra una sección de un cable recto de longitud infinita que porta una corriente <emphasis effect="italics">I</emphasis>. ¿Cuál es el campo magnético en un punto <emphasis effect="italics">P</emphasis>, situado a una distancia <emphasis effect="italics">R</emphasis> del cable?</para>
+<figure id="CNX_UPhysics_29_02_WireB">
+<media id="fs-id1166168077322" alt="Esta figura muestra una sección de un cable delgado y recto conductor de corriente. El punto P está situado a la distancia R del centro del cable O y a la distancia r del trozo de cable dX. El vector r desde el trozo de cable dX hasta el punto P forma un ángulo theta con el cable. ">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_02_WireB.jpg"/>
+</media>
+<caption>Sección de un cable delgado y recto que transporta la corriente. La variable independiente <m:math><m:mi>θ</m:mi></m:math> tiene los límites <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1166168094294">Empecemos por considerar el campo magnético debido al elemento de corriente <m:math><m:mrow><m:mi>I</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> situado en la posición <emphasis effect="italics">x</emphasis>. Al utilizar la regla 1 de la mano derecha del capítulo anterior, <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> apunta fuera de la página para cualquier elemento a lo largo del cable. En el punto <emphasis effect="italics">P</emphasis>, por tanto, los campos magnéticos debidos a todos los elementos de la corriente tienen la misma dirección. Esto significa que podemos calcular el campo neto allí evaluando la suma escalar de las contribuciones de los elementos. Con <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>|</m:mo></m:mrow></m:mrow></m:mrow><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>sen</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> obtenemos de la ley de Biot-Savart</para>
+<equation id="fs-id1166168185043"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo stretchy="true">∫</m:mo><m:mrow><m:mtext>cable</m:mtext></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>I</m:mi><m:mi>sen</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mspace width="0.1em"/><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168109757">El cable es simétrico respecto al punto <emphasis effect="italics">O</emphasis>, por lo que podemos establecer los límites de la integración de cero a infinito y duplicar la respuesta, en lugar de integrar de infinito negativo a infinito positivo. Basándonos en la imagen y la geometría, podemos escribir expresiones para <emphasis effect="italics">r</emphasis> y <m:math><m:mrow><m:mi>sen</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow></m:math> en términos de <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">R</emphasis>, a saber:</para>
+<equation id="fs-id1166168189127" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>r</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>sen</m:mi><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>R</m:mi><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1166168153705">Al sustituir estas expresiones en la <link target-id="fs-id1166168185043"/>, la integración del campo magnético se convierte en</para>
+<equation id="fs-id1166168188727"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>R</m:mi><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168124999">Al evaluar la integral se obtiene</para>
+<equation id="fs-id1166168126499"><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:msubsup><m:mrow><m:mrow><m:mo>[</m:mo> <m:mrow><m:mfrac><m:mi>x</m:mi><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mn>0</m:mn><m:mi>∞</m:mi></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168152890">Al sustituir los límites obtenemos la solución</para>
+<note id="fs-id1168329046988" class="equation-callout">
+<equation id="fs-id1166168121933"><label/><m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1166168203050">Las líneas de campo magnético del cable infinito son circulares y centradas en el cable (<link target-id="CNX_UPhysics_29_02_Bsketch"/>), y son idénticas en todos los planos perpendiculares este. Dado que el campo disminuye con la distancia al cable, el espaciado de las líneas de campo debe aumentar de forma correspondiente con la distancia. La dirección de este campo magnético puede encontrarse con una segunda forma de la <term class="no-emphasis">regla de la mano derecha</term> (ilustrada en <link target-id="CNX_UPhysics_29_02_Bsketch"/>). Si se sujeta el cable con la mano derecha de forma que el pulgar apunte a lo largo de la corriente, entonces los dedos envuelven el cable en el mismo sentido que <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_29_02_Bsketch">
+<media id="fs-id1166168078688" alt="Esta figura demuestra la regla de la mano derecha. El cable se sujeta con la mano derecha de forma que el pulgar apunte a lo largo de la corriente. Los dedos envuelven el cable en el mismo sentido que el campo magnético.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_02_Bsketch.jpg"/>
+</media>
+<caption>Algunas líneas de campo magnético de un cable infinito. La dirección de <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> se puede calcular con una forma de la regla de la mano derecha.</caption>
+</figure>
+<para id="fs-id1166168075188">La dirección de las líneas de campo se puede observar de manera experimental colocando varias agujas de brújula pequeñas en un círculo cerca del cable, como se ilustra en la <link target-id="CNX_UPhysics_29_02_IronFiling"/>. Cuando no hay corriente en el cable, las agujas se alinean con el campo magnético de la Tierra. Sin embargo, cuando se envía una gran corriente a través del cable, las agujas de brújula apuntan todas tangentes al círculo. Las limaduras de hierro espolvoreadas sobre una superficie horizontal también delinean las líneas de campo, como se muestra en la <link target-id="CNX_UPhysics_29_02_IronFiling"/>.</para>
+<figure id="CNX_UPhysics_29_02_IronFiling">
+<media id="fs-id1166168218609" alt="La figura A muestra un círculo formado por las pequeñas agujas de brújula alineadas con el campo magnético de la Tierra. La figura B muestra que las limaduras de hierro espolvoreadas sobre una superficie horizontal alrededor de un cable largo delinean las líneas de campo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_02_IronFiling.jpg"/>
+</media>
+<caption>La forma de las líneas de campo magnético de un cable largo puede verse utilizando (a) pequeñas agujas de brújula y (b) limaduras de hierro.</caption>
+</figure>
+<example id="fs-id1166168128319">
+<para id="fs-id1168329042254"><title>Cálculo del campo magnético debido a tres cables</title>
+Tres cables se sitúan en las esquinas de un cuadrado, todos llevan corrientes de 2 amperios a la página como se muestra en la <link target-id="CNX_UPhysics_29_02_3wires"/>. Calcule la magnitud del campo magnético en la otra esquina del cuadrado, el punto <emphasis effect="italics">P</emphasis>, si la longitud de cada lado del cuadrado es de 1 cm.</para>
+<figure id="CNX_UPhysics_29_02_3wires">
+<media id="fs-id1166168191359" alt="La figura muestra tres cables I1, I2 e I3 con corriente que fluye hacia la página. Los cables forman tres esquinas de un cuadrado. El campo magnético se determina en la cuarta esquina del cuadrado que se denomina P.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_02_3wires.jpg"/>
+</media>
+<caption>Tres cables tienen corriente que fluye hacia la página. El campo magnético se determina en la cuarta esquina del cuadrado.</caption>
+</figure>
+<para id="fs-id1168329043271"><title>Estrategia</title>
+Se calcula el campo magnético debido a cada cable en el punto deseado. La distancia diagonal se calcula mediante el teorema de Pitágoras. A continuación, se determina la dirección de la contribución de cada campo magnético dibujando un círculo centrado en el punto del cable y hacia el punto deseado. La dirección de la contribución del campo magnético de ese cable es tangencial a la curva. Por último, trabajando con estos vectores, se calcula la resultante.</para>
+<para id="fs-id1168329033150"><title>Solución</title>
+Los cables 1 y 3 tienen la misma magnitud de contribución del campo magnético en el punto <emphasis effect="italics">P</emphasis>:</para>
+<equation id="fs-id1166168101374" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>B</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−7</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0,01</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168185335">El cable 2 tiene una distancia mayor y una contribución del campo magnético en el punto <emphasis effect="italics">P</emphasis> de:</para>
+<equation id="fs-id1166168176600" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−7</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0,01414</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168119698">Se muestran los vectores de cada una de estas contribuciones de campo magnético.</para>
+<media id="fs-id1166168123402" alt="La figura muestra tres cables I1, I2 e I3 con corriente que fluye hacia la página. Los cables forman tres esquinas de un cuadrado. El campo magnético se determina en la cuarta esquina del cuadrado que se denomina P. El vector B3 se dirige desde el punto P hacia el cable I1. El vector B1 es la continuación de la línea que va del cable I3 al punto P. El vector B2 se encuentra entre los vectores B1 y B3.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_02_3wiresAns_img.jpg"/>
+</media>
+<para id="fs-id1166168202136">El campo magnético en la dirección <emphasis effect="italics">x</emphasis> tiene contribuciones del cable 3 y de la componente <emphasis effect="italics">x</emphasis> del cable 2:</para>
+<equation id="fs-id1166168215700" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>neta</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−4</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>−</m:mo><m:mn>2,83</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mspace width="0.2em"/><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>45</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−6</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168120389">La componente <emphasis effect="italics">y</emphasis> es igualmente las contribuciones del cable 1 y la componente <emphasis effect="italics">y</emphasis> del cable 2:</para>
+<equation id="fs-id1166168121966" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>neta</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−4</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>−</m:mo><m:mn>2,83</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mi>sen</m:mi><m:mo stretchy="false">(</m:mo><m:mn>45</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−6</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1166168126756">Por lo tanto, el campo magnético neto es la resultante de estas dos componentes:</para>
+<equation id="fs-id1166168125108" class="unnumbered"><label/><m:math><m:mtable columnalign="left"><m:mtr/><m:mtr/><m:mtr><m:mtd><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>B</m:mi><m:mrow><m:mtext>neta</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:msubsup><m:mi>B</m:mi><m:mrow><m:mtext>neta</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−6</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>−6</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><para id="fs-id1168329150757"><title>Importancia</title>
+La geometría de este problema hace que las contribuciones del campo magnético en las direcciones <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis> tengan la misma magnitud. Esto no es necesariamente el caso si las corrientes fueran de valores diferentes o si los cables estuvieran situados en posiciones diferentes. Independientemente de los resultados numéricos, al trabajar con las componentes de los vectores se obtendrá el campo magnético resultante en el punto necesario.</para>
+</example>
+<note id="fs-id1166168217434" class="check-understanding">
+<exercise id="fs-id1166168186062">
+<problem id="fs-id1166168186064">
+<para id="fs-id1166168186066">Al utilizar el <link target-id="fs-id1166168128319"/>, al mantener las corrientes iguales en los cables 1 y 3, ¿cuál debería ser la corriente en el cable 2 para contrarrestar los campos magnéticos de los cables 1 y 3 de manera que no haya un campo magnético neto en el punto P?</para>
+</problem>
+<solution id="fs-id1166168173302">
+<para id="fs-id1166168173304">4 amperios saliendo de la página</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1166168249383" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1166168249390" list-type="bulleted" bullet-style="bullet">
+<item>La intensidad del campo magnético creado por la corriente en un cable recto largo viene dada por <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math> (cable recto largo) donde <emphasis effect="italics">I</emphasis> es la corriente, <emphasis effect="italics">R</emphasis> es la distancia más corta del cable y la constante <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−7</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo>⋅</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:math> es la permeabilidad del espacio libre.</item>
+<item>La dirección del campo magnético creado por un cable recto largo viene dada por la regla de la mano derecha 2 (right hand rule-2, RHR-2): Apunte el pulgar de la mano derecha en la dirección de la corriente, y los dedos se curvan en la dirección de los bucles de campo magnético creados por ella.</item>
+</list>
+</section>
+<section id="fs-id1166168176953" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1166168182740">
+<problem id="fs-id1166168182742">
+<para id="fs-id1166168182744">¿Cómo orientaría dos cables largos, rectos y conductores de corriente para que no haya una fuerza magnética neta entre ellos? (<emphasis effect="italics">Pista</emphasis>: ¿Qué orientación llevaría a que un cable no experimentara un campo magnético procedente del otro?).</para>
+</problem>
+<solution id="fs-id1166168323168">
+<para id="fs-id1166168323170">Hay que asegurarse de que las corrientes fluyan perpendiculares entre sí.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1166168324349" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1166168324356">
+<problem id="fs-id1166168324358">
+<para id="fs-id1166168322947">La corriente típica de un rayo es <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> A. Estime el campo magnético a 1 m del rayo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168231458">
+<problem id="fs-id1166168231460">
+<para id="fs-id1166168231462">La magnitud del campo magnético a 50 cm de un cable largo, fino y recto es <m:math><m:mrow><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mtext>μT</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es la corriente que pasa por el cable largo?</para>
+</problem>
+<solution id="fs-id1166168189277">
+<para id="fs-id1166168189280">20 A</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168173407">
+<problem id="fs-id1166168173409">
+<para id="fs-id1166168173411">Una línea de transmisión tendida a 7,0 m por encima del suelo porta una corriente de 500 A. ¿Cuál es el campo magnético en el suelo directamente debajo del cable? Compare su respuesta con el campo magnético de la Tierra.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168204152">
+<problem id="fs-id1166168204154">
+<para id="fs-id1166168204156">Un cable largo, recto y horizontal porta una corriente de izquierda a derecha de 20 A. Si el cable se coloca en un campo magnético uniforme de magnitud <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> que se dirige verticalmente hacia abajo, ¿cuál es la magnitud resultante del campo magnético a 20 cm por encima del cable? ¿20 cm por debajo del cable?</para>
+</problem>
+<solution id="fs-id1166168246053">
+<para id="fs-id1166168075373">Ambas respuestas tienen la magnitud del campo magnético de <m:math><m:mrow><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−5</m:mtext></m:mrow></m:msup><m:mtext>T</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168319660">
+<problem id="fs-id1166168319662">
+<para id="fs-id1166168319664">Los dos cables largos y paralelos que se muestran en la figura adjunta portan corrientes en la misma dirección. Si <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>10 A</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>,</m:mo></m:mrow></m:math> ¿cuál es el campo magnético en el punto P?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168182798">
+<problem id="fs-id1166168182800">
+<para id="fs-id1166168182802">La figura adjunta muestra dos cables largos, rectos y horizontales que están paralelos y a una distancia 2<emphasis effect="italics">a</emphasis> de separación. Si ambos cables llevan la corriente <emphasis effect="italics">I</emphasis> en el mismo sentido, (a) ¿cuál es el campo magnético en <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mo>?</m:mo></m:mrow></m:math> (b) ¿<m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>?</m:mo></m:mrow></m:math></para>
+<media id="fs-id1166168322689" alt="La figura muestra dos cables largos paralelos que están a una distancia de 2a de separación. La corriente fluye por los cables en la misma dirección. El punto P1 está situado entre los cables a una distancia a de cada uno. El punto P2 está situado a una distancia 2 a fuera de los cables.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_29_08_Pr10_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1166168185308">
+<para id="fs-id1166168185310">En P1, el campo magnético neto es cero. En P2, <m:math><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:msub><m:mi>μ</m:mi><m:mi>o</m:mi></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>π</m:mi><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math> hacia la página.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1166168195940">
+<problem id="fs-id1166168195943">
+<para id="fs-id1166168195945">Repita los cálculos del problema anterior con el sentido de la corriente en el cable inferior invertido.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1166168197681">
+<problem id="fs-id1166168197683">
+<para id="fs-id1166168197685">Considere el área entre los cables del problema anterior. ¿A qué distancia del cable superior el campo magnético neto es mínimo? Supongamos que las corrientes son iguales y fluyen en direcciones opuestas.</para>
+</problem>
+<solution id="fs-id1166168197692">
+<para id="fs-id1166168227088">El campo magnético es mínimo a la distancia <emphasis effect="italics">a</emphasis> del cable superior, o a la mitad de los cables.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+</document>

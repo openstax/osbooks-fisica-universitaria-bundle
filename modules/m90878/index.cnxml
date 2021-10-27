@@ -1,0 +1,148 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Determinación del campo a partir del potencial</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90878</md:content-id>
+  <md:title>Determinación del campo a partir del potencial</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar cómo calcular el campo eléctrico en un sistema a partir del potencial dado.</item>
+<item>Calcular el campo eléctrico en una dirección determinada a partir de un potencial dado.</item>
+<item>Calcular el campo eléctrico en el espacio a partir de un potencial dado.</item></list></md:abstract>
+  <md:uuid>b376b962-0c28-4e60-82e9-0ba3b9a0a98d</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167585079315">Recordemos que hemos podido, en ciertos sistemas, calcular el potencial integrando sobre el campo eléctrico. Como ya se puede sospechar, esto significa que podemos calcular el campo eléctrico tomando derivadas del potencial, aunque pasar de una cantidad escalar a una vectorial introduce algunas arrugas interesantes. A menudo necesitamos <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> para calcular la fuerza en un sistema; como a menudo es más sencillo calcular el potencial directamente, hay sistemas en los que es útil calcular <emphasis effect="italics">V</emphasis> y luego derivar <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> de la misma.</para>
+<para id="fs-id1167585117799">En general, independientemente de que el campo eléctrico sea uniforme, apunta en la dirección del potencial decreciente, porque la fuerza sobre una carga positiva es en la dirección de <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> y también en la dirección del potencial inferior <emphasis effect="italics">V</emphasis>. Además, la magnitud de <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> es igual a la tasa de disminución de <emphasis effect="italics">V</emphasis> con la distancia. Cuanto más rápido disminuya <emphasis effect="italics">V</emphasis> con la distancia, mayor será el campo eléctrico. Esto nos da el siguiente resultado.</para>
+<note id="fs-id1167585024334">
+<title>Relación entre voltaje y campo eléctrico uniforme</title>
+<para id="fs-id1167585171099">En forma de ecuación, la relación entre voltaje y campo eléctrico uniforme es</para>
+<equation id="fs-id1167584746933" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167585121263">donde <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow></m:math> es la distancia en la que el cambio de potencial <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math> tiene lugar. El signo menos nos dice que <emphasis effect="italics">E</emphasis> apunta en la dirección de la disminución del potencial. Se dice que el campo eléctrico es el gradiente (como en grado o pendiente) del potencial eléctrico.</para>
+</note>
+<para id="fs-id1167585168351">Para los potenciales que cambian continuamente, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow></m:math> se convierten en infinitesimales, y necesitamos el cálculo diferencial para determinar el campo eléctrico. Como se muestra en la <link target-id="CNX_UPhysics_24_04_Derive"/>, si tratamos la distancia <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow></m:math> como muy pequeño para que el campo eléctrico sea esencialmente constante sobre él, hallamos que</para>
+<equation id="fs-id1167584971212" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>s</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>s</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_24_04_Derive">
+<media id="fs-id1167584917175" alt="La figura muestra la componente del campo eléctrico de dos puntos A y B separados por una distancia delta s y que tienen una diferencia de potencial delta V.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_04_Derive.jpg"/>
+</media>
+<caption>La componente del campo eléctrico a lo largo del desplazamiento <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow></m:math> viene dada por <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow></m:mfrac></m:mrow></m:math>. Observe que se supone que <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> están tan cerca que el campo es constante a lo largo de <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1167584702763">Por tanto, las componentes del campo eléctrico en las direcciones cartesianas vienen dadas por</para>
+<note id="fs-id1167584955917" class="equation-callout">
+<equation id="fs-id1167585012696"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>V</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>E</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>V</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.2em"/><m:msub><m:mi>E</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>V</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>z</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167585148078">Con esto se puede definir el operador vectorial "grad" o "del", lo que nos permite calcular el gradiente en un solo paso. En coordenadas cartesianas, toma la forma</para>
+<note id="fs-id1167584896800" class="equation-callout">
+<equation id="fs-id1167584748277"><label/><m:math><m:mrow><m:mover accent="true"><m:mo>∇</m:mo><m:mo stretchy="false">→</m:mo></m:mover><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>i</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>j</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>k</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>z</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167584764801">Con esta notación, podemos calcular el campo eléctrico a partir del potencial con</para>
+<note id="fs-id1167584700679" class="equation-callout">
+<equation id="fs-id1167584716432"><label/><m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mover accent="true"><m:mo>∇</m:mo><m:mo stretchy="false">→</m:mo></m:mover><m:mi>V</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167585168235">un proceso que llamamos cálculo del <term class="no-emphasis">gradiente</term> del potencial.</para>
+<para id="fs-id1167584685236">Si tenemos un sistema con simetría cilíndrica o esférica, solo tenemos que utilizar el operador en las coordenadas adecuadas:</para>
+<note id="fs-id1167584756954" class="equation-callout">
+<equation id="fs-id1167584748584"><label/><m:math><m:mrow><m:mtext>Cilíndrica:</m:mtext><m:mspace width="0.2em"/><m:mover accent="true"><m:mo>∇</m:mo><m:mo stretchy="false">→</m:mo></m:mover><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext mathvariant="italic">φ</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>φ</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>z</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>z</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<note id="fs-id1167584742528" class="equation-callout">
+<equation id="fs-id1167584721578"><label/><m:math><m:mrow><m:mtext>Esférico:</m:mtext><m:mspace width="0.2em"/><m:mover accent="true"><m:mo>∇</m:mo><m:mo stretchy="false">→</m:mo></m:mover><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext mathvariant="italic">θ</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext mathvariant="italic">φ</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>φ</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1167584762942">
+<para id="fs-id1167584909938"><title>Campo eléctrico de una carga puntual</title>
+Calcule el campo eléctrico de una carga puntual a partir del potencial.</para>
+<para id="fs-id1167584667320"><title>Estrategia</title>
+Se sabe que el potencial es <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow></m:math>, que tiene una simetría esférica. Por lo tanto, utilizamos el operador del esférico en la fórmula <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mover accent="true"><m:mo>∇</m:mo><m:mo stretchy="false">→</m:mo></m:mover><m:mi>V</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1167584742162"><title>Solución</title>
+Realizando este cálculo obtenemos</para>
+<equation id="fs-id1167584770796" class="unnumbered"><label/><m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext mathvariant="italic">θ</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext mathvariant="italic">φ</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>φ</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>k</m:mi><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext mathvariant="italic">θ</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext mathvariant="italic">φ</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>φ</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584743652">Esta ecuación se simplifica en</para>
+<equation id="fs-id1167585036926" class="unnumbered"><label/><m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>k</m:mi><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mrow><m:mn>−1</m:mn></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext mathvariant="italic">θ</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mn>0</m:mn><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext mathvariant="italic">φ</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mi>q</m:mi><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math></equation>
+<para id="fs-id1167584942855">como se esperaba.</para>
+<para id="fs-id1167584980158"><title>Importancia</title>
+No solo hemos obtenido la ecuación para el campo eléctrico de una partícula puntual que hemos visto antes, sino que también tenemos una demostración de que <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> apunta en la dirección de la disminución del potencial, como se muestra en la <link target-id="CNX_UPhysics_24_04_PtChg"/>.</para>
+<figure id="CNX_UPhysics_24_04_PtChg">
+<media id="fs-id1167584700180" alt="La figura muestra una carga Q y vectores de campo eléctrico radialmente hacia afuera de Q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_04_PtChg.jpg"/>
+</media>
+<caption>Vectores del campo eléctrico dentro y fuera de una esfera uniformemente cargada.</caption>
+</figure>
+</example>
+<example id="fs-id1167584939454">
+<para id="fs-id1167585020817"><title>Campo eléctrico de un anillo de carga</title>
+Utilice el potencial encontrado en el <link target-id="fs-id1167585171844" document="m90876"/> para calcular el campo eléctrico a lo largo del eje de un anillo de carga (<link target-id="CNX_UPhysics_24_04_RingChg"/>).</para>
+<figure id="CNX_UPhysics_24_04_RingChg">
+<media id="fs-id1167584943704" alt="La figura muestra un anillo de carga situado en el plano xy con su centro en el origen. El punto P está situado en el eje z a una distancia z del origen.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_04_RingChg.jpg"/>
+</media>
+<caption>Queremos calcular el campo eléctrico a partir del potencial eléctrico debido a una carga anular.</caption>
+</figure>
+<para id="fs-id1167584729490"><title>Estrategia</title>
+En este caso, solo nos interesa una dimensión, el eje <emphasis effect="italics">z</emphasis>. Por lo tanto, utilizamos <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>V</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>z</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+<para id="fs-id1167584739742">con el potencial <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math> encontrado anteriormente.</para>
+<para id="fs-id1167584774598"><title>Solución</title>
+Tomando la derivada del potencial se obtiene</para>
+<equation id="fs-id1167584910628" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>z</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>k</m:mi><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub><m:mi>z</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584649147"><title>Importancia</title>
+De nuevo, esto coincide con la ecuación del campo eléctrico encontrada anteriormente. También demuestra un sistema en el que no es necesario utilizar el operador del completo.</para>
+</example>
+<note id="fs-id1167584649922" class="check-understanding">
+<exercise id="fs-id1167584765071">
+<problem id="fs-id1167584717199">
+<para id="fs-id1167584756055">¿Qué sistema de coordenadas utilizaría para calcular el campo eléctrico de un dipolo?</para>
+</problem>
+<solution id="fs-id1167584887801">
+<para id="fs-id1167584942608">Cualquiera, pero la cilíndrica es la que más se acerca a la simetría de un dipolo.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167585017287" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167584744301" list-type="bulleted" bullet-style="bullet">
+<item>Al igual que podemos integrar sobre el campo eléctrico para calcular el potencial, podemos tomar la derivada del potencial para calcular el campo eléctrico.</item>
+<item>Esto puede hacerse para componentes individuales del campo eléctrico, o podemos calcular todo el vector del campo eléctrico con el operador de gradiente.</item>
+</list>
+</section>
+<section id="fs-id1167585174181" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167585023255">
+<problem id="fs-id1167585039583">
+<para id="fs-id1167585159999">Si el campo eléctrico es cero en toda una región, ¿el potencial eléctrico debe ser también cero en esa región?</para>
+</problem>
+<solution id="fs-id1167585119005">
+<para id="fs-id1167585065642">No. Será constante, pero no necesariamente cero.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167584776674">
+<problem id="fs-id1167584745677">
+<para id="fs-id1167585176349">Explique por qué el conocimiento de <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>E</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> no es suficiente para determinar <emphasis effect="italics">V</emphasis><emphasis effect="italics">(x</emphasis><emphasis effect="italics">,y</emphasis><emphasis effect="italics">,z</emphasis>). ¿Y al revés?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167585159961" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167584773196">
+<problem id="fs-id1167584823710">
+<para id="fs-id1167585121315">En toda una región, las superficies equipotenciales vienen dadas por <m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mtext>constante</m:mtext></m:mrow></m:math>. Las superficies están igualmente espaciadas con <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> para <m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0,00</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext><m:mspace width="0.2em"/><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> para <m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext><m:mspace width="0.2em"/><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> para <m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>m.</m:mtext></m:mrow></m:math> ¿Cuál es el campo eléctrico en esta región?</para>
+</problem>
+<solution id="fs-id1167585021403">
+<para id="fs-id1167585079436">El problema es describir un campo uniforme, por lo que <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext></m:mrow></m:math> en la dirección –<emphasis effect="italics">z</emphasis>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585172136">
+<problem id="fs-id1167585080006">
+<para id="fs-id1167585176004">En una región determinada, el potencial eléctrico viene dado por <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es el campo eléctrico en esta región?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585091088">
+<problem id="fs-id1167585096570">
+<para id="fs-id1167585096573">Calcule el campo eléctrico de una carga lineal infinita en todo el espacio.</para>
+</problem>
+<solution id="fs-id1167585165494">
+<para id="fs-id1167585165496">Aplique <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mover accent="true"><m:mo>∇</m:mo><m:mo stretchy="false">→</m:mo></m:mover><m:mi>V</m:mi></m:mrow></m:math> con <m:math><m:mrow><m:mover accent="true"><m:mo>∇</m:mo><m:mo stretchy="false">→</m:mo></m:mover><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mover accent="true"><m:mi>φ</m:mi><m:mo>^</m:mo></m:mover><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>φ</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>z</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle><m:mfrac><m:mo>∂</m:mo><m:mrow><m:mo>∂</m:mo><m:mi>z</m:mi></m:mrow></m:mfrac></m:mrow></m:math> al potencial calculado anteriormente,<newline/> <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>k</m:mi><m:mi>λ</m:mi><m:mtext>dentro</m:mtext><m:mi>s</m:mi><m:mo>:</m:mo><m:mspace width="0.2em"/><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>k</m:mi><m:mi>λ</m:mi><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>r</m:mtext><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow></m:math> como se esperaba.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+
+</document>

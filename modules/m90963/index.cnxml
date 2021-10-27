@@ -1,0 +1,182 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Imágenes formadas por refracción</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90963</md:content-id>
+  <md:title>Imágenes formadas por refracción</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir la formación de imágenes por una sola superficie refractante</item>
+<item>Determinar la ubicación de una imagen y calcular sus propiedades mediante un diagrama de rayos</item>
+<item>Determinar la ubicación de una imagen y calcular sus propiedades utilizando la ecuación para una única superficie refractante</item>
+</list></md:abstract>
+  <md:uuid>a6ce6743-2fab-436b-bdf6-cbd2349449cc</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167132438916">Cuando los rayos de luz se propagan de un medio a otro, estos sufren refracción, que es cuando las ondas de luz se doblan en la interfase entre dos medios. La superficie refractante puede formar una imagen de forma similar a la de una superficie reflectante, salvo que la ley de refracción (ley de Snell) está en el centro del proceso en lugar de la ley de reflexión.</para>
+<section id="fs-id1167132438970">
+<title>Refracción en una interfase plana: profundidad aparente</title>
+<para id="fs-id1167133774305">Si se observa una varilla recta parcialmente sumergida en el agua, parece que se dobla en la superficie (<link target-id="CNX_UPhysics_35_03_36.13_Sami"/>). La razón de este curioso efecto es que la imagen de la varilla dentro del agua se forma un poco más cerca de la superficie que la posición real de la varilla, por lo que no se alinea con la parte de la varilla que está por encima del agua. El mismo fenómeno explica por qué un pez en el agua parece estar más cerca de la superficie de lo que realmente está.</para>
+<figure id="CNX_UPhysics_35_03_36.13_Sami">
+<media id="fs-id1167133402848" alt="La figura muestra la vista lateral de una varilla sumergida en agua. La imagen de una varilla marcada con una línea más clara se muestra de tal manera que parece que la varilla está doblada en la unión del aire y el agua. El punto P está en la varilla y el punto Q está en la imagen de la varilla. Se muestra una línea de puntos PQ perpendicular a la superficie del agua. Dos rayos se originan en P, viajan hacia arriba hasta la superficie del agua, se doblan en ángulo y llegan al ojo del observador. Las extensiones posteriores de los rayos doblados parecen originarse en el punto Q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_03_36.13_Sami.jpg"/>
+</media>
+<caption>Flexión de una varilla en una interfase agua-aire. El punto <emphasis effect="italics">P</emphasis> de la varilla parece estar en el punto <emphasis effect="italics">Q</emphasis>, que es donde se forma la imagen del punto <emphasis effect="italics">P</emphasis> debido a la refracción en la interfase aire-agua.</caption>
+</figure>
+<para id="fs-id1167132505011">Para estudiar la formación de imágenes como resultado de la refracción, considere las siguientes preguntas:</para>
+<list id="fs-id1167132413386" list-type="enumerated" number-style="arabic">
+<item>¿Qué ocurre con los rayos de luz cuando entran o atraviesan un medio diferente?</item>
+<item>¿Los rayos refractados que parten de un mismo punto se juntan en algún punto o divergen entre sí?</item>
+</list>
+<para id="fs-id1167133871900">Para concretar, consideramos un sistema sencillo formado por dos medios separados por una interfase plana (<link target-id="CNX_UPhysics_35_03_appdepth"/>). El objeto está en un medio y el observador en el otro. Por ejemplo, cuando mira un pez desde la superficie del agua, el pez está en el medio 1 (el agua) con un índice de refracción de 1,33, y su ojo está en el medio 2 (el aire) con un índice de refracción de 1,00, y la superficie del agua es la interfase. La profundidad que se “ve” es la altura de la imagen <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> y se denomina <term>profundidad aparente</term>. La profundidad real del pez es la altura del objeto <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_35_03_appdepth">
+<media id="fs-id1167132499768" alt="La figura muestra la vista lateral de una cantidad de agua. El punto P se encuentra dentro de esta. Dos rayos parten del punto P, se doblan en la superficie del agua y llegan al ojo del observador. Las prolongaciones posteriores de estos rayos refractados se cruzan en el punto Q. PQ es perpendicular a la superficie del agua y la cruza en el punto O. La distancia OP se marca con el subíndice h o y la distancia OQ con el subíndice h i. El ángulo que el rayo refractado con una línea perpendicular a la superficie del agua se denomina theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_03_appdepth.jpg"/>
+</media>
+<caption>Profundidad aparente debida a la refracción. El objeto real en el punto <emphasis effect="italics">P</emphasis> crea una imagen en el punto <emphasis effect="italics">Q</emphasis>. La imagen no está a la misma profundidad que el objeto, por lo que el observador ve la imagen a una "profundidad aparente"</caption>
+</figure>
+<para id="fs-id1167133830315">La profundidad aparente <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> depende del ángulo en el que se vea la imagen. Para una vista desde arriba (la llamada vista “normal”), podemos aproximar el ángulo de refracción <m:math><m:mi>θ</m:mi></m:math> para que sea pequeño, y sustituir sen <m:math><m:mi>θ</m:mi></m:math> en la ley de Snell por tan <m:math><m:mi>θ</m:mi></m:math>. Con esta aproximación, puede utilizar los triángulos <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>O</m:mi><m:mi>P</m:mi><m:mi>R</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>O</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math> para demostrar que la profundidad aparente viene dada por</para>
+<note id="fs-id1167132418430" class="equation-callout">
+<equation id="fs-id1167132418431"><label/><m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167132379971">La derivación de este resultado se deja como ejercicio. Así, un pez aparece a 3/4 de la profundidad real cuando se ve desde arriba.</para>
+</section>
+<section id="fs-id1167133536355">
+<title>Refracción en una interfase esférica</title>
+<para id="fs-id1167133522397">Las formas esféricas desempeñan un papel importante en la óptica, principalmente porque las formas esféricas de alta calidad son mucho más fáciles de fabricar que otras superficies curvas. Para estudiar la refracción en una única superficie esférica, suponemos que el medio con la superficie esférica en un extremo continúa indefinidamente (un medio “semiinfinito”).</para>
+<section id="fs-id1167133364974">
+<title>Refracción en una superficie convexa</title>
+<para id="fs-id1167132503070">Considere una fuente de luz puntual en el punto <emphasis effect="italics">P</emphasis> frente a una superficie convexa de vidrio (consulte la <link target-id="CNX_UPhysics_35_03_refrconv"/>). Supongamos que <emphasis effect="italics">R</emphasis> es el radio de curvatura, <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es el índice de refracción del medio en el que se encuentra el punto <emphasis effect="italics">P</emphasis>, y <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> es el índice de refracción del medio con la superficie esférica. Queremos saber qué ocurre como resultado de la refracción en esta interfase.</para>
+<figure id="CNX_UPhysics_35_03_refrconv"><media id="fs-id1167132485423" alt="La figura muestra una sección de una esfera. El índice de refracción del aire es n subíndice 1 y el de la esfera es n subíndice 2. El centro de la esfera es C y el radio es R. Un rayo que parte del punto P en el eje óptico fuera de la esfera incide en la superficie convexa de la esfera y se refracta en ella. Se cruza con el eje en el punto P prima dentro de la esfera, al otro lado del centro. Una línea punteada marcada como normal a la interfase conecta el centro de la esfera con el punto de incidencia. Forma un ángulo phi con el eje óptico. Los rayos incidentes y refractados forman ángulos alfa y beta respectivamente con el eje óptico y ángulos theta 1 y theta 2 respectivamente con la normal de la interfase.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_03_refrconv_New.jpg"/>
+</media>
+
+<caption>Refracción en una superficie convexa <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</caption></figure><para id="fs-id1167133826900">Debido a la simetría, basta con examinar los rayos en un solo plano. La figura muestra un rayo de luz que parte del punto <emphasis effect="italics">P</emphasis> del objeto, se refracta en la interfase y pasa por el punto de la imagen <m:math><m:mrow><m:msup><m:mi>P</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:math>. Derivamos una fórmula que relaciona la distancia del objeto <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>, la distancia de imagen <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math>, y el radio de curvatura <emphasis effect="italics">R</emphasis>.</para>
+<para id="fs-id1167132322294">Aplicando la ley de Snell al rayo que emana del punto <emphasis effect="italics">P</emphasis> se obtiene <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Trabajamos en la aproximación para ángulos pequeños, por lo que <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math> y la ley de Snell toma entonces la forma</para>
+<equation id="fs-id1167132682518" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≈</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133717887">Por la geometría de la figura, vemos que</para>
+<equation id="fs-id1167133358960" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo>,</m:mo><m:mspace width="0.6em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mi>ϕ</m:mi><m:mo>−</m:mo><m:mi>β</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132375206">Al insertar estas expresiones en la ley de Snell se obtiene</para>
+<equation id="fs-id1167133647644" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>≈</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>ϕ</m:mi><m:mo>−</m:mo><m:mi>β</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133835012">Utilizando el diagrama, calculamos la tangente de los ángulos <m:math><m:mrow><m:mi>α</m:mi><m:mo>,</m:mo><m:mi>β</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi></m:mrow></m:math>:</para>
+<equation id="fs-id1167133553660" class="unnumbered"><label/><m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>α</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.6em"/><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>β</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.6em"/><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132287653">Utilizando de nuevo la aproximación para ángulos pequeños, encontramos que <m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mi>θ</m:mi></m:mrow></m:math>, por lo que las relaciones anteriores se convierten en</para>
+<equation id="fs-id1167133555075" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.6em"/><m:mi>β</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.6em"/><m:mi>ϕ</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132395007">Poniendo estos ángulos en la ley de Snell se obtiene</para>
+<equation id="fs-id1167133560282" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mi>h</m:mi><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>R</m:mi></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mrow><m:mo stretchy="true">(</m:mo><m:mrow><m:mfrac><m:mi>h</m:mi><m:mi>R</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mi>h</m:mi><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="true">)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132683269">Podemos escribirlo más cómodamente como</para>
+<note id="fs-id1167133545800" class="equation-callout">
+<equation id="fs-id1167133545801"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133774292">Si el objeto se coloca en un punto especial llamado <term>primer foco</term>, o el <term>objetivo focal</term> <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, entonces la imagen se forma en el infinito, como se muestra en la parte (a) de la <link target-id="CNX_UPhysics_35_03_refrobj"/>.</para>
+<figure id="CNX_UPhysics_35_03_refrobj">
+<media id="fs-id1167133365425" alt="En la figura a se muestra una sección de una esfera y un punto F1 fuera de ella, en el eje óptico. Los rayos procedentes de F1 inciden en la superficie convexa y se refractan dentro de la esfera en forma de rayos paralelos. La distancia de F1 a la superficie es f subíndice 1. La figura b muestra los rayos paralelos al eje óptico que inciden en la superficie convexa y se refractan. Convergen en el punto F2 dentro de la esfera. F2 se encuentra en el eje óptico entre la superficie y el centro de la esfera. La distancia de F2 a la superficie es f subíndice 2. En ambas figuras el índice de refracción del aire es n1 y el de la esfera es n2 mayor que n1.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_35_03_refrobj.jpg"/>
+</media>
+<caption>(a) Primer foco (llamado “objetivo focal”) para la refracción en una superficie convexa. (b) Segundo foco (llamado “foco de imagen”) para la refracción en una superficie convexa.</caption>
+</figure>
+<para id="fs-id1167133521784">Podemos encontrar la ubicación <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> del primer foco <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> si le asignamos a <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>∞</m:mtext></m:mrow></m:math> en la ecuación anterior.</para>
+<equation id="fs-id1167133523353"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mtext>∞</m:mtext></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math></equation>
+<equation id="fs-id1167132530480"><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mi>R</m:mi></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167132297585">Del mismo modo, podemos definir un <term>segundo foco</term> o <term>foco de imagen</term> <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> donde se forma la imagen para un objeto que está lejos [parte (b)]. La ubicación del segundo foco <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> se obtiene a partir de la <link target-id="fs-id1167133545801"/> si le asignamos a <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub><m:mo>=</m:mo><m:mtext>∞</m:mtext></m:mrow></m:math>:</para>
+<equation id="fs-id1167133525687" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mtext>∞</m:mtext></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math></equation>
+<equation id="fs-id1167133568747" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mi>R</m:mi></m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133873301">Tenga en cuenta que el objetivo focal está a una distancia diferente del vértice que el foco de la imagen porque <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</para>
+</section>
+<section id="fs-id1167132499414">
+<title>Convención de signos para superficies refractantes simples</title>
+<para id="fs-id1167132227871">Aunque derivamos esta ecuación para la refracción en una superficie convexa, la misma expresión es válida para una superficie cóncava, siempre que utilicemos la siguiente convención de signos:</para>
+<list id="fs-id1167133858380" list-type="enumerated" number-style="arabic">
+<item><m:math><m:mrow><m:mi>R</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> si la superficie es convexa hacia el objeto; en caso contrario, <m:math><m:mrow><m:mi>R</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> si la imagen es real y está en el lado opuesto del objeto; en caso contrario, <m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+</section>
+<section id="fs-id1167132286832" class="key-concepts">
+<title>Resumen</title>
+<para id="fs-id1167133546294">Esta sección explica cómo una interfase refractante única forma imágenes.</para>
+<list id="fs-id1167133825982">
+<item>Cuando se observa un objeto a través de una interfase plana entre dos medios, entonces aparece a una distancia aparente <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> que difiere de la distancia real <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>: <m:math><m:mrow><m:msub><m:mi>h</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:msub><m:mi>h</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>.</item>
+<item>Una imagen se forma por la refracción de la luz en una interfase esférica entre dos medios de índices de refracción <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</item>
+<item>La distancia de la imagen depende del radio de curvatura de la interfase, la ubicación del objeto y los índices de refracción de los medios.</item>
+</list>
+</section>
+<section id="fs-id1167132275907" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167133454715">
+<problem id="fs-id1167132689420">
+<para id="fs-id1167133464526">Derive la fórmula de la profundidad aparente de un pez en una pecera utilizando la ley de Snell.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133540802">
+<problem id="fs-id1167133683400">
+<para id="fs-id1167132223120">Utilice una regla y un transportador para encontrar la imagen por refracción en los siguientes casos. Supongamos una interfase aire-vidrio. Utilice un índice de refracción de 1 para el aire y de 1,5 para el vidrio. <emphasis effect="italics">(Pista</emphasis>: Utilice la ley de Snell en la interfase)</para>
+<para id="fs-id1167133319443">(a) Un objeto puntual situado en el eje de una interfase cóncava ubicado en un punto dentro de la distancia focal desde el vértice.</para>
+<para id="fs-id1167133497682">b) Un objeto puntual situado en el eje de una interfase cóncava ubicado en un punto más alejado de la distancia focal del vértice.</para>
+<para id="fs-id1167132331669">(c) Un objeto puntual situado en el eje de una interfase convexa, ubicado en un punto dentro de la distancia focal desde el vértice.</para>
+<para id="fs-id1167133395446">d) Un objeto puntual situado en el eje de una interfase convexa, ubicado en un punto más alejado que la distancia focal del vértice.</para>
+<para id="fs-id1167133361235">(e) Repita (a)-(d) para un objeto puntual fuera del eje.</para>
+</problem>
+<solution id="fs-id1167133679118">
+<para id="fs-id1167132520312">las respuestas pueden variar</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167132414848" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167133397384">
+<problem id="fs-id1167133558554">
+<para id="fs-id1167133854996">Un objeto se encuentra en el aire a 30 cm del vértice de una superficie cóncava de vidrio con un radio de curvatura de 10 cm. ¿Dónde se forma la imagen por refracción y cuál es su aumento? Utilice <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>aire</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>vidrio</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1,5</m:mn></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133398197">
+<problem id="fs-id1167133410174">
+<para id="fs-id1167133537166">Un objeto se encuentra en el aire a 30 cm del vértice de una superficie convexa de vidrio con un radio de curvatura de 80 cm. ¿Dónde se forma la imagen por refracción y cuál es su aumento?</para>
+</problem>
+<solution id="fs-id1167133698413">
+<para id="fs-id1167132201544"><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−55</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>1,8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133465541">
+<problem id="fs-id1167132220724">
+<para id="fs-id1167133741079">Un objeto se encuentra en el agua a 15 cm del vértice de una superficie cóncava de vidrio con un radio de curvatura de 10 cm. ¿Dónde se forma la imagen por refracción y cuál es su aumento? Utilice <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>agua</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>vidrio</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1,5</m:mn></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132201554">
+<problem id="fs-id1167132216588">
+<para id="fs-id1167132235828">Un objeto se encuentra en el agua a 30 cm del vértice de una superficie convexa de plexiglás con un radio de curvatura de 80 cm. ¿Dónde se forma la imagen por refracción y cuál es su aumento? <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>agua</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>Plexiglás</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1,65</m:mn></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167132238190">
+<para id="fs-id1167133824474"><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>-41</m:mn><m:mspace width="0.2em"/><m:mtext>cm,</m:mtext><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1,4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132528588">
+<problem id="fs-id1167132575481">
+<para id="fs-id1167132614771">Un objeto se encuentra en el aire a 5 cm del vértice de una superficie cóncava de vidrio con un radio de curvatura de 20 cm. ¿Dónde se forma la imagen por refracción y cuál es su aumento? Utilice <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>aire</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mtext>vidrio</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1,5</m:mn></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133417586">
+<problem id="fs-id1167133871696">
+<para id="fs-id1167133647681">Derive la ecuación de la interfase esférica para la refracción en una superficie cóncava. <emphasis effect="italics">(Pista</emphasis>: Siga la derivación del texto para la superficie convexa)</para>
+</problem>
+<solution id="fs-id1167133353150">
+<para id="fs-id1167133536891">compruebe</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167132379531">
+<term>profundidad aparente</term>
+<meaning id="fs-id1167133514028">profundidad a la que se percibe un objeto con respecto a una interfase entre dos medios</meaning>
+</definition>
+<definition id="fs-id1167132416881">
+<term>primer foco o foco del objeto</term>
+<meaning id="fs-id1167133606608">objeto situado en este punto dará lugar a una imagen creada en el infinito en el lado opuesto de una interfase esférica entre dos medios</meaning>
+</definition>
+<definition id="fs-id1167133397421">
+<term>segundo foco o enfoque de la imagen</term>
+<meaning id="fs-id1167132376642">para una interfase convergente, el punto en el que se enfoca un haz de rayos paralelos que se refractan en una interfase esférica; para una interfase divergente, el punto en el que la prolongación hacia atrás de los rayos refractados convergerá entre dos medios</meaning>
+</definition>
+</glossary>
+</document>

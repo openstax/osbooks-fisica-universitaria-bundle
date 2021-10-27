@@ -1,0 +1,197 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>El principio de incertidumbre de Heisenberg</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91016</md:content-id>
+  <md:title>El principio de incertidumbre de Heisenberg</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir el significado físico de la relación de incertidumbre posición-momento</item>
+<item>Explicar los orígenes del principio de incertidumbre en la teoría cuántica</item>
+<item>Describir el significado físico de la relación de incertidumbre energía-tiempo</item>
+</list></md:abstract>
+  <md:uuid>2f239ca8-f74b-418f-91f7-d1f01a43de78</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170902853376"><term>El principio de incertidumbre de Heisenberg</term> es un principio clave de la mecánica cuántica. A grandes rasgos, afirma que si lo sabemos <emphasis effect="italics">todo</emphasis> sobre dónde se encuentra una partícula (la incertidumbre de posición es pequeña), no sabemos <emphasis effect="italics">nada</emphasis> sobre su momento (la incertidumbre de momento es grande), y viceversa. También existen versiones del principio de incertidumbre para otras magnitudes, como la energía y el tiempo. Hablamos sobre los principios de incertidumbre de momento-posición y energía-tiempo por separado.</para>
+<section id="fs-id1170902719055">
+<title>Momento y posición</title>
+<para id="fs-id1170899455281">Para ilustrar el principio de incertidumbre momento-posición, consideremos una partícula libre que se mueve a lo largo de la dirección de la <emphasis effect="italics">x</emphasis>. La partícula se mueve con una velocidad constante <emphasis effect="italics">u</emphasis> y un momento <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>u</m:mi></m:mrow></m:math>. Según las relaciones de De Broglie, <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>ℏ</m:mi><m:mi>k</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>ℏ</m:mi><m:mi>ω</m:mi></m:mrow></m:math>. Como se comentó en el apartado anterior, la función de onda de esta partícula está dada por</para>
+<equation id="fs-id1170902751193"><m:math><m:mrow><m:msub><m:mi>ψ</m:mi><m:mi>k</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:mo stretchy="false">[</m:mo><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>k</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>i</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>k</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>k</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:msup><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mtext> </m:mtext><m:mi>ω</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi></m:mrow></m:msup><m:msup><m:mi>e</m:mi><m:mrow><m:mi>i</m:mi><m:mtext> </m:mtext><m:mi>k</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi></m:mrow></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1170901842781">y la densidad de probabilidad <m:math><m:mrow><m:mo>|</m:mo><m:msub><m:mi>ψ</m:mi><m:mi>k</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mo>|</m:mo><m:mrow><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mi>A</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> es <emphasis effect="italics">uniforme</emphasis> e independiente del tiempo. La partícula tiene la misma probabilidad de encontrarse en cualquier parte del eje de la <emphasis effect="italics">x</emphasis>, pero tiene valores definidos de longitud de onda y número de onda, y por tanto de momento. La incertidumbre de la posición es infinita (nuestra incertidumbre sobre la posición es total) y la incertidumbre del momento es cero (estamos completamente seguros del momento). Esta explicación de una partícula libre es coherente con el principio de incertidumbre de Heisenberg.</para>
+<para id="fs-id1170902869050">Se pueden hacer afirmaciones similares sobre las partículas localizadas. En la teoría cuántica, una partícula localizada se modela mediante una superposición lineal de estados de partículas libres (u ondas planas) denominada <term>paquete de ondas</term>. Un ejemplo de paquete de ondas se muestra en la <link target-id="CNX_UPhysics_40_02_packet"/>. Un paquete de ondas contiene muchas longitudes de onda y, por tanto, muchos momentos según las relaciones de De Broglie, ¡posibles en la mecánica cuántica! Esta partícula también tiene muchos valores de posición, aunque la partícula está confinada principalmente en el intervalo <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math>. La partícula puede ser mejor localizada <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> puede disminuir) si se suman de forma correcta más estados de ondas planas de diferentes longitudes de onda o momentos <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:math> se incrementa). Según Heisenberg, estas incertidumbres obedecen a la siguiente relación.</para>
+<note id="fs-id1170901907360">
+<title>El principio de incertidumbre de Heisenberg</title>
+<para id="fs-id1170901766281">El producto de la incertidumbre en la posición de una partícula y la incertidumbre en su momento nunca puede ser inferior a la mitad de la constante de Planck reducida:</para>
+<equation id="fs-id1170901907603"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>≥</m:mo><m:mi>ℏ</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170901609020">Esta relación expresa el principio de incertidumbre de Heisenberg. Esto le pone límites a lo que podemos saber sobre una partícula a partir de mediciones simultáneas de posición y momento. Si <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> es grande, <m:math><m:mrow><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:math> es pequeña, y viceversa. La <link target-id="fs-id1170901907603"/> puede derivarse en un curso más avanzado de física moderna. Reflexionando sobre esta relación en su obra <emphasis effect="italics">Los principios físicos de la teoría cuántica</emphasis>, Heisenberg escribió "Cualquier uso de las palabras 'posición' y 'velocidad' con una exactitud que exceda la dada por [la relación] carece tanto de sentido como el uso de palabras cuyo sentido no está definido".</para>
+<figure id="CNX_UPhysics_40_02_packet">
+<media id="fs-id1170902690528" alt="Se muestran varias ondas, todas con igual amplitud pero diferentes. También se muestra el resultado de sumarlas para formar un paquete de ondas. El paquete de ondas es una onda oscilante cuya amplitud aumenta hasta un máximo y luego disminuye, de modo que su envolvente es un pulso de anchura Delta x.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_40_02_packet.jpg"/>
+</media>
+<caption>La suma de varias ondas planas de diferente longitud de onda puede producir una onda relativamente localizada.</caption>
+</figure>
+<para id="fs-id1170902034620">Observe que el principio de incertidumbre no tiene nada que ver con la precisión de un aparato experimental. Incluso en el caso de dispositivos de medición perfectos, estas incertidumbres seguirían existiendo porque se originan en la naturaleza ondulatoria de la materia. El valor exacto del producto <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:math> depende de la forma específica de la función de onda. Curiosamente, la función gaussiana (o distribución de campana) da el valor mínimo del producto de incertidumbre: <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>=</m:mo><m:mrow><m:mi>ℏ</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1170899361241">
+<para id="fs-id1170902918388"><title>El principio de incertidumbre grande y pequeña</title>
+Determine las incertidumbres mínimas en las posiciones de los siguientes objetos si se conocen sus velocidades con una precisión de <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math>: (a) un electrón y (b) una bola de boliche de una masa de 6,0 kg.</para>
+<para id="fs-id1170901922139"><title>Estrategia</title>
+Dada la incertidumbre de la velocidad <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m/s</m:mtext></m:mrow></m:math>, tenemos que determinar en primer lugar la incertidumbre en el momento <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>u</m:mi></m:mrow></m:math> y luego invertir la <link target-id="fs-id1170901907603"/> para encontrar la incertidumbre en la posición <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mrow><m:mi>ℏ</m:mi><m:mtext>/</m:mtext><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:math>.</para>
+<para id="fs-id1170902908721"><title>Solución</title></para>
+<list id="fs-id1170901627145" list-type="enumerated" number-style="lower-alpha">
+<item>Para el electrón:
+<equation id="fs-id1170901766421" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mtext>Δ</m:mtext><m:mi>u</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>9,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext><m:mtext> </m:mtext><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:mn>2</m:mn><m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>5,8</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Para la bola de boliche:
+<equation id="fs-id1170902918463" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mtext>Δ</m:mtext><m:mi>u</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext><m:mtext> </m:mtext><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:mn>2</m:mn><m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>p</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−33</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1170901501570"><title>Importancia</title>
+A diferencia de la incertidumbre de posición del electrón, la incertidumbre de posición de la bola de boliche es inconmensurablemente pequeña. La constante de Planck es muy pequeña, por lo que las limitaciones impuestas por el principio de incertidumbre no son perceptibles en sistemas macroscópicos como una bola de boliche.</para>
+</example>
+<example id="fs-id1170899293581">
+<para id="fs-id1170901952013"><title>La incertidumbre y el átomo de hidrógeno</title>
+Estime la energía del estado básico de un átomo de hidrógeno utilizando el principio de incertidumbre de Heisenberg. (<emphasis effect="italics">Sugerencia</emphasis>: Según los primeros experimentos, el tamaño de un átomo de hidrógeno es de aproximadamente 0,1 nm).</para>
+<para id="fs-id1170902836882"><title>Estrategia</title>
+Un electrón unido a un átomo de hidrógeno puede ser modelado por una partícula unida a una caja unidimensional de longitud <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>0,1</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> La función de onda del estado básico de este sistema es una media onda, como la dada en el <link target-id="fs-id1170902178031" document="m91014"/>. Esta es la mayor longitud de onda que puede "caber" en la caja, por lo que la función de onda corresponde al estado de menor energía. Observe que esta función tiene una forma muy similar a la de una función gaussiana (curva de campana). Podemos tomar la energía media de una partícula descrita por esta función (<emphasis effect="italics">E</emphasis>) como un buen estimado de la energía del estado fundamental <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Esta energía media de una partícula se relaciona con su media del momento al cuadrado, que está relacionada con su incertidumbre de momento.</para>
+<para id="fs-id1170902793158"><title>Solución</title>
+Para resolver este problema, debemos concretar qué se entiende por "incertidumbre de posición" e "incertidumbre de momento". Identificamos la incertidumbre de la posición <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> con la desviación estándar de la posición <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, y la incertidumbre del momento <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> con la desviación estándar del momento <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>σ</m:mi><m:mi>p</m:mi></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Para la función gaussiana, el producto de incertidumbre es</para>
+<equation id="fs-id1170901778980" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub><m:msub><m:mi>σ</m:mi><m:mi>p</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903039023">donde</para>
+<equation id="fs-id1170903126328" class="unnumbered"><label/><m:math><m:mrow><m:msubsup><m:mi>σ</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mover accent="true"><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:mn>2</m:mn></m:msup><m:mspace width="0.5em"/><m:mtext>y</m:mtext><m:mspace width="0.5em"/><m:msubsup><m:mi>σ</m:mi><m:mi>p</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902687122">La partícula tiene la misma probabilidad de moverse a la izquierda que a la derecha, por lo que <m:math><m:mrow><m:mover accent="true"><m:mi>p</m:mi><m:mo>–</m:mo></m:mover><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Además, la incertidumbre de la posición es comparable al tamaño de la caja, por lo que <m:math><m:mrow><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mi>L</m:mi><m:mo>.</m:mo></m:mrow></m:math> La energía estimada del estado fundamental es, por lo tanto</para>
+<equation id="fs-id1170903039426" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>Gaussiana</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">–</m:mo></m:mover></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>σ</m:mi><m:mi>p</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:mn>2</m:mn><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903075441">Multiplicando el numerador y el denominador por <m:math><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> da</para>
+<equation id="fs-id1170901531057" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ℏ</m:mi><m:mtext>c</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>197,3</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>·</m:mo><m:mtext>nm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,511</m:mn><m:mo>·</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mtext>eV</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,1</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,952</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>≈</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901548781"><title>Importancia</title>
+Según las primeras estimaciones del tamaño de un átomo de hidrógeno y el principio de incertidumbre, la energía del estado básico de un átomo de hidrógeno está en el rango de los eV. La energía de ionización de un electrón en el estado básico de energía es de aproximadamente 10 eV, por lo que esta predicción se confirma a grandes rasgos. (<emphasis effect="italics">Nota:</emphasis> el producto <m:math><m:mrow><m:mi>ℏ</m:mi><m:mi>c</m:mi></m:mrow></m:math> suele ser un valor útil para realizar cálculos en mecánica cuántica).</para>
+</example>
+</section>
+<section id="fs-id1170903096776">
+<title>Energía y tiempo</title>
+<para id="fs-id1170902033490">Otro tipo de principio de incertidumbre se refiere a las incertidumbres en las mediciones simultáneas de la energía de un estado cuántico y su tiempo de vida,</para>
+<note id="fs-id1170901641016" class="equation-callout">
+<equation id="fs-id1170901496332"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>≥</m:mo><m:mfrac><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902751144">donde <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> es la incertidumbre en la medición de la energía y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> es la incertidumbre en la medición del tiempo de vida. El <term>principio de incertidumbre energía-tiempo</term> no resulta de una relación del tipo expresado por la <link target-id="fs-id1170901907603"/> por razones técnicas que escapan a esta discusión. Sin embargo, el significado general del principio de energía-tiempo es que un estado cuántico que solo existe durante un corto periodo de tiempo no puede tener una energía definida. La razón es que la frecuencia de un estado es inversamente proporcional al tiempo y que la frecuencia se conecta con la energía del estado, por lo que para medir la energía con precisión, el estado debe observarse por muchos ciclos.</para>
+<para id="fs-id1170903087103">Para ilustrarlo, consideremos los estados excitados de un átomo. Los tiempos de vida finitos de estos estados pueden deducirse de las formas de las líneas espectrales observadas en los espectros de emisión atómica. Cada vez que un estado excitado decae, la energía emitida es ligeramente diferente y, por tanto, la línea de emisión se caracteriza por una <emphasis effect="italics">distribución</emphasis> de frecuencias espectrales (o longitudes de onda) de los fotones emitidos. En consecuencia, todas las líneas espectrales se caracterizan por su anchura espectral. La energía media del fotón emitido corresponde a la energía teórica del estado excitado y da la localización espectral del pico de la línea de emisión. Los estados de vida corta tienen anchos espectrales amplios y los estados de vida larga tienen anchos espectrales estrechos.</para>
+<example id="fs-id1170901572148">
+<para id="fs-id1170901503413"><title>Transiciones atómicas</title>
+Un átomo normalmente se encuentra en estado excitado durante aproximadamente <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math>. Estime la incertidumbre <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi></m:mrow></m:math> en la frecuencia de los fotones emitidos cuando un átomo hace la transición de un estado excitado con la emisión simultánea de un fotón con una frecuencia media de <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>7,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:math>. ¿La radiación emitida es monocromática?</para>
+<para id="fs-id1170902897964"><title>Estrategia</title>
+Invertimos la <link target-id="fs-id1170901496332"/> para obtener la incertidumbre de la energía <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>≈</m:mo><m:mrow><m:mi>ℏ</m:mi><m:mtext>/</m:mtext><m:mrow><m:mn>2</m:mn><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:math> y combinarla con la energía del fotón <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mtext> </m:mtext><m:mi>f</m:mi></m:mrow></m:math> para obtener <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi></m:mrow></m:math>. Para estimar si la emisión es monocromática o no, evaluamos <m:math><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>f</m:mi></m:mrow><m:mtext>/</m:mtext><m:mi>f</m:mi></m:mrow></m:mrow></m:math>.</para>
+<para id="fs-id1170901705276"><title>Solución</title>
+La dispersión de las energías de los fotones es <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mtext> </m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mtext>Δ</m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi></m:mrow></m:math>. Por lo tanto,</para>
+<equation id="fs-id1170902002944" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:mn>2</m:mn><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mi>h</m:mi><m:mtext>Δ</m:mtext><m:mi>f</m:mi><m:mo>≈</m:mo><m:mfrac><m:mi>ℏ</m:mi><m:mrow><m:mn>2</m:mn><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">⇒</m:mo><m:mtext>Δ</m:mtext><m:mi>f</m:mi><m:mo>≈</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mtext>π</m:mtext><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mtext>π</m:mtext><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext><m:mtext>,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>f</m:mi></m:mrow><m:mi>f</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow><m:mrow><m:mn>7,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170903099099"><title>Importancia</title>
+Como las frecuencias de los fotones emitidos están dentro del <m:math><m:mrow><m:mn>1,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math> porciento de la frecuencia media, la radiación emitida puede considerarse monocromática.</para>
+</example>
+<note id="fs-id1170899252488" class="check-understanding">
+<exercise id="fs-id1170902741542">
+<problem id="fs-id1170902916137">
+<para id="fs-id1170899246058">Un átomo de sodio hace una transición desde el primer estado excitado al estado fundamental, emitiendo un fotón de 589,0 nm con una energía de 2,105 eV. Si el tiempo de vida de este estado excitado es de <m:math><m:mrow><m:mn>1,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math>, ¿cuál es la incertidumbre en la energía de este estado excitado? ¿Cuál es la anchura de la línea espectral correspondiente?</para>
+</problem>
+<solution id="fs-id1170902617297">
+<para id="fs-id1170902788527"><m:math><m:mrow><m:mn>4,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>eV</m:mtext></m:mrow></m:math>; <m:math><m:mrow><m:mn>1,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>nm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170902720780" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170902957392" list-type="bulleted" bullet-style="bullet">
+<item>El principio de incertidumbre de Heisenberg establece que es imposible medir simultáneamente los componentes <emphasis effect="italics">x</emphasis> de la posición y del momento de una partícula con una alta precisión arbitraria. El producto de las incertidumbres experimentales es siempre mayor o igual a <m:math><m:mrow><m:mi>ℏ</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Las limitaciones de este principio no tienen nada que ver con la calidad del aparato experimental, sino que se originan en la naturaleza ondulatoria de la materia.</item>
+<item>El principio de incertidumbre energía-tiempo expresa la observación experimental de que un estado cuántico que solo existe durante un corto período de tiempo no puede tener una energía definida.</item>
+</list>
+</section>
+<section id="fs-id1170903064557" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1170902924810">
+<problem id="fs-id1170901634580">
+<para id="fs-id1170901481467">Si el formalismo de la mecánica cuántica es "más exacto" que el de la mecánica clásica, ¿por qué no utilizamos la mecánica cuántica para describir el movimiento de una rana que salta? Explique.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902924266">
+<problem id="fs-id1170901595052">
+<para id="fs-id1170902767765">¿Se puede conocer con precisión la longitud de onda de De Broglie de una partícula? ¿Se puede conocer con precisión la posición de una partícula?</para>
+</problem>
+<solution id="fs-id1170902871755">
+<para id="fs-id1170903051510">Sí, si su posición es completamente desconocida. Sí, si su momento es completamente desconocido.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901755166">
+<problem id="fs-id1170902739558">
+<para id="fs-id1170902865916">¿Podemos medir la energía de una partícula libre localizada con total precisión?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902936328">
+<problem id="fs-id1170902914390">
+<para id="fs-id1170901914538">¿Podemos medir tanto la posición como el momento de una partícula con total precisión?</para>
+</problem>
+<solution id="fs-id1170902766265">
+<para id="fs-id1170902685163">No. Según el principio de incertidumbre, si la incertidumbre sobre la posición de la partícula es pequeña, la incertidumbre sobre su momento es grande. Del mismo modo, si la incertidumbre sobre la posición de la partícula es grande, la incertidumbre sobre su momento es pequeña.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170901541994" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170902744334">
+<problem id="fs-id1170901539194">
+<para id="fs-id1170901712064">La medición de la velocidad de una partícula <m:math><m:mi>α</m:mi></m:math>se ha realizado con una precisión de 0,02 mm/s. ¿Cuál es la mínima incertidumbre en su posición?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903080757">
+<problem id="fs-id1170902773610">
+<para id="fs-id1170901648918">Un gas de átomos de helio a 273 K se encuentra en un recipiente cúbico de 25,0 cm de lado. (a) ¿Cuál es la incertidumbre mínima en los componentes del momento de los átomos de helio? (b) ¿Cuál es la incertidumbre mínima en los componentes de la velocidad? (c) Encuentre la relación de las incertidumbres en (b) con la velocidad media de un átomo en cada dirección.</para>
+</problem>
+<solution id="fs-id1170901604955">
+<para id="fs-id1170903116922">a. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>2,11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi><m:mo>≥</m:mo><m:mn>6,31</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msqrt><m:mrow><m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>m</m:mi><m:mi>α</m:mi></m:msub></m:mrow></m:mrow></m:mrow></m:msqrt></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>5,94</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901927981">
+<problem id="fs-id1170901704436">
+<para id="fs-id1170902916022">Si la incertidumbre en el componente <m:math><m:mi>y</m:mi></m:math>de la posición de un protón es de 2,0 pm, encuentre la incertidumbre mínima en la medición simultánea de la posición del componente de velocidad <m:math><m:mi>y</m:mi></m:math>del protón. ¿Cuál es la incertidumbre mínima en la medición simultánea del componente de velocidad <m:math><m:mi>x</m:mi></m:math>del protón?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902689383">
+<problem id="fs-id1170901927522">
+<para id="fs-id1170903053671">Una partícula elemental inestable tiene una energía de reposo de 80,41 GeV y una incertidumbre en la energía de reposo de 2,06 GeV. Estime el tiempo de vida de esta partícula.</para>
+</problem>
+<solution id="fs-id1170903082735">
+<para id="fs-id1170903079703"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>τ</m:mi><m:mo>≥</m:mo><m:mn>1,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−25</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903098645">
+<problem id="fs-id1170902789276">
+<para id="fs-id1170901628542">Un átomo en estado metaestable tiene una vida de 5,2 ms. Encuentre la mínima incertidumbre en la medición de la energía del estado excitado.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902901895">
+<problem id="fs-id1170902860273">
+<para id="fs-id1170901747552">Las mediciones indican que un átomo permanece en un estado excitado durante un tiempo medio de 50,0 ns antes de realizar una transición al estado fundamental con la emisión simultánea de un fotón de 2,1 eV. (a) Estime la incertidumbre en la frecuencia del fotón. (b) ¿Qué fracción de la frecuencia media del fotón es ésta?</para>
+</problem>
+<solution id="fs-id1170901995477">
+<para id="fs-id1170902924394">a. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>f</m:mi><m:mo>≥</m:mo><m:mn>1,59</m:mn><m:mspace width="0.2em"/><m:mtext>MHz</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>ω</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>3,135</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901699219">
+<problem id="fs-id1170901522481">
+<para id="fs-id1170903141728">Supongamos que un electrón está confinado en una región de longitud 0,1 nm (del orden del tamaño de un átomo de hidrógeno). (a) ¿Cuál es la incertidumbre mínima de su momento? (b) ¿Cuál sería la incertidumbre del momento si la región de longitud confinada se duplicara hasta 0,2 nm?</para></problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170901497750">
+<term>principio de incertidumbre de Heisenberg</term>
+<meaning id="fs-id1170902724074">pone límites a lo que puede conocerse a partir de una medición simultánea de la posición y el momento; afirma que si la incertidumbre sobre la posición es pequeña, la incertidumbre sobre el momento es grande, y viceversa.</meaning>
+</definition>
+<definition id="fs-id1170902750454">
+<term>paquete de ondas</term>
+<meaning id="fs-id1170902951018">superposición de muchas ondas de materia planas que pueden utilizarse para representar una partícula localizada.</meaning>
+</definition>
+<definition id="fs-id1170901603884">
+<term>principio de incertidumbre energía-tiempo</term>
+<meaning id="fs-id1170899581744">relación energía-tiempo para las incertidumbres en las mediciones simultáneas de la energía de un estado cuántico y de su tiempo de vida.</meaning>
+</definition>
+</glossary>
+</document>

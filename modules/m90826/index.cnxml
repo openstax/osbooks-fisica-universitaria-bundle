@@ -1,0 +1,894 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Mecanismos de transferencia de calor</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90826</md:content-id>
+  <md:title>Mecanismos de transferencia de calor</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar algunos fenómenos que implican transferencia de calor conductiva, convectiva y por radiación.</item>
+<item>Resolver problemas sobre las relaciones entre transferencia de calor, tiempo y tasa de transferencia de calor.</item>
+<item>Resolver problemas mediante las fórmulas de conducción y radiación.</item>
+</list></md:abstract>
+  <md:uuid>13c4f8a8-ccd2-4e94-aad9-a628736549e3</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170903900576">Tan interesantes como los efectos de la transferencia de calor en un sistema son los métodos por los cuales se produce. Siempre que hay una diferencia de temperatura, se produce una transferencia de calor. Puede ocurrir rápidamente, como a través de una sartén, o lentamente, como a través de las paredes de un enfriador para ir de pícnic. Hay tantos procesos que implican transferencia de calor que es difícil imaginar una situación en la que no se produzca. Sin embargo, todas las transferencias de calor ocurren por tres métodos solamente:</para>
+<list id="fs-id1170902116660" list-type="enumerated" number-style="arabic">
+<item><emphasis effect="bold">Conducción</emphasis>, que es transferencia de calor a través de materia inmóvil por contacto físico (la materia es estacionaria a escala macroscópica: sabemos que el movimiento térmico de los átomos y las moléculas se produce a cualquier temperatura por encima del cero absoluto). El calor que se transfiere desde el quemador de una estufa a través del fondo de una sartén a los alimentos que están en esta se transfiere por <term class="no-emphasis">conducción</term>.</item>
+<item><emphasis effect="bold">Convección</emphasis>, que es la transferencia de calor por el movimiento macroscópico de un fluido. Este tipo de transferencia se produce, por ejemplo, en una caldera de aire forzado y en sistemas de climatización.</item>
+<item>La transferencia de calor por <term>radiación</term> se produce cuando se emiten o absorben microondas, radiación infrarroja, luz visible u otra forma de radiación electromagnética. Un ejemplo obvio es el calentamiento de la Tierra por el Sol. Un ejemplo menos evidente es la radiación térmica del cuerpo humano.</item>
+</list>
+<para id="fs-id1170904129257">En la ilustración del principio de este capítulo se muestra cómo el fuego calienta la cara de las personas que usan raquetas de nieve en gran medida por radiación. La convección transporta algo de calor hacia ellos, pero la mayor parte del flujo de aire del fuego es hacia arriba (lo que crea la conocida forma de las llamas), y lleva el calor a los alimentos que se cocinan y hacia el cielo. Los que usan raquetas de nieve llevan ropa diseñada con baja conductividad para evitar que el calor salga del cuerpo.</para>
+<para id="fs-id1170903821247">En esta sección examinamos estos métodos con cierto detalle. Cada método tiene características únicas e interesantes, pero los tres tienen dos cosas en común: Transmiten calor únicamente por una diferencia de temperatura, y cuanto mayor sea la diferencia de temperatura, más rápida será la transferencia de calor (<link target-id="CNX_UPhysics_18_06_Fireplace"/>).</para>
+<figure id="CNX_UPhysics_18_06_Fireplace">
+<media id="fs-id1170904051682" alt="La figura muestra una habitación con chimenea. El aire caliente sube por la chimenea. Esto está identificado como convección. El calor que entra en la habitación desde la chimenea está identificado como radiación. Las flechas muestran la circulación del aire dentro de la habitación. Esto está identificado como convección. Hay aire frío fuera de la habitación. Hay convección alrededor de puertas y ventanas. El fuego calienta el suelo de la habitación por conducción.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Fireplace.jpg"/>
+</media>
+<caption>En una chimenea, la transferencia de calor se produce por los tres métodos: conducción, convección y radiación. La radiación es responsable de la mayor parte del calor que se transfiere a la habitación. La transferencia de calor también se produce por conducción en la habitación, pero mucho más lentamente. La transferencia de calor por convección también se produce a través del aire frío que entra en la habitación alrededor de las ventanas y el aire caliente que sale de la habitación subiendo por la chimenea.</caption>
+</figure>
+<note id="fs-id1170902410391" class="check-understanding">
+<exercise id="fs-id1170904068326">
+<problem id="fs-id1170903809520">
+<para id="fs-id1170902180278">Nombre un ejemplo de la vida cotidiana (diferente al del texto) para cada mecanismo de transferencia de calor.</para>
+</problem>
+<solution id="fs-id1170902265069">
+<para id="fs-id1170903799562">Conducción: el calor se transfiere a las manos al sostener una taza de café caliente. Convección: transferencia de calor es cuando el barista “vaporiza” la leche fría para hacer chocolate caliente. Radiación: el calor se transfiere desde el Sol a una jarra de agua con hojas de té para hacer “té del Sol”. Hay muchas otras respuestas posibles.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1170904166832">
+<title>Conducción</title>
+<para id="fs-id1170904104440">Cuando camina descalzo por la alfombra del salón en una casa fría y luego pisa el suelo de baldosas de la cocina, sus pies se sienten más fríos sobre la baldosa. Este resultado es intrigante, ya que tanto la alfombra como el suelo de baldosas están a la misma temperatura. La sensación diferente se explica por las distintas tasas de transferencia de calor: la pérdida de calor es más rápida para la piel en contacto con las baldosas que con la alfombra, por lo que la sensación de frío es más intensa.</para>
+<para id="fs-id1170902191502">Algunos materiales conducen la energía térmica más rápidamente que otros. La <link target-id="CNX_UPhysics_18_06_Insulation"/> muestra un material que conduce el calor lentamente —es un buen aislante térmico, o un mal conductor del calor— utilizado para reducir el flujo de calor dentro y fuera de una casa.</para>
+<figure id="CNX_UPhysics_18_06_Insulation">
+<media id="fs-id1170902125745" alt="Fotografía del aislamiento de puertas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Insulation.jpg"/>
+</media>
+<caption>El aislamiento sirve para limitar la conducción del calor del interior al exterior (en invierno) y del exterior al interior (en verano) (créditos: Giles Douglas).</caption>
+</figure>
+<para id="fs-id1170902243297">Una imagen molecular de la conducción del calor ayudará a justificar la ecuación que la describe. La <link target-id="CNX_UPhysics_18_06_Kinetic"/> muestra las moléculas de dos cuerpos a diferentes temperaturas, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> para “caliente” y “frío”. La energía cinética promedio de una molécula en el cuerpo caliente es mayor que en el cuerpo más frío. Si dos moléculas chocan, la energía se transfiere de la molécula de alta energía a la de baja energía. En un metal, la imagen incluiría también electrones de valencia libres que colisionan entre sí y con átomos, lo cual igualmente transfiere energía. El efecto acumulativo de todas las colisiones es un flujo neto de calor desde el cuerpo más caliente hacia el más frío. Así, la tasa de transferencia de calor aumenta con el incremento de la diferencia de temperatura <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Si las temperaturas son las mismas, la tasa neta de transferencia de calor es cero. Dado que el número de colisiones aumenta con el incremento del área, la conducción de calor es proporcional al área de la sección transversal, un segundo factor en la ecuación.</para>
+<figure id="CNX_UPhysics_18_06_Kinetic"><media id="fs-id1170904152785" alt="En la figura se muestra la sección transversal de una superficie como una línea vertical. A la izquierda hay una zona a mayor temperatura, a la derecha una zona con menor temperatura. Una molécula golpea la superficie desde la izquierda y rebota. Esto tiene una alta energía antes de la colisión en comparación con el después. Otra molécula a la derecha de la superficie la golpea. Esto tiene una baja energía antes de la colisión en comparación con el después.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Kinetic.jpg"/>
+</media>
+
+<caption>Las moléculas de dos cuerpos a diferentes temperaturas tienen energías cinéticas promedios diferentes. Las colisiones que se producen en la superficie de contacto tienden a transferir energía de las regiones de alta temperatura a las de baja temperatura. En esta ilustración, una molécula en la región de baja temperatura (lado derecho) tiene una energía baja antes de la colisión, pero su energía aumenta después de colisionar con una molécula de alta energía en la superficie de contacto. Por el contrario, una molécula en la región de mayor temperatura (lado izquierdo) tiene una energía elevada antes de la colisión, pero su energía disminuye después de colisionar con una molécula de baja energía en la superficie de contacto.</caption></figure><para id="fs-id1170904110830">Una tercera cantidad que afecta la velocidad de conducción es el espesor del material a través del cual se transfiere el calor. En la <link target-id="CNX_UPhysics_18_06_Conduction"/> se muestra una losa de material con una temperatura más alta a la izquierda que a la derecha. El calor se transfiere de la izquierda a la derecha mediante una serie de colisiones moleculares. Cuanto mayor sea la distancia entre el calor y el frío, más tiempo tardará el material en transferir la misma cantidad de calor.</para>
+<figure id="CNX_UPhysics_18_06_Conduction">
+<media id="fs-id1170902165943" alt="La figura muestra una barra rectangular de material con conductividad térmica k y área transversal A. Está en contacto con un bloque a alta temperatura Th a la izquierda y con un bloque a baja temperatura Tc a la derecha.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Conduction.jpg"/>
+</media>
+<caption>La conducción del calor se produce a través de cualquier material, representado aquí por una barra rectangular, ya sea el vidrio de una ventana o la grasa de una morsa.</caption>
+</figure>
+<para id="fs-id1170902166543">Estas cuatro magnitudes aparecen en una sencilla ecuación deducida y confirmada por experimentos. La <term>tasa de transferencia de calor por conducción</term> a través de una losa de material, como la que aparece en la <link target-id="CNX_UPhysics_18_06_Conduction"/>, viene dada por</para>
+<note id="fs-id1170903903012" class="equation-callout">
+<equation id="fs-id1170904051426"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:math></equation></note>
+<para id="fs-id1170904168041">donde <emphasis effect="italics">P</emphasis> es la potencia o tasa de transferencia de calor en vatios o en kilocalorías por segundo, <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">d</emphasis> son su superficie y su espesor, como se muestra en la <link target-id="CNX_UPhysics_18_06_Conduction"/>, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> es la diferencia de temperatura a través de la losa y <emphasis effect="italics">k</emphasis> es la <term>conductividad térmica</term> del material. En la <link target-id="fs-id1170903900728"/> se dan valores representativos de conductividad térmica.</para>
+<para id="fs-id1170902131502">De forma más general, podemos escribir</para>
+<equation id="fs-id1170904163891" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>k</m:mi><m:mi>A</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902283372">donde <emphasis effect="italics">x</emphasis> es la coordenada en la dirección del flujo de calor. Como en la <link target-id="CNX_UPhysics_18_06_Conduction"/> la potencia y el área son constantes, <emphasis effect="italics">dT</emphasis>/<emphasis effect="italics">dx</emphasis> es constante, y la temperatura disminuye linealmente de <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> a <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<table id="fs-id1170903900728" summary="This table has 2 columns, 22 rows and a header row. The header row labels each column: substance and thermal conductivity k in W per m degree C. Column 1 has these substances: Diamond, Silver, Copper, Gold, Aluminum, Steel iron, Stainless Steel, Ice, Average Glass, Concrete brick, Water, Fatty tissue without blood, Asbestos, Plasterboard, Wood, Dry Snow, Cork, Glass wool, Wool, Down feathers, Air and Polystyrene foam. Column 2 has these values: 2000, 420, 390, 318, 220, 80, 14, 2.2, 0.84, 0.84, 0.6, 0.2, 0.16, 0.16, 0.08 to 0.16, 0.10, 0.042, 0.042, 0.04, 0.025, 0.023 and 0.010. Values are given for temperatures near zero degrees Celsius."><title>Conductividad térmica de sustancias comunes </title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry valign="top" align="center">Sustancia</entry>
+<entry valign="top" align="center">Conductividad térmica <emphasis effect="italics">k</emphasis> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>W</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="top" align="left">Diamante</entry>
+<entry valign="top" align="center">2.000</entry>
+</row>
+<row>
+<entry valign="top" align="left">Plata</entry>
+<entry valign="top" align="center">420</entry>
+</row>
+<row>
+<entry valign="top" align="left">Cobre</entry>
+<entry valign="top" align="center">390</entry>
+</row>
+<row>
+<entry valign="top" align="left">Oro</entry>
+<entry valign="top" align="center">318</entry>
+</row>
+<row>
+<entry valign="top" align="left">Aluminio</entry>
+<entry valign="top" align="center">220</entry>
+</row>
+<row>
+<entry valign="top" align="left">Hierro de acero</entry>
+<entry valign="top" align="center">80</entry>
+</row>
+<row>
+<entry valign="top" align="left">Acero (inoxidable)</entry>
+<entry valign="top" align="center">14</entry>
+</row>
+<row>
+<entry valign="top" align="left">Hielo</entry>
+<entry valign="top" align="center">2,2</entry>
+</row>
+<row>
+<entry valign="top" align="left">Vidrio (promedio)</entry>
+<entry valign="top" align="center">0,84</entry>
+</row>
+<row>
+<entry valign="top" align="left">Ladrillo de hormigón</entry>
+<entry valign="top" align="center">0,84</entry>
+</row>
+<row>
+<entry valign="top" align="left">Agua</entry>
+<entry valign="top" align="center">0,6</entry>
+</row>
+<row>
+<entry valign="top" align="left">Tejido graso (sin sangre)</entry>
+<entry valign="top" align="center">0,2</entry>
+</row>
+<row>
+<entry valign="top" align="left">Amianto</entry>
+<entry valign="top" align="center">0,16</entry>
+</row>
+<row>
+<entry valign="top" align="left">Plancha de yeso</entry>
+<entry valign="top" align="center">0,16</entry>
+</row>
+<row>
+<entry valign="top" align="left">Madera</entry>
+<entry valign="top" align="center">0,08-0,16</entry>
+</row>
+<row>
+<entry valign="top" align="left">Nieve (seca)</entry>
+<entry valign="top" align="center">0,10</entry>
+</row>
+<row>
+<entry valign="top" align="left">Corcho</entry>
+<entry valign="top" align="center">0,042</entry>
+</row>
+<row>
+<entry valign="top" align="left">Lana de vidrio</entry>
+<entry valign="top" align="center">0,042</entry>
+</row>
+<row>
+<entry valign="top" align="left">Lana</entry>
+<entry valign="top" align="center">0,04</entry>
+</row>
+<row>
+<entry valign="top" align="left">Plumones</entry>
+<entry valign="top" align="center">0,025</entry>
+</row>
+<row>
+<entry valign="top" align="left">Aire</entry>
+<entry valign="top" align="center">0,023</entry>
+</row>
+<row>
+<entry valign="top" align="left">Espuma de poliestireno</entry>
+<entry valign="top" align="center">0,010</entry>
+</row>
+</tbody>
+
+</tgroup><caption>Los valores se dan para temperaturas cercanas a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</caption>
+</table><example id="fs-id1170902100031">
+<para id="fs-id1170902116889"><title>Calcular transferencia de calor por conducción</title>
+Una hielera de espuma de poliestireno tiene una superficie total de <m:math><m:mrow><m:mn>0,950</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y paredes con un grosor medio de 2,50 cm. La caja contiene hielo, agua y bebidas enlatadas a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> El interior de la caja se mantiene frío gracias al hielo derretido. ¿Cuánto hielo se derrite en un día si la hielera se guarda en el maletero de un automóvil a <m:math><m:mrow><m:mn>35,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>?</para>
+<para id="fs-id1170904073136"><title>Estrategia</title>
+Esta pregunta implica tanto el calor para un cambio de fase (derretimiento del hielo) como la transferencia de calor por conducción. Para calcular la cantidad de hielo derretido, debemos calcular el calor neto transferido. Este valor se puede obtener al calcular la tasa de transferencia de calor por conducción y multiplicándola por el tiempo.</para>
+<para id="fs-id1170903748946"><title>Solución</title>
+Primero identificamos los aspectos conocidos.</para>
+<para id="fs-id1170902123238"><m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>0,010</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> para la espuma de poliestireno; <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0,950</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>2,50</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mo>=</m:mo><m:mn>0,0250</m:mn><m:mspace width="0.2em"/><m:mtext>m;</m:mtext></m:mrow></m:math><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C;</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>35,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>día</m:mtext><m:mo>=</m:mo><m:mn>24</m:mn><m:mspace width="0.2em"/><m:mtext>horas</m:mtext><m:mspace width="0.2em"/><m:mtext>-</m:mtext><m:mspace width="0.2em"/><m:mn>86.400</m:mn><m:mspace width="0.2em"/><m:mtext>s.</m:mtext></m:mrow></m:math></para><para id="fs-id1170902338368">A continuación, identificamos las incógnitas. Tenemos que despejar la masa del hielo, <emphasis effect="italics">m</emphasis>. También tenemos que despejar el calor neto transferido para derretir el hielo, <emphasis effect="italics">Q</emphasis>. La tasa de transferencia de calor por conducción viene dada por</para>
+<equation id="fs-id1170904209870" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1170902161688">El calor utilizado para derretir el hielo es <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math>. Insertamos los valores conocidos:</para>
+<equation id="fs-id1170902192985" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,010</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,950</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>35,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>0,0250</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>13,3</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902188414">Al multiplicar la tasa de transferencia de calor por el tiempo obtenemos</para><equation id="fs-id1170902162310" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13,3</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>86,400</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1,15</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902270689">Lo establecemos igual al calor transferido para derretir el hielo, <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> y despejar la masa <emphasis effect="italics">m</emphasis>:</para>
+<equation id="fs-id1170903825467" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1,15</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>334</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3,44</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902112592"><title>Importancia</title>
+El resultado de 3,44 kg, o 7,6 lb aproximadamente, parece correcto, según la experiencia. Es posible que gaste una bolsa de hielo de 4 kg (7-10 lb) al día. Se necesita un poco más de hielo si se añade algún alimento o bebida caliente.</para>
+<para id="fs-id1170904060989">En la <link target-id="fs-id1170903900728"/> se muestra que la espuma de poliestireno es un conductor muy deficiente y, por tanto, un buen aislante. Otros buenos aislantes son fibra de vidrio, lana y plumas de ganso. Al igual que la espuma de poliestireno, todas ellas contienen muchas pequeñas bolsas de aire y aprovechan la escasa conductividad térmica del aire.</para>
+</example>
+<para id="fs-id1170904260709">En el desarrollo del <term class="no-emphasis">aislamiento</term>, cuanto menor sea la conductividad <emphasis effect="italics">k</emphasis> y mayor sea el espesor <emphasis effect="italics">d</emphasis>, mejor. Así, la relación <emphasis effect="italics">d/k</emphasis>, llamada <term class="no-emphasis"><emphasis effect="italics">factor R</emphasis></term> es grande para un buen aislante. La tasa de transferencia de calor por conducción es inversamente proporcional a <emphasis effect="italics">R</emphasis>. Los factores <emphasis effect="italics">R</emphasis> son los más indicados para aislamientos domésticos, refrigeradores y similares. Desafortunadamente, en los Estados Unidos, <emphasis effect="italics">la R</emphasis> sigue estando en unidades que no pertenecen al sistema métrico decimal: <m:math><m:mrow><m:msup><m:mrow><m:mtext>ft</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:mtext>°F</m:mtext><m:mo>·</m:mo><m:mtext>h/Btu</m:mtext></m:mrow></m:math>, aunque la unidad no se suele indicar (1 unidad térmica británica [British thermal unit, Btu] es la cantidad de energía necesaria para cambiar la temperatura de 1,0 lb de agua en <m:math><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>, que es de 1055,1 J). Un par de valores representativos son un factor <emphasis effect="italics">R</emphasis> de 11 para paneles de fibra de vidrio de 3,5 pulgadas de espesor (piezas) de aislamiento y un factor <emphasis effect="italics">R</emphasis> de 19 para paneles de fibra de vidrio de 6,5 pulgadas de espesor (<link target-id="CNX_UPhysics_18_06_Fiberglass"/>). En los Estados Unidos, las paredes suelen estar aisladas con paneles de 3,5 pulgadas, mientras que los techos suelen estarlo con paneles de 6,5 pulgadas. En climas fríos, se pueden utilizar paneles más gruesos.</para>
+<figure id="CNX_UPhysics_18_06_Fiberglass">
+<media id="fs-id1170903874449" alt="Fotografía de una persona manipulando un panel de fibra de vidrio.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Fiberglass.jpg"/>
+</media>
+<caption>El panel de fibra de vidrio se usa para aislamiento de paredes y techos para evitar la transferencia de calor entre el interior de la construcción y el ambiente exterior (créditos: Tracey Nicholls).</caption>
+</figure>
+<para id="fs-id1170902140934">Note que en la <link target-id="fs-id1170903900728"/> la mayoría de los mejores conductores térmicos —plata, cobre, oro y aluminio— son también los mejores conductores eléctricos, ya que contienen muchos electrones libres que pueden transportar energía térmica (el diamante, un aislante eléctrico, conduce el calor mediante vibraciones atómicas). Los utensilios de cocina suelen estar hechos de buenos conductores, pero los mangos de los que se utilizan en la cocina están hechos de buenos aislantes (conductores deficientes).</para>
+<example id="fs-id1170902140575">
+<para id="fs-id1170902108368"><title>Dos conductores de extremo a extremo</title>
+Una varilla de acero y una varilla de aluminio, cada una de ellas de 1,00 cm de diámetro y 25,0 cm de longitud, se sueldan extremo a extremo. Un extremo de la varilla de acero se coloca en un gran tanque de agua hirviendo a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, mientras que el extremo más alejado de la varilla de aluminio se coloca en un gran tanque de agua a <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Las varillas están aisladas para que no se escape el calor de su superficie. ¿Cuál es la temperatura en la unión y cuál es la velocidad de conducción del calor a través de esta varilla compuesta?</para>
+<para id="fs-id1170903862987"><title>Estrategia</title>
+El calor que entra en la varilla de acero desde el agua hirviendo no tiene otro lugar a donde ir que a través de la varilla de acero, luego va a través de la varilla de aluminio hasta el agua fría. Por lo tanto, podemos equiparar la velocidad de conducción a través del acero con la velocidad de conducción a través del aluminio.</para>
+<para id="fs-id1170903780037">Repetimos el cálculo con un segundo método, en el que utilizamos la resistencia térmica <emphasis effect="italics">R</emphasis> de la varilla, ya que simplemente se suma cuando dos varillas se unen extremo a extremo (usaremos un método similar en el capítulo sobre circuitos de corriente continua).</para>
+<para id="fs-id1170902117039"><title>Solución</title></para>
+<list id="fs-id1170902280775" list-type="enumerated" number-style="arabic">
+<item>Identifique los aspectos conocidos y conviértalos a unidades del SI.<newline/> La longitud de cada varilla es <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>m,</m:mtext></m:mrow></m:math> el área de la sección transversal de cada varilla es <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>7,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>,</m:mtext></m:mrow></m:math> la conductividad térmica del aluminio es <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>220</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, la conductividad térmica del acero es <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, la temperatura en el extremo caliente es <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y la temperatura en el extremo frío es <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</item>
+<item>Calcule la tasa de conducción de calor a través de la varilla de acero y la tasa de conducción de calor a través de la varilla de aluminio en términos de la temperatura desconocida <emphasis effect="italics">T</emphasis> en la unión:
+<equation id="fs-id1170904097851" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub><m:mtext>Δ</m:mtext><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,0251</m:mn><m:mspace width="0.2em"/><m:mtext>W/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<equation id="fs-id1170902225837" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:mtext>Δ</m:mtext><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>220</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,0691</m:mn><m:mspace width="0.2em"/><m:mtext>W/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Iguale las dos tasas y halle la temperatura desconocida:
+<equation id="fs-id1170904172614" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,0691</m:mn><m:mspace width="0.2em"/><m:mtext>W/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,0251</m:mn><m:mspace width="0.2em"/><m:mtext>W/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>T</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>41,3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Calcule cualquiera de las dos tasas:
+<equation id="fs-id1170904110251" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,0251</m:mn><m:mspace width="0.2em"/><m:mtext>W/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>41,3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1,47</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Si lo desea, compruebe su respuesta mediante el cálculo de la otra tasa.</item>
+</list>
+<para id="fs-id1170902355958"><title>Solución</title></para>
+<list id="fs-id1170904129915" list-type="enumerated" number-style="arabic">
+<item>Recuerde que <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>k</m:mi></m:mrow></m:math>. Ahora, <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>o</m:mtext><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>R</m:mi><m:mtext>/</m:mtext><m:mi>A</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Sabemos que <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>=</m:mo><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. También sabemos que <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> y denotamos esa tasa de flujo de calor por <emphasis effect="italics">P</emphasis>. Combine las ecuaciones:
+<equation id="fs-id1170902137364" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>P</m:mi><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Por lo tanto, podemos añadir simplemente los factores <emphasis effect="italics">R</emphasis>. Ahora, <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mrow><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math>.</item>
+<item>Calcule el <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mi>s</m:mi></m:msub></m:mrow></m:math> de las cantidades conocidas:
+<equation id="fs-id1170904166586" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:msub><m:mrow/><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3,13</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C/W</m:mtext></m:mrow></m:math></equation>
+y
+<equation id="fs-id1170902300926" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:msub><m:mrow/><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1,14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C/W</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Sustituya estos valores para calcular <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>1,47</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math> como se hizo anteriormente.</item>
+<item>Determine <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> para la varilla de aluminio (o para la varilla de acero) y úsela para calcular <emphasis effect="italics">la T</emphasis> en la unión.
+<equation id="fs-id1170903757915" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,47</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C/W</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>7,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>21,3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math></equation>
+así que <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>+</m:mo><m:mn>21,3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>=</m:mo><m:mn>41,3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, como en la solución <m:math><m:mn>1</m:mn></m:math>.</item>
+<item>Si lo desea, compruebe al determinar <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> para la otra varilla.</item>
+</list>
+<para id="fs-id1170902116214"><title>Importancia</title>
+En la práctica, es habitual añadir valores <emphasis effect="italics">R</emphasis>, como en el cálculo del valor <emphasis effect="italics">R</emphasis> de una pared aislada. En la situación análoga de la electrónica, la resistencia corresponde a <emphasis effect="italics">AR</emphasis> en este problema y es aditiva incluso cuando las áreas son desiguales, como es común en la electrónica. Nuestra ecuación para la conducción de calor solamente se puede usar cuando las áreas son iguales; de lo contrario, tendríamos un problema en el flujo de calor tridimensional, que está fuera de nuestro alcance.</para>
+</example>
+<note id="fs-id1170904088518" class="check-understanding">
+<exercise id="fs-id1170904203779">
+<problem id="fs-id1170903804711">
+<para id="fs-id1170904060932">¿Cómo la velocidad de transferencia de calor por conducción cambia cuando se duplican todas las dimensiones espaciales?</para>
+</problem>
+<solution id="fs-id1170903878186">
+<para id="fs-id1170904130389">Como el área es el producto de dos dimensiones espaciales, se multiplica por cuatro cuando se duplica cada dimensión <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>inicial</m:mtext></m:mrow></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. La distancia, sin embargo, simplemente se duplica. Dado que la diferencia de temperatura y el coeficiente de conductividad térmica son independientes de las dimensiones espaciales, la tasa de transferencia de calor por conducción aumenta en un factor de cuatro dividido entre dos, o sea, dos:<newline/> <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>inicial</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn><m:mfrac><m:mrow><m:mi>k</m:mi><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>inicial</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>inicial</m:mtext></m:mrow></m:msub></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1170902397556">La conducción se debe al movimiento aleatorio de átomos y moléculas. Como tal, es un mecanismo ineficaz para el transporte de calor en distancias macroscópicas y tiempos cortos. Por ejemplo, la temperatura en la Tierra sería insoportablemente fría durante la noche y extremadamente caliente durante el día si el transporte de calor en la atmósfera fuera solo por conducción. Además, los motores de los automóviles se sobrecalentarían, a menos que hubiera una forma más eficiente de eliminar el exceso de calor de los pistones. En el siguiente módulo se analiza el importante mecanismo de transferencia de calor en estas situaciones.</para>
+</section>
+<section id="fs-id1170902043689">
+<title>Convección</title>
+<para id="fs-id1170902110372">En la <term class="no-emphasis">convección</term>, la energía térmica es transportada por el flujo de materia a gran escala. Se puede dividir en dos tipos. En <term class="no-emphasis"><emphasis effect="italics">convección forzada</emphasis></term> el flujo lo impulsan ventiladores, bombas y similares. Un ejemplo sencillo es el de un ventilador soplando enfrente de usted en un entorno caluroso que lo refresca al sustituir el aire calentado por su cuerpo por aire más fresco. Un ejemplo más complicado es el sistema de refrigeración de un automóvil típico, en el que una bomba mueve el refrigerante a través del radiador y el motor para enfriar el motor y un ventilador sopla aire para enfriar el radiador.</para>
+<para id="fs-id1170902063250">En el caso de flujos <emphasis effect="italics">libres</emphasis> o <term class="no-emphasis"><emphasis effect="italics">convección natural</emphasis></term> el flujo es impulsado por fuerzas de flotación: el fluido caliente sube y el fluido frío se hunde porque la densidad disminuye al aumentar la temperatura. La casa que se muestra en la <link target-id="CNX_UPhysics_18_06_GravFurn"/> se mantiene caliente por convección natural, al igual que la olla de agua en la estufa en la <link target-id="CNX_UPhysics_18_06_PotWater"/>. Las corrientes oceánicas y la circulación atmosférica a gran escala, que resultan de la flotabilidad del aire caliente y del agua, transfieren el aire caliente de los trópicos hacia los polos y el aire frío de los polos hacia los trópicos (la rotación de la Tierra interactúa con esos flujos, lo que causa el flujo de aire observado hacia el este en las zonas templadas).</para>
+<figure id="CNX_UPhysics_18_06_GravFurn">
+<media id="fs-id1170902236114" alt="En la figura se muestra una habitación calentada por una caldera de gravedad. El aire caliente sube desde la caldera y se desplaza por el techo hacia la derecha. El aire enfriado por la habitación baja desde el techo y vuelve a la caldera.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_GravFurn.jpg"/>
+</media>
+<caption>El aire calentado por una caldera llamada de gravedad se expande, sube forma un bucle convectivo que transfiere energía a otras partes de la habitación. A medida que el aire se enfría en el techo y en las paredes exteriores, se contrae, para finalmente ser más denso que el aire de la habitación y hundirse en el suelo. Un sistema de calefacción correctamente diseñado que use convección natural, como este, puede calentar una casa con bastante eficacia.</caption>
+</figure>
+<figure id="CNX_UPhysics_18_06_PotWater">
+<media id="fs-id1170904144861" alt="La figura muestra una olla de agua que se calienta. El agua caliente sube y el agua fría se hunde, lo que provoca un movimiento circular del agua dentro de la olla.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_PotWater.jpg"/>
+</media>
+<caption>La convección natural juega un papel importante en la transferencia de calor dentro de esta olla de agua. Una vez conducido al interior, la transferencia de calor a otras partes de la olla se produce principalmente por convección. El agua más caliente se expande, disminuye su densidad y sube para transferir el calor a otras regiones del agua, mientras que el agua más fría se hunde en el fondo. Este proceso se repite una y otra vez.</caption>
+</figure>
+<note id="fs-id1170902288616" class="media-2">
+<para id="fs-id1170902568466">La convección natural, como la de la <link target-id="CNX_UPhysics_18_06_GravFurn"/> y la <link target-id="CNX_UPhysics_18_06_PotWater"/>, pero actuando sobre la roca del manto terrestre, impulsa <link url="https://openstax.org/l/21platetecton">placas tectónicas</link>, que son los movimientos que han dado forma a la superficie de la Tierra.</para>
+</note>
+<para id="fs-id1170904224540">La convección suele ser más complicada que la conducción. Más allá de señalar que la tasa de convección suele ser proporcional a la diferencia de temperatura, aproximadamente, no haremos ningún trabajo cuantitativo comparable a la fórmula de la conducción. Sin embargo, podemos describir la convección cualitativamente y relacionar las tasas de convección con calor y tiempo. El aire es un conductor deficiente, por lo que la convección domina la transferencia de calor por aire. Por lo tanto, la cantidad de espacio disponible para el flujo de aire determina si el aire transfiere el calor rápida o lentamente. Hay poca transferencia de calor en un espacio lleno de aire con una pequeña cantidad de otro material que impide el flujo. El espacio entre las paredes interiores y exteriores de una casa típica estadounidense, por ejemplo, es de unos 9 cm (3,5 pulgadas), lo suficientemente grande para que la convección funcione eficazmente. La adición de aislamiento en las paredes impide el flujo de aire, por lo que la pérdida (o ganancia) de calor disminuye. Por otro lado, el espacio entre los dos paneles de una ventana de doble vidrio es de 1 cm aproximadamente, lo que evita en gran medida la convección y aprovecha la baja conductividad del aire para reducir la pérdida de calor. La piel, la tela y la fibra de vidrio también aprovechan la baja conductividad del aire atrapándolo en espacios demasiado pequeños para soportar la convección (<link target-id="CNX_UPhysics_18_06_Convection"/>).</para><figure id="CNX_UPhysics_18_06_Convection">
+<media id="fs-id1170902097010" alt="La figura muestra parte de un cuerpo caliente cubierto con una capa de piel. El aire exterior es frío. Hay flechas circulares en la piel identificadas como bucles de convección.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Convection.jpg"/>
+</media>
+<caption>La piel se llena de aire y se rompe en muchas bolsas pequeñas. La convección es muy lenta aquí, porque los bucles son muy pequeños. La baja conductividad del aire hace que la piel sea un muy buen aislante ligero.</caption>
+</figure>
+<para id="fs-id1170903906318">Cuando la convección va acompañada de un cambio de fase se producen algunos fenómenos interesantes. Esta combinación nos permite refrescarnos mediante el sudor aunque la temperatura del aire circundante supere la temperatura corporal. El calor de la piel es necesario para que el sudor se evapore de la piel, pero sin flujo de aire, el aire se satura y la evaporación se detiene. El flujo de aire causado por la convección sustituye el aire saturado por aire seco y la evaporación continúa.</para>
+<example id="fs-id1170904053210">
+<para id="fs-id1170904053212"><title>Calcular el flujo de masa durante la convección</title>
+Una persona promedio produce calor a una de 120 W aproximadamente cuando está en reposo. ¿A qué velocidad debe evaporarse el agua del cuerpo para deshacerse de toda esta energía? (Para simplificar, suponemos que esta evaporación se produce cuando una persona está sentada a la sombra y las temperaturas circundantes son las mismas que la temperatura de la piel, lo que elimina la transferencia de calor por otros métodos).</para>
+<para id="fs-id1170904041417"><title>Estrategia</title>
+Se necesita energía para este cambio de fase (<m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mi>v</m:mi></m:msub></m:mrow></m:math>). Así, la pérdida de energía por unidad de tiempo es</para>
+<equation id="fs-id1170903829656" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>V</m:mtext></m:msub></m:mrow><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>=</m:mo><m:mtext>120 J/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903847076">Dividimos ambos lados de la ecuación entre <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>v</m:mi></m:msub></m:mrow></m:math> para calcular que la masa evaporada por unidad de tiempo es</para>
+<equation id="fs-id1170902116070" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903879663"><title>Solución</title>
+Introduzca el valor del calor latente de la <link target-id="fs-id1170903879019" document="m90825"/>, <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>v</m:mi></m:msub><m:mo>=</m:mo><m:mn>2.430</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/kg</m:mtext><m:mo>=</m:mo><m:mn>2.430</m:mn><m:mspace width="0.2em"/><m:mtext>J/g</m:mtext></m:mrow></m:math>. Esto produce</para>
+<equation id="fs-id1170903830055" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext></m:mrow><m:mrow><m:mn>2.430</m:mn><m:mspace width="0.2em"/><m:mtext>J/g</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,0494</m:mn><m:mspace width="0.2em"/><m:mtext>g/s</m:mtext><m:mo>=</m:mo><m:mn>2,96</m:mn><m:mspace width="0.2em"/><m:mtext>g/min</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902196497"><title>Importancia</title>
+Evaporar unos 3 g/min parece razonable. Esto supondría alrededor de 180 g (unas 7 onzas) por hora. Si el aire es muy seco, el sudor puede evaporarse sin que se note. También se produce una cantidad importante de evaporación en los pulmones y en las vías respiratorias.</para>
+</example>
+<para id="fs-id1170904192218">Otro ejemplo importante de la combinación de cambio de fase y convección se produce cuando el agua se evapora de los océanos. El calor se elimina del océano cuando el agua se evapora. Si el vapor de agua se condensa en gotas líquidas al formarse las nubes, posiblemente lejos del océano, se libera calor en la atmósfera. Así, se produce una transferencia global de calor del océano a la atmósfera. Este proceso es lo que les da potencia a las cabezas de trueno, esos grandes cúmulos que se elevan hasta 20,0 km en la estratosfera (<link target-id="CNX_UPhysics_18_06_Cumulus"/>). El vapor de agua arrastrado por la convección se condensa y libera enormes cantidades de energía. Esta energía hace que el aire se expanda y se eleve a altitudes más frías. En estas regiones se produce más condensación, lo que a su vez hace que la nube se eleve aun más. Este mecanismo es un ejemplo de realimentación positiva, ya que el proceso se refuerza y acelera a sí mismo. A veces, produce tormentas violentas, con rayos y granizo. El mismo mecanismo impulsa los huracanes.</para>
+<note id="fs-id1170904097980" class="media-2">
+<para id="fs-id1170904097984">Este <link url="https://openstax.org/l/21convthuncurr">video de cámara rápida</link> muestra las corrientes de convección en una tormenta eléctrica, incluido el movimiento “rodante” similar al del agua hirviendo.</para>
+</note>
+<figure id="CNX_UPhysics_18_06_Cumulus">
+<media id="fs-id1170903874941" alt="Fotografía de un cúmulo de nubes.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Cumulus.jpg"/>
+</media>
+<caption>Los cúmulos son causados por el vapor de agua que se eleva debido a la convección. El aumento de las nubes está impulsado por un mecanismo de realimentación positiva (créditos: “Amada44”/Wikimedia Commons).</caption>
+</figure>
+<note id="fs-id1170902338719" class="check-understanding">
+<exercise id="fs-id1170903904166">
+<problem id="fs-id1170903904169">
+<para id="fs-id1170904179934">Explique por qué usar un ventilador en verano resulta refrescante.</para>
+</problem>
+<solution id="fs-id1170902093445">
+<para id="fs-id1170904142515">El uso de un ventilador aumenta el flujo de aire: El aire caliente cerca de su cuerpo se sustituye por aire más frío procedente de otro lugar. La convección aumenta la tasa de transferencia de calor, de modo que el aire en movimiento “se siente” más frío que el aire quieto.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170902350756">
+<title>Radiación</title>
+<para id="fs-id1170902131961">Puede sentir la transferencia de calor del Sol. El espacio entre la Tierra y el Sol está en gran parte vacío, por lo que el Sol nos calienta sin posibilidad de transferencia de calor por convección ni conducción. Del mismo modo, a veces, se puede saber que el horno está caliente sin tocar la puerta ni mirar en su interior: puede que simplemente usted se caliente al pasar por el frente. En estos ejemplos, el calor se transfiere por radiación (<link target-id="CNX_UPhysics_18_06_Fire"/>). Es decir, el cuerpo caliente emite ondas electromagnéticas que la piel absorbe. No se necesita ningún medio para que las ondas electromagnéticas se propaguen. Las ondas electromagnéticas de diferentes longitudes de onda reciben distintos nombres: ondas de radio, microondas, radiación infrarroja, luz visible, radiación ultravioleta, rayos X y rayos gamma.</para>
+<figure id="CNX_UPhysics_18_06_Fire">
+<media id="fs-id1170904165147" alt="Fotografía de un incendio.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Fire.jpg"/>
+</media>
+<caption>La mayor parte de la transferencia de calor de este fuego a los observadores se produce a través de radiación infrarroja. La luz visible, aunque dramática, transfiere relativamente poca energía térmica. La convección transfiere la energía lejos de los observadores a medida que el aire caliente sube, mientras que la conducción es insignificante en este caso. La piel es muy sensible a la radiación infrarroja, por lo que se puede percibir la presencia de un fuego sin mirarlo directamente (créditos: Daniel O’Neil).</caption>
+</figure>
+<para id="fs-id1170902300446">La energía de la radiación electromagnética varía en un amplio rango, dependiendo de la longitud de onda: una longitud de onda más corta (o una mayor frecuencia) corresponde a una mayor energía. Como se irradia más calor a mayor temperatura, las temperaturas más altas producen más intensidad en todas las longitudes de onda, pero especialmente en las más cortas. En la luz visible, la longitud de onda determina el color —el rojo tiene la longitud de onda más larga y el violeta la más corta—, por lo que un cambio de temperatura va acompañado de un cambio de color. Por ejemplo, una resistencia eléctrica en una estufa brilla de rojo a naranja, mientras que el acero a alta temperatura en un alto horno brilla de amarillo a blanco. La radiación infrarroja es la forma predominante que irradian los objetos más fríos que el elemento eléctrico y el acero. La energía radiada como una función de longitud de onda depende de su intensidad, la cual se representa en la <link target-id="CNX_UPhysics_18_06_GraphSpect"/> por la altura de la distribución <link document="m90941">(en la sección Ondas electromagnéticas</link> se explica más sobre el espectro electromagnético, y en la sección <link document="m91005">Fotones y ondas de materia</link> se explica por qué la disminución de la longitud de onda corresponde a un aumento de la energía).</para>
+<figure id="CNX_UPhysics_18_06_GraphSpect">
+<media id="fs-id1170902297791" alt="En la figura a se muestra un gráfico de la intensidad de la radiación electromagnética (EM) versus lambda en nm. Hay tres curvas distintas en el gráfico. Están identificadas como 6.000 K o blanco caliente, 4.000 K y 3.000 K o rojo caliente. Todas suben, alcanzan su punto máximo y bajan, siendo el primero el de mayor intensidad y el último el de menor. La primera curva alcanza su punto máximo cerca del rango de la luz visible, la segunda y la tercera, justo después. En la figura b se muestra una llama. Es azul en la parte inferior, blanquecina en el centro y anaranjada en la parte superior.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_GraphSpect.jpg"/>
+</media>
+<caption>a) Gráfico del espectro de las ondas electromagnéticas emitidas por un radiador ideal a tres temperaturas diferentes. La intensidad o tasa de emisión de la radiación aumenta drásticamente con la temperatura, y el espectro desciende en longitud de onda hacia las partes visibles y ultravioletas del espectro. La parte sombreada indica la parte visible del espectro. Es evidente que el desplazamiento hacia el ultravioleta con la temperatura hace que el aspecto visible pase del rojo al blanco y al azul a medida que aumenta la temperatura. (b) Fíjese en las variaciones de color correspondientes a las variaciones de la temperatura de la llama.</caption>
+</figure>
+<para id="fs-id1170902288825">La tasa de transferencia de calor por radiación también depende del color del objeto. El negro es el más eficaz, y el blanco es el menos eficaz. En un día claro de verano, el asfalto negro de un estacionamiento está más caliente que la acera gris adyacente, porque el negro absorbe mejor que el gris (<link target-id="CNX_UPhysics_18_06_Pavement"/>). Lo contrario también es cierto: el negro irradia mejor que el gris. Así, en una noche clara de verano, el asfalto es más frío que la acera gris, porque el negro irradia la energía más rápidamente que el gris. Un objeto perfectamente negro sería un <emphasis effect="italics">radiador ideal</emphasis> y un <emphasis effect="italics">absorbente ideal</emphasis>, ya que captaría toda la radiación que cae sobre él. Por el contrario, un objeto perfectamente blanco o un espejo perfecto reflejaría toda la radiación, y un objeto perfectamente transparente la transmitiría toda (<link target-id="CNX_UPhysics_18_06_Absorption"/>). Dichos objetos no emitirían ninguna radiación. Matemáticamente, el color está representado por la <term>emisividad</term> <emphasis effect="italics">e</emphasis>. Un radiador de “cuerpo negro” tendría <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, mientras que un reflector o transmisor perfecto tendría <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Como ejemplos reales, los filamentos de las bombillas de tungsteno tienen una <emphasis effect="italics">e</emphasis> de 0,5 aproximadamente, y el negro de humo (un material utilizado en el tóner de las impresoras) tiene una emisividad de 0,95 aproximadamente.</para>
+<figure id="CNX_UPhysics_18_06_Pavement">
+<media id="fs-id1170902349728" alt="La figura de la izquierda muestra hielo derritiéndose en un pavimento de color claro. La figura de la derecha muestra hielo que se derrite en un pavimento más oscuro. Aquí el hielo se ha derretido más.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Pavement.jpg"/>
+</media>
+<caption>El pavimento más oscuro está más caliente que el más claro (se ha derretido mucha más cantidad de hielo a la derecha), aunque ambos han estado a la luz del sol durante el mismo tiempo. Las conductividades térmicas de los pavimentos son las mismas.</caption>
+</figure>
+<figure id="CNX_UPhysics_18_06_Absorption">
+<media id="fs-id1170902094974" alt="La figura muestra cuatro cajas. Las dos primeras son de color negro y las otras dos están recubiertas de plata. La primera caja está identificada como absorber. La energía radiante incidente se absorbe y una pequeña parte se refleja. La segunda caja está identificada como radiar. La mayor parte de la energía se emite y una pequeña parte se retiene. La tercera caja está identificada como absorber. La mayor parte de la energía radiante incidente se refleja. Una pequeña parte es absorbida. La última caja está identificada como radiar. La mayor parte de la energía incidente se retiene. Una pequeña parte se emite.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Absorption.jpg"/>
+</media>
+<caption>Un objeto negro es buen absorbente y radiador, mientras que un objeto blanco, claro o plateado es mal absorbente y radiador. </caption>
+</figure>
+<para id="fs-id1170902096358">Para verlo, considere un objeto plateado y un objeto negro que pueden intercambiar calor por radiación y están en equilibrio térmico. Sabemos por experiencia que se mantendrán en equilibrio (resultado de un principio que se analizará ampliamente en la sección <link document="m90841">Segunda ley de la termodinámica</link>). Para que la temperatura del objeto negro se mantenga constante debe emitir tanta radiación como la energía que absorbe, por lo que debe ser tan bueno radiando como absorbiendo. Consideraciones similares muestran que el objeto de plata debe irradiar tan poco como lo que absorbe. Así, una propiedad, emisividad, controla tanto radiación como absorción.</para>
+<para id="fs-id1170902132114">Por último, el calor irradiado es proporcional a la superficie del objeto, ya que cada parte de la superficie irradia. Si se desmenuzan las brasas de una hoguera, la radiación aumenta notablemente debido al incremento de la superficie radiante.</para>
+<para id="fs-id1170902132117">La tasa de transferencia de calor por radiación emitida se describe mediante la <term>ley de Stefan-Boltzmann de radiación</term>:</para>
+<equation id="fs-id1170902124525" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>A</m:mi><m:mi>e</m:mi><m:msup><m:mi>T</m:mi><m:mn>4</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902178185">donde <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>5,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:math> es la constante de Stefan-Boltzmann, una combinación de constantes fundamentales de la naturaleza; <emphasis effect="italics">A</emphasis> es la superficie del objeto; y <emphasis effect="italics">T</emphasis> es su temperatura en kelvins.</para>
+<para id="fs-id1170902295414">La proporcionalidad a la <emphasis effect="italics">cuarta potencia</emphasis> de la temperatura absoluta es una dependencia de la temperatura notablemente fuerte. Permite detectar incluso pequeñas variaciones de temperatura. Las imágenes denominadas <term class="no-emphasis"><emphasis effect="italics">termógrafos</emphasis></term> se pueden usar en la medicina para detectar regiones de temperatura anormalmente alta en el cuerpo, tal vez indicativas de enfermedad. Técnicas similares se pueden usar para detectar fugas de calor en hogares (<link target-id="CNX_UPhysics_18_06_ThermGraph"/>), optimizar el rendimiento de altos hornos, mejorar niveles de confort en ambientes de trabajo e incluso hacer un perfil de temperatura de la Tierra de forma remota.</para>
+<figure id="CNX_UPhysics_18_06_ThermGraph">
+<media id="fs-id1170902283369" alt="En la figura se muestra una fotografía de un edificio superpuesta a su termografía. La termografía muestra diferentes zonas del edificio en distintos colores. Las ventanas son amarillas con marcos rojos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_ThermGraph.jpg"/>
+</media>
+<caption>Una termografía de parte de un edificio muestra las variaciones de temperatura, e indica dónde es más intensa la transferencia de calor al exterior. Las ventanas son una de las principales regiones de transferencia de calor al exterior de las viviendas (créditos: Ejército de los EE. UU.).</caption>
+</figure>
+<para id="fs-id1170904053462">La ecuación de Stefan-Boltzmann solo necesita un ligero refinamiento para tratar un caso sencillo de absorción de radiación de un objeto de su entorno. Suponiendo que un objeto con una temperatura <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> está rodeado de un ambiente con temperatura uniforme <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, la <term>tasa neta de transferencia de calor por radiación</term> es</para>
+<note id="fs-id1170902057965" class="equation-callout">
+<equation id="fs-id1170902057968"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902065233">donde <emphasis effect="italics">e</emphasis> es la emisividad del objeto solo. En otras palabras, no importa si el entorno es blanco, gris o negro: el equilibrio de la radiación que entra y sale del objeto depende de su capacidad de emisión y absorción. Cuando <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> la cantidad <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub></m:mrow></m:math> es positiva, es decir, la transferencia de calor neta es de caliente a frío.</para>
+<para id="fs-id1170902057490">Antes de hacer un ejemplo, tenemos que discutir una complicación: diferentes emisividades a diferentes longitudes de onda. Si la fracción de radiación incidente que refleja un objeto es la misma en todas las longitudes de onda visibles, el objeto es gris; si la fracción depende de la longitud de onda, el objeto tiene algún otro color. Por ejemplo, un objeto rojo o rojizo refleja la luz roja con más intensidad que otras longitudes de onda visibles. Como absorbe menos rojo, irradia menos rojo cuando está caliente. La reflexión y absorción diferencial de longitudes de onda fuera del rango visible no tiene ningún efecto sobre lo que vemos, pero pueden tener efectos físicamente importantes. La piel es un buen absorbente y emisor de radiación infrarroja, con una emisividad de 0,97 en el espectro infrarrojo. Así, a pesar de las evidentes variaciones en el color de la piel, todos somos casi negros en el infrarrojo. Esta alta emisividad infrarroja es la razón por la que podemos sentir tan fácilmente la radiación en nuestra piel. También es la base de la eficacia de los visores nocturnos que utilizan las fuerzas del orden y los militares para detectar seres humanos.</para>
+<example id="fs-id1170902222732">
+<para id="fs-id1170902222734"><title>Calcular la transferencia de calor neta de una persona</title>
+¿Cuál es la tasa de transferencia de calor por radiación de una persona sin ropa de pie en una habitación oscura cuya temperatura ambiente es <m:math><m:mrow><m:mn>22,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? La persona tiene una temperatura de la piel normal de <m:math><m:mrow><m:mn>33,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y una superficie de <m:math><m:mrow><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> La emisividad de la piel es de 0,97 en el infrarrojo, la parte del espectro donde se produce la radiación.</para>
+<para id="fs-id1170902156241"><title>Estrategia</title>
+Podemos resolverlo mediante la ecuación de la tasa de transferencia de calor por radiación.</para>
+<para id="fs-id1170902206128"><title>Solución</title>
+Introduzca los valores de temperatura <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>295</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>306</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>, de modo que</para>
+<equation id="fs-id1170902308478" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,97</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>295</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>306</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mo>]</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>−99</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>=</m:mo><m:mn>−99</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170902150888"><title>Importancia</title>
+Este valor es una tasa de transferencia de calor al ambiente importante (note el signo de menos), teniendo en cuenta que una persona en reposo puede producir energía a razón de 125 W y que la conducción y la convección también están transfiriendo energía al ambiente. De hecho, probablemente esperaríamos que esta persona sintiera frío. La ropa reduce significativamente la transferencia de calor al ambiente por todos los mecanismos, ya que la ropa ralentiza tanto la conducción como la convección y tiene una menor emisividad (especialmente si es de color claro) que la piel.</para>
+</example>
+<para id="fs-id1170903855653">La temperatura promedio de la Tierra es objeto de un gran debate en la actualidad. La Tierra está en contacto por radiación tanto con el Sol como con el espacio oscuro, por lo que no podemos utilizar la ecuación para un ambiente a temperatura uniforme. La Tierra recibe casi toda su energía de la radiación del Sol y refleja parte de ella hacia el espacio exterior. Por el contrario, el espacio oscuro es muy frío, unos 3 K, de modo que la Tierra irradia energía hacia el cielo oscuro. La velocidad de transferencia de calor desde el suelo y las praderas puede ser tan rápida que se puede producir escarcha en las tardes claras de verano, incluso en latitudes cálidas.</para>
+<para id="fs-id1170903855655">La temperatura promedio de la Tierra está determinada por su balance energético. En una primera aproximación, es la temperatura a la que la Tierra irradia calor al espacio con la misma rapidez con la que recibe energía del Sol.</para>
+<para id="fs-id1170904102802">Un parámetro importante para calcular la temperatura de la Tierra es su emisividad (<emphasis effect="italics">e</emphasis>). En promedio, es de 0,65 aproximadamente, pero el cálculo de este valor se complica por la gran variación diaria de la cobertura nubosa altamente reflectante. Dado que las nubes tienen una menor emisividad que los océanos o las masas terrestres reflejan parte de la radiación hacia la superficie, lo que reduce en gran medida la transferencia de calor hacia el espacio oscuro, al igual que reduce en gran medida la transferencia de calor hacia la atmósfera durante el día. Existe una realimentación negativa (en la que un cambio produce un efecto que se opone a ese cambio) entre las nubes y la transferencia de calor; las temperaturas más altas evaporan más agua para formar más nubes, las cuales reflejan más radiación hacia el espacio, lo que reduce la temperatura.</para>
+<para id="fs-id1170903821983">El tan mencionado <term>efecto invernadero</term> está directamente relacionado con la variación de la emisividad de la Tierra con la longitud de onda (<link target-id="CNX_UPhysics_18_06_Greenhouse"/>). El efecto invernadero es un fenómeno natural responsable de proporcionar temperaturas adecuadas para la vida en la Tierra y de hacer que Venus sea inadecuado para la vida humana. La mayor parte de la radiación infrarroja emitida por la Tierra la absorben el dióxido de carbono (<m:math><m:mrow><m:msub><m:mrow><m:mtext>CO</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math>) y el agua (<m:math><m:mrow><m:msub><m:mtext>H</m:mtext><m:mn>2</m:mn></m:msub><m:mtext>O</m:mtext></m:mrow></m:math>) en la atmósfera y luego se irradia al espacio exterior o de vuelta a la Tierra. La radiación de vuelta hacia la Tierra mantiene la temperatura de su superficie alrededor de <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> más alto de lo que sería si no hubiera atmósfera (las paredes y el techo de vidrio de un invernadero aumentan la temperatura interior al bloquear las pérdidas de calor por convección, no por radiación).</para>
+<figure id="CNX_UPhysics_18_06_Greenhouse">
+<media id="fs-id1170902307790" alt="En la figura se muestra la luz ultravioleta (UV), infrarroja (IR) y visible del Sol que incide en la Tierra a través de su atmósfera. De estas, solo se refleja la IR.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Greenhouse.jpg"/>
+</media>
+<caption>El efecto invernadero es el nombre que recibe el aumento de la temperatura de la Tierra debido a la absorción de radiación en la atmósfera. La atmósfera es transparente a la radiación visible entrante y a la mayor parte de la infrarroja del Sol. La Tierra absorbe esa energía y la reemite. Como la temperatura de la Tierra es mucho más baja que la del Sol, reemite la energía a longitudes de onda mucho más largas, en la infrarroja. La atmósfera absorbe gran parte de esa radiación infrarroja e irradia alrededor de la mitad de la energía hacia abajo, lo que mantiene a la Tierra más caliente de lo que sería de otro modo. La cantidad de atrapamiento depende de las concentraciones de gases traza, como el dióxido de carbono, y un aumento de la concentración de estos gases incrementa la temperatura de la superficie de la Tierra.</caption>
+</figure>
+<para id="fs-id1170904172960">El efecto invernadero es fundamental en el debate sobre el calentamiento global debido a la emisión de dióxido de carbono y metano (y otros gases de efecto invernadero) a la atmósfera terrestre por parte de la industria, el transporte y la agricultura. Los cambios en el clima global podrían provocar tormentas más intensas, cambios en las precipitaciones (que afectan a la agricultura), reducción de la biodiversidad de la selva tropical y aumento del nivel del mar.</para>
+<note id="fs-id1170904127965" class="media-2">
+<para id="fs-id1170904127969">Puede explorar <link url="https://openstax.org/l/21simgreeneff_es">una simulación del efecto invernadero</link> que adopta el punto de vista de que la atmósfera dispersa (redirige) la radiación infrarroja en vez de absorberla y retransmitirla. Es posible que desee realizar la simulación primero sin gases de efecto invernadero en la atmósfera y luego observar cómo la adición de gases de efecto invernadero afecta la radiación infrarroja y la temperatura de la Tierra.</para>
+</note>
+<note id="fs-id1170902085644" class="problem-solving">
+<title>Efectos de la transferencia de calor</title>
+<list id="fs-id1170902116092" list-type="enumerated" number-style="arabic">
+<item>Examine la situación para determinar qué tipo de transferencia de calor se produce.</item>
+<item>Identifique el tipo de transferencia de calor: conducción, convección o radiación.</item>
+<item>Identifique exactamente lo que hay que determinar en el problema (identifique las incógnitas). Una lista escrita es útil.</item>
+<item>Haga una lista de lo que se da o lo que se puede inferir del problema como se indica (identifique lo conocido).</item>
+<item>Despeje la ecuación apropiada para la cantidad a determinar (la incógnita).</item>
+<item>Para conducción, use la ecuación <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:math>. En la <link target-id="fs-id1170903900728"/> se indican las conductividades térmicas. Para convección, determine la cantidad de materia movida y la ecuación <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>, junto con <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math> o <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>V</m:mtext></m:msub></m:mrow></m:math> si una sustancia cambia de fase. Para radiación, la ecuación <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> da la tasa neta de transferencia de calor.</item>
+<item>Sustituya los aspectos conocidos junto con sus unidades en la ecuación apropiada y obtenga soluciones numéricas completas con unidades.</item>
+<item>Compruebe la respuesta para ver si es razonable. ¿Tiene sentido?</item>
+</list>
+</note>
+<note id="fs-id1170903788674" class="check-understanding">
+<exercise id="fs-id1170902205119">
+<problem id="fs-id1170902205121">
+<para id="fs-id1170902205124">¿Cuánto mayor es la tasa de radiación de calor cuando un cuerpo está a temperatura de <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> que cuando está a temperatura de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170902402497">
+<para id="fs-id1170902402499">El calor radiado es proporcional a la cuarta potencia de la <emphasis effect="italics">temperatura absoluta</emphasis>. Porque <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>293</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>313</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow></m:math>, la tasa de transferencia de calor aumenta un 30 % aproximadamente de la tasa original.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170902264743" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170904170856" list-type="bulleted" bullet-style="bullet">
+<item>El calor se transfiere por tres métodos diferentes: conducción, convección y radiación.</item>
+<item>La conducción de calor es la transferencia de calor entre dos objetos en contacto directo.</item>
+<item>La tasa de transferencia de calor <emphasis effect="italics">P</emphasis> (energía por unidad de tiempo) es proporcional a la diferencia de temperatura <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> y el área de contacto <emphasis effect="italics">A</emphasis> e inversamente proporcional a la distancia <emphasis effect="italics">d</emphasis> entre los objetos.</item>
+<item>La convección es la transferencia de calor por el movimiento macroscópico de la masa. La convección puede ser natural o forzada, y generalmente transfiere la energía térmica más rápidamente que la conducción. La convección que se produce junto con un cambio de fase puede transferir energía de las regiones frías a las calientes.</item>
+<item>La radiación es la transferencia de calor mediante la emisión o absorción de ondas electromagnéticas.</item>
+<item>La tasa de transferencia de calor por radiación es proporcional a la emisividad <emphasis effect="italics">e</emphasis>. Para un cuerpo negro perfecto, <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, mientras que un cuerpo perfectamente blanco, claro o reflectante tiene <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, con objetos reales que tienen valores de <emphasis effect="italics">e</emphasis> entre 1 y 0.</item>
+<item>La tasa de transferencia de calor depende de la superficie y de la cuarta potencia de la temperatura absoluta:
+<equation id="fs-id1170902275068" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:msup><m:mi>T</m:mi><m:mn>4</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>5,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:math> es la constante de Stefan-Boltzmann y <emphasis effect="italics">e</emphasis> es la emisividad del cuerpo. La tasa neta de transferencia de calor de un objeto por radiación es
+<equation id="fs-id1170902041956" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub></m:mrow><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> es la temperatura del objeto rodeado por un ambiente con temperatura uniforme <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y <emphasis effect="italics">e</emphasis> es la emisividad del objeto.</item>
+</list>
+</section>
+<section id="fs-id1170902161206" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1170902097931" summary="The table has two columns and nine rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Linear thermal expansion” and “delta L equals alpha L delta T”. The second row contains “Thermal expansion in two dimensions” and “delta A equals 2 alpha A delta T”. The third row contains “Thermal expansion in three dimensions” and “delta V equals beta V delta T”. The fourth row contains “Heat transfer” and “Q equals m c delta T”. The fifth row contains “Transfer of heat in a calorimeter” and “Q subscript cold plus Q subscript hot equals 0”. The sixth row contains “Heat due to phase change (melting and freezing)” and “Q equals m L subscript f”. The seventh row contains “Heat due to phase change (evaporation and condensation)” and “Q equals m L subscript v”. The eighth row contains “Rate of conductive heat transfer” and “P equals numerator k A opening parenthesis T subscript h minus T subscript c closing parenthesis divided by denominator d”. The ninth row contains “Net rate of heat transfer by radiation” and “sigma e A opening parenthesis T subscript 2 power 4 minus T subscript 1 power 4 closing parenthesis”." class="unnumbered unstyled">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Dilatación térmica lineal</entry>
+<entry align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Dilatación térmica en dos dimensiones</entry>
+<entry align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>α</m:mi><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Dilatación térmica en tres dimensiones</entry>
+<entry align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>β</m:mi><m:mi>V</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Transferencia de calor</entry>
+<entry align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Transferencia de calor en un calorímetro</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>frío</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>caliente</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Calor por cambio de fase (fusión y congelación)</entry>
+<entry align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Calor por cambio de fase (evaporación y condensación)</entry>
+<entry align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mtext>v</m:mtext></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Tasa de transferencia de calor por conducción</entry>
+<entry align="left"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mi>h</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mi>c</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Tasa neta de transferencia de calor por radiación</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1170902196722" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1170902321039">
+<problem id="fs-id1170902321041">
+<para id="fs-id1170902321044">¿Cuáles son los principales métodos de transferencia de calor del núcleo caliente de la Tierra a su superficie? ¿Y de la superficie de la Tierra al espacio exterior?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902100469">
+<problem id="fs-id1170902102387">
+<para id="fs-id1170902102389">Cuando nuestro cuerpo se calienta demasiado responde sudando y aumentando la circulación sanguínea hacia la superficie para transferir la energía térmica fuera del núcleo. ¿Qué efecto tendrán esos procesos en una persona en un jacuzzi a <m:math><m:mrow><m:mn>40,0</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170902232328">
+<para id="fs-id1170902232330">El aumento de la circulación en la superficie calentará a la persona, ya que la temperatura del agua es más caliente que la del cuerpo humano. La sudoración no provocará un enfriamiento por evaporación bajo el agua ni en el aire húmedo inmediatamente superior al jacuzzi.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902158734">
+<problem id="fs-id1170904203704">
+<para id="fs-id1170904203706">A continuación se muestra un dibujo de corte de una botella termo (también conocida como frasco de Dewar), que es un dispositivo diseñado específicamente para ralentizar todas las formas de transferencia de calor. Explique las funciones de las distintas partes, como el vacío, el plateado de las paredes, el cuello de vidrio largo de paredes finas, el soporte de goma, la capa de aire y el tapón.</para>
+<media id="fs-id1170904209214" alt="En la figura se muestra la sección transversal de un termo. Las paredes de vidrio con superficies plateadas forman el recipiente interior. Está suspendido dentro del recipiente exterior con resortes y soportes de goma. Hay una capa de aire y una capa de vacío entre los dos recipientes. El recipiente interior se llena de líquido caliente o frío.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Thermos_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170904135459">
+<problem id="fs-id1170904135461">
+<para id="fs-id1170902304420">Algunas estufas eléctricas tienen una superficie plana de cerámica con elementos calefactores ocultos debajo. Una olla colocada sobre un elemento calefactor se calentará, mientras que la superficie que se encuentra a unos pocos centímetros de distancia es segura de tocar. ¿Por qué la cerámica, con una conductividad menor que la de un metal pero mayor que la de un buen aislante, es una opción ideal para la placa de la estufa?</para>
+</problem>
+<solution id="fs-id1170903847224">
+<para id="fs-id1170903847226">Distribuye el calor en la zona por encima de los elementos calefactores, e iguala la temperatura allí, pero no difunde el calor mucho más allá de los elementos calefactores.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904056164">
+<problem id="fs-id1170902191160">
+<para id="fs-id1170902191162">La ropa blanca holgada que cubre la mayor parte del cuerpo, mostrada a continuación, es ideal para los habitantes del desierto, tanto en el caluroso sol como en las frías noches. Explique cómo esa ropa es ventajosa tanto de día como de noche.</para>
+<media id="fs-id1170904225254" alt="Fotografía de hombres con ropa blanca suelta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Jellabiya_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170903855364">
+<problem id="fs-id1170903881233">
+<para id="fs-id1170903881235">Una forma de hacer que una chimenea sea más eficiente energéticamente es hacer que el aire de la habitación circule por el exterior de la caja de fuego y vuelva a la habitación. Detalle los métodos de transferencia de calor implicados.</para>
+</problem>
+<solution id="fs-id1170903831144">
+<para id="fs-id1170903881238">El calor se conduce desde el fuego a través de la caja de fuego hasta el aire que circula y luego se conecta por el aire hacia la habitación (convección forzada).</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903905867">
+<problem id="fs-id1170903905869">
+<para id="fs-id1170903905871">En las noches frías y despejadas los caballos duermen al amparo de grandes árboles. ¿Cómo los ayuda esto a mantenerse calientes?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902224401">
+<problem id="fs-id1170902118342">
+<para id="fs-id1170902118345">Al ver un circo durante el día en una carpa grande y de color oscuro se percibe una importante transferencia de calor desde la carpa. Explique por qué ocurre esto.</para>
+</problem>
+<solution id="fs-id1170904092731">
+<para id="fs-id1170904092734">La tienda se calienta con el sol y le transfiere el calor por los tres procesos, especialmente por la radiación.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902150007">
+<problem id="fs-id1170902150009">
+<para id="fs-id1170903867931">Los satélites diseñados para observar la radiación del espacio oscuro y frío (3 K) tienen sensores que están a la sombra del Sol, de la Tierra y de la Luna y se enfrían a temperaturas muy bajas. ¿Por qué los sensores deben estar a baja temperatura?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902090940">
+<problem id="fs-id1170902090942">
+<para id="fs-id1170902270510">¿Por qué los termómetros que se utilizan en las estaciones meteorológicas están protegidos de la luz del sol? ¿Qué mide un termómetro si está protegido de los rayos del sol? ¿Qué mide si no es así?</para>
+</problem>
+<solution id="fs-id1170902358899">
+<para id="fs-id1170902358901">Si está protegido, mide la temperatura del aire. Si no, mide el efecto combinado de la temperatura del aire y la ganancia neta de calor por radiación del sol.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904007161">
+<problem id="fs-id1170904007164">
+<para id="fs-id1170904140196">Poner una tapa en una olla hirviendo reduce en gran medida la transferencia de calor necesaria para mantener el hervor. Explique por qué.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904048491">
+<problem id="fs-id1170904048493">
+<para id="fs-id1170902130781">Su casa va a estar vacía durante un tiempo en el que hace frío, y quiere ahorrar energía y dinero. ¿Debe bajar el termostato al nivel más bajo que proteja la casa de daños como congelación de tuberías o dejarlo a la temperatura normal? (Si no le gusta volver a una casa fría, imagine que un temporizador controla el sistema de calefacción para que la casa esté caliente cuando vuelva). Explique su respuesta.</para>
+</problem>
+<solution id="fs-id1170902130784">
+<para id="fs-id1170902130786">Baje el termostato. Para que la casa esté a la temperatura normal, el sistema de calefacción debe reponer todo el calor que se ha perdido. Para los tres mecanismos de transferencia de calor, cuanto mayor sea la diferencia de temperatura entre el interior y el exterior, más calor se perderá y se deberá reemplazar. Por lo tanto, la casa debe estar a la temperatura más baja que no permita daños por congelación.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902166555">
+<problem id="fs-id1170902166557">
+<para id="fs-id1170902166559">Usted sirve el café en una taza sin tapa, con la intención de beberlo 5 minutos después. Se puede añadir crema al servir la taza o justo antes de beberlo (la crema está a la misma temperatura de cualquier manera. Suponga que la crema y el café entran en equilibrio térmico entre sí muy rápidamente). ¿Qué manera le dará un café más caliente? ¿Qué característica de esta pregunta es diferente de la anterior?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902340094">
+<problem id="fs-id1170904037062">
+<para id="fs-id1170904037065">Asar a la parrilla es un método de cocción por radiación que produce resultados algo diferentes a los de la cocción por conducción o convección. Una llama de gas o una resistencia eléctrica producen una temperatura muy alta cerca de los alimentos y <emphasis effect="italics">por encima</emphasis> de ellos. ¿Por qué la radiación es el método de transferencia de calor dominante en esta situación?</para>
+</problem>
+<solution id="fs-id1170902184118">
+<para id="fs-id1170902184120">El aire es un buen aislante, por lo que hay poca conducción, y el aire calentado sube, por lo que hay poca convección hacia abajo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902109339">
+<problem id="fs-id1170902109342">
+<para id="fs-id1170902179374">En una fría mañana de invierno, ¿por qué el metal de una bicicleta se siente más frío que la madera de un porche?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170903825027" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170902359581">
+<problem id="fs-id1170902359583">
+<para id="fs-id1170902359585">(a) Calcule la velocidad de conducción de calor a través de las paredes de la casa que tienen un grosor de 13,0 cm y una conductividad térmica promedio dos veces superior a la de la lana de vidrio. Suponga que no hay ventanas ni puertas. La superficie de las paredes es <m:math><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y su superficie interior está a <m:math><m:mrow><m:mn>18,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, mientras que su superficie exterior está a <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (b) ¿Cuántos calefactores de ambiente de 1 kW serían necesarios para equilibrar la transferencia de calor por conducción?</para>
+</problem>
+<solution id="fs-id1170902092492">
+<para id="fs-id1170902092494">a. <m:math><m:mrow><m:mn>1,01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>; b. Se necesita un calefactor de ambiente de 1 kilovatio.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902175194">
+<problem id="fs-id1170902166074">
+<para id="fs-id1170902166076">La velocidad de conducción del calor por una ventana en un día de invierno es lo suficientemente rápida como para enfriar el aire que se encuentra junto a ella. Para ver la rapidez con la que las ventanas transfieren calor por conducción calcule la tasa de conducción en vatios a través de una ventana de <m:math><m:mrow><m:mn>3,00</m:mn><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> de 0,634 cm de espesor (1/4 in) si las temperaturas de las superficies interior y exterior son <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>−10,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, respectivamente. (este ritmo rápido no se mantendrá: la superficie interior se enfriará, incluso hasta la formación de escarcha).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904130420">
+<problem id="fs-id1170902434084">
+<para id="fs-id1170902434086">Calcule la tasa de conducción de calor fuera del cuerpo humano, suponiendo que la temperatura interna del núcleo es <m:math><m:mrow><m:mn>37,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, la temperatura de la piel es <m:math><m:mrow><m:mn>34,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, el grosor de los tejidos grasos entre el núcleo y la piel es de 1,00 cm en promedio y la superficie es <m:math><m:mrow><m:mn>1,40</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1170902128753">
+<para id="fs-id1170903815349">84,0 W</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903815354">
+<problem id="fs-id1170904102261">
+<para id="fs-id1170904102263">Suponga que usted está de pie con un pie en un suelo de cerámica y el otro en una alfombra de lana, y hace contacto en una superficie de <m:math><m:mrow><m:mn>80,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> con cada pie. Tanto la cerámica como la alfombra tienen un grosor de 2,00 cm y tienen <m:math><m:mrow><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> en sus lados inferiores. ¿A qué velocidad debe producirse la transferencia de calor de cada pie para mantener la parte superior de la cerámica y la alfombra a <m:math><m:mrow><m:mn>33,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902276867">
+<problem id="fs-id1170902276869">
+<para id="fs-id1170902276871">Un hombre consume 3.000 kcal de alimentos en un día, y convierte la mayor parte en energía térmica para mantener la temperatura corporal. Si pierde la mitad de esta energía evaporando agua (a través de la respiración y el sudor), ¿cuántos kilogramos de agua se evaporan?</para>
+</problem>
+<solution id="fs-id1170902057153">
+<para id="fs-id1170902107736">2,59 kg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902107741">
+<problem id="fs-id1170903802625">
+<para id="fs-id1170903802627">Un caminante del fuego corre por un lecho de carbón caliente sin sufrir quemaduras. Calcule el calor transferido por conducción a la planta de un pie de un caminante del fuego, dado que la planta del pie es un callo de 3,00 mm de espesor con una conductividad en el extremo inferior del rango para madera y su densidad es de <m:math><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. El área de contacto es <m:math><m:mrow><m:mn>25,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> la temperatura de las brasas es <m:math><m:mrow><m:mn>700</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y el tiempo de contacto es de 1,00 s. Ignore el enfriamiento por evaporación del sudor.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902096297">
+<problem id="fs-id1170902096299">
+<para id="fs-id1170902096302">(a) ¿Cuál es la tasa de conducción de calor a través del pelaje de 3,00 cm de espesor de un animal grande que tiene una superficie de <m:math><m:mrow><m:mn>1,40</m:mn><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>? Suponga que la temperatura de la piel del animal es <m:math><m:mrow><m:mn>32,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, que la temperatura del aire es <m:math><m:mrow><m:mn>−5,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y que el pelaje tiene la misma conductividad térmica que el aire. (b) ¿Qué ingesta de alimentos necesitará el animal en un día para sustituir esta transferencia de calor?</para>
+</problem>
+<solution id="fs-id1170903803927">
+<para id="fs-id1170902207557">a. 39,7 W; b. 820 kcal</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902207563">
+<problem id="fs-id1170904086325">
+<para id="fs-id1170904086327">Una morsa transfiere energía por conducción a través de su grasa a una tasa de 150 W cuando se sumerge en agua a <m:math><m:mrow><m:mn>−1,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. La temperatura interna de la morsa es <m:math><m:mrow><m:mn>37,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y tiene una superficie de <m:math><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. ¿Cuál es el grosor promedio de su grasa, la cual tiene la conductividad de tejidos grasos sin sangre?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902361881">
+<problem id="fs-id1170902361884">
+<para id="fs-id1170902321023">Compare la velocidad de conducción del calor a través de una pared de 13,0 cm de espesor que tiene un área de <m:math><m:mrow><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y una conductividad térmica dos veces superior a la de lana de vidrio con la tasa de conducción de calor a través de una ventana de 0,750 cm de espesor que tiene un área de <m:math><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, suponiendo la misma diferencia de temperatura en cada una de ellas.</para>
+</problem>
+<solution id="fs-id1170902198803">
+<para id="fs-id1170904258258"><m:math><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:math>, de modo que<newline/> <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>pared</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>ventana</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>k</m:mi><m:mrow><m:mtext>pared</m:mtext></m:mrow></m:msub><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>pared</m:mtext></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>ventana</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>k</m:mi><m:mrow><m:mtext>ventana</m:mtext></m:mrow></m:msub><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>ventana</m:mtext></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>pared</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>0,042</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,750</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,84</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math><newline/> Esto da 0,0288 pared: ventana, o 35:1 ventana: pared</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904053259">
+<problem id="fs-id1170903755845">
+<para id="fs-id1170903755847">Suponga que una persona está cubierta de pies a cabeza por ropa de lana con un grosor medio de 2,00 cm y que transfiere energía por conducción a través de la ropa a razón de 50,0 W. ¿Cuál es la diferencia de temperatura a través de la ropa, dado que la superficie es <m:math><m:mrow><m:mn>1,40</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902343171">
+<problem id="fs-id1170904083567">
+<para id="fs-id1170904083569">Algunas encimeras son de cerámica lisa para facilitar la limpieza. Si la cerámica tiene un grosor de 0,600 cm y la conducción de calor se produce a través de la misma área y a la misma velocidad calculada en el <link target-id="fs-id1170902140575"/>, ¿cuál es la diferencia de temperatura a través de ella? La cerámica tiene la misma conductividad térmica que el vidrio y el ladrillo.</para>
+</problem>
+<solution id="fs-id1170903794592">
+<para id="fs-id1170902351226"><m:math><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mi>d</m:mi></m:mfrac><m:mo stretchy="false">⇒</m:mo></m:mrow></m:math><newline/> <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Q</m:mi><m:mtext>/</m:mtext><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>k</m:mi><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2256</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,84</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,54</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.046</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>=</m:mo><m:mn>1,05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>K</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902207905">
+<problem id="fs-id1170902207907">
+<para id="fs-id1170902207910">Una forma sencilla de reducir costos de calefacción (y refrigeración) es añadir aislamiento adicional en el ático de una casa. Suponga que una casa cúbica de una sola planta ya tiene 15 cm de aislamiento de fibra de vidrio en el ático y en todas las superficies exteriores. Si se añaden 8,0 cm más de fibra de vidrio al ático, ¿en qué porcentaje disminuiría el costo de calefacción de la casa? La casa debe tener unas dimensiones de 10 m por 15 m por 3,0 m. Ignore infiltraciones de aire y pérdidas de calor a través de ventanas y puertas, y asuma que el interior está uniformemente a una temperatura y el exterior a otra.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903847773">
+<problem id="fs-id1170903847775">
+<para id="fs-id1170903847777">Muchas decisiones se toman con base en el periodo de amortización: el tiempo que tardará el ahorro en igualar el costo de capital de una inversión. Los tiempos de amortización aceptables dependen del negocio o la filosofía que se tenga (en algunos sectores, el periodo de amortización es de tan solo 2 años). Suponga que desea instalar el aislamiento adicional que se indicó en el problema anterior. Si el costo de la energía <m:math><m:mrow><m:mtext>era de</m:mtext><m:mn>1,00</m:mn></m:mrow></m:math> dólar por millón de julios y el aislamiento era de 4,00 dólares por metro cuadrado, entonces calcule el tiempo de amortización simple. Tome el promedio <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> para que la temporada de calefacción de 120 días sea de <m:math><m:mrow><m:mn>15,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1170904051702">
+<para id="fs-id1170904051704">En el problema anterior comprobamos que <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>126</m:mn><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> como uso energético de referencia. Por lo tanto, la pérdida total de calor durante este periodo es <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>126</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>15,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>días</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>86,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s/día</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.960</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>. A un costo de $1/MJ, el costo es de 1.960 dólares. De un problema anterior, el ahorro es del 12 % o 235 dólares/año. Necesitamos <m:math><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> de aislamiento en el ático. A <m:math><m:mrow><m:mi>$</m:mi><m:mn>4</m:mn><m:mtext>/</m:mtext><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>, esto supone un costo de 500 dólares. Por lo tanto, el periodo de recuperación de la inversión es <m:math><m:mrow><m:mi>$</m:mi><m:mn>600</m:mn><m:mtext>/</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>$</m:mi><m:mn>235</m:mn><m:mtext>/</m:mtext><m:mtext>y</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2,6</m:mn><m:mspace width="0.2em"/><m:mtext>años</m:mtext></m:mrow></m:math> (sin incluir costos de mano de obra).</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170902070588" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1170904127383">
+<problem id="fs-id1170904146724">
+<para id="fs-id1170904146727">En 1701, el astrónomo danés Ole Rømer propuso una escala de temperatura con dos puntos fijos, el agua helada a 7,5 grados y el agua hirviendo a 60,0 grados. ¿Cuál es el punto de ebullición del oxígeno, 90,2 K, en la escala de Rømer?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902196974">
+<problem id="fs-id1170902196976">
+<para id="fs-id1170902190804">¿Cuál es el porcentaje de error de pensar que el punto de fusión del tungsteno es <m:math><m:mrow><m:mn>3.695</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> en vez del valor correcto de 3.695 K?</para>
+</problem>
+<solution id="fs-id1170902091270">
+<para id="fs-id1170902091273"><m:math><m:mrow><m:mn>7,39</m:mn><m:mi>%</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902179492">
+<problem id="fs-id1170902179494">
+<para id="fs-id1170902269337">Un ingeniero quiere diseñar una estructura en la que la diferencia de longitud entre una viga de acero y una de aluminio se mantenga en 0,500 m independientemente de la temperatura, para temperaturas ordinarias. ¿Cuáles deben ser las longitudes de las vigas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902385785">
+<problem id="fs-id1170902225394">
+<para id="fs-id1170902225396">¿Cuánta tensión se crea en una viga de acero si su temperatura cambia de <m:math><m:mrow><m:mn>–15</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> pero no puede expandirse? Para el acero, el módulo de Young <m:math><m:mrow><m:mi>Y</m:mi><m:mo>=</m:mo><m:mn>210</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> de la sección <link target-id="fs-id1163713086230" document="m90678">Estrés, tensión y módulo elástico</link> (ignore el cambio de área resultante de la expansión).</para></problem>
+<solution id="fs-id1170902207604">
+<para id="fs-id1170902190139"><m:math><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>210</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−15</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904056352">
+<problem id="fs-id1170904056354">
+<para id="fs-id1170903904201">Una varilla de latón <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>Y</m:mi><m:mo>=</m:mo><m:mn>90</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> con un diámetro de 0,800 cm y una longitud de 1,20 m cuando la temperatura es <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, se fija en ambos extremos. ¿A qué temperatura es la fuerza en él a 36.000 N?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902155405">
+<problem id="fs-id1170902155407">
+<para id="fs-id1170902113670">Un termómetro de mercurio que todavía se utiliza en meteorología tiene un bulbo con un volumen de <m:math><m:mrow><m:mn>0,780</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> y un tubo para que el mercurio se expanda en su interior de 0,130 mm de diámetro. (a) Desestimando la dilatación térmica del vidrio, ¿cuál es la distancia entre marcas de <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (b) Si el termómetro es de vidrio ordinario (no es una buena idea), ¿cuál es la separación?</para>
+</problem>
+<solution id="fs-id1170902041467">
+<para id="fs-id1170902041469">a. <m:math><m:mrow><m:mn>1,06</m:mn></m:mrow></m:math> cm; b. <m:math><m:mrow><m:mn>1,11</m:mn></m:mrow></m:math> cm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902259974">
+<problem id="fs-id1170902259976">
+<para id="fs-id1170902219819">Incluso cuando está apagado tras un periodo de uso normal, un gran reactor nuclear comercial transfiere energía térmica a una tasa de 150 MW por el decaimiento radiactivo de productos de fisión. Esta transferencia de calor provoca un rápido aumento de la temperatura si el sistema de refrigeración cae <m:math><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>vatios</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>julio/segundo</m:mtext></m:mrow></m:math> o <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext></m:mrow></m:math> y<newline/><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>MW</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>megavatios</m:mtext><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math> (a) Calcule la tasa de aumento de la temperatura en grados Celsius por segundo <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>°</m:mtext><m:mtext>C/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> si la masa del núcleo del reactor es <m:math><m:mrow><m:mn>1,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> y tiene un calor específico promedio de <m:math><m:mrow><m:mn>0,3349</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (b) ¿Cuánto tiempo se necesita para obtener un aumento de temperatura de <m:math><m:mrow><m:mn>2.000</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, lo que podría provocar la fusión de algunos metales que contienen materiales radiactivos? (La tasa inicial de aumento de la temperatura sería mayor que la calculada aquí porque la transferencia de calor se concentra en una masa más pequeña. Sin embargo, más tarde, el aumento de la temperatura se ralentizaría porque el recipiente de contención de acero de 500.000 kg también comenzaría a calentarse).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902064233">
+<problem id="fs-id1170904054287">
+<para id="fs-id1170904054289">Usted deja un pastelito en un plato en el refrigerador y le pide a su compañero de vivienda que lo saque antes de que llegue a casa para poder comerlo a temperatura ambiente, como a usted le gusta. En cambio, su compañero de vivienda juega videojuegos durante horas. Cuando vuelve, se da cuenta de que el pastel sigue frío, pero la videoconsola se ha calentado. Molesto, y sabiendo que el pastelito no estará bueno si se calienta en el microondas, calienta el hojaldre en la consola desenchufada y le pone una bolsa de basura limpia (que actúa como un perfecto calorímetro) con el pastelito en el plato. Después de un rato, se da cuenta de que la temperatura de equilibrio es una agradable y cálida <m:math><m:mrow><m:mn>38,3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Sabe que la videoconsola tiene una masa de 2,1 kg. Aproxima que tiene una temperatura inicial uniforme de <m:math><m:mrow><m:mn>4</m:mn><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. El pastelito tiene una masa de 0,16 kg y un calor específico de <m:math><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mspace width="0.2em"/><m:mtext>J/</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> y se está a una temperatura inicial uniforme de <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. El plato está a la misma temperatura y tiene una masa de 0,24 kg y un calor específico de <m:math><m:mrow><m:mn>0,90</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. ¿Cuál es el calor específico de la consola?</para>
+</problem>
+<solution id="fs-id1170902090800">
+<para id="fs-id1170902090802"><m:math><m:mrow><m:mn>1,7</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>°C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903720947">
+<problem id="fs-id1170903720949">
+<para id="fs-id1170903720951">Dos esferas sólidas, <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis>, del mismo material, están a temperaturas de <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, respectivamente. Las esferas se colocan en contacto térmico en un calorímetro ideal y alcanzan una temperatura de equilibrio de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. ¿Cuál es la esfera más grande? ¿Cuál es la relación de sus diámetros?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904184038">
+<problem id="fs-id1170904184040">
+<para id="fs-id1170904184042">En algunos países se usa nitrógeno líquido en camiones lecheros en vez de refrigeradores mecánicos. Un viaje de entrega de 3 horas requiere 200 L de nitrógeno líquido, el cual tiene una densidad de <m:math><m:mrow><m:mn>808</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> (a) Calcule la transferencia de calor necesaria para evaporar esta cantidad de nitrógeno líquido y elevar su temperatura a <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (use <m:math><m:mrow><m:msub><m:mi>c</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math> y suponga que es constante a lo largo del rango de temperaturas). Este valor es la cantidad de refrigeración que proporciona el nitrógeno líquido. (b) ¿Cuál es esta tasa de transferencia de calor en kilovatios-hora? (c) Compare la cantidad de refrigeración obtenida al fundir una masa idéntica de hielo a <m:math><m:mrow><m:mn>0</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> con la de la evaporación del nitrógeno líquido.</para>
+</problem>
+<solution id="fs-id1170904049508">
+<para id="fs-id1170904049510">a. <m:math><m:mrow><m:mn>1,57</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kcal</m:mtext></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>18,3</m:mn><m:mspace width="0.2em"/><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:mn>1,29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kcal</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902190374">
+<problem id="fs-id1170902190376">
+<para id="fs-id1170902190378">Algunos aficionados a las armas fabrican sus propias balas, lo que implica fundir el plomo y vaciarlo en proyectiles de plomo. ¿Cuánta transferencia de calor se necesita para elevar la temperatura y fundir 0,500 kg de plomo, partiendo de <m:math><m:mrow><m:mn>25,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902119892">
+<problem id="fs-id1170902119894">
+<para id="fs-id1170902119896">Un cilindro de hierro de 0,800 kg a una temperatura de <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> se deja caer en un cofre aislado con 1,00 kg de hielo en su punto de fusión. ¿Cuál es la temperatura final y cuánto hielo se ha derretido?</para>
+</problem>
+<solution id="fs-id1170902233858">
+<para id="fs-id1170902233860"><m:math><m:mrow><m:mn>6,3</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Todo el hielo se derritió.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904172107">
+<problem id="fs-id1170904172109">
+<para id="fs-id1170904172111">Repita el problema anterior con 2,00 kg de hielo en vez de 1,00 kg.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902130126">
+<problem id="fs-id1170902130128">
+<para id="fs-id1170902130130">Repita el problema anterior con 0,500 kg de hielo, suponiendo que el hielo está inicialmente en un recipiente de cobre con una masa de 1,50 kg en equilibrio con el hielo.</para>
+</problem>
+<solution id="fs-id1170902179626">
+<para id="fs-id1170902179628"><m:math><m:mrow><m:mn>63,9</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, todo el hielo se derritió</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902140904">
+<problem id="fs-id1170902140906">
+<para id="fs-id1170902140908">Un cubo de hielo de 30,0 g en su punto de fusión se deja caer en un calorímetro de aluminio con una masa de 100,0 g en equilibrio a <m:math><m:mrow><m:mn>24,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> con 300,0 g de un líquido desconocido. La temperatura final es <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. ¿Cuál es la capacidad calorífica del líquido?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902206515">
+<problem id="fs-id1170902206517">
+<para id="fs-id1170902206519">(a) Calcule la tasa de conducción de calor a través de una ventana de doble paneles de vidrio que tiene un área de <m:math><m:mrow><m:mn>1,50</m:mn><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y está formada por dos paneles de vidrio de 0,800 cm de grosor separados por un espacio de aire de 1,00 cm. La temperatura de la superficie interior es <m:math><m:mrow><m:mn>15,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> mientras que la del exterior es <m:math><m:mrow><m:mn>−10,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (<emphasis effect="italics">Pista:</emphasis> Las caídas de temperatura son idénticas en los dos paneles de vidrios. Primero calcule estos y luego la caída de temperatura a través del espacio de aire. Este problema ignora el aumento de la transferencia de calor en el espacio de aire debido a convección). b) Calcule la tasa de conducción de calor a través de una ventana de 1,60 cm de espesor de la misma área y con las mismas temperaturas. Compare su respuesta con la de la parte (a).</para>
+</problem>
+<solution id="fs-id1170904112317">
+<para id="fs-id1170902109738">a. 83 W; b <m:math><m:mrow><m:mn>1,97</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>; La ventana de un solo panel de vidrio tiene una tasa de conducción de calor igual a 1.969/83, es decir, 24 veces la de una ventana de doble panel de vidrio.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902154875">
+<problem id="fs-id1170902154877">
+<para id="fs-id1170902154879">a) Una pared exterior de una casa tiene 3 m de altura y 10 m de ancho. Consiste en una capa de paneles de yeso con un factor <emphasis effect="italics">R</emphasis> de 0,56, una capa de 3,5 pulgadas de espesor rellena de paneles de fibra de vidrio y una capa de revestimiento aislante con un factor <emphasis effect="italics">R</emphasis> de 2,6. La pared está tan bien construida que no hay fugas de aire a través de esta. Cuando el interior de la pared está en <m:math><m:mrow><m:mn>22</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y el exterior está a <m:math><m:mrow><m:mn>−2</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, ¿cuál es la tasa de flujo de calor a través de la pared? (b) De manera más realista, el espacio de 3,5 pulgadas también contiene montantes de 2 por 4, es decir, tablas de madera de 1,5 pulgadas por 3,5 pulgadas orientadas de manera que la dimensión de 3,5 pulgadas se extiende desde el panel de yeso hasta el revestimiento. Están “en centros de 16 pulgadas”, es decir, los centros de los montantes están a 16 pulgadas de distancia. ¿Cuál es la corriente de calor en esta situación? No se preocupe por un perno de más o de menos.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904202613">
+<problem id="fs-id1170904202615">
+<para id="fs-id1170902118393">Para el cuerpo humano, ¿cuál es la tasa de transferencia de calor por conducción a través del tejido del cuerpo con las siguientes condiciones: el espesor del tejido es de 3,00 cm, la diferencia de temperatura es <m:math><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y el área de la piel es <m:math><m:mrow><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. ¿Cómo se compara esto con la tasa promedio de transferencia de calor al cuerpo resultante de una ingesta energética de unas 2.400 kcal al día? (No se incluye el ejercicio).</para>
+</problem>
+<solution id="fs-id1170902065052">
+<para id="fs-id1170902065054">La tasa de transferencia de calor por conducción es de 20,0 W. Sobre una base diaria, esto es 1.728 kJ/día. La ingesta diaria de alimentos es <m:math><m:mrow><m:mn>2.400</m:mn><m:mspace width="0.2em"/><m:mtext>kcal/d</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>4.186</m:mn><m:mspace width="0.2em"/><m:mtext>J/kcal</m:mtext><m:mo>=</m:mo><m:mn>10.050</m:mn><m:mspace width="0.2em"/><m:mtext>kJ/día</m:mtext></m:mrow></m:math>. Por lo tanto, solo el 17,2 % de la energía consumida va como transferencia de calor al ambiente por conducción <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902275235">
+<problem id="fs-id1170902275237">
+<para id="fs-id1170902275239">Tiene un frasco de Dewar (un termo de vacío de laboratorio) que tiene la parte superior abierta y los lados rectos, como se muestra más adelante. Lo llena de agua y lo mete en el congelador. Se trata de un aislante perfecto que bloquea toda transferencia de calor, excepto en la parte superior. Al cabo de un tiempo, se forma hielo en la superficie del agua. El agua líquida y la superficie inferior del hielo, en contacto con el agua líquida, están a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. La superficie de arriba del hielo está a la misma temperatura que el aire del congelador, <m:math><m:mrow><m:mn>−18</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C.</m:mtext></m:mrow></m:math> Establezca la tasa de flujo de calor a través del hielo igual a la tasa de pérdida de calor de fusión a medida que el agua se congela. Cuando la capa de hielo tenga un grosor de 0,700 cm, calcule la velocidad en m/s a la que el hielo se está engrosando.</para>
+<media id="fs-id1170904108911" alt="En la figura se muestra un termo lleno de agua con una capa de hielo en la parte superior. La superficie de arriba del hielo está a menos 18 grados Celsius. La superficie inferior del hielo y el agua están a 0 grados Celsius.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_06_Dewar_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170904131132">
+<problem id="fs-id1170902352542">
+<para id="fs-id1170902352544">Un calefactor de infrarrojos para un sauna tiene una superficie de <m:math><m:mrow><m:mn>0,050</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y una emisividad de 0,84. ¿A qué temperatura debe funcionar si la potencia necesaria es de 360 W? Desestime la temperatura del ambiente.</para>
+</problem>
+<solution id="fs-id1170903855576">
+<para id="fs-id1170904172920">620 K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170904172926">
+<problem id="fs-id1170904172928">
+<para id="fs-id1170904068623">(a) Determine la potencia de la radiación del Sol y tome en cuenta que la intensidad de la radiación a la distancia de la Tierra es <m:math><m:mrow><m:mn>1.370</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. <emphasis effect="italics">Pista:</emphasis> Esa intensidad se calculará en todas partes de una superficie esférica con radio igual al de la órbita de la Tierra. (b) Suponiendo que la temperatura del Sol es de 5.780 K y que su emisividad es 1, calcule su radio.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170904208735" class="review-challenge">
+<title>Problemas de desafío</title>
+<exercise id="fs-id1170904089530">
+<problem id="fs-id1170904089532">
+<para id="fs-id1170904089535">Un péndulo está formado por una varilla de longitud <emphasis effect="italics">L</emphasis> y masa insignificante, pero con capacidad de dilatación térmica y un peso de tamaño insignificante. (a) Demuestre que cuando la temperatura aumenta en <emphasis effect="italics">dT</emphasis>, el periodo del péndulo aumenta en una fracción <m:math><m:mrow><m:mi>α</m:mi><m:mi>L</m:mi><m:mi>d</m:mi><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>. (b) Un reloj controlado por un péndulo de latón mantiene la hora correctamente a <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Si la temperatura ambiente es <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, ¿el reloj va más rápido o más lento? ¿Cuál es su error en segundos por día?</para>
+</problem>
+<solution id="fs-id1170903755438">
+<para id="fs-id1170904088331">Al denotar el periodo por <emphasis effect="italics">P</emphasis>, sabemos que <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>g</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> Cuando la temperatura aumenta en <emphasis effect="italics">dT</emphasis>, la longitud aumenta en <m:math><m:mrow><m:mi>α</m:mi><m:mi>L</m:mi><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:math>. Entonces la nueva longitud es a. <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>L</m:mi><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:mrow></m:msqrt><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/> por la expansión binomial. b. El reloj va más lento, ya que su nuevo periodo es de 1,00019 s. Pierde 16,4 s por día.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902293168">
+<problem id="fs-id1170902090725">
+<para id="fs-id1170902090727">A temperaturas de unos cientos de kelvins, la capacidad de calor específico del cobre sigue aproximadamente la fórmula empírica <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mo>+</m:mo><m:mi>β</m:mi><m:mi>T</m:mi><m:mo>+</m:mo><m:mi>δ</m:mi><m:msup><m:mi>T</m:mi><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>349</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>K,</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>0,107</m:mn><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mi>δ</m:mi><m:mo>=</m:mo><m:mn>4,58</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> ¿Cuánto calor se necesita para elevar la temperatura de una pieza de cobre de 2,00 kg de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>250</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902221615">
+<problem id="fs-id1170902221617">
+<para id="fs-id1170903825185">En un calorímetro de capacidad calorífica insignificante, 200 g de vapor de agua a <m:math><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y 100 g de hielo a <m:math><m:mrow><m:mn>−40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> están mezclados. La presión se mantiene en 1 atm. ¿Cuál es la temperatura final y qué cantidad de vapor de agua, hielo y agua hay?</para>
+</problem>
+<solution id="fs-id1170904267417">
+<para id="fs-id1170904267419">La cantidad de calor para derretir el hielo y elevarlo a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> no es suficiente para condensar el vapor de agua, pero es más que suficiente para bajar la temperatura del vapor de agua en <m:math><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, por lo que el estado final consistirá en vapor de agua y agua líquida en equilibrio, y la temperatura final es <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; 9,5 g de vapor de agua se condensan, por lo que el estado final contiene 49,5 g de vapor de agua y 40,5 g de agua líquida.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902179515">
+<problem id="fs-id1170902179518">
+<para id="fs-id1170902114429">Un astronauta que realiza una actividad fuera del vehículo (paseo espacial) a la sombra del Sol lleva un traje espacial que puede aproximarse como perfectamente blanco <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> excepto un parche de <m:math><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>8</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math> con la forma de la bandera nacional del astronauta. El parche tiene una emisividad de 0,300. El traje espacial debajo del parche tiene un grosor de 0,500 cm, con una conductividad térmica <m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>0,0600</m:mn><m:mspace width="0.2em"/><m:mtext>W/m</m:mtext><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, y su superficie interior está a una temperatura de <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. ¿Cuál es la temperatura del parche y cuál es la tasa de pérdida de calor a través de él? Suponga que el parche es tan fino que su superficie exterior está a la misma temperatura que la superficie exterior del traje espacial que tiene debajo. Asuma también que la temperatura del espacio exterior es de 0 K. Obtendrá una ecuación muy difícil de resolver en forma cerrada, por lo que puede resolverla numéricamente con una calculadora gráfica, con un software o incluso por ensayo y error con una calculadora.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902214125">
+<problem id="fs-id1170902214127">
+<para id="fs-id1170902187034">Calcule el crecimiento de una capa de hielo como una función de tiempo en un frasco de Dewar como se ve en el <link target-id="fs-id1170902275235"/>. Llame al espesor de la capa de hielo <emphasis effect="italics">L</emphasis>. (a) Derive una ecuación para <emphasis effect="italics">dL</emphasis>/<emphasis effect="italics">dt</emphasis> en términos de <emphasis effect="italics">L</emphasis>, la temperatura <emphasis effect="italics">T</emphasis> sobre el hielo y las propiedades del hielo (que puede dejar en forma simbólica en vez de sustituir los números). (b) Despeje esta ecuación diferencial suponiendo que en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, tiene <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> Si ha estudiado ecuaciones diferenciales, entonces conoce una técnica para despejar ecuaciones de este tipo: manipular la ecuación para obtener <emphasis effect="italics">dL</emphasis>/<emphasis effect="italics">dt</emphasis> multiplicado por una función (muy simple) de <emphasis effect="italics">L</emphasis> en un lado e integrar ambos lados con respecto al tiempo. Como alternativa, puede usar sus conocimientos sobre las derivadas de varias funciones para estimar la solución, que tiene una dependencia simple de <emphasis effect="italics">t</emphasis>. (c) ¿Finalmente se congelará el agua en el fondo del termo?</para></problem>
+<solution id="fs-id1170904030359">
+<para id="fs-id1170902234348">a. <m:math><m:mrow><m:mi>d</m:mi><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>T</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mi>ρ</m:mi><m:mi>L</m:mi></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mi>k</m:mi><m:mi>T</m:mi><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mi>ρ</m:mi><m:msub><m:mi>L</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:msqrt></m:mrow></m:math>; c. sí</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902215993">
+<problem id="fs-id1170902215995">
+<para id="fs-id1170902215997">Como primer rudimento de la climatología, estime la temperatura de la Tierra. Suponga que es una esfera perfecta y que su temperatura es uniforme. Ignore el efecto invernadero. La radiación térmica del Sol tiene una intensidad (la “constante solar” <emphasis effect="italics">S</emphasis>) de aproximadamente <m:math><m:mrow><m:mn>1.370</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> en el radio de la órbita de la Tierra. (a) Suponiendo que los rayos del Sol son paralelos, ¿por qué área debe multiplicarse <emphasis effect="italics">S</emphasis> para obtener la radiación total interceptada por la Tierra? Lo más fácil será responder en términos del radio de la Tierra, <emphasis effect="italics">R</emphasis>. (b) Suponga que la Tierra refleja el 30 % de la energía solar que intercepta aproximadamente. En otras palabras, la Tierra tiene un albedo con un valor de <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0,3</m:mn></m:mrow></m:math>. En términos de <emphasis effect="italics">S</emphasis>, <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">R</emphasis>, ¿cuál es la tasa a la que la Tierra absorbe energía del Sol? (c) Halle la temperatura a la que la Tierra irradia energía a la misma tasa. Suponga que en las longitudes de onda infrarrojas en las que irradia la emisividad <emphasis effect="italics">e</emphasis> es 1. ¿Su resultado muestra que el efecto invernadero es importante? (d) ¿Cómo depende su respuesta del área de la Tierra?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902090908">
+<problem id="fs-id1170902090910">
+<para id="fs-id1170902090912">Vamos a dejar de ignorar el efecto invernadero e incorporémoslo al problema anterior de forma muy aproximada. Suponga que la atmósfera es una sola capa, una cáscara esférica alrededor de la Tierra, con una emisividad <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>0,77</m:mn></m:mrow></m:math> (elegido simplemente para dar la respuesta correcta) en las longitudes de onda infrarrojas emitidas por la Tierra y por la atmósfera. Sin embargo, la atmósfera es transparente a la radiación del Sol (es decir, se supone que la radiación es en longitudes de onda visibles sin infrarrojas), por lo que la radiación del Sol llega a la superficie. El efecto invernadero proviene de la diferencia entre la transmisión de la luz visible por parte de la atmósfera y su absorción bastante fuerte de infrarrojos. Note que el radio de la atmósfera no es significativamente diferente del de la Tierra, pero como la atmósfera es una capa por encima de la Tierra, emite radiación tanto hacia arriba como hacia abajo, por lo que tiene el doble de superficie que la Tierra. En este problema hay tres transferencias de energía de radiación: la solar absorbida por la superficie de la Tierra; la infrarroja de la superficie, que es absorbida por la atmósfera según su emisividad; y la infrarroja de la atmósfera, la mitad de la cual es absorbida por la Tierra y la otra mitad sale al espacio. Aplique el método del problema anterior para obtener una ecuación para la superficie de la Tierra y otra para la atmósfera, y despéjelas para las dos temperaturas desconocidas, superficie y atmósfera.</para>
+<list id="fs-id1170902118148" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>En términos del radio de la Tierra, la constante <m:math><m:mi>σ</m:mi></m:math> y la temperatura desconocida <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>s</m:mi></m:msub></m:mrow></m:math> de la superficie, ¿cuál es la potencia de la radiación infrarroja de la superficie?</item>
+<item>¿Cuál es la potencia de la radiación terrestre que la atmósfera absorbe?</item>
+<item>En cuanto a la temperatura desconocida <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>e</m:mi></m:msub></m:mrow></m:math> de la atmósfera, ¿cuál es la potencia radiada por la atmósfera?</item>
+<item>Escriba una ecuación que diga que la potencia de la radiación que la atmósfera absorbe de la Tierra es igual a la potencia de la radiación que emite.</item>
+<item>La mitad de la potencia radiada por la atmósfera llega a la Tierra. Escriba una ecuación que diga que la potencia que la Tierra absorbe de la atmósfera y del Sol es igual a la energía que emite.</item>
+<item>Despeje sus dos ecuaciones para la temperatura desconocida de la Tierra.</item>
+</list>
+</problem>
+<solution id="fs-id1170902291611">
+<para id="fs-id1170902291613">a. <m:math><m:mrow><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:msub><m:mi>T</m:mi><m:mtext>s</m:mtext></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>4</m:mn><m:mi>e</m:mi><m:mi>σ</m:mi><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>T</m:mi><m:mtext>s</m:mtext></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow></m:math>; c. <m:math><m:mrow><m:mn>8</m:mn><m:mi>e</m:mi><m:mi>σ</m:mi><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>T</m:mi><m:mtext>e</m:mtext></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow></m:math>; d. <m:math><m:mrow><m:msubsup><m:mi>T</m:mi><m:mi>s</m:mi><m:mn>4</m:mn></m:msubsup><m:mo>=</m:mo><m:mn>2</m:mn><m:msubsup><m:mi>T</m:mi><m:mi>e</m:mi><m:mn>4</m:mn></m:msubsup></m:mrow></m:math>; e. <m:math><m:mrow><m:mi>e</m:mi><m:mi>σ</m:mi><m:msubsup><m:mi>T</m:mi><m:mtext>s</m:mtext><m:mn>4</m:mn></m:msubsup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>A</m:mi><m:mo stretchy="false">)</m:mo><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:msubsup><m:mi>T</m:mi><m:mtext>s</m:mtext><m:mn>4</m:mn></m:msubsup></m:mrow></m:math>; f. <m:math><m:mn>288</m:mn><m:mi>K</m:mi></m:math></para></solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170904189085">
+<term>conducción</term>
+<meaning id="fs-id1170904189090">transferencia de calor a través de materia estacionaria por contacto físico</meaning>
+</definition>
+<definition id="fs-id1170902151874">
+<term>convección</term>
+<meaning id="fs-id1170902151880">transferencia de calor por el movimiento macroscópico del fluido</meaning>
+</definition>
+<definition id="fs-id1170902261894">
+<term>emisividad</term>
+<meaning id="fs-id1170902261900">medida de lo bien que irradia un objeto</meaning>
+</definition>
+<definition id="fs-id1170902261904">
+<term>efecto invernadero</term>
+<meaning id="fs-id1170903891729">el calentamiento de la Tierra que se debe a gases como el dióxido de carbono y el metano que absorben la radiación infrarroja de la superficie de la Tierra y la diseminan en todas las direcciones, lo que envía parte de ella de regreso a la Tierra</meaning>
+</definition>
+<definition id="fs-id1170903891735">
+<term>tasa neta de transferencia de calor por radiación</term>
+<meaning id="fs-id1170902339624"><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170902231527">
+<term>radiación</term>
+<meaning id="fs-id1170902231533">energía transferida por las ondas electromagnéticas directamente como consecuencia de una diferencia de temperatura</meaning>
+</definition>
+<definition id="fs-id1170902231537">
+<term>tasa de transferencia de calor por conducción</term>
+<meaning id="fs-id1170902184082">tasa de transferencia de calor de un material a otro</meaning>
+</definition>
+<definition id="fs-id1170902184086">
+<term>ley de Stefan-Boltzmann de la radiación</term>
+<meaning id="fs-id1170902184091"><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>A</m:mi><m:mi>e</m:mi><m:msup><m:mi>T</m:mi><m:mn>4</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>5,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J/s</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:math> es la constante de Stefan-Boltzmann, <emphasis effect="italics">A</emphasis> es la superficie del objeto, <emphasis effect="italics">T</emphasis> es la temperatura absoluta y <emphasis effect="italics">e</emphasis> es la emisividad</meaning>
+</definition>
+<definition id="fs-id1170902090259">
+<term>conductividad térmica</term>
+<meaning id="fs-id1170902090264">propiedad de un material que describe su capacidad para conducir calor</meaning>
+</definition>
+</glossary>
+</document>

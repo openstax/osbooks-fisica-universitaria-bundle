@@ -1,0 +1,186 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Oscilaciones en un circuito LC</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90930</md:content-id>
+  <md:title>Oscilaciones en un circuito LC</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar por qué la carga o la corriente oscilan entre un condensador y un inductor, respectivamente, cuando están conectados en serie.</item>
+<item>Describir la relación entre la carga y la corriente que oscila entre un condensador y un inductor conectados en serie.</item>
+</list></md:abstract>
+  <md:uuid>1dd716db-f9e3-4dcc-8373-813d942713ae</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167133346999">Cabe destacar que tanto los condensadores como los inductores almacenan energía, en sus campos eléctricos y magnéticos, respectivamente. Un circuito que contiene un inductor (<emphasis effect="italics">L</emphasis>) y un condensador (<emphasis effect="italics">C</emphasis>) puede oscilar sin una fuente de emf al desplazar la energía almacenada en el circuito entre los campos eléctrico y magnético. Así, los conceptos que desarrollamos en esta sección son directamente aplicables al intercambio de energía entre los campos eléctrico y magnético en las ondas electromagnéticas, o luz. Comenzamos con un circuito idealizado de resistencia cero que contiene un inductor y un condensador, un <term><emphasis effect="italics">circuito</emphasis> LC</term>.</para>
+<para id="fs-id1167133465099">En la <link target-id="CNX_UPhysics_31_05_LC"/> se muestra un circuito <emphasis effect="italics"> LC </emphasis>. Si el condensador contiene una carga <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> antes de que se cierre el interruptor, entonces toda la energía del circuito se almacena inicialmente en el campo eléctrico del condensador (<link target-id="CNX_UPhysics_31_05_LC"/>(a)). Esta energía es</para>
+<equation id="fs-id1167132742438"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>q</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133845972">Cuando el interruptor se cierra, el condensador comienza a descargarse, produciendo una corriente en el circuito. La corriente, a su vez, crea un campo magnético en el inductor. El efecto neto de este proceso es una transferencia de energía del condensador, con su campo eléctrico decreciente, al inductor, con su campo magnético creciente.</para>
+<figure id="CNX_UPhysics_31_05_LC">
+<media id="fs-id1167132547754" alt="Las figuras desde la “a” hasta la “d” muestran un inductor conectado a un condensador. La figura a está marcada como t = 0, T. La placa superior del condensador es positiva. No circula corriente por el circuito. La figura b está etiquetada como t = T por 4. El condensador se ha descargado. La corriente I0 fluye desde la placa superior. La figura c está marcada como t = T por 2. La polaridad del condensador se invierte, con la placa inferior cargada positivamente. No circula corriente por el circuito. La figura d está marcada como 3T por 4. El condensador se descarga. La corriente I0 fluye desde la placa inferior. La figura e muestra dos ondas sinusoidales. Uno de ellos, q0, tiene los puntos más altos de la cresta en t = 0 y t = T. Cruza el eje en t = T por 4 y t = 3T por 4. Tiene el punto más bajo de la depresión en t = T por 2. La segunda onda, I0, tiene una amplitud menor que q0. El punto más alto de su cresta está en t = 3T por 4. El punto más bajo de su depresión está en t = T por 4. Cruza el eje en t = T por 2 y t = T.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_05_LC.jpg"/>
+</media>
+<caption>(a-d) La oscilación del almacenamiento de carga con las direcciones cambiantes de la corriente en un circuito <emphasis effect="italics">LC</emphasis>. (e) Los gráficos muestran la distribución de carga y corriente entre el condensador y el inductor.</caption>
+</figure>
+<para id="fs-id1167132594036">En la <link target-id="CNX_UPhysics_31_05_LC"/>(b), el condensador está completamente descargado y toda la energía está almacenada en el campo magnético del inductor. En este instante, la corriente está en su valor máximo <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> y la energía en el inductor es</para>
+<equation id="fs-id1167133525527"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msubsup><m:mi>I</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133542500">Como no hay resistencia en el circuito, no se pierde energía por calentamiento Joule; por tanto, la energía máxima almacenada en el condensador es igual a la energía máxima almacenada en un momento posterior en el inductor:</para>
+<equation id="fs-id1167132412442"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>q</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msubsup><m:mi>I</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132245395">En un momento arbitrario en el que la carga del condensador es <emphasis effect="italics">q(t)</emphasis> y la corriente es <emphasis effect="italics">i(t)</emphasis>, la energía total <emphasis effect="italics">U</emphasis> en el circuito viene dada por</para>
+<equation id="fs-id1167133316005" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>C</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>L</m:mi><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133686174">Porque no hay disipación de energía,</para>
+<equation id="fs-id1167132685109"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>q</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msubsup><m:mi>I</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132621233">Tras alcanzar su máximo <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> la corriente <emphasis effect="italics">i(t)</emphasis> sigue transportando carga entre las placas del condensador, recargando así el condensador. Dado que el inductor resiste el cambio de corriente, la corriente sigue fluyendo, aunque el condensador esté descargado. Esta corriente continua hace que el condensador se cargue con polaridad opuesta. El campo eléctrico del condensador aumenta mientras el campo magnético del inductor disminuye, y el efecto global es una transferencia de energía del inductor que <emphasis effect="italics">regresa</emphasis> al condensador. A partir de la ley de conservación de energía, la carga máxima que el condensador vuelve a obtener es <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Sin embargo, como muestra <link target-id="CNX_UPhysics_31_05_LC"/>(c), las placas del condensador se cargan de <emphasis effect="italics">forma opuesta</emphasis> a como estaban inicialmente.</para>
+<para id="fs-id1167133384863">Cuando está completamente cargado, el condensador vuelve a transferir su energía al inductor hasta que vuelve a estar completamente descargado, como se muestra en <link target-id="CNX_UPhysics_31_05_LC"/>(d). Luego, en la última parte de este proceso cíclico, la energía vuelve a fluir hacia el condensador y se restablece el estado inicial del circuito.</para>
+<para id="fs-id1167133685544">Hemos seguido el circuito a través de un ciclo completo. Sus oscilaciones electromagnéticas son análogas a las oscilaciones mecánicas de una masa en el extremo de un resorte. En este último caso, la energía se transfiere de un lado a otro entre la masa, que tiene energía cinética <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>, y el resorte, que tiene energía potencial <m:math><m:mrow><m:mi>k</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:math>. Con la ausencia de fricción en el sistema masa-resorte, las oscilaciones continuarían indefinidamente. Del mismo modo, las oscilaciones de un circuito <emphasis effect="italics">LC</emphasis> sin resistencia continuarían para siempre si no se perturba; sin embargo, este circuito <emphasis effect="italics">LC</emphasis> ideal de resistencia cero no es práctico, y cualquier circuito <emphasis effect="italics">LC</emphasis> tendrá al menos una pequeña resistencia, que irradiará y perderá energía con el tiempo.</para>
+<para id="fs-id1167133377088">La frecuencia de las oscilaciones en un circuito <emphasis effect="italics">LC</emphasis> sin resistencia puede encontrarse por analogía con el sistema masa-resorte. Para el circuito, <m:math><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math>, la energía electromagnética total <emphasis effect="italics">U</emphasis> es</para>
+<equation id="fs-id1167132371846"><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msup><m:mi>i</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133766536">Para el sistema masa-resorte, <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math>, la energía mecánica total <emphasis effect="italics">E</emphasis> es</para>
+<equation id="fs-id1167132372122"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132496930">La equivalencia de los dos sistemas es evidente. Para pasar del sistema mecánico al electromagnético, basta con sustituir <emphasis effect="italics">m</emphasis> por <emphasis effect="italics">L</emphasis>, <emphasis effect="italics">v</emphasis> por <emphasis effect="italics">i</emphasis>, <emphasis effect="italics">k</emphasis> por 1/<emphasis effect="italics">C</emphasis>, y <emphasis effect="italics">x</emphasis> por <emphasis effect="italics">q</emphasis>. Ahora <emphasis effect="italics">x(t)</emphasis> viene dada por</para>
+<equation id="fs-id1167132536142"><m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133825438">donde <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>k</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, la carga del condensador en un circuito <emphasis effect="italics">LC</emphasis> viene dada por</para>
+<note id="fs-id1167132370322" class="equation-callout">
+<equation id="fs-id1167133773273"><label/><m:math><m:mrow><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133685929">donde la frecuencia angular de las oscilaciones en el circuito es</para>
+<note id="fs-id1167133805662" class="equation-callout">
+<equation id="fs-id1167132310896"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167128854514">Finalmente, la corriente en el circuito <emphasis effect="italics">LC</emphasis> se encuentra tomando la derivada en función del tiempo de <emphasis effect="italics">q(t)</emphasis>:</para>
+<note id="fs-id1167132416621" class="equation-callout">
+<equation id="fs-id1167132466244"><label/><m:math><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>ω</m:mi><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167132372615">Las variaciones temporales de <emphasis effect="italics">q</emphasis> e <emphasis effect="italics">I</emphasis> se muestran en la <link target-id="CNX_UPhysics_31_05_LC"/>(e) para <m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+<example id="fs-id1167132727094">
+<para id="fs-id1167132287012"><title>Un circuito <emphasis effect="italics">LC</emphasis></title>
+En un circuito <emphasis effect="italics">LC</emphasis>, la autoinducción es <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup></m:mrow></m:math> H y la capacitancia es <m:math><m:mrow><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math> F. En <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> toda la energía se almacena en el condensador, que tiene carga <m:math><m:mrow><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow></m:math> C. (a) ¿Cuál es la frecuencia angular de las oscilaciones en el circuito? (b) ¿Cuál es la corriente máxima que circula por el circuito? (c) ¿Cuánto tiempo tarda el condensador en descargarse completamente? (d) Halle una ecuación que represente <emphasis effect="italics">q(t)</emphasis>.</para>
+<para id="fs-id1167133871879"><title>Estrategia</title>
+La frecuencia angular del circuito <emphasis effect="italics">LC</emphasis> viene dada por la <link target-id="fs-id1167132310896"/>. Para calcular la corriente máxima, la energía máxima en el condensador se establece igual a la energía máxima en el inductor. El tiempo que tarda el condensador en descargarse si está cargado inicialmente es la cuarta parte del periodo del ciclo, por lo que si calculamos el periodo de la oscilación, podemos averiguar cuál es la cuarta parte de este para calcular este tiempo. Por último, conociendo la carga inicial y la frecuencia angular, podemos plantear una ecuación del coseno para hallar <emphasis effect="italics">q</emphasis>(<emphasis effect="italics">t</emphasis>).</para>
+<para id="fs-id1167133660352"><title>Solución</title></para>
+<list id="fs-id1167132466462" list-type="enumerated" number-style="lower-alpha">
+<item>A partir de la <link target-id="fs-id1167132310896"/>, la frecuencia angular de las oscilaciones es
+<equation id="fs-id1167132526531" class="unnumbered"><label/><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>H</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>La corriente está al máximo <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> cuando toda la energía se almacena en el inductor. De la ley de conservación de energía,
+<equation id="fs-id1167133830104" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>L</m:mi><m:msubsup><m:mi>I</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>q</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>C</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+así que
+<equation id="fs-id1167132239774" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Este resultado también se puede calcular por analogía con el movimiento armónico simple, donde la corriente y la carga son la velocidad y la posición de un oscilador.</item>
+<item>El condensador se descarga completamente en un cuarto de ciclo, o durante un tiempo <emphasis effect="italics">T</emphasis>/4, donde <emphasis effect="italics">T</emphasis> es el periodo de las oscilaciones. Dado que
+<equation id="fs-id1167133790065" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mi>ω</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+el tiempo que tarda el condensador en descargarse completamente es <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>6,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>El condensador está completamente cargado en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> así que <m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Utilizando la <link document="m90928" target-id="fs-id1167134972198"/>, obtenemos
+<equation id="fs-id1167132623847" class="unnumbered"><label/><m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+Así, <m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> y
+<equation id="fs-id1167132344809" class="unnumbered"><label/><m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167132231468"><title>Importancia</title>
+La relación energética establecida en la parte (b) no es la única forma de equiparar energías. En la mayoría de los casos, parte de la energía se almacena en el condensador y parte en el inductor. Podemos poner ambos términos en cada lado de la ecuación. Al examinar el circuito solo cuando no hay carga en el condensador o no hay corriente en el inductor, simplificamos la ecuación de energía.</para>
+</example>
+<note id="fs-id1167132270475" class="check-understanding">
+<exercise id="fs-id1167132486921">
+<problem id="fs-id1167133473115">
+<para id="fs-id1167132490607">La frecuencia angular de las oscilaciones en un circuito <emphasis effect="italics">LC</emphasis> es <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> rad/s. (a) Si <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>0,10</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math>, ¿cuál es <emphasis effect="italics">C</emphasis>? (b) Supongamos que en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> toda la energía se almacena en el inductor. ¿Cuál es el valor de <m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>?</m:mo></m:mrow></m:math> (c) Se conecta un segundo condensador idéntico en paralelo con el condensador original. ¿Cuál es la frecuencia angular de este circuito?</para>
+</problem>
+<solution id="fs-id1167132243145">
+<para id="fs-id1167133538204">a <m:math><m:mrow><m:mn>2,5</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>; b <m:math><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>rad o</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:math>; c <m:math><m:mrow><m:mn>1,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167132349905" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167133486260" list-type="bulleted" bullet-style="bullet">
+<item>La energía transferida de forma oscilante entre el condensador y el inductor en un circuito <emphasis effect="italics">LC</emphasis> se produce a una frecuencia angular <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>.</item>
+<item>La carga y la corriente en el circuito vienen dadas por
+<equation id="fs-id1167132497514" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>ω</m:mi><m:msub><m:mi>q</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation></item>
+</list>
+</section>
+<section id="fs-id1167133784333" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167132530025">
+<problem id="fs-id1167132709415">
+<para id="fs-id1167133843924">¿Se aplican las reglas de Kirchhoff a los circuitos que contienen inductores y condensadores?</para>
+</problem>
+<solution id="fs-id1167132240773">
+<para id="fs-id1167132573160">sí</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133796283">
+<problem id="fs-id1167132446014">
+<para id="fs-id1167132502662">¿Un elemento del circuito puede tener tanto capacitancia como inductancia?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132415789">
+<problem id="fs-id1167132297708">
+<para id="fs-id1167132709847">En un circuito <emphasis effect="italics">LC</emphasis>, ¿qué determina la frecuencia y la amplitud de las oscilaciones de energía en el inductor o el condensador?</para>
+</problem>
+<solution id="fs-id1167132466257">
+<para id="fs-id1167132328788">La amplitud de las oscilaciones de energía depende de la energía inicial del sistema. La frecuencia en un circuito <emphasis effect="italics">LC</emphasis> depende de los valores de inductancia y capacitancia.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167132334898" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167133784076">
+<problem id="fs-id1167132454891">
+<para id="fs-id1167132366243">Un condensador de 5.000 pF se carga a 100 V y se conecta rápidamente a un inductor de 80 mH. Determine (a) la energía máxima almacenada en el campo magnético del inductor, (b) el valor pico de la corriente y (c) la frecuencia de oscilación del circuito.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132331638">
+<problem id="fs-id1167132412637">
+<para id="fs-id1167133541116">La autoinducción y la capacitancia de un circuito <emphasis effect="italics">LC</emphasis> son 0,20 mH y 5,0 pF. ¿Cuál es la frecuencia angular a la que oscila el circuito?</para>
+</problem>
+<solution id="fs-id1167133636640">
+<para id="fs-id1167132410820"><m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>3,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167132456168">
+<problem id="fs-id1167132376686">
+<para id="fs-id1167132487087">¿Cuál es la autoinducción de un circuito <emphasis effect="italics">LC</emphasis> que oscila a 60 Hz cuando la capacitancia es <m:math><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133861502">
+<problem id="fs-id1167132276029">
+<para id="fs-id1167132397571">En un circuito <emphasis effect="italics">LC</emphasis> oscilante, la carga máxima del condensador es <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math> y la corriente máxima a través del inductor es de 8,0 mA. (a) ¿Cuál es el periodo de las oscilaciones? (b) ¿Cuánto tiempo transcurre entre un instante en el que el condensador está sin cargar y el siguiente instante en el que está totalmente cargado?</para>
+</problem>
+<solution id="fs-id1167132342787">
+<para id="fs-id1167132671199">a <m:math><m:mrow><m:mn>1,57</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>; b <m:math><m:mrow><m:mn>3,93</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167132528979">
+<problem id="fs-id1167132606842">
+<para id="fs-id1167133694337">La autoinducción y la capacitancia de un circuito <emphasis effect="italics">LC</emphasis> oscilante son <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>mH y</m:mtext><m:mspace width="0.2em"/><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>,</m:mo></m:mrow></m:math> respectivamente. (a) ¿Cuál es la frecuencia de las oscilaciones? (b) Si la diferencia de potencial máxima entre las placas del condensador es de 50 V, ¿cuál es la corriente máxima en el circuito?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132245866">
+<problem id="fs-id1167132283111">
+<para id="fs-id1167133407679">En un circuito <emphasis effect="italics">LC</emphasis> oscilante, la carga máxima del condensador es <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mi>m</m:mi></m:msub></m:mrow></m:math>. Determine la carga del condensador y la corriente que pasa por el inductor cuando la energía se reparte por igual entre los campos eléctrico y magnético. Exprese su respuesta en términos de <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mi>m</m:mi></m:msub></m:mrow></m:math>, <emphasis effect="italics">L</emphasis>, y <emphasis effect="italics">C</emphasis>.</para>
+</problem>
+<solution id="fs-id1167132460815">
+<para id="fs-id1167132373241"><m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>m</m:mi></m:msub></m:mrow><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mi>m</m:mi></m:msub></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>2</m:mn><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132550783">
+<problem id="fs-id1167132750290">
+<para id="fs-id1167132201982">En el circuito que se muestra a continuación, <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>1</m:mn></m:msub></m:mrow></m:math> se abre y <m:math><m:mrow><m:msub><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msub></m:mrow></m:math> se cierra simultáneamente. Determine (a) la frecuencia de las oscilaciones resultantes, (b) la carga máxima en el condensador, (c) la corriente máxima a través del inductor, y (d) la energía electromagnética del circuito oscilante.</para>
+<media id="fs-id1167133862963" alt="Una batería de 12 voltios está conectada a un condensador de 4 microfaradios y a un inductor de 100 milihenrios, ambos conectados en paralelo. Hay dos interruptores en el circuito. El interruptor S1 está cerrado. Si es abierto, entonces el circuito se abrirá por completo. El interruptor S2 está abierto y, por tanto, el inductor está desconectado.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_31_05_Problem40_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167132617434">
+<problem id="fs-id1167132372080">
+<para id="fs-id1167132499608">Un circuito <emphasis effect="italics">LC</emphasis> en un sintonizador de AM (en un estéreo de automóvil) utiliza una bobina con una inductancia de 2,5 mH y un condensador variable. Si la frecuencia natural del circuito debe ser ajustable en el rango de 540 a 1.600 kHz (la banda de emisión de AM), ¿qué rango de capacitancia se requiere?</para>
+</problem>
+<solution id="fs-id1167132540126">
+<para id="fs-id1167133873158"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>C</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>f</m:mi><m:mn>2</m:mn></m:msup><m:mi>L</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>540</m:mn><m:mspace width="0.2em"/><m:mtext>Hz;</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>f</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1.600</m:mn><m:mspace width="0.2em"/><m:mtext>Hz;</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167132282493">
+<term>Circuito <emphasis effect="italics">LC</emphasis></term>
+<meaning id="fs-id1167132222338">circuito compuesto por una fuente de ac, un inductor y un condensador</meaning>
+</definition>
+</glossary>
+</document>

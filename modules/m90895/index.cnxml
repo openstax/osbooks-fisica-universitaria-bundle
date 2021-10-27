@@ -1,0 +1,239 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Fuerza electromotriz</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90895</md:content-id>
+  <md:title>Fuerza electromotriz</md:title>
+  <md:abstract>Al final de esta sección, podrá: <list>
+<item>Describir la fuerza electromotriz (emf) y la resistencia interna de una batería.</item>
+<item>Explicar el funcionamiento básico de una batería.</item>
+</list></md:abstract>
+  <md:uuid>5755c880-3da9-4d49-bdba-f0fa85f98139</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167583597196">Si se le olvida apagar las luces del automóvil, estas se van apagando poco a poco a medida que la batería se va agotando. ¿Por qué no se apagan de repente cuando la energía de la batería se agota? Su atenuación gradual implica que el voltaje de salida de la batería disminuye a medida que esta se agota. La razón de la disminución del voltaje de salida de las baterías agotadas es que todas las fuentes de voltaje tienen dos partes fundamentales: una fuente de energía eléctrica y una resistencia interna. En esta sección examinamos la fuente de energía y la resistencia interna.</para>
+<section id="fs-id1167584703516">
+<title>Introducción a la fuerza electromotriz</title>
+<para id="fs-id1167583522452">El voltaje tiene muchas fuentes, algunas de las cuales se muestran la en <link target-id="CNX_UPhysics_27_03_Voltage"/>. Todos estos dispositivos crean una <term>diferencia de potencial</term> y pueden suministrar corriente si se conectan a un circuito. Un tipo especial de diferencia de potencial se conoce como <term>fuerza electromotriz (emf)</term>. La emf no es una fuerza en absoluto, pero el término "fuerza electromotriz" se utiliza por razones históricas. Fue acuñado por Alessandro Volta en el siglo XIX, cuando inventó la primera batería, también conocida como <term class="no-emphasis">pila voltaica</term>. Como la fuerza electromotriz no es una fuerza, es común referirse a estas fuentes simplemente como fuentes de emf (pronunciadas como las letras “e-eme-efe”), en vez de fuentes de fuerza electromotriz.</para>
+<figure id="CNX_UPhysics_27_03_Voltage"><media id="fs-id1167584734651" alt="Las cuatro partes de la figura muestran fotos, la parte a muestra un parque eólico, la parte b muestra una presa, la parte c muestra un parque solar y la parte d muestra tres baterías.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_Voltage.jpg"/>
+</media>
+
+<caption>Diversas fuentes de voltaje. (a) El parque eólico de Brazos en Fluvanna, Texas; (b) la presa de Krasnoyarsk en Rusia; (c) un parque solar; (d) un grupo de baterías de níquel-hidruro metálico. La salida de voltaje de cada aparato depende de su construcción y de la carga. La salida de voltaje es igual a la emf solo si no hay carga (créditos a: modificación del trabajo de Stig Nygaard; créditos b: modificación del trabajo de "vadimpl"/Wikimedia Commons; créditos c: modificación del trabajo de "The tdog"/Wikimedia Commons; créditos d: modificación del trabajo de "Itrados"/Wikimedia Commons).</caption></figure><para id="fs-id1167585174863">Si la fuerza electromotriz no es una fuerza en absoluto, entonces ¿qué es la emf y qué es una fuente de emf? Para responder estas preguntas considere un circuito simple de una lámpara de 12 V conectada a una batería de 12 V, como se muestra en la <link target-id="CNX_UPhysics_27_03_emf_sour"/>. La <term class="no-emphasis">batería</term> se puede modelar como un dispositivo de dos terminales que mantiene un terminal a un potencial eléctrico más alto que el segundo terminal. El potencial eléctrico más alto se denomina a veces terminal positivo y se etiqueta con un signo positivo. El terminal de menor potencial se denomina a veces terminal negativo y se etiqueta con el signo menos. Esta es la fuente de la emf.</para>
+<figure id="CNX_UPhysics_27_03_emf_sour">
+<media id="fs-id1167584694706" alt="La figura muestra un circuito con una fuente de emf conectada a una bombilla. El electrón fluye del terminal positivo al negativo dentro de la fuente y la fuerza sobre el electrón es opuesta a la dirección del movimiento.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_emf_sour.jpg"/>
+</media>
+<caption>Una fuente de emf mantiene un terminal a un potencial eléctrico mayor que el otro terminal, actuando como fuente de corriente en un circuito.</caption>
+</figure>
+<para id="fs-id1167583581108">Cuando la fuente de emf no está conectada a la lámpara, no hay flujo neto de carga dentro de la fuente de emf. Una vez que la batería está conectada a la lámpara, las cargas fluyen desde un terminal de la batería, a través de la lámpara (haciendo que esta se encienda), y de vuelta al otro terminal de la batería. Si consideramos el flujo de corriente positiva (convencional), las cargas positivas salen del terminal positivo, viajan a través de la lámpara y entran en el terminal negativo.</para>
+<para id="fs-id1167585180695">El flujo de corriente positiva es útil para la mayoría de los análisis de circuitos de este capítulo, pero en los cables metálicos y los resistores, los electrones son los que más contribuyen a la corriente, y fluyen en la dirección opuesta al flujo de corriente positiva. Por lo tanto, es más realista considerar el movimiento de los electrones para el análisis del circuito en la <link target-id="CNX_UPhysics_27_03_emf_sour"/>. Los electrones salen del terminal negativo, viajan a través de la lámpara y vuelven al terminal positivo. Para que la fuente de emf mantenga la diferencia de potencial entre los dos terminales, las cargas negativas (electrones) deben desplazarse del terminal positivo al negativo. La fuente de emf actúa como una bomba de carga, moviendo las cargas negativas del terminal positivo al negativo para mantener la diferencia de potencial. Esto aumenta la energía potencial de las cargas y, por tanto, su potencial eléctrico.</para>
+<para id="fs-id1167583535662">La fuerza que ejerce el campo eléctrico sobre la carga negativa está en la dirección opuesta al campo eléctrico, como se muestra en la <link target-id="CNX_UPhysics_27_03_emf_sour"/>. Para que las cargas negativas se desplacen al terminal negativo, debe realizarse un trabajo sobre las cargas negativas. Para ello se necesita energía, que proviene de las reacciones químicas de la batería. El potencial se mantiene alto en el terminal positivo y bajo en el negativo para mantener la diferencia de potencial entre los dos terminales. La emf es igual al trabajo realizado sobre la carga por unidad de carga <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>W</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>q</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> cuando no hay flujo de corriente. Como la unidad de trabajo es el julio y la unidad de carga es el culombio, la unidad de emf es el voltio <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>J/C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167585043592">El <term>voltaje de los terminales</term> <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub></m:mrow></m:math> de una batería es el voltaje medida a través de sus terminales. Una batería ideal es una fuente de emf que mantiene un voltaje constante en los terminales, independientemente de la corriente entre los dos terminales. Una batería ideal no tiene resistencia interna, y el voltaje en los terminales es igual a la emf de la batería. En la siguiente sección demostraremos que una batería real sí tiene resistencia interna y que el voltaje de los terminales es siempre menor que la emf de la batería.</para>
+</section>
+<section id="fs-id1167585029492">
+<title>El origen del potencial de la batería</title>
+<para id="fs-id1167584747168">La combinación de sustancias químicas y la composición de los terminales de una batería determinan su emf. La <term class="no-emphasis">batería de plomo-ácido</term> utilizada en los automóviles y otros vehículos es una de las combinaciones químicas más comunes. La <link target-id="CNX_UPhysics_27_03_LeadCell"/> muestra una sola célula (una de seis) de esta batería. El terminal catódico (positivo) de la célula está conectado a una placa de óxido de plomo, mientras que el terminal anódico (negativo) está conectado a una placa de plomo. Ambas placas se sumergen en ácido sulfúrico, el electrolito del sistema.</para>
+<figure id="CNX_UPhysics_27_03_LeadCell">
+<media id="fs-id1167584700704" alt="La figura muestra las partes de una célula, incluyendo el ánodo, el cátodo, el plomo, el óxido de plomo y el ácido sulfúrico.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_LeadCell.jpg"/>
+</media>
+<caption>Las reacciones químicas en una célula de plomo-ácido separan la carga, enviando la carga negativa al ánodo, que está conectado a las placas de plomo. Las placas de óxido de plomo se conectan al terminal positivo o catódico de la célula. El ácido sulfúrico conduce la carga, además de participar en la reacción química.</caption>
+</figure>
+<para id="fs-id1167583730242">Conocer un poco cómo interactúan las sustancias químicas de una batería de plomo-ácido ayuda a entender el potencial creado por la batería. <link target-id="CNX_UPhysics_27_03_AnodeCath"/> La muestra el resultado de una única reacción química. Dos electrones se colocan en el <term class="no-emphasis">ánodo</term>, haciéndolo negativo, siempre que el cátodo suministre dos electrones. Esto deja al <term class="no-emphasis">cátodo</term> cargado positivamente, porque ha perdido dos electrones. En resumen, una separación de carga ha sido impulsada por una reacción química.</para>
+<para id="fs-id1167584704371">Observe que la reacción no se produce si no hay un circuito completo que permita suministrar dos electrones al cátodo. En muchas circunstancias, estos electrones salen del ánodo, fluyen a través de una resistencia y vuelven al cátodo. Observe también que, como en las reacciones químicas intervienen sustancias con resistencia, no es posible crear la emf sin una resistencia interna.</para>
+<figure id="CNX_UPhysics_27_03_AnodeCath">
+<media id="fs-id1167584953893" alt="La figura muestra el cátodo y el ánodo de una célula y el flujo de electrones del cátodo al ánodo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_AnodeCath.jpg"/>
+</media>
+<caption>En una batería de plomo-ácido, dos electrones son forzados a entrar en el ánodo de la célula, y dos electrones son retirados del cátodo de la célula. La reacción química en una batería de plomo-ácido coloca dos electrones en el ánodo y retira dos del cátodo. Requiere un circuito cerrado para proceder, ya que los dos electrones deben ser suministrados al cátodo.</caption>
+</figure>
+</section>
+<section id="fs-id1167584917702">
+<title>Resistencia interna y voltaje de los terminales</title>
+<para id="fs-id1167583687587">La cantidad de resistencia al flujo de corriente dentro de la fuente de voltaje se llama <term>resistencia interna</term>. La resistencia interna <emphasis effect="italics">r</emphasis> de una batería puede comportarse de forma compleja. Por lo general, aumenta a medida que se agota una batería, debido a la oxidación de las placas o a la reducción de la acidez del electrolito. Sin embargo, la resistencia interna también puede depender de la magnitud y la dirección de la corriente a través de una fuente de voltaje, su temperatura e incluso su historia. La resistencia interna de las pilas recargables de níquel-cadmio, por ejemplo, depende de cuántas veces y a qué profundidad se han agotado. Un modelo simple para una batería consiste en una fuente de emf idealizada <m:math><m:mi>ε</m:mi></m:math> y una resistencia interna <emphasis effect="italics">r</emphasis> (<link target-id="CNX_UPhysics_27_03_InternalR"/>).</para>
+<figure id="CNX_UPhysics_27_03_InternalR">
+<media id="fs-id1167583903028" alt="La figura muestra la foto de una batería y el diagrama del circuito equivalente con dos terminales, emf y resistencia interna.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_InternalR.jpg"/>
+</media>
+<caption>Una batería puede ser modelada como una emf idealizada <m:math><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>ε</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:math> con una resistencia interna<emphasis effect="italics">(r</emphasis>). El voltaje del terminal de la batería es <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>r</m:mi></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1167583586058">Supongamos que un resistor externo, que se conoce como resistencia de carga <emphasis effect="italics">R</emphasis>, está conectado a una fuente de voltaje como una batería, como en la <link target-id="CNX_UPhysics_27_03_SourceLoad"/>. La figura muestra un modelo de batería con una emf <m:math><m:mi>ε</m:mi></m:math>, una resistencia interna <emphasis effect="italics">r</emphasis>, y un resistor de carga <emphasis effect="italics">R</emphasis> conectado a través de sus terminales. Utilizando el flujo de corriente convencional, las cargas positivas salen del terminal positivo de la batería, viajan a través del resistor y vuelven al terminal negativo de la batería. El voltaje de los terminales de la batería depende de la emf, de la resistencia interna y de la corriente, y es igual a</para>
+<note id="fs-id1167584933154" class="equation-callout">
+<equation id="fs-id1167584693154"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167584746482">Para una emf y una resistencia interna dadas, el voltaje de los terminales disminuye a medida que aumenta la corriente debido a la caída de potencial <emphasis effect="italics">Ir</emphasis> de la resistencia interna.</para>
+<figure id="CNX_UPhysics_27_03_SourceLoad">
+<media id="fs-id1167584879958" alt="La figura muestra un diagrama de circuito con resistor de carga y batería que tiene emf y resistencia internas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_SourceLoad.jpg"/>
+</media>
+<caption>Esquema de una fuente de voltaje y su resistor de carga <emphasis effect="italics">R</emphasis>. Como la resistencia interna <emphasis effect="italics">r</emphasis> está en serie con la carga, puede afectar significativamente al voltaje de los terminales y a la corriente entregada a la carga.</caption>
+</figure>
+<para id="fs-id1167583596615">Un gráfico de la diferencia de potencial a través de cada elemento del circuito se muestra en la <link target-id="CNX_UPhysics_27_03_VoltLoadR"/>. Por el circuito circula una corriente <emphasis effect="italics">I</emphasis> y la caída de potencial a través del resistor interno es igual a <emphasis effect="italics">Ir</emphasis>. El voltaje en los terminales es igual a <m:math><m:mrow><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>r</m:mi></m:mrow></m:math>, que es igual a la <term>caída de potencial</term> a través del resistor de carga <m:math><m:mrow><m:mi>I</m:mi><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>r</m:mi></m:mrow></m:math>. Al igual que con la energía potencial, lo importante es el cambio de voltaje. Cuando se utiliza el término "voltaje", suponemos que se trata realmente del cambio de potencial, o <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math>. Sin embargo, <m:math><m:mtext>Δ</m:mtext></m:math> suele omitirse por comodidad.</para>
+<figure id="CNX_UPhysics_27_03_VoltLoadR">
+<media id="fs-id1167583730393" alt="El gráfico muestra el voltaje en varios puntos de un circuito. Los puntos se muestran en el eje x. El eje y muestra el voltaje, que es 0 desde el origen hasta el punto a y sube linealmente a E desde a hasta b y luego baja linealmente a E menos I r desde b hasta c. El voltaje es constante de c a d y luego cae linealmente a 0 de d a e.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_VoltLoadR.jpg"/>
+</media>
+<caption>Gráfico del voltaje a través del circuito de una batería y una resistencia de carga. El potencial eléctrico aumenta la emf de la batería debido a las reacciones químicas que realizan trabajo sobre las cargas. Hay una disminución del potencial eléctrico en la batería debido a la resistencia interna. El potencial disminuye debido a la resistencia interna <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>I</m:mi><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, haciendo que el voltaje de la batería sea igual a <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. El voltaje disminuye entonces en (<emphasis effect="italics">IR</emphasis>). La corriente es igual a <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1167584856198">La corriente a través del resistor de carga es <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math>. De esta expresión se desprende que cuanto menor sea la resistencia interna <emphasis effect="italics">r</emphasis>, mayor será la corriente que la fuente de voltaje suministra a su carga <emphasis effect="italics">R</emphasis>. A medida que se agotan las baterías, <emphasis effect="italics">r</emphasis> aumenta. Si <emphasis effect="italics">r</emphasis> se convierte en una fracción significativa de la resistencia de la carga, entonces la corriente se reduce significativamente, como ilustra el siguiente ejemplo.</para>
+<example id="fs-id1167583723446">
+<para id="fs-id1167585015998"><title>Análisis de un circuito con una batería y una carga</title>
+Una batería dada tiene una emf de 12,00 V y una resistencia interna de <m:math><m:mrow><m:mn>0,100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. (a) Calcule su voltaje en los terminales cuando se conecta a una carga de <m:math><m:mrow><m:mn>10,00</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>. (b) ¿Cuál es el voltaje en los terminales cuando se conecta a una carga de <m:math><m:mrow><m:mn>0,500</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>? (c) ¿Qué potencia tiene el <m:math><m:mrow><m:mn>0,500</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> carga disipar? (d) Si la resistencia interna crece hasta <m:math><m:mrow><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, calcule la corriente, el voltaje en los terminales y la potencia disipada por un <m:math><m:mrow><m:mn>0,500</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> carga.</para>
+<para id="fs-id1167584766205"><title>Estrategia</title>
+El análisis anterior dio una expresión para la corriente cuando se tiene en cuenta la resistencia interna. Una vez hallada la corriente, se puede calcular el voltaje de los terminales mediante la ecuación <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>r</m:mi></m:mrow></m:math>. Una vez hallada la corriente, también podemos hallar la potencia disipada por el resistor.</para>
+<para id="fs-id1167583838950"><title>Solución</title></para>
+<list id="fs-id1167585156410" list-type="enumerated" number-style="lower-alpha">
+<item>Introduciendo los valores dados para la emf, la resistencia de carga y la resistencia interna en la expresión anterior se obtiene
+<equation id="fs-id1167583728318" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:mi>R</m:mi><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>10,10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,188</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Introduce los valores conocidos en la ecuación <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>r</m:mi></m:mrow></m:math> para obtener el voltaje de los terminales:
+<equation id="fs-id1167583615728" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mspace width="0.2em"/><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,188</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>11,90</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+En este caso, el voltaje de los terminales es solo ligeramente inferior a la emf, lo que implica que la corriente absorbida por esta carga ligera no es significativa.</item>
+<item>Del mismo modo, con <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>carga</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, la corriente es
+<equation id="fs-id1167585173786" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:mi>R</m:mi><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>0,600</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>20,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+El voltaje de los terminales no es
+<equation id="fs-id1167583645006" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>10,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+El voltaje en los terminales presenta una reducción más significativa en comparación con la emf, lo que implica <m:math><m:mrow><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> es una carga pesada para esta batería. Una "carga pesada" significa un mayor consumo de corriente de la fuente, pero no una mayor resistencia.</item>
+<item>La potencia disipada por el <m:math><m:mrow><m:mn>0,500</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> carga se puede calcular utilizando la fórmula <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi></m:mrow></m:math>. Introduciendo los valores conocidos se obtiene
+<equation id="fs-id1167585024492" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W.</m:mtext></m:mrow></m:math></equation>
+Observe que esta potencia también puede obtenerse mediante la expresión <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>V</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mtext>o</m:mtext><m:mspace width="0.2em"/><m:mi>I</m:mi><m:mi>V</m:mi></m:mrow></m:math>, donde <emphasis effect="italics">V</emphasis> es el voltaje de los terminales (10,0 V en este caso).</item>
+<item>En este caso, la resistencia interna ha aumentado, quizás debido al agotamiento de la batería, hasta el punto de ser tan grande como la resistencia de la carga. Al igual que antes, primero hallamos la corriente introduciendo los valores conocidos en la expresión, dando como resultado
+<equation id="fs-id1167583617340" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:mi>R</m:mi><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Ahora el voltaje en los terminales es
+<equation id="fs-id1167583731046" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6,00</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+y la potencia disipada por la carga es
+<equation id="fs-id1167583719408" class="unnumbered"><label/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>72,00</m:mn><m:mspace width="0.2em"/><m:mtext>W.</m:mtext></m:mrow></m:math></equation>
+Vemos que el aumento de la resistencia interna ha disminuido significativamente el voltaje en los terminales, la corriente y la potencia entregada a una carga.</item>
+</list>
+<para id="fs-id1167583612589"><title>Importancia</title>
+La resistencia interna de una batería puede aumentar por muchas razones. Por ejemplo, la resistencia interna de una batería recargable aumenta a medida que aumenta el número de veces que se recarga la batería. El aumento de la resistencia interna puede tener dos efectos en la batería. Primero, el voltaje de los terminales disminuirá. En segundo lugar, la batería puede sobrecalentarse debido a la mayor potencia disipada por la resistencia interna.</para>
+</example>
+<note id="fs-id1167583641288" class="check-understanding">
+<exercise id="fs-id1167584748584">
+<problem id="fs-id1167583678897">
+<para id="fs-id1167584886993">Si coloca un cable directamente a través de los dos terminales de una batería, poniendo en cortocircuito los terminales, la batería comenzará a calentarse. ¿Por qué crees que ocurre esto?</para>
+</problem>
+<solution id="fs-id1167584689203">
+<para id="fs-id1167584777301">Si se conecta un cable a través de los terminales, la resistencia de la carga es cercana a cero, o al menos considerablemente menor que la resistencia interna de la batería. Como la resistencia interna es pequeña, la corriente que atraviesa el circuito será grande, <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:mi>R</m:mi><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mrow><m:mn>0</m:mn><m:mo>+</m:mo><m:mi>r</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>ε</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> La gran corriente hace que la resistencia interna disipe una gran potencia <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. La energía se disipa en forma de calor.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167583579497">
+<title>Comprobadores de baterías</title>
+<para id="fs-id1167583550942"><term class="no-emphasis">Los comprobadores de baterías</term>, como los que se muestran en la <link target-id="CNX_UPhysics_27_03_Tester"/>, utilizan pequeños resistores de carga para extraer intencionadamente la corriente y determinar si el potencial de los terminales cae por debajo de un nivel aceptable. Aunque es difícil medir la resistencia interna de una batería, los comprobadores de baterías pueden proporcionar una medición de la resistencia interna de la batería. Si la resistencia interna es alta, la batería es débil, como lo demuestra su bajo voltaje en los terminales.</para>
+<figure id="CNX_UPhysics_27_03_Tester">
+<media id="fs-id1167584637318" alt="La parte a muestra la foto de un técnico probando baterías y la parte b muestra un dispositivo de prueba de baterías.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_Tester.jpg"/>
+</media>
+<caption>Los comprobadores de baterías miden el voltaje de los terminales bajo una carga para determinar el estado de una batería. (a) Un técnico de electrónica de la Armada de los EE. UU. utiliza un comprobador de baterías para probar grandes baterías a bordo del portaaviones USS <emphasis effect="italics">Nimitz</emphasis>. El comprobador de baterías que utiliza tiene una pequeña resistencia que puede disipar grandes cantidades de energía. (b) El pequeño dispositivo que se muestra se utiliza en baterías pequeñas y tiene una pantalla digital para indicar la aceptabilidad del voltaje de los terminales. (crédito a: modificación del trabajo de Jason A. Johnston; crédito b: modificación del trabajo de Keith Williamson)</caption>
+</figure>
+<para id="fs-id1167583641773">Algunas baterías pueden recargarse haciendo pasar por ellas una corriente en sentido contrario a la que suministran a un aparato. Esto se hace de forma rutinaria en los automóviles y en las baterías de los pequeños aparatos eléctricos y electrónicos (<link target-id="CNX_UPhysics_27_03_Charger"/>). La salida de voltaje del cargador de baterías debe ser mayor que la emf de la batería para invertir la corriente que la atraviesa. Esto hace que el voltaje de los terminales de la batería sea mayor que la emf, ya que <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>r</m:mi></m:mrow></m:math> y <emphasis effect="italics">I</emphasis> es ahora negativo.</para>
+<figure id="CNX_UPhysics_27_03_Charger">
+<media id="fs-id1167584774290" alt="La figura muestra un cargador de baterías de automóvil conectado a dos terminales de una batería de automóvil. La corriente fluye del cargador al terminal positivo y del terminal negativo de vuelta al cargador.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_03_Charger.jpg"/>
+</media>
+<caption>Un cargador de baterías de automóvil invierte el sentido normal de la corriente a través de una batería, invirtiendo su reacción química y reponiendo su potencial químico.</caption>
+</figure>
+<para id="fs-id1167583732809">Es importante entender las consecuencias de la resistencia interna de las fuentes de emf, como las baterías y las células solares, pero a menudo, el análisis de los circuitos se hace con el voltaje de los terminales de la batería, como hemos hecho en los apartados anteriores. El voltaje de los terminales se denomina simplemente <emphasis effect="italics">V</emphasis>, suprimiendo el subíndice “de los terminales”. Esto se debe a que la resistencia interna de la batería es difícil de medir directamente y puede cambiar con el tiempo.</para>
+</section>
+<section id="fs-id1167583627539" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167584978870" list-type="bulleted" bullet-style="bullet">
+<item>Todas las fuentes de voltaje tienen dos partes fundamentales: una fuente de energía eléctrica que tiene una fuerza electromotriz (emf) característica y una resistencia interna <emphasis effect="italics">r</emphasis>. La emf es el trabajo realizado por carga para mantener constante la diferencia de potencial de una fuente. La emf es igual a la diferencia de potencial entre los terminales cuando no fluye la corriente. La resistencia interna <emphasis effect="italics">r</emphasis> de una fuente de voltaje afecta el voltaje de salida cuando fluye una corriente.</item>
+<item>La salida de voltaje de un dispositivo se denomina voltaje de los terminales <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub></m:mrow></m:math> y viene dada por <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>terminal</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>ε</m:mi><m:mo>−</m:mo><m:mi>I</m:mi><m:mi>r</m:mi></m:mrow></m:math>, donde <emphasis effect="italics">I</emphasis> es la corriente eléctrica y es positiva cuando fluye desde el terminal positivo de la fuente de voltaje y <emphasis effect="italics">r</emphasis> es la resistencia interna.</item>
+</list>
+</section>
+<section id="fs-id1167583718213" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167584724939">
+<problem id="fs-id1167583638283">
+<para id="fs-id1167584683696">¿Qué efecto tendrá la resistencia interna de una batería recargable en la energía que se utiliza para recargarla?</para>
+</problem>
+<solution id="fs-id1167583571923">
+<para id="fs-id1167584703641">Parte de la energía que se utiliza para recargar la batería se disipará en forma de calor por la resistencia interna.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585141973">
+<problem id="fs-id1167585176558">
+<para id="fs-id1167584901062">Una batería con una resistencia interna de <emphasis effect="italics">r</emphasis> y una emf de 10,00 V se conecta a un resistor de carga <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>r</m:mi></m:mrow></m:math>. A medida que la batería envejece, la resistencia interna se triplica. ¿Cuánto se reduce la corriente a través del resistor de carga?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167584633492">
+<problem id="fs-id1167584770445">
+<para id="fs-id1167585090635">Demuestre que la potencia disipada por el resistor de carga es máxima cuando la resistencia del resistor de carga es igual a la resistencia interna de la batería.</para>
+</problem>
+<solution id="fs-id1167584997828">
+<para id="fs-id1167584754340"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>P</m:mi><m:mo>=</m:mo><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>ε</m:mi><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:mo>=</m:mo><m:msup><m:mi>ε</m:mi><m:mn>2</m:mn></m:msup><m:mi>R</m:mi><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>P</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>ε</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mo>[</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>R</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>R</m:mi></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167585091993" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167583531502">
+<problem id="fs-id1167583628883">
+<para id="fs-id1167584742778">Una batería de automóvil con una emf de 12 V y una resistencia interna de <m:math><m:mrow><m:mn>0,050</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> se está cargando con una corriente de 60 A. Observe que en este proceso se está cargando la batería. (a) ¿Cuál es la diferencia de potencial a través de sus terminales? (b) ¿A qué velocidad se disipa la energía térmica en la batería? (c) ¿A qué velocidad se convierte la energía eléctrica en energía química?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167583520087">
+<problem id="fs-id1167585040131">
+<para id="fs-id1167583598389">La etiqueta de una radio a batería recomienda el uso de una celda recargable de níquel-cadmio (nicads), aunque tiene una emf de 1,25 V, mientras que una celda alcalina tiene una emf de 1,58 V. La radio tiene un <m:math><m:mrow><m:mn>3,20</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> resistencia. (a) Dibuja un diagrama del circuito de la radio y su batería. Ahora, calcule la potencia entregada a la radio (b) cuando se utilizan pilas de nicad, cada una con una resistencia interna de <m:math><m:mrow><m:mn>0,0400</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, y c) cuando se utilice una pila alcalina, que tenga una resistencia interna de <m:math><m:mrow><m:mn>0,200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. (d) ¿Le parece significativa esta diferencia, teniendo en cuenta que la resistencia efectiva de la radio disminuye cuando se sube el volumen?</para></problem>
+<solution id="fs-id1167583733867">
+<para id="fs-id1167585024074">a<newline/>
+<media id="fs-id1167583579822" alt="La figura muestra un circuito con una fuente de emf ε, un resistor r y un voltímetro V">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_P4ans_img.jpg"/>
+</media><newline/> b. 0.476W; c. 0.691 W; d. Como <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:math>, la diferencia de potencia disminuye; por lo tanto, a volúmenes más altos, no hay una diferencia significativa.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167584730615">
+<problem id="fs-id1167583519584">
+<para id="fs-id1167583628516">El motor de arranque de un automóvil tiene una resistencia equivalente de <m:math><m:mrow><m:mn>0,0500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> y se alimenta de una batería de 12,0 V con una <m:math><m:mrow><m:mn>0,0100</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> resistencia interna. (a) ¿Cuál es la corriente que llega al motor? (b) ¿Qué voltaje se le aplica? (c) ¿Qué potencia se suministra al motor? (d) Repita estos cálculos para cuando las conexiones de la batería estén corroídas y añada <m:math><m:mrow><m:mn>0,0900</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> al circuito (incluso pequeñas cantidades de resistencia no deseada causan problemas importantes en aplicaciones de bajo voltaje y alta corriente).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167583707099">
+<problem id="fs-id1167585147144">
+<para id="fs-id1167584649707">(a) ¿Cuál es la resistencia interna de una fuente de voltaje si su potencial en los terminales disminuye en 2,00 V cuando la corriente suministrada aumenta en 5,00 A? (b) ¿Puede hallarse la emf de la fuente de voltaje con la información suministrada?</para>
+</problem>
+<solution id="fs-id1167584873300">
+<para id="fs-id1167583616707">a. <m:math><m:mrow><m:mn>0,400</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; b. No, solo hay una ecuación independiente, por lo que solo se puede calcular <emphasis effect="italics">r</emphasis>. </para>
+</solution>
+</exercise>
+<exercise id="fs-id1167584991207">
+<problem id="fs-id1167583732169">
+<para id="fs-id1167585023583">Una persona con resistencia corporal entre sus manos de <m:math><m:mrow><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> agarra accidentalmente los terminales de una fuente de alimentación de 20,0 kV. (¡NO lo hagas!) (a) Dibuja un diagrama de circuito para representar la situación. (b) Si la resistencia interna de la fuente de alimentación es <m:math><m:mrow><m:mn>2.000</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, ¿cuál es la corriente que atraviesa su cuerpo? (c) ¿Cuál es la potencia disipada en su cuerpo? (d) Si la fuente de alimentación debe hacerse segura aumentando su resistencia interna, ¿cuál debe ser la resistencia interna para que la corriente máxima en esta situación sea de 1,00 mA o menos? (e) ¿Comprometerá esta modificación la eficacia de la fuente de alimentación para accionar dispositivos de baja resistencia? Explique su razonamiento.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167583706389">
+<problem id="fs-id1167585023260">
+<para id="fs-id1167584745476">Una batería de automóvil de 12,0 V emf tiene una voltaje de los terminales de 16,0 V cuando se carga con una corriente de 10,0 A. (a) ¿Cuál es la resistencia interna de la batería? (b) ¿Qué potencia se disipa en el interior de la batería? (c) ¿A qué velocidad (en <m:math><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>/</m:mtext><m:mtext>min</m:mtext></m:mrow></m:math>) aumentará su temperatura si su masa es de 20,0 kg y tiene un calor específico de <m:math><m:mrow><m:mn>0,300</m:mn><m:mspace width="0.2em"/><m:mtext>kcal/kg</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, suponiendo que no se escape el calor</para>
+</problem>
+<solution id="fs-id1167583584974">
+<para id="fs-id1167584872080">a. <m:math><m:mrow><m:mn>0,400</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; b. 40.0 W; c <m:math><m:mrow><m:mn>0,0956</m:mn><m:mspace width="0.2em"/><m:mtext>°C/min</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167585022699">
+<term>fuerza electromotriz (emf)</term>
+<meaning id="fs-id1167584702229">energía producida por unidad de carga, extraída de una fuente que produce una corriente eléctrica</meaning>
+</definition>
+<definition id="fs-id1167583581496">
+<term>resistencia interna</term>
+<meaning id="fs-id1167583573316">cantidad de resistencia al flujo de corriente dentro de la fuente de voltaje</meaning>
+</definition>
+<definition id="fs-id1167585094309">
+<term>diferencia de potencial</term>
+<meaning id="fs-id1167583594250">diferencia de potencial eléctrico entre dos puntos de un circuito eléctrico, medida en voltios</meaning>
+</definition>
+<definition id="fs-id1167583626269">
+<term>caída de potencial</term>
+<meaning id="fs-id1167583599225">pérdida de energía potencial eléctrica cuando una corriente atraviesa un resistor, un cable u otro componente</meaning>
+</definition>
+<definition id="fs-id1167583717953">
+<term>voltaje en los terminales</term>
+<meaning id="fs-id1167583603275">diferencia de potencial medida a través de los terminales de una fuente cuando no hay carga conectada</meaning>
+</definition>
+</glossary>
+</document>

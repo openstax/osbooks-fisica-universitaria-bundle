@@ -1,0 +1,94 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Fuentes de ac</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90933</md:content-id>
+  <md:title>Fuentes de ac</md:title>
+  <md:abstract>Al final de esta sección, podrá: <list>
+<item>Explicar las diferencias entre corriente continua (dc) y corriente alterna (ac).</item>
+<item>Definir los rasgos característicos de la corriente alterna y el voltaje alterno, como la amplitud o pico y la frecuencia.</item>
+</list></md:abstract>
+  <md:uuid>f689fb41-2031-42e0-8125-8367b2f09765</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101747831">La mayoría de los ejemplos tratados hasta ahora en este libro, especialmente los que utilizan baterías, tienen fuentes de voltaje constante. Así, una vez establecida la corriente, esta es constante. La <term>corriente continua (dc)</term> es el flujo de carga eléctrica en una sola dirección. Es el estado estacionario de un circuito de voltaje constante.</para>
+<para id="fs-id1172101904658">Sin embargo, la mayoría de las aplicaciones conocidas utilizan una fuente de voltaje variable en el tiempo. La <term>corriente alterna (ac)</term> es el flujo de carga eléctrica que invierte periódicamente su dirección. La ac es producida por una emf alterna, que se genera en una central eléctrica, como se describe en <link document="m90921">Campos eléctricos inducidos</link>. Si la fuente de ac varía periódicamente, especialmente de forma sinusoidal, el circuito se conoce como circuito de ac. Por ejemplo, la energía comercial y residencial que sirve para muchas de nuestras necesidades.</para>
+<para id="fs-id1172101787952">Los voltajes alternos y frecuencias de ac que se utilizan habitualmente en las empresas y los hogares varían en todo el mundo. En una casa típica, la diferencia de potencial entre los dos lados de una toma de corriente alterna sinusoidalmente con una frecuencia de 60 o 50 Hz y una amplitud de 170 o 311 V, según se viva en Estados Unidos o Europa, respectivamente. La mayoría de la gente sabe que la diferencia de potencial de las tomas de corriente es de 120 V o 220 V en EE. UU. o Europa, pero como se explica más adelante en el capítulo, estos voltajes no son los valores máximos que se dan aquí, sino que están relacionados con los voltajes comunes que vemos en nuestras tomas de corriente. La <link target-id="CNX_UPhysics_32_01_DcAcPower"/> muestra gráficos de voltaje y corriente versus tiempo para dc y ac típicas de Estados Unidos.</para><figure id="CNX_UPhysics_32_01_DcAcPower"><media id="fs-id1172101783477" alt="Las figuras a y b muestran gráficos de voltaje y corriente en función del tiempo. La figura a muestra voltaje continuo y la corriente continua como líneas horizontales en el gráfico, con valores positivos de y. La corriente tiene un valor y menor que el voltaje. La figura b muestra el voltaje y la corriente alternos como ondas sinusoidales en el gráfico, teniendo el voltaje una mayor amplitud que la corriente. Tienen la misma longitud de onda. La longitud de media onda tiene un valor x de 8,33 y la longitud de onda completa tiene un valor x de 16,6. Los valores Y máximos de voltaje y la corriente están marcados como V0 e I0 respectivamente y los valores Y mínimos están marcados como menos V0 y menos I0 respectivamente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_01_DcAcPower.jpg"/>
+</media>
+
+<caption>(a) El voltaje continuo y la corriente continua son constantes en el tiempo, una vez establecida la corriente. (b) El voltaje y la corriente versus tiempo son muy diferentes para la energía de ac. En este ejemplo, que muestra la potencia de ac de 60 Hz y el tiempo <emphasis effect="italics">t</emphasis> en milisegundos, el voltaje y la corriente son sinusoidales y están en fase para un circuito de resistencia simple. Las frecuencias y los picos de voltajes de las fuentes de ac son muy diferentes.</caption></figure><para id="fs-id1172101910311">Supongamos que conectamos un resistor a una fuente de voltaje alterno y determinamos cómo el voltaje y la corriente varían en el tiempo a través del resistor. La <link target-id="CNX_UPhysics_32_01_SimpleCir"/> muestra un esquema de un circuito sencillo con una fuente de voltaje alterno. El voltaje fluctúa sinusoidalmente con el tiempo a una frecuencia fija, como se muestra, en los terminales de la batería o en el resistor. Por lo tanto, el <term>voltaje alterno</term>, o el "voltaje en un enchufe” puede venir dado por</para>
+<note id="fs-id1172101775485" class="equation-callout">
+<equation id="fs-id1172101898257"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mtext>ω</m:mtext><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172101884424">donde <emphasis effect="italics">v</emphasis> es el voltaje en el momento <emphasis effect="italics">t</emphasis>, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es el voltaje pico, y <m:math><m:mtext>ω</m:mtext></m:math> es la frecuencia angular en radianes por segundo. Para una casa típica en Estados Unidos, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>170</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mtext>ω</m:mtext><m:mo>=</m:mo><m:mn>120</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow></m:math>, mientras que en Europa, <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>311</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mtext>ω</m:mtext><m:mo>=</m:mo><m:mn>100</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para><para id="fs-id1172101633667">Para este sencillo circuito de resistencia, <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mo>/</m:mo><m:mi>R</m:mi></m:mrow></m:math>, por lo que la <term>ac</term>, es decir, la corriente que fluctúa sinusoidalmente con el tiempo a una frecuencia fija, es</para>
+<note id="fs-id1172101614892" class="equation-callout">
+<equation id="fs-id1172101613871"><label/><m:math><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mtext>ω</m:mtext><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172101756397">donde <emphasis effect="italics">i</emphasis> es la corriente en el momento <emphasis effect="italics">t</emphasis> y <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la corriente máxima y es igual a <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow></m:math>. En este ejemplo, se dice que el voltaje y la corriente están en fase, lo que significa que sus formas funcionales sinusoidales tienen picos, valles y nodos en el mismo lugar. Oscilan de forma sincronizada, como se muestra en la <link target-id="CNX_UPhysics_32_01_DcAcPower"/>(b). En estas ecuaciones, y a lo largo de este capítulo, utilizamos letras minúsculas (como la <emphasis effect="italics">i</emphasis>) para indicar valores instantáneos y letras mayúsculas (como la <emphasis effect="italics">I</emphasis>) para indicar valores máximos o pico.</para>
+<figure id="CNX_UPhysics_32_01_SimpleCir">
+<media id="fs-id1172101655670" alt="La figura muestra una onda sinusoidal de ac. En la parte superior se muestra un circuito que apunta a la onda. Está marcado como fuente V y tiene una fuente de voltaje alterno conectada a un resistor. La fuente está marcada como positiva en un lado y negativa en el otro. Un circuito en la parte inferior, marcado como resistor V, también apunta a la onda. Es similar al circuito superior pero con la polaridad de la fuente invertida.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_01_SimpleCir.jpg"/>
+</media>
+<caption>La diferencia de potencial <emphasis effect="italics">V</emphasis> entre los terminales de una fuente de voltaje alterno fluctúa, por lo que la fuente y el resistor tienen ondas sinusoidales alternas por encima de cada uno. La expresión matemática de <emphasis effect="italics">v</emphasis> viene dada por <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mtext>ω</m:mtext><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1172101777629">La corriente en el resistor se alterna de un lado a otro al igual que el voltaje de conducción, ya que <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:math>. Si el resistor es una bombilla fluorescente, por ejemplo, se ilumina y se oscurece 120 veces por segundo cuando la corriente pasa repetidamente por cero. Un parpadeo de 120 Hz es demasiado rápido para que sus ojos lo detecten, pero si agita la mano de un lado a otro entre su cara y una luz fluorescente, verá el efecto estroboscópico del ac.</para>
+<note id="fs-id1172101694734" class="check-understanding">
+<exercise id="fs-id1172101776132">
+<problem id="fs-id1172101794957">
+<para id="fs-id1172101643454">Si se considera una fuente de voltaje alterno europeo, ¿cuál es la diferencia de tiempo entre los cruces por cero en una gráfica de voltaje alterno en función del tiempo?</para>
+</problem>
+<solution id="fs-id1172101897637">
+<para id="fs-id1172101731865">10 ms</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1172101907358" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172101761267" list-type="bulleted" bullet-style="bullet">
+<item>La corriente continua (dc) se refiere a los sistemas en los que el voltaje de la fuente es constante.</item>
+<item>La corriente alterna (ac) se refiere a los sistemas en los que el voltaje de la fuente varía periódicamente, específicamente de forma sinusoidal.</item>
+<item>La fuente de voltaje de un sistema de ac emite un voltaje que se calcula a partir del tiempo, el voltaje pico y la frecuencia angular.</item>
+<item>En un circuito simple, la corriente se encuentra dividiendo el voltaje entre la resistencia. Una ac se calcula utilizando la corriente de pico (determinada al dividir del voltaje pico entre la resistencia), la frecuencia angular y el tiempo.</item>
+</list>
+</section>
+<section id="fs-id1172101919675" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172101789897">
+<problem id="fs-id1172101692634">
+<para id="fs-id1172101651578">¿Cuál es la relación entre la frecuencia y la frecuencia angular?</para>
+</problem>
+<solution id="fs-id1172101910780">
+<para id="fs-id1172101665559">La frecuencia angular es <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:math> veces la frecuencia.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172101634448" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172101611322">
+<problem id="fs-id1172101703123">
+<para id="fs-id1172101693132">Escriba una expresión para el voltaje de salida de una fuente de ac que tiene una amplitud de 12 V y una frecuencia de 200 Hz.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172101970229">
+<term>corriente alterna</term>
+<meaning id="fs-id1172101715211">corriente que fluctúa sinusoidalmente en el tiempo a una frecuencia fija</meaning>
+</definition>
+<definition id="fs-id1172101649529">
+<term>voltaje de ac</term>
+<meaning id="fs-id1172101789997">voltaje que fluctúa sinusoidalmente con el tiempo a una frecuencia fija</meaning>
+</definition>
+<definition id="fs-id1172101760792">
+<term>corriente alterna (ac)</term>
+<meaning id="fs-id1172101785587">flujo de carga eléctrica que invierte periódicamente su dirección</meaning>
+</definition>
+<definition id="fs-id1172101646991">
+<term>corriente continua (dc)</term>
+<meaning id="fs-id1172101736024">flujo de carga eléctrica en una sola dirección</meaning>
+</definition>
+</glossary>
+</document>

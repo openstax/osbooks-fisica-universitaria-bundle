@@ -1,0 +1,213 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Fuerza magnética sobre un conductor portador de corriente</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90905</md:content-id>
+  <md:title>Fuerza magnética sobre un conductor portador de corriente</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Determinar la dirección en la que un cable portador de corriente experimenta una fuerza en un campo magnético externo.</item>
+<item>Calcular la fuerza sobre un cable portador de corriente en un campo magnético externo.</item>
+</list></md:abstract>
+  <md:uuid>eab6a3ec-0809-453a-bcff-3dc942a4105c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1171359014204">Las cargas en movimiento experimentan una fuerza en un campo magnético. Si estas cargas en movimiento están en un cable (es decir, si este porta una corriente), también debería experimentar una fuerza. Sin embargo, antes de hablar de la fuerza ejercida sobre una corriente por un campo magnético, examinamos primero el campo magnético generado por una corriente eléctrica. Aquí estudiamos dos efectos distintos que interactúan estrechamente: Un cable portador de corriente genera un campo magnético y el campo magnético ejerce una fuerza sobre el cable portador de corriente.</para>
+<section id="fs-id1171360088313">
+<title>Campos magnéticos producidos por corrientes eléctricas</title>
+<para id="fs-id1171360096831">Al hablar de los descubrimientos históricos del magnetismo, mencionamos el hallazgo de Oersted de que un cable que portaba una corriente eléctrica provocaba la desviación de una brújula cercana. Se estableció la conexión de que las corrientes eléctricas producen campos magnéticos (esta conexión entre la electricidad y el magnetismo se trata con más detalle en <link document="m90909">Fuentes de campos magnéticos</link>).</para>
+<para id="fs-id1171360224563">La aguja de brújula cerca del cable experimenta una fuerza que alinea la aguja tangente a un círculo alrededor del cable. Por lo tanto, un cable portador de corriente produce bucles circulares de campo magnético. Para determinar la dirección del campo magnético generado a partir de un cable, utilizamos una segunda regla de la mano derecha. En la RHR-2, el pulgar apunta en la dirección de la corriente mientras los dedos envuelven el cable, apuntando en la dirección del campo magnético producido (<link target-id="CNX_UPhysics_28_04_Wire"/>). Si el campo magnético viniera hacia usted o fuera de la página, lo representamos con un punto. Si el campo magnético entrara en la página, lo representaríamos con una <m:math><m:mo>×</m:mo><m:mo>.</m:mo></m:math> Estos símbolos provienen de la consideración de una flecha vectorial: Una flecha apuntando hacia usted, desde su perspectiva, se vería como un punto o la punta de una flecha. Una flecha apuntando en dirección contraria a usted, desde su perspectiva, se vería como una cruz o una <m:math><m:mo>×</m:mo><m:mo>.</m:mo></m:math> En la <link target-id="CNX_UPhysics_28_04_Wire"/> se muestra un esquema compuesto de los círculos magnéticos, en el que se muestra que la intensidad del campo disminuye a medida que se aleja del cable mediante bucles más separados.</para>
+<figure id="CNX_UPhysics_28_04_Wire">
+<media id="fs-id1171360327235" alt="La figura a muestra la regla de la mano derecha aplicada a un cable que porta una corriente ascendente. La mano derecha se coloca de forma que el pulgar apunte hacia arriba, en la dirección de la corriente. Los dedos se enroscan alrededor del cable. El campo magnético sale de la página a la izquierda de la corriente y entra en la página a la derecha de la corriente. La figura b muestra las líneas de campo magnético para la corriente ascendente. Las líneas de campo forman anillos concéntricos que circulan en la misma dirección que los dedos de la mano derecha en la figura a. La separación entre anillos aumenta con la distancia a la corriente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_04_wire.jpg"/>
+</media>
+<caption>(a) Cuando el cable está en el plano del papel, el campo es perpendicular al papel. Observe los símbolos utilizados para el campo que apunta hacia adentro (como la cola de una flecha) y el campo que apunta hacia afuera (como la punta de una flecha). (b) Un cable largo y recto crea un campo con líneas de campo magnético que forman bucles circulares.</caption>
+</figure>
+</section>
+<section id="fs-id1171360201376">
+<title>Cálculo de la fuerza magnética</title>
+<para id="fs-id1171360531770">La corriente eléctrica es un movimiento ordenado de carga. Por lo tanto, un cable portador de corriente en un campo magnético debe experimentar una fuerza debida al campo. Para investigar esta fuerza, consideremos la sección infinitesimal de cable que se muestra en la <link target-id="CNX_UPhysics_28_04_Infwire"/>. La longitud y el área transversal de la sección son <emphasis effect="italics">dl</emphasis> y <emphasis effect="italics">A</emphasis>, respectivamente, por lo que su volumen es <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mo>·</m:mo><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math> El cable está formado por un material que contiene <emphasis effect="italics">n</emphasis> portadores de carga por unidad de volumen, por lo que el número de portadores de carga en la sección es <m:math><m:mrow><m:mi>n</m:mi><m:mi>A</m:mi><m:mo>·</m:mo><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math> Si los portadores de carga se mueven con velocidad de deriva <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>d</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> la corriente <emphasis effect="italics">I</emphasis> en el cable es (a partir de <link document="m90887">Corriente y resistencia</link>)</para>
+<equation id="fs-id1171359077764" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:msub><m:mi>v</m:mi><m:mi>d</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171360485656">La fuerza magnética sobre cualquier portador de carga individual es <m:math><m:mrow><m:mi>e</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>d</m:mtext></m:msub><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> por lo que la fuerza magnética total <m:math><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> en los portadores de carga <m:math><m:mrow><m:mi>n</m:mi><m:mi>A</m:mi><m:mo>·</m:mo><m:mi>d</m:mi><m:mi>l</m:mi></m:mrow></m:math> en la sección de cable es</para>
+<equation id="fs-id1171360245830"><m:math><m:mrow><m:mi>d</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>A</m:mi><m:mo>·</m:mo><m:mi>d</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mi>e</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>d</m:mtext></m:msub><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>B</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171359178698">Podemos definir <emphasis effect="italics">dl</emphasis> como un vector de longitud <emphasis effect="italics">dl</emphasis> que apunta a lo largo de <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>d</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> lo que nos permite reescribir esta ecuación como</para>
+<equation id="fs-id1171358940469"><m:math><m:mrow><m:mi>d</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>e</m:mi><m:mi>A</m:mi><m:msub><m:mi>v</m:mi><m:mtext>d</m:mtext></m:msub><m:mover accent="true"><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi><m:mi>l</m:mi></m:mstyle></m:mrow><m:mo stretchy="true">→</m:mo></m:mover><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>B</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171360252590">o</para>
+<equation id="fs-id1171360233168"><m:math><m:mrow><m:mi>d</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mi>I</m:mi><m:mover accent="true"><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi><m:mi>l</m:mi></m:mstyle></m:mrow><m:mo stretchy="true">→</m:mo></m:mover><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>B</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171359017957">Esta es la fuerza magnética sobre la sección de cable. Observe que en realidad es la fuerza neta ejercida por el campo sobre los propios portadores de carga. La dirección de esta fuerza viene dada por la RHR-1, en la que se apuntan los dedos en la dirección de la corriente y se curvan hacia el campo. El pulgar apunta entonces en la dirección de la fuerza.</para>
+<figure id="CNX_UPhysics_28_04_Infwire">
+<media id="fs-id1171360196475" alt="Ilustración de un cable portador de corriente curvado en un campo magnético uniforme. Una vista en detalle de un pequeño segmento del cable muestra un trozo corto y recto, de longitud dl con corriente I a través de él. La velocidad v subíndice d está en la dirección de la corriente. El campo B forma un ángulo theta con el vector velocidad.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_04_infwire.jpg"/>
+</media>
+<caption>Una sección infinitesimal de cable portador de corriente en un campo magnético.</caption>
+</figure>
+<para id="fs-id1171360192028">Para determinar la fuerza magnética <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> en un cable de longitud y forma arbitrarias, debemos integrar la <link target-id="fs-id1171360233168"/> en todo el cable. Si la sección del cable resulta ser recta y <emphasis effect="italics">B</emphasis> es uniforme, las diferenciales de la ecuación se convierten en cantidades absolutas, dándonos</para>
+<note id="fs-id1163713243902" class="equation-callout">
+<equation id="fs-id1171360522050"><label/><m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mi>I</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>l</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>B</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1171360245960">Esta es la fuerza que se ejerce sobre un cable recto portador de corriente en un campo magnético uniforme.</para>
+<example id="fs-id1171360578469">
+<para id="fs-id1171360183585"><title>Equilibrio de las fuerzas gravitacionales y magnéticas en un cable portador de corriente</title>
+Un cable de 50 cm de longitud y 10 g de masa está suspendido en un plano horizontal por un par de cables flexibles (<link target-id="CNX_UPhysics_28_04_Wirewgt"/>). A continuación, el cable se somete a un campo magnético constante de magnitud 0,50 T, que se dirige como se indica. ¿Cuál es la magnitud y la dirección de la corriente en el cable necesaria para eliminar la tensión en los cables de soporte?</para>
+<figure id="CNX_UPhysics_28_04_Wirewgt">
+<media id="fs-id1171358968941" alt="Figura a: Ilustración de un cable suspendido en un campo magnético uniforme. El campo magnético apunta hacia la página. El cable es horizontal y tiene 50 cm de longitud. Una fuente de voltaje variable completa el circuito formado por el cable y los cables utilizados para suspenderlo. Figura b: Un diagrama de cuerpo libre del cable. La corriente está a la derecha. El peso, mg, apunta hacia abajo. La tensión en cualquiera de los extremos es alta. La fuerza magnética está arriba.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_04_wirewgt.jpg"/>
+</media>
+<caption>(a) Un cable suspendido en un campo magnético. (b) El diagrama de cuerpo-libre del cable.</caption>
+</figure>
+<para id="fs-id1167585940408"><title>Estrategia</title>
+Según el diagrama de cuerpo-libre de la figura, las tensiones en los cables de soporte llegan a cero cuando las fuerzas gravitacionales y magnéticas se equilibran. Con el uso de la RHR-1, hallamos que la fuerza magnética apunta hacia arriba. Entonces podemos determinar la corriente <emphasis effect="italics">I</emphasis> al guiar las dos fuerzas.</para>
+<para id="fs-id1167585965961"><title>Solución</title>
+Iguale las dos fuerzas del peso y la fuerza magnética sobre el cable:</para>
+<equation id="fs-id1171360313808" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>l</m:mi><m:mi>B</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171360161232">Así,</para>
+<equation id="fs-id1171360356517" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mrow><m:mi>l</m:mi><m:mi>B</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,010</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9,8</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,39</m:mn><m:mspace width="0.2em"/><m:mtext>A.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167586169572"><title>Importancia</title>
+Este gran campo magnético crea una fuerza significativa sobre una longitud de cable para contrarrestar su peso.</para>
+</example>
+<example id="fs-id1171360065043">
+<para id="fs-id1171360252351"><title>Cálculo de la fuerza magnética en un cable portador de corriente</title>
+Un cable largo y rígido situado a lo largo del eje <emphasis effect="italics">y</emphasis> conduce una corriente de 5,0 A que fluye en la dirección <emphasis effect="italics">y</emphasis> positiva. (a) Si un campo magnético constante de magnitud 0,30 T se dirige a lo largo del eje <emphasis effect="italics">x</emphasis> positivo, ¿cuál es la fuerza magnética por unidad de longitud en el cable? (b) Si un campo magnético constante de 0,30 T se dirige 30 grados desde el eje <emphasis effect="italics">x</emphasis> positivo hacia el eje <emphasis effect="italics">y</emphasis> positivo, ¿cuál es la fuerza magnética por unidad de longitud en el cable?</para>
+<para id="fs-id1167582672638"><title>Estrategia</title>
+La fuerza magnética sobre un cable portador de corriente en un campo magnético viene dada por <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mi>I</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>l</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>B</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>.</m:mo></m:mrow></m:math> Para la parte a, como la corriente y el campo magnético son perpendiculares en este problema, podemos simplificar la fórmula para que nos dé la magnitud y hallar la dirección a través del RHR-1. El ángulo <emphasis effect="italics">θ</emphasis> es de 90 grados, lo que significa <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Además, la longitud se puede dividir hacia el lado izquierdo para calcular la fuerza por unidad de longitud. Para la parte b, la corriente por la longitud se escribe en notación vectorial unitaria, así como el campo magnético. Después de tomar el producto cruz, la direccionalidad es evidente por el vector unitario resultante.</para>
+<para id="fs-id1167582524679"><title>Solución</title></para>
+<list id="fs-id1171360481395" list-type="enumerated" number-style="lower-alpha">
+<item>Comenzamos con la fórmula general de la fuerza magnética sobre un cable. Buscamos la fuerza por unidad de longitud, así que dividimos entre la longitud para llevarla al lado izquierdo. También hemos establecido <m:math><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> La solución, por tanto, es
+<equation id="fs-id1171359181385" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>F</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>I</m:mi><m:mi>l</m:mi><m:mi>B</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mi>F</m:mi><m:mi>l</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>0,30 T</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mi>F</m:mi><m:mi>l</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1,5</m:mn><m:mspace width="0.2em"/><m:mtext>N/m.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+Direccionalidad: Apunte con los dedos en la dirección <emphasis effect="italics">y</emphasis> positiva y curve los dedos en la dirección <emphasis effect="italics">x</emphasis> positiva. El pulgar apuntará en la dirección <m:math><m:mrow><m:mtext>−</m:mtext><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>. Por lo tanto, con la direccionalidad, la solución es
+<equation id="fs-id1171360188511" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>l</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>−1,5</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>N/m.</m:mtext></m:mrow></m:math></equation></item>
+<item>La corriente por la longitud y el campo magnético se escriben en notación vectorial unitaria. Entonces, tomamos el producto cruz para calcular la fuerza:
+<equation id="fs-id1171360155338" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>I</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5,0</m:mn><m:mi>A</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>l</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,30</m:mn><m:mi>T</m:mi><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:mn>0,30</m:mn><m:mi>T</m:mi><m:mspace width="0.1em"/><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>/</m:mtext><m:mi>l</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>-1,30</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>N/m.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1167582460270"><title>Importancia</title>
+Este gran campo magnético crea una fuerza significativa en una pequeña longitud de cable. A medida que el ángulo del campo magnético se alinea más estrechamente con la corriente en el cable, hay menos fuerza sobre él, como se ve al comparar las partes a y b.</para>
+</example>
+<note id="fs-id1171360270430" class="check-understanding">
+<exercise id="fs-id1171360425680">
+<problem id="fs-id1171360606798">
+<para id="fs-id1171360227261">Un cable de cobre recto y flexible se sumerge en un campo magnético dirigido hacia la página. (a) Si la corriente del cable corre en la dirección +<emphasis effect="italics">x</emphasis>, ¿hacia qué lado se doblará el cable? (b) ¿Hacia qué lado se doblará el cable si la corriente corre en la dirección –<emphasis effect="italics">x</emphasis>?</para>
+</problem>
+<solution id="fs-id1171360307048">
+<para id="fs-id1171359019391">a. se dobla hacia arriba; b. se dobla hacia abajo</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1171358971444">
+<para id="fs-id1171360444578"><title>Fuerza en un cable circular</title>
+Un bucle circular de radio <emphasis effect="italics">R</emphasis> que porta una corriente <emphasis effect="italics">I</emphasis> se sitúa en el plano <emphasis effect="italics">xy</emphasis>. Un campo magnético uniforme y constante atraviesa el bucle paralelamente al eje <emphasis effect="italics">y</emphasis> (<link target-id="CNX_UPhysics_28_04_Loop"/>). Halle la fuerza magnética sobre la mitad superior del bucle, la mitad inferior del bucle y la fuerza total sobre este.</para>
+<figure id="CNX_UPhysics_28_04_Loop">
+<media id="fs-id1171359010612" alt="Un bucle de radio R está en el plano de la página. El bucle conduce una corriente I en el sentido de las agujas del reloj y está en un campo magnético uniforme que apunta hacia arriba.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_04_loop.jpg"/>
+</media>
+<caption>Un bucle de cable que porta una corriente en un campo magnético.</caption>
+</figure>
+<para id="fs-id1167586263019"><title>Estrategia</title>
+La fuerza magnética sobre el bucle superior debe escribirse en términos de la fuerza diferencial que actúa sobre cada segmento de él. Si integramos sobre cada pieza diferencial, resolvemos la fuerza global en esa sección del bucle. La fuerza en el bucle inferior se calcula de manera similar, y la fuerza total es la suma de estas dos fuerzas.</para>
+<para id="fs-id1167582540573"><title>Solución</title>
+Una fuerza diferencial sobre un trozo de cable arbitrario situado en el anillo superior es:</para>
+<equation id="fs-id1171360420293" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>B</m:mi><m:mspace width="0.1em"/><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mspace width="0.1em"/><m:mi>d</m:mi><m:mi>l</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171359181957">donde <m:math><m:mi>θ</m:mi></m:math> es el ángulo entre la dirección del campo magnético (<emphasis effect="italics">y</emphasis> +) y el segmento de cable. Un segmento diferencial se encuentra en el mismo radio, por lo que al utilizar una fórmula de longitud de arco, tenemos:</para>
+<equation id="fs-id1171359177928" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>d</m:mi><m:mi>l</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>R</m:mi><m:mspace width="0.1em"/><m:mi>d</m:mi><m:mi>θ</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>d</m:mi><m:mi>F</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>R</m:mi><m:mspace width="0.1em"/><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mspace width="0.1em"/><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1171360202369">Para hallar la fuerza sobre un segmento, integramos sobre la mitad superior del círculo, de 0 a <m:math><m:mrow><m:mi>π</m:mi><m:mo>.</m:mo></m:mrow></m:math> Esto da como resultado:</para>
+<equation id="fs-id1171360113623" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>R</m:mi><m:msup><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>π</m:mi></m:munderover><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mspace width="0.1em"/><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>R</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mtext>cos</m:mtext><m:mi>π</m:mi><m:mo>+</m:mo><m:mtext>cos</m:mtext><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow><m:mrow/></m:msup><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171360169628">La mitad inferior del bucle se integra de <m:math><m:mi>π</m:mi></m:math> a cero, lo que nos da:</para>
+<equation id="fs-id1171360189222" class="unnumbered"><label/><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>R</m:mi><m:msup><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mi>π</m:mi><m:mn>0</m:mn></m:munderover><m:mrow><m:mtext>sen</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mspace width="0.1em"/><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>R</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mtext>cos</m:mtext><m:mn>0</m:mn><m:mo>+</m:mo><m:mtext>cos</m:mtext><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:mrow><m:mrow/></m:msup><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>I</m:mi><m:mi>B</m:mi><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1171360525336">La fuerza neta es la suma de estas fuerzas, que es cero.</para>
+<para id="fs-id1167586250896"><title>Importancia</title>
+La fuerza total sobre cualquier bucle cerrado en un campo magnético uniforme es cero. Aunque cada pieza del bucle tiene una fuerza que actúa sobre él, la fuerza neta sobre el sistema es cero. (Observe que hay un torque neto en el bucle, que consideramos en la siguiente sección).</para>
+</example>
+</section>
+<section id="fs-id1171360198922" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1171360152136" list-type="bulleted" bullet-style="bullet">
+<item>Una corriente eléctrica produce un campo magnético alrededor del cable.</item>
+<item>La direccionalidad del campo magnético producido viene determinada por la regla de la mano derecha-2, en la que el pulgar apunta en la dirección de la corriente y los dedos envuelven el cable en la dirección del campo magnético.</item>
+<item>La fuerza magnética sobre los conductores portadores de corriente viene dada por <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mi>I</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>l</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>B</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> donde <emphasis effect="italics">I</emphasis> es la corriente y <emphasis effect="italics">l</emphasis> es la longitud de un cable en un campo magnético uniforme <emphasis effect="italics">B</emphasis>.</item>
+</list>
+</section>
+<section id="fs-id1171360103372" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1171358953124">
+<problem id="fs-id1171360324763">
+<para id="fs-id1171360311235">Describa el error que se produce al utilizar accidentalmente la mano izquierda en lugar de la derecha al determinar la dirección de una fuerza magnética.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171360087879">
+<problem id="fs-id1171360062642">
+<para id="fs-id1171359181616">Teniendo en cuenta la ley de la fuerza magnética, ¿la velocidad y el campo magnético son siempre perpendiculares? ¿La fuerza y la velocidad son siempre perpendiculares? ¿Y la fuerza y el campo magnético?</para>
+</problem>
+<solution id="fs-id1171358999903">
+<para id="fs-id1171359078043">La velocidad y el campo magnético pueden ajustarse juntos en cualquier dirección. Si hay una fuerza, la velocidad es perpendicular a ella. El campo magnético también es perpendicular a la fuerza si existe.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171360483815">
+<problem id="fs-id1171360197766">
+<para id="fs-id1171360077257">¿Por qué un imán cercano puede distorsionar la imagen de un televisor de tubo de rayos catódicos?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171358994273">
+<problem id="fs-id1171360357415">
+<para id="fs-id1171360230197">Un campo magnético ejerce una fuerza sobre los electrones en movimiento en un cable portador de corriente. ¿Qué ejerce la fuerza sobre un cable?</para>
+</problem>
+<solution id="fs-id1171360084868">
+<para id="fs-id1171359180222">La fuerza sobre un cable la ejerce un campo magnético externo creado por un cable u otro imán.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171359173627">
+<problem id="fs-id1171360446988">
+<para id="fs-id1171360369856">Hay regiones en las que el campo magnético terrestre es casi perpendicular a la superficie de la Tierra. ¿Qué dificultad supone el uso de la brújula?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1171360156400" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1171360606217">
+<problem id="fs-id1171360327594">
+<para id="fs-id1171360237592">¿Cuál es la dirección de la fuerza magnética sobre la corriente en cada uno de los seis casos?</para>
+<media id="fs-id1171359027356" alt="Caso a: La I está abajo, la B está fuera de la página. Caso b: La I está arriba, la B está a la derecha. Caso c: La I está a la derecha, la B está dentro de la página. Caso d: La I está a la izquierda, B está a la derecha. Caso e: La I está dentro de la página, la B está arriba. Caso f: La I está fuera de la página, la B está a la izquierda.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_04_Diagrams.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171360122363">
+<para id="fs-id1171360263867">a. izquierda; b. dentro de la página; c. arriba; d. sin fuerza; e. derecha; f. abajo</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171360215665">
+<problem id="fs-id1171360077722">
+<para id="fs-id1171360105394">¿Cuál es el sentido de una corriente que experimenta la fuerza magnética indicada en cada uno de los tres casos, suponiendo que la corriente discurre perpendicular a <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math>?</para>
+<media id="fs-id1171360088340" alt="Caso a: B está fuera de la página, F está arriba. Caso b: B está a la derecha, F está arriba. Caso c: B está dentro de la página, F está a la izquierda.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_04_Diagrams2.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1171360198935">
+<problem id="fs-id1171359180948">
+<para id="fs-id1171360195606">¿Cuál es la dirección del campo magnético que produce la fuerza magnética indicada sobre las corrientes en cada uno de los tres casos, suponiendo que <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> es perpendicular a <emphasis effect="italics">I</emphasis>?</para>
+<media id="fs-id1171360406870" alt="Caso a: La I está arriba, la F está a la izquierda. Caso b: La I está abajo, la F está dentro de la página. Caso c: La I está a la izquierda, la F está arriba.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_28_04_Diagrams3.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1171359009504">
+<para id="fs-id1171360540135">a. dentro de la página; b. a la izquierda; c. fuera de la página</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171360195524">
+<problem id="fs-id1171360345871">
+<para id="fs-id1171360225382">(a) ¿Cuál es la fuerza por metro en un rayo en el ecuador que lleva 20.000 A perpendicularmente al campo <m:math><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> de la Tierra? (b) ¿Cuál es la dirección de la fuerza si la corriente es recta hacia arriba y la dirección del campo terrestre es hacia el norte, paralela al suelo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1171360336780">
+<problem id="fs-id1171360084627">
+<para id="fs-id1171360168903">(a) Una línea eléctrica de corriente continua para un sistema de tren ligero conduce 1.000 A con un ángulo de 30,0° respecto al campo <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>T</m:mtext></m:mrow></m:math> de la Tierra. ¿Cuál es la fuerza en un tramo de 100 m de esta línea? (b) Discuta los problemas prácticos que esto presenta, si los hay.</para>
+</problem>
+<solution id="fs-id1171360425943">
+<para id="fs-id1171359009682">a. 2,50 N; b. Esto significa que las líneas eléctricas del tren ligero deben estar sujetas para no ser movidas por la fuerza causada por el campo magnético de la Tierra.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1171360559920">
+<problem id="fs-id1171360439362">
+<para id="fs-id1171360590938">Un cable que porta una corriente de 30,0 A pasa entre los polos de un imán fuerte que es perpendicular a su campo y experimenta una fuerza de 2,16 N sobre los 4,00 cm de cable en el campo. ¿Cuál es la intensidad media del campo?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+</document>

@@ -1,0 +1,112 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Comparación de movimiento armónico simple y movimiento circular</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90699</md:content-id>
+  <md:title>Comparación de movimiento armónico simple y movimiento circular</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir cómo se relacionan las funciones seno y coseno con los conceptos de movimiento circular.</item>
+<item>Describir la conexión entre movimiento armónico simple y movimiento circular.</item>
+</list></md:abstract>
+  <md:uuid>5587012f-2f8e-41c4-b8f0-48cf35d90566</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167129082580">Una forma fácil de modelar el SHM es considerando un <term class="no-emphasis">movimiento circular uniforme</term>. La <link target-id="CNX_UPhysics_15_03_RotateShad"/> muestra una forma de utilizar este método. Una clavija (un cilindro de madera) está unida a un disco vertical que gira con una frecuencia angular constante. La <link target-id="CNX_UPhysics_15_03_CircularMt"/> muestra una vista lateral del disco y la clavija. Si se coloca una lámpara sobre el disco y la clavija, la clavija produce una sombra. Supongamos que el disco tenga un radio de <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>A</m:mi></m:mrow></m:math> y define la posición de la sombra que coincide con la línea central del disco para ser <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0,00</m:mn><m:mspace width="0.2em"/><m:mi>m</m:mi></m:mrow></m:math>. Como el disco gira a una velocidad constante, la sombra oscila entre <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>A</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>–</m:mtext><m:mi>A</m:mi></m:mrow></m:math>. Ahora, imagine un bloque sobre un resorte debajo del suelo como se muestra en la <link target-id="CNX_UPhysics_15_03_CircularMt"/>.</para>
+<figure id="CNX_UPhysics_15_03_RotateShad">
+<media id="fs-id1167132709754" alt="Una ilustración del método analizado en el texto para proyectar una sombra oscilante. Una clavija sobresale de un disco giratorio vertical que está montado verticalmente en una pared. Un juego de luces brilla hacia abajo e ilumina la clavija desde arriba. A continuación se muestra la sombra de la clavija vista en varios momentos de la oscilación, lo que forma una serie de puntos a lo largo de una línea paralela a la pared. La distancia desde el centro de la línea hasta el lugar de la sombra es x.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_03_RotateShad.jpg"/>
+</media>
+<caption>El SHM se puede modelar como un movimiento de rotación al mirar la sombra de una clavija en una rueda que gira a una frecuencia angular constante.</caption>
+</figure>
+<figure id="CNX_UPhysics_15_03_CircularMt">
+<media id="fs-id1167132460108" alt="Una comparación de la ubicación angular de una clavija en un disco giratorio, la posición de su sombra y la posición de una masa que oscila sobre un resorte horizontal. En cada figura, la clavija está iluminada desde arriba por un conjunto de luces, lo que hace que se proyecte una sombra sobre una línea horizontal. El disco tiene radio r = A y gira en sentido contrario a las agujas del reloj con velocidad angular omega. La posición angular de la clavija, theta, es cero cuando la clavija está directamente a la derecha del centro del disco. El resorte está unido a una pared a la izquierda y a una masa a la derecha. La posición de la masa y la sombra es x, donde x = 0 está directamente debajo del centro del disco, x = –A está directamente debajo del borde izquierdo del disco y x = +A está directamente debajo del borde derecho del disco. En la figura a, t = 0,0. La clavija está directamente a la derecha del centro del disco. Su sombra y la masa están ambas en x = +A. En la figura b, la clavija está en el ángulo theta igual a omega t, en el primer cuadrante. Su sombra y la masa están directamente debajo de la clavija en lo que parece ser x = +A/2. No se especifica el tiempo. En la figura c, t = T/4. La clavija está directamente sobre el centro del disco. Su posición angular theta es igual a omega t. Su sombra y la masa están ambas en x = 0. En la figura d, la clavija está en el ángulo theta igual a omega t, ahora en el segundo cuadrante. Su sombra y la masa están directamente debajo de la clavija en lo que parece ser x = –A/2. No se especifica el tiempo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_03_CircularMt.jpg"/>
+</media>
+<caption>La luz brilla sobre el disco, por lo que la clavija hace una sombra. Si el disco gira a la frecuencia angular adecuada, la sombra sigue el movimiento del bloque sobre un resorte. Si no hay energía disipada debido a fuerzas no conservativas, el bloque y la sombra oscilarán de un lado a otro al unísono. En esta figura, se toman cuatro representaciones en cuatro momentos diferentes. (a) La rueda comienza en <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>0</m:mn><m:mi>o</m:mi></m:msup></m:mrow></m:math> y la sombra de la clavija está en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>A</m:mi></m:mrow></m:math>, y representa la masa en la posición <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>A</m:mi></m:mrow></m:math>. (b) Como el disco gira a través de un ángulo <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:math>, la sombra de la clavija está entre <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>A</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. (c) El disco sigue girando hasta <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mn>90</m:mn></m:mrow><m:mn>0</m:mn></m:msup></m:mrow></m:math>, en la cual la sombra sigue a la masa hasta <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. (d) El disco sigue girando, la sombra sigue la posición de la masa.</caption>
+</figure>
+<para id="fs-id1167133872555">Si el disco gira a la frecuencia angular adecuada, la sombra sigue al bloque. La posición de la sombra se puede modelar con la ecuación</para>
+<note id="fs-id1167132340311" class="equation-callout">
+<equation id="fs-id1167132409125"><label/><m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133612428">Recuerde que el bloque unido al resorte no se mueve a velocidad constante. ¿Cuántas veces tiene que girar la rueda para que la sombra de la clavija esté siempre en el bloque? El disco debe girar a una frecuencia angular constante igual a <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:math> veces la frecuencia de oscilación <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+<para id="fs-id1167133698265">La <link target-id="CNX_UPhysics_15_03_CircularPt"/> muestra la relación básica entre el movimiento circular uniforme y el SHM. La clavija se encuentra en la punta del radio, a una distancia <emphasis effect="italics">A</emphasis> del centro del disco. El eje <emphasis effect="italics">x</emphasis> está definido por una línea trazada en paralelo al suelo que corta el disco por la mitad. El eje <emphasis effect="italics">y</emphasis> (no mostrado) está definido por una línea perpendicular al suelo que corta el disco en una mitad izquierda y otra derecha. El centro del disco es el punto <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> La proyección de la posición de la clavija sobre el eje <emphasis effect="italics">x</emphasis> fijo da la posición de la sombra, que experimenta un SHM análogo al del sistema del bloque y el resorte. En el tiempo indicado en la figura, la proyección tiene la posición <emphasis effect="italics">x</emphasis> y se mueve hacia la izquierda con velocidad <emphasis effect="italics">v</emphasis>. La <term class="no-emphasis">velocidad tangencial</term> de la clavija alrededor del círculo es igual a <m:math><m:mrow><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub></m:mrow></m:math> del bloque en el resorte. El componente <emphasis effect="italics">x</emphasis> de la velocidad es igual a la velocidad del bloque sobre el resorte.</para>
+<figure id="CNX_UPhysics_15_03_CircularPt"><media id="fs-id1167133600900" alt="Una comparación de la ubicación angular de una clavija en un disco giratorio, la posición de su sombra y la posición de una masa que oscila sobre un resorte horizontal. El disco tiene radio r = A y gira en sentido contrario a las agujas del reloj con velocidad angular omega. La posición angular de la clavija, theta, es cero cuando la clavija está directamente a la derecha del centro del disco y es igual a omega t en el tiempo indicado. La velocidad lineal de la clavija se muestra como un vector tangente al círculo en el borde del disco. Tiene una magnitud v sub máx. que es igual a A omega. Su componente x es un vector horizontal hacia la izquierda – v sub máx. veces seno omega t. La clavija proyecta una sombra sobre una línea horizontal. El resorte está unido a una pared a la izquierda y a una masa a la derecha. La posición de la masa y la sombra es x, donde x = 0 está directamente debajo del centro del disco, x = –A está directamente debajo del borde izquierdo del disco y x = +A está directamente debajo del borde derecho del disco. En la figura, la clavija está en el primer cuadrante. Su sombra y la masa están ambas en una posición x entre 0 y más A (parece estar en x = A/2 en la figura).">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_15_03_CircularPt.jpg"/>
+</media>
+
+<caption>Una clavija que se mueve en una trayectoria circular con una velocidad angular constante <m:math><m:mi>ω</m:mi></m:math> está experimentando un movimiento circular uniforme. Su proyección en el eje <emphasis effect="italics">x</emphasis> experimenta SHM. También se muestra la velocidad de la clavija alrededor del círculo, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub></m:mrow></m:math>, y su proyección, la cual es <emphasis effect="italics">v</emphasis>. Observe que estas velocidades forman un triángulo similar al del desplazamiento.</caption></figure><para id="fs-id1167132719020">Podemos usar la <link target-id="CNX_UPhysics_15_03_CircularPt"/> para analizar la velocidad de la sombra a medida que el disco gira. La clavija se mueve en un círculo con una velocidad de <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>ω</m:mi></m:mrow></m:math>. La sombra se mueve con una velocidad igual al componente de la velocidad de la clavija que es paralela a la superficie donde se produce la sombra:</para>
+<note id="fs-id1167132376976" class="equation-callout">
+<equation id="fs-id1167133476962"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mtext>–</m:mtext><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167132468705">De ello se deduce que la aceleración es</para>
+<note id="fs-id1167132279109" class="equation-callout">
+<equation id="fs-id1167132335125"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mtext>–</m:mtext><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+</note>
+<note id="fs-id1167133533745" class="check-understanding">
+<exercise id="fs-id1167133476195">
+<problem id="fs-id1167133840712">
+<para id="fs-id1167132394342"> Identifique un objeto que experimenta movimiento circular uniforme. Describa cómo podría trazar el SHM de este objeto.</para>
+</problem>
+<solution id="fs-id1167129096609">
+<para id="fs-id1167132707178">En el centro de la mesa se encuentra una botella de kétchup sobre una bandeja giratoria. Usted la pone a girar en movimiento circular uniforme. Un juego de luces ilumina la botella, lo que produce una sombra en la pared.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167132710762" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167129015145" list-type="bulleted" bullet-style="bullet">
+<item>Una proyección de movimiento circular uniforme experimenta una oscilación armónica simple.</item>
+<item>Considere un círculo de radio <emphasis effect="italics">A</emphasis> que se mueve con una velocidad angular constante <m:math><m:mi>ω</m:mi></m:math>. Un punto en el borde del círculo se mueve con una velocidad tangencial constante de <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>ω</m:mi></m:mrow></m:math>. La proyección del radio sobre el eje <emphasis effect="italics">x</emphasis> es <m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, donde <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>ϕ</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> es el deslizamiento de fase. El componente <emphasis effect="italics">x</emphasis> de la velocidad tangencial es <m:math><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>–</m:mtext><m:mi>A</m:mi><m:mi>ω</m:mi><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</item>
+</list>
+</section>
+<section id="fs-id1167132452247" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167132717903">
+<problem id="fs-id1167132408424">
+<para id="fs-id1167133845461">¿Se puede llevar a cabo esta analogía de SHM con el movimiento circular de un objeto que oscile sobre un resorte colgado verticalmente del techo? ¿Por qué sí o por qué no? Si pudiera elegir, ¿preferiría utilizar una función seno o una función coseno para modelar el movimiento?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167128985595">
+<problem id="fs-id1167132706913">
+<para id="fs-id1167133742694">Si se aumenta la velocidad máxima de la masa unida a un resorte que oscila sobre una mesa sin fricción, ¿qué características del disco giratorio habría que modificar?</para>
+</problem>
+<solution id="fs-id1167132556519">
+<para id="fs-id1167132308974">La velocidad máxima es igual a <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>ω</m:mi></m:mrow></m:math> y la frecuencia angular es independiente de la amplitud, por lo que esta se vería afectada. El radio del círculo representa la amplitud del círculo, lo que hace que la amplitud sea mayor.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167132311753" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167132497647">
+<problem id="fs-id1167132406903">
+<para id="fs-id1167132458727">El movimiento de una masa sobre un resorte colgado verticalmente, en el que la masa oscila hacia arriba y hacia abajo, también se puede modelar con el disco giratorio. En vez de ubicar las luces horizontalmente a lo largo de la parte superior y apuntando hacia abajo, ubíquelas verticalmente y haga que brillen en el lado del disco giratorio. Se producirá una sombra en una pared cercana y se moverá hacia arriba y hacia abajo. Escriba las ecuaciones del movimiento de la sombra que toma la posición en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> para ser <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> con la masa moviéndose en la dirección <emphasis effect="italics">y</emphasis> positiva.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167132614697">
+<problem id="fs-id1167132751628">
+<para id="fs-id1167128847241">(a) Un reloj novedoso tiene un objeto de 0,0100 kg de masa que rebota sobre un resorte que tiene una constante de fuerza de 1,25 N/m. ¿Cuál es la velocidad máxima del objeto si este rebota 3,00 cm por encima y por debajo de su posición de equilibrio? b) ¿Cuántos julios de energía cinética tiene el objeto a su velocidad máxima?</para>
+</problem>
+<solution id="fs-id1167133637904">
+<para id="fs-id1167132422512">a. 0,335 m/s; b <m:math><m:mrow><m:mn>5,61</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132620587">
+<problem id="fs-id1167133568230">
+<para id="fs-id1167132562187">El movimiento basculante utiliza la rotación de un motor para producir un movimiento lineal hacia arriba y hacia abajo o hacia adelante y hacia atrás. Así es como funciona una sierra basculante, como se muestra a continuación.</para>
+<media id="fs-id1167133537455" alt="Un diagrama de un motor, representado como un disco que gira sobre su eje, y hace que una cuchilla de sierra se mueva horizontalmente. En la parte inferior del disco del motor hay un enlace que se conecta a la cuchilla horizontal. El enganche puede pivotar en ambos extremos. La cuchilla está obligada a moverse horizontalmente por un hueco horizontal en un bloque guía.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_15_03_RecipSaw.jpg"/>
+</media>
+<para id="fs-id1167132325688">Si el motor gira a 60 Hz y tiene un radio de 3,0 cm, calcule la velocidad máxima de la cuchilla de sierra cuando se mueve a la izquierda y a la derecha. Este diseño se conoce como yugo escocés.</para></problem>
+</exercise>
+<exercise id="fs-id1167133839992">
+<problem id="fs-id1167132339670">
+<para id="fs-id1167128866274">Un estudiante se sitúa en el borde de un tiovivo que gira cinco veces por minuto y tiene un radio de dos metros una tarde mientras se pone el sol. El estudiante produce una sombra en el edificio cercano. (a) Escriba una ecuación para la posición de la sombra. (b) Escriba una ecuación para la velocidad de la sombra.</para>
+</problem>
+<solution id="fs-id1167132582977">
+<para id="fs-id1167132659508">a. <m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,52</m:mn><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>; b. <m:math><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>-1,05</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,52</m:mn><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+</document>

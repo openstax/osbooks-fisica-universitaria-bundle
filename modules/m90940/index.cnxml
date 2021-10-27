@@ -1,0 +1,446 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Transformadores</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90940</md:content-id>
+  <md:title>Transformadores</md:title>
+  <md:abstract>Al final de esta sección, podrá: <list>
+<item>Explicar por qué las centrales eléctricas transmiten la electricidad a altos voltajes y bajas corrientes y cómo lo hacen.</item>
+<item>Desarrollar relaciones entre corriente, voltaje y número de bobinados en transformadores elevadores y reductores.</item></list></md:abstract>
+  <md:uuid>e2270a8d-bc38-4a16-9919-4ebe402cc11d</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172101805352">Aunque la potencia eléctrica en ac se produce a voltajes relativamente bajos, se envía a través de <term class="no-emphasis">líneas de transmisión</term> a voltajes muy altos (hasta 500 kV). La misma potencia puede transmitirse a diferentes voltajes porque la potencia es el producto <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> (Para simplificar, ignoramos el factor de fase <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi><m:mo>.</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math> Por lo tanto, una necesidad de potencia concreta puede satisfacerse con un voltaje bajo y una corriente alta o con un voltaje alto y una corriente baja. La ventaja de la elección de alto voltaje/corriente baja es que resulta en una menor <m:math><m:mrow><m:msubsup><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mi>R</m:mi></m:mrow></m:math> pérdidas óhmicas en las líneas de transmisión, que pueden ser importantes en líneas de muchos kilómetros de longitud (<link target-id="CNX_UPhysics_32_06_StepUpDown"/>).</para>
+<figure id="CNX_UPhysics_32_06_StepUpDown">
+<media id="fs-id1172102128913" alt="La figura muestra una central eléctrica a la izquierda. Se conecta a un transformador elevador a través de una línea de 12 kV. El transformador está conectado a una línea de transmisión de alto voltaje de 400 kV. Se conecta a un transformador reductor en una subestación. Desde aquí, una línea de 13 kV va a un transformador reductor en un poste eléctrico. Desde aquí, una línea de 240 V va a una casa.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_06_StepUpDown.jpg"/>
+</media>
+<caption>El voltaje rms de una central eléctrica debe reducirse de 12 kV a 240 V para que pueda utilizarse con seguridad en una vivienda. Una línea de transmisión de alto voltaje permite transmitir una corriente baja a través de una subestación a largas distancias.</caption>
+</figure>
+<para id="fs-id1172101665421">Normalmente, las fuerzas electromotrices alternas producidas en las centrales eléctricas se "elevan" a voltajes muy altos antes de ser transmitidas por las líneas eléctricas; luego, se deben "reducir" a valores relativamente seguros (110 o 220 V rms) antes de se puedan utilizar en los hogares. El dispositivo que transforma los voltajes de un valor a otro mediante inducción es el <term>transformador</term> (<link target-id="CNX_UPhysics_32_06_Twork"/>).</para>
+<figure id="CNX_UPhysics_32_06_Twork">
+<media id="fs-id1172101707104" alt="Fotografía de transformadores en un poste eléctrico. Hay tres transformadores, cada uno encerrado en un contenedor cilíndrico.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_06_Twork.jpg"/>
+</media>
+<caption>Los transformadores se utilizan para reducir los altos voltajes de las líneas de transmisión a los 110 y 220 V que se utilizan en los hogares (créditos: modificación del trabajo de “Fortyseven”/Flickr).</caption>
+</figure>
+<para id="fs-id1172101707700">Como se muestra en la <link target-id="CNX_UPhysics_32_06_Transformr"/>, un transformador consta básicamente de dos bobinas separadas, o bobinados, que envuelven un núcleo de hierro blando. El bobinado primario tiene <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math> bucles, o vueltas, y se conecta a un voltaje alterno <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> El bobinado secundario tiene <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> vueltas y se conecta a un resistor de carga <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Suponemos el caso ideal en el que todas las líneas de campo magnético están confinadas en el núcleo, de modo que el mismo flujo magnético atraviesa cada una de las vueltas de los bobinados primario y secundario. También desestimamos las pérdidas de energía por histéresis magnética, por calentamiento óhmico en los bobinados y por calentamiento óhmico de las corrientes de Foucault inducidas en el núcleo. Un buen transformador puede tener pérdidas tan bajas como el 1 % de la potencia transmitida, así que no es una mala suposición.</para>
+<figure id="CNX_UPhysics_32_06_Transformr">
+<media id="fs-id1172101659335" alt="La figura muestra un núcleo de hierro blando en el centro. Tiene forma de anillo rectangular. En su brazo izquierdo hay bobinas conectadas a una fuente de voltaje. Estos se etiquetan con N subíndice p vueltas. La corriente que los atraviesa es i subíndice p paréntesis t paréntesis. El voltaje a través de dos extremos de los bobinados es v subíndice p paréntesis t paréntesis. Los bobinados del brazo derecho del núcleo están conectados a un resistor R subíndice s. Los bobinados están etiquetados con N subíndice s vueltas. Estas son más numerosas que las bobinas del brazo izquierdo. La corriente en el circuito derecho es i subíndice s paréntesis t paréntesis. El voltaje a través de los bobinados es v subíndice s paréntesis t paréntesis. La corriente del circuito izquierdo fluye hacia los bobinados desde la parte superior. La corriente en el circuito de la derecha sale del bobinado por la parte superior.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_06_Transformr.jpg"/>
+</media>
+<caption>Un transformador elevador (más vueltas en el bobinado secundario que en el primario). Los dos bobinados están enrollados en un núcleo de hierro blando.</caption>
+</figure>
+<para id="fs-id1172101971593">Para analizar el circuito del transformador, primero consideramos el bobinado primario. El voltaje de entrada <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> es igual a la diferencia de potencial inducida a través del bobinado primario. Según la ley de Faraday, la diferencia de potencial inducida es <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mtext>Φ</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mtext>Φ</m:mtext></m:math> es el flujo que atraviesa las vueltas del bobinado primario. Así,</para>
+<equation id="fs-id1172101643370" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub><m:mfrac><m:mrow><m:mi>d</m:mi><m:mtext>Φ</m:mtext></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101659213">Del mismo modo, el voltaje de salida <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> entregado al resistor de carga debe ser igual a la diferencia de potencial inducida a través del bobinado secundario. Dado que el transformador es ideal, el flujo que atraviesa las vueltas del bobinado secundario también es <m:math><m:mrow><m:mi>Φ</m:mi><m:mo>,</m:mo></m:mrow></m:math> y</para>
+<equation id="fs-id1172101688829" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub><m:mfrac><m:mrow><m:mi>d</m:mi><m:mtext>Φ</m:mtext></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101753574">Combinando las dos últimas ecuaciones, tenemos</para>
+<equation id="fs-id1172101611322"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>S</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:mfrac><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101789907">Por lo tanto, con los valores adecuados para <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> el voltaje de entrada <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> puede ser “elevado" <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> o “reducido" (<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math>) a <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> el voltaje de salida. Esto se suele abreviar como la <term>ecuación del transformador</term>,</para>
+<note id="fs-id1172102118314" class="equation-callout">
+<equation id="fs-id1172102001994"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1172102138569">que muestra que la relación entre los voltajes del secundario y el primario en un transformador es igual a la relación del número de vueltas en sus bobinados. Para un <term>transformador elevador</term>, que aumenta el voltaje y disminuye la corriente, esta relación es mayor que uno; para un <term>transformador reductor</term>, que disminuye el voltaje y aumenta la corriente, esta relación es menor que uno.</para>
+<para id="fs-id1172101895240">A partir de la ley de conservación de la energía, la potencia introducida en cualquier instante por <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> al bobinado primario debe ser igual a la potencia disipada en el resistor del circuito secundario; así,</para>
+<equation id="fs-id1172102041085" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>i</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>i</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:msub><m:mi>v</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101615513">Cuando se combina con la <link target-id="fs-id1172101611322"/>, se obtiene</para>
+<equation id="fs-id1172101910780"><m:math><m:mrow><m:msub><m:mi>i</m:mi><m:mtext>S</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:msub><m:mi>i</m:mi><m:mtext>P</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101662758">Si el voltaje aumenta, la corriente disminuye, y viceversa.</para>
+<para id="fs-id1172101762756">Por último, podemos utilizar <m:math><m:mrow><m:msub><m:mi>i</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>S</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mrow></m:mrow></m:math>, junto con la <link target-id="fs-id1172101611322"/> y la <link target-id="fs-id1172101910780"/>, para obtener</para>
+<equation id="fs-id1172101759086" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>i</m:mi><m:mtext>P</m:mtext></m:msub><m:mrow><m:mo>[</m:mo><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172101988631">que nos dice que el voltaje de entrada <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> "ve" no una resistencia <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> sino una resistencia</para>
+<equation id="fs-id1172101971584" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:msub><m:mi>R</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172102044150">Nuestro análisis se ha basado en valores instantáneos de voltaje y corriente. Sin embargo, las ecuaciones resultantes no se limitan a los valores instantáneos, sino que también son válidas para los valores máximos y rms.</para>
+<example id="fs-id1172101793315">
+<para id="fs-id1172101695735"><title>Un transformador reductor</title>
+Un transformador situado en un poste de la compañía eléctrica reduce el voltaje rms de 12 kV a 240 V. (a) ¿Cuál es la relación entre el número de vueltas del secundario y el número de vueltas del primario? (b) Si la corriente de entrada al transformador es de 2,0 A, ¿cuál es la corriente de salida? (c) Determine la pérdida de potencia en la línea de transmisión.</para>
+<para id="fs-id1172101754077"><title>Estrategia</title>
+El número de vueltas relacionado con los voltajes se encuentran en la <link target-id="fs-id1172101611322"/>. La corriente de salida se calcula mediante la <link target-id="fs-id1172101910780"/>.</para>
+<para id="fs-id1172101774445"><title>Solución</title></para>
+<list id="fs-id1172101663804" list-type="enumerated" number-style="lower-alpha">
+<item>Utilizando la <link target-id="fs-id1172101611322"/> con valores rms <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> tenemos
+<equation id="fs-id1172102028016" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>240</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>50</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+por lo que el bobinado primario tiene 50 veces el número de vueltas del bobinado secundario.</item>
+<item>A partir de la <link target-id="fs-id1172101910780"/>, la corriente rms de salida <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:math> se calcula utilizando la ecuación del transformador con la corriente<newline/>
+<note id="fs-id1172101756640" class="equation-callout">
+<equation id="fs-id1172101761366"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:msub><m:mi>I</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math></equation>
+</note><newline/> tal que
+<equation id="fs-id1172102016168" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:msub><m:mi>I</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>50</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>La pérdida de potencia en la línea de transmisión se calcula con la ecuación
+<equation id="fs-id1172101615029" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>pérdida</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msubsup><m:mi>I</m:mi><m:mtext>P</m:mtext><m:mn>2</m:mn></m:msubsup><m:mi>R</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6000</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>24,000</m:mn><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>Si no hubiera un transformador, la energía tendría que enviarse a 240 V para que funcionara para estas casas, y la pérdida de energía sería
+<equation id="fs-id1172101999113" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>pérdida</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msubsup><m:mi>I</m:mi><m:mtext>S</m:mtext><m:mn>2</m:mn></m:msubsup><m:mi>R</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+Por lo tanto, cuando hay que transmitir potencia, queremos evitar la pérdida de la misma. Así, las líneas se envían con voltajes altos y corrientes bajas y se ajustan con un transformador antes de enviar la energía a los hogares.</item>
+</list>
+<para id="fs-id1172101664339"><title>Importancia</title>
+Esta aplicación de un transformador reductor permite que una vivienda que utiliza tomas de corriente de 240 V disponga de 100 A para su uso. Esto puede alimentar muchos dispositivos en el hogar.</para>
+</example>
+<note id="fs-id1172102052944" class="check-understanding">
+<exercise id="fs-id1172102052196">
+<problem id="fs-id1172101796866">
+<para id="fs-id1172102021662">Un transformador reduce el voltaje de la línea de 110 a 9,0 V para poder suministrar una corriente de 0,50 A a un timbre. (a) ¿Cuál es la relación del número de vueltas en los bobinados primario y secundario? (b) ¿Cuál es la corriente en el bobinado primario? (c) ¿Cuál es la resistencia que se ve en la fuente de 110 V?</para>
+</problem>
+<solution id="fs-id1172101804653">
+<para id="fs-id1172101927755">a. 12:1; b. 0,042 A; c <m:math><m:mrow><m:mn>2,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1172102023735" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172101615214" list-type="bulleted" bullet-style="bullet">
+<item>Las centrales eléctricas transmiten altos voltajes a bajas corrientes para conseguir menores pérdidas óhmicas en sus muchos kilómetros de líneas de transmisión.</item>
+<item>Los transformadores utilizan la inducción para transformar los voltajes de un valor a otro.</item>
+<item>En un transformador, los voltajes en las bobinas primarias y secundarias, o bobinados, están relacionadas por la ecuación del transformador.</item>
+<item>Las corrientes en los bobinados primario y secundario están relacionadas por el número de bucles primarias y secundarias, o vueltas, en los bobinados del transformador.</item>
+<item>Un transformador elevador aumenta el voltaje y disminuye la corriente, mientras que un transformador reductor disminuye el voltaje y aumenta la corriente.</item>
+</list>
+</section>
+<section id="fs-id1172101887916" class="key-equations">
+<title>Ecuaciones clave</title>
+<table id="fs-id1172102022484" summary="The table has two columns and sixteen rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “AC voltage” and “v equals V subscript 0 sine omega t”. The second row contains “AC current” and “i equals I subscript 0 sine omega t”. The third row contains “capacitive reactance” and “V subscript 0 divided by I subscript 0 equals 1 divided by omega C equals X subscript C”. The fourth row contains “rms voltage” and “V subscript rms equals V subscript 0 divided by square root 2”. The fifth row contains “rms current” and “I subscript rms equals I subscript 0 divided by square root 2”. The sixth row contains “inductive reactance” and “V subscript 0 divided by I subscript 0 equals omega L equals X subscript L”. The seventh row contains “Phase angle of an ac circuit” and “phi equals tan inverse X subscript L minus X subscript C divided by R”. The eighth row contains “AC version of Ohm’s law” and “I subscript 0 equals V subscript 0 divided by Z”. The ninth row contains “Impedance of an ac circuit” and “Z equals square root r square plus opening parenthesis X subscript L minus X subscript C closing parenthesis square”. The tenth row contains “Average power associated with a circuit element” and “P subscript ave equals half I subscript 0 V subscript 0 cosine phi”. The eleventh row contains “Average power dissipated by a resistor” and “P subscript ave equals half I subscript 0 V subscript 0 equals I subscript rms V subscript rms equals I subscript rms square R”. The twelfth row contains “Resonant angular frequency of a circuit” and “omega subscript 0 equals square root 1 divided by L C”. The thirteenth row contains “Quality factor of a circuit” and “Q equals omega subscript 0 divided by delta omega”. The fourteenth row contains “Quality factor of a circuit in terms of the circuit parameters” and “Q equals omega subscript 0 L divided by R”. The fifteenth row contains “Transformer equation with voltage” and “V subscript S divided by V subscript P equals N subscript S divided by N subscript P”. The sixteenth row contains “Transformer equation with current” and “I subscript S equals N subscript P divided by N subscript S multiplied by I subscript P”." class="unnumbered unstyled">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Voltaje alterno</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Corriente alterna</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">reactancia capacitiva</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>ω</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>X</m:mi><m:mi>C</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">voltaje rms</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">corriente rms</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">reactancia inductiva</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>ω</m:mi><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>X</m:mi><m:mi>L</m:mi></m:msub></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ángulo de fase de un circuito en serie RLC	</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>ϕ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mfrac><m:mrow><m:msub><m:mi>X</m:mi><m:mi>L</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>X</m:mi><m:mi>C</m:mi></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Versión AC de la ley de Ohm	</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>Z</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Impedancia de un circuito en serie RLC</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>X</m:mi><m:mi>L</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>X</m:mi><m:mi>C</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Potencia media asociada a un elemento del circuito</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>ϕ</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Potencia media disipada por un resistor</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msubsup><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mi>R</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Frecuencia angular de resonancia de un circuito</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>L</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Factor de calidad de un circuito</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>ω</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Factor de calidad de un circuito en función de los parámetros del mismo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mi>L</m:mi></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ecuación del transformador con voltaje</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ecuación del transformador con corriente</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>S</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>S</m:mtext></m:msub></m:mrow></m:mfrac><m:msub><m:mi>I</m:mi><m:mtext>P</m:mtext></m:msub></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+<section id="fs-id1172101768954" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172101988907">
+<problem id="fs-id1172101988910">
+<para id="fs-id1172102136304">¿Por qué las líneas de transmisión funcionan con voltajes muy altos mientras que los circuitos domésticos funcionan con voltajes bastante pequeños?</para>
+</problem>
+<solution id="fs-id1172102014635">
+<para id="fs-id1172102014637">Las pérdidas térmicas son menores si las líneas de transmisión funcionan con corrientes bajas y voltajes altos.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102030534">
+<problem id="fs-id1172102030536">
+<para id="fs-id1172102044234">¿Cómo se puede distinguir el bobinado primario del secundario en un transformador elevador?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102135927">
+<problem id="fs-id1172102078338">
+<para id="fs-id1172102078340">Las baterías de algunos aparatos electrónicos se cargan mediante un adaptador conectado a una toma de corriente. Especule sobre la finalidad del adaptador.</para>
+</problem>
+<solution id="fs-id1172102131313">
+<para id="fs-id1172102131316">El adaptador tiene un transformador reductor para tener un voltaje más bajo y posiblemente una corriente más alta a la que el dispositivo puede funcionar.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101979174">
+<problem id="fs-id1172101979176">
+<para id="fs-id1172102136407">¿Funcionará un transformador si la entrada es un voltaje continuo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101758011">
+<problem id="fs-id1172101758013">
+<para id="fs-id1172101639955">¿Por qué las bobinas primarias y secundarias de un transformador están enrolladas en el mismo bucle cerrado de hierro?</para>
+</problem>
+<solution id="fs-id1172101761871">
+<para id="fs-id1172101761873">para que cada bobina pueda experimentar el mismo flujo magnético cambiante</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172102136794" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172102040816">
+<problem id="fs-id1172102133062">
+<para id="fs-id1172102133064">Un transformador elevador está diseñado para que la salida de su bobinado secundario sea de 2.000 V (rms) cuando el bobinado primario está conectado a un voltaje de línea de 110 V (rms). (a) Si el bobinado primario tiene 100 vueltas, ¿cuántas vueltas tiene el bobinado secundario? (b) Si un resistor conectado a través del bobinado secundario consume una corriente rms de 0,75 A, ¿cuál es la corriente en el bobinado primario?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102131963">
+<problem id="fs-id1172102131966">
+<para id="fs-id1172102136630">Se utiliza un transformador elevador conectado a una línea de 110 V para alimentar un tubo de descarga de gas hidrógeno con 5,0 kV (rms). El tubo disipa 75 W de potencia. (a) ¿Cuál es la relación entre el número de vueltas del bobinado secundario y el número de vueltas del bobinado primario? (b) ¿Cuáles son las corrientes rms en los bobinados primario y secundario? (c) ¿Cuál es la resistencia efectiva vista por la fuente de 110 V?</para>
+</problem>
+<solution id="fs-id1172102116606">
+<para id="fs-id1172102116608">a. 45:1; b. 0,68 A, 0,015 A; c <m:math><m:mrow><m:mn>160</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102031626">
+<problem id="fs-id1172102031628">
+<para id="fs-id1172102082613">Una fuente de ac entrega 5,0 mW de potencia con una corriente rms de 2,0 mA cuando se conecta a la bobina primaria de un transformador. El voltaje rms a través de la bobina secundaria es de 20 V. (a) ¿Cuál es el voltaje a través de la bobina primaria y la corriente a través de la bobina secundaria? (b) ¿Cuál es la relación de vueltas del secundario al primario para el transformador?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102138583">
+<problem id="fs-id1172101970139">
+<para id="fs-id1172101970141">Un transformador se utiliza para reducir los 110 V de una toma de corriente a 9,0 V para una radio. (a) Si el bobinado primario tiene 500 vueltas, ¿cuántas vueltas tiene el bobinado secundario? (b) Si la radio funciona con una corriente de 500 mA, ¿cuál es la corriente que pasa por el bobinado primario?</para>
+</problem>
+<solution id="fs-id1172101790116">
+<para id="fs-id1172101790118">a. 41 vueltas; b. 40,9 mA</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172101774083">
+<problem id="fs-id1172101774085">
+<para id="fs-id1172101996063">Se utiliza un transformador para alimentar una maqueta de 12 V con energía de un enchufe de pared de 110 V. El tren funciona a 50 W de potencia. (a) ¿Cuál es la corriente rms en la bobina secundaria del transformador? (b) ¿Cuál es la corriente rms en la bobina primaria? (c) ¿Cuál es la relación entre el número de vueltas del primario y del secundario? (d) ¿Cuál es la resistencia del tren? (e) ¿Cuál es la resistencia que ve la fuente de 110 V?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172102030576" class="review-additional-problems">
+<title>Problemas adicionales</title>
+<exercise id="fs-id1172102104507">
+<problem id="fs-id1172102104509">
+<para id="fs-id1172102021207">La emf de una fuente de ac viene dada por <m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Calcule una expresión que represente la corriente de salida de la fuente si se conecta a través de (a) un condensador de <m:math><m:mrow><m:mn>20</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>, (b) un inductor de 20 mH y (c) un resistor de <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>.</para></problem>
+<solution id="fs-id1172102054931">
+<para id="fs-id1172102138247">a. <m:math><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,26</m:mn><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>200</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>; b <m:math><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7,96</m:mn><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>200</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>−</m:mo><m:mrow><m:mi>π</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>; c <m:math><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mtext>A</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>200</m:mn><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1172101920777">
+<problem id="fs-id1172102021064">
+<para id="fs-id1172102021067">Un condensador de 700 pF está conectado a una fuente de ac con una amplitud de voltaje de 160 V y una frecuencia de 20 kHz. (a) Determine la reactancia capacitiva del condensador y la amplitud de la corriente de salida de la fuente. (b) Si la frecuencia se cambia a 60 Hz manteniendo la amplitud de voltaje en 160 V, ¿cuáles son la reactancia capacitiva y la amplitud de la corriente?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102066652">
+<problem id="fs-id1172102066655">
+<para id="fs-id1172102066657">Un inductor de 20 mH está conectado a través de una fuente de ac con una frecuencia variable y una amplitud de voltaje constante de 9,0 V. (a) Determine la reactancia del circuito y la corriente máxima que pasa por el inductor cuando la frecuencia se fija en 20 kHz. (b) Haga los mismos cálculos para una frecuencia de 60 Hz.</para>
+</problem>
+<solution id="fs-id1172102133231">
+<para id="fs-id1172102133233">a. <m:math><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mn>3,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>; b <m:math><m:mrow><m:mn>7,5</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo><m:mn>1,2</m:mn><m:mtext>A</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102031707">
+<problem id="fs-id1172102031709">
+<para id="fs-id1172102135764">Un condensador de <m:math><m:mrow><m:mn>30</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> está conectado a través de una fuente de ac de 60 Hz cuya amplitud de voltaje es de 50 V. (a) ¿Cuál es la carga máxima en el condensador? (b) ¿Cuál es la corriente máxima en el condensador? (c) ¿Cuál es la relación de fase entre la carga del condensador y la corriente en el circuito?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102138237">
+<problem id="fs-id1172102138239">
+<para id="fs-id1172102132910">Un inductor de 7,0 mH está conectado a una fuente de ac de 60 Hz cuya amplitud de voltaje es de 50 V. (a) ¿Cuál es la corriente máxima que pasa por el inductor? (b) ¿Cuál es la relación de fase entre la corriente que pasa y la diferencia de potencial a través del inductor?</para>
+</problem>
+<solution id="fs-id1172102138448">
+<para id="fs-id1172102138450">a. 19 A; b. los cables del inductor por <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102078502">
+<problem id="fs-id1172102078504">
+<para id="fs-id1172102078506">¿Cuál es la impedancia de un circuito <emphasis effect="italics">RLC</emphasis> en serie a la frecuencia de resonancia?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101996232">
+<problem id="fs-id1172102043754">
+<para id="fs-id1172102043756">¿Cuál es la resistencia <emphasis effect="italics">R</emphasis> en el circuito que se muestra a continuación si la amplitud de la ac que pasa por el inductor es de 4,24 A?</para>
+<media id="fs-id1172101614366" alt="La figura muestra un circuito con una fuente de ac de 50 V, sinusoidal de 120 pi t. Se conecta a un inductor de 8 mH, un condensador de 400 mu F y un resistor R. Se conecta otro condensador en paralelo con el primero. Su valor es de 200 mu F.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_03_Problem27_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172102138024">
+<para id="fs-id1172102138026"><m:math><m:mrow><m:mn>11,7</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102038338">
+<problem id="fs-id1172102038340">
+<para id="fs-id1172102103315">Una fuente de ac con una amplitud de voltaje de 100 V y una frecuencia de 1,0 kHz acciona un circuito en serie <emphasis effect="italics">RLC</emphasis> con <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>mH</m:mtext></m:mrow></m:math>, y <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math>. (a) Determine la corriente rms a través del circuito. (b) ¿Cuáles son los voltajes rms a través de los tres elementos? (c) ¿Cuál es el ángulo de fase entre la emf y la corriente? (d) ¿Cuál es la potencia de salida de la fuente? (e) ¿Cuál es la potencia disipada en el resistor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102051245">
+<problem id="fs-id1172102051247">
+<para id="fs-id1172102078841">En un circuito en serie <emphasis effect="italics">RLC</emphasis>, <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>H</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mi>μ</m:mi><m:mtext>F,</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>120</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>, y <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:math>. ¿Cuál es la potencia de la fuente?</para>
+</problem>
+<solution id="fs-id1172102007551">
+<para id="fs-id1172102007553">14 W</para></solution>
+</exercise>
+<exercise id="fs-id1172102136195">
+<problem id="fs-id1172102136197">
+<para id="fs-id1172102136199">Un generador de una central eléctrica produce 100 A a 15 kV (rms). Se utiliza un transformador para elevar el voltaje de la línea de transmisión a 150 kV (rms). (a) ¿Cuál es la corriente rms en la línea de transmisión? (b) Si la resistencia por unidad de longitud de la línea es <m:math><m:mrow><m:mn>8,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mtext>/m,</m:mtext></m:mrow></m:math> ¿cuál es la pérdida de potencia por metro en la línea? (c) ¿Cuál sería la pérdida de potencia por metro si el voltaje de la línea fuera de 15 kV (rms)?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102104353">
+<problem id="fs-id1172102104355">
+<para id="fs-id1172102104357">Consideremos una central eléctrica situada a 25 km de una ciudad que suministra 50 MW de energía a la misma. Las líneas de transmisión están hechas de cables de aluminio con un área de la sección transversal. <m:math><m:mrow><m:mn>7</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> Calcule la pérdida de potencia en las líneas de transmisión si se transmite a (a) 200 kV (rms) y (b) 120 V (rms).</para>
+</problem>
+<solution id="fs-id1172102068072">
+<para id="fs-id1172102068074">a. <m:math><m:mrow><m:mn>5,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math>; b <m:math><m:mrow><m:mn>1,64</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>W</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102077747">
+<problem id="fs-id1172102077749">
+<para id="fs-id1172102104427">Las carteles de neón requieren 12 kV para su funcionamiento. Se utilizará un transformador para cambiar el voltaje de 220 V (rms) ac a 12 kV (rms) ac. ¿Cuál debe ser la relación entre las vueltas del bobinado secundario y las vueltas del primario? (b) ¿Cuál es la máxima corriente rms que pueden consumir las lámparas de neón si el fusible del bobinado primario se funde a 0,5 A? (c) ¿Qué potencia utiliza el cartel de neón cuando consume la máxima corriente permitida por el fusible del bobinado primario?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172102135456" class="review-challenge">
+<title>Problemas de desafío</title>
+<exercise id="fs-id1172102118012">
+<problem id="fs-id1172102118014">
+<para id="fs-id1172102118016">La electricidad de 335 kV de ac procedente de una línea de transmisión de energía se introduce en el bobinado primario de un transformador. La relación entre el número de vueltas del bobinado secundario y el número del bobinado primario es <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>s</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>N</m:mi><m:mtext>p</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1.000</m:mn></m:mrow></m:math>. (a) ¿Qué voltaje se induce en el bobinado secundario? (b) ¿Qué no es razonable en este resultado? (c) ¿Qué suposición o premisa es responsable?</para>
+</problem>
+<solution id="fs-id1172102029533">
+<para id="fs-id1172102029536">a. 335 MV; b. el resultado es demasiado alto, muy por encima del voltaje de ruptura del aire en distancias razonables; c. el voltaje de entrada es demasiado alto</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102019561">
+<problem id="fs-id1172102019563">
+<para id="fs-id1172102019565">Un condensador de <m:math><m:mrow><m:mn>1,5</m:mn><m:mtext>-k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> el resistor y un inductor de 30 mH están conectados en serie, como se muestra a continuación, a través de una fuente de alimentación de ac de 120 V (rms) que oscila a una frecuencia de 60 Hz. (a) Calcule la corriente en el circuito. (b) Calcule las caídas de voltaje en el resistor y el inductor. (c) Calcule la impedancia del circuito. (d) Calcule la potencia disipada en al resistor. (e) Calcule la potencia disipada en el inductor. (f) Calcule la potencia producida por la fuente.</para>
+<media id="fs-id1172102103826" alt="Circuito en serie con fuente de voltaje V paréntesis t paréntesis, un inductor de 30 mH y un resistor de 1,5 kilo ohmios">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_06_Problem70_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172102019988">
+<problem id="fs-id1172102043838">
+<para id="fs-id1172102043840">Un resistor de <m:math><m:mrow><m:mn>20</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>, un condensador de <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> y un inductor de 30 mH están conectados en serie con una fuente de ac de amplitud 10 V y frecuencia 125 Hz. (a) ¿Cuál es la impedancia del circuito? (b) ¿Cuál es la amplitud de la corriente en el circuito? (c) ¿Cuál es la constante de fase de la corriente? ¿Está adelantando o retrasando el voltaje de la fuente? (d) Escriba las caídas de voltaje en el resistor, el condensador y el inductor y el voltaje de la fuente en función del tiempo. (e) ¿Cuál es el factor de potencia del circuito? (f) ¿Cuánta energía utiliza el resistor en 2,5 s?</para>
+</problem>
+<solution id="fs-id1172102135350">
+<para id="fs-id1172102135353">a. <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; b. 0,5 A; c <m:math><m:mrow><m:mn>5,4</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, con retraso;<newline/> d <m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>V</m:mi><m:mi>R</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9,96</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>250</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>5,4</m:mn><m:mtext>°</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mi>C</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12,7</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>250</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>5,4</m:mn><m:mtext>°</m:mtext><m:mo>−</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>11,8</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>250</m:mn><m:mi>π</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>5,4</m:mn><m:mtext>°</m:mtext><m:mo>+</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>fuente</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10,0</m:mn><m:mtext>​</m:mtext><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>250</m:mn><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr></m:mtable></m:math> e. 0,995; f. 6,25 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102136289">
+<problem id="fs-id1172102136292">
+<para id="fs-id1172102136294">Un resistor de <m:math><m:mrow><m:mn>200</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>, un condensador de <m:math><m:mrow><m:mn>150</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> y un inductor de 2,5 H están conectados en serie con una fuente de ac de 10 V de amplitud y frecuencia angular variable <m:math><m:mi>ω</m:mi></m:math>. (a) ¿Cuál es el valor de la frecuencia de resonancia <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math>? (b) ¿Cuál es la amplitud de la corriente si <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math>? (c) ¿Cuál es la constante de fase de la corriente cuando <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math>? ¿Está adelantando o retrasando el voltaje de la fuente, o está en fase? (d) Escriba una ecuación para la caída de voltaje a través del resistor como una función de tiempo cuando <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math>. (e) ¿Cuál es el factor de potencia del circuito cuando <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math>? (f) ¿Cuánta energía consume el resistor en 2,5 s cuando <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mi>R</m:mi></m:msub></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102116732">
+<problem id="fs-id1172102116734">
+<para id="fs-id1172102116736">Calcule las reactancias de los siguientes condensadores e inductores en circuitos de ac con las frecuencias dadas en cada caso: (a) inductor de 2 mH con una frecuencia de 60 Hz del circuito de ac; (b) inductor de 2 mH con una frecuencia de 600 Hz del circuito de ac; (c) inductor de 20 mH con una frecuencia de 6 Hz del circuito de ac; (d) inductor de 20 mH con una frecuencia de 60 Hz del circuito de ac; (e) condensador de 2 mF con una frecuencia de 60 Hz del circuito de ac; y (f) condensador de 2 mF con una frecuencia de 600 Hz del circuito de ac.</para>
+</problem>
+<solution id="fs-id1172102103604">
+<para id="fs-id1172102103607">a. <m:math><m:mrow><m:mn>0,75</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; b <m:math><m:mrow><m:mn>7,5</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; c <m:math><m:mrow><m:mn>0,75</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; d <m:math><m:mrow><m:mn>7,5</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; e <m:math><m:mrow><m:mn>1,3</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>; f <m:math><m:mrow><m:mn>0,13</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102066910">
+<problem id="fs-id1172102066912">
+<para id="fs-id1172102066915">La impedancia de salida de un amplificador de audio tiene una impedancia de <m:math><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> y tiene un desajuste con una baja impedancia <m:math><m:mrow><m:mn>8</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> altavoz. Se le pide que inserte un transformador adecuado para igualar las impedancias. ¿Qué relación de transformación va a utilizar y por qué? Utilice el circuito simplificado que se muestra a continuación.</para>
+<media id="fs-id1172101986204" alt="La figura muestra un transformador con más bobinados en la bobina primaria. La bobina primaria está conectada a una fuente de voltaje a través de una impedancia Z igual a 500 ohmios. El voltaje a través de los bobinados se marca como salida del amplificador V subíndice P. Los dos extremos de la bobina secundaria del transformador se conectan a través de una resistencia de 8 ohmios.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_03_Problem28_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172101970120">
+<problem id="fs-id1172101970122">
+<para id="fs-id1172102032863">Demuestre que la unidad del SI para la reactancia capacitiva es el ohmio. Demuestre que la unidad del SI para la reactancia inductiva es también el ohmio.</para>
+</problem>
+<solution id="fs-id1172102032869">
+<para id="fs-id1172102032871">Las unidades como se escriben para la reactancia inductiva en la <link target-id="fs-id1172101883508" document="m90934"/> son <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac><m:mtext>H</m:mtext></m:mrow></m:math>. Los radianes pueden ignorarse en el análisis de las unidades. El henrio puede definirse como <m:math><m:mrow><m:mtext>H</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>V</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow><m:mtext>A</m:mtext></m:mfrac><m:mo>=</m:mo><m:mtext>Ω</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math>. Si se combinan, se obtiene una unidad de <m:math><m:mtext>Ω</m:mtext></m:math> para la reactancia.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102105186">
+<problem id="fs-id1172102132842">
+<para id="fs-id1172102132844">Una bobina con una autoinducción de 16 mH y una resistencia de <m:math><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> está conectada a una fuente de ac cuya frecuencia puede variar. ¿Cuál es la frecuencia del voltaje aplicado que permitirá que la bobina conduzca una corriente por <m:math><m:mrow><m:mn>45</m:mn><m:mtext>°</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1172101969869">
+<problem id="fs-id1172101969871">
+<para id="fs-id1172101969873">Un circuito en serie <emphasis effect="italics">RLC</emphasis> está formado por un resistor de <m:math><m:mrow><m:mn>50</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>, un condensador de <m:math><m:mrow><m:mn>200</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> y un inductor de 120 mH cuya bobina tiene una resistencia de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. La fuente del circuito tiene una emf rms de 240 V a una frecuencia de 60 Hz. Calcule los voltaje rms en (a) el resistor, (b) el condensador y (c) el inductor.</para>
+</problem>
+<solution id="fs-id1172102138377">
+<para id="fs-id1172102117583">a. 156 V; b. 42 V; c. 154 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102117589">
+<problem id="fs-id1172102117591">
+<para id="fs-id1172102117593">Un circuito en serie <emphasis effect="italics">RLC</emphasis> está formado por un resistor de <m:math><m:mrow><m:mn>10</m:mn><m:mtext>-</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math>, un condensador <m:math><m:mrow><m:mn>8,0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> y un inductor de 50 mH. Una fuente de 110 V (rms) de frecuencia variable se conecta a través de la combinación. ¿Cuál es la potencia de la fuente cuando su frecuencia se ajusta a la mitad de la frecuencia de resonancia del circuito?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102103211">
+<problem id="fs-id1172102103213">
+<para id="fs-id1172102103215">A continuación se muestran dos circuitos que actúan como filtros de paso alto rudimentarios. El voltaje de entrada a los circuitos es <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>entrada</m:mtext></m:mrow></m:msub></m:mrow></m:math>, y el voltaje de salida es <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> (a) Demuestre que para el circuito de condensadores,</para>
+<para id="fs-id1172102014631"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>entrada</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>C</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172102127890">y para el circuito inductor,</para>
+<para id="fs-id1172102127893"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>entrada</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ω</m:mi><m:mi>L</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172102137752">(b) Demuestre que para frecuencias altas, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>entrada</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> pero para las frecuencias bajas, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172102134808" alt="La figura muestra dos circuitos. El primero muestra un condensador y un resistor en serie con una fuente de tensión marcada V entrada. V salida se mide a través del resistor. El segundo circuito muestra un inductor y un resistor en serie con una fuente de voltaje marcada como V entrada. V salida se mide a través del inductor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_06_Problem67_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172102103913">
+<para id="fs-id1172102103915">a. <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>entrada</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>C</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math> y <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>entrada</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ω</m:mi><m:mi>L</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math>; b <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>entrada</m:mtext></m:mrow></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102068506">
+<problem id="fs-id1172102068508">
+<para id="fs-id1172102068510">Los dos circuitos que se muestran a continuación actúan como filtros de paso bajo rudimentarios. El voltaje de entrada a los circuitos es <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>entrada</m:mtext></m:mrow></m:msub></m:mrow></m:math>, y el voltaje de salida es <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> (a) Demuestre que para el circuito de condensadores,</para>
+<para id="fs-id1172101987729"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>entrada</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>C</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172102028470">y para el circuito inductor,</para>
+<para id="fs-id1172102017081"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>entrada</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>R</m:mi><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172101996328">(b) Demuestre que para frecuencias bajas, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>entrada</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> pero para las frecuencias altas, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>salida</m:mtext></m:mrow></m:msub><m:mo>≈</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1172102131215" alt="La figura muestra dos circuitos. La primera muestra un condensador y un resistor en serie con una fuente de voltaje marcado como V entrada. V salida se mide a través del condensador. El segundo circuito muestra un inductor y un resistor en serie con una fuente de voltaje marcada como V entrada. V salida se mide a través del resistor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_32_06_Problem68_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172102078232">
+<term>transformador reductor</term>
+<meaning id="fs-id1172102078237">transformador que disminuye el voltaje y aumenta la corriente</meaning>
+</definition>
+<definition id="fs-id1172102078241">
+<term>transformador elevador</term>
+<meaning id="fs-id1172102078247">transformador que aumenta el voltaje y disminuye la corriente</meaning>
+</definition>
+<definition id="fs-id1172102078251">
+<term>transformador</term>
+<meaning id="fs-id1172102078256">dispositivo que transforma voltaje de un valor a otro mediante inducción</meaning>
+</definition>
+<definition id="fs-id1172102136494">
+<term>ecuación del transformador</term>
+<meaning id="fs-id1172102136499">la ecuación que muestra que la relación entre los voltajes del secundario y el primario en un transformador es igual a la relación del número de vueltas en sus bobinados</meaning>
+</definition>
+</glossary>
+</document>

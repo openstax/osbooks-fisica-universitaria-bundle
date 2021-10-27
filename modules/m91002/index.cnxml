@@ -1,0 +1,113 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Efecto Doppler para la luz</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91002</md:content-id>
+  <md:title>Efecto Doppler para la luz</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar el origen del desplazamiento de la frecuencia y de la longitud de onda observada cuando el observador y la fuente se acercan o alejan el uno del otro.</item>
+<item>Deducir una expresión para el corrimiento Doppler relativista.</item>
+<item>Aplicar las ecuaciones del corrimiento Doppler en ejemplos del mundo real.</item>
+</list></md:abstract>
+  <md:uuid>f6bcbee9-c801-4928-b68c-c7d7e19eb210</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167793300541">Como se ha comentado en el capítulo sobre el sonido, si una fuente de sonido y un oyente se alejan, el oyente encuentra menos ciclos de una onda en cada segundo, y por lo tanto una frecuencia más baja, que si su separación permanece constante. Por la misma razón, el oyente detecta una frecuencia más alta si la fuente y el oyente se acercan. El corrimiento Doppler resultante en la frecuencia detectada se produce para cualquier forma de onda. Sin embargo, en el caso de las ondas sonoras, las ecuaciones del corrimiento Doppler difieren notablemente en función de si es la fuente, el observador o el aire, lo que se mueve. La luz no necesita ningún medio, y el corrimiento Doppler de la luz que viaja en el vacío solo depende de la velocidad relativa del observador y de la fuente.</para>
+<section id="fs-id1167793515309">
+<title>El efecto Doppler relativista</title>
+<para id="fs-id1167794334001">Supongamos que un observador en <emphasis effect="italics">S</emphasis> ve la luz de una fuente en <m:math><m:mi>S</m:mi><m:mo>′</m:mo></m:math> alejándose a una velocidad <emphasis effect="italics">v</emphasis> (<link target-id="CNX_UPhysics_38_07_DopplerFr"/>). La longitud de onda de la luz podría medirse en <m:math><m:mi>S</m:mi><m:mo>′</m:mo></m:math>, por ejemplo, utilizando un espejo para establecer ondas estacionarias y midiendo la distancia entre los nodos. Estas distancias son longitudes adecuadas con <m:math><m:mi>S</m:mi><m:mo>′</m:mo></m:math> como su marco de reposo, y cambian por un factor <m:math><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:msqrt></m:mrow></m:math> cuando se mide en el marco <emphasis effect="italics">S</emphasis> del observador, donde la regla que mide la longitud de onda en <m:math><m:mi>S</m:mi><m:mo>′</m:mo></m:math> se ve en movimiento.</para>
+<figure id="CNX_UPhysics_38_07_DopplerFr">
+<media id="fs-id1167793522391" alt="En la figura a: Se muestra un observador en el origen de un marco estacionario S. El marco S primo se mueve hacia la derecha con velocidad v respecto al marco S. Se muestra una fuente en el origen de S primo que emite una onda sinusoidal que se propaga hacia la izquierda. En la figura b, se muestran seis ciclos de la onda tal como la ven el observador y la fuente. La longitud de onda de la onda vista por el observador es mayor que la de la onda vista por la fuente. La anchura de los seis ciclos vistos por la fuente está marcada como c delta t. La longitud extra hasta el final de los seis ciclos según la ve el observador está marcada como v delta t.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_07_DopplerFr.jpg"/>
+</media>
+<caption>(a) Cuando una fuente fija emite una onda luminosa en el marco inercial móvil <m:math><m:mi>S</m:mi><m:mo>′</m:mo><m:mo>,</m:mo></m:math> el observador en <emphasis effect="italics">S</emphasis> ve la longitud de onda medida en <m:math><m:mi>S</m:mi><m:mo>′</m:mo><m:mo>.</m:mo></m:math> como más corta por un factor de <m:math><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> (b) Como el observador ve que la fuente se aleja dentro de <emphasis effect="italics">S</emphasis>, el patrón de onda que llega al observador en <emphasis effect="italics">S</emphasis> también se estira por el factor<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>v</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>v</m:mi><m:mtext>/</m:mtext><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1167793581913">Si la fuente estuviera estacionaria en <emphasis effect="italics">S</emphasis>, el observador vería una longitud <m:math><m:mrow><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> del patrón de ondas en el tiempo <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math> Pero debido al movimiento de <m:math><m:mi>S</m:mi><m:mo>′</m:mo></m:math> con respecto a <emphasis effect="italics">S</emphasis>, considerado únicamente dentro de <emphasis effect="italics">S</emphasis>, el observador ve el patrón de onda, y por tanto la longitud de onda, estirada por un factor de</para>
+<equation id="fs-id1167794038392" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:msub><m:mi>t</m:mi><m:mrow><m:mtext>período</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:mi>v</m:mi><m:mtext>Δ</m:mtext><m:msub><m:mi>t</m:mi><m:mrow><m:mtext>período</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:msub><m:mi>t</m:mi><m:mrow><m:mtext>período</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167793855569">como se ilustra en (b) de la <link target-id="CNX_UPhysics_38_07_DopplerFr"/>. El aumento global de ambos efectos da</para>
+<equation id="fs-id1167794072447" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>src</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>src</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>src</m:mtext></m:mrow></m:msub><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></equation>
+<para id="fs-id1167793498608">donde <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>src</m:mtext></m:mrow></m:msub></m:mrow></m:math> es la longitud de onda de la luz vista por la fuente en <m:math><m:mi>S</m:mi><m:mo>′</m:mo></m:math> y <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub></m:mrow></m:math> es la longitud de onda que el observador detecta dentro de <emphasis effect="italics">S</emphasis>.</para>
+</section>
+<section id="fs-id1167793260796">
+<title>Corrimientos hacia el rojo y el azul</title>
+<para id="fs-id1167794097636">La longitud de onda observada <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub></m:mrow></m:math> de la radiación electromagnética es más larga (lo que se denomina "corrimiento al rojo") que la emitida por la fuente cuando ésta se aleja del observador. Del mismo modo, la longitud de onda es más corta (lo que se denomina "corrimiento al azul") cuando la fuente se mueve hacia el observador. La cantidad del cambio se determina por</para>
+<equation id="fs-id1167794005771" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>λ</m:mi><m:mi>s</m:mi></m:msub><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></equation>
+<para id="fs-id1167793269189">donde <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow></m:math> es la longitud de onda en el marco de referencia de la fuente, y <emphasis effect="italics">v</emphasis> es la velocidad relativa de los dos marcos <emphasis effect="italics">S</emphasis> y <m:math><m:mi>S</m:mi><m:mo>′</m:mo><m:mo>.</m:mo></m:math> La velocidad <emphasis effect="italics">v</emphasis> es positiva para el movimiento de alejamiento de un observador y negativa para el movimiento hacia un observador. En términos de la frecuencia de la fuente y la frecuencia observada, esta ecuación puede escribirse como</para>
+<equation id="fs-id1167793255692" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>f</m:mi><m:mi>s</m:mi></m:msub><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167794173557">Observe que los signos son diferentes a los de la ecuación de la longitud de onda.</para>
+<example id="fs-id1167793705387">
+<para id="fs-id1167793376538"><title>Calcular un corrimiento Doppler</title>
+Supongamos que una galaxia se aleja de la Tierra a una velocidad de 0,825<emphasis effect="italics">c</emphasis>. Emite ondas de radio con una longitud de onda de<newline/>0,525 m. ¿Qué longitud de onda detectaríamos en la Tierra?</para>
+<para id="fs-id1167794328349"><title>Estrategia</title>
+Como la galaxia se mueve a una velocidad relativista, debemos determinar el corrimiento Doppler de las ondas de radio utilizando el corrimiento Doppler relativista en lugar del corrimiento Doppler clásico.</para>
+<para id="fs-id1172101737522"><title>Solución</title></para>
+<list id="fs-id1167793261024" list-type="enumerated" number-style="lower-alpha">
+<item>Identifique los aspectos conocidos: <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>0,825</m:mn><m:mi>c</m:mi><m:mo>;</m:mo><m:msub><m:mi>λ</m:mi><m:mi>s</m:mi></m:msub><m:mo>=</m:mo><m:mn>0,525</m:mn><m:mspace width="0.2em"/><m:mtext>m.</m:mtext></m:mrow></m:math></item>
+<item>Identifique la incógnita: <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Exprese la respuesta en forma de una ecuación:<newline/>
+<equation id="fs-id1163710833741" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>λ</m:mi><m:mi>s</m:mi></m:msub><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Haga el cálculo:
+<equation id="fs-id1167794069536" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msub><m:mi>λ</m:mi><m:mi>s</m:mi></m:msub><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow><m:mrow/></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,525</m:mn><m:mspace width="0.2em"/><m:mtext>m)</m:mtext><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>0,825</m:mn><m:mi>c</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>0,825</m:mn><m:mi>c</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1,70</m:mn><m:mspace width="0.2em"/><m:mtext>m.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1167793918383"><title>Importancia</title>
+Como la galaxia se aleja de la Tierra, esperamos que las longitudes de onda de la radiación que emite se corran al rojo. La longitud de onda que hemos calculado es de 1,70 m, que se corre al rojo desde la longitud de onda original de 0,525 m. En <link document="m91050">Física de partículas y cosmología</link> verá que la detección de la radiación que se desplaza hacia el rojo condujo a la comprensión actual del origen y la evolución del universo.</para>
+</example>
+<note id="fs-id1167793901815" class="check-understanding">
+<exercise id="fs-id1167793887595">
+<problem id="fs-id1167793260594">
+<para id="fs-id1167793915786">Supongamos que una sonda espacial se aleja de la Tierra a una velocidad de 0,350<emphasis effect="italics">c</emphasis>. Esta envía un mensaje de ondas de radio a la Tierra a una frecuencia de 1,50 GHz. ¿A qué frecuencia se recibe el mensaje en la Tierra?</para>
+</problem>
+<solution id="fs-id1167793631661">
+<para id="fs-id1167793275972">Podemos sustituir los datos directamente en la ecuación de la frecuencia Doppler relativista:<newline/> <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>f</m:mi><m:mi>s</m:mi></m:msub><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mtext>GHz)</m:mtext><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>0,350</m:mn><m:mi>c</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>0,350</m:mn><m:mi>c</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>1,04</m:mn><m:mspace width="0.2em"/><m:mtext>GHz.</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167793363516">El efecto Doppler relativista tiene aplicaciones que van desde la vigilancia de tormentas por radar Doppler hasta el suministro de información sobre el movimiento y la distancia de las estrellas. En los ejercicios describimos algunas de estas aplicaciones.</para>
+</section>
+<section id="fs-id1167794296163" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167793960641" list-type="bulleted" bullet-style="bullet">
+<item>Un observador de la radiación electromagnética ve los efectos Doppler relativistas si la fuente de la radiación se mueve con respecto al observador. La longitud de onda de la radiación es más larga (lo que se denomina corrimiento al rojo) que la emitida por la fuente cuando ésta se aleja del observador y más corta (lo que se denomina corrimiento al azul) cuando la fuente se acerca al observador. La longitud de onda desplazada se describe mediante la ecuación:
+<equation id="fs-id1167794330470" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>λ</m:mi><m:mi>s</m:mi></m:msub><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+donde <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub></m:mrow></m:math> es la longitud de onda observada, <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mi>s</m:mi></m:msub></m:mrow></m:math> es la longitud de onda de la fuente, y <emphasis effect="italics">v</emphasis> es la velocidad relativa de la fuente respecto al observador.</item>
+</list>
+</section>
+<section id="fs-id1167793238016" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167794329262">
+<problem id="fs-id1167793896608">
+<para id="fs-id1167793989777">Explique el significado de los términos "corrimiento al rojo" y "corrimiento al azul" en relación con el efecto Doppler relativista.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793787639">
+<problem id="fs-id1167794188024">
+<para id="fs-id1167793251224">¿Qué ocurre con el efecto Doppler relativista cuando la velocidad relativa es cero? ¿Es este el resultado esperado?</para>
+</problem>
+<solution id="fs-id1167794032686">
+<para id="fs-id1167793442787">En este caso no se mide ningún cambio en la longitud de onda o en la frecuencia. El efecto Doppler relativista solo depende de la velocidad relativa de la fuente y del observador, no de cualquier velocidad relativa a un medio para las ondas luminosas.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167794100180">
+<problem id="fs-id1167793877466">
+<para id="fs-id1167793895380">¿Es el efecto Doppler relativista consistente con el efecto Doppler clásico en el sentido en el que <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub></m:mrow></m:math> es más grande para el movimiento de alejamiento?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793591205">
+<problem id="fs-id1167794069449">
+<para id="fs-id1167794022158">Todas las galaxias más lejanas que <m:math><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>ly</m:mtext></m:mrow></m:math> muestran un corrimiento hacia el rojo en su luz emitida que es proporcional a la distancia, y los más lejanos tienen corrimientos hacia el rojo progresivamente mayores. ¿Qué implica esto, suponiendo que la única fuente de corrimiento hacia rojo sea el movimiento relativo?</para>
+</problem>
+<solution id="fs-id1167793930541">
+<para id="fs-id1167793940210">Demuestra que las estrellas están cada vez más alejadas de la Tierra, que el universo se expande, y lo hace a un ritmo acelerado, con mayor velocidad para las estrellas más lejanas].</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167794125603" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167794028783">
+<problem id="fs-id1167794328906">
+<para id="fs-id1167793662487">Un policía de carretera utiliza un dispositivo que mide la velocidad de los vehículos haciendo rebotar el radar en ellos y midiendo el corrimiento Doppler. El radar de salida tiene una frecuencia de 100 GHz y el eco de retorno tiene una frecuencia 15,0 kHz superior. ¿Cuál es la velocidad del vehículo? Note que hay dos corrimientos Doppler en los ecos. Asegúrese de no redondear hasta el final del problema, porque el efecto es pequeño.</para>
+</problem>
+</exercise>
+</section>
+</content>
+</document>

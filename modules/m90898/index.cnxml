@@ -1,0 +1,134 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Instrumentos de medición eléctrica</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90898</md:content-id>
+  <md:title>Instrumentos de medición eléctrica</md:title>
+  <md:abstract>Al final de esta sección, podrá: <list>
+<item>Describir cómo conectar un voltímetro en un circuito para medir el voltaje.</item>
+<item>Describir cómo conectar un amperímetro en un circuito para medir la corriente.</item>
+<item>Describir el uso de un óhmetro.</item>
+</list></md:abstract>
+  <md:uuid>15a53a81-f22c-4667-9061-04db0b567d84</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172099547884">La ley de Ohm y el método de Kirchhoff son útiles para analizar y diseñar circuitos eléctricos, ya que proporcionan los voltajes y la corriente a través y la resistencia de los componentes que componen el circuito. Para medir estos parámetros se necesitan instrumentos, que se describen en esta sección.</para>
+<section id="fs-id1172099389000">
+<title>Voltímetros y amperímetros de dc</title>
+<para id="fs-id1172099378705">Mientras que los <term>voltímetro</term><emphasis effect="bold">s</emphasis> miden el voltaje, los <term>amperímetro</term><emphasis effect="bold">s</emphasis> miden la corriente. Algunos de los medidores de los tableros de los automóviles, las cámaras digitales, los teléfonos móviles y los sintonizadores-amplificadores son en realidad voltímetros o amperímetros (<link target-id="CNX_UPhysics_27_04_Voltmeters"/>). La construcción interna de los medidores más sencillos y la forma en que se conectan al sistema que controlan permiten conocer mejor las aplicaciones de las conexiones en serie y en paralelo.</para>
+<figure id="CNX_UPhysics_27_04_Voltmeters">
+<media id="fs-id1172099922507" alt="La figura muestra la foto de los indicadores de combustible y temperatura.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_Voltmeters.jpg"/>
+</media>
+<caption>Los indicadores de combustible y temperatura (extremo derecho y extremo izquierdo, respectivamente) de este Volkswagen de 1996 son voltímetros que registran la salida de voltaje de las unidades "emisoras". Estas unidades son proporcionales a la cantidad de gasolina en el tanque y a la temperatura del motor (créditos: Christian Giersing).</caption>
+</figure>
+</section>
+<section id="fs-id1172099668596">
+<title>Medición de la corriente con un amperímetro</title>
+<para id="fs-id1172099614791">Para medir la corriente a través de un dispositivo o componente, el amperímetro se coloca en serie con el dispositivo o componente. Se utiliza una conexión en serie porque los objetos en serie tienen la misma corriente que pasa a través de ellos (vea la <link target-id="CNX_UPhysics_27_04_Ammeter1"/>, donde el amperímetro se representa con el símbolo A).</para>
+<figure id="CNX_UPhysics_27_04_Ammeter1">
+<media id="fs-id1172101761709" alt="La parte a muestra el terminal positivo de una batería con emf ε y resistencia interna r conectada al amperímetro que está conectado en serie a dos resistores, R subíndice 1 y R subíndice 2. La parte b muestra el terminal positivo de una batería con emf ε y resistencia interna r conectada al amperímetro que está conectado a dos resistores en paralelo, R subíndice 1 con amperímetro y R subíndice 2 con amperímetro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_Ammeter1.jpg"/>
+</media>
+<caption>(a) Cuando se utiliza un amperímetro para medir la corriente a través de dos resistores conectados en serie a una batería, se coloca un único amperímetro en serie con los dos resistores porque la corriente es la misma a través de los dos resistores en serie. (b) Cuando se conectan dos resistores en paralelo con una batería, se necesitan tres medidores, o tres lecturas de amperímetro por separado, para medir la corriente desde la batería y a través de cada resistor. El amperímetro se conecta en serie con el componente en cuestión.</caption>
+</figure>
+<para id="fs-id1172101887500">Los amperímetros deben tener una resistencia muy baja, una fracción de miliohmio. Si la resistencia no es insignificante, colocar el amperímetro en el circuito cambiaría la resistencia equivalente del circuito y modificaría la corriente que se está midiendo. Dado que la corriente del circuito viaja a través del medidor, los amperímetros suelen contener un fusible para protegerlo de los daños causados por corrientes demasiado elevadas.</para>
+</section>
+<section id="fs-id1172101881584">
+<title>Medición del voltaje con un voltímetro</title>
+<para id="fs-id1172099648754">Un voltímetro se conecta en paralelo con el dispositivo que está midiendo. Se utiliza una conexión en paralelo porque los objetos en paralelo experimentan la misma diferencia de potencial (vea la <link target-id="CNX_UPhysics_27_04_Parallel"/>, donde el voltímetro se representa con el símbolo V).</para>
+<figure id="CNX_UPhysics_27_04_Parallel">
+<media id="fs-id1172101914334" alt="La parte a muestra el terminal positivo de una batería con emf ε y resistencia interna r conectada en serie a dos resistores, R subíndice 1 y R subíndice 2. La batería y los dos resistores tienen voltímetros conectados en paralelo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_Parallel.jpg"/>
+</media>
+<caption>Para medir las diferencias de potencial en este circuito en serie, el voltímetro (V) se coloca en paralelo con la fuente de voltaje o con cualquiera de los resistores. Observe que el voltaje del terminal se mide entre el terminal positivo y el negativo de la batería o la fuente de voltaje. No es posible conectar un voltímetro directamente a través de la emf sin incluir la resistencia interna <emphasis effect="italics">r</emphasis> de la batería.</caption>
+</figure>
+<para id="fs-id1172101790262">Como los voltímetros se conectan en paralelo, este debe tener una resistencia muy grande. Los voltímetros digitales convierten el voltaje analógico en un valor digital para mostrarlo en un indicador digital (<link target-id="CNX_UPhysics_27_04_DigAn"/>). Los voltímetros baratos tienen resistencias del orden de <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>M</m:mtext></m:msub><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>M</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mo>,</m:mo></m:mrow></m:math> mientras que los voltímetros de alta precisión tienen resistencias del orden de <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>M</m:mtext></m:msub><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>G</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. El valor de la resistencia puede variar, dependiendo de la escala que se utilice en el medidor.</para>
+<figure id="CNX_UPhysics_27_04_DigAn"><media id="fs-id1172099479473" alt="La parte a muestra la foto de un voltímetro analógico y la parte b muestra la foto de un medidor digital.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_DigAn.jpg"/>
+</media>
+
+<caption>(a) Un voltímetro analógico utiliza un galvanómetro para medir el voltaje. (b) Los medidores digitales utilizan un convertidor analógico-digital para medir el voltaje (créditos: modificación de trabajos de Joseph J. Trout).</caption></figure></section>
+<section id="fs-id1172102124868">
+<title>Medidores analógicos y digitales</title>
+<para id="fs-id1172099892685">En el laboratorio de física puede encontrar dos tipos de medidores: analógicos y digitales. El término "analógico" se refiere a las señales o la información representada por una cantidad física continuamente variable, como el voltaje o la corriente. Un <term class="no-emphasis">medidor analógico</term> utiliza un galvanómetro, que es esencialmente una bobina de alambre con una pequeña resistencia, en un campo magnético, con un puntero conectado que apunta a una escala. La corriente fluye a través de la bobina, haciendo que esta gire. Para utilizar el galvanómetro como amperímetro, se coloca una pequeña resistencia en paralelo con la bobina. Para un voltímetro, se coloca una gran resistencia en serie con la bobina. Un <term class="no-emphasis">medidor digital</term> utiliza un componente llamado convertidor analógico-digital (A-D) y expresa la corriente o el voltaje como una serie de dígitos 0 y 1, que se utilizan para ejecutar una pantalla digital. La mayoría de los medidores analógicos han sido sustituidos por los digitales.</para>
+<note id="fs-id1172099545529" class="check-understanding">
+<exercise id="fs-id1172099878015">
+<problem id="fs-id1172102132137">
+<para id="fs-id1172102006332">Los medidores digitales son capaces de detectar corrientes más pequeñas que los medidores analógicos que emplean galvanómetros. ¿Cómo se explica su capacidad para medir el voltaje y la corriente con más precisión que los medidores analógicos?</para>
+</problem>
+<solution id="fs-id1172099821846">
+<para id="fs-id1172099491687">Como los medidores digitales requieren menos corriente que los analógicos, alteran menos el circuito. Su resistencia como voltímetro puede ser mucho mayor que la de un medidor analógico, y su resistencia como amperímetro puede ser mucho menor que la de un medidor analógico. Consulte la <link target-id="CNX_UPhysics_27_04_Parallel"/> y la <link target-id="CNX_UPhysics_27_04_Ammeter1"/> y su discusión en el texto.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1172099747729" class="media-2">
+<para id="fs-id1172101759744">En esta simulación de <link url="https://openstax.org/l/21cirreslabsim_es">laboratorio virtual</link>, podrá construir circuitos con resistores, fuentes de voltaje, amperímetros y voltímetros para poner a prueba sus conocimientos de diseño de circuitos.</para>
+</note>
+</section>
+<section id="fs-id1172099493952">
+<title>Óhmetros</title>
+<para id="fs-id1172099516329">Un <term class="no-emphasis">óhmetro</term> es un instrumento utilizado para medir la resistencia de un componente o dispositivo. El funcionamiento del óhmetro se basa en la ley de Ohm. Los óhmetros tradicionales contenían una fuente de voltaje interna (como una batería) que se conectaba a través del componente que se iba a probar, produciendo una corriente a través del componente. A continuación, se utilizó un galvanómetro para medir la corriente y se dedujo la resistencia mediante la ley de Ohm. Los medidores digitales modernos utilizan una fuente de corriente constante para hacer pasar la corriente a través del componente, y se mide la diferencia de voltaje a través de él. En cualquier caso, la resistencia se mide utilizando la ley de Ohm <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>I</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> donde se conoce el voltaje y se mide la corriente, o se conoce la corriente y se mide el voltaje.</para>
+<para id="fs-id1172099464263">La componente de interés debe estar aislada del circuito; de lo contrario, estará midiendo su resistencia equivalente. Un óhmetro nunca debe conectarse a un circuito "vivo", uno con una fuente de voltaje conectada a él y con corriente corriendo a través de él. Hacerlo puede dañar el medidor.</para>
+</section>
+<section id="fs-id1172099689687" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172099560046" list-type="bulleted" bullet-style="bullet">
+<item>Los voltímetros miden el voltaje y los amperímetros la corriente. Los contadores analógicos se basan en la combinación de un resistor y un galvanómetro, un dispositivo que proporciona una lectura analógica de la corriente o el voltaje. Los contadores digitales se basan en convertidores analógico-digitales y proporcionan una medición discreta o digital de la corriente o el voltaje.</item>
+<item>Un voltímetro se coloca en paralelo con la fuente de voltaje para recibir todo el voltaje y debe tener una gran resistencia para limitar su efecto en el circuito.</item>
+<item>Un amperímetro se coloca en serie para obtener toda la corriente que circula por una rama y debe tener una pequeña resistencia para limitar su efecto en el circuito.</item>
+<item>Los voltímetros y amperímetros estándar alteran el circuito al que están conectados y, por tanto, su precisión es limitada.</item>
+<item>Los óhmetros se utilizan para medir la resistencia. La componente en el que se va a medir la resistencia debe estar aislada (retirado) del circuito.</item>
+</list>
+</section>
+<section id="fs-id1172099719316" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1172102129533">
+<problem id="fs-id1172099498735">
+<para id="fs-id1172099382342">¿Qué pasaría si colocara un voltímetro en serie con una componente a probar?</para>
+</problem>
+<solution id="fs-id1172102124445">
+<para id="fs-id1172099522919">El voltímetro pondría una gran resistencia en serie con el circuito, cambiándolo de manera significativa. Probablemente daría una lectura, pero no tendría sentido.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172102062314">
+<problem id="fs-id1172102151507">
+<para id="fs-id1172097144459">¿Cuál es el funcionamiento básico de un óhmetro al medir un resistor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172102061365">
+<problem id="fs-id1172102114361">
+<para id="fs-id1172101897305">¿Por qué no se debe conectar un amperímetro directamente a una fuente de voltaje como se muestra a continuación?</para>
+<media id="fs-id1172101778292" alt="La figura muestra el terminal positivo de una batería con la emf ε y la resistencia interna r conectada al amperímetro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_P3_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172099725467">
+<para id="fs-id1172102143796">El amperímetro tiene una pequeña resistencia, por lo que se producirá una gran corriente que podría dañar el medidor o sobrecalentar la batería.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172099602251" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172101780811">
+<problem id="fs-id1172099414011">
+<para id="fs-id1172102139025">Supongamos que se mide el voltaje del terminal de una batería alcalina de 1,585 V que tiene una resistencia interna de <m:math><m:mrow><m:mn>0,100</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> colocando un voltímetro de <m:math><m:mrow><m:mn>1,00</m:mn><m:mtext>-k</m:mtext><m:mtext>Ω</m:mtext></m:mrow></m:math> a través de sus terminales (ver abajo). (a) ¿Qué corriente fluye? (b) Halle el voltaje del terminal. (c) Para ver lo cerca que está el voltaje del terminal medido de la emf, calcule su relación.</para>
+<media id="fs-id1172101923362" alt="La figura muestra el terminal positivo de una batería con emf ε y resistencia interna r conectada a un voltímetro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_27_04_P4_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172102120844">
+<term>amperímetro</term>
+<meaning id="fs-id1172102033654">instrumento que mide la corriente</meaning>
+</definition>
+<definition id="fs-id1172099660763">
+<term>voltímetro</term>
+<meaning id="fs-id1172101765962">instrumento que mide el voltaje</meaning>
+</definition>
+</glossary>
+</document>

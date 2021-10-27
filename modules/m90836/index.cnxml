@@ -1,0 +1,410 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Primera ley de la termodinámica</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90836</md:content-id>
+  <md:title>Primera ley de la termodinámica</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Enunciar la primera ley de la termodinámica y explicar cómo se aplica.</item>
+<item>Explicar cómo se relacionan transferencia de calor, trabajo realizado y cambio de energía interna en cualquier proceso termodinámico.</item>
+</list></md:abstract>
+  <md:uuid>1b1b0131-9136-4a09-8ed0-3aa330552b56</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1172100642414">Ahora que hemos visto cómo calcular energía interna, calor y trabajo realizado para un sistema termodinámico que sufre un cambio durante algún proceso, podemos ver cómo estas cantidades interactúan para afectar la cantidad de cambio que puede ocurrir. Esta interacción viene dada por la primera ley de la termodinámica. Al científico y novelista británico C. P. Snow (1905-1980) se le atribuye un chiste sobre las cuatro leyes de termodinámica. Su enunciado humorístico de la primera ley de la termodinámica es que “no se puede ganar”, o lo que es lo mismo, no se puede sacar más energía de un sistema de la que se pone en él. En este capítulo veremos cómo energía interna, calor y trabajo desempeñan un papel en la primera ley de la termodinámica.</para>
+<para id="fs-id1172100560107">Suponga que <emphasis effect="italics">Q</emphasis> representa el calor intercambiado entre un sistema y el ambiente y <emphasis effect="italics">W</emphasis> es el trabajo realizado por el sistema o en el sistema. La primera ley establece que el cambio de energía interna de ese sistema viene dado por <m:math><m:mrow><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi></m:mrow></m:math>. Dado que el calor añadido aumenta la energía interna de un sistema, <emphasis effect="italics">Q</emphasis> es positivo cuando se añade al sistema y negativo cuando se retira de este.</para>
+<para id="fs-id1172098797330">Cuando un gas se expande, realiza un trabajo y su energía interna disminuye. Por lo tanto, <emphasis effect="italics">W</emphasis> es positivo cuando el sistema realiza trabajo y negativo cuando se realiza trabajo sobre el sistema. Esta convención de signos se resume en la <link target-id="fs-id1172100627573"/>. La <term>primera ley de la termodinámica</term> se enuncia de la siguiente manera:</para>
+<note id="fs-id1172098446744">
+<title>Primera ley de la termodinámica</title>
+<para id="fs-id1172100611534">Todo estado de equilibrio de un sistema lleva asociada su energía interna <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> El cambio en <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mrow></m:math> para cualquier transición entre dos estados de equilibrio es</para>
+<equation id="fs-id1172098267633"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1172098565233">donde <emphasis effect="italics">Q</emphasis> y <emphasis effect="italics">W</emphasis> representan, respectivamente, el calor intercambiado por el sistema y el trabajo realizado por el sistema o en el sistema.</para>
+</note>
+<table id="fs-id1172100627573" summary="The table has two columns and five rows. The first row is a header row with headings “Process” and “Convention.” The second row has entries “Heat added to system” and “Q greater than 0.” The third row has entries “Heat removed from system” and “Q less than 0.” The fourth row has entries “Work done by system” and “W greater than 0.” The fifth row has entries “Work done on system” and “W less than 0.”">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry align="center" namest="c1" nameend="c2">Convenciones de signos termodinámicos para calor y trabajo</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">Proceso</entry>
+<entry valign="top" align="center">Convención</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Calor añadido al sistema</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Calor eliminado del sistema</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Trabajo realizado por el sistema</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mi>W</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Trabajo realizado sobre el sistema</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mi>W</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1172098305329">La primera ley es un enunciado de <term class="no-emphasis">conservación de energía</term>. Nos dice que un sistema puede intercambiar energía con su entorno mediante la transmisión de calor y la realización de trabajo. La energía neta intercambiada es entonces igual al cambio en la energía mecánica total de las moléculas del sistema (es decir, la energía interna del sistema). Así, si un sistema está aislado, su energía interna debe permanecer constante.</para>
+<para id="fs-id1172098762860">Aunque tanto <emphasis effect="italics">Q</emphasis> como <emphasis effect="italics">W</emphasis> dependen de la trayectoria termodinámica recorrida entre dos estados de equilibrio, su diferencia <m:math><m:mrow><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi></m:mrow></m:math> no lo hace. La <link target-id="CNX_UPhysics_20_03_DiffPaths"/> muestra el diagrama <emphasis effect="italics">pV</emphasis> de un sistema que está haciendo la transición de <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis> repetidamente a lo largo de diferentes trayectorias termodinámicas. A lo largo de la trayectoria 1, el sistema absorbe el calor <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y trabaja <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo></m:mrow></m:math> a lo largo de la trayectoria 2, absorbe el calor <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y trabaja <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> y así sucesivamente. Los valores de <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> pueden variar de una trayectoria a otra, pero tenemos</para>
+<equation id="fs-id1172100632822" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>W</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mtext>⋯</m:mtext><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mi>i</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>W</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:mtext>⋯</m:mtext><m:mtext>,</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172096089753">o</para>
+<equation id="fs-id1172100835658" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext><m:mn>1</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext><m:mn>2</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>⋯</m:mtext><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext><m:mi>i</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>⋯</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172101006550">Es decir, el cambio en la energía interna del sistema entre <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> es independiente de la trayectoria. En el capítulo sobre energía potencial y conservación de la energía hallamos otra cantidad independiente de la trayectoria: el cambio de energía potencial entre dos puntos arbitrarios del espacio. Este cambio representa el negativo del trabajo realizado por una fuerza conservativa entre los dos puntos. La energía potencial es una función de coordenadas espaciales, mientras que la energía interna es una función de variables termodinámicas. Por ejemplo, podríamos escribir <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo>,</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> para la energía interna. Las funciones como energía interna y energía potencial se conocen como <term class="no-emphasis"><emphasis effect="italics">funciones de estado</emphasis></term> porque sus valores dependen únicamente del estado del sistema.</para>
+<figure id="CNX_UPhysics_20_03_DiffPaths">
+<media id="fs-id1172098284638" alt="La figura es un gráfico de p en la vertical como una función de V en el eje horizontal. Se muestran seis curvas diferentes, y todas conectan un punto A en el gráfico con un punto B. La presión en A es mayor que en B, y el volumen en A es menor que en B. La curva 1 sube y se curva para llegar a B desde arriba. La curva 2 es similar a la 1 pero no tan curvada. La curva 3 es una línea recta que va de A a B. La curva 4 se mueve un poco por debajo de la línea recta de la curva 3. La curva 5 se dobla hacia abajo y alrededor de B, alcanzándola desde abajo. La curva 6 es similar a la curva 5, pero va más lejos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_DiffPaths.jpg"/>
+</media>
+<caption>Diferentes trayectorias termodinámicas tomadas por un sistema al pasar del estado <emphasis effect="italics">A</emphasis> al estado <emphasis effect="italics">B</emphasis>. Para todas las transiciones, el cambio en la energía interna del sistema <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi></m:mrow></m:math> es el mismo.</caption>
+</figure>
+<para id="fs-id1172096038384">A menudo, la primera ley se usa en su forma diferencial, que es</para>
+<equation id="fs-id1172098424165"><m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>d</m:mi><m:mi>W</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100656599">Aquí <m:math><m:mrow><m:mi>d</m:mi><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mrow></m:math> es un cambio infinitesimal en energía interna cuando una cantidad infinitesimal de calor <emphasis effect="italics">dQ</emphasis> se intercambia con el sistema y una cantidad infinitesimal de trabajo <emphasis effect="italics">dW</emphasis> es realizada por el sistema (signo positivo) o sobre (signo negativo) el sistema.</para>
+<example id="fs-id1172098267363">
+<para id="fs-id1172098777850"><title>Los cambios de estado y la primera ley</title>
+Durante un proceso termodinámico, un sistema pasa del estado <emphasis effect="italics">A</emphasis> al estado <emphasis effect="italics">B</emphasis>, se le suministra 400 J de calor y realiza 100 J de trabajo. (a) Para esta transición, ¿cuál es el cambio de energía interna del sistema? (b) Si el sistema vuelve a pasar del estado <emphasis effect="italics">B</emphasis> al estado <emphasis effect="italics">A</emphasis>, ¿cuál es su cambio de energía interna? (c) Si al pasar de <emphasis effect="italics">A</emphasis> a <emphasis effect="italics">B</emphasis> por una trayectoria diferente, <m:math><m:mrow><m:msub><m:msup><m:mi>W</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> de trabajo en el sistema, ¿cuánto calor absorbe?</para>
+<para id="fs-id1172098444887"><title>Estrategia</title>
+La primera ley de la termodinámica relaciona el cambio de energía interna, el trabajo realizado por el sistema y el calor transferido al sistema en una ecuación sencilla. La energía interna es una función del estado y, por lo tanto, es fija en cualquier punto dado, independientemente de cómo el sistema alcance el estado.</para>
+<para id="fs-id1172100675226"><title>Solución</title></para>
+<list id="fs-id1167740251328" list-type="enumerated" number-style="lower-alpha">
+<item>A partir de la primera ley, el cambio en la energía interna del sistema es
+<equation id="fs-id1167741238893" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>−</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</item>
+<item>Consideremos una trayectoria cerrada que pasa por los estados <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis>. La energía interna es una función de estado, por lo que <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mrow></m:math> es cero para una trayectoria cerrada. Así,
+<equation id="fs-id1167740102381" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext><m:mi>B</m:mi><m:mi>A</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+y
+<equation id="fs-id1167740165139" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext><m:mi>B</m:mi><m:mi>A</m:mi></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+Esto produce
+<equation id="fs-id1167741595573" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext><m:mi>B</m:mi><m:mi>A</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>−300</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</item>
+<item>El cambio de energía interna es el mismo para cualquier trayectoria, por lo que
+<equation id="fs-id1167741671514" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:msup><m:mi>E</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mtext>int</m:mtext><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:msup><m:mi>Q</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>–</m:mo><m:msub><m:msup><m:mi>W</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msub><m:msup><m:mi>Q</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>–</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−400</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+y el calor intercambiado es
+<equation id="fs-id1167740320293" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:msup><m:mi>Q</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>−100</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+El signo negativo indica que el sistema pierde calor en esta transición.</item>
+</list>
+<para id="fs-id1172100715914"><title>Importancia</title>
+Cuando se considera un ciclo cerrado para la primera ley de la termodinámica, el cambio de energía interna en toda la trayectoria es igual a cero. Si la fricción jugara un papel en este ejemplo, se produciría menos trabajo con este calor añadido. El <link target-id="fs-id1172100571902"/> tiene en cuenta lo que ocurre si la fricción juega un papel.</para>
+</example>
+<para id="fs-id1172100970641">Tome en cuenta que en el <link target-id="fs-id1172098267363"/>, no asumimos que las transiciones fueran cuasiestáticas. Esto se debe a que la primera ley no está sujeta a tal restricción. Describe las transiciones entre estados de equilibrio, pero no se ocupa de los estados intermedios. El sistema no tiene que pasar solamente por estados de equilibrio. Por ejemplo, si se hace explotar un gas en un recipiente de acero a una temperatura y presión bien definidas mediante una chispa, parte del gas se puede condensar, diferentes moléculas de gas se pueden combinar para formar nuevos compuestos y puede haber todo tipo de turbulencias en el recipiente, pero finalmente el sistema se asentará en un nuevo estado de equilibrio. Este sistema claramente no está en equilibrio durante su transición; sin embargo, su comportamiento aún se rige por la primera ley porque el proceso comienza y termina con el sistema en estados de equilibrio.</para>
+<example id="fs-id1172100571902">
+<para id="fs-id1172098378792"><title>Pulir un accesorio</title>
+Un maquinista pule un accesorio de cobre de 0,50 kg con un trozo de tela de esmeril durante 2,0 min. Mueve la tela a través del accesorio a una velocidad constante de 1,0 m/s y aplica una fuerza de 20 N tangente a la superficie del accesorio. (a) ¿Cuál es el trabajo total realizado en el accesorio por el maquinista? (b) ¿Cuál es el aumento de la energía interna del accesorio? Suponga que el cambio en la energía interna de la tela es insignificante y que no se intercambia calor entre el accesorio y su ambiente. (c) ¿Cuál es el aumento de la temperatura del accesorio?</para>
+<para id="fs-id1172098447277"><title>Estrategia</title>
+La fuerza del maquinista sobre una distancia que se puede calcular a partir de la velocidad y el tiempo dados es el trabajo realizado en el sistema. El trabajo, a su vez, aumenta la energía interna del sistema. Esta energía se puede interpretar como el calor que eleva la temperatura del sistema a través de su capacidad calorífica. Tenga cuidado con el signo de cada cantidad.</para>
+<para id="fs-id1172098405638"><title>Solución</title></para>
+<list id="fs-id1167740249844" list-type="enumerated" number-style="lower-alpha">
+<item>La potencia creada por una fuerza sobre un objeto o la velocidad a la que el maquinista realiza un trabajo de fricción sobre el accesorio es <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>F</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>F</m:mi><m:mi>v</m:mi></m:mrow></m:math>. Así, en un tiempo transcurrido <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> (2,0 min), el trabajo realizado en el accesorio es<newline/>
+<equation id="fs-id1167740276284" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>W</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>F</m:mi><m:mi>v</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>−2,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Por supuesto, no se intercambia calor entre el accesorio y su ambiente, por lo que la primera ley da para el cambio en la energía interna del accesorio:
+<equation id="fs-id1167740256564" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>2,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</item>
+<item>Dado que los valores de <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mrow></m:math> es independiente de la trayectoria, el efecto de <m:math><m:mrow><m:mn>2,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> de trabajo es el mismo que si se suministra a presión atmosférica por una transferencia de calor. Así,
+<equation id="fs-id1167740242171" class="unnumbered"><label/><m:math><m:mrow><m:mn>2,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>c</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+y el aumento de la temperatura del accesorio es
+<equation id="fs-id1167741678593" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde hemos utilizado el valor del calor específico del cobre, <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mo>·</m:mo><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</item>
+</list>
+<para id="fs-id1172098402612"><title>Importancia</title>
+Si se liberara calor, el cambio de energía interna sería menor y provocaría un cambio de temperatura menor que el calculado en el problema.</para>
+</example>
+<note id="fs-id1172098565313" class="check-understanding">
+<exercise id="fs-id1172098765236">
+<problem id="fs-id1172098464749">
+<para id="fs-id1172098601469"><emphasis effect="bold"/> Las cantidades que aparecen a continuación representan cuatro transiciones diferentes entre el mismo estado inicial y final. Complete los espacios en blanco.</para>
+<table id="fs-id1172101005733" summary="The table has three columns and six rows. The first row is a header row with headings “Q (J),” “W (J)”, and “Delta E int  (J)”. Five of the table cells have data in them. The first, Q, column has entries of -80 and 90, then three blank cells. The second, Q, column has entries of -120, a blank cell, 40, -40, and another blank cell. The Delta E column has no data.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center"><emphasis effect="italics">Q</emphasis> (J)</entry>
+<entry valign="top" align="center"><emphasis effect="italics">W</emphasis> (J)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mtext>J</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="center">–80</entry>
+<entry valign="top" align="center">–120</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="center">90</entry>
+<entry valign="top" align="center"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="center"/>
+<entry valign="top" align="center">40</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="center"/>
+<entry valign="top" align="center">–40</entry>
+<entry valign="top" align="left"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-id1172100759252">
+<para id="fs-id1172098580023">Línea 1, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>J;</m:mtext></m:mrow></m:math> línea 2, <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>J;</m:mtext></m:mrow></m:math> línea 3, <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>J;</m:mtext></m:mrow></m:math> y la línea 4, <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> y <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1172098528128">
+<para id="fs-id1172098586214"><title>Un gas ideal que hace transiciones entre dos estados</title>
+Consideremos las expansiones cuasiestáticas de un gas ideal entre los estados de equilibrio <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">C</emphasis> de la <link document="m90835" target-id="CNX_UPhysics_20_02_DiffWork"/>. Si se añaden 515 J de calor al gas mientras recorre la trayectoria <emphasis effect="italics">ABC</emphasis>, ¿cuánto calor se necesita para la transición a lo largo de <emphasis effect="italics">ADC</emphasis>? Suponga que <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2,25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>,</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>4,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1172098460978"><title>Estrategia</title>
+La diferencia de trabajo realizado entre el proceso <emphasis effect="italics">ABC</emphasis> y el proceso <emphasis effect="italics">ADC</emphasis> es el área encerrada por <emphasis effect="italics">ABCD</emphasis>. Dado que el cambio de la energía interna (una función del estado) es el mismo para ambos procesos, la diferencia de trabajo es, por tanto, la misma que la diferencia de calor transferido al sistema.</para>
+<para id="fs-id1172101008852"><title>Solución</title>
+Para la trayectoria <emphasis effect="italics">ABC</emphasis>, el calor añadido es <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>515</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> y el trabajo realizado por el gas es el área debajo de la trayectoria en el diagrama <emphasis effect="italics">pV</emphasis>, que es</para>
+<equation id="fs-id1167740297404" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>473</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172098407363">A lo largo de <emphasis effect="italics">ADC</emphasis>, el trabajo realizado por el gas es de nuevo el área bajo la trayectoria:</para>
+<equation id="fs-id1167740402341" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>236</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172100849257">Entonces, mediante la estrategia que acabamos de describir, tenemos</para>
+<equation id="fs-id1167740406915" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100614779">lo que lleva a</para>
+<equation id="fs-id1167740338576" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>515</m:mn><m:mo>+</m:mo><m:mn>236</m:mn><m:mo>−</m:mo><m:mn>473</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>278</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172098523552"><title>Importancia</title>
+Los cálculos de trabajo en este problema se simplifican, ya que no se realiza trabajo a lo largo de <emphasis effect="italics">AD</emphasis> y <emphasis effect="italics">BC</emphasis> y a lo largo de <emphasis effect="italics">AB</emphasis> y <emphasis effect="italics">DC</emphasis>; la presión es constante sobre el cambio de volumen, por lo que el trabajo realizado es simplemente <m:math><m:mrow><m:mi>p</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math>. También se podría haber utilizado una línea isotérmica, ya que hemos derivado el trabajo para un proceso isotérmico como <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+</example>
+<example id="fs-id1172100893733">
+<para id="fs-id1172098607327"><title>Expansión isotérmica de un gas ideal</title>
+Se añade calor a 1 mol de un gas monoatómico ideal confinado en un cilindro con un pistón móvil en un extremo. El gas se expande cuasiestáticamente a una temperatura constante de 300 K hasta que su volumen aumenta de <emphasis effect="italics">V</emphasis> a 3<emphasis effect="italics">V</emphasis>. (a) ¿Cuál es el cambio de energía interna del gas? (b) ¿Cuánto trabajo realiza el gas? (c) ¿Cuánto calor se añade al gas?</para>
+<para id="fs-id1172100562205"><title>Estrategia</title>
+(a) Dado que el sistema es un gas ideal, la energía interna solo cambia cuando cambia la temperatura. (b) Por lo tanto, el calor añadido al sistema se utiliza puramente para realizar el trabajo que se ha calculado en la sección <link document="m90835">Trabajo, calor y energía interna</link>. (c) Por último, se puede utilizar la primera ley de la termodinámica para calcular el calor añadido al gas.</para>
+<para id="fs-id1172100985454"><title>Solución</title></para>
+<list id="fs-id1167740339930" list-type="enumerated" number-style="lower-alpha">
+<item>Hemos visto en la sección anterior que la energía interna de un gas monoatómico ideal es una función únicamente de temperatura. Dado que los valores de <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, para este proceso, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>La expansión isotérmica cuasiestática de un gas ideal fue considerada en la sección anterior y se halló que era
+<equation id="fs-id1167740339736" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>W</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>V</m:mi></m:mrow><m:mi>V</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>mol</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8,314</m:mn><m:mspace width="0.2em"/><m:mtext>J/K</m:mtext><m:mo>·</m:mo><m:mtext>mol</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>ln</m:mtext><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2,74</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+</item>
+<item>Con los resultados de las partes (a) y (b) podemos utilizar la primera ley para determinar el calor añadido:
+<equation id="fs-id1167740338664" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext>,</m:mtext></m:mrow></m:math></equation>
+lo que lleva a
+<equation id="fs-id1167740339215" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>2,74</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</item>
+</list>
+<para id="fs-id1172098310460"><title>Importancia</title>
+Un proceso isotérmico no tiene cambios en la energía interna. A partir de ahí, la primera ley de la termodinámica se reduce a <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>W</m:mi></m:mrow></m:math>.</para>
+</example>
+<note id="fs-id1172098685768" class="check-understanding">
+<exercise id="fs-id1172100882307">
+<problem id="fs-id1172100619655">
+<para id="fs-id1172101031820">¿Por qué era necesario afirmar que el proceso del <link target-id="fs-id1172100893733"/> es cuasiestático?</para>
+</problem>
+<solution id="fs-id1172096153837">
+<para id="fs-id1172101000062">Para que el proceso esté representado por la curva <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi></m:mrow></m:math> en el trazado <emphasis effect="italics">pV</emphasis> para la evaluación del trabajo.</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1172100964907">
+<para id="fs-id1172100660818"><title>Vaporizar agua</title>
+Cuando 1,00 g de agua a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> pasa de la fase líquida a la gaseosa a presión atmosférica, su cambio de volumen es <m:math><m:mrow><m:mn>1,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>.</m:mtext></m:mrow></m:math> (a) ¿Cuánto calor hay que añadir para vaporizar agua? (b) ¿Cuánto trabajo realiza el agua contra la atmósfera en su expansión? (c) ¿Cuál es el cambio en la energía interna del agua?</para>
+<para id="fs-id1172098462106"><title>Estrategia</title>
+Primero podemos calcular cuánto calor se necesita a partir del calor de vaporización latente del agua. A partir del cambio de volumen podemos calcular el trabajo realizado de <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math> porque la presión es constante. Entonces, la primera ley de la termodinámica nos proporciona el cambio en la energía interna.</para>
+<para id="fs-id1172100729180"><title>Solución</title></para>
+<list id="fs-id1167740339643" list-type="enumerated" number-style="lower-alpha">
+<item>Con <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>v</m:mi></m:msub></m:mrow></m:math> que representa el calor de vaporización latente, el calor necesario para vaporizar el agua es
+<equation id="fs-id1167740339663" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>L</m:mi><m:mi>v</m:mi></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,26</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J/g</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2,26</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</item>
+<item>Dado que la presión en el sistema es constante en <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>atm</m:mtext><m:mo>=</m:mo><m:mn>1,01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, el trabajo realizado por el agua al vaporizarse es
+<equation id="fs-id1167740339804" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>169</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</item>
+<item>A partir de la primera ley, la energía térmica del agua durante su vaporización cambia por
+<equation id="fs-id1167740339774" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>2,26</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>−</m:mo><m:mn>169</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>2,09</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</item>
+</list>
+<para id="fs-id1172098380212"><title>Importancia</title>
+Notamos que en la parte (c) vemos un cambio en energía interna, sin embargo, no hay cambio en temperatura. Los gases ideales que no sufren cambios de fase tienen la energía interna proporcional a la temperatura. La energía interna en general es la suma de toda la energía del sistema.</para>
+</example>
+<note id="fs-id1172098460172" class="check-understanding">
+<exercise id="fs-id1172098317841">
+<problem id="fs-id1172098317843">
+<para id="fs-id1172098691675">Cuando 1,00 g de amoníaco hierve a presión atmosférica y <m:math><m:mrow><m:mn>-33,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> su volumen cambia de 1,47 a <m:math><m:mrow><m:mn>1130</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. Su calor de vaporización a esta presión es <m:math><m:mrow><m:mn>1,37</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J/kg</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> ¿Cuál es el cambio en la energía interna del amoníaco cuando se vaporiza?</para>
+</problem>
+<solution id="fs-id1172098759443">
+<para id="fs-id1172100595225"><m:math><m:mrow><m:mn>1,26</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1172100909874" class="media-2">
+<para id="fs-id1172100784570">Vea este <link url="https://openstax.org/l/211stlawthermo_es">sitio</link> para aprender cómo se aplica la primera ley de la termodinámica. Primero, bombee algunas moléculas de especies pesadas en la cámara. A continuación, reproduzca realizando un trabajo (empuje la pared hacia la derecha donde se encuentra la persona) para ver cómo cambia la energía interna (según la temperatura). A continuación, observe cómo el calor añadido cambia la energía interna. Por último, puede establecer un parámetro constante, como la temperatura, y ver qué ocurre cuando realiza un trabajo para mantener la temperatura constante<emphasis effect="italics">(Nota:</emphasis> Es posible que al principio vea un cambio en estas variables al moverse rápidamente en la simulación pero, finalmente, este valor volverá a su valor de equilibrio).</para>
+</note>
+<section id="fs-id1172098548796" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1172100648096" list-type="bulleted" bullet-style="bullet">
+<item>La energía interna de un sistema termodinámico es una función de estado y, por tanto, es única para cada estado de equilibrio del sistema.</item>
+<item>El aumento de la energía interna del sistema termodinámico viene dado por el calor añadido al sistema menos el trabajo realizado por el sistema en cualquier proceso termodinámico.</item>
+</list>
+</section>
+<section id="fs-id1172096019330" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1172100936435">
+<problem id="fs-id1172100924549">
+<para id="fs-id1172100924551">¿Qué nos dice la primera ley de la termodinámica sobre la energía del universo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100967852">
+<problem id="fs-id1172100562053">
+<para id="fs-id1172100562055">¿Añadir calor a un sistema aumenta siempre su energía interna?</para>
+</problem>
+<solution id="fs-id1172100577648">
+<para id="fs-id1172100577650">Si se realiza más trabajo en el sistema que el calor añadido, la energía interna del sistema disminuirá realmente.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098256840">
+<problem id="fs-id1172100631921">
+<para id="fs-id1172098289509">Se ha invertido mucho esfuerzo, tiempo y dinero en la búsqueda de la llamada máquina de movimiento perpetuo, la cual se define como una máquina hipotética que funciona o produce trabajo útil indefinidamente o una máquina hipotética que produce más trabajo o energía de la que consume. Explique, en términos de la primera ley de la termodinámica, por qué es probable o no que se construya tal máquina.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1172098659550" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1172098395756">
+<problem id="fs-id1172098395758">
+<para id="fs-id1172098564278">Cuando un gas diluido se expande cuasiestáticamente de 0,50 a 4,0 L, realiza 250 J de trabajo. Suponiendo que la temperatura del gas permanece constante a 300 K, (a) ¿cuál es el cambio en la energía interna del gas? (b) ¿Cuánto calor absorbe el gas en este proceso?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100584093">
+<problem id="fs-id1172100936173">
+<para id="fs-id1172100985274">En una expansión de gas, el gas realiza 500 J de trabajo. Si la energía interna del gas aumentó en 80 J en la expansión, ¿cuánto calor absorbe el gas?</para></problem>
+<solution id="fs-id1172096030447">
+<para id="fs-id1172096030449">580 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100964518">
+<problem id="fs-id1172096332090">
+<para id="fs-id1172096332092">Un gas ideal se expande cuasiestáticamente e isotérmicamente desde un estado con presión p y volumen V a un estado con volumen 4V. ¿Cuánto calor se añade al gas en expansión?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098523562">
+<problem id="fs-id1172100621322">
+<para id="fs-id1172098590397">Como se muestra a continuación, si el calor absorbido por el gas a lo largo de AB es de 400 J, determine las cantidades de calor absorbidas a lo largo de (a) ADB; (b) ACB; y (c) ADCB.</para>
+<media id="fs-id1172100727965" alt="La figura es un trazado de presión, p, en atmósferas en el eje vertical como una función de volumen, V, en litros en el eje horizontal. La escala de volumen horizontal va de 0 a 5,0 litros, y la escala de presión vertical va de 0 a 4,0 atmósferas. Se identifican cuatro puntos, A, B, C y D. El punto A está a 1,0 L, 1,0 atmósferas. El punto B está a 3,0 L, 1,0 atmósferas. El punto C está a 3,0 L, 2,0 atmósferas. El punto D está a 1,0 L, 3,0 atmósferas. Una línea recta horizontal conecta A con B, con una flecha que apunta hacia la derecha e indica la dirección de A a B. Una línea recta horizontal conecta D con C, con una flecha hacia la derecha que indica la dirección de D a C. Una línea recta vertical conecta A con D, con una flecha que apunta hacia arriba e indica la dirección de A a D. Una línea recta vertical conecta C con B, con una flecha hacia abajo que indica la dirección de C a B. Finalmente, una línea recta diagonal conecta D con B con una flecha que apunta en la dirección de D a B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_02_SMP207_img-6484.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172098544091">
+<para id="fs-id1172098490231">a. 600 J; b. 600 J; c. 800 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172096069907">
+<problem id="fs-id1172098781780">
+<para id="fs-id1172100630485">Durante la expansión isobárica de A a B representada a continuación se añaden 3.100 J de calor al gas. ¿Cuál es el cambio en su energía interna?</para><media id="fs-id1172098257221" alt="La figura es un trazado de presión, p, en newtons por metro cuadrado en el eje vertical como una función de volumen, V, en metros cúbicos en el eje horizontal. La escala horizontal de volumen va de 0 a 3,0 metros cúbicos, y la escala vertical de presión está identificada a una sola presión, 1,0 veces 10 a los 4 Newtons por metro cuadrado. Se identifican dos puntos, A y B, ambos a la presión identificada de 1,0 veces 10 a los 4 Newtons por metro cuadrado. El punto A está a 0,15 metros cúbicos. El punto B está a 0,3 metros cúbicos. Una línea horizontal conecta A con B, con una flecha que apunta a la derecha, de A a B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_SMP2015_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172098459847">
+<problem id="fs-id1172098566146">
+<para id="fs-id1172098660673">(a) ¿Cuál es el cambio de energía interna para el proceso representado por la trayectoria cerrada que se muestra a continuación? (b) ¿Cuánto calor se intercambia? (c) Si la trayectoria se recorre en sentido contrario, ¿cuánto calor se intercambia?</para>
+<media id="fs-id1172098308914" alt="La figura es un trazado de presión, p, en atmósferas en el eje vertical como una función de volumen, V, en litros en el eje horizontal. La escala de volumen horizontal va de 0 a 5,0 litros, y la escala de presión vertical va de 0 a 4,0 atmósferas. Dos puntos, R y S, están identificados. El punto R está a 1,0 L, 1,0 atmósferas. El punto S está a 3,0 L, 1,0 atmósferas. Un semicírculo sube de R y pasa a S, con una flecha que muestra la dirección de las agujas del reloj en la curva. Vuelve una línea horizontal, con una flecha que apunta a la izquierda, de S a R.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_02_SMP208_img-d9db.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172098395691">
+<para id="fs-id1172098565786">a. 0; b. 160 J; c. –160 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098695373">
+<problem id="fs-id1172098427048">
+<para id="fs-id1172100757666">Cuando un gas se expande a lo largo de la trayectoria AC que se muestra a continuación realiza 400 J de trabajo y absorbe 200 o 400 J de calor. (a) Suponga que le dicen que a lo largo de la trayectoria ABC el gas absorbe 200 o 400 J de calor. ¿Cuál de estos valores es correcto? (b) Dada la respuesta correcta de la parte (a), ¿cuánto trabajo realiza el gas a lo largo de ABC? (c) A lo largo de CD, la energía interna del gas disminuye en 50 J, ¿cuánto calor intercambia el gas a lo largo de esta trayectoria?</para>
+<media id="fs-id1172098295949" alt="La figura es un trazado de presión, p, en el eje vertical como una función de volumen, V, en el eje horizontal. Se muestran cuatro puntos A, B, C y D. B está directamente encima de A, con el mismo volumen pero con p B mayor que p A. Asimismo, C está directamente encima de D, con el mismo volumen pero con p C mayor que p D. A y D están a la misma presión, con p D mayor que p A. B y C están a la misma presión, con p C mayor que p B. Se muestran cuatro trayectorias. Una trayectoria conecta desde A directamente hacia arriba hasta B. Una trayectoria conecta desde B horizontalmente hacia la derecha hasta C. Una trayectoria conecta desde C directamente hacia abajo hasta D. Y la última trayectoria conecta desde A hasta C con una curva algo ondulada que queda por encima de la presión A D y por debajo de la presión B C.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_SMP2018_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172098758417">
+<problem id="fs-id1172098758419">
+<para id="fs-id1172093797408">Cuando un gas se expande a lo largo de <emphasis effect="italics">AB</emphasis> (ver a continuación) realiza 20 J de trabajo y absorbe 30 J de calor. Cuando el gas se expande a lo largo de <emphasis effect="italics">AC</emphasis>, realiza 40 J de trabajo y absorbe 70 J de calor. (a) ¿Cuánto calor intercambia el gas a lo largo de <emphasis effect="italics">BC</emphasis>? (b) Cuando el gas hace la transición de <emphasis effect="italics">C</emphasis> a <emphasis effect="italics">A</emphasis> a lo largo de <emphasis effect="italics">CDA</emphasis>, se realizan 60 J de trabajo sobre él de <emphasis effect="italics">C</emphasis> a <emphasis effect="italics">D</emphasis>. ¿Cuánto calor intercambia a lo largo de <emphasis effect="italics">CDA</emphasis>?</para><media id="fs-id1172096312574" alt="La figura es un trazado de presión, p, en el eje vertical como una función de volumen, V, en el eje horizontal. Se muestran cuatro puntos A, B, C y D. B está directamente encima de A, con el mismo volumen pero con p B mayor que p A. Asimismo, C está directamente encima de D, con el mismo volumen pero con p C mayor que p D. A y D están a la misma presión, con p D mayor que p A. B y C están a la misma presión, con p C mayor que p B. Se muestran cinco trayectorias. Cuatro forman un rectángulo con las flechas que indican que lo atraviesan en sentido contrario a las agujas del reloj. Una trayectoria conecta desde A horizontalmente hacia la derecha hasta B. La siguiente trayectoria conecta desde B verticalmente hacia arriba hasta C. La siguiente trayectoria conecta desde C horizontalmente hacia la izquierda hasta D. La siguiente trayectoria conecta desde D verticalmente hacia abajo hasta A. La quinta trayectoria conecta desde A hasta C con una curva algo ondulada que permanece dentro del rectángulo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_SMP2019_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172098315893">
+<para id="fs-id1172098315896">a. 20 J; b. 90 J</para></solution>
+</exercise>
+<exercise id="fs-id1172098522323">
+<problem id="fs-id1172098777801">
+<para id="fs-id1172098777803">Un gas diluido se almacena en la cámara izquierda de un recipiente cuyas paredes están perfectamente aisladas (vea a continuación), y la cámara derecha está evacuada. Cuando se retira la división, el gas se expande y llena todo el recipiente. Calcule el trabajo realizado por el gas. ¿La energía interna del gas cambia en este proceso?</para>
+<media id="fs-id1172100586514" alt="La figura es una ilustración de un recipiente con una división en el centro que lo separa en dos cámaras. Las paredes exteriores están aisladas. La cámara de la izquierda está llena de gas, indicada por un sombreado azul y muchos puntos pequeños que representan las moléculas de gas. La cámara derecha está vacía.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_SMP2021_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1172098654633">
+<problem id="fs-id1172098654635">
+<para id="fs-id1172101009102">Los gases ideales A y B se almacenan en las cámaras izquierda y derecha de un recipiente aislado, como se muestra a continuación. Se retira la división y los gases se mezclan. ¿Se hace algún trabajo en este proceso? Si las temperaturas de A y B son inicialmente iguales, ¿qué ocurre con su temperatura común después de mezclarse?</para>
+<media id="fs-id1172101009104" alt="La figura es una ilustración de un recipiente con una división en el centro que lo separa en dos cámaras. Las paredes exteriores están aisladas. La cámara de la izquierda está identificada con una A y está llena de un gas, lo que se indica por el sombreado azul y muchos puntos pequeños que representan las moléculas de gas. La cámara de la derecha está identificada con una B y está llena de un segundo gas, lo que se indica por el sombreado rojo y muchos puntos pequeños que representan las moléculas de gas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_SMP2022_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100593560">
+<para id="fs-id1172100954217">No se realiza ningún trabajo y alcanzan la misma temperatura común.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100575330">
+<problem id="fs-id1172096093853">
+<para id="fs-id1172096093855">Un gas monoatómico ideal a una presión de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> y una temperatura de 300 K experimenta una expansión isobárica cuasiestática de <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> (a) ¿Cuál es el trabajo realizado por el gas? (b) ¿Cuál es la temperatura del gas después de la expansión? (c) ¿Cuántos moles de gas hay? (d) ¿Cuál es el cambio de energía interna del gas? (e) ¿Cuánto calor se añade al gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172100742840">
+<problem id="fs-id1172100742842">
+<para id="fs-id1172098643044">Considere el proceso para el vapor de agua en un cilindro que se muestra a continuación. Suponga que el cambio en la energía interna en este proceso es de 30 kJ. Calcule el calor que entra en el sistema.</para>
+<media id="fs-id1172098685904" alt="La figura es un gráfico de la presión, p, en atmósferas, en el eje vertical como una función de volumen, V, en litros en el eje horizontal. La escala horizontal de volumen va de 0 a 12. La escala de presión vertical va de 0 a 50. Se muestra una línea recta con pendiente negativa, con una flecha que apunta hacia abajo y hacia la izquierda. La línea se extiende desde el volumen de 5 litros, presión de 50 atmósferas hasta el volumen de 12 litros, presión de 20 atmósferas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_SteamCyl_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1172100658861">
+<para id="fs-id1172100658863">54,500 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1172100931681">
+<problem id="fs-id1172100789870">
+<para id="fs-id1172100789872">El estado de 30 moles de vapor de agua en un cilindro cambia de forma cíclica de a-b-c-a, donde la presión y el volumen de los estados son a (30 atm, 20 L), b (50 atm, 20 L) y c (50 atm, 45 L). Suponga que cada cambio ocurre a lo largo de la línea que une los estados inicial y final en el plano pV. (a) Represente el ciclo en el plano pV. (b) Calcule el trabajo neto realizado por el vapor de agua en un ciclo. (c) Calcule la cantidad neta de flujo de calor en el vapor de agua en el transcurso de un ciclo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172096082379">
+<problem id="fs-id1172098278628">
+<para id="fs-id1172098278630">Un gas ideal monoatómico experimenta un proceso cuasiestático que es descrito por la función <m:math><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>V</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mi>V</m:mi><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, donde el estado inicial es <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> y el estado final <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Suponga que el sistema consta de n moles del gas en un recipiente que puede intercambiar calor con el ambiente y cuyo volumen puede cambiar libremente. (a) Evalúe el trabajo realizado por el gas durante el cambio de estado. (b) Calcule el cambio de energía interna del gas. (c) Calcule el aporte de calor al gas durante el cambio. (d) ¿Cuáles son las temperaturas inicial y final?</para>
+</problem>
+<solution id="fs-id1172096233379">
+<para id="fs-id1172096233381">a. <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mn>3</m:mn><m:msubsup><m:mi>V</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>V</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>V</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>V</m:mi><m:mn>2</m:mn><m:mn>3</m:mn></m:msubsup><m:mo>−</m:mo><m:msubsup><m:mi>V</m:mi><m:mn>1</m:mn><m:mn>3</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo></m:mrow></m:math>; b. <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>; c. la suma de las partes (a) y (b); d. <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1172098648944">
+<problem id="fs-id1172100642609">
+<para id="fs-id1172100642612">Un recipiente metálico de volumen fijo de <m:math><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> sumergido en un gran tanque de temperatura <m:math><m:mrow><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> contiene dos compartimentos separados por una pared que se puede mover libremente. Inicialmente, la pared se mantiene en su lugar mediante un tapón, de modo que hay 0,02 moles del gas nitrógeno en un lado y 0,03 moles del gas oxígeno en el otro, ocupando cada uno la mitad del volumen. Cuando se retira el tapón, la pared se desplaza y llega a su posición final. El movimiento de la pared se controla de manera que la pared se mueve en pasos infinitesimales cuasiestáticos. (a) Calcule los volúmenes finales de los dos lados y asuma el comportamiento de gas ideal para los dos gases. (b) ¿Cuánto trabajo hace cada gas sobre el otro? (c) ¿Cuál es el cambio en la energía interna de cada gas? (d) Calcule la cantidad de calor que entra o sale de cada gas.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1172098276456">
+<problem id="fs-id1172098276458">
+<para id="fs-id1172100796564">Un gas en un recipiente cilíndrico cerrado se expande adiabática y cuasiestáticamente desde un estado <emphasis effect="italics">A</emphasis> (3 MPa, 2 L) hasta un estado <emphasis effect="italics">B</emphasis> con volumen de 6 L a lo largo de la trayectoria <m:math><m:mrow><m:mn>1,8</m:mn><m:mspace width="0.2em"/><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mtext>constante</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> (a) Trace la trayectoria en el plano <emphasis effect="italics">pV</emphasis>. (b) Calcule la cantidad de trabajo realizado por el gas y el cambio en la energía interna del gas durante el proceso.</para>
+</problem>
+<solution id="fs-id1172100905716">
+<para id="fs-id1172100905718">a.<newline/><media id="fs-id1172100664362" alt="La figura es un trazado de presión, p, en megapascales en el eje vertical como una función de volumen, V, en litros en el eje horizontal. La escala horizontal de volumen va de 0 a 6. La escala de presión vertical va de 0 a 3. Se muestran dos puntos, A a 2 litros, 3 megapascales, y B a 6 litros, y una presión sin etiquetar, que están conectados por una curva. La curva es monótonamente decreciente y cóncava.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_20_03_Prob16ans_img.jpg"/>
+</media>;<newline/> b. <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>4,39</m:mn><m:mspace width="0.2em"/><m:mtext>kJ,</m:mtext><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>-4,39</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1172100653515">
+<term>primera ley de la termodinámica</term>
+<meaning id="fs-id1172100561070">el cambio de energía interna para cualquier transición entre dos estados de equilibrio es <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi></m:mrow></m:math></meaning>
+</definition>
+</glossary>
+</document>

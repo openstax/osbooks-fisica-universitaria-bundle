@@ -1,0 +1,185 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Energía cinética</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90645</md:content-id>
+  <md:title>Energía cinética</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Calcular la energía cinética de una partícula dada su masa y su velocidad o momento.</item>
+<item>Evaluar la energía cinética de un cuerpo, relativa a diferentes marcos de referencia.</item>
+</list></md:abstract>
+  <md:uuid>9fcaf2d7-9987-4096-82e6-c39622fc70fe</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165038359588">Es plausible suponer que cuanto mayor sea la velocidad de un cuerpo, mayor será su efecto sobre otros cuerpos. Esto no depende de la dirección de la velocidad, sino de su magnitud. A finales del siglo XVII se introdujo en la mecánica una cantidad para explicar las colisiones entre dos cuerpos perfectamente elásticos, en las que un cuerpo choca frontalmente con otro idéntico en reposo. El primer cuerpo se detiene y el segundo cuerpo se desplaza con la velocidad inicial del primero. (Si alguna vez ha jugado al billar o al croquet, o ha visto una maqueta de la Cuna de Newton, habrá observado este tipo de colisión). La idea que subyace a esta cantidad está relacionada con las fuerzas que actúan sobre un cuerpo y se denomina "la energía del movimiento". Más tarde, durante el siglo XVIII, se dio el nombre de <term>energía cinética</term> a la energía del movimiento.</para>
+<para id="fs-id1165037175379">Teniendo en cuenta esta historia, podemos enunciar la definición clásica de energía cinética. Observe que, cuando decimos "clásica", queremos decir no relativista, es decir, a velocidades mucho menores que la de la luz. A velocidades comparables a la de la luz, la teoría especial de la relatividad requiere una expresión diferente para la energía cinética de una partícula, tal como se comenta en <link document="m58555">Relatividad</link>.</para>
+<para id="fs-id1165036887179">Dado que los objetos (o sistemas) de interés varían en complejidad, primero definimos la energía cinética de una partícula con masa <emphasis effect="italics">m</emphasis>.</para>
+<note id="fs-id1165038018540">
+<title>Energía cinética</title>
+<para id="fs-id1165038024200">La energía cinética de una partícula es la mitad del producto de su masa <emphasis effect="italics">m</emphasis> por el cuadrado de su rapidez <emphasis effect="italics">v</emphasis>:</para>
+<equation id="fs-id1165038054728"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165037967494">A continuación, ampliamos esta definición a cualquier sistema de partículas, al sumar las energías cinéticas de todas las partículas que lo componen:</para>
+<equation id="fs-id1165038016262"><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165037089968">Observe que, al igual que podemos expresar la segunda ley de Newton en términos de la tasa de cambio del momento o de la masa por la tasa de cambio de la velocidad, entonces la energía cinética de una partícula puede expresarse en términos de su masa y su momento <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> en lugar de su masa y velocidad. Dado que<m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:math>, vemos que</para>
+<equation id="fs-id1165036895207" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>p</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1165037168838">también expresa la energía cinética de una sola partícula. A veces, esta expresión es más cómoda de utilizar que la <link target-id="fs-id1165038054728"/>.</para>
+<para id="fs-id1165038132491">Las unidades de energía cinética son la masa por el cuadrado de la rapidez, o <m:math><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. No obstante, las unidades de fuerza son la masa por la aceleración, <m:math><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, por lo que las unidades de energía cinética son también las unidades de la fuerza por la distancia, que son las unidades de trabajo, o julios. En la siguiente sección verá que el trabajo y la energía cinética tienen las mismas unidades, porque son formas diferentes de la misma propiedad física más general.</para>
+<example id="fs-id1165038048633">
+<para id="fs-id1165038030561"><title>Energía cinética de un objeto</title>
+(a) ¿Cuál es la energía cinética de un atleta de 80 kg, corriendo a 10 m/s? (b) Se cree que el cráter de Chicxulub, en Yucatán, uno de los mayores cráteres de impacto existentes en la Tierra, fue creado por un asteroide, que viajaba a 22 km/s y liberó <m:math><m:mrow><m:mn>4,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> de energía cinética en el momento del impacto. ¿Cuál era su masa? (c) En los reactores nucleares, los neutrones térmicos, que viajan a unos 2,2 km/s, desempeñan un papel importante. ¿Cuál es la energía cinética de dicha partícula?</para>
+<para id="fs-id1165036859434"><title>Estrategia</title>
+Para responder a estas preguntas, puede utilizar la definición de energía cinética en la <link target-id="fs-id1165038054728"/>. También hay que buscar la masa de un neutrón.</para>
+<para id="fs-id1165036966381"><title>Solución</title>
+No olvide convertir los km en m para hacer estos cálculos, aunque, para ahorrar espacio, omitimos mostrar estas conversiones.</para>
+<list id="fs-id1165038192950" list-type="enumerated" number-style="lower-alpha">
+<item><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>K</m:mi><m:mtext>/</m:mtext><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow><m:mspace width="0.2em"/></m:msup><m:mtext>J</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>22</m:mn><m:mspace width="0.2em"/><m:mtext>km/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1,68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2,2</m:mn><m:mspace width="0.2em"/><m:mtext>km/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+</list>
+<para id="fs-id1165038040808"><title>Importancia</title>
+En este ejemplo, hemos utilizado la forma en que la masa y la velocidad se relacionan con la energía cinética, y hemos hallado un rango muy amplio de valores para las energías cinéticas. Para estos valores tan grandes y tan pequeños se suelen utilizar unidades diferentes. La energía del impactador en la parte (b) se compara con el rendimiento explosivo del TNT y las explosiones nucleares, <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>megatón</m:mtext><m:mo>=</m:mo><m:mn>4,18</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> La energía cinética del asteroide de Chicxulub era de unos cien millones de megatones. En el otro extremo, la energía de la partícula subatómica se expresa en electronvoltios, <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>=</m:mo><m:mn>1,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> El neutrón térmico de la parte (c) tiene una energía cinética de aproximadamente una cuadragésima parte de un electronvoltio.</para>
+</example>
+<note id="fs-id1165036766342" class="check-understanding">
+<exercise id="fs-id1165038202556">
+<problem id="fs-id1165038201444">
+<para id="fs-id1165036876736">(a) Un auto y un camión se mueven cada uno con la misma energía cinética. Supongamos que el camión tiene más masa que el auto. ¿Cuál tiene mayor rapidez? (b) Un auto y un camión se mueven cada uno con la misma rapidez. ¿Cuál tiene mayor energía cinética?</para>
+</problem>
+<solution id="fs-id1165038021514">
+<para id="fs-id1165037982457">a. el auto; b. el camión</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165037181390">Ya que la velocidad es una magnitud relativa, se puede ver que el valor de la energía cinética dependerá de su marco de referencia. Por lo general, puede elegir un marco de referencia que se adapte al propósito de su análisis y que simplifique sus cálculos. Uno de estos marcos de referencia es aquel en el que se realizan las observaciones del sistema (probablemente un marco externo). Otra opción es un marco que esté unido al sistema o se mueva con este (probablemente un marco interno). Las ecuaciones del movimiento relativo, tratadas en <link document="m90624">Movimiento en dos y tres dimensiones</link>, proporcionan un enlace para calcular la energía cinética de un objeto con respecto a diferentes marcos de referencia.</para>
+<example id="fs-id1165037049856">
+<para id="fs-id1165038023489"><title>Energía cinética en relación con diferentes marcos</title>
+Una persona de 75,0 kg camina por el pasillo central de un vagón de metro a una rapidez de 1,50 m/s respecto al vagón, mientras que el tren se mueve a 15,0 m/s respecto a las vías. (a) ¿Cuál es la energía cinética de la persona respecto al vagón? (b) ¿Cuál es la energía cinética de la persona respecto a las vías? (c) ¿Cuál es la energía cinética de la persona respecto a un marco que se mueve con la persona?</para>
+<para id="fs-id1165037855419"><title>Estrategia</title>
+Ya que la rapidez está dada, utilizamos <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> para calcular la energía cinética de la persona. Sin embargo, en la parte (a), la rapidez de la persona es relativa al vagón de metro (como se da); en la parte (b), es relativa a las vías; y en la parte (c), es cero. Si denotamos el marco del vagón como C, el marco de la vía como T, y la persona como P, las velocidades relativas en la parte (b) están relacionadas por <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>PT</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>PC</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>CT</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> Podemos suponer que el pasillo central y las vías se encuentran en la misma línea. Sin embargo, no se especifica la dirección en la que la persona camina con respecto al vagón, por lo que daremos una respuesta para cada posibilidad, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>PT</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>CT</m:mtext></m:mrow></m:msub><m:mo>±</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>PC</m:mtext></m:mrow></m:msub></m:mrow></m:math>, como se muestra en la <link target-id="CNX_UPhysics_07_02_Train"/>.</para>
+<figure id="CNX_UPhysics_07_02_Train">
+<media id="fs-id1165036820785" alt="Dos ilustraciones de una persona caminando en un vagón de tren. En la figura a, la persona se mueve hacia la derecha con el vector de velocidad v sub P C y el tren se mueve hacia la derecha con el vector de velocidad v sub C T. En la figura b, la persona se mueve hacia la izquierda con el vector de velocidad v sub P C y el tren se mueve hacia la derecha con el vector de velocidad v sub C T.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_02_Train.jpg"/>
+</media>
+<caption>Los posibles movimientos de una persona que camina en un tren son (a) hacia la parte delantera del vagón y (b) hacia la parte trasera del vagón.</caption>
+</figure>
+<para id="fs-id1165038356753"><title>Solución</title></para>
+<list id="fs-id1165037881180" list-type="enumerated" number-style="lower-alpha">
+<item><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>75,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>84,4</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>PT</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>15,0</m:mn><m:mo>±</m:mo><m:mn>1,50</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> Por lo tanto, los dos valores posibles de la energía cinética respecto al vagón son
+<equation id="fs-id1165037981655" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>75,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>13,5</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>6,83</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext></m:mrow></m:math></equation>
+y
+<equation id="fs-id1165038046576" class="unnumbered"><label/><m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>75,0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>16,5</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>10,2</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>En un marco en el que <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>K</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> también.</item>
+</list>
+<para id="fs-id1165038031612"><title>Importancia</title>
+Verá que la energía cinética de un objeto puede tener valores muy diferentes, dependiendo del marco de referencia. Sin embargo, la energía cinética de un objeto nunca puede ser negativa, ya que es el producto de la masa y el cuadrado de la velocidad, ambos siempre positivos o cero.</para>
+</example>
+<note id="fs-id1165037850044" class="check-understanding">
+<exercise id="fs-id1165038018853">
+<problem id="fs-id1165038000733">
+<para id="fs-id1165038043881">Está remando un bote paralelo a la orilla de un río. Su energía cinética respecto a las orillas es menor que su energía cinética respecto al agua. ¿Está remando con o contra la corriente?</para>
+</problem>
+<solution id="fs-id1165038007254">
+<para id="fs-id1165037903488">contra</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165038377984">La energía cinética de una partícula es una cantidad única. Sin embargo, la energía cinética de un sistema de partículas puede dividirse a veces en varios tipos, según el sistema y su movimiento. Por ejemplo, si todas las partículas de un sistema tienen la misma velocidad, el sistema está en movimiento de traslación y tiene energía cinética de traslación. Si un objeto está en rotación, podría tener energía cinética rotacional, o si está vibrando, podría tener energía cinética vibratoria. La energía cinética de un sistema, relativa a un marco de referencia interno, se denomina energía cinética interna. La energía cinética asociada al movimiento molecular aleatorio se denomina energía térmica. Estos nombres se utilizarán en capítulos posteriores del libro, cuando corresponda. Independientemente del nombre, cada tipo de energía cinética es la misma cantidad física, que representa la energía asociada al movimiento.</para>
+<example id="fs-id1165038198441">
+<para id="fs-id1165037030586"><title>Nombres especiales para la energía cinética</title>
+(a) Un jugador lanza un pase a media cancha con un balón de baloncesto de 624 g, que recorre 15 m en 2 s. ¿Cuál es la energía cinética de traslación horizontal del balón de baloncesto durante su vuelo? (b) Una molécula media de aire, en el balón de baloncesto de la parte (a), tiene una masa de 29 u, y una rapidez media de 500 m/s, en relación con el balón de baloncesto. Hay alrededor de <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup></m:mrow></m:math> moléculas en su interior, moviéndose en direcciones aleatorias, cuando el balón está bien inflado. ¿Cuál es la energía cinética de traslación media del movimiento aleatorio de todas las moléculas del interior, en relación con el balón de baloncesto? (c) ¿A qué velocidad tendría que desplazarse el balón de baloncesto en relación con la cancha, como en la parte (a), para tener una energía cinética igual a la de la parte (b)?</para>
+<para id="fs-id1165037881195"><title>Estrategia</title>
+En la parte (a), halle primero la rapidez horizontal del balón de baloncesto y luego utilice la definición de energía cinética en términos de masa y rapidez, <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. A continuación, en la parte (b), convierta las unidades unificadas en kilogramos y luego utilice <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> para obtener la energía cinética media de traslación de una molécula, en relación con el balón de baloncesto. A continuación, multiplique por el número de moléculas para obtener el resultado total. Finalmente, en la parte (c), podemos sustituir la cantidad de energía cinética de la parte (b), y la masa del balón de baloncesto de la parte (a), en la definición <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, y resolver para <emphasis effect="italics">v</emphasis>.</para>
+<para id="fs-id1165036987217"><title>Solución</title></para>
+<list id="fs-id1165038340525" list-type="enumerated" number-style="lower-alpha">
+<item>La rapidez horizontal es (15 m)/(2 s), por lo que la energía cinética horizontal del balón de baloncesto es
+<equation id="fs-id1165036784074" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>0,624</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7,5</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>17,6</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>La energía cinética media de traslación de una molécula es
+<equation id="fs-id1165038158852" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>29</m:mn><m:mspace width="0.2em"/><m:mtext>u</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,66</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg/u</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>6,02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J,</m:mtext></m:mrow></m:math></equation>
+y la energía cinética total de todas las moléculas es
+<equation id="fs-id1165037154540" class="unnumbered"><label/><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6,02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1,80</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1,8</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0,624</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>76,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></item>
+</list>
+<para id="fs-id1165037977747"><title>Importancia</title>
+En la parte (a), este tipo de energía cinética se denomina energía cinética horizontal de un objeto (el balón de baloncesto), en relación con su entorno (la cancha). Si el balón de baloncesto estuviera girando, todas sus partes tendrían no solo la rapidez media, sino también energía cinética rotacional. La parte (b) nos recuerda que este tipo de energía cinética se denomina energía cinética interna o térmica. Observe que esta energía es unas cien veces superior a la de la parte (a). El aprovechamiento de la energía térmica será el tema en los capítulos de termodinámica. En la parte (c), dado que la energía de la parte (b) es unas 100 veces mayor que la de la parte (a), la rapidez debería ser unas 10 veces mayor, y así es (76 frente a 7,5 m/s).</para>
+</example>
+<section id="fs-id1165038042875" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1165038163324" list-type="bulleted" bullet-style="bullet">
+<item>La energía cinética de una partícula es el producto de la mitad de su masa por el cuadrado de su velocidad, para una rapidez no relativista.</item>
+<item>La energía cinética de un sistema es la suma de las energías cinéticas de todas las partículas del sistema.</item>
+<item>La energía cinética es relativa a un marco de referencia, siempre es positiva y a veces recibe nombres especiales para los distintos tipos de movimiento.</item>
+</list>
+</section>
+<section id="fs-id1165038012498" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1165037845870">
+<problem id="fs-id1165038165247">
+<para id="fs-id1165036873436">Una partícula de <emphasis effect="italics">m</emphasis> tiene una velocidad de <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mi>y</m:mi></m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mi>z</m:mi></m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> ¿Está su energía cinética dada por <m:math><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mi>x</m:mi></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>i</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mi>y</m:mi></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>j</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mi>z</m:mi></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>k</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mtext>)/2?</m:mtext></m:mrow></m:math> Si no es así, ¿cuál es la expresión correcta?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037150780">
+<problem id="fs-id1165038333251">
+<para id="fs-id1165038356814">Una partícula tiene masa <emphasis effect="italics">m</emphasis> y una segunda partícula tiene masa 2<emphasis effect="italics">m</emphasis>. La segunda partícula se mueve con rapidez <emphasis effect="italics">v</emphasis> y la primera con rapidez 2<emphasis effect="italics">v</emphasis>. ¿Cómo se comparan sus energías cinéticas?</para>
+</problem>
+<solution id="fs-id1165036746350">
+<para id="fs-id1165038011958">La primera partícula tiene una energía cinética de <m:math><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math> mientras que la segunda partícula tiene una energía cinética de <m:math><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> por lo que la primera partícula tiene el doble de energía cinética que la segunda.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038043787">
+<problem id="fs-id1165037216533">
+<para id="fs-id1165038013856">Una persona deja caer un guijarro de masa <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> desde una altura <emphasis effect="italics">h</emphasis>, y golpea el suelo con una energía cinética <emphasis effect="italics">K</emphasis>. La persona deja caer otro guijarro de masa <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> desde una altura de 2<emphasis effect="italics">h</emphasis>, y golpea el suelo con la misma energía cinética <emphasis effect="italics">K</emphasis>. ¿Cómo se comparan las masas de los guijarros?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165038342395" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1165038364594">
+<problem id="fs-id1165036785257">
+<para id="fs-id1165036758487">Compare la energía cinética de un camión de 20.000 kg que se mueve a 110 km/h con la de un astronauta de 80,0 kg en órbita que se mueve a 27.500 km/h.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036778364">
+<problem id="fs-id1165038036152">
+<para id="fs-id1165037011835">(a) ¿A qué velocidad debe moverse un elefante de 3.000 kg para tener la misma energía cinética que un velocista de 65,0 kg que corre a 10,0 m/s? (b) Argumente de qué manera las mayores energías necesarias para el movimiento de los animales más grandes se relacionarían con las tasas metabólicas.</para>
+</problem>
+<solution id="fs-id1165036994946">
+<para id="fs-id1165038332612">a. 1,47 m/s; b. las respuestas pueden variar</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038039541">
+<problem id="fs-id1165037167939">
+<para id="fs-id1165037032607">Calcule la energía cinética de un portaaviones de 90.000 toneladas que se mueve a una rapidez de 30 nudos. Tendrá que buscar la definición de milla náutica para utilizarla en la conversión de la unidad para la rapidez, donde 1 nudo equivale a 1 milla náutica por hora. Además, para este problema, 1 tonelada equivale a 2.000 libras.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038044494">
+<problem id="fs-id1165038036301">
+<para id="fs-id1165038032557">Calcule las energías cinéticas de (a) un automóvil de 2.000,0 kg que se mueve a 100,0 km/h; (b) un corredor de 80,0 kg que esprinta a 10,0 m/s; y (c) un electrón de <m:math><m:mrow><m:mn>9,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>-kg</m:mtext></m:mrow></m:math> que se mueve a <m:math><m:mrow><m:mn>2,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1165037853891">
+<para id="fs-id1165037940255">a. 772 kJ; b. 4,0 kJ; c. <m:math><m:mrow><m:mn>1,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−16</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036795415">
+<problem id="fs-id1165036891100">
+<para id="fs-id1165036756308">Un cuerpo de 5,0 kg tiene tres veces la energía cinética de un cuerpo de 8,0 kg. Calcule el cociente de la rapidez de estos cuerpos.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038045322">
+<problem id="fs-id1165036846875">
+<para id="fs-id1165036759416">Una bala de 8,0 g tiene una rapidez de 800 m/s. (a) ¿Cuál es su energía cinética? (b) ¿Cuál es su energía cinética si la rapidez se reduce a la mitad?</para>
+</problem>
+<solution id="fs-id1165037053928">
+<para id="fs-id1165036967577">a. 2,6 kJ; b. 640 J</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165036767566">
+<term>energía cinética</term>
+<meaning id="fs-id1165038247619">energía del movimiento, la mitad de la masa de un objeto por el cuadrado de su rapidez</meaning>
+</definition>
+</glossary>
+</document>

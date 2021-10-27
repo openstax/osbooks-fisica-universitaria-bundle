@@ -1,0 +1,205 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Dinámicas de fluidos</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90693</md:content-id>
+  <md:title>Dinámicas de fluidos</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir las características del flujo.</item>
+<item>Calcular la tasa de flujo.</item>
+<item>Describir la relación entre tasa de flujo y velocidad.</item>
+<item>Explicar las consecuencias de la ecuación de continuidad para la conservación de la masa.</item>
+</list></md:abstract>
+  <md:uuid>3d6e2e90-8785-433c-b226-7121ec497ee5</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170959732663">La primera parte de este capítulo trata de la estática de los fluidos, el estudio de los fluidos en reposo. El resto de este capítulo trata de dinámicas de fluidos, el estudio de fluidos en movimiento. Incluso las formas más básicas de movimiento de fluidos pueden ser bastante complejas. Por eso limitamos nuestra investigación a <emphasis effect="bold"><term>fluidos ideales</term></emphasis> en muchos de los ejemplos. Un fluido ideal es aquel con una <term>viscosidad</term> insignificante. La viscosidad es una medida de la fricción interna en un fluido; la examinamos con más detalle en la sección <link document="m90695">Viscosidad y turbulencia</link>. En algunos ejemplos examinamos un fluido incompresible —para el que se requiere una fuerza extremadamente grande para cambiar el volumen—, ya que su densidad es constante en todo momento.</para>
+<section id="fs-id1170957418035">
+<title>Características del flujo</title>
+<para id="fs-id1170960194762">Los vectores de velocidad se usan, a menudo, para ilustrar el movimiento de los fluidos en aplicaciones como la meteorología. Por ejemplo, el viento —el movimiento fluido del aire en la atmósfera— se puede representar mediante vectores que indican la velocidad y la dirección del viento en cualquier punto del mapa. La <link target-id="CNX_UPhysics_Figure_14_05_WindVecAut"/> muestra vectores de velocidad que describen los vientos durante el huracán Arthur en 2014.</para>
+<figure id="CNX_UPhysics_Figure_14_05_WindVecAut"><media id="fs-id1170959938953" alt="La figura es un mapa de presión del huracán Arthur recorriendo la costa este. El centro de baja presión se indica con el punto azul. La velocidad del viento es mayor cerca del centro de baja presión y los vientos se mueven en sentido contrario a las agujas del reloj a su alrededor.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_Figure_14_05_WindVecAut.jpg"/>
+</media>
+
+<caption>Los vectores de velocidad muestran el flujo del viento en el huracán Arthur. Obsérvese la circulación del viento alrededor del ojo del huracán. La velocidad del viento es mayor cerca del ojo. Los colores representan la vorticidad relativa, una medida de giro o rotación del aire (créditos: modificación de trabajo de Joseph Trout, Universidad de Stockton).</caption></figure><para id="fs-id1170959787823">Otro método para representar el movimiento de los fluidos es la <emphasis effect="italics">línea de corriente</emphasis>. Una línea de corriente representa la trayectoria de un pequeño volumen de fluido mientras fluye. La velocidad es siempre tangencial a la línea de corriente. Los diagramas de la <link target-id="CNX_UPhysics_Figure_14_05_TurLamFlow"/> usan líneas de corriente para ilustrar dos ejemplos de fluidos que se desplazan por una tubería. El primer fluido presenta un <term>flujo laminar</term> (a veces descrito como flujo estacionario), representado por líneas de corriente suaves y paralelas. Observe que en el ejemplo mostrado en la parte (a), la velocidad del fluido es mayor en el centro y disminuye cerca de las paredes de la tubería debido a la viscosidad del fluido y a la fricción entre las paredes de la tubería y el fluido. Se trata de un caso especial de flujo laminar, en el que la fricción entre la tubería y el fluido es alta, lo que se conoce como condiciones de frontera sin deslizamiento. El segundo diagrama representa el <term>flujo turbulento</term>, en el que las líneas de corriente son irregulares y cambian con el tiempo. En el flujo turbulento las trayectorias del fluido circulante son irregulares, ya que diferentes partes del fluido se mezclan o forman pequeñas regiones circulares que se asemejan a remolinos. Esto puede ocurrir cuando la velocidad del fluido alcanza una determinada velocidad crítica.</para>
+<figure id="CNX_UPhysics_Figure_14_05_TurLamFlow"><media id="fs-id1170960044682" alt="La figura A es el esquema del flujo laminar mostrado como capas de fluido que se mueven en líneas paralelas. La figura B es el esquema del flujo turbulento mostrado como capas de fluido que se mueven en trayectorias irregulares que colisionan.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_Figure_14_05_TurLamFlow.jpg"/>
+</media>
+
+<caption>(a) El flujo laminar se puede considerar como capas de fluido que se mueven en trayectorias paralelas y regulares. (b) En el flujo turbulento, las regiones de fluido se mueven en trayectorias irregulares que chocan entre sí, lo que provoca mezclas y remolinos.</caption></figure></section>
+<section id="fs-id1170957555027">
+<title>La tasa de flujo y su relación con la velocidad</title>
+<para id="fs-id1170959782778">El volumen de fluido que pasa por un lugar determinado a través de un área durante un espacio de tiempo se denomina <term>tasa de flujo</term> <emphasis effect="italics">Q</emphasis> o, más exactamente, tasa de flujo volumétrica. En símbolos, esto se escribe como</para>
+<note id="fs-id1170959667116" class="equation-callout">
+<equation id="fs-id1170959719559"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170957579883">donde <emphasis effect="italics">V</emphasis> es el volumen y <emphasis effect="italics">t</emphasis> es el tiempo transcurrido. En la <link target-id="CNX_UPhysics_14_05_FlowRateDi"/>, el volumen del cilindro es <emphasis effect="italics">Ax</emphasis>, por lo que la tasa de flujo es</para>
+<equation id="fs-id1170959785752" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>v</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_14_05_FlowRateDi"><media id="fs-id1170959817958" alt="La figura es un esquema de una tubería uniforme con el área de la sección transversal A. El fluido circula a través de la tubería. El volumen de fluido V pasa por un punto P en el tiempo t.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_14_05_FlowRateDi.jpg"/>
+</media>
+
+<caption>La tasa de flujo es el volumen del fluido que circula por un punto a través del área <emphasis effect="italics">A</emphasis> por unidad de tiempo. Aquí, el cilindro sombreado de fluido pasa por el punto <emphasis effect="italics">P</emphasis> en una tubería uniforme en el tiempo <emphasis effect="italics">t</emphasis>.</caption></figure><para id="fs-id1170957416892">La unidad del SI para la tasa de flujo es <m:math><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mtext>/s,</m:mtext></m:mrow></m:math> pero hay otras unidades de uso común para <emphasis effect="italics">Q</emphasis>, como litros por minuto (L/min). Tenga en cuenta que un litro (L) es 1/1.000 de un metro cúbico o 1.000 centímetros cúbicos <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>o</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1170957415857">La tasa de flujo y la velocidad son magnitudes físicas relacionadas, pero bastante diferentes. Para aclarar la distinción, consideremos la tasa de flujo de un río. Cuanto mayor sea la velocidad del agua, mayor será la tasa de flujo del río. Pero la tasa de flujo también depende del tamaño y de la forma del río. Un arroyo rápido de montaña lleva mucha menos agua que el río Amazonas en Brasil, por ejemplo. La <link target-id="CNX_UPhysics_14_05_FlowRateDi"/> ilustra la tasa de flujo volumétrica. La tasa de flujo volumétrica es <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mi>A</m:mi></m:math> es el área de la sección transversal de la tubería y <emphasis effect="italics">v</emphasis> es la magnitud de la velocidad.</para>
+<para id="fs-id1170959863720">La relación precisa entre tasa de flujo <emphasis effect="italics">Q</emphasis> y rapidez media <emphasis effect="italics">v</emphasis> es</para>
+<equation id="fs-id1170960184112" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959745302">donde <emphasis effect="italics">A</emphasis> es el área de la sección transversal y <m:math><m:mi>v</m:mi></m:math> es la rapidez media. La relación nos dice que la tasa de flujo es directamente proporcional tanto a la rapidez media del fluido como al área de la sección transversal de un río, tubería u otro conducto. Cuanto mayor sea el conducto, mayor será su área de sección transversal. La <link target-id="CNX_UPhysics_14_05_FlowRateDi"/> ilustra cómo se obtiene esta relación. El cilindro sombreado tiene un volumen <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>d</m:mi></m:mrow></m:math>, que pasa por el punto <emphasis effect="italics">P</emphasis> en un tiempo <emphasis effect="italics">t</emphasis>. Al dividir ambos lados de esta relación entre <emphasis effect="italics">t</emphasis> se obtiene</para>
+<equation id="fs-id1170957412837" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>V</m:mi><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>A</m:mi><m:mi>d</m:mi></m:mrow><m:mi>t</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959797575">Observamos que <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>t</m:mi></m:mrow></m:math> y la rapidez media es <m:math><m:mrow><m:mi>v</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mi>d</m:mi><m:mo>/</m:mo><m:mi>t</m:mi></m:mrow></m:math>. Por lo tanto, la ecuación se convierte en <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>v</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1170959779200">La figura <link target-id="CNX_UPhysics_Figure_14_05_TubeNarrow"/> muestra un fluido incompresible que circula a lo largo de una tubería de radio decreciente. Como el fluido es incompresible, la misma cantidad de fluido debe pasar por cualquier punto del tubo en un tiempo determinado para garantizar la continuidad del flujo. El flujo es continuo porque no hay fuentes ni sumideros que añadan o quiten masa, por lo que la masa que entra en la tubería debe ser igual a la que sale de ella. En este caso, como el área de la sección transversal de la tubería disminuye, la velocidad debe aumentar necesariamente. Esta lógica puede ampliarse para decir que la tasa de flujo debe ser la misma en todos los puntos de la tubería. En particular, para los puntos 1 y 2 arbitrarios,</para>
+<note id="fs-id1170959649366" class="equation-callout">
+<equation id="fs-id1170959788783"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+</note>
+<para id="fs-id1170959718938">Se denomina <term class="no-emphasis"><emphasis effect="italics">ecuación de continuidad</emphasis></term> y es válida para cualquier fluido incompresible (con densidad constante). Las consecuencias de la ecuación de continuidad se pueden observar cuando el agua fluye desde una manguera hacia una boquilla de pulverización estrecha: sale con una gran velocidad, lo cual es el propósito de la boquilla. A la inversa, cuando un río desemboca en un extremo de un embalse, el agua disminuye considerablemente su velocidad, que quizá vuelva a aumentar al salir del otro extremo del embalse. En otras palabras, la velocidad aumenta cuando el área de la sección transversal disminuye, y la velocidad disminuye cuando el área de la sección transversal aumenta.</para>
+<figure id="CNX_UPhysics_Figure_14_05_TubeNarrow">
+<media id="fs-id1170959723040" alt="La figura es el esquema de una tubería que se estrecha desde el área de la sección transversal A1 hasta el área de la sección transversal A2. El fluido circula por la tubería. El volumen de fluido V1 pasa por un punto 1, situado en la parte ancha de la sección transversal, en el tiempo t. El volumen de fluido V2 pasa por un punto 2, situado en la parte estrecha de la sección transversal, en el tiempo t.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_05_TubeNarrow.jpg"/>
+</media>
+<caption>Cuando un tubo se estrecha, el mismo volumen ocupa una mayor longitud. Para que el mismo volumen pase por los puntos 1 y 2 en un tiempo determinado, la velocidad debe ser mayor en el punto 2. El proceso es exactamente reversible. Si el fluido circula en sentido contrario, su velocidad disminuye cuando el tubo se ensancha (obsérvese que los volúmenes relativos de los dos cilindros y las flechas de los vectores de velocidad correspondientes no están dibujados a escala).</caption>
+</figure>
+<para id="fs-id1170959695445">Como los líquidos son esencialmente incompresibles, la ecuación de continuidad es válida para todos los líquidos. Sin embargo, los gases son compresibles, por lo que la ecuación debe aplicarse con precaución a los gases si están sometidos a compresión o expansión.</para>
+<example id="fs-id1170959644656">
+<para id="fs-id1170959645158"><title>Cálculo de la velocidad del fluido a través de una boquilla</title>
+A una manguera de jardín con un radio de 0,900 cm se le acopla una boquilla con un diámetro de 0,500 cm. La tasa de flujo que pasa por la manguera y la boquilla es de 0,500 L/s. Calcule la velocidad del agua (a) en la manguera y (b) en la boquilla.</para>
+<para id="fs-id1170957416619"><title>Estrategia</title>
+Podemos usar la relación entre tasa de flujo y velocidad para encontrar ambas velocidades. Usamos el subíndice 1 para la manguera y el 2 para la boquilla.</para>
+<para id="fs-id1170957589103"><title>Solución</title></para>
+<list id="fs-id1170959652069" list-type="enumerated" number-style="lower-alpha">
+<item>Resolvemos la ecuación de la tasa de flujo para la velocidad y usamos <m:math><m:mrow><m:mi>π</m:mi><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:mrow></m:math> para el área de la sección transversal de la manguera, obteniendo
+<equation id="fs-id1170959658630" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+Al sustituir los valores y usar las conversiones de unidades adecuadas se obtiene
+<equation id="fs-id1170959697597" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>L/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/L</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3,14</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>9,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,96</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</item>
+<item>Podríamos repetir este cálculo para encontrar la velocidad en la boquilla <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, pero usamos la ecuación de continuidad para dar una visión algo diferente. La ecuación dice
+<equation id="fs-id1170960187399" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+Resolver para <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> y al sustituir <m:math><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> para el área de la sección transversal se obtiene
+<equation id="fs-id1170959724654" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mi>π</m:mi><m:msubsup><m:mi>r</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+Al sustituir valores conocidos,
+<equation id="fs-id1170959758957" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mtext>(0,900 cm)</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mtext>(0,250 cm)</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mn>1,96</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>=</m:mo><m:mn>25,5</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</item>
+</list>
+<para id="fs-id1170959735131"><title>Importancia</title>
+Una velocidad de 1,96 m/s es más o menos correcta para el agua que sale de una manguera sin boquilla. La boquilla produce un chorro considerablemente más rápido por el simple hecho de constreñir el flujo a un tubo más estrecho.</para>
+<para id="fs-id1170959820866">La solución de la última parte del ejemplo muestra que la velocidad es inversamente proporcional al cuadrado del radio del tubo, por lo que los efectos son grandes cuando varía el radio. Podemos apagar una vela a bastante distancia, por ejemplo, frunciendo los labios, mientras que soplar una vela con la boca abierta es bastante ineficaz.</para>
+</example>
+</section>
+<section id="fs-id1170957514468">
+<title>Conservación de la masa</title>
+<para id="fs-id1170959693693">La tasa de flujo de un fluido también se puede describir mediante la <term class="no-emphasis"><emphasis effect="italics">tasa de flujo de masa</emphasis></term> o flujo másico. Es la velocidad con la que una masa del fluido pasa por un punto. Consulte de nuevo la <link target-id="CNX_UPhysics_14_05_FlowRateDi"/>, pero esta vez considere la masa en el volumen sombreado. La masa se puede determinar a partir de la densidad y el volumen:</para>
+<equation id="fs-id1170959819384" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959869262">La tasa de flujo de masa es entonces</para>
+<equation id="fs-id1170957409681" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>A</m:mi><m:mi>v</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170959698285">donde <m:math><m:mi>ρ</m:mi></m:math> es la densidad, <emphasis effect="italics">A</emphasis> es el área de la sección transversal y <emphasis effect="italics">v</emphasis> es la magnitud de la velocidad. La tasa de flujo de masa es una magnitud importante en las dinámicas de fluidos, y se puede usar para resolver muchos problemas. Considere la <link target-id="CNX_UPhysics_Figure_14_05_MassFlowTb"/>. La tubería de la figura comienza en la entrada con un área de sección transversal de <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y se constriñe a una salida con un área de sección transversal menor de <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. La masa del fluido que entra en la tubería tiene que ser igual a la masa del fluido que sale de ella. Por esto la velocidad en la salida <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> es mayor que la velocidad de la entrada <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Usando el hecho de que la masa del fluido que entra en la tubería debe ser igual a la masa del fluido que sale de ella, podemos encontrar una relación entre la velocidad y el área de la sección transversal tomando la tasa de cambio de la masa que entra y la que sale:</para>
+<note id="fs-id1170959641429" class="equation-callout">
+<equation id="fs-id1170959718383"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>ρ</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>ρ</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+</note>
+<para id="fs-id1170959702716"><link target-id="fs-id1170959718383"/> también se conoce como la ecuación de continuidad en forma general. Si la densidad del fluido se mantiene constante a través de la constricción —es decir, el fluido es incompresible— entonces la densidad se anula de la ecuación de continuidad,</para>
+<equation id="fs-id1170959645768" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170957575300">La ecuación se reduce para demostrar que la tasa de flujo volumétrica que entra en la tubería es igual a la tasa de flujo volumétrica que sale de ella.</para>
+<figure id="CNX_UPhysics_Figure_14_05_MassFlowTb">
+<media id="fs-id1170959670383" alt="La figura es un esquema de un fluido que circula en una tubería uniforme con el área de la sección transversal A. El volumen de fluido V delta t pasa por la tubería durante el tiempo delta t.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_Figure_14_05_MassFlowTb.jpg"/>
+</media>
+<caption>Geometría para derivar la ecuación de continuidad. La cantidad de líquido que entra en el área de la sección transversal (sombreada) debe ser igual a la cantidad de líquido que sale del área de la sección transversal si el líquido es incompresible.</caption>
+</figure>
+</section>
+<section id="fs-id1170959806435" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170959698777" list-type="bulleted" bullet-style="bullet">
+<item>La tasa de flujo <emphasis effect="italics">Q</emphasis> se define como el volumen <emphasis effect="italics">V</emphasis> que pasa por un punto en el tiempo <emphasis effect="italics">t</emphasis>, o <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> donde <emphasis effect="italics">V</emphasis> es el volumen y <emphasis effect="italics">t</emphasis> es el tiempo. La unidad SI de la tasa de flujo es <m:math><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mtext>/s,</m:mtext></m:mrow></m:math> pero se pueden usar otros índices, como L/min.</item>
+<item>La tasa de flujo y la velocidad están relacionadas por <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>v</m:mi></m:mrow></m:math> donde <emphasis effect="italics">A</emphasis> es el área de la sección transversal del flujo y <emphasis effect="italics">v</emphasis> es su velocidad media.</item>
+<item>La ecuación de continuidad establece que para un fluido incompresible la masa que entra en una tubería debe ser igual a la masa que sale de ella.</item>
+</list>
+</section>
+<section id="fs-id1170959764155" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1170957506632">
+<problem id="fs-id1170959824969">
+<para id="fs-id1170959939296">Muchas figuras del texto muestran líneas de corriente. Explique por qué la velocidad del fluido es mayor donde las líneas de corriente están más juntas <emphasis effect="italics">(Pista:</emphasis> Considere la relación entre la velocidad del fluido y el área de la sección transversal por la que circula el fluido).</para>
+</problem>
+<solution id="fs-id1170959940734">
+<para id="fs-id1170959818992">Considere dos tuberías diferentes conectadas a una única tubería de menor diámetro con un fluido que circula desde las dos tuberías hacia la tubería más pequeña. Dado que el fluido es forzado a través de un área de sección transversal más pequeña, debe moverse más rápido a medida que las líneas de flujo se acercan. Del mismo modo, si una tubería con un radio grande alimenta a otra con un radio pequeño, las líneas de corriente se acercarán y el fluido se moverá más rápido.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170960169471" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170960044494">
+<problem id="fs-id1170959690323">
+<para id="fs-id1170959753250">¿Cuál es la tasa de flujo media en <m:math><m:mrow><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math> de gasolina al motor de un automóvil que circula a 100 km/h si tiene una media de 10,0 km/L?</para>
+</problem>
+<solution id="fs-id1170957599093">
+<para id="fs-id1170959820939">2,77 <m:math><m:mrow><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170960061712">
+<problem id="fs-id1170959795783">
+<para id="fs-id1170959971460">El corazón de un adulto en reposo bombea sangre a una velocidad de 5,00 L/min. (a) Convierta este valor en <m:math><m:mrow><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>. (b) ¿Cuál es esta tasa en <m:math><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959796628">
+<problem id="fs-id1170959802788">
+<para id="fs-id1170959869312">Las cataratas Huka en el río Waikato son una de las atracciones turísticas naturales más visitadas de Nueva Zelanda. Por lo general, el río tiene una tasa de flujo de unos 300.000 L/s. En el desfiladero, el río se estrecha hasta 20 m de ancho y tiene una profundidad media de 20 m. (a) ¿Cuál es la rapidez media del río en el desfiladero? (b) ¿Cuál es la rapidez media del agua del río aguas abajo de las cataratas cuando se ensancha hasta 60 m y su profundidad aumenta hasta una media de 40 m?</para>
+</problem>
+<solution id="fs-id1170960142461">
+<para id="fs-id1170959977488">a. 0,75 m/s; b. 0,13 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170959708314">
+<problem id="fs-id1170959753194">
+<para id="fs-id1170959707712">(a) Calcule el tiempo que se tardaría en llenar una piscina privada con una capacidad de 80.000 L usando una manguera de jardín que suministre 60 L/min. (b) ¿Cuánto tiempo se tardaría si se pudiera desviar un río de tamaño moderado, que fluye a <m:math><m:mrow><m:msup><m:mrow><m:mn>5.000</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math> en la piscina?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170957422368">
+<problem id="fs-id1170959680121">
+<para id="fs-id1170957407178">¿Cuál es la velocidad del fluido en una manguera de incendios de 9,00 cm de diámetro que transporta 80,0 L de agua por segundo? (b) ¿Cuál es la tasa de flujo en metros cúbicos por segundo? (c) ¿Sus respuestas serían diferentes si agua salada sustituyera al agua dulce en la manguera de incendios?</para>
+</problem>
+<solution id="fs-id1170960089546">
+<para id="fs-id1170959791171">a. 12,6 m/s; b <m:math><m:mrow><m:mn>0,0800</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>; c. No, la tasa de flujo y la velocidad son independientes de la densidad del fluido.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170960183803">
+<problem id="fs-id1170957416303">
+<para id="fs-id1170960142378">El agua se mueve a una velocidad de 2,00 m/s a través de una manguera con un diámetro interior de 1,60 cm. (a) ¿Cuál es la tasa de flujo en litros por segundo? (b) La velocidad del fluido en la boquilla de esta manguera es de 15,0 m/s. ¿Cuál es el diámetro interior de la boquilla?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170959787786">
+<problem id="fs-id1170959731337">
+<para id="fs-id1170959789079">Demostrar que la velocidad de un fluido incompresible a través de una constricción, como en un tubo de Venturi, aumenta en un factor igual al cuadrado del factor en que disminuye el diámetro (lo contrario se aplica para el flujo que sale de una constricción hacia una región de mayor diámetro).</para>
+</problem>
+<solution id="fs-id1170959803647">
+<para id="fs-id1170959941792">Si el fluido es incompresible, la tasa de flujo que pasa por ambos lados será igual:</para>
+<para id="fs-id1170957441786"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> o <m:math><m:mrow><m:mi>π</m:mi><m:mfrac><m:mrow><m:msubsup><m:mi>d</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mn>4</m:mn></m:mfrac><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>π</m:mi><m:mfrac><m:mrow><m:msubsup><m:mi>d</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mn>4</m:mn></m:mfrac><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>2</m:mn></m:msub><m:mo stretchy="false">⇒</m:mo><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>d</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mtext>/</m:mtext><m:msubsup><m:mi>d</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mover><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mn>1</m:mn></m:msub><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>d</m:mi><m:mn>1</m:mn></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>d</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170957512340">
+<problem id="fs-id1170957603693">
+<para id="fs-id1170959783481">El agua sale directamente de un grifo de 1,80 cm de diámetro a una velocidad de 0,500 m/s (debido a la construcción del grifo, no hay variación en la velocidad a través de la corriente). (a) ¿Cuál es la tasa de flujo en <m:math><m:mrow><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/s</m:mtext></m:mrow></m:math>? b) ¿Cuál es el diámetro de la corriente a 0,200 m por debajo del grifo? No hay que tener en cuenta los efectos debido a la tensión superficial.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170959957010">
+<term>tasa de flujo</term>
+<meaning id="fs-id1170959826329">abreviado <emphasis effect="italics">Q</emphasis>, es el volumen <emphasis effect="italics">V</emphasis> que pasa por un punto determinado durante un tiempo <emphasis effect="italics">t</emphasis> o <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170959804757">
+<term>fluido ideal</term>
+<meaning id="fs-id1170959828866">fluido con viscosidad insignificante</meaning>
+</definition>
+<definition id="fs-id1170959641798">
+<term>flujo laminar</term>
+<meaning id="fs-id1170959977787">tipo de fluido circulante en el que las capas no se mezclan</meaning>
+</definition>
+<definition id="fs-id1170957600347">
+<term>flujo turbulento</term>
+<meaning id="fs-id1170957422020">tipo de fluido circulante en el que las capas se mezclan a través de remolinos y torbellinos</meaning>
+</definition>
+<definition id="fs-id1170960187837">
+<term>viscosidad</term>
+<meaning id="fs-id1170959873521">medida de la fricción interna en un fluido</meaning>
+</definition>
+</glossary>
+</document>

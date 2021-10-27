@@ -1,0 +1,224 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Corriente eléctrica</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90888</md:content-id>
+  <md:title>Corriente eléctrica</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir una corriente eléctrica.</item>
+<item>Definir la unidad de corriente eléctrica.</item>
+<item>Explicar el sentido del flujo de la corriente.</item>
+</list></md:abstract>
+  <md:uuid>bed2af10-cc73-4340-b4e2-e23ff53a8d7b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170901858079">Hasta ahora, hemos considerado principalmente las cargas estáticas. Cuando las cargas se movían, se aceleraban en respuesta a un campo eléctrico creado por una diferencia de voltaje. Las cargas perdieron energía potencial y ganaron energía cinética al atravesar una diferencia de potencial en la que el campo eléctrico hizo trabajo sobre la carga.</para>
+<para id="fs-id1170901598927">Aunque las cargas no necesitan un material para fluir, la mayor parte de este capítulo trata de entender el movimiento de las cargas a través de un material. La velocidad a la que las cargas pasan por un lugar —es decir, la cantidad de carga por unidad de tiempo— se conoce como <emphasis effect="italics">corriente eléctrica</emphasis>. Cuando las cargas fluyen a través de un medio, la corriente depende del voltaje aplicado, del material por el que fluyen las cargas y del estado del material. Resulta especialmente interesante el movimiento de las cargas en un cable conductor. En los capítulos anteriores, las cargas se aceleraban debido a la fuerza proporcionada por un campo eléctrico, perdiendo energía potencial y ganando energía cinética. En este capítulo se discute la situación de la fuerza proporcionada por un campo eléctrico en un conductor, donde las cargas pierden energía cinética hacia el material alcanzando una velocidad constante, conocida como "<emphasis effect="italics">velocidad de deriva</emphasis>" Esto es análogo a un objeto que cae a través de la atmósfera y pierde energía cinética con el aire, alcanzando una velocidad terminal constante.</para>
+<para id="fs-id1170899458552">Si alguna vez ha asistido a un curso de primeros auxilios o de seguridad, habrá oído que, en caso de descarga eléctrica, es la corriente, y no el voltaje, el factor importante sobre la gravedad de la descarga y la cantidad de daños en el cuerpo humano. La corriente se mide en unidades denominadas amperios; es posible que se haya dado cuenta de que los disyuntores de su casa y los fusibles de su automóvil están clasificados en amperios (amp). Pero, ¿qué es el amperio y qué mide?</para>
+<section id="fs-id1170902905171">
+<title>Definición de la corriente y el amperio</title>
+<para id="fs-id1170903024076">La corriente eléctrica se define como la velocidad a la que fluye la carga. Cuando hay una gran corriente presente, como la que se utiliza para hacer funcionar un frigorífico, una gran cantidad de carga se mueve a través del cable en una pequeña cantidad de tiempo. Si la corriente es pequeña, como la que se utiliza para hacer funcionar una calculadora de mano, una pequeña cantidad de carga se mueve a través del circuito durante un largo periodo.</para>
+<note id="fs-id1170903046329">
+<title>Corriente eléctrica</title>
+<para id="fs-id1170901701596">La corriente eléctrica media <emphasis effect="italics">I</emphasis> es la velocidad a la que fluye la carga,</para>
+<equation id="fs-id1170901711183"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>media</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902920879">donde <m:math><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:math> es la cantidad de carga neta que pasa a través de un área transversal determinada en el tiempo <m:math><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:math> (<link target-id="CNX_UPhysics_26_01_RateOfFlow"/>). La unidad del SI para la corriente es el <term>amperio</term> (A), llamado así por el físico francés André-Marie Ampère <term class="no-emphasis">(1775-1836</term> ). Dado que <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, vemos que un amperio se define como un culombio de carga que pasa por un área determinada por segundo:</para><equation id="fs-id1170903037375"><m:math><m:mrow><m:mn>1</m:mn><m:mtext>A</m:mtext><m:mo>≡</m:mo><m:mn>1</m:mn><m:mfrac><m:mtext>C</m:mtext><m:mtext>s</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902930695">La corriente eléctrica instantánea, o simplemente la <term>corriente eléctrica</term>, es la derivada temporal de la carga que fluye y se calcula tomando el límite de la corriente eléctrica media como <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:math>:</para>
+<equation id="fs-id1170902770244"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:munder><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902622043">La mayoría de los aparatos eléctricos están clasificados en amperios (o amperios) necesarios para su correcto funcionamiento, al igual que los fusibles y los disyuntores.</para>
+<figure id="CNX_UPhysics_26_01_RateOfFlow">
+<media id="fs-id1170902610586" alt="La imagen de la izquierda muestra una imagen de la columna vertebral humana tomada mediante resonancia magnética. La imagen de la izquierda es una fotografía del instrumento de resonancia magnética.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_01_RateOfFlow.jpg"/>
+</media>
+<caption>La velocidad de flujo de la carga es la corriente. Un amperio es el flujo de un culombio de carga a través de un área en un segundo. Una corriente de un amperio resultaría de <m:math><m:mrow><m:mn>6,25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>18</m:mn></m:mrow></m:msup></m:mrow></m:math> electrones que fluyen a través del área <emphasis effect="italics">A</emphasis> cada segundo.</caption>
+</figure>
+<example id="fs-id1170902884663">
+<para id="fs-id1170901748623"><title>Cálculo de la corriente media</title>
+El propósito principal de una batería en un automóvil o camión es hacer funcionar el <term class="no-emphasis">motor de arranque</term> eléctrico, que arranca el motor. La operación de arranque del vehículo requiere que la batería suministre una gran corriente. Una vez que el motor se pone en marcha, un dispositivo llamado alternador se encarga de suministrar la energía eléctrica necesaria para el funcionamiento del vehículo y para cargar la batería.</para>
+<para id="fs-id1170901570952">(a) ¿Cuál es la corriente media implicada cuando la batería de un camión pone en movimiento 720 C de carga en 4,00 s al arrancar un motor? (b) ¿Cuánto tiempo tarda 1,00 C de carga en salir de la batería?</para>
+<para id="fs-id1170903096262"><title>Estrategia</title>
+Podemos utilizar la definición de la corriente media en la ecuación <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> para calcular la corriente media en la parte (a), ya que la carga y el tiempo están dados. Para la parte (b), una vez que conocemos la corriente media, podemos su definición <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> para calcular el tiempo necesario para que fluya 1,00 C de carga de la batería.</para>
+<para id="fs-id1170902697267"><title>Solución</title>
+a. Introduciendo los valores dados de carga y tiempo en la definición de corriente se obtiene</para>
+<equation id="fs-id1170902870471" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>720</m:mn><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mrow><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mtext>C/s</m:mtext><m:mo>=</m:mo><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903035916">b. Resolver la relación <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> para el tiempo <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> e introduciendo los valores conocidos de carga y corriente se obtiene</para>
+<equation id="fs-id1170901761099" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mrow><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mtext>C/s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>5,56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>=</m:mo><m:mn>5,56</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903020342"><title>Importancia</title>
+a. Este gran valor de la corriente ilustra el hecho de que se mueve una gran carga en un tiempo reducido. Las corrientes en estos "motores de arranque" son bastante grandes para vencer la inercia del motor. b. Una corriente elevada requiere poco tiempo para suministrar una gran cantidad de carga. Esta gran corriente es necesaria para suministrar la gran cantidad de energía necesaria para arrancar el motor.</para>
+</example>
+<example id="fs-id1170901492568">
+<para id="fs-id1170902933272"><title>Cálculo de las corrientes instantáneas</title>
+Considere una carga que se mueve a través de una sección transversal de un cable donde la carga se modela como <m:math><m:mrow><m:mi>Q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mi>M</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mi>τ</m:mi></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Aquí, <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>M</m:mi></m:msub></m:mrow></m:math> es la carga después de un largo periodo, cuando el tiempo se acerca al infinito, con unidades de culombios, y <m:math><m:mi>τ</m:mi></m:math> es una constante de tiempo con unidades de segundos (vea la <link target-id="CNX_UPhysics_26_01_Ex01_02a"/>). ¿Cuál es la corriente que pasa por el cable?</para>
+<figure id="CNX_UPhysics_26_01_Ex01_02a">
+<media id="fs-id1170901980636" alt="La imagen es un gráfico de la carga Q en función del tiempo. Cuando el tiempo es cero, la carga es cero. La carga aumenta con el tiempo acercándose al máximo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_01_Ex01_02a.jpg"/>
+</media>
+<caption>Un gráfico de la carga que se mueve a través de una sección transversal de un cable en el tiempo.</caption>
+</figure>
+<para id="fs-id1170901559328"><title>Estrategia</title>
+La corriente que atraviesa la sección transversal se puede calcular a partir de <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>. Observe en la figura que la carga aumenta hasta <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>M</m:mi></m:msub></m:mrow></m:math> y la derivada disminuye, acercándose a cero, a medida que aumenta el tiempo (<link target-id="CNX_UPhysics_26_01_Ex01_02b"/>).</para>
+<para id="fs-id1170903063122"><title>Solución</title>
+La derivada se puede calcular utilizando <m:math><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:msup><m:mi>e</m:mi><m:mi>u</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>u</m:mi></m:msup><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+<equation id="fs-id1170902933249" class="unnumbered"><label/><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>[</m:mo><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>M</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mi>τ</m:mi></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mi>M</m:mi></m:msub></m:mrow><m:mi>τ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mi>τ</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_26_01_Ex01_02b">
+<media id="fs-id1170902900859" alt="La imagen es un gráfico de la corriente que he trazado en función del tiempo. Cuando el tiempo es cero, la corriente es máxima. La corriente disminuye con el tiempo acercándose a cero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_01_Ex01_02b.jpg"/>
+</media>
+<caption>Un gráfico de la corriente que circula por el cable a lo largo del tiempo.</caption>
+</figure>
+<para id="fs-id1170903132277"><title>Importancia</title>
+La corriente que atraviesa el cable en cuestión disminuye exponencialmente, como se muestra en la <link target-id="CNX_UPhysics_26_01_Ex01_02b"/>. En capítulos posteriores se demostrará que aparece una corriente dependiente del tiempo cuando un condensador se carga o descarga a través de un resistor. Recordemos que un condensador es un dispositivo que almacena carga. Aprenderá sobre el resistor en <link document="m90889">Modelo de conducción en metales</link>.</para>
+</example>
+<note id="fs-id1170902958475" class="check-understanding">
+<exercise id="fs-id1170901485537">
+<problem id="fs-id1170902930491">
+<para id="fs-id1170901750030">Las calculadoras portátiles suelen utilizar pequeñas células solares para suministrar la energía necesaria para realizar los cálculos necesarios para completar su próximo examen de física. La corriente necesaria para hacer funcionar la calculadora puede ser tan pequeña como 0,30 mA. ¿Cuánto tiempo tardaría en fluir 1,00 C de carga desde las células solares? ¿Se pueden usar células solares, en vez de baterías, para arrancar los motores de combustión interna tradicionales que se utilizan actualmente en la mayoría de los automóviles y camiones?</para>
+</problem>
+<solution id="fs-id1170901635981">
+<para id="fs-id1170903076684">El tiempo para que fluya 1,00 C de carga sería <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow><m:mrow><m:mn>0,300</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>C/s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3,33</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>s</m:mtext></m:mrow></m:math>, algo menos de una hora. Esto es bastante diferente de los 5,55 ms de la batería del camión. La calculadora necesita una cantidad muy pequeña de energía para funcionar, a diferencia del motor de arranque del camión. Hay varias razones por las que los vehículos utilizan baterías y no células solares. Aparte del hecho evidente de que no siempre se dispone de una fuente de luz para hacer funcionar las células solares de un automóvil o un camión, la gran cantidad de corriente necesaria para arrancar el motor no puede ser suministrada fácilmente por las células solares actuales. Es posible que se utilicen células solares para cargar las baterías. La carga de la batería requiere una pequeña cantidad de energía si se compara con la que se necesita para hacer funcionar el motor y los demás accesorios, como la calefacción y el aire acondicionado. Los automóviles actuales que funcionan con energía solar lo hacen con paneles solares, que pueden alimentar un motor eléctrico en vez de un motor de combustión interna.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1170901701701" class="check-understanding">
+<exercise id="fs-id1170901603193">
+<problem id="fs-id1170901584324">
+<para id="fs-id1170901609113">Los disyuntores de una casa están clasificados en amperios, normalmente en un rango de 10 amperios a 30 amperios, y se utilizan para proteger a los residentes de daños y a sus electrodomésticos de daños debidos a grandes corrientes. Un único disyuntor de 15 amperios puede utilizarse para proteger varios enchufes en el salón, mientras que un único disyuntor de 20 amperios puede utilizarse para proteger el frigorífico de la cocina. ¿Qué puede deducir de esto sobre la corriente utilizada por los distintos aparatos?</para>
+</problem>
+<solution id="fs-id1170902901194">
+<para id="fs-id1170901580317">La corriente total que necesitan todos los aparatos del salón (unas cuantas lámparas, un televisor y su computadora portátil) consumen menos corriente y requieren menos energía que el refrigerador.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167583691778">
+<title>Corriente en un circuito</title>
+<para id="fs-id1170902741542">En los párrafos anteriores, definimos la corriente como la carga que fluye a través de un área transversal por unidad de tiempo. Para que la carga fluya a través de un aparato, como el faro que se muestra en <link target-id="CNX_UPhysics_26_01_Circuit"/>, debe haber un camino completo (o <term>circuito</term>) desde el terminal positivo al negativo. Considere un circuito simple de una batería de automóvil, un interruptor, una lámpara de faro y cables que proporcionan una ruta de corriente entre los componentes. Para que la lámpara se encienda, debe haber un camino completo para el flujo de corriente. En otras palabras, una carga debe ser capaz de salir del terminal positivo de la batería, viajar a través del componente y volver al terminal negativo de la batería. El interruptor está ahí para controlar el circuito. La parte (a) de la figura muestra el circuito simple de una batería de automóvil, un interruptor, una vía conductora y una lámpara de faro. También se muestra el <term>esquema</term> del circuito [parte (b)]. Un esquema es una representación gráfica de un circuito y es muy útil para visualizar las principales características de un circuito. Los esquemas utilizan símbolos normalizados para representar los componentes de un circuito y líneas sólidas para representar los cables que conectan los componentes. La batería se muestra como una serie de líneas largas y cortas, que representan la histórica pila voltaica. La lámpara se muestra como un círculo con un bucle en su interior, que representa el filamento de una bombilla incandescente. El interruptor se muestra como dos puntos con una barra conductora para conectar los dos puntos y los cables que conectan los componentes se muestran como líneas sólidas. El esquema de la parte (c) muestra el sentido del flujo de corriente cuando el interruptor está cerrado.</para>
+<figure id="CNX_UPhysics_26_01_Circuit">
+<media id="fs-id1170901503402" alt="Esta imagen muestra tres figuras seguidas. La figura de la izquierda es la figura A. La figura A es el dibujo esquemático de un faro conectado a una batería con un interruptor añadido a un circuito. La figura B es el esquema con el interruptor abierto. La figura C es el esquema con el interruptor cerrado y la corriente que circula por el circuito.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_01_Circuit.jpg"/>
+</media>
+<caption>(a) Un circuito eléctrico simple de un faro (lámpara), una batería y un interruptor. Cuando el interruptor está cerrado, se suministra un camino ininterrumpido para que la corriente fluya a través de los cables conductores que conectan una carga a los terminales de una batería. (b) En este esquema, la batería está representada por líneas paralelas, que se asemejan a las placas en el diseño original de una batería. Las líneas más largas indican el terminal positivo. Los cables conductores se muestran como líneas sólidas. El interruptor se muestra, en la posición abierta, como dos terminales con una línea que representa una barra conductora que puede hacer contacto entre los dos terminales. La lámpara está representada por un círculo que engloba un filamento, como se vería en una bombilla incandescente. (c) Cuando el interruptor está cerrado, el circuito está completo y la corriente fluye desde el terminal positivo al negativo de la batería.</caption>
+</figure>
+<para id="fs-id1170901641945">Cuando el interruptor está cerrado en la <link target-id="CNX_UPhysics_26_01_Circuit"/>(c) hay un camino completo para que las cargas fluyan: desde el terminal positivo de la batería, a través del interruptor, luego a través del faro y de vuelta al terminal negativo de la batería. Tenga en cuenta que la dirección del flujo de corriente es de positivo a negativo. El sentido de la <term>corriente convencional</term> se representa siempre en la dirección en que fluiría la carga positiva, desde el terminal positivo al negativo.</para>
+<para id="fs-id1170902940482">La corriente convencional fluye del terminal positivo al negativo, pero dependiendo de la situación real, pueden moverse cargas positivas, negativas o ambas. En los cables metálicos, por ejemplo, la corriente es transportada por los electrones, es decir, las cargas negativas se mueven. En las soluciones iónicas, como el agua salada, se mueven tanto las cargas positivas como las negativas. Esto también ocurre en las células nerviosas. Un generador Van de Graaff, utilizado para la investigación nuclear, puede producir una corriente de cargas positivas puras, como los protones. En el acelerador Tevatron del Fermilab, antes de su cierre en 2011, se hicieron colisionar haces de protones y antiprotones que viajaban en direcciones opuestas. Los protones son positivos y, por lo tanto, su corriente va en la misma dirección en la que se desplazan. Los antiprotones están cargados de negatividad y, por tanto, su corriente va en la dirección opuesta a la que viajan las partículas reales.</para>
+<para id="fs-id1170901741204">En la <link target-id="CNX_UPhysics_26_01_CurrentI"/> se puede ver más de cerca la corriente que circula por un cable. La figura ilustra el movimiento de las partículas cargadas que componen una corriente. El hecho de que la corriente convencional se tome en la dirección en que fluiría la carga positiva se remonta al científico y estadista estadounidense Benjamin <term class="no-emphasis">Franklin</term> en el siglo XVIII. Al no tener conocimiento de las partículas que componen el átomo (a saber, el protón, el electrón y el neutrón), Franklin creía que la corriente eléctrica fluía desde un material que tenía más "fluido eléctrico" y hacia un material que tenía menos de este "fluido eléctrico" Acuñó el término <emphasis effect="italics">positivo</emphasis> para el material que tenía más de este fluido eléctrico y <emphasis effect="italics">negativo</emphasis> para el que carecía de él. Supuso que la corriente fluiría desde el material con más fluido eléctrico —el material positivo— hacia el material negativo, que tiene menos fluido eléctrico. Franklin llamó a esta dirección de la corriente un flujo de corriente positiva. Esto era un pensamiento bastante avanzado para un hombre que no sabía nada del átomo.</para>
+<figure id="CNX_UPhysics_26_01_CurrentI">
+<media id="fs-id1170903049935" alt="La imagen A es un dibujo esquemático de cargas positivas que fluyen de izquierda a derecha a través del cable con el área de sección transversal A. La imagen B es un dibujo esquemático de cargas negativas que fluyen de derecha a izquierda a través del cable con el área de sección transversal A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_01_CurrentI.jpg"/>
+</media>
+<caption>La corriente <emphasis effect="italics">I</emphasis> es la velocidad a la que la carga se mueve a través de un área <emphasis effect="italics">A</emphasis>, como la sección transversal de un cable. La corriente convencional se define para moverse en la dirección del campo eléctrico. (a) Las cargas positivas se mueven en la dirección del campo eléctrico, que es la misma dirección que la corriente convencional. (b) Las cargas negativas se mueven en la dirección opuesta al campo eléctrico. La corriente convencional va en la dirección opuesta al movimiento de la carga negativa. El flujo de electrones se denomina a veces flujo electrónico.</caption>
+</figure>
+<para id="fs-id1170901645759">Ahora sabemos que un material es positivo si tiene un mayor número de protones que de electrones, y es negativo si tiene un mayor número de electrones que de protones. En un metal conductor, el flujo de corriente se debe principalmente a los electrones que fluyen desde el material negativo hacia el material positivo, pero por razones históricas, consideramos el flujo de corriente positivo y se muestra que la corriente fluye desde el terminal positivo de la batería hacia el terminal negativo.</para>
+<para id="fs-id1170901595052">Es importante darse cuenta de que un campo eléctrico está presente en los conductores y es responsable de producir la corriente (<link target-id="CNX_UPhysics_26_01_CurrentI"/>). En los capítulos anteriores, hemos considerado el caso eléctrico estático, en el que las cargas de un conductor se redistribuyen rápidamente en su superficie para anular el campo eléctrico externo y restablecer el equilibrio. En el caso de un circuito eléctrico, una fuente externa de potencial eléctrico, como una batería, impide que las cargas alcancen el equilibrio. La energía necesaria para mover la carga es suministrada por el potencial eléctrico de la batería.</para>
+<para id="fs-id1170901581033">Aunque el campo eléctrico es responsable del movimiento de las cargas en el conductor, el trabajo realizado sobre las cargas por el campo eléctrico no aumenta la energía cinética de las cargas. Mostraremos que el campo eléctrico es el responsable de mantener las cargas eléctricas en movimiento a una "velocidad de deriva"</para>
+</section>
+<section id="fs-id1170903105780" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170901487300" list-type="bulleted" bullet-style="bullet">
+<item>La corriente eléctrica media <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>media</m:mtext></m:mrow></m:msub></m:mrow></m:math> es la velocidad a la que fluye la carga, dada por <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>media</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, donde <m:math><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:math> es la cantidad de carga que atraviesa un área en el tiempo <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>.</item>
+<item>La corriente eléctrica instantánea, o simplemente la corriente <emphasis effect="italics">I</emphasis>, es la velocidad a la que fluye la carga. Tomando el límite a medida que el cambio en el tiempo se aproxima a cero, tenemos <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, donde <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math> es la derivada temporal de la carga.</item>
+<item>La dirección de la corriente convencional se toma como la dirección en la que se mueve la carga positiva. En un circuito simple de corriente continua (dc), será del terminal positivo de la batería al terminal negativo.</item>
+<item>La unidad del SI para la corriente es el amperio, o simplemente el amperio (A), donde <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>C/s</m:mtext></m:mrow></m:math>.</item>
+<item>La corriente consiste en el flujo de cargas libres, como electrones, protones e iones.</item>
+</list>
+</section>
+<section id="fs-id1170902909379" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1170902748643">
+<problem id="fs-id1170901760084">
+<para id="fs-id1170901773336">¿Puede un cable transportar una corriente y seguir siendo neutro, es decir, tener una carga total de cero? Explique.</para>
+</problem>
+<solution id="fs-id1170902781446">
+<para id="fs-id1170903051765">Si un cable transporta una corriente, las cargas entran en el cable desde el terminal positivo de la fuente de voltaje y salen por el terminal negativo, por lo que la carga total permanece cero mientras la corriente fluye por él.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902875727">
+<problem id="fs-id1170902859003">
+<para id="fs-id1170901609787">Las baterías de los automóviles se clasifican en amperios-hora <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>A</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. ¿A qué magnitud física corresponden los amperios-hora (voltaje, corriente, carga, energía, potencia, ...)?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901839865">
+<problem id="fs-id1170903139406">
+<para id="fs-id1170901486115">Cuando se trabaja con circuitos eléctricos de alta potencia, se aconseja que, siempre que sea posible, se trabaje "con una mano" o "con una mano en el bolsillo" ¿Por qué es una sugerencia sensata?</para>
+</problem>
+<solution id="fs-id1170901996097">
+<para id="fs-id1170902908641">El uso de una mano reducirá la posibilidad de "completar el circuito" y de que la corriente recorra su cuerpo, especialmente la corriente que recorre su corazón.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170901614790" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170902900619">
+<problem id="fs-id1170902749581">
+<para id="fs-id1170901595712">Un generador Van de Graaff es uno de los aceleradores de partículas originales y puede utilizarse para acelerar partículas cargadas como protones o electrones. Es posible que haya visto que se utiliza para poner los pelos de punta o producir grandes chispas. Una de las aplicaciones del generador Van de Graaff es crear rayos X bombardeando un objetivo de metal duro con el haz. Considera un haz de protones a 1,00 keV y una corriente de 5,00 mA producida por el generador. (a) ¿Cuál es la velocidad de los protones? (b) ¿Cuántos protones se producen cada segundo?</para>
+</problem>
+<solution id="fs-id1170899265576">
+<para id="fs-id1170902736695">a. <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>4,38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>C</m:mtext><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mtext>número de protones</m:mtext><m:mo>=</m:mo><m:mn>3,13</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902675822">
+<problem id="fs-id1170901557975">
+<para id="fs-id1170902836545">Un tubo de rayos catódicos (cathode ray tube, CRT) es un dispositivo que produce un haz concentrado de electrones en el vacío. Los electrones chocan con una pantalla de vidrio recubierta de fósforo en el extremo del tubo, que produce un punto de luz brillante. La posición del punto luminoso en la pantalla puede ajustarse desviando los electrones con campos eléctricos, campos magnéticos o ambos. Aunque el tubo CRT era habitual en televisores, pantallas de computadora y osciloscopios, los aparatos más recientes utilizan una pantalla de cristal líquido (LCD) o de plasma. Aun así, es posible que se encuentre con un CRT en su estudio de la ciencia. Consideremos un CRT con una corriente media del haz de electrones de <m:math><m:mrow><m:mn>25,00</m:mn><m:mi>μ</m:mi><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>. ¿Cuántos electrones golpean la pantalla cada minuto?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903036725">
+<problem id="fs-id1170902724074">
+<para id="fs-id1170903137547">¿Cuántos electrones pasan por un punto de un cable en 3,00 s si hay una corriente constante de <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170902772911">
+<para id="fs-id1170903044413"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>Q</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mtext>Δ</m:mtext><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>12,00</m:mn><m:mspace width="0.2em"/><m:mtext>C</m:mtext></m:mrow></m:math><newline/> nº de electrones = <m:math><m:mrow><m:mn>7,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>19</m:mn></m:mrow></m:msup></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1170901650971">
+<problem id="fs-id1170903016980">
+<para id="fs-id1170901583449">Un conductor transporta una corriente que disminuye exponencialmente con el tiempo. La corriente se modela como <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mi>τ</m:mi></m:mrow></m:msup></m:mrow></m:math>, donde <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mrow></m:math> es la corriente en el momento <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0,00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>τ</m:mi><m:mo>=</m:mo><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> es la constante de tiempo. Cuánta carga fluye por el conductor entre <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0,00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>τ</m:mi></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902598479">
+<problem id="fs-id1170902877914">
+<para id="fs-id1170902899280">La cantidad de carga que atraviesa un conductor se modela como <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>4,00</m:mn><m:mfrac><m:mtext>C</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac><m:msup><m:mi>t</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>1,00</m:mn><m:mfrac><m:mtext>C</m:mtext><m:mtext>s</m:mtext></m:mfrac><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>6,00</m:mn><m:mspace width="0.2em"/><m:mtext>mC</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1170901650184">Cuál es la corriente en el momento <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170902695435">
+<para id="fs-id1170901786731"><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0,016</m:mn><m:mfrac><m:mtext>C</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>0,001</m:mn><m:mfrac><m:mtext>C</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0,431</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902957113">
+<problem id="fs-id1170901582425">
+<para id="fs-id1170902698114">La corriente que atraviesa un conductor se modela como <m:math><m:mrow><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mi>m</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow><m:mo>]</m:mo></m:mrow><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Escriba una ecuación para la carga como una función de tiempo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901753146">
+<problem id="fs-id1170903090110">
+<para id="fs-id1170902695331">La carga de un condensador en un circuito se modela como <m:math><m:mrow><m:mi>Q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. ¿Cuál es la corriente que atraviesa el circuito en función del tiempo?</para>
+</problem>
+<solution id="fs-id1170903048785">
+<para id="fs-id1170902792641"><m:math><m:mrow><m:mi>I</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>ϕ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170902623830">
+<term>amperios (amp)</term>
+<meaning id="fs-id1170902751079">Unidad del SI para la corriente <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>A</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>C/s</m:mtext></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170901526722">
+<term>circuito</term>
+<meaning id="fs-id1170902704475">camino completo que recorre una corriente eléctrica</meaning>
+</definition>
+<definition id="fs-id1170901870930">
+<term>corriente convencional</term>
+<meaning id="fs-id1170901616125">corriente que fluye por un circuito desde el terminal positivo de una batería a través del circuito hasta el terminal negativo de la batería</meaning>
+</definition>
+<definition id="fs-id1170902761072">
+<term>corriente eléctrica</term>
+<meaning id="fs-id1170901680096">velocidad a la que fluye la carga, <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>Q</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170901741102">
+<term>esquema</term>
+<meaning id="fs-id1170901706272">representación gráfica de un circuito utilizando símbolos normalizados para los componentes y líneas sólidas para el cable que conecta los componentes</meaning>
+</definition>
+</glossary>
+</document>

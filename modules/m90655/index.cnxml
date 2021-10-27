@@ -1,0 +1,134 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Momento lineal</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90655</md:content-id>
+  <md:title>Momento lineal</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar físicamente en qué consiste el momento.</item>
+<item>Calcular el momento de un objeto en movimiento.</item>
+</list></md:abstract>
+  <md:uuid>57806936-72c8-4b5a-847c-fe79940fd6c1</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167132413806">Nuestro estudio de la energía cinética mostró que la comprensión completa del movimiento de un objeto debe incluir tanto su masa como su velocidad (<m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>). Sin embargo, por muy potente que sea este concepto, no incluye ninguna información sobre la dirección del vector de velocidad del objeto en movimiento. Ahora definiremos una cantidad física que incluye la dirección.</para>
+<para id="fs-id1167132260816">Al igual que la energía cinética, esta cantidad incluye tanto la masa como la velocidad; al igual que la energía cinética, es una forma de caracterizar la "cantidad de movimiento" de un objeto. Se le da el nombre de <term>momento</term> (de la palabra latina <emphasis effect="italics">movimentum</emphasis>, que significa "movimiento"), y se representa con el símbolo <emphasis effect="italics">p</emphasis>.</para>
+<note id="fs-id1167133535357">
+<title>Momento</title>
+<para id="fs-id1167133851862">El momento <emphasis effect="italics">p</emphasis> de un objeto es el producto de su masa por su velocidad:</para>
+<equation id="fs-id1167133540210"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_09_01_Momentum">
+<media id="fs-id1167132221843" alt="Foto de un jugador de fútbol pateando un balón. Se han añadido dos flechas a la foto en la posición del balón. Ambas flechas apuntan hacia adelante, en la dirección en la que el jugador está pateando. Una flecha está marcada como velocidad, la otra flecha está marcada como momento.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_01_Momentum.jpg"/>
+</media>
+<caption>Los vectores de velocidad y momento del balón están en la misma dirección. La masa del balón es de unos 0,5 kg, por lo que el vector de momento es aproximadamente la mitad de la longitud del vector de velocidad, ya que el momento es velocidad por masa (créditos: modificación del trabajo de Ben Sutherland).</caption>
+</figure>
+<para id="fs-id1167133345425">Como se muestra en la <link target-id="CNX_UPhysics_09_01_Momentum"/>, el momento es una cantidad vectorial (ya que la velocidad lo es). Este es uno de los aspectos que hace que el momento sea útil y no una duplicación de la energía cinética. Quizá sea más útil para determinar si el movimiento de un objeto es difícil de cambiar (<link target-id="CNX_UPhysics_09_01_Supertank"/>) o fácil de cambiar (<link target-id="CNX_UPhysics_09_01_Molecules"/>).</para>
+<figure id="CNX_UPhysics_09_01_Supertank">
+<media id="fs-id1167132362109" alt="Se muestra una foto de un supertanquero en el agua. Hay dos barcos mucho más pequeños con velas en la distancia.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_01_Supertank.jpg"/>
+</media>
+<caption>Este supertanquero transporta una enorme masa de petróleo; en consecuencia, se necesita mucho tiempo para que una fuerza cambie su velocidad (comparativamente pequeña) (créditos: modificación de la obra de "the_tahoe_guy"/Flickr).</caption>
+</figure>
+<figure id="CNX_UPhysics_09_01_Molecules">
+<media id="fs-id1167133698978" alt="Dibujo de un frasco con tapón, etiquetado como “recipiente&quot;, con moléculas de gas (representadas como puntos verdes) moviéndose aleatoriamente dentro del frasco.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_01_Molecules.jpg"/>
+</media>
+<caption>Las moléculas de gas pueden tener velocidades muy grandes, pero estas velocidades cambian casi instantáneamente cuando colisionan con las paredes del recipiente o entre sí. Esto se debe principalmente a que sus masas son muy pequeñas.</caption>
+</figure>
+<para id="fs-id1167133570326">A diferencia de la energía cinética, el momento depende por igual de la masa y la velocidad de un objeto. Por ejemplo, como aprenderá cuando estudie termodinámica, la rapidez media de una molécula de aire a temperatura ambiente es de aproximadamente 500 m/s, con una masa molecular media de <m:math><m:mrow><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−25</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>; por lo tanto, su momento es</para>
+<equation id="fs-id1167133675405" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>molécula</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−25</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−22</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167132370011">A modo de comparación, un automóvil típico puede tener una rapidez de solo 15 m/s, pero una masa de 1.400 kg, lo que le da un momento de</para>
+<equation id="fs-id1167133647686" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mtext>auto</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.400</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>21.000</m:mn><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mtext>s</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133455528">Estos momentos son diferentes en 27 órdenes de magnitud, ¡o un factor de mil millones de mil millones de mil millones!</para>
+<section id="fs-id1167133483769" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167133519764" list-type="bulleted" bullet-style="bullet">
+<item>El movimiento de un objeto depende tanto de su masa como de su velocidad. El momento es un concepto que describe esto. Es un concepto útil y poderoso, tanto desde el punto de vista computacional como teórico. La unidad del SI para el momento es el kg<m:math><m:mo>·</m:mo></m:math> m/s.</item>
+</list>
+</section>
+<section id="fs-id1167132201566" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167133458436">
+<problem id="fs-id1167132328112">
+<para id="fs-id1167132231058">Un objeto que tiene una masa pequeña y un objeto que tiene una masa grande tienen el mismo momento. ¿Qué objeto tiene la mayor energía cinética?</para>
+</problem>
+<solution id="fs-id1167132375073">
+<para id="fs-id1167133559363">Dado que <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:math>, entonces, si el momento es fijo, el objeto con menor masa tiene más energía cinética.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133555298">
+<problem id="fs-id1167133339182">
+<para id="fs-id1167133326101">Un objeto con una masa pequeña y otro objeto con una masa grande tienen la misma energía cinética. ¿Qué masa tiene el mayor momento?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167132201599" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167133485713">
+<problem id="fs-id1167133805552">
+<para id="fs-id1167133862915">Un elefante y un cazador tienen un enfrentamiento.</para>
+<media id="fs-id1167133328078" alt="Un dibujo de un elefante, a la izquierda, y de un cazador, a la derecha. Se muestra un sistema de coordenadas x y, con la x positiva hacia la derecha y la y positiva hacia arriba. El elefante está marcado como m E = 2.000,0 k g, y con el vector v E = 7,50 metros por segundo por el vector I. Una flecha sobre el vector v E apunta hacia la derecha. El cazador está marcado como m cazador = 90,0 k g, y con el vector v cazador = 7,40 metros por segundo por el vector I. Una flecha sobre el vector v cazador apunta hacia la derecha. Entre el cazador y el elefante hay un dardo con una flecha larga que apunta hacia la izquierda dibujada cerca de este y marcada como vector v dardo = 600 metros por segundo por el vector menos I, y m dardo = 0,0400 k g.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_01_Elephant_img.jpg"/>
+</media>
+<list id="fs-id1167132283153" list-type="enumerated" number-style="lower-alpha">
+<item>Calcule el momento del elefante de 2.000,0 kg que embiste al cazador a una velocidad de 7,50 m/s.</item>
+<item>Calcule la relación entre el momento del elefante y el momento de un dardo tranquilizante de 0,0400 kg disparado a una velocidad de 600 m/s.</item>
+<item>¿Cuál es el momento del cazador de 90,0 kg que corre a 7,40 m/s después de perder al elefante?</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1167132331463">
+<problem id="fs-id1167133466763">
+<para id="fs-id1167132413861">Una patinadora de 40 kg de masa lleva una caja de 5 kg de masa. La patinadora tiene una velocidad de 5 m/s con respecto al suelo y se desliza sin ningún tipo de fricción sobre una superficie lisa.</para>
+<list id="fs-id1167132414244" list-type="enumerated" number-style="lower-alpha">
+<item>Halle el momento de la caja con respecto al suelo.</item>
+<item>Halle el momento de la caja con respecto al suelo después de que ella pone la caja en la superficie sin fricción de patinaje.</item>
+</list>
+</problem>
+<solution id="fs-id1167132275985">
+<para id="fs-id1167133399293">a. magnitud: <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s;</m:mtext></m:mrow></m:math> b. igual que a.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133558837">
+<problem id="fs-id1167133417582">
+<para id="fs-id1167132362037">Un auto de 2.000 kg de masa circula a una velocidad constante de 10 m/s hacia el este. ¿Cuál es el momento del auto?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133498189"><problem id="fs-id1167133664933">
+<para id="fs-id1167133395535">La masa de la Tierra es <m:math><m:mrow><m:mn>5,97</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> y su radio orbital es un promedio de <m:math><m:mrow><m:mn>1,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. Calcule la magnitud de su momento lineal en el lugar del diagrama.</para><media id="fs-id1167133329326" alt="Ilustración de la Tierra orbitando alrededor del Sol. La masa de la tierra se da como 5,97 por 10 a la 24 kilogramos y el radio de la órbita está marcado como R tierra = 1,5 por 10 a la 11 metros.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_09_01_Earthorbit_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167133396321">
+<para id="fs-id1167133521784"><m:math><m:mrow><m:mn>1,78</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>29</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise><exercise id="fs-id1167133534266">
+<problem id="fs-id1167132290304">
+<para id="fs-id1167133824599">Si una tormenta deja caer 1 cm de lluvia sobre un área de 10 km<sup>2</sup> en el periodo de 1 hora, ¿cuál es el momento de la lluvia que cae en un segundo? Supongamos que la velocidad límite de una gota de lluvia es de 10 m/s.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133335149">
+<problem id="fs-id1167133328354">
+<para id="fs-id1167133555093">¿Cuál es el momento medio de una avalancha que desplaza una capa de nieve de 40 cm de espesor en un área de 100 m por 500 m sobre una distancia de 1 km por una colina en 5,5 s? Suponga una densidad de 350 kg/m<sup>3</sup> para la nieve.</para>
+</problem>
+<solution id="fs-id1167133845988">
+<para id="fs-id1167132332393"><m:math><m:mrow><m:mn>1,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167132373143">
+<problem id="fs-id1167132376876">
+<para id="fs-id1167133457724">¿Cuál es el momento medio de un velocista de 70,0 kg que corre la carrera de 100 m en 9,65 s?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167133546182">
+<term>momento</term>
+<meaning id="fs-id1167133532866">medida de la cantidad de movimiento que tiene un objeto; toma en cuenta tanto la velocidad del objeto como su masa; concretamente, es el producto de la masa por la velocidad; es una cantidad vectorial</meaning>
+</definition>
+</glossary>
+</document>

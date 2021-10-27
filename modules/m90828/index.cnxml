@@ -1,0 +1,412 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Dilatación térmica</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90828</md:content-id>
+  <md:title>Dilatación térmica</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Responder preguntas cualitativas sobre los efectos de la dilatación térmica.</item>
+<item>Resolver problemas de dilatación térmica, incluidos los de tensión térmica.</item>
+</list></md:abstract>
+  <md:uuid>51625dd2-170c-44ea-906e-c6c8c2b46f81</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170903014623">La expansión del alcohol en un termómetro es uno de los muchos ejemplos habituales de <term>dilatación térmica</term>, lo cual es el cambio de tamaño o volumen de un sistema determinado al cambiar su temperatura. El ejemplo más visible es la expansión del aire caliente. Cuando el aire se calienta, se expande y se vuelve menos denso que el aire circundante, que entonces ejerce una fuerza (ascendente) sobre el aire caliente y hace que el vapor de agua y el humo suban, los globos de aire caliente floten, etc. El mismo comportamiento se produce en todos los líquidos y gases, lo que impulsa la transferencia natural de calor hacia arriba en hogares, océanos y sistemas meteorológicos, como veremos en una próxima sección. Los sólidos también están sometidos a dilatación térmica. Las vías férreas y los puentes, por ejemplo, tienen <term class="no-emphasis">juntas de expansión</term> que les permiten expandirse y contraerse libremente con los cambios de temperatura, como se muestra en la <link target-id="CNX_UPhysics_18_03_ThermExp"/>.</para>
+<figure id="CNX_UPhysics_18_03_ThermExp"><media id="fs-id1170902773289" alt="La fotografía a muestra una junta de dilatación como un pequeño espacio en una carretera. La fotografía b muestra el puente del puerto de Auckland.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_03_ThermExp.jpg"/>
+</media>
+
+<caption>(a) Las juntas de dilatación térmica como estas en el (b) puente del puerto de Auckland, en Nueva Zelanda, permiten que los puentes cambien de longitud sin pandearse (créditos: modificación de trabajos de "ŠJů"/Wikimedia Commons).</caption></figure><para id="fs-id1170902772689">¿Cuál es la causa subyacente de la dilatación térmica? Como se ha mencionado anteriormente, un aumento de la temperatura significa un aumento de la energía cinética de átomos individuales. En un sólido, a diferencia de un gas, las moléculas se mantienen en su lugar por las fuerzas de las moléculas vecinas; como vimos en la sección <link document="m90696">Oscilaciones</link>, las fuerzas se pueden modelar como en resortes armónicos descritos por el potencial de Lennard-Jones. En <link target-id="CNX_UPhysics_15_02_LennaJones" document="m90698">Energía en movimiento armónico simple</link> se muestra que tales potenciales son asimétricos en el sentido de que la energía potencial aumenta de forma más pronunciada cuando las moléculas se acercan entre sí que cuando se alejan. Así, a una energía cinética determinada, la distancia recorrida es mayor cuando los vecinos se alejan unos de otros que cuando se acercan. El resultado es que el aumento de la energía cinética (aumento de temperatura) aumenta la distancia promedio entre las moléculas: la sustancia se expande.</para><para id="fs-id1170903105941">Para la mayoría de las sustancias en condiciones ordinarias es una excelente aproximación que no exista una dirección preferida (es decir, que el sólido sea “isotrópico”), y un aumento de la temperatura aumenta el tamaño del sólido en una determinada fracción en cada dimensión. Por lo tanto, si el sólido es libre de expandirse o contraerse, sus proporciones permanecen iguales; solo cambia su tamaño total.</para>
+<note id="fs-id1170903044442">
+<title>Dilatación térmica lineal</title>
+<para id="fs-id1170903030022">Según los experimentos, la dependencia de la dilatación térmica de la temperatura, la sustancia y la longitud original se resume en la ecuación</para>
+<equation id="fs-id1170902894356"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>L</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1170901800748">donde <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>L</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow></m:math> es el cambio instantáneo de longitud por temperatura, <emphasis effect="italics">L</emphasis> es la longitud y <m:math><m:mi>α</m:mi></m:math> es el <term>coeficiente de dilatación lineal</term>, una propiedad del material que varía ligeramente con la temperatura. Como <m:math><m:mi>α</m:mi></m:math> es casi constante y también muy pequeña, a efectos prácticos, usamos la aproximación lineal:</para><equation id="fs-id1170902865876"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></equation><para id="newpara01">donde <m:math><m:mrow><m:mo>Δ</m:mo><m:mi>L</m:mi></m:mrow></m:math> es el cambio de longitud y <m:math><m:mrow><m:mo>Δ</m:mo><m:mi>T</m:mi></m:mrow></m:math> es el cambio de temperatura.</para>
+</note>
+<para id="fs-id1170902869062">En la <link target-id="fs-id1170902626134"/> se enumeran los valores representativos del coeficiente de dilatación lineal. Como se ha señalado anteriormente, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> es lo mismo si se expresa en unidades de grados Celsius o en unidades kelvin; así, <m:math><m:mi>α</m:mi></m:math> puede tener unidades de <m:math><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> o 1/K con el mismo valor en ambos casos. Aproximación a <m:math><m:mi>α</m:mi></m:math> como constante es bastante precisa para pequeños cambios de temperatura y suficiente para la mayoría de los fines prácticos, incluso para grandes cambios de temperatura. Examinamos esta aproximación con más detalle en el siguiente ejemplo.</para>
+<table id="fs-id1170902626134" summary="This table has 3 columns, 20 rows and a header row. The header row labels each column: Material, Coefficient of Linear Expansion alpha as 1 upon degree Celsius and Coefficient of Volume Expansion beta as 1 upon degree Celsius. The first column labels rows 1 to 13 as solids. These are: Aluminum, Brass, Copper, Gold, Iron or steel, Invar which is nickel-iron alloy, Lead, Silver, Glass ordinary, Glass Pyrex, Quartz, Concrete, brick, and Marble average. Rows 14 to 19 in the first column are labeled Liquids. These are: Ether, Ethyl alcohol, Gasoline, Glycerin, Mercury and Water. Row 20 in the first column is labeled gases. This is: Air and most other gases at atmospheric pressure. All entries in column 2 are a value multiplied by 10 to the power minus 6. The values are: 25, 19, 17, 14, 12, 0.9, 29, 18, 9, 3, 0.4, approximately 12 and 2.4. There are no entries in this column for liquids and gases. All entries in the last column are a value multiplied by 10 to the power minus 6. The values are: 75, 56, 51, 42, 35, 2.7, 87, 54, 27, 9, 1, approximately 36, 7.5, 1650, 1100, 950, 500, 180, 210, 3400.">
+<title>Coeficientes de dilatación térmica</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry valign="top" align="left">Material</entry>
+<entry valign="top" align="center">Coeficiente de dilatación lineal <m:math><m:mrow><m:mi>α</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="center">Coeficiente de expansión (dilatación) volumétrica <m:math><m:mrow><m:mi>β</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="top" align="left" namest="c1" nameend="c3"><emphasis effect="italics">Sólidos</emphasis></entry>
+</row>
+<row>
+<entry valign="top" align="left">Aluminio</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Latón</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>19</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Cobre</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>17</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>51</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Oro</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>14</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>42</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Hierro o acero</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Invar (aleación de níquel y hierro)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>2,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Plomo</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>87</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Plata</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>54</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Vidrio (ordinario)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Vidrio (Pyrex®)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Cuarzo</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>0,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Hormigón, ladrillo</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mo>~</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mo>~</m:mo><m:mn>36</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Mármol (promedio)</entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>7,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left" namest="c1" nameend="c3"><emphasis effect="italics">Líquidos</emphasis></entry>
+</row>
+<row>
+<entry valign="top" align="left">Éter</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1.650</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Alcohol etílico</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>1.100</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Gasolina</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>950</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Glicerina</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Mercurio</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left">Agua</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>210</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left" namest="c1" nameend="c3"><emphasis effect="italics">Gases</emphasis></entry>
+</row>
+<row>
+<entry valign="top" align="left">El aire y la mayoría de los gases a presión atmosférica</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mn>3.400</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1170902771713">La dilatación térmica se aprovecha en la banda bimetálica (<link target-id="CNX_UPhysics_18_03_Bimetallic"/>). Este dispositivo se puede usar como termómetro si la tira curva se une a un puntero de una balanza. También se puede usar para cerrar o abrir automáticamente un interruptor a una determinada temperatura, como en termostatos antiguos o analógicos.</para>
+<figure id="CNX_UPhysics_18_03_Bimetallic">
+<media id="fs-id1170903137254" alt="La figura a muestra dos tiras verticales unidas entre sí. Esto está identificado como T0. La figura b muestra las mismas dos tiras dobladas hacia la derecha. Se identifica como T mayor que T0.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_03_Bimetallic.jpg"/>
+</media>
+<caption>La curvatura de una tira bimetálica depende de la temperatura. (a) La tira está en línea recta con la temperatura inicial, donde sus dos componentes tienen la misma longitud. (b) A una temperatura más alta, esta tira se curva hacia la derecha, porque el metal de la izquierda se ha expandido más que el de la derecha. A una temperatura más baja, la tira se doblaría hacia la izquierda.</caption>
+</figure>
+<example id="fs-id1170902689013">
+<para id="fs-id1170901761146"><title>Calcular la dilatación térmica lineal</title>
+El vano principal del puente Golden Gate de San Francisco tiene 1.275 m de longitud en su punto más frío. El puente está expuesto a temperaturas que oscilan entre <m:math><m:mrow><m:mo>–</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. ¿Cuál es su cambio de longitud entre estas temperaturas? Suponga que el puente es totalmente de acero.</para>
+<para id="fs-id1170902749582"><title>Estrategia</title>
+Use la ecuación de la dilatación térmica lineal <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> para calcular el cambio de longitud, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:math>. Use el coeficiente de dilatación lineal <m:math><m:mi>α</m:mi></m:math> para el acero de la <link target-id="fs-id1170902626134"/> y note que el cambio de temperatura <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> es de <m:math><m:mrow><m:mn>55</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1170903009362"><title>Solución</title>
+Sustituya todos los valores conocidos en la ecuación para despejar <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:math>:</para>
+<equation id="fs-id1170901540220" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.275</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>55</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0,84</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902907010"><title>Importancia</title>
+Aunque no es grande en comparación con la longitud del puente, este cambio de longitud es observable. Generalmente, se reparte en muchas juntas de expansión para que la expansión en cada junta sea pequeña.</para>
+</example>
+<section id="fs-id1170902883708">
+<title>Dilatación térmica en dos y tres dimensiones</title>
+<para id="fs-id1170902684120">Los objetos sin restricciones se expanden en todas las dimensiones, como se ilustra en la <link target-id="CNX_UPhysics_18_03_Expansion"/>. Es decir, sus áreas y volúmenes, así como sus longitudes, aumentan con la temperatura. Como las proporciones se mantienen, los agujeros y los volúmenes de los recipientes también aumentan con la temperatura. Si corta un agujero en una placa metálica, el material restante se expandirá exactamente igual que si la pieza que ha quitado siguiera en su sitio. La pieza se haría más grande, por lo que el agujero también debe hacerse más grande.</para>
+<note id="fs-id1170902697051">
+<title>Dilatación térmica en dos dimensiones</title>
+<para id="fs-id1170902940554">Para pequeños cambios de temperatura, el cambio en el área <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow></m:math> viene dado por</para>
+<equation id="fs-id1170903051766"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>α</m:mi><m:mi>A</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1170901641141">donde <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow></m:math> es el cambio en el área <m:math><m:mrow><m:mi>A</m:mi><m:mo>,</m:mo><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> es el cambio de temperatura y <m:math><m:mi>α</m:mi></m:math> es el coeficiente de dilatación lineal, que varía ligeramente con la temperatura (la derivación de esta ecuación es análoga a la de la ecuación más importante para tres dimensiones, que aparece a continuación).</para></note>
+<figure id="CNX_UPhysics_18_03_Expansion">
+<media id="fs-id1170902877788" alt="La figura muestra un círculo dentro de un cuadrado. El círculo está delimitado por otro círculo ligeramente más grande. El círculo más grande es un contorno con líneas discontinuas. Del mismo modo, el cuadrado está delineado por un cuadrado más grande con líneas discontinuas. La figura b es similar a la figura a, salvo que el círculo interior está recortado en el cuadrado. La figura c es un cubo rodeado por un cubo más grande, con líneas discontinuas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_03_Expansion.jpg"/>
+</media>
+<caption>En general, los objetos se expanden en todas las direcciones al aumentar la temperatura. En estos dibujos, los límites originales de los objetos se muestran con líneas sólidas, y los límites ampliados con líneas discontinuas. (a) El área aumenta porque tanto la longitud como la anchura aumentan. El área de un tapón circular también aumenta. (b) Si se retira el tapón, el agujero que deja se hace más grande con el aumento de la temperatura, al igual que si el tapón en expansión sigue en su lugar. (c) El volumen también aumenta, ya que las tres dimensiones aumentan.</caption>
+</figure>
+<note id="fs-id1170902775785">
+<title>Dilatación térmica en tres dimensiones</title>
+<para id="fs-id1170901695382">La relación entre volumen y temperatura <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow></m:math> viene dada por <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>β</m:mi><m:mi>V</m:mi></m:mrow></m:math>, donde <m:math><m:mi>β</m:mi></m:math> es el <term>coeficiente de expansión (dilatación) volumétrica</term>. Como se puede ver en el <link target-id="fs-id1170901605268"/>, <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>α</m:mi></m:mrow></m:math>. Esta ecuación suele escribirse como</para>
+<equation id="fs-id1170903011403"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>β</m:mi><m:mi>V</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902733382">Note que los valores de <m:math><m:mi>β</m:mi></m:math> en la <link target-id="fs-id1170902626134"/> son iguales a <m:math><m:mrow><m:mn>3</m:mn><m:mi>α</m:mi></m:mrow></m:math> excepto por el redondeo.</para>
+</note>
+<para id="fs-id1170902879370">La expansión de volumen está definida para líquidos, pero no así la expansión lineal y de área, ya que los cambios de dimensiones lineales y de área de un líquido dependen de la forma de su recipiente. Así, la <link target-id="fs-id1170902626134"/> muestra los valores de los líquidos de <m:math><m:mi>β</m:mi></m:math> pero no <m:math><m:mi>α</m:mi></m:math>.</para>
+<para id="fs-id1170903008223">En general, los objetos se expanden al aumentar la temperatura. El agua es la excepción más importante a esta regla. El agua se expande con el aumento de la temperatura (su densidad <emphasis effect="italics">disminuye</emphasis>) a temperaturas superiores a <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>F</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Sin embargo, es más densa en <m:math><m:mrow><m:mo>+</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y se expande con la <emphasis effect="italics">disminución de</emphasis> la temperatura entre <m:math><m:mrow><m:mo>+</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> (<m:math><m:mrow><m:mn>40</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>F</m:mtext><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:mn>32</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>), como se muestra en la <link target-id="CNX_UPhysics_18_03_H2ODensity"/>. Un efecto sorprendente de este fenómeno es la <term class="no-emphasis">congelación del agua</term> en un estanque. Cuando el agua cerca de la superficie se enfría a <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> es más densa que el resto del agua y, por tanto, se hunde en el fondo. Esta “rotación” deja una capa de agua más caliente cerca de la superficie que luego se enfría. Sin embargo, si la temperatura en la capa superficial cae por debajo de <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, esa agua es menos densa que el agua de abajo y, por lo tanto, se mantiene cerca de la parte superior. Como consecuencia, la superficie del estanque se puede congelar. La capa de hielo aísla el agua líquida que hay debajo de ella de las bajas temperaturas del aire. Los peces y otras formas de vida acuática pueden sobrevivir a <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> de agua bajo el hielo, debido a esta característica inusual del agua.</para>
+<figure id="CNX_UPhysics_18_03_H2ODensity">
+<media id="fs-id1170903048967" alt="La figura muestra un gráfico de la densidad del agua dulce en gramos por centímetro cúbico versus la temperatura en grados Celsius. El gráfico comienza en 0,99985 a 0 grados y se eleva hasta un valor máximo de 1 a 4 grados Celsius y de algo menos. A continuación, se curva hasta 0,99950 a 12 grados Celsius.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_18_03_H2ODensity.jpg"/>
+</media>
+<caption>Esta curva muestra la <term class="no-emphasis">densidad del agua</term> como una función de temperatura. Hay que tener en cuenta que la dilatación térmica a bajas temperaturas es muy pequeña. La densidad máxima a <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> es solo <m:math><m:mrow><m:mn>0,0075</m:mn><m:mi>%</m:mi></m:mrow></m:math> mayor que la densidad a <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>0,012</m:mn><m:mi>%</m:mi></m:mrow></m:math> mayor que a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. La disminución de la densidad por debajo de <m:math><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> se produce porque el agua líquida se acerca a la forma de cristal sólido del hielo, que contiene más espacio vacío que el líquido.</caption>
+</figure>
+<example id="fs-id1170902769483">
+<para id="fs-id1170901532236"><title>Calcular la dilatación térmica</title>
+Suponga que su tanque de gasolina de acero de 60,0 L <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>15,9</m:mn><m:mspace width="0.2em"/><m:mtext>gal</m:mtext></m:mrow></m:math>) está lleno de gas que está fresco porque acaba de ser bombeado desde un depósito subterráneo. Ahora, tanto el tanque como la gasolina tienen una temperatura de <m:math><m:mrow><m:mn>15,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> ¿Cuánta gasolina se ha derramado para cuando se calienta a <m:math><m:mrow><m:mn>35,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+<para id="fs-id1170902956547"><title>Estrategia</title>
+El tanque y la gasolina aumentan de volumen, pero la gasolina aumenta más, por lo que la cantidad derramada es la diferencia de sus cambios de volumen. Podemos utilizar la ecuación de expansión de volumen para calcular el cambio de volumen de la gasolina y del tanque (el tanque de gasolina se puede tratar como acero sólido).</para>
+<para id="fs-id1170901544149"><title>Solución</title></para>
+<list id="fs-id1170902771179" list-type="enumerated" number-style="arabic">
+<item>Use la ecuación de expansión de volumen para calcular el aumento de volumen del tanque de acero:
+<equation id="fs-id1170903002215" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>V</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>β</m:mi><m:mtext>s</m:mtext></m:msub><m:msub><m:mi>V</m:mi><m:mtext>s</m:mtext></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>El aumento de volumen de la gasolina viene dado por esta ecuación:
+<equation id="fs-id1170902752307" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>gas</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>β</m:mi><m:mrow><m:mtext>gas</m:mtext></m:mrow></m:msub><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>gas</m:mtext></m:mrow></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Calcule la diferencia de volumen para determinar la cantidad derramada como
+<equation id="fs-id1170902772352" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>derrame</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>gas</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>V</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1170901553939">También podemos combinar estas tres ecuaciones en una sola (tenga en cuenta que los volúmenes originales son iguales).</para>
+<equation id="fs-id1170901914275" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>derrame</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>β</m:mi><m:mrow><m:mtext>ga</m:mtext></m:mrow></m:msub><m:msub><m:mrow/><m:mtext>s</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>β</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>V</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>950</m:mn><m:mo>−</m:mo><m:mn>35</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>]</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>60,0</m:mn><m:mspace width="0.2em"/><m:mtext>L</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>1,10</m:mn><m:mspace width="0.2em"/><m:mtext>L</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170902887200"><title>Importancia</title>
+Esta cantidad es significativa, sobre todo para un tanque de 60,0 litros. El efecto es tan llamativo porque la gasolina y el acero se expanden rápidamente. La tasa de cambio de las propiedades térmicas se analiza más adelante en este capítulo.</para>
+<para id="fs-id1170901568779">Si intenta tapar el tanque con fuerza para evitar que se desborde, descubrirá que de todos modos tiene una fuga, ya sea alrededor del tapón o por una rotura. Constreñir el gas en expansión equivale a comprimirlo, y tanto los líquidos como los sólidos resisten la compresión con fuerzas extremadamente grandes. Para evitar la rotura de envases rígidos, estos tienen espacios de aire que les permiten expandirse y contraerse sin estresarlos.</para>
+</example>
+<note id="fs-id1170903024703" class="check-understanding">
+<exercise id="fs-id1170902893172">
+<problem id="fs-id1170902864195">
+<para id="fs-id1170901492821">¿Una lectura determinada en un indicador de gasolina indica más gasolina en clima frío o en clima cálido, o la temperatura no importa?</para>
+</problem>
+<solution id="fs-id1170902764670">
+<para id="fs-id1170902776330">La cantidad real (masa) de gasolina que queda en el tanque cuando el indicador marca “vacío” es menor en verano que en invierno. La gasolina tiene el mismo volumen que en invierno cuando se enciende la luz de “añadir combustible”, pero como la gasolina se ha expandido, hay menos masa.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170902749794">
+<title>Tensión térmica</title>
+<para id="fs-id1170901605357">Si se modifica la temperatura de un objeto y se evita que se expanda o se contraiga, el objeto está sometido a un estrés que es de compresión si el objeto se expandiría en ausencia de restricción y de tracción si se contrajera. Este estrés resultante de los cambios de temperatura se conoce como <term>tensión térmica</term>. Puede ser bastante grande y puede causar daños.</para>
+<para id="fs-id1170902776529">Para evitar este estrés, los ingenieros pueden diseñar componentes de manera que puedan expandirse y contraerse libremente. Por ejemplo, en las autopistas se dejan deliberadamente espacios entre los bloques para evitar que se produzca tensión térmica. Cuando no se pueden dejar espacios, los ingenieros deben tener en cuenta la tensión térmica en sus diseños. Así, las varillas de refuerzo del hormigón son de acero porque el coeficiente de dilatación lineal del acero es casi igual al del hormigón.</para>
+<para id="fs-id1170902694293">Para calcular la tensión térmica en una varilla cuyos extremos están fijados rígidamente podemos pensar que el estrés se desarrolla en dos pasos. Primero, deje que los extremos se expandan (o contraigan) libremente y calcule la expansión (o contracción). Segundo, calcule la tensión necesaria para comprimir (o extender) la varilla hasta su longitud original mediante los métodos que estudió en la sección <link document="m90676">Equilibrio estático y elasticidad</link> sobre el equilibrio estático y la elasticidad. En otras palabras, la <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:math> de la dilatación térmica es igual a la <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow></m:math> de la distorsión elástica (salvo que los signos son opuestos).</para>
+<example id="fs-id1170902836576">
+<para id="fs-id1170902690800"><title>Calcular la tensión térmica</title>
+Se colocan bloques de hormigón uno al lado del otro en una autopista sin espacio entre ellos, por lo que no se pueden expandir. El equipo de construcción hizo el trabajo un día de invierno en el que la temperatura era <m:math><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Calcule el estrés en los bloques en un día caluroso de verano cuando la temperatura es <m:math><m:mrow><m:mn>38</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. El módulo de Young de compresión del hormigón es <m:math><m:mrow><m:mi>Y</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+<para id="fs-id1170902793935"><title>Estrategia</title>
+Según el capítulo de equilibrio estático y elasticidad, el estrés <emphasis effect="italics">F</emphasis>/<emphasis effect="italics">A</emphasis> viene dado por</para>
+<equation id="fs-id1170902771190" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>Y</m:mi><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901582858">donde <emphasis effect="italics">Y</emphasis> es el módulo de Young del material: hormigón, en este caso. En la dilatación térmica, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>.</m:mo></m:mrow></m:math> Combinamos estas dos ecuaciones y notamos que las dos <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>’</m:mo><m:mtext>s</m:mtext></m:mrow></m:math> son iguales, como ya se ha dicho. Porque no se nos da <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> o <emphasis effect="italics">A</emphasis>, podemos obtener una respuesta numérica solo si ambas se anulan.</para>
+<para id="fs-id1170903043595"><title>Solución</title>
+Sustituimos la ecuación de dilatación térmica en la ecuación de elasticidad para obtener</para>
+<equation id="fs-id1170901599786" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>Y</m:mi><m:mfrac><m:mrow><m:mi>α</m:mi><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>Y</m:mi><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170901597933">y como esperábamos, <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> se anuló y <emphasis effect="italics">A</emphasis> aparece solo en <emphasis effect="italics">F</emphasis>/<emphasis effect="italics">A</emphasis>, la notación de la cantidad que estamos calculando.</para>
+<para id="fs-id1170903027880">Ahora solo tenemos que insertar los números:</para>
+<equation id="fs-id1170902681638" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>38</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902916296"><title>Importancia</title>
+La resistencia final a la compresión del hormigón es <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> para que los bloques no se rompan. Sin embargo, la resistencia final al corte del hormigón es solo <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> por lo que algunos podrían desprenderse.</para>
+</example>
+<note id="fs-id1170902837453" class="check-understanding">
+<exercise id="fs-id1170902875955">
+<problem id="fs-id1170902909328">
+<para id="fs-id1170902682322">Dos objetos <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> tienen las mismas dimensiones y están limitados de forma idéntica. <emphasis effect="italics">A</emphasis> está hecho de un material con un coeficiente de dilatación térmica mayor que el de <emphasis effect="italics">B</emphasis>. Si los objetos se calientan de forma idéntica, ¿<emphasis effect="italics">A</emphasis> sentirá un estrés mayor que <emphasis effect="italics">B</emphasis>?</para>
+</problem>
+<solution id="fs-id1170902906743">
+<para id="fs-id1170902781838">No necesariamente, ya que la tensión térmica también es proporcional al módulo de Young.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170901603683" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170902755257" list-type="bulleted" bullet-style="bullet">
+<item>La dilatación térmica es el aumento del tamaño (longitud, área o volumen) de un cuerpo debido a un cambio de temperatura, generalmente un aumento. La contracción térmica es la disminución de tamaño debido a un cambio de temperatura, generalmente por su descenso.</item>
+<item>La tensión térmica se crea cuando se limita la contracción dilatación térmica.</item>
+</list>
+</section>
+<section id="fs-id1170903071269" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1170902698555">
+<problem id="fs-id1170901596898">
+<para id="fs-id1170901575570">Verter agua fría en un utensilio de cocina de vidrio o cerámica caliente puede romperlo fácilmente. ¿Cuál es la causa de la rotura? Explique por qué el Pyrex®, un vidrio con un pequeño coeficiente de dilatación lineal, es menos susceptible.</para>
+</problem>
+<solution id="fs-id1170901513296">
+<para id="fs-id1170902924416">El agua fría enfría parte de la superficie interior, haciendo que se contraiga, mientras que el resto permanece expandido. La tensión es demasiado grande para la resistencia del material. El Pyrex se contrae menos, por lo que experimenta menos tensión.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902837564">
+<problem id="fs-id1170901761900">
+<para id="fs-id1170902666926">Un método para conseguir un ajuste firme, por ejemplo de una clavija metálica en un agujero de un bloque metálico, es fabricar la clavija ligeramente más grande que el agujero. La clavija se inserta entonces cuando está a una temperatura diferente de la del bloque. ¿El bloque debe estar más caliente o más frío que la clavija durante la inserción? Explique su respuesta.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170901756653">
+<problem id="fs-id1170903088563">
+<para id="fs-id1170903121765">¿Sirve de algo pasar agua caliente sobre una tapa metálica hermética de un tarro de vidrio antes de intentar abrirlo? Explique su respuesta.</para>
+</problem>
+<solution id="fs-id1170901650114">
+<para id="fs-id1170902772936">En principio, la tapa se expande más que el tarro porque los metales tienen mayores coeficientes de expansión que el vidrio. Así será más fácil desenroscar la tapa (en la práctica, mojar la tapa y el tarro puede dificultar su agarre).</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902789371">
+<problem id="fs-id1170902705503">
+<para id="fs-id1170902761700">Cuando se coloca un termómetro de alcohol frío en un líquido caliente, la columna de alcohol <emphasis effect="italics">baja</emphasis> ligeramente antes de subir. Explique por qué.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903132199">
+<problem id="fs-id1170902639332">
+<para id="fs-id1170902939235">Calcule la longitud de una varilla de 1 metro de un material con coeficiente de dilatación térmica <m:math><m:mi>α</m:mi></m:math> cuando la temperatura se eleva de 300 K a 600 K. Tome su respuesta como la nueva longitud inicial y calcule la longitud después de que la varilla se enfríe de nuevo a 300 K. ¿Su respuesta es 1 metro? ¿Debería serlo? ¿Cómo puede explicar el resultado que obtuvo?</para>
+</problem>
+<solution id="fs-id1170902787155">
+<para id="fs-id1170902912602">Después de calentarse, la longitud es (<m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>300</m:mn><m:mi>α</m:mi></m:mrow></m:math>) (<m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>). Después de enfriarse, la longitud es <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mi>α</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mi>α</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. La respuesta no es 1 m, pero debería serlo. La explicación es que aunque si <m:math><m:mi>α</m:mi></m:math> es exactamente constante, la relación <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math> es estrictamente cierto solo en el límite de pequeñas <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>. Dado que los valores de <m:math><m:mi>α</m:mi></m:math> son pequeños, la discrepancia no tiene importancia en la práctica.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902737450">
+<problem id="fs-id1170902909472">
+<para id="fs-id1170903037155">Al notar las grandes tensiones que puede provocar la dilatación térmica, un inventor de armas aficionado decide utilizarla para fabricar un nuevo tipo de pistola. Planea atascar una bala contra una varilla de aluminio dentro de un tubo de invar cerrado. Al calentar el tubo, la varilla se expandirá más que el tubo y se acumulará una fuerza muy potente. Luego, mediante un método aún por determinar, abrirá el tubo en una fracción de segundo y dejará que la fuerza de la varilla lance la bala a gran velocidad. ¿Qué está pasando por alto?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170901527174" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170902784471">
+<problem id="fs-id1170901752853">
+<para id="fs-id1170902737472">La altura del Monumento a Washington mide 170,00 m un día en que la temperatura es <m:math><m:mrow><m:mn>35,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C.</m:mtext></m:mrow></m:math> ¿Cuál será su altura un día en que la temperatura descienda a <m:math><m:mrow><m:mn>−10,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? Aunque el monumento es de piedra caliza, suponga que su coeficiente de dilatación térmica es el mismo que el del mármol. Indique su respuesta con cinco cifras significativas.</para>
+</problem>
+<solution id="fs-id1170902631583">
+<para id="fs-id1170903090295">Use la <link target-id="fs-id1170902626134"/> para calcular el coeficiente de dilatación térmica del mármol:<newline/> <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>170</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>-45,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mn>169,98</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.<newline/> (respuesta redondeada a cinco cifras significativas para mostrar la ligera diferencia de altura).</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902773472">
+<problem id="fs-id1170902783057">
+<para id="fs-id1170901602504">¿Cuánto mide la Torre Eiffel al final del día cuando la temperatura ha aumentado en <m:math><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C?</m:mtext></m:mrow></m:math> Su altura original es de 321 m y se puede suponer que es de acero.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903084242">
+<problem id="fs-id1170901752857">
+<para id="fs-id1170902749549">¿Cuál es el cambio de longitud de una columna de mercurio de 3,00 cm de longitud si su temperatura cambia de <m:math><m:mrow><m:mn>37,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>40,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, suponiendo que el mercurio está restringido a un cilindro pero sin restricción de longitud? Su respuesta mostrará por qué los termómetros contienen bulbos en la parte inferior en vez de simples columnas de líquido.</para>
+</problem>
+<solution id="fs-id1170902876659">
+<para id="fs-id1170902683810">Usamos <m:math><m:mrow><m:mi>β</m:mi></m:mrow></m:math> en vez de <m:math><m:mrow><m:mi>α</m:mi></m:mrow></m:math>, ya que se trata de una expansión de volumen con superficie constante. Por lo tanto:<newline/> <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>α</m:mi><m:mi>L</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,0300</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5,4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.</para></solution>
+</exercise>
+<exercise id="fs-id1170902637406">
+<problem id="fs-id1170902942679">
+<para id="fs-id1170903019753">¿Qué tamaño de la junta de dilatación se debe dejar entre los rieles de acero del ferrocarril si pueden alcanzar una temperatura máxima <m:math><m:mrow><m:mn>35,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> mayor que cuando se pusieron? Su longitud original es de 10,0 m.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902660924">
+<problem id="fs-id1170902659296">
+<para id="fs-id1170903023903">Quiere comprar un pequeño terreno en Hong Kong. El precio es de “solo” 60.000 dólares por metro cuadrado. El título de propiedad dice que las dimensiones son <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. ¿Cuánto cambiaría el precio total si se midiera la parcela con una cinta métrica de acero un día en que la temperatura fuera <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> por encima de la temperatura para la que fue diseñada la cinta métrica? Las dimensiones del terreno no cambian.</para>
+</problem>
+<solution id="fs-id1170903045159">
+<para id="fs-id1170901522268">En el día más cálido, nuestra cinta métrica se expandirá linealmente. Por lo tanto, cada dimensión medida será menor que la dimensión real del terreno. A llamar a estas dimensiones medidas <m:math><m:mrow><m:mi>l</m:mi><m:mo>'</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mi>w</m:mi><m:mo>'</m:mo></m:mrow></m:math>, calcularemos una nueva área <emphasis effect="italics">A</emphasis>. Calculemos estas dimensiones medidas:<newline/> <m:math><m:mrow><m:mi>l</m:mi><m:mo>'</m:mo><m:mo>=</m:mo><m:msub><m:mi>l</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:mtext>Δ</m:mtext><m:mi>l</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>19,9952</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;<newline/> <m:math><m:mrow><m:mi>A</m:mi><m:mo>'</m:mo><m:mo>=</m:mo><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mi>w</m:mi><m:mo>'</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>29,9928</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>19,9952</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>599,71</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/> Cambio de costo <m:math><m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>A</m:mi><m:mo>−</m:mo><m:mi>A</m:mi><m:mo>'</m:mo></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>$</m:mi><m:mn>60.000</m:mn></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>600</m:mn><m:mo>−</m:mo><m:mn>599,71</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>$</m:mi><m:mn>60.000</m:mn></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>$</m:mi><m:mn>17.000</m:mn></m:mrow></m:math>.<newline/> Como la superficie se reduce, el precio del terreno <emphasis effect="italics">disminuye</emphasis> en unos 17.000 dólares.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901627137">
+<problem id="fs-id1170902958119">
+<para id="fs-id1170902795644">El calentamiento global producirá un aumento del nivel del mar, en parte por el derretimiento de las capas de hielo y en parte por la expansión del agua al aumentar las temperaturas promedio del océano. Para hacerse una idea de la magnitud de este efecto calcule el cambio de longitud de una columna de agua de 1,00 km de altura para un aumento de temperatura de <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. Suponga que la columna no es libre de expandirse lateralmente. Como modelo del océano, es una aproximación razonable, ya que solo las partes del océano muy cercanas a la superficie pueden expandirse lateralmente hacia la tierra, y solo en un grado limitado. Como otra aproximación, desestime que el calentamiento de los océanos no es uniforme con la profundidad.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902765010">
+<problem id="fs-id1170901494076">
+<para id="fs-id1170901763285">(a) Suponga que una vara para medir en metros de acero y otra de aluminio tienen la misma longitud a <m:math><m:mrow><m:msup><m:mn>0</m:mn><m:mrow/></m:msup><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. ¿Cuál es su diferencia de longitud en <m:math><m:mrow><m:mn>22,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (b) Repita el cálculo para dos cintas métricas de 30,0 m de longitud.</para>
+</problem>
+<solution id="fs-id1170902742731">
+<para id="fs-id1170903124490">a. Use la <link target-id="fs-id1170902626134"/> para hallar los coeficientes de dilatación térmica del acero y del aluminio. Entonces, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>acero</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>22</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2,9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.<newline/> b. Por el mismo método con <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, tenemos <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>8,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902916265">
+<problem id="fs-id1170902754349">
+<para id="fs-id1170901568959">(a) Si un vaso de precipitado de 500 ml se llena hasta el borde con alcohol etílico a una temperatura de <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, cuánto se desbordará cuando la temperatura del alcohol alcance la temperatura ambiente de <m:math><m:mrow><m:mn>22,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (b) ¿Cuánto menos agua se desbordaría en las mismas condiciones?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902673218">
+<problem id="fs-id1170902907878">
+<para id="fs-id1170902913798">La mayoría de los automóviles tienen un depósito de refrigerante para recoger el líquido del radiador que puede rebosar cuando el motor está caliente. Un radiador está hecho de cobre y se llena hasta su capacidad de 16,0 L cuando a <m:math><m:mrow><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. ¿Qué volumen de líquido del radiador rebosará cuando el radiador y el líquido alcancen una temperatura de <m:math><m:mrow><m:mn>95,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C,</m:mtext></m:mrow></m:math> dado que el coeficiente de dilatación volumétrica del fluido es <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (Su respuesta será una estimación conservadora, ya que la mayoría de los radiadores de los automóviles tienen temperaturas de funcionamiento superiores a <m:math><m:mrow><m:mn>95,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>).</para>
+</problem>
+<solution id="fs-id1170902655288">
+<para id="fs-id1170902742676"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:mn>0,475</m:mn><m:mspace width="0.2em"/><m:mtext>L</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902672756">
+<problem id="fs-id1170903011579">
+<para id="fs-id1170901533110">Un físico prepara una taza de café instantáneo y observa que, al enfriarse el café, su nivel desciende 3,00 mm en la taza de vidrio. Demuestre que esta disminución no se puede deber a la contracción térmica al calcular la disminución del nivel si los <m:math><m:mrow><m:mn>350</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> de café se encuentran en una taza de 7,00 cm de diámetro y disminuye la temperatura de <m:math><m:mrow><m:mn>95,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>45,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (la mayor parte de la bajada de nivel se debe en realidad al escape de burbujas de aire).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902604607">
+<problem id="fs-id1170903085212">
+<para id="fs-id1170902649424">La densidad del agua a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> está muy cerca de <m:math><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> (en realidad es <m:math><m:mrow><m:mn>999,84</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>), mientras que la densidad del hielo a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> es de <m:math><m:mrow><m:mn>917</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Calcule la presión necesaria para que el hielo no se expanda al congelarse y desestime el efecto que una presión tan grande tendría sobre la temperatura de congelación (este problema solo le da una indicación de la magnitud de las fuerzas asociadas a la congelación del agua).</para>
+</problem>
+<solution id="fs-id1170902745414">
+<para id="fs-id1170902734832">Si empezamos con la congelación del agua, entonces se expandiría hasta <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>917</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1,09</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>1,98</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>N/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> de hielo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170901605268">
+<problem id="fs-id1170902772919">
+<para id="fs-id1170903033149">Demostrar que <m:math><m:mrow><m:mi>β</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>α</m:mi><m:mo>,</m:mo></m:mrow></m:math> al calcular el cambio infinitesimal del volumen <emphasis effect="italics">dV</emphasis> de un cubo con lados de longitud <emphasis effect="italics">L</emphasis> cuando la temperatura cambia en <emphasis effect="italics">dT</emphasis>.</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170903097640">
+<term>coeficiente de dilatación lineal</term>
+<meaning id="fs-id1170901485124">(<m:math><m:mi>α</m:mi></m:math>) propiedad del material que da el cambio de longitud, por unidad de longitud, por <m:math><m:mrow><m:mn>1</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> cambio de temperatura; constante utilizada en el cálculo de la dilatación lineal; el coeficiente de dilatación lineal depende en cierta medida de la temperatura del material</meaning>
+</definition>
+<definition id="fs-id1170901513754">
+<term>coeficiente de expansión (dilatación) volumétrica</term>
+<meaning id="fs-id1170902842348">(<m:math><m:mi>β</m:mi></m:math>) similar a <m:math><m:mi>α</m:mi></m:math> pero da el cambio de volumen, por unidad de volumen, por <m:math><m:mrow><m:mn>1</m:mn><m:mtext>-</m:mtext><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> cambio de temperatura</meaning>
+</definition>
+<definition id="fs-id1170902747066">
+<term>dilatación térmica</term>
+<meaning id="fs-id1170902686918">cambio de tamaño o volumen de un objeto con el cambio de temperatura</meaning>
+</definition>
+<definition id="fs-id1170902794812">
+<term>tensión térmica</term>
+<meaning id="fs-id1170903121530">estrés causado por contracción o dilatación térmica</meaning>
+</definition>
+</glossary>
+
+</document>

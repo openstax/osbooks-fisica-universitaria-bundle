@@ -1,0 +1,281 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Rotación con aceleración angular constante</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90664</md:content-id>
+  <md:title>Rotación con aceleración angular constante</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Derivar las ecuaciones cinemáticas para el movimiento rotacional con aceleración angular constante.</item>
+<item>Seleccionar de las ecuaciones cinemáticas para el movimiento rotacional con aceleración angular constante las ecuaciones apropiadas para resolver las incógnitas en el análisis de sistemas sometidos a rotación de eje fijo.</item>
+<item>Utilizar las soluciones halladas con las ecuaciones cinemáticas para verificar el análisis gráfico de la rotación de eje fijo con aceleración angular constante.</item>
+</list></md:abstract>
+  <md:uuid>5c4f405c-5266-4d68-bb88-187ee3405231</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134562323">En la sección anterior, hemos definido las variables rotacionales de desplazamiento angular, velocidad angular y aceleración angular. En esta sección, trabajamos con estas definiciones para derivar relaciones entre estas variables y utilizar estas relaciones para analizar el movimiento rotacional en un cuerpo rígido en torno a un eje fijo bajo una aceleración angular constante. Este análisis constituye la base de la cinemática rotacional. Si la aceleración angular es constante, las ecuaciones de la cinemática rotacional se simplifican, de forma similar a las ecuaciones de la cinemática lineal que se analizan en <link document="m90617">Movimiento a lo largo de una línea recta</link> y <link document="m90624">Movimiento en dos y tres dimensiones</link>. Podemos entonces utilizar este conjunto simplificado de ecuaciones para describir muchas aplicaciones en física e ingeniería, donde la aceleración angular del sistema es constante. La cinemática rotacional es también un prerrequisito para el estudio de la dinámica rotacional más adelante en este capítulo.</para><section id="fs-id1167134530949">
+<title>Cinemática del movimiento rotacional</title>
+<para id="fs-id1167134492796">Con nuestra intuición podemos empezar a ver cómo las cantidades rotacionales <m:math><m:mrow><m:mi>θ</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>ω</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>α</m:mi></m:mrow></m:math>, y <emphasis effect="italics">t</emphasis> están relacionadas entre sí. Por ejemplo, hemos visto en la sección anterior que, si un volante de inercia tiene una aceleración angular en la misma dirección que su vector de velocidad angular, su velocidad angular aumenta con el tiempo, al igual que desplazamiento angular. Por el contrario, si la aceleración angular es opuesta al vector de velocidad angular, su velocidad angular disminuye con el tiempo. Podemos describir estas situaciones físicas y muchas otras con un conjunto coherente de ecuaciones cinemáticas rotacionales bajo una aceleración angular constante. El método para investigar el movimiento rotacional de esta manera se llama <term>cinemática del movimiento rotacional</term>.</para>
+<para id="fs-id1167134658198">Para empezar, observamos que, si el sistema rota bajo una aceleración constante, entonces la velocidad angular media sigue una relación simple porque la velocidad angular aumenta linealmente con el tiempo. La velocidad angular media es justo la mitad de la suma de los valores inicial y final:</para>
+<note id="fs-id1167134881925" class="equation-callout">
+<equation id="fs-id1167134565315"><label/><m:math><m:mrow><m:mover accent="true"><m:mi>ω</m:mi><m:mo>–</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134898606">A partir de la definición de la velocidad angular media, hallaremos una ecuación que relacione la posición angular, la velocidad angular media y el tiempo:</para>
+<equation id="fs-id1167134537814" class="unnumbered"><label/><m:math><m:mrow><m:mover accent="true"><m:mi>ω</m:mi><m:mo>–</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>θ</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134671134">Resolviendo para <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math>, tenemos</para>
+<note id="fs-id1167131112841" class="equation-callout">
+<equation id="fs-id1167134864500"><label/><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mover accent="true"><m:mi>ω</m:mi><m:mo>–</m:mo></m:mover><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134886257">donde hemos supuesto que <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Esta ecuación puede ser muy útil si conocemos la velocidad angular media del sistema. Entonces podríamos encontrar el desplazamiento angular en un tiempo determinado. A continuación, hallamos una ecuación que relaciona <m:math><m:mi>ω</m:mi></m:math>, <m:math><m:mi>α</m:mi></m:math>, y <emphasis effect="italics">t</emphasis>. Para determinar esta ecuación, partimos de la definición de aceleración angular:</para>
+<equation id="fs-id1167134470048" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>ω</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134717368">Reorganizamos esto para obtener <m:math><m:mrow><m:mi>α</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>ω</m:mi></m:mrow></m:math> y luego integramos ambos lados de esta ecuación desde los valores iniciales hasta los finales, es decir, desde <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> a <emphasis effect="italics">t</emphasis> y <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:math>. En el movimiento rotacional uniforme, la aceleración angular es constante, por lo que puede extraerse de la integral, para dar lugar a dos integrales definidas:</para>
+<equation id="fs-id1167134812957" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>t</m:mi></m:munderover><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:munderover><m:mrow><m:mi>d</m:mi><m:mi>ω</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134452992">Estableciendo <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, tenemos</para>
+<equation id="fs-id1167134563908" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mi>f</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134651272">Reorganizamos esto para obtener</para>
+<note id="fs-id1167134439377" class="equation-callout">
+<equation id="fs-id1167134891857"><label/><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134537750">donde <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la velocidad angular inicial. La <link target-id="fs-id1167134891857"/> es la contraparte rotacional de la ecuación cinemática lineal <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi></m:mrow></m:math>. Con la <link target-id="fs-id1167134891857"/>, hallaremos la velocidad angular de un objeto en cualquier tiempo <emphasis effect="italics">t</emphasis> dada la velocidad angular inicial y la aceleración angular.</para>
+<para id="fs-id1167134563378">Hagamos ahora un tratamiento similar a partir de la ecuación <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>. La reordenamos para obtener <m:math><m:mrow><m:mi>ω</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:math> e integramos de nuevo ambos lados de los valores iniciales a los finales; se observa que la aceleración angular es constante y no depende del tiempo. Sin embargo, esta vez, la velocidad angular no es constante (en general), por lo que sustituimos en lo que derivamos anteriormente:</para>
+<equation id="fs-id1167134457425" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:munderover><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>α</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:munderover><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>;</m:mo></m:mrow></m:mrow></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mi>t</m:mi></m:mrow></m:munderover><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>+</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>t</m:mi></m:munderover><m:mrow><m:mi>α</m:mi><m:mi>t</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:munderover><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:msubsup><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>+</m:mo><m:mi>α</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>t</m:mi></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mi>α</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:mrow></m:mstyle></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167134477858">donde hemos supuesto que <m:math><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Ahora reordenamos para obtener</para>
+<note id="fs-id1167134652454" class="equation-callout">
+<equation id="fs-id1167134579229"><label/><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134642624">La <link target-id="fs-id1167134579229"/> es la contraparte rotacional de la ecuación de la cinemática lineal que se encuentra en <link document="m90617">Movimiento a lo largo de una línea recta</link> para la posición como función del tiempo. Esta ecuación nos da la posición angular de un cuerpo rígido en rotación en cualquier tiempo <emphasis effect="italics">t</emphasis> dadas las condiciones iniciales (posición angular inicial y velocidad angular inicial) y la aceleración angular.</para>
+<para id="fs-id1167134655898">Hallaremos una ecuación que sea independiente del tiempo al resolver para <emphasis effect="italics">t</emphasis> en la <link target-id="fs-id1167134891857"/> y sustituir en la <link target-id="fs-id1167134579229"/>. La <link target-id="fs-id1167134579229"/> se convierte en</para>
+<equation id="fs-id1167134536209" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>α</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>α</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow><m:mi>α</m:mi></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>α</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mtext>f</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>α</m:mi></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow><m:mi>α</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>α</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mtext>f</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>α</m:mi></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>α</m:mi></m:mfrac><m:mo>,</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mtext>f</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>-</m:mo><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>α</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167134679532">o</para>
+<note id="fs-id1167134945281" class="equation-callout">
+<equation id="fs-id1167134940971"><label/><m:math><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mtext>f</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>α</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134483814">La <link target-id="fs-id1167134864500"/> a la <link target-id="fs-id1167134940971"/> describen la rotación en el eje fijo para una aceleración constante y se resumen en la <link target-id="fs-id1167134435354"/>.</para>
+<table id="fs-id1167134435354" summary="A two column, four row table is shown. The first column contains “Angular displacement from average angular velocity,” “Angular velocity from angular acceleration,” Angular displacement from angular velocity and angular acceleration,” and “Angular velocity from angular displacement and angular acceleration.” The second column contains “theta subscript f equals theta subscript zero plus omega with a line over it times t,” “omega subscript f equals omega subscript zero plus alpha times t,” “theta subscript f equals theta subscript 0 plus omega subscript 0 times t plus one half alpha times t squared,” and “omega subscript f superscript 2 equals omega subscript zero superscript 2 plus 2 alpha times delta theta.”">
+<title>Ecuaciones cinemáticas</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Desplazamiento angular a partir de la velocidad angular media</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mover accent="true"><m:mi>ω</m:mi><m:mo>–</m:mo></m:mover><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Velocidad angular a partir de la aceleración angular</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Desplazamiento angular a partir de la velocidad angular y la aceleración angular</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Velocidad angular a partir del desplazamiento angular y la aceleración angular</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msubsup><m:mi>ω</m:mi><m:mtext>f</m:mtext><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>α</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1167134892158">
+<title>Aplicar las ecuaciones del movimiento rotacional</title>
+<para id="fs-id1167134651957">Ahora aplicaremos las relaciones cinemáticas clave para el movimiento rotacional a algunos ejemplos sencillos para tener una idea de cómo se pueden aplicar las ecuaciones a situaciones cotidianas.</para>
+<example id="fs-id1167134652591">
+<para id="fs-id1167131111562"><title>Calcular la aceleración de un carrete de pesca</title>
+Un pescador de alta mar engancha un gran pez que se aleja nadando del barco, tirando del sedal de su carrete de pesca. Todo el sistema está inicialmente en reposo, y el sedal se desenrolla del carrete en un radio de 4,50 cm desde su eje de rotación. El carrete recibe una aceleración angular de <m:math><m:mrow><m:mn>110</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> durante 2,00 s (<link target-id="CNX_UPhysics_10_02_Reel"/>).</para>
+<para id="fs-id1167134858537">(a) ¿Cuál es la velocidad angular final del carrete después de 2 s?</para>
+<para id="fs-id1167134437352">(b) ¿Cuántas revoluciones da el carrete?</para>
+<figure id="CNX_UPhysics_10_02_Reel">
+<media id="fs-id1167134817328" alt="La figura es el dibujo de un sedal que sale de un carrete en rotación. El radio de rotación es de 4,5 cm; la rotación se produce en el sentido contrario de las agujas del reloj.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_02_Reel.jpg"/>
+</media>
+<caption>El sedal que sale de un carrete en rotación se mueve linealmente.</caption>
+</figure>
+<para id="fs-id1167134898526"><title>Estrategia</title>
+Identifique los aspectos conocidos y compárelos con las ecuaciones cinemáticas para la aceleración constante. Busque la ecuación adecuada que pueda resolverse para la incógnita; utilice los aspectos conocidos en la descripción del problema.</para>
+<para id="fs-id1167134700994"><title>Solución</title></para>
+<list id="fs-id1167134944381" list-type="enumerated" number-style="lower-alpha">
+<item>Se nos da <m:math><m:mi>α</m:mi></m:math> y <emphasis effect="italics">t</emphasis> y queremos determinar <m:math><m:mi>ω</m:mi></m:math>. La ecuación más sencilla de utilizar es <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:math>, dado que se conocen todos los términos, además de la variable desconocida que buscamos. Se nos da que <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> (parte del reposo), por lo que
+<equation id="fs-id1167134537543" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>110</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>220</m:mn><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Se nos pide que calculemos el número de revoluciones. Dado que <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>rev</m:mtext><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:math>, hallaremos el número de revoluciones al calcular <m:math><m:mi>θ</m:mi></m:math> en radianes. Se nos da <m:math><m:mi>α</m:mi></m:math> y <emphasis effect="italics">t</emphasis>, y sabemos que <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es cero, por lo que podemos obtener <m:math><m:mi>θ</m:mi></m:math> utilizando
+<equation id="fs-id1167134656731" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>ω</m:mi><m:mtext>i</m:mtext></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,500</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>110</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>220</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+Al convertir los radianes en revoluciones obtenemos
+<equation id="fs-id1170902930567" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Número de rev</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>220</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo stretchy="false">)</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>rev</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>35,0</m:mn><m:mspace width="0.2em"/><m:mtext>rev</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167134508433"><title>Importancia</title>
+Este ejemplo ilustra que las relaciones entre las magnitudes rotacionales son muy análogas a las de las magnitudes lineales. Las respuestas a las preguntas son realistas. Tras desenrollarlo durante dos segundos, se comprueba que el carrete gira a 220 rad/s, es decir, a 2.100 rpm. (No es de extrañar que los carretes a veces emitan sonidos agudos).</para>
+</example>
+<para id="fs-id1167134915778">En el ejemplo anterior, hemos considerado un carrete de pesca con una aceleración angular positiva. Consideremos ahora lo que ocurre con una aceleración angular negativa.</para>
+<example id="fs-id1167134515175">
+<para id="fs-id1167134712029"><title>Calcular la duración cuando el carrete de pesca desacelera y se detiene</title>
+Ahora el pescador aplica un freno al carrete en rotación, hasta lograr una aceleración angular de <m:math><m:mrow><m:mn>−300</m:mn><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. ¿Cuánto tiempo tarda el carrete en detenerse?</para>
+<para id="fs-id1167134443261"><title>Estrategia</title>
+Se nos pide que calculemos el tiempo <emphasis effect="italics">t</emphasis> que tarda en detenerse el carrete. Las condiciones iniciales y finales son diferentes a las del problema anterior, que implicaba el mismo carrete de pesca. Ahora vemos que la velocidad angular inicial es <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>220</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math> y la velocidad angular final <m:math><m:mrow><m:mi>ω</m:mi></m:mrow></m:math> es cero. La aceleración angular viene dada por <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>−300</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>rad/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Al examinar las ecuaciones disponibles, vemos que todas las cantidades menos <emphasis effect="italics">t</emphasis> son conocidas en <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:math>, lo que facilita el empleo de esta ecuación.</para>
+<para id="fs-id1167134665952"><title>Solución</title>
+La ecuación establece</para>
+<equation id="fs-id1167131116661" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134540028">Resolvemos la ecuación algebraicamente para <emphasis effect="italics">t</emphasis> y luego sustituimos los valores conocidos como es habitual, para producir</para>
+<equation id="fs-id1167131117379" class="unnumbered"><label/><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>α</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0</m:mn><m:mo>-</m:mo><m:mn>220,0</m:mn><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow><m:mrow><m:mn>-300,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>rad/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,733</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134534920"><title>Importancia</title>
+Hay que tener cuidado con los signos que indican las direcciones de las distintas cantidades. También observe que el tiempo para detener el carrete es muy breve porque la aceleración es bastante grande. Las líneas de pesca a veces se rompen debido a las aceleraciones que se producen, y los pescadores suelen dejar que el pez nade durante un tiempo antes de aplicar los frenos en el carrete. Un pez cansado es más lento y requiere una menor aceleración.</para>
+</example>
+<note id="fs-id1167131109952" class="check-understanding">
+<exercise id="fs-id1167131109955">
+<problem id="fs-id1167131109957">
+<para id="fs-id1167134581246">Una centrifugadora utilizada en la extracción de ADN gira a una velocidad máxima de 7.000 rpm, para generar una "fuerza g" sobre la muestra que es 6.000 veces la fuerza de la gravedad. Si la centrifugadora tarda 10 segundos en llegar al reposo desde la máxima tasa de giro: (a) ¿Cuál es la aceleración angular de la centrifugadora? (b) ¿Cuál es el desplazamiento angular de la centrifugadora durante este tiempo?</para>
+</problem>
+<solution id="fs-id1167134568102">
+<para id="fs-id1167134568104">a. Utilizando la <link target-id="fs-id1167134891857"/>, tenemos <m:math><m:mrow><m:mn>7.000</m:mn><m:mspace width="0.2em"/><m:mtext>rpm</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>7000,0</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>60,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>733,0</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext><m:mo>,</m:mo></m:mrow></m:mrow></m:math><newline/> <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ω</m:mi><m:mo>-</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>t</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>733,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow><m:mn>10,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>73,3</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>;<newline/> b. Utilizando la <link target-id="fs-id1167134940971"/>, tenemos<newline/> <m:math><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo stretchy="false">⇒</m:mo><m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msubsup><m:mi>ω</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>α</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0</m:mn><m:mo>-</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>733,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>73,3</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3665,2</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1167134816425">
+<para id="fs-id1167134816427"><title>Aceleración angular de una hélice</title>
+La <link target-id="CNX_UPhysics_10_02_Prop"/> muestra un gráfico de la velocidad angular de una hélice de un avión como función del tiempo. Su velocidad angular comienza en 30 rad/s y desciende linealmente hasta 0 rad/s en el transcurso de 5 segundos. (a) Calcule la aceleración angular del objeto y verifique el resultado utilizando las ecuaciones cinemáticas. (b) Calcule el ángulo por el que la hélice está en rotación durante esos 5 segundos y verifique su resultado por medio de las ecuaciones cinemáticas.</para>
+<figure id="CNX_UPhysics_10_02_Prop">
+<media id="fs-id1167134920478" alt="La figura es el gráfico de la velocidad angular en radianes por segundo, trazada en función del tiempo en segundos. La velocidad angular disminuye linealmente con el tiempo, desde 30 rads por segundo a cero segundos, hasta cero a 5 segundos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_02_Prop.jpg"/>
+</media>
+<caption>Gráfico de la velocidad angular de una hélice en función del tiempo.</caption>
+</figure>
+<para id="fs-id1167131107808"><title>Estrategia</title></para>
+<list id="fs-id1167131107812" list-type="enumerated" number-style="lower-alpha">
+<item>Dado que la velocidad angular varía linealmente con el tiempo, sabemos que la aceleración angular es constante y no depende de la variable tiempo. La aceleración angular es la pendiente del gráfico de la velocidad angular en función del tiempo, <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>ω</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>. Para calcular la pendiente, leemos directamente de la <link target-id="CNX_UPhysics_10_02_Prop"/>, y vemos que <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow></m:math> en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow></m:math> en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>. A continuación, podemos verificar el resultado utilizando <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>α</m:mi><m:mi>t</m:mi></m:mrow></m:math>.</item>
+<item>Utilizamos la ecuación <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>;</m:mo></m:mrow></m:math> ya que la derivada tiempo del ángulo es la velocidad angular, hallaremos el desplazamiento angular al integrar la velocidad angular, lo que a partir de la figura significa tomar el área bajo el gráfico de la velocidad angular. En otras palabras:
+<equation id="fs-id1167131112676" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:munderover><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow></m:munderover><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+A continuación, utilizamos las ecuaciones cinemáticas en la aceleración constante para verificar el resultado.</item>
+</list>
+<para id="fs-id1167134896065"><title>Solución</title></para>
+<list id="fs-id1167134913788" list-type="enumerated" number-style="lower-alpha">
+<item>Al calcular la pendiente, obtenemos
+<equation id="fs-id1167134913796" class="unnumbered"><label/><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ω</m:mi><m:mo>-</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mi>t</m:mi><m:mo>-</m:mo><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>-</m:mo><m:mn>30,0</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−6,0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>rad/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Vemos que esto es exactamente la <link target-id="fs-id1167134891857"/> con un pequeño reordenamiento de los términos.</item>
+<item>Hallaremos el área bajo la curva al calcular el área del triángulo rectángulo, como se muestra en la <link target-id="CNX_UPhysics_10_02_PropSol"/>.<newline/>
+<figure id="CNX_UPhysics_10_02_PropSol">
+<media id="fs-id1167131115678" alt="La figura es el gráfico de la velocidad angular en radianes por segundo, trazada en función del tiempo en segundos. La velocidad angular disminuye linealmente con el tiempo, desde 30 rads por segundo a cero segundos, hasta cero a 5 segundos. El área bajo la curva se rellena.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_02_PropSol.jpg"/>
+</media>
+<caption>El área bajo la curva es el área del triángulo rectángulo.</caption>
+</figure>
+<equation id="fs-id1167134913716" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>θ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>área</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>triángulo</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>θ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>rad/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>75</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+Verificamos la solución mediante la <link target-id="fs-id1167134579229"/>:
+<equation id="fs-id1167131114447" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>α</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+Estableciendo <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, tenemos
+<equation id="fs-id1167131113836" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>30,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−6,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn></m:mrow></m:mrow><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>150,0</m:mn><m:mo>-</m:mo><m:mn>75,0</m:mn><m:mo>=</m:mo><m:mn>75,0</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Esto verifica la solución derivada de calcular el área bajo la curva.</item></list>
+<para id="fs-id1167131105286"><title>Importancia</title>
+Vemos en la parte (b) que hay enfoques alternativos para analizar la rotación del eje fijo con aceleración constante. Comenzamos con un enfoque gráfico y verificamos la solución por medio de las ecuaciones cinemáticas rotacionales. Dado que <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>ω</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, podríamos realizar el mismo análisis gráfico sobre una curva de aceleración angular en función del tiempo. El área bajo la curva <m:math><m:mrow><m:mi>α</m:mi><m:mtext> en función del </m:mtext><m:mi>t</m:mi></m:mrow></m:math> nos da el cambio de velocidad angular. Ya que la aceleración angular es constante en esta sección, se trata de un ejercicio sencillo.</para>
+</example>
+</section>
+<section id="fs-id1167134909927" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167131112445" list-type="bulleted" bullet-style="bullet">
+<item>La cinemática del movimiento rotacional describe las relaciones entre el ángulo de rotación (posición angular), la velocidad angular, la aceleración angular y el tiempo.</item>
+<item>En una aceleración angular constante, la velocidad angular varía linealmente. Por lo tanto, la velocidad angular media es la 1/2 de la velocidad angular inicial más la final en un tiempo determinado:
+<equation id="fs-id1167131112460" class="unnumbered"><label/><m:math><m:mrow><m:mover accent="true"><m:mi>ω</m:mi><m:mo>–</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>ω</m:mi><m:mtext>f</m:mtext></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Utilizamos un análisis gráfico para hallar soluciones a la rotación de eje fijo con aceleración angular constante. A partir de la relación <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>θ</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, hallamos que el área bajo la curva de velocidad angular en función del tiempo da el desplazamiento angular, <m:math><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>θ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>t</m:mi></m:munderover><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math>. Los resultados del análisis gráfico se verificaron mediante las ecuaciones cinemáticas para una aceleración angular constante. Del mismo modo, dado que <m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>ω</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, el área bajo un gráfico de aceleración angular en función del tiempo da el cambio en la velocidad angular <m:math><m:mrow><m:msub><m:mi>ω</m:mi><m:mi>f</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mi>ω</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>ω</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>t</m:mi></m:munderover><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:math>.</item>
+</list>
+</section>
+<section id="fs-id1167134909767" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167134909773">
+<problem id="fs-id1167134909775">
+<para id="fs-id1167134909777">Si un cuerpo rígido tiene una aceleración angular constante, ¿cuál es la forma funcional de la velocidad angular en términos de la variable tiempo?</para>
+</problem>
+<solution id="fs-id1167134882201">
+<para id="fs-id1167134882203">línea recta, lineal en la variable tiempo</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134882209">
+<problem id="fs-id1167134882211">
+<para id="fs-id1167134882213">Si un cuerpo rígido tiene una aceleración angular constante, ¿cuál es la forma funcional de la posición angular?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134882226">
+<problem id="fs-id1167134882228">
+<para id="fs-id1167134566492">Si la aceleración angular de un cuerpo rígido es cero, ¿cuál es la forma funcional de la velocidad angular?</para>
+</problem>
+<solution id="fs-id1167134566497">
+<para id="fs-id1167134566499">constante</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134566505">
+<problem id="fs-id1167134566507">
+<para id="fs-id1167134566509">Una cuerda de sujeción sin masa con una masa atada a ambos extremos rota en torno a un eje fijo por el centro. ¿Puede la aceleración total de la combinación cuerda de sujeción/masa ser cero si la velocidad angular es constante?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167131116767" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167131116774">
+<problem id="fs-id1167131116776">
+<para id="fs-id1167131116778">Una rueda tiene una aceleración angular constante de <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>. Partiendo del reposo, gira 300 rad. (a) ¿Cuál es su velocidad angular final? (b) ¿Cuánto tiempo transcurre mientras gira los 300 radianes?</para>
+</problem>
+<solution id="fs-id1167131107894">
+<para id="fs-id1167131107896">a. <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>54,8</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>11,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134917139">
+<problem id="fs-id1167134917141">
+<para id="fs-id1167134917143">Durante un intervalo de tiempo de 6,0 s, un volante de inercia con una aceleración angular constante gira 500 radianes que adquieren una velocidad angular de 100 rad/s. (a) ¿Cuál es la velocidad angular al comienzo de los 6,0 s? (b) ¿Cuál es la aceleración angular del volante de inercia?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131109414">
+<problem id="fs-id1167131109416">
+<para id="fs-id1167131107937">La velocidad angular de un cuerpo rígido en rotación aumenta de 500 a 1.500 rev/min en 120 s. (a) ¿Cuál es la aceleración angular del cuerpo? (b) ¿Con qué ángulo gira en estos 120 s?</para>
+</problem>
+<solution id="fs-id1167131107943">
+<para id="fs-id1167131107946">a. <m:math><m:mrow><m:mn>0,87</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>12.600</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167134910720">
+<problem id="fs-id1167134910722">
+<para id="fs-id1167134910724">Un volante de inercia pasa de 600 a 400 rev/min mientras rota a 40 revoluciones. (a) ¿Cuál es la aceleración angular del volante de inercia? (b) ¿Cuánto tiempo transcurre durante las 40 revoluciones?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131116871">
+<problem id="fs-id1167131116874">
+<para id="fs-id1167131116876">Una rueda de 1,0 m de radio rota a una aceleración angular de <m:math><m:mrow><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>. (a) Si la velocidad angular inicial de la rueda es de 2,0 rad/s, ¿cuál es su velocidad angular después de 10 s? (b) ¿Con qué ángulo rota en el intervalo de 10 s? (c) ¿Cuáles son la velocidad tangencial y la aceleración de un punto del borde de la rueda al final del intervalo de 10 s?</para>
+</problem>
+<solution id="fs-id1167131116905">
+<para id="fs-id1167131116908">a. <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>42,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>220</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:math>; c. <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>v</m:mi><m:mi>t</m:mi></m:msub><m:mo>=</m:mo><m:mn>42</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>a</m:mi><m:mi>t</m:mi></m:msub><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131115370">
+<problem id="fs-id1167131115373">
+<para id="fs-id1167131115375">Una rueda vertical de 50 cm de diámetro parte del reposo y rota a una aceleración angular constante de <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math> en torno a un eje fijo que pasa por su centro en el sentido contrario de las agujas del reloj. (a) ¿Dónde está el punto que se encuentra inicialmente en la parte inferior de la rueda en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>s?</m:mtext></m:mrow></m:math> (b) ¿Cuál es la aceleración lineal del punto en este instante?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131112040">
+<problem id="fs-id1167131112043">
+<para id="fs-id1167131112045">Un disco circular de radio de 10 cm tiene una aceleración angular constante de <m:math><m:mrow><m:mn>1,0</m:mn><m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>; en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> su velocidad angular es de 2,0 rad/s. (a) Determine la velocidad angular del disco en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>. (b) ¿Cuál es el ángulo que ha rotado durante este tiempo? (c) ¿Cuál es la aceleración tangencial de un punto del disco en <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167131112115">
+<para id="fs-id1167131112117">a. <m:math><m:mrow><m:mi>ω</m:mi><m:mo>=</m:mo><m:mn>7,0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>;<newline/> b. <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>22,5</m:mn><m:mspace width="0.2em"/><m:mtext>rad</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>t</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0,1</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131106615">
+<problem id="fs-id1167131106618">
+<para id="fs-id1167131106620">A continuación se muestra la velocidad angular en función del tiempo de un ventilador en un aerodeslizador. (a) ¿Cuál es el ángulo por el que rotan las aspas del ventilador en los primeros 8 segundos? (b) Verifique su resultado con las ecuaciones cinemáticas.</para>
+<media id="fs-id1167131106625" alt="La figura es el gráfico de la velocidad angular en revoluciones por minuto, trazada en función del tiempo en segundos. La velocidad angular es cero cuando el tiempo es igual a cero y aumenta linealmente con el tiempo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_02_Prob15_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167131115092">
+<problem id="fs-id1167131115094">
+<para id="fs-id1167131115096">Una varilla de 20 cm de longitud tiene dos cuentas sujetas en sus extremos. La varilla con cuentas comienza a rotar desde el reposo. Si las cuentas deben tener una rapidez tangencial de 20 m/s en 7 s, ¿cuál es la aceleración angular de la varilla para conseguirlo?</para>
+</problem>
+<solution id="fs-id1167131115103">
+<para id="fs-id1167131115105"><m:math><m:mrow><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>28,6</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>rad</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167131105116">
+<term>cinemática del movimiento rotacional</term>
+<meaning id="fs-id1167131105121">describe las relaciones entre el ángulo de rotación, la velocidad angular, la aceleración angular y el tiempo</meaning>
+</definition>
+</glossary>
+</document>

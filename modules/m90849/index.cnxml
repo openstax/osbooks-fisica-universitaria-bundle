@@ -1,0 +1,261 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>El ciclo de Carnot</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90849</md:content-id>
+  <md:title>El ciclo de Carnot</md:title>
+  <md:abstract><list>
+<item>Describir el ciclo de Carnot con las funciones de los cuatro procesos implicados</item>
+<item>Resumir el principio de Carnot y sus implicaciones</item>
+<item>Demostrar la equivalencia del principio de Carnot y la segunda ley de la termodinámica</item></list></md:abstract>
+  <md:uuid>db3f05ef-b540-4e1a-adcf-46cf51527304</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167585127729">A principios de la década de los años 20 del siglo XIX, Sadi <term class="no-emphasis">Carnot</term> (1786-1832), un ingeniero francés, se interesó por mejorar la eficiencia de las máquinas térmicas prácticas. En 1824, sus estudios le llevaron a proponer un hipotético ciclo de trabajo con el mayor rendimiento posible entre los mismos dos reservorios, conocido actualmente como <term>ciclo de Carnot</term>. Una máquina que funciona en este ciclo se denomina <term>máquina de Carnot</term>. El ciclo de Carnot es de especial importancia por varias razones. A nivel práctico, este ciclo representa un modelo reversible para la central eléctrica de vapor y el refrigerador, o la bomba de calor. Sin embargo, también es muy importante desde el punto de vista teórico, ya que desempeña un papel fundamental en el desarrollo de otro importante enunciado de la segunda ley de la termodinámica. Por último, como solo intervienen dos reservorios en su funcionamiento, puede utilizarse junto con la segunda ley de la termodinámica para definir una escala de temperatura absoluta que sea realmente independiente de cualquier sustancia utilizada para medir la temperatura.</para>
+<para id="fs-id1167584870646">Con un gas ideal como sustancia de trabajo, las etapas del ciclo de Carnot, representadas por la <link target-id="CNX_UPhysics_21_05_Carnot"/>, son las siguientes.</para>
+<list id="fs-id1167584701478" list-type="enumerated" number-style="arabic">
+<item><emphasis effect="italics">Expansión isotérmica.</emphasis> El gas se pone en contacto térmico con un reservorio de calor a una temperatura <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> El gas absorbe el calor <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> del reservorio de calor y se deja que se expanda isotérmicamente, realizando trabajo <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Ya que la energía interna <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mrow></m:math> de un gas ideal es una función de la temperatura solamente, el cambio de la energía interna es cero, es decir, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> durante esta expansión isotérmica. Con la primera ley de la termodinámica, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>,</m:mo></m:mrow></m:math> hallamos que el calor absorbido por el gas es
+<equation id="fs-id1167584965243" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>N</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>M</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_21_05_Carnot">
+<media id="fs-id1167585023260" alt="La figura muestra cuatro etapas del ciclo de Carnot, a saber, la expansión isotérmica, la expansión adiabática, la compresión isotérmica y la compresión adiabática.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_05_Carnot.jpg"/>
+</media>
+<caption>Los cuatro procesos del ciclo de Carnot. Se supone que la sustancia de trabajo es un gas ideal cuya trayectoria termodinámica <emphasis effect="italics">MNOP</emphasis> se representa en <link target-id="CNX_UPhysics_21_05_CarnotCycl"/>.</caption>
+</figure>
+<figure id="CNX_UPhysics_21_05_CarnotCycl">
+<media id="fs-id1167584668022" alt="La primera parte de la figura muestra un gráfico correspondiente a cuatro etapas del ciclo de Carnot. El eje x es V y el eje y es p. La segunda parte muestra una flecha descendente Q subíndice h en T subíndice h que se divide en una flecha descendente Q subíndice c en T subíndice c y una flecha derecha W.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_05_CarnotCycl.jpg"/>
+</media>
+<caption>El trabajo total que realiza el gas en el ciclo de Carnot se muestra y viene dado por el área encerrada por el bucle <emphasis effect="italics">MNOPM</emphasis>.</caption>
+</figure>
+</item>
+<item><emphasis effect="italics">Expansión adiabática</emphasis>. El gas se aísla térmicamente y se deja que se expanda más, realizando trabajo <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Como esta expansión es adiabática, la temperatura del gas cae, en este caso, de <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>h</m:mtext><m:mspace width="0.2em"/></m:mrow></m:msub><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Desde <m:math><m:mrow><m:mi>p</m:mi><m:msup><m:mi>V</m:mi><m:mi>γ</m:mi></m:msup><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mtext>constante</m:mtext></m:mrow></m:math> y la ecuación de estado de un gas ideal, <m:math><m:mrow><m:mi>p</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi></m:mrow></m:math>, tenemos
+<equation id="fs-id1167583686936" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:msup><m:mi>V</m:mi><m:mrow><m:mtext>γ</m:mtext><m:mspace width="0.2em"/><m:mtext>−</m:mtext><m:mspace width="0.2em"/><m:mtext>1</m:mtext></m:mrow></m:msup><m:mo>=</m:mo><m:mtext>constante</m:mtext><m:mo>,</m:mo></m:mrow></m:math></equation>
+para que
+<equation id="fs-id1167584699509" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:msub><m:mi>V</m:mi><m:mi>N</m:mi></m:msub><m:msup><m:mrow/><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:msub><m:mi>V</m:mi><m:mi>O</m:mi></m:msub><m:msup><m:mrow/><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item><emphasis effect="italics">Compresión isotérmica</emphasis>. El gas se pone en contacto térmico con un reservorio frío a temperatura <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> y comprimido isotérmicamente. Durante este proceso, el trabajo <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> se hace en el gas y da calor <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> al reservorio frío. El razonamiento utilizado en el paso 1 da como resultado
+<equation id="fs-id1167584706617" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>O</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> es el calor vertido al reservorio frío por el gas.</item>
+<item><emphasis effect="italics">Compresión adiabática</emphasis>. El gas se aísla térmicamente y vuelve a su estado inicial por compresión. En este proceso, el trabajo <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math> se hace en el gas. Como la compresión es adiabática, la temperatura del gas aumenta, de <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> en este caso concreto. El razonamiento del paso 2 da ahora
+<equation id="fs-id1167583655620" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:msup><m:mrow/><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:msub><m:mi>V</m:mi><m:mi>M</m:mi></m:msub><m:msup><m:mrow/><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+El trabajo total realizado por el gas en el ciclo de Carnot se da por
+<equation id="fs-id1167584895954" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>W</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>W</m:mi><m:mn>3</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>W</m:mi><m:mn>4</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167584997685">Este trabajo es igual al área que encierra el bucle que se muestra en el diagrama <emphasis effect="italics">pV</emphasis> de <link target-id="CNX_UPhysics_21_05_CarnotCycl"/>. Como los estados inicial y final del sistema son los mismos, el cambio de la energía interna del gas en el ciclo debe ser cero, es decir, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. La primera ley de la termodinámica da entonces</para>
+<equation id="fs-id1167584895425" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585015076">y</para>
+<equation id="fs-id1167585021369" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167583638736">Para calcular el rendimiento de este motor, primero dividimos <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>entre</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167583793377" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>O</m:mi></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow></m:mrow></m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>ln</m:mtext><m:msub><m:mi>V</m:mi><m:mi>N</m:mi></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>V</m:mi><m:mi>M</m:mi></m:msub></m:mrow></m:mrow></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585044591">Cuando la constante adiabática del paso 2 se divide entre la del paso 4, tenemos</para>
+<equation id="fs-id1167585127386" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>O</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>V</m:mi><m:mi>N</m:mi></m:msub></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mi>M</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167583654705">Sustituyendo esto en la ecuación de <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math> obtenemos</para>
+<equation id="fs-id1167585009651" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585020408">Finalmente, con la <link target-id="fs-id1167585928177" document="m90843"/>, tenemos que el rendimiento de esta máquina de Carnot de gas ideal se da por</para>
+<note id="fs-id1167583687785" class="equation-callout">
+<equation id="fs-id1167585009004"><label/><m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167584673103">Una máquina no tiene que seguir necesariamente un ciclo de máquina de Carnot. Sin embargo, todos los motores tienen el mismo efecto <emphasis effect="italics">neto</emphasis>, es decir, la absorción de calor de un depósito caliente, la producción de trabajo y el desecho de calor a un reservorio frío. Esto nos lleva a preguntarnos: ¿todos los ciclos reversibles que operan entre los mismos dos reservorios tienen el mismo rendimiento? La respuesta a esta pregunta proviene de la segunda ley de la termodinámica, de la que ya hemos hablado: <emphasis effect="italics">todos los ciclos de máquinas reversibles producen exactamente el mismo rendimiento</emphasis>. Además, como es de esperar, todas las máquinas reales que funcionan entre dos reservorios son menos eficientes que las máquinas reversibles que funcionan entre los mismos dos reservorios. Esto también es una consecuencia de la segunda ley de la termodinámica mostrada anteriormente.</para>
+<para id="fs-id1167585147144">El ciclo de un refrigerador Carnot de gas ideal se representa mediante el diagrama <emphasis effect="italics">pV</emphasis> de la <link target-id="CNX_UPhysics_21_05_CarnotFrig"/>. Se trata de una máquina de Carnot que funciona a la inversa. El refrigerador extrae el calor <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> de un reservorio de temperatura fría a <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> cuando el gas ideal se expande isotérmicamente. A continuación, el gas se comprime adiabáticamente hasta que su temperatura alcanza <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> tras lo cual una compresión isotérmica del gas resulta en calor <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> que se derecha a un reservorio de alta temperatura a <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Finalmente, el ciclo se completa con una expansión adiabática del gas, haciendo que su temperatura descienda a <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_21_05_CarnotFrig">
+<media id="fs-id1167584774727" alt="La primera parte de la figura muestra un gráfico para un ciclo del refrigerador de Carnot. El eje x es V y el eje y es p. La segunda parte muestra una flecha ascendente Q subíndice c en T subíndice c que se convierte en flecha Q subíndice h en T subíndice h después de añadir la flecha W desde la izquierda.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_05_CarnotFrig.jpg"/>
+</media>
+<caption>El trabajo realizado sobre el gas en un ciclo del refrigerador de Carnot se muestra y viene dado por el área encerrada por el bucle <emphasis effect="italics">MPONM</emphasis>.</caption>
+</figure>
+<para id="fs-id1167585012696">El trabajo realizado en el gas ideal es igual al área que encierra la trayectoria del diagrama <emphasis effect="italics">pV</emphasis>. A partir de la primera ley, este trabajo viene dado por</para>
+<equation id="fs-id1167584924312" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585016639">Un análisis como el realizado para la máquina de Carnot da</para>
+<equation id="fs-id1167584731465" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167584753194">Cuando se combina con la <link target-id="fs-id1167582858331" document="m90846"/>, se obtiene</para>
+<note id="fs-id1167583585110" class="equation-callout">
+<equation id="fs-id1167584992126"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167584756747">para el coeficiente de rendimiento del refrigerador de Carnot de gas ideal. Del mismo modo, podemos calcular el coeficiente de rendimiento de una bomba de calor de Carnot como</para>
+<note id="fs-id1167583866070" class="equation-callout">
+<equation id="fs-id1167583733401"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167584761106">Hemos hallado las ecuaciones que representan el rendimiento de una máquina de Carnot y el coeficiente de rendimiento de un refrigerador de Carnot o de una bomba de calor de Carnot, suponiendo un gas ideal como sustancia de trabajo en ambos dispositivos. Sin embargo, estas ecuaciones son más generales de lo que implican sus derivaciones. Pronto demostraremos que ambos son válidos independientemente de la sustancia de trabajo.</para>
+<para id="fs-id1167583725174">Carnot resumió su estudio de la máquina de Carnot y del ciclo de Carnot en lo que hoy se conoce como <term>principio de Carnot</term>:</para>
+<note id="fs-id1167584691710">
+<title>Principio de Carnot</title>
+<para id="fs-id1167585036926">Ninguna máquina que trabaje entre dos reservorios a temperatura constante puede tener un rendimiento mayor que una máquina reversible.</para>
+</note>
+<para id="fs-id1167583640060">Este principio puede considerarse como otro enunciado de la segunda ley de la termodinámica y puede demostrarse que es equivalente al enunciado de Kelvin y al de Clausius.</para>
+<example id="fs-id1167584705697">
+<para id="fs-id1167584746033"><title>La máquina de Carnot</title>
+Una máquina de Carnot tiene un rendimiento de 0,60 y la temperatura de su reservorio frío es de 300 K. (a) ¿Cuál es la temperatura del reservorio caliente? (b) Si la máquina realiza 300 J de trabajo por ciclo, ¿cuánto calor se extrae del reservorio de alta temperatura por ciclo? (c) ¿Cuánto calor se extrae al reservorio de baja temperatura por ciclo?</para>
+<para id="fs-id1167584649900"><title>Estrategia</title>
+A partir de la dependencia de la temperatura del rendimiento térmico de la máquina de Carnot podemos obtener la temperatura del reservorio caliente. Entonces, a partir de la definición del rendimiento, podemos calcular el calor eliminado cuando se da el trabajo que realiza el motor. Por último, la conservación de la energía llevará a la cantidad de calor que se debe verter al reservorio frío.</para>
+<para id="fs-id1167583696166"><title>Solución</title></para>
+<list id="fs-id1167584743655" list-type="enumerated" number-style="lower-alpha">
+<item>Desde <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:math> tenemos
+<equation id="fs-id1167584685144" class="unnumbered"><label/><m:math><m:mrow><m:mn>0,60</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+para que la temperatura del reservorio caliente sea
+<equation id="fs-id1167585013153" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0,60</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>750</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Por definición, el rendimiento del motor es <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mi>W</m:mi><m:mtext>/</m:mtext><m:mi>Q</m:mi></m:mrow></m:math>, de modo que el calor extraído del reservorio de alta temperatura por ciclo es
+<equation id="fs-id1167584058318" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>W</m:mi><m:mi>e</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>0,60</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>A partir de la primera ley, el calor que escapa al reservorio de baja temperatura por ciclo por el motor es
+<equation id="fs-id1167585089505" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>−</m:mo><m:mn>300</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167583642182"><title>Importancia</title>
+Una máquina de Carnot tiene el rendimiento máximo posible de conversión de calor en trabajo entre dos reservorios, pero esto no significa necesariamente que sea <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> eficiente. A medida que aumenta la diferencia de temperaturas entre el reservorio caliente y el frío aumenta el rendimiento de una máquina de Carnot.</para>
+</example>
+<example id="fs-id1167584999148">
+<para id="fs-id1167584739390"><title>Una bomba de calor de Carnot</title>
+Imaginemos que una bomba de calor de Carnot funciona entre una temperatura exterior de <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> y una temperatura interior de <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. ¿Cuál es el trabajo necesario si el calor suministrado al interior de la casa es de 30,0 kJ?</para>
+<para id="fs-id1167584735487"><title>Estrategia</title>
+Como se supone que la bomba de calor es una bomba de Carnot, su coeficiente de rendimiento viene dado por <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mtext>/</m:mtext><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Así, podemos calcular el trabajo <emphasis effect="italics">W</emphasis> a partir del calor entregado <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167584701741"><title>Solución</title>
+El trabajo necesario se obtiene de</para>
+<equation id="fs-id1167584720382" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>K</m:mi><m:mtext>P</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>293</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>−</m:mo><m:mn>273</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>/</m:mtext><m:mn>293</m:mn><m:mspace width="0.2em"/><m:mtext>K</m:mtext><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167583566784"><title>Importancia</title>
+Hay que tener en cuenta que este trabajo no solo depende del calor que se suministra a la casa, sino también de las temperaturas exteriores e interiores. La dependencia de la temperatura exterior hace que su uso sea poco práctico en zonas donde la temperatura exterior es mucho más fría que la temperatura ambiente.</para>
+</example>
+<para id="fs-id1167584698611">En términos de costos energéticos, la <term class="no-emphasis">bomba de calor</term> es un medio muy económico para calentar edificios (<link target-id="CNX_UPhysics_21_05_Heater"/>). Contrasta este método con la transformación de la energía eléctrica directamente en calor con elementos calefactores resistivos. En este caso, una unidad de energía eléctrica proporciona como máximo una unidad de calor. Por desgracia, las bombas de calor tienen problemas que limitan su utilidad. Su adquisición es bastante costosa en comparación con los elementos calefactores resistivos y, como muestra el coeficiente de rendimiento de una bomba de calor de Carnot, son menos eficaces a medida que disminuye la temperatura exterior. De hecho, por debajo de unos <m:math><m:mrow><m:mn>–10</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, el calor que proporcionan es menor que la energía se utiliza para su funcionamiento.</para>
+<figure id="CNX_UPhysics_21_05_Heater">
+<media id="fs-id1167583646832" alt="La foto muestra una bomba de calor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_05_Heater.jpg"/>
+</media>
+<caption>Fotografía de una bomba de calor (caja grande) situada en el exterior de una casa. Esta bomba de calor se ubica en una zona de clima cálido, como el sur de Estados Unidos, ya que sería demasiado ineficiente ubicada en la mitad norte de Estados Unidos (créditos: modificación de un trabajo de Peter Stevens).</caption>
+</figure>
+<note id="fs-id1167584766129" class="check-understanding">
+<exercise id="fs-id1167583654482">
+<problem id="fs-id1167584954580">
+<para id="fs-id1167583639570">Una máquina de Carnot funciona entre reservorios a <m:math><m:mrow><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. (a) ¿Cuál es el rendimiento de la máquina? (b) Si la máquina realiza 5,0 J de trabajo por ciclo, ¿cuánto calor por ciclo absorbe del reservorio de alta temperatura? (c) ¿Cuánto calor por ciclo escapa al reservorio de temperatura fría? (d) ¿Qué temperaturas en el reservorio frío darían el rendimiento mínimo y máximo?</para>
+</problem>
+<solution id="fs-id1167583759211">
+<para id="fs-id1167585044421">a. <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>0,55</m:mn></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mi>e</m:mi><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>9,1</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>4,1</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>; d. <m:math><m:mrow><m:mn>−273</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167583679398" class="check-understanding">
+<exercise id="fs-id1167584938396">
+<problem id="fs-id1167583679594">
+<para id="fs-id1167583710125">Un refrigerador de Carnot funciona entre dos reservorios de calor cuyas temperaturas son <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. (a) ¿Cuál es el coeficiente de rendimiento del refrigerador? (b) Si se realizan 200 J de trabajo sobre la sustancia activa por ciclo, ¿cuánto calor por ciclo se extrae del reservorio frío? (c) ¿Cuánto calor por ciclo se desecha al reservorio caliente?</para>
+</problem>
+<solution id="fs-id1167584655080">
+<para id="fs-id1167585089815">a. <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>10,9</m:mn></m:mrow></m:math>; b. <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mtext>R</m:mtext></m:msub><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>2,18</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext></m:mrow></m:math>; c. <m:math><m:mrow><m:msub><m:mi>Q</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>Q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>+</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>2,38</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1167584676127" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167583692410" list-type="bulleted" bullet-style="bullet">
+<item>El ciclo de Carnot es la máquina más eficiente para un ciclo reversible diseñado entre dos reservorios.</item>
+<item>El principio de Carnot es otra forma de enunciar la segunda ley de la termodinámica.</item>
+</list>
+</section>
+<section id="fs-id1167583653561" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1167584758931">
+<problem id="fs-id1167584759357">
+<para id="fs-id1167584624335">Para aumentar el rendimiento de una máquina de Carnot ¿se debe aumentar o disminuir la temperatura del reservorio caliente? ¿Y el reservorio frío?</para>
+</problem>
+<solution id="fs-id1167583594340">
+<para id="fs-id1167583681856">Para aumentar el rendimiento, hay que elevar la temperatura del reservorio caliente y bajar al máximo la del reservorio frío. Esto se puede ver en la <link target-id="fs-id1167582858331" document="m90846"/>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167583711805">
+<problem id="fs-id1167584623066">
+<para id="fs-id1167583639405">¿Cómo se podría diseñar una máquina de Carnot con el <m:math><m:mrow><m:mn>100</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> de rendimiento?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167584907322">
+<problem id="fs-id1167583737684">
+<para id="fs-id1167585040063">¿Qué tipo de procesos ocurren en un ciclo de Carnot?</para>
+</problem>
+<solution id="fs-id1167584761385">
+<para id="fs-id1167583600158">procesos adiabáticos e isotérmicos</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167583693142" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167584932603">
+<problem id="fs-id1167583522080">
+<para id="fs-id1167584667819">Las temperaturas de los reservorios frío y caliente entre los que funciona un refrigerador de Carnot son de <m:math><m:mrow><m:mn>−73</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>270</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>, respectivamente. ¿Cuál es su coeficiente de rendimiento?</para>
+</problem>
+<solution id="fs-id1167584971368">
+<para id="fs-id1167585147299">2,0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167585073388">
+<problem id="fs-id1167584937169">
+<para id="fs-id1167584988034">Supongamos que un refrigerador de Carnot funciona entre <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Calcule la cantidad de trabajo necesaria para extraer 1,0 J de calor del reservorio frío si (a) <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>7</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; (b) <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−73</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C;</m:mtext></m:mrow></m:math> (c) <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>-173</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>; y (d) <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>−273</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mtext>h</m:mtext></m:msub><m:mo>=</m:mo><m:mn>27</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167584756498">
+<problem id="fs-id1167583653645">
+<para id="fs-id1167584678659">Una máquina de Carnot funciona entre reservorios a 600 y 300 K. Si la máquina absorbe 100 J por ciclo en el reservorio caliente, ¿cuál es su producción de trabajo por ciclo?</para>
+</problem>
+<solution id="fs-id1167585059858">
+<para id="fs-id1167583814647">50 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167583510108">
+<problem id="fs-id1167584693621">
+<para id="fs-id1167584693545">Una máquina de 500 W hace funcionar un refrigerador de Carnot entre <m:math><m:mrow><m:mn>−5</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. (a) ¿Cuál es la cantidad de calor por segundo que se extrae del interior del refrigerador? (b) ¿Cuánto calor se expulsa al aire exterior por segundo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585181194">
+<problem id="fs-id1167585109806">
+<para id="fs-id1167583529587">Dibuje un ciclo de Carnot en un diagrama de temperatura-volumen.</para>
+</problem>
+<solution id="fs-id1167583684456">
+<para id="fs-id1167583569274"><newline/>
+<media id="fs-id1167583719027" alt="El gráfico muestra las curvas isotermas y adiabáticas para el ciclo de Carnot con cuatro puntos A, B, C y D. El eje x es V y el eje y es T. El valor de T en A y B es T subíndice 1 y en C y D es T subíndice 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_05_TempVolEnt_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167584771413">
+<problem id="fs-id1167585142413">
+<para id="fs-id1167585176566">Una bomba de calor de Carnot funciona entre <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. ¿Cuánto calor se escapa al interior de una casa por cada 1,0 J de trabajo que realiza la bomba?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167583627980">
+<problem id="fs-id1167581377722">
+<para id="fs-id1167584907924">Una máquina que funciona entre reservorios de calor a <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> extrae 1.000 J por ciclo del reservorio caliente. (a) ¿Cuál es el máximo trabajo posible que puede realizar la máquina por ciclo? (b) Para este trabajo máximo, ¿cuánto calor se expulsa al reservorio frío por ciclo?</para>
+</problem>
+<solution id="fs-id1167584727280">
+<para id="fs-id1167584855327">a. 381 J; b. 619 J</para></solution>
+</exercise>
+<exercise id="fs-id1167583568610">
+<problem id="fs-id1167583568594">
+<para id="fs-id1167584892396">Supongamos que una máquina de Carnot puede funcionar entre dos reservorios como máquina térmica o como refrigerador. ¿Cómo se relaciona el coeficiente de rendimiento del refrigerador con el rendimiento de la máquina térmica?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167584770428">
+<problem id="fs-id1167584653264">
+<para id="fs-id1167583689824">Una máquina de Carnot se utiliza para medir la temperatura de un reservorio de calor. La máquina funciona entre el reservorio de calor y un reservorio formado por agua en su punto triple. (a) Si se extraen 400 J por ciclo del reservorio de calor mientras se depositan 200 J por ciclo en el reservorio de punto triple, ¿cuál es la temperatura del reservorio de calor? (b) Si se extraen 400 J por ciclo del reservorio de punto triple mientras se depositan 200 J por ciclo del reservorio de calor, ¿cuál es la temperatura del reservorio de calor?</para>
+</problem>
+<solution id="fs-id1167584702992">
+<para id="fs-id1167583608254">a. 546 K; b. 137 K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167583834240">
+<problem id="fs-id1167583725318">
+<para id="fs-id1167584856487">¿Cuál es el trabajo mínimo que debe realizar un refrigerador si se quiere extraer 50 J por ciclo del interior de un congelador a <m:math><m:mrow><m:mn>−10</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> y el calor de escape al aire a <m:math><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167584633608">
+<term>ciclo de Carnot</term>
+<meaning id="fs-id1167585155193">ciclo que consiste en dos isotermas a las temperaturas de dos reservorios y dos procesos adiabáticos que conectan las isotermas</meaning>
+</definition>
+<definition id="fs-id1167585151238">
+<term>máquina de Carnot</term>
+<meaning id="fs-id1167584776555">máquina térmica, refrigerador o bomba de calor de Carnot que funciona con un ciclo de Carnot</meaning>
+</definition>
+<definition id="fs-id1167585104780">
+<term>principio de Carnot</term>
+<meaning id="fs-id1167584855837">principio que rige la eficiencia o el rendimiento de un dispositivo térmico que funciona en un ciclo de Carnot: todo dispositivo térmico reversible que funcione entre dos reservorios debe tener el mismo coeficiente de eficiencia o rendimiento, mayor que el de un dispositivo térmico irreversible que funcione entre los mismos dos reservorios</meaning>
+</definition>
+</glossary>
+
+</document>

@@ -1,0 +1,336 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Radiación de cuerpo negro</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91006</md:content-id>
+  <md:title>Radiación de cuerpo negro</md:title>
+  <md:abstract>Al final de esta sección podrá: <list>
+<item>Aplicar las leyes de Wien y Stefan para analizar la radiación emitida por un cuerpo negro</item>
+<item>Explicar la hipótesis de los cuantos de energía de Planck</item>
+</list></md:abstract>
+  <md:uuid>d5bb4c59-09e4-47a3-b51f-f00979561ae2</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1163713100225">Todos los cuerpos emiten radiaciones electromagnéticas en un rango de longitudes de onda. En un capítulo anterior, aprendimos que un cuerpo más frío radia menos energía que un cuerpo más caliente. También sabemos por observación que cuando un cuerpo se calienta y su temperatura aumenta, la longitud de onda percibida de su radiación emitida cambia de infrarrojo a rojo, y luego de rojo a naranja, y así sucesivamente. A medida que aumenta su temperatura, el cuerpo brilla con los colores correspondientes a longitudes de onda cada vez más pequeñas del espectro electromagnético. Este es el principio subyacente de la bombilla incandescente: Un filamento metálico caliente brilla de color rojo y, cuando se sigue calentando, su resplandor acaba cubriendo toda la parte visible del espectro electromagnético. La temperatura (<emphasis effect="italics">T</emphasis>) del objeto que emite la radiación, o del <term>emisor</term>, determina la longitud de onda a la que la energía radiada llega al máximo. Por ejemplo, el Sol, cuya temperatura superficial está en el rango entre 5000 K y 6000 K, radia con mayor intensidad en un rango de longitudes de onda de unos 560 nm en la parte visible del espectro electromagnético. El cuerpo, cuando está a su temperatura normal de unos 300 K, radia con mayor intensidad en la parte infrarroja del espectro.</para>
+<para id="fs-id1163713196421">La radiación que incide sobre un objeto es parcialmente absorbida y parcialmente reflejada. En equilibrio termodinámico, la velocidad con la que un objeto absorbe la radiación es la misma que la velocidad con la que la emite. Por lo tanto, un buen <term>absorbente</term> de radiación (cualquier objeto que absorba radiación) es también un buen emisor. Un absorbente perfecto absorbe toda la radiación electromagnética que incide sobre él; tal objeto se denomina <term>cuerpo negro</term>.</para>
+<para id="fs-id1163713254478">Aunque el cuerpo negro es una idealización, ya que ningún objeto físico absorbe el 100 % de la radiación incidente, podemos construir una realización cercana de un cuerpo negro en forma de un pequeño agujero en la pared de un recinto sellado conocido como radiador de cavidad, como se muestra en la <link target-id="CNX_UPhysics_39_01_blackbody"/>. Las paredes interiores de un radiador de cavidad son ásperas y están ennegrecidas, de modo que cualquier radiación que entre a través de un pequeño agujero en la pared de la cavidad queda atrapada dentro de ésta. En equilibrio termodinámico (a la temperatura <emphasis effect="italics">T</emphasis>), las paredes de la cavidad absorben exactamente la misma radiación que emiten. Además, en el interior de la cavidad, la radiación que entra en el agujero se equilibra con la que sale de él. El espectro de emisión de un cuerpo negro puede obtenerse analizando la luz que radia el agujero. Las ondas electromagnéticas emitidas por un cuerpo negro se denominan <term>radiación de cuerpo negro</term>.</para>
+<figure id="CNX_UPhysics_39_01_blackbody">
+<media id="fs-id1163713250222" alt="La imagen muestra la realización física de un cuerpo negro. Una onda electromagnética entra en una cavidad a través de un pequeño orificio en la pared y se refleja numerosas veces en ella.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_01_blackbody.jpg"/>
+</media>
+<caption>Un cuerpo negro se realiza físicamente mediante un pequeño agujero en la pared de un radiador de cavidad.</caption>
+</figure>
+<para id="fs-id1163713556646">La intensidad <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> de la radiación de cuerpo negro depende de la longitud de onda <m:math><m:mi>λ</m:mi></m:math> de la radiación emitida y en la temperatura <emphasis effect="italics">T</emphasis> de cuerpo negro (<link target-id="CNX_UPhysics_39_01_BBradcurve"/>). La función <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> es la <term>intensidad de potencia</term> que se radia por unidad de longitud de onda; en otras palabras, es la potencia que se irradia por unidad de superficie del orificio de un radiador de cavidad por unidad de longitud de onda. Según esta definición, <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>λ</m:mi></m:mrow></m:math> es la potencia por unidad de superficie que se emite en el intervalo de longitudes de onda de <m:math><m:mi>λ</m:mi></m:math> a <m:math><m:mrow><m:mi>λ</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>λ</m:mi><m:mo>.</m:mo></m:mrow></m:math> La distribución de la intensidad entre las longitudes de onda de la radiación emitida por las cavidades se estudió experimentalmente a finales del siglo XIX. Por lo general, la radiación emitida por los materiales solo sigue aproximadamente la curva de radiación de cuerpo negro (<link target-id="CNX_UPhysics_39_01_quartz"/>); sin embargo, los espectros de las estrellas comunes sí siguen la curva de radiación de cuerpo negro muy de cerca.</para>
+<figure id="CNX_UPhysics_39_01_BBradcurve">
+<media id="fs-id1163713331185" alt="Este gráfico muestra la variación de la intensidad de la radiación de cuerpo negro con las longitudes de onda expresadas en micrómetros. Se dibujan cinco curvas que corresponden a 2000 K, 3000 K, 4000 K y 5000 K. El máximo de la intensidad de la radiación se desplaza hacia el lado de la longitud de onda corta con el aumento de la temperatura. Está en el infrarrojo lejano para 2000 K, en el infrarrojo cercano para 3000 K, en la parte roja del espectro visible para 4000 K y en la parte verde del espectro visible para 5000 K.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_01_BBradcurve.jpg"/>
+</media>
+<caption>La intensidad de la radiación de cuerpo negro frente a la longitud de onda de la radiación emitida. Cada curva corresponde a una temperatura de cuerpo negro diferente, empezando por una temperatura baja (la curva más baja) hasta una temperatura alta (la curva más alta).</caption>
+</figure>
+<figure id="CNX_UPhysics_39_01_quartz">
+<media id="fs-id1163709713746" alt="El gráfico muestra la variación de la intensidad de la radiación con la longitud de onda para la radiación emitida desde una superficie de cuarzo y la radiación de cuerpo negro emitida a 600 K. Ambos espectros presentan un pico infrarrojo en torno a los 4 micrómetros. Sin embargo, mientras que la intensidad de la radiación de cuerpo negro disminuye gradualmente con la temperatura, la intensidad de la radiación emitida por la superficie de cuarzo disminuye mucho más rápido y luego muestra un segundo pico alrededor de 10 micrómetros.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_01_quartz.jpg"/>
+</media>
+<caption>El espectro de radiación emitido por una superficie de cuarzo (curva azul) y la curva de radiación de cuerpo negro (curva negra) a 600 K.</caption>
+</figure>
+<para id="fs-id1163713275775">Dos importantes leyes resumen los hallazgos experimentales de la radiación de cuerpo negro: <emphasis effect="italics">La ley de desplazamiento de Wien</emphasis> y <emphasis effect="italics">la ley de Stefan</emphasis>. La <term class="no-emphasis">ley de desplazamiento de Wien</term> se ilustra en la <link target-id="CNX_UPhysics_39_01_BBradcurve"/> mediante la curva que une los máximos de las curvas de intensidad. En estas curvas, vemos que cuanto más caliente está el cuerpo, más corta es la longitud de onda correspondiente al pico de emisión en la curva de radiación. Cuantitativamente, la ley de Wien dice</para>
+<note id="fs-id1163713411306" class="equation-callout">
+<equation id="fs-id1163713051452"><m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2,898</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163709821464">donde <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:math> es la posición del máximo en la curva de radiación. En otras palabras, <m:math><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:math> es la longitud de onda a la que un cuerpo negro radia con mayor intensidad a una temperatura <emphasis effect="italics">T</emphasis>. Observe que en la <link target-id="fs-id1163713051452"/>, la temperatura está en kelvins. La ley de desplazamiento de Wien nos permite estimar las temperaturas de las estrellas lejanas midiendo la longitud de onda de la radiación que emiten.</para>
+<example id="fs-id1163709709073">
+<para id="fs-id1172102104529"><title>Temperaturas de las estrellas lejanas</title>
+En una noche clara durante los meses de invierno, si usted se encuentra en el hemisferio norte y mira al cielo, podrá ver la constelación de Orión (El Cazador). Una estrella de esta constelación, <term class="no-emphasis">Rigel</term>, titila en color azul y otra estrella, <term class="no-emphasis">Betelgeuse</term>, tiene un color rojizo, como se muestra en la <link target-id="CNX_UPhysics_39_01_orion"/>. ¿Cuál de estas dos estrellas es más fría, Betelgeuse o Rigel?</para>
+<para id="fs-id1172099902931"><title>Estrategia</title>
+Consideremos cada estrella como un cuerpo negro. Entonces, según la ley de Wien, su temperatura es inversamente proporcional a la longitud de onda de su pico de intensidad. La longitud de onda <m:math><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(azul)</m:mtext></m:mrow></m:msubsup></m:mrow></m:math> de la luz azul es más corta que la longitud de onda <m:math><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(rojo)</m:mtext></m:mrow></m:msubsup></m:mrow></m:math> de luz roja. Aunque no conozcamos las longitudes de onda exactas, podemos establecer una proporción.</para>
+<para id="fs-id1172101729316"><title>Solución</title>
+Escribiendo la ley de Wien para la estrella azul y para la estrella roja, tenemos</para>
+<equation id="fs-id1163713052063"><m:math><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(rojo)</m:mtext></m:mrow></m:msubsup><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>(rojo)</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2,898</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext><m:mo>=</m:mo><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(azul)</m:mtext></m:mrow></m:msubsup><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>(azul)</m:mtext></m:mrow></m:msub></m:mrow></m:math></equation>
+<para id="fs-id1163713060017">Si se simplifica, la <link target-id="fs-id1163713052063"/> nos da</para>
+<equation id="fs-id1163713204864"><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>(rojo)</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(azul)</m:mtext></m:mrow></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>λ</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mrow><m:mtext>(rojo)</m:mtext></m:mrow></m:msubsup></m:mrow></m:mfrac><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>(azul)</m:mtext></m:mrow></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>(azul)</m:mtext></m:mrow></m:msub></m:mrow></m:math></equation>
+<para id="fs-id1163713277251">Por lo tanto, Betelgeuse es más fría que Rigel.</para>
+<para id="fs-id1172099689802"><title>Importancia</title>
+Observe que la ley de desplazamiento de Wien nos dice que mientras mayor es la temperatura de un cuerpo emisor, menor es la longitud de onda de la radiación que emite. El análisis cualitativo presentado en este ejemplo es generalmente válido para cualquier cuerpo emisor, ya sea un objeto grande como una estrella o un objeto pequeño como el filamento incandescente de una bombilla.</para>
+</example>
+<note id="fs-id1163713164357" class="check-understanding">
+<exercise id="fs-id1163713118929">
+<problem id="fs-id1163713199754">
+<para id="fs-id1163713537345">La llama de una vela con olor a melocotón tiene un color amarillento y la llama de un mechero Bunsen en un laboratorio de química tiene un color azulado. ¿Qué llama tiene una temperatura más alta?</para>
+</problem>
+<solution id="fs-id1163713183850">
+<para id="fs-id1163709766023">Mechero Bunsen</para>
+</solution>
+</exercise>
+</note>
+<figure id="CNX_UPhysics_39_01_orion"><media id="fs-id1163713061279" alt="La imagen de la izquierda es una fotografía de la constelación de Orión con la estrella roja en la esquina superior izquierda. La imagen de la derecha es un dibujo de la constelación de Orión representada como un antiguo guerrero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_01_orion.jpg"/>
+</media>
+
+<caption>En la constelación de Orión, la estrella roja Betelgeuse, que suele adquirir un tono amarillento, aparece como el hombro derecho de la figura (en la parte superior izquierda). La estrella azul gigante de la parte inferior derecha es Rigel, que aparece como el pie izquierdo del cazador (crédito en la izquierda: modificación del trabajo de Matthew Spinelli, Fotografía Astronómica Diaria [Astronomy Picture of the Day, APOD] de la NASA).</caption></figure><para id="fs-id1163713056682">La segunda relación experimental es la <term class="no-emphasis">ley de Stefan</term><emphasis effect="bold">,</emphasis> que se refiere a la potencia total de la radiación de cuerpo negro emitida en todo el espectro de longitudes de onda a una temperatura determinada. En la <link target-id="CNX_UPhysics_39_01_BBradcurve"/>, esta potencia total está representada por el área bajo la curva de radiación de cuerpo negro para una <emphasis effect="italics">T</emphasis> dada. A medida que la temperatura de un cuerpo negro aumenta, la potencia total emitida también aumenta. Cuantitativamente, la ley de Stefan expresa esta relación como</para>
+<note id="fs-id1163713135300" class="equation-callout">
+<equation id="fs-id1163713140501"><m:math><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>σ</m:mi><m:mi>A</m:mi><m:msup><m:mi>T</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713036273">donde <m:math><m:mi>A</m:mi></m:math> es la superficie de un cuerpo negro, <emphasis effect="italics">T</emphasis> es su temperatura (en kelvins), y <m:math><m:mi>σ</m:mi></m:math> es la <term>constante de Stefan-Boltzmann</term>, <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>5,670</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>W</m:mtext><m:mtext>/</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> La ley de Stefan nos permite estimar la cantidad de energía que radia una estrella midiendo a distancia su temperatura.</para>
+<example id="fs-id1163713353659">
+<para id="fs-id1172099883886"><title>La radiación de estelar de potencia</title>
+Una estrella como nuestro Sol acabará evolucionando hasta convertirse en una "gigante roja" y después en una "enana blanca". Una enana blanca típica tiene aproximadamente el tamaño de la Tierra, y su temperatura superficial es de aproximadamente <m:math><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>K</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Una gigante roja típica tiene una temperatura superficial de <m:math><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>K</m:mtext></m:mrow></m:math> y un radio ~100.000 veces mayor que el de una enana blanca. ¿Cuál es la potencia media radiada por unidad de superficie y la potencia total radiada por cada uno de estos tipos de estrellas? ¿Cómo se comparan?</para>
+<para id="fs-id1172102137157"><title>Estrategia</title>
+Si tratamos la estrella como un cuerpo negro, entonces, según la ley de Stefan, la potencia total que radia la estrella es proporcional a la cuarta potencia de su temperatura. Para encontrar la potencia radiada por unidad de superficie, no necesitamos hacer ninguna suposición sobre la forma de la estrella porque <emphasis effect="italics">P</emphasis>/<emphasis effect="italics">A</emphasis> solo depende de la temperatura. Sin embargo, para calcular la potencia total, debemos suponer que la energía se radia a través de una superficie esférica que rodea a la estrella, de modo que la superficie es <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> donde <emphasis effect="italics">R</emphasis> es su radio.</para>
+<para id="fs-id1172101880812"><title>Solución</title>
+Una simple proporción basada en la ley de Stefan da</para>
+<equation id="fs-id1163713194787"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow></m:msub><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>gigante</m:mtext></m:mrow></m:msub><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>gigante</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi><m:msubsup><m:mi>T</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow><m:mn>4</m:mn></m:msubsup></m:mrow><m:mrow><m:mi>σ</m:mi><m:msubsup><m:mi>T</m:mi><m:mrow><m:mtext>gigante</m:mtext></m:mrow><m:mn>4</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>gigante</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>4.820</m:mn></m:mrow></m:math></equation>
+<para id="fs-id1163709673998">La potencia emitida por unidad de superficie por una enana blanca es unas 5000 veces superior a la emitida por una gigante roja. Esta relación se denota por <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>4,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> La <link target-id="fs-id1163713194787"/> nos da</para>
+<equation id="fs-id1163713190509"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>gigante</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>a</m:mi><m:mfrac><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>gigante</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>a</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msubsup><m:mi>R</m:mi><m:mrow><m:mtext>gigante</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>gigante</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4,8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1163713147054">Vemos que la potencia total emitida por una enana blanca es una pequeña fracción de la potencia total emitida por una gigante roja. A pesar de su temperatura relativamente más baja, la potencia total radiada por una gigante roja supera con creces la de la enana blanca porque la gigante roja tiene una superficie mucho mayor. Para estimar el valor absoluto de la potencia emitida por unidad de superficie, volvemos a utilizar la ley de Stefan. Para la enana blanca, obtenemos</para>
+<equation id="fs-id1163713129478"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>σ</m:mi><m:msubsup><m:mi>T</m:mi><m:mrow><m:mtext>enana</m:mtext></m:mrow><m:mn>4</m:mn></m:msubsup><m:mo>=</m:mo><m:mn>5,670</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mfrac><m:mtext>W</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mtext>K</m:mtext><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mtext>K</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>2,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>W/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1163713130269">El resultado análogo para la gigante roja se obtiene escalando el resultado para una enana blanca:</para>
+<equation id="fs-id1163713061316"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>gigante</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>gigante</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2,2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>4,82</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mtext>W</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>4,56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mfrac><m:mtext>W</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>≅</m:mo><m:mn>4,6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mfrac><m:mtext>W</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1172101906453"><title>Importancia</title>
+Para estimar la potencia total emitida por una enana blanca, en principio, podríamos utilizar la <link target-id="fs-id1163713129478"/>. Sin embargo, para encontrar su superficie, necesitamos conocer el radio medio, que no se proporciona en este ejemplo. Por lo tanto, hasta aquí llega la solución. Lo mismo ocurre con la estrella gigante roja.</para>
+</example>
+<note id="fs-id1163713487777" class="check-understanding">
+<exercise id="fs-id1163713099323">
+<problem id="fs-id1163713190150">
+<para id="fs-id1163713131185">Se calienta un atizador de hierro. A medida que aumenta su temperatura, el atizador empieza a brillar, primero con un rojo apagado, luego con un rojo brillante, después naranja y finalmente amarillo. Utilice la curva de radiación de cuerpo negro o la ley de Wien para explicar estos cambios en el color del resplandor.</para>
+</problem>
+<solution id="fs-id1163713084393">
+<para id="fs-id1163713061559">La longitud de onda del máximo de radiación disminuye al aumentar la temperatura.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1163713197204" class="check-understanding">
+<exercise id="fs-id1163713289100">
+<problem id="fs-id1163713059258">
+<para id="fs-id1163713035941">Supongamos que dos estrellas, <m:math><m:mi>α</m:mi></m:math> y <m:math><m:mi>β</m:mi><m:mo>,</m:mo></m:math> radian exactamente la misma potencia total. Si el radio de la estrella <m:math><m:mi>α</m:mi></m:math> es tres veces mayor que la de la estrella <m:math><m:mi>β</m:mi><m:mo>,</m:mo></m:math> ¿cuál es la relación entre las temperaturas superficiales de estas estrellas? ¿Cuál es más caliente?</para>
+</problem>
+<solution id="fs-id1163713019593">
+<para id="fs-id1163709680514"><m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mi>α</m:mi></m:msub><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>T</m:mi><m:mi>β</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mrow><m:mo>≅</m:mo><m:mn>0,58</m:mn><m:mo>,</m:mo></m:mrow></m:math> así que la estrella <m:math><m:mi>β</m:mi></m:math> es más caliente.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1163709735939">El término "cuerpo negro" fue acuñado por Gustav R. Kirchhoff en 1862. La curva de radiación de cuerpo negro se conocía experimentalmente, pero su forma no encontró explicación física hasta el año 1900. El modelo físico de un cuerpo negro a temperatura <emphasis effect="italics">T</emphasis> es el de las ondas electromagnéticas encerradas en una cavidad (vea la <link target-id="CNX_UPhysics_39_01_blackbody"/>) y en equilibrio termodinámico con las paredes de la cavidad. Las ondas pueden intercambiar energía con las paredes. Nuestro objetivo es encontrar la distribución de la densidad de energía entre varios modos de vibración en varias longitudes de onda (o frecuencias). En otras palabras, queremos saber cuánta energía transporta una sola longitud de onda o una banda de longitudes de onda. Una vez que conozcamos la distribución de energía, podemos utilizar métodos estadísticos estándar (similares a los estudiados en un capítulo anterior) para obtener la curva de radiación de cuerpo negro, la ley de Stefan y la ley de desplazamiento de Wien. Cuando el modelo físico es correcto, las predicciones teóricas deberían coincidir con las curvas experimentales.</para>
+<para id="fs-id1163709714275">En una aproximación clásica al problema de la radiación de cuerpo negro, en la que la radiación se trata como ondas (como se ha estudiado en capítulos anteriores), los modos de las ondas electromagnéticas atrapadas en la cavidad están en equilibrio e intercambian continuamente sus energías con las paredes de la cavidad. No hay ninguna razón física para que una onda haga lo contrario: Se puede intercambiar cualquier cantidad de energía, ya sea que la onda la transfiera al material de la pared o que este se la transfiera a la onda. Esta imagen clásica es la base del modelo desarrollado por Lord Rayleigh e, independientemente, por Sir James Jeans. El resultado de este modelo clásico para las curvas de radiación de cuerpo negro se conoce como la <emphasis effect="italics">ley de Rayleigh-Jeans</emphasis>. Sin embargo, como se muestra en la <link target-id="CNX_UPhysics_39_01_rayleigh"/>, la <term class="no-emphasis">ley de Rayleigh-Jeans</term> no reproduce correctamente los resultados experimentales. En el límite de las longitudes de onda cortas, la ley de Rayleigh-Jeans predice una intensidad de radiación infinita, lo que no concuerda con los resultados experimentales en los que la intensidad de radiación tiene valores finitos en la región ultravioleta del espectro. Esta divergencia entre los resultados de la teoría clásica y los experimentos, que llegó a denominarse la <term class="no-emphasis"><emphasis effect="italics">catástrofe ultravioleta</emphasis></term> muestra cómo la física clásica no puede explicar el mecanismo de la radiación de cuerpo negro.</para>
+<figure id="CNX_UPhysics_39_01_rayleigh">
+<media id="fs-id1163713100463" alt="El gráfico muestra la variación de la intensidad de la radiación con la longitud de onda. Los datos experimentales representados como puntos rojos se disparan hacia arriba a una longitud de onda de algo menos de 1 micrómetro, subiendo a una intensidad máxima de alrededor de 2 - 3 micrómetros, para luego declinar en una curva hasta casi alcanzar una línea de base en 10. La línea de Rayleigh-Jeans se muestra junto a la línea de datos experimentales, y se representa primero entrando en el gráfico a una longitud de onda de 5 y curvándose hacia abajo hasta casi encontrarse con la línea experimental alrededor de 10.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_01_rayleigh.jpg"/>
+</media>
+<caption>La catástrofe ultravioleta: La ley de Rayleigh-Jeans no explica el espectro de emisión de cuerpo negro observado.</caption>
+</figure>
+<para id="fs-id1163713149978">El problema de la radiación de cuerpo negro fue resuelto en 1900 por Max <term class="no-emphasis">Planck</term>. Planck utilizó la misma idea que el modelo de Rayleigh-Jeans en el sentido de que trató las ondas electromagnéticas entre las paredes del interior de la cavidad de forma clásica, y asumió que la radiación está en equilibrio con las paredes de la cavidad. La idea innovadora que Planck introdujo en su modelo es la suposición de que la radiación de la cavidad se origina en las oscilaciones atómicas dentro de las paredes de la cavidad, y que estas oscilaciones solo pueden tener valores <emphasis effect="italics">discretos</emphasis> de energía. Por lo tanto, la radiación atrapada en las paredes de la cavidad puede intercambiar energía con las paredes solo en cantidades discretas. La hipótesis de Planck de los valores discretos de energía, que él llamó <emphasis effect="italics">cuantos</emphasis>, supone que los osciladores dentro de las paredes de la cavidad tienen <term>energías cuantizadas</term>. Esta era una idea totalmente nueva que iba más allá de la física clásica del siglo XIX porque, como se explicó en un capítulo anterior, en la imagen clásica la energía de un oscilador puede tomar cualquier valor continuo. Planck asumió que la energía de un oscilador (<m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math>) solo puede tener valores discretos, o cuantizados:</para>
+<note id="fs-id1163713413704" class="equation-callout">
+<equation id="fs-id1163713090546"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mtext>donde</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713188255">En la <link target-id="fs-id1163713090546"/>, <emphasis effect="italics">f</emphasis> es la frecuencia del oscilador de Planck. El número natural <emphasis effect="italics">n</emphasis> que enumera estas energías discretas se llama <term>número cuántico</term>. La constante física <emphasis effect="italics">h</emphasis> se denomina <term class="no-emphasis"><emphasis effect="italics">constante de Planck</emphasis></term>:</para>
+<note id="fs-id1163713284226" class="equation-callout">
+<equation id="fs-id1163713130653"><m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>6,626</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>4,136</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mtext>eV</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713098779">Cada valor discreto de energía corresponde a un <term>estado cuántico de un oscilador de Planck</term>. Los estados cuánticos se enumeran mediante números cuánticos. Por ejemplo, cuando el oscilador de Planck está en su primer estado cuántico <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, su energía es <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>;</m:mo></m:mrow></m:math> cuando está en el estado cuántico <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, su energía es <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>;</m:mo></m:mrow></m:math> cuando está en el estado cuántico <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>;</m:mo></m:mrow></m:math> y así sucesivamente.</para>
+<para id="fs-id1163713265480">Observe que la <link target-id="fs-id1163713090546"/> muestra que hay infinitos estados cuánticos, que pueden representarse como una secuencia {<emphasis effect="italics">hf</emphasis>, 2<emphasis effect="italics">hf</emphasis>, 3<emphasis effect="italics">hf</emphasis>,…, (<emphasis effect="italics">n</emphasis> – 1)<emphasis effect="italics">hf</emphasis>, <emphasis effect="italics">nhf</emphasis>, (<emphasis effect="italics">n</emphasis> + 1)<emphasis effect="italics">hf</emphasis>,…}. Cada dos estados cuánticos consecutivos de esta secuencia están separados por un salto de energía, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow></m:math> Un oscilador en la pared puede recibir energía de la radiación en la cavidad (absorción), o puede ceder energía a la radiación en la cavidad (emisión). El proceso de absorción envía el oscilador a un estado cuántico superior, y el proceso de emisión envía el oscilador a un estado cuántico inferior. Sea cual sea el camino de este intercambio de energía, la menor cantidad de energía que se puede intercambiar es <emphasis effect="italics">hf</emphasis>. No existe un límite superior para la cantidad de energía que se puede intercambiar, pero lo que se intercambie debe ser un múltiplo entero de <emphasis effect="italics">hf</emphasis>. Si el paquete de energía no tiene esta cantidad exacta, no se absorbe ni se emite en la pared del cuerpo negro.</para>
+<note id="fs-id1163709716872">
+<title>Hipótesis cuántica de Planck</title>
+<para id="fs-id1163713258401">La <term>hipótesis de los cuantos de energía de Planck</term> afirma que la cantidad de energía emitida por el oscilador es transportada por el cuanto de radiación, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1163713050889" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713195260">Recordemos que la frecuencia de la radiación electromagnética está relacionada con su longitud de onda y con la velocidad de la luz por la relación fundamental <m:math><m:mrow><m:mi>f</m:mi><m:mi>λ</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math> Esto significa que podemos expresar la <link target-id="fs-id1163713050889"/> de forma equivalente en términos de longitud de onda <m:math><m:mi>λ</m:mi><m:mo>.</m:mo></m:math> Cuando se incluye en el cálculo de la densidad de energía de un cuerpo negro, la hipótesis de Planck da la siguiente expresión teórica para la intensidad de potencia de la radiación emitida por unidad de longitud de onda:</para>
+<note id="fs-id1163713268422" class="equation-callout">
+<equation id="fs-id1163713084913"><m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>h</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>λ</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>λ</m:mi><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mi>T</m:mi></m:mrow></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713270095">donde <emphasis effect="italics">c</emphasis> es la velocidad de la luz en el vacío y <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math> es la constante de Boltzmann, <m:math><m:mrow><m:msub><m:mi>k</m:mi><m:mtext>B</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1,380</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−23</m:mn></m:mrow></m:msup><m:mtext>J/K</m:mtext><m:mo>.</m:mo></m:mrow></m:math> La fórmula teórica expresada en la <link target-id="fs-id1163713084913"/> se denomina <emphasis effect="italics">ley de radiación de cuerpo negro de Planck</emphasis>. Esta ley coincide con la curva experimental de radiación de cuerpo negro (vea la <link target-id="CNX_UPhysics_39_01_planck"/>). Además, la ley de desplazamiento de Wien y la ley de Stefan pueden derivarse de la <link target-id="fs-id1163713084913"/>. Para derivar la ley de desplazamiento de Wien, utilizamos el cálculo diferencial para encontrar el máximo de la curva de intensidad de la radiación <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Para derivar la ley de Stefan y encontrar el valor de la constante de Stefan-Boltzmann, utilizamos el cálculo integral e integramos <m:math><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">(</m:mo><m:mi>λ</m:mi><m:mo>,</m:mo><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> para encontrar la potencia total radiada por un cuerpo negro a una temperatura en todo el espectro de longitudes de onda desde <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> hasta <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mi>∞</m:mi><m:mo>.</m:mo></m:mrow></m:math> Esta derivación se deja como ejercicio más adelante en este capítulo.</para>
+<figure id="CNX_UPhysics_39_01_planck">
+<media id="fs-id1163713263072" alt="El gráfico muestra la variación de la intensidad de la radiación con la longitud de onda. Los datos experimentales, los puntos rojos, muestran el máximo alrededor de 2 - 3 micrómetros. El ajuste de Planck, la línea, coincide perfectamente con los datos experimentales.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_01_planck.jpg"/>
+</media>
+<caption>El resultado teórico de Planck (curva continua) y la curva experimental de radiación de cuerpo negro (puntos).</caption>
+</figure>
+<example id="fs-id1163709711887">
+<para id="fs-id1172102021510"><title>El oscilador cuántico de Planck</title>
+Un oscilador cuántico en la pared de la cavidad en la <link target-id="CNX_UPhysics_39_01_blackbody"/> está vibrando a una frecuencia de <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>Hz</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Calcule el espacio entre sus niveles de energía.</para>
+<para id="fs-id1172099505887"><title>Estrategia</title>
+Los estados energéticos de un oscilador cuántico vienen dados por la <link target-id="fs-id1163713090546"/>. El espacio energético <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi></m:mrow></m:math> se obtiene hallando la diferencia de energía entre dos estados cuánticos adyacentes para los números cuánticos <emphasis effect="italics">n</emphasis> + 1 y <emphasis effect="italics">n</emphasis>.</para>
+<para id="fs-id1172099764737"><title>Solución</title>
+Podemos sustituir la frecuencia dada y la constante de Planck directamente en la ecuación:</para>
+<equation id="fs-id1163709757530" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>n</m:mi><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6,626</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>Hz</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172101911712"><title>Importancia</title>
+Observe que no se especifica qué tipo de material se ha utilizado para construir la cavidad. Aquí, un oscilador cuántico es un modelo teórico de un átomo o molécula de material en la pared.</para>
+</example>
+<note id="fs-id1163713053706" class="check-understanding">
+<exercise id="fs-id1163713185506">
+<problem id="fs-id1163713430962">
+<para id="fs-id1163713321604">Una molécula vibra a una frecuencia de <m:math><m:mrow><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mtext>Hz</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿Cuál es el menor espacio entre sus niveles de energía vibracional?</para>
+</problem>
+<solution id="fs-id1163713010181">
+<para id="fs-id1163713204771"><m:math><m:mrow><m:mn>3,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1163713010543">
+<para id="fs-id1172099541262"><title>Teoría cuántica aplicada a un oscilador clásico</title>
+Una masa de 1,0 kg oscila en el extremo de un resorte con una constante de resorte de 1000 N/m. La amplitud de estas oscilaciones es de 0,10 m. Utilice el concepto de cuantización para encontrar el espacio de energía de este oscilador clásico. ¿La cuantización de la energía es significativa en los sistemas macroscópicos, como en este oscilador?</para>
+<para id="fs-id1172101919524"><title>Estrategia</title>
+Utilizamos la <link target-id="fs-id1163713130653"/> como si el sistema fuera un oscilador cuántico, pero con la frecuencia <emphasis effect="italics">f</emphasis> de la masa vibrando sobre un resorte. Para evaluar si la cuantización tiene o no un efecto significativo, comparamos el espacio de energía cuántica con la energía total macroscópica de este oscilador clásico.</para>
+<para id="fs-id1172101882454"><title>Solución</title>
+Para la constante del resorte, <m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>N/m</m:mtext><m:mo>,</m:mo></m:mrow></m:math> la frecuencia <emphasis effect="italics">f</emphasis> de la masa, <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1,0</m:mn><m:mtext>kg</m:mtext><m:mo>,</m:mo></m:mrow></m:math> es</para>
+<equation id="fs-id1163709660207" class="unnumbered"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>N/m</m:mtext></m:mrow><m:mrow><m:mn>1,0</m:mn><m:mtext>kg</m:mtext></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>≃</m:mo><m:mn>5,0</m:mn><m:mspace width="0.2em"/><m:mtext>Hz</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1163709646762">El cuanto de energía que corresponde a esta frecuencia es</para>
+<equation id="fs-id1163709646765" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6,626</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5,0</m:mn><m:mtext>Hz</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3,3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−33</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1163713458582">Cuando las vibraciones tienen una amplitud <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0,10</m:mn><m:mtext>m</m:mtext><m:mo>,</m:mo></m:mrow></m:math> la energía de las oscilaciones es</para>
+<equation id="fs-id1163713458597" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>k</m:mi><m:msup><m:mi>A</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1.000</m:mn><m:mtext>N/m</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,1</m:mn><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>5,0</m:mn><m:mtext>J</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172099626494"><title>Importancia</title>
+Así, para un oscilador clásico, tenemos <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>E</m:mi><m:mo>≈</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−34</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> Vemos que la separación de los niveles de energía es inconmensurablemente pequeña. Por lo tanto, a efectos prácticos, la energía de un oscilador clásico adopta valores continuos. Por ello, los principios clásicos pueden aplicarse a los sistemas macroscópicos que se encuentran en la vida cotidiana sin perder exactitud.</para>
+</example>
+<note id="fs-id1163709828314" class="check-understanding">
+<exercise id="fs-id1163709828317">
+<problem id="fs-id1163709828319">
+<para id="fs-id1163709676662">¿El resultado en la <link target-id="fs-id1163713010543"/> sería diferente si la masa no fuera de 1,0 kg sino una masa diminuta de 1,0 <emphasis effect="italics">µg,</emphasis>y la amplitud de las vibraciones fuera de 0,10 <emphasis effect="italics">µ</emphasis>m?</para>
+</problem>
+<solution id="fs-id1163709676682">
+<para id="fs-id1163709676684">No, porque entonces <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>E</m:mi><m:mo>≈</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−21</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1163709676710">Cuando Planck publicó por primera vez su resultado, la hipótesis de los cuantos de energía no fue tomada en serio por la comunidad física porque no se desprendía de ninguna teoría física establecida en aquel momento. Fue percibido, incluso por el propio Planck, como un útil truco matemático que conducía a un buen "ajuste" teórico a la curva experimental. Esta percepción cambió en 1905, cuando Einstein publicó su explicación del efecto fotoeléctrico, en la que dio al cuanto de energía de Planck un nuevo significado: el de partícula de luz.</para>
+<section id="fs-id1163709676722" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1163709676729" list-type="bulleted" bullet-style="bullet">
+<item>Todos los cuerpos radian energía. La cantidad de radiación que emite un cuerpo depende de su temperatura. La ley experimental de desplazamiento de Wien establece que cuanto más caliente está el cuerpo, más corta es la longitud de onda correspondiente al pico de emisión en la curva de radiación. La ley experimental de Stefan establece que la potencia total de la radiación emitida en todo el espectro de longitudes de onda a una temperatura determinada es proporcional a la cuarta potencia de la temperatura Kelvin del cuerpo radiante.</item>
+<item>La absorción y la emisión de la radiación se estudian dentro del modelo de un cuerpo negro. En el enfoque clásico, el intercambio de energía entre la radiación y las paredes de la cavidad es continuo. El enfoque clásico no explica la curva de radiación de cuerpo negro.</item>
+<item>Para explicar la curva de radiación de cuerpo negro, Planck supuso que el intercambio de energía entre la radiación y las paredes de la cavidad tiene lugar solo en cuantos discretos de energía. La hipótesis de cuantos de energía de Planck condujo a la ley teórica de la radiación de Planck, que coincide con la curva experimental de la radiación de cuerpo negro; también explica las leyes de Wien y de Stefan.</item>
+</list>
+</section>
+<section id="fs-id1163709819728" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1163709819734">
+<problem id="fs-id1163709819736">
+<para id="fs-id1163709819738">¿Qué superficie tiene mayor temperatura, la de una estrella amarilla o la de una estrella roja?</para>
+</problem>
+<solution id="fs-id1163709819744">
+<para id="fs-id1163709819746">la de una estrella amarilla</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709819752">
+<problem id="fs-id1163709819754">
+<para id="fs-id1163709819756">Describa lo que vería al observar un cuerpo cuya temperatura aumenta de 1000 K a 1.000.000 K.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709819769">
+<problem id="fs-id1163709819771">
+<para id="fs-id1163709819773">Explique los cambios de color en un cuerpo caliente al aumentar su temperatura.</para>
+</problem>
+<solution id="fs-id1163709819777">
+<para id="fs-id1163709819780">va del rojo al violeta pasando por el arcoíris de colores</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709819785">
+<problem id="fs-id1163709819787">
+<para id="fs-id1163709819789">Especule por qué la luz ultravioleta provoca quemaduras solares, mientras que la luz visible no lo hace.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709819801">
+<problem id="fs-id1163709819803">
+<para id="fs-id1163709819805">Los radiadores de dos cavidades están construidos con paredes de diferentes metales. A la misma temperatura, ¿en qué se diferenciarían sus espectros de radiación?</para>
+</problem>
+<solution id="fs-id1163709819811">
+<para id="fs-id1163709819813">no diferirían</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709819818">
+<problem id="fs-id1163709819820">
+<para id="fs-id1163709819822">Discuta por qué algunos cuerpos aparecen negros, otros rojos y otros blancos.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709827902">
+<problem id="fs-id1163709827904">
+<para id="fs-id1163709827907">Si todo radia energía electromagnética, ¿por qué no podemos ver objetos a temperatura ambiente en una habitación oscura?</para>
+</problem>
+<solution id="fs-id1163709827912">
+<para id="fs-id1163709827914">el ojo humano no ve la radiación IR</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709827919">
+<problem id="fs-id1163709827922">
+<para id="fs-id1163709827924">¿Cuánto aumenta la potencia radiada por un cuerpo negro cuando se triplica su temperatura (en K)?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1163709827936" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1163709827943">
+<problem id="fs-id1163709827945">
+<para id="fs-id1163709827947">Un calentador de 200 W emite una radiación de 1,5 µm. (a) ¿Qué valor del cuanto de energía emite? (b) Suponiendo que el calor específico de un cuerpo de 4,0 kg es <m:math><m:mrow><m:mn>0,83</m:mn><m:mrow><m:mrow><m:mtext>kcal</m:mtext></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math> ¿cuántos de estos fotones debe absorber el cuerpo para que su temperatura aumente en 2 K? (c) ¿Cuánto tiempo dura el proceso de calentamiento de (b), suponiendo que toda la radiación emitida por el calentador es absorbida por el cuerpo?</para>
+</problem>
+<solution id="fs-id1163709827977">
+<para id="fs-id1163709827980">a. 0,81 eV; b. <m:math><m:mrow><m:mn>2,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mo>;</m:mo></m:mrow></m:math> c. 2 min 20 seg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709830086">
+<problem id="fs-id1163709830088">
+<para id="fs-id1163709830090">Un generador de microondas de 900 W en un horno genera cuantos de energía de frecuencia 2560 MHz. (a) ¿Cuántos cuantos de energía emite por segundo? (b) ¿Cuántos cuantos de energía debe absorber un plato de pasta colocado en la cavidad de radiación para aumentar su temperatura en 45,0 K? Supongamos que el plato tiene una masa de 0,5 kg y que su calor específico es <m:math><m:mrow><m:mn>0,9</m:mn><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mtext>kcal</m:mtext></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mtext>K</m:mtext></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math> (c) Suponga que todos los cuantos de energía emitidos por el generador son absorbidos por el plato de pasta. ¿Cuánto tiempo hay que esperar hasta que el plato de (b) esté listo?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709830155">
+<problem id="fs-id1163709830157">
+<para id="fs-id1163709830160">(a) ¿Para qué temperatura el pico del espectro de radiación de cuerpo negro está a 400 nm? (b) Si la temperatura de un cuerpo negro es de 800 K, ¿a qué longitud de onda radia más energía?</para>
+</problem>
+<solution id="fs-id1163709830165">
+<para id="fs-id1163709830168">a. 7245 K; b. 3,62 μm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709830177">
+<problem id="fs-id1163709830179">
+<para id="fs-id1163709830181">Los elementos de tungsteno de las bombillas incandescentes funcionan a 3200 K. ¿A qué longitud de onda radia el filamento la máxima energía?</para></problem>
+</exercise>
+<exercise id="fs-id1163713537702">
+<problem id="fs-id1163713537704">
+<para id="fs-id1163713537706">El espacio interestelar está lleno de radiación de longitud de onda <m:math><m:mrow><m:mn>970</m:mn><m:mtext>μ</m:mtext><m:mtext>m.</m:mtext></m:mrow></m:math> Esta radiación se considera un remanente del "big bang". ¿Cuál es la temperatura del cuerpo negro correspondiente a esta radiación?</para>
+</problem>
+<solution id="fs-id1163713537717">
+<para id="fs-id1163713537720">alrededor de 3 K</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713537725">
+<problem id="fs-id1163713537727">
+<para id="fs-id1163713537729">La energía radiante del sol alcanza su máximo en una longitud de onda de unos 500,0 nm. ¿Cuál es la temperatura aproximada de la superficie del sol?</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1163709700583">
+<term>absorbente</term>
+<meaning id="fs-id1163713194408">cualquier objeto que absorba la radiación</meaning>
+</definition>
+<definition id="fs-id1163713181127">
+<term>cuerpo negro</term>
+<meaning id="fs-id1163713162382">absorbente / emisor perfecto</meaning>
+</definition>
+<definition id="fs-id1163713260316">
+<term>radiación de cuerpo negro</term>
+<meaning id="fs-id1163709827773">radiación emitida por un cuerpo negro</meaning>
+</definition>
+<definition id="fs-id1163713244844">
+<term>emisor</term>
+<meaning id="fs-id1163713254613">cualquier objeto que emita radiación</meaning>
+</definition>
+<definition id="fs-id1163713284371">
+<term>Hipótesis de los cuantos de energía de Planck</term>
+<meaning id="fs-id1163709749887">los intercambios de energía entre la radiación y las paredes tienen lugar solo en forma de cuantos de energía discretos</meaning>
+</definition>
+<definition id="fs-id1163713195295">
+<term>intensidad de potencia</term>
+<meaning id="fs-id1163713087536">energía que pasa por una unidad de superficie por unidad de tiempo</meaning>
+</definition>
+<definition id="fs-id1163713071482">
+<term>energías cuantizadas</term>
+<meaning id="fs-id1163713310319">energías discretas; no continuas</meaning>
+</definition>
+<definition id="fs-id1163713275667">
+<term>estado cuántico de un oscilador de Planck</term>
+<meaning id="fs-id1163713053248">cualquier modo de vibración del oscilador de Planck, enumerado por el número cuántico</meaning>
+</definition>
+<definition id="fs-id1163709682154">
+<term>Constante de Stefan-Boltzmann</term>
+<meaning id="fs-id1163709827755">constante física en la ley de Stefan</meaning>
+</definition>
+</glossary>
+</document>

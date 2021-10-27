@@ -1,0 +1,255 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Rapidez de onda en una cuerda estirada</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90706</md:content-id>
+  <md:title>Rapidez de onda en una cuerda estirada</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Determinar los factores que afectan la velocidad de una onda en una cuerda.</item>
+<item>Escribir una expresión matemática para la velocidad de una onda en una cuerda y generalizar estos conceptos para otros medios.</item>
+</list></md:abstract>
+  <md:uuid>7af83159-1c2c-4a02-91c6-8d95cc3a4aab</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165038202583">La velocidad de una onda depende de las características del medio. Por ejemplo, en el caso de una guitarra, las cuerdas vibran para producir el sonido. La velocidad de las ondas en las cuerdas y la longitud de onda determinan la frecuencia del sonido producido. Las cuerdas de una guitarra tienen un grosor diferente pero pueden estar hechas de un material similar. Tienen diferentes <emphasis effect="italics">densidades lineales</emphasis>, donde la densidad lineal se define como la masa por longitud,</para>
+<note id="fs-id1165037123454" class="equation-callout">
+<equation id="fs-id1165037265876"><label/><m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>masa de la cuerda</m:mtext></m:mrow><m:mrow><m:mtext>longitud de la cuerda</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165037178327">En este capítulo solo consideramos la cuerda con una densidad lineal constante. Si la densidad lineal es constante, entonces la masa <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> de un pequeño trozo de cuerda <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> es <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math> Por ejemplo, si la cuerda tiene una longitud de 2,00 m y una masa de 0,06 kg, entonces la densidad lineal es <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0,06</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,03</m:mn><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mtext>m</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Si se corta una sección de 1,00 mm de la cuerda, la masa de la longitud de 1,00 mm es <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,03</m:mn><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mtext>m</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>0,001</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math> La guitarra también tiene un método para cambiar la tensión de las cuerdas. La tensión de las cuerdas se ajusta girando unos husillos, llamados clavijas de afinación, alrededor de los cuales se enrollan las cuerdas. En el caso de la guitarra, la densidad lineal de la cuerda y su tensión determinan la velocidad de las ondas en la cuerda, y la frecuencia del sonido producido es proporcional a la rapidez de onda.</para>
+<section id="fs-id1165037074408">
+<title>Rapidez de onda en una cuerda bajo tensión</title>
+<para id="fs-id1165037178933">Para ver cómo la velocidad de una onda en una cuerda depende de la tensión y a la densidad lineal, considere un pulso enviado por una cuerda estirada (<link target-id="CNX_UPhysics_16_03_MassElem"/>). Cuando la cuerda estirada está en reposo en la posición de equilibrio, la tensión de la cuerda <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:math> es constante. Considere un pequeño elemento de la cuerda con una masa igual a <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math> El elemento de masa está en reposo y en equilibrio y la fuerza de tensión de cada lado del elemento de masa es igual y opuesta.</para>
+<figure id="CNX_UPhysics_16_03_MassElem">
+<media id="fs-id1165037202087" alt="La figura muestra una sección de una cuerda con una parte resaltada. La longitud de la porción resaltada está identificada como delta x. Dos flechas de esta porción señalan en direcciones opuestas a lo largo de la cuerda. Estos están identificados como F subíndice T. La parte resaltada está identificada como delta m igual a mu delta x.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_16_03_MassElem.jpg"/>
+</media>
+<caption>Elemento de masa de una cuerda que se mantiene estirada con una tensión <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:math>. El elemento de masa está en equilibrio estático, y la fuerza de tensión que actúa en cada lado del elemento de masa es igual en magnitud y opuesta en dirección.</caption>
+</figure>
+<para id="fs-id1165037163062">Si se puntea una cuerda bajo tensión, una onda transversal se mueve en la dirección <emphasis effect="italics">x</emphasis> positiva, como se muestra en la <link target-id="CNX_UPhysics_16_03_PulseStrg2"/>. El elemento de masa es pequeño, pero se ha ampliado en la figura para hacerlo visible. El elemento de masa pequeño oscila perpendicularmente al movimiento de la onda como consecuencia de la fuerza restauradora proporcionada por la cuerda y no se mueve en la dirección <emphasis effect="italics">x</emphasis>. La tensión <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:math> en la cuerda, que actúa en la dirección <emphasis effect="italics">x</emphasis> positiva y negativa, es aproximadamente constante y es independiente de la posición y el tiempo.</para>
+<figure id="CNX_UPhysics_16_03_PulseStrg2">
+<media id="fs-id1165036876476" alt="La figura muestra una onda de pulso. Se muestran dos flechas a lo largo de la pendiente ascendente de la onda, una que señala hacia arriba y a la derecha y la otra que señala hacia abajo y a la izquierda. Estas flechas, identificadas como F, hacen ángulos theta 2 y theta 1 respectivamente con">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_16_03_PulseStrg2.jpg"/>
+</media>
+<caption>Una cuerda bajo tensión se puntea, y provoca un pulso que se desplaza a lo largo de la cuerda en la dirección <emphasis effect="italics">x</emphasis> positiva.</caption>
+</figure>
+<para id="fs-id1165037179484">Suponga que la inclinación de la cuerda desplazada con respecto al eje horizontal es pequeña. La fuerza neta sobre el elemento de la cuerda, que actúa en paralelo a esta, es la suma de la tensión en la cuerda y la fuerza restauradora. Los componentes <emphasis effect="italics">x</emphasis> de la fuerza de tensión se cancelan, por lo que la fuerza neta es igual a la suma de los componentes <emphasis effect="italics">y</emphasis> de la fuerza. La magnitud del componente <emphasis effect="italics">x</emphasis> de la fuerza es igual a la fuerza horizontal de tensión de la cuerda <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:math> como se muestra en la <link target-id="CNX_UPhysics_16_03_PulseStrg2"/>. Para obtener el componente <emphasis effect="italics">y</emphasis> de la fuerza, hay que tener en cuenta que <m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>–</m:mtext><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:math> y <m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> La <m:math><m:mrow><m:mtext>tan</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> es igual a la pendiente de una función en un punto, lo cual es igual a la derivada parcial de <emphasis effect="italics">y</emphasis> con respecto a <emphasis effect="italics">x</emphasis> en ese punto. Por lo tanto, <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:math> es igual a la pendiente negativa de la cuerda en <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:mfrac></m:mrow></m:math> es igual a la pendiente de la cuerda en <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1165037218226" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>–</m:mtext><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:msub><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165037861037">La fuerza neta sobre el elemento de masa pequeño se puede escribir como</para>
+<equation id="fs-id1165038306936" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>neta</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub><m:mrow><m:mo>[</m:mo><m:mrow><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub><m:mo>–</m:mo><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:msub></m:mrow><m:mo>]</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1165037169110">De acuerdo con la segunda ley de Newton, la fuerza neta es igual a la masa por la aceleración. La densidad lineal de la cuerda <m:math><m:mi>μ</m:mi></m:math> es la masa por longitud de la cuerda, y la masa de la porción de cuerda es <m:math><m:mrow><m:mi>μ</m:mi><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math>,</para>
+<equation id="fs-id1165037155405" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub><m:mrow><m:mo>[</m:mo><m:mrow><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub><m:mo>–</m:mo><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:msub></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mi>a</m:mi><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub><m:mrow><m:mo>[</m:mo><m:mrow><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub><m:mo>–</m:mo><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:msub></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mi>μ</m:mi><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1165037024252">Al dividir entre <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> y tomar el límite como <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:math> se acerca a cero,</para>
+<equation id="fs-id1165038364368" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub><m:mo>–</m:mo><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:msub></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>μ</m:mi><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:munder><m:mfrac><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub><m:mo>–</m:mo><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:msub></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>μ</m:mi><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>μ</m:mi><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1165038010761">Recuerde que la ecuación lineal de onda es</para>
+<equation id="fs-id1165038375023" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038014863">Por lo tanto,</para>
+<equation id="fs-id1165038243526" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>μ</m:mi><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165037899775">Al resolver para <emphasis effect="italics">v</emphasis>, vemos que la velocidad de la onda en una cuerda depende de la tensión y de la densidad lineal.</para>
+<note id="fs-id1165037981369">
+<title>Velocidad de una onda en una cuerda bajo tensión</title>
+<para id="fs-id1165038398228">La velocidad de un pulso u onda en una cuerda bajo tensión se puede calcular con la ecuación</para>
+<equation id="fs-id1165036872778"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>v</m:mi><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></equation>
+<para id="fs-id1165036895715">donde <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow></m:math> es la tensión de la cuerda y <m:math><m:mi>μ</m:mi></m:math> es la masa por longitud de la cuerda.</para>
+</note>
+<example id="fs-id1165037028550">
+<para id="fs-id1165037018028"><title>Rapidez de onda de un resorte de guitarra</title>
+En una guitarra de seis cuerdas, la cuerda mi aguda tiene una densidad lineal de <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>mi aguda</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3,09</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow></m:math> y la cuerda mi grave tiene una densidad lineal de <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>mi grave</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>5,78</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) Si se puntea la cuerda mi aguda, lo que produce una onda en la cuerda, ¿cuál es la rapidez de la onda si la tensión de la cuerda es de 56,40 N? (b) La densidad lineal de la cuerda mi grave es, aproximadamente, 20 veces mayor que la de la cuerda mi aguda. Para que las ondas se desplacen a través de la cuerda de la mi grave a la misma rapidez de onda que la de la mi aguda, ¿la tensión tendría que ser mayor o menor que la de la cuerda de la mi aguda? ¿Cuál sería la tensión aproximada? (c) Calcule la tensión de la cuerda mi grave necesaria para la misma rapidez de onda.</para>
+<para id="fs-id1165038384332"><title>Estrategia</title></para>
+<list id="fs-id1165038170029" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>La rapidez de la onda se puede calcular a partir de la densidad lineal y la tensión <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>A partir de la ecuación <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> si la densidad lineal se incrementa en un factor de casi 20, la tensión tendría que incrementarse en un factor de 20.</item>
+<item>Conociendo la velocidad y la densidad lineal, se puede resolver la ecuación de velocidad para la fuerza de tensión <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mi>μ</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+<para id="fs-id1165038024664"><title>Solución</title></para>
+<list id="fs-id1165037844453" list-type="enumerated" number-style="lower-alpha">
+<item>Use la ecuación de velocidad para calcular la rapidez:
+<equation id="fs-id1165037048122" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub></m:mrow><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>56,40</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mn>3,09</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>427,23</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>La tensión tendría que ser aumentada por un factor de 20 aproximadamente. La tensión sería ligeramente inferior a 1.128 N.</item>
+<item>Use la ecuación de velocidad para calcular la tensión real:
+<equation id="fs-id1165036884212" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mi>μ</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>5,78</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mrow><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>427,23</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1055,00</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+Esta solución está dentro del <m:math><m:mrow><m:mn>7</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> de la aproximación.</item>
+</list>
+<para id="fs-id1165037150331"><title>Importancia</title>
+Las notas estándar de las seis cuerdas (mi aguda, si, sol, se, la, mi grave) están afinadas para vibrar en las frecuencias fundamentales (329,63 Hz, 246,94 Hz, 196,00 Hz, 146,83 Hz, 110,00 Hz y 82,41 Hz) cuando se puntean. Las frecuencias dependen de la rapidez de las ondas en la cuerda y de la longitud de onda de las ondas. Las seis cuerdas tienen diferentes densidades lineales y se “afinan” mediante el cambio de tensiones de las cuerdas. En la sección <link document="m90708">Interferencia de ondas</link> veremos que la longitud de onda depende de la longitud de las cuerdas y de las condiciones de frontera. Para tocar otras notas que no sean las fundamentales, las longitudes de las cuerdas se cambian cuando se presionan las cuerdas.</para>
+</example>
+<note id="fs-id1165037215450" class="check-understanding">
+<exercise id="fs-id1165038204193">
+<problem id="fs-id1165038053478">
+<para id="fs-id1165037264939"> La rapidez de onda de una onda en una cuerda depende de la tensión y de la densidad lineal de masa. Si se duplica la tensión, ¿qué ocurre con la rapidez de las ondas en la cuerda?</para>
+</problem>
+<solution id="fs-id1165038278014">
+<para id="fs-id1165036899496">Dado que la rapidez de una onda en una cuerda tensada es proporcional a la raíz cuadrada de la tensión dividida entre la densidad lineal, la rapidez de onda aumentaría por <m:math><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1165037151077">
+<title>Rapidez de las ondas de compresión en un fluido</title>
+<para id="fs-id1165036842514">La rapidez de una onda en una cuerda depende de la raíz cuadrada de la tensión dividida entre la masa por longitud, la densidad lineal. En general, la rapidez de una onda a través de un medio depende de las propiedades elásticas y de la propiedad inercial del medio.</para>
+<equation id="fs-id1165038376026" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>v</m:mi><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mtext>propiedades elásticas</m:mtext></m:mrow><m:mrow><m:mtext>propiedad inercial</m:mtext></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></equation>
+<para id="fs-id1165038030506">Las propiedades elásticas describen la tendencia de las partículas del medio a volver a su posición inicial cuando se alteran. La propiedad inercial describe la tendencia de la partícula a resistir cambios de velocidad.</para>
+<para id="fs-id1165036784667">La rapidez de una onda longitudinal a través de un líquido o un gas depende de la densidad del fluido y de su módulo de compresibilidad,</para>
+<note id="fs-id1165037265838" class="equation-callout">
+<equation id="fs-id1165036847082"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mi>Β</m:mi><m:mi>ρ</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165037160474">Aquí el módulo de compresibilidad se define como <m:math><m:mrow><m:mi>Β</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>P</m:mi></m:mrow><m:mrow><m:mfrac bevelled="true"><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>P</m:mi></m:mrow></m:math> es el cambio de presión, el denominador es la relación entre el cambio de volumen y el volumen inicial y <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>≡</m:mo><m:mfrac><m:mi>m</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow></m:math> es la masa por unidad de volumen. Por ejemplo, el sonido es una onda mecánica que se desplaza a través de un fluido o de un sólido. La velocidad del sonido en el aire con una presión atmosférica de <m:math><m:mrow><m:mn>1,013</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math> y una temperatura de <m:math><m:mrow><m:mn>20</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> es <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>≈</m:mo><m:mn>343,00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Como la densidad depende de la temperatura, la velocidad del sonido en el aire depende de la temperatura del aire. Esto se analizará en detalle en la sección <link document="m90726">Sonido</link>.</para>
+</section>
+<section id="fs-id1165037906586" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1165036762836" list-type="bulleted" bullet-style="bullet">
+<item>La velocidad de una onda en una cuerda depende de la densidad lineal de la cuerda y de su a tensión. La densidad lineal es la masa por unidad de longitud de la cuerda.</item>
+<item>En general, la velocidad de una onda depende de la raíz cuadrada de la relación entre las propiedades elásticas y la propiedad inercial del medio.</item>
+<item>La rapidez de una onda a través de un fluido es igual a la raíz cuadrada de la relación entre el módulo de compresibilidad del fluido y su densidad.</item>
+<item>La velocidad del sonido a través del aire en <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mtext> °</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> es, aproximadamente, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mn>343,00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+<section id="fs-id1165038355770" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1165037200328">
+<problem id="fs-id1165037208675">
+<para id="fs-id1165037092873">Si la tensión de una cuerda se multiplicara por cuatro, ¿en qué factor aumentaría la rapidez de onda de una onda en la cuerda?</para>
+</problem>
+<solution id="fs-id1165037268140">
+<para id="fs-id1165038232620">La rapidez de onda es proporcional a la raíz cuadrada de la tensión, por lo que la velocidad se duplica.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038363881">
+<problem id="fs-id1165036976324">
+<para id="fs-id1165038335132">¿Se mueve más rápido una onda sonora en agua de mar o en agua dulce si tanto el agua de mar como el agua dulce están a la misma temperatura y la onda sonora se mueve cerca de la superficie? <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>ρ</m:mi><m:mtext>w</m:mtext></m:msub><m:mo>≈</m:mo><m:mn>1.000</m:mn><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:msub><m:mi>ρ</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>≈</m:mo><m:mn>1.030</m:mn><m:mfrac><m:mrow><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:msub><m:mi>B</m:mi><m:mtext>w</m:mtext></m:msub><m:mo>=</m:mo><m:mn>2,15</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>B</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mn>2,34</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>)</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037047495">
+<problem id="fs-id1165038040808">
+<para id="fs-id1165036851824">Las guitarras tienen cuerdas de diferente densidad lineal de masa. Si la cuerda de menor densidad y la de mayor densidad están a la misma tensión, ¿qué cuerda soportaría ondas con mayor rapidez de onda?</para>
+</problem>
+<solution id="fs-id1165038041832">
+<para id="fs-id1165036771408">Como la velocidad de una onda en una cuerda es inversamente proporcional a la raíz cuadrada de la densidad lineal de masa, la velocidad sería mayor en la densidad lineal de masa baja de la cuerda.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038308633">
+<problem id="fs-id1165036893068">
+<para id="fs-id1165037903963">A continuación se muestran tres ondas que se enviaron por una cuerda en diferentes tiempos. La tensión de la cuerda permanece constante. (a) Ordene las ondas de menor a mayor longitud de onda. (b) Ordene las ondas de menor a mayor frecuencia.</para>
+<media id="fs-id1165037007256" alt="La figura muestra tres ondas identificadas como A, B y C en el mismo gráfico. Todas tienen sus posiciones de equilibrio en el eje x. La onda A tiene una amplitud de 4 unidades. Tiene crestas en x = 1,5 y x = 7,5. La onda B tiene una amplitud de 3 unidades. Tiene una cresta en x = 2 y una depresión en x = 6. La onda C tiene una amplitud de 2 unidades. Tiene crestas en x = 1 y x = 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_16_03_concept4_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165038359957">
+<problem id="fs-id1165038304424">
+<para id="fs-id1165038024034">A veces, se oye el zumbido de las líneas eléctricas conectadas por dos postes cuando el viento las hace oscilar. La rapidez de las ondas en las líneas eléctricas depende de la tensión. ¿Qué proporciona la tensión en las líneas eléctricas?</para>
+</problem>
+<solution id="fs-id1165038011720">
+<para id="fs-id1165038040173">La tensión en el cable se debe al peso del cable eléctrico.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038381996">
+<problem id="fs-id1165036972849">
+<para id="fs-id1165038303354">Se empalman dos cuerdas, una con baja densidad de masa y otra con alta densidad lineal. El extremo de mayor densidad se ata a un poste de laboratorio y un estudiante sostiene el extremo libre de la cuerda de baja densidad de masa. El estudiante da una vuelta a la cuerda y envía un pulso por las cuerdas. Si la tensión es la misma en ambas cuerdas, ¿el pulso se desplaza a la misma velocidad de la onda en ambas cuerdas? Si no es así, ¿dónde se desplaza más rápido, en la cuerda de baja densidad o en la de alta densidad?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165038051297" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1165038042319">
+<problem id="fs-id1165037170312">
+<para id="fs-id1165036785074">Las ondas transversales se envían a lo largo de una cuerda de 5,00 m de longitud con una velocidad de 30,00 m/s. La cuerda está bajo una tensión de 10,00 N. ¿Cuál es la masa de la cuerda?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038340395">
+<problem id="fs-id1165038052094">
+<para id="fs-id1165037078750">Un cable de cobre tiene una densidad de <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>8.920</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> un radio de 1,20 mm y una longitud <emphasis effect="italics">L</emphasis>. El cable se mantiene con una tensión de 10,00 N. Se envían ondas transversales a través del cable. (a) ¿Cuál es la densidad lineal de masa del cable? (b) ¿Cuál es la rapidez de las ondas a través del cable?</para>
+</problem>
+<solution id="fs-id1165038308833">
+<para id="fs-id1165038323365">a. <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0,040</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m;</m:mtext></m:mrow></m:math> b. <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>15,75</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037982647">
+<problem id="fs-id1165037924764">
+<para id="fs-id1165037954784">Una cuerda de piano tiene una densidad lineal de masa de <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>4,95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext><m:mo>.</m:mo></m:mrow></m:math> ¿A qué tensión se debe someter la cuerda para producir ondas con una rapidez de onda de 500,00 m/s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036850783">
+<problem id="fs-id1165037159822">
+<para id="fs-id1165038003627">Una cuerda con una densidad lineal de masa de <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0,0060</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow></m:math> está atada al techo. Se ata una masa de 20 kg al extremo libre de la cuerda. La cuerda se puntea, lo que envía un pulso a través de esta. Estime la velocidad del pulso a medida que se desplaza por la cuerda.</para>
+</problem>
+<solution id="fs-id1165037050239">
+<para id="fs-id1165037872932"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>180</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037882706">
+<problem id="fs-id1165036750131">
+<para id="fs-id1165037857365">Una cuerda tiene una densidad lineal de masa de <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0,0075</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow></m:math> y una longitud de tres metros. La cuerda se puntea y el pulso tarda 0,20 s en llegar hasta el final. ¿Cuál es la tensión de la cuerda?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038036832">
+<problem id="fs-id1165037165216">
+<para id="fs-id1165037047853">Una cuerda tiene una longitud de 3,00 m y una masa de 5,00 g. La cuerda se mantiene estirada con una tensión de 500,00 N aplicada a la cuerda. Se envía un pulso por la cuerda. ¿Cuánto tarda el pulso en recorrer los 3,00 m de la cuerda?</para>
+</problem>
+<solution id="fs-id1165037202160">
+<para id="fs-id1165037199926"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>547,723</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>5,48</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037885509">
+<problem id="fs-id1165037901027">
+<para id="fs-id1165037170145">Dos cuerdas están atadas a postes, pero la primera cuerda es el doble de larga que la segunda. Si ambas cuerdas tienen las mismas tensión y mu, ¿cuál es la relación entre la velocidad del pulso de la onda de la primera cuerda y de la segunda?</para></problem>
+</exercise>
+<exercise id="fs-id1165038046577">
+<problem id="fs-id1165038202236">
+<para id="fs-id1165037986015">Dos cuerdas están atadas a postes, pero la primera cuerda tiene el doble de densidad lineal de masa mu que la segunda. Si ambas cuerdas tienen la misma tensión, ¿cuál es la relación entre la velocidad del pulso de la onda de la primera cuerda y de la segunda?</para></problem>
+<solution id="fs-id1165037203500">
+<para id="fs-id1165036875990">0,707</para></solution>
+</exercise>
+<exercise id="fs-id1165037012980">
+<problem id="fs-id1165037027209">
+<para id="fs-id1165037185497">Las ondas transversales recorren una cuerda cuya tensión es igual a 7,00 N con una velocidad de 20,00 m/s. ¿Qué tensión sería necesaria para una rapidez de onda de 25,00 m/s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037261233">
+<problem id="fs-id1165037261308">
+<para id="fs-id1165037261332">Dos cuerdas están atadas entre dos postes separados por una distancia de 2,00 m como se muestra a continuación, ambas con la misma tensión de 600,00 N. La cuerda 1 tiene una densidad lineal de <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,0025</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow></m:math> y la cuerda 2 tiene una densidad lineal de masa de <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,0035</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Los pulsos de ondas transversales se generan simultáneamente en los extremos opuestos de las cuerdas. ¿Cuánto tiempo pasa antes de que los pulsos se crucen entre sí?</para>
+<media id="fs-id1165036986139" alt="La figura muestra dos cuerdas atadas entre dos postes. Una onda se propaga de izquierda a derecha en la cuerda superior con velocidad v subíndice w1. Una onda se propaga de derecha a izquierda en la cuerda inferior con velocidad v subíndice w2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_16_03_Prob16_3_2_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165038395405">
+<para id="fs-id1165037019591"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1,69</m:mn><m:mspace width="0.2em"/><m:mtext>ms</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036762981">
+<problem id="fs-id1165037201354">
+<para id="fs-id1165038017221">Dos cuerdas están atadas entre dos postes separados por una distancia de 2,00 metros como se muestra en la figura anterior, ambas cuerdas tienen una densidad lineal de <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,0025</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext><m:mo>,</m:mo></m:mrow></m:math> la tensión en la cuerda 1 es de 600,00 N y en la cuerda 2 es de 700,00 N. Los pulsos de onda transversal se generan simultáneamente en los extremos opuestos de las cuerdas. ¿Cuánto tiempo pasa antes de que los pulsos se crucen entre sí?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037222053">
+<problem id="fs-id1165037170617">
+<para id="fs-id1165037226860">La nota <m:math><m:mrow><m:msub><m:mi>mi</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math> se toca en un piano y tiene una frecuencia de <m:math><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>393,88</m:mn><m:mo>.</m:mo></m:mrow></m:math> Si la densidad lineal de masa de esta cuerda del piano es <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0,012</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow></m:math> y la cuerda está sometida a una tensión de 1.000,00 N, ¿cuál es la velocidad de la onda en la cuerda y su longitud de onda?</para>
+</problem>
+<solution id="fs-id1165037159751">
+<para id="fs-id1165037217548"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>288,68</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>0,73</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037000082">
+<problem id="fs-id1165037178568">
+<para id="fs-id1165037161681">Dos ondas transversales se desplazan a través de una cuerda estirada. La velocidad de cada onda es <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>30,00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> A continuación se muestra un trazado de la posición vertical como una función de la posición horizontal para el tiempo <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0,00</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) ¿Cuál es la longitud de onda de cada una de las ondas? (b) ¿Cuál es la frecuencia de cada una de las ondas? (c) ¿Cuál es la velocidad vertical máxima de cada cuerda?</para>
+<media id="fs-id1165037092975" alt="En un gráfico se muestran dos ondas transversales. La primera está identificada como y1 paréntesis x, t. Su valor y varía de –3 m a 3 m. Tiene crestas en x iguales a 5 m y a 15 m. La segunda onda está identificada como y2 paréntesis x, t. Su valor y varía de –2 a 2. Tiene crestas en x iguales a 3 m, a 9 m y a 15 m.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_16_03_Prob16_3_19_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165037227068">
+<problem id="fs-id1165037045421">
+<para id="fs-id1165036984974">Una onda sinusoidal se desplaza por una cuerda estirada y horizontal con una densidad lineal de masa de <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0,060</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow></m:math>. La velocidad vertical máxima de la onda es <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>máx.</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0,30</m:mn><m:mspace width="0.2em"/><m:mtext>cm/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> La onda se modela con la ecuación de onda <m:math><m:mrow><m:mi>y</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>x</m:mi><m:mo>–</m:mo><m:mn>24,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> (a) ¿Cuál es la amplitud de la onda? (b) ¿Cuál es la tensión de la cuerda?</para>
+</problem>
+<solution id="fs-id1165038336774">
+<para id="fs-id1165037233697">a. <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>0,0125</m:mn><m:mspace width="0.2em"/><m:mtext>cm;</m:mtext></m:mrow></m:math> b. <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mn>0,96</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036826746">
+<problem id="fs-id1165037075914">
+<para id="fs-id1165037048435">La rapidez de una onda transversal en una cuerda es <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>60,00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> y la tensión en la cuerda es <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mn>100,00</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>. ¿Cuál debe ser la tensión para aumentar la rapidez de la onda a <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>120,00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s?</m:mtext></m:mrow></m:math></para>
+</problem>
+</exercise>
+</section>
+ </content>
+</document>

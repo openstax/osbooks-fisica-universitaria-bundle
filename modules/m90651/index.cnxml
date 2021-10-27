@@ -1,0 +1,335 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Conservación de la energía</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90651</md:content-id>
+  <md:title>Conservación de la energía</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Formular el principio de conservación de la energía mecánica, con o sin la presencia de fuerzas no conservativas.</item>
+<item>Utilizar la conservación de la energía mecánica para calcular diversas propiedades de sistemas sencillos.</item>
+</list></md:abstract>
+  <md:uuid>adcb8985-6139-494c-ac11-7fbba80a0098</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165037986027">En esta sección, explicamos y ampliamos el resultado que derivamos en <link document="m90649">Energía potencial de un sistema</link>, donde reescribimos el teorema de trabajo-energía en términos del cambio en las energías cinética y potencial de una partícula. Esto nos llevará a analizar el importante principio de la conservación de la energía mecánica. A medida que continúe examinando otros temas de la física, en capítulos posteriores de este libro, verá cómo esta ley de conservación se generaliza para abarcar otros tipos de energía y transferencias de energía. La última sección de este capítulo ofrece un avance.</para>
+<para id="fs-id1165036730634">Los términos "cantidad conservada" y "ley de conservación" tienen significados específicos y científicos en física, que son diferentes de los significados cotidianos, que se asocian a estas palabras. (El mismo comentario es válido para los usos científicos y cotidianos de la palabra "trabajo"). En el uso cotidiano, se puede conservar el agua al no usarla, al usar menos cantidad o al reutilizarla. El agua está compuesta por moléculas formadas por dos átomos de hidrógeno y uno de oxígeno. Si se juntan estos átomos para formar una molécula, se crea el agua; si se disocian los átomos de dicha molécula, se destruye el agua. Sin embargo, en el uso científico, una <term>cantidad conservada</term> para un sistema permanece constante, cambia en una cantidad definida que se transfiere a otros sistemas o se convierte en otras formas de esa cantidad. Una cantidad conservada, en el sentido científico, puede transformarse, pero no crearse ni destruirse en el sentido estricto de la palabra. Así, no existe ninguna ley física de conservación del agua.</para>
+<section id="fs-id1165038218173">
+<title>Sistemas con una sola partícula u objeto</title>
+<para id="fs-id1165038158548">Primero consideramos un sistema con una sola partícula u objeto. De vuelta a nuestro desarrollo de la <link document="m90649" target-id="fs-id1165039502050"/>, recordemos que primero separamos todas las fuerzas que actúan sobre una partícula en tipos conservativas y no conservativas, y escribimos el trabajo realizado por cada tipo de fuerza como un término separado en el teorema de trabajo-energía. Entonces sustituimos el trabajo realizado por las fuerzas conservativas por el cambio en la energía potencial de la partícula y lo combinamos con el cambio en la energía cinética de la partícula para obtener la <link document="m90649" target-id="fs-id1165039502050"/>. Ahora, escribimos esta ecuación sin el paso intermedio y definimos la suma de las energías cinética y potencial, <m:math><m:mrow><m:mi>K</m:mi><m:mo>+</m:mo><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mo>;</m:mo></m:mrow></m:math> a ser la <term>energía mecánica</term> de la partícula.</para>
+<note id="fs-id1165038199608">
+<title>Conservación de la energía</title>
+<para id="fs-id1165037156176">La energía mecánica <emphasis effect="italics">E</emphasis> de una partícula permanece constante, a menos que fuerzas externas al sistema o fuerzas no conservativas realicen un trabajo sobre ella, en cuyo caso, el cambio en la energía mecánica es igual al trabajo realizado por las fuerzas no conservativas:</para>
+<equation id="fs-id1165036887138"><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>nc</m:mtext><m:mo>,</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>K</m:mi><m:mo>+</m:mo><m:mi>U</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165037052216">Esta afirmación expresa el concepto de <term>conservación de energía</term> para una partícula clásica mientras no haya trabajo no conservativo. Recordemos que una partícula clásica es solo una masa puntual, no es relativista y obedece a las leyes del movimiento de Newton. En <link document="m58555">Relatividad</link>, veremos que la conservación de la energía sigue aplicándose a una partícula no clásica. Sin embargo, para ello tenemos que hacer un ligero ajuste en la definición de energía.</para>
+<para id="fs-id1165038222056">A veces es conveniente separar el caso en el que el trabajo realizado por las fuerzas no conservativas es cero, ya sea porque se supone que no hay tales fuerzas presentes, o, como la fuerza normal, realizan un trabajo cero cuando el movimiento es paralelo a la superficie. Entonces</para>
+<note id="fs-id1165038273745" class="equation-callout">
+<equation id="fs-id1165036994785"><label/><m:math><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>nc</m:mtext><m:mo>,</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>K</m:mi><m:mo>+</m:mo><m:mi>U</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165036788158">En este caso, la conservación de la energía mecánica puede expresarse como sigue: La energía mecánica de una partícula no cambia si todas las fuerzas no conservativas que pueden actuar sobre ella no realizan ningún trabajo. Lo importante es comprender el concepto de conservación de energía, no la ecuación concreta que se utilice para expresarla.</para>
+<note id="fs-id1165036842273" class="problem-solving">
+<title>Conservación de la energía</title>
+<list id="fs-id1165037072224" list-type="enumerated" number-style="arabic">
+<item>Identifique el organismo o los organismos que se van a estudiar (el sistema). A menudo, en las aplicaciones del principio de conservación de energía mecánica, estudiamos más de un cuerpo al mismo tiempo.</item>
+<item>Identifique todas las fuerzas que actúan sobre el cuerpo o los cuerpos.</item>
+<item>Determine si cada fuerza que realiza un trabajo es conservativa. Si una fuerza no conservativa (por ejemplo, la fricción) realiza un trabajo, la energía mecánica no se conserva. Luego, el sistema deberá analizarse con trabajo no conservativo, la <link target-id="fs-id1165036994785"/>.</item>
+<item>Para cada fuerza que realice un trabajo, elija un punto de referencia y determine la función de energía potencial para la fuerza. Los puntos de referencia de las distintas energías potenciales no tienen por qué estar en el mismo lugar.</item>
+<item>Aplique el principio de conservación de energía mecánica al establecer la suma de las energías cinética y potencial iguales en cada punto de interés.</item>
+</list>
+</note>
+<example id="fs-id1165037169045">
+<para id="fs-id1165037226505"><title>Péndulo simple</title>
+Una partícula de masa <emphasis effect="italics">m</emphasis> cuelga desde el techo con una cuerda sin masa de 1,0 m de longitud, como se muestra en la <link target-id="CNX_UPhysics_08_03_SimpPend"/>. La partícula se libera del reposo, cuando el ángulo entre la cuerda y la dirección vertical descendente es de <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°.</m:mtext></m:mrow></m:math> ¿Cuál es su rapidez cuando alcanza el punto más bajo de su arco?</para>
+<figure id="CNX_UPhysics_08_03_SimpPend">
+<media id="fs-id1165037878024" alt="La figura ilustra un péndulo que consiste en una bola que cuelga de una cuerda. La cuerda mide un metro y la bola tiene una masa m. Se muestra en la posición en la que la cuerda forma un ángulo de treinta grados con la vertical. En este lugar, la bola está a una altura h por encima de su altura mínima. El arco circular de la trayectoria de la bola se indica con una curva discontinua.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_03_SimpPend.jpg"/>
+</media>
+<caption>Una partícula colgada de una cuerda constituye un péndulo simple. Se muestra cuando se libera del reposo, junto con algunas distancias que se utilizan en el análisis del movimiento.</caption>
+</figure>
+<para id="fs-id1165037982015"><title>Estrategia</title>
+Al utilizar nuestra estrategia de resolución de problemas, el primer paso es definir que estamos interesados en el sistema partícula-Tierra. En segundo lugar, sobre la partícula solo actúa la fuerza gravitacional, que es conservativa (paso 3). Ignoramos la resistencia del aire en el problema, y la tensión de la cuerda, que es perpendicular al arco del movimiento, no realiza ningún trabajo. Por lo tanto, la energía mecánica del sistema se conserva, como se representa en la <link target-id="fs-id1165036994785"/>, <m:math><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>K</m:mi><m:mo>+</m:mo><m:mi>U</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Como la partícula parte del reposo, el aumento de la energía cinética es solo la energía cinética en el punto más bajo. Este aumento de la energía cinética es igual a la disminución de la energía potencial gravitacional, que podemos calcular a partir de la geometría. En el paso 4, elegimos como punto de referencia para la energía potencial gravitacional cero el punto vertical más bajo que alcanza la partícula, que es la mitad de la oscilación. Por último, en el paso 5, establecemos la suma de energías en el punto más alto (inicial) de la oscilación hasta el punto más bajo (final) de la oscilación para resolver finalmente la rapidez final.</para>
+<para id="fs-id1165038044109"><title>Solución</title>
+Estamos ignorando las fuerzas no conservativas, por lo que escribimos la fórmula de conservación de energía que relaciona la partícula en el punto más alto (inicial) y el punto más bajo de la oscilación (final) como</para>
+<equation id="fs-id1165038052468" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165037998590">Dado que la partícula se libera del reposo, la energía cinética inicial es cero. En el punto más bajo, definimos que la energía potencial gravitacional es cero. Por lo tanto, nuestra fórmula de conservación de la energía se reduce a</para>
+<equation id="fs-id1165037949145" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>h</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>v</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>2</m:mn><m:mi>g</m:mi><m:mi>h</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1165037156881">La altura vertical de la partícula no se da directamente en el problema. Esto puede resolverse con la trigonometría y dos datos: la longitud del péndulo y el ángulo por el que la partícula se hala verticalmente. Observando el diagrama, la línea vertical discontinua es la longitud de la cuerda del péndulo. La altura vertical se denomina <emphasis effect="italics">h</emphasis>. La otra longitud parcial de la cuerda vertical se puede calcular con trigonometría. Esa parte se resuelve por</para>
+<equation id="fs-id1165037948166" class="unnumbered"><label/><m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mtext>/</m:mtext><m:mi>L</m:mi><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165037149020">Por lo tanto, si observamos las dos partes de la cuerda, podemos resolver la altura <emphasis effect="italics">h</emphasis>,</para>
+<equation id="fs-id1165036982642" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>L</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>L</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>L</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>h</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>L</m:mi><m:mo>-</m:mo><m:mi>L</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1165038243389">Sustituimos esta altura en la expresión anterior resuelta para la rapidez con el fin de calcular nuestro resultado:</para>
+<equation id="fs-id1165037093134" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mi>g</m:mi><m:mi>L</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>-</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9,8</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>-</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>1,62</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165037943060"><title>Importancia</title>
+Hallamos la rapidez directamente a partir de la conservación de la energía mecánica, sin tener que resolver la ecuación diferencial para el movimiento de un péndulo (vea <link document="m90696">Oscilaciones</link>). Podemos abordar este problema en términos de <term class="no-emphasis">gráficos de barras de energía total</term>. Inicialmente, la partícula tiene toda la energía potencial, al estar en el punto más alto, y ninguna energía cinética. Cuando la partícula cruza el punto más bajo de la parte inferior de la oscilación, la energía pasa de la columna de energía potencial a la columna de energía cinética. Por lo tanto, podemos imaginar una progresión de esta transferencia a medida que la partícula se mueve entre su punto más alto, el punto más bajo de la oscilación, y de vuelta al punto más alto (<link target-id="CNX_UPhysics_08_03_EnergyBars"/>). A medida que la partícula se desplaza desde el punto más bajo de la oscilación hasta el punto más alto en el extremo derecho del diagrama, las barras de energía van en orden inverso de (c) a (b) a (a).</para>
+<figure id="CNX_UPhysics_08_03_EnergyBars">
+<media id="fs-id1165038341146" alt="Se muestran gráficos de barras que representan la energía total (E), la energía potencial (U) y la energía cinética (K) de la partícula en diferentes posiciones. En la figura (a), la energía total del sistema es igual a la energía potencial y la energía cinética es cero. En la figura (b), las energías cinética y potencial son iguales, y los gráficos de barras de energía cinética más energía potencial son iguales a la energía total. En la figura (c) el gráfico de barras de la energía cinética es igual a la energía total del sistema y la energía potencial es cero. La barra de energía total tiene la misma altura en los tres gráficos.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_03_EnergyBars.jpg"/>
+</media>
+<caption>Gráficos de barras que representan la energía total (<emphasis effect="italics">E</emphasis>), la energía potencial (<emphasis effect="italics">U</emphasis>) y la energía cinética (<emphasis effect="italics">K</emphasis>) de la partícula en diferentes posiciones. (a) La energía total del sistema es igual a la energía potencial y la energía cinética es cero, que se encuentra en el punto más alto que alcanza la partícula. (b) La partícula se encuentra a medio camino entre el punto más alto y el más bajo, por lo que los gráficos de barras de energía cinética más energía potencial son iguales a la energía total. (c) La partícula se encuentra en el punto más bajo de la oscilación, por lo que el gráfico de barras de energía cinética es el más alto e igual a la energía total del sistema.</caption>
+</figure>
+</example>
+<note id="fs-id1165038299460" class="check-understanding">
+<exercise id="fs-id1165037011360">
+<problem id="fs-id1165037166280">
+<para id="fs-id1165036988481">¿A qué altura sobre la parte inferior de su arco se encuentra la partícula en el péndulo simple de arriba, cuando su rapidez es <m:math><m:mrow><m:mn>0,81</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1165036877134">
+<para id="fs-id1165038233117"><m:math><m:mrow><m:mn>0,033</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1165037984959">
+<para id="fs-id1165038033630"><title>Resistencia del aire en un objeto que cae</title>
+Un helicóptero sobrevuela a una altitud de <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math> cuando un panel de su parte inferior se desprende y cae al suelo (<link target-id="CNX_UPhysics_08_03_Helicopter"/>). La masa del panel es <m:math><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y golpea el suelo a una rapidez de <m:math><m:mrow><m:mn>45</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:math>. ¿Cuánta energía mecánica se disipó por la resistencia del aire durante el descenso del panel?</para>
+<figure id="CNX_UPhysics_08_03_Helicopter">
+<media id="fs-id1165037987067" alt="Una ilustración de un helicóptero y un panel a una distancia no especificada por debajo de este, donde se alcanza la velocidad límite. El panel comienza su caída desde el helicóptero. Se muestran gráficos de barras para el panel al inicio de su caída y una vez que ha alcanzado la velocidad límite. Al principio, la energía potencial U es igual a la energía total E, y la energía cinética es cero. Una vez que el panel alcanza la velocidad límite, la energía cinética ya no es cero, la energía potencial ha disminuido, y la energía total sigue siendo la suma de las energías cinética y potencial, pero este total también ha disminuido.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_03_Helicopter.jpg"/>
+</media>
+<caption>Un helicóptero pierde un panel que cae hasta alcanzar una velocidad límite de 45 m/s. ¿En qué medida contribuyó la resistencia del aire a la disipación de energía en este problema?</caption>
+</figure>
+<para id="fs-id1165037979619"><title>Estrategia</title>
+Paso 1: Aquí solo se investiga un cuerpo.</para>
+<para id="fs-id1165038011720">Paso 2: Sobre el panel actúa la fuerza gravitacional y la resistencia del aire, que se indica en el problema.</para>
+<para id="fs-id1165037850085">Paso 3: La fuerza gravitacional es conservativa; sin embargo, la fuerza no conservativa de la resistencia del aire realiza un trabajo negativo sobre el panel que cae, por lo que podemos utilizar la conservación de la energía mecánica, en la forma expresada por la <link target-id="fs-id1165036887138"/>, para hallar la energía disipada. Esta energía es la magnitud del trabajo:</para>
+<equation id="fs-id1165037162761" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>disipada</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>nc, if</m:mtext></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>K</m:mi><m:mo>+</m:mo><m:mi>U</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>if</m:mtext></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165036736047">Paso 4: La energía cinética inicial, en <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>,</m:mo></m:mrow></m:math> es cero. Por comodidad, fijamos la energía potencial gravitacional en cero a nivel del suelo.</para>
+<para id="fs-id1165038037942">Paso 5: El trabajo no conservativo se establece igual a las energías para resolver el trabajo disipado por la resistencia del aire.</para>
+<para id="fs-id1165038337649"><title>Solución</title>
+La energía mecánica disipada por la resistencia del aire es la suma algebraica de la ganancia de energía cinética y la pérdida de energía potencial. Por lo tanto, el cálculo de esta energía es</para>
+<equation id="fs-id1165037941675" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>disipada</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>K</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>-</m:mo><m:msub><m:mi>U</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>45</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9,8</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.000</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>130</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1165038343550"><title>Importancia</title>
+La mayor parte de la energía mecánica inicial del panel <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>U</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, 147 kJ, se perdió por la resistencia del aire. Observe que hemos podido calcular la energía disipada sin saber cuál era la fuerza de resistencia del aire, únicamente que era disipativa.</para>
+</example>
+<note id="fs-id1165037178265" class="check-understanding">
+<exercise id="fs-id1165038308408">
+<problem id="fs-id1165038033406">
+<para id="fs-id1165038337917">Probablemente recuerde que, al descartar la resistencia del aire, si lanza un proyectil directamente hacia arriba, el tiempo que tarda en alcanzar su altura máxima es igual al tiempo que tarda en caer desde la altura máxima hasta la altura inicial. Supongamos que no se puede descartar la resistencia del aire, como en el <link target-id="fs-id1165037984959"/>. ¿Es el tiempo que el proyectil tarda en subir (a) mayor, (b) menor o (c) igual al tiempo que tarda en bajar? Explique.</para>
+</problem>
+<solution id="fs-id1165036750131">
+<para id="fs-id1165036741498">b. A cualquier altura, la energía potencial gravitacional es la misma subiendo o bajando, pero la energía cinética es menor bajando que subiendo, ya que la resistencia del aire es disipativa y realiza un trabajo negativo. Por lo tanto, a cualquier altura, la velocidad de bajada es menor que la de subida, por lo que debe tardar más tiempo en bajar que en subir.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165037093957">En estos ejemplos, hemos podido utilizar la conservación de la energía para calcular la rapidez de una partícula justo en determinados puntos de su movimiento. Sin embargo, el método de análisis del movimiento de las partículas, partiendo de la conservación de energía, es más poderoso que eso. Los tratamientos más avanzados de la teoría de la mecánica permiten calcular la dependencia a tiempo completo del movimiento de una partícula, para una energía potencial dada. De hecho, a menudo se da el caso de que un mejor modelo para el movimiento de la partícula lo proporciona la forma de sus energías cinética y potencial, en lugar de una ecuación para la fuerza que actúa sobre esta. (Esto es especialmente cierto para la descripción mecánica cuántica de partículas como los electrones o los átomos).</para>
+<para id="fs-id1165037860970">Podemos ilustrar algunas de las características más simples de este enfoque basado en la energía, al considerar una partícula en movimiento unidimensional, con energía potencial <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">x</emphasis>) y sin interacciones no conservativas presentes. La <link target-id="fs-id1165036887138"/> y la definición de velocidad requieren</para>
+<equation id="fs-id1165037941141" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>K</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>E</m:mi><m:mo>-</m:mo><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>v</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>E</m:mi><m:mo>-</m:mo><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1165038197515">Separe las variables <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">t</emphasis> e integre, a partir de un tiempo inicial <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> a un tiempo arbitrario, para obtener</para>
+<equation id="fs-id1165037899384"><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:munderover><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>x</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>E</m:mi><m:mo>-</m:mo><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1165037893816">Si puedes hacer la integral en la <link target-id="fs-id1165037899384"/>, entonces puedes resolver <emphasis effect="italics">x</emphasis> en función de <emphasis effect="italics">t</emphasis>.</para>
+<example id="fs-id1165037186948">
+<para id="fs-id1165036992566"><title>Aceleración constante</title>
+Utilice la energía potencial <m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> para <m:math><m:mrow><m:mi>E</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> en la <link target-id="fs-id1165037899384"/> para hallar la posición <emphasis effect="italics">x</emphasis> de una partícula como función del tiempo <emphasis effect="italics">t</emphasis>.</para>
+<para id="fs-id1165037052535"><title>Estrategia</title>
+Ya que sabemos cómo cambia la energía potencial como función de <emphasis effect="italics">x</emphasis>, podemos sustituir por <m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> en la <link target-id="fs-id1165037899384"/>, integre, y luego resuelva para <emphasis effect="italics">x</emphasis>. Se obtiene una expresión de <emphasis effect="italics">x</emphasis> como función del tiempo con las constantes de energía <emphasis effect="italics">E</emphasis>, masa <emphasis effect="italics">m</emphasis> y posición inicial <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1165038307810"><title>Solución</title>
+Siguiendo los dos primeros pasos sugeridos en la estrategia anterior,</para>
+<equation id="fs-id1165038166159" class="unnumbered"><label/><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>x</m:mi></m:munderover><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>E</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>E</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt></m:mrow></m:mfrac><m:msubsup><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−2</m:mn><m:msqrt><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>x</m:mi></m:msubsup><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msqrt><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt></m:mrow><m:mrow><m:msqrt><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>E</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038009945">Resolviendo para la posición, obtenemos <m:math><m:mrow><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>E</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+<para id="fs-id1165038015234"><title>Importancia</title>
+La posición en función del tiempo, para este potencial, representa un movimiento unidimensional con aceleración constante, <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>E</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> partiendo de la posición de reposo <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Esto no es tan sorprendente, ya que se trata de una energía potencial para una fuerza constante, <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mi>d</m:mi><m:mi>U</m:mi><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</example>
+<note id="fs-id1165038132704" class="check-understanding">
+<exercise id="fs-id1165038339785">
+<problem id="fs-id1165037221352">
+<para id="fs-id1165038369392">¿Qué energía potencial <m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> puede sustituir en la <link target-id="fs-id1165036994785"/> que resultará en un movimiento con velocidad constante de 2 m/s para una partícula de 1 kg de masa y 1 J de energía mecánica?</para>
+</problem>
+<solution id="fs-id1165037977079">
+<para id="fs-id1165037928554">constante <m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−1</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165038010329">Veremos otro ejemplo más apropiado físicamente del uso de la <link target-id="fs-id1165036994785"/> después de que hayamos explorado algunas implicaciones adicionales que se pueden extraer de la forma funcional de la energía potencial de una partícula.</para>
+</section>
+<section id="fs-id1165038023291">
+<title>Sistemas con varias partículas u objetos</title>
+<para id="fs-id1165037004095">Los sistemas suelen estar formados por más de una partícula u objeto. Sin embargo, la conservación de la energía mecánica, en una de sus formas en la <link target-id="fs-id1165036887138"/> o la <link target-id="fs-id1165036994785"/>, es una ley fundamental de la física y se aplica a cualquier sistema. Todo lo que hay que hacer es incluir las energías cinética y potencial de todas las partículas, y el trabajo realizado por todas las fuerzas no conservativas que actúan sobre ellas. Hasta que aprenda más sobre la dinámica de los sistemas compuestos por muchas partículas, en <link document="m90654">Momento lineal y colisiones</link>, <link document="m90662">Rotación de eje fijo</link> y <link document="m90671">Momento angular</link>, es mejor posponer el debate de la aplicación de la conservación de energía para entonces.</para>
+</section>
+<section id="fs-id1165037160550" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1165037060538" list-type="bulleted" bullet-style="bullet">
+<item>Una cantidad conservada es una propiedad física que se mantiene constante, independientemente de la trayectoria recorrida.</item>
+<item>Una forma del teorema de trabajo-energía establece que el cambio en la energía mecánica de una partícula es igual al trabajo que realizan sobre esta las fuerzas no conservativas.</item>
+<item>Si las fuerzas no conservativas no realizan ningún trabajo y no hay fuerzas externas, la energía mecánica de una partícula permanece constante. Esta es una afirmación de la conservación de la energía mecánica y no hay ningún cambio en la energía mecánica total.</item>
+<item>En cuanto al movimiento unidimensional de una partícula, en el que la energía mecánica es constante y la energía potencial es conocida, la posición de la partícula, como función del tiempo, se halla al evaluar una integral que se deriva de la conservación de la energía mecánica.</item>
+</list>
+</section>
+<section id="fs-id1165038366451" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1165037917646">
+<problem id="fs-id1165036886717">
+<para id="fs-id1165036787859">Cuando un cuerpo se desliza por un plano inclinado, ¿el trabajo de la fricción depende de la rapidez inicial del cuerpo? Responda la misma pregunta en relación con un cuerpo que se desliza por una superficie curva.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037202426"><problem id="fs-id1165037180978">
+<para id="fs-id1165036728988">Considere la situación siguiente. Un auto para el que la fricción <emphasis effect="italics">no</emphasis> es despreciable acelera desde el reposo cuesta abajo, pero se queda sin gasolina al cabo de una corta distancia (vea más abajo). El conductor deja que el auto vaya un poco más abajo por la colina y entonces asciende por una pequeña cresta. Luego, viaja cuesta abajo, hasta llegar a una gasolinera, donde frena y llena el tanque de gasolina. Identifique las formas de energía que tiene el auto y cómo se cambian y transfieren en esta serie de acontecimientos.</para>
+<media id="fs-id1165037181917" alt="Un auto baja por una colina, sube una pequeña cresta y luego baja. En la parte inferior de la colina, se detiene por gasolina.">
+<image mime-type="image/jpg" src="../../media/CNX_UPhysics_08_03_Q2_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165037219657">
+<para id="fs-id1165038247847">El auto experimenta un cambio en la energía potencial gravitacional a medida que va cuesta abajo porque la distancia vertical disminuye. El trabajo realizado por la fricción sustraerá parte de este cambio de energía potencial gravitacional. El resto de la energía se traduce en un aumento de la energía cinética, lo que hace que el auto vaya más rápido. Por último, el auto frena y pierde su energía cinética por el trabajo realizado al frenar hasta detenerse.</para>
+</solution>
+</exercise><exercise id="fs-id1165037061668">
+<problem id="fs-id1165038132387">
+<para id="fs-id1165038003097">Una pelota que cae rebota hasta la mitad de su altura original. Comente sobre las transformaciones energéticas que se producen.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037215522">
+<problem id="fs-id1165036994754">
+<para id="fs-id1165037155429">“<m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>K</m:mi><m:mo>+</m:mo><m:mi>U</m:mi></m:mrow></m:math> constante es un caso especial del teorema de trabajo-energía". Razone esta afirmación.</para>
+</problem>
+<solution id="fs-id1165036963465">
+<para id="fs-id1165037978901">Afirma que la energía total del sistema <emphasis effect="italics">E</emphasis> se conserva mientras no haya fuerzas no conservativas que actúen sobre el objeto.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037088601">
+<problem id="fs-id1165036980757">
+<para id="fs-id1165038013148">En una demostración común de física, una bola de boliche está suspendida del techo por una cuerda.</para>
+<para id="fs-id1165036884409">El profesor aleja la bola de su posición de equilibrio y la mantiene junto a su nariz, como se muestra a continuación. Suelta la bola para que oscile directamente lejos de él. ¿Recibe el golpe de la bola a su regreso? ¿Qué intenta mostrar con esta demostración?</para>
+<media id="fs-id1165036784408" alt="La figura es el dibujo de un hombre que hala una bola de boliche que está suspendida del techo por una cuerda, la aleja de su posición de equilibrio y la sostiene junto a su nariz. En una segunda imagen, la bola oscila directamente lejos de él.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_03_Q5_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165036993708">
+<problem id="fs-id1165038010176">
+<para id="fs-id1165036899435">Un niño salta sobre una cama y alcanza una mayor altura después de cada rebote. Explique cómo el niño puede aumentar su energía potencial gravitacional máxima con cada rebote.</para>
+</problem>
+<solution id="fs-id1165036885982">
+<para id="fs-id1165036762659">Aplica energía al sistema a través de sus piernas al comprimir y expandir.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036735924">
+<problem id="fs-id1165038387467">
+<para id="fs-id1165037983823">¿Puede una fuerza no conservativa aumentar la energía mecánica del sistema?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037058344">
+<problem id="fs-id1165036891585">
+<para id="fs-id1165038308537">Descartando la resistencia del aire, ¿cuánto tendría que aumentar la altura vertical si quisiera duplicar la velocidad de impacto de un objeto que cae?</para>
+</problem>
+<solution id="fs-id1165037967936">
+<para id="fs-id1165036986472">Cuatro veces la altura original duplicaría la velocidad de impacto.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037024607">
+<problem id="fs-id1165036730646">
+<para id="fs-id1165036788202">Una caja se deja caer sobre un resorte en su posición de equilibrio. El resorte se comprime con la caja unida y llega a un punto de reposo. Dado que el resorte está en posición vertical, ¿es necesario considerar en este problema el cambio en la energía potencial gravitacional de la caja mientras el resorte se comprime?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165038019905" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1165037017982">
+<problem id="fs-id1165037070890">
+<para id="fs-id1165036799083">Un niño lanza una pelota de masa <m:math><m:mrow><m:mn>0,25</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> directamente hacia arriba, a una rapidez inicial de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:math> Cuando la pelota regresa al niño, su rapidez es <m:math><m:mrow><m:mn>17</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:math> ¿Cuánto trabajo realiza la resistencia del aire sobre la pelota durante su vuelo?</para>
+</problem>
+<solution id="fs-id1165038037760">
+<para id="fs-id1165037885368"><m:math><m:mrow><m:mn>14</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036966040">
+<problem id="fs-id1165037231293">
+<para id="fs-id1165038020715">Un ratón con una masa de 200 g cae 100 m por un pozo de mina vertical y aterriza en el fondo, a una rapidez de 8,0 m/s. Durante su caída, ¿cuánto trabajo realiza la resistencia del aire sobre el ratón?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165038348620">
+<problem id="fs-id1165037171678">
+<para id="fs-id1165037078105">Con base en consideraciones energéticas y suponiendo que la resistencia del aire es despreciable, demuestre que una roca lanzada desde un puente a 20,0 m sobre el agua, a una rapidez inicial de 15,0 m/s golpea el agua a una rapidez de 24,8 m/s, independientemente de la dirección del lanzamiento. <emphasis effect="italics">(Pista:</emphasis> Demuestre que <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mtext>i</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mtext>f</m:mtext></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1165037268675">
+<para id="fs-id1165037967903">prueba</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036987342">
+<problem id="fs-id1165037171559">
+<para id="fs-id1165036792351">Una pelota de 1,0 kg en el extremo de una cuerda de 2,0 m se balancea en un plano vertical. En su punto más bajo, la pelota se desplaza a una rapidez de 10 m/s. (a) ¿Cuál es su rapidez en la parte superior de su trayectoria? (b) ¿Cuál es la tensión en la cuerda cuando la pelota está en la parte inferior y en la parte superior de su trayectoria?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037015452">
+<problem id="fs-id1165037174713">
+<para id="fs-id1165038294269">Ignorando los detalles asociados a la fricción, las fuerzas adicionales que ejercen los músculos de brazos y piernas, y otros factores, podemos considerar el salto con pértiga como la conversión de la energía cinética de la carrera de un atleta en energía potencial gravitacional. Si un atleta debe elevar su cuerpo 4,8 m durante un salto, ¿qué rapidez deberá tener al plantar la pértiga?</para>
+</problem>
+<solution id="fs-id1165036730392">
+<para id="fs-id1165036988145"><m:math><m:mrow><m:mn>9,7</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036751450">
+<problem id="fs-id1165038337712">
+<para id="fs-id1165038162136">Tarzán se agarra a una liana que cuelga verticalmente de un alto árbol cuando corre a <m:math><m:mrow><m:mn>9,0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) ¿A qué altura puede balancearse hacia arriba? (b) ¿Afecta la longitud de la liana esta altura?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165037260938">
+<problem id="fs-id1165036763190">
+<para id="fs-id1165038002227">Supongamos que la fuerza de un arco sobre una flecha se comporta como la fuerza de un resorte. Al apuntar la flecha, un arquero tira del arco hacia atrás 50 cm y lo mantiene en posición con una fuerza de <m:math><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>. Si la masa de la flecha es <m:math><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow></m:math> y el "resorte" no tiene masa, ¿cuál es la rapidez de la flecha inmediatamente después de salir del arco?</para>
+</problem>
+<solution id="fs-id1165037061894">
+<para id="fs-id1165036772014"><m:math><m:mrow><m:mn>39</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038307740">
+<problem id="fs-id1165038304577">
+<para id="fs-id1165038386073">Un hombre de <m:math><m:mrow><m:mn>100</m:mn><m:mo>-</m:mo><m:mtext>kg</m:mtext></m:mrow></m:math> esquía por un terreno llano a una rapidez de <m:math><m:mrow><m:mn>8,0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> cuando llega a la pequeña pendiente de 1,8 m, más alta que el nivel del suelo que se muestra en la siguiente figura. (a) Si el esquiador viaja hacia arriba de la colina, ¿cuál es su rapidez cuando llega a la meseta superior? Supongamos que la fricción entre la nieve y los esquís es despreciable. (b) ¿Cuál es su velocidad cuando llega a la parte superior si una fuerza de fricción de <m:math><m:mrow><m:mn>80</m:mn><m:mo>-</m:mo><m:mtext>N</m:mtext></m:mrow></m:math> actúa sobre los esquís?</para>
+<media id="fs-id1165038299425" alt="La figura es el dibujo de un esquiador que ha subido una pendiente de 8,0 metros de longitud. La distancia vertical entre la parte superior de la pendiente y su parte inferior es de 1,8 metros.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_02_P11_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165036992728">
+<problem id="fs-id1165036992730">
+<para id="fs-id1165037057755">Un trineo de 70 kg de masa parte del reposo y se desliza por una pendiente de <m:math><m:mrow><m:mn>10</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> de <m:math><m:mrow><m:mn>80</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> de largo. Luego, se desplaza 20 m en horizontal antes de volver a subir una pendiente de <m:math><m:mrow><m:mn>8</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. Recorre 80 m a lo largo de la pendiente antes de detenerse. ¿Cuál es la magnitud del trabajo neto realizado en el trineo por la fricción?</para></problem>
+<solution id="fs-id1165036900973">
+<para id="fs-id1165036788301">1.900 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165037000139">
+<problem id="fs-id1165037000141">
+<para id="fs-id1165037063616">Una chica en una patineta (masa total de 40 kg) se mueve a una rapidez de 10 m/s en la parte inferior de una larga rampa. La rampa está inclinada a <m:math><m:mrow><m:mn>20</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> con respecto a la horizontal. Si recorre 14,2 m hacia arriba, a lo largo de la rampa, antes de detenerse, ¿cuál es la fuerza neta de fricción sobre ella?</para></problem>
+</exercise>
+<exercise id="fs-id1165038377462">
+<problem id="fs-id1165036853319">
+<para id="fs-id1165036853321">Una pelota de béisbol de 0,25 kg de masa es golpeada en el home a una rapidez de 40 m/s. Cuando aterriza en un asiento de la grada del campo izquierdo a una distancia horizontal de 120 m del home, se mueve a 30 m/s. Si la pelota cae a 20 m por encima del lugar donde fue golpeada, ¿cuánto trabajo realiza sobre ella la resistencia del aire?</para>
+</problem>
+<solution id="fs-id1165038003741">
+<para id="fs-id1165037160042">-39 J</para></solution>
+</exercise>
+<exercise id="fs-id1165037925102">
+<problem id="fs-id1165037925104">
+<para id="fs-id1165037078901">Un pequeño bloque de masa <emphasis effect="italics">m</emphasis> se desliza sin fricción alrededor del aparato de completar el círculo que se muestra a continuación. (a) Si el bloque parte del reposo en <emphasis effect="italics">A</emphasis>, ¿cuál es su rapidez en <emphasis effect="italics">B</emphasis>? (b) ¿Cuál es la fuerza de la pista sobre el bloque en <emphasis effect="italics">B</emphasis>?</para>
+<media id="fs-id1165038016434" alt="Una pista tiene un círculo completo de radio R. La parte superior de la pista está a una distancia vertical de cuatro R por encima de la parte inferior del círculo. Se muestra un bloque deslizándose por la pista. La posición A está en la parte superior de la pista. La posición B está a medio camino del círculo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_03_P8_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165037923487">
+<problem id="fs-id1165037923489">
+<para id="fs-id1165038045615">El resorte sin masa de una pistola de resorte tiene una constante de fuerza <m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mspace width="0.2em"/><m:mtext>N/cm</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Cuando la pistola apunta verticalmente, un proyectil de 15 g se dispara a una altura de 5,0 m por encima del extremo del resorte expandido. (Vea más abajo). ¿Cuánto se comprimió el resorte inicialmente?</para>
+<media id="fs-id1165038340684" alt="Se muestran tres dibujos de una pistola apuntando directamente hacia arriba. A la izquierda, el resorte se comprime en una distancia desconocida d. El proyectil se apoya en la parte superior del resorte. En el dibujo del medio, el resorte está expandido. El proyectil sigue en la parte superior del resorte, pero ahora se mueve hacia arriba, a velocidad v. A la derecha, el resorte está expandido. El proyectil está a 5,0 metros por encima de la parte superior del resorte. Tiene velocidad cero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_03_P9_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165038295085">
+<para id="fs-id1165038295087">3,5 cm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165036893205">
+<problem id="fs-id1165036893207">
+<para id="fs-id1165036866167">Se ata una pequeña pelota a una cuerda y se la pone a girar con una fricción despreciable en un círculo vertical. Si la pelota se desplaza por la parte superior del círculo lo más lentamente posible (de modo que la tensión de la cuerda sea despreciable), ¿cuál es la tensión de la cuerda en la parte inferior del círculo, suponiendo que no se añade energía a la pelota durante la rotación?</para></problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1165036969606">
+<term>cantidad conservada</term>
+<meaning id="fs-id1165037061165">es aquella que no se crea ni se destruye, sino que asume distintas formas de sí misma</meaning>
+</definition>
+<definition id="fs-id1165038024912">
+<term>conservación de energía</term>
+<meaning id="fs-id1165037181302">la energía total de un sistema aislado es constante</meaning>
+</definition>
+<definition id="fs-id1165038016114">
+<term>energía mecánica</term>
+<meaning id="fs-id1165037047747">la suma de las energías cinética y potencial</meaning>
+</definition>
+</glossary>
+</document>

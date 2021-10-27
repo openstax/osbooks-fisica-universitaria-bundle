@@ -1,0 +1,191 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>La ecuación de Schrӧdinger</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91017</md:content-id>
+  <md:title>La ecuación de Schrӧdinger</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Describir el papel que juega la ecuación de Schrӧdinger en la mecánica cuántica</item>
+<item>Explicar la diferencia entre las ecuaciones de Schrӧdinger dependientes e independientes del tiempo</item>
+<item>Interpretar las soluciones de la ecuación de Schrӧdinger</item>
+</list></md:abstract>
+  <md:uuid>abeaf178-af24-4b74-bb0e-919fb7fddbc0</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170902057607">En las dos secciones anteriores, describimos cómo utilizar una función de onda mecánica cuántica y hemos discutido el principio de incertidumbre de Heisenberg. En esta sección, presentamos una teoría completa y formal de la mecánica cuántica que puede utilizarse para hacer predicciones. Para desarrollar esta teoría, es útil revisar la teoría ondulatoria de la luz. Para una onda luminosa, el campo eléctrico <emphasis effect="italics">E</emphasis>(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">t</emphasis>) obedece a la relación</para>
+<equation id="fs-id1170903853347"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>E</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mi>E</m:mi></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170904138778">donde <emphasis effect="italics">c</emphasis> es la velocidad de la luz y el símbolo <m:math><m:mo>∂</m:mo></m:math> representa una <emphasis effect="italics">derivada parcial</emphasis>. (Recordemos de <link document="m90696">Oscilaciones</link> que una derivada parcial está estrechamente relacionada con una derivada ordinaria, pero implica funciones de más de una variable. Cuando se toma la derivada parcial de una función por una determinada variable, todas las demás variables se mantienen constantes) Una onda luminosa está formada por un número muy grande de fotones, por lo que la cantidad <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> puede interpretarse como una densidad de probabilidad de encontrar un solo fotón en un punto concreto del espacio (por ejemplo, en una pantalla de visualización).</para><para id="fs-id1170902194849">Hay muchas soluciones para esta ecuación. Una solución de especial importancia es</para>
+<equation id="fs-id1170902118559"><m:math><m:mrow><m:mi>E</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903859532">donde <emphasis effect="italics">A</emphasis> es la amplitud del campo eléctrico, <emphasis effect="italics">k</emphasis> es el número de onda y <m:math><m:mi>ω</m:mi></m:math> es la frecuencia angular. Combinando esta ecuación con la <link target-id="fs-id1170903853347"/> se obtiene</para>
+<equation id="fs-id1170902186856"><m:math><m:mrow><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902142518">Según las ecuaciones de De Broglie, tenemos <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>ℏ</m:mi><m:mi>k</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>ℏ</m:mi><m:mi>ω</m:mi></m:mrow></m:math>. Sustituyendo estas ecuaciones en la <link target-id="fs-id1170902186856"/> se obtiene</para>
+<equation id="fs-id1170904152351"><m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903805930">o</para><equation id="fs-id1170904252568"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902284845">Por lo tanto, según la ecuación general de energía-momento de Einstein (<link target-id="fs-id1167794292182" document="m91004"/>), la <link target-id="fs-id1170903853347"/> describe una partícula con una masa en reposo igual a cero. Esto es consistente con nuestro conocimiento de un fotón.</para>
+<para id="fs-id1170904153453">Este proceso puede invertirse. Podemos empezar con la ecuación energía-momento de una partícula y luego preguntar qué ecuación de onda le corresponde. La ecuación energía-momento de una partícula no relativista en una dimensión es</para>
+<equation id="fs-id1170903900466"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902287480">donde <emphasis effect="italics">p</emphasis> es el momento, <emphasis effect="italics">m</emphasis> es la masa y <emphasis effect="italics">U</emphasis> es la energía potencial de la partícula. La ecuación de onda que la acompaña resulta ser una ecuación clave en la mecánica cuántica, llamada <term>ecuación de Schrӧdinger dependiente del tiempo</term>.</para>
+<note id="fs-id1170903798652">
+<title>La ecuación de Schrӧdinger dependiente del tiempo</title>
+<para id="fs-id1170904065074">La ecuación que describe la energía y el momento de una función de onda se conoce como ecuación de Schrӧdinger:</para>
+<equation id="fs-id1170902110094"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>i</m:mi><m:mi>ℏ</m:mi><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902089474">Como se describe en <link document="m90648">Energía potencial y conservación de la energía</link>, la fuerza sobre la partícula descrita por esta ecuación viene dada por</para><equation id="fs-id1170902179935"><m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902196817">Esta ecuación desempeña un papel en la mecánica cuántica similar al de la segunda ley de Newton en la mecánica clásica. Una vez que se especifica la energía potencial de una partícula o lo que es lo mismo, una vez que se precisa la fuerza sobre la partícula, podemos resolver esta ecuación diferencial para la función de onda. La solución de la ecuación de la segunda ley de Newton (también una ecuación diferencial) en una dimensión es una función <emphasis effect="italics">x</emphasis>(<emphasis effect="italics">t</emphasis>) que especifica dónde se encuentra un objeto en cualquier tiempo <emphasis effect="italics">t</emphasis>. La solución de la ecuación de Schrӧdinger dependiente del tiempo proporciona una herramienta (la función de onda) que puede utilizarse para determinar dónde es <emphasis effect="italics">probable</emphasis> que esté la partícula. Esta ecuación también puede escribirse en dos o tres dimensiones. La resolución de la ecuación de Schrӧdinger dependiente del tiempo suele requerir la ayuda de un ordenador.</para>
+<para id="fs-id1170902061967">Consideremos el caso especial de una partícula libre. Una partícula libre no experimenta ninguna fuerza <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Con base en la <link target-id="fs-id1170902179935"/>, esto solo requiere que</para>
+<equation id="fs-id1170902195526"><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mtext>constante</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902140135">Para simplificar, establecemos <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. La ecuación de Schrӧdinger se reduce entonces a</para>
+<equation id="fs-id1170904052586"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mo>∂</m:mo><m:mn>2</m:mn></m:msup><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mo>∂</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>i</m:mi><m:mi>ℏ</m:mi><m:mfrac><m:mrow><m:mo>∂</m:mo><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mo>∂</m:mo><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902194463">Una solución válida para esta ecuación es</para>
+<equation id="fs-id1170902196880"><m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170904082323">No es sorprendente que esta solución contenga un <term class="no-emphasis">número imaginario</term> <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>i</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>−1</m:mn></m:mrow></m:msqrt><m:mo stretchy="false">)</m:mo></m:mrow></m:math> porque la propia ecuación diferencial contiene un número imaginario. Sin embargo, como se enfatizó anteriormente, las predicciones de la mecánica cuántica solo dependen de <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, que produce valores completamente reales. Observe que las soluciones reales de onda plana, <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> y <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> no obedecen a la ecuación de Schrödinger. La tentación de pensar que una función de onda puede verse, tocarse y sentirse en la naturaleza se elimina con la aparición de un número imaginario. En la teoría de la mecánica cuántica de Schrӧdinger, la función de onda no es más que una herramienta para calcular cosas.</para>
+<para id="fs-id1170902183058">Si la función de energía potencial (<emphasis effect="italics">U</emphasis>) no depende del tiempo, es posible demostrar que</para>
+<note id="fs-id1170903806306" class="equation-callout">
+<equation id="fs-id1170902063770"><label/><m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902089128">satisface la ecuación de Schrӧdinger dependiente del tiempo, donde <m:math><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> es una función independiente del <emphasis effect="italics">tiempo</emphasis> y <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math> es una función independiente del <emphasis effect="italics">espacio</emphasis>. En otras palabras, la función de onda es <emphasis effect="italics">separable</emphasis> en dos partes: una parte espacial y otra temporal. El factor <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math> se denomina a veces <term>factor de modulación del tiempo</term>, ya que modifica la función espacial. Según De Broglie, la energía de una onda de materia viene dada por <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>ℏ</m:mi><m:mi>ω</m:mi></m:mrow></m:math>, donde <emphasis effect="italics">E</emphasis> es su energía total. Así, la ecuación anterior también puede escribirse como</para>
+<equation id="fs-id1170904230883"><m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>ψ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mi>E</m:mi><m:mi>t</m:mi><m:mtext>/</m:mtext><m:mi>ℏ</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170903868508">Cualquier combinación lineal de dichos estados (estado mixto de energía o momento) es también una solución válida para esta ecuación. Estos estados pueden, por ejemplo, describir una partícula localizada (vea la <link target-id="CNX_UPhysics_40_02_packet" document="m91016"/>)</para>
+<note id="fs-id1170903906579" class="check-understanding">
+<exercise id="fs-id1170902220108">
+<problem id="fs-id1170902234159">
+<para id="fs-id1170904136006">Una partícula con masa <emphasis effect="italics">m</emphasis> se mueve a lo largo del eje de la <emphasis effect="italics">x</emphasis> en un potencial dado por la función de energía potencial <m:math><m:mrow><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,5</m:mn><m:mi>m</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Calcule el producto <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>*</m:mo></m:msup><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Exprese su respuesta en términos de la función de onda independiente del tiempo, <m:math><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1170903869252">
+<para id="fs-id1170903815599"><m:math><m:mrow><m:mn>0,5</m:mn><m:mi>m</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>ψ</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>*</m:mo></m:msup><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1170903802658">Al combinar la <link target-id="fs-id1170902110094"/> y la <link target-id="fs-id1170902063770"/>, la ecuación de Schrödinger dependiente del tiempo se reduce a</para>
+<note id="fs-id1170903855651" class="equation-callout">
+<equation id="fs-id1170902298020"><label/><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>d</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>E</m:mi><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170904202033">donde <emphasis effect="italics">E</emphasis> es la energía total de la partícula (un número real). Esta ecuación se llama <term>ecuación de Schrӧdinger independiente del tiempo</term>. Observe que usamos "psi grande" <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Ψ</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> para la función de onda dependiente del tiempo y la "psi pequeña" <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>ψ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> para la función de onda independiente del tiempo. La solución de la función de onda de esta ecuación debe multiplicarse por el factor de modulación del tiempo para obtener la función de onda dependiente del tiempo.</para>
+<para id="fs-id1170904272107">En las siguientes secciones, resolvemos la ecuación de Schrӧdinger independiente del tiempo en tres casos: una partícula cuántica en una caja, un oscilador armónico simple y una barrera cuántica. Estos casos proporcionan importantes lecciones que pueden utilizarse para resolver sistemas más complicados. Las soluciones de la función de onda independiente del tiempo <m:math><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> deben cumplir tres condiciones:</para>
+<list id="fs-id1170902363308" list-type="bulleted" bullet-style="bullet"><item><m:math><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> debe ser una función continua.</item>
+<item>La primera derivada de <m:math><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> con respecto al espacio, <m:math><m:mrow><m:mi>d</m:mi><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mtext>/</m:mtext><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:math>, debe ser continua, a menos que <m:math><m:mrow><m:mi>V</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>∞</m:mi></m:mrow></m:math>.</item>
+<item><m:math><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> no debe divergir ("estallar") en <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>±</m:mtext><m:mi>∞</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+</list><para id="fs-id1170902216092">La primera condición evita los saltos bruscos o brechas en la función de onda. La segunda condición requiere que la función de onda sea suave en todos los puntos, excepto en casos especiales. (En un curso más avanzado de mecánica cuántica, por ejemplo, se utilizan picos de potencial de profundidad y altura infinitas para modelar sólidos). La tercera condición requiere que la función de onda sea normalizable. Esta tercera condición se desprende de la interpretación de Born de la mecánica cuántica. Garantiza que <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>ψ</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> es un número finito, por lo que podemos utilizarlo para calcular probabilidades.</para>
+<note id="fs-id1170904201971" class="check-understanding">
+<exercise id="fs-id1170902214402">
+<problem id="fs-id1170903855855">
+<para id="fs-id1170902263944">¿Cuál de las siguientes funciones de onda es una solución de función de onda válida para la ecuación de Schrӧdinger?</para>
+<media id="fs-id1170904111214" alt="Se muestran tres gráficos de Psi de x en función de x. El primero sube, luego baja discontinuamente hasta un valor inferior, vuelve a subir y luego tiene un valor constante. La segunda función se parece a una ola que rompe, con una cresta que sobrepasa la base. El tercero aumenta exponencialmente hasta el infinito.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_40_03_Acceptable_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1170904007351">
+<para id="fs-id1170902118654">Ninguna. La primera función tiene una discontinuidad; la segunda función es de doble valor; y la tercera función diverge, por lo que no es normalizable.</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1170904054598" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170903882590" list-type="bulleted" bullet-style="bullet">
+<item>La ecuación de Schrӧdinger es la ecuación fundamental de la mecánica cuántica de ondas. Nos permite hacer predicciones sobre las funciones de onda.</item>
+<item>Cuando una partícula se mueve en un potencial independiente del tiempo, la solución de la ecuación de Schrӧdinger dependiente del tiempo es producto de una función de onda independiente del tiempo y de un factor de modulación del tiempo.</item>
+<item>La ecuación de Schrӧdinger puede aplicarse a muchas situaciones físicas.</item>
+</list>
+</section>
+<section id="fs-id1170902041192" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1170903850579">
+<problem id="fs-id1170902402218">
+<para id="fs-id1170903831926">¿Cuál es la diferencia entre una función de onda <m:math><m:mrow><m:mi>ψ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> y una función de onda <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>z</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> para la misma partícula?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903809330">
+<problem id="fs-id1170902558084">
+<para id="fs-id1170902076463">Si una partícula cuántica está en estado estacionario, ¿significa que no se mueve?</para>
+</problem>
+<solution id="fs-id1170903818824">
+<para id="fs-id1170902350869">No, significa que las predicciones sobre la partícula (expresadas en términos de probabilidades) son independientes del tiempo.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902042246">
+<problem id="fs-id1170904183513">
+<para id="fs-id1170903881317">Explique la diferencia entre las ecuaciones de Schrӧdinger dependientes e independientes del tiempo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902363597">
+<problem id="fs-id1170904153173">
+<para id="fs-id1170904192270">Supongamos que una función de onda es discontinua en algún punto. ¿Puede esta función representar un estado cuántico de alguna partícula física? ¿Por qué? ¿Por qué no?</para>
+</problem>
+<solution id="fs-id1170902297147">
+<para id="fs-id1170904173360">No, porque la probabilidad de que la partícula exista en un intervalo estrecho (infinitesimalmente pequeño) en la discontinuidad es indefinida.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170903884904" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170902160480">
+<problem id="fs-id1170903883525">
+<para id="fs-id1170903886924">Combine la <link target-id="fs-id1170903853347"/> y la <link target-id="fs-id1170902118559"/> para demostrar <m:math><m:mrow><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1170903883339">
+<para id="fs-id1170902183310">La realización de las derivadas produce <m:math><m:mrow><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902396024">
+<problem id="fs-id1170902100270">
+<para id="fs-id1170902353781">Demuestre que <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msup></m:mrow></m:math> es una solución válida de la ecuación de Schrӧdinger dependiente del tiempo.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904150582">
+<problem id="fs-id1170902299975">
+<para id="fs-id1170902180831">Demuestre que <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> y <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> no obedecen a la ecuación de Schrӧdinger dependiente del tiempo.</para>
+</problem>
+<solution id="fs-id1170902307779">
+<para id="fs-id1170903831386">Al realizar las derivadas (como en el caso anterior) para la función seno se obtiene un coseno en el lado derecho de la ecuación, por lo que la igualdad falla. Lo mismo ocurre con la solución del coseno.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902222104">
+<problem id="fs-id1170902158137">
+<para id="fs-id1170902092796">Demuestre que cuando <m:math><m:mrow><m:msub><m:mtext>Ψ</m:mtext><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mtext>Ψ</m:mtext><m:mn>2</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> son soluciones de la ecuación de Schrӧdinger dependiente del tiempo y <emphasis effect="italics">A</emphasis>,<emphasis effect="italics">B</emphasis> son números, entonces una función <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> que es una superposición de estas funciones también es una solución: <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:msub><m:mtext>Ψ</m:mtext><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>B</m:mi><m:msub><m:mtext>Ψ</m:mtext><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902354437">
+<problem id="fs-id1170903789116">
+<para id="fs-id1170903893041">Una partícula con masa <emphasis effect="italics">m</emphasis> se describe mediante la siguiente función de onda <m:math><m:mrow><m:mi>ψ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mspace width="0.2em"/><m:mtext>sen</m:mtext><m:mspace width="0.2em"/><m:mi>k</m:mi><m:mi>x</m:mi></m:mrow></m:math>, donde <emphasis effect="italics">A</emphasis>, <emphasis effect="italics">B</emphasis> y <emphasis effect="italics">k</emphasis> son constantes. Suponiendo que la partícula es libre, demuestre que esta función es la solución de la ecuación estacionaria de Schrӧdinger para esta partícula y encuentre la energía que tiene la partícula en este estado.</para>
+</problem>
+<solution id="fs-id1170903879003">
+<para id="fs-id1170902267094"><m:math><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:msup><m:mi>ℏ</m:mi><m:mrow><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi></m:mrow></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903829721">
+<problem id="fs-id1170903835143">
+<para id="fs-id1170903875163">Encuentre el valor esperado de la energía cinética para la partícula en el estado, <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msup></m:mrow></m:math>. ¿Qué conclusión obtiene de su solución?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903896742">
+<problem id="fs-id1170903896745">
+<para id="fs-id1170903860046">Encuentre el valor esperado del cuadrado del momento al cuadrado para la partícula en el estado, <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>i</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msup></m:mrow></m:math>. ¿Qué conclusión obtiene de su solución?</para>
+</problem>
+<solution id="fs-id1170903762950">
+<para id="fs-id1170903762952"><m:math><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mrow><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>k</m:mi><m:mrow><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math>; La partícula tiene un momento definido y por tanto un momento definido al cuadrado.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902156430">
+<problem id="fs-id1170902056810">
+<para id="fs-id1170902056812">Un protón libre tiene una función de onda dada por <m:math><m:mrow><m:mtext>Ψ</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>A</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mtext> </m:mtext><m:mi>i</m:mi><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5,02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:msup></m:mrow></m:math>.</para>
+<para id="fs-id1170902181335">El coeficiente de <emphasis effect="italics">x</emphasis> es inverso a los metros <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math> y el coeficiente en <emphasis effect="italics">t</emphasis> es inverso a los segundos <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Encuentre su momento y energía.</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170904080909">
+<term>ecuación de Schrӧdinger dependiente del tiempo</term>
+<meaning id="fs-id1170904169491">ecuación en el espacio y el tiempo que nos permite determinar las funciones de onda de una partícula cuántica</meaning>
+</definition>
+<definition id="fs-id1170902450101">
+<term>ecuación de Schrӧdinger independiente del tiempo</term>
+<meaning id="fs-id1170902077000">ecuación en el espacio que permite determinar las funciones de onda de una partícula cuántica; esta función de onda debe multiplicarse por un factor de modulación del tiempo para obtener la función de onda dependiente del tiempo.</meaning>
+</definition>
+<definition id="fs-id1170902269928">
+<term>factor de modulación del tiempo</term>
+<meaning id="fs-id1170902223795">factor <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>i</m:mi><m:mi>ω</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math> que multiplica la función de onda independiente del tiempo cuando la energía potencial de la partícula es independiente del tiempo.</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,365 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Condensadores y capacitancia</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90882</md:content-id>
+  <md:title>Condensadores y capacitancia</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar los conceptos de un condensador y su capacitancia.</item>
+<item>Describir cómo evaluar la capacitancia de un sistema de conductores.</item>
+</list></md:abstract>
+  <md:uuid>7bed7ad6-a162-453c-93ed-d731f644fc6f</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167134458211">Un <term>condensador</term> es un dispositivo utilizado para almacenar carga eléctrica y energía eléctrica. Consiste en al menos dos conductores eléctricos separados por una distancia (observe que estos conductores eléctricos se denominan a veces "electrodos", pero es más correcto decir que son "placas de condensador"). El espacio entre los condensadores puede ser simplemente un vacío y, en ese caso, un condensador se conoce entonces como "condensador de vacío”. Sin embargo, el espacio suele estar relleno de un material aislante conocido como <term>dieléctrico</term> (aprenderá más sobre los dieléctricos en las secciones sobre dieléctricos más adelante en este capítulo). La cantidad de almacenamiento en un condensador viene determinada por una propiedad llamada <emphasis effect="italics">capacitancia</emphasis>, de la que aprenderá más adelante en esta sección.</para>
+<para id="fs-id1167134947463">Los condensadores tienen aplicaciones que van desde el filtrado de la estática de la recepción de radio hasta el almacenamiento de energía en desfibriladores cardíacos. Normalmente, los condensadores comerciales tienen dos partes conductoras cercanas entre sí pero que no se tocan, como los de la <link target-id="CNX_UPhysics_25_01_Battery"/>. La mayoría de las veces se utiliza un dieléctrico entre las dos placas. Cuando los terminales de la batería se conectan a un condensador inicialmente sin carga, el potencial de la batería mueve una pequeña cantidad de carga de magnitud <emphasis effect="italics">Q</emphasis> desde la placa positiva a la negativa. El condensador permanece neutral en general, pero con cargas <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow></m:math> que residen en placas opuestas.</para>
+<figure id="CNX_UPhysics_25_01_Battery">
+<media id="fs-id1167131103744" alt="La figura a muestra dos placas colocadas en paralelo, a una distancia d. Cada placa está conectada a un terminal de una batería. La figura b muestra láminas de conductores y dieléctricos apilados alternativamente y enrollados. Cada hoja de conductor está conectada a un terminal de una batería. En ambas figuras, la carga es más Q y menos Q para las placas conectadas a los terminales positivo y negativo respectivamente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_Battery.jpg"/>
+</media>
+<caption>Los dos condensadores mostrados aquí estaban inicialmente sin cargar antes de ser conectados a una batería. Ahora tienen cargas de <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow></m:math> (respectivamente) en sus placas. (a) Un condensador de placas paralelas consta de dos placas de carga opuesta con área <emphasis effect="italics">A</emphasis> separadas por una distancia <emphasis effect="italics">d</emphasis>. (b) Un condensador enrollado tiene un material dieléctrico entre sus dos láminas conductoras (placas).</caption>
+</figure>
+<para id="fs-id1167134951495">Un sistema compuesto por dos placas conductoras paralelas idénticas separadas por una distancia se denomina <term>condensador de placas paralelas</term> (<link target-id="CNX_UPhysics_25_01_Electric"/>). La magnitud del campo eléctrico en el espacio entre las placas paralelas es <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mi>σ</m:mi><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow></m:mrow></m:math>, donde <m:math><m:mi>σ</m:mi></m:math> denota la densidad de carga superficial en una placa (recordemos que <m:math><m:mi>σ</m:mi></m:math> es la carga <emphasis effect="italics">Q</emphasis> por la superficie <emphasis effect="italics">A</emphasis>). Así, la magnitud del campo es directamente proporcional a <emphasis effect="italics">Q</emphasis>.</para>
+<figure id="CNX_UPhysics_25_01_Electric">
+<media id="fs-id1167131134807" alt="En una batería se conectan dos placas en paralelo. La placa conectada al terminal positivo tiene cargas positivas marcadas por el signo más. Del mismo modo, la otra placa tiene signos negativos. Las flechas se muestran entre las placas, desde la placa positiva a la negativa. El espacio entre las placas tiene la fórmula E proporcional a Q.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_Electric.jpg"/>
+</media>
+<caption>La separación de cargas en un condensador muestra que las cargas permanecen en las superficies de las placas del condensador. Las líneas de campo eléctrico en un condensador de placas paralelas comienzan con cargas positivas y terminan con cargas negativas. La magnitud del campo eléctrico en el espacio entre las placas está en proporción directa a la cantidad de carga en el condensador.</caption>
+</figure>
+<para id="fs-id1167134990056">Los condensadores con diferentes características físicas (como la forma y el tamaño de sus placas) almacenan diferentes cantidades de carga para el mismo voltaje aplicado <emphasis effect="italics">V</emphasis> a través de sus placas. La <term>capacitancia</term> <emphasis effect="italics">C</emphasis> de un condensador se define como la relación entre la carga máxima <emphasis effect="italics">Q</emphasis> que puede almacenarse en un condensador y el voltaje aplicado <emphasis effect="italics">V</emphasis> a través de sus placas. En otras palabras, la capacitancia es la mayor cantidad de carga por voltio que se puede almacenar en el dispositivo:</para>
+<note id="fs-id1167131552160" class="equation-callout">
+<equation id="fs-id1167134569412"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131111990">La unidad del SI de la capacitancia es el <term class="no-emphasis">faradio</term> (F), llamado así por Michael <term class="no-emphasis">Faraday</term> (1791-1867). Dado que la capacitancia es la carga por unidad de voltaje, un faradio es un culombio por un voltio, o</para>
+<equation id="fs-id1167134510238" class="unnumbered"><label/><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>C</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>V</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134970169">Por definición, un condensador de 1,0 F es capaz de almacenar 1,0 C de carga (una cantidad muy grande de carga) cuando la diferencia de potencial entre sus placas es de solo 1,0 V. Un faradio es, por tanto, una capacitancia muy grande. Los valores típicos de capacitancia van desde los picofaradios <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>pF</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> a milifaradios <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>mF</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, que también incluye microfaradios (<m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>F</m:mtext><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext></m:mrow></m:math>). Los condensadores se pueden fabricar en varias formas y tamaños (<link target-id="CNX_UPhysics_25_01_Capacitor"/>).</para>
+<figure id="CNX_UPhysics_25_01_Capacitor"><media id="fs-id1167131150957" alt="Una fotografía de diferentes tipos de condensadores.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_Capacitor.jpg"/>
+</media>
+
+<caption>Estos son algunos de los condensadores típicos utilizados en los dispositivos electrónicos. El tamaño de un condensador no está necesariamente relacionado con su valor de capacitancia (créditos: Windell Oskay)</caption></figure><section id="fs-id1167131272086">
+<title>Cálculo de capacitancia</title>
+<para id="fs-id1167134891215">Podemos calcular la capacitancia de un par de conductores con la aproximación estándar que sigue.</para>
+<note id="fs-id1167134927912" class="problem-solving">
+<title>Cálculo de capacitancia</title>
+<list id="fs-id1167134491870" list-type="enumerated" number-style="arabic">
+<item>Supongamos que el condensador tiene una carga <emphasis effect="italics">Q</emphasis>.</item>
+<item>Determine el campo eléctrico <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> entre los conductores. Si hay simetría en la disposición de los conductores, puede utilizar la ley de Gauss para este cálculo.</item>
+<item>Calcule la diferencia de potencial entre los conductores de
+<equation id="fs-id1167134513086"><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:munderover><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
+donde el camino de integración va de un conductor a otro. La magnitud de la diferencia de potencial es entonces <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math>.</item>
+<item>Conociendo <emphasis effect="italics">V</emphasis>, obtenga la capacitancia directamente de la <link target-id="fs-id1167134569412"/>.</item>
+</list>
+</note>
+<para id="fs-id1167131086015">Para mostrar cómo funciona este procedimiento, calculamos ahora las capacitancias de condensadores de placas paralelas, esféricas y cilíndricas. En todos los casos, suponemos condensadores de vacío (condensadores vacíos) sin sustancia dieléctrica en el espacio entre los conductores.</para>
+</section>
+<section id="fs-id1167131131437">
+<title>Condensador de placas paralelas</title>
+<para id="fs-id1167134947356">El condensador de placas paralelas (<link target-id="CNX_UPhysics_25_01_Plate"/>) tiene dos placas conductoras idénticas, cada una con una superficie <emphasis effect="italics">A</emphasis>, separadas por una distancia <emphasis effect="italics">d</emphasis>. Cuando se aplica un voltaje <emphasis effect="italics">V</emphasis> al condensador, este almacena una carga <emphasis effect="italics">Q</emphasis>, como se muestra. Podemos ver cómo su capacitancia puede depender de <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">d</emphasis> considerando las características de la fuerza de Coulomb. Sabemos que la fuerza entre las cargas aumenta con los valores de carga y disminuye con la distancia entre ellas. Es de esperar que cuanto más grandes sean las placas, más carga podrán almacenar. Por lo tanto, <emphasis effect="italics">C</emphasis> debería ser mayor para un valor mayor de <emphasis effect="italics">A</emphasis>. Del mismo modo, cuanto más cerca estén las placas, mayor será la atracción de las cargas opuestas en ellas. Por lo tanto, <emphasis effect="italics">C</emphasis> debería ser mayor para una <emphasis effect="italics">d</emphasis> más pequeña.</para>
+<figure id="CNX_UPhysics_25_01_Plate">
+<media id="fs-id1167131128862" alt="La figura muestra dos placas paralelas separadas por una distancia d, con cada una conectada a un terminal de una batería. Las líneas de campo eléctrico se muestran como flechas desde la placa positiva a la negativa. El área de la placa está marcada como A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_Plate.jpg"/>
+</media>
+<caption>En un condensador de placas paralelas con placas separadas por una distancia <emphasis effect="italics">d</emphasis>, cada placa tiene la misma superficie <emphasis effect="italics">A</emphasis>.</caption>
+</figure>
+<para id="fs-id1167131145626">Definimos la densidad de carga superficial <m:math><m:mi>σ</m:mi></m:math> en las placas como</para>
+<equation id="fs-id1167134533701" class="unnumbered"><label/><m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134508478">Sabemos por los capítulos anteriores que cuando <emphasis effect="italics">d</emphasis> es pequeño, el campo eléctrico entre las placas es bastante uniforme (ignorando los efectos de borde) y que su magnitud viene dada por</para>
+<equation id="fs-id1167134536296" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134488660">donde la constante <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la permeabilidad del espacio libre, <m:math><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F/m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> La unidad SI de F/m equivale a <m:math><m:mrow><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Dado que el campo eléctrico <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> entre las placas es uniforme, la diferencia de potencial entre las placas es</para>
+<equation id="fs-id1167134642551" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi><m:mi>d</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>Q</m:mi><m:mi>d</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131410607">Por lo tanto, la <link target-id="fs-id1167134569412"/> da la capacitancia de un condensador de placas paralelas como</para>
+<note id="fs-id1167131212119" class="equation-callout">
+<equation id="fs-id1167131458057"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mi>d</m:mi></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow><m:mi>A</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>A</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167134860956">Observe en esta ecuación que la capacitancia es una función <emphasis effect="italics">solo de la geometría</emphasis> y del material que llena el espacio entre las placas (en este caso, el vacío) de este condensador. De hecho, esto es cierto no solo para un condensador de placas paralelas, sino para todos los condensadores: La capacitancia es independiente de <emphasis effect="italics">Q</emphasis> o <emphasis effect="italics">V</emphasis>. Si la carga cambia, el potencial cambia correspondientemente, de modo que <emphasis effect="italics">Q</emphasis>/<emphasis effect="italics">V</emphasis> permanece constante.</para>
+<example id="fs-id1167131269511">
+<para id="fs-id1167134701056"><title>Capacitancia y carga almacenada en un condensador de placas paralelas</title>
+(a) ¿Cuál es la capacitancia de un condensador vacío de placas paralelas con placas de metal que tienen cada una un área de <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math>, separados por 1,00 mm? (b) ¿Cuánta carga se almacena en este condensador si se aplica un voltaje de <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>?</para>
+<para id="fs-id1167134860924"><title>Estrategia</title>
+Encontrar la capacitancia <emphasis effect="italics">C</emphasis> es una aplicación directa de la <link target-id="fs-id1167131458057"/>. Una vez que hallamos <emphasis effect="italics">C</emphasis>, podemos calcular la carga almacenada utilizando la <link target-id="fs-id1167134569412"/>.</para>
+<para id="fs-id1167134656730"><title>Solución</title></para>
+<list id="fs-id1167131268517" list-type="enumerated" number-style="lower-alpha">
+<item>Al introducir los valores dados en la <link target-id="fs-id1167131458057"/> se obtiene
+<equation id="fs-id1167584753120" class="unnumbered"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mi>A</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.1em"/><m:mfrac><m:mtext>F</m:mtext><m:mtext>m</m:mtext></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mtext>nF</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+Este pequeño valor de capacitancia indica lo difícil que es fabricar un dispositivo con una gran capacitancia.</item>
+<item>Al invertir la <link target-id="fs-id1167134569412"/> y al introducir los valores conocidos en esta ecuación se obtiene
+<equation id="fs-id1167584685915" class="unnumbered"><label/><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>26,6</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167131554554"><title>Importancia</title>
+Esta carga es solo ligeramente superior a las que se encuentran en las aplicaciones típicas de electricidad estática. Dado que el aire se descompone (se vuelve conductor) a una intensidad de campo eléctrico de aproximadamente 3,0 MV/m, no se puede almacenar más carga en este condensador aumentando el voltaje.</para>
+</example>
+<example id="fs-id1167131515938">
+<para id="fs-id1167134447588"><title>Un condensador de placas paralelas de 1 F</title>
+Suponga que desea construir un condensador de placas paralelas con una capacitancia de 1,0 F. ¿Qué área debe utilizar para cada placa si estas están separadas por 1,0 mm?</para>
+<para id="fs-id1167134664981"><title>Solución</title>
+Al reordenar la <link target-id="fs-id1167131458057"/>, obtenemos</para>
+<equation id="fs-id1167134443117" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>C</m:mi><m:mi>d</m:mi></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>8,85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>F</m:mtext><m:mtext>/</m:mtext><m:mtext>m</m:mtext></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134442868">Cada placa cuadrada debería tener 10 km de ancho. Solía ser una broma común pedir a un estudiante que fuera al almacén del laboratorio y solicitara un condensador de placas paralelas 1 F, hasta que los encargados del almacén se cansaron de la broma.</para>
+</example>
+<note id="fs-id1167134451826" class="check-understanding">
+<exercise id="fs-id1167131226099">
+<problem id="fs-id1167131509375">
+<para id="fs-id1167134679676">La capacitancia de un condensador de placas paralelas es de 2,0 pF. Si el área de cada placa es <m:math><m:mrow><m:mn>2,4</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, ¿cuál es la separación de las placas?</para>
+</problem>
+<solution id="fs-id1167134863722">
+<para id="fs-id1167134586027"><m:math><m:mrow><m:mn>1,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167134680374" class="check-understanding">
+<exercise id="fs-id1167134666336">
+<problem id="fs-id1167134863925">
+<para id="fs-id1167134681977">Verifique que <m:math><m:mrow><m:mi>σ</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mi>d</m:mi></m:mrow></m:mrow></m:math> tienen las mismas unidades físicas.</para>
+</problem>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167134514126">
+<title>Condensador esférico</title>
+<para id="fs-id1167134678000">Un condensador esférico es otro conjunto de conductores cuya capacitancia puede determinarse fácilmente (<link target-id="CNX_UPhysics_25_01_Spherical"/>). Consta de dos capas esféricas conductoras concéntricas de radios <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> (capa interior) y <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> (capa exterior). Las capas tienen cargas iguales y opuestas <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow></m:math>, respectivamente. Por simetría, el campo eléctrico entre las capas está dirigido radialmente hacia fuera. Podemos obtener la magnitud del campo al aplicar la ley de Gauss sobre una superficie esférica gaussiana de radio <emphasis effect="italics">r</emphasis> concéntrica con las capas. La carga adjunta es <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math>; por lo tanto tenemos</para>
+<equation id="fs-id1167134443642" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∮</m:mo><m:mi>S</m:mi></m:munder><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131500461">Así, el campo eléctrico entre los conductores es</para>
+<equation id="fs-id1167131211655" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131413372">Sustituimos esto por <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> en la <link target-id="fs-id1167134513086"/> y se integran a lo largo de una trayectoria radial entre las capas:</para>
+<equation id="fs-id1167134885802" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mtext> </m:mtext><m:mi>d</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="true">∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134881106">En esta ecuación, la diferencia de potencial entre las placas es <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Sustituimos este resultado en la <link target-id="fs-id1167134569412"/> para calcular la capacitancia de un condensador esférico:</para>
+<note id="fs-id1167134666147" class="equation-callout">
+<equation id="fs-id1167134817239"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_25_01_Spherical">
+<media id="fs-id1167131171620" alt="La sección transversal de un condensador esférico se muestra en forma de dos círculos concéntricos. El radio del más pequeño es R subíndice 1 y el del más grande es R subíndice 2. El más pequeño tiene signos positivos y el más grande tiene signos negativos. Las flechas irradian desde el círculo interior hacia el exterior. Entre los dos, hay un tercer círculo, con radio r, que se muestra como una línea de puntos. Esto se denomina superficie gaussiana.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_spherical.jpg"/>
+</media>
+<caption>Un condensador esférico está formado por dos esferas conductoras concéntricas. Observe que las cargas de un conductor residen en su superficie.</caption>
+</figure>
+<example id="fs-id1167131490652">
+<para id="fs-id1167134972224"><title>Capacitancia de una esfera aislada</title>
+Calcule la capacitancia de una esfera conductora aislada de radio <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y compárela con la <link target-id="fs-id1167134817239"/> en el límite como <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>.</para>
+<para id="fs-id1167134685978"><title>Estrategia</title>
+Suponemos que la carga de la esfera es <emphasis effect="italics">Q</emphasis>, por lo que seguimos los cuatro pasos señalados anteriormente. También suponemos que el otro conductor es una esfera hueca concéntrica de radio infinito.</para>
+<para id="fs-id1167131276418"><title>Solución</title>
+En el exterior de una esfera conductora aislada, el campo eléctrico viene dado por la <link target-id="fs-id1167134513086"/>. La magnitud de la diferencia de potencial entre la superficie de una esfera aislada y el infinito es</para>
+<equation id="fs-id1167131431010" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mo>+</m:mo><m:mi>∞</m:mi></m:mrow></m:msubsup><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mo>+</m:mo><m:mi>∞</m:mi></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mo>+</m:mo><m:mi>∞</m:mi></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131129082">La capacitancia de una esfera aislada es por tanto</para>
+<equation id="fs-id1167131455121" class="unnumbered"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>Q</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mi>Q</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134564746"><title>Importancia</title>
+Se puede obtener el mismo resultado si se tima el límite de la <link target-id="fs-id1167134817239"/> como <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>. Una sola esfera aislada equivale, por tanto, a un condensador esférico cuya cubierta exterior tiene un radio infinitamente grande.</para>
+</example>
+<note id="fs-id1167131197454" class="check-understanding">
+<exercise id="fs-id1167134717572">
+<problem id="fs-id1167131136680">
+<para id="fs-id1167131511691">El radio de la esfera exterior de un condensador esférico es cinco veces el radio de su capa interior. ¿Cuáles son las dimensiones de este condensador si su capacitancia es de 5,00 pF?</para>
+</problem>
+<solution id="fs-id1167134664952">
+<para id="fs-id1167131145368">3,59 cm, 17,98 cm</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167131328595">
+<title>Condensador cilíndrico</title>
+<para id="fs-id1167134891527">Un condensador cilíndrico está formado por dos cilindros conductores concéntricos (<link target-id="CNX_UPhysics_25_01_Cylind"/>). El cilindro interior, de radio <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, puede ser una capa o ser completamente sólido. El cilindro exterior es una capa de radio interior <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. Suponemos que la longitud de cada cilindro es <emphasis effect="italics">l</emphasis> y que el exceso de cargas <m:math><m:mrow><m:mo>+</m:mo><m:mi>Q</m:mi></m:mrow></m:math> y <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>Q</m:mi></m:mrow></m:math> residen en los cilindros interior y exterior, respectivamente.</para>
+<figure id="CNX_UPhysics_25_01_Cylind">
+<media id="fs-id1167131257290" alt="La figura muestra dos cilindros concéntricos. El interior, con radio R1 tiene signos positivos. El exterior, de radio R2, tiene signos negativos. Las flechas marcadas con E se muestran irradiando desde el interior hacia el exterior. Un tercer cilindro, de radio r, se muestra como una línea punteada entre los dos. Esto se denomina superficie gaussiana.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_cylind.jpg"/>
+</media>
+<caption>Un condensador cilíndrico está formado por dos cilindros concéntricos conductores. Aquí, la carga en la superficie exterior del cilindro interior es positiva (indicada por <m:math><m:mo>+</m:mo></m:math>) y la carga en la superficie interior del cilindro exterior es negativa (indicada por <m:math><m:mo>−</m:mo></m:math>).</caption>
+</figure>
+<para id="fs-id1167134640707">Sin tener en cuenta los efectos de borde, el campo eléctrico entre los conductores se dirige radialmente hacia fuera desde el eje común de los cilindros. Si se utiliza la superficie gaussiana mostrada en la <link target-id="CNX_UPhysics_25_01_Cylind"/>, tenemos</para>
+<equation id="fs-id1167131618621" class="unnumbered"><label/><m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:munder><m:mo>∮</m:mo><m:mi>S</m:mi></m:munder><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>n</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167134917262">Por lo tanto, el campo eléctrico entre los cilindros es</para>
+<equation id="fs-id1167134611428"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mi>r</m:mi><m:mspace width="0.2em"/><m:mi>l</m:mi></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131183630">Aquí <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle></m:math> es el vector radial unitario a lo largo del radio del cilindro. Podemos sustituir en la <link target-id="fs-id1167134513086"/> y calcular la diferencia de potencial entre los cilindros:</para>
+<equation id="fs-id1167581499439" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>d</m:mi><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>l</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>p</m:mi></m:msub></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mi>l</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo>^</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mi>l</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mi>l</m:mi></m:mrow></m:mfrac><m:msubsup><m:mrow><m:mrow><m:mrow><m:mtext>dentro</m:mtext><m:mi>r</m:mi></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mi>l</m:mi></m:mrow></m:mfrac><m:mtext>dentro</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131328046">Así, la capacitancia de un condensador cilíndrico es</para>
+<note id="fs-id1167131513740" class="equation-callout">
+<equation id="fs-id1167131232459"><label/><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mi>l</m:mi></m:mrow><m:mrow><m:mtext>dentro</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167131117928">Como en otros casos, esta capacitancia depende únicamente de la geometría de la disposición de los conductores. Una aplicación importante de la <link target-id="fs-id1167131232459"/> es la determinación de la capacitancia por unidad de longitud de un <emphasis effect="italics">cable coaxial</emphasis>, que se utiliza habitualmente para transmitir señales eléctricas que varían en el tiempo. Un <term class="no-emphasis">cable coaxial</term> está formado por dos conductores cilíndricos concéntricos separados por un material aislante. (Aquí suponemos un vacío entre los conductores, pero la física es cualitativamente casi la misma cuando el espacio entre los conductores está relleno por un dieléctrico). Esta configuración protege la señal eléctrica que se propaga por el conductor interno de los campos eléctricos parásitos externos al cable. La corriente fluye en direcciones opuestas en los conductores interiores y exteriores, y el conductor exterior suele estar conectado a tierra. Ahora, a partir de la <link target-id="fs-id1167131232459"/>, la capacitancia por unidad de longitud del cable coaxial viene dada por</para>
+<equation id="fs-id1167131400654" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>C</m:mi><m:mi>l</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>dentro</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167131274390">En las aplicaciones prácticas, es importante seleccionar valores específicos de <emphasis effect="italics">C</emphasis>/<emphasis effect="italics">l</emphasis>. Esto puede lograrse con la elección adecuada de los radios de los conductores y del material aislante entre ellos.</para>
+<note id="fs-id1167134941083" class="check-understanding">
+<exercise id="fs-id1167131462066">
+<problem id="fs-id1167129962305">
+<para id="fs-id1167129962307">Cuando un condensador cilíndrico recibe una carga de 0,500 nC, se mide una diferencia de potencial de 20,0 V entre los cilindros. (a) ¿Cuál es la capacitancia de este sistema? (b) Si los cilindros tienen 1,0 m de longitud, ¿cuál es la relación de sus radios?</para>
+</problem>
+<solution id="fs-id1167131428774">
+<para id="fs-id1167134884072">a. 25,0 pF; b. 9,2</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1167131223401">En la <link target-id="CNX_UPhysics_25_01_Capacitor"/>se muestran varios tipos de condensadores prácticos. Los condensadores comunes suelen estar formados por dos pequeños trozos de lámina de metal separados por dos pequeños trozos de aislamiento (vea la <link target-id="CNX_UPhysics_25_01_Battery"/>(b)). La lámina de metal y el aislamiento están envueltos en una capa protectora, y se utilizan dos cables de metal para conectar las láminas a un circuito externo. Algunos materiales aislantes comunes son la mica, la cerámica, el papel y el revestimiento antiadherente de Teflon™.</para>
+<para id="fs-id1167131588580">Otro tipo popular de condensador es el <term class="no-emphasis">condensador electrolítico</term>. Está compuesto por un metal oxidado en una pasta conductora. La principal ventaja de un condensador electrolítico es su alta capacitancia en relación con otros tipos comunes de condensadores. Por ejemplo, la capacitancia de un tipo de condensador electrolítico de aluminio puede llegar a ser de 1,0 F. Sin embargo, hay que tener cuidado al utilizarlo en un circuito, porque solo funciona correctamente cuando la lámina de metal está a un potencial más alto que la pasta conductora. Cuando se produce la polarización inversa, la acción electrolítica destruye la película de óxido. Este tipo de condensador no puede conectarse a través de una fuente de corriente alterna, porque la mitad de las veces, el voltaje alterno tendría la polaridad equivocada, ya que la corriente alterna invierte su polaridad (ver <link document="m90932">Circuitos de corriente alterna</link> en circuitos de corriente alterna).</para>
+<para id="fs-id1167131337304">Un <term class="no-emphasis">condensador variable de aire</term> (<link target-id="CNX_UPhysics_25_01_Variable"/>) tiene dos conjuntos de placas paralelas. Un conjunto de placas es fijo (indicado como "estator") y el otro conjunto de placas está unido a un eje que puede girar (indicado como "rotor"). Al girar el eje, se puede cambiar el área de la sección transversal en la superposición de las placas; por lo tanto, la capacitancia de este sistema se puede ajustar a un valor deseado. La sintonización de condensadores tiene aplicaciones en cualquier tipo de transmisión de radio y en la recepción de señales de radio de dispositivos electrónicos. Cada vez que sintonice la radio de su automóvil en su emisora favorita, piense en la capacitancia.</para>
+<figure id="CNX_UPhysics_25_01_Variable">
+<media id="fs-id1167134588456" alt="Se muestra una fotografía de un dispositivo con componentes discretos. Un componente es el condensador variable de aire. Tiene dos partes, un estator y un rotor. El estator tiene placas de metal paralelas y está fijado al aparato. El rotor tiene placas de metal paralelas unidas a un eje. El estator y el rotor están dispuestos de manera que sus placas se apilan alternativamente.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_variable.jpg"/>
+</media>
+<caption>En un condensador variable de aire la capacitancia se puede ajustar al cambiar el área efectiva de las placas (créditos: modificación del trabajo de Robbie Sproule).</caption>
+</figure>
+<para id="fs-id1167134567944">Los símbolos mostrados en la <link target-id="CNX_UPhysics_25_01_Circuitrep"/> son representaciones de circuitos de varios tipos de condensadores. Por lo general, utilizamos el símbolo que aparece en la <link target-id="CNX_UPhysics_25_01_Circuitrep"/>(a). El símbolo en la <link target-id="CNX_UPhysics_25_01_Circuitrep"/>(c) representa un condensador de capacitancia variable. Observe la similitud de estos símbolos con la simetría de un condensador de placas paralelas. Un condensador electrolítico se representa con el símbolo de la parte de la <link target-id="CNX_UPhysics_25_01_Circuitrep"/>(b), donde la placa curva indica el terminal negativo.</para>
+<figure id="CNX_UPhysics_25_01_Circuitrep">
+<media id="fs-id1167131443980" alt="La figura a muestra dos líneas verticales. La figura b muestra una línea vertical a la izquierda y otra, ligeramente curvada, a la derecha. La figura c muestra dos líneas verticales y una flecha que las atraviesa en diagonal. En todas las figuras, cada línea está conectada a una línea horizontal en el exterior.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_circuitrep.jpg"/>
+</media>
+<caption>Esto muestra tres representaciones de circuitos diferentes de condensadores. El símbolo de (a) es el más utilizado. El símbolo en (b) representa un condensador electrolítico. El símbolo en (c) representa un condensador de capacitancia variable.</caption>
+</figure>
+<para id="fs-id1167134962375">Un interesante ejemplo aplicado de un modelo de condensador proviene de la biología celular y trata del potencial eléctrico en la membrana plasmática de una célula viva (<link target-id="CNX_UPhysics_25_01_Membrane"/>). Las <term class="no-emphasis">membranas celulares</term> separan las células de su entorno, pero permiten que algunos iones seleccionados entren o salgan de la célula. La diferencia de potencial a través de una membrana es de unos 70 mV. La membrana celular puede tener un grosor de 7 a 10 nm. Al tratar la membrana celular como un nano condensador, la estimación de la intensidad de campo eléctrico más pequeña a través de sus "placas" arroja el valor <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>V</m:mtext></m:mrow><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>V/m</m:mtext><m:mspace width="0.2em"/><m:mo>&gt;</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>MV/m</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167131120285">Esta magnitud de campo eléctrico es lo suficientemente grande como para crear una chispa eléctrica en el aire.</para>
+<figure id="CNX_UPhysics_25_01_Membrane">
+<media id="fs-id1167131358206" alt="La figura muestra una membrana celular con signos negativos en el límite interior y signos positivos en el límite exterior. Los iones de cloruro están fuera de la célula. La difusión los mueve hacia la célula mientras que la fuerza de Coulomb se muestra apuntando hacia afuera. Se muestran algunos iones de cloruro atravesando la membrana hacia el interior. Los iones de potasio se muestran dentro de la célula. La difusión los desplaza hacia fuera, hacia la membrana, mientras que la fuerza de Coulomb se muestra hacia dentro. Se muestran algunos iones de potasio pasando la membrana hacia el exterior. Los iones de sodio están fuera de la célula. Tanto la fuerza de Coulomb como la difusión se muestran apuntando hacia la célula. Se muestran algunos iones de sodio dentro de la célula.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_25_01_membrane.jpg"/>
+</media>
+<caption>La membrana semipermeable de una célula biológica tiene diferentes concentraciones de iones en su superficie interior que en la exterior. La difusión mueve el <m:math><m:mrow><m:msup><m:mtext>K</m:mtext><m:mtext>+</m:mtext></m:msup></m:mrow></m:math> (potasio) y <m:math><m:mrow><m:msup><m:mrow><m:mtext>Cl</m:mtext></m:mrow><m:mtext>–</m:mtext></m:msup></m:mrow></m:math> (cloruro) en las direcciones indicadas, hasta que la fuerza de Coulomb detiene la transferencia. De esta manera, el exterior de la membrana adquiere una carga positiva y su superficie interior adquiere una carga negativa, creando una diferencia de potencial a través de la membrana. Esta es normalmente impermeable a Na+ (iones de sodio).</caption>
+</figure>
+<note id="fs-id1167131498119" class="media-2">
+<para id="fs-id1167134964435">Visite las <link url="https://openstax.org/l/21phetcapacitor_es">Exploraciones de PhET: Laboratorio de condensadores</link> para explorar cómo funciona un condensador. Cambie el tamaño de las placas y añada un dieléctrico para ver el efecto en la capacitancia. Cambie el voltaje y vea las cargas acumuladas en las placas. Observe el campo eléctrico en el condensador. Mida el voltaje y el campo eléctrico.</para>
+</note>
+</section>
+<section id="fs-id1167131619390" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167131201116" list-type="bulleted" bullet-style="bullet">
+<item>Un condensador es un dispositivo que almacena una carga eléctrica y energía eléctrica. La cantidad de carga que puede almacenar un condensador de vacío depende de dos factores principales: el voltaje aplicado y las características físicas del condensador, como su tamaño y geometría.</item>
+<item>La capacitancia de un condensador es un parámetro que nos indica la cantidad de carga que se puede almacenar en él por unidad de diferencia de potencial entre sus placas. La capacitancia de un sistema de conductores depende únicamente de la geometría de su disposición y de las propiedades físicas del material aislante que rellena el espacio entre los conductores. La unidad de capacitancia es el faradio, donde <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>F</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>C</m:mtext><m:mtext>/</m:mtext><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>V</m:mtext><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</section>
+<section id="fs-id1167131544231" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167134951014">
+<problem id="fs-id1167134951016">
+<para id="fs-id1167131231579">¿La capacitancia de un dispositivo depende del voltaje aplicado? ¿La capacitancia de un dispositivo depende de la carga que reside en él?</para>
+</problem>
+<solution id="fs-id1167134713174">
+<para id="fs-id1167134713176">no; sí</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134861259">
+<problem id="fs-id1167134686954">
+<para id="fs-id1167134686956">¿Colocaría las placas de un condensador de placas paralelas más juntas o más separadas para aumentar su capacitancia?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131619977">
+<problem id="fs-id1167134878329">
+<para id="fs-id1167131580819">El valor de la capacitancia es cero si las placas no están cargadas. ¿Verdadero o falso?</para>
+</problem>
+<solution id="fs-id1167134640643">
+<para id="fs-id1167134593234">falso</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131110835">
+<problem id="fs-id1167134467414">
+<para id="fs-id1167131523529">Si las placas de un condensador tienen áreas diferentes, ¿adquirirán la misma carga cuando el condensador esté conectado a una batería?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131400513">
+<problem id="fs-id1167131400516">
+<para id="fs-id1167131205196">¿La capacitancia de un condensador esférico depende de la carga positiva o negativa de la esfera?</para>
+</problem>
+<solution id="fs-id1167131589202">
+<para id="fs-id1167131589204">no</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167131113798" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167131409222">
+<problem id="fs-id1167134946212">
+<para id="fs-id1167134922069">¿Qué carga se almacena en un condensador de <m:math><m:mrow><m:mn>180,0</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> cuando se le aplican 120,0 V?</para>
+</problem>
+<solution id="fs-id1167131204478">
+<para id="fs-id1167131204480">21,6 mC</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134823022">
+<problem id="fs-id1167134734984">
+<para id="fs-id1167134734986">Calcule la carga almacenada cuando se aplican 5,50 V a un condensador de 8,00 pF.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131581152">
+<problem id="fs-id1167134812768">
+<para id="fs-id1167134812770">Calcule el voltaje aplicado a un condensador de <m:math><m:mrow><m:mn>2,00</m:mn><m:mtext>-</m:mtext><m:mi>μ</m:mi><m:mtext>F</m:mtext></m:mrow></m:math> cuando mantiene <m:math><m:mrow><m:mn>3,10</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> de carga.</para>
+</problem>
+<solution id="fs-id1167131259354">
+<para id="fs-id1167131499293">1,55 V</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134700943">
+<problem id="fs-id1167134700945">
+<para id="fs-id1167130006724">¿Qué voltaje debe aplicarse a un condensador de 8,00 nF para almacenar 0,160 mC de carga?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131181095">
+<problem id="fs-id1167131181097">
+<para id="fs-id1167134812725">¿Qué capacitancia se necesita para almacenar <m:math><m:mrow><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:math> de carga a un voltaje de 120 V?</para>
+</problem>
+<solution id="fs-id1167134569405">
+<para id="fs-id1167131141374">25,0 nF</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131232354">
+<problem id="fs-id1167131232356">
+<para id="fs-id1167131126966">¿Cuál es la capacitancia del terminal de un gran generador Van de Graaff, dado que almacena 8,00 mC de carga a un voltaje de 12,0 MV?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167131183747">
+<problem id="fs-id1167131183749">
+<para id="fs-id1167134535829">Las placas de un condensador de placas paralelas vacío de capacitancia 5,0 pF están separadas 2,0 mm. ¿Cuál es el área de cada placa?</para>
+</problem>
+<solution id="fs-id1167134758897">
+<para id="fs-id1167134758899"><m:math><m:mrow><m:mn>1,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167131255736">
+<problem id="fs-id1167134896007">
+<para id="fs-id1167134896009">Un condensador de vacío de 60,0 pF tiene un área de placa de <m:math><m:mrow><m:mn>0,010</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. ¿Cuál es la separación entre sus placas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134512894">
+<problem id="fs-id1167131238303">
+<para id="fs-id1167131190760">Un conjunto de placas paralelas tiene una capacitancia de <m:math><m:mrow><m:mn>5,0</m:mn><m:mtext>µ</m:mtext><m:mtext>F</m:mtext></m:mrow></m:math>. ¿Cuánta carga hay que añadir a las placas para aumentar la diferencia de potencial entre ellas en 100 V?</para>
+</problem>
+<solution id="fs-id1167131218450">
+<para id="fs-id1167131218452">500 <emphasis effect="italics">µ</emphasis>C</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134520392">
+<problem id="fs-id1167134945357">
+<para id="fs-id1167131274486">Considere que la Tierra es un conductor esférico de radio 6.400 km y calcule su capacitancia.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167134966959">
+<problem id="fs-id1167131473146">
+<para id="fs-id1167131457571">Si la capacitancia por unidad de longitud de un condensador cilíndrico es de 20 pF/m, ¿cuál es la relación de los radios de los dos cilindros?</para>
+</problem>
+<solution id="fs-id1167134567012">
+<para id="fs-id1167131257090">1:16</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167134511144">
+<problem id="fs-id1167134511146">
+<para id="fs-id1167131211775">Un condensador de placas paralelas vacío tiene una capacitancia de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mo>µ</m:mo><m:mtext>F</m:mtext></m:mrow></m:math>. ¿Cuánta carga debe escaparse de sus placas para que el voltaje a través de ellas se reduzca en 100 V?</para>
+</problem>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167134725627">
+<term>capacitancia</term>
+<meaning id="fs-id1167131151276">cantidad de carga almacenada por unidad de voltios</meaning>
+</definition>
+<definition id="fs-id1167134884739">
+<term>condensador</term>
+<meaning id="fs-id1167134515054">dispositivo que almacena carga eléctrica y energía eléctrica</meaning>
+</definition>
+<definition id="fs-id1167131133162">
+<term>dieléctrico</term>
+<meaning id="fs-id1167134884594">material aislante utilizado para rellenar el espacio entre dos placas</meaning>
+</definition>
+<definition id="fs-id1167134626997">
+<term>condensador de placas paralelas</term>
+<meaning id="fs-id1167134941924">sistema de dos placas conductoras paralelas idénticas separadas por una distancia</meaning>
+</definition>
+</glossary>
+</document>

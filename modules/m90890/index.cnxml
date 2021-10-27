@@ -1,0 +1,552 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Resistividad y resistencia</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90890</md:content-id>
+  <md:title>Resistividad y resistencia</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Diferenciar entre resistencia y resistividad.</item>
+<item>Definir el término conductividad.</item>
+<item>Describir el componente eléctrico conocido como resistor.</item>
+<item>Indicar la relación entre la resistencia de un resistor y su longitud, el área de la sección transversal y la resistividad.</item>
+<item>Indicar la relación entre resistividad y temperatura.</item>
+</list></md:abstract>
+  <md:uuid>5cfcf642-a845-4590-b797-7786d04f1ebf</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170902247299">¿Qué impulsa la corriente? Podemos pensar en varios dispositivos (como baterías, generadores, tomas de corriente, etc.) que son necesarios para mantener una corriente. Todos estos dispositivos crean una diferencia de potencial y se denominan fuentes de voltaje. Cuando una fuente de voltaje se conecta a un conductor, aplica una diferencia de potencial <emphasis effect="italics">V</emphasis> que crea un campo eléctrico. El campo eléctrico, a su vez, ejerce fuerza sobre las cargas libres, provocando la corriente. La cantidad de corriente no solo depende de la magnitud del voltaje, sino también de las características del material por el que circula la corriente. El material puede resistir el flujo de las cargas, y la medida de cuánto resiste un material el flujo de cargas se conoce como <emphasis effect="italics">resistividad</emphasis>. Esta resistividad es aproximadamente análoga a la fricción entre dos materiales que se resisten al movimiento.</para>
+<section id="fs-id1170902101646"><title>Resistividad</title><para id="fs-id1170904071735">Cuando se aplica un voltaje a un conductor, se crea un campo eléctrico <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> y las cargas en el conductor sienten una fuerza debida al campo eléctrico. La densidad de corriente <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> que resulta depende del campo eléctrico y de las propiedades del material. Esta dependencia puede ser muy compleja. En algunos materiales, incluidos los metales a una temperatura determinada, la densidad de corriente es aproximadamente proporcional al campo eléctrico. En estos casos, la densidad de corriente puede modelarse como</para>
+<equation id="fs-id1170902091058" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>σ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mo>,</m:mo></m:math></equation>
+<para id="fs-id1170902196879">donde <m:math><m:mi>σ</m:mi></m:math> es la <term>conductividad eléctrica</term>. La conductividad eléctrica es análoga a la conductividad térmica y es una medida de la capacidad de un material para conducir o transmitir electricidad. Los conductores tienen una mayor conductividad eléctrica que los aislantes. Dado que la conductividad eléctrica es <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mi>J</m:mi><m:mtext>/</m:mtext><m:mi>E</m:mi></m:mrow></m:math>, las unidades son</para>
+<equation id="fs-id1170902341973" class="unnumbered"><label/><m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>[</m:mo><m:mi>J</m:mi><m:mo>]</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>[</m:mo><m:mi>E</m:mi><m:mo>]</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mtext>A/m</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mtext>V/m</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mtext>A</m:mtext><m:mrow><m:mtext>V</m:mtext><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>.</m:mo></m:math></equation>
+<para id="fs-id1170902286743">Aquí definimos una unidad llamada <term>ohmio</term> con el símbolo griego omega en mayúscula, <m:math><m:mtext>Ω</m:mtext></m:math>. La unidad lleva el nombre de Georg Simon Ohm, de quien hablaremos más adelante en este capítulo. El <m:math><m:mtext>Ω</m:mtext></m:math> se utiliza para evitar la confusión con el número 0. Un ohmio equivale a un voltio por amperio <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>V/A</m:mtext></m:mrow></m:math>. Por lo tanto, las unidades de conductividad eléctrica son <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math>.</para><para id="fs-id1170902366254">La conductividad es una propiedad intrínseca de un material. Otra propiedad intrínseca de un material es la <term>resistividad</term>, o resistencia eléctrica. La resistividad de un material es una medida de la fuerza con la que un material se opone al flujo de la corriente eléctrica. El símbolo de la resistividad es la letra griega minúscula rho, <m:math><m:mi>ρ</m:mi></m:math>, y la resistividad es el recíproco de la conductividad eléctrica:</para>
+<equation id="fs-id1170903886090" class="unnumbered"><label/><m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>σ</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902088859">La unidad de resistividad en unidades del SI es el ohmímetro <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Podemos definir la resistividad en función del campo eléctrico y de la densidad de corriente,</para>
+<note id="fs-id1170902304226" class="equation-callout">
+<equation id="fs-id1170902437828"><m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>E</m:mi><m:mi>J</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902090732">Cuanto mayor sea la resistividad, mayor será el campo necesario para producir una determinada densidad de corriente. Cuanto menor sea la resistividad, mayor será la densidad de corriente producida por un campo eléctrico determinado. Los buenos conductores tienen una alta conductividad y una baja resistividad. Los buenos aislantes tienen una baja conductividad y una alta resistividad. La <link target-id="fs-id1170904007386"/> enumera los valores de resistividad y conductividad de varios materiales.</para>
+<table id="fs-id1170904007386" summary="No Summary"><title>Resistividades y conductividades de varios materiales a 20 °C</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Material</entry>
+<entry valign="top" align="left">Conductividad, <m:math><m:mi>σ</m:mi></m:math><newline/><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">Resistividad, <m:math><m:mi>ρ</m:mi></m:math><newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Coeficiente de<newline/>temperatura, <m:math><m:mi>α</m:mi></m:math><newline/><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="italics">Conductores</emphasis></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Plata</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>6,29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,59</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0,0038</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Cobre</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>5,95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0,0039</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Oro</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4,10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2,44</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0,0034</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Aluminio</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3,77</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2,65</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0,0039</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Tungsteno</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,79</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>5,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0,0045</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hierro</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,03</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>9,71</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0,0065</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Platino</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0,94</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>10,60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0,0039</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Acero</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>20,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Plomo</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0,45</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>22,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Manganina (aleación de Cu, Mn, Ni)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0,21</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>48,20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0,000002</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Constantán (aleación de Cu y Ni)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0,20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>49,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0,00003</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mercurio</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0,10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>98,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0,0009</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Nicromo (aleación de Ni, Fe, Cr)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0,10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>100,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">0,0004</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="italics">Semiconductores</emphasis>[1]</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Carbono (puro)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2,86</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3,50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−5</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">−0,0005</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Carbono</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,86</m:mn><m:mo>−</m:mo><m:mn>1,67</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−6</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,5</m:mn><m:mo>−</m:mo><m:mn>60</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−5</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">−0,0005</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Germanio (puro)</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>600</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">-0,048</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Germanio</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>600</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left">−0,050</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Silicio (puro)</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">2.300</entry>
+<entry valign="top" align="left">-0,075</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Silicio</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>0,1</m:mn><m:mo>−</m:mo><m:mn>2.300</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">-0,07</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="italics">Aislantes</emphasis></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ámbar</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>2,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−15</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>14</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Vidrio</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>−9</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>−14</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>9</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>14</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Leucita</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>&lt;</m:mtext><m:msup><m:mn>10</m:mn><m:mn>−13</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>&gt;</m:mtext><m:msup><m:mn>10</m:mn><m:mn>13</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mica</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>−11</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>−15</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>11</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>15</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Cuarzo (fundido)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1,33</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>–18</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>16</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Goma (dura)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>−13</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>−16</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>13</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>16</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Azufre</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>−15</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>15</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Teflon<sup>TM</sup></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>&lt;</m:mtext><m:msup><m:mn>10</m:mn><m:mn>−13</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>&gt;</m:mtext><m:msup><m:mn>10</m:mn><m:mn>13</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Madera</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>−8</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>−11</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mn>10</m:mn><m:mn>11</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+</tbody>
+
+
+</tgroup><caption>[1] Los valores dependen en gran medida de las cantidades y los tipos de impurezas.</caption>
+</table><para id="fs-id1170902043469">Los materiales que figuran en la tabla se dividen en categorías de conductores, semiconductores y aislantes, en función de amplias agrupaciones de resistividad. Los conductores tienen la menor resistividad y los aislantes la mayor; los semiconductores tienen una resistividad intermedia. Los conductores tienen densidades de carga libres, variables pero grandes, mientras que la mayoría de las cargas de los aislantes están ligadas a los átomos y no son libres de moverse. Los semiconductores son intermedios, ya que tienen muchas menos cargas libres que los conductores, pero tienen propiedades que hacen que el número de cargas libres dependa en gran medida del tipo y la cantidad de impurezas del semiconductor. Estas propiedades únicas de los semiconductores se utilizan en la electrónica moderna, como veremos en capítulos posteriores.</para>
+
+<note id="fs-id1170902236548" class="check-understanding">
+<exercise id="fs-id1170903869133">
+<problem id="fs-id1170903869136">
+<para id="fs-id1170902275630">Los cables de cobre se utilizan habitualmente para los cables alargadores y el cableado doméstico por varias razones. El cobre tiene el mayor índice de conductividad eléctrica y, por tanto, el menor índice de resistividad de todos los metales no preciosos. También es importante la resistencia a la tracción, donde esta es una medida de la fuerza necesaria para tirar de un objeto hasta el punto de que se rompa. La resistencia a la tracción de un material es la cantidad máxima de tensión de tracción que puede soportar antes de romperse. El cobre tiene una gran resistencia a la tracción, <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mfrac><m:mtext>N</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>. Una tercera característica importante es la ductilidad. La ductilidad es una medida de la capacidad de un material para formar cables y una medida de la flexibilidad del material, y el cobre tiene una alta ductilidad. En resumen, para que un conductor sea un candidato adecuado para fabricar cables, hay al menos tres características importantes: baja resistividad, alta resistencia a la tracción y alta ductilidad. ¿Qué otros materiales se utilizan para el cableado y cuáles son las ventajas e inconvenientes?</para>
+</problem>
+<solution id="fs-id1170904244725">
+<para id="fs-id1170904244728">La plata, el oro y el aluminio se utilizan para fabricar cables. Los cuatro materiales tienen una alta conductividad, siendo la plata la más alta. Los cuatro se pueden estirar fácilmente en forma de cables y tienen una gran resistencia a la tracción, aunque no tan alta como el cobre. La desventaja obvia del oro y la plata es el costo, pero los cables de plata y oro se utilizan para aplicaciones especiales, como los cables de los altavoces. El oro no se oxida, lo que hace que las conexiones entre los componentes sean mejores. Los cables de aluminio tienen sus inconvenientes. El aluminio tiene una mayor resistividad que el cobre, por lo que se necesita un mayor diámetro para igualar la resistencia por longitud de los cables de cobre, pero el aluminio es más barato que el cobre, por lo que no es un gran inconveniente. Los cables de aluminio no tienen una ductilidad y una resistencia a la tracción tan altas como las del cobre, pero la ductilidad y la resistencia a la tracción están dentro de los niveles aceptables. Hay algunas preocupaciones que deben abordarse en el uso de aluminio y se debe tener cuidado al hacer las conexiones. El aluminio tiene una mayor tasa de dilatación térmica que el cobre, lo que puede provocar conexiones sueltas y un posible riesgo de incendio. La oxidación del aluminio no conduce y puede causar problemas. Hay que utilizar técnicas especiales cuando se utilizan cables de aluminio y los componentes, como las tomas de corriente, deben estar diseñados para aceptar cables de aluminio.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1170902207159" class="media-2">
+<para id="fs-id1170902291331">Vea esta <link url="https://openstax.org/l/21resistwire_es">simulación interactiva</link> para ver cuáles son los efectos del área de la sección transversal, la longitud y la resistividad de un cable en la resistencia de un conductor. Ajuste las variables utilizando las barras de deslizamiento y observe si la resistencia se hace más pequeña o más grande.</para>
+</note>
+</section><section id="fs-id1170902190824">
+<title>Dependencia de la temperatura de la resistividad</title>
+<para id="fs-id1170902190830">Volviendo a mirar la <link target-id="fs-id1170904007386"/>, verá una columna identificada como “coeficiente de temperatura”. La resistividad de algunos materiales tiene una fuerte dependencia de la temperatura. En algunos materiales, como el cobre, la resistividad aumenta con el aumento de la temperatura. De hecho, en la mayoría de los metales conductores, la resistividad aumenta con el incremento de la temperatura. El aumento de la temperatura provoca un incremento de las vibraciones de los átomos en la estructura reticular de los metales, lo que impide el movimiento de los electrones. En otros materiales, como el carbono, la resistividad disminuye al aumentar la temperatura. En muchos materiales, la dependencia es aproximadamente lineal y puede modelarse mediante una ecuación lineal:</para>
+<note id="fs-id1170902167483" class="equation-callout">
+<equation id="fs-id1170902167487"><m:math><m:mrow><m:mi>ρ</m:mi><m:mo>≈</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902277237">donde <m:math><m:mi>ρ</m:mi></m:math> es la resistividad del material a la temperatura <emphasis effect="italics">T</emphasis>, <m:math><m:mi>α</m:mi></m:math> es el coeficiente de temperatura del material y <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la resistividad en <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math>, que suele tomarse como <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>20,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1170902289983">Observe también que el coeficiente de temperatura <m:math><m:mi>α</m:mi></m:math> es negativo para los semiconductores enumerados en la <link target-id="fs-id1170904007386"/>, lo que significa que su resistividad disminuye al aumentar la temperatura. Se convierten en mejores conductores a mayor temperatura, porque el aumento de la agitación térmica incrementa el número de cargas libres disponibles para transportar la corriente. Esta propiedad de disminuir <m:math><m:mi>ρ</m:mi></m:math> con la temperatura también está relacionada con el tipo y la cantidad de impurezas presentes en los semiconductores.</para>
+</section>
+<section id="fs-id1170902166213">
+<title>Resistencia</title>
+<para id="fs-id1170902101661">Ahora consideramos la resistencia de un cable o componente. La resistencia es una medida de la dificultad para hacer pasar la corriente a través de un cable o componente; y depende de la resistividad. La resistividad es una característica del material utilizado para fabricar un cable u otro componente eléctrico, mientras que la resistencia es una característica del cable o del componente.</para>
+<para id="fs-id1170904008039">Para calcular la resistencia, considere una sección de cable conductor con un área transversal <emphasis effect="italics">A</emphasis>, una longitud <emphasis effect="italics">L</emphasis> y una resistividad <m:math><m:mi>ρ</m:mi><m:mo>.</m:mo></m:math> Se conecta una batería a través del conductor, proporcionando una diferencia de potencial <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math> a través de ella (<link target-id="CNX_UPhysics_26_03_Resistance"/>). La diferencia de potencial produce un campo eléctrico que es proporcional a la densidad de corriente, según <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>J</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_26_03_Resistance">
+<media id="fs-id1170902166722" alt="La imagen es un dibujo esquemático de una batería conectada a un conductor con el área de la sección transversal A. La corriente fluye desde el lado de alto potencial al lado de bajo potencial del conductor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_Resistance.jpg"/>
+</media>
+<caption>Un potencial proporcionado por una batería se aplica a un segmento de un conductor con un área de sección transversal <emphasis effect="italics">A</emphasis> y una longitud <emphasis effect="italics">L</emphasis>.</caption>
+</figure>
+<para id="fs-id1170902142896">La magnitud del campo eléctrico a través del segmento del conductor es igual al voltaje dividido entre la longitud, <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>L</m:mi></m:mrow></m:mrow></m:math>, y la magnitud de la densidad de corriente es igual a la corriente dividida entre el área de la sección transversal, <m:math><m:mrow><m:mi>J</m:mi><m:mo>=</m:mo><m:mrow><m:mi>I</m:mi><m:mtext>/</m:mtext><m:mrow><m:mi>A</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math> Utilizando esta información y recordando que el campo eléctrico es proporcional a la resistividad y a la densidad de corriente, podemos ver que el voltaje es proporcional a la corriente:</para>
+<equation id="fs-id1170904154734" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>J</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mi>V</m:mi><m:mi>L</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>I</m:mi><m:mi>A</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>V</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>I</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<note id="fs-id1170902233189">
+<title>Resistencia</title>
+<para id="fs-id1170902256794">La relación entre el voltaje y la corriente se define como la <term>resistencia</term> <emphasis effect="italics">R</emphasis>:</para>
+<equation id="fs-id1170902153167"><m:math><m:mrow><m:mi>R</m:mi><m:mo>≡</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>I</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902568442">La resistencia del segmento cilíndrico de un conductor es igual a la resistividad del material por la longitud dividida entre el área:</para>
+<equation id="fs-id1170903794024"><m:math><m:mrow><m:mi>R</m:mi><m:mo>≡</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>I</m:mi></m:mfrac><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902284213">La unidad de resistencia es el ohmio, <m:math><m:mtext>Ω</m:mtext></m:math>. Para un voltaje determinado, cuanto mayor sea la resistencia, menor será la corriente.</para>
+<section id="fs-id1170902197997">
+<title>Resistores</title>
+<para id="fs-id1170902139275">Un componente común en los circuitos electrónicos es el resistor. Este puede utilizarse para reducir el flujo de corriente o proporcionar una caída de voltaje. La <link target-id="CNX_UPhysics_26_03_ResistorSym"/> muestra los símbolos utilizados para un resistor en los diagramas esquemáticos de un circuito. El Instituto Nacional Estadounidense de Estándares (American National Standard Institute, ANSI) y la Comisión Electrotécnica Internacional (International Electrotechnical Commission, IEC) ofrecen dos normas de uso común para los diagramas de circuitos. Ambos sistemas se utilizan habitualmente. En este texto utilizamos la norma ANSI por su reconocimiento visual, pero observamos que para circuitos más grandes y complejos, la norma IEC puede tener una presentación más limpia, lo que facilita su lectura.</para>
+<figure id="CNX_UPhysics_26_03_ResistorSym">
+<media id="fs-id1170904233616" alt="La figura A muestra el símbolo ANSI de un resistor. La figura B muestra el símbolo IEC para un resistor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_ResistorSym.jpg"/>
+</media>
+<caption>Los símbolos de un resistor utilizados en los diagramas de circuitos. (a) El símbolo ANSI; (b) el símbolo IEC.</caption>
+</figure>
+</section>
+<section id="fs-id1170902151904"><title>Dependencia del material y la forma de la resistencia</title><para id="fs-id1170904257874">Un resistor se puede modelar como un cilindro con una sección transversal <emphasis effect="italics">A</emphasis> y una longitud <emphasis effect="italics">L</emphasis>, hecha de un material con una resistividad <m:math><m:mi>ρ</m:mi></m:math> (<link target-id="CNX_UPhysics_26_03_Cylinder"/>). La resistencia del resistor es <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_26_03_Cylinder">
+<media id="fs-id1170904067766" alt="La imagen es un dibujo esquemático de un resistor. Se trata de un cilindro uniforme de longitud L y sección transversal A.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_Cylinder.jpg"/>
+</media>
+<caption>Modelo de un resistor como un cilindro uniforme de longitud <emphasis effect="italics">L</emphasis> y área de sección transversal <emphasis effect="italics">A</emphasis>. Su resistencia al flujo de corriente es análoga a la resistencia que presenta una tubería al flujo de un fluido. Cuanto más largo sea el cilindro, mayor será su resistencia. Cuanto mayor sea su sección transversal <emphasis effect="italics">A</emphasis>, menor será su resistencia.</caption>
+</figure>
+<para id="fs-id1170900497975">El material más utilizado para fabricar un resistor es el carbono.  Se envuelve una línea de carbono alrededor de un núcleo de cerámica, y se unen dos cables de cobre. Un segundo tipo de resistor es el de película de metal, que también tiene un núcleo cerámico. La línea está hecha de un material de óxido de metal, que tiene propiedades semiconductoras similares a las del carbono. Una vez más, los cables de cobre se insertan en los extremos del resistor. El resistor se pinta y se marca para su identificación. Un resistor tiene cuatro bandas de color, como se muestra en la <link target-id="CNX_UPhysics_26_03_Resistor"/>.</para>
+<figure id="CNX_UPhysics_26_03_Resistor">
+<media id="fs-id1170904243888" alt="La imagen es un dibujo esquemático de un resistor. Contiene cuatro bandas de color: rojo, negro, verde y gris.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_Resistor.jpg"/>
+</media>
+<caption>Muchos resistores se asemejan a la figura anterior. Las cuatro bandas sirven para identificar el resistor. Las dos primeras bandas de color representan los dos primeros dígitos de la resistencia del resistor. El tercer color es el multiplicador. El cuarto color representa la tolerancia del resistor. El que se muestra tiene una resistencia de <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mtext>±</m:mtext><m:mspace width="0.2em"/><m:mn>10</m:mn><m:mtext>%</m:mtext></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1170902099762">Las resistencias varían en muchos órdenes de magnitud. Algunos aislantes cerámicos, como los utilizados para soportar las líneas eléctricas, tienen resistencias de <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> o más. Una persona seca puede tener una resistencia mano-pie de <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, mientras que la resistencia del corazón humano es de aproximadamente <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. Un trozo de cable de cobre de gran diámetro de un metro de longitud puede tener una resistencia de <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, y los superconductores no tienen ninguna resistencia a bajas temperaturas. Como hemos visto, la resistencia está relacionada con la forma de un objeto y el material del que está compuesto.</para>
+<example id="fs-id1170902043472">
+<para id="fs-id1170904138987"><title>Densidad de corriente, resistencia y campo eléctrico para un cable conductor de corriente</title>
+Calcule la densidad de corriente, la resistencia y el campo eléctrico de un cable de cobre de 5 m de longitud con un diámetro de 2,053 mm (calibre 12) que transporta una corriente de <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>mA</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1170902234200"><title>Estrategia</title>
+Podemos calcular la densidad de corriente encontrando primero el área de la sección transversal del cable, que es <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>3,31</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>mm</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> y la definición de densidad de corriente <m:math><m:mrow><m:mi>J</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>I</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math>. La resistencia se puede calcular utilizando la longitud del cable <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, el área y la resistividad del cobre <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>1,68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>, donde <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math>. La resistividad y la densidad de corriente pueden utilizarse para hallar el campo eléctrico.</para>
+<para id="fs-id1170904051096"><title>Solución</title>
+En primer lugar, calculamos la densidad de corriente:</para>
+<equation id="fs-id1170904173988" class="unnumbered"><label/><m:math><m:mrow><m:mi>J</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>I</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>A</m:mtext></m:mrow><m:mrow><m:mn>3,31</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3,02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mfrac><m:mtext>A</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902239750">La resistencia del cable es</para>
+<equation id="fs-id1170904058178" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1,68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mfrac><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>3,31</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,025</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902150008">Finalmente, podemos calcular el campo eléctrico:</para>
+<equation id="fs-id1170902286907" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mi>J</m:mi><m:mo>=</m:mo><m:mn>1,68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3,02</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mfrac><m:mtext>A</m:mtext><m:mrow><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5,07</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mfrac><m:mtext>V</m:mtext><m:mtext>m</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902350530"><title>Importancia</title>
+A partir de estos resultados, no es de extrañar que se utilice el cobre en los cables para transportar la corriente porque la resistencia es bastante pequeña. Observe que la densidad de corriente y el campo eléctrico son independientes de la longitud del cable, pero el voltaje depende de ella.</para>
+</example>
+<para id="fs-id1170904129190">La resistencia de un objeto también depende de la temperatura, ya que <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es directamente proporcional a <m:math><m:mi>ρ</m:mi><m:mo>.</m:mo></m:math> Para un cilindro, sabemos que <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math>, por lo que si <emphasis effect="italics">L</emphasis> y <emphasis effect="italics">A</emphasis> no cambian mucho con la temperatura, <emphasis effect="italics">R</emphasis> tiene la misma dependencia de la temperatura que <m:math><m:mi>ρ</m:mi><m:mo>.</m:mo></m:math> (El estudio de los coeficientes de expansión lineal muestra que son aproximadamente dos órdenes de magnitud menos que los coeficientes de temperatura típicos de la resistividad, por lo que el efecto de la temperatura sobre <emphasis effect="italics">L</emphasis> y <emphasis effect="italics">A</emphasis> es aproximadamente dos órdenes de magnitud menos que sobre <m:math><m:mi>ρ</m:mi><m:mo>.</m:mo><m:mo stretchy="false">)</m:mo></m:math> Por lo tanto,</para>
+<note id="fs-id1170902346965" class="equation-callout">
+<equation id="fs-id1170902307361"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1170902125609">es la dependencia de la temperatura de la resistencia de un objeto, donde <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la resistencia original (normalmente se toma como <m:math><m:mrow><m:mn>20,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> y <emphasis effect="italics">R</emphasis> es la resistencia después de un cambio de temperatura <m:math><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>.</m:mo></m:math> El código de colores indica la resistencia del resistor a una temperatura de <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>20,00</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1170902386907">Muchos termómetros se basan en el efecto de la temperatura sobre la resistencia (<link target-id="CNX_UPhysics_26_03_Thermom"/>). Uno de los termómetros más comunes se basa en el termistor, un cristal semiconductor con una fuerte dependencia de la temperatura, cuya resistencia se mide para obtener su temperatura. El dispositivo es pequeño, por lo que entra rápidamente en equilibrio térmico con la parte que toca de la persona.</para>
+<figure id="CNX_UPhysics_26_03_Thermom">
+<media id="fs-id1170902243895" alt="La imagen es una fotografía de dos termómetros orales digitales.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_Thermom.jpg"/>
+</media>
+<caption>Estos conocidos termómetros se basan en la medición automatizada de la resistencia dependiente de la temperatura de un termistor.</caption>
+</figure>
+<example id="fs-id1170902304682">
+<para id="fs-id1170902304685"><title>Calcular la resistencia</title>
+Aunque hay que tener cuidado al aplicar <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> y <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> para los cambios de temperatura superiores a <m:math><m:mrow><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, para el tungsteno, las ecuaciones funcionan razonablemente bien para cambios de temperatura muy grandes. Un filamento de tungsteno a <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> tiene una resistencia de <m:math><m:mrow><m:mn>0,350</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>. ¿Cuál sería la resistencia si se aumenta la temperatura a <m:math><m:mrow><m:mn>2.850</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+<para id="fs-id1170902180089"><title>Estrategia</title>
+Se trata de una aplicación directa de <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, ya que la resistencia original del filamento viene dada por <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0,350</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> y el cambio de temperatura es <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2830</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1170902085628"><title>Solución</title>
+La resistencia del filamento más caliente <emphasis effect="italics">R</emphasis> se obtiene introduciendo valores conocidos en la ecuación anterior:</para>
+<equation id="fs-id1170902069982" class="unnumbered"><label/><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0,350</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>−3</m:mn></m:msup></m:mrow><m:mrow><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2830</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4,8</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1170902438152"><title>Importancia</title>
+Observe que la resistencia cambia en más de un factor de 10 a medida que el filamento se calienta hasta alcanzar una alta temperatura y la corriente que pasa por el filamento depende de su resistencia y del voltaje aplicado. Si el filamento se utiliza en una bombilla incandescente, la corriente inicial que pasa por el filamento cuando se enciende por primera vez será mayor que la corriente después de que el filamento alcance la temperatura de funcionamiento.</para>
+</example>
+<note id="fs-id1170902075185" class="check-understanding">
+<exercise id="fs-id1170902217128">
+<problem id="fs-id1170902217130">
+<para id="fs-id1170902217132">Una galga extensométrica es un dispositivo eléctrico que se usa para medir la tensión, como se muestra a continuación. Consiste en un soporte flexible y aislante que soporta una lámina de conducción. La resistencia de la lámina cambia al estirar el soporte. ¿Cómo cambia la resistencia de la galga extensométrica? ¿La galga extensométrica se ve afectada por los cambios de temperatura?</para>
+<media id="fs-id1170902049378" alt="La imagen es un dibujo esquemático de un dispositivo de galga extensométrica que consiste en el patrón conductor depositado en la superficie aislada. Los contactos de metal se adhieren a las dos grandes almohadillas en el origen del patrón conductor.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_StrainGaug_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1170903866189">
+<para id="fs-id1170903866191">El patrón de la lámina se estira a medida que se estira el soporte, y las líneas de la lámina se hacen más largas y finas. Dado que la resistencia se calcula como <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math>, la resistencia aumenta a medida que se estiran las líneas de lámina. Cuando cambia la temperatura, también lo hace la resistividad de las líneas de la lámina, cambiando la resistencia. Una forma de combatir esto es utilizar dos galgas extensométricas, una como referencia y la otra para medir la tensión. Las dos galgas extensométricas se mantienen a una temperatura constante</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1170902155638">
+<para id="fs-id1170902155640"><title>La resistencia del cable coaxial</title>
+A veces, los cables largos pueden actuar como antenas, captando el ruido electrónico, que son las señales de otros equipos y aparatos. Los cables coaxiales se utilizan para muchas aplicaciones que requieren la eliminación de este ruido. Por ejemplo, pueden encontrarse en el hogar en las conexiones de televisión por cable u otras conexiones audiovisuales. Los cables coaxiales están formados por un conductor interno de radio <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> rodeado por un segundo conductor concéntrico exterior de radio <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math> (<link target-id="CNX_UPhysics_26_03_coax"/>). Normalmente, el espacio entre ambos se rellena con un aislante como el plástico de polietileno. Se produce una pequeña cantidad de corriente de fuga radial entre los dos conductores. Determine la resistencia de un cable coaxial de longitud <emphasis effect="italics">L</emphasis>.</para>
+<figure id="CNX_UPhysics_26_03_coax">
+<media id="fs-id1170902134627" alt="La imagen es un dibujo esquemático de un cable coaxial. Consta de un núcleo de metal central encapsulado por el aislante dieléctrico. El escudo de metal rodea el aislante dieléctrico. Todo el conjunto se introduce en la funda de plástico.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_coax.jpg"/>
+</media>
+<caption>Los cables coaxiales están formados por dos conductores concéntricos separados por un aislante. Suelen utilizarse en la televisión por cable u otras conexiones audiovisuales.</caption>
+</figure>
+<para id="fs-id1170902298793"><title>Estrategia</title>
+No podemos utilizar la ecuación <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:math> directamente. En su lugar, consideramos las capas cilíndricas concéntricas, con espesor <emphasis effect="italics">dr</emphasis>, e integramos.</para>
+<para id="fs-id1170902143015"><title>Solución</title>
+Primero hallamos una expresión para <emphasis effect="italics">dR</emphasis> y luego integramos desde <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math> a <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:math>,</para>
+<equation id="fs-id1170902095121" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>d</m:mi><m:mi>R</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>ρ</m:mi><m:mi>A</m:mi></m:mfrac><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>ρ</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac><m:mi>d</m:mi><m:mi>r</m:mi><m:mo>,</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>R</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:munderover><m:mrow><m:mi>d</m:mi><m:mi>R</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:munderover><m:mrow><m:mfrac><m:mi>ρ</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>ρ</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac><m:mstyle displaystyle="true"><m:mrow><m:munderover><m:mo>∫</m:mo><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:munderover><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>r</m:mi></m:mfrac><m:mi>d</m:mi><m:mi>r</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mi>ρ</m:mi><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>L</m:mi></m:mrow></m:mfrac><m:mtext>dentro</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1170902307418"><title>Importancia</title>
+La resistencia de un cable coaxial depende de su longitud, de los radios interior y exterior y de la resistividad del material que separa los dos conductores. Como esta resistencia no es infinita, se produce una pequeña corriente de fuga entre los dos conductores. Esta corriente de fuga provoca la atenuación (o debilitamiento) de la señal que se envía a través del cable.</para>
+</example>
+<note id="fs-id1170902307427" class="check-understanding">
+<exercise id="fs-id1170902359328">
+<problem id="fs-id1170902359330">
+<para id="fs-id1170902359333">La resistencia entre los dos conductores de un cable coaxial depende de la resistividad del material que separa los dos conductores, de la longitud del cable y del radio interior y exterior de los dos conductores. Si está diseñando un cable coaxial, ¿cómo depende la resistencia entre los dos conductores de estas variables?</para>
+</problem>
+<solution id="fs-id1170902280954">
+<para id="fs-id1170902280956">Cuanto mayor sea la longitud, menor será la resistencia. Cuanto mayor sea la resistividad, mayor será la resistencia. Cuanto mayor sea la diferencia entre el radio exterior y el radio interior, es decir, cuanto mayor sea la relación entre ambos, mayor será la resistencia. Si se trata de maximizar la resistencia, la elección de los valores de estas variables dependerá de la aplicación. Por ejemplo, si el cable debe ser flexible, la elección de los materiales puede ser limitada.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1170902200189" class="media-2">
+<para id="fs-id1170902359339">Vea esta <link url="https://openstax.org/l/21batteryresist_es">simulación</link> para apreciar cómo el voltaje aplicado y la resistencia del material por el que fluye la corriente la afectan. Se pueden visualizar las colisiones de los electrones y los átomos del material que afectan a la temperatura del material.</para>
+</note>
+</section><section id="fs-id1170903859074" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1170902098108" list-type="bulleted" bullet-style="bullet">
+<item>La resistencia tiene unidades de ohmios <m:math><m:mo stretchy="false">(</m:mo><m:mtext>Ω</m:mtext><m:mo stretchy="false">)</m:mo></m:math>, relacionado con los voltios y los amperios por <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>V/A</m:mtext></m:mrow></m:math>.</item>
+<item>La resistencia <emphasis effect="italics">R</emphasis> de un cilindro de longitud <emphasis effect="italics">L</emphasis> y sección transversal <emphasis effect="italics">A</emphasis> es <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>ρ</m:mi><m:mi>L</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac></m:mrow></m:math>, donde <emphasis effect="italics"><m:math><m:mi>ρ</m:mi></m:math> </emphasis> es la resistividad del material.</item>
+<item>Los valores de <m:math><m:mi>ρ</m:mi></m:math> en la <link target-id="fs-id1170904007386"/> muestran que los materiales se dividen en tres grupos: conductores, semiconductores y aislantes.</item>
+<item>La temperatura afecta a la resistividad; para cambios de temperatura relativamente pequeños <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow></m:math>, la resistividad es <m:math><m:mrow><m:mi>ρ</m:mi><m:mo>=</m:mo><m:msub><m:mi>ρ</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, donde <m:math><m:mrow><m:msub><m:mi>ρ</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la resistividad original y <m:math><m:mi>α</m:mi></m:math> es el coeficiente de temperatura de la resistividad.</item>
+<item>La resistencia <emphasis effect="italics">R</emphasis> de un objeto también varía con la temperatura <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, donde <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la resistencia original, y <emphasis effect="italics">R</emphasis> es la resistencia después del cambio de temperatura.</item>
+</list>
+</section>
+<section id="fs-id1170902178703" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1170904225145">
+<problem id="fs-id1170904225147">
+<para id="fs-id1170904225150">La caída de <emphasis effect="italics">IR</emphasis> a través de un resistor significa que hay un cambio de potencial o voltaje a través del resistor. ¿Hay algún cambio en la corriente cuando pasa por un resistor? Explique.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902140277">
+<problem id="fs-id1170902140279">
+<para id="fs-id1170902140281">¿Las impurezas de los materiales semiconductores que figuran en la <link target-id="fs-id1170904007386"/> aportan cargas libres? (<emphasis effect="italics">Pista</emphasis>: Estudie el rango de resistividad de cada uno y determine si el semiconductor puro tiene la mayor o menor conductividad).</para>
+</problem>
+<solution id="fs-id1170904098452">
+<para id="fs-id1170904098455">En el carbono, la resistividad aumenta con la cantidad de impurezas, lo que significa menos cargas libres. En el silicio y el germanio, las impurezas disminuyen la resistividad, lo que significa más electrones libres.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902397944">
+<problem id="fs-id1170902397946">
+<para id="fs-id1170902397948">¿La resistencia de un objeto depende del recorrido que hace la corriente a través de él? Consideremos, por ejemplo, una barra rectangular: ¿su resistencia es la misma a lo largo que a lo ancho?</para>
+<media id="fs-id1170902068782" alt="Las imágenes son un dibujo esquemático de un objeto de resistencia con el lado largo de la longitud R y el lado corto de la longitud R primo. En la imagen de la izquierda, la corriente fluye por el lado largo; en la imagen de la derecha, la corriente fluye por el lado corto.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_26_03_2Paths_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1170902196611">
+<problem id="fs-id1170902196613">
+<para id="fs-id1170902196615">Si los cables de aluminio y de cobre de la misma longitud tienen la misma resistencia, ¿cuál de ellos tiene mayor diámetro? ¿Por qué?</para>
+</problem>
+<solution id="fs-id1170902304127">
+<para id="fs-id1170902304129">El cobre tiene una resistividad menor que el aluminio, por lo que si la longitud es la misma, el cobre debe tener el diámetro menor.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1170902304137" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1170904041299">
+<problem id="fs-id1170904041301">
+<para id="fs-id1170904041303">¿Qué corriente circula por la bombilla de una linterna de 3,00 V cuando su resistencia en caliente es <m:math><m:mrow><m:mn>3,60</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170903856135">
+<problem id="fs-id1170903856138">
+<para id="fs-id1170903856140">Calcule la resistencia efectiva de una calculadora de bolsillo que tiene una batería de 1,35 V y por la que circulan 0,200 mA.</para>
+</problem>
+<solution id="fs-id1170902175001">
+<para id="fs-id1170902175003"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>6,750</m:mn><m:mspace width="0.2em"/><m:mtext>k</m:mtext><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903904251">
+<problem id="fs-id1170903904253">
+<para id="fs-id1170903904255">¿Cuántos voltios se suministran para hacer funcionar un indicador luminoso en un reproductor de DVD que tiene una resistencia de <m:math><m:mrow><m:mn>140</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math>, dado que pasan 25,0 mA a través de él?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904270473">
+<problem id="fs-id1170904270475">
+<para id="fs-id1170904270477">¿Cuál es la resistencia de un trozo de 20,0 m de longitud de un cable de cobre de calibre 12 con un diámetro de 2,053 mm?</para>
+</problem>
+<solution id="fs-id1170902235040">
+<para id="fs-id1170902235042"><m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>0,10</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902342628">
+<problem id="fs-id1170902342630">
+<para id="fs-id1170902363379">El diámetro del cable de cobre de calibre 0 es de 8,252 mm. Calcule la resistencia de un cable de 1,00 km de longitud de este tipo que se utiliza para la transmisión de potencia.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902207017">
+<problem id="fs-id1170902207019">
+<para id="fs-id1170902207021">Si el filamento de tungsteno de 0,100 mm de diámetro de una bombilla debe tener una resistencia de <m:math><m:mrow><m:mn>0,200</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, ¿cuánto tiempo debe ser?</para>
+</problem>
+<solution id="fs-id1170903880765">
+<para id="fs-id1170903803380"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1170903933954">
+<problem id="fs-id1170903933956">
+<para id="fs-id1170903933958">Una varilla de plomo tiene una longitud de 30,00 cm y una resistencia de <m:math><m:mrow><m:mn>5,00</m:mn><m:mspace width="0.2em"/><m:mi>μ</m:mi><m:mtext>Ω</m:mtext></m:mrow></m:math>. ¿Cuál es el radio de la varilla?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904170181">
+<problem id="fs-id1170904170183">
+<para id="fs-id1170904170185">Calcule la relación entre el diámetro del cable de aluminio y el de cobre, si tienen la misma resistencia por unidad de longitud (como podría ser en el cableado doméstico).</para>
+</problem>
+<solution id="fs-id1170904099032">
+<para id="fs-id1170904099034"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac bevelled="true"><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac bevelled="true"><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>π</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>π</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mfrac><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mi>C</m:mi><m:mi>u</m:mi></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902296763">
+<problem id="fs-id1170902296765">
+<para id="fs-id1170902296767">¿Qué corriente circula por una varilla de silicio puro de 2,54 cm de diámetro y 20,0 cm de longitud cuando se le aplican <m:math><m:mrow><m:mn>1,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math>? (Esta varilla puede utilizarse para fabricar detectores de partículas nucleares, por ejemplo).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170904130540">
+<problem id="fs-id1170904130542">
+<para id="fs-id1170904130544">(a) ¿A qué temperatura se debe elevar un cable de cobre, originalmente a <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>, para duplicar su resistencia, sin tener en cuenta los cambios de dimensiones? (b) ¿Sucede esto en el cableado doméstico en circunstancias ordinarias?</para>
+</problem>
+<solution id="fs-id1170902304496">
+<para id="fs-id1170902304498">a. <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>256,4</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>276,4</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>;<newline/> b. En condiciones normales, no debería ocurrir.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170902303890">
+<problem id="fs-id1170902303892">
+<para id="fs-id1170902303894">Un resistor fabricado con alambre de nicromo se utiliza en una aplicación en la que su resistencia no puede variar más del 1,00 % de su valor a <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>. ¿En qué rango de temperaturas se puede utilizar?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902438190">
+<problem id="fs-id1170902438192">
+<para id="fs-id1170902438194">¿De qué material está hecho un resistor si su resistencia es un 40,0 % mayor a <m:math><m:mrow><m:mn>100,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> que a <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1170904080900">
+<para id="fs-id1170904080902"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>R</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>R</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>α</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0,006</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:msup><m:mtext>C</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr></m:mtable></m:math>, hierro</para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903763192">
+<problem id="fs-id1170903763194">
+<para id="fs-id1170903763196">Un dispositivo electrónico diseñado para funcionar a cualquier temperatura en el rango de <m:math><m:mrow><m:mn>−10,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>55,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math> contiene resistores de carbono puro. ¿En qué factor aumenta su resistencia en este rango?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902178613">
+<problem id="fs-id1170902178615">
+<para id="fs-id1170902178617">(a) ¿De qué material está hecho un cable, si tiene 25,0 m de longitud, un diámetro de 0,100 mm y una resistencia de <m:math><m:mrow><m:mn>77,7</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>? (b) ¿Cuál es su resistencia a <m:math><m:mrow><m:mn>150,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C?</m:mtext></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1170902113104">
+<para id="fs-id1170902113106">a. <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mi>ρ</m:mi><m:mo>=</m:mo><m:mn>2,44</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext></m:mrow></m:math>, oro;<newline/> b. <m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>ρ</m:mi><m:mfrac><m:mi>L</m:mi><m:mi>A</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>α</m:mi><m:mtext>Δ</m:mtext><m:mi>T</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>2,44</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mtext>m</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mi>π</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>0,100</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>0,0034</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:msup><m:mtext>C</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>112</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1170903825321">
+<problem id="fs-id1170903825323">
+<para id="fs-id1170903825325">Suponiendo que existe un coeficiente de resistividad a temperatura constante, ¿cuál es el máximo porcentaje de disminución de la resistencia de un alambre de constantán a partir de <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170902090612">
+<problem id="fs-id1170902090614">
+<para id="fs-id1170902090616">Un cable de cobre tiene una resistencia de <m:math><m:mrow><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> a <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>,</m:mo></m:mrow></m:math> y un cable de hierro tiene una resistencia de <m:math><m:mrow><m:mn>0,525</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext></m:mrow></m:math> a la misma temperatura. ¿A qué temperatura son iguales sus resistencias?</para>
+</problem>
+<solution id="fs-id1170902298582">
+<para id="fs-id1170902298585"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Fe</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0,525</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>,</m:mo><m:mspace width="0.8em"/><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0,500</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>,</m:mo><m:mspace width="0.8em"/><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Fe</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0,0065</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:msup><m:mtext>C</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.8em"/><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0,0039</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:msup><m:mtext>C</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Fe</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>R</m:mi><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>Fe</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Fe</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>Cu</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>Fe</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>Cu</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Fe</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:msub><m:mi>α</m:mi><m:mrow><m:mtext>Cu</m:mtext></m:mrow></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>T</m:mi><m:mo>−</m:mo><m:msub><m:mi>T</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2,91</m:mn><m:mspace width="0.2em"/><m:mtext>°</m:mtext><m:mtext>C</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</section>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1170902222074">
+<term>conductividad eléctrica</term>
+<meaning id="fs-id1170902359945">medida de la capacidad de un material para conducir o transmitir electricidad</meaning>
+</definition>
+<definition id="fs-id1170902359951">
+<term>ohmio</term>
+<meaning id="fs-id1170902359957"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo stretchy="false">)</m:mo></m:mrow></m:math> unidad de resistencia eléctrica, <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>Ω</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>V/A</m:mtext></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170902256099">
+<term>resistencia</term>
+<meaning id="fs-id1170902256104">propiedad eléctrica que impide la corriente; para los materiales óhmicos, es la relación entre el voltaje y la corriente, <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>V</m:mi><m:mtext>/</m:mtext><m:mi>I</m:mi></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170902307285">
+<term>resistividad</term>
+<meaning id="fs-id1170904172763">propiedad intrínseca de un material, independiente de su forma o tamaño, directamente proporcional a la resistencia, denotada por <m:math><m:mi>ρ</m:mi></m:math></meaning>
+</definition>
+</glossary>
+</document>

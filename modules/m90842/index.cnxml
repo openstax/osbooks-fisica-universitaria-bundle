@@ -1,0 +1,138 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Procesos reversibles e irreversibles</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90842</md:content-id>
+  <md:title>Procesos reversibles e irreversibles</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Definir procesos reversibles e irreversibles.</item>
+<item>Enunciar la segunda ley de la termodinámica mediante un proceso irreversible.</item></list></md:abstract>
+  <md:uuid>bad9046b-d31a-42d4-bbc4-a0ac7cc33d70</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167584699711">Considere un gas ideal que se mantiene en la mitad de un recipiente aislado térmicamente por una pared en el medio del recipiente. La otra mitad del recipiente está en vacío sin moléculas en su interior. Ahora, si quitamos la pared del medio rápidamente, el gas se expande y llena todo el recipiente inmediatamente, como se muestra en la <link target-id="CNX_UPhysics_21_01_FreeExpan"/>.</para>
+<figure id="CNX_UPhysics_21_01_FreeExpan">
+<media id="fs-id1167584694625" alt="La parte a de la figura muestra un recipiente que tiene gas en la mitad izquierda y vacío en la derecha. La parte b muestra un recipiente que está completamente lleno de gas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_01_FreeExpan.jpg"/>
+</media>
+<caption>Un gas que se expande desde la mitad de un recipiente hasta la totalidad del recipiente (a) antes y (b) después de eliminar la pared del centro.</caption>
+</figure>
+<para id="fs-id1167584900254">Como la mitad del recipiente está en vacío antes de que el gas se expanda allí, no esperamos que el sistema realice ningún trabajo, es decir, <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, porque no se ejerce ninguna fuerza del vacío sobre el gas durante la expansión. Si el contenedor está aislado térmicamente del resto del ambiente, tampoco esperamos ninguna transferencia de calor al sistema, por lo que <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Entonces, la primera ley de la termodinámica conduce al cambio de la energía interna del sistema,</para>
+<equation id="fs-id1167585066605" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>Q</m:mi><m:mo>−</m:mo><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167585104391">Para un gas ideal, si la energía interna no cambia, entonces la temperatura permanece igual. Así, la ecuación de estado del gas ideal nos da la presión final del gas, <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>R</m:mi><m:mi>T</m:mi><m:mtext>/</m:mtext><m:mi>V</m:mi><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> donde <m:math><m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la presión del gas antes de la expansión. El volumen se duplica y la presión se reduce a la mitad, pero nada más parece haber cambiado durante la expansión.</para>
+<para id="fs-id1167584745259">Todo este debate se basa en lo que hemos aprendido hasta ahora y tiene sentido. Esto es lo que nos desconcierta: ¿todas las moléculas pueden volver a la mitad original del contenedor en algún momento futuro? Nuestra intuición nos dice que esto va a ser muy improbable, aunque nada de lo que hemos aprendido hasta ahora impide que tal evento ocurra, independientemente de lo pequeña que sea la probabilidad. Lo que realmente nos preguntamos es si la expansión en la mitad del vacío del recipiente es <emphasis effect="italics">reversible</emphasis>.</para>
+<para id="fs-id1167583724498">Un <term>proceso reversible</term> es un proceso en el que el sistema y el ambiente pueden restablecerse exactamente a los mismos estados iniciales en los que se encontraban antes de que ocurriera el proceso, si retrocedemos a lo largo de la trayectoria del proceso. La condición necesaria para un proceso reversible es, por tanto, el requisito cuasiestático. Observe que es bastante fácil restaurar un sistema a su estado original; lo difícil es que su ambiente se restaure a su estado original al mismo tiempo. Por ejemplo, en el ejemplo de un gas ideal que se expande en el vacío hasta el doble de su volumen original, podemos empujarlo fácilmente hacia atrás con un pistón y restablecer su temperatura y presión eliminando parte del calor del gas. El problema es que no podemos hacerlo sin cambiar algo en su entorno, como por ejemplo verter algo de calor allí.</para>
+<para id="fs-id1167584901209">Un proceso reversible es realmente un proceso ideal que rara vez ocurre. Podemos hacer que ciertos procesos sean casi reversibles y, por tanto, utilizar las consecuencias de los correspondientes procesos reversibles como punto de partida o referencia. En realidad, casi todos los procesos son irreversibles y algunas propiedades del ambiente se alteran cuando se restablecen las propiedades del sistema. La expansión de un gas ideal, como acabamos de exponer, es irreversible porque el proceso ni siquiera es cuasiestático, es decir, no se encuentra en un estado de equilibrio en ningún momento de la expansión.</para>
+<para id="fs-id1167584729245">Desde el punto de vista microscópico, una partícula descrita por la segunda ley de Newton puede ir hacia atrás si invertimos la dirección del tiempo. Pero este no es el caso, en términos prácticos, en un sistema macroscópico con más de <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup></m:mrow></m:math> partículas o moléculas, donde las numerosas colisiones entre estas moléculas tienden a borrar cualquier rastro de memoria de la trayectoria inicial de cada una de las partículas. Por ejemplo, podemos estimar la posibilidad de que todas las partículas del gas expandido vuelvan a la mitad original del contenedor, pero la edad actual del universo aún no es lo suficientemente larga como para que ocurra ni siquiera una vez.</para>
+<para id="fs-id1167583810892">Un <term>proceso irreversible</term> es lo que encontramos en la realidad casi todo el tiempo. El sistema y su ambiente no pueden ser restaurados a sus estados originales al mismo tiempo. Como esto es lo que ocurre en la naturaleza, también se le llama proceso natural. El signo de un proceso irreversible proviene del gradiente finito entre los estados que se producen en el proceso real. Por ejemplo, cuando el calor fluye de un objeto a otro, hay una diferencia de temperatura finita (gradiente) entre los dos objetos. Y lo que es más importante, en cualquier momento del proceso, lo más probable es que el sistema no esté en equilibrio o en un estado bien definido. Este fenómeno se llama <term>irreversibilidad</term>.</para>
+<para id="fs-id1167584766090">Veamos otro ejemplo de irreversibilidad en los procesos térmicos. Consideremos dos objetos en contacto térmico: uno a temperatura <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y el otro a temperatura <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, como se muestra en la <link target-id="CNX_UPhysics_21_01_HeatFlow"/>.</para>
+<figure id="CNX_UPhysics_21_01_HeatFlow">
+<media id="fs-id1167584970008" alt="La figura muestra dos objetos contiguos con una flecha que va del objeto izquierdo al derecho. La temperatura del objeto izquierdo es T subíndice 2 y la del objeto derecho es T subíndice 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_21_01_HeatFlow.jpg"/>
+</media>
+<caption>Flujo de calor espontáneo de un objeto a mayor temperatura <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> a otro a menor temperatura <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></caption>
+</figure>
+<para id="fs-id1167583628129">Sabemos por experiencia personal que el calor fluye de un objeto más caliente a otro más frío. Por ejemplo, cuando sostenemos unos trozos de hielo en las manos, sentimos frío porque el calor ha salido de nuestras manos hacia el hielo. Lo contrario ocurre cuando sujetamos un extremo de una varilla de metal mientras mantenemos el otro extremo sobre el fuego. Basándose en todos los experimentos que se han realizado sobre la transferencia de calor espontánea, la siguiente declaración resume el principio rector:</para>
+<note id="fs-id1167585023104">
+<title>Segunda ley de la termodinámica (declaración de Clausius)</title>
+<para id="fs-id1167583815004">El calor nunca fluye espontáneamente de un objeto más frío a otro más caliente.</para>
+</note>
+<para id="fs-id1167583646080">Esta declaración resulta ser una de las diferentes formas de enunciar la segunda ley de la termodinámica. La forma de esta declaración se atribuye al físico alemán Rudolf <term class="no-emphasis">Clausius</term> (1822-1888) y se conoce como la <term>declaración de Clausius de la segunda ley de la termodinámica</term>. La palabra "espontáneamente" significa aquí que no se ha realizado ningún otro esfuerzo por parte de un tercero, o que no es el objeto más caliente ni más frío. Presentaremos algunos otros enunciados importantes de la segunda ley y mostraremos que se implican mutuamente. De hecho, todos los diferentes enunciados de la segunda ley de la termodinámica pueden demostrarse equivalentes, y todos conducen a la irreversibilidad del flujo de calor espontáneo entre objetos macroscópicos de un número muy grande de moléculas o partículas.</para>
+<para id="fs-id1167583516004">Tanto los procesos isotérmicos como los adiabáticos esbozados en un gráfico <emphasis effect="italics">pV</emphasis> (discutido en la sección <link document="m90833">Primera ley de la termodinámica</link>) son reversibles en principio porque el sistema está siempre en un estado de equilibrio en cualquier punto de los procesos y puede avanzar o retroceder a lo largo de las curvas dadas. Otros procesos idealizados pueden representarse mediante curvas <emphasis effect="italics">pV</emphasis>; la <link target-id="fs-id1167585159300"/> resume los procesos reversibles más comunes.</para>
+<table id="fs-id1167585159300" summary="The table has two columns and five rows. From left to right, the first row contains “Process” and “Constant Quantity and Resulting Fact”. The second row contains “Isobaric” and “Constant pressure W equals p delta V”. The third row contains “Isochoric” and “Constant volume W equals 0”. The fourth row contains “Isothermal” and “Constant temperature delta T equals 0”. The fifth row contains “Adiabatic” and “No heat transfer Q equals 0”."><title>Resumen de los procesos termodinámicos simples</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Proceso</entry>
+<entry valign="top" align="left">Cantidad constante y hecho resultante</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Isobárico</entry>
+<entry valign="top" align="left">Presión constante <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Isocórico</entry>
+<entry valign="top" align="left">Volumen constante <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Isotérmico</entry>
+<entry valign="top" align="left">Temperatura constante <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Adiabático</entry>
+<entry valign="top" align="left">No hay transferencia de calor <m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><section id="fs-id1167584937711" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167585022460" list-type="bulleted" bullet-style="bullet">
+<item>Un proceso reversible es aquel en el que tanto el sistema como su ambiente pueden volver exactamente a los estados en los que estaban siguiendo el camino inverso.</item>
+<item>Un proceso irreversible es aquel en el que el sistema y su ambiente no pueden volver juntos a los estados exactos en los que se encontraban.</item>
+<item>La irreversibilidad de cualquier proceso natural resulta de la segunda ley de la termodinámica.</item>
+</list>
+</section>
+<section id="fs-id1167584675714" class="review-conceptual-questions">
+<title>Cuestiones conceptuales</title>
+<exercise id="fs-id1167584970944">
+<problem id="fs-id1167584667305">
+<para id="fs-id1167585020795">Indique un ejemplo de un proceso que ocurra en la naturaleza y que sea lo más parecido a un proceso reversible.</para>
+</problem>
+<solution id="fs-id1167584857506">
+<para id="fs-id1167584632501">Algunas soluciones posibles son el movimiento sin fricción; la compresión o expansión restringida; la transferencia de energía en forma de calor debido a la no uniformidad de la temperatura infinitesimal; el flujo de corriente eléctrica a través de una resistencia cero; la reacción química restringida; y la mezcla de dos muestras de la misma sustancia en el mismo estado.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167584722620" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167583712999">
+<problem id="fs-id1167584911045">
+<para id="fs-id1167585014520">Un reservorio contiene 111,0 g de cloro gaseoso <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mrow><m:mtext>Cl</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> que está a la temperatura <m:math><m:mrow><m:mn>82,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> y la presión absoluta <m:math><m:mrow><m:mn>5,70</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext><m:mo>.</m:mo></m:mrow></m:math> La temperatura del aire fuera del tanque es <m:math><m:mrow><m:mn>20,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math>. La masa molar de <m:math><m:mrow><m:msub><m:mrow><m:mtext>Cl</m:mtext></m:mrow><m:mn>2</m:mn></m:msub></m:mrow></m:math> es de 70,9 g/mol. (a) ¿Cuál es el volumen del reservorio? (b) ¿Cuál es la energía interna del gas? (c) ¿Cuál es el trabajo realizado por el gas si la temperatura y la presión dentro del depósito descienden a <m:math><m:mrow><m:mn>31,0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> y <m:math><m:mrow><m:mn>3,80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>Pa</m:mtext></m:mrow></m:math>, respectivamente, debido a una fuga?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585022699">
+<problem id="fs-id1167584696011">
+<para id="fs-id1167583686936">Un mol de gas monoatómico ideal a <m:math><m:mrow><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>°C</m:mtext></m:mrow></m:math> y 1,00 atm se calienta para expandirse isobáricamente hasta triplicar su volumen. ¿Cuánto calor se transfiere durante el proceso?</para>
+</problem>
+<solution id="fs-id1167584841634">
+<para id="fs-id1167584691742"><m:math><m:mrow><m:mn>11,0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para></solution>
+</exercise>
+<exercise id="fs-id1167585023280">
+<problem id="fs-id1167584751098">
+<para id="fs-id1167583639778">Un mol de un gas ideal a presión 4,00 atm y temperatura 298 K se expande isotérmicamente hasta duplicar su volumen. ¿Cuál es el trabajo realizado por el gas?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167585127386">
+<problem id="fs-id1167585091698">
+<para id="fs-id1167585016161">Después de una expansión libre hasta cuadruplicar su volumen, un mol de gas diatómico ideal se comprime de nuevo a su volumen original adiabáticamente y luego se enfría hasta su temperatura original. ¿Cuál es el calor mínimo que se elimina del gas en el último paso para restablecer su estado?</para></problem>
+<solution id="fs-id1167584720443">
+<para id="fs-id1167583687541"><m:math><m:mrow><m:mn>4,5</m:mn><m:mspace width="0.2em"/><m:mi>p</m:mi><m:msub><m:mi>V</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1167584724939">
+<term>declaración de Clausius sobre la segunda ley de la termodinámica</term>
+<meaning id="fs-id1167584775821">el calor nunca fluye espontáneamente de un objeto más frío a un objeto más caliente</meaning>
+</definition>
+<definition id="fs-id1167583837383">
+<term>irreversibilidad</term>
+<meaning id="fs-id1167585152485">fenómeno asociado a un proceso natural</meaning>
+</definition>
+<definition id="fs-id1167583839601">
+<term>proceso irreversible</term>
+<meaning id="fs-id1167584696816">proceso en el que ni el sistema ni su ambiente pueden volver a sus estados originales al mismo tiempo</meaning>
+</definition>
+<definition id="fs-id1167584753200">
+<term>proceso reversible</term>
+<meaning id="fs-id1167583837337">proceso en el que tanto el sistema como el ambiente externo pueden volver teóricamente a sus estados originales</meaning>
+</definition>
+</glossary>
+
+</document>

@@ -1,0 +1,203 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Contracción de longitud</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m90998</md:content-id>
+  <md:title>Contracción de longitud</md:title>
+  <md:abstract><para>Al final de esta sección podrá:</para><list>
+<item>Explicar cómo se relacionan la simultaneidad y la contracción de la longitud.</item>
+<item>Describir la relación entre la contracción de la longitud y la dilatación del tiempo y utilizarla para derivar la ecuación de longitud-contracción.</item>
+</list></md:abstract>
+  <md:uuid>12804a83-0f79-4d2e-a162-763ebb9e58c8</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167794214324">La longitud del vagón en la <link target-id="CNX_UPhysics_38_04_SpeedTrain"/> es la misma para todos los pasajeros. Todos ellos coincidirían en la localización simultánea de los dos extremos del vagón y obtendrían el mismo resultado para la distancia entre ellos. Pero los eventos simultáneos en un marco inercial no tienen por qué ser simultáneos en otro. Si el tren pudiera viajar a velocidades relativistas, un observador terrestre vería las ubicaciones simultáneas de los dos extremos del vagón a una distancia diferente a la de los observadores dentro del vagón. Las distancias medidas no tienen por qué ser las mismas para diferentes observadores cuando se trata de velocidades relativistas.</para>
+<figure id="CNX_UPhysics_38_04_SpeedTrain">
+<media id="fs-id1167794226878" alt="Una foto de un tren TGV de alta velocidad">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_04_SpeedTrain.jpg"/>
+</media>
+<caption>Las personas pueden describir las distancias de forma diferente, pero a velocidades relativistas, las distancias son realmente diferentes. (crédito: “russavia”/Flickr)</caption>
+</figure>
+<section id="fs-id1167794022125">
+<title>Longitud propia</title>
+<para id="fs-id1167794180518">Dos observadores que pasan uno al lado del otro ven siempre el mismo valor de su velocidad relativa. Aunque la dilatación del tiempo implica que el pasajero del tren y el observador que se encuentra junto a las vías miden tiempos diferentes para el paso del tren, siguen coincidiendo en que la velocidad relativa, que es la distancia dividida por el tiempo transcurrido, es la misma. Si un observador en tierra y otro en el tren miden un tiempo diferente para que la longitud del tren pase por el observador terrestre, estar de acuerdo con su velocidad relativa significa que también deben ver diferentes distancias recorridas.</para>
+<para id="fs-id1167794021647">El muón que se discute en la <link target-id="fs-id1167793912924" document="m90997"/> ilustra este concepto (<link target-id="CNX_UPhysics_38_04_CloudMuon"/>). Para un observador en la Tierra, el muón viaja a 0,950<emphasis effect="italics">c</emphasis> durante 7,05 μs desde que se produce hasta que se desintegra. Por lo tanto, viaja una distancia relativa a la Tierra de:</para>
+<equation id="fs-id1167793610926" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>v</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,950</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7,05</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2,01</m:mn><m:mspace width="0.2em"/><m:mtext>km.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167793442203">En el marco del muón, el tiempo de vida del muón es de 2,20 μs. En este marco de referencia, la Tierra, el aire y el suelo solo tienen el tiempo suficiente para viajar:</para>
+<equation id="fs-id1167793612580" class="unnumbered"><label/><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mtext>Δ</m:mtext><m:mi>τ</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,950</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,20</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>=</m:mo><m:mn>0,627</m:mn><m:mspace width="0.2em"/><m:mtext>km.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1167794330364">La distancia entre los dos sucesos iguales (producción y desintegración de un muón) depende de quién lo mida y de cómo se mueva respecto a él.</para>
+<note id="fs-id1167793566829">
+<title>Longitud propia</title>
+<para id="fs-id1167793750922"><term>Longitud propia</term> <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la distancia entre dos puntos medida por un observador que está en reposo respecto a ambos puntos.</para>
+</note>
+<para id="fs-id1167793928024">El observador terrestre mide la longitud propia <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> porque los puntos en los que se produce y se desintegra el muón son estacionarios con respecto a la Tierra. Para el muón, la Tierra, el aire y las nubes se mueven, por lo que la distancia <emphasis effect="italics">L</emphasis> que ve no es la longitud propia.</para>
+<figure id="CNX_UPhysics_38_04_CloudMuon">
+<media id="fs-id1167793372555" alt="La figura a muestra a un observador estacionario en el suelo mirando a un muón que se mueve hacia la derecha con velocidad v entre dos nubes que están separadas por 2,01 km. La figura b muestra al observador, el suelo y las nubes moviéndose hacia la izquierda con una velocidad v. El muón está inmóvil. Las nubes están contraídas horizontalmente y la distancia entre ellas es de 0,627 km.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_04_CloudMuon.jpg"/>
+</media>
+<caption>(a) El observador terrestre ve al muón recorrer 2,01 km. (b) La misma trayectoria tiene una longitud de 0,627 km vista desde el marco de referencia del muón. La Tierra, el aire y las nubes se mueven en relación con el muón en su marco, y tienen longitudes menores a lo largo de la dirección del viaje.</caption>
+</figure>
+</section>
+<section id="fs-id1167793948102">
+<title>Contracción de longitud</title>
+<para id="fs-id1167793985095">Para relacionar las distancias medidas por diferentes observadores, tenga en cuenta que la velocidad relativa al observador terrestre en nuestro ejemplo del muón viene dada por</para>
+<equation id="fs-id1167793502025" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167794070138">El tiempo con respecto al observador terrestre es <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> porque el objeto cronometrado se mueve con respecto a este observador. La velocidad relativa al observador en movimiento viene dada por</para>
+<equation id="fs-id1167793787649" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>L</m:mi><m:mrow><m:mtext>Δ</m:mtext><m:mi>τ</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167794139835">El observador en movimiento viaja con el muón y, por tanto, observa el tiempo propio <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>τ</m:mi><m:mo>.</m:mo></m:mrow></m:math> Las dos velocidades son idénticas; por lo tanto,</para>
+<equation id="fs-id1167793633032" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>L</m:mi><m:mrow><m:mtext>Δ</m:mtext><m:mi>τ</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167793936099">Sabemos que <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mtext>Δ</m:mtext><m:mi>τ</m:mi><m:mo>.</m:mo></m:mrow></m:math> Al sustituir esta ecuación en la relación anterior se obtiene</para>
+<equation id="fs-id1167793878910"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>γ</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167794330511">Al sustituir <m:math><m:mi>γ</m:mi></m:math> da una ecuación que relaciona las distancias medidas por diferentes observadores.</para>
+<note id="fs-id1167794324446">
+<title>Contracción de longitud</title>
+<para id="fs-id1167794072104">La <term>contracción de la longitud</term> es la disminución de la longitud medida de un objeto con respecto a su longitud propia cuando se mide en un marco de referencia que se mueve con respecto al objeto:</para>
+<equation id="fs-id1167793849579"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></equation>
+<para id="fs-id1167794070988">donde <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la longitud del objeto en su marco de reposo, y <emphasis effect="italics">L</emphasis> es la longitud en el marco que se mueve con velocidad <emphasis effect="italics">v</emphasis>.</para>
+</note>
+<para id="fs-id1167793722741">Si medimos la longitud de cualquier cosa que se mueva con respecto a nuestro marco, hallamos que su longitud <emphasis effect="italics">L</emphasis> es menor que la longitud propia <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> que se mediría si el objeto estuviera inmóvil. Por ejemplo, en el marco de reposo del muón, la distancia que recorre la Tierra entre el lugar en el que se produjo el muón y el lugar en el que se desintegra es más corta que la distancia recorrida vista desde el marco de la Tierra. Esos puntos están fijos respecto a la Tierra, pero se mueven respecto al muón. Las nubes y otros objetos también se contraen a lo largo de la dirección del movimiento visto desde el marco de reposo del muón.</para>
+<para id="fs-id1167793953801">Así, dos observadores miden distancias diferentes a lo largo de su dirección de movimiento relativo, dependiendo de cuál de ellos esté midiendo distancias entre objetos en reposo.</para>
+<para id="fs-id1167793397790">¿Pero qué pasa con las distancias medidas en una dirección perpendicular al movimiento relativo? Imagine que dos observadores se mueven a lo largo de sus ejes <emphasis effect="italics">x</emphasis> y se cruzan mientras sostienen unas reglas de madera verticalmente en la dirección <emphasis effect="italics">y</emphasis>. La <link target-id="CNX_UPhysics_38_04_Msticks"/> muestra dos reglas de madera M y <m:math><m:mtext>M</m:mtext><m:mo>′</m:mo></m:math> que están en reposo en los marcos de referencia de dos niños S y <m:math><m:mrow><m:mtext>S</m:mtext><m:mo>′</m:mo><m:mo>,</m:mo></m:mrow></m:math> respectivamente. Una pequeña brocha se fija en la parte superior (en marca de 100 cm) de la regla de madera <m:math><m:mrow><m:mtext>M</m:mtext><m:mo>′</m:mo><m:mtext>.</m:mtext></m:mrow></m:math> Supongamos que <m:math><m:mtext>S</m:mtext><m:mo>′</m:mo></m:math> se mueve hacia la derecha a una velocidad muy alta <emphasis effect="italics">v</emphasis> en relación con S, y las reglas de madera están orientadas de manera que son perpendiculares, o transversales, a su vector de velocidad relativa. Las reglas de madera se sujetan de forma que, al pasar uno por otro, sus extremos inferiores (las marcas de 0 cm) coincidan. Supongamos que cuando S mira su regla de madera M posteriormente, halla una línea pintada en ella, justo debajo de la parte superior de esta. Porque la brocha está unida a la parte superior de la regla de madera del otro niño <m:math><m:mrow><m:mtext>M</m:mtext><m:mo>′</m:mo><m:mtext>,</m:mtext></m:mrow></m:math> S solo puede concluir que la regla de madera <m:math><m:mtext>M</m:mtext><m:mo>′</m:mo></m:math> tiene menos de 1,0 m de longitud.</para>
+<figure id="CNX_UPhysics_38_04_Msticks">
+<media id="fs-id1167793245738" alt="Un patinador que se desplaza hacia la derecha con velocidad v sostiene una regla verticalmente. La parte inferior de la regla está marcada como cero, y su parte superior como a 100 cm. En el extremo superior de la regla se coloca una brocha. El patinador está marcado como S prima y su regla como M prima. A la derecha del patinador se encuentra un niño que sostiene una regla vertical de 100 cm a la misma altura que la regla del patinador. El niño inmóvil está marcado como S y su regla está marcada como M.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_04_Msticks.jpg"/>
+</media>
+<caption>Las reglas de madera M y <m:math><m:mtext>M</m:mtext><m:mo>′</m:mo></m:math> son estacionarias en los marcos de referencia de los observadores S y <m:math><m:mrow><m:mtext>S</m:mtext><m:mo>′</m:mo><m:mo>,</m:mo></m:mrow></m:math> respectivamente. A medida que pasan las reglas de madera, una pequeña brocha fijada en la marca de 100 cm de <m:math><m:mtext>M</m:mtext><m:mo>′</m:mo></m:math> pinta una línea en M.</caption>
+</figure>
+<para id="fs-id1167793261807">Ahora cuando los niños se acercan, <m:math><m:mrow><m:mtext>S</m:mtext><m:mo>′</m:mo><m:mtext>,</m:mtext></m:mrow></m:math> como S, ve una regla de madera de un metro que se mueve hacia él con velocidad <emphasis effect="italics">v</emphasis>. Como sus situaciones son simétricas, cada niño debe hacer la misma medición de la regla de madera en el otro fotograma. Por lo tanto, si S mide la regla de madera <m:math><m:mtext>M</m:mtext><m:mo>′</m:mo></m:math> a menos de 1,0 m de longitud, <m:math><m:mtext>S</m:mtext><m:mo>′</m:mo></m:math> debe medir la regla de madera M para que sea también menos de 1,0 m de longitud, y <m:math><m:mtext>S</m:mtext><m:mo>′</m:mo></m:math> debe ver su brocha pasar por encima de la regla de madera M y no pintar una línea en ella. En otras palabras, después del mismo evento, ¡un niño ve una línea pintada en una regla de madera, mientras que el otro no ve tal línea en esa misma regla de madera!</para>
+<para id="fs-id1167793786300">El primer postulado de Einstein exige que las leyes de la física (aplicadas, por ejemplo, a la pintura) predigan que S y <m:math><m:mrow><m:mtext>S</m:mtext><m:mo>′</m:mo><m:mtext>,</m:mtext></m:mrow></m:math> que están ambos en marcos inerciales, hacen las mismas observaciones; es decir, S y <m:math><m:mtext>S</m:mtext><m:mo>′</m:mo></m:math> deben ver ambos una línea pintada en la regla de madera M, o ambos no ver esa línea. ¡Por lo tanto, nos vemos obligados a concluir que nuestra suposición original de que S vio una línea pintada debajo de la parte superior de su bastón era errónea! En cambio, S halla la línea pintada justo en la marca de 100 cm en M. Entonces ambos niños estarán de acuerdo en que hay una línea pintada en M, y también estarán de acuerdo en que ambas reglas de madera miden exactamente 1 m. Concluimos entonces que las mediciones de una <emphasis effect="italics">longitud transversal deben ser las mismas</emphasis> <emphasis effect="italics">en diferentes marcos inerciales</emphasis>.</para>
+<example id="fs-id1167793997754">
+<para id="fs-id1167793370739"><title>Cálculo de contracción de longitud</title>
+Supongamos que un astronauta, como la gemela en la discusión de la paradoja de los gemelos, viaja tan rápido que <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>30,00</m:mn><m:mo>.</m:mo></m:mrow></m:math> (a) El astronauta viaja desde la Tierra hasta el sistema estelar más cercano, Alfa Centauri, a 4300 años luz (light-years, ly) de distancia medidos por un observador terrestre. ¿A qué distancia se encuentran la Tierra y Alfa Centauri, medida por el astronauta? (b) Con relación a <emphasis effect="italics">c</emphasis>, ¿cuál es la velocidad del astronauta con respecto a la Tierra? Es posible que se olvide del movimiento de la Tierra con respecto al Sol (<link target-id="CNX_UPhysics_38_04_StarTravel"/>).</para>
+<figure id="CNX_UPhysics_38_04_StarTravel">
+<media id="fs-id1167793261023" alt="En la figura a, la Tierra y Alfa Centauri se muestran como separadas por una distancia L cero y el reloj de la Tierra muestra un tiempo delta t. Una nave espacial contraída horizontalmente se mueve hacia la derecha con una velocidad v. Se nos da la ecuación v = L cero / delta t. En la figura b, la Tierra y Alpha Centauri se muestran separadas por una distancia L. Tanto la Tierra como Alpha Centauri se mueven hacia la izquierda con velocidad v y se contraen horizontalmente. La nave espacial está inmóvil y no se contrae. El reloj de la nave muestra un tiempo delta tau. Se nos da la ecuación v = L / delta tau.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_04_StarTravel.jpg"/>
+</media>
+<caption>(a) El observador terrestre mide la distancia propia entre la Tierra y Alfa Centauri. (b) El astronauta observa una contracción de longitud porque la Tierra y Alfa Centauri se mueven respecto a su nave. Puede recorrer esta distancia más corta en un tiempo menor (su tiempo propio) sin superar la velocidad de la luz.</caption>
+</figure>
+<para id="fs-id1167793787639"><title>Estrategia</title>
+En primer lugar, hay que tener en cuenta que un año luz (ly) es una unidad de distancia conveniente a escala astronómica: es la distancia que recorre la luz en un año. Para la parte (a), la distancia de 4300 ly entre Alfa Centauri y la Tierra es la distancia adecuada <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> porque está medido por un observador terrestre para el que ambas estrellas son (aproximadamente) estacionarias. Para el astronauta, la Tierra y Alfa Centauri pasan a la misma velocidad, por lo que la distancia entre ellas es la longitud contraída <emphasis effect="italics">L</emphasis>. En la parte (b), se nos da <m:math><m:mrow><m:mi>γ</m:mi><m:mo>,</m:mo></m:mrow></m:math> por lo que podemos hallar <emphasis effect="italics">v</emphasis> reordenando la definición de <m:math><m:mi>γ</m:mi></m:math> para expresar <emphasis effect="italics">v</emphasis> en términos de <emphasis effect="italics">c</emphasis>.</para>
+<para id="fs-id1163712177016"><title>Solución para (a)</title>
+Para la parte (a):</para>
+<list id="fs-id1167793985723" list-type="enumerated" number-style="lower-alpha">
+<item>Identifique los datos conocidos <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4,300</m:mn><m:mspace width="0.2em"/><m:mtext>ly;</m:mtext><m:mspace width="0.2em"/><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>30,00</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Identifique la incógnita: <emphasis effect="italics">L</emphasis>.</item>
+<item>Exprese la respuesta en forma de ecuación: <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>γ</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Haga el cálculo:
+<equation id="fs-id1167793897478" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>L</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>γ</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4,300</m:mn><m:mspace width="0.2em"/><m:mtext>ly</m:mtext></m:mrow><m:mrow><m:mn>30,00</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0,1433</m:mn><m:mspace width="0.2em"/><m:mtext>ly.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1163710844888"><title>Solución para (b)</title>
+Para la parte (b):</para>
+<list id="fs-id1167793991435" list-type="enumerated" number-style="lower-alpha">
+<item>Identifique los datos conocidos: <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>30,00</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Identifique la incógnita: <emphasis effect="italics">v</emphasis> en términos de <emphasis effect="italics">c</emphasis>.</item>
+<item>Exprese la respuesta en forma de ecuación. Empiece con:
+<equation id="fs-id1167793450740" class="unnumbered"><label/><m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+A continuación, resuelva la incógnita <emphasis effect="italics">v/c</emphasis> elevando primero al cuadrado ambos lados y luego reordenando:
+<equation id="fs-id1167793877466" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>γ</m:mi><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>γ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>γ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Haga el cálculo:
+<equation id="fs-id1167794226690" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mi>v</m:mi><m:mi>c</m:mi></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>γ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>30,00</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0,99944</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
+o
+<equation id="fs-id1163723960934" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0,9994</m:mn><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167794167669"><title>Importancia</title>
+Recuerde no redondear los cálculos hasta la respuesta final o podría obtener resultados erróneos. Esto es especialmente cierto en el caso de los cálculos de relatividad especial, en los que las diferencias podrían revelarse solo después de varios decimales. El efecto relativista es grande aquí <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>30,00</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> y vemos que <emphasis effect="italics">v</emphasis> se acerca (no es igual) a la velocidad de la luz. Como la distancia medida por el astronauta es mucho menor, puede recorrerla en mucho menos tiempo en su propio marco.</para>
+</example>
+<para id="fs-id1167794032610">Las personas que viajan a velocidades extremadamente altas podrían cubrir distancias muy grandes (miles o incluso millones de años luz) y envejecer solo unos pocos años en el camino. Sin embargo, al igual que los emigrantes de siglos pasados que abandonaron su hogar, estas personas dejarían la Tierra que conocen para siempre. Incluso si regresaran, en la Tierra habrían pasado entre miles y millones de años, lo que causaría la desaparición de la mayor parte de lo que ahora existe. También hay un obstáculo práctico más serio para viajar a tales velocidades; se necesitarían energías inmensamente mayores para alcanzar tales velocidades de lo que la física clásica predice que puede lograrse. Esto se discutirá más adelante en el capítulo.</para>
+<para id="fs-id1167794030788">¿Por qué no notamos la contracción de longitud en la vida cotidiana? La distancia a la tienda de comestibles no parece depender de si nos movemos o no. Al analizar la ecuación <m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> vemos que a bajas velocidades <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>v</m:mi><m:mtext>&lt;</m:mtext><m:mtext>&lt;</m:mtext><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> las longitudes son casi iguales, que es la expectativa clásica. Pero la contracción de longitud es real, aunque no se experimente con frecuencia. Por ejemplo, una partícula cargada, como un electrón que viaja a velocidad relativista, tiene líneas de campo eléctrico que se comprimen a lo largo de la dirección del movimiento visto por un observador estacionario (<link target-id="CNX_UPhysics_38_04_BeamTube"/>). Cuando el electrón pasa por un detector, como una bobina de alambre, su campo interactúa mucho más brevemente, un efecto observado en aceleradores de partículas como el acelerador lineal de Stanford (Stanford Linear Accelerator, SLAC), de 3 km de longitud. De hecho, para un electrón que se desplaza por el tubo del haz en el SLAC, el acelerador y la Tierra se desplazan y se contraen en longitud. El efecto relativista es tan grande que el acelerador solo mide 0,5 m hasta el electrón. En realidad, es más fácil hacer descender el haz de electrones por la tubería, ya que el haz no tiene que dirigirse con tanta precisión para descender por una tubería corta como para hacerlo por una de 3 km de longitud. Esto, de nuevo, es una verificación experimental de la teoría especial de la relatividad.</para>
+<figure id="CNX_UPhysics_38_04_BeamTube">
+<media id="fs-id1167793950021" alt="Se muestra un electrón que viaja con una velocidad horizontal v en un tubo. Las líneas de campo eléctrico apuntan hacia el electrón, pero se comprimen en un cono por encima y por debajo del electrón.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_04_BeamTube.jpg"/>
+</media>
+<caption>Las líneas de campo eléctrico de una partícula cargada a alta velocidad se comprimen a lo largo de la dirección del movimiento por contracción de longitud, lo que produce una señal observable diferente cuando la partícula atraviesa una bobina.</caption>
+</figure>
+<note id="fs-id1167794064721" class="check-understanding">
+<exercise id="fs-id1167794027162">
+<problem id="fs-id1167793366723">
+<para id="fs-id1167793259734">Una partícula viaja a través de la atmósfera terrestre a una velocidad de 0,750<emphasis effect="italics">c</emphasis>. Para un observador terrestre, la distancia que recorre es de 2,50 km. ¿Qué distancia recorre la partícula vista desde su marco de referencia?</para>
+</problem>
+<solution id="fs-id1167794128197">
+<para id="fs-id1167794128199"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,50</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo stretchy="false">)</m:mo><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,750</m:mn><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>1,65</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1167793466427" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1167793301194" list-type="bulleted" bullet-style="bullet">
+<item>Todos los observadores están de acuerdo con la velocidad relativa.</item>
+<item>La distancia depende del movimiento del observador. Longitud propia <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la distancia entre dos puntos medida por un observador que está en reposo respecto a ambos puntos.</item>
+<item>La contracción de longitud es la disminución de la longitud observada de un objeto a partir de su longitud propia <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> a la longitud <emphasis effect="italics">L</emphasis> cuando su longitud se observa en un marco de referencia en el que viaja a la velocidad <emphasis effect="italics">v</emphasis>.</item>
+<item>La longitud propia es la medida más larga de cualquier intervalo de longitud. Cualquier observador que se mueva con respecto al sistema observado mide una longitud inferior a la longitud propia.</item>
+</list>
+</section>
+<section id="fs-id1167793299668" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1167793362235">
+<problem id="fs-id1167793362237">
+<para id="fs-id1167793280699">¿A quién le parece que un objeto tiene mayor longitud, a un observador que se mueve con el objeto o a un observador que se mueve respecto al objeto? ¿Qué observador mide la longitud propia del objeto?</para>
+</problem>
+<solution id="fs-id1167793280702">
+<para id="fs-id1167793924776">La longitud de un objeto es mayor para un observador que se mueve con el objeto y, por tanto, mide su longitud propia.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167794090542">
+<problem id="fs-id1167793926426">
+<para id="fs-id1167793926428">Los efectos relativistas, como la dilatación del tiempo y la contracción de longitud, están presentes en los automóviles y en los aviones. ¿Por qué nos parecen extraños estos efectos?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793441636">
+<problem id="fs-id1167793441638">
+<para id="fs-id1167794296704">Supongamos que un astronauta se desplaza con respecto a la Tierra a una fracción significativa de la velocidad de la luz. (a) ¿Observa que la velocidad de sus relojes se ha ralentizado? (b) ¿Qué cambio observa en la velocidad de los relojes terrestres? (c) ¿Le parece que su nave se acorta? (d) ¿Y la distancia entre dos estrellas que se encuentran en la dirección de su movimiento? (e) ¿Están de acuerdo él y un observador terrestre en su velocidad con respecto a la Tierra?</para>
+</problem>
+<solution id="fs-id1167794296707">
+<para id="fs-id1167793316056">a. No, no dentro del propio marco de referencia del astronauta. b. Ve que los relojes de la Tierra están en su marco de reposo moviéndose al ritmo de él y, por lo tanto, los ve ralentizados. c. No, no dentro del propio marco de referencia del astronauta. d. Sí, mide que la distancia entre las dos estrellas es más corta. e. Los dos observadores coinciden en su velocidad relativa.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1167794071932" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1167793543353">
+<problem id="fs-id1167793268123">
+<para id="fs-id1167793268125">Una nave espacial, de 200 m de largo, como se ve a bordo, se mueve junto a la Tierra a 0,970<emphasis effect="italics">c</emphasis>. ¿Cuál es su longitud medida por un observador terrestre?</para>
+</problem>
+<solution id="fs-id1167793713111">
+<para id="fs-id1167794049092">48,6 m</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793638126">
+<problem id="fs-id1167793638128">
+<para id="fs-id1167793638130">¿A qué velocidad tendría que pasar un automóvil deportivo de 6,0 m de largo para que parezca que solo mide 5,5 m?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793377362">
+<problem id="fs-id1167793377364">
+<para id="fs-id1167793377366">(a) ¿Qué distancia recorre el muón en la <link target-id="fs-id1167793912924" document="m90997"/> según el observador terrestre? (b) ¿Qué distancia recorre según un observador que se mueve con él? Base su cálculo en su velocidad respecto a la Tierra y en el tiempo que vive (tiempo propio). (c) Compruebe que estas dos distancias están relacionadas a través de la contracción de longitud <m:math><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>3,20</m:mn></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1167793918524">
+<para id="fs-id1167793918526">Al utilizar los valores dados en <link target-id="fs-id1167793912924" document="m90997"/>: a. 0,627 km; b. 2,00 km; c. 2,00 km</para></solution>
+</exercise>
+<exercise id="fs-id1167793432903">
+<problem id="fs-id1167793432905">
+<para id="fs-id1167794095197">(a) ¿Cuánto tiempo habría vivido el muón en el <link target-id="fs-id1167793912924" document="m90997"/> según lo observado en la Tierra si su velocidad fuera <m:math><m:mrow><m:mn>0,0500</m:mn><m:mi>c</m:mi><m:mo>?</m:mo></m:mrow></m:math> (b) ¿Qué distancia habría recorrido según lo observado en la Tierra? (c) ¿Qué distancia es ésta en el marco del muón?</para></problem>
+</exercise>
+<exercise id="fs-id1167793363299">
+<problem id="fs-id1167793363301">
+<para id="fs-id1167793960774"><emphasis effect="bold">Resultados irrazonables</emphasis> Una nave espacial se dirige directamente hacia la Tierra a una velocidad de 0,800<emphasis effect="italics">c</emphasis>. El astronauta a bordo afirma que puede enviar un frasco hacia la Tierra a 1,20<emphasis effect="italics">c</emphasis> con respecto a la Tierra. (a) Calcule la velocidad que debe tener el frasco con respecto a la nave espacial. (b) ¿Qué es irrazonable en este resultado? (c) ¿Qué suposiciones son irrazonables o son incoherentes?</para>
+</problem>
+<solution id="fs-id1167793503253">
+<para id="fs-id1167793503255">a. 10,0<emphasis effect="italics">c</emphasis>; b. La velocidad resultante del frasco es mayor que c, una imposibilidad. c. Es irrazonable suponer que el frasco se moverá hacia la tierra a 1,20<emphasis effect="italics">c</emphasis>.</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167794058670">
+<term>contracción de longitud</term>
+<meaning id="fs-id1167793692944">disminución de la longitud observada de un objeto con respecto a su longitud propia de <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> a la longitud <emphasis effect="italics">L</emphasis> cuando su longitud se observa en un marco de referencia en el que se desplaza a la velocidad <emphasis effect="italics">v</emphasis></meaning>
+</definition>
+<definition id="fs-id1167793933707">
+<term>longitud propia</term>
+<meaning id="fs-id1167793278452"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:mo>;</m:mo></m:mrow></m:math> la distancia entre dos puntos medida por un observador que está en reposo con respecto a ambos puntos; por ejemplo, los observadores terrestres miden la longitud propia cuando miden la distancia entre dos puntos que están inmóviles con respecto a la Tierra</meaning>
+</definition>
+</glossary>
+</document>

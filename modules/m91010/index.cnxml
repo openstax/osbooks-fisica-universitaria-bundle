@@ -1,0 +1,530 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Modelo de Bohr del átomo de hidrógeno</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m91010</md:content-id>
+  <md:title>Modelo de Bohr del átomo de hidrógeno</md:title>
+  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+<item>Explicar la diferencia entre el espectro de absorción y el espectro de emisión de la radiación emitida por los átomos.</item>
+<item>Describir el experimento de la lámina de oro de Rutherford y el descubrimiento del núcleo atómico.</item>
+<item>Explicar la estructura atómica del hidrógeno.</item>
+<item>Describir los postulados de la primera teoría cuántica para el átomo de hidrógeno.</item>
+<item>Resumir cómo el modelo cuántico del átomo de hidrógeno de Bohr explica el espectro de radiación del hidrógeno atómico.</item>
+</list></md:abstract>
+  <md:uuid>09277b2a-c4bc-4dc5-b2fb-68405c03653c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1163713315411">Históricamente, el modelo de Bohr del átomo de hidrógeno es el primer modelo de estructura atómica que explicaba correctamente los espectros de radiación del hidrógeno atómico. El modelo ocupa un lugar especial en la historia de la física porque introdujo una de las primeras teorías cuánticas, que aportó nuevos desarrollos al pensamiento científico y que más tarde culminó con el desarrollo de la mecánica cuántica. Para entender los detalles del modelo de Bohr, primero debemos repasar los descubrimientos del siglo XIX que impulsaron su formulación.</para>
+<para id="fs-id1163713537891">Cuando utilizamos un prisma para analizar la luz blanca procedente del sol, se observan varias líneas oscuras en el espectro solar (<link target-id="CNX_UPhysics_39_04_fraunhofer"/>). Las líneas de absorción solar se denominan <term>líneas de Fraunhofer</term> en honor a Joseph von <term class="no-emphasis">Fraunhofer</term>, quien midió con precisión sus longitudes de onda. En 1854-1861, Gustav Kirchhoff y Robert Bunsen descubrieron que para los distintos elementos químicos, la línea del <term>espectro de emisión</term> de un elemento coincide exactamente con su línea de <term>espectro de absorción</term>. La diferencia entre el espectro de absorción y el de emisión se explica en la <link target-id="CNX_UPhysics_39_04_spectra"/>. Se observa un espectro de absorción cuando la luz atraviesa un gas.  Este espectro aparece como líneas negras que se producen solo en determinadas longitudes de onda sobre el fondo del espectro continuo de la luz blanca (<link target-id="CNX_UPhysics_39_04_fraunhofer"/>). Las longitudes de onda que faltan nos indican qué longitudes de onda de la radiación son absorbidas por el gas. El espectro de emisión se observa cuando el gas emite la luz. Este espectro se ve como líneas de colores sobre el fondo negro (ver la <link target-id="CNX_UPhysics_39_04_emit-H"/> y <link target-id="CNX_UPhysics_39_04_emit-Fe"/>). Las posiciones de las líneas de emisión nos indican qué longitudes de onda de la radiación son las que el gas emite. Cada elemento químico tiene su propio espectro de emisión característico. Para cada elemento, las posiciones de sus líneas de emisión son exactamente las mismas que las de sus líneas de absorción. Esto significa que los átomos de un elemento específico absorben la radiación solo en longitudes de onda específicas y la radiación que no tiene estas longitudes de onda no es absorbida en lo absoluto por el elemento. Esto también significa que la radiación emitida por los átomos de cada elemento tiene exactamente las mismas longitudes de onda que la radiación que absorben.</para>
+<figure id="CNX_UPhysics_39_04_fraunhofer">
+<media id="fs-id1163713268538" alt="La figura representa el espectro de emisión solar en el rango visible, desde el extremo azul profundo del espectro, medido a 380 nm, hasta la parte roja profunda del espectro, medida a 710 nm. Las líneas de Fraunhofer se observan como líneas negras verticales en posiciones espectrales específicas en el espectro continuo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_04_fraunhofer.jpg"/>
+</media>
+<caption>En el espectro de emisión solar en el rango visible de 380 nm a 710 nm, las líneas de Fraunhofer se observan como líneas negras verticales en posiciones espectrales específicas en el espectro continuo. Los instrumentos modernos de alta sensibilidad observan miles de estas líneas.</caption>
+</figure>
+<figure id="CNX_UPhysics_39_04_spectra">
+<media id="fs-id1163709750023" alt="Las figuras A y B muestran el esquema de un montaje experimental para observar las líneas de absorción. En la figura A, la luz blanca pasa a través del prisma y se separa en las longitudes de onda. En el espectro de la luz que pasa faltan algunas longitudes de onda, que se ven como líneas negras de absorción en el espectro continuo en la pantalla de visualización. En la figura B, la luz emitida por el gas en el tubo de descarga pasa a través del prisma y se separa en longitudes de onda. En el espectro de la luz que pasa, solo hay longitudes de onda específicas, que se ven como líneas de emisión de colores en la pantalla.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_04_spectra.jpg"/>
+</media>
+<caption>Observación de los espectros de líneas: (a) montaje para observar las líneas de absorción; (b) montaje para observar las líneas de emisión. (a) La luz blanca pasa a través de un gas frío que está contenido en un matraz de vidrio. Se utiliza un prisma para separar las longitudes de onda de la luz que pasa. En el espectro de la luz que pasa faltan algunas longitudes de onda, que se ven como líneas negras de absorción en el espectro continuo de la pantalla de visualización. (b) Un gas está contenido en un tubo de descarga de vidrio que tiene electrodos en sus extremos. A una diferencia de potencial elevada entre los electrodos, el gas se ilumina y la luz emitida por el gas pasa a través del prisma que separa sus longitudes de onda. En el espectro de la luz emitida, solo están presentes determinadas longitudes de onda, que se ven como líneas de emisión de colores en la pantalla.</caption>
+</figure>
+<figure id="CNX_UPhysics_39_04_emit-H">
+<media id="fs-id1163713429123" alt="La figura muestra el espectro de emisión del hidrógeno. Sólo hay cuatro líneas de emisión, tres en la línea azul y una en la roja del espectro.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_04_emit-H.jpg"/>
+</media>
+<caption>El espectro de emisión del hidrógeno atómico: Las posiciones espectrales de las líneas de emisión son características de los átomos de hidrógeno (crédito: "Merikanto"/Wikimedia Commons)</caption>
+</figure>
+<figure id="CNX_UPhysics_39_04_emit-Fe">
+<media id="fs-id1163713285581" alt="La figura muestra el espectro de emisión del hierro. En la parte visible del espectro hay numerosas líneas de emisión superpuestas.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_04_emit-Fe.jpg"/>
+</media>
+<caption>El espectro de emisión del hierro atómico: Las posiciones espectrales de las líneas de emisión son características de los átomos de hierro.</caption>
+</figure>
+<para id="fs-id1163713069894">Los espectros de emisión de los elementos tienen estructuras complejas; se vuelven aún más complejos para los elementos con números atómicos más altos. El espectro más sencillo, mostrado en la <link target-id="CNX_UPhysics_39_04_emit-H"/>, pertenece al átomo de hidrógeno. Sólo cuatro líneas son visibles para el ojo humano. Según se lee de derecha a izquierda en la <link target-id="CNX_UPhysics_39_04_emit-H"/>, estas líneas son: roja (656 nm), llamada línea H-<m:math><m:mtext>α</m:mtext></m:math>; agua (486 nm), azul (434 nm) y violeta (410 nm). Las líneas con longitudes de onda inferiores a 400 nm aparecen en la parte ultravioleta del espectro (<link target-id="CNX_UPhysics_39_04_emit-H"/>, extremo izquierdo) y son invisibles para el ojo humano. Hay infinitas líneas espectrales invisibles en la serie del hidrógeno.</para>
+<para id="fs-id1163713254055">Una fórmula empírica para describir las posiciones (longitudes de onda) <m:math><m:mi>λ</m:mi></m:math> de las líneas de emisión del hidrógeno en esta serie fue descubierta en 1885 por Johann <term class="no-emphasis">Balmer</term>, y se conoce como la <term>fórmula de Balmer</term>:</para>
+<note id="fs-id1163709706026" class="equation-callout">
+<equation id="fs-id1163713204647"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713541170">La constante <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1,09737</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math> se llama la <term>constante de Rydberg para el hidrógeno</term>. En la <link target-id="fs-id1163713204647"/>, el entero positivo <emphasis effect="italics">n</emphasis> toma valores <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow></m:math> para las cuatro líneas visibles de esta serie. La serie de líneas de emisión dada por la fórmula de Balmer se denomina <term>serie de Balmer</term> para el hidrógeno. Otras líneas de emisión del hidrógeno descubiertas en el siglo XX se describen mediante la <term>fórmula de Rydberg</term>, que resume todos los datos experimentales:</para>
+<note id="fs-id1163713181998" class="equation-callout">
+<equation id="fs-id1163713275712"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msubsup><m:mi>n</m:mi><m:mi>f</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msubsup><m:mi>n</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>donde</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713124363">Cuando <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> la serie de líneas espectrales se denomina <term>serie de Lyman</term>. Cuando <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> la serie se llama serie de Balmer, y en este caso, la fórmula de Rydberg coincide con la fórmula de Balmer. Cuando <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> la serie se denomina <term>serie de Paschen</term>. Cuando <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo></m:mrow></m:math> la serie se llama <term>serie de Brackett</term>. Cuando <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> la serie se denomina <term>serie de Pfund</term>. Cuando <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math> tenemos la <term>serie de Humphreys</term>. Como puede adivinar, hay infinitas bandas espectrales de este tipo en el espectro del hidrógeno porque <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub></m:mrow></m:math> puede ser cualquier número entero positivo.</para>
+<para id="fs-id1163713059079">La fórmula de Rydberg para el hidrógeno da las posiciones exactas de las líneas espectrales tal y como se observan en un laboratorio; sin embargo, a principios del siglo XX, nadie podía explicar por qué funcionaba tan bien. La fórmula de Rydberg permaneció sin explicación hasta que se propuso el primer modelo exitoso del átomo de hidrógeno en 1913.</para>
+<example id="fs-id1163713182117">
+<para id="fs-id1172098581139"><title>Límites de la serie Balmer</title>
+Calcule las longitudes de onda más largas y más cortas de la serie de Balmer.</para>
+<para id="fs-id1172098544785"><title>Estrategia</title>
+Podemos utilizar la fórmula de Balmer o la fórmula de Rydberg. La mayor longitud de onda se obtiene cuando <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> es mayor, que es cuando <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> porque <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> para la serie de Balmer. La menor longitud de onda se obtiene cuando <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:math> es el más pequeño, que es <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:math> cuando <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>.</m:mo></m:math></para>
+<para id="fs-id1172100637244"><title>Solución</title>
+El límite de la onda larga:</para>
+<equation id="fs-id1163713019579" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,09737</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>m</m:mtext></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>656,3</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1163713031765">El límite de la onda corta:</para>
+<equation id="fs-id1163709784289" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,09737</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>m</m:mtext></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>364,6</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1172100674757"><title>Importancia</title>
+Nótese que hay infinitas líneas espectrales que se encuentran entre estos dos límites.</para>
+</example>
+<note id="fs-id1163713204333" class="check-understanding">
+<exercise id="fs-id1163709666451">
+<problem id="fs-id1163713052254">
+<para id="fs-id1163713259462">¿Cuáles son los límites de la serie de Lyman? ¿Puede ver estas líneas espectrales?</para>
+</problem>
+<solution id="fs-id1163713106379">
+<para id="fs-id1163713128033">121,5 nm y 91,1 nm; no es posible, estas bandas espectrales están en el ultravioleta</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1163713056691">La clave para desvelar el misterio de los espectros atómicos está en comprender la estructura atómica. Los científicos saben desde hace tiempo que la materia está formada por átomos. Según la ciencia del siglo XIX, los átomos son las cantidades más pequeñas e indivisibles de la materia. Esta creencia científica se hizo añicos gracias a una serie de experimentos pioneros que demostraron la existencia de partículas subatómicas, como los electrones, protones y neutrones.</para>
+<para id="fs-id1163713013146">El electrón fue descubierto e identificado como la cantidad más pequeña de carga eléctrica por J.J. <term class="no-emphasis">Thomson</term> en 1897 gracias a sus experimentos de rayos catódicos, también conocidos como experimentos de rayos β: Un rayo <term><emphasis effect="italics">β</emphasis></term> es un haz de electrones. En 1904, Thomson propuso el primer modelo de la estructura atómica, conocido como el modelo del "pudín de pasas", en el que un átomo consistía en una materia desconocida cargada positivamente con electrones negativos incrustados en ella como las ciruelas en un pudín. Alrededor de 1900, E. <term class="no-emphasis">Rutherford</term>, e independientemente, Paul Ulrich Villard, clasificaron toda la radiación conocida en ese momento como <term><m:math><m:mi>α</m:mi></m:math>-α</term>, <emphasis effect="italics">rayos-</emphasis>β, and <term><emphasis effect="italics">rayos-</emphasis>-γ</term> (un <emphasis effect="italics">rayo-</emphasis>γ es un rayo de fotones altamente energéticos). En 1907, Rutherford y Thomas Royds utilizaron métodos de espectroscopia para demostrar que las partículas de carga positiva de <m:math><m:mi>α</m:mi></m:math>α (llamada <term><m:math><m:mi>α</m:mi></m:math>-α</term>) son de hecho átomos de helio doblemente ionizados. En 1909, Rutherford, Ernest Marsden y Hans Geiger utilizaron <m:math><m:mi>α</m:mi></m:math>-α en su famoso experimento de dispersión que refutó el modelo de Thomson (véase <link document="m90654">Momento lineal y Colisiones</link>).</para>
+<para id="fs-id1163713042221">En el <term>experimento de la lámina de oro de Rutherford</term> (también conocido como el experimento Geiger-Marsden), <m:math><m:mi>α</m:mi></m:math>-α incidieron en una fina lámina de oro y los átomos de oro del interior de la lámina las dispersaron (véase <link target-id="CNX_UPhysics_09_04_TvsR" document="m90658">Tipos de colisiones</link>). Las partículas salientes fueron detectadas por una pantalla de centelleo de <m:math><m:mrow><m:mn>360</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> que rodea el objetivo de oro (para una descripción detallada del montaje experimental, véase <link document="m90654">Momento lineal y colisiones</link>). Cuando una partícula dispersa golpea la pantalla, se observa un pequeño destello de luz (centelleo) en ese lugar. Contando los centelleos observados en varios ángulos con respecto a la dirección del haz incidente, los científicos pudieron determinar qué fracción de las partículas incidentes se dispersaron y qué fracción no se desvió en absoluto. Si el modelo del pudín de pasas fuera correcto, no habría <m:math><m:mi>α</m:mi></m:math>-α retrodispersas. Sin embargo, los resultados del experimento de Rutherford mostraron que, aunque una fracción considerable de <m:math><m:mi>α</m:mi></m:math>-α salieron de la lámina sin dispersarse en absoluto como si la lámina no estuviera en su camino, una fracción significativa de <m:math><m:mi>α</m:mi></m:math>-α se retrodispersaron hacia la fuente. Este tipo de resultado solo fue posible cuando la mayor parte de la masa y toda la carga positiva del átomo de oro se concentraron en un espacio diminuto dentro del átomo.</para>
+<para id="fs-id1163713201236">En 1911, Rutherford propuso un <term>modelo atómico nuclear</term>. En el modelo de Rutherford, un átomo contenía un núcleo cargado positivamente de tamaño insignificante, casi como un punto, pero que incluía casi toda la masa del átomo. El átomo también contenía electrones negativos que se encontraban dentro del átomo pero relativamente alejados del núcleo. Diez años más tarde, Rutherford acuñó el nombre de <emphasis effect="italics">protón</emphasis> para el núcleo del hidrógeno y el nombre de <emphasis effect="italics">neutrón</emphasis> para una partícula hipotética eléctricamente neutra que mediaría la unión de los protones positivos en el núcleo (el neutrón fue descubierto en 1932 por James <term class="no-emphasis">Chadwick</term>). A Rutherford se le atribuye el descubrimiento del núcleo atómico; sin embargo, el modelo de Rutherford de la estructura atómica no explica la fórmula de Rydberg para las líneas de emisión del hidrógeno.</para>
+<para id="fs-id1163713036273">El<term>modelo de Bohr del átomo de hidrógeno</term>, propuesto por Niels <term class="no-emphasis">Bohr</term> en 1913, fue el primer modelo cuántico que explicaba correctamente el espectro de emisión del hidrógeno. El modelo de Bohr combina la mecánica clásica del movimiento planetario con el concepto cuántico de los fotones. Una vez que Rutherford estableció la existencia del núcleo atómico, la intuición de Bohr de que el electrón negativo del átomo de hidrógeno debe girar alrededor del núcleo positivo se convirtió en una consecuencia lógica de la ley de la distancia inversa al cuadrado de la atracción electrostática. Recordemos que la ley de Coulomb que describe la atracción entre dos cargas opuestas tiene una forma similar a la ley universal de gravitación de Newton en el sentido de que la fuerza gravitacional y la fuerza electrostática son decrecientes como <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> donde <emphasis effect="italics">r</emphasis> es la distancia de separación entre los cuerpos. De la misma manera que la Tierra gira alrededor del sol, el electrón negativo del átomo de hidrógeno puede girar alrededor del núcleo positivo. Sin embargo, una carga que se acelera irradia su energía. Clásicamente, si el electrón se moviera alrededor del núcleo de forma planetaria, estaría sufriendo una aceleración centrípeta y, por tanto, estaría irradiando energía que le haría descender en espiral hacia el núcleo. Tal átomo de hidrógeno planetario no sería estable, lo que es contrario a lo que sabemos sobre los átomos de hidrógeno ordinarios que no se desintegran. Además, el movimiento clásico del electrón no es capaz de explicar el discreto espectro de emisión del hidrógeno.</para>
+<para id="fs-id1163713196393">Para sortear estas dos dificultades, Bohr propuso los siguientes tres <term>postulados del modelo de Bohr</term>:</para>
+<list id="fs-id1163713489088" list-type="enumerated" number-style="arabic">
+<item>El electrón negativo se mueve alrededor del núcleo positivo (protón) en una órbita circular. Todas las órbitas de los electrones están centradas en el núcleo. No todas las órbitas clásicamente posibles están disponibles para un electrón unido al núcleo.</item>
+<item>Las órbitas de electrones permitidas satisfacen la <emphasis effect="italics">primera condición de cuantización</emphasis>: En la <emphasis effect="italics">enésima</emphasis>órbita, el momento angular <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> del electrón solo puede tomar valores discretos:<newline/>
+<note id="fs-id1163709682583" class="equation-callout">
+<equation id="fs-id1163713197261"><m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>ℏ</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>donde</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note><newline/> Este postulado dice que el momento angular del electrón está cuantizado. Denotado por <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>n</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> respectivamente, el radio de la <emphasis effect="italics">enésima</emphasis>órbita y la rapidez del electrón en ella, la primera condición de cuantización, puede expresarse explícitamente como<newline/>
+<equation id="fs-id1163713071268"><m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msub><m:mi>v</m:mi><m:mi>n</m:mi></m:msub><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>ℏ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>Un electrón puede hacer transiciones desde una órbita donde su energía es <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> a otra órbita donde su energía es <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>m</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Cuando un átomo absorbe un fotón, el electrón hace una transición a una órbita de mayor energía. Cuando un átomo emite un fotón, el electrón pasa a una órbita de menor energía. Las transiciones de electrones con la absorción o emisión simultánea de fotones tienen lugar <emphasis effect="italics">de forma instantánea</emphasis>. Las transiciones de electrones permitidas satisfacen la <emphasis effect="italics">segunda condición de cuantización</emphasis>:<newline/>
+<note id="fs-id1163713277995" class="equation-callout">
+<equation id="fs-id1163709714544"><m:math><m:mrow><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mo>|</m:mo><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mi>m</m:mi></m:msub><m:mo>|</m:mo></m:mrow></m:math></equation>
+</note><newline/> donde <m:math><m:mrow><m:mi>h</m:mi><m:mi>f</m:mi></m:mrow></m:math> es la energía de un fotón emitido o absorbido con frecuencia <emphasis effect="italics">f</emphasis>. La segunda condición de cuantización establece que el cambio de energía de un electrón en el átomo de hidrógeno está cuantizado.</item>
+</list>
+<para id="fs-id1163713280169">Estos tres postulados de la primera teoría cuántica del átomo de hidrógeno nos permiten deducir no solo la fórmula de Rydberg, sino también el valor de la constante de Rydberg y otras propiedades importantes del átomo de hidrógeno, como sus niveles de energía, su energía de ionización y los tamaños de los orbitales de los electrones. Nótese que en el modelo de Bohr, junto con dos postulados de cuantización no clásicos, tenemos también la descripción clásica del electrón como una partícula que está sometida a la fuerza de Coulomb, y su movimiento debe obedecer las leyes de movimiento de Newton. El átomo de hidrógeno, como sistema aislado, debe obedecer las leyes de conservación de la energía y el momento de la forma que conocemos de la física clásica. Teniendo en cuenta este marco teórico, estamos preparados para proceder a nuestro análisis.</para>
+<section id="fs-id1163713134889">
+<title>Órbitas de los electrones</title>
+<para id="fs-id1163709724956">Para obtener el tamaño <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> de la <emphasis effect="italics">enésima</emphasis>órbita del electrón y la velocidad del electrón en ella, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> recurrimos a la mecánica de Newton. Como partícula cargada, el electrón experimenta una atracción electrostática hacia el núcleo cargado positivamente en el centro de su órbita circular. Esta atracción electrostática es la fuerza centrípeta que hace que el electrón se mueva en círculo alrededor del núcleo. Por lo tanto, la magnitud de la fuerza centrípeta se identifica con la magnitud de la fuerza electrostática:</para>
+<equation id="fs-id1163713085070"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msubsup><m:mi>v</m:mi><m:mi>n</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mi>n</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709713761">Aquí, <m:math><m:mi>e</m:mi></m:math> denota el valor de la carga elemental. El electrón negativo y el protón positivo tienen el mismo valor de carga, <m:math display="block"><m:mrow><m:mo>|</m:mo><m:mi>q</m:mi><m:mo>|</m:mo><m:mo>=</m:mo><m:mi>e</m:mi><m:mo>.</m:mo></m:mrow></m:math> Cuando se combina la <link target-id="fs-id1163713085070"/> con la primera condición de cuantización dada por la <link target-id="fs-id1163713071268"/>, podemos resolver la velocidad, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>n</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> y para el radio, <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1163713260524"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>ℏ</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow></m:math></equation>
+<equation id="fs-id1163709713858"><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709756950">Obsérvese que estos resultados nos dicen que la velocidad del electrón, así como el radio de su órbita, solo dependen del índice <emphasis effect="italics">n</emphasis> que enumera la órbita, ya que todas las demás cantidades de las ecuaciones anteriores son constantes fundamentales. Vemos en la <link target-id="fs-id1163709713858"/> que el tamaño de la órbita crece como el cuadrado de <emphasis effect="italics">n</emphasis>. Esto significa que la segunda órbita es cuatro veces más grande que la primera, y la tercera órbita es nueve veces más grande que la primera, y así sucesivamente. También vemos en la <link target-id="fs-id1163713260524"/> que la velocidad del electrón en la órbita disminuye a medida que aumenta el tamaño de la órbita. La velocidad del electrón es mayor en la primera órbita de Bohr, para <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> que es la órbita más cercana al núcleo. El radio de la primera órbita de Bohr se denomina <term>radio de Bohr del hidrógeno</term>, denotado como <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> Su valor se obtiene estableciendo <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> en <link target-id="fs-id1163709713858"/>:</para>
+<note id="fs-id1163713434383" class="equation-callout">
+<equation id="fs-id1163713197714"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>5,29</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>0,529</m:mn><m:mspace width="0.2em"/><m:mtext>Å</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713421835">Podemos sustituir <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> en la <link target-id="fs-id1163709713858"/> para expresar el radio de la <emphasis effect="italics">enésima</emphasis>órbita en términos de <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math></para>
+<note id="fs-id1163713287822" class="equation-callout">
+<equation id="fs-id1163713538834"><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713162524">Este resultado significa que las órbitas de los electrones en el átomo de hidrógeno están <emphasis effect="italics">cuantizadas</emphasis> porque el radio orbital solo toma valores específicos de <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo><m:mn>4</m:mn><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo><m:mn>9</m:mn><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo><m:mn>16</m:mn><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math> dado por <link target-id="fs-id1163713538834"/>, y no se permiten otros valores.</para>
+</section>
+<section id="fs-id1163713074874">
+<title>Energías de los electrones</title>
+<para id="fs-id1163713051265">La energía total <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> de un electrón en la <emphasis effect="italics">enésima</emphasis>órbita es la suma de su energía cinética <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> y su energía potencial electrostática <m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>n</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Utilizando <link target-id="fs-id1163713260524"/>, encontramos que</para>
+<equation id="fs-id1163713084406"><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msubsup><m:mi>v</m:mi><m:mi>n</m:mi><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>32</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msubsup><m:mi>ε</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713172179">Recordemos que la energía potencial electrostática de interacción entre dos cargas <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> que están separadas por una distancia <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:math> es <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Aquí, <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>e</m:mi></m:mrow></m:math> es la carga del núcleo del átomo de hidrógeno (la carga del protón), <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>e</m:mi></m:mrow></m:math> es la carga del electrón y <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> es el radio de la <emphasis effect="italics">enésima</emphasis>órbita. Ahora utilizamos la <link target-id="fs-id1163709713858"/> para encontrar la energía potencial del electrón:</para>
+<equation id="fs-id1163713203409"><m:math><m:mrow><m:msub><m:mi>U</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msubsup><m:mi>ε</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713119076">La energía total del electrón es la suma de la <link target-id="fs-id1163713084406"/> y <link target-id="fs-id1163713203409"/>:</para>
+<equation id="fs-id1163713106682"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mi>n</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>U</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>32</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msubsup><m:mi>ε</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713424888">Observe que la energía solo depende del índice <emphasis effect="italics">n</emphasis> porque el resto de los símbolos en la <link target-id="fs-id1163713106682"/> son constantes físicas. El valor del factor constante en la <link target-id="fs-id1163713106682"/> es</para>
+<note id="fs-id1163713258346" class="equation-callout">
+<equation id="fs-id1163709830578"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>32</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msubsup><m:mi>ε</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>ℏ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>8</m:mn><m:msubsup><m:mi>ε</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mi>e</m:mi></m:msub><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,17</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−18</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163709685382">Es conveniente expresar la energía del electrón en la <emphasis effect="italics">enésima</emphasis>órbita en términos de esta energía, como</para>
+<note id="fs-id1163713181081" class="equation-callout">
+<equation id="fs-id1163713535556"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163709757240">Ahora podemos ver que las energías de los electrones en el átomo de hidrógeno están <emphasis effect="italics">cuantizadas</emphasis> porque solo pueden tener valores discretos de <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo><m:mtext>−</m:mtext><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo></m:mrow></m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo></m:mrow></m:mrow><m:mtext>−</m:mtext><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mn>16</m:mn></m:mrow></m:mrow><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math> dado por la <link target-id="fs-id1163713535556"/>, y no se permiten otros valores de energía. Este conjunto de energías de electrones permitidas se denomina <term>espectro energético del hidrógeno</term> (<link target-id="CNX_UPhysics_39_04_H-energy"/>). El índice <emphasis effect="italics">n</emphasis> que enumera los niveles de energía en el modelo de Bohr se llama <term>número cuántico de</term> energía. Identificamos la energía del electrón dentro del átomo de hidrógeno con la energía del átomo de hidrógeno. Note que el menor valor de energía se obtiene para <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> por lo que el átomo de hidrógeno no puede tener una energía menor que esa. Este valor mínimo de la energía de los electrones en el átomo de hidrógeno se denomina <term>energía del estado fundamental del átomo de hidrógeno</term> y su valor es</para>
+<note id="fs-id1163713547849" class="equation-callout">
+<equation id="fs-id1163713009596"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>−13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713103924">El átomo de hidrógeno puede tener otras energías superiores a la del estado fundamental Estos estados de mayor energía se conocen como <term>estados de energía excitada de un átomo de hidrógeno</term>.</para>
+<para id="fs-id1163713263165">Sólo hay un estado fundamental, pero hay infinitos estados excitados porque hay infinitos valores de <emphasis effect="italics">n</emphasis> en la <link target-id="fs-id1163713535556"/>. Decimos que el electrón está en el "primer estado excitado" cuando su energía es <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> (cuando <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>), el segundo estado excitado cuando su energía es <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math> (cuando <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>) y, en general, en el <emphasis effect="italics">enésimo</emphasis>estado de salida cuando su energía es <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math> No existe el estado excitado más alto de todos; sin embargo, hay un límite en la secuencia de estados excitados. Si seguimos aumentando <emphasis effect="italics">n</emphasis> en la <link target-id="fs-id1163713535556"/>, encontramos que el límite es <m:math><m:mrow><m:mtext>−</m:mtext><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:munder><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> En este límite, el electrón deja de estar ligado al núcleo y se convierte en un electrón libre. Un electrón permanece unido al átomo de hidrógeno mientras su energía sea negativa. Un electrón que orbita alrededor del núcleo en la primera órbita de Bohr, la más cercana al núcleo, se encuentra en el estado fundamental, donde su energía tiene el valor más pequeño. En el estado fundamental, el electrón está fuertemente unido al núcleo y su energía viene dada por la <link target-id="fs-id1163713009596"/>. Si queremos sacar este electrón del átomo, debemos suministrarle suficiente energía, <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>∞</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math> para, al menos, equilibrar su energía del estado fundamental <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>:</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1163713283381"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>∞</m:mi></m:msub><m:mo>+</m:mo><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>E</m:mi><m:mi>∞</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713182202">La energía necesaria para extraer el electrón del átomo se denomina <term>energía de ionización</term>. La energía de ionización <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>∞</m:mi></m:msub></m:mrow></m:math> que se necesita para sacar el electrón de la primera órbita de Bohr se denomina <term>límite de ionización del hidrógeno</term>. El límite de ionización en la <link target-id="fs-id1163713283381"/> que obtenemos en el modelo de Bohr coincide con el valor experimental.</para>
+<figure id="CNX_UPhysics_39_04_H-energy">
+<media id="fs-id1163713204626" alt="La figura muestra el espectro energético del átomo de hidrógeno. El eje Y representa la energía expresada en eV. Las líneas horizontales representan los estados ligados de un electrón en el nivel. Sólo hay un estado fundamental, marcado como n = 1 a -13,6 eV y un número infinito de estados excitados cuantizados. Los estados se enumeran con los números cuánticos n = 1, 2, 3, 4 y su densidad aumenta al acercarse a 0 eV. La serie de Lyman hace la transición a n = 1, la serie de Balmer hace la transición a n = 2 a -3,4 eV, y la serie de Paschen hace la transición a n = -3 a -1,51 eV. Las series se indican con flechas hacia abajo.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_39_04_H-energy.jpg"/>
+</media>
+<caption>El espectro energético del átomo de hidrógeno. Los niveles de energía (líneas horizontales) representan los estados ligados de un electrón en el átomo. Sólo hay un estado fundamental, <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> y los infinitos estados excitados cuantizados. Los estados se enumeran por el número cuántico <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math> Las líneas verticales ilustran las transiciones de electrones permitidas entre los estados. Las flechas hacia abajo ilustran las transiciones con una emisión de un fotón con una longitud de onda en la banda espectral indicada.</caption>
+</figure>
+</section>
+<section id="fs-id1163713051313">
+<title>Líneas de emisión espectral del hidrógeno</title>
+<para id="fs-id1163713042337">Para obtener las longitudes de onda de la radiación emitida cuando un electrón hace una transición de la órbita <emphasis effect="italics">n</emphasis>a la órbita <emphasis effect="italics">m</emphasis>, utilizamos la segunda de las condiciones de cuantización de Bohr y la <link target-id="fs-id1163713535556"/> para las energías. La emisión de energía del átomo solo puede producirse cuando un electrón realiza una transición de un estado excitado a otro de menor energía. En el curso de dicha transición, el fotón emitido arrastra la diferencia de energías entre los estados implicados en la transición. La transición no puede ir en la otra dirección porque la energía de un fotón no puede ser negativa, lo que significa que para la emisión debemos tener <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>E</m:mi><m:mi>m</m:mi></m:msub></m:mrow></m:math> y <m:math><m:mrow><m:mi>n</m:mi><m:mo>&gt;</m:mo><m:mi>m</m:mi><m:mo>.</m:mo></m:mrow></m:math> Por lo tanto, el tercero de los postulados de Bohr da</para>
+<equation id="fs-id1163713155077"><m:math><m:mrow><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mo>|</m:mo><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mi>m</m:mi></m:msub><m:mo>|</m:mo><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mi>m</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709724875">Ahora expresamos la energía del fotón en términos de su longitud de onda, <m:math><m:mrow><m:mi>h</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>c</m:mi><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>λ</m:mi><m:mo>,</m:mo></m:mrow></m:math> y dividir ambos lados de la <link target-id="fs-id1163713155077"/> por <m:math><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math> El resultado es</para>
+<equation id="fs-id1163709829542"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713489222">El valor de la constante en esta ecuación es</para>
+<equation id="fs-id1163713489226"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mi>h</m:mi><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4,136</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup><m:mtext>eV</m:mtext><m:mo>·</m:mo><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,997</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mrow><m:mtext>m</m:mtext><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1,097</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mfrac><m:mn>1</m:mn><m:mtext>m</m:mtext></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709766124">Este valor es exactamente la constante de Rydberg <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub></m:mrow></m:math> en la fórmula heurística de Rydberg en la <link target-id="fs-id1163713275712"/>. De hecho, <link target-id="fs-id1163709829542"/> es idéntica a la fórmula de Rydberg, porque para una <emphasis effect="italics">m</emphasis> dada, tenemos <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math> De este modo, el modelo cuántico de Bohr del átomo de hidrógeno nos permite deducir la constante experimental de Rydberg a partir de los principios básicos y expresarla en términos de constantes fundamentales. Las transiciones entre las órbitas electrónicas permitidas se ilustran en la <link target-id="CNX_UPhysics_39_04_H-energy"/>.</para>
+<para id="fs-id1163713119682">Podemos repetir los mismos pasos que nos llevaron a la <link target-id="fs-id1163709829542"/> para obtener la longitud de onda de la radiación absorbida; esto da de nuevo la <link target-id="fs-id1163709829542"/> pero esta vez para las posiciones de las líneas de absorción en el espectro de absorción del hidrógeno. La única diferencia es que para la absorción, el número cuántico <emphasis effect="italics">m</emphasis> es el índice de la órbita ocupada por el electrón antes de la transición (orbital de menor energía) y el número cuántico <emphasis effect="italics">n</emphasis> es el índice del orbital al que el electrón hace la transición (orbital de mayor energía). La diferencia entre las energías de los electrones en estas dos órbitas es la energía del fotón absorbido.</para>
+<example id="fs-id1163713245820">
+<para id="fs-id1172096386702"><title>Tamaño y energía de ionización del átomo de hidrógeno en estado excitado</title>
+Si un átomo de hidrógeno en estado fundamental absorbe un fotón de 93,7 nm, correspondiente a una línea de transición en la serie de Lyman, ¿cómo afecta esto a la energía y al tamaño del átomo? ¿Cuánta energía se necesita para ionizar el átomo cuando se encuentra en este estado excitado? Indique sus respuestas en unidades absolutas y en relación con el estado fundamental.</para>
+<para id="fs-id1172100654175"><title>Estrategia</title>
+Antes de la absorción, el átomo se encuentra en su estado fundamental. Esto significa que la transición del electrón tiene lugar desde la órbita <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> a alguna órbita <emphasis effect="italics">enésima</emphasis>superior. En primer lugar, debemos determinar <m:math><m:mi>n</m:mi></m:math> de la longitud de onda absorbida <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>93,7</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Entonces, podemos usar la <link target-id="fs-id1163713535556"/> para encontrar la energía <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> del estado excitado y su energía de ionización <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>n</m:mi></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> y utilizar la <link target-id="fs-id1163713538834"/> para encontrar el radio <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> del átomo en estado excitado. Para estimar <emphasis effect="italics">n</emphasis>, utilizamos <link target-id="fs-id1163709829542"/>.</para>
+<para id="fs-id1172100633188"><title>Solución</title>
+Sustituir <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> y <m:math><m:mrow><m:mi>λ</m:mi><m:mo>=</m:mo><m:mn>93,7</m:mn><m:mspace width="0.2em"/><m:mtext>nm</m:mtext></m:mrow></m:math> en la <link target-id="fs-id1163709829542"/> y resolver para <m:math><m:mi>n</m:mi><m:mo>.</m:mo></m:math> No debe esperar una respuesta entera perfecta debido a los errores de redondeo, pero su respuesta será cercana a un entero, y puede estimar <emphasis effect="italics">n</emphasis> tomando la parte integral de su respuesta:</para>
+<equation id="fs-id1163713325785" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>λ</m:mi><m:msub><m:mi>R</m:mi><m:mtext>H</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>93,7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,097</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6,07</m:mn><m:mo stretchy="false">⇒</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163709742902">El radio de la órbita <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> es</para>
+<equation id="fs-id1163713513206" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mn>6</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>36</m:mn><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>36</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0,529</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>19,04</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext><m:mo>≅</m:mo><m:mn>19,0</m:mn><m:mspace width="0.2em"/><m:mtext>Å</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713310422">Por lo tanto, después de absorber el fotón de 93,7 nm, el tamaño del átomo de hidrógeno en el estado excitado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> es 36 veces mayor que antes de la absorción, cuando el átomo se encontraba en el estado fundamental. La energía del quinto estado excitado (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>) es:</para>
+<equation id="fs-id1163709830584" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mn>6</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>13,6</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>≅</m:mo><m:mo>−</m:mo><m:mn>0,378</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1163713328529">Después de absorber el fotón de 93,7 nm, la energía del átomo de hidrógeno es mayor que antes de la absorción. Ionización del átomo cuando está en el quinto estado excitado (<m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>) requiere 36 veces menos energía que la que se necesita cuando el átomo está en el estado fundamental:</para>
+<equation id="fs-id1163709829302" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>E</m:mi><m:mn>6</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>-0,378</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,378</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1172100585304"><title>Importancia</title>
+Podemos analizar cualquier línea espectral en el espectro del hidrógeno de la misma manera. Así, las mediciones experimentales de las líneas espectrales nos proporcionan información sobre la estructura atómica del átomo de hidrógeno.</para>
+</example>
+<note id="fs-id1163713278516" class="check-understanding">
+<exercise id="fs-id1163713278519">
+<problem id="fs-id1163713278521">
+<para id="fs-id1163709827129">Cuando un electrón de un átomo de hidrógeno se encuentra en el primer estado excitado, ¿qué predicción da el modelo de Bohr sobre su rapidez orbital y su energía cinética? ¿Cuál es la magnitud de su momento angular orbital?</para>
+</problem>
+<solution id="fs-id1163709827138">
+<para id="fs-id1163713430953"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>1,1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mrow><m:mtext>m</m:mtext><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mtext>s</m:mtext></m:mrow><m:mo>≅</m:mo><m:mn>0,0036</m:mn><m:mi>c</m:mi><m:mo>;</m:mo></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>L</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>ℏ</m:mi><m:mspace width="0.4em"/><m:msub><m:mi>K</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>3,4</m:mn><m:mspace width="0.2em"/><m:mtext>eV</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1163709724954">El modelo de Bohr del átomo de hidrógeno también predice correctamente los espectros de algunos iones hidrogenoides. Los<term>iones hidrogenoides</term> son átomos de elementos con un número atómico <emphasis effect="italics">Z</emphasis> mayor que uno (<m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> para el hidrógeno) pero con todos los electrones eliminados excepto uno. Por ejemplo, un átomo de helio eléctricamente neutro tiene un número atómico <m:math><m:mrow><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> Esto significa que tiene dos electrones orbitando el núcleo con una carga de <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>Z</m:mi><m:mi>e</m:mi><m:mo>.</m:mo></m:mrow></m:math> Cuando se retira uno de los electrones que orbitan el átomo de helio (decimos, cuando el átomo de helio se ioniza individualmente), lo que queda es una estructura atómica parecida a la del hidrógeno en la que el electrón restante orbita alrededor del núcleo con una carga de <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mi>Z</m:mi><m:mi>e</m:mi><m:mo>.</m:mo></m:mrow></m:math> El modelo de Bohr describe este tipo de situación. Suponiendo que la carga del núcleo no es <m:math><m:mrow><m:mo>+</m:mo><m:mi>e</m:mi></m:mrow></m:math> pero <m:math><m:mrow><m:mo>+</m:mo><m:mi>Z</m:mi><m:mi>e</m:mi><m:mo>,</m:mo></m:mrow></m:math> podemos repetir todos los pasos, empezando por la <link target-id="fs-id1163713085070"/>, para obtener los resultados de un ion hidrogenoide:</para>
+<note id="fs-id1163713280157" class="equation-callout">
+<equation id="fs-id1163713280160"><m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>Z</m:mi></m:mfrac><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713484558">donde <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es la órbita de Bohr del hidrógeno, y</para>
+<note id="fs-id1163713258855" class="equation-callout">
+<equation id="fs-id1163713258858"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>Z</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1163713170756">donde <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> es el límite de ionización de un átomo de hidrógeno. Estas ecuaciones son buenas aproximaciones siempre que el número atómico <emphasis effect="italics">Z</emphasis> no sea demasiado grande.</para>
+<para id="fs-id1163713069663">El modelo de Bohr es importante porque fue el primer modelo que postuló la cuantización de las órbitas de los electrones en los átomos. Por lo tanto, representa una teoría cuántica temprana que dio inicio al desarrollo de la teoría cuántica moderna. Introdujo el concepto de número cuántico para describir los estados atómicos. La limitación de la primera teoría cuántica es que no puede describir átomos en los que el número de electrones que orbitan alrededor del núcleo sea mayor que uno. El modelo de Bohr del hidrógeno es un modelo semiclásico porque combina el concepto clásico de las órbitas de los electrones con el nuevo concepto de cuantización. El notable éxito de este modelo impulsó a muchos físicos a buscar una explicación de por qué dicho modelo debía funcionar, y a buscar una comprensión de la física detrás de los postulados de la primera teoría cuántica. Esta búsqueda dio lugar a un concepto totalmente nuevo de "ondas de materia".</para>
+</section>
+<section id="fs-id1163713328376" class="key-concepts">
+<title>Resumen</title>
+<list id="fs-id1163713328382" list-type="bulleted" bullet-style="bullet">
+<item>Las posiciones de las líneas de absorción y emisión en el espectro del hidrógeno atómico vienen dadas por la fórmula experimental de Rydberg. La física clásica no puede explicar el espectro del hidrógeno atómico.</item>
+<item>El modelo de Bohr del hidrógeno fue el primer modelo de estructura atómica que explicaba correctamente los espectros de radiación del hidrógeno atómico. Fue precedido por el modelo atómico nuclear de Rutherford. En el modelo de Rutherford, un átomo está formado por un núcleo puntual cargado positivamente que contiene casi toda la masa del átomo y por electrones negativos que se encuentran lejos del núcleo.</item>
+<item>El modelo de Bohr del átomo de hidrógeno se basa en tres postulados: (1) un electrón se mueve alrededor del núcleo en una órbita circular, (2) el momento angular de un electrón en la órbita está cuantizado, y (3) el cambio en la energía de un electrón cuando hace un salto cuántico de una órbita a otra siempre va acompañado de la emisión o absorción de un fotón. El modelo de Bohr es semiclásico porque combina el concepto clásico de órbita del electrón (postulado 1) con el nuevo concepto de cuantización (postulados 2 y 3).</item>
+<item>El modelo de Bohr del átomo de hidrógeno explica los espectros de emisión y absorción del hidrógeno atómico y de los iones hidrogenoides con números atómicos bajos. Fue el primer modelo que introdujo el concepto de número cuántico para describir los estados atómicos y postular la cuantización de las órbitas de los electrones en el átomo. El modelo de Bohr es un paso importante en el desarrollo de la mecánica cuántica, que se ocupa de los átomos de muchos electrones.</item>
+</list>
+</section>
+<section id="fs-id1163711964260" class="review-conceptual-questions">
+<title>Preguntas conceptuales</title>
+<exercise id="fs-id1163713537489">
+<problem id="fs-id1163713537491">
+<para id="fs-id1163709758434">Explique por qué los patrones de las líneas espectrales de emisión brillante tienen una posición espectral idéntica al patrón de las líneas espectrales de absorción oscuras para un elemento gaseoso determinado.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713268590">
+<problem id="fs-id1163713412975">
+<para id="fs-id1163713412977">¿Se superponen las distintas líneas espectrales del átomo de hidrógeno?</para>
+</problem>
+<solution id="fs-id1163713412982">
+<para id="fs-id1163713412984">no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713258490">
+<problem id="fs-id1163713258493">
+<para id="fs-id1163713258495">La serie de Balmer para el hidrógeno se descubrió antes que la serie de Lyman o la de Paschen. ¿Por qué?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713050499">
+<problem id="fs-id1163713050501">
+<para id="fs-id1163713050503">Cuando se analiza el espectro de absorción del hidrógeno a temperatura ambiente, se encuentran líneas de absorción para la serie de Lyman, pero no se encuentra ninguna para la serie de Balmer. ¿Qué nos dice esto sobre el estado energético de la mayoría de los átomos de hidrógeno a temperatura ambiente?</para>
+</problem>
+<solution id="fs-id1163713253746">
+<para id="fs-id1163713253748">Están en estado fundamental.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713253754">
+<problem id="fs-id1163713535568">
+<para id="fs-id1163713535570">El hidrógeno representa alrededor del 75 % en masa de la materia en la superficie de la mayoría de las estrellas. Sin embargo, las líneas de absorción del hidrógeno son más fuertes (de mayor intensidad) en los espectros de las estrellas con una temperatura superficial de unos 9.000 K. Son más débiles en el espectro solar y son esencialmente inexistentes en las estrellas muy calientes (temperaturas superiores a 25.000 K) o más bien frías (temperaturas inferiores a 3.500 K). Especule por qué la temperatura de la superficie afecta a las líneas de absorción del hidrógeno que observamos.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713485376">
+<problem id="fs-id1163713485378">
+<para id="fs-id1163713485380">Discuta las similitudes y diferencias entre el modelo de Thomson del átomo de hidrógeno y el modelo de Bohr del átomo de hidrógeno.</para>
+</problem>
+<solution id="fs-id1163713243478">
+<para id="fs-id1163713243480">Las respuestas pueden variar</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713243485">
+<problem id="fs-id1163713243487">
+<para id="fs-id1163713243489">Discuta la forma en que el modelo de Thomson no es físico. Apoye su argumento con pruebas experimentales.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713163950">
+<problem id="fs-id1163713163953">
+<para id="fs-id1163713289669">Si en un átomo de hidrógeno un electrón se desplaza a una órbita con un radio mayor, ¿aumenta o disminuye la energía del átomo de hidrógeno?</para>
+</problem>
+<solution id="fs-id1163713289674">
+<para id="fs-id1163713289676">aumenta.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713289682">
+<problem id="fs-id1163713010187">
+<para id="fs-id1163713010189">¿Cómo se conserva la energía cuando un átomo hace una transición de un estado energético superior a otro inferior?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713010201">
+<problem id="fs-id1163709832973">
+<para id="fs-id1163709832975">Supongamos que un electrón de un átomo de hidrógeno hace una transición de la órbita<emphasis effect="italics">(n+1</emphasis>) a la órbita <emphasis effect="italics">n</emphasis>. ¿La longitud de onda del fotón emitido es mayor para valores mayores de <emphasis effect="italics">n</emphasis>, o para valores menores de <emphasis effect="italics">n</emphasis>?</para>
+</problem>
+<solution id="fs-id1163713294180">
+<para id="fs-id1163713294182">para los valores mayores de <emphasis effect="italics">n</emphasis></para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713556636">
+<problem id="fs-id1163713556638">
+<para id="fs-id1163713556640">Discuta por qué las energías permitidas del átomo de hidrógeno son negativas.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709648346">
+<problem id="fs-id1163709648348">
+<para id="fs-id1163709648350">¿Puede un átomo de hidrógeno absorber un fotón cuya energía sea superior a 13,6 eV?</para>
+</problem>
+<solution id="fs-id1163709648354">
+<para id="fs-id1163713204145">Sí, el exceso de 13,6 eV se convertirá en energía cinética de un electrón libre.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713204150">
+<problem id="fs-id1163713204152">
+<para id="fs-id1163713204155">¿Por qué se puede ver a través del cristal pero no de la madera?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709681324">
+<problem id="fs-id1163709681326">
+<para id="fs-id1163709681329">¿Tienen las fuerzas gravitacionales un efecto significativo en los niveles de energía atómica?</para>
+</problem>
+<solution id="fs-id1163709681333">
+<para id="fs-id1163709681335">no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709724857">
+<problem id="fs-id1163709724859">
+<para id="fs-id1163709724861">Demuestre que la constante de Planck tiene las dimensiones del momento angular.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1163709724868" class="review-problems">
+<title>Problemas</title>
+<exercise id="fs-id1163713163833">
+<problem id="fs-id1163713163835">
+<para id="fs-id1163713163837">Calcule la longitud de onda de la primera línea de la serie de Lyman y demuestre que esta línea se encuentra en la parte ultravioleta del espectro.</para>
+</problem>
+<solution id="fs-id1163713163843">
+<para id="fs-id1163713163845">121,5 nm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709831664">
+<problem id="fs-id1163709831666">
+<para id="fs-id1163709831668">Calcule la longitud de onda de la quinta línea de la serie de Lyman y demuestre que esta línea se encuentra en la parte ultravioleta del espectro.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709827766">
+<problem id="fs-id1163709827768">
+<para id="fs-id1163709827770">Calcule los cambios de energía correspondientes a las transiciones del átomo de hidrógeno: (a) de <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> a <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>;</m:mo></m:mrow></m:math> (b) de <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> a <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>;</m:mo></m:mrow></m:math> y (c) de <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> a <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1163713450595">
+<para id="fs-id1163713450597">a. 0,661 eV; b. –10,2 eV; c. 1,511 eV</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713450603">
+<problem id="fs-id1163713450605">
+<para id="fs-id1163713450607">Determine la longitud de onda de la tercera línea de Balmer (transición de <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> a <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713429628">
+<problem id="fs-id1163713429630">
+<para id="fs-id1163713429632">¿Cuál es la frecuencia del fotón absorbido cuando el átomo de hidrógeno hace la transición del estado fundamental al estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>?</para>
+</problem>
+<solution id="fs-id1163709829694">
+<para id="fs-id1163709829696">3038 THz</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163709829701">
+<problem id="fs-id1163709829703">
+<para id="fs-id1163709829705">Cuando un átomo de hidrógeno se encuentra en su estado fundamental, ¿cuáles son las longitudes de onda más cortas y más largas de los fotones que puede absorber sin ser ionizado?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713432792">
+<problem id="fs-id1163713432794">
+<para id="fs-id1163713432796">Cuando un átomo de hidrógeno está en su tercer estado excitado ¿cuáles son las longitudes de onda más cortas y más largas de los fotones que puede emitir?</para>
+</problem>
+<solution id="fs-id1163713284374">
+<para id="fs-id1163713284377">97,33 nm</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713284382">
+<problem id="fs-id1163713284384">
+<para id="fs-id1163713284386">¿Cuál es la mayor longitud de onda que puede tener la luz para ser capaz de ionizar el átomo de hidrógeno en su estado fundamental?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713050379">
+<problem id="fs-id1163713050381">
+<para id="fs-id1163713050383">Para un electrón en un átomo de hidrógeno en el estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, calcule: (a) el momento angular; (b) la energía cinética; (c) la energía potencial; y (d) la energía total.</para>
+</problem>
+<solution id="fs-id1163713246672">
+<para id="fs-id1163713246675">a. h/<m:math><m:mi>π</m:mi><m:mo>;</m:mo></m:math> b. 3,4 eV; c. – 6,8 eV; d. – 3,4 eV</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713246684">
+<problem id="fs-id1163713246686">
+<para id="fs-id1163713246688">Encuentre la energía de ionización de un átomo de hidrógeno en el cuarto estado energético.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713557498">
+<problem id="fs-id1163713557500">
+<para id="fs-id1163713557502">Se ha medido que se necesitan 0,850 eV para sacar un electrón del átomo de hidrógeno. ¿En qué estado se encontraba el átomo antes de la ionización?</para>
+</problem>
+<solution id="fs-id1163713557508">
+<para id="fs-id1163713276584"><m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713276597">
+<problem id="fs-id1163713276599">
+<para id="fs-id1163713276601">¿Cuál es el radio de un átomo de hidrógeno cuando el electrón está en el primer estado excitado?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713249475">
+<problem id="fs-id1163713249477">
+<para id="fs-id1163713249479">Encuentre la longitud de onda más corta de la serie de Balmer. ¿En qué parte del espectro se encuentra esta línea?</para>
+</problem>
+<solution id="fs-id1163713249484">
+<para id="fs-id1163713249486">365 nm; UV</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713249491">
+<problem id="fs-id1163713517356">
+<para id="fs-id1163713517358">Demuestre que toda la serie de Paschen se encuentra en la parte infrarroja del espectro.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163713517363">
+<problem id="fs-id1163713517366">
+<para id="fs-id1163713517368">¿Las series Balmer y Lyman se superponen? ¿Por qué? ¿Por qué no? (Sugerencia: calcule la línea de Balmer más corta y la línea de Lyman más larga).</para>
+</problem>
+<solution id="fs-id1163713517373">
+<para id="fs-id1163713517375">no</para>
+</solution>
+</exercise>
+<exercise id="fs-id1163713535613">
+<problem id="fs-id1163713535615">
+<para id="fs-id1163713535617">(a) ¿Qué línea de la serie de Balmer es la primera en la sección UV del espectro? (b) ¿Cuántas líneas de Balmer se encuentran en la parte visible del espectro? (c) ¿Cuántas líneas de Balmer se encuentran en la parte UV?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1163709817720">
+<problem id="fs-id1163709817722">
+<para id="fs-id1163709817724">Una línea de emisión del hidrógeno atómico <m:math><m:mrow><m:mn>4,653</m:mn><m:mtext>-μ</m:mtext><m:mtext>m</m:mtext></m:mrow></m:math> corresponde a la transición entre los estados <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>f</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> y <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub><m:mo>.</m:mo></m:mrow></m:math> Encuentre <m:math><m:mrow><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1163709818696">
+<para id="fs-id1163709818699">7</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1163709818708">
+<term>espectro de absorción</term>
+<meaning id="fs-id1163709818714">longitudes de onda de la radiación absorbida por los átomos y las moléculas.</meaning>
+</definition>
+<definition id="fs-id1163713120574">
+<term><m:math><m:mi>párticula</m:mi></m:math>-α</term>
+<meaning id="fs-id1163713120583">átomo de helio doblemente ionizado.</meaning>
+</definition>
+<definition id="fs-id1163713120587">
+<term><m:math><m:mi>rayo</m:mi></m:math>-α</term>
+<meaning id="fs-id1163713120595">haz de <m:math><m:mi>partículas</m:mi></m:math>-α (partículas alfa).</meaning>
+</definition>
+<definition id="fs-id1163709837130">
+<term>fórmula de Balmer</term>
+<meaning id="fs-id1163709837136">describe el espectro de emisión de un átomo de hidrógeno en el rango de la luz visible.</meaning>
+</definition>
+<definition id="fs-id1163709837140">
+<term>serie de Balmer</term>
+<meaning id="fs-id1163709837145">líneas espectrales correspondientes a las transiciones de electrones hacia / desde el estado del átomo de hidrógeno <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, descrito por la fórmula de Balmer.</meaning>
+</definition>
+<definition id="fs-id1163709679224">
+<term>rayos-β</term>
+<meaning id="fs-id1163709679229">haz de electrones.</meaning>
+</definition>
+<definition id="fs-id1163709679234">
+<term>radio de Bohr del hidrógeno</term>
+<meaning id="fs-id1163709679239">radio de la primera órbita de Bohr.</meaning>
+</definition>
+<definition id="fs-id1163713535514">
+<term>modelo de Bohr del átomo de hidrógeno</term>
+<meaning id="fs-id1163713535519">primer modelo cuántico para explicar los espectros de emisión del hidrógeno.</meaning>
+</definition>
+<definition id="fs-id1163713535523">
+<term>series de Brackett</term>
+<meaning id="fs-id1163713535528">líneas espectrales correspondientes a las transiciones de electrones hacia / desde el estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1163713513317">
+<term>espectro de emisión</term>
+<meaning id="fs-id1163713513322">longitudes de onda de la radiación emitida por los átomos y las moléculas.</meaning>
+</definition>
+<definition id="fs-id1163713513327">
+<term>espectro energético del hidrógeno</term>
+<meaning id="fs-id1163713513332">conjunto de energías discretas permitidas de un electrón en un átomo de hidrógeno.</meaning>
+</definition>
+<definition id="fs-id1163713513336">
+<term>estados energéticos excitados del átomo de H</term>
+<meaning id="fs-id1163713195307">estado de energía distinto del estado fundamental.</meaning>
+</definition>
+<definition id="fs-id1163713195311">
+<term>líneas de Fraunhofer</term>
+<meaning id="fs-id1163713195316">líneas de absorción oscuras en el espectro de emisión solar continuo.</meaning>
+</definition>
+<definition id="fs-id1163713195320">
+<term>rayos-γ</term>
+<meaning id="fs-id1163713195326">haz de fotones altamente energéticos.</meaning>
+</definition>
+<definition id="fs-id1163713430117">
+<term>energía del estado fundamental del átomo de hidrógeno</term>
+<meaning id="fs-id1163713430122">energía de un electrón en la primera órbita de Bohr del átomo de hidrógeno.</meaning>
+</definition>
+<definition id="fs-id1163713430127">
+<term>serie de Humphreys</term>
+<meaning id="fs-id1163713430132">líneas espectrales correspondientes a las transiciones de electrones hacia / desde el estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1163709831628">
+<term>átomo hidrogenoide</term>
+<meaning id="fs-id1163709831633">átomo ionizado con un electrón restante y núcleo con carga <m:math><m:mrow><m:mo>+</m:mo><m:mi>Z</m:mi><m:mi>e</m:mi></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1163709831646">
+<term>energía de ionización</term>
+<meaning id="fs-id1163709831651">energía necesaria para extraer un electrón de un átomo.</meaning>
+</definition>
+<definition id="fs-id1163713557561">
+<term>límite de ionización del hidrógeno</term>
+<meaning id="fs-id1163713557566">energía de ionización necesaria para sacar un electrón de la primera órbita de Bohr.</meaning>
+</definition>
+<definition id="fs-id1163713557570">
+<term>serie de Lyman</term>
+<meaning id="fs-id1163713557576">líneas espectrales correspondientes a las transiciones de los electrones hacia / desde el estado fundamental.</meaning>
+</definition>
+<definition id="fs-id1163713557580">
+<term>modelo atómico nuclear</term>
+<meaning id="fs-id1163713557585">el núcleo pesado con carga positiva en el centro está rodeado de electrones, propuesto por Rutherford.</meaning>
+</definition>
+<definition id="fs-id1163709821220">
+<term>serie de Paschen</term>
+<meaning id="fs-id1163709821226">líneas espectrales correspondientes a las transiciones de electrones hacia / desde el estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1163709821239">
+<term>serie de Pfund</term>
+<meaning id="fs-id1163713513434">líneas espectrales correspondientes a las transiciones de electrones hacia / desde el estado <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1163713513448">
+<term>postulados del modelo de Bohr</term>
+<meaning id="fs-id1163713513454">tres suposiciones que establecen un marco para el modelo de Bohr.</meaning>
+</definition>
+<definition id="fs-id1163713513459">
+<term>número cuántico</term>
+<meaning id="fs-id1163713537359">índice que enumera los niveles de energía.</meaning>
+</definition>
+<definition id="fs-id1163713537364">
+<term>Experimento de la lámina de oro de Rutherford</term>
+<meaning id="fs-id1163713537369">primer experimento que demuestra la existencia del núcleo atómico.</meaning>
+</definition>
+<definition id="fs-id1163713537373">
+<term>constante de Rydberg para el hidrógeno</term>
+<meaning id="fs-id1163713537379">constante física en la fórmula de Balmer.</meaning>
+</definition>
+<definition id="fs-id1163713537383">
+<term>fórmula de Rydberg</term>
+<meaning id="fs-id1163713537388">posiciones encontradas experimentalmente de las líneas espectrales del átomo de hidrógeno.</meaning>
+</definition>
+</glossary>
+</document>
