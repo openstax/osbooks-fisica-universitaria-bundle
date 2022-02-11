@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m90684</md:content-id>
   <md:title>Órbita satelital y energía</md:title>
-  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+  <md:abstract><para id="para-00001">Al final de esta sección, podrá:</para><list id="list-00001">
 <item>Describir el mecanismo de las órbitas circulares.</item>
 <item>Calcular los periodos orbitales y la rapidez de los satélites.</item>
 <item>Determinar si los objetos tienen límite gravitacional.</item>
@@ -17,7 +17,7 @@
 <section id="fs-id1168327875806">
 <title>Órbita circular</title>
 <para id="fs-id1168327948337">Como se indicó al principio de este capítulo, Nicolás Copérnico fue el primero en sugerir que la Tierra y todos los demás planetas realizan una órbita circular alrededor del Sol. Además, observó que el periodo orbital aumenta con la distancia al Sol. Posteriormente, Kepler demostró que estas órbitas son en realidad elipses, pero las de la mayoría de los planetas del sistema solar son casi circulares. La distancia orbital de la Tierra al Sol varía apenas un 2 %. La excepción es la órbita excéntrica de Mercurio, cuya distancia orbital varía casi un 40 %.</para>
-<para id="fs-id1168327963508">La determinación de la <term>rapidez orbital</term> y el <term>periodo orbital</term> de un satélite es mucho más fácil para las órbitas circulares, por lo que hacemos esa suposición en la derivación que sigue. Como hemos descrito en el apartado anterior, un objeto con energía total negativa tiene límite gravitacional y, por tanto, está en órbita. Nuestro cálculo para el caso especial de la órbita circular lo confirmará. Nos centramos en los objetos que orbitan la Tierra, pero nuestros resultados pueden generalizarse para otros casos.</para>
+<para id="fs-id1168327963508">La determinación de la <term id="term-00001">rapidez orbital</term> y el <term id="term-00002">periodo orbital</term> de un satélite es mucho más fácil para las órbitas circulares, por lo que hacemos esa suposición en la derivación que sigue. Como hemos descrito en el apartado anterior, un objeto con energía total negativa tiene límite gravitacional y, por tanto, está en órbita. Nuestro cálculo para el caso especial de la órbita circular lo confirmará. Nos centramos en los objetos que orbitan la Tierra, pero nuestros resultados pueden generalizarse para otros casos.</para>
 <para id="fs-id1168327954626">Considere un satélite de masa <emphasis effect="italics">m</emphasis> en una órbita circular alrededor de la Tierra a una distancia <emphasis effect="italics">r</emphasis> del centro de la Tierra (<link target-id="CNX_UPhysics_13_04_orbit"/>). Tiene una aceleración centrípeta dirigida hacia el centro de la Tierra. La gravedad de la Tierra es la única fuerza que actúa, por lo que la segunda ley de Newton da</para>
 <equation id="fs-id1168056091586" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>m</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>órbita</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 <figure id="CNX_UPhysics_13_04_orbit">
@@ -54,7 +54,7 @@
 </note>
 <example id="fs-id1168327943488">
 <para id="fs-id1168327988568"><title>La Estación Espacial Internacional</title>
-Determine la rapidez y el periodo orbital de la <term class="no-emphasis">Estación Espacial Internacional</term> (International Space Station, ISS).</para>
+Determine la rapidez y el periodo orbital de la <term class="no-emphasis" id="term-00003">Estación Espacial Internacional</term> (International Space Station, ISS).</para>
 <para id="fs-id1168328280705"><title>Estrategia</title>
 Dado que la ISS orbita <m:math><m:mrow><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>km</m:mtext></m:mrow></m:math> sobre la superficie de la Tierra, el radio al que orbita es <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub><m:mo>+</m:mo><m:mn>4,00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>km</m:mtext></m:mrow></m:math>. Utilizamos la <link target-id="fs-id1168328256234"/> y la <link target-id="fs-id1168327874347"/> para calcular la rapidez orbital y el periodo, respectivamente.</para>
 <para id="fs-id1168328355545"><title>Solución</title>
@@ -263,7 +263,7 @@ La energía cinética de la <emphasis effect="italics">Soyuz</emphasis> es casi 
 </exercise>
 <exercise id="fs-id1168327963982">
 <problem id="fs-id1168328265326">
-<para id="fs-id1168328265328">Un satélite terrestre <term class="no-emphasis">geosincrónico</term> es aquel que tiene un periodo orbital de exactamente 1 día. Estas órbitas son útiles para la comunicación y la observación meteorológica, porque el satélite permanece sobre el mismo punto de la Tierra (siempre que orbite en el plano ecuatorial en la misma dirección que la rotación de la Tierra). Calcule el radio de dicha órbita con base en los datos de la Tierra del <link document="m90721">Apéndice D</link>.</para>
+<para id="fs-id1168328265328">Un satélite terrestre <term class="no-emphasis" id="term-00004">geosincrónico</term> es aquel que tiene un periodo orbital de exactamente 1 día. Estas órbitas son útiles para la comunicación y la observación meteorológica, porque el satélite permanece sobre el mismo punto de la Tierra (siempre que orbite en el plano ecuatorial en la misma dirección que la rotación de la Tierra). Calcule el radio de dicha órbita con base en los datos de la Tierra del <link document="m90721">Apéndice D</link>.</para>
 </problem>
 </exercise>
 </section>

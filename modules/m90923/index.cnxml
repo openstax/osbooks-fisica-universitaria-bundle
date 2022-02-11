@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m90923</md:content-id>
   <md:title>Generadores eléctricos y fuerza contraelectromotriz</md:title>
-  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+  <md:abstract><para id="para-00001">Al final de esta sección, podrá:</para><list id="list-00001">
 <item>Explicar cómo funciona un generador eléctrico.</item>
 <item>Determinar la emf inducida en un bucle en cualquier intervalo y girar a una velocidad constante en un campo magnético.</item>
 <item>Demostrar que las bobinas giratorias tienen una emf inducida; en los motores se llama fuerza contraelectromotriz (back emf) porque se opone a la emf de entrada al motor.</item>
@@ -16,7 +16,7 @@
 <para id="fs-id1171241425977">La ley de Faraday permite comprender una serie de fenómenos y dispositivos importantes. En esta sección examinamos dos de ellas.</para>
 <section id="fs-id1171241165275">
 <title>Generadores eléctricos</title>
-<para id="fs-id1171241327645">Los <emphasis effect="bold">generadores eléctricos</emphasis> inducen una emf al hacer girar una bobina en un campo magnético, como se explica brevemente en <link document="m90920">Fuerza electromotriz de movimiento</link>. A continuación, exploramos los <term class="no-emphasis">generadores</term> con más detalle. Considere el siguiente ejemplo.</para><example id="fs-id1171241240350">
+<para id="fs-id1171241327645">Los <emphasis effect="bold">generadores eléctricos</emphasis> inducen una emf al hacer girar una bobina en un campo magnético, como se explica brevemente en <link document="m90920">Fuerza electromotriz de movimiento</link>. A continuación, exploramos los <term class="no-emphasis" id="term-00001">generadores</term> con más detalle. Considere el siguiente ejemplo.</para><example id="fs-id1171241240350">
 <para id="fs-id1171241197036"><title>Calcular la emf inducida en la bobina de un generador</title>
 La bobina del generador que se muestra en la <link target-id="CNX_UPhysics_30_06_GenCoil"/> se hace girar un cuarto de revolución (de <m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> a<m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> in 15,0 ms. La bobina circular de 200 vueltas tiene un radio de 5,00 cm y se encuentra en un campo magnético uniforme de 0,80 T. ¿Cuál es la emf inducida?</para>
 <figure id="CNX_UPhysics_30_06_GenCoil">
@@ -86,7 +86,7 @@ Se trata de un valor medio práctico, similar a los 120 V utilizados en la poten
 <section id="fs-id1171241156817">
 <title>Fuerza contraelectromotriz</title>
 <para id="fs-id1171241206056">Los generadores convierten la energía mecánica en energía eléctrica, mientras que los motores convierten la energía eléctrica en energía mecánica. Así, no es sorprendente ver que los motores y los generadores tengan la misma construcción general. Un motor funciona enviando una corriente a través de un bucle de cable situado en un campo magnético. Como resultado, el campo magnético ejerce un torque sobre el bucle. Esto hace girar un eje, extrayendo así trabajo mecánico de la corriente eléctrica enviada inicialmente (consulte <link document="m90906">Fuerza y torque en un bucle de corriente</link> para ver una discusión sobre los motores que lo ayudará a entender más sobre ellos antes de continuar).</para>
-<para id="fs-id1171241095131">Cuando la bobina de un motor gira, el flujo magnético cambia a través de ella, y se induce una emf (consistente con la ley de Faraday). Así, el motor actúa como un generador cada vez que gira su bobina. Esto ocurre tanto si el eje gira por una entrada externa, como una transmisión por correa, como por la acción del propio motor. Es decir, cuando un motor realiza un trabajo y su eje gira, se genera una emf. La ley de Lenz nos dice que la emf se opone a cualquier cambio, de modo que la emf autogenerada por el motor, llamada <term>fuerza contraelectromotriz</term> del motor (<link target-id="CNX_UPhysics_30_06_BackEmf"/>) se opone a la emf de entrada que le da potencia al motor.</para>
+<para id="fs-id1171241095131">Cuando la bobina de un motor gira, el flujo magnético cambia a través de ella, y se induce una emf (consistente con la ley de Faraday). Así, el motor actúa como un generador cada vez que gira su bobina. Esto ocurre tanto si el eje gira por una entrada externa, como una transmisión por correa, como por la acción del propio motor. Es decir, cuando un motor realiza un trabajo y su eje gira, se genera una emf. La ley de Lenz nos dice que la emf se opone a cualquier cambio, de modo que la emf autogenerada por el motor, llamada <term id="term-00002">fuerza contraelectromotriz</term> del motor (<link target-id="CNX_UPhysics_30_06_BackEmf"/>) se opone a la emf de entrada que le da potencia al motor.</para>
 <figure id="CNX_UPhysics_30_06_BackEmf">
 <media id="fs-id1171241246610" alt="El esquema muestra la bobina de un motor de corriente continua. Consta de emf de impulso, fuerza contraelectromotriz, resistor y un interruptor.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_30_06_BackEmf.jpg"/>

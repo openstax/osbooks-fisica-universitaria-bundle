@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m90929</md:content-id>
   <md:title>Circuitos RL</md:title>
-  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+  <md:abstract><para id="para-00001">Al final de esta sección, podrá:</para><list id="list-00001">
 <item>Analizar circuitos que tienen un inductor y un resistor en serie.</item>
 <item>Describir cómo la corriente y el voltaje crecen o decaen exponencialmente en función de las condiciones iniciales.</item>
 </list></md:abstract>
@@ -28,7 +28,7 @@
 <note id="fs-id1167134437216" class="equation-callout">
 <equation id="fs-id1167131314951"><label/><m:math><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>L</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mi>L</m:mi><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow></m:math></equation>
 </note>
-<para id="fs-id1167131117991">es la <term>constante de tiempo inductiva</term> del circuito.</para>
+<para id="fs-id1167131117991">es la <term id="term-00001">constante de tiempo inductiva</term> del circuito.</para>
 <para id="fs-id1167134960245">La corriente <emphasis effect="italics">I(t)</emphasis> se representa en la <link target-id="CNX_UPhysics_31_04_Plots"/>(a). Comienza en cero, y como <m:math><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>, <emphasis effect="italics">I(t)</emphasis> se aproxima a <m:math><m:mrow><m:mrow><m:mtext>ε</m:mtext><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow></m:math> asintóticamente. La emf inducida <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>L</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> es directamente proporcional a <emphasis effect="italics">dI</emphasis>/<emphasis effect="italics">dt</emphasis> o a la pendiente de la curva. Por lo tanto, mientras que es máxima inmediatamente después de accionar los interruptores, la emf inducida disminuye a cero con el tiempo a medida que la corriente se acerca a su valor final de <m:math><m:mrow><m:mrow><m:mtext>ε</m:mtext><m:mtext>/</m:mtext><m:mrow><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math> El circuito se convierte entonces en equivalente a un resistor conectado en una fuente de emf.</para>
 <figure id="CNX_UPhysics_31_04_Plots">
 <media id="fs-id1167134822255" alt="La figura a muestra la gráfica de la corriente eléctrica I en función del tiempo t. La corriente aumenta con el tiempo en una curva que se aplana en épsilon I R. En t igual a tau subíndice L, el valor de I es 0,63 épsilon I R. La figura b muestra la gráfica de la magnitud del voltaje inducido, mod V subíndice L, en función del tiempo t. El subíndice L de Mod V comienza en el valor épsilon y disminuye con el tiempo hasta que la curva llega a cero. En t igual al subíndice L de tau, el valor de I es 0,37 épsilon.">

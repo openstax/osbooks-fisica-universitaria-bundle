@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m90871</md:content-id>
   <md:title>Explicar la ley de Gauss</md:title>
-  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+  <md:abstract><para id="para-00001">Al final de esta sección, podrá:</para><list id="list-00001">
 <item>Enunciar la ley de Gauss.</item>
 <item>Explicar las condiciones en las que se puede utilizar la ley de Gauss.</item>
 <item>Aplicar la ley de Gauss en sistemas adecuados.</item></list></md:abstract>
@@ -48,7 +48,7 @@
 </section>
 <section id="fs-id1172098673604">
 <title>Enunciado de la ley de Gauss</title>
-<para id="fs-id1172098501263">La ley de Gauss generaliza este resultado al caso de cualquier número y cualquier ubicación de cargas en el espacio interior de la superficie cerrada. Según la ley de Gauss, el flujo del campo eléctrico <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> a través de cualquier superficie cerrada, también llamada <term>superficie gaussiana</term>, es igual a la carga neta encerrada <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> dividida entre la permitividad del espacio libre <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>:</para>
+<para id="fs-id1172098501263">La ley de Gauss generaliza este resultado al caso de cualquier número y cualquier ubicación de cargas en el espacio interior de la superficie cerrada. Según la ley de Gauss, el flujo del campo eléctrico <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>E</m:mtext></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> a través de cualquier superficie cerrada, también llamada <term id="term-00001">superficie gaussiana</term>, es igual a la carga neta encerrada <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> dividida entre la permitividad del espacio libre <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>:</para>
 <equation id="fs-id1172100742195" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mtext>Φ</m:mtext><m:mrow><m:mtext>Superficie cerrada</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>ε</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1172096096446">Esta ecuación es válida para <emphasis effect="italics">cargas de cualquier signo</emphasis>, porque definimos que el vector área de una superficie cerrada apunta hacia afuera. Si la carga encerrada es negativa (ver la <link target-id="CNX_UPhysics_23_02_PosNeg"/>(b)), entonces el flujo a través de cualquiera de los dos <m:math><m:mrow><m:mstyle mathvariant="italic" mathsize="normal"><m:mi>S</m:mi></m:mstyle><m:mspace width="0.2em"/><m:mtext>o</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="italic" mathsize="normal"><m:mi>S</m:mi></m:mstyle><m:mo>'</m:mo></m:mrow></m:math> es negativo.</para>
 <figure id="CNX_UPhysics_23_02_PosNeg">
@@ -222,7 +222,7 @@ donde <m:math><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>enc</m:mtext></m:mr
 </exercise>
 <exercise id="fs-id1172100493256">
 <problem id="fs-id1172101002526">
-<para id="fs-id1172098515367">Una carga <emphasis effect="italics">q</emphasis> se coloca en una de las esquinas de un cubo de lado <emphasis effect="italics">a</emphasis>, como se muestra a continuación. Calcule la magnitud del flujo eléctrico a través de la cara sombreada debido a <emphasis effect="italics">q</emphasis>. Supongamos que <m:math><m:mrow><m:mi>q</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+<para id="fs-id1172098515367">Una carga <emphasis effect="italics">q</emphasis> se coloca en una de las esquinas de un cubo de lado <emphasis effect="italics">a</emphasis>, como se muestra a continuación. Calcule la magnitud del flujo eléctrico a través de la cara sombreada debido a <emphasis effect="italics">q</emphasis>. Supongamos que <m:math><m:mrow><m:mi>q</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
 <media id="fs-id1172096227716" alt="La figura muestra un cubo cuya longitud de cada lado es igual a. La superficie posterior del mismo está sombreada. Una de las esquinas delanteras tiene un pequeño círculo con la marca q.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_23_02_Cube_img.jpg"/>
 </media>

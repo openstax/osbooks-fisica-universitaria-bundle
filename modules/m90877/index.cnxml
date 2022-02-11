@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m90877</md:content-id>
   <md:title>Cálculo del potencial eléctrico</md:title>
-  <md:abstract><para>Al final de esta sección, podrá:</para><list>
+  <md:abstract><para id="para-00001">Al final de esta sección, podrá:</para><list id="list-00001">
 <item>Calcular el potencial debido a una carga puntual.</item>
 <item>Calcular el potencial de un sistema de múltiples cargas puntuales.</item>
 <item>Describir un dipolo eléctrico.</item>
@@ -37,7 +37,7 @@ El valor negativo del voltaje significa que una carga positiva sería atraída d
 </example>
 <example id="fs-id1167584979749">
 <para id="fs-id1167584987242"><title>¿Qué es el exceso de carga en un generador Van de Graaff?</title>
-Un <term class="no-emphasis">generador Van de Graaff</term> de demostración tiene una esfera de metal de 25,0 cm de diámetro que produce un voltaje de 100 kV cerca de su superficie (<link target-id="CNX_UPhysics_24_03_VanGraaf"/>). ¿Qué exceso de carga reside en la esfera? (Supongamos que cada valor numérico se muestra aquí con tres cifras significativas).</para>
+Un <term class="no-emphasis" id="term-00001">generador Van de Graaff</term> de demostración tiene una esfera de metal de 25,0 cm de diámetro que produce un voltaje de 100 kV cerca de su superficie (<link target-id="CNX_UPhysics_24_03_VanGraaf"/>). ¿Qué exceso de carga reside en la esfera? (Supongamos que cada valor numérico se muestra aquí con tres cifras significativas).</para>
 <figure id="CNX_UPhysics_24_03_VanGraaf">
 <media id="fs-id1167585006420" alt="La figura muestra las partes del generador Van de Graaff.">
 <image mime-type="image/jpeg" src="../../media/CNX_UPhysics_24_03_VanGraaf.jpg"/>
@@ -84,7 +84,7 @@ Se trata de una carga relativamente pequeña, pero que produce un voltaje bastan
 </section>
 <section id="fs-id1167584998529">
 <title>El dipolo eléctrico</title>
-<para id="fs-id1167584761380">Un <term>dipolo eléctrico</term> es un sistema de dos cargas iguales pero opuestas a una distancia fija. Este sistema se utiliza para modelar muchos sistemas del mundo real, incluidas las interacciones atómicas y moleculares. Uno de estos sistemas es la molécula de agua, en determinadas circunstancias. Estas circunstancias se dan en el interior de un horno de microondas, donde los campos eléctricos con direcciones alternas hacen que las moléculas de agua cambien de orientación. Esta vibración es lo mismo que el calor a nivel molecular.</para>
+<para id="fs-id1167584761380">Un <term id="term-00002">dipolo eléctrico</term> es un sistema de dos cargas iguales pero opuestas a una distancia fija. Este sistema se utiliza para modelar muchos sistemas del mundo real, incluidas las interacciones atómicas y moleculares. Uno de estos sistemas es la molécula de agua, en determinadas circunstancias. Estas circunstancias se dan en el interior de un horno de microondas, donde los campos eléctricos con direcciones alternas hacen que las moléculas de agua cambien de orientación. Esta vibración es lo mismo que el calor a nivel molecular.</para>
 <example id="fs-id1167584746091">
 <para id="fs-id1167584721031"><title>Potencial eléctrico de un dipolo</title>
 Consideremos el dipolo en la <link target-id="CNX_UPhysics_24_03_ElecDipOne"/> con la magnitud de carga de <m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>3,0</m:mn><m:mspace width="0.2em"/><m:mtext>nC</m:mtext></m:mrow></m:math> y la distancia de separación <m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>4,0</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math> ¿Cuál es el potencial en los siguientes lugares del espacio? (a) (0, 0, 1,0 cm); (b) (0, 0, –5,0 cm); (c) (3,0 cm, 0, 2,0 cm).</para>
@@ -111,7 +111,7 @@ Observe que la evaluación del potencial es mucho más sencilla que la del campo
 <para id="fs-id1167584956018">¿Cuál es el potencial en el eje <emphasis effect="italics">x</emphasis>? ¿El eje <emphasis effect="italics">z</emphasis>?</para>
 </problem>
 <solution id="fs-id1167585029337">
-<para id="fs-id1167585172795">En el eje <emphasis effect="italics">x</emphasis> el potencial es cero, debido a las cargas iguales y opuestas a la misma distancia de él. En el eje <emphasis effect="italics">z</emphasis> podemos superponer los dos potenciales; calcularemos que para <m:math><m:mrow><m:mi>z</m:mi><m:mspace width="0.2em"/><m:mo>&gt;</m:mo><m:mo>&gt;</m:mo><m:mspace width="0.2em"/><m:mi>d</m:mi></m:mrow></m:math>, de nuevo el potencial llega a cero debido a la cancelación.</para>
+<para id="fs-id1167585172795">En el eje <emphasis effect="italics">x</emphasis> el potencial es cero, debido a las cargas iguales y opuestas a la misma distancia de él. En el eje <emphasis effect="italics">z</emphasis> podemos superponer los dos potenciales; calcularemos que para <m:math><m:mrow><m:mi>z</m:mi><m:mspace width="0.2em"/><m:mo>></m:mo><m:mo>></m:mo><m:mspace width="0.2em"/><m:mi>d</m:mi></m:mrow></m:math>, de nuevo el potencial llega a cero debido a la cancelación.</para>
 </solution>
 </exercise>
 </note>
@@ -138,7 +138,7 @@ Observe que la evaluación del potencial es mucho más sencilla que la del campo
 <equation id="fs-id1167585076101" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>∓</m:mo><m:mi>α</m:mi></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>1</m:mn><m:mo>±</m:mo><m:mfrac><m:mi>α</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></equation>
 <para id="fs-id1167585024108">y al sustituir esto en nuestra fórmula para <m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub></m:mrow></m:math>, obtenemos</para>
 <equation id="fs-id1167584997391" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>V</m:mi><m:mi>P</m:mi></m:msub><m:mo>=</m:mo><m:mi>k</m:mi><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mi>k</m:mi><m:mfrac><m:mrow><m:mi>q</m:mi><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
-<para id="fs-id1167585122338">Esto puede escribirse de manera más conveniente si definimos una nueva cantidad, el <term>momento dipolar eléctrico</term>,</para>
+<para id="fs-id1167585122338">Esto puede escribirse de manera más conveniente si definimos una nueva cantidad, el <term id="term-00003">momento dipolar eléctrico</term>,</para>
 <note id="fs-id1167585166102" class="equation-callout">
 <equation id="fs-id1167585022076"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>p</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>q</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mtext>d</m:mtext><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math></equation>
 </note>
